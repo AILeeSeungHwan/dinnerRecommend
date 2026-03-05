@@ -72,6 +72,25 @@ function filterByPrice(cands, pf) {
   })
 }
 
+// 평점 필터: "4점 이상", "4.5 이상", "별 4개" 등
+function parseRatingFilter(q) {
+  const m = q.match(/([3-5](?:[.,]\d)?)\s*(?:점|별|★|⭐)?\s*(이상|이하|넘|초과)?/) ||
+            q.match(/(?:평점|별점|rating)\s*([3-5](?:[.,]\d)?)/)
+  if (!m) return null
+  const val = parseFloat((m[1]||m[2]).replace(',','.'))
+  if (isNaN(val) || val < 3 || val > 5) return null
+  const dir = (m[2]||'').includes('이하') ? 'lte' : 'gte'
+  return { val, dir }
+}
+
+function filterByRating(cands, rf) {
+  if (!rf) return cands
+  return cands.filter(r => {
+    if (rf.dir === 'lte') return (r.rt||0) <= rf.val
+    return (r.rt||0) >= rf.val
+  })
+}
+
 function calcCost(i, o) { return (i/1e6)*3 + (o/1e6)*15 }
 
 // ── 로딩 오버레이 ─────────────────────────────────────────────
@@ -195,10 +214,12 @@ function AiApp() {
     try {
       const mm = detectMenu(ctx, moods, weather)
       const pf = parsePriceFilter(ctx)
+      const rf = parseRatingFilter(ctx)
       let base = restaurants
       if (exit4Only) base = base.filter(r=>r.exit4)
       if (mm) base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
       if (pf) base = filterByPrice(base, pf)
+      if (rf) base = filterByRating(base, rf)
       if (base.length < 5) base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
 
       // 이전 결과 제외 후 스코어링
