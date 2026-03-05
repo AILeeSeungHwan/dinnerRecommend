@@ -7,6 +7,7 @@ export default function Document() {
         {/* ── 검색엔진 소유권 인증 ── */}
         <meta name="google-site-verification" content="2DAD_BGWxdRXKWrw6lYKe6e0p3BLAiAXbMHVYXrU48k" />
         <meta name="naver-site-verification" content="68bdc2991328a363a86a07694fc809c701117a77" />
+        <meta name="msvalidate.01" content="1E4F2FA1D46763B9C53162346F20C68D" />
 
         {/* ── 기본 SEO ── */}
         <meta name="author" content="강남뭐먹" />
@@ -53,9 +54,21 @@ export default function Document() {
           crossOrigin="anonymous"
         />
 
-        {/* ── 파비콘 ── */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/og-image.png" />
+        {/* ── RSS ── */}
+        <link rel="alternate" type="application/rss+xml" title="강남뭐먹 RSS" href="https://dinner.ambitstock.com/rss.xml" />
+
+        {/* ── 파비콘 & 아이콘 ── */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+        {/* ── PWA / 검색엔진 아이콘 ── */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0d1117" />
+        <meta name="msapplication-TileColor" content="#0d1117" />
+        <meta name="msapplication-TileImage" content="/icon-192x192.png" />
       </Head>
       <body>
         <Main />
