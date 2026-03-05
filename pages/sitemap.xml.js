@@ -1,6 +1,6 @@
 import restaurants from '../data/samseong'
 
-const BASE = 'https://dinner.ambitstock.com'
+const BASE = 'https://gangnamwhat.com'
 const CATEGORIES = ['gukbap','meat','izakaya','chinese','western','group','chicken','japanese']
 
 export async function getServerSideProps({ res }) {

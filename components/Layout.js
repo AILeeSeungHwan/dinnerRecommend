@@ -1,9 +1,53 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
+
+const THEMES = [
+  { id:'dark',      name:'다크',       emoji:'🌑', vars:{ bg:'#0f0f13', surface:'#1a1a22', surface2:'#22222e', border:'#2e2e3e', text:'#f0f0f5', muted:'#888899', primary:'#ff6b35', accent:'#7c6cff' }},
+  { id:'midnight',  name:'미드나잇',   emoji:'🌊', vars:{ bg:'#050d1a', surface:'#0d1b2e', surface2:'#122238', border:'#1e3a5f', text:'#e0eeff', muted:'#6a8caa', primary:'#4d9fff', accent:'#00d4ff' }},
+  { id:'forest',    name:'포레스트',   emoji:'🌲', vars:{ bg:'#080f0a', surface:'#101a12', surface2:'#16241a', border:'#1e3a24', text:'#e0f0e4', muted:'#6a9a70', primary:'#4caf6e', accent:'#a8e063' }},
+  { id:'aurora',    name:'오로라',     emoji:'🌌', vars:{ bg:'#07050f', surface:'#110d20', surface2:'#18142c', border:'#2a1f4a', text:'#eeeaff', muted:'#8878bb', primary:'#a855f7', accent:'#06b6d4' }},
+  { id:'sunset',    name:'선셋',       emoji:'🌅', vars:{ bg:'#130709', surface:'#210d10', surface2:'#2d1216', border:'#4a1f26', text:'#fff0f0', muted:'#aa7788', primary:'#ff4d6d', accent:'#ff9a3c' }},
+  { id:'mono',      name:'모노크롬',   emoji:'⬜', vars:{ bg:'#111111', surface:'#1c1c1c', surface2:'#252525', border:'#333333', text:'#eeeeee', muted:'#777777', primary:'#cccccc', accent:'#999999' }},
+  { id:'light',     name:'라이트',     emoji:'☀️', vars:{ bg:'#f5f5f7', surface:'#ffffff', surface2:'#f0f0f5', border:'#e0e0e8', text:'#1a1a2e', muted:'#666680', primary:'#ff6b35', accent:'#7c6cff' }},
+  { id:'cyber',     name:'사이버펑크', emoji:'⚡', vars:{ bg:'#0a0010', surface:'#130020', surface2:'#1a002c', border:'#3d0066', text:'#fff0ff', muted:'#cc88ff', primary:'#ff00cc', accent:'#ffee00' }},
+]
 
 export default function Layout({ children, title, description, canonical }) {
-  const siteTitle = title ? `${title} | dinner.ambitstock` : 'dinner.ambitstock — 삼성역·강남 맛집 AI 추천'
-  const siteDesc = description || '삼성역, 강남역 주변 맛집을 AI가 날씨·기분·예산에 맞게 추천합니다. 국밥, 이자카야, 고기구이, 중식 등 170개+ 식당 정보.'
+  const [theme, setTheme] = useState('dark')
+  const [showThemes, setShowThemes] = useState(false)
+  const [showQR, setShowQR] = useState(false)
+  const [tokenCost, setTokenCost] = useState(0)
+
+  const siteTitle = title ? `${title} | 강남뭐먹` : '강남뭐먹 — 강남 맛집 AI 추천'
+  const siteDesc = description || '강남역·삼성역 맛집을 AI가 빠르게 추천. 국밥·이자카야·한우·중식 등 170개+ 식당 정보.'
+
+  useEffect(() => {
+    const saved = localStorage.getItem('gm-theme')
+    if (saved) setTheme(saved)
+    const cost = parseFloat(localStorage.getItem('gm-token-cost') || '0')
+    setTokenCost(cost)
+  }, [])
+
+  useEffect(() => {
+    const t = THEMES.find(t => t.id === theme) || THEMES[0]
+    Object.entries(t.vars).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`,v))
+    localStorage.setItem('gm-theme', theme)
+  }, [theme])
+
+  useEffect(() => {
+    const handler = (e) => {
+      setTokenCost(prev => {
+        const updated = +(prev + e.detail).toFixed(6)
+        localStorage.setItem('gm-token-cost', updated.toString())
+        return updated
+      })
+    }
+    window.addEventListener('token-used', handler)
+    return () => window.removeEventListener('token-used', handler)
+  }, [])
+
+  const ct = THEMES.find(t => t.id === theme) || THEMES[0]
 
   return (
     <>
@@ -14,49 +58,71 @@ export default function Layout({ children, title, description, canonical }) {
         <meta name="description" content={siteDesc} />
         <meta name="robots" content="index, follow" />
         {canonical && <link rel="canonical" href={canonical} />}
-
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
         <meta property="og:title" content={siteTitle} />
         <meta property="og:description" content={siteDesc} />
-        <meta property="og:site_name" content="dinner.ambitstock" />
-
-        {/* 구조화 데이터 - 사이트링크 검색박스 */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "dinner.ambitstock",
-          "url": "https://dinner.ambitstock.com",
-          "description": siteDesc
-        })}} />
-
+        <meta property="og:site_name" content="강남뭐먹" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="site-header">
-        <nav>
-          <Link href="/" className="logo">🍽️ dinner.ambitstock</Link>
-          <div className="nav-links">
-            <Link href="/dinner/samseong">삼성역</Link>
-            <Link href="/dinner/gangnam">강남역</Link>
-            <Link href="/dinner/jamsil">잠실역</Link>
+      <header style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'0 16px', position:'sticky', top:0, zIndex:100, backdropFilter:'blur(10px)' }}>
+        <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', height:52 }}>
+          <Link href="/" style={{ fontWeight:900, fontSize:'1.05rem', color:'var(--primary)', textDecoration:'none' }}>🍚 강남뭐먹</Link>
+
+          <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+            {tokenCost > 0 && (
+              <span style={{ fontSize:'.7rem', color:'var(--muted)', background:'var(--surface2)', padding:'3px 8px', borderRadius:100, border:'1px solid var(--border)', whiteSpace:'nowrap' }}>
+                ⚡ ${tokenCost.toFixed(4)}
+              </span>
+            )}
+
+            <button onClick={() => setShowQR(true)} style={{ fontSize:'.72rem', fontWeight:700, background:'linear-gradient(135deg,#ff6b35,#ff9a3c)', color:'#fff', border:'none', borderRadius:100, padding:'5px 10px', cursor:'pointer', whiteSpace:'nowrap' }}>
+              🍚 국밥 먹이기
+            </button>
+
+            <div style={{ position:'relative' }}>
+              <button onClick={() => setShowThemes(!showThemes)} style={{ background:'var(--surface2)', border:'1px solid var(--border)', borderRadius:100, padding:'5px 9px', cursor:'pointer', fontSize:'.85rem', color:'var(--text)' }}>
+                {ct.emoji}
+              </button>
+              {showThemes && (
+                <>
+                  <div onClick={() => setShowThemes(false)} style={{ position:'fixed', inset:0, zIndex:10 }} />
+                  <div style={{ position:'absolute', top:'110%', right:0, zIndex:11, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:8, minWidth:170, boxShadow:'0 8px 32px rgba(0,0,0,.4)', display:'grid', gridTemplateColumns:'1fr 1fr', gap:4 }}>
+                    {THEMES.map(t => (
+                      <button key={t.id} onClick={() => { setTheme(t.id); setShowThemes(false) }} style={{ display:'flex', alignItems:'center', gap:5, padding:'7px 10px', borderRadius:8, cursor:'pointer', background: theme===t.id ? 'var(--primary)' : 'transparent', color: theme===t.id ? '#fff' : 'var(--text)', border:'none', fontSize:'.76rem', fontWeight: theme===t.id ? 700 : 400, whiteSpace:'nowrap' }}>
+                        {t.emoji} {t.name}
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
-        </nav>
+        </div>
       </header>
 
       <main>{children}</main>
 
-      <footer style={{
-        borderTop: '1px solid var(--border)',
-        padding: '32px 16px',
-        textAlign: 'center',
-        color: 'var(--muted)',
-        fontSize: '.8rem',
-        marginTop: '60px'
-      }}>
-        <p>© 2025 dinner.ambitstock.com — 강남 맛집 AI 추천 서비스</p>
-        <p style={{ marginTop: 6 }}>삼성역 · 강남역 · 잠실역 주변 식당 정보 및 추천</p>
+      <footer style={{ borderTop:'1px solid var(--border)', padding:'28px 16px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>
+        <p>© 2026 강남뭐먹 — 강남 맛집 AI 추천 서비스</p>
+        <p style={{ marginTop:4 }}>삼성역 · 강남역 · 잠실역 주변 식당 정보</p>
       </footer>
+
+      {showQR && (
+        <div onClick={() => setShowQR(false)} style={{ position:'fixed', inset:0, zIndex:200, background:'rgba(0,0,0,.75)', backdropFilter:'blur(6px)', display:'flex', alignItems:'center', justifyContent:'center', padding:24 }}>
+          <div onClick={e => e.stopPropagation()} style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:20, padding:'32px 28px', maxWidth:300, width:'100%', textAlign:'center', boxShadow:'0 20px 60px rgba(0,0,0,.5)' }}>
+            <div style={{ fontSize:'2rem', marginBottom:6 }}>🍚</div>
+            <h3 style={{ fontSize:'1rem', fontWeight:900, marginBottom:4, color:'var(--text)' }}>개발자 국밥 먹이기</h3>
+            <p style={{ fontSize:'.8rem', color:'var(--muted)', marginBottom:20, lineHeight:1.6 }}>
+              서비스가 마음에 드셨다면<br />국밥 한 그릇 후원해주세요 🙏
+            </p>
+            <div style={{ background:'#fff', borderRadius:12, padding:12, display:'inline-block', marginBottom:12 }}>
+              <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:200, height:200, display:'block' }} />
+            </div>
+            <p style={{ fontSize:'.72rem', color:'var(--muted)', marginBottom:20 }}>토스앱으로 QR 스캔</p>
+            <button onClick={() => setShowQR(false)} style={{ width:'100%', padding:'10px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', cursor:'pointer', fontSize:'.88rem' }}>닫기</button>
+          </div>
+        </div>
+      )}
     </>
   )
 }
