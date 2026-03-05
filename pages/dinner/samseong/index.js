@@ -144,23 +144,131 @@ function DiceOverlay({ onDone }) {
   )
 }
 
+// ── 사용 횟수 관리 (localStorage, 하루 기준) ─────────────────
+const DAILY_WARN  = 3   // 3회째부터 경고
+const DAILY_LIMIT = 5   // 5회 초과 시 AI 차단
+
+function getTodayKey() {
+  return 'ai_count_' + new Date().toISOString().slice(0,10)
+}
+function getUsageCount() {
+  try { return parseInt(localStorage.getItem(getTodayKey()) || '0') } catch { return 0 }
+}
+function incrementUsage() {
+  try {
+    const k = getTodayKey(); const n = getUsageCount() + 1
+    localStorage.setItem(k, n)
+    Object.keys(localStorage).filter(x=>x.startsWith('ai_count_')&&x!==k).forEach(x=>localStorage.removeItem(x))
+    return n
+  } catch { return 1 }
+}
+
+// ── 검색 힌트 (placeholder 회전용) ───────────────────────────
+const HINTS = [
+  '예: 비 오는 날 따뜻한 국밥집',
+  '예: 평점 4.7점 이상 이자카야',
+  '예: 야근 후 해장할 곳',
+  '예: 1만원 이하 혼밥 가능한 곳',
+  '예: 10명 회식 가능한 룸 있는 곳',
+  '예: 데이트하기 좋은 분위기 맛집',
+  '예: 눈 오는 날 생각나는 칼국수',
+  '예: 4번출구 근처 점심 빠른 곳',
+  '예: 가성비 좋은 한우 구이',
+  '예: 스트레스 풀리는 마라탕 훠궈',
+  '예: 평점 4.5 이상 4번출구 근처',
+  '예: 2만원대 분위기 좋은 이자카야',
+  '예: 쌀쌀한 날 뜨끈한 순대국밥',
+  '예: 혼자 조용히 먹을 수 있는 곳',
+  '예: 회식 후 2차로 가기 좋은 바',
+]
+
+// ── 경고 모달 (3~4회) ────────────────────────────────────────
+function WarnModal({ count, onConfirm, onCancel }) {
+  const is4th = count >= 4
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        <div style={{ fontSize:'3.8rem',marginBottom:14 }}>{is4th ? '😰' : '🍜'}</div>
+        <div style={{ fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.35 }}>
+          {is4th ? '개발자 통장이\n비어가고 있어요...' : '잠깐,\n개발자가 굶을 수도 있어요'}
+        </div>
+        <div style={{ fontSize:'.84rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75,whiteSpace:'pre-line' }}>
+          {is4th
+            ? `오늘 벌써 ${count}번째 AI 검색이에요 🥲\nAI 한 번 쓸 때마다 개발자 통장에서\n조금씩 빠져나가고 있답니다 💸`
+            : `오늘 ${count}번째 AI 검색이에요 👀\nAI 검색은 매 요청마다 서버 비용이 발생해요.\n국밥 한 그릇 값이면 100번 검색이 가능해요 🥣`
+          }
+        </div>
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+          <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
+        </div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:18 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
+          <button onClick={onConfirm} style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
+            {is4th ? '그래도 검색할게요 (마지막 기회 🙏)' : '그래도 검색할게요'}
+          </button>
+          <button onClick={onCancel} style={{ padding:'13px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.88rem',cursor:'pointer' }}>
+            🎲 랜덤으로 할게요 (무료)
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// ── 한도 초과 모달 (5회 이후) ────────────────────────────────
+function LimitModal({ onClose }) {
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        <div style={{ fontSize:'3.8rem',marginBottom:14 }}>😭</div>
+        <div style={{ fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.35 }}>
+          오늘 AI 검색을<br/>다 쓰셨어요
+        </div>
+        <div style={{ fontSize:'.84rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75 }}>
+          하루 {DAILY_LIMIT}회 무료 AI 검색을 모두 사용했어요.<br/>
+          자정이 지나면 다시 {DAILY_LIMIT}회가 충전돼요 🌙<br/><br/>
+          <strong style={{ color:'var(--text)' }}>랜덤 뽑기는 무제한</strong>으로 사용 가능해요!
+        </div>
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+          <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
+        </div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:18 }}>☕ 커피 한 잔 후원하시면 개발자가 기뻐해요</div>
+        <button onClick={onClose} style={{ width:'100%',padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
+          🎲 랜덤 뽑기로 할게요
+        </button>
+      </div>
+    </div>
+  )
+}
+
 // ── AI 추천 앱 ───────────────────────────────────────────────
 // 제외 목록 관리: 50개 초과 시 자동 리셋
 const EXCLUDE_RESET = 50
 
 function AiApp() {
-  const [ctx,       setCtx]       = useState('')
-  const [weather,   setWeather]   = useState('')
-  const [moods,     setMoods]     = useState([])
-  const [exit4Only, setExit4Only] = useState(false)
-  const [loading,   setLoading]   = useState(false)
-  const [dicing,    setDicing]    = useState(false)
-  const [pendingRnd,setPendingRnd]= useState(null)
-  const [results,   setResults]   = useState(null)
-  const [error,     setError]     = useState(false)
-  // 이전에 추천된 식당명 누적 (50개 초과 시 리셋)
+  const [ctx,        setCtx]       = useState('')
+  const [weather,    setWeather]   = useState('')
+  const [moods,      setMoods]     = useState([])
+  const [exit4Only,  setExit4Only] = useState(false)
+  const [loading,    setLoading]   = useState(false)
+  const [dicing,     setDicing]    = useState(false)
+  const [pendingRnd, setPendingRnd]= useState(null)
+  const [results,    setResults]   = useState(null)
+  const [error,      setError]     = useState(false)
+  const [warnCount,  setWarnCount] = useState(null)
+  const [showLimit,  setShowLimit] = useState(false)
+  const [hintIdx,    setHintIdx]   = useState(0)
+  const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
   const resultsRef  = useRef(null)
+
+  useEffect(() => {
+    setUsedToday(getUsageCount())
+    const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
+    return () => clearInterval(t)
+  }, [])
 
   function scrollTo() {
     setTimeout(() => resultsRef.current?.scrollIntoView({ behavior:'smooth', block:'start' }), 120)
@@ -206,9 +314,19 @@ function AiApp() {
     scrollTo()
   }
 
-  // ── AI 추천 ──
-  async function getRecommendations() {
+  // ── AI 추천 (횟수 체크 포함) ──
+  function handleRecommendClick() {
     if (!ctx && !weather && moods.length===0) { getRandom(); return }
+    const count = getUsageCount()
+    if (count >= DAILY_LIMIT) { setShowLimit(true); return }
+    if (count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
+    getRecommendations()
+  }
+
+  function confirmFromWarn() { setWarnCount(null); getRecommendations() }
+  function cancelFromWarn()  { setWarnCount(null); getRandom() }
+
+  async function getRecommendations() {
     setLoading(true); setError(false); setResults(null)
 
     try {
@@ -249,6 +367,8 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
       }
 
       const recs = data.recommendations || []
+      const newCount = incrementUsage()
+      setUsedToday(newCount)
       markShown(recs)
       setResults(recs)
       scrollTo()
@@ -268,13 +388,26 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
     <>
       {loading && <LoadingOverlay />}
       {dicing  && <DiceOverlay onDone={onDiceFinish} />}
+      {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
+      {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom() }} />}
 
       <div style={{ padding:'20px 16px' }}>
-        <div style={{ marginBottom:16 }}>
+        {/* 사용 횟수 뱃지 */}
+        <div style={{ display:'flex',justifyContent:'flex-end',marginBottom:8 }}>
+          <span style={{
+            fontSize:'.7rem', padding:'3px 10px', borderRadius:100,
+            background: usedToday >= DAILY_LIMIT ? '#2a1111' : usedToday >= DAILY_WARN-1 ? '#2a2000' : 'var(--surface2)',
+            border: `1px solid ${usedToday >= DAILY_LIMIT ? '#ff4444' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--border)'}`,
+            color: usedToday >= DAILY_LIMIT ? '#ff6666' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--muted)',
+          }}>
+            {usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
+          </span>
+        </div>
+        <div style={{ marginBottom:16, position:'relative' }}>
           <textarea value={ctx} onChange={e=>setCtx(e.target.value)}
-            placeholder="예: 회식 장소, 8천원대 해장국, 데이트 코스..."
-            style={{ width:'100%',minHeight:64,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,color:'var(--text)',padding:'10px 14px',fontSize:'.9rem',resize:'none',outline:'none',fontFamily:'inherit',boxSizing:'border-box' }}
-            onKeyDown={e=>{ if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();getRecommendations()} }}
+            placeholder={HINTS[hintIdx]}
+            style={{ width:'100%',minHeight:72,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,color:'var(--text)',padding:'10px 14px',fontSize:'.9rem',resize:'none',outline:'none',fontFamily:'inherit',boxSizing:'border-box',transition:'border-color .2s' }}
+            onKeyDown={e=>{ if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();handleRecommendClick()} }}
           />
         </div>
 
@@ -304,7 +437,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         </div>
 
         <div style={{ display:'flex',gap:8 }}>
-          <button onClick={getRecommendations} disabled={loading||dicing} style={{
+          <button onClick={handleRecommendClick} disabled={loading||dicing} style={{
             flex:1,padding:'13px',borderRadius:10,background:'var(--primary)',
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
