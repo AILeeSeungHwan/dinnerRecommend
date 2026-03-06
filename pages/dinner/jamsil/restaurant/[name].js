@@ -294,26 +294,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       </Head>
 
-      {/* ── 감성 인트로 배너 ── */}
-      <section style={{
-        background:'linear-gradient(180deg, var(--surface2) 0%, var(--surface) 100%)',
-        borderBottom:'1px solid var(--border)',
-        padding:'32px 16px 28px',
-      }}>
-        <div style={{ maxWidth:760, margin:'0 auto' }}>
-          <div style={{ fontSize:'2.2rem', marginBottom:14 }}>{intro.emoji}</div>
-          {intro.lines.map((line, i) => (
-            <p key={i} style={{
-              fontSize: i === 0 ? '1rem' : '.92rem',
-              color: i === 0 ? 'var(--text)' : 'var(--muted)',
-              fontWeight: i === 0 ? 700 : 400,
-              lineHeight: 1.85,
-              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
-            }}>{line}</p>
-          ))}
-        </div>
-      </section>
-
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
@@ -323,25 +303,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
       </div>
 
-      {/* 히어로 — 대표 이미지 포함 */}
-      <section style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'0 0 24px' }}>
-        <div style={{ width:'100%', height:'220px', overflow:'hidden', position:'relative', marginBottom:20 }}>
-          <img
-            src={foodImages[0]}
-            alt={`${r.name} 음식 사진`}
-            style={{ width:'100%', height:'100%', objectFit:'cover', filter:'brightness(0.75)' }}
-            loading="lazy"
-            onError={e => { e.target.style.display='none' }}
-          />
-          <div style={{ position:'absolute', inset:0, background:'linear-gradient(to bottom, transparent 40%, rgba(0,0,0,.5) 100%)' }} />
-          <div style={{ position:'absolute', bottom:16, left:16 }}>
-            <span style={{ fontSize:'.72rem', background:'rgba(0,0,0,.6)', color:'#fff', padding:'4px 10px', borderRadius:100, backdropFilter:'blur(4px)' }}>
-              📸 유사 이미지 참고용
-            </span>
-          </div>
-        </div>
-
-        <div style={{ maxWidth:760, margin:'0 auto', padding:'0 16px' }}>
+      {/* 히어로 */}
+      <section style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'28px 16px' }}>
+        <div style={{ maxWidth:760, margin:'0 auto' }}>
           <div style={{ display:'flex', gap:14, alignItems:'flex-start' }}>
             <div style={{ fontSize:'3rem', flexShrink:0, lineHeight:1 }}>{r.e}</div>
             <div style={{ flex:1, minWidth:0 }}>
@@ -400,6 +364,26 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ))}
           </tbody>
         </table>
+
+        {/* ── 감성 인트로 ── */}
+        <div style={{
+          background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
+          border:'1px solid var(--border)',
+          borderRadius:14,
+          padding:'22px 20px',
+          marginBottom:28,
+        }}>
+          <div style={{ fontSize:'1.8rem', marginBottom:10 }}>{intro.emoji}</div>
+          {intro.lines.map((line, i) => (
+            <p key={i} style={{
+              fontSize: i === 0 ? '.97rem' : '.9rem',
+              color: i === 0 ? 'var(--text)' : 'var(--muted)',
+              fontWeight: i === 0 ? 700 : 400,
+              lineHeight: 1.85,
+              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
+            }}>{line}</p>
+          ))}
+        </div>
 
         {/* 대표 메뉴 & 가격 */}
         {r.menu?.length > 0 && (
@@ -467,24 +451,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <p style={{ fontSize:'.74rem', color:'var(--muted)', marginBottom:24 }}>* Google Maps 실제 방문 리뷰 기반입니다.</p>
           </>
         )}
-
-        {/* 분위기 이미지 */}
-        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:28 }}>
-          {foodImages.map((src, i) => (
-            <div key={i} style={{ borderRadius:12, overflow:'hidden', height:150, position:'relative', background:'var(--surface2)' }}>
-              <img
-                src={src}
-                alt={i === 0 ? `${r.name} 음식` : `${r.name} 분위기`}
-                style={{ width:'100%', height:'100%', objectFit:'cover', filter:'brightness(0.8)' }}
-                loading="lazy"
-                onError={e => { e.target.parentElement.style.display='none' }}
-              />
-              <div style={{ position:'absolute', bottom:7, left:9, fontSize:'.63rem', color:'rgba(255,255,255,.75)', background:'rgba(0,0,0,.45)', padding:'2px 8px', borderRadius:100 }}>
-                {i === 0 ? '🍽️ 음식' : '🏠 분위기'} 참고 이미지
-              </div>
-            </div>
-          ))}
-        </div>
 
         {/* 효능 섹션 */}
         {effect && (
