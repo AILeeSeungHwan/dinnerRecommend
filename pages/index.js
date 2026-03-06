@@ -50,7 +50,7 @@ export default function Home() {
           오늘 뭐 먹지?
         </div>
         <h1 style={{ fontSize:'clamp(1.7rem,6vw,2.8rem)', fontWeight:900, lineHeight:1.15, marginBottom:12 }}>
-          강남 맛집,<br />
+          강남 맛집 추천<br />
           <span style={{ color:'var(--primary)' }}>3초면 끝</span>
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
