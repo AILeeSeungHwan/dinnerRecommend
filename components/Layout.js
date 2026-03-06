@@ -308,18 +308,28 @@ export default function Layout({ children, title, description, canonical }) {
 
           {/* 모바일 — 드롭다운 버튼 */}
           <div className="stnav-mobile-btn" style={{ flex:1, minWidth:0, position:'relative' }}>
-            <button onClick={() => { setShowStations(!showStations); setShowThemes(false) }} style={{
-              display:'flex', alignItems:'center', gap:5,
-              padding:'5px 10px', borderRadius:100, cursor:'pointer',
-              background: showStations ? 'var(--surface2)' : 'transparent',
-              border: '1px solid var(--border)',
-              fontSize:'.8rem', fontWeight:600, color:'var(--text)',
-              transition:'all .15s',
-            }}>
-              <span>🚇</span>
-              <span>지역 선택</span>
-              <span style={{ fontSize:'.6rem', color:'var(--muted)', marginLeft:'auto' }}>{showStations ? '▲' : '▼'}</span>
-            </button>
+            {(() => {
+              const path = typeof window !== 'undefined' ? window.location.pathname : ''
+              const stations = [
+                { href:'/dinner/samseong', short:'삼성' },
+                { href:'/dinner/jamsil',   short:'잠실' },
+              ]
+              const current = stations.find(s => path.startsWith(s.href))
+              return (
+                <button onClick={() => { setShowStations(!showStations); setShowThemes(false) }} style={{
+                  display:'flex', alignItems:'center', gap:4,
+                  padding:'5px 10px', borderRadius:100, cursor:'pointer',
+                  background: showStations ? 'var(--surface2)' : 'transparent',
+                  border: '1px solid var(--border)',
+                  fontSize:'.8rem', fontWeight:600, color:'var(--text)',
+                  transition:'all .15s', whiteSpace:'nowrap',
+                }}>
+                  <span>{current ? '📍' : '🚇'}</span>
+                  <span>{current ? current.short : '지역'}</span>
+                  <span style={{ fontSize:'.6rem', color:'var(--muted)' }}>{showStations ? '▲' : '▼'}</span>
+                </button>
+              )
+            })()}
 
             {showStations && (
               <>
@@ -331,11 +341,11 @@ export default function Layout({ children, title, description, canonical }) {
                   boxShadow:'0 8px 24px rgba(0,0,0,.3)',
                 }}>
                   {[
-                    { href:'/dinner/samseong', label:'삼성역', emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
-                    { href:'/dinner/jamsil',   label:'잠실역', emoji:'🎡',  live:true,  desc:'방이동·석촌호수·롯데타워' },
-                    { href:null, label:'강남역', emoji:'🏢', live:false, desc:'' },
-                    { href:null, label:'서초역', emoji:'🌿', live:false, desc:'' },
-                    { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
+                    { href:'/dinner/samseong', label:'삼성', emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
+                    { href:'/dinner/jamsil',   label:'잠실', emoji:'🎡',  live:true,  desc:'방이동·석촌호수·롯데타워' },
+                    { href:null, label:'강남', emoji:'🏢', live:false, desc:'' },
+                    { href:null, label:'서초', emoji:'🌿', live:false, desc:'' },
+                    { href:null, label:'역삼', emoji:'💼', live:false, desc:'' },
                   ].map((s, i) => {
                     const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
                     return s.live ? (
@@ -381,26 +391,18 @@ export default function Layout({ children, title, description, canonical }) {
 
           {/* 우측 버튼들 */}
           <div style={{ display:'flex', alignItems:'center', gap:5, flexShrink:0, marginLeft:6 }}>
-            {/* 토큰 비용 (달러→원, 1달러=1450원) — 클릭하면 QR 모달 */}
+            {/* 사용금액 — 국밥 그라디언트로 눈길 끌기, 클릭하면 QR */}
             {tokenCost > 0 && (
-              <button onClick={() => setShowQR(true)} title="검색에 사용된 AI 비용" style={{
-                fontSize:'.65rem', color:'var(--muted)', background:'var(--surface2)',
-                padding:'3px 7px', borderRadius:100, border:'1px solid var(--border)',
+              <button onClick={() => setShowQR(true)} title="AI 검색 비용 — 국밥 한 그릇 쏴주세요 🍚" style={{
+                fontSize:'.65rem', fontWeight:700,
+                background:'linear-gradient(135deg, #ff6b35, #ff9a3c)',
+                color:'#fff',
+                padding:'4px 9px', borderRadius:100, border:'none',
                 flexShrink:0, cursor:'pointer',
               }}>
                 ⚡ {Math.ceil(tokenCost * 1450)}원
               </button>
             )}
-
-            {/* 국밥 먹이기 */}
-            <button onClick={() => setShowQR(true)} style={{
-              fontSize:'.7rem', fontWeight:700,
-              background:'linear-gradient(135deg, #ff6b35, #ff9a3c)',
-              color:'#fff', border:'none', borderRadius:100,
-              padding:'5px 9px', cursor:'pointer', flexShrink:0,
-            }}>
-              🍚 국밥
-            </button>
 
             {/* 테마 선택 */}
             <div style={{ position:'relative' }}>
