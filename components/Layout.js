@@ -88,30 +88,32 @@ export default function Layout({ children, title, description, canonical }) {
       {/* ── 헤더 ── */}
       <header style={{
         background: 'var(--surface)', borderBottom: '1px solid var(--border)',
-        padding: '0 16px', position: 'sticky', top: 0, zIndex: 100,
+        padding: '0 12px', position: 'sticky', top: 0, zIndex: 100,
         backdropFilter: 'blur(12px)',
+        width: '100%', boxSizing: 'border-box',
       }}>
-        <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', height:52 }}>
-          <Link href="/" style={{ fontWeight:900, fontSize:'1.05rem', color:'var(--primary)', textDecoration:'none' }}>
+        <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', height:52, gap:6, minWidth:0 }}>
+          <Link href="/" style={{ fontWeight:900, fontSize:'1.05rem', color:'var(--primary)', textDecoration:'none', flexShrink:0 }}>
             🍚 강남뭐먹
           </Link>
 
-          <div style={{ display:'flex', alignItems:'center', gap:6 }}>
-            {/* 토큰 비용 */}
+          <div style={{ display:'flex', alignItems:'center', gap:5, flexShrink:0 }}>
+            {/* 토큰 비용 — 작은 화면에서 숨김 */}
             {tokenCost > 0 && (
-              <span style={{ fontSize:'.68rem', color:'var(--muted)', background:'var(--surface2)', padding:'3px 8px', borderRadius:100, border:'1px solid var(--border)', whiteSpace:'nowrap' }}>
+              <span style={{ fontSize:'.65rem', color:'var(--muted)', background:'var(--surface2)', padding:'3px 7px', borderRadius:100, border:'1px solid var(--border)', display:'var(--show-token, inline)' }}
+                className="token-badge">
                 ⚡ ${tokenCost.toFixed(4)}
               </span>
             )}
 
             {/* 국밥 먹이기 */}
             <button onClick={() => setShowQR(true)} style={{
-              fontSize:'.72rem', fontWeight:700,
+              fontSize:'.7rem', fontWeight:700,
               background:'linear-gradient(135deg, #ff6b35, #ff9a3c)',
               color:'#fff', border:'none', borderRadius:100,
-              padding:'5px 10px', cursor:'pointer', whiteSpace:'nowrap',
+              padding:'5px 9px', cursor:'pointer', flexShrink:0,
             }}>
-              🍚 국밥 먹이기
+              🍚 국밥
             </button>
 
             {/* 테마 선택 */}
@@ -128,9 +130,10 @@ export default function Layout({ children, title, description, canonical }) {
                 <>
                   <div onClick={() => setShowThemes(false)} style={{ position:'fixed', inset:0, zIndex:10 }} />
                   <div style={{
-                    position:'absolute', top:'110%', right:0, zIndex:11,
+                    position:'fixed', top:52, right:8, zIndex:11,
                     background:'var(--surface)', border:'1px solid var(--border)',
-                    borderRadius:14, padding:8, minWidth:252,
+                    borderRadius:14, padding:8,
+                    width: 'min(252px, calc(100vw - 16px))',
                     boxShadow:'0 8px 32px rgba(0,0,0,.5)',
                     display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:4,
                   }}>
