@@ -28,7 +28,7 @@ const CATS = [
   {emoji:'🏮', name:'이자카야',  slug:'izakaya', cats:['이자카야']},
   {emoji:'🍜', name:'중식',      slug:'chinese', cats:['중식','훠궈']},
   {emoji:'🍝', name:'양식·스테이크', slug:'western', cats:['양식','이탈리안','스테이크']},
-  {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['회식']},
+  {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['이자카야','고기구이','중식']},
   {emoji:'🐔', name:'치킨·야장', slug:'chicken', cats:['치킨','야장']},
   {emoji:'🍣', name:'일식·스시', slug:'japanese',cats:['이자카야','일식']},
 ]
@@ -577,7 +577,7 @@ export default function SamseongPage() {
   return (
     <Layout title="삼성역 맛집 AI 추천" description="삼성역·코엑스 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/dinner/samseong">
       <Head>
-        <title>삼성역 맛집 추천 | 코엑스·4번출구 170개+ | 강남뭐먹</title>
+        <title>삼성역 맛집 추천 | 코엑스·강남 AI 추천 | 강남뭐먹</title>
         <meta name="description" content="삼성역 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/samseong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

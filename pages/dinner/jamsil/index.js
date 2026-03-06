@@ -581,7 +581,7 @@ export default function JamsilPage() {
       canonical="https://dinner.ambitstock.com/dinner/jamsil"
     >
       <Head>
-        <title>잠실 맛집 추천 | 방이동·석촌·롯데타워 {restaurants.length}개+ | 강남뭐먹</title>
+        <title>잠실 맛집 추천 | 방이동·석촌호수 AI 추천 | 강남뭐먹</title>
         <meta name="description" content={`잠실역·방이동·석촌호수 주변 맛집 AI 추천. 곱창·삼겹살·국밥·이자카야·오마카세 ${restaurants.length}개+ 식당.`} />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/jamsil" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -634,7 +634,11 @@ export default function JamsilPage() {
             {CATS.map(cat=>{
               const count = restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
-                <div key={cat.slug} style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center' }}>
+                <div key={cat.slug} onClick={()=>setActiveTab('browse')}
+                  style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                  onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                  onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
+                >
                   <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
                   <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
                   <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
