@@ -165,7 +165,8 @@ export default function Layout({ children, title, description, canonical }) {
   const [showQR,     setShowQR]     = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
 
-  const siteTitle = title ? `${title} | 강남뭐먹` : '강남뭐먹 — 강남 맛집 AI 추천'
+  const rawTitle = title ? `${title} | 강남뭐먹` : '강남뭐먹 — 강남 맛집 AI 추천'
+  const siteTitle = rawTitle.length > 70 ? rawTitle.slice(0, 68) + '…' : rawTitle
   const siteDesc  = description || '강남역·삼성역 맛집을 AI가 빠르게 추천. 국밥·이자카야·한우·중식 170개+ 식당 정보.'
 
   useEffect(() => {

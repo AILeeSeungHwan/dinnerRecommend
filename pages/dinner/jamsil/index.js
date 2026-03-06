@@ -581,7 +581,7 @@ export default function JamsilPage() {
       canonical="https://dinner.ambitstock.com/dinner/jamsil"
     >
       <Head>
-        <title>잠실 맛집 추천 | 방이동·석촌·롯데타워 {restaurants.length}개+ | 강남뭐먹</title>
+        <title>잠실 맛집 추천 | 방이동·석촌호수 AI 추천 | 강남뭐먹</title>
         <meta name="description" content={`잠실역·방이동·석촌호수 주변 맛집 AI 추천. 곱창·삼겹살·국밥·이자카야·오마카세 ${restaurants.length}개+ 식당.`} />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/jamsil" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

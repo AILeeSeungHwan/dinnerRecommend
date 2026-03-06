@@ -56,7 +56,7 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
   return (
     <>
       <Head>
-        <title>삼성역 {catInfo.name} 맛집 추천 {restaurants.length}선 | dinner.ambitstock</title>
+        <title>삼성역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 강남뭐먹</title>
         <meta name="description" content={`삼성역·코엑스 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/dinner/samseong/category/${category}`} />

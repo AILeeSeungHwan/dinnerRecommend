@@ -280,12 +280,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   }
 
   return (
-    <Layout title={`${r.name} — 잠실 ${r.type} 맛집`} description={metaDesc} canonical={pageUrl}>
+    <Layout title={`${r.name} | 잠실 ${r.type}`} description={metaDesc} canonical={pageUrl}>
       <Head>
-        <title>{r.name} | 잠실 {r.type} 맛집 — 위치·메뉴·리뷰 | 강남뭐먹</title>
-        <meta name="description" content={metaDesc} />
-        <meta name="keywords" content={`${r.name}, 잠실 ${r.type} 맛집, 방이동 맛집, 잠실역 맛집, ${r.addr}, ${r.tags?.join(', ')}`} />
-        <link rel="canonical" href={pageUrl} />
+        <meta name="keywords" content={`${r.name}, 잠실 ${r.type}, 방이동 맛집, ${r.tags?.join(', ')}`} />
         <meta property="og:title" content={`${r.name} — 잠실 ${r.type} 맛집`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:url" content={pageUrl} />

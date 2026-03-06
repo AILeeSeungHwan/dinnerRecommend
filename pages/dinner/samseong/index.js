@@ -577,7 +577,7 @@ export default function SamseongPage() {
   return (
     <Layout title="삼성역 맛집 AI 추천" description="삼성역·코엑스 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/dinner/samseong">
       <Head>
-        <title>삼성역 맛집 추천 | 코엑스·4번출구 170개+ | 강남뭐먹</title>
+        <title>삼성역 맛집 추천 | 코엑스·강남 AI 추천 | 강남뭐먹</title>
         <meta name="description" content="삼성역 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/samseong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
