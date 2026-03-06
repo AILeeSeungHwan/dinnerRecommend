@@ -63,12 +63,6 @@ export default function Document() {
           })(window,document,"clarity","script","vr2ysvpg8z");
         `}} />
 
-        {/* ── Google AdSense ── */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8640254349508671"
-          crossOrigin="anonymous"
-        />
 
         {/* ── RSS ── */}
         <link rel="alternate" type="application/rss+xml" title="강남뭐먹 RSS" href="https://dinner.ambitstock.com/rss.xml" />

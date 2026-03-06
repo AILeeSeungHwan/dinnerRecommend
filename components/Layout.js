@@ -3,29 +3,28 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 const THEMES = [
-  // ── 글로우 계열 ──
-  { id:'glow-orange', name:'글로우 오렌지', emoji:'🔥', vars:{ bg:'#0d0a07', surface:'#1a1208', surface2:'#221a0c', border:'#3d2a10', text:'#fff5e8', muted:'#e8aa66', primary:'#ff6b35', accent:'#ffaa44', glow:'rgba(255,107,53,.18)' }},
-  { id:'glow-blue',   name:'글로우 블루',   emoji:'💙', vars:{ bg:'#060a10', surface:'#0a1220', surface2:'#0e192c', border:'#1a3050', text:'#eef6ff', muted:'#99bbdd', primary:'#3b8fff', accent:'#00d4ff', glow:'rgba(59,143,255,.18)' }},
-  { id:'glow-purple', name:'글로우 퍼플',   emoji:'💜', vars:{ bg:'#08060e', surface:'#110d1e', surface2:'#180f28', border:'#2e1a50', text:'#f5eeff', muted:'#cc99ff', primary:'#a855f7', accent:'#e040fb', glow:'rgba(168,85,247,.18)' }},
-  { id:'glow-green',  name:'글로우 그린',   emoji:'💚', vars:{ bg:'#060d08', surface:'#0c1a0e', surface2:'#102214', border:'#1a3a1e', text:'#eefff5', muted:'#88dd99', primary:'#22c55e', accent:'#86efac', glow:'rgba(34,197,94,.18)' }},
-  { id:'glow-red',    name:'글로우 레드',   emoji:'❤️', vars:{ bg:'#0e0606', surface:'#1e0a0a', surface2:'#280d0d', border:'#4a1212', text:'#fff0f0', muted:'#ee9999', primary:'#ef4444', accent:'#ff8080', glow:'rgba(239,68,68,.18)' }},
-  { id:'glow-gold',   name:'글로우 골드',   emoji:'✨', vars:{ bg:'#0a0800', surface:'#1a1400', surface2:'#221c00', border:'#3d3000', text:'#fff8e0', muted:'#e8cc66', primary:'#f59e0b', accent:'#fde68a', glow:'rgba(245,158,11,.18)' }},
-  { id:'glow-teal',   name:'글로우 틸',     emoji:'🌊', vars:{ bg:'#060d0d', surface:'#0c1a1a', surface2:'#102222', border:'#1a3838', text:'#e8ffff', muted:'#77cccc', primary:'#14b8a6', accent:'#5eead4', glow:'rgba(20,184,166,.18)' }},
-  { id:'glow-pink',   name:'글로우 핑크',   emoji:'🌸', vars:{ bg:'#0e060a', surface:'#1e0c14', surface2:'#28101c', border:'#4a1830', text:'#fff0f6', muted:'#ffaacc', primary:'#ec4899', accent:'#f9a8d4', glow:'rgba(236,72,153,.18)' }},
-  // ── 기존 다크 계열 ──
-  { id:'dark',        name:'다크',          emoji:'🌑', vars:{ bg:'#0f0f13', surface:'#1a1a22', surface2:'#22222e', border:'#2e2e3e', text:'#f0f0f5', muted:'#bbbbcc', primary:'#ff6b35', accent:'#7c6cff' }},
-  { id:'midnight',    name:'미드나잇',      emoji:'🌙', vars:{ bg:'#050d1a', surface:'#0d1b2e', surface2:'#122238', border:'#1e3a5f', text:'#eef4ff', muted:'#99bbdd', primary:'#4d9fff', accent:'#00d4ff' }},
-  { id:'forest',      name:'포레스트',      emoji:'🌲', vars:{ bg:'#080f0a', surface:'#101a12', surface2:'#16241a', border:'#1e3a24', text:'#edf8ef', muted:'#99cc99', primary:'#4caf6e', accent:'#a8e063' }},
-  { id:'aurora',      name:'오로라',        emoji:'🌌', vars:{ bg:'#07050f', surface:'#110d20', surface2:'#18142c', border:'#2a1f4a', text:'#f2eeff', muted:'#bbaaee', primary:'#a855f7', accent:'#06b6d4' }},
-  { id:'sunset',      name:'선셋',          emoji:'🌅', vars:{ bg:'#130709', surface:'#210d10', surface2:'#2d1216', border:'#4a1f26', text:'#fff0f0', muted:'#eeaaaa', primary:'#ff4d6d', accent:'#ff9a3c' }},
-  { id:'mono',        name:'모노크롬',      emoji:'⬜', vars:{ bg:'#111111', surface:'#1c1c1c', surface2:'#252525', border:'#333333', text:'#f0f0f0', muted:'#aaaaaa', primary:'#dddddd', accent:'#bbbbbb' }},
-  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f0f0f4', surface:'#ffffff',  surface2:'#e8e8ef', border:'#c0c0cc', text:'#0a0a1a', muted:'#3a3a50', primary:'#c94a10', accent:'#4a3cde' }},
-  { id:'cyber',       name:'사이버펑크',    emoji:'⚡', vars:{ bg:'#0a0010', surface:'#130020', surface2:'#1a002c', border:'#3d0066', text:'#fff0ff', muted:'#dd99ff', primary:'#ff00cc', accent:'#ffee00' }},
-  // ── 프리미엄 ──
-  { id:'obsidian',    name:'옵시디언',      emoji:'🖤', vars:{ bg:'#000000', surface:'#111111', surface2:'#181818', border:'#2a2a2a', text:'#ffffff', muted:'#aaaaaa', primary:'#e0e0e0', accent:'#bbbbbb' }},
-  { id:'ocean',       name:'딥오션',        emoji:'🐋', vars:{ bg:'#020810', surface:'#04101e', surface2:'#071628', border:'#0e2a44', text:'#ddf0ff', muted:'#77aacc', primary:'#0ea5e9', accent:'#38bdf8' }},
-  { id:'rose',        name:'로즈골드',      emoji:'🌹', vars:{ bg:'#0f0a0a', surface:'#1e1212', surface2:'#281818', border:'#3d2222', text:'#fff5f5', muted:'#ddaaaa', primary:'#e07070', accent:'#f4a0a0' }},
-  { id:'jade',        name:'제이드',        emoji:'🍃', vars:{ bg:'#040a06', surface:'#091410', surface2:'#0d1c16', border:'#143022', text:'#eafaf2', muted:'#77bb88', primary:'#059669', accent:'#34d399' }},
+  // ── 기본/프리미엄 다크 (맨 앞) ──
+  { id:'dark',        name:'다크',          emoji:'🌑', vars:{ bg:'#0f0f13', surface:'#1a1a22', surface2:'#22222e', border:'#2e2e3e', text:'#f0f0f5', muted:'#888899', primary:'#ff6b35', accent:'#7c6cff' }},
+  { id:'midnight',    name:'미드나잇',      emoji:'🌙', vars:{ bg:'#050d1a', surface:'#0d1b2e', surface2:'#122238', border:'#1e3a5f', text:'#eef4ff', muted:'#7799bb', primary:'#4d9fff', accent:'#00d4ff' }},
+  { id:'obsidian',    name:'옵시디언',      emoji:'🖤', vars:{ bg:'#000000', surface:'#0f0f0f', surface2:'#161616', border:'#252525', text:'#f5f5f5', muted:'#888888', primary:'#e8e8e8', accent:'#aaaaaa' }},
+  { id:'ocean',       name:'딥오션',        emoji:'🐋', vars:{ bg:'#020810', surface:'#04101e', surface2:'#071628', border:'#0e2a44', text:'#ddf0ff', muted:'#6699bb', primary:'#0ea5e9', accent:'#38bdf8' }},
+  { id:'aurora',      name:'오로라',        emoji:'🌌', vars:{ bg:'#07050f', surface:'#110d20', surface2:'#18142c', border:'#2a1f4a', text:'#f2eeff', muted:'#9988cc', primary:'#a855f7', accent:'#06b6d4' }},
+  { id:'forest',      name:'포레스트',      emoji:'🌲', vars:{ bg:'#060d08', surface:'#0e1a10', surface2:'#131f15', border:'#1c3320', text:'#e8f5ec', muted:'#779966', primary:'#4caf6e', accent:'#a8e063' }},
+  { id:'sunset',      name:'선셋',          emoji:'🌅', vars:{ bg:'#130709', surface:'#1e0d10', surface2:'#271015', border:'#3d1820', text:'#fff0f0', muted:'#cc8888', primary:'#ff4d6d', accent:'#ff9a3c' }},
+  { id:'jade',        name:'제이드',        emoji:'🍃', vars:{ bg:'#040a06', surface:'#081410', surface2:'#0c1a14', border:'#122a1e', text:'#eafaf2', muted:'#66aa88', primary:'#059669', accent:'#34d399' }},
+  { id:'rose',        name:'로즈골드',      emoji:'🌹', vars:{ bg:'#0f0808', surface:'#1c1010', surface2:'#231414', border:'#361e1e', text:'#fff5f5', muted:'#bb8888', primary:'#e07070', accent:'#f4a0a0' }},
+  { id:'cyber',       name:'사이버펑크',    emoji:'⚡', vars:{ bg:'#08000e', surface:'#110018', surface2:'#180022', border:'#320055', text:'#fff0ff', muted:'#bb77ee', primary:'#ff00cc', accent:'#ffee00' }},
+  { id:'mono',        name:'모노크롬',      emoji:'◻️', vars:{ bg:'#0a0a0a', surface:'#151515', surface2:'#1e1e1e', border:'#2e2e2e', text:'#eeeeee', muted:'#888888', primary:'#cccccc', accent:'#999999' }},
+  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f0f0f4', surface:'#ffffff',  surface2:'#e8e8ef', border:'#c0c0cc', text:'#0a0a1a', muted:'#555566', primary:'#c94a10', accent:'#4a3cde' }},
+  // ── 글로우 계열 (맨 뒤) — 배경 극한으로 어둡게, 가독성 확보 ──
+  { id:'glow-orange', name:'글로우 오렌지', emoji:'🔥', vars:{ bg:'#060300', surface:'#0e0700', surface2:'#130b00', border:'#281500', text:'#fff0e0', muted:'#bb7733', primary:'#ff6b35', accent:'#ffaa44', glow:'rgba(255,107,53,.10)' }},
+  { id:'glow-blue',   name:'글로우 블루',   emoji:'💙', vars:{ bg:'#010408', surface:'#030a16', surface2:'#050f20', border:'#0a1e3c', text:'#e0eeff', muted:'#6688aa', primary:'#3b8fff', accent:'#00d4ff', glow:'rgba(59,143,255,.10)' }},
+  { id:'glow-purple', name:'글로우 퍼플',   emoji:'💜', vars:{ bg:'#030108', surface:'#070514', surface2:'#0b081e', border:'#1c1040', text:'#ede0ff', muted:'#8855bb', primary:'#a855f7', accent:'#e040fb', glow:'rgba(168,85,247,.10)' }},
+  { id:'glow-green',  name:'글로우 그린',   emoji:'💚', vars:{ bg:'#010501', surface:'#040c05', surface2:'#070f08', border:'#0e2010', text:'#e0ffe8', muted:'#447744', primary:'#22c55e', accent:'#86efac', glow:'rgba(34,197,94,.10)' }},
+  { id:'glow-red',    name:'글로우 레드',   emoji:'❤️', vars:{ bg:'#060101', surface:'#100404', surface2:'#160606', border:'#300808', text:'#ffe8e8', muted:'#bb5555', primary:'#ef4444', accent:'#ff8080', glow:'rgba(239,68,68,.10)' }},
+  { id:'glow-gold',   name:'글로우 골드',   emoji:'✨', vars:{ bg:'#050300', surface:'#0e0800', surface2:'#140b00', border:'#261800', text:'#fff5d0', muted:'#aa8822', primary:'#f59e0b', accent:'#fde68a', glow:'rgba(245,158,11,.10)' }},
+  { id:'glow-teal',   name:'글로우 틸',     emoji:'🌊', vars:{ bg:'#010505', surface:'#040e0e', surface2:'#061212', border:'#0c2222', text:'#d8ffff', muted:'#338888', primary:'#14b8a6', accent:'#5eead4', glow:'rgba(20,184,166,.10)' }},
+  { id:'glow-pink',   name:'글로우 핑크',   emoji:'🌸', vars:{ bg:'#060102', surface:'#100408', surface2:'#16060c', border:'#2e0c1a', text:'#ffe8f4', muted:'#bb4477', primary:'#ec4899', accent:'#f9a8d4', glow:'rgba(236,72,153,.10)' }},
 ]
 
 export default function Layout({ children, title, description, canonical }) {
@@ -48,7 +47,7 @@ export default function Layout({ children, title, description, canonical }) {
     const t = THEMES.find(t => t.id === theme) || THEMES[0]
     Object.entries(t.vars).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v))
     if (t.vars.glow) {
-      document.body.style.background = `radial-gradient(ellipse 80% 60% at 50% 20%, ${t.vars.glow} 0%, var(--bg) 65%)`
+      document.body.style.background = `radial-gradient(ellipse 70% 45% at 50% 15%, ${t.vars.glow} 0%, var(--bg) 60%)`
     } else {
       document.body.style.background = 'var(--bg)'
     }

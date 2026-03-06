@@ -96,6 +96,140 @@ const FOOD_EFFECT = {
   },
 }
 
+// ── 컨텍스트 기반 감성 인트로 생성 ──────────────────────────
+function buildIntro(r) {
+  const cats  = r.cat   || []
+  const wx    = r.wx    || []
+  const moods = r.moods || []
+  const tags  = r.tags  || []
+  const scene = r.scene || []
+  const name  = r.name
+
+  // 곱창 / 막창 계열 — 잠실/방이동 특화
+  if (tags.some(t => /곱창|막창|양념구이/.test(t)) || scene.some(s => /곱창|방이동/.test(s))) {
+    if (wx.includes('비') || moods.includes('스트레스')) {
+      return { emoji:'🌧️🍶', lines:[
+        '그런 날 있죠.',
+        '비 오고 야근하고 집에 가기 싫은 그 밤.',
+        '방이동 곱창골목에서 소주 한 잔이면 세상을 다 가진 것 같은 그 기분.',
+        `그런 분들을 위해 준비했습니다. 잠실 ${name} 추천, 바로 갑니다.`,
+      ]}
+    }
+    return { emoji:'🫀🔥', lines:[
+      '방이동에 오면 꼭 들러야 하는 곳이 있습니다.',
+      '직화로 구워내는 곱창의 냄새가 골목을 가득 채우는 그곳.',
+      `${name}. 소주 한 병과 곱창 한 판이면 오늘 하루가 완성됩니다.`,
+    ]}
+  }
+
+  // 국밥 / 해장
+  if (cats.includes('국밥') || cats.includes('국물')) {
+    if (moods.includes('피곤함') || wx.includes('비')) {
+      return { emoji:'🌧️🥣', lines:[
+        '비가 추적추적, 발도 무겁고 배도 고프고.',
+        `${name} 뚝배기 앞에 앉으면 그제야 숨이 쉬어집니다.`,
+        '첫 국물 한 숟갈에 "아, 살겠다" 소리가 절로 나오는 그 맛.`,
+      ]}
+    }
+    return { emoji:'🥣', lines:[
+      '잠실역 나와서 어디 갈지 고민될 때,',
+      '기름기 없이 깔끔하게 한 끼 챙기고 싶을 때.',
+      `${name}. 뜨끈한 국물 한 그릇이면 충분합니다.`,
+    ]}
+  }
+
+  // 이자카야 / 야장 / 술집
+  if (cats.includes('이자카야') || cats.includes('야장') || cats.includes('와인바')) {
+    if (wx.includes('비')) {
+      return { emoji:'🌧️🍶', lines:[
+        '비 오는 날 밤, 갑자기 오뎅탕에 소주 한 잔이 생각나는 밤.',
+        '모든 것을 가진 것 같은 그 따뜻한 기분.',
+        `그런 분들을 위해 준비했습니다. 잠실 ${name}, 지금 바로 시작합니다.`,
+      ]}
+    }
+    if (moods.includes('스트레스') || moods.includes('피곤함')) {
+      return { emoji:'😮‍💨🍺', lines:[
+        '오늘 진짜 힘들었죠.',
+        '석촌호수 불빛 보면서 맥주 한 잔 하고 싶었던 그 마음.',
+        `${name} 문 열고 들어가는 순간, 퇴근이 시작됩니다.`,
+      ]}
+    }
+    return { emoji:'🏮', lines:[
+      '롯데타워 불빛 아래, 가볍게 한 잔 하기 좋은 밤.',
+      '거창하지 않아도 좋아요. 맥주 한 두 잔에 안주 하나.',
+      `${name}이 그런 곳입니다.`,
+    ]}
+  }
+
+  // 고기구이
+  if (cats.includes('고기구이') || tags.some(t => t.includes('한우'))) {
+    if (moods.includes('축하') || moods.includes('데이트')) {
+      return { emoji:'🥩✨', lines:[
+        '특별한 날, 잠실에서 제대로 먹고 싶을 때.',
+        `${name} 불판 위에서 고기 굽는 소리가 오늘 저녁을 완성합니다.`,
+        '육즙 흐르는 한 점, 딱 그 순간을 위해 왔습니다.',
+      ]}
+    }
+    return { emoji:'🔥', lines:[
+      '방이동 골목에서 고기 굽는 냄새 따라 걷다 보면 자연스럽게 도착하게 됩니다.',
+      `${name}. 직화 불향 앞에서 오늘의 스트레스가 연기 따라 올라갑니다.`,
+    ]}
+  }
+
+  // 오마카세 / 고급 일식
+  if (tags.some(t => /오마카세|스시|초밥/.test(t))) {
+    return { emoji:'🍣🌙', lines:[
+      '특별한 날의 저녁은 달라야 합니다.',
+      '롯데타워 불빛이 창밖에 걸리는 밤,',
+      `${name} 셰프가 그날의 최선을 한 점씩 올려드립니다.`,
+      '지갑은 울지만 입은 웃는, 그런 저녁.',
+    ]}
+  }
+
+  // 데이트 / 석촌호수 분위기
+  if (moods.includes('데이트') || scene.some(s => /석촌|호수|뷰/.test(s))) {
+    return { emoji:'🌸🌙', lines:[
+      '석촌호수 벚꽃 지는 길, 어디 가야 할지 고민되셨죠.',
+      `${name}. 분위기는 있고, 음식은 맛있고.`,
+      '이런 날엔 멀리 갈 필요 없습니다. 잠실에 다 있어요.',
+    ]}
+  }
+
+  // 기본 fallback
+  return { emoji: r.e || '🍽️', lines:[
+    `잠실에서 ${r.type} 맛집을 찾고 계시다면,`,
+    `${name}을 추천드립니다.`,
+    `⭐${r.rt}점, ${r.cnt?.toLocaleString()}개 리뷰가 말해주는 검증된 맛집입니다.`,
+  ]}
+}
+
+// ── 이미지 검색 URL (Unsplash) ─────────────────────────────
+function getFoodImages(r) {
+  const cats = r.cat || []
+  const tags = r.tags || []
+
+  let foodQ = 'korean-restaurant-food'
+  if (tags.some(t => /곱창|막창/.test(t)))                   foodQ = 'korean-gopchang-grilled-offal'
+  else if (cats.includes('국밥') || cats.includes('국물'))    foodQ = 'korean-gukbap-soup-bowl'
+  else if (tags.some(t => /오마카세/.test(t)))                foodQ = 'japanese-omakase-sushi'
+  else if (cats.includes('이자카야') || cats.includes('일식'))foodQ = 'japanese-izakaya-food'
+  else if (cats.includes('고기구이'))                          foodQ = 'korean-bbq-grilling'
+  else if (tags.some(t => /마라|훠궈/.test(t)))               foodQ = 'chinese-hot-pot'
+  else if (cats.includes('중식'))                              foodQ = 'chinese-food'
+  else if (cats.includes('양식') || cats.includes('이탈리안'))foodQ = 'pasta-italian-food'
+  else if (cats.includes('와인바'))                            foodQ = 'wine-bar-drinks'
+
+  let ambiQ = 'cozy-restaurant-interior-night'
+  if (r.moods?.includes('데이트'))       ambiQ = 'romantic-restaurant-dinner'
+  else if (r.moods?.includes('회식'))    ambiQ = 'group-dining-korean'
+  else if (r.moods?.includes('혼밥'))    ambiQ = 'solo-dining-japanese-counter'
+
+  return [
+    `https://source.unsplash.com/800x500/?${foodQ}`,
+    `https://source.unsplash.com/800x500/?${ambiQ}`,
+  ]
+}
+
 export default function RestaurantPage({ restaurant: r, similar }) {
   const BASE = 'https://dinner.ambitstock.com'
   const pageUrl = `${BASE}/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`
@@ -108,6 +242,10 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   const priceMin = r.priceRange ? parseInt(r.priceRange.split('~')[0]).toLocaleString() : null
   const priceMax = r.priceRange ? parseInt(r.priceRange.split('~')[1] || r.priceRange.split('~')[0]).toLocaleString() : null
+
+  // 감성 인트로 + 이미지
+  const intro = buildIntro(r)
+  const foodImages = getFoodImages(r)
 
   const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
 
@@ -156,6 +294,26 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       </Head>
 
+      {/* ── 감성 인트로 배너 ── */}
+      <section style={{
+        background:'linear-gradient(180deg, var(--surface2) 0%, var(--surface) 100%)',
+        borderBottom:'1px solid var(--border)',
+        padding:'32px 16px 28px',
+      }}>
+        <div style={{ maxWidth:760, margin:'0 auto' }}>
+          <div style={{ fontSize:'2.2rem', marginBottom:14 }}>{intro.emoji}</div>
+          {intro.lines.map((line, i) => (
+            <p key={i} style={{
+              fontSize: i === 0 ? '1rem' : '.92rem',
+              color: i === 0 ? 'var(--text)' : 'var(--muted)',
+              fontWeight: i === 0 ? 700 : 400,
+              lineHeight: 1.85,
+              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
+            }}>{line}</p>
+          ))}
+        </div>
+      </section>
+
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
@@ -165,9 +323,25 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
       </div>
 
-      {/* 히어로 */}
-      <section style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'28px 16px' }}>
-        <div style={{ maxWidth:760, margin:'0 auto' }}>
+      {/* 히어로 — 대표 이미지 포함 */}
+      <section style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'0 0 24px' }}>
+        <div style={{ width:'100%', height:'220px', overflow:'hidden', position:'relative', marginBottom:20 }}>
+          <img
+            src={foodImages[0]}
+            alt={`${r.name} 음식 사진`}
+            style={{ width:'100%', height:'100%', objectFit:'cover', filter:'brightness(0.75)' }}
+            loading="lazy"
+            onError={e => { e.target.style.display='none' }}
+          />
+          <div style={{ position:'absolute', inset:0, background:'linear-gradient(to bottom, transparent 40%, rgba(0,0,0,.5) 100%)' }} />
+          <div style={{ position:'absolute', bottom:16, left:16 }}>
+            <span style={{ fontSize:'.72rem', background:'rgba(0,0,0,.6)', color:'#fff', padding:'4px 10px', borderRadius:100, backdropFilter:'blur(4px)' }}>
+              📸 유사 이미지 참고용
+            </span>
+          </div>
+        </div>
+
+        <div style={{ maxWidth:760, margin:'0 auto', padding:'0 16px' }}>
           <div style={{ display:'flex', gap:14, alignItems:'flex-start' }}>
             <div style={{ fontSize:'3rem', flexShrink:0, lineHeight:1 }}>{r.e}</div>
             <div style={{ flex:1, minWidth:0 }}>
@@ -189,8 +363,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {r.hours}</p>
             </div>
           </div>
-
-          {/* CTA */}
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
             <a href={mapUrl} target="_blank" rel="noopener noreferrer"
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--primary)', color:'#fff', fontSize:'.85rem', fontWeight:700, textDecoration:'none' }}>
@@ -295,6 +467,24 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <p style={{ fontSize:'.74rem', color:'var(--muted)', marginBottom:24 }}>* Google Maps 실제 방문 리뷰 기반입니다.</p>
           </>
         )}
+
+        {/* 분위기 이미지 */}
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:28 }}>
+          {foodImages.map((src, i) => (
+            <div key={i} style={{ borderRadius:12, overflow:'hidden', height:150, position:'relative', background:'var(--surface2)' }}>
+              <img
+                src={src}
+                alt={i === 0 ? `${r.name} 음식` : `${r.name} 분위기`}
+                style={{ width:'100%', height:'100%', objectFit:'cover', filter:'brightness(0.8)' }}
+                loading="lazy"
+                onError={e => { e.target.parentElement.style.display='none' }}
+              />
+              <div style={{ position:'absolute', bottom:7, left:9, fontSize:'.63rem', color:'rgba(255,255,255,.75)', background:'rgba(0,0,0,.45)', padding:'2px 8px', borderRadius:100 }}>
+                {i === 0 ? '🍽️ 음식' : '🏠 분위기'} 참고 이미지
+              </div>
+            </div>
+          ))}
+        </div>
 
         {/* 효능 섹션 */}
         {effect && (
