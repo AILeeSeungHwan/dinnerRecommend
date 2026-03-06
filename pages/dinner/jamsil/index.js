@@ -634,7 +634,11 @@ export default function JamsilPage() {
             {CATS.map(cat=>{
               const count = restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
-                <div key={cat.slug} style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center' }}>
+                <div key={cat.slug} onClick={()=>setActiveTab('browse')}
+                  style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                  onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                  onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
+                >
                   <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
                   <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
                   <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>

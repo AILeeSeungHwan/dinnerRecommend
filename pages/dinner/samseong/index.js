@@ -28,7 +28,7 @@ const CATS = [
   {emoji:'🏮', name:'이자카야',  slug:'izakaya', cats:['이자카야']},
   {emoji:'🍜', name:'중식',      slug:'chinese', cats:['중식','훠궈']},
   {emoji:'🍝', name:'양식·스테이크', slug:'western', cats:['양식','이탈리안','스테이크']},
-  {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['회식']},
+  {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['이자카야','고기구이','중식']},
   {emoji:'🐔', name:'치킨·야장', slug:'chicken', cats:['치킨','야장']},
   {emoji:'🍣', name:'일식·스시', slug:'japanese',cats:['이자카야','일식']},
 ]
