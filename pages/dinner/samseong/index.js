@@ -271,7 +271,13 @@ function AiApp() {
   }, [])
 
   function scrollTo() {
-    setTimeout(() => resultsRef.current?.scrollIntoView({ behavior:'smooth', block:'start' }), 120)
+    setTimeout(() => {
+      if (!resultsRef.current) return
+      // 첫번째 결과 카드가 화면 상단에서 약간 아래 보이도록 offset 스크롤
+      const el = resultsRef.current
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 16
+      window.scrollTo({ top, behavior: 'smooth' })
+    }, 150)
   }
 
   function markShown(recs) {
@@ -463,7 +469,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         )}
 
         {results && (
-          <div ref={resultsRef} style={{ marginTop:24 }}>
+          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
             {results[0]?._random && (
               <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>🎲 랜덤 추천 결과</div>
             )}

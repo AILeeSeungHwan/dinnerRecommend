@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+const BASE = 'https://dinner.ambitstock.com'
+
 export default function Document() {
   return (
     <Html lang="ko">
@@ -9,17 +11,31 @@ export default function Document() {
         <meta name="naver-site-verification" content="68bdc2991328a363a86a07694fc809c701117a77" />
         <meta name="msvalidate.01" content="1E4F2FA1D46763B9C53162346F20C68D" />
 
+        {/* ── 모바일 뷰포트 고정 (확대/가로스크롤 방지) ── */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+
         {/* ── 기본 SEO ── */}
         <meta name="author" content="강남뭐먹" />
         <meta name="robots" content="index, follow" />
+
+        {/* ── OG (카카오·페이스북·슬랙 등 공유 미리보기) ── */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="강남뭐먹" />
-        <meta property="og:image" content="https://dinner.ambitstock.com/og-image.png" />
+        <meta property="og:title" content="강남뭐먹 — AI 맛집 추천" />
+        <meta property="og:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
+        <meta property="og:url" content={BASE} />
+        <meta property="og:image" content={`${BASE}/og-image.png`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="강남뭐먹 — AI 맛집 추천" />
+        <meta property="og:locale" content="ko_KR" />
+
+        {/* ── Twitter Card ── */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://dinner.ambitstock.com/og-image.png" />
+        <meta name="twitter:title" content="강남뭐먹 — AI 맛집 추천" />
+        <meta name="twitter:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
+        <meta name="twitter:image" content={`${BASE}/og-image.png`} />
+        <meta name="twitter:image:alt" content="강남뭐먹 — AI 맛집 추천" />
 
         {/* ── 카카오톡 공유 SDK ── */}
         <script
