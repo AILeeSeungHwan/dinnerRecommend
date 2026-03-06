@@ -163,6 +163,7 @@ export default function Layout({ children, title, description, canonical }) {
   const [theme,      setTheme]      = useState('light')
   const [showThemes, setShowThemes] = useState(false)
   const [showQR,     setShowQR]     = useState(false)
+  const [showStations, setShowStations] = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
 
   const rawTitle = title ? `${title} | 강남뭐먹` : '강남뭐먹 — 강남 맛집 AI 추천'
@@ -256,9 +257,21 @@ export default function Layout({ children, title, description, canonical }) {
           {/* 구분선 */}
           <span style={{ width:1, height:18, background:'var(--border)', flexShrink:0, marginRight:8 }} />
 
-          {/* 역 네비 인라인 (가로 스크롤) */}
-          <style>{`.stnav::-webkit-scrollbar{display:none}.stnpill:hover{background:var(--surface2)!important;color:var(--text)!important}`}</style>
-          <div className="stnav" style={{ display:'flex', alignItems:'center', gap:2, flex:1, minWidth:0, overflowX:'auto', scrollbarWidth:'none' }}>
+          {/* ── 역 네비 ── */}
+          <style>{`
+            .stnav-desktop::-webkit-scrollbar{display:none}
+            .stnpill:hover{background:var(--surface2)!important;color:var(--text)!important}
+            /* PC: 인라인, 모바일: 숨김 */
+            .stnav-desktop{ display:flex; }
+            .stnav-mobile-btn{ display:none; }
+            @media(max-width:639px){
+              .stnav-desktop{ display:none; }
+              .stnav-mobile-btn{ display:flex; }
+            }
+          `}</style>
+
+          {/* PC — 인라인 pill 가로 나열 */}
+          <div className="stnav-desktop" style={{ alignItems:'center', gap:2, flex:1, minWidth:0, overflowX:'auto', scrollbarWidth:'none' }}>
             {[
               { href:'/dinner/samseong', label:'삼성역', emoji:'🏙️', live:true },
               { href:'/dinner/jamsil',   label:'잠실역', emoji:'🎡',  live:true },
@@ -277,22 +290,93 @@ export default function Layout({ children, title, description, canonical }) {
                   border: isActive ? '1px solid var(--border)' : '1px solid transparent',
                   textDecoration:'none', whiteSpace:'nowrap', transition:'all .15s',
                 }}>
-                  <span>{s.emoji}</span>
-                  <span>{s.label}</span>
+                  <span>{s.emoji}</span><span>{s.label}</span>
                   <span style={{ width:5, height:5, borderRadius:'50%', background:'#22c55e', boxShadow:'0 0 5px #22c55e99', flexShrink:0 }} />
                 </Link>
               ) : (
                 <span key={s.label} style={{
                   display:'flex', alignItems:'center', gap:3, flexShrink:0,
                   padding:'3px 9px', borderRadius:100,
-                  fontSize:'.75rem', color:'var(--border)', whiteSpace:'nowrap', opacity:.7,
+                  fontSize:'.75rem', color:'var(--border)', whiteSpace:'nowrap', opacity:.65,
                 }}>
-                  <span>{s.emoji}</span>
-                  <span>{s.label}</span>
+                  <span>{s.emoji}</span><span>{s.label}</span>
                   <span style={{ fontSize:'.5rem', padding:'1px 4px', borderRadius:3, background:'var(--surface2)', color:'var(--muted)', border:'1px solid var(--border)', lineHeight:1.4 }}>준비중</span>
                 </span>
               )
             })}
+          </div>
+
+          {/* 모바일 — 드롭다운 버튼 */}
+          <div className="stnav-mobile-btn" style={{ flex:1, minWidth:0, position:'relative' }}>
+            <button onClick={() => { setShowStations(!showStations); setShowThemes(false) }} style={{
+              display:'flex', alignItems:'center', gap:5,
+              padding:'5px 10px', borderRadius:100, cursor:'pointer',
+              background: showStations ? 'var(--surface2)' : 'transparent',
+              border: '1px solid var(--border)',
+              fontSize:'.8rem', fontWeight:600, color:'var(--text)',
+              transition:'all .15s',
+            }}>
+              <span>🚇</span>
+              <span>지역 선택</span>
+              <span style={{ fontSize:'.6rem', color:'var(--muted)', marginLeft:'auto' }}>{showStations ? '▲' : '▼'}</span>
+            </button>
+
+            {showStations && (
+              <>
+                <div onClick={() => setShowStations(false)} style={{ position:'fixed', inset:0, zIndex:10 }} />
+                <div style={{
+                  position:'fixed', top:54, left:0, right:0, zIndex:11,
+                  background:'var(--surface)',
+                  borderBottom:'2px solid var(--primary)',
+                  boxShadow:'0 8px 24px rgba(0,0,0,.3)',
+                }}>
+                  {[
+                    { href:'/dinner/samseong', label:'삼성역', emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
+                    { href:'/dinner/jamsil',   label:'잠실역', emoji:'🎡',  live:true,  desc:'방이동·석촌호수·롯데타워' },
+                    { href:null, label:'강남역', emoji:'🏢', live:false, desc:'' },
+                    { href:null, label:'서초역', emoji:'🌿', live:false, desc:'' },
+                    { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
+                  ].map((s, i) => {
+                    const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
+                    return s.live ? (
+                      <Link key={s.label} href={s.href} onClick={() => setShowStations(false)} style={{
+                        display:'flex', alignItems:'center', gap:12,
+                        padding:'14px 20px',
+                        borderTop: i > 0 ? '1px solid var(--border)' : 'none',
+                        background: isActive ? 'var(--surface2)' : 'transparent',
+                        textDecoration:'none', transition:'background .1s',
+                      }}>
+                        <span style={{ fontSize:'1.4rem', flexShrink:0 }}>{s.emoji}</span>
+                        <div style={{ flex:1, minWidth:0 }}>
+                          <div style={{ display:'flex', alignItems:'center', gap:6, marginBottom:2 }}>
+                            <span style={{ fontSize:'.9rem', fontWeight:700, color: isActive ? 'var(--primary)' : 'var(--text)' }}>{s.label}</span>
+                            <span style={{ width:6, height:6, borderRadius:'50%', background:'#22c55e', boxShadow:'0 0 6px #22c55e' }} />
+                            <span style={{ fontSize:'.65rem', color:'#22c55e', fontWeight:600 }}>운영중</span>
+                          </div>
+                          <div style={{ fontSize:'.75rem', color:'var(--muted)' }}>{s.desc}</div>
+                        </div>
+                        {isActive && <span style={{ fontSize:'.75rem', color:'var(--primary)', fontWeight:700 }}>현재 ›</span>}
+                      </Link>
+                    ) : (
+                      <div key={s.label} style={{
+                        display:'flex', alignItems:'center', gap:12,
+                        padding:'14px 20px',
+                        borderTop: i > 0 ? '1px solid var(--border)' : 'none',
+                        opacity:.5,
+                      }}>
+                        <span style={{ fontSize:'1.4rem', flexShrink:0 }}>{s.emoji}</span>
+                        <div style={{ flex:1 }}>
+                          <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+                            <span style={{ fontSize:'.9rem', fontWeight:700, color:'var(--muted)' }}>{s.label}</span>
+                            <span style={{ fontSize:'.65rem', padding:'1px 6px', borderRadius:4, background:'var(--surface2)', color:'var(--muted)', border:'1px solid var(--border)' }}>준비중</span>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </>
+            )}
           </div>
 
           {/* 우측 버튼들 */}
