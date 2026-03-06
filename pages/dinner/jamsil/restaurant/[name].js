@@ -643,25 +643,40 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 실제 리뷰 */}
         {r.rv?.length > 0 && (
           <>
-            <h2 style={h2s}>💬 실제 방문자 리뷰</h2>
-            <p style={ps}>잠실 맛집 <strong>{r.name}</strong>에 실제 방문한 손님들의 Google 리뷰입니다.</p>
+            <h2 style={h2s}>💬 방문자 후기 요약</h2>
+            <p style={ps}>
+              실제 방문자들이 자주 언급한 키워드를 요약했습니다.
+            </p>
             {r.rv.map((rv, i) => {
-              const ratingMatch = rv.match(/,\s*([0-9.]+)★/)
+              const ratingMatch = rv.match(/^\[([0-9.]+)★\]\s*/)
               const indivRt = ratingMatch ? parseFloat(ratingMatch[1]) : null
-              const cleanRv = rv.replace(/ \(실제 Google 리뷰.*?\)/g, '')
+              const keywords = rv.replace(/^\[[0-9.]+★\]\s*/, '').split(' · ')
               return (
-                <div key={i} style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 10px 10px 0', padding:'12px 16px', marginBottom:10, fontSize:'.88rem', color:'var(--muted)', lineHeight:1.7 }}>
-                  <span style={{ color:'var(--primary)', marginRight:6 }}>
-                    ⭐ {indivRt ?? r.rt}
-                    {indivRt && indivRt !== r.rt && <span style={{fontSize:'.72rem', color:'var(--muted)', marginLeft:4}}>(이 리뷰어 평점)</span>}
-                  </span>
-                  {cleanRv}
+                <div key={i} style={{ marginBottom:10, display:'flex', flexWrap:'wrap', alignItems:'center', gap:6 }}>
+                  {indivRt && <span style={{ fontSize:'.75rem', fontWeight:700, color:'var(--primary)', flexShrink:0 }}>⭐ {indivRt}</span>}
+                  {keywords.map((kw, j) => (
+                    <span key={j} style={{
+                      fontSize:'.78rem', padding:'3px 10px', borderRadius:100,
+                      background:'var(--surface)', border:'1px solid var(--border)',
+                      color:'var(--text)', whiteSpace:'nowrap',
+                    }}>{kw}</span>
+                  ))}
                 </div>
               )
             })}
-            <p style={{ fontSize:'.74rem', color:'var(--muted)', marginBottom:24 }}>* Google Maps 실제 방문 리뷰 기반입니다.</p>
-          </>
-        )}
+            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' 잠실역')}`}
+              target="_blank" rel="noopener noreferrer"
+              style={{
+                display:'inline-flex', alignItems:'center', gap:6,
+                marginTop:4, marginBottom:24,
+                fontSize:'.78rem', color:'var(--muted)',
+                border:'1px solid var(--border)', borderRadius:8,
+                padding:'6px 12px', textDecoration:'none',
+                background:'var(--surface)', transition:'all .15s',
+              }}>
+              🗺️ Google Maps에서 실제 리뷰 보기 →
+            </a>
+
 
         {/* 효능 섹션 */}
         {effect && (
