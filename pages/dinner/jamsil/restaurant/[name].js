@@ -443,7 +443,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <h2 style={h2s}>💬 실제 방문자 리뷰</h2>
             <p style={ps}>잠실 맛집 <strong>{r.name}</strong>에 실제 방문한 손님들의 Google 리뷰입니다.</p>
             {r.rv.map((rv, i) => (
-              <div key={i} style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 10px 10px 0', padding:'12px 16px', marginBottom:10, fontSize:'.88rem', color:'#d0d0e0', lineHeight:1.7 }}>
+              <div key={i} style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 10px 10px 0', padding:'12px 16px', marginBottom:10, fontSize:'.88rem', color:'var(--muted)', lineHeight:1.7 }}>
                 <span style={{ color:'var(--primary)', marginRight:6 }}>⭐ {r.rt}</span>
                 {rv.replace(/ \(실제 Google 리뷰.*?\)/g, '')}
               </div>
@@ -534,7 +534,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   )
 }
 
-const h2s = { fontSize:'1rem', fontWeight:800, marginBottom:12, marginTop:32, paddingBottom:8, borderBottom:'1px solid var(--border)' }
-const ps  = { fontSize:'.88rem', color:'#c8c8d8', lineHeight:1.8, marginBottom:14 }
+const h2s = { fontSize:'1rem', fontWeight:800, marginBottom:12, marginTop:32, paddingBottom:8, borderBottom:'1px solid var(--border)', color:'var(--text)' }
+const ps  = { fontSize:'.88rem', color:'var(--muted)', lineHeight:1.8, marginBottom:14 }
 const uls = { paddingLeft:0, marginBottom:24, listStyle:'none' }
-const lis = { fontSize:'.87rem', color:'#c0c0d0', padding:'7px 0', borderBottom:'1px solid var(--border)', lineHeight:1.7, paddingLeft:14 }
+const lis = { fontSize:'.87rem', color:'var(--text)', padding:'7px 0', borderBottom:'1px solid var(--border)', lineHeight:1.7, paddingLeft:14 }

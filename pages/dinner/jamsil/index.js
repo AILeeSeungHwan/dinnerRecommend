@@ -455,7 +455,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         )}
 
         {error && (
-          <div style={{ marginTop:14,padding:14,background:'#2a1111',borderRadius:10,color:'#ff8888',fontSize:'.85rem' }}>
+          <div style={{ marginTop:14,padding:14,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,color:'var(--primary)',fontSize:'.85rem' }}>
             추천을 불러오지 못했습니다. 잠시 후 다시 시도해주세요.
           </div>
         )}
@@ -467,6 +467,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
             )}
             {results.map((rec,i)=>{
               const r = restaurants.find(x=>x.name===rec.restaurantName)
+                     || restaurants.find(x=>rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
               if (!r) return null
               const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
               return (
@@ -477,10 +478,10 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                       <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:5 }}>{r.e} {r.name}</div>
                       <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
                         <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
-                        <span style={{ fontSize:'.7rem',background:'#1a2a1a',padding:'2px 7px',borderRadius:100,border:'1px solid #2a4a2a',color:'#6fcf6f' }}>⭐{r.rt}</span>
-                        {r.priceRange&&<span style={{ fontSize:'.7rem',background:'#2a2200',padding:'2px 7px',borderRadius:100,border:'1px solid #4a3a00',color:'#f5c842' }}>💰{r.priceRange}원</span>}
-                        {r.exit2&&<span style={{ fontSize:'.7rem',background:'#1a1a00',padding:'2px 7px',borderRadius:100,border:'1px solid #4a4a00',color:'#ffd700' }}>🚇2번출구</span>}
-                        {r.waiting&&r.waiting!=='바로 입장'&&<span style={{ fontSize:'.7rem',background:'#1a1a2a',padding:'2px 7px',borderRadius:100,border:'1px solid #2a2a4a',color:'#8888ff' }}>{r.waiting}</span>}
+                        <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
+                        {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
+                        {r.exit2&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇2번출구</span>}
+                        {r.waiting&&r.waiting!=='바로 입장'&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.waiting}</span>}
                       </div>
                     </div>
                   </div>
@@ -552,12 +553,12 @@ function BrowseTab() {
         {filtered.map((r,i)=>(
           <Link href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`} key={i}>
             <div className="restaurant-card">
-              <div className="card-name">{r.e} {r.name}{r.exit2&&<span style={{marginLeft:6,fontSize:'.65rem',color:'#ffd700'}}>🚇</span>}</div>
+              <div className="card-name">{r.e} {r.name}{r.exit2&&<span style={{marginLeft:6,fontSize:'.65rem',color:'var(--accent)'}}>🚇</span>}</div>
               <div className="card-meta">
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>
                 {r.priceRange&&<span className="tag price">💰{r.priceRange}원</span>}
-                {r.waiting&&r.waiting!=='바로 입장'&&<span className="tag" style={{color:'#8888ff',borderColor:'#2a2a4a',background:'#1a1a2a'}}>{r.waiting}</span>}
+                {r.waiting&&r.waiting!=='바로 입장'&&<span className="tag" style={{color:'var(--muted)'}}>{r.waiting}</span>}
               </div>
               <div className="card-addr">📍 {r.addr}</div>
             </div>

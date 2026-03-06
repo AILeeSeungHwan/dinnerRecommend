@@ -15,7 +15,7 @@ const THEMES = [
   { id:'rose',        name:'로즈골드',      emoji:'🌹', vars:{ bg:'#0f0808', surface:'#1c1010', surface2:'#231414', border:'#361e1e', text:'#fff5f5', muted:'#bb8888', primary:'#e07070', accent:'#f4a0a0' }},
   { id:'cyber',       name:'사이버펑크',    emoji:'⚡', vars:{ bg:'#08000e', surface:'#110018', surface2:'#180022', border:'#320055', text:'#fff0ff', muted:'#bb77ee', primary:'#ff00cc', accent:'#ffee00' }},
   { id:'mono',        name:'모노크롬',      emoji:'◻️', vars:{ bg:'#0a0a0a', surface:'#151515', surface2:'#1e1e1e', border:'#2e2e2e', text:'#eeeeee', muted:'#888888', primary:'#cccccc', accent:'#999999' }},
-  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f0f0f4', surface:'#ffffff',  surface2:'#e8e8ef', border:'#c0c0cc', text:'#0a0a1a', muted:'#555566', primary:'#c94a10', accent:'#4a3cde' }},
+  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f8f8fa', surface:'#ffffff',  surface2:'#f2f2f7', border:'#e0e0eb', text:'#191922', muted:'#6b6b80', primary:'#e05a1e', accent:'#4a3cde' }},
   // ── 글로우 계열 (맨 뒤) — 배경 극한으로 어둡게, 가독성 확보 ──
   { id:'glow-orange', name:'글로우 오렌지', emoji:'🔥', vars:{ bg:'#060300', surface:'#0e0700', surface2:'#130b00', border:'#281500', text:'#fff0e0', muted:'#bb7733', primary:'#ff6b35', accent:'#ffaa44', glow:'rgba(255,107,53,.10)' }},
   { id:'glow-blue',   name:'글로우 블루',   emoji:'💙', vars:{ bg:'#010408', surface:'#030a16', surface2:'#050f20', border:'#0a1e3c', text:'#e0eeff', muted:'#6688aa', primary:'#3b8fff', accent:'#00d4ff', glow:'rgba(59,143,255,.10)' }},
@@ -28,7 +28,7 @@ const THEMES = [
 ]
 
 export default function Layout({ children, title, description, canonical }) {
-  const [theme,      setTheme]      = useState('dark')
+  const [theme,      setTheme]      = useState('light')
   const [showThemes, setShowThemes] = useState(false)
   const [showQR,     setShowQR]     = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
