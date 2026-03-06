@@ -676,7 +676,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               }}>
               🗺️ Google Maps에서 실제 리뷰 보기 →
             </a>
-
+          </>
+        )}
 
         {/* 효능 섹션 */}
         {effect && (
