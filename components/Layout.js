@@ -246,12 +246,57 @@ export default function Layout({ children, title, description, canonical }) {
         width: '100%', boxSizing: 'border-box',
         boxShadow: isLightGroup ? '0 1px 8px rgba(0,0,0,.08)' : '0 2px 16px rgba(0,0,0,.4)',
       }}>
-        <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', height:52, gap:6, minWidth:0 }}>
-          <Link href="/" style={{ fontWeight:900, fontSize:'1.05rem', color:'var(--primary)', textDecoration:'none', flexShrink:0 }}>
+        <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', height:52, gap:0, minWidth:0 }}>
+
+          {/* 로고 */}
+          <Link href="/" style={{ fontWeight:900, fontSize:'1rem', color:'var(--primary)', textDecoration:'none', flexShrink:0, marginRight:8 }}>
             🍚 강남뭐먹
           </Link>
 
-          <div style={{ display:'flex', alignItems:'center', gap:5, flexShrink:0 }}>
+          {/* 구분선 */}
+          <span style={{ width:1, height:18, background:'var(--border)', flexShrink:0, marginRight:8 }} />
+
+          {/* 역 네비 인라인 (가로 스크롤) */}
+          <style>{`.stnav::-webkit-scrollbar{display:none}.stnpill:hover{background:var(--surface2)!important;color:var(--text)!important}`}</style>
+          <div className="stnav" style={{ display:'flex', alignItems:'center', gap:2, flex:1, minWidth:0, overflowX:'auto', scrollbarWidth:'none' }}>
+            {[
+              { href:'/dinner/samseong', label:'삼성역', emoji:'🏙️', live:true },
+              { href:'/dinner/jamsil',   label:'잠실역', emoji:'🎡',  live:true },
+              { href:null, label:'강남역', emoji:'🏢', live:false },
+              { href:null, label:'서초역', emoji:'🌿', live:false },
+              { href:null, label:'역삼역', emoji:'💼', live:false },
+            ].map(s => {
+              const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
+              return s.live ? (
+                <Link key={s.label} href={s.href} className="stnpill" style={{
+                  display:'flex', alignItems:'center', gap:3, flexShrink:0,
+                  padding:'3px 9px', borderRadius:100,
+                  fontSize:'.75rem', fontWeight: isActive ? 700 : 500,
+                  color: isActive ? 'var(--primary)' : 'var(--muted)',
+                  background: isActive ? 'var(--surface2)' : 'transparent',
+                  border: isActive ? '1px solid var(--border)' : '1px solid transparent',
+                  textDecoration:'none', whiteSpace:'nowrap', transition:'all .15s',
+                }}>
+                  <span>{s.emoji}</span>
+                  <span>{s.label}</span>
+                  <span style={{ width:5, height:5, borderRadius:'50%', background:'#22c55e', boxShadow:'0 0 5px #22c55e99', flexShrink:0 }} />
+                </Link>
+              ) : (
+                <span key={s.label} style={{
+                  display:'flex', alignItems:'center', gap:3, flexShrink:0,
+                  padding:'3px 9px', borderRadius:100,
+                  fontSize:'.75rem', color:'var(--border)', whiteSpace:'nowrap', opacity:.7,
+                }}>
+                  <span>{s.emoji}</span>
+                  <span>{s.label}</span>
+                  <span style={{ fontSize:'.5rem', padding:'1px 4px', borderRadius:3, background:'var(--surface2)', color:'var(--muted)', border:'1px solid var(--border)', lineHeight:1.4 }}>준비중</span>
+                </span>
+              )
+            })}
+          </div>
+
+          {/* 우측 버튼들 */}
+          <div style={{ display:'flex', alignItems:'center', gap:5, flexShrink:0, marginLeft:6 }}>
             {/* 토큰 비용 (달러→원, 1달러=1450원) — 클릭하면 QR 모달 */}
             {tokenCost > 0 && (
               <button onClick={() => setShowQR(true)} title="검색에 사용된 AI 비용" style={{
