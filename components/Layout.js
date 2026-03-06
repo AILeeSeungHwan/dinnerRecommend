@@ -141,27 +141,29 @@ export default function Layout({ children, title, description, canonical }) {
               {showThemes && (
                 <>
                   <div onClick={() => setShowThemes(false)} style={{ position:'fixed', inset:0, zIndex:10 }} />
+                  {/* 상단 full-width 패널 — 화면 밖 이탈 없음 */}
                   <div style={{
-                    position:'fixed', top:52, right:8, zIndex:11,
-                    background:'var(--surface)', border:'2px solid var(--border)',
-                    borderRadius:14, padding:8,
-                    width: 'min(264px, calc(100vw - 16px))',
-                    maxHeight:'calc(100vh - 70px)', overflowY:'auto',
-                    boxShadow:'0 8px 40px rgba(0,0,0,.6)',
-                    display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:4,
+                    position:'fixed', top:54, left:0, right:0, zIndex:11,
+                    background:'var(--surface)',
+                    borderTop:'1px solid var(--border)',
+                    borderBottom:'2px solid var(--primary)',
+                    padding:'10px 12px',
+                    boxShadow:'0 8px 32px rgba(0,0,0,.5)',
+                    display:'grid',
+                    gridTemplateColumns:'repeat(auto-fill, minmax(88px, 1fr))',
+                    gap:6,
                   }}>
                     {THEMES.map(t => {
                       const isActive = theme === t.id
-                      // 라이트 테마일 때 드롭다운 내부 글자도 강제로 어둡게
                       const isLight = ['light'].includes(theme)
                       return (
                         <button key={t.id} onClick={() => { setTheme(t.id); setShowThemes(false) }} style={{
-                          display:'flex', alignItems:'center', gap:4,
-                          padding:'7px 8px', borderRadius:8, cursor:'pointer',
+                          display:'flex', alignItems:'center', gap:5,
+                          padding:'7px 10px', borderRadius:8, cursor:'pointer',
                           background: isActive ? 'var(--primary)' : 'var(--surface2)',
                           color: isActive ? '#fff' : (isLight ? '#111' : 'var(--text)'),
                           border: isActive ? '1.5px solid var(--primary)' : '1.5px solid var(--border)',
-                          fontSize:'.72rem',
+                          fontSize:'.75rem',
                           fontWeight: isActive ? 700 : 500,
                           whiteSpace:'nowrap',
                           transition:'all .1s',
@@ -202,13 +204,14 @@ export default function Layout({ children, title, description, canonical }) {
             <h3 style={{ fontSize:'1rem', fontWeight:900, marginBottom:4, color:'var(--text)' }}>
               개발자 국밥 먹이기
             </h3>
-            <p style={{ fontSize:'.8rem', color:'var(--muted)', marginBottom:6, lineHeight:1.7 }}>
-              방금 AI 검색에 <strong style={{ color:'var(--primary)' }}>약 {Math.ceil(tokenCost * 1450) || 0}원</strong> 이 사용됐어요 💸<br />
-              이 비용은 개발자 통장에서 나갑니다 😅
-            </p>
-            <p style={{ fontSize:'.75rem', color:'var(--muted)', marginBottom:18, lineHeight:1.6 }}>
-              커피 한 잔 값이면 수백 번 검색이 가능해요 ☕<br />
-              마음에 드셨다면 국밥 한 그릇 도와주세요 🥣
+            <p style={{ fontSize:'.8rem', color:'var(--muted)', marginBottom:18, lineHeight:1.8 }}>
+              방금 AI 검색에 <strong style={{ color:'var(--primary)' }}>약 {Math.ceil(tokenCost * 1450) || 0}원</strong> 이 사용됐어요<br />
+              이 비용은 개발자 통장에서 나갑니다 💸<br />
+              <br />
+              <span style={{ fontSize:'.72rem', opacity:.75 }}>
+                (추신) 국밥 한 그릇 값이면<br />
+                개발자가 일주일은 버텨요 🥣
+              </span>
             </p>
             <div style={{ background:'#fff', borderRadius:12, padding:12, display:'inline-block', marginBottom:10 }}>
               <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:196, height:196, display:'block' }} />
