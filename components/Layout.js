@@ -98,11 +98,10 @@ export default function Layout({ children, title, description, canonical }) {
           </Link>
 
           <div style={{ display:'flex', alignItems:'center', gap:5, flexShrink:0 }}>
-            {/* 토큰 비용 — 작은 화면에서 숨김 */}
+            {/* 토큰 비용 (달러→원, 1달러=1450원) */}
             {tokenCost > 0 && (
-              <span style={{ fontSize:'.65rem', color:'var(--muted)', background:'var(--surface2)', padding:'3px 7px', borderRadius:100, border:'1px solid var(--border)', display:'var(--show-token, inline)' }}
-                className="token-badge">
-                ⚡ ${tokenCost.toFixed(4)}
+              <span style={{ fontSize:'.65rem', color:'var(--muted)', background:'var(--surface2)', padding:'3px 7px', borderRadius:100, border:'1px solid var(--border)', flexShrink:0 }}>
+                ⚡ {Math.ceil(tokenCost * 1450)}원
               </span>
             )}
 
@@ -118,12 +117,20 @@ export default function Layout({ children, title, description, canonical }) {
 
             {/* 테마 선택 */}
             <div style={{ position:'relative' }}>
-              <button onClick={() => setShowThemes(!showThemes)} style={{
-                background:'var(--surface2)', border:'1px solid var(--border)',
-                borderRadius:100, padding:'5px 9px', cursor:'pointer',
-                fontSize:'.85rem', color:'var(--text)',
-              }}>
+              <button onClick={() => setShowThemes(!showThemes)}
+                title="배경 테마 변경"
+                style={{
+                  background: showThemes ? 'var(--primary)' : 'var(--surface2)',
+                  border:'2px solid var(--primary)',
+                  borderRadius:100, padding:'4px 9px', cursor:'pointer',
+                  fontSize:'.85rem', color:'var(--text)',
+                  boxShadow: '0 0 8px rgba(var(--primary-rgb, 255,107,53), 0.5)',
+                  flexShrink:0,
+                  transition:'all .15s',
+                  display:'flex', alignItems:'center', gap:3,
+                }}>
                 {ct.emoji}
+                <span style={{ fontSize:'.55rem', color:'var(--muted)', lineHeight:1, letterSpacing:'-0.3px' }}>테마</span>
               </button>
 
               {showThemes && (
