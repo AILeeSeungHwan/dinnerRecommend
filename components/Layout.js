@@ -18,11 +18,11 @@ const THEMES = [
   { id:'forest',      name:'포레스트',      emoji:'🌲', vars:{ bg:'#080f0a', surface:'#101a12', surface2:'#16241a', border:'#1e3a24', text:'#e0f0e4', muted:'#7aaa80', primary:'#4caf6e', accent:'#a8e063' }},
   { id:'aurora',      name:'오로라',        emoji:'🌌', vars:{ bg:'#07050f', surface:'#110d20', surface2:'#18142c', border:'#2a1f4a', text:'#eeeaff', muted:'#9988cc', primary:'#a855f7', accent:'#06b6d4' }},
   { id:'sunset',      name:'선셋',          emoji:'🌅', vars:{ bg:'#130709', surface:'#210d10', surface2:'#2d1216', border:'#4a1f26', text:'#fff0f0', muted:'#cc8899', primary:'#ff4d6d', accent:'#ff9a3c' }},
-  { id:'mono',        name:'모노크롬',      emoji:'⬜', vars:{ bg:'#111111', surface:'#1c1c1c', surface2:'#252525', border:'#333333', text:'#eeeeee', muted:'#888888', primary:'#cccccc', accent:'#aaaaaa' }},
-  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f0f0f4', surface:'#ffffff',  surface2:'#e8e8ef', border:'#d0d0dc', text:'#111122', muted:'#555566', primary:'#e05a20', accent:'#5a4cee' }},
+  { id:'mono',        name:'모노크롬',      emoji:'⬜', vars:{ bg:'#111111', surface:'#1c1c1c', surface2:'#252525', border:'#333333', text:'#f0f0f0', muted:'#aaaaaa', primary:'#dddddd', accent:'#bbbbbb' }},
+  { id:'light',       name:'라이트',        emoji:'☀️', vars:{ bg:'#f0f0f4', surface:'#ffffff',  surface2:'#e8e8ef', border:'#c0c0cc', text:'#0a0a1a', muted:'#3a3a50', primary:'#c94a10', accent:'#4a3cde' }},
   { id:'cyber',       name:'사이버펑크',    emoji:'⚡', vars:{ bg:'#0a0010', surface:'#130020', surface2:'#1a002c', border:'#3d0066', text:'#fff0ff', muted:'#dd99ff', primary:'#ff00cc', accent:'#ffee00' }},
   // ── 프리미엄 ──
-  { id:'obsidian',    name:'옵시디언',      emoji:'🖤', vars:{ bg:'#000000', surface:'#111111', surface2:'#181818', border:'#2a2a2a', text:'#ffffff', muted:'#888888', primary:'#e0e0e0', accent:'#aaaaaa' }},
+  { id:'obsidian',    name:'옵시디언',      emoji:'🖤', vars:{ bg:'#000000', surface:'#111111', surface2:'#181818', border:'#2a2a2a', text:'#ffffff', muted:'#aaaaaa', primary:'#e0e0e0', accent:'#bbbbbb' }},
   { id:'ocean',       name:'딥오션',        emoji:'🐋', vars:{ bg:'#020810', surface:'#04101e', surface2:'#071628', border:'#0e2a44', text:'#cce8ff', muted:'#5588aa', primary:'#0ea5e9', accent:'#38bdf8' }},
   { id:'rose',        name:'로즈골드',      emoji:'🌹', vars:{ bg:'#0f0a0a', surface:'#1e1212', surface2:'#281818', border:'#3d2222', text:'#fff5f5', muted:'#bb8888', primary:'#e07070', accent:'#f4a0a0' }},
   { id:'jade',        name:'제이드',        emoji:'🍃', vars:{ bg:'#040a06', surface:'#091410', surface2:'#0d1c16', border:'#143022', text:'#e0f5ec', muted:'#559966', primary:'#059669', accent:'#34d399' }},
@@ -87,10 +87,11 @@ export default function Layout({ children, title, description, canonical }) {
 
       {/* ── 헤더 ── */}
       <header style={{
-        background: 'var(--surface)', borderBottom: '1px solid var(--border)',
+        background: 'var(--surface)', borderBottom: '2px solid var(--border)',
         padding: '0 12px', position: 'sticky', top: 0, zIndex: 100,
         backdropFilter: 'blur(12px)',
         width: '100%', boxSizing: 'border-box',
+        boxShadow: '0 2px 12px rgba(0,0,0,.15)',
       }}>
         <div style={{ maxWidth:900, margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', height:52, gap:6, minWidth:0 }}>
           <Link href="/" style={{ fontWeight:900, fontSize:'1.05rem', color:'var(--primary)', textDecoration:'none', flexShrink:0 }}>
@@ -138,25 +139,33 @@ export default function Layout({ children, title, description, canonical }) {
                   <div onClick={() => setShowThemes(false)} style={{ position:'fixed', inset:0, zIndex:10 }} />
                   <div style={{
                     position:'fixed', top:52, right:8, zIndex:11,
-                    background:'var(--surface)', border:'1px solid var(--border)',
+                    background:'var(--surface)', border:'2px solid var(--border)',
                     borderRadius:14, padding:8,
-                    width: 'min(252px, calc(100vw - 16px))',
-                    boxShadow:'0 8px 32px rgba(0,0,0,.5)',
+                    width: 'min(264px, calc(100vw - 16px))',
+                    maxHeight:'calc(100vh - 70px)', overflowY:'auto',
+                    boxShadow:'0 8px 40px rgba(0,0,0,.6)',
                     display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:4,
                   }}>
-                    {THEMES.map(t => (
-                      <button key={t.id} onClick={() => { setTheme(t.id); setShowThemes(false) }} style={{
-                        display:'flex', alignItems:'center', gap:5,
-                        padding:'7px 9px', borderRadius:8, cursor:'pointer',
-                        background: theme===t.id ? 'var(--primary)' : 'transparent',
-                        color: theme===t.id ? '#fff' : 'var(--text)',
-                        border:'none', fontSize:'.74rem',
-                        fontWeight: theme===t.id ? 700 : 400,
-                        whiteSpace:'nowrap',
-                      }}>
-                        {t.emoji} {t.name}
-                      </button>
-                    ))}
+                    {THEMES.map(t => {
+                      const isActive = theme === t.id
+                      // 라이트 테마일 때 드롭다운 내부 글자도 강제로 어둡게
+                      const isLight = ['light'].includes(theme)
+                      return (
+                        <button key={t.id} onClick={() => { setTheme(t.id); setShowThemes(false) }} style={{
+                          display:'flex', alignItems:'center', gap:4,
+                          padding:'7px 8px', borderRadius:8, cursor:'pointer',
+                          background: isActive ? 'var(--primary)' : 'var(--surface2)',
+                          color: isActive ? '#fff' : (isLight ? '#111' : 'var(--text)'),
+                          border: isActive ? '1.5px solid var(--primary)' : '1.5px solid var(--border)',
+                          fontSize:'.72rem',
+                          fontWeight: isActive ? 700 : 500,
+                          whiteSpace:'nowrap',
+                          transition:'all .1s',
+                        }}>
+                          {t.emoji} {t.name}
+                        </button>
+                      )
+                    })}
                   </div>
                 </>
               )}
