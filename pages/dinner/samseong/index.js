@@ -262,6 +262,7 @@ function AiApp() {
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
+  const [showFilters,setShowFilters]= useState(false)
   const resultsRef  = useRef(null)
 
   useEffect(() => {
@@ -417,30 +418,44 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
           />
         </div>
 
+        {/* 필터 토글 */}
         <div style={{ marginBottom:14 }}>
-          <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 오늘 날씨</div>
-          <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-            {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
-          </div>
-        </div>
-
-        <div style={{ marginBottom:14 }}>
-          <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:6 }}>😊 기분 (복수선택)</div>
-          <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-            {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
-          </div>
-        </div>
-
-        <div style={{ marginBottom:20 }}>
-          <button onClick={()=>setExit4Only(!exit4Only)} style={{
-            ...chip(exit4Only),
-            border:`1px solid ${exit4Only?'#ffd700':'var(--border)'}`,
-            background:exit4Only?'#2a2200':'var(--surface2)',
-            color:exit4Only?'#ffd700':'var(--muted)', fontWeight:exit4Only?700:400,
+          <button onClick={()=>setShowFilters(v=>!v)} style={{
+            display:'flex', alignItems:'center', gap:6,
+            padding:'7px 14px', borderRadius:10, fontSize:'.82rem',
+            border:`1px solid ${(weather||moods.length||exit4Only)?'var(--primary)':'var(--border)'}`,
+            background:(weather||moods.length||exit4Only)?'var(--primary)':'var(--surface2)',
+            color:(weather||moods.length||exit4Only)?'#fff':'var(--muted)',
+            cursor:'pointer', transition:'all .15s',
           }}>
-            🚇 4번출구 근처만 ({restaurants.filter(r=>r.exit4).length}개)
+            <span>{showFilters ? '▲' : '▼'}</span>
+            <span>필터 {(weather||moods.length||exit4Only) ? `(${[weather,...moods,exit4Only?'4번출구':''].filter(Boolean).length}개 선택)` : '추가'}</span>
           </button>
         </div>
+        {showFilters && (
+          <div style={{ marginBottom:14, padding:'14px', background:'var(--surface)', borderRadius:12, border:'1px solid var(--border)' }}>
+            <div style={{ marginBottom:12 }}>
+              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 날씨</div>
+              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+                {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
+              </div>
+            </div>
+            <div style={{ marginBottom:12 }}>
+              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
+              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+                {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
+              </div>
+            </div>
+            <button onClick={()=>setExit4Only(!exit4Only)} style={{
+              ...chip(exit4Only),
+              border:`1px solid ${exit4Only?'#ffd700':'var(--border)'}`,
+              background:exit4Only?'#2a2200':'var(--surface2)',
+              color:exit4Only?'#ffd700':'var(--muted)', fontWeight:exit4Only?700:400,
+            }}>
+              🚇 4번출구 근처만 ({restaurants.filter(r=>r.exit4).length}개)
+            </button>
+          </div>
+        )}
 
         <div style={{ display:'flex',gap:8 }}>
           <button onClick={handleRecommendClick} disabled={loading||dicing} style={{
@@ -479,40 +494,44 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               if (!r) return null
               const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
               return (
-                <div key={i} style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12 }}>
-                  <div style={{ display:'flex',gap:10,marginBottom:8 }}>
-                    <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
-                    <div style={{ flex:1,minWidth:0 }}>
-                      <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:5 }}>{r.e} {r.name}</div>
-                      <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
-                        <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
-                        <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
-                        {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
-                        {r.exit4&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇4번출구</span>}
+                <Link key={i} href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}
+                  style={{ textDecoration:'none', display:'block', color:'inherit' }}>
+                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
+                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
+                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
+                  >
+                    <div style={{ display:'flex',gap:10,marginBottom:8 }}>
+                      <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
+                      <div style={{ flex:1,minWidth:0 }}>
+                        <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:5 }}>{r.e} {r.name}</div>
+                        <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
+                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
+                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
+                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
+                          {r.exit4&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇4번출구</span>}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
-                  {rec.reviewHighlight&&(
-                    <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
-                      💬 "{rec.reviewHighlight}"
+                    <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
+                    {rec.reviewHighlight&&(
+                      <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
+                        💬 "{rec.reviewHighlight}"
+                      </div>
+                    )}
+                    <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
+                      <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 삼성역')}`}
+                        target="_blank" rel="noopener noreferrer"
+                        onClick={e=>e.stopPropagation()}
+                        style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>
+                        📍 지도
+                      </a>
+                      <span style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>
+                        🕐 {r.hours}
+                      </span>
+                      <span style={{ marginLeft:'auto',fontSize:'.72rem',color:'var(--muted)',opacity:.6 }}>탭해서 상세보기 →</span>
                     </div>
-                  )}
-                  <div style={{ display:'flex',gap:6,marginTop:6,flexWrap:'wrap' }}>
-                    <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 삼성역')}`}
-                      target="_blank" rel="noopener noreferrer"
-                      style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none' }}>
-                      📍 지도
-                    </a>
-                    <span style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>
-                      🕐 {r.hours}
-                    </span>
-                    <Link href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}
-                      style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--primary)',textDecoration:'none' }}>
-                      상세 보기 →
-                    </Link>
                   </div>
-                </div>
+                </Link>
               )
             })}
           </div>
