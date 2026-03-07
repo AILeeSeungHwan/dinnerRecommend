@@ -492,7 +492,6 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               if (!r) return null
               const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
               return (
-              return (
                 <Link key={i} href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`}
                   style={{ textDecoration:'none', display:'block', color:'inherit' }}>
                   <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
