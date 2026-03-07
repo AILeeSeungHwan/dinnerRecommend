@@ -494,10 +494,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               return (
                 <Link key={i} href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`}
                   style={{ textDecoration:'none', display:'block', color:'inherit' }}>
-                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
-                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
-                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
-                  >
+                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}>
                     <div style={{ display:'flex',gap:10,marginBottom:8 }}>
                       <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
                       <div style={{ flex:1,minWidth:0 }}>
@@ -507,19 +504,13 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
                           {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
                           {r.exit2&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇2번출구</span>}
-                          {r.waiting&&r.waiting!=='바로 입장'&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.waiting}</span>}
                         </div>
                       </div>
                     </div>
                     <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
                     {rec.reviewHighlight&&(
                       <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
-                        💬 {`"${rec.reviewHighlight}"`}
-                      </div>
-                    )}
-                    {r.menu?.[0]&&(
-                      <div style={{ fontSize:'.72rem',color:'var(--muted)',marginBottom:6 }}>
-                        🍽️ 대표메뉴: <strong style={{ color:'var(--text)' }}>{r.menu[0].name}</strong> {r.menu[0].price?.toLocaleString()}원~
+                        {`"${rec.reviewHighlight}"`}
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
@@ -537,6 +528,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                   </div>
                 </Link>
               )
+            })}
           </div>
         )}
       </div>
