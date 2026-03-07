@@ -25,14 +25,19 @@ const NL_MENU_MAP = [
 const WEATHER = ['맑음','흐림','비','눈','쌀쌀함','덥고 습함']
 const MOODS   = ['기분 좋음','피곤함','스트레스','혼밥','축하','허전함','데이트','회식']
 const CATS = [
-  {emoji:'🥣', name:'국밥·해장', slug:'gukbap',   cats:['국밥','국물']},
-  {emoji:'🥩', name:'고기구이',  slug:'meat',     cats:['고기구이','한식']},
-  {emoji:'🫀', name:'곱창·막창', slug:'gopchang', cats:['고기구이','야장']},
-  {emoji:'🍜', name:'중식·훠궈', slug:'chinese',  cats:['중식','훠궈']},
-  {emoji:'🍝', name:'양식·스테이크', slug:'western', cats:['양식','이탈리안','스테이크']},
-  {emoji:'🍣', name:'일식·스시', slug:'japanese', cats:['이자카야','일식']},
-  {emoji:'🎉', name:'회식·단체', slug:'group',    cats:['이자카야','고기구이']},
-  {emoji:'🍷', name:'바·와인',   slug:'bar',      cats:['와인바','이자카야','야장']},
+  {emoji:'🥩', name:'고기구이·한우',     slug:'meat',     cats:['고기구이'],                     tags:['한우','갈비','삼겹살','목살']},
+  {emoji:'🦪', name:'해산물·조개·아구찜', slug:'seafood',  cats:['해산물'],                       tags:['조개찜','아구찜','물회','쭈꾸미','활문어']},
+  {emoji:'🫀', name:'곱창·막창·내장',    slug:'gopchang', cats:[],                               tags:['곱창','막창','소곱창','내장','돼지곱창']},
+  {emoji:'🏮', name:'이자카야·포차',     slug:'izakaya',  cats:['이자카야','야장'],               tags:['포차감성','전골','수제맥주']},
+  {emoji:'🍣', name:'일식·스시·오마카세', slug:'japanese', cats:['일식'],                         tags:['스시','사시미','규동','오마카세']},
+  {emoji:'🥣', name:'국밥·칼국수·해장',  slug:'gukbap',   cats:['국밥','칼국수'],                tags:['해장','감자탕','순대국밥']},
+  {emoji:'🍜', name:'중식·마라·양꼬치',  slug:'chinese',  cats:['중식','훠궈'],                  tags:['마라탕','양꼬치','짬뽕']},
+  {emoji:'🍝', name:'양식·파스타·피자',  slug:'western',  cats:['양식','이탈리안'],              tags:['파스타','피자','스테이크']},
+  {emoji:'🍱', name:'한식·갈비찜·족발',  slug:'korean',   cats:['한식'],                         tags:['갈비찜','족발','보쌈','한정식']},
+  {emoji:'🎉', name:'회식·단체모임',     slug:'group',    cats:[],                               tags:['단체가능','회식','주차가능']},
+  {emoji:'💑', name:'데이트·분위기',     slug:'date',     cats:[],                               tags:['데이트','뷰맛집','프라이빗','인스타감성']},
+  {emoji:'💰', name:'가성비·혼밥·점심',  slug:'budget',   cats:[],                               tags:['가성비','점심','혼밥가능']},
+  {emoji:'✨', name:'프리미엄·오마카세', slug:'premium',  cats:[],                               tags:['오마카세','예약제','미슐랭','프라이빗']},
 ]
 
 // ── 유틸 ──────────────────────────────────────────────────────
@@ -632,17 +637,23 @@ export default function JamsilPage() {
         {activeTab==='categories' && (
           <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10 }}>
             {CATS.map(cat=>{
-              const count = restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
+              const count = restaurants.filter(r=>{
+                const catMatch = cat.cats.length > 0 && cat.cats.some(c=>r.cat?.includes(c))
+                const tagMatch = cat.tags?.some(t=>r.tags?.some(rt=>rt.includes(t))||r.cat?.some(c=>c.includes(t)))
+                return catMatch||tagMatch
+              }).length
               return (
-                <div key={cat.slug} onClick={()=>setActiveTab('browse')}
-                  style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
-                  onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
-                  onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
-                >
-                  <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                  <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                  <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
-                </div>
+                <Link key={cat.slug} href={`/dinner/jamsil/category/${cat.slug}`} style={{ textDecoration:'none' }}>
+                  <div
+                    style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                    onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
+                  >
+                    <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
+                    <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3,color:'var(--text)' }}>{cat.name}</div>
+                    <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
+                  </div>
+                </Link>
               )
             })}
           </div>
