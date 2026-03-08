@@ -2,6 +2,9 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 import samseongData from '../data/samseong'
 import jamsilData from '../data/jamsil'
+import yeongtongData from '../data/yeongtong'
+import mangpoData from '../data/mangpo'
+import yeongtongGuData from '../data/yeongtongGu'
 
 const stations = [
   {
@@ -26,6 +29,25 @@ const stations = [
   },
 ]
 
+// 삼성전자 임직원 지역
+const seStations = [
+  {
+    slug:'yeongtong', name:'영통역', emoji:'🚇',
+    desc:'삼성전자 DS · 영통 먹자골목',
+    count: yeongtongData.length, ready:true,
+  },
+  {
+    slug:'mangpo', name:'망포역', emoji:'🌿',
+    desc:'삼성전자 생활가전 · 망포 로컬',
+    count: mangpoData.length, ready:true,
+  },
+  {
+    slug:'yeongtongGu', name:'영통구청', emoji:'🏢',
+    desc:'매탄동 · 삼성전기 · 구청 인근',
+    count: yeongtongGuData.length, ready:true,
+  },
+]
+
 const CATS = [
   {emoji:'🥣', name:'국밥·해장', slug:'gukbap'},
   {emoji:'🥩', name:'고기·한우', slug:'meat'},
@@ -36,7 +58,8 @@ const CATS = [
 ]
 
 export default function Home() {
-  const totalCount = samseongData.length + jamsilData.length
+  const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length
+  const seTotal = yeongtongData.length + mangpoData.length + yeongtongGuData.length
 
   return (
     <Layout
@@ -55,7 +78,7 @@ export default function Home() {
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
           날씨·기분·예산만 말하면 AI가 딱 맞는 식당 TOP3 추천<br />
-          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length}개 + 잠실·방이동 {jamsilData.length}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
+          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length} · 잠실 {jamsilData.length} · 영통 {seTotal}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
         </p>
         <div style={{ display:'flex', gap:10, justifyContent:'center', flexWrap:'wrap' }}>
           <Link href="/dinner/samseong">
@@ -104,6 +127,26 @@ export default function Home() {
           ))}
         </div>
 
+        {/* 삼성전자 임직원 지역 */}
+        <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>🏭 삼성전자 임직원 맛집</h2>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:12, marginBottom:40 }}>
+          {seStations.map(s => (
+            <Link key={s.slug} href={`/samsungElectronics/${s.slug}`} style={{ textDecoration:'none' }}>
+              <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', cursor:'pointer', position:'relative', overflow:'hidden' }}>
+                <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
+                <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
+                <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:10 }}>{s.desc}</div>
+                <span style={{ fontSize:'.7rem', background:'#1a2a2a', color:'#6fcfcf', padding:'2px 8px', borderRadius:100, border:'1px solid #2a4a4a' }}>
+                  식당 {s.count}개+
+                </span>
+                <div style={{ position:'absolute', top:12, right:12, background:'#1e3a5f', color:'#7eb8f7', fontSize:'.6rem', padding:'2px 7px', borderRadius:100, fontWeight:700 }}>
+                  SE
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
         {/* 카테고리 (삼성역 기준) */}
         <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>🍽️ 카테고리별 맛집</h2>
         <div style={{ display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:10, marginBottom:40 }}>
@@ -128,9 +171,13 @@ export default function Home() {
             <strong>삼성역·코엑스</strong> 주변은 국밥·한우·이자카야·딤섬·훠궈·스테이크 등 {samseongData.length}개 식당을 엄선했습니다.
             4번출구 근처 맛집 필터와 AI 추천으로 회식·데이트·혼밥 어디든 딱 맞는 곳을 찾을 수 있습니다.
           </p>
-          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
             <strong>잠실·방이동</strong>은 곱창·삼겹살 골목의 로컬 맛집부터 석촌호수 카페·송리단길 브런치·롯데타워 오마카세까지
             {jamsilData.length}개 식당을 담았습니다. 잠실에서 오늘 뭐 먹지 고민이라면 AI 추천을 써보세요.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
+            <strong>영통·망포·영통구청</strong>은 삼성전자 임직원 맛집 특화 서비스입니다.
+            직장인 점심·회식·이자카야까지 {seTotal}개 식당을 AI가 골라드립니다.
           </p>
         </article>
       </div>

@@ -14,11 +14,14 @@ function fmtPrice(p) {
 
 function naverMapUrl(name, lat, lng) {
   const cleaned = name
-    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
-    .replace(/ (영통구청점|영통구점|수원점)$/, '')
+    .replace(/ (영통점|수원점|매탄점|영통구청점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
+  const hasRegion = /(영통|수원|매탄|삼성전자)/.test(cleaned)
+  const query = hasRegion ? cleaned : cleaned + ' 영통구청'
   const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}${coord}`
+},${lat},17,0,0,0,dh` : ''
   return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
 }
 
@@ -289,7 +292,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
             다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
-            <Link href="/samsungElectronics/yeongtongGu" style={{ color:'var(--primary)' }}>잠실역 AI 맛집 추천</Link>을 이용하면
+            <Link href="/samsungElectronics/yeongtongGu" style={{ color:'var(--primary)' }}>영통구청 AI 맛집 추천</Link>을 이용하면
             오늘 날씨, 기분, 예산에 맞는 {catInfo.name} 맛집을 바로 추천받을 수 있습니다.
           </p>
         </article>
