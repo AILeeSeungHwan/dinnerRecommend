@@ -31,6 +31,7 @@ const CATS = [
   {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['이자카야','고기구이','중식']},
   {emoji:'🐔', name:'치킨·야장', slug:'chicken', cats:['치킨','야장']},
   {emoji:'🍣', name:'일식·스시', slug:'japanese',cats:['이자카야','일식']},
+  {emoji:'🚇', name:'4번출구',   slug:'exit4',    cats:[], exit4Only:true},
 ]
 
 // ── 유틸 ──────────────────────────────────────────────────────
@@ -649,7 +650,7 @@ export default function SamseongPage() {
         {activeTab==='categories' && (
           <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10 }}>
             {CATS.map(cat=>{
-              const count = restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
+              const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
                 <Link href={`/dinner/samseong/category/${cat.slug}`} key={cat.slug}>
                   <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer' }}>

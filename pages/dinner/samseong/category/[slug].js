@@ -11,6 +11,7 @@ const CATEGORY_MAP = {
   group:    { name: '회식·단체', emoji: '🎉', cats: [], tags: ['회식','단체석'], keywords: '삼성역 회식장소, 코엑스 단체식사, 삼성동 회식, 삼성역 프라이빗룸' },
   chicken:  { name: '치킨·야장', emoji: '🐔', cats: ['치킨','야장'], keywords: '삼성역 치킨, 삼성역 야장, 삼성동 포차, 코엑스 치킨' },
   japanese: { name: '일식·스시', emoji: '🍣', cats: ['이자카야','일식'], keywords: '삼성역 일식, 삼성역 스시, 삼성동 초밥, 코엑스 오마카세' },
+  exit4:    { name: '4번출구 근처', emoji: '🚇', cats: [], exit4Only: true, keywords: '삼성역 4번출구 맛집, 삼성역 4번출구 식당, 대치동 맛집, 강남경찰서 맛집' },
 }
 
 export async function getStaticPaths() {
@@ -28,6 +29,7 @@ export async function getStaticProps({ params }) {
   if (!catInfo) return { notFound: true }
 
   const filtered = restaurants.filter(r => {
+    if (catInfo.exit4Only) return r.exit4 === true
     if (catInfo.tags) {
       return catInfo.cats.some(c => r.cat?.includes(c)) ||
              catInfo.tags.some(t => r.tags?.includes(t))
