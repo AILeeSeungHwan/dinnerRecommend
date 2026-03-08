@@ -590,7 +590,11 @@ function BrowseTab() {
 
 // ── 메인 ─────────────────────────────────────────────────────
 export default function SamseongPage() {
-  const [activeTab, setActiveTab] = useState('ai')
+  const [activeTab, setActiveTab] = useState(() => {
+    if (typeof window !== 'undefined') return sessionStorage.getItem('samseong-tab') || 'ai'
+    return 'ai'
+  })
+  const switchTab = (tab) => { setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
@@ -626,7 +630,7 @@ export default function SamseongPage() {
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
           {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
-            <button key={tab.id} onClick={()=>setActiveTab(tab.id)} style={{
+            <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
               color:activeTab===tab.id?'var(--primary)':'var(--muted)',
