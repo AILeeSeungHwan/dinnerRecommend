@@ -3,6 +3,7 @@ import jamsilRestaurants from '../data/jamsil'
 import yeongtongRestaurants from '../data/yeongtong'
 import mangpoRestaurants from '../data/mangpo'
 import yeongtongGuRestaurants from '../data/yeongtongGu'
+import pangyoRestaurants from '../data/pangyo'
 
 const BASE = 'https://dinner.ambitstock.com'
 
@@ -16,6 +17,7 @@ export async function getServerSideProps({ res }) {
     ...yeongtongRestaurants.map(r => ({ ...r, _area:'yeongtong', _areaName:'영통역', _base:'/samsungElectronics' })),
     ...mangpoRestaurants.map(r => ({ ...r, _area:'mangpo', _areaName:'망포역', _base:'/samsungElectronics' })),
     ...yeongtongGuRestaurants.map(r => ({ ...r, _area:'yeongtongGu', _areaName:'영통구청', _base:'/samsungElectronics' })),
+    ...pangyoRestaurants.map(r => ({ ...r, _area:'pangyo', _areaName:'판교역', _base:'' })),
   ]
   const topRated = [...allRestaurants].sort((a, b) => b.rt - a.rt).slice(0, 50)
 

@@ -5,6 +5,7 @@ import jamsilData from '../data/jamsil'
 import yeongtongData from '../data/yeongtong'
 import mangpoData from '../data/mangpo'
 import yeongtongGuData from '../data/yeongtongGu'
+import pangyoData from '../data/pangyo'
 
 const stations = [
   {
@@ -18,13 +19,13 @@ const stations = [
     count: jamsilData.length, ready:true,
   },
   {
-    slug:'gangnam', name:'강남역', emoji:'🌆',
-    desc:'강남역·신논현·먹자골목',
-    count:null, ready:false,
+    slug:'pangyo', name:'판교역', emoji:'🏢',
+    desc:'판교테크노밸리·백현동·아브뉴프랑',
+    count: pangyoData.length, ready:true, isPangyo:true,
   },
   {
-    slug:'seocho', name:'서초역', emoji:'🌿',
-    desc:'서초·교대·방배',
+    slug:'gangnam', name:'강남역', emoji:'🌆',
+    desc:'강남역·신논현·먹자골목',
     count:null, ready:false,
   },
 ]
@@ -58,7 +59,7 @@ const CATS = [
 ]
 
 export default function Home() {
-  const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length
+  const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length + pangyoData.length
   const seTotal = yeongtongData.length + mangpoData.length + yeongtongGuData.length
 
   return (
@@ -75,7 +76,7 @@ export default function Home() {
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
           날씨·기분·예산만 말하면 AI가 딱 맞는 식당 TOP3 추천<br />
-          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length} · 잠실 {jamsilData.length} · 영통 {seTotal}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
+          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length} · 잠실 {jamsilData.length} · 판교 {pangyoData.length} · 영통 {seTotal}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
         </p>
         <div style={{ display:'flex', gap:10, justifyContent:'center', flexWrap:'wrap' }}>
           <Link href="/dinner/samseong">
@@ -99,7 +100,7 @@ export default function Home() {
           {stations.map(s => (
             <div key={s.slug}>
               {s.ready ? (
-                <Link href={`/dinner/${s.slug}`} style={{ textDecoration:'none' }}>
+                <Link href={s.isPangyo ? `/pangyo` : `/dinner/${s.slug}`} style={{ textDecoration:'none' }}>
                   <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', cursor:'pointer', position:'relative', overflow:'hidden', transition:'border-color .15s' }}>
                     <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
                     <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
@@ -161,9 +162,9 @@ export default function Home() {
 
         {/* SEO 텍스트 */}
         <article style={{ padding:'24px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:10 }}>강남 맛집 추천, AI로 3초 만에</h2>
+          <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:10 }}>강남·판교 맛집 추천, AI로 3초 만에</h2>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·방이동 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
+            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·판교역·영통 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
             오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 TOP3를 바로 알려드립니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
@@ -173,6 +174,10 @@ export default function Home() {
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
             <strong>잠실·방이동</strong>은 곱창·삼겹살 골목의 로컬 맛집부터 석촌호수 카페·송리단길 브런치·롯데타워 오마카세까지
             {jamsilData.length}개 식당을 담았습니다. 잠실에서 오늘 뭐 먹지 고민이라면 AI 추천을 써보세요.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
+            <strong>판교역·테크노밸리</strong>는 IT·바이오·의료기기 직장인을 위한 맛집 {pangyoData.length}개를 담았습니다.
+            백현동 카페거리·아브뉴프랑·현대백화점 판교점 주변 회식·데이트·점심 맛집을 AI로 바로 찾아보세요.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
             <strong>영통·망포·영통구청</strong>은 삼성전자 회식장소 맛집 특화 서비스입니다.
