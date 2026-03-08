@@ -620,7 +620,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [dicing,     setDicing]    = useState(false)
   const [pendingRnd, setPendingRnd]= useState(null)
   const [results,    setResults]   = useState(null)
-  const [error,      setError]     = useState(false)
+  const [error,      setError]     = useState(null)  // null | string
   const [warnCount,  setWarnCount] = useState(null)
   const [showLimit,  setShowLimit] = useState(false)
   const [showEaster, setShowEaster] = useState(false)
@@ -763,7 +763,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   function cancelFromWarn()  { setWarnCount(null); getRandom(null) }
 
   async function getRecommendations() {
-    setLoading(true); setError(false); setResults(null)
+    setLoading(true); setError(null); setResults(null)
 
     try {
       const mm = detectMenu(ctx, moods, weather)
@@ -835,7 +835,8 @@ ${compact}
       if (!res.ok) {
         const errData = await res.json().catch(()=>({}))
         console.error('API HTTP error', res.status, errData)
-        setLoading(false); setError(true); return
+        const msg = errData.detail || errData.error || `서버 오류 (${res.status})`
+        setLoading(false); setError(msg); return
       }
 
       const data = await res.json()
@@ -845,7 +846,7 @@ ${compact}
       const recs = Array.isArray(data.recommendations) ? data.recommendations : []
       if (recs.length === 0) {
         console.error('Empty recommendations:', data)
-        setError(true); return
+        setError(data.error || '추천 결과가 비어있어요'); return
       }
 
       // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
@@ -856,7 +857,7 @@ ${compact}
       })
       if (matched.length === 0) {
         console.error('No matched restaurants:', recs)
-        setError(true); return
+        setError('AI가 목록에 없는 식당을 추천했어요 (매칭 실패)'); return
       }
 
       if (data.usage) {
@@ -872,7 +873,7 @@ ${compact}
       scrollTo()
     } catch (err) {
       console.error('getRecommendations error:', err)
-      setLoading(false); setError(true)
+      setLoading(false); setError(err.message || '알 수 없는 오류')
     }
   }
 
@@ -961,8 +962,10 @@ ${compact}
         )}
 
         {error && (
-          <div style={{ marginTop:14,padding:14,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,color:'var(--primary)',fontSize:'.85rem' }}>
-            추천을 불러오지 못했습니다. 잠시 후 다시 시도해주세요.
+          <div style={{ marginTop:14,padding:14,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,fontSize:'.82rem' }}>
+            <div style={{ color:'#fc8181',fontWeight:700,marginBottom:4 }}>⚠️ 추천을 불러오지 못했어요</div>
+            <div style={{ color:'var(--muted)',fontSize:'.76rem',marginBottom:8 }}>{error}</div>
+            <div style={{ color:'var(--muted)',fontSize:'.74rem' }}>잠시 후 다시 시도하거나 🎲 랜덤 추천을 이용해주세요</div>
           </div>
         )}
 
