@@ -43,6 +43,171 @@ const CATS = [
   {emoji:'🍱', name:'한식·정식·보쌈',  slug:'korean',   cats:['한식'],                  tags:['족발','보쌈','갈비찜','한정식']},
 ]
 
+// ── 랜덤 추천 결과 문구 템플릿 (10종, 카드마다 다른 형식) ──────────
+function buildRandomReason(r, idx, usedTemplates) {
+  const tags    = (r.tags  || []).slice(0, 4)
+  const moods   = (r.moods || []).slice(0, 3)
+  const scene   = (r.scene || []).slice(0, 2)
+  const rv      = (r.rv    || []).slice(0, 2).map(v => v.replace(/ \(실제 Google 리뷰.*?\)/g, '').slice(0, 45))
+  const price   = r.priceRange ? `${r.priceRange}원대` : ''
+  const hours   = r.hours || ''
+  const type    = r.type  || ''
+  const rt      = r.rt    || ''
+  const cnt     = r.cnt   ? `${r.cnt.toLocaleString()}명` : ''
+  const tagStr  = tags.join(' · ')
+  const moodStr = moods.join(' · ')
+
+  const templates = [
+    // 0: 리뷰 인용 선두형
+    () => {
+      const q = rv[0] || `${tagStr} 맛집`
+      return {
+        reason: `"${q}" — 방문객들의 후기가 이 식당을 대변합니다. ${cnt ? cnt + '이 검증한 ' : ''}⭐${rt}점의 ${type}${price ? ', ' + price : ''}.${scene[0] ? ' ' + scene[0] + ' 상황에 특히 잘 어울립니다.' : ''} ${rv[1] ? '"' + rv[1] + '"' : ''}`,
+        highlight: rv[0] ? rv[0].slice(0, 22) : `${rt}점 · ${tagStr}`
+      }
+    },
+    // 1: 숫자·데이터 신뢰형
+    () => ({
+      reason: `⭐${rt} · 리뷰 ${cnt} · ${price}. 숫자로 증명된 ${type}입니다. ${tagStr ? tagStr + ' 등의 특징으로 ' : ''}단골을 만드는 곳${moodStr ? '으로, ' + moodStr + ' 상황에 딱입니다.' : '.'}${scene[0] ? ' ' + scene[0] + '에 특히 추천합니다.' : ''}`,
+      highlight: `리뷰 ${cnt} · ⭐${rt}`
+    }),
+    // 2: 시간·상황 맥락형
+    () => {
+      const ctx = scene[0] || moods[0] || '오늘 저녁'
+      return {
+        reason: `${ctx}에 딱 맞는 선택. ${type} 특유의 ${tags[0] || '분위기'}를 제대로 느낄 수 있고${tags[1] ? ' ' + tags[1] + '도 빠지지 않습니다.' : '.'} 평점 ⭐${rt}${cnt ? '(' + cnt + ' 리뷰)' : ''}${price ? ', ' + price : ''}. ${rv[0] ? '"' + rv[0] + '"' : ''}`,
+        highlight: `${ctx} 추천 · ⭐${rt}`
+      }
+    },
+    // 3: 임팩트 카피 + 부연형
+    () => {
+      const copy = tags[0] ? `${tags[0]}이라면 여기` : `${type} 고민 끝`
+      return {
+        reason: `${copy}. ${price ? price + ' 가격대의 ' : ''}⭐${rt}짜리 ${type}으로${cnt ? ' ' + cnt + '의 선택을 받았습니다.' : '.'} ${tags.slice(1).join(' · ')}${tags.length > 1 ? ' 등의 특징이 있고' : ''}${moodStr ? ' ' + moodStr + ' 기분에 잘 맞습니다.' : '.'}${rv[0] ? ' "' + rv[0] + '"' : ''}`,
+        highlight: copy
+      }
+    },
+    // 4: 해시태그 감성형
+    () => ({
+      reason: `${tags.length ? '#' + tags.join(' #') + ' ' : ''}${type}. ${rv[0] ? '"' + rv[0] + '" — 방문객들이 공통으로 꼽는 매력입니다. ' : ''}⭐${rt}${cnt ? ', ' + cnt + ' 리뷰' : ''}${price ? ', ' + price : ''}. ${scene[0] ? scene[0] + '에 특히 잘 어울립니다.' : ''}`,
+      highlight: tags[0] ? '#' + tags[0] : `⭐${rt} ${type}`
+    }),
+    // 5: 차별화 비교형
+    () => {
+      const diff = tags[0] || moods[0] || '퀄리티'
+      return {
+        reason: `다른 ${type}과 다른 건 ${diff}입니다. ${rv[0] ? '"' + rv[0] + '"' : ''}${cnt ? ' ' + cnt + '명이 인정한' : ''} ⭐${rt}점. ${price ? price + '으로 ' : ''}${scene[0] ? scene[0] + '에 맞게 ' : ''}기억에 남는 식사를 경험할 수 있습니다.${rv[1] ? ' "' + rv[1] + '"' : ''}`,
+        highlight: `${diff} 맛집 · ⭐${rt}`
+      }
+    },
+    // 6: 스토리텔링 시나리오형
+    () => {
+      const when = scene[0] || moods[0] || '식사'
+      const what = tags[0] || type
+      return {
+        reason: `${when} 자리, ${what}이 당길 때. ⭐${rt}${cnt ? '(' + cnt + ' 리뷰)' : ''} ${type}${price ? ', ' + price + '대' : ''}. ${tags.slice(0,3).join(' · ')} 한 번에 해결. ${rv[0] ? '"' + rv[0] + '"' : ''} 한 번 가면 다시 찾게 됩니다.`,
+        highlight: `${when} · ${what}`
+      }
+    },
+    // 7: Q&A 공감 유도형
+    () => {
+      const q = moods[0] ? `${moods[0]}할 때 어디 갈지 모르겠다면?` : `오늘 ${type} 어때요?`
+      return {
+        reason: `${q} ⭐${rt}${cnt ? ', ' + cnt + ' 리뷰' : ''}의 검증된 ${type}. ${tags.join(' · ')}${price ? ' · ' + price : ''}. ${rv[0] ? '"' + rv[0] + '"이라는 후기처럼 ' : ''}${scene[0] ? scene[0] + '에 딱 맞는 ' : '기대 이상의 '}한 끼가 됩니다.`,
+        highlight: q.replace('?', '')
+      }
+    },
+    // 8: 실용 정보 나열형
+    () => ({
+      reason: `${hours ? hours + ' 영업. ' : ''}${price ? price + '. ' : ''}⭐${rt}${cnt ? '(' + cnt + ')' : ''} ${type}. ${tagStr}. ${rv[0] ? '"' + rv[0] + '"' : moodStr ? moodStr + ' 기분에 잘 맞습니다.' : '실용적인 선택입니다.'}${rv[1] ? ' "' + rv[1] + '"' : ''}`,
+      highlight: `${type} · ${hours ? hours.split('~')[0] : ''}${price ? ' · ' + price : ''}`
+    }),
+    // 9: 감정이입 + 추천이유형
+    () => {
+      const feel = moods[0] || scene[0] || '오늘'
+      return {
+        reason: `${feel}에 이 한 곳을 추천하는 이유 — ${tags[0] ? tags[0] + ',' : ''} ${tags[1] ? tags[1] + ',' : ''} 그리고 ⭐${rt}의 신뢰. ${rv[0] ? '"' + rv[0] + '"이 모든 걸 설명합니다. ' : ''}${cnt ? cnt + '명이 같은 선택을 했습니다.' : ''} ${price ? price + '.' : ''}`,
+        highlight: `${feel} 추천 · ⭐${rt}`
+      }
+    },
+  ]
+
+  // 이미 사용된 템플릿 제외 후 랜덤 선택
+  const available = templates.map((_,i) => i).filter(i => !usedTemplates.includes(i))
+  const pick = available[Math.floor(Math.random() * available.length)]
+  const result = templates[pick]()
+  return { ...result, templateIdx: pick }
+}
+
+function preScore(q, moods, wx, cands, selectedCat) {
+  const qt = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
+  return cands.map(r => {
+    let s = (r.rt||0) * 3
+    // 카테고리 선택 = 최우선 (기분·날씨보다 훨씬 높은 점수)
+    if (selectedCat && !selectedCat.exit4Only) {
+      const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
+      const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
+      if (catMatch) s += 60
+      else if (tagMatch) s += 30
+      else s -= 30
+    }
+    const blob = `${r.name} ${r.type} ${(r.tags||[]).join(' ')} ${(r.scene||[]).join(' ')} ${(r.moods||[]).join(' ')} ${(r.wx||[]).join(' ')}`
+    moods.forEach(m => { if (blob.includes(m)) s += 10 })
+    if (blob.includes(wx)) s += 10
+    ;(r.tags||[]).forEach(t => { if (qt.includes(t.toLowerCase())) s += 20 })
+    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase())) s += 18 })
+    qt.split(/\s+/).filter(w => w.length > 1).forEach(w => { if (blob.toLowerCase().includes(w)) s += 5 })
+    // vector 필드 있으면 추가 스코어
+    if (r.vector) {
+      if (qt.includes('혼밥')||qt.includes('혼자')) s += r.vector.solo * 12
+      if (qt.includes('회식')||qt.includes('단체')) s += r.vector.group * 12
+      if (qt.includes('술')||qt.includes('맥주')||qt.includes('소주')) s += r.vector.alcohol * 10
+      if (['비','눈','쌀쌀함'].includes(wx)) s += r.vector.warm_food * 8
+      if (qt.includes('데이트')) s += r.vector.date * 12
+      if (qt.includes('빠르게')||qt.includes('점심')) s += r.vector.fast_meal * 8
+    }
+    return { ...r, _score: s }
+  }).sort((a,b) => b._score - a._score)
+}
+
+function parsePriceFilter(q) {
+  const m = q.match(/(\d+)[,.]?(\d{3})?원?\s*(이하|미만|대|이상|초과)?/)
+  if (!m) return null
+  return { val: parseInt(m[1]+(m[2]||'')), dir: m[3]||'이하' }
+}
+
+function filterByPrice(cands, pf) {
+  if (!pf) return cands
+  return cands.filter(r => {
+    if (!r.priceRange) return false
+    const [a,b] = r.priceRange.split('~')
+    const avg = (parseInt(a)+parseInt(b||a))/2
+    if (pf.dir==='이하'||pf.dir==='미만') return avg <= pf.val
+    if (pf.dir==='이상'||pf.dir==='초과') return avg >= pf.val
+    return avg >= pf.val*0.7 && avg <= pf.val*1.4
+  })
+}
+
+function parseRatingFilter(q) {
+  const m = q.match(/([3-5](?:[.,]\d)?)\s*(?:점|별|★|⭐)?\s*(이상|이하|넘|초과)?/) ||
+            q.match(/(?:평점|별점|rating)\s*([3-5](?:[.,]\d)?)/)
+  if (!m) return null
+  const val = parseFloat((m[1]||m[2]).replace(',','.'))
+  if (isNaN(val) || val < 3 || val > 5) return null
+  const dir = (m[2]||'').includes('이하') ? 'lte' : 'gte'
+  return { val, dir }
+}
+
+function filterByRating(cands, rf) {
+  if (!rf) return cands
+  return cands.filter(r => {
+    if (rf.dir === 'lte') return (r.rt||0) <= rf.val
+    return (r.rt||0) >= rf.val
+  })
+}
+
+function calcCost(i, o) { return (i/1e6)*0.8 + (o/1e6)*4 }  // haiku
+
 // ── 상황 컨텍스트 추출 ──────────────────────────────────────
 function extractContext(q, moods, wx) {
   const t = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
