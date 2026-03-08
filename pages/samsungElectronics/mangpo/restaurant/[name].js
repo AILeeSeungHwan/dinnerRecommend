@@ -6,7 +6,7 @@ import restaurants from '../../../../data/mangpo'
 export async function getStaticPaths() {
   return {
     paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
