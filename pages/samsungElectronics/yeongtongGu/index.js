@@ -114,6 +114,15 @@ function LoadingOverlay() {
   const msgs   = ['맛집 탐색 중...','리뷰 분석 중...','최적 매칭 중...','거의 다 됐어요!']
   const [f, setF] = useState(0)
   const [m, setM] = useState(0)
+  // 어드민 무제한 unlock
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('dev') === 'wizet1923') {
+      localStorage.setItem('gm-admin-unlock', '1')
+      window.history.replaceState({}, '', window.location.pathname)
+    }
+  }, [])
+
   useEffect(() => {
     const t1 = setInterval(() => setF(x=>(x+1)%frames.length), 180)
     const t2 = setInterval(() => setM(x=>(x+1)%msgs.length), 1100)
@@ -198,11 +207,11 @@ function incrementUsage() {
 // ── 검색 힌트 ─────────────────────────────────────────────────
 const HINTS = [
   '예: 비 오는 날 따뜻한 국밥집',
-  '예: 방이동 곱창 소주 한잔',
+  '예: 삼성전자 근처 회식 장소',
   '예: 야근 후 해장할 곳',
   '예: 1만원 이하 혼밥 가능한 곳',
-  '예: 롯데타워 근처 데이트 코스',
-  '예: 석촌호수 뷰 카페',
+  '예: 매탄동 점심 추천',
+  '예: 영통구청 근처 저녁 고기',
   '예: 회식하기 좋은 고기집',
   '예: 쌀쌀한 날 뜨끈한 칼국수',
   '예: 평점 4.5 이상 이자카야',
@@ -375,9 +384,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   // ── AI 추천 (횟수 체크 포함) ──
   function handleRecommendClick() {
     if (!ctx && !weather && moods.length===0) { getRandom(null); return }
+    const isAdmin = localStorage.getItem('gm-admin-unlock') === '1'
     const count = getUsageCount()
-    if (count >= DAILY_LIMIT) { setShowLimit(true); return }
-    if (count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
+    if (!isAdmin && count >= DAILY_LIMIT) { setShowLimit(true); return }
+    if (!isAdmin && count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
     getRecommendations()
   }
 
@@ -682,12 +692,12 @@ export default function JamsilPage() {
   return (
     <Layout
       title="영통구청 맛집 AI 추천"
-      description="영통구청·수원·석촌호수 주변 맛집 AI 추천. 곱창·국밥·이자카야·롯데타워 맛집."
+      description="영통구청·매탄동·삼성전자 인근 맛집 AI 추천. 고기구이·부대찌개·삼계탕·한식."
       canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu"
     >
       <Head>
         <title>영통구청 맛집 추천 | 수원 영통 AI 추천 | 뭐먹지</title>
-        <meta name="description" content={`영통구청·수원·석촌호수 주변 맛집 AI 추천. 곱창·삼겹살·국밥·이자카야·오마카세 ${restaurants.length}개+ 식당.`} />
+        <meta name="description" content={`영통구청·매탄동·삼성전자 인근 맛집 AI 추천. 고기구이·부대찌개·한식 ${restaurants.length}개+ 식당.`} />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org","@type":"ItemList","name":"영통구청 맛집 추천",
@@ -700,14 +710,14 @@ export default function JamsilPage() {
       <section style={{ background:'linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%)',padding:'32px 16px 24px',borderBottom:'1px solid var(--border)' }}>
         <div style={{ maxWidth:900,margin:'0 auto' }}>
           <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:8 }}>
-            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 잠실
+            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 영통구청
           </div>
           <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🚇 영통구청 맛집</h1>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',marginBottom:14 }}>
-            방이동·석촌호수·롯데타워 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
+            영통구청·매탄동·삼성전자 인근 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
           </p>
           <div style={{ display:'flex',flexWrap:'wrap',gap:6 }}>
-            {['#곱창','#국밥','#고기구이','#오마카세','#데이트','#방이동맛집'].map(t=>(
+            {['#회식', '#삼성전자임직원', '#고기구이', '#부대찌개', '#매탄동맛집'].map(t=>(
               <span key={t} style={{ fontSize:'.72rem',color:'var(--muted)',background:'var(--surface2)',padding:'3px 9px',borderRadius:100,border:'1px solid var(--border)' }}>{t}</span>
             ))}
           </div>
@@ -808,15 +818,15 @@ export default function JamsilPage() {
 
         {/* SEO 콘텐츠 */}
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통 맛집 가이드</h2>
+          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통구청 맛집 가이드</h2>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            영통 맛집의 핵심은 <strong style={{ color:'var(--text)' }}>삼성전자 인근 상권</strong>입니다. 직장인 점심·회식 맛집이 밀집해 있으며, 영통역 주변 먹자골목부터 망포역 인근 로컬 맛집까지 다양합니다.
+            영통구청 맛집 상권은 <strong style={{ color:'var(--text)' }}>삼성전자 본사·DS부문 임직원</strong>들이 가장 많이 이용하는 지역입니다. 점심 피크타임 웨이팅이 생기는 맛집이 많고, 회식 수요가 매우 높습니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            <strong style={{ color:'var(--text)' }}>석촌호수 주변</strong>은 송리단길을 중심으로 브런치 카페·와인바·이탈리안 레스토랑이 즐비합니다. 봄 벚꽃 시즌에는 호수뷰 카페가 특히 인기입니다. 데이트 코스와 주말 나들이에 제격입니다.
+            <strong style={{ color:'var(--text)' }}>매탄동·원천동 상권</strong>에는 부대찌개·삼계탕·감자탕 등 국물 요리 전문점이 밀집해 있으며, 직장인 단골 맛집들이 오랜 역사를 갖고 있습니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            <strong style={{ color:'var(--text)' }}>영통구청·망포역 상권</strong>에는 한식·이자카야·고기집이 집중되어 있습니다. 삼성전자 임직원 회식 장소로 자주 이용됩니다.
+            <strong style={{ color:'var(--text)' }}>영통구청 주변</strong>에는 대형 고기구이·이자카야·족발 전문점이 많아 10인 이상 단체 회식에도 적합합니다. 주차 가능 식당이 많은 것도 특징입니다.
           </p>
         </article>
 

@@ -114,6 +114,15 @@ function LoadingOverlay() {
   const msgs   = ['맛집 탐색 중...','리뷰 분석 중...','최적 매칭 중...','거의 다 됐어요!']
   const [f, setF] = useState(0)
   const [m, setM] = useState(0)
+  // 어드민 무제한 unlock
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    if (params.get('dev') === 'wizet1923') {
+      localStorage.setItem('gm-admin-unlock', '1')
+      window.history.replaceState({}, '', window.location.pathname)
+    }
+  }, [])
+
   useEffect(() => {
     const t1 = setInterval(() => setF(x=>(x+1)%frames.length), 180)
     const t2 = setInterval(() => setM(x=>(x+1)%msgs.length), 1100)
@@ -375,9 +384,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   // ── AI 추천 (횟수 체크 포함) ──
   function handleRecommendClick() {
     if (!ctx && !weather && moods.length===0) { getRandom(null); return }
+    const isAdmin = localStorage.getItem('gm-admin-unlock') === '1'
     const count = getUsageCount()
-    if (count >= DAILY_LIMIT) { setShowLimit(true); return }
-    if (count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
+    if (!isAdmin && count >= DAILY_LIMIT) { setShowLimit(true); return }
+    if (!isAdmin && count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
     getRecommendations()
   }
 
