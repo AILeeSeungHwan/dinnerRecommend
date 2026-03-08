@@ -273,7 +273,6 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
-  const [showFilters,setShowFilters]= useState(false)
   const resultsRef  = useRef(null)
 
   useEffect(() => {
@@ -358,7 +357,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
 
   // ── AI 추천 (횟수 체크 포함) ──
   function handleRecommendClick() {
-    if (!ctx && !weather && moods.length===0) { getRandom(); return }
+    if (!ctx && !weather && moods.length===0) { getRandom(null); return }
     const count = getUsageCount()
     if (count >= DAILY_LIMIT) { setShowLimit(true); return }
     if (count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
@@ -366,7 +365,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   }
 
   function confirmFromWarn() { setWarnCount(null); getRecommendations() }
-  function cancelFromWarn()  { setWarnCount(null); getRandom() }
+  function cancelFromWarn()  { setWarnCount(null); getRandom(null) }
 
   async function getRecommendations() {
     setLoading(true); setError(false); setResults(null)
@@ -436,7 +435,7 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
       {loading && <LoadingOverlay />}
       {dicing  && <DiceOverlay onDone={onDiceFinish} />}
       {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
-      {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom() }} />}
+      {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}
@@ -458,56 +457,42 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
           />
         </div>
 
-        {/* 필터 토글 */}
-        <div style={{ marginBottom:14 }}>
-          <button onClick={()=>setShowFilters(v=>!v)} style={{
-            display:'flex', alignItems:'center', gap:6,
-            padding:'7px 14px', borderRadius:10, fontSize:'.82rem',
-            border:`1px solid ${(weather||moods.length||exit2Only||selectedCat)?'var(--primary)':'var(--border)'}`,
-            background:(weather||moods.length||exit2Only||selectedCat)?'var(--primary)':'var(--surface2)',
-            color:(weather||moods.length||exit2Only||selectedCat)?'#fff':'var(--muted)',
-            cursor:'pointer', transition:'all .15s',
+        {/* 필터 - 항상 노출 */}
+        <div style={{ marginBottom:16, padding:'16px', background:'var(--surface)', borderRadius:12, border:'1px solid var(--border)' }}>
+          <div style={{ fontSize:'.73rem',fontWeight:700,color:'var(--muted)',marginBottom:10 }}>🎛️ 필터 옵션</div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 날씨</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
+            </div>
+          </div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
+            </div>
+          </div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🗂️ 카테고리</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {CATS.map(cat=>(
+                <button key={cat.slug} onClick={()=>setSelectedCat(selectedCat?.slug===cat.slug?null:cat)}
+                  style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
+                  {cat.emoji} {cat.name}
+                </button>
+              ))}
+            </div>
+          </div>
+          <button onClick={()=>setExit2Only(!exit2Only)} style={{
+            ...chip(exit2Only),
+            border:`1px solid ${exit2Only?'#ffd700':'var(--border)'}`,
+            background:exit2Only?'#2a2200':'var(--surface2)',
+            color:exit2Only?'#ffd700':'var(--muted)', fontWeight:exit2Only?700:400,
           }}>
-            <span>{showFilters ? '▲' : '▼'}</span>
-            <span>필터 {(weather||moods.length||exit2Only||selectedCat) ? `(${[selectedCat?.name,weather,...moods,exit2Only?'2번출구':''].filter(Boolean).length}개 선택)` : '추가'}</span>
+            🚇 2번출구 근처만 ({restaurants.filter(r=>r.exit2).length}개)
           </button>
         </div>
-        {showFilters && (
-          <div style={{ marginBottom:14, padding:'14px', background:'var(--surface)', borderRadius:12, border:'1px solid var(--border)' }}>
-            <div style={{ marginBottom:12 }}>
-              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 날씨</div>
-              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-                {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
-              </div>
-            </div>
-            <div style={{ marginBottom:12 }}>
-              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
-              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-                {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
-              </div>
-            </div>
-            {/* 카테고리 선택 */}
-            <div style={{ marginBottom:12 }}>
-              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🗂️ 카테고리 (랜덤 범위)</div>
-              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-                {CATS.map(cat=>(
-                  <button key={cat.slug} onClick={()=>setSelectedCat(selectedCat?.slug===cat.slug?null:cat)}
-                    style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
-                    {cat.emoji} {cat.name}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <button onClick={()=>setExit2Only(!exit2Only)} style={{
-              ...chip(exit2Only),
-              border:`1px solid ${exit2Only?'#ffd700':'var(--border)'}`,
-              background:exit2Only?'#2a2200':'var(--surface2)',
-              color:exit2Only?'#ffd700':'var(--muted)', fontWeight:exit2Only?700:400,
-            }}>
-              🚇 2번출구 근처만 ({restaurants.filter(r=>r.exit2).length}개)
-            </button>
-          </div>
-        )}
+
 
         <div style={{ display:'flex',gap:8 }}>
           <button onClick={handleRecommendClick} disabled={loading||dicing} style={{
@@ -515,9 +500,9 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
           }}>✨ AI 추천받기</button>
-          <button onClick={getRandom} disabled={loading||dicing} title="랜덤 3개"
-            style={{ padding:'13px 16px',borderRadius:10,background:'var(--surface2)',color:'var(--text)',border:'1px solid var(--border)',fontSize:'1.1rem',cursor:'pointer' }}>
-            🎲
+          <button onClick={()=>getRandom(null)} disabled={loading||dicing}
+            style={{ padding:'13px 18px',borderRadius:10,background:'var(--surface2)',color:'var(--text)',border:'1px solid var(--border)',fontSize:'.88rem',fontWeight:700,cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.6:1,whiteSpace:'nowrap' }}>
+            🎲 랜덤
           </button>
         </div>
 
@@ -703,13 +688,13 @@ export default function JamsilPage() {
         </div>
 
         {activeTab==='ai' && (
-          <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden' }}>
+          <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden',marginTop:4 }}>
             <AiApp pendingCat={pendingCat} onPendingCatUsed={()=>setPendingCat(null)} />
           </div>
         )}
         {activeTab==='browse' && <BrowseTab />}
         {/* ── 카테고리 항상 노출 ── */}
-        <div style={{ marginBottom:24 }}>
+        <div style={{ marginBottom:36, paddingTop:8 }}>
           <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:12 }}>
             <span style={{ fontSize:'.8rem',fontWeight:700,color:'var(--muted)' }}>🗂️ 카테고리별 탐색</span>
             <Link href="/dinner/jamsil/category/meat" style={{ fontSize:'.72rem',color:'var(--primary)' }}>전체 보기 →</Link>
