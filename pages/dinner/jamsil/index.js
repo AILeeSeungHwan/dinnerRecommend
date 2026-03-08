@@ -204,7 +204,6 @@ const HINTS = [
   '예: 회식하기 좋은 고기집',
   '예: 쌀쌀한 날 뜨끈한 칼국수',
   '예: 평점 4.5 이상 이자카야',
-  '예: 잠실역 2번출구 점심 빠른 곳',
   '예: 오마카세 기념일 코스',
   '예: 송리단길 브런치 데이트',
   '예: 늦은 밤 야식 족발',
@@ -278,7 +277,6 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [ctx,        setCtx]       = useState('')
   const [weather,    setWeather]   = useState('')
   const [moods,      setMoods]     = useState([])
-  const [exit2Only,  setExit2Only] = useState(false)
   const [selectedCat,setSelectedCat]= useState(null)   // 카테고리 필터
   const [loading,    setLoading]   = useState(false)
   const [dicing,     setDicing]    = useState(false)
@@ -340,7 +338,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   // ── 랜덤 ──
   function getRandom(catOverride) {
     const cat = catOverride || selectedCat
-    let base = exit2Only ? restaurants.filter(r=>r.exit2) : restaurants
+    let base = restaurants
     if (cat) {
       base = base.filter(r =>
         (cat.cats.length>0 && cat.cats.some(c=>r.cat?.includes(c))) ||
@@ -352,11 +350,11 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     if (base.length < 5) {
       base = cat
         ? restaurants.filter(r=>(cat.cats.length>0&&cat.cats.some(c=>r.cat?.includes(c)))||(cat.tags||[]).some(t=>r.tags?.some(rt=>rt.includes(t))))
-        : (exit2Only ? restaurants.filter(r=>r.exit2) : restaurants)
+        : restaurants
     }
     const pool = filterExcluded(base)
     const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 3)
-    const filterDesc = [cat?.name, weather, ...moods, (!cat&&exit2Only)?'2번출구':''].filter(Boolean)
+    const filterDesc = [cat?.name, weather, ...moods].filter(Boolean)
     const res = picks.map((r,i) => ({
       rank:i+1, restaurantName:r.name,
       reason:`평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${(r.tags||[]).slice(0,3).join(', ')} 특징의 ${r.type} 맛집입니다.${filterDesc.length?` [${filterDesc.join('·')}]`:''}`,
@@ -392,11 +390,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const pf = parsePriceFilter(ctx)
       const rf = parseRatingFilter(ctx)
       let base = restaurants
-      if (exit2Only) base = base.filter(r=>r.exit2)
       if (mm) base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
-      if (base.length < 5) base = exit2Only ? restaurants.filter(r=>r.exit2) : restaurants
+      if (base.length < 5) base = restaurants
 
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
@@ -412,7 +409,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       ).join('|')
       const ctx_full = (ctx||'').slice(0, 80)
       const mood_str = moods.join(', ')
-      const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit2Only&&'2번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
+      const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
       const prompt = `당신은 잠실역 맛집 전문가입니다. 아래 조건에 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
 
 [검색 조건]
@@ -540,14 +537,6 @@ ${compact}
               ))}
             </div>
           </div>
-          <button onClick={()=>setExit2Only(!exit2Only)} style={{
-            ...chip(exit2Only),
-            border:`1px solid ${exit2Only?'#ffd700':'var(--border)'}`,
-            background:exit2Only?'#2a2200':'var(--surface2)',
-            color:exit2Only?'#ffd700':'var(--muted)', fontWeight:exit2Only?700:400,
-          }}>
-            🚇 2번출구 근처만 ({restaurants.filter(r=>r.exit2).length}개)
-          </button>
         </div>
 
 
@@ -604,7 +593,6 @@ ${compact}
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
                           {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
-                          {r.exit2&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇2번출구</span>}
                         </div>
                       </div>
                     </div>
@@ -641,10 +629,8 @@ ${compact}
 function BrowseTab() {
   const [search, s]      = useState('')
   const [activeCat, ac]  = useState('전체')
-  const [exit2Only, e2]  = useState(false)
   const allCats = ['전체','국밥','고기구이','이자카야','중식','양식','치킨','야장','버거','칼국수','일식']
   const filtered = restaurants.filter(r => {
-    if (exit2Only && !r.exit2) return false
     return (activeCat==='전체'||r.cat?.includes(activeCat)) &&
       (!search||r.name.includes(search)||r.type.includes(search)||r.tags?.some(t=>t.includes(search)))
   })
@@ -653,10 +639,6 @@ function BrowseTab() {
       <div style={{ display:'flex',gap:8,marginBottom:14 }}>
         <input value={search} onChange={e=>s(e.target.value)} placeholder="🔍 식당명·종류·태그"
           style={{ flex:1,padding:'9px 14px',borderRadius:10,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--text)',fontSize:'.88rem',outline:'none' }} />
-        <button onClick={()=>e2(!exit2Only)}
-          style={{ padding:'9px 12px',borderRadius:10,border:`1px solid ${exit2Only?'#ffd700':'var(--border)'}`,background:exit2Only?'#2a2200':'var(--surface2)',color:exit2Only?'#ffd700':'var(--muted)',cursor:'pointer',fontSize:'.8rem',whiteSpace:'nowrap' }}>
-          🚇 2번출구
-        </button>
       </div>
       <div style={{ display:'flex',flexWrap:'wrap',gap:5,marginBottom:16 }}>
         {allCats.map(cat=>(
@@ -669,7 +651,7 @@ function BrowseTab() {
         {filtered.map((r,i)=>(
           <Link href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`} key={i}>
             <div className="restaurant-card">
-              <div className="card-name">{r.e} {r.name}{r.exit2&&<span style={{marginLeft:6,fontSize:'.65rem',color:'var(--accent)'}}>🚇</span>}</div>
+              <div className="card-name">{r.e} {r.name}</div>
               <div className="card-meta">
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>

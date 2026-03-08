@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
+import { CoupangDetailBanner } from '../../../../components/CoupangBanner'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -536,7 +537,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()}리뷰)</span>
                 {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
-                {r.exit2 && <span style={{ fontSize:'.7rem', background:'#1a1a00', padding:'2px 8px', borderRadius:100, border:'1px solid #4a4a00', color:'#ffd700' }}>🚇 2번출구 근처</span>}
                 {r.waiting && r.waiting !== '바로 입장' && (
                   <span style={{ fontSize:'.7rem', background:'#1a1a2a', padding:'2px 8px', borderRadius:100, border:'1px solid #2a2a5a', color:'#9999ff' }}>
                     {r.waiting === '웨이팅 있음' ? '⏳ 웨이팅 있음' : '📞 예약 가능'}
@@ -575,7 +575,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
               ['웨이팅·예약', r.waiting || '바로 입장 가능'],
               ['주차', r.parking ? '✅ 주차 가능' : '주차 어려움 (대중교통 권장)'],
-              ['잠실역 2번출구', r.exit2 ? '✅ 도보 5분 이내' : '잠실역 도보권 내'],
             ].map(([label, val], i) => (
               <tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}>
                 <td style={{ padding:'10px 14px', color:'var(--muted)', whiteSpace:'nowrap', width:120 }}>{label}</td>
@@ -711,15 +710,11 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <h2 style={h2s}>🗺️ 위치 & 찾아가는 법</h2>
         <p style={ps}>
           <strong>{r.name}</strong>은 서울 송파구 {r.addr}에 위치한 잠실 맛집입니다.
-          {r.exit2
-            ? ' 잠실역 2번출구에서 도보 5분 이내로 접근성이 좋습니다.'
-            : ' 잠실역에서 도보로 이동 가능합니다. 정확한 경로는 지도를 참고해주세요.'}
+ 잠실역에서 도보로 이동 가능합니다. 정확한 경로는 지도를 참고해주세요.
         </p>
         <ul style={uls}>
           <li style={lis}><strong>지하철</strong> — 2호선·8호선 잠실역 하차</li>
-          {r.exit2
-            ? <li style={lis}><strong>도보</strong> — 2번출구 기준 약 5분 이내</li>
-            : <li style={lis}><strong>도보</strong> — 잠실역 각 출구에서 도보 5~10분 내외</li>}
+          <li style={lis}><strong>도보</strong> — 잠실역 각 출구에서 도보 5~10분 내외</li>
           <li style={lis}><strong>주차</strong> — {r.parking ? '주차 가능 (매장 문의)' : '롯데월드몰·잠실 공영주차장 이용 권장'}</li>
         </ul>
         <a href={mapUrl} target="_blank" rel="noopener noreferrer"
@@ -731,7 +726,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <h2 style={h2s}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
-          [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역${r.exit2 ? ' 2번출구에서 도보 5분 거리' : ' 인근'}입니다.`],
+          [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역 인근입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 웨이팅이 있나요?`, r.waiting === '웨이팅 있음' ? '인기 맛집으로 웨이팅이 있을 수 있습니다. 오픈 시간에 맞춰 방문하거나 여유 있게 방문하세요.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 전화 예약을 추천드립니다.' : '일반적으로 바로 입장 가능합니다.'],
         ].map(([q, a], i) => (
@@ -773,6 +768,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
+
+        {/* 쿠팡 파트너스 배너 */}
+        <CoupangDetailBanner cats={r.cat} />
       </article>
     </Layout>
   )
