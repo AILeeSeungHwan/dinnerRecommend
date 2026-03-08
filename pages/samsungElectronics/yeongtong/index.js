@@ -416,28 +416,37 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const rest = top20.slice(3)
       const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,3)
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
-      const compact = top6.map(r =>
-        `${r.name}(${r.type},⭐${r.rt},${(r.tags||[]).slice(0,3).join('/')},${r.priceRange?r.priceRange+'원':'가격미정'})`
-      ).join('|')
+      const compact = top6.map(r => {
+        const rvSnippet = (r.rv || []).slice(0, 2)
+          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').slice(0, 50))
+          .join(' / ')
+        const moodStr = (r.moods || []).slice(0, 3).join('·')
+        const tagsStr = (r.tags || []).slice(0, 5).join('/')
+        return `${r.name}|타입:${r.type}|평점:⭐${r.rt}(${r.cnt}개리뷰)|가격:${r.priceRange||'미정'}원|태그:${tagsStr}|분위기:${moodStr}|리뷰:"${rvSnippet}"|영업:${r.hours||'확인필요'}`
+      }).join('\n')
       const ctx_full = (ctx||'').slice(0, 80)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt = `당신은 영통역·수원 삼성전자 맛집 전문가입니다. 아래 조건에 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
+      const prompt = `당신은 영통역·수원 삼성전자 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
 
-[검색 조건]
-${ctx_full ? `사용자 요청: "${ctx_full}"` : '특별한 요청 없음 (무작위 추천)'}
-${filter_str ? `필터: ${filter_str}` : ''}
+[사용자 요청]
+${ctx_full ? `\"${ctx_full}\"` : '특별한 요청 없음 (상황에 맞는 추천)'}
+${filter_str ? `조건: ${filter_str}` : ''}
 
-[후보 식당 목록]
+[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]
 ${compact}
 
-[출력 규칙]
-- restaurantName은 반드시 후보 목록의 이름을 그대로 사용
-- reason: 사용자의 검색 의도와 연결해서 왜 이 식당인지 2~3문장으로 설명 (분위기, 메뉴, 특징 포함)
-- reviewHighlight: 이 식당의 핵심 매력을 한 줄로 (태그/특징 기반)
-- JSON만 출력, 다른 텍스트 없음
+[추천 작성 규칙]
+- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)
+- reason: 반드시 3~4문장, 아래 요소를 자연스럽게 녹일 것
+  ① 사용자 요청·기분·날씨와 이 식당이 왜 맞는지 (구체적으로)
+  ② 이 식당만의 시그니처 메뉴·분위기·특징 (다른 식당과 차별화)
+  ③ 실제 리뷰에서 나온 손님 반응이나 분위기
+- reviewHighlight: 이 식당을 강렬하게 한 줄 표현 (리뷰 키워드 활용, 20자 이내)
+- 3개 식당이 각자 다른 매력을 강조 (비슷한 문구 반복 절대 금지)
+- JSON만 출력, 마크다운·설명 없음
 
-{"recommendations":[{"rank":1,"restaurantName":"후보이름그대로","reason":"검색의도와연결한설명2~3문장","reviewHighlight":"핵심매력한줄"},{"rank":2,...},{"rank":3,...}]}`
+{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
