@@ -166,7 +166,7 @@ export default function Layout({ children, title, description, canonical }) {
   const [showStations, setShowStations] = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
 
-  const rawTitle = title ? `${title} | 강남뭐먹` : '강남뭐먹 — 강남 맛집 AI 추천'
+  const rawTitle = title ? `${title} | 오늘뭐먹지` : '오늘뭐먹지 — AI 맛집 추천'
   const siteTitle = rawTitle.length > 70 ? rawTitle.slice(0, 68) + '…' : rawTitle
   const siteDesc  = description || '강남역·삼성역 맛집을 AI가 빠르게 추천. 국밥·이자카야·한우·중식 170개+ 식당 정보.'
 
@@ -251,7 +251,7 @@ export default function Layout({ children, title, description, canonical }) {
 
           {/* 로고 */}
           <Link href="/" style={{ fontWeight:900, fontSize:'1rem', color:'var(--primary)', textDecoration:'none', flexShrink:0, marginRight:8 }}>
-            🍚 강남뭐먹
+            🍽️ 오늘뭐먹지
           </Link>
 
           {/* 구분선 */}
@@ -506,20 +506,20 @@ export default function Layout({ children, title, description, canonical }) {
 
       {/* ── 푸터 ── */}
       <footer style={{ borderTop:'1px solid var(--border)', padding:'32px 16px 28px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>
-        <p style={{ fontWeight:700, color:'var(--text)', fontSize:'.82rem', marginBottom:6 }}>강남뭐먹</p>
+        <p style={{ fontWeight:700, color:'var(--text)', fontSize:'.82rem', marginBottom:6 }}>오늘뭐먹지</p>
         <p style={{ marginBottom:4 }}>강남·잠실·영통 맛집 AI 추천 서비스</p>
         <p style={{ marginBottom:16, fontSize:'.73rem' }}>삼성역 · 잠실역 · 영통역 · 망포역 주변 식당 정보</p>
         <div style={{ width:32, height:1, background:'var(--border)', margin:'0 auto 16px' }} />
         <p style={{ marginBottom:6 }}>
           광고 및 비즈니스 문의{' '}
           <a
-            href="mailto:wizet1923@gmail.com?subject=강남뭐먹 비즈니스 문의"
+            href="mailto:wizet1923@gmail.com?subject=오늘뭐먹지 비즈니스 문의"
             style={{ color:'var(--primary)', textDecoration:'none', fontWeight:600 }}
           >
             문의하기
           </a>
         </p>
-        <p style={{ fontSize:'.72rem', opacity:.6 }}>© 2026 강남뭐먹. All rights reserved.</p>
+        <p style={{ fontSize:'.72rem', opacity:.6 }}>© 2026 오늘뭐먹지. All rights reserved.</p>
       </footer>
 
       {/* ── QR 모달 ── */}

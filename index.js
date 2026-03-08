@@ -1,206 +1,139 @@
-import Layout from '../../components/Layout'
+import Layout from '../components/Layout'
 import Link from 'next/link'
-import yeongtongData from '../../data/yeongtong'
-import mangpoData from '../../data/mangpo'
-import yeongtongGuData from '../../data/yeongtongGu'
+import samseongData from '../data/samseong'
+import jamsilData from '../data/jamsil'
 
 const stations = [
   {
-    slug: 'yeongtong',
-    name: '영통역',
-    emoji: '🚇',
-    desc: '삼성전자 DS부문 · 영통역 먹자골목',
-    count: yeongtongData.length,
-    ready: yeongtongData.length > 0,
-    line: '수인분당선 K245',
-    highlight: '점심·회식·이자카야',
+    slug:'samseong', name:'삼성역', emoji:'🏙️',
+    desc:'코엑스·파르나스·테헤란로',
+    count: samseongData.length, ready:true,
   },
   {
-    slug: 'mangpo',
-    name: '망포역',
-    emoji: '🌿',
-    desc: '삼성전자 생활가전 · 망포 로컬 맛집',
-    count: mangpoData.length,
-    ready: mangpoData.length > 0,
-    line: '수인분당선 K244',
-    highlight: '고기구이·국밥·한식',
+    slug:'jamsil', name:'잠실역', emoji:'🎡',
+    desc:'방이동·석촌호수·롯데타워',
+    count: jamsilData.length, ready:true,
   },
   {
-    slug: 'yeongtongGu',
-    name: '영통구청',
-    emoji: '🏢',
-    desc: '매탄동 · 삼성전기 · 구청 인근',
-    count: yeongtongGuData.length,
-    ready: yeongtongGuData.length > 0,
-    line: '영통구청 인근',
-    highlight: '직장인 점심 · 실비식당',
+    slug:'gangnam', name:'강남역', emoji:'🌆',
+    desc:'강남역·신논현·먹자골목',
+    count:null, ready:false,
+  },
+  {
+    slug:'seocho', name:'서초역', emoji:'🌿',
+    desc:'서초·교대·방배',
+    count:null, ready:false,
   },
 ]
 
-const QUICK_CATS = [
-  { emoji: '🥩', label: '고기·회식' },
-  { emoji: '🥣', label: '국밥·해장' },
-  { emoji: '🍶', label: '이자카야' },
-  { emoji: '🍱', label: '점심·혼밥' },
-  { emoji: '🥟', label: '중식·양꼬치' },
-  { emoji: '🍣', label: '일식·스시' },
+const CATS = [
+  {emoji:'🥣', name:'국밥·해장', slug:'gukbap'},
+  {emoji:'🥩', name:'고기·한우', slug:'meat'},
+  {emoji:'🏮', name:'이자카야',  slug:'izakaya'},
+  {emoji:'🍜', name:'중식·훠궈', slug:'chinese'},
+  {emoji:'🍝', name:'양식·스테이크', slug:'western'},
+  {emoji:'🎉', name:'회식·단체', slug:'group'},
 ]
 
-export default function SamsungElectronicsHome() {
-  const totalCount = yeongtongData.length + mangpoData.length + yeongtongGuData.length
+export default function Home() {
+  const totalCount = samseongData.length + jamsilData.length
 
   return (
     <Layout
-      title="영통 맛집 추천 — 삼성전자 임직원 AI 맛집 가이드"
-      description="영통역·망포역·영통구청 삼성전자 임직원 맛집 추천. 회식·점심·이자카야를 AI가 기분·예산에 맞게 골라드립니다."
-      canonical="https://dinner.ambitstock.com/samsungElectronics"
+      title="오늘뭐먹지 — AI 맛집 추천"
+      description="삼성역·잠실·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
+      canonical="https://dinner.ambitstock.com"
     >
       {/* 히어로 */}
-      <section style={{ padding: '40px 16px 28px', textAlign: 'center' }}>
-        <div style={{
-          display: 'inline-flex', alignItems: 'center', gap: 6,
-          fontSize: '.75rem', color: 'var(--primary)', fontWeight: 700,
-          background: 'var(--primary)12', borderRadius: 20,
-          padding: '4px 12px', marginBottom: 16, letterSpacing: '.03em',
-        }}>
-          🏭 삼성전자 임직원 전용
+      <section style={{ padding:'44px 16px 32px', textAlign:'center' }}>
+        <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:12, letterSpacing:'0.05em' }}>
+          오늘 뭐 먹지?
         </div>
-        <h1 style={{ fontSize: 'clamp(1.6rem,5.5vw,2.6rem)', fontWeight: 900, lineHeight: 1.2, marginBottom: 12 }}>
-          영통 맛집 추천,<br />
-          <span style={{ color: 'var(--primary)' }}>AI가 골라드립니다</span>
+        <h1 style={{ fontSize:'clamp(1.7rem,6vw,2.8rem)', fontWeight:900, lineHeight:1.15, marginBottom:12 }}>
+          오늘 뭐 먹지,<br />
+          <span style={{ color:'var(--primary)' }}>3초면 끝</span>
         </h1>
-        <p style={{ fontSize: '.88rem', color: 'var(--muted)', marginBottom: 24, lineHeight: 1.7 }}>
-          기분·날씨·예산만 말하면 3초 만에 TOP3 추천<br />
-          <strong style={{ color: 'var(--text)', fontWeight: 700 }}>{totalCount}개+</strong> 검증된 영통 맛집 DB
+        <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
+          날씨·기분·예산만 말하면 AI가 딱 맞는 식당 TOP3 추천<br />
+          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length}개 + 잠실·방이동 {jamsilData.length}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
         </p>
-
-        {/* 카테고리 빠른 탐색 칩 */}
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'center', marginBottom: 28 }}>
-          {QUICK_CATS.map(c => (
-            <span key={c.label} style={{
-              display: 'inline-flex', alignItems: 'center', gap: 4,
-              padding: '6px 12px', borderRadius: 20,
-              border: '1px solid var(--border)',
-              background: 'var(--surface)',
-              fontSize: '.8rem', color: 'var(--text)', fontWeight: 500,
-            }}>
-              {c.emoji} {c.label}
-            </span>
-          ))}
-        </div>
-
-        {/* 강남·잠실 링크 — 서비스 소개 맥락으로 */}
-        <div style={{ fontSize: '.78rem', color: 'var(--muted)' }}>
-          강남·잠실 쪽 회식도 찾으신다면 →{' '}
-          <Link href="/" style={{ color: 'var(--primary)', textDecoration: 'none', fontWeight: 600 }}>
-            강남뭐먹
+        <div style={{ display:'flex', gap:10, justifyContent:'center', flexWrap:'wrap' }}>
+          <Link href="/dinner/samseong">
+            <button style={{ padding:'13px 24px', borderRadius:12, background:'var(--primary)', color:'#fff', border:'none', fontSize:'.95rem', fontWeight:700, cursor:'pointer' }}>
+              🏙️ 삼성역 맛집 찾기
+            </button>
+          </Link>
+          <Link href="/dinner/jamsil">
+            <button style={{ padding:'13px 24px', borderRadius:12, background:'var(--surface)', color:'var(--text)', border:'1px solid var(--border)', fontSize:'.95rem', fontWeight:700, cursor:'pointer' }}>
+              🎡 잠실 맛집 찾기
+            </button>
           </Link>
         </div>
       </section>
 
-      {/* 지역 선택 카드 */}
-      <section style={{ padding: '0 16px 16px', maxWidth: 480, margin: '0 auto' }}>
-        <div style={{
-          fontSize: '.72rem', fontWeight: 700, color: 'var(--muted)',
-          letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 12,
-        }}>
-          📍 지역 선택
-        </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {stations.map(st => (
-            <div key={st.slug}>
-              {st.ready ? (
-                <Link href={`/samsungElectronics/${st.slug}`} style={{ textDecoration: 'none' }}>
-                  <StationCard st={st} />
+      <div style={{ maxWidth:900, margin:'0 auto', padding:'0 16px 56px' }}>
+
+        {/* 지역 선택 */}
+        <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>📍 지역 선택</h2>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:12, marginBottom:40 }}>
+          {stations.map(s => (
+            <div key={s.slug}>
+              {s.ready ? (
+                <Link href={`/dinner/${s.slug}`} style={{ textDecoration:'none' }}>
+                  <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', cursor:'pointer', position:'relative', overflow:'hidden', transition:'border-color .15s' }}>
+                    <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
+                    <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
+                    <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:10 }}>{s.desc}</div>
+                    <span style={{ fontSize:'.7rem', background:'#1a2a1a', color:'#6fcf6f', padding:'2px 8px', borderRadius:100, border:'1px solid #2a4a2a' }}>
+                      식당 {s.count}개+
+                    </span>
+                    <div style={{ position:'absolute', top:12, right:12, background:'var(--primary)', color:'#fff', fontSize:'.6rem', padding:'2px 7px', borderRadius:100, fontWeight:700 }}>
+                      LIVE
+                    </div>
+                  </div>
                 </Link>
               ) : (
-                <div style={{ opacity: 0.5, cursor: 'default', pointerEvents: 'none' }}>
-                  <StationCard st={st} coming />
+                <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', opacity:0.4 }}>
+                  <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
+                  <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
+                  <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:10 }}>{s.desc}</div>
+                  <span style={{ fontSize:'.7rem', color:'var(--muted)', background:'var(--surface2)', padding:'2px 8px', borderRadius:100, border:'1px solid var(--border)' }}>준비중</span>
                 </div>
               )}
             </div>
           ))}
         </div>
-      </section>
 
-      {/* 사용법 안내 */}
-      <section style={{ padding: '24px 16px 16px', maxWidth: 480, margin: '0 auto' }}>
-        <div style={{
-          background: 'var(--surface)', border: '1px solid var(--border)',
-          borderRadius: 16, padding: '18px 20px',
-        }}>
-          <div style={{ fontWeight: 700, fontSize: '.88rem', marginBottom: 14 }}>💡 이렇게 사용하세요</div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            {[
-              { step: '1', text: '지역 선택 (영통역 / 망포역 / 구청)' },
-              { step: '2', text: '"오늘 기분·날씨·예산" 입력' },
-              { step: '3', text: 'AI가 딱 맞는 식당 TOP3 추천' },
-            ].map(s => (
-              <div key={s.step} style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                <div style={{
-                  width: 24, height: 24, borderRadius: '50%',
-                  background: 'var(--primary)', color: '#fff',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontSize: '.75rem', fontWeight: 800, flexShrink: 0,
-                }}>
-                  {s.step}
-                </div>
-                <div style={{ fontSize: '.84rem', color: 'var(--muted)' }}>{s.text}</div>
+        {/* 카테고리 (삼성역 기준) */}
+        <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>🍽️ 카테고리별 맛집</h2>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:10, marginBottom:40 }}>
+          {CATS.map(cat => (
+            <Link href={`/dinner/samseong/category/${cat.slug}`} key={cat.slug} style={{ textDecoration:'none' }}>
+              <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'16px 10px', textAlign:'center', cursor:'pointer' }}>
+                <div style={{ fontSize:'1.6rem', marginBottom:5 }}>{cat.emoji}</div>
+                <div style={{ fontSize:'.78rem', fontWeight:600 }}>{cat.name}</div>
               </div>
-            ))}
-          </div>
+            </Link>
+          ))}
         </div>
-      </section>
 
-      {/* 하단 안내 */}
-      <section style={{ padding: '12px 16px 48px', maxWidth: 480, margin: '0 auto', textAlign: 'center' }}>
-        <p style={{ fontSize: '.74rem', color: 'var(--muted)', lineHeight: 1.9, opacity: .8 }}>
-          데이터는 구글 지도 기반으로 수집됩니다.<br />
-          영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인하세요.
-        </p>
-      </section>
+        {/* SEO 텍스트 */}
+        <article style={{ padding:'24px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:10 }}>강남 맛집 추천, AI로 3초 만에</h2>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
+            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·방이동 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
+            오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 TOP3를 바로 알려드립니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
+            <strong>삼성역·코엑스</strong> 주변은 국밥·한우·이자카야·딤섬·훠궈·스테이크 등 {samseongData.length}개 식당을 엄선했습니다.
+            4번출구 근처 맛집 필터와 AI 추천으로 회식·데이트·혼밥 어디든 딱 맞는 곳을 찾을 수 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
+            <strong>잠실·방이동</strong>은 곱창·삼겹살 골목의 로컬 맛집부터 석촌호수 카페·송리단길 브런치·롯데타워 오마카세까지
+            {jamsilData.length}개 식당을 담았습니다. 잠실에서 오늘 뭐 먹지 고민이라면 AI 추천을 써보세요.
+          </p>
+        </article>
+      </div>
     </Layout>
-  )
-}
-
-function StationCard({ st, coming }) {
-  return (
-    <div style={{
-      background: 'var(--surface)',
-      border: `1px solid ${coming ? 'var(--border)' : 'var(--border)'}`,
-      borderRadius: 16, padding: '16px 18px',
-      display: 'flex', alignItems: 'center', gap: 14,
-    }}>
-      <div style={{
-        width: 48, height: 48, borderRadius: 13,
-        background: coming ? 'var(--border)' : 'var(--primary)15',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        fontSize: '1.5rem', flexShrink: 0,
-      }}>
-        {st.emoji}
-      </div>
-      <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 3 }}>
-          <span style={{ fontWeight: 800, fontSize: '1rem' }}>{st.name}</span>
-          <span style={{
-            fontSize: '.68rem', padding: '2px 7px', borderRadius: 6,
-            background: coming ? 'var(--border)' : 'var(--primary)20',
-            color: coming ? 'var(--muted)' : 'var(--primary)',
-            fontWeight: 700,
-          }}>
-            {coming ? '준비중' : `${st.count}개`}
-          </span>
-        </div>
-        <div style={{ fontSize: '.8rem', color: 'var(--muted)', marginBottom: 4, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-          {st.desc}
-        </div>
-        <div style={{ fontSize: '.72rem', color: 'var(--primary)', fontWeight: 600, opacity: coming ? .4 : .85 }}>
-          {st.highlight}
-        </div>
-      </div>
-      {!coming && (
-        <div style={{ fontSize: '1.1rem', color: 'var(--muted)', flexShrink: 0 }}>›</div>
-      )}
-    </div>
   )
 }
