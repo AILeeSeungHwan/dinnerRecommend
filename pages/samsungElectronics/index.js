@@ -52,7 +52,7 @@ export default function SamsungElectronicsHome() {
   return (
     <Layout
       title="영통 맛집 추천 — 삼성전자 임직원 AI 맛집 가이드"
-      description="영통역·망포역·영통구청 삼성전자 임직원 맛집 추천. 회식·점심·이자카야를 AI가 기분·예산에 맞게 골라드립니다."
+      description="영통역·망포역·영통구청 삼성전자 임직원을 위한 회식장소·점심 맛집 추천. AI가 기분·예산에 맞게 골라드립니다."
       canonical="https://dinner.ambitstock.com/samsungElectronics"
     >
       {/* 히어로 */}
@@ -63,10 +63,10 @@ export default function SamsungElectronicsHome() {
           background: 'var(--primary)12', borderRadius: 20,
           padding: '4px 12px', marginBottom: 16, letterSpacing: '.03em',
         }}>
-          🏭 삼성전자 임직원 전용
+          🏭 삼성전자 임직원을 위한 회식장소 추천
         </div>
         <h1 style={{ fontSize: 'clamp(1.6rem,5.5vw,2.6rem)', fontWeight: 900, lineHeight: 1.2, marginBottom: 12 }}>
-          영통 맛집 추천,<br />
+          영통 맛집 추천<br />
           <span style={{ color: 'var(--primary)' }}>AI가 골라드립니다</span>
         </h1>
         <p style={{ fontSize: '.88rem', color: 'var(--muted)', marginBottom: 24, lineHeight: 1.7 }}>
@@ -99,14 +99,22 @@ export default function SamsungElectronicsHome() {
       </section>
 
       {/* 지역 선택 카드 */}
-      <section style={{ padding: '0 16px 16px', maxWidth: 480, margin: '0 auto' }}>
+      <section style={{ padding: '0 16px 16px', maxWidth: 760, margin: '0 auto' }}>
         <div style={{
           fontSize: '.72rem', fontWeight: 700, color: 'var(--muted)',
           letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 12,
+          textAlign: 'center',
         }}>
           📍 지역 선택
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+        {/* 데스크탑: 가로 1줄 / 모바일: 세로 */}
+        <style>{`
+          @media (min-width: 600px) {
+            .se-station-grid { flex-direction: row !important; }
+            .se-station-grid > div { flex: 1; }
+          }
+        `}</style>
+        <div className="se-station-grid" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {stations.map(st => (
             <div key={st.slug}>
               {st.ready ? (
@@ -124,7 +132,7 @@ export default function SamsungElectronicsHome() {
       </section>
 
       {/* 사용법 안내 */}
-      <section style={{ padding: '24px 16px 16px', maxWidth: 480, margin: '0 auto' }}>
+      <section style={{ padding: '24px 16px 16px', maxWidth: 760, margin: '0 auto' }}>
         <div style={{
           background: 'var(--surface)', border: '1px solid var(--border)',
           borderRadius: 16, padding: '18px 20px',
