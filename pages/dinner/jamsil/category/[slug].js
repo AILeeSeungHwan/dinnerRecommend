@@ -127,7 +127,7 @@ export async function getStaticProps({ params }) {
         name: r.name, type: r.type, e: r.e,
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
-        priceRange: r.priceRange || null,
+        priceRange: r.priceRange || null, cat: r.cat || [],
         rv: r.rv || []
       }))
     }
@@ -244,7 +244,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                     <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>
                       🕐 {r.hours}
                     </span>
-                    <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>탭해서 상세보기 →</span>
+              <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>탭해서 상세보기 →</span>
                   </div>
                 </div>
               </Link>

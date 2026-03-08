@@ -411,20 +411,22 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
-function naverMapUrl(name, lat, lng) {
+function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+  // 식당명에 삼성/강남/코엑스/선릉/대치 등 지역이 포함되면 그대로, 아니면 " 삼성" 추가
+  const hasRegion = /(삼성|강남|코엑스|선릉|대치|봉은사|테헤란)/.test(name)
+  const query = hasRegion ? cleaned : cleaned + ' 삼성'
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
   const slug = CAT_TO_SLUG[r.cat?.[0]] || null
   const catName = slug ? CAT_NAMES[slug] : null
-  const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
+  const mapUrl = naverMapUrl(r.name)
   const pageUrl = `https://dinner.ambitstock.com/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`
 
   // 날씨·기분 매칭
@@ -665,7 +667,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 </div>
               )
             })}
-            <a href={naverMapUrl(r.name, r.lat, r.lng)}
+            <a href={naverMapUrl(r.name)}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
@@ -765,6 +767,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
+
       </article>
     </Layout>
   )

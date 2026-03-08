@@ -142,14 +142,16 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
-function naverMapUrl(name, lat, lng) {
+function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+  // 식당명에 잠실/송파/방이/석촌 등 지역이 포함되면 그대로, 아니면 " 잠실" 추가
+  const hasRegion = /(잠실|송파|방이|석촌|롯데월드|올림픽공원)/.test(name)
+  const query = hasRegion ? cleaned : cleaned + ' 잠실'
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
 
 function DiceOverlay({ onDone }) {
@@ -603,7 +605,7 @@ ${compact}
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
-                      <a href={naverMapUrl(r.name, r.lat, r.lng)}
+                      <a href={naverMapUrl(r.name)}
                         target="_blank" rel="noopener noreferrer"
                         onClick={e=>e.stopPropagation()}
                         style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>

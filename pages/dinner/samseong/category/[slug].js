@@ -44,7 +44,7 @@ export async function getStaticProps({ params }) {
         name: r.name, type: r.type, e: r.e,
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
-        priceRange: r.priceRange || null,
+        priceRange: r.priceRange || null, cat: r.cat || [],
         rv: r.rv || [], lat: r.lat, lng: r.lng
       }))
     }
@@ -251,6 +251,8 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
                     💬 {r.rv[0].replace(/ \(실제 Google 리뷰.*?\)/, '').slice(0, 60)}...
                   </div>
                 )}
+                <div style={{ marginTop:8 }}>
+                    </div>
               </div>
             </Link>
           ))}

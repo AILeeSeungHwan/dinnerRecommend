@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
-import { CoupangDetailBanner } from '../../../../components/CoupangBanner'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -444,20 +443,22 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
-function naverMapUrl(name, lat, lng) {
+function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+  // 식당명에 잠실/송파/방이/석촌 등 지역이 포함되면 그대로, 아니면 " 잠실" 추가
+  const hasRegion = /(잠실|송파|방이|석촌|롯데월드|올림픽공원)/.test(name)
+  const query = hasRegion ? cleaned : cleaned + ' 잠실'
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
   const BASE = 'https://dinner.ambitstock.com'
   const pageUrl = `${BASE}/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`
-  const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
+  const mapUrl = naverMapUrl(r.name)
 
   const matchedWx    = r.wx?.map(w => WX_COPY[w]).filter(Boolean) || []
   const matchedMoods = r.moods?.map(m => ({ mood: m, copy: MOOD_COPY[m] })).filter(x => x.copy) || []
@@ -680,7 +681,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 </div>
               )
             })}
-            <a href={naverMapUrl(r.name, r.lat, r.lng)}
+            <a href={naverMapUrl(r.name)}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
@@ -769,8 +770,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </Link>
         </div>
 
-        {/* 쿠팡 파트너스 배너 */}
-        <CoupangDetailBanner cats={r.cat} />
       </article>
     </Layout>
   )
