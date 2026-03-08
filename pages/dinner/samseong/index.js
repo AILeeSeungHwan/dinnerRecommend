@@ -61,6 +61,17 @@ function buildRandomReason(r, idx, usedTemplates) {
     if (code >= 0xAC00 && code <= 0xD7A3) return (code - 0xAC00) % 28 !== 0 ? j1 : j2
     return j2
   }
+  // 태그를 자연어 수식어로 변환
+  function tagToLabel(tag) {
+    const map = {
+      '고평점':'맛집','SNS맛집':'SNS 핫플','웨이팅맛집':'웨이팅 맛집',
+      '가성비':'가성비 맛집','혼밥가능':'혼밥 맛집','단체가능':'단체 맛집',
+      '점심추천':'점심 맛집','심야영업':'심야 맛집','예약필수':'예약제 맛집',
+      '주차가능':'주차 가능한 곳','리뷰많음':'리뷰 많은 곳',
+    }
+    return map[tag] || tag + ' 맛집'
+  }
+
 
   const rv    = (r.rv || []).map(cleanRv).filter(Boolean)
   const rv0   = rv[0] || ''
@@ -140,8 +151,9 @@ function buildRandomReason(r, idx, usedTemplates) {
     () => {
       if (!tags[0]) return templates[0]()
       const t0 = tags[0]
-      const particle = josa(t0, '으로', '로')
-      const intro = `${t0}${particle} 알려진 곳.`
+      const label = tagToLabel(t0)
+      const particle = josa(label, '으로', '로')
+      const intro = `${label}${particle} 알려진 곳.`
       const reason = rv0 && rv1
         ? `${intro} "${rv0}" "${rv1}"`
         : rv0

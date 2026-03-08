@@ -95,12 +95,50 @@ export async function getStaticProps({ params }) {
   }
 }
 
+
+// ── 랜덤 결과 문구 ──────────────────────────────────────────────
+function buildCatReason(r, idx) {
+  function cleanRv(v) {
+    return (v||'').replace(/\[\d+\.?\d*★\]\s*/g,'').replace(/\(실제 Google 리뷰.*?\)/g,'').trim().slice(0,70)
+  }
+  function tagToLabel(tag) {
+    const map = {
+      '고평점':'맛집','SNS맛집':'SNS 핫플','웨이팅맛집':'웨이팅 맛집',
+      '가성비':'가성비 맛집','혼밥가능':'혼밥 맛집','단체가능':'단체 맛집',
+      '점심추천':'점심 맛집','심야영업':'심야 맛집','예약필수':'예약제 맛집',
+      '주차가능':'주차 가능한 곳','리뷰많음':'리뷰 많은 곳',
+    }
+    return map[tag] || tag + ' 맛집'
+  }
+  const rv    = (r.rv||[]).map(cleanRv).filter(Boolean)
+  const rv0   = rv[0]||''
+  const rv1   = rv[1]||''
+  const tags  = (r.tags||[]).slice(0,4)
+  const scene = (r.scene||[])
+  const moods = (r.moods||[])
+  const cnt   = r.cnt||0
+  const pool = [
+    ()=>rv1?`"${rv0}" 또 다른 방문객은, "${rv1}"`:rv0?`"${rv0}"`:null,
+    ()=>cnt>=50?`${cnt.toLocaleString()}명이 다녀갔다.${tags[0]?' '+tagToLabel(tags[0])+'.':''} ${rv0?'"'+rv0+'"':''}`.trim():null,
+    ()=>{ const sc=(scene[0]||'').replace(/에$/,''); return sc&&rv0?`${sc}, 딱 맞는 곳. "${rv0}"`:null },
+    ()=>tags.length?`${tags.slice(0,3).map(t=>'#'+t).join('  ')}${rv0?'  "'+rv0+'"':''}`:null,
+    ()=>tags[0]?`${tagToLabel(tags[0])}으로 알려진 곳.${rv0?' "'+rv0+'"':''}`:null,
+    ()=>{ const moodMap={'기분 좋음':'기분 좋을 때','피곤함':'피곤할 때','스트레스 받음':'스트레스받을 때','혼밥':'혼밥할 때','데이트':'데이트할 때','회식':'회식 자리에','축하':'축하하는 날'}; const m=moods[0]||''; const when=moodMap[m]||(m?m+'일 때':''); return when&&rv0?`${when} 당기는 곳. "${rv0}"`:null },
+    ()=>rv0?`"${rv0}"`:null,
+  ]
+  const order = [idx%pool.length, (idx+1)%pool.length, (idx+2)%pool.length, 6, 3, 0]
+  for(const i of order){ const r2=pool[i](); if(r2&&r2.trim()) return { reason: r2.trim(), highlight: rv0.slice(0,20)||'' } }
+  return { reason: rv0?`"${rv0}"`:r.type||'', highlight: rv0.slice(0,20)||'' }
+}
+
+
 export default function CategoryPage({ slug, catInfo, restaurants }) {
   const sorted = [...restaurants].sort((a, b) => b.rt - a.rt)
   const [dicing,  setDicing]  = useState(false)
   const [picks,   setPicks]   = useState(null)
   const [pending, setPending] = useState(null)
 
+  
   function doRandom() {
     const pool = [...restaurants].sort(() => Math.random() - 0.5).slice(0, 3)
     setPending(pool)
@@ -205,6 +243,12 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                     <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>
                       🕐 {r.hours}
                     </span>
+                {(() => { const {reason, highlight} = buildCatReason(r, i); return reason ? (
+                  <div style={{ margin:'8px 0 4px', fontSize:'.78rem', color:'var(--muted)', lineHeight:1.5 }}>
+                    {highlight && <span style={{ display:'inline-block', background:'var(--surface)', border:'1px solid var(--border)', borderRadius:6, padding:'1px 7px', fontSize:'.7rem', color:'var(--primary)', marginBottom:4 }}>💬 {highlight}</span>}
+                    <div style={{ marginTop:highlight?4:0 }}>{reason}</div>
+                  </div>
+                ) : null })()}
               <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>상세보기 →</span>
                   </div>
                 </div>
