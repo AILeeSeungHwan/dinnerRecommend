@@ -166,7 +166,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>잠실역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 강남뭐먹</title>
+        <title>잠실역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
         <meta name="description" content={`잠실역·방이동·석촌호수 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/yeongtong/category/${slug}`} />

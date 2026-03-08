@@ -700,7 +700,7 @@ export default function JamsilPage() {
       <section style={{ background:'linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%)',padding:'32px 16px 24px',borderBottom:'1px solid var(--border)' }}>
         <div style={{ maxWidth:900,margin:'0 auto' }}>
           <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:8 }}>
-            <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> › 잠실
+            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 잠실
           </div>
           <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🚇 영통구청 맛집</h1>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',marginBottom:14 }}>

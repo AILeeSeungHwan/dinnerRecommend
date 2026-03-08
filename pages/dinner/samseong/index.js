@@ -698,7 +698,7 @@ export default function SamseongPage() {
   return (
     <Layout title="삼성역 맛집 AI 추천" description="삼성역·코엑스 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/dinner/samseong">
       <Head>
-        <title>삼성역 맛집 추천 | 코엑스·강남 AI 추천 | 강남뭐먹</title>
+        <title>삼성역 맛집 추천 | 코엑스·강남 AI 추천 | 오늘뭐먹지</title>
         <meta name="description" content="삼성역 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/samseong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -711,7 +711,7 @@ export default function SamseongPage() {
       <section style={{ background:'linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%)',padding:'32px 16px 24px',borderBottom:'1px solid var(--border)' }}>
         <div style={{ maxWidth:900,margin:'0 auto' }}>
           <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:8 }}>
-            <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> › 삼성역
+            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 삼성역
           </div>
           <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🏙️ 삼성역 맛집</h1>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',marginBottom:14 }}>

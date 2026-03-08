@@ -445,7 +445,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const foodImages = getFoodImages(r)
 
   // 메타 desc
-  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
+  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org",
@@ -476,7 +476,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"강남뭐먹", "item":"https://gangnamwhat.com" },
+      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://gangnamwhat.com" },
       { "@type":"ListItem", "position":2, "name":"삼성역 맛집", "item":"https://gangnamwhat.com/dinner/samseong" },
       slug && { "@type":"ListItem", "position":3, "name":`삼성역 ${catName}`, "item":`https://gangnamwhat.com/dinner/samseong/category/${slug}` },
       { "@type":"ListItem", "position": slug ? 4 : 3, "name":r.name, "item":pageUrl },
@@ -498,7 +498,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> <span>›</span>
+          <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
           <Link href="/dinner/samseong" style={{ color:'var(--muted)' }}>삼성역 맛집</Link> <span>›</span>
           {slug && <><Link href={`/dinner/samseong/category/${slug}`} style={{ color:'var(--muted)' }}>삼성역 {catName}</Link> <span>›</span></>}
           <span style={{ color:'var(--text)' }}>{r.name}</span>

@@ -15,27 +15,28 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
 
         {/* ── 기본 SEO ── */}
-        <meta name="author" content="강남뭐먹" />
+        <meta name="author" content="오늘뭐먹지" />
+        <meta name="keywords" content="오늘뭐먹지, 맛집추천, AI맛집, 삼성역맛집, 잠실맛집, 영통맛집, 강남맛집, 회식장소, 점심추천, 오늘뭐먹지추천" />
         <meta name="robots" content="index, follow" />
 
         {/* ── OG (카카오·페이스북·슬랙 등 공유 미리보기) ── */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="강남뭐먹" />
-        <meta property="og:title" content="강남뭐먹 — AI 맛집 추천" />
-        <meta property="og:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
+        <meta property="og:site_name" content="오늘뭐먹지" />
+        <meta property="og:title" content="오늘뭐먹지 — AI 맛집 추천" />
+        <meta property="og:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
         <meta property="og:url" content={BASE} />
         <meta property="og:image" content={`${BASE}/og-image.png`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="강남뭐먹 — AI 맛집 추천" />
+        <meta property="og:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
         <meta property="og:locale" content="ko_KR" />
 
         {/* ── Twitter Card ── */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="강남뭐먹 — AI 맛집 추천" />
-        <meta name="twitter:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
+        <meta name="twitter:title" content="오늘뭐먹지 — AI 맛집 추천" />
+        <meta name="twitter:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
         <meta name="twitter:image" content={`${BASE}/og-image.png`} />
-        <meta name="twitter:image:alt" content="강남뭐먹 — AI 맛집 추천" />
+        <meta name="twitter:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
 
         {/* ── 카카오톡 공유 SDK ── */}
         <script
@@ -65,7 +66,7 @@ export default function Document() {
 
 
         {/* ── RSS ── */}
-        <link rel="alternate" type="application/rss+xml" title="강남뭐먹 RSS" href="https://dinner.ambitstock.com/rss.xml" />
+        <link rel="alternate" type="application/rss+xml" title="오늘뭐먹지 RSS" href="https://dinner.ambitstock.com/rss.xml" />
 
         {/* ── 파비콘 & 아이콘 ── */}
         <link rel="icon" href="/favicon.ico" sizes="any" />

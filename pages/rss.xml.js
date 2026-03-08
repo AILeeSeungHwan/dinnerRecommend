@@ -41,7 +41,7 @@ export async function getServerSideProps({ res }) {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>강남뭐먹 — 삼성역·잠실 맛집 추천</title>
+    <title>오늘뭐먹지 — AI 맛집 추천</title>
     <link>${BASE}</link>
     <description>삼성역·잠실·방이동 주변 맛집 ${totalCount}개+ AI 추천. 국밥·이자카야·고기구이·중식·양식.</description>
     <language>ko</language>
@@ -49,7 +49,7 @@ export async function getServerSideProps({ res }) {
     <atom:link href="${BASE}/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>${BASE}/og-image.png</url>
-      <title>강남뭐먹</title>
+      <title>오늘뭐먹지</title>
       <link>${BASE}</link>
     </image>
     ${items}

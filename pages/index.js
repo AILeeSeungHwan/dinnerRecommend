@@ -40,8 +40,8 @@ export default function Home() {
 
   return (
     <Layout
-      title="강남 맛집 AI 추천 — 오늘 뭐 먹지?"
-      description="강남·삼성역·잠실 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
+      title="오늘뭐먹지 — AI 맛집 추천"
+      description="삼성역·잠실·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
       canonical="https://dinner.ambitstock.com"
     >
       {/* 히어로 */}
@@ -50,7 +50,7 @@ export default function Home() {
           오늘 뭐 먹지?
         </div>
         <h1 style={{ fontSize:'clamp(1.7rem,6vw,2.8rem)', fontWeight:900, lineHeight:1.15, marginBottom:12 }}>
-          강남 맛집 추천<br />
+          오늘 뭐 먹지,<br />
           <span style={{ color:'var(--primary)' }}>3초면 끝</span>
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
@@ -121,7 +121,7 @@ export default function Home() {
         <article style={{ padding:'24px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:10 }}>강남 맛집 추천, AI로 3초 만에</h2>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>강남뭐먹</strong>은 삼성역·잠실역·방이동 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
+            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·방이동 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
             오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 TOP3를 바로 알려드립니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>

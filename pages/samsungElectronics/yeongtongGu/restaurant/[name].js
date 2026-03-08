@@ -472,7 +472,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const intro = buildIntro(r)
   const foodImages = getFoodImages(r)
 
-  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
+  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org", "@type": "Restaurant",
@@ -498,7 +498,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const breadcrumbSchema = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"강남뭐먹", "item":BASE },
+      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":BASE },
       { "@type":"ListItem", "position":2, "name":"잠실 맛집", "item":`${BASE}/dinner/jamsil` },
       { "@type":"ListItem", "position":3, "name":r.name, "item":pageUrl },
     ]
@@ -519,7 +519,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> <span>›</span>
+          <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
           <Link href="/samsungElectronics/yeongtongGu" style={{ color:'var(--muted)' }}>잠실 맛집</Link> <span>›</span>
           <span style={{ color:'var(--text)' }}>{r.name}</span>
         </div>
