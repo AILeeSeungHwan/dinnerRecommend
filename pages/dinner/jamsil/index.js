@@ -106,7 +106,7 @@ function filterByRating(cands, rf) {
   })
 }
 
-function calcCost(i, o) { return (i/1e6)*3 + (o/1e6)*15 }
+function calcCost(i, o) { return (i/1e6)*0.8 + (o/1e6)*4 }  // haiku
 
 // ── 로딩 오버레이 ──────────────────────────────────────────────
 function LoadingOverlay() {
@@ -375,16 +375,21 @@ function AiApp() {
 
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
-      // top12 뽑되, AI에게는 이름·타입·평점·가격·태그2개만 (토큰 최소화)
-      const top12 = preScore(ctx, moods, weather, pool).slice(0, 12)
-      const compact = top12.map(r =>
-        `${r.name}(${r.type},${r.rt}★,${r.priceRange||'?'},${(r.tags||[]).slice(0,2).join('·')})`
-      ).join('\n')
-
-      // 출력도 짧게: matchScore 제거, reason 1문장
-      const prompt = `삼성역맛집 추천. 입력:"${ctx||'없음'}" 날씨:${weather||'무관'} 기분:${moods.join(',')||'무관'}${exit2Only?' 2번출구':''}
-후보:\n${compact}
-JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",reviewHighlight:"한줄"},{rank:2,...},{rank:3,...}]}`
+      // top20 스코어링 → 매번 다른 6개 (top3 고정 + 랜덤3)
+      const scored = preScore(ctx, moods, weather, pool)
+      const top20 = scored.slice(0, 20)
+      const fixed3 = top20.slice(0, 3)
+      const rest = top20.slice(3)
+      const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,3)
+      const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
+      const compact = top6.map(r =>
+        `${r.name}(${r.type},${r.rt},${(r.tags||[]).slice(0,1).join('')})`
+      ).join('|')
+      const ctx_short = (ctx||'').slice(0,30)
+      const mood_short = moods.slice(0,2).join(',')
+      const prompt = `잠실역맛집3개추천.조건:"${ctx_short}"${weather?' '+weather:''}${mood_short?' '+mood_short:''}${exit2Only?' 2번출구':''}
+후보:${compact}
+JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{rank:2,...},{rank:3,...}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
