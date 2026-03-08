@@ -648,7 +648,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 상세 정보 포함 (AI가 차별화된 설명 생성하도록)
       const compact = top6.map(r => {
         const rvSnippet = (r.rv || []).slice(0, 2)
-          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').slice(0, 50))
+          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 50))
           .join(' / ')
         const moodStr = (r.moods || []).slice(0, 3).join('·')
         const tagsStr = (r.tags || []).slice(0, 5).join('/')
@@ -674,6 +674,7 @@ ${compact}
   ③ 실제 리뷰에서 나온 손님 반응이나 분위기
 - reviewHighlight: 이 식당을 강렬하게 한 줄 표현 (리뷰 키워드 활용, 20자 이내)
 - 3개 식당이 각자 다른 매력을 강조 (비슷한 문구 반복 절대 금지)
+- reason/reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(') 또는 「」 사용
 - JSON만 출력, 마크다운·설명 없음
 
 {"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`

@@ -22,32 +22,76 @@ export default async function handler(req, res) {
     if (!response.ok) {
       const errText = await response.text()
       console.error('Anthropic API error:', response.status, errText)
-      return res.status(502).json({ error: 'Upstream API error', status: response.status })
+      return res.status(502).json({ error: 'Upstream API error', status: response.status, detail: errText.slice(0, 200) })
     }
 
     const data = await response.json()
-
-    // content 블록에서 텍스트 추출
     const text = (data.content || []).map(i => i.text || '').join('')
 
-    // JSON 추출 - 코드블록, 앞뒤 텍스트 제거 후 { } 블록만 파싱
-    const jsonMatch = text.match(/\{[\s\S]*\}/)
-    if (!jsonMatch) {
-      console.error('No JSON in response:', text)
+    // ── JSON 추출: 코드블록 제거 → { } 블록 추출 ──
+    const cleaned = text
+      .replace(/```json\s*/gi, '')
+      .replace(/```\s*/g, '')
+      .trim()
+
+    // { 부터 마지막 } 까지 추출 (greedy)
+    const start = cleaned.indexOf('{')
+    const end   = cleaned.lastIndexOf('}')
+    if (start === -1 || end === -1) {
+      console.error('No JSON block in response:', text.slice(0, 300))
       return res.status(502).json({ error: 'No JSON in response', raw: text.slice(0, 200) })
     }
+    const jsonStr = cleaned.slice(start, end + 1)
 
+    // ── 1차 시도: 직접 파싱 ──
     let parsed
     try {
-      parsed = JSON.parse(jsonMatch[0])
-    } catch (parseErr) {
-      console.error('JSON parse error:', parseErr.message, '\nRaw:', jsonMatch[0].slice(0, 300))
-      return res.status(502).json({ error: 'JSON parse failed', raw: jsonMatch[0].slice(0, 200) })
+      parsed = JSON.parse(jsonStr)
+    } catch (e1) {
+      // ── 2차 시도: 큰따옴표 중첩 수정 후 재파싱 ──
+      // reason/reviewHighlight 필드값 안의 큰따옴표를 작은따옴표로 교체
+      const fixed = jsonStr
+        .replace(/"(reason|reviewHighlight)"\s*:\s*"((?:[^"\\]|\\.)*)"/g, (match, key, val) => {
+          // val 안의 이스케이프되지 않은 큰따옴표 → 작은따옴표
+          const safeVal = val.replace(/(?<!\\)"/g, "'")
+          return `"${key}": "${safeVal}"`
+        })
+      try {
+        parsed = JSON.parse(fixed)
+        console.warn('JSON fixed with quote replacement')
+      } catch (e2) {
+        // ── 3차 시도: regex로 필드 직접 추출 ──
+        console.warn('JSON parse failed twice, attempting regex extraction:', e2.message)
+        const recs = []
+        const rankRe = /"rank"\s*:\s*(\d)/g
+        const nameRe = /"restaurantName"\s*:\s*"([^"]+)"/g
+        const reasonRe = /"reason"\s*:\s*"((?:[^"\\]|\\.)*)"/g
+        const hlRe = /"reviewHighlight"\s*:\s*"([^"]{0,30})"/g
+
+        const ranks = [...jsonStr.matchAll(/"rank"\s*:\s*(\d)/g)].map(m => parseInt(m[1]))
+        const names = [...jsonStr.matchAll(/"restaurantName"\s*:\s*"([^"]+)"/g)].map(m => m[1])
+        const reasons = [...jsonStr.matchAll(/"reason"\s*:\s*"((?:[^"\\]|\\.){0,400})"/g)].map(m => m[1])
+        const highlights = [...jsonStr.matchAll(/"reviewHighlight"\s*:\s*"([^"]{0,40})"/g)].map(m => m[1])
+
+        for (let i = 0; i < Math.min(names.length, 3); i++) {
+          recs.push({
+            rank: ranks[i] || i + 1,
+            restaurantName: names[i],
+            reason: reasons[i] || '',
+            reviewHighlight: highlights[i] || ''
+          })
+        }
+
+        if (recs.length === 0) {
+          console.error('All parse attempts failed. Raw:', jsonStr.slice(0, 300))
+          return res.status(502).json({ error: 'JSON parse failed', raw: jsonStr.slice(0, 200) })
+        }
+        parsed = { recommendations: recs }
+      }
     }
 
-    // recommendations 배열 없으면 에러
     if (!Array.isArray(parsed.recommendations) || parsed.recommendations.length === 0) {
-      console.error('No recommendations in parsed:', parsed)
+      console.error('No recommendations in parsed:', JSON.stringify(parsed).slice(0, 200))
       return res.status(502).json({ error: 'No recommendations', parsed })
     }
 
