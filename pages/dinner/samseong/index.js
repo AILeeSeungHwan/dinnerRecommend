@@ -248,7 +248,7 @@ function LimitModal({ onClose }) {
 // 제외 목록 관리: 50개 초과 시 자동 리셋
 const EXCLUDE_RESET = 50
 
-function AiApp() {
+function AiApp({ pendingCat, onPendingCatUsed }) {
   const [ctx,        setCtx]       = useState('')
   const [weather,    setWeather]   = useState('')
   const [moods,      setMoods]     = useState([])
@@ -272,6 +272,16 @@ function AiApp() {
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
     return () => clearInterval(t)
   }, [])
+
+  // 카테고리 바로뽑기 - 외부에서 pendingCat 전달 시 자동 실행
+  useEffect(() => {
+    if (!pendingCat) return
+    setSelectedCat(pendingCat)
+    setTimeout(() => {
+      getRandom(pendingCat)
+      if (onPendingCatUsed) onPendingCatUsed()
+    }, 80)
+  }, [pendingCat])
 
   function scrollTo() {
     setTimeout(() => {
@@ -638,6 +648,7 @@ export default function SamseongPage() {
     if (typeof window !== 'undefined') return sessionStorage.getItem('samseong-tab') || 'ai'
     return 'ai'
   })
+  const [pendingCat, setPendingCat] = useState(null)
   const switchTab = (tab) => { setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
@@ -686,7 +697,7 @@ export default function SamseongPage() {
 
         {activeTab==='ai' && (
           <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden' }}>
-            <AiApp />
+            <AiApp pendingCat={pendingCat} onPendingCatUsed={()=>setPendingCat(null)} />
           </div>
         )}
         {activeTab==='browse' && <BrowseTab />}
@@ -711,7 +722,7 @@ export default function SamseongPage() {
                     </div>
                   </Link>
                   <button
-                    onClick={e=>{ e.preventDefault(); setSelectedCat(cat); switchTab('ai'); setTimeout(()=>getRandom(cat),50) }}
+                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
                     style={{ position:'absolute',bottom:7,left:'50%',transform:'translateX(-50%)',
                       padding:'3px 12px',borderRadius:7,fontSize:'.68rem',fontWeight:700,
                       background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
