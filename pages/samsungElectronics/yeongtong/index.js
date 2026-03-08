@@ -459,6 +459,78 @@ function WarnModal({ count, onConfirm, onCancel }) {
   )
 }
 
+// ── 이스터에그 모달 (우회/시크릿 첫 검색) ────────────────────
+function EasterEggModal({ onClose }) {
+  const [visible, setVisible] = React.useState(false)
+  React.useEffect(() => {
+    // 살짝 딜레이 후 페이드인
+    const t = setTimeout(() => setVisible(true), 80)
+    return () => clearTimeout(t)
+  }, [])
+  return (
+    <div
+      onClick={e => { if (e.target === e.currentTarget) onClose() }}
+      style={{
+        position:'fixed',inset:0,zIndex:500,
+        background:`rgba(0,0,0,${visible ? '.82' : '0'})`,
+        backdropFilter:'blur(10px)',
+        display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px',
+        transition:'background .35s',
+      }}>
+      <div style={{
+        background:'linear-gradient(145deg, #0f1e2e 0%, #0a1628 100%)',
+        border:'1px solid rgba(99,179,237,.35)',
+        borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',
+        textAlign:'center',
+        boxShadow:'0 0 60px rgba(99,179,237,.18), 0 24px 80px rgba(0,0,0,.8)',
+        transform: visible ? 'translateY(0) scale(1)' : 'translateY(20px) scale(.96)',
+        opacity: visible ? 1 : 0,
+        transition:'transform .35s cubic-bezier(.22,1,.36,1), opacity .35s',
+      }}>
+        {/* 배지 */}
+        <div style={{
+          display:'inline-block',background:'rgba(99,179,237,.12)',
+          border:'1px solid rgba(99,179,237,.3)',borderRadius:100,
+          padding:'4px 14px',fontSize:'.7rem',color:'#63b3ed',
+          letterSpacing:'.08em',fontWeight:700,marginBottom:16,
+        }}>🔍 EASTER EGG FOUND</div>
+
+        <div style={{ fontSize:'3rem',marginBottom:10 }}>🎉</div>
+
+        <div style={{ fontSize:'1.15rem',fontWeight:900,color:'#e2e8f0',marginBottom:10,lineHeight:1.4 }}>
+          축하합니다
+        </div>
+        <div style={{ fontSize:'.88rem',color:'#a0aec0',lineHeight:1.8,marginBottom:20 }}>
+          우회경로를 발견하셨군요.<br/>
+          이 정도 노력과 애정이라면<br/>
+          <strong style={{ color:'#e2e8f0' }}>마음껏 사용하세요 🙌</strong><br/>
+          <span style={{ fontSize:'.76rem',opacity:.65 }}>
+            (단, 개발자 텅장이 비면<br/>불시에 막힐 수도 있습니다 😅)
+          </span>
+        </div>
+
+        {/* 반짝이는 별 효과 */}
+        <div style={{ fontSize:'1.1rem',letterSpacing:8,marginBottom:22,opacity:.7 }}>✦ ✦ ✦</div>
+
+        <button
+          onClick={onClose}
+          style={{
+            width:'100%',padding:'13px',borderRadius:12,
+            background:'linear-gradient(135deg, #2b6cb0, #3182ce)',
+            color:'#fff',border:'none',fontSize:'.92rem',fontWeight:700,
+            cursor:'pointer',letterSpacing:'.02em',
+            boxShadow:'0 4px 20px rgba(49,130,206,.4)',
+          }}>
+          ✨ 검색하러 가기
+        </button>
+        <div style={{ fontSize:'.68rem',color:'#4a5568',marginTop:10 }}>
+          배경을 탭하면 닫혀요
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ── 한도 초과 모달 (5회 이후) ────────────────────────────────
 function LimitModal({ onClose }) {
   const [showMoGuide, setShowMoGuide] = React.useState(false)
@@ -551,6 +623,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [error,      setError]     = useState(false)
   const [warnCount,  setWarnCount] = useState(null)
   const [showLimit,  setShowLimit] = useState(false)
+  const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
@@ -559,6 +632,41 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   useEffect(() => {
     setUsedToday(getUsageCount())
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
+    // 이스터에그: 시크릿 모드 감지
+    // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
+    // 일반 모드: 디스크 기반 수 GB → 1GB 초과
+    // Safari: localStorage 쓰기 후 즉시 사라지는 특성 이용
+    async function detectIncognito() {
+      try {
+        // 1) Chrome/Edge/Firefox — storage estimate
+        if (navigator.storage && navigator.storage.estimate) {
+          const { quota } = await navigator.storage.estimate()
+          if (quota < 500 * 1024 * 1024) return true  // 500MB 미만 = 시크릿
+        }
+        // 2) Safari 시크릿 — IDB 쓰기 실패
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+        if (isSafari) {
+          return await new Promise(resolve => {
+            const db = window.indexedDB.open('__test__')
+            db.onerror = () => resolve(true)
+            db.onsuccess = e => { e.target.result.close(); resolve(false) }
+          })
+        }
+        return false
+      } catch { return false }
+    }
+
+    try {
+      const seenThisSession = sessionStorage.getItem('easter_seen')
+      if (!seenThisSession) {
+        detectIncognito().then(isIncognito => {
+          if (isIncognito) {
+            sessionStorage.setItem('easter_seen', '1')
+            setTimeout(() => setShowEaster(true), 600)
+          }
+        })
+      }
+    } catch(e) {}
     return () => clearInterval(t)
   }, [])
 
@@ -780,6 +888,7 @@ ${compact}
       {loading && <LoadingOverlay />}
       {dicing  && <DiceOverlay onDone={onDiceFinish} />}
       {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
+      {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
 
       <div style={{ padding:'20px 16px' }}>
