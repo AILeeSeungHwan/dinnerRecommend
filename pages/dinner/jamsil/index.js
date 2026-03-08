@@ -5,27 +5,25 @@ import Layout from '../../../components/Layout'
 import restaurants from '../../../data/jamsil'
 
 const NL_MENU_MAP = [
-  // 음식 종류
-  {patterns:/야장|포장마차|포차|노천|치킨.*야외/i,           cats:['야장','치킨','이자카야']},
-  {patterns:/치맥|치킨.*맥주|후라이드|양념치킨|통닭/i,       cats:['치킨','야장']},
-  {patterns:/맥주|이자카야|안주|사케|일본술|하이볼/i,         cats:['이자카야','야장','와인바']},
-  {patterns:/국밥|해장|해장국|뼈해장|순대국|설렁탕|곰탕/i,   cats:['국밥','국물','한식']},
-  {patterns:/칼국수|수제비|칼제비/i,                         cats:['칼국수','면류','한식']},
-  {patterns:/고기|구이|삼겹살|목살|갈비살|한우|등심|소고기|BBQ/i, cats:['고기구이','한식']},
-  {patterns:/중식|짜장|짬뽕|탕수육|딤섬|마라탕|훠궈/i,       cats:['중식','훠궈']},
-  {patterns:/파스타|피자|이탈리안|리조또|양식/i,             cats:['양식','이탈리안']},
-  {patterns:/스테이크|립아이|ribeye|와규|티본/i,             cats:['스테이크','양식']},
-  {patterns:/일식|스시|초밥|사시미|오마카세|돈카츠|덮밥/i,   cats:['이자카야','일식']},
-  {patterns:/혼밥|혼자|1인/i,                               cats:['국밥','칼국수','한식']},
-  {patterns:/술|와인|소주|막걸리|사케/i,                    cats:['이자카야','야장','와인바']},
-  {patterns:/회식|단체|단체석|프라이빗|룸/i,                cats:['이자카야','고기구이','중식']},
-  // 비즈니스·접대 상황
-  {patterns:/임원|상무|전무|부사장|사장님|대표님|VIP|어르신|웃어른/i, cats:['일식','스테이크','양식']},
-  {patterns:/접대|대접|모시|귀빈|중요한 자리|중요한 미팅|중요한 손님/i, cats:['일식','스테이크','양식']},
+  {patterns:/야장|포장마차|포차|노천|치킨.*야외/i,                       cats:['야장','치킨','이자카야']},
+  {patterns:/치맥|치킨.*맥주|후라이드|양념치킨|통닭/i,                   cats:['치킨','야장']},
+  {patterns:/맥주|이자카야|안주|사케|일본술|하이볼/i,                     cats:['이자카야','야장','와인바']},
+  {patterns:/국밥|해장|해장국|뼈해장|순대국|설렁탕|곰탕/i,               cats:['국밥','국물','한식']},
+  {patterns:/칼국수|수제비|칼제비/i,                                      cats:['칼국수','면류','한식']},
+  {patterns:/고기|구이|삼겹살|목살|갈비살|한우|등심|소고기|BBQ/i,        cats:['고기구이','한식']},
+  {patterns:/중식|짜장|짬뽕|탕수육|딤섬|마라탕|훠궈/i,                   cats:['중식','훠궈']},
+  {patterns:/파스타|피자|이탈리안|리조또|양식/i,                          cats:['양식','이탈리안']},
+  {patterns:/스테이크|립아이|ribeye|와규|티본/i,                          cats:['스테이크','양식']},
+  {patterns:/일식|스시|초밥|사시미|오마카세|돈카츠|덮밥/i,               cats:['이자카야','일식']},
+  {patterns:/혼밥|혼자|1인/i,                                             cats:['국밥','칼국수','한식']},
+  {patterns:/술|와인|소주|막걸리|사케/i,                                  cats:['이자카야','야장','와인바']},
+  {patterns:/회식|단체|단체석|프라이빗|룸/i,                             cats:['이자카야','고기구이','중식']},
+  {patterns:/임원|상무|전무|부사장|사장님|대표님|VIP|어르신|웃어른/i,     cats:['일식','스테이크','양식']},
+  {patterns:/접대|대접|모시|귀빈|중요한 자리|중요한 미팅|중요한 손님/i,   cats:['일식','스테이크','양식']},
   {patterns:/오마카세|파인다이닝|코스요리|고급식당|럭셔리|프리미엄|격식/i, cats:['일식','스테이크','양식']},
-  {patterns:/클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상/i, cats:['일식','스테이크','양식']},
-  {patterns:/기념일|생일 파티|승진 축하|특별한 날|프로포즈/i, cats:['양식','일식','스테이크']},
-  {patterns:/개인실|룸 있는|독립 공간|조용한 자리|프라이빗 룸/i, cats:['일식','양식','스테이크']},
+  {patterns:/클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상/i,   cats:['일식','스테이크','양식']},
+  {patterns:/기념일|생일 파티|승진 축하|특별한 날|프로포즈/i,             cats:['양식','일식','스테이크']},
+  {patterns:/개인실|룸 있는|독립 공간|조용한 자리|프라이빗 룸/i,          cats:['일식','양식','스테이크']},
 ]
 
 const WEATHER = ['맑음','흐림','비','눈','쌀쌀함','덥고 습함']
@@ -51,27 +49,28 @@ function extractContext(q, moods, wx) {
   const t = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
 
   const vipScore =
-    (/임원|상무|전무|부사장|사장님|대표님|vip|어르신|웃어른/.test(t) ? 3 : 0) +
-    (/접대|대접|모시|귀빈|중요한/.test(t) ? 2 : 0) +
-    (/오마카세|파인다이닝|코스요리|고급식당|럭셔리|프리미엄|격식/.test(t) ? 2 : 0) +
-    (/클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상/.test(t) ? 1 : 0)
+    (new RegExp('임원|상무|전무|부사장|사장님|대표님|vip|어르신|웃어른','i').test(t) ? 3 : 0) +
+    (new RegExp('접대|대접|모시|귀빈|중요한','i').test(t) ? 2 : 0) +
+    (new RegExp('오마카세|파인다이닝|코스요리|고급식당|럭셔리|프리미엄|격식','i').test(t) ? 2 : 0) +
+    (new RegExp('클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상','i').test(t) ? 1 : 0)
 
   return {
     vipScore,
-    isCelebration: /기념일|생일.*파티|승진.*축하|특별한 날|프로포즈|기념/.test(t),
-    needsPrivate:  /개인실|룸 있는|독립 공간|조용한 자리|프라이빗/.test(t),
-    needsParking:  /주차|드라이브|차로|차량|자가용/.test(t),
-    isLunch:       /점심|런치|낮에|12시|오전/.test(t),
-    isLate:        /야식|심야|늦게|밤에|11시|12시|새벽/.test(t),
-    isQuick:       /빠르게|빨리|바로|간단히|가볍게|점심시간/.test(t),
-    isSolo:        /혼밥|혼자|1인|나혼자/.test(t),
-    isGroup:       /단체|회식|여럿|팀|부서|모임/.test(t),
-    isDate:        /데이트|커플|연인|둘이|분위기|로맨틱/.test(t),
-    isStress:      /스트레스|힘들|지쳐|피로|야근|화풀이/.test(t),
-    isHangover:    /해장|숙취|어제|속풀이|뒤끝/.test(t),
+    isCelebration: new RegExp('기념일|생일.*파티|승진.*축하|특별한 날|프로포즈|기념').test(t),
+    needsPrivate:  new RegExp('개인실|룸 있는|독립 공간|조용한 자리|프라이빗').test(t),
+    needsParking:  new RegExp('주차|드라이브|차로|차량|자가용').test(t),
+    isLunch:       new RegExp('점심|런치|낮에|12시|오전').test(t),
+    isLate:        new RegExp('야식|심야|늦게|밤에|11시|12시|새벽').test(t),
+    isQuick:       new RegExp('빠르게|빨리|바로|간단히|가볍게|점심시간').test(t),
+    isSolo:        new RegExp('혼밥|혼자|1인|나혼자').test(t),
+    isGroup:       new RegExp('단체|회식|여럿|팀|부서|모임').test(t),
+    isDate:        new RegExp('데이트|커플|연인|둘이|분위기|로맨틱').test(t),
+    isStress:      new RegExp('스트레스|힘들|지쳐|피로|야근|화풀이').test(t),
+    isHangover:    new RegExp('해장|숙취|어제|속풀이|뒤끝').test(t),
   }
 }
 
+// ── 유틸 ──────────────────────────────────────────────────────
 function detectMenu(q, moods, wx) {
   const t = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   for (const m of NL_MENU_MAP) { if (m.patterns.test(t)) return m }
@@ -155,7 +154,7 @@ function preScore(q, moods, wx, cands, selectedCat) {
       if (ctx.isQuick||ctx.isLunch) s += (r.vector.fast_meal  ||0) * 12
       if (ctx.isStress||ctx.isHangover) s += (r.vector.comfort_food||0) * 12
       if (['비','눈','쌀쌀함'].includes(wx)) s += (r.vector.warm_food||0) * 10
-      if (/술|맥주|소주|와인/.test(qt)) s += (r.vector.alcohol||0) * 10
+      if (new RegExp('술|맥주|소주|와인').test(qt)) s += (r.vector.alcohol||0) * 10
       if (ctx.vipScore>0  && r.vector.vip_friendly) s += r.vector.vip_friendly * ctx.vipScore * 12
       if (ctx.needsPrivate && r.vector.private_room) s += r.vector.private_room * 18
       if (ctx.needsParking && r.vector.parking)      s += r.vector.parking * 14
@@ -168,6 +167,7 @@ function preScore(q, moods, wx, cands, selectedCat) {
 }
 
 
+// ── 가격·평점 필터 ───────────────────────────────────────────
 function parsePriceFilter(q) {
   const m = q.match(/(\d+)[,.]?(\d{3})?원?\s*(이하|미만|대|이상|초과)?/)
   if (!m) return null
@@ -204,6 +204,7 @@ function filterByRating(cands, rf) {
   })
 }
 
+// ── 비용 계산 ────────────────────────────────────────────────
 function calcCost(i, o) { return (i/1e6)*0.8 + (o/1e6)*4 }  // haiku
 
 // ── 로딩 오버레이 ──────────────────────────────────────────────
@@ -897,7 +898,6 @@ export default function JamsilPage() {
             })}
           </div>
         )}
-        </div>
 
         {/* SEO 콘텐츠 */}
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
