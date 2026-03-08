@@ -406,7 +406,7 @@ function buildIntro(r) {
   return { emoji: r.e || '🍽️', lines:[
     `잠실에서 ${type}을 찾는다면, 선택지를 좁혀드립니다.`,
     `${name}. ⭐${rt}점에 ${cnt}개의 리뷰.`,
-    isBusy ? `이 많은 분들이 그냥 오신 게 아닙니다.` : (isCheap ? `${r.priceRange}원, 가성비까지 챙겼습니다.` : '한 번 드셔보시면 압니다.'),
+    isBusy ? `이 많은 분들이 그냥 오신 게 아닙니다.` : (isCheap ? `${fmtPrice(r.priceRange)}원, 가성비까지 챙겼습니다.` : '한 번 드셔보시면 압니다.'),
   ]}
 }
 // ── 이미지 검색 URL (Unsplash) ─────────────────────────────
@@ -437,6 +437,12 @@ function getFoodImages(r) {
 }
 
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
+// 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
+function fmtPrice(p) {
+  if (!p) return ''
+  return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
+}
+
 function naverMapUrl(name, lat, lng) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -474,7 +480,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "geo": { "@type":"GeoCoordinates", "latitude":r.lat, "longitude":r.lng },
     "aggregateRating": { "@type":"AggregateRating", "ratingValue":r.rt, "reviewCount":r.cnt, "bestRating":5, "worstRating":1 },
     "openingHours": r.hours,
-    "priceRange": r.priceRange ? `₩${r.priceRange}` : undefined,
+    "priceRange": r.priceRange ? `₩${fmtPrice(r.priceRange)}` : undefined,
   }
 
   const faqSchema = {
@@ -482,7 +488,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "mainEntity": [
       { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours } },
       { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`서울 송파구 ${r.addr} (잠실역 근처)` } },
-      { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${r.priceRange}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
+      { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
       { "@type":"Question", "name":`${r.name} 웨이팅 있나요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.waiting === '웨이팅 있음' ? '웨이팅이 있을 수 있습니다. 방문 전 확인 권장합니다.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 예약을 추천합니다.' : '일반적으로 바로 입장 가능합니다.' } },
     ]
   }
@@ -529,7 +535,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:10 }}>
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()}리뷰)</span>
-                {r.priceRange && <span className="tag price">💰 {r.priceRange}원</span>}
+                {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
                 {r.exit2 && <span style={{ fontSize:'.7rem', background:'#1a1a00', padding:'2px 8px', borderRadius:100, border:'1px solid #4a4a00', color:'#ffd700' }}>🚇 2번출구 근처</span>}
                 {r.waiting && r.waiting !== '바로 입장' && (
                   <span style={{ fontSize:'.7rem', background:'#1a1a2a', padding:'2px 8px', borderRadius:100, border:'1px solid #2a2a5a', color:'#9999ff' }}>
@@ -565,7 +571,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               ['식당 종류', r.type],
               ['주소', `서울 송파구 ${r.addr}`],
               ['영업시간', r.hours],
-              ['가격대', r.priceRange ? `1인 약 ${r.priceRange}원` : '매장 문의'],
+              ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
               ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
               ['웨이팅·예약', r.waiting || '바로 입장 가능'],
               ['주차', r.parking ? '✅ 주차 가능' : '주차 어려움 (대중교통 권장)'],
@@ -726,7 +732,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역${r.exit2 ? ' 2번출구에서 도보 5분 거리' : ' 인근'}입니다.`],
-          [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${r.priceRange}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
+          [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 웨이팅이 있나요?`, r.waiting === '웨이팅 있음' ? '인기 맛집으로 웨이팅이 있을 수 있습니다. 오픈 시간에 맞춰 방문하거나 여유 있게 방문하세요.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 전화 예약을 추천드립니다.' : '일반적으로 바로 입장 가능합니다.'],
         ].map(([q, a], i) => (
           <div key={i} style={{ marginBottom:14, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, overflow:'hidden' }}>
@@ -747,7 +753,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                     <div style={{ fontWeight:700, fontSize:'.9rem', marginBottom:5 }}>{s.e} {s.name}</div>
                     <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
                       <span className="tag">⭐ {s.rt}</span>
-                      {s.priceRange && <span className="tag price">💰 {s.priceRange}원</span>}
+                      {s.priceRange && <span className="tag price">💰 {fmtPrice(s.priceRange)}원</span>}
                     </div>
                   </div>
                 </Link>

@@ -136,6 +136,12 @@ function LoadingOverlay() {
 
 // ── 주사위 오버레이 ────────────────────────────────────────────
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
+// 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
+function fmtPrice(p) {
+  if (!p) return ''
+  return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
+}
+
 function naverMapUrl(name, lat, lng) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -557,7 +563,7 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
                         <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
-                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
+                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
                           {r.exit2&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇2번출구</span>}
                         </div>
                       </div>
@@ -627,7 +633,7 @@ function BrowseTab() {
               <div className="card-meta">
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>
-                {r.priceRange&&<span className="tag price">💰{r.priceRange}원</span>}
+                {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
                 {r.waiting&&r.waiting!=='바로 입장'&&<span className="tag" style={{color:'var(--muted)'}}>{r.waiting}</span>}
               </div>
               <div className="card-addr">📍 {r.addr}</div>
