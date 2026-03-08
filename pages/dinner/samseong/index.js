@@ -177,6 +177,51 @@ function buildRandomReason(r, idx, usedTemplates) {
 }
 
 
+// ── 컨텍스트 추출 (자연어 → 구조화) ─────────────────────────
+function extractContext(q, moods, wx) {
+  const text = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
+  return {
+    vipScore:       /vip|임원|접대|대표|사장|클라이언트|거래처|중요한/.test(text) ? 3
+                  : /팀장|부장|상무|전무|이사|본부장/.test(text) ? 2
+                  : /손님|고객|파트너/.test(text) ? 1 : 0,
+    isCelebration:  /기념일|생일|축하|승진|합격|졸업|결혼/.test(text),
+    needsPrivate:   /프라이빗|룸|개인실|조용|단독/.test(text),
+    needsParking:   /주차|차/.test(text),
+    isSolo:         /혼밥|혼자|1인|솔로/.test(text) || moods.includes('혼밥'),
+    isGroup:        /단체|회식|팀|부서|모임|여럿|여러명/.test(text) || moods.includes('회식'),
+    isDate:         /데이트|연인|커플|애인|여자친구|남자친구/.test(text) || moods.includes('데이트'),
+    isQuick:        /빠른|빠르게|급하게|후다닥|빨리|패스트/.test(text),
+    isLunch:        /점심|런치|lunch/.test(text),
+    isLate:         /심야|늦게|야식|새벽/.test(text),
+    isStress:       /스트레스|힘들|지침|지쳤|피곤|치팅/.test(text) || moods.includes('스트레스') || moods.includes('피곤함'),
+    isHangover:     /해장|숙취|속풀이/.test(text),
+  }
+}
+
+// ── 자연어 → 카테고리 매칭 ───────────────────────────────────
+function detectMenu(q, moods, wx) {
+  const text = `${q} ${moods.join(' ')}`.toLowerCase()
+  for (const cat of CATS) {
+    if (cat.exit4Only) continue
+    const allTerms = [...(cat.cats||[]), ...(cat.tags||[])].map(t => t.toLowerCase())
+    if (allTerms.some(t => text.includes(t))) return cat
+  }
+  // 추가 키워드 매핑
+  if (/고기|구이|갈비|삼겹|목살|한우|소고기|돼지/.test(text)) return CATS.find(c=>c.slug==='meat')
+  if (/국밥|해장|설렁|곰탕|순대국|뼈해장/.test(text))         return CATS.find(c=>c.slug==='gukbap')
+  if (/일식|스시|초밥|사시미|오마카세|돈카츠|라멘/.test(text)) return CATS.find(c=>c.slug==='japanese')
+  if (/중식|마라|양꼬치|훠궈|짬뽕|탕수육/.test(text))         return CATS.find(c=>c.slug==='chinese')
+  if (/양식|파스타|피자|스테이크|이탈리안/.test(text))         return CATS.find(c=>c.slug==='western')
+  if (/치킨|닭|맥주|야장|포차/.test(text))                    return CATS.find(c=>c.slug==='chicken')
+  if (/이자카야|하이볼|사케|술집/.test(text))                  return CATS.find(c=>c.slug==='izakaya')
+  if (/데이트|커플|연인|분위기/.test(text))                    return CATS.find(c=>c.slug==='date')
+  if (/회식|단체|모임/.test(text))                             return CATS.find(c=>c.slug==='group')
+  if (/가성비|혼밥|혼자|점심/.test(text))                      return CATS.find(c=>c.slug==='budget')
+  if (/접대|vip|임원|파인다이닝|오마카세/.test(text))          return CATS.find(c=>c.slug==='premium')
+  if (/족발|곱창|보쌈|막창/.test(text))                        return CATS.find(c=>c.slug==='special')
+  return null
+}
+
 function preScore(q, moods, wx, cands, selectedCat) {
   const qt  = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   const ctx = extractContext(q, moods, wx)
