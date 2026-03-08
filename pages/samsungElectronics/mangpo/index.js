@@ -47,12 +47,20 @@ function detectMenu(q, moods, wx) {
   return null
 }
 
-function preScore(q, moods, wx, cands) {
+function preScore(q, moods, wx, cands, selectedCat) {
   const qt = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   return cands.map(r => {
     let s = (r.rt||0) * 3
+    // 카테고리 선택 = 최우선 (기분·날씨보다 훨씬 높은 점수)
+    if (selectedCat && !selectedCat.exit4Only) {
+      const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
+      const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
+      if (catMatch) s += 60
+      else if (tagMatch) s += 30
+      else s -= 30
+    }
     const blob = `${r.name} ${r.type} ${(r.tags||[]).join(' ')} ${(r.scene||[]).join(' ')} ${(r.moods||[]).join(' ')} ${(r.wx||[]).join(' ')}`
-    moods.forEach(m => { if (blob.includes(m)) s += 15 })
+    moods.forEach(m => { if (blob.includes(m)) s += 10 })
     if (blob.includes(wx)) s += 10
     ;(r.tags||[]).forEach(t => { if (qt.includes(t.toLowerCase())) s += 20 })
     ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase())) s += 18 })
@@ -402,7 +410,16 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const pf = parsePriceFilter(ctx)
       const rf = parseRatingFilter(ctx)
       let base = restaurants
-      if (mm) base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
+      // 카테고리 선택이 최우선 필터
+      if (selectedCat && !selectedCat.exit4Only) {
+        base = base.filter(r =>
+          (selectedCat.cats||[]).some(c => r.cat?.includes(c)) ||
+          (selectedCat.tags||[]).some(t => r.tags?.includes(t))
+        )
+        if (base.length < 5) base = restaurants
+      } else if (mm) {
+        base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
+      }
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
       if (base.length < 5) base = restaurants
@@ -410,7 +427,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
       // top20 스코어링 → 매번 다른 6개 (top3 고정 + 랜덤3)
-      const scored = preScore(ctx, moods, weather, pool)
+      const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
       const fixed3 = top20.slice(0, 3)
       const rest = top20.slice(3)

@@ -41,15 +41,24 @@ function detectMenu(q, moods, wx) {
   return null
 }
 
-function preScore(q, moods, wx, cands) {
+function preScore(q, moods, wx, cands, selectedCat) {
   const qt = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   return cands.map(r => {
     let s = (r.rt||0) * 3
     const blob = `${r.name} ${r.type} ${(r.tags||[]).join(' ')} ${(r.scene||[]).join(' ')} ${(r.moods||[]).join(' ')} ${(r.wx||[]).join(' ')}`
-    moods.forEach(m => { if (blob.includes(m)) s += 15 })
-    if (blob.includes(wx)) s += 10
-    ;(r.tags||[]).forEach(t => { if (qt.includes(t.toLowerCase())) s += 20 })
-    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase())) s += 18 })
+    // 카테고리 선택이 최우선 — 매칭 시 가장 높은 점수
+    if (selectedCat && !selectedCat.exit4Only) {
+      const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
+      const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
+      if (catMatch) s += 60   // 카테고리 직접 매칭: 최고 우선순위
+      if (tagMatch) s += 30   // 태그 매칭: 보조
+      if (!catMatch && !tagMatch) s -= 30  // 카테고리 불일치: 패널티
+    }
+    // 기분·날씨는 보조 점수
+    moods.forEach(m => { if (blob.includes(m)) s += 10 })
+    if (wx && blob.includes(wx)) s += 8
+    ;(r.tags||[]).forEach(t => { if (qt.includes(t.toLowerCase())) s += 15 })
+    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase())) s += 12 })
     qt.split(/\s+/).filter(w => w.length > 1).forEach(w => { if (blob.toLowerCase().includes(w)) s += 5 })
     return { ...r, _score: s }
   }).sort((a,b) => b._score - a._score)
@@ -402,7 +411,16 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const rf = parseRatingFilter(ctx)
       let base = restaurants
       if (exit4Only) base = base.filter(r=>r.exit4)
-      if (mm) base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
+      // 카테고리 선택이 최우선 필터 — mm(자연어)보다 명시적 선택이 우선
+      if (selectedCat && !selectedCat.exit4Only) {
+        base = base.filter(r =>
+          (selectedCat.cats||[]).some(c => r.cat?.includes(c)) ||
+          (selectedCat.tags||[]).some(t => r.tags?.includes(t))
+        )
+        if (base.length < 5) base = restaurants  // 풀 너무 작으면 완화
+      } else if (mm) {
+        base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
+      }
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
       if (base.length < 5) base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
@@ -410,7 +428,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
       // top20 스코어링 후 → 매번 다른 6개 뽑기 (로테이션으로 다양성 확보)
-      const scored = preScore(ctx, moods, weather, pool)
+      const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
       // 상위 8개 중 3개 고정(최고점) + 나머지 풀에서 랜덤 3개 → 매번 다른 조합
       const fixed3 = top20.slice(0, 3)
