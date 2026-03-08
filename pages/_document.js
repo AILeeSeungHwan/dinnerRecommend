@@ -10,7 +10,7 @@ export default function Document() {
         <meta name="google-site-verification" content="2DAD_BGWxdRXKWrw6lYKe6e0p3BLAiAXbMHVYXrU48k" />
         <meta name="naver-site-verification" content="68bdc2991328a363a86a07694fc809c701117a77" />
         <meta name="msvalidate.01" content="1E4F2FA1D46763B9C53162346F20C68D" />
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8640254349508671"
         {/* ── 모바일 뷰포트 고정 (확대/가로스크롤 방지) ── */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
 
