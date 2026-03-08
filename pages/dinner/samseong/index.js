@@ -253,6 +253,7 @@ function AiApp() {
   const [weather,    setWeather]   = useState('')
   const [moods,      setMoods]     = useState([])
   const [exit4Only,  setExit4Only] = useState(false)
+  const [selectedCat,setSelectedCat]= useState(null)   // 카테고리 필터
   const [loading,    setLoading]   = useState(false)
   const [dicing,     setDicing]    = useState(false)
   const [pendingRnd, setPendingRnd]= useState(null)
@@ -302,14 +303,34 @@ function AiApp() {
     return avail
   }
 
-  // ── 랜덤 ──
-  function getRandom() {
-    const base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+  // ── 랜덤 (필터 + 카테고리 반영) ──
+  function getRandom(catOverride) {
+    const cat = catOverride || selectedCat
+    let base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+    // 카테고리 필터
+    if (cat) {
+      if (cat.exit4Only) base = restaurants.filter(r=>r.exit4)
+      else base = base.filter(r =>
+        cat.cats.some(c=>r.cat?.includes(c)) ||
+        (cat.tags||[]).some(t=>r.tags?.includes(t))
+      )
+    }
+    // 날씨 필터
+    if (weather) base = base.filter(r=>!r.wx||r.wx.includes(weather))
+    // 기분 필터
+    if (moods.length>0) base = base.filter(r=>moods.some(m=>r.moods?.includes(m)))
+    // 풀 너무 작으면 날씨·기분 완화
+    if (base.length < 5) {
+      base = cat
+        ? (cat.exit4Only ? restaurants.filter(r=>r.exit4) : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))||(cat.tags||[]).some(t=>r.tags?.includes(t))))
+        : (exit4Only ? restaurants.filter(r=>r.exit4) : restaurants)
+    }
     const pool = filterExcluded(base)
     const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 3)
+    const filterDesc = [cat?.name, weather, ...moods, (!cat&&exit4Only)?'4번출구':''].filter(Boolean)
     const res = picks.map((r,i) => ({
       rank:i+1, restaurantName:r.name,
-      reason:`평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${(r.tags||[]).slice(0,3).join(', ')} 특징의 ${r.type} 맛집입니다.`,
+      reason:`평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${(r.tags||[]).slice(0,3).join(', ')} 특징의 ${r.type} 맛집입니다.${filterDesc.length?` [${filterDesc.join('·')}]`:''}`,
       reviewHighlight:(r.rv?.[0]||'').replace(/ \(실제 Google 리뷰.*?\)/g,''),
       matchScore:Math.floor(Math.random()*15)+80, _random:true,
     }))
@@ -424,13 +445,13 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
           <button onClick={()=>setShowFilters(v=>!v)} style={{
             display:'flex', alignItems:'center', gap:6,
             padding:'7px 14px', borderRadius:10, fontSize:'.82rem',
-            border:`1px solid ${(weather||moods.length||exit4Only)?'var(--primary)':'var(--border)'}`,
-            background:(weather||moods.length||exit4Only)?'var(--primary)':'var(--surface2)',
-            color:(weather||moods.length||exit4Only)?'#fff':'var(--muted)',
+            border:`1px solid ${(weather||moods.length||exit4Only||selectedCat)?'var(--primary)':'var(--border)'}`,
+            background:(weather||moods.length||exit4Only||selectedCat)?'var(--primary)':'var(--surface2)',
+            color:(weather||moods.length||exit4Only||selectedCat)?'#fff':'var(--muted)',
             cursor:'pointer', transition:'all .15s',
           }}>
             <span>{showFilters ? '▲' : '▼'}</span>
-            <span>필터 {(weather||moods.length||exit4Only) ? `(${[weather,...moods,exit4Only?'4번출구':''].filter(Boolean).length}개 선택)` : '추가'}</span>
+            <span>필터 {(weather||moods.length||exit4Only||selectedCat) ? `(${[selectedCat?.name,weather,...moods,exit4Only?'4번출구':''].filter(Boolean).length}개 선택)` : '추가'}</span>
           </button>
         </div>
         {showFilters && (
@@ -445,6 +466,18 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
               <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
                 {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
+              </div>
+            </div>
+            {/* 카테고리 선택 */}
+            <div style={{ marginBottom:12 }}>
+              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🗂️ 카테고리 (랜덤 범위)</div>
+              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+                {CATS.map(cat=>(
+                  <button key={cat.slug} onClick={()=>setSelectedCat(selectedCat?.slug===cat.slug?null:cat)}
+                    style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
+                    {cat.emoji} {cat.name}
+                  </button>
+                ))}
               </div>
             </div>
             <button onClick={()=>setExit4Only(!exit4Only)} style={{
@@ -487,7 +520,9 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         {results && (
           <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
             {results[0]?._random && (
-              <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>🎲 랜덤 추천 결과</div>
+              <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>
+                🎲 랜덤 추천 결과{selectedCat ? ` — ${selectedCat.emoji} ${selectedCat.name}` : ''}
+              </div>
             )}
             {results.map((rec,i)=>{
               const r = restaurants.find(x=>x.name===rec.restaurantName)
@@ -652,13 +687,24 @@ export default function SamseongPage() {
             {CATS.map(cat=>{
               const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
-                <Link href={`/dinner/samseong/category/${cat.slug}`} key={cat.slug}>
-                  <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer' }}>
-                    <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                    <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                    <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
-                  </div>
-                </Link>
+                <div key={cat.slug} style={{ position:'relative' }}>
+                  <Link href={`/dinner/samseong/category/${cat.slug}`}>
+                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer' }}>
+                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
+                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
+                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
+                    </div>
+                  </Link>
+                  {/* 🎲 뽑기 버튼 */}
+                  <button
+                    onClick={e=>{ e.preventDefault(); setSelectedCat(cat); switchTab('ai'); setTimeout(()=>getRandom(cat),50) }}
+                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
+                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
+                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
+                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
+                    🎲 바로 뽑기
+                  </button>
+                </div>
               )
             })}
           </div>
