@@ -164,6 +164,8 @@ export default function Layout({ children, title, description, canonical }) {
   const [mounted,    setMounted]    = useState(false)
   const [showThemes, setShowThemes] = useState(false)
   const [showQR,     setShowQR]     = useState(false)
+  const [showContact, setShowContact] = useState(false)
+  const [copied,      setCopied]      = useState(false)
   const [showStations, setShowStations] = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
 
@@ -513,14 +515,56 @@ export default function Layout({ children, title, description, canonical }) {
         <p style={{ marginBottom:4 }}>강남·잠실·영통 맛집 AI 추천 서비스</p>
         <p style={{ marginBottom:16, fontSize:'.73rem' }}>삼성역 · 잠실역 · 영통역 · 망포역 주변 식당 정보</p>
         <div style={{ width:32, height:1, background:'var(--border)', margin:'0 auto 16px' }} />
+        {/* 광고·비즈니스 문의 버튼 + 팝업 */}
+        {showContact && (
+          <div onClick={() => setShowContact(false)} style={{
+            position:'fixed', inset:0, background:'rgba(0,0,0,.55)', zIndex:2000,
+            display:'flex', alignItems:'center', justifyContent:'center', padding:16,
+          }}>
+            <div onClick={e => e.stopPropagation()} style={{
+              background:'var(--surface)', border:'1px solid var(--border)', borderRadius:16,
+              padding:'28px 24px', maxWidth:340, width:'100%', textAlign:'center',
+            }}>
+              <div style={{ fontSize:'1.6rem', marginBottom:12 }}>📬</div>
+              <p style={{ fontWeight:800, fontSize:'.95rem', color:'var(--text)', marginBottom:6 }}>광고 및 비즈니스 문의</p>
+              <p style={{ fontSize:'.82rem', color:'var(--muted)', marginBottom:20, lineHeight:1.6 }}>
+                제휴·광고·협업 문의는<br/>아래 이메일로 연락 주세요.
+              </p>
+              <div style={{
+                background:'var(--surface2)', border:'1px solid var(--border)',
+                borderRadius:10, padding:'12px 16px', marginBottom:20,
+                display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+              }}>
+                <span style={{ fontSize:'.88rem', fontWeight:700, color:'var(--text)', letterSpacing:'.02em' }}>
+                  wizet1923@gmail.com
+                </span>
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText('wizet1923@gmail.com')
+                    setCopied(true)
+                    setTimeout(() => setCopied(false), 2000)
+                  }}
+                  style={{ background:'none', border:'none', cursor:'pointer', fontSize:'.75rem', color:'var(--primary)', fontWeight:600, padding:'2px 6px' }}
+                >{copied ? '✅ 복사됨' : '복사'}</button>
+              </div>
+              <button onClick={() => setShowContact(false)} style={{
+                width:'100%', padding:'10px', borderRadius:10, border:'1px solid var(--border)',
+                background:'var(--surface)', color:'var(--muted)', cursor:'pointer', fontSize:'.85rem',
+              }}>닫기</button>
+            </div>
+          </div>
+        )}
         <p style={{ marginBottom:6 }}>
-          광고 및 비즈니스 문의{' '}
-          <a
-            href="mailto:wizet1923@gmail.com?subject=오늘뭐먹지 비즈니스 문의"
-            style={{ color:'var(--primary)', textDecoration:'none', fontWeight:600 }}
+          <button
+            onClick={() => setShowContact(true)}
+            style={{ background:'none', border:'1px solid var(--border)', borderRadius:8,
+              padding:'5px 14px', cursor:'pointer', color:'var(--muted)', fontSize:'.78rem',
+              fontWeight:600, transition:'all .15s' }}
+            onMouseEnter={e => { e.currentTarget.style.borderColor='var(--primary)'; e.currentTarget.style.color='var(--primary)' }}
+            onMouseLeave={e => { e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--muted)' }}
           >
-            문의하기
-          </a>
+            📬 광고 및 비즈니스 문의
+          </button>
         </p>
         <p style={{ fontSize:'.72rem', opacity:.6 }}>© 2026 오늘뭐먹지. All rights reserved.</p>
         {/* 숨김 어드민 링크 — 텍스트 없음, 점 하나 */}
