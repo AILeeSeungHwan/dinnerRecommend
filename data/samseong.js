@@ -3979,9 +3979,7 @@ const restaurants = [
   lat: 37.5076,
   lng: 127.0659,
   exit4: false
-},
-
-export default restaurants
-
+}
+]
 
 export default restaurants
