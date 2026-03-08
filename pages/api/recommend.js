@@ -14,19 +14,47 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 250,
+        max_tokens: 300,
         messages: [{ role: 'user', content: prompt }]
       })
     })
 
-    const data = await response.json()
-    const text = data.content?.map(i => i.text || '').join('') || ''
-    const clean = text.replace(/```json|```/g, '').trim()
-    const parsed = JSON.parse(clean)
+    if (!response.ok) {
+      const errText = await response.text()
+      console.error('Anthropic API error:', response.status, errText)
+      return res.status(502).json({ error: 'Upstream API error', status: response.status })
+    }
 
-    return res.status(200).json({ ...parsed, usage: data.usage || null })
+    const data = await response.json()
+
+    // content 블록에서 텍스트 추출
+    const text = (data.content || []).map(i => i.text || '').join('')
+
+    // JSON 추출 - 코드블록, 앞뒤 텍스트 제거 후 { } 블록만 파싱
+    const jsonMatch = text.match(/\{[\s\S]*\}/)
+    if (!jsonMatch) {
+      console.error('No JSON in response:', text)
+      return res.status(502).json({ error: 'No JSON in response', raw: text.slice(0, 200) })
+    }
+
+    let parsed
+    try {
+      parsed = JSON.parse(jsonMatch[0])
+    } catch (parseErr) {
+      console.error('JSON parse error:', parseErr.message, '\nRaw:', jsonMatch[0].slice(0, 300))
+      return res.status(502).json({ error: 'JSON parse failed', raw: jsonMatch[0].slice(0, 200) })
+    }
+
+    // recommendations 배열 없으면 에러
+    if (!Array.isArray(parsed.recommendations) || parsed.recommendations.length === 0) {
+      console.error('No recommendations in parsed:', parsed)
+      return res.status(502).json({ error: 'No recommendations', parsed })
+    }
+
+    return res.status(200).json({ recommendations: parsed.recommendations, usage: data.usage || null })
+
   } catch (err) {
-    console.error('API error:', err)
-    return res.status(500).json({ error: 'API failed' })
+    console.error('Handler error:', err)
+    return res.status(500).json({ error: 'Internal error', message: err.message })
   }
 }

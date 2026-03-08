@@ -413,15 +413,41 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const ctx_short = (ctx||'').slice(0,30)
       const mood_short = moods.slice(0,2).join(',')
       const prompt = `잠실역맛집3개추천.조건:"${ctx_short}"${weather?' '+weather:''}${mood_short?' '+mood_short:''}${exit2Only?' 2번출구':''}
-후보:${compact}
-JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{rank:2,...},{rank:3,...}]}`
+후보(restaurantName은 반드시 후보목록 이름 그대로):${compact}
+JSON만출력:{recommendations:[{rank:1,restaurantName:"후보이름그대로",reason:"25자이내",reviewHighlight:""},{rank:2,...},{rank:3,...}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
         body: JSON.stringify({ prompt })
       })
+
+      // HTTP 오류 체크
+      if (!res.ok) {
+        const errData = await res.json().catch(()=>({}))
+        console.error('API HTTP error', res.status, errData)
+        setLoading(false); setError(true); return
+      }
+
       const data = await res.json()
       setLoading(false)
+
+      // 유효한 추천 결과 확인
+      const recs = Array.isArray(data.recommendations) ? data.recommendations : []
+      if (recs.length === 0) {
+        console.error('Empty recommendations:', data)
+        setError(true); return
+      }
+
+      // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
+      const matched = recs.filter(rec => {
+        const found = restaurants.find(x => x.name === rec.restaurantName)
+                   || restaurants.find(x => rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
+        return !!found
+      })
+      if (matched.length === 0) {
+        console.error('No matched restaurants:', recs)
+        setError(true); return
+      }
 
       if (data.usage) {
         window.dispatchEvent(new CustomEvent('token-used', {
@@ -429,13 +455,13 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
         }))
       }
 
-      const recs = data.recommendations || []
       const newCount = incrementUsage()
       setUsedToday(newCount)
-      markShown(recs)
-      setResults(recs)
+      markShown(matched)
+      setResults(matched)
       scrollTo()
-    } catch {
+    } catch (err) {
+      console.error('getRecommendations error:', err)
       setLoading(false); setError(true)
     }
   }
