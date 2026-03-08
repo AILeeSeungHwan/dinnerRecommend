@@ -934,7 +934,7 @@ const restaurants = [
     ]
   },
   {
-    "name": "영통맛집 이층고깃집 수원영통점 I 2nd Floor BBQ Suwon Yeongtong Branch I 二层烤肉店 水原灵通店 I 2階焼肉店 水原霊通店",
+    "name": "영통맛집 이층고깃집 수원영통점",
     "type": "한식",
     "e": "🍱",
     "rt": 4.1,
