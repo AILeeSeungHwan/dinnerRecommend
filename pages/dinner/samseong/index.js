@@ -31,6 +31,7 @@ const CATS = [
   {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['이자카야','고기구이','중식']},
   {emoji:'🐔', name:'치킨·야장', slug:'chicken', cats:['치킨','야장']},
   {emoji:'🍣', name:'일식·스시', slug:'japanese',cats:['이자카야','일식']},
+  {emoji:'🚇', name:'4번출구',   slug:'exit4',    cats:[], exit4Only:true},
 ]
 
 // ── 유틸 ──────────────────────────────────────────────────────
@@ -91,7 +92,7 @@ function filterByRating(cands, rf) {
   })
 }
 
-function calcCost(i, o) { return (i/1e6)*3 + (o/1e6)*15 }
+function calcCost(i, o) { return (i/1e6)*0.8 + (o/1e6)*4 }  // haiku
 
 // ── 로딩 오버레이 ─────────────────────────────────────────────
 function LoadingOverlay() {
@@ -120,6 +121,23 @@ function LoadingOverlay() {
 }
 
 // ── 주사위 오버레이 ───────────────────────────────────────────
+// 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
+// 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
+function fmtPrice(p) {
+  if (!p) return ''
+  return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
+}
+
+function naverMapUrl(name, lat, lng) {
+  const cleaned = name
+    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
+    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
+    .replace(/ ([0-9]+호점)$/, '')
+    .trim()
+  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
+  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+}
+
 function DiceOverlay({ onDone }) {
   const dice = ['⚀','⚁','⚂','⚃','⚄','⚅','🎲']
   const [face, setFace] = useState('🎲')
@@ -247,11 +265,12 @@ function LimitModal({ onClose }) {
 // 제외 목록 관리: 50개 초과 시 자동 리셋
 const EXCLUDE_RESET = 50
 
-function AiApp() {
+function AiApp({ pendingCat, onPendingCatUsed }) {
   const [ctx,        setCtx]       = useState('')
   const [weather,    setWeather]   = useState('')
   const [moods,      setMoods]     = useState([])
   const [exit4Only,  setExit4Only] = useState(false)
+  const [selectedCat,setSelectedCat]= useState(null)   // 카테고리 필터
   const [loading,    setLoading]   = useState(false)
   const [dicing,     setDicing]    = useState(false)
   const [pendingRnd, setPendingRnd]= useState(null)
@@ -262,7 +281,6 @@ function AiApp() {
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
-  const [showFilters,setShowFilters]= useState(false)
   const resultsRef  = useRef(null)
 
   useEffect(() => {
@@ -270,6 +288,16 @@ function AiApp() {
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
     return () => clearInterval(t)
   }, [])
+
+  // 카테고리 바로뽑기 - 외부에서 pendingCat 전달 시 자동 실행
+  useEffect(() => {
+    if (!pendingCat) return
+    setSelectedCat(pendingCat)
+    setTimeout(() => {
+      getRandom(pendingCat)
+      if (onPendingCatUsed) onPendingCatUsed()
+    }, 80)
+  }, [pendingCat])
 
   function scrollTo() {
     setTimeout(() => {
@@ -301,14 +329,34 @@ function AiApp() {
     return avail
   }
 
-  // ── 랜덤 ──
-  function getRandom() {
-    const base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+  // ── 랜덤 (필터 + 카테고리 반영) ──
+  function getRandom(catOverride) {
+    const cat = catOverride || selectedCat
+    let base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+    // 카테고리 필터
+    if (cat) {
+      if (cat.exit4Only) base = restaurants.filter(r=>r.exit4)
+      else base = base.filter(r =>
+        cat.cats.some(c=>r.cat?.includes(c)) ||
+        (cat.tags||[]).some(t=>r.tags?.includes(t))
+      )
+    }
+    // 날씨 필터
+    if (weather) base = base.filter(r=>!r.wx||r.wx.includes(weather))
+    // 기분 필터
+    if (moods.length>0) base = base.filter(r=>moods.some(m=>r.moods?.includes(m)))
+    // 풀 너무 작으면 날씨·기분 완화
+    if (base.length < 5) {
+      base = cat
+        ? (cat.exit4Only ? restaurants.filter(r=>r.exit4) : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))||(cat.tags||[]).some(t=>r.tags?.includes(t))))
+        : (exit4Only ? restaurants.filter(r=>r.exit4) : restaurants)
+    }
     const pool = filterExcluded(base)
     const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 3)
+    const filterDesc = [cat?.name, weather, ...moods, (!cat&&exit4Only)?'4번출구':''].filter(Boolean)
     const res = picks.map((r,i) => ({
       rank:i+1, restaurantName:r.name,
-      reason:`평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${(r.tags||[]).slice(0,3).join(', ')} 특징의 ${r.type} 맛집입니다.`,
+      reason:`평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${(r.tags||[]).slice(0,3).join(', ')} 특징의 ${r.type} 맛집입니다.${filterDesc.length?` [${filterDesc.join('·')}]`:''}`,
       reviewHighlight:(r.rv?.[0]||'').replace(/ \(실제 Google 리뷰.*?\)/g,''),
       matchScore:Math.floor(Math.random()*15)+80, _random:true,
     }))
@@ -323,7 +371,7 @@ function AiApp() {
 
   // ── AI 추천 (횟수 체크 포함) ──
   function handleRecommendClick() {
-    if (!ctx && !weather && moods.length===0) { getRandom(); return }
+    if (!ctx && !weather && moods.length===0) { getRandom(null); return }
     const count = getUsageCount()
     if (count >= DAILY_LIMIT) { setShowLimit(true); return }
     if (count >= DAILY_WARN - 1) { setWarnCount(count + 1); return }
@@ -331,7 +379,7 @@ function AiApp() {
   }
 
   function confirmFromWarn() { setWarnCount(null); getRecommendations() }
-  function cancelFromWarn()  { setWarnCount(null); getRandom() }
+  function cancelFromWarn()  { setWarnCount(null); getRandom(null) }
 
   async function getRecommendations() {
     setLoading(true); setError(false); setResults(null)
@@ -349,23 +397,70 @@ function AiApp() {
 
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
-      // top12 뽑되, AI에게는 이름·타입·평점·가격·태그2개만 (토큰 최소화)
-      const top12 = preScore(ctx, moods, weather, pool).slice(0, 12)
-      const compact = top12.map(r =>
-        `${r.name}(${r.type},${r.rt}★,${r.priceRange||'?'},${(r.tags||[]).slice(0,2).join('·')})`
-      ).join('\n')
+      // top20 스코어링 후 → 매번 다른 6개 뽑기 (로테이션으로 다양성 확보)
+      const scored = preScore(ctx, moods, weather, pool)
+      const top20 = scored.slice(0, 20)
+      // 상위 8개 중 3개 고정(최고점) + 나머지 풀에서 랜덤 3개 → 매번 다른 조합
+      const fixed3 = top20.slice(0, 3)
+      const rest = top20.slice(3)
+      const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,3)
+      const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
+      // 후보 포맷: 이름(타입,평점,태그들,가격대)
+      const compact = top6.map(r =>
+        `${r.name}(${r.type},⭐${r.rt},${(r.tags||[]).slice(0,3).join('/')},${r.priceRange?r.priceRange+'원':'가격미정'})`
+      ).join('|')
+      const ctx_full = (ctx||'').slice(0, 80)
+      const mood_str = moods.join(', ')
+      const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
+      const prompt = `당신은 삼성역 맛집 전문가입니다. 아래 조건에 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
 
-      // 출력도 짧게: matchScore 제거, reason 1문장
-      const prompt = `삼성역맛집 추천. 입력:"${ctx||'없음'}" 날씨:${weather||'무관'} 기분:${moods.join(',')||'무관'}${exit4Only?' 4번출구':''}
-후보:\n${compact}
-JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",reviewHighlight:"한줄"},{rank:2,...},{rank:3,...}]}`
+[검색 조건]
+${ctx_full ? `사용자 요청: "${ctx_full}"` : '특별한 요청 없음 (무작위 추천)'}
+${filter_str ? `필터: ${filter_str}` : ''}
+
+[후보 식당 목록]
+${compact}
+
+[출력 규칙]
+- restaurantName은 반드시 후보 목록의 이름을 그대로 사용
+- reason: 사용자의 검색 의도와 연결해서 왜 이 식당인지 2~3문장으로 설명 (분위기, 메뉴, 특징 포함)
+- reviewHighlight: 이 식당의 핵심 매력을 한 줄로 (태그/특징 기반)
+- JSON만 출력, 다른 텍스트 없음
+
+{"recommendations":[{"rank":1,"restaurantName":"후보이름그대로","reason":"검색의도와연결한설명2~3문장","reviewHighlight":"핵심매력한줄"},{"rank":2,...},{"rank":3,...}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
         body: JSON.stringify({ prompt })
       })
+
+      // HTTP 오류 체크
+      if (!res.ok) {
+        const errData = await res.json().catch(()=>({}))
+        console.error('API HTTP error', res.status, errData)
+        setLoading(false); setError(true); return
+      }
+
       const data = await res.json()
       setLoading(false)
+
+      // 유효한 추천 결과 확인
+      const recs = Array.isArray(data.recommendations) ? data.recommendations : []
+      if (recs.length === 0) {
+        console.error('Empty recommendations:', data)
+        setError(true); return
+      }
+
+      // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
+      const matched = recs.filter(rec => {
+        const found = restaurants.find(x => x.name === rec.restaurantName)
+                   || restaurants.find(x => rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
+        return !!found
+      })
+      if (matched.length === 0) {
+        console.error('No matched restaurants:', recs)
+        setError(true); return
+      }
 
       if (data.usage) {
         window.dispatchEvent(new CustomEvent('token-used', {
@@ -373,13 +468,13 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         }))
       }
 
-      const recs = data.recommendations || []
       const newCount = incrementUsage()
       setUsedToday(newCount)
-      markShown(recs)
-      setResults(recs)
+      markShown(matched)
+      setResults(matched)
       scrollTo()
-    } catch {
+    } catch (err) {
+      console.error('getRecommendations error:', err)
       setLoading(false); setError(true)
     }
   }
@@ -396,7 +491,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
       {loading && <LoadingOverlay />}
       {dicing  && <DiceOverlay onDone={onDiceFinish} />}
       {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
-      {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom() }} />}
+      {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}
@@ -418,44 +513,42 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
           />
         </div>
 
-        {/* 필터 토글 */}
-        <div style={{ marginBottom:14 }}>
-          <button onClick={()=>setShowFilters(v=>!v)} style={{
-            display:'flex', alignItems:'center', gap:6,
-            padding:'7px 14px', borderRadius:10, fontSize:'.82rem',
-            border:`1px solid ${(weather||moods.length||exit4Only)?'var(--primary)':'var(--border)'}`,
-            background:(weather||moods.length||exit4Only)?'var(--primary)':'var(--surface2)',
-            color:(weather||moods.length||exit4Only)?'#fff':'var(--muted)',
-            cursor:'pointer', transition:'all .15s',
+        {/* 필터 - 항상 노출 */}
+        <div style={{ marginBottom:16, padding:'16px', background:'var(--surface)', borderRadius:12, border:'1px solid var(--border)' }}>
+          <div style={{ fontSize:'.73rem',fontWeight:700,color:'var(--muted)',marginBottom:10 }}>🎛️ 필터 옵션</div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 날씨</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
+            </div>
+          </div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
+            </div>
+          </div>
+          <div style={{ marginBottom:12 }}>
+            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🗂️ 카테고리</div>
+            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+              {CATS.map(cat=>(
+                <button key={cat.slug} onClick={()=>setSelectedCat(selectedCat?.slug===cat.slug?null:cat)}
+                  style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
+                  {cat.emoji} {cat.name}
+                </button>
+              ))}
+            </div>
+          </div>
+          <button onClick={()=>setExit4Only(!exit4Only)} style={{
+            ...chip(exit4Only),
+            border:`1px solid ${exit4Only?'#ffd700':'var(--border)'}`,
+            background:exit4Only?'#2a2200':'var(--surface2)',
+            color:exit4Only?'#ffd700':'var(--muted)', fontWeight:exit4Only?700:400,
           }}>
-            <span>{showFilters ? '▲' : '▼'}</span>
-            <span>필터 {(weather||moods.length||exit4Only) ? `(${[weather,...moods,exit4Only?'4번출구':''].filter(Boolean).length}개 선택)` : '추가'}</span>
+            🚇 4번출구 근처만 ({restaurants.filter(r=>r.exit4).length}개)
           </button>
         </div>
-        {showFilters && (
-          <div style={{ marginBottom:14, padding:'14px', background:'var(--surface)', borderRadius:12, border:'1px solid var(--border)' }}>
-            <div style={{ marginBottom:12 }}>
-              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🌤️ 날씨</div>
-              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-                {WEATHER.map(w=><button key={w} onClick={()=>setWeather(weather===w?'':w)} style={chip(weather===w)}>{w}</button>)}
-              </div>
-            </div>
-            <div style={{ marginBottom:12 }}>
-              <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>😊 기분</div>
-              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-                {MOODS.map(m=><button key={m} onClick={()=>setMoods(p=>p.includes(m)?p.filter(x=>x!==m):[...p,m])} style={chip(moods.includes(m),'var(--accent)')}>{m}</button>)}
-              </div>
-            </div>
-            <button onClick={()=>setExit4Only(!exit4Only)} style={{
-              ...chip(exit4Only),
-              border:`1px solid ${exit4Only?'#ffd700':'var(--border)'}`,
-              background:exit4Only?'#2a2200':'var(--surface2)',
-              color:exit4Only?'#ffd700':'var(--muted)', fontWeight:exit4Only?700:400,
-            }}>
-              🚇 4번출구 근처만 ({restaurants.filter(r=>r.exit4).length}개)
-            </button>
-          </div>
-        )}
+
 
         <div style={{ display:'flex',gap:8 }}>
           <button onClick={handleRecommendClick} disabled={loading||dicing} style={{
@@ -463,9 +556,9 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
           }}>✨ AI 추천받기</button>
-          <button onClick={getRandom} disabled={loading||dicing} title="랜덤 3개"
-            style={{ padding:'13px 16px',borderRadius:10,background:'var(--surface2)',color:'var(--text)',border:'1px solid var(--border)',fontSize:'1.1rem',cursor:'pointer' }}>
-            🎲
+          <button onClick={()=>getRandom(null)} disabled={loading||dicing}
+            style={{ padding:'13px 18px',borderRadius:10,background:'var(--surface2)',color:'var(--text)',border:'1px solid var(--border)',fontSize:'.88rem',fontWeight:700,cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.6:1,whiteSpace:'nowrap' }}>
+            🎲 랜덤
           </button>
         </div>
 
@@ -486,7 +579,9 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
         {results && (
           <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
             {results[0]?._random && (
-              <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>🎲 랜덤 추천 결과</div>
+              <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>
+                🎲 랜덤 추천 결과{selectedCat ? ` — ${selectedCat.emoji} ${selectedCat.name}` : ''}
+              </div>
             )}
             {results.map((rec,i)=>{
               const r = restaurants.find(x=>x.name===rec.restaurantName)
@@ -507,7 +602,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                         <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
                           <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
-                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{r.priceRange}원</span>}
+                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
                           {r.exit4&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇4번출구</span>}
                         </div>
                       </div>
@@ -519,7 +614,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
-                      <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 삼성역')}`}
+                      <a href={naverMapUrl(r.name, r.lat, r.lng)}
                         target="_blank" rel="noopener noreferrer"
                         onClick={e=>e.stopPropagation()}
                         style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>
@@ -577,7 +672,7 @@ function BrowseTab() {
               <div className="card-meta">
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>
-                {r.priceRange&&<span className="tag price">💰{r.priceRange}원</span>}
+                {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
               </div>
               <div className="card-addr">📍 {r.addr}</div>
             </div>
@@ -590,7 +685,12 @@ function BrowseTab() {
 
 // ── 메인 ─────────────────────────────────────────────────────
 export default function SamseongPage() {
-  const [activeTab, setActiveTab] = useState('ai')
+  const [activeTab, setActiveTab] = useState(() => {
+    if (typeof window !== 'undefined') return sessionStorage.getItem('samseong-tab') || 'ai'
+    return 'ai'
+  })
+  const [pendingCat, setPendingCat] = useState(null)
+  const switchTab = (tab) => { setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
@@ -626,7 +726,7 @@ export default function SamseongPage() {
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
           {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
-            <button key={tab.id} onClick={()=>setActiveTab(tab.id)} style={{
+            <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
               color:activeTab===tab.id?'var(--primary)':'var(--muted)',
@@ -637,27 +737,72 @@ export default function SamseongPage() {
         </div>
 
         {activeTab==='ai' && (
-          <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden' }}>
-            <AiApp />
+          <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden',marginTop:4 }}>
+            <AiApp pendingCat={pendingCat} onPendingCatUsed={()=>setPendingCat(null)} />
           </div>
         )}
         {activeTab==='browse' && <BrowseTab />}
         {activeTab==='categories' && (
-          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10 }}>
+          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10,padding:'4px 0' }}>
             {CATS.map(cat=>{
-              const count = restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
+              const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
-                <Link href={`/dinner/samseong/category/${cat.slug}`} key={cat.slug}>
-                  <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'18px 12px',textAlign:'center',cursor:'pointer' }}>
-                    <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                    <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                    <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
-                  </div>
-                </Link>
+                <div key={cat.slug} style={{ position:'relative' }}>
+                  <Link href={`/dinner/samseong/category/${cat.slug}`}>
+                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
+                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
+                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
+                    </div>
+                  </Link>
+                  <button
+                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
+                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
+                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
+                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
+                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
+                    🎲 바로 뽑기
+                  </button>
+                </div>
               )
             })}
           </div>
         )}
+        {/* ── 카테고리 항상 노출 ── */}
+        <div style={{ marginBottom:36, paddingTop:8 }}>
+          <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:12 }}>
+            <span style={{ fontSize:'.8rem',fontWeight:700,color:'var(--muted)' }}>🗂️ 카테고리별 탐색</span>
+            <button onClick={()=>switchTab('categories')} style={{ fontSize:'.72rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',padding:0 }}>전체 보기 →</button>
+          </div>
+          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(120px, 1fr))',gap:8 }}>
+            {CATS.map(cat=>{
+              const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
+              return (
+                <div key={cat.slug} style={{ position:'relative' }}>
+                  <Link href={`/dinner/samseong/category/${cat.slug}`}>
+                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'12px 10px 40px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                      <div style={{ fontSize:'1.6rem',marginBottom:4 }}>{cat.emoji}</div>
+                      <div style={{ fontSize:'.78rem',fontWeight:600,marginBottom:2,lineHeight:1.3 }}>{cat.name}</div>
+                      <div style={{ fontSize:'.68rem',color:'var(--muted)' }}>{count}개</div>
+                    </div>
+                  </Link>
+                  <button
+                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
+                    style={{ position:'absolute',bottom:7,left:'50%',transform:'translateX(-50%)',
+                      padding:'3px 12px',borderRadius:7,fontSize:'.68rem',fontWeight:700,
+                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
+                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.25)' }}>
+                    🎲 뽑기
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+        </div>
 
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>삼성역 맛집 가이드</h2>
