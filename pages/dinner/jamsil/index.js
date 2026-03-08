@@ -440,7 +440,13 @@ function WarnModal({ count, onConfirm, onCancel }) {
         <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
-        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:18 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ marginBottom:16 }}>
+          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.click() }}
+            style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
+            📥 QR 저장 (모바일 갤러리용)
+          </button>
+        </div>
         <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
           <button onClick={onConfirm} style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
             {is4th ? '그래도 검색할게요 (마지막 기회 🙏)' : '그래도 검색할게요'}
@@ -454,27 +460,78 @@ function WarnModal({ count, onConfirm, onCancel }) {
   )
 }
 
-// ── 한도 초과 모달 ─────────────────────────────────────────────
+// ── 한도 초과 모달 (5회 이후) ────────────────────────────────
 function LimitModal({ onClose }) {
+  const [showMoGuide, setShowMoGuide] = React.useState(false)
+
+  function saveQR() {
+    const link = document.createElement('a')
+    link.href = '/toss-qr.png'
+    link.download = 'toss-qr.png'
+    link.click()
+  }
+
   return (
-    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
-      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
-        <div style={{ fontSize:'3.8rem',marginBottom:14 }}>😭</div>
-        <div style={{ fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.35 }}>
-          오늘 AI 검색을<br/>다 쓰셨어요
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)' }}>
+
+        {/* 타이틀 */}
+        <div style={{ fontSize:'3.2rem',marginBottom:10 }}>🫙</div>
+        <div style={{ fontSize:'1.15rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.35 }}>
+          AI 토큰을 다 썼어요
         </div>
-        <div style={{ fontSize:'.84rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75 }}>
-          하루 {DAILY_LIMIT}회 무료 AI 검색을 모두 사용했어요.<br/>
-          자정이 지나면 다시 {DAILY_LIMIT}회가 충전돼요 🌙<br/><br/>
-          <strong style={{ color:'var(--text)' }}>랜덤 뽑기는 무제한</strong>으로 사용 가능해요!
+        <div style={{ fontSize:'.83rem',color:'var(--muted)',marginBottom:18,lineHeight:1.75 }}>
+          개발자가 밥값 벌어올 때까지는<br/>
+          오늘은 <strong style={{ color:'var(--primary)' }}>랜덤 추천</strong>으로 버텨야 할 것 같아요 😅<br/>
+          <span style={{ fontSize:'.76rem',opacity:.7 }}>자정이 지나면 다시 {DAILY_LIMIT}회 충전돼요 🌙</span>
         </div>
-        <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
-          <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
+
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:16,padding:14,marginBottom:10,display:'inline-block',boxShadow:'0 4px 20px rgba(0,0,0,.2)' }}>
+          <img src="/toss-qr.png" id="toss-qr-img" alt="토스 후원 QR" style={{ width:120,height:120,display:'block' }} />
         </div>
-        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:18 }}>☕ 커피 한 잔 후원하시면 개발자가 기뻐해요</div>
-        <button onClick={onClose} style={{ width:'100%',padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
-          🎲 랜덤 뽑기로 할게요
+        <div style={{ fontSize:'.72rem',color:'var(--muted)',marginBottom:4 }}>
+          📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요
+        </div>
+
+        {/* 모바일 QR 저장 버튼 */}
+        <div style={{ marginBottom:16 }}>
+          <button onClick={saveQR}
+            style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:4 }}>
+            📥 QR 이미지 저장 (갤러리)
+          </button>
+          <div style={{ fontSize:'.68rem',color:'var(--muted)',opacity:.7,marginTop:2 }}>
+            저장 후 토스앱 → 송금 → QR스캔 또는 갤러리에서 불러오기
+          </div>
+          {/* 모바일에서 QR 인식 방법 토글 */}
+          <button onClick={()=>setShowMoGuide(v=>!v)}
+            style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8 }}>
+            📲 모바일에서 QR 인식하는 법 {showMoGuide ? '▲' : '▼'}
+          </button>
+          {showMoGuide && (
+            <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
+              <strong style={{ color:'var(--text)',display:'block',marginBottom:4 }}>📱 토스앱으로 후원하는 법</strong>
+              1. 아래 버튼으로 QR 이미지 저장<br/>
+              2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
+              3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
+              4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
+              5. 저장한 QR 이미지 선택 → 후원 완료 🎉<br/>
+              <span style={{ fontSize:'.65rem',opacity:.6,marginTop:4,display:'block' }}>
+                * 기본 카메라앱 → QR인식 → 갤러리불러오기도 가능해요
+              </span>
+            </div>
+          )}
+        </div>
+
+        {/* 버튼 */}
+        <button onClick={onClose}
+          style={{ width:'100%',padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.92rem',fontWeight:700,cursor:'pointer' }}>
+          🎲 랜덤 추천으로 볼게요
         </button>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:10,opacity:.6 }}>
+          탭 밖을 누르면 닫혀요
+        </div>
       </div>
     </div>
   )
@@ -804,8 +861,12 @@ ${compact}
         {results && (
           <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
             {results[0]?._random && (
-              <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:12,textAlign:'center' }}>
-                🎲 랜덤 추천 결과{selectedCat ? ` — ${selectedCat.emoji} ${selectedCat.name}` : ''}
+              <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(99,179,237,.07)',border:'1px solid rgba(99,179,237,.2)',borderRadius:10,textAlign:'center' }}>
+                {usedToday >= DAILY_LIMIT
+                  ? <><div style={{ fontSize:'.8rem',fontWeight:700,color:'var(--primary)',marginBottom:2 }}>🎲 오늘의 AI 기회를 모두 소진했어요</div>
+                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>대신 랜덤 추천으로 보여드려요 — 의외로 딱 맞을 수도 있어요 😄{selectedCat ? ` · ${selectedCat.emoji} ${selectedCat.name}` : ''}</div></>
+                  : <div style={{ fontSize:'.74rem',color:'var(--muted)' }}>🎲 랜덤 추천 결과{selectedCat ? ` — ${selectedCat.emoji} ${selectedCat.name}` : ''}</div>
+                }
               </div>
             )}
             {results.map((rec,i)=>{
