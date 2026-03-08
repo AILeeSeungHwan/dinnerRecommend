@@ -21,8 +21,6 @@ function naverMapUrl(name, lat, lng) {
   const query = hasRegion ? cleaned : cleaned + ' 망포'
   const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}${coord}`
-},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
 }
 
 function DiceOverlay({ onDone }) {
