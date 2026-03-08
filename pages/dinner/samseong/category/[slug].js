@@ -4,15 +4,19 @@ import { useState, useEffect, useRef } from 'react'
 import restaurants from '../../../../data/samseong'
 
 const CATEGORY_MAP = {
-  gukbap:   { name: '국밥·해장국', emoji: '🥣', cats: ['국밥','국물'], keywords: '삼성역 국밥, 삼성역 해장국, 코엑스 국밥, 삼성동 해장' },
-  meat:     { name: '고기구이·한우', emoji: '🥩', cats: ['고기구이','한식'], keywords: '삼성역 한우, 삼성역 고기집, 삼성동 BBQ, 코엑스 고기구이' },
-  izakaya:  { name: '이자카야·일식', emoji: '🏮', cats: ['이자카야','일식'], keywords: '삼성역 이자카야, 삼성역 일식, 삼성동 술집, 코엑스 이자카야' },
-  chinese:  { name: '중식', emoji: '🍜', cats: ['중식','훠궈'], keywords: '삼성역 중식당, 삼성역 짬뽕, 코엑스 중식, 삼성동 마라탕' },
-  western:  { name: '이탈리안·양식·스테이크', emoji: '🍝', cats: ['양식','이탈리안','스테이크'], keywords: '삼성역 이탈리안, 삼성역 파스타, 코엑스 스테이크, 삼성동 양식' },
-  group:    { name: '회식·단체', emoji: '🎉', cats: [], tags: ['회식','단체석'], keywords: '삼성역 회식장소, 코엑스 단체식사, 삼성동 회식, 삼성역 프라이빗룸' },
-  chicken:  { name: '치킨·야장', emoji: '🐔', cats: ['치킨','야장'], keywords: '삼성역 치킨, 삼성역 야장, 삼성동 포차, 코엑스 치킨' },
-  japanese: { name: '일식·스시', emoji: '🍣', cats: ['이자카야','일식'], keywords: '삼성역 일식, 삼성역 스시, 삼성동 초밥, 코엑스 오마카세' },
-  exit4:    { name: '4번출구 근처', emoji: '🚇', cats: [], exit4Only: true, keywords: '삼성역 4번출구 맛집, 삼성역 4번출구 식당, 대치동 맛집, 강남경찰서 맛집' },
+  meat:     { name: '고기·한우',        emoji: '🥩', cats: ['고기구이'],              tags: ['한우','갈비','삼겹살','목살','항정살'],  keywords: '삼성역 한우, 삼성역 고기집, 삼성동 BBQ, 코엑스 고기구이' },
+  gukbap:   { name: '국밥·해장',        emoji: '🥣', cats: ['국밥','국물'],           tags: ['해장','설렁탕','곰탕','순대국밥'],      keywords: '삼성역 국밥, 삼성역 해장국, 코엑스 국밥, 삼성동 해장' },
+  izakaya:  { name: '이자카야·술집',    emoji: '🏮', cats: ['이자카야','야장'],       tags: ['포차','하이볼','수제맥주'],            keywords: '삼성역 이자카야, 삼성역 술집, 삼성동 포차, 코엑스 이자카야' },
+  japanese: { name: '일식·스시',        emoji: '🍣', cats: ['일식'],                  tags: ['스시','사시미','오마카세','돈카츠'],    keywords: '삼성역 일식, 삼성역 스시, 삼성동 초밥, 코엑스 오마카세' },
+  chinese:  { name: '중식·마라탕',      emoji: '🍜', cats: ['중식','훠궈'],           tags: ['마라탕','양꼬치','짬뽕'],             keywords: '삼성역 중식당, 삼성역 마라탕, 코엑스 중식, 삼성동 마라탕' },
+  western:  { name: '양식·스테이크',    emoji: '🍝', cats: ['양식','이탈리안','스테이크'], tags: ['파스타','피자','스테이크','와규'], keywords: '삼성역 이탈리안, 삼성역 파스타, 코엑스 스테이크, 삼성동 양식' },
+  chicken:  { name: '치킨·야장',        emoji: '🐔', cats: ['치킨','야장'],           tags: ['통닭','치킨','치맥'],               keywords: '삼성역 치킨, 삼성역 야장, 삼성동 포차, 코엑스 치킨' },
+  group:    { name: '회식·단체',        emoji: '🎉', cats: [],                        tags: ['단체가능','회식','룸있음','주차가능'], keywords: '삼성역 회식장소, 코엑스 단체식사, 삼성동 회식, 삼성역 프라이빗룸' },
+  date:     { name: '데이트·분위기',    emoji: '💑', cats: [],                        tags: ['데이트','뷰맛집','프라이빗','인스타감성'], keywords: '삼성역 데이트, 삼성역 분위기좋은곳, 코엑스 데이트, 삼성동 분위기' },
+  budget:   { name: '가성비·혼밥',      emoji: '💰', cats: [],                        tags: ['가성비','점심','혼밥가능','점심특선'], keywords: '삼성역 점심, 삼성역 혼밥, 코엑스 점심특선, 삼성동 가성비' },
+  premium:  { name: '접대·파인다이닝',  emoji: '✨', cats: [],                        tags: ['오마카세','예약제','코스요리','프라이빗'], keywords: '삼성역 오마카세, 삼성역 접대, 코엑스 파인다이닝, 삼성동 고급식당' },
+  special:  { name: '족발·곱창·보쌈',  emoji: '🍖', cats: [],                        tags: ['족발','곱창','보쌈','막창'],          keywords: '삼성역 족발, 삼성역 곱창, 코엑스 보쌈, 삼성동 곱창' },
+  exit4:    { name: '4번출구 근처',     emoji: '🚇', cats: [],                        exit4Only: true, keywords: '삼성역 4번출구 맛집, 삼성역 4번출구 식당, 대치동 맛집' },
 }
 
 export async function getStaticPaths() {
@@ -62,11 +66,12 @@ function fmtPrice(p) {
 function naverMapUrl(name, lat, lng) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
-    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
+  const hasRegion = /(삼성|강남|코엑스|선릉|대치|봉은사|테헤란)/.test(cleaned)
+  const query = hasRegion ? cleaned : cleaned + ' 삼성역'
   const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}${coord}`
 }
 
 function DiceOverlay({ onDone }) {

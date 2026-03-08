@@ -5,161 +5,168 @@ import Layout from '../../../components/Layout'
 import restaurants from '../../../data/samseong'
 
 const NL_MENU_MAP = [
-  {patterns:/야장|포장마차|포차|노천|치킨.*야외/i, cats:['야장','치킨','이자카야']},
-  {patterns:/치맥|치킨.*맥주|후라이드|양념치킨|통닭/i, cats:['치킨','야장']},
-  {patterns:/맥주|이자카야|안주|사케|일본술/i, cats:['이자카야','야장','와인바']},
-  {patterns:/국밥|해장|해장국|뼈해장|순대국|설렁탕|곰탕/i, cats:['국밥','국물','한식']},
-  {patterns:/칼국수|수제비|칼제비/i, cats:['칼국수','면류','한식']},
+  // 음식 종류
+  {patterns:/야장|포장마차|포차|노천|치킨.*야외/i,           cats:['야장','치킨','이자카야']},
+  {patterns:/치맥|치킨.*맥주|후라이드|양념치킨|통닭/i,       cats:['치킨','야장']},
+  {patterns:/맥주|이자카야|안주|사케|일본술|하이볼/i,         cats:['이자카야','야장','와인바']},
+  {patterns:/국밥|해장|해장국|뼈해장|순대국|설렁탕|곰탕/i,   cats:['국밥','국물','한식']},
+  {patterns:/칼국수|수제비|칼제비/i,                         cats:['칼국수','면류','한식']},
   {patterns:/고기|구이|삼겹살|목살|갈비살|한우|등심|소고기|BBQ/i, cats:['고기구이','한식']},
-  {patterns:/회식|단체|단체석|프라이빗|룸/i, cats:['이자카야','고기구이','중식']},
-  {patterns:/중식|짜장|짬뽕|탕수육|딤섬|마라탕|훠궈/i, cats:['중식','훠궈']},
-  {patterns:/파스타|피자|이탈리안|리조또|양식/i, cats:['양식','이탈리안']},
-  {patterns:/스테이크|립아이|ribeye/i, cats:['스테이크','양식']},
-  {patterns:/일식|스시|초밥|사시미|오마카세/i, cats:['이자카야','일식']},
-  {patterns:/혼밥|혼자|1인/i, cats:['국밥','칼국수','한식']},
-  {patterns:/술|와인|소주|막걸리/i, cats:['이자카야','야장','와인바']},
+  {patterns:/중식|짜장|짬뽕|탕수육|딤섬|마라탕|훠궈/i,       cats:['중식','훠궈']},
+  {patterns:/파스타|피자|이탈리안|리조또|양식/i,             cats:['양식','이탈리안']},
+  {patterns:/스테이크|립아이|ribeye|와규|티본/i,             cats:['스테이크','양식']},
+  {patterns:/일식|스시|초밥|사시미|오마카세|돈카츠|덮밥/i,   cats:['이자카야','일식']},
+  {patterns:/혼밥|혼자|1인/i,                               cats:['국밥','칼국수','한식']},
+  {patterns:/술|와인|소주|막걸리|사케/i,                    cats:['이자카야','야장','와인바']},
+  {patterns:/회식|단체|단체석|프라이빗|룸/i,                cats:['이자카야','고기구이','중식']},
+  // 비즈니스·접대 상황
+  {patterns:/임원|상무|전무|부사장|사장님|대표님|VIP|어르신|웃어른/i, cats:['일식','스테이크','양식']},
+  {patterns:/접대|대접|모시|귀빈|중요한 자리|중요한 미팅|중요한 손님/i, cats:['일식','스테이크','양식']},
+  {patterns:/오마카세|파인다이닝|코스요리|고급식당|럭셔리|프리미엄|격식/i, cats:['일식','스테이크','양식']},
+  {patterns:/클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상/i, cats:['일식','스테이크','양식']},
+  {patterns:/기념일|생일 파티|승진 축하|특별한 날|프로포즈/i, cats:['양식','일식','스테이크']},
+  {patterns:/개인실|룸 있는|독립 공간|조용한 자리|프라이빗 룸/i, cats:['일식','양식','스테이크']},
 ]
 
 const WEATHER = ['맑음','흐림','비','눈','쌀쌀함','덥고 습함']
-const MOODS = ['기분 좋음','피곤함','스트레스','혼밥','축하','허전함','데이트','회식']
+const MOODS   = ['기분 좋음','피곤함','스트레스','혼밥','축하','허전함','데이트','회식']
 const CATS = [
-  {emoji:'🥣', name:'국밥·해장', slug:'gukbap', cats:['국밥','국물']},
-  {emoji:'🥩', name:'고기·한우', slug:'meat',   cats:['고기구이','한식']},
-  {emoji:'🏮', name:'이자카야',  slug:'izakaya', cats:['이자카야']},
-  {emoji:'🍜', name:'중식',      slug:'chinese', cats:['중식','훠궈']},
-  {emoji:'🍝', name:'양식·스테이크', slug:'western', cats:['양식','이탈리안','스테이크']},
-  {emoji:'🎉', name:'회식·단체', slug:'group',   cats:['이자카야','고기구이','중식']},
-  {emoji:'🐔', name:'치킨·야장', slug:'chicken', cats:['치킨','야장']},
-  {emoji:'🍣', name:'일식·스시', slug:'japanese',cats:['이자카야','일식']},
-  {emoji:'🚇', name:'4번출구',   slug:'exit4',    cats:[], exit4Only:true},
+  {emoji:'🥩', name:'고기·한우',       slug:'meat',     cats:['고기구이'],              tags:['한우','갈비','삼겹살','목살','항정살']},
+  {emoji:'🥣', name:'국밥·해장',       slug:'gukbap',   cats:['국밥','국물'],           tags:['해장','설렁탕','곰탕','순대국밥']},
+  {emoji:'🏮', name:'이자카야·술집',   slug:'izakaya',  cats:['이자카야','야장'],       tags:['포차','하이볼','사케','수제맥주']},
+  {emoji:'🍣', name:'일식·스시',       slug:'japanese', cats:['일식'],                  tags:['스시','사시미','오마카세','돈카츠']},
+  {emoji:'🍜', name:'중식·마라탕',     slug:'chinese',  cats:['중식','훠궈'],           tags:['마라탕','양꼬치','짬뽕','훠궈']},
+  {emoji:'🍝', name:'양식·스테이크',   slug:'western',  cats:['양식','이탈리안','스테이크'], tags:['파스타','피자','스테이크','와규']},
+  {emoji:'🐔', name:'치킨·야장',       slug:'chicken',  cats:['치킨','야장'],           tags:['통닭','치킨','야장','치맥']},
+  {emoji:'🎉', name:'회식·단체',       slug:'group',    cats:[],                        tags:['단체가능','회식','룸있음','주차가능']},
+  {emoji:'💑', name:'데이트·분위기',   slug:'date',     cats:[],                        tags:['데이트','뷰맛집','프라이빗','인스타감성']},
+  {emoji:'💰', name:'가성비·혼밥',     slug:'budget',   cats:[],                        tags:['가성비','점심','혼밥가능','점심특선']},
+  {emoji:'✨', name:'접대·파인다이닝', slug:'premium',  cats:[],                        tags:['오마카세','예약제','코스요리','프라이빗']},
+  {emoji:'🍖', name:'족발·곱창·보쌈',  slug:'special',  cats:[],                        tags:['족발','곱창','보쌈','막창']},
+  {emoji:'🚇', name:'4번출구',         slug:'exit4',    cats:[],                        exit4Only:true},
 ]
 
-// ── 유틸 ──────────────────────────────────────────────────────
+// ── 상황 컨텍스트 추출 ──────────────────────────────────────
+function extractContext(q, moods, wx) {
+  const t = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
+
+  const vipScore =
+    (/임원|상무|전무|부사장|사장님|대표님|vip|어르신|웃어른/.test(t) ? 3 : 0) +
+    (/접대|대접|모시|귀빈|중요한/.test(t) ? 2 : 0) +
+    (/오마카세|파인다이닝|코스요리|고급식당|럭셔리|프리미엄|격식/.test(t) ? 2 : 0) +
+    (/클라이언트|거래처|바이어|파트너|비즈니스 미팅|계약|협상/.test(t) ? 1 : 0)
+
+  return {
+    vipScore,
+    isCelebration: /기념일|생일.*파티|승진.*축하|특별한 날|프로포즈|기념/.test(t),
+    needsPrivate:  /개인실|룸 있는|독립 공간|조용한 자리|프라이빗/.test(t),
+    needsParking:  /주차|드라이브|차로|차량|자가용/.test(t),
+    isLunch:       /점심|런치|낮에|12시|오전/.test(t),
+    isLate:        /야식|심야|늦게|밤에|11시|12시|새벽/.test(t),
+    isQuick:       /빠르게|빨리|바로|간단히|가볍게|점심시간/.test(t),
+    isSolo:        /혼밥|혼자|1인|나혼자/.test(t),
+    isGroup:       /단체|회식|여럿|팀|부서|모임/.test(t),
+    isDate:        /데이트|커플|연인|둘이|분위기|로맨틱/.test(t),
+    isStress:      /스트레스|힘들|지쳐|피로|야근|화풀이/.test(t),
+    isHangover:    /해장|숙취|어제|속풀이|뒤끝/.test(t),
+  }
+}
+
 function detectMenu(q, moods, wx) {
   const t = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   for (const m of NL_MENU_MAP) { if (m.patterns.test(t)) return m }
   return null
 }
 
-
-// ── 랜덤 추천 결과 문구 템플릿 (10종, 카드마다 다른 형식) ──────────
-function buildRandomReason(r, idx, usedTemplates) {
-  const tags    = (r.tags  || []).slice(0, 4)
-  const moods   = (r.moods || []).slice(0, 3)
-  const scene   = (r.scene || []).slice(0, 2)
-  const rv      = (r.rv    || []).slice(0, 2).map(v => v.replace(/ \(실제 Google 리뷰.*?\)/g, '').slice(0, 45))
-  const price   = r.priceRange ? `${r.priceRange}원대` : ''
-  const hours   = r.hours || ''
-  const type    = r.type  || ''
-  const rt      = r.rt    || ''
-  const cnt     = r.cnt   ? `${r.cnt.toLocaleString()}명` : ''
-  const tagStr  = tags.join(' · ')
-  const moodStr = moods.join(' · ')
-
-  const templates = [
-    // 0: 리뷰 인용 선두형
-    () => {
-      const q = rv[0] || `${tagStr} 맛집`
-      return {
-        reason: `"${q}" — 방문객들의 후기가 이 식당을 대변합니다. ${cnt ? cnt + '이 검증한 ' : ''}⭐${rt}점의 ${type}${price ? ', ' + price : ''}.${scene[0] ? ' ' + scene[0] + ' 상황에 특히 잘 어울립니다.' : ''} ${rv[1] ? '"' + rv[1] + '"' : ''}`,
-        highlight: rv[0] ? rv[0].slice(0, 22) : `${rt}점 · ${tagStr}`
-      }
-    },
-    // 1: 숫자·데이터 신뢰형
-    () => ({
-      reason: `⭐${rt} · 리뷰 ${cnt} · ${price}. 숫자로 증명된 ${type}입니다. ${tagStr ? tagStr + ' 등의 특징으로 ' : ''}단골을 만드는 곳${moodStr ? '으로, ' + moodStr + ' 상황에 딱입니다.' : '.'}${scene[0] ? ' ' + scene[0] + '에 특히 추천합니다.' : ''}`,
-      highlight: `리뷰 ${cnt} · ⭐${rt}`
-    }),
-    // 2: 시간·상황 맥락형
-    () => {
-      const ctx = scene[0] || moods[0] || '오늘 저녁'
-      return {
-        reason: `${ctx}에 딱 맞는 선택. ${type} 특유의 ${tags[0] || '분위기'}를 제대로 느낄 수 있고${tags[1] ? ' ' + tags[1] + '도 빠지지 않습니다.' : '.'} 평점 ⭐${rt}${cnt ? '(' + cnt + ' 리뷰)' : ''}${price ? ', ' + price : ''}. ${rv[0] ? '"' + rv[0] + '"' : ''}`,
-        highlight: `${ctx} 추천 · ⭐${rt}`
-      }
-    },
-    // 3: 임팩트 카피 + 부연형
-    () => {
-      const copy = tags[0] ? `${tags[0]}이라면 여기` : `${type} 고민 끝`
-      return {
-        reason: `${copy}. ${price ? price + ' 가격대의 ' : ''}⭐${rt}짜리 ${type}으로${cnt ? ' ' + cnt + '의 선택을 받았습니다.' : '.'} ${tags.slice(1).join(' · ')}${tags.length > 1 ? ' 등의 특징이 있고' : ''}${moodStr ? ' ' + moodStr + ' 기분에 잘 맞습니다.' : '.'}${rv[0] ? ' "' + rv[0] + '"' : ''}`,
-        highlight: copy
-      }
-    },
-    // 4: 해시태그 감성형
-    () => ({
-      reason: `${tags.length ? '#' + tags.join(' #') + ' ' : ''}${type}. ${rv[0] ? '"' + rv[0] + '" — 방문객들이 공통으로 꼽는 매력입니다. ' : ''}⭐${rt}${cnt ? ', ' + cnt + ' 리뷰' : ''}${price ? ', ' + price : ''}. ${scene[0] ? scene[0] + '에 특히 잘 어울립니다.' : ''}`,
-      highlight: tags[0] ? '#' + tags[0] : `⭐${rt} ${type}`
-    }),
-    // 5: 차별화 비교형
-    () => {
-      const diff = tags[0] || moods[0] || '퀄리티'
-      return {
-        reason: `다른 ${type}과 다른 건 ${diff}입니다. ${rv[0] ? '"' + rv[0] + '"' : ''}${cnt ? ' ' + cnt + '명이 인정한' : ''} ⭐${rt}점. ${price ? price + '으로 ' : ''}${scene[0] ? scene[0] + '에 맞게 ' : ''}기억에 남는 식사를 경험할 수 있습니다.${rv[1] ? ' "' + rv[1] + '"' : ''}`,
-        highlight: `${diff} 맛집 · ⭐${rt}`
-      }
-    },
-    // 6: 스토리텔링 시나리오형
-    () => {
-      const when = scene[0] || moods[0] || '식사'
-      const what = tags[0] || type
-      return {
-        reason: `${when} 자리, ${what}이 당길 때. ⭐${rt}${cnt ? '(' + cnt + ' 리뷰)' : ''} ${type}${price ? ', ' + price + '대' : ''}. ${tags.slice(0,3).join(' · ')} 한 번에 해결. ${rv[0] ? '"' + rv[0] + '"' : ''} 한 번 가면 다시 찾게 됩니다.`,
-        highlight: `${when} · ${what}`
-      }
-    },
-    // 7: Q&A 공감 유도형
-    () => {
-      const q = moods[0] ? `${moods[0]}할 때 어디 갈지 모르겠다면?` : `오늘 ${type} 어때요?`
-      return {
-        reason: `${q} ⭐${rt}${cnt ? ', ' + cnt + ' 리뷰' : ''}의 검증된 ${type}. ${tags.join(' · ')}${price ? ' · ' + price : ''}. ${rv[0] ? '"' + rv[0] + '"이라는 후기처럼 ' : ''}${scene[0] ? scene[0] + '에 딱 맞는 ' : '기대 이상의 '}한 끼가 됩니다.`,
-        highlight: q.replace('?', '')
-      }
-    },
-    // 8: 실용 정보 나열형
-    () => ({
-      reason: `${hours ? hours + ' 영업. ' : ''}${price ? price + '. ' : ''}⭐${rt}${cnt ? '(' + cnt + ')' : ''} ${type}. ${tagStr}. ${rv[0] ? '"' + rv[0] + '"' : moodStr ? moodStr + ' 기분에 잘 맞습니다.' : '실용적인 선택입니다.'}${rv[1] ? ' "' + rv[1] + '"' : ''}`,
-      highlight: `${type} · ${hours ? hours.split('~')[0] : ''}${price ? ' · ' + price : ''}`
-    }),
-    // 9: 감정이입 + 추천이유형
-    () => {
-      const feel = moods[0] || scene[0] || '오늘'
-      return {
-        reason: `${feel}에 이 한 곳을 추천하는 이유 — ${tags[0] ? tags[0] + ',' : ''} ${tags[1] ? tags[1] + ',' : ''} 그리고 ⭐${rt}의 신뢰. ${rv[0] ? '"' + rv[0] + '"이 모든 걸 설명합니다. ' : ''}${cnt ? cnt + '명이 같은 선택을 했습니다.' : ''} ${price ? price + '.' : ''}`,
-        highlight: `${feel} 추천 · ⭐${rt}`
-      }
-    },
-  ]
-
-  // 이미 사용된 템플릿 제외 후 랜덤 선택
-  const available = templates.map((_,i) => i).filter(i => !usedTemplates.includes(i))
-  const pick = available[Math.floor(Math.random() * available.length)]
-  const result = templates[pick]()
-  return { ...result, templateIdx: pick }
-}
-
 function preScore(q, moods, wx, cands, selectedCat) {
-  const qt = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
+  const qt  = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
+  const ctx = extractContext(q, moods, wx)
+
   return cands.map(r => {
-    let s = (r.rt||0) * 3
-    const blob = `${r.name} ${r.type} ${(r.tags||[]).join(' ')} ${(r.scene||[]).join(' ')} ${(r.moods||[]).join(' ')} ${(r.wx||[]).join(' ')}`
-    // 카테고리 선택이 최우선 — 매칭 시 가장 높은 점수
+    let s = (r.rt || 0) * 3
+
+    const blob = [r.name, r.type,
+      ...(r.tags||[]), ...(r.scene||[]), ...(r.moods||[]), ...(r.wx||[]), ...(r.cat||[])
+    ].join(' ').toLowerCase()
+
+    const priceAvg = (() => {
+      if (!r.priceRange) return 20000
+      const [a, b] = r.priceRange.split('~').map(Number)
+      return (a + (b || a)) / 2
+    })()
+
+    // ① 카테고리 선택 최우선
     if (selectedCat && !selectedCat.exit4Only) {
       const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
       const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
-      if (catMatch) s += 60   // 카테고리 직접 매칭: 최고 우선순위
-      if (tagMatch) s += 30   // 태그 매칭: 보조
-      if (!catMatch && !tagMatch) s -= 30  // 카테고리 불일치: 패널티
+      if (catMatch)               s += 60
+      else if (tagMatch)          s += 30
+      else                        s -= 30
     }
-    // 기분·날씨는 보조 점수
-    moods.forEach(m => { if (blob.includes(m)) s += 10 })
+
+    // ② VIP·접대·임원 (핵심)
+    if (ctx.vipScore > 0) {
+      const v = ctx.vipScore
+      const isHighEnd =
+        (r.cat||[]).some(c => ['일식','스테이크','양식','이탈리안'].includes(c)) ||
+        (r.tags||[]).some(t => ['오마카세','한우코스','코스요리','룸있음','개인실','프라이빗','파인다이닝'].includes(t))
+      if (isHighEnd)         s += v * 25
+      if (priceAvg >= 50000) s += v * 20
+      else if (priceAvg >= 35000) s += v * 12
+      else if (priceAvg >= 20000) s += v * 4
+      else                   s -= v * 10   // 저가 패널티
+      if ((r.rt||0) < 4.4)   s -= v * 15  // 저평점 패널티
+      else if ((r.rt||0) >= 4.7) s += v * 10
+      if ((r.cnt||0) >= 500) s += v * 4
+      if ((r.tags||[]).some(t => ['룸있음','개인실','프라이빗'].includes(t))) s += v * 15
+    }
+
+    // ③ 기념일·축하
+    if (ctx.isCelebration) {
+      if ((r.moods||[]).some(m => ['축하','데이트'].includes(m))) s += 20
+      if (priceAvg >= 30000)  s += 10
+      if ((r.tags||[]).includes('기념일')) s += 15
+    }
+
+    // ④ 프라이빗·룸
+    if (ctx.needsPrivate) {
+      if ((r.tags||[]).some(t => ['룸있음','개인실','프라이빗','조용한'].includes(t))) s += 25
+    }
+
+    // ⑤ 주차
+    if (ctx.needsParking) {
+      if (r.parking === true || (r.tags||[]).includes('주차가능')) s += 20
+    }
+
+    // ⑥ 기분·날씨 보조
+    moods.forEach(m => { if (blob.includes(m.toLowerCase())) s += 10 })
     if (wx && blob.includes(wx)) s += 8
-    ;(r.tags||[]).forEach(t => { if (qt.includes(t.toLowerCase())) s += 15 })
-    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase())) s += 12 })
-    qt.split(/\s+/).filter(w => w.length > 1).forEach(w => { if (blob.toLowerCase().includes(w)) s += 5 })
+
+    // ⑦ 태그·씬 텍스트 매칭
+    ;(r.tags||[]).forEach(t   => { if (qt.includes(t.toLowerCase()))   s += 15 })
+    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase()))  s += 12 })
+    qt.split(/\s+/).filter(w => w.length > 1).forEach(w => { if (blob.includes(w)) s += 5 })
+
+    // ⑧ vector 스코어 (있는 식당만)
+    if (r.vector) {
+      if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
+      if (ctx.isGroup)             s += (r.vector.group       ||0) * 14
+      if (ctx.isDate)              s += (r.vector.date        ||0) * 14
+      if (ctx.isQuick||ctx.isLunch) s += (r.vector.fast_meal  ||0) * 12
+      if (ctx.isStress||ctx.isHangover) s += (r.vector.comfort_food||0) * 12
+      if (['비','눈','쌀쌀함'].includes(wx)) s += (r.vector.warm_food||0) * 10
+      if (/술|맥주|소주|와인/.test(qt)) s += (r.vector.alcohol||0) * 10
+      if (ctx.vipScore>0  && r.vector.vip_friendly) s += r.vector.vip_friendly * ctx.vipScore * 12
+      if (ctx.needsPrivate && r.vector.private_room) s += r.vector.private_room * 18
+      if (ctx.needsParking && r.vector.parking)      s += r.vector.parking * 14
+      if (ctx.isCelebration && r.vector.celebration) s += r.vector.celebration * 14
+      if (ctx.isLate       && r.vector.late_night)   s += r.vector.late_night * 10
+    }
+
     return { ...r, _score: s }
-  }).sort((a,b) => b._score - a._score)
+  }).sort((a, b) => b._score - a._score)
 }
+
 
 function parsePriceFilter(q) {
   const m = q.match(/(\d+)[,.]?(\d{3})?원?\s*(이하|미만|대|이상|초과)?/)
@@ -782,7 +789,7 @@ function BrowseTab() {
   const [search,s]       = useState('')
   const [activeCat,ac]   = useState('전체')
   const [exit4Only,e4]   = useState(false)
-  const allCats = ['전체','국밥','고기구이','이자카야','중식','양식','치킨','야장','버거','칼국수']
+  const allCats = ['전체','고기구이','국밥','이자카야','일식','중식','양식','치킨','야장','족발보쌈','해산물','분식','한식']
   const filtered = restaurants.filter(r => {
     if (exit4Only && !r.exit4) return false
     return (activeCat==='전체'||r.cat?.includes(activeCat)) &&
@@ -911,40 +918,6 @@ export default function SamseongPage() {
             })}
           </div>
         )}
-        {/* ── 카테고리 항상 노출 ── */}
-        <div style={{ marginBottom:36, paddingTop:8 }}>
-          <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:12 }}>
-            <span style={{ fontSize:'.8rem',fontWeight:700,color:'var(--muted)' }}>🗂️ 카테고리별 탐색</span>
-            <button onClick={()=>switchTab('categories')} style={{ fontSize:'.72rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',padding:0 }}>전체 보기 →</button>
-          </div>
-          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(120px, 1fr))',gap:8 }}>
-            {CATS.map(cat=>{
-              const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
-              return (
-                <div key={cat.slug} style={{ position:'relative' }}>
-                  <Link href={`/dinner/samseong/category/${cat.slug}`}>
-                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'12px 10px 40px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
-                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
-                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
-                      <div style={{ fontSize:'1.6rem',marginBottom:4 }}>{cat.emoji}</div>
-                      <div style={{ fontSize:'.78rem',fontWeight:600,marginBottom:2,lineHeight:1.3 }}>{cat.name}</div>
-                      <div style={{ fontSize:'.68rem',color:'var(--muted)' }}>{count}개</div>
-                    </div>
-                  </Link>
-                  <button
-                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
-                    style={{ position:'absolute',bottom:7,left:'50%',transform:'translateX(-50%)',
-                      padding:'3px 12px',borderRadius:7,fontSize:'.68rem',fontWeight:700,
-                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
-                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.25)' }}>
-                    🎲 뽑기
-                  </button>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>삼성역 맛집 가이드</h2>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>

@@ -14,12 +14,13 @@ function fmtPrice(p) {
 
 function naverMapUrl(name, lat, lng) {
   const cleaned = name
-    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
+  const hasRegion = /(잠실|송파|방이|석촌|롯데월드)/.test(cleaned)
+  const query = hasRegion ? cleaned : cleaned + ' 잠실'
   const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
-  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}${coord}`
 }
 
 function DiceOverlay({ onDone }) {
@@ -44,58 +45,19 @@ function DiceOverlay({ onDone }) {
 }
 
 const CATEGORY_MAP = {
-  meat:      { name: '고기구이·한우',       emoji: '🥩',
-               cats: ['고기구이'],
-               tags: ['한우','갈비','삼겹살','목살','오마카세','짚불구이'],
-               keywords: '잠실역 고기집, 방이동 한우, 잠실 삼겹살, 방이동 갈비, 방이동먹자골목 고기' },
-  seafood:   { name: '해산물·조개·아구찜',   emoji: '🦪',
-               cats: ['해산물'],
-               tags: ['조개찜','아구찜','물회','쭈꾸미','활문어','해산물'],
-               keywords: '잠실역 해산물, 방이동 조개구이, 잠실 아구찜, 방이동 물회, 잠실 활문어' },
-  gopchang:  { name: '곱창·막창·내장',      emoji: '🫀',
-               cats: [],
-               tags: ['곱창','막창','소곱창','내장','돼지곱창'],
-               keywords: '잠실역 곱창, 방이동 막창, 잠실 소곱창, 방이동먹자골목 곱창' },
-  izakaya:   { name: '이자카야·포차',        emoji: '🏮',
-               cats: ['이자카야','야장'],
-               tags: ['포차감성','수제맥주','전골','한식주점','야장'],
-               keywords: '잠실역 이자카야, 방이동 포차, 잠실 술집, 방이동먹자골목 이자카야' },
-  japanese:  { name: '일식·스시·오마카세',   emoji: '🍣',
-               cats: ['일식'],
-               tags: ['스시','사시미','규동','후토마끼','오마카세','일식다이닝','연어'],
-               keywords: '잠실역 일식, 방이동 스시, 잠실 오마카세, 잠실 일식당, 방이동 연어덮밥' },
-  gukbap:    { name: '국밥·칼국수·해장',     emoji: '🥣',
-               cats: ['국밥','칼국수'],
-               tags: ['해장','감자탕','칼국수','순대국밥','설렁탕'],
-               keywords: '잠실역 국밥, 방이동 해장국, 잠실 칼국수, 방이동 감자탕, 잠실 순대국밥' },
-  chinese:   { name: '중식·마라·양꼬치',     emoji: '🍜',
-               cats: ['중식','훠궈'],
-               tags: ['마라탕','마라샹궈','양꼬치','짜장','짬뽕','마라'],
-               keywords: '잠실역 중식, 방이동 마라탕, 잠실 훠궈, 방이동 양꼬치, 잠실 짬뽕' },
-  western:   { name: '양식·파스타·피자',     emoji: '🍝',
-               cats: ['양식','이탈리안'],
-               tags: ['파스타','피자','스테이크','화덕피자','이탈리안'],
-               keywords: '잠실역 파스타, 방이동 이탈리안, 잠실 스테이크, 방이동 피자, 잠실 양식' },
-  korean:    { name: '한식·갈비찜·족발',     emoji: '🍱',
-               cats: ['한식'],
-               tags: ['갈비찜','족발','보쌈','한정식','백반','부대찌개'],
-               keywords: '잠실역 한식, 방이동 갈비찜, 잠실 족발, 방이동 한정식, 방이동 보쌈' },
-  group:     { name: '회식·단체모임',         emoji: '🎉',
-               cats: [],
-               tags: ['단체가능','회식','주차가능'],
-               keywords: '잠실역 회식장소, 방이동 단체식사, 잠실 회식, 방이동 단체모임' },
-  date:      { name: '데이트·분위기',         emoji: '💑',
-               cats: [],
-               tags: ['데이트','뷰맛집','인스타감성','프라이빗','인스타'],
-               keywords: '잠실역 데이트, 방이동 분위기맛집, 잠실 커플식당, 석촌호수 맛집' },
-  budget:    { name: '가성비·혼밥·점심',      emoji: '💰',
-               cats: [],
-               tags: ['가성비','점심','혼밥가능'],
-               keywords: '잠실역 점심 가성비, 방이동 혼밥, 잠실 저렴한 맛집, 방이동 점심특선' },
-  premium:   { name: '프리미엄·오마카세',      emoji: '✨',
-               cats: [],
-               tags: ['오마카세','예약제','미슐랭','프라이빗','고급'],
-               keywords: '잠실 오마카세, 방이동 한우 오마카세, 잠실 고급맛집, 방이동 미슐랭' },
+  meat:     { name: '고기구이·한우',     emoji: '🥩', cats: ['고기구이'],              tags: ['한우','갈비','삼겹살','목살'],         keywords: '잠실역 한우, 잠실역 고기집, 방이동 BBQ, 석촌 고기구이' },
+  seafood:  { name: '해산물·조개·아구',  emoji: '🦪', cats: ['해산물'],               tags: ['조개찜','아구찜','물회','쭈꾸미'],     keywords: '잠실역 해산물, 잠실 조개찜, 방이동 아구찜, 석촌 물회' },
+  gopchang: { name: '곱창·막창·내장',   emoji: '🫀', cats: [],                        tags: ['곱창','막창','소곱창','내장'],         keywords: '잠실역 곱창, 방이동 곱창, 방이 막창, 잠실 내장구이' },
+  izakaya:  { name: '이자카야·포차',     emoji: '🏮', cats: ['이자카야','야장'],       tags: ['포차감성','하이볼','수제맥주'],        keywords: '잠실역 이자카야, 잠실 포차, 석촌 이자카야, 방이동 술집' },
+  japanese: { name: '일식·스시·오마카세', emoji: '🍣', cats: ['일식'],                tags: ['스시','사시미','오마카세','규동'],     keywords: '잠실역 일식, 잠실 스시, 잠실역 오마카세, 롯데타워 일식' },
+  gukbap:   { name: '국밥·칼국수·해장', emoji: '🥣', cats: ['국밥','칼국수'],         tags: ['해장','감자탕','순대국밥'],           keywords: '잠실역 국밥, 잠실 해장국, 방이동 국밥, 석촌 칼국수' },
+  chinese:  { name: '중식·마라·양꼬치', emoji: '🍜', cats: ['중식','훠궈'],           tags: ['마라탕','양꼬치','짬뽕'],            keywords: '잠실역 중식, 잠실 마라탕, 방이동 양꼬치, 석촌 짬뽕' },
+  western:  { name: '양식·파스타·피자', emoji: '🍝', cats: ['양식','이탈리안'],       tags: ['파스타','피자','스테이크'],           keywords: '잠실역 파스타, 잠실 이탈리안, 방이동 양식, 석촌호수 레스토랑' },
+  korean:   { name: '한식·족발·보쌈',   emoji: '🍱', cats: ['한식'],                  tags: ['갈비찜','족발','보쌈'],               keywords: '잠실 한식, 방이동 족발, 잠실 보쌈, 석촌 한정식' },
+  group:    { name: '회식·단체모임',    emoji: '🎉', cats: [],                        tags: ['단체가능','회식','주차가능'],          keywords: '잠실 회식장소, 방이동 단체식사, 잠실역 회식, 롯데타워 회식' },
+  date:     { name: '데이트·분위기',    emoji: '💑', cats: [],                        tags: ['데이트','뷰맛집','프라이빗','인스타감성'], keywords: '잠실 데이트, 석촌호수 데이트, 롯데타워 뷰, 잠실 분위기' },
+  budget:   { name: '가성비·혼밥·점심', emoji: '💰', cats: [],                        tags: ['가성비','점심','혼밥가능'],           keywords: '잠실 점심, 방이동 혼밥, 잠실역 점심특선, 잠실 가성비' },
+  premium:  { name: '프리미엄·오마카세', emoji: '✨', cats: [],                       tags: ['오마카세','예약제','미슐랭','프라이빗'], keywords: '잠실 오마카세, 롯데타워 파인다이닝, 잠실 고급식당, 잠실 접대' },
 }
 
 export async function getStaticPaths() {
