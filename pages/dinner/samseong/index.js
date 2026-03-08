@@ -555,7 +555,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
-                      <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 삼성역')}`}
+                      <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 삼성역')}`}
                         target="_blank" rel="noopener noreferrer"
                         onClick={e=>e.stopPropagation()}
                         style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>
@@ -665,7 +665,7 @@ export default function SamseongPage() {
 
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
-          {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
+          {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'}].map(tab=>(
             <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
@@ -682,33 +682,39 @@ export default function SamseongPage() {
           </div>
         )}
         {activeTab==='browse' && <BrowseTab />}
-        {activeTab==='categories' && (
-          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10 }}>
+        {/* ── 카테고리 항상 노출 ── */}
+        <div style={{ marginBottom:24 }}>
+          <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:12 }}>
+            <span style={{ fontSize:'.8rem',fontWeight:700,color:'var(--muted)' }}>🗂️ 카테고리별 탐색</span>
+            <Link href="/dinner/samseong/category/meat" style={{ fontSize:'.72rem',color:'var(--primary)' }}>전체 보기 →</Link>
+          </div>
+          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(120px, 1fr))',gap:8 }}>
             {CATS.map(cat=>{
               const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))).length
               return (
                 <div key={cat.slug} style={{ position:'relative' }}>
                   <Link href={`/dinner/samseong/category/${cat.slug}`}>
-                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer' }}>
-                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
+                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'12px 10px 40px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                      <div style={{ fontSize:'1.6rem',marginBottom:4 }}>{cat.emoji}</div>
+                      <div style={{ fontSize:'.78rem',fontWeight:600,marginBottom:2,lineHeight:1.3 }}>{cat.name}</div>
+                      <div style={{ fontSize:'.68rem',color:'var(--muted)' }}>{count}개</div>
                     </div>
                   </Link>
-                  {/* 🎲 뽑기 버튼 */}
                   <button
                     onClick={e=>{ e.preventDefault(); setSelectedCat(cat); switchTab('ai'); setTimeout(()=>getRandom(cat),50) }}
-                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
-                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
+                    style={{ position:'absolute',bottom:7,left:'50%',transform:'translateX(-50%)',
+                      padding:'3px 12px',borderRadius:7,fontSize:'.68rem',fontWeight:700,
                       background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
-                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
-                    🎲 바로 뽑기
+                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.25)' }}>
+                    🎲 뽑기
                   </button>
                 </div>
               )
             })}
           </div>
-        )}
+        </div>
 
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>삼성역 맛집 가이드</h2>

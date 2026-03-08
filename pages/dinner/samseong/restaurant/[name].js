@@ -407,7 +407,7 @@ function getFoodImages(r) {
 export default function RestaurantPage({ restaurant: r, similar }) {
   const slug = CAT_TO_SLUG[r.cat?.[0]] || null
   const catName = slug ? CAT_NAMES[slug] : null
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' 삼성역')}`
+  const mapUrl = `https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 삼성역')}`
   const pageUrl = `https://dinner.ambitstock.com/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`
 
   // 날씨·기분 매칭
@@ -648,7 +648,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 </div>
               )
             })}
-            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' 삼성역')}`}
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 삼성역')}`}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
@@ -695,7 +695,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </ul>
         <a href={mapUrl} target="_blank" rel="noopener noreferrer"
           style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'9px 18px', borderRadius:10, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none', marginBottom:28 }}>
-          📍 Google 지도에서 경로 보기
+          📍 네이버 지도에서 경로 보기
         </a>
 
         {/* FAQ */}

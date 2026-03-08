@@ -218,7 +218,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                     </div>
                   </div>
                   <div style={{ display:'flex', gap:6, alignItems:'center' }}>
-                    <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 잠실')}`}
+                    <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`}
                       target="_blank" rel="noopener noreferrer"
                       onClick={e=>e.stopPropagation()}
                       style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)', textDecoration:'none', position:'relative', zIndex:1 }}>

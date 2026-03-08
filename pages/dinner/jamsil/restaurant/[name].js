@@ -439,7 +439,7 @@ function getFoodImages(r) {
 export default function RestaurantPage({ restaurant: r, similar }) {
   const BASE = 'https://dinner.ambitstock.com'
   const pageUrl = `${BASE}/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`
-  const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' 잠실')}`
+  const mapUrl = `https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`
 
   const matchedWx    = r.wx?.map(w => WX_COPY[w]).filter(Boolean) || []
   const matchedMoods = r.moods?.map(m => ({ mood: m, copy: MOOD_COPY[m] })).filter(x => x.copy) || []
@@ -664,7 +664,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 </div>
               )
             })}
-            <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' 잠실역')}`}
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
@@ -707,7 +707,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </ul>
         <a href={mapUrl} target="_blank" rel="noopener noreferrer"
           style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'9px 18px', borderRadius:10, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none', marginBottom:28 }}>
-          📍 Google 지도에서 경로 보기
+          📍 네이버 지도에서 경로 보기
         </a>
 
         {/* FAQ */}

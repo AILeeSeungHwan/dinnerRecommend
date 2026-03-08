@@ -113,7 +113,7 @@ function RandomResult({ picks, catName, onRetry }) {
               </div>
             </div>
             <div style={{ display:'flex', gap:6, alignItems:'center' }}>
-              <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+' 삼성역')}`}
+              <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 삼성역')}`}
                 target="_blank" rel="noopener noreferrer"
                 onClick={e=>e.stopPropagation()}
                 style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)', textDecoration:'none', position:'relative', zIndex:1 }}>
