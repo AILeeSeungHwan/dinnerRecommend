@@ -135,6 +135,17 @@ function LoadingOverlay() {
 }
 
 // ── 주사위 오버레이 ────────────────────────────────────────────
+// 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
+function naverMapUrl(name, lat, lng) {
+  const cleaned = name
+    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
+    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
+    .replace(/ ([0-9]+호점)$/, '')
+    .trim()
+  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
+  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+}
+
 function DiceOverlay({ onDone }) {
   const dice = ['⚀','⚁','⚂','⚃','⚄','⚅','🎲']
   const [face, setFace] = useState('🎲')
@@ -558,7 +569,7 @@ JSON:{recommendations:[{rank:1,restaurantName:"",reason:"",reviewHighlight:""},{
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
-                      <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`}
+                      <a href={naverMapUrl(r.name, r.lat, r.lng)}
                         target="_blank" rel="noopener noreferrer"
                         onClick={e=>e.stopPropagation()}
                         style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>

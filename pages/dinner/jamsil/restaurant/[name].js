@@ -436,10 +436,21 @@ function getFoodImages(r) {
   ]
 }
 
+// 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
+function naverMapUrl(name, lat, lng) {
+  const cleaned = name
+    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
+    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
+    .replace(/ ([0-9]+호점)$/, '')
+    .trim()
+  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
+  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
+}
+
 export default function RestaurantPage({ restaurant: r, similar }) {
   const BASE = 'https://dinner.ambitstock.com'
   const pageUrl = `${BASE}/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`
-  const mapUrl = `https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`
+  const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
 
   const matchedWx    = r.wx?.map(w => WX_COPY[w]).filter(Boolean) || []
   const matchedMoods = r.moods?.map(m => ({ mood: m, copy: MOOD_COPY[m] })).filter(x => x.copy) || []
@@ -664,7 +675,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 </div>
               )
             })}
-            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(r.name+' 잠실역')}`}
+            <a href={naverMapUrl(r.name, r.lat, r.lng)}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
