@@ -271,10 +271,9 @@ function AiApp() {
   const [showLimit,  setShowLimit] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
-  const [showFilters,setShowFilters]= useState(false)
   const excludedRef = useRef(new Set())
+  const [showFilters,setShowFilters]= useState(false)
   const resultsRef  = useRef(null)
-
 
   useEffect(() => {
     setUsedToday(getUsageCount())
@@ -285,6 +284,7 @@ function AiApp() {
   function scrollTo() {
     setTimeout(() => {
       if (!resultsRef.current) return
+      // 첫번째 결과 카드가 화면 상단에서 약간 아래 보이도록 offset 스크롤
       const el = resultsRef.current
       const top = el.getBoundingClientRect().top + window.pageYOffset - 16
       window.scrollTo({ top, behavior: 'smooth' })
@@ -293,16 +293,25 @@ function AiApp() {
 
   function markShown(recs) {
     recs.forEach(r => excludedRef.current.add(r.restaurantName))
-    if (excludedRef.current.size >= EXCLUDE_RESET) excludedRef.current.clear()
+    // 50개 초과 시 가장 오래된 것부터 제거 → Set 기반으로 전체 리셋
+    if (excludedRef.current.size >= EXCLUDE_RESET) {
+      excludedRef.current.clear()
+    }
   }
 
+  // 후보 풀에서 이전 결과 제외
   function filterExcluded(pool) {
     const exc = excludedRef.current
     const avail = pool.filter(r => !exc.has(r.name))
-    if (avail.length < 3) { exc.clear(); return pool }
+    // 남은 게 3개 미만이면 리셋 후 전체 사용
+    if (avail.length < 3) {
+      exc.clear()
+      return pool
+    }
     return avail
   }
 
+  // ── 랜덤 ──
   function getRandom() {
     const base = exit2Only ? restaurants.filter(r=>r.exit2) : restaurants
     const pool = filterExcluded(base)
@@ -322,6 +331,7 @@ function AiApp() {
     scrollTo()
   }
 
+  // ── AI 추천 (횟수 체크 포함) ──
   function handleRecommendClick() {
     if (!ctx && !weather && moods.length===0) { getRandom(); return }
     const count = getUsageCount()
@@ -335,6 +345,7 @@ function AiApp() {
 
   async function getRecommendations() {
     setLoading(true); setError(false); setResults(null)
+
     try {
       const mm = detectMenu(ctx, moods, weather)
       const pf = parsePriceFilter(ctx)
@@ -346,13 +357,16 @@ function AiApp() {
       if (rf) base = filterByRating(base, rf)
       if (base.length < 5) base = exit2Only ? restaurants.filter(r=>r.exit2) : restaurants
 
+      // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
+      // top12 뽑되, AI에게는 이름·타입·평점·가격·태그2개만 (토큰 최소화)
       const top12 = preScore(ctx, moods, weather, pool).slice(0, 12)
       const compact = top12.map(r =>
         `${r.name}(${r.type},${r.rt}★,${r.priceRange||'?'},${(r.tags||[]).slice(0,2).join('·')})`
       ).join('\n')
 
-      const prompt = `잠실역·방이동·석촌 맛집 추천. 입력:"${ctx||'없음'}" 날씨:${weather||'무관'} 기분:${moods.join(',')||'무관'}${exit2Only?' 2번출구':''}
+      // 출력도 짧게: matchScore 제거, reason 1문장
+      const prompt = `삼성역맛집 추천. 입력:"${ctx||'없음'}" 날씨:${weather||'무관'} 기분:${moods.join(',')||'무관'}${exit2Only?' 2번출구':''}
 후보:\n${compact}
 JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",reviewHighlight:"한줄"},{rank:2,...},{rank:3,...}]}`
 
@@ -387,8 +401,6 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
     color: active?'#fff':'var(--text)',
   })
 
-  const exit2Count = restaurants.filter(r=>r.exit2).length
-
   return (
     <>
       {loading && <LoadingOverlay />}
@@ -408,7 +420,6 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
             {usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
           </span>
         </div>
-
         <div style={{ marginBottom:16, position:'relative' }}>
           <textarea value={ctx} onChange={e=>setCtx(e.target.value)}
             placeholder={HINTS[hintIdx]}
@@ -451,7 +462,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               background:exit2Only?'#2a2200':'var(--surface2)',
               color:exit2Only?'#ffd700':'var(--muted)', fontWeight:exit2Only?700:400,
             }}>
-              🚇 2번출구 근처만 ({exit2Count}개)
+              🚇 2번출구 근처만 ({restaurants.filter(r=>r.exit2).length}개)
             </button>
           </div>
         )}
@@ -468,6 +479,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
           </button>
         </div>
 
+        {/* 제외 현황 표시 */}
         {excludedRef.current.size > 0 && (
           <div style={{ marginTop:8,fontSize:'.68rem',color:'var(--muted)',textAlign:'center' }}>
             지금까지 {excludedRef.current.size}개 식당 추천됨
@@ -494,7 +506,10 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
               return (
                 <Link key={i} href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`}
                   style={{ textDecoration:'none', display:'block', color:'inherit' }}>
-                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}>
+                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
+                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
+                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
+                  >
                     <div style={{ display:'flex',gap:10,marginBottom:8 }}>
                       <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
                       <div style={{ flex:1,minWidth:0 }}>
@@ -510,7 +525,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
                     <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
                     {rec.reviewHighlight&&(
                       <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
-                        {`"${rec.reviewHighlight}"`}
+                        💬 {`"${rec.reviewHighlight}"`}
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
@@ -536,7 +551,7 @@ JSON만:{recommendations:[{rank:1,restaurantName:"이름",reason:"1~2문장",rev
   )
 }
 
-// ── 전체 목록 탭 ──────────────────────────────────────────────
+// ── 전체 목록 탭 ─────────────────────────────────────────────
 function BrowseTab() {
   const [search, s]      = useState('')
   const [activeCat, ac]  = useState('전체')
