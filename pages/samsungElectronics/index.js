@@ -32,12 +32,18 @@ const stations = [
 ]
 
 const CATS = [
-  { emoji: '🥩', name: '고기·한우', slug: 'meat' },
-  { emoji: '🥣', name: '국밥·해장', slug: 'gukbap' },
-  { emoji: '🏮', name: '이자카야',  slug: 'izakaya' },
-  { emoji: '🍱', name: '일식·스시', slug: 'japanese' },
-  { emoji: '🍜', name: '중식·훠궈', slug: 'chinese' },
-  { emoji: '🎉', name: '회식·단체', slug: 'group' },
+  { emoji: '🥩', name: '고기·한우',   slug: 'meat' },
+  { emoji: '🥣', name: '국밥·해장',   slug: 'gukbap' },
+  { emoji: '🏮', name: '이자카야',    slug: 'izakaya' },
+  { emoji: '🍣', name: '일식·스시',   slug: 'japanese' },
+  { emoji: '🍜', name: '중식·훠궈',   slug: 'chinese' },
+  { emoji: '🍝', name: '양식·파스타', slug: 'western' },
+  { emoji: '🐔', name: '치킨·분식',   slug: 'chicken' },
+  { emoji: '🎉', name: '회식·단체',   slug: 'group' },
+  { emoji: '💑', name: '데이트',       slug: 'date' },
+  { emoji: '💰', name: '가성비·혼밥', slug: 'budget' },
+  { emoji: '✨', name: '접대·파인다이닝', slug: 'premium' },
+  { emoji: '🍱', name: '한식·정식',   slug: 'korean' },
 ]
 
 export default function SamsungElectronicsHome() {
@@ -89,15 +95,19 @@ export default function SamsungElectronicsHome() {
         <h2 style={{ fontSize: '.82rem', fontWeight: 700, color: 'var(--muted)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
           🍽️ 카테고리별 맛집
         </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10, marginBottom: 40 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10, marginBottom: 40 }}>
           {CATS.map(cat => (
             <Link href={`/samsungElectronics/yeongtong/category/${cat.slug}`} key={cat.slug} style={{ textDecoration: 'none' }}>
               <div style={{
                 background: 'var(--surface)', border: '1px solid var(--border)',
-                borderRadius: 12, padding: '16px 10px', textAlign: 'center', cursor: 'pointer',
-              }}>
-                <div style={{ fontSize: '1.6rem', marginBottom: 5 }}>{cat.emoji}</div>
-                <div style={{ fontSize: '.78rem', fontWeight: 600 }}>{cat.name}</div>
+                borderRadius: 12, padding: '14px 8px', textAlign: 'center', cursor: 'pointer',
+                transition: 'border-color .15s',
+              }}
+                onMouseEnter={e => e.currentTarget.style.borderColor = 'var(--primary)'}
+                onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
+              >
+                <div style={{ fontSize: '1.5rem', marginBottom: 5 }}>{cat.emoji}</div>
+                <div style={{ fontSize: '.72rem', fontWeight: 600, lineHeight: 1.3 }}>{cat.name}</div>
               </div>
             </Link>
           ))}

@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
+import { CoupangDetailBanner } from '../../../../components/CoupangBanner'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
   return {
-    paths: restaurants.map(r => ({ params: { name: r.name } })),
-    fallback: 'blocking'
+    paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
+    fallback: false
   }
 }
 
@@ -411,11 +412,6 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
-
-function formatHours(h) {
-  if (!h) return h
-  return h.replace(/AM (\d+:\d+)/g, '$1 AM').replace(/PM (\d+:\d+)/g, '$1 PM')
-}
 function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -450,7 +446,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const foodImages = getFoodImages(r)
 
   // 메타 desc
-  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
+  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org",
@@ -481,7 +477,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://gangnamwhat.com" },
+      { "@type":"ListItem", "position":1, "name":"강남뭐먹", "item":"https://gangnamwhat.com" },
       { "@type":"ListItem", "position":2, "name":"삼성역 맛집", "item":"https://gangnamwhat.com/dinner/samseong" },
       slug && { "@type":"ListItem", "position":3, "name":`삼성역 ${catName}`, "item":`https://gangnamwhat.com/dinner/samseong/category/${slug}` },
       { "@type":"ListItem", "position": slug ? 4 : 3, "name":r.name, "item":pageUrl },
@@ -503,7 +499,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
+          <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> <span>›</span>
           <Link href="/dinner/samseong" style={{ color:'var(--muted)' }}>삼성역 맛집</Link> <span>›</span>
           {slug && <><Link href={`/dinner/samseong/category/${slug}`} style={{ color:'var(--muted)' }}>삼성역 {catName}</Link> <span>›</span></>}
           <span style={{ color:'var(--text)' }}>{r.name}</span>
@@ -526,7 +522,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 {r.exit4 && <span style={{ fontSize:'.7rem', background:'#1a1a00', padding:'2px 8px', borderRadius:100, border:'1px solid #4a4a00', color:'#ffd700' }}>🚇 4번출구 근처</span>}
               </div>
               <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 강남구 {r.addr}</p>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
+              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {r.hours}</p>
             </div>
           </div>
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
@@ -682,7 +678,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 padding:'6px 12px', textDecoration:'none',
                 background:'var(--surface)', transition:'all .15s',
               }}>
-              🗺️ 네이버에서 실제 리뷰 보러가기 →
+              🗺️ Google Maps에서 실제 리뷰 보기 →
             </a>
           </>
         )}
@@ -725,7 +721,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* FAQ */}
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
-          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
+          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 강남구 ${r.addr}에 위치합니다. 삼성역${r.exit4 ? ' 4번출구에서 도보 3분 거리' : ' 인근'}입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다. 메뉴와 구성에 따라 다를 수 있습니다.` : '정확한 가격은 매장에 문의하거나 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 혼밥 가능한가요?`, r.moods?.includes('혼밥') ? '네, 혼밥하기 좋은 분위기입니다. 혼자 방문해도 전혀 어색하지 않아요.' : '매장 좌석 구성에 따라 다르니 방문 전 확인을 권장합니다.'],
@@ -773,6 +769,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </Link>
         </div>
 
+        {/* 쿠팡 파트너스 배너 */}
+        <CoupangDetailBanner cats={r.cat} />
       </article>
     </Layout>
   )
