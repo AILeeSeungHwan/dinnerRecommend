@@ -134,8 +134,8 @@ function naverMapUrl(name, lat, lng) {
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const coord = (lat && lng) ? \`?c=\${lng},\${lat},17,0,0,0,dh\` : ''
-  return \`https://map.naver.com/v5/search/\${encodeURIComponent(cleaned)}\${coord}\`
+  const coord = (lat && lng) ? `?c=${lng},${lat},17,0,0,0,dh` : ''
+  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned)}${coord}`
 }
 
 function DiceOverlay({ onDone }) {
