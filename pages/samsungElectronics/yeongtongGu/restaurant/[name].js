@@ -443,6 +443,11 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
+
+function formatHours(h) {
+  if (!h) return h
+  return h.replace(/AM (\d+:\d+)/g, '$1 AM').replace(/PM (\d+:\d+)/g, '$1 PM')
+}
 function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -472,7 +477,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const intro = buildIntro(r)
   const foodImages = getFoodImages(r)
 
-  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
+  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org", "@type": "Restaurant",
@@ -545,7 +550,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 )}
               </div>
               <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 송파구 {r.addr}</p>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {r.hours}</p>
+              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
             </div>
           </div>
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
@@ -691,7 +696,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 padding:'6px 12px', textDecoration:'none',
                 background:'var(--surface)', transition:'all .15s',
               }}>
-              🗺️ Google Maps에서 실제 리뷰 보기 →
+              🗺️ 네이버에서 실제 리뷰 보러가기 →
             </a>
           </>
         )}
@@ -726,7 +731,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* FAQ */}
         <h2 style={h2s}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
-          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
+          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역 인근입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 웨이팅이 있나요?`, r.waiting === '웨이팅 있음' ? '인기 맛집으로 웨이팅이 있을 수 있습니다. 오픈 시간에 맞춰 방문하거나 여유 있게 방문하세요.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 전화 예약을 추천드립니다.' : '일반적으로 바로 입장 가능합니다.'],

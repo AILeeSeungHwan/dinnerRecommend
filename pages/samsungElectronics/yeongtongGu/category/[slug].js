@@ -244,7 +244,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                     <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>
                       🕐 {r.hours}
                     </span>
-              <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>탭해서 상세보기 →</span>
+              <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>상세보기 →</span>
                   </div>
                 </div>
               </Link>

@@ -6,9 +6,9 @@ import { useState, useEffect } from 'react'
 const FONTS = {
   default:   { name:'기본',     css:"-apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', sans-serif" },
   rounded:   { name:'둥근체',   css:"'Nunito', 'Noto Sans KR', sans-serif",   google:'Nunito:wght@400;700;900' },
-  serif:     { name:'세리프',   css:"'Playfair Display', 'Noto Serif KR', Georgia, serif", google:'Playfair+Display:wght@400;700;900' },
+  serif:     { name:'세리프',   css:"'Noto Serif KR', Georgia, serif", google:'Noto+Serif+KR:wght@400;700;900' },
   mono:      { name:'모노',     css:"'JetBrains Mono', 'Courier New', monospace", google:'JetBrains+Mono:wght@400;700' },
-  elegant:   { name:'엘레강트', css:"'Cormorant Garamond', 'Noto Serif KR', Georgia, serif", google:'Cormorant+Garamond:wght@400;600;700' },
+  elegant:   { name:'엘레강트', css:"'Noto Serif KR', Georgia, serif", google:'Noto+Serif+KR:wght@400;600;700' },
   display:   { name:'디스플레이',css:"'Space Grotesk', 'Noto Sans KR', sans-serif", google:'Space+Grotesk:wght@400;600;700' },
   retro:     { name:'레트로',   css:"'DM Serif Display', Georgia, serif", google:'DM+Serif+Display' },
   clean:     { name:'클린',     css:"'Plus Jakarta Sans', 'Noto Sans KR', sans-serif", google:'Plus+Jakarta+Sans:wght@400;600;700;800' },
@@ -161,6 +161,7 @@ const THEMES = [
 
 export default function Layout({ children, title, description, canonical }) {
   const [theme,      setTheme]      = useState('light')
+  const [mounted,    setMounted]    = useState(false)
   const [showThemes, setShowThemes] = useState(false)
   const [showQR,     setShowQR]     = useState(false)
   const [showStations, setShowStations] = useState(false)
@@ -171,8 +172,10 @@ export default function Layout({ children, title, description, canonical }) {
   const siteDesc  = description || '강남역·삼성역 맛집을 AI가 빠르게 추천. 국밥·이자카야·한우·중식 170개+ 식당 정보.'
 
   useEffect(() => {
+    setMounted(true)
     const saved = localStorage.getItem('gm-theme')
     if (saved && THEMES.find(t => t.id === saved)) setTheme(saved)
+    else setTheme('light')
     const cost = parseFloat(localStorage.getItem('gm-token-cost') || '0')
     setTokenCost(cost)
   }, [])

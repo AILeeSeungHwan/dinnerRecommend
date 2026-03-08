@@ -81,6 +81,18 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#0d1117" />
         <meta name="msapplication-TileImage" content="/icon-192x192.png" />
       </Head>
+
+      {/* ── 테마 깜빡임 방지: 렌더 전 light 기본값 고정 ── */}
+      <script dangerouslySetInnerHTML={{ __html: `
+        (function() {
+          var saved = localStorage.getItem('gm-theme');
+          var lightVars = '--bg:#ffffff;--surface:#f8f9fa;--surface2:#f1f3f5;--text:#111827;--muted:#6b7280;--border:#e5e7eb;--primary:#6366f1;--primary2:#818cf8;';
+          if (!saved || saved === 'light') {
+            var s = document.documentElement.style;
+            lightVars.split(';').forEach(function(v){ if(v){ var p=v.split(':'); s.setProperty(p[0], p[1]); } });
+          }
+        })();
+      `}} />
       <body>
         <Main />
         <NextScript />
