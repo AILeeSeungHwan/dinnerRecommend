@@ -682,6 +682,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
     // 일반 모드: 디스크 기반 수 GB → 1GB 초과
     // Safari: localStorage 쓰기 후 즉시 사라지는 특성 이용
+    let easterTimer = null
     async function detectIncognito() {
       try {
         // 1) Chrome/Edge/Firefox — storage estimate
@@ -708,12 +709,12 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         detectIncognito().then(isIncognito => {
           if (isIncognito) {
             sessionStorage.setItem('easter_seen', '1')
-            setTimeout(() => setShowEaster(true), 600)
+            easterTimer = setTimeout(() => setShowEaster(true), 600)
           }
         })
       }
     } catch(e) {}
-    return () => clearInterval(t)
+    return () => { clearInterval(t); if (easterTimer) clearTimeout(easterTimer) }
   }, [])
 
   useEffect(() => {

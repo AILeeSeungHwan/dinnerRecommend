@@ -685,19 +685,14 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   useEffect(() => {
     setUsedToday(getUsageCount())
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
-    // 이스터에그: 시크릿/우회 감지
-    // 이스터에그: 시크릿 모드 감지
-    // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
-    // 일반 모드: 디스크 기반 수 GB → 1GB 초과
-    // Safari: localStorage 쓰기 후 즉시 사라지는 특성 이용
+    // 이스터에그: 시크릿 모드 감지 (storage estimate 기반)
+    let easterTimer = null
     async function detectIncognito() {
       try {
-        // 1) Chrome/Edge/Firefox — storage estimate
         if (navigator.storage && navigator.storage.estimate) {
           const { quota } = await navigator.storage.estimate()
-          if (quota < 500 * 1024 * 1024) return true  // 500MB 미만 = 시크릿
+          if (quota < 500 * 1024 * 1024) return true
         }
-        // 2) Safari 시크릿 — IDB 쓰기 실패
         const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
         if (isSafari) {
           return await new Promise(resolve => {
@@ -709,19 +704,18 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         return false
       } catch { return false }
     }
-
     try {
       const seenThisSession = sessionStorage.getItem('easter_seen')
       if (!seenThisSession) {
         detectIncognito().then(isIncognito => {
           if (isIncognito) {
             sessionStorage.setItem('easter_seen', '1')
-            setTimeout(() => setShowEaster(true), 600)
+            easterTimer = setTimeout(() => setShowEaster(true), 600)
           }
         })
       }
     } catch(e) {}
-    return () => clearInterval(t)
+    return () => { clearInterval(t); if (easterTimer) clearTimeout(easterTimer) }
   }, [])
 
   // 카테고리 바로뽑기 - 외부에서 pendingCat 전달 시 자동 실행
