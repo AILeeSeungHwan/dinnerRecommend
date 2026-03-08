@@ -69,11 +69,8 @@ export default function Home() {
     >
       {/* 히어로 */}
       <section style={{ padding:'44px 16px 32px', textAlign:'center' }}>
-        <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:12, letterSpacing:'0.05em' }}>
-          오늘 뭐 먹지?
-        </div>
         <h1 style={{ fontSize:'clamp(1.7rem,6vw,2.8rem)', fontWeight:900, lineHeight:1.15, marginBottom:12 }}>
-          오늘 뭐 먹지,<br />
+          오늘 뭐 먹지?<br />
           <span style={{ color:'var(--primary)' }}>3초면 끝</span>
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
@@ -127,19 +124,21 @@ export default function Home() {
           ))}
         </div>
 
-        {/* 삼성전자 임직원 지역 */}
-        <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>🏭 삼성전자 임직원 맛집</h2>
-        <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(190px, 1fr))', gap:12, marginBottom:40 }}>
+        {/* 삼성전자 회식장소 맛집 */}
+        <Link href="/samsungElectronics" style={{ textDecoration:'none' }}>
+          <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em', cursor:'pointer', display:'inline-block' }}>🏭 삼성전자 회식장소 맛집 <span style={{ fontSize:'.7rem', opacity:.6 }}>→</span></h2>
+        </Link>
+        <div style={{ display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:10, marginBottom:40 }}>
           {seStations.map(s => (
             <Link key={s.slug} href={`/samsungElectronics/${s.slug}`} style={{ textDecoration:'none' }}>
-              <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', cursor:'pointer', position:'relative', overflow:'hidden' }}>
-                <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
-                <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
-                <div style={{ fontSize:'.78rem', color:'var(--muted)', marginBottom:10 }}>{s.desc}</div>
-                <span style={{ fontSize:'.7rem', background:'#1a2a2a', color:'#6fcfcf', padding:'2px 8px', borderRadius:100, border:'1px solid #2a4a4a' }}>
+              <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'16px 12px', cursor:'pointer', position:'relative', overflow:'hidden' }}>
+                <div style={{ fontSize:'1.6rem', marginBottom:5 }}>{s.emoji}</div>
+                <div style={{ fontSize:'.92rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
+                <div style={{ fontSize:'.72rem', color:'var(--muted)', marginBottom:10, lineHeight:1.4 }}>{s.desc}</div>
+                <span style={{ fontSize:'.68rem', background:'#1a2a2a', color:'#6fcfcf', padding:'2px 8px', borderRadius:100, border:'1px solid #2a4a4a', whiteSpace:'nowrap' }}>
                   식당 {s.count}개+
                 </span>
-                <div style={{ position:'absolute', top:12, right:12, background:'#1e3a5f', color:'#7eb8f7', fontSize:'.6rem', padding:'2px 7px', borderRadius:100, fontWeight:700 }}>
+                <div style={{ position:'absolute', top:10, right:10, background:'#1e3a5f', color:'#7eb8f7', fontSize:'.58rem', padding:'2px 6px', borderRadius:100, fontWeight:700 }}>
                   SE
                 </div>
               </div>
@@ -176,7 +175,7 @@ export default function Home() {
             {jamsilData.length}개 식당을 담았습니다. 잠실에서 오늘 뭐 먹지 고민이라면 AI 추천을 써보세요.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
-            <strong>영통·망포·영통구청</strong>은 삼성전자 임직원 맛집 특화 서비스입니다.
+            <strong>영통·망포·영통구청</strong>은 삼성전자 회식장소 맛집 특화 서비스입니다.
             직장인 점심·회식·이자카야까지 {seTotal}개 식당을 AI가 골라드립니다.
           </p>
         </article>

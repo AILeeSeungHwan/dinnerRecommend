@@ -31,7 +31,7 @@ function DiceOverlay({ onDone }) {
     const id = setInterval(() => {
       setFace(DICE[Math.floor(Math.random()*DICE.length)])
       cnt++
-      if (cnt >= 14) { clearInterval(id); setTimeout(onDone, 200) }
+      if (cnt >= 22) { clearInterval(id); setTimeout(onDone, 300) }
     }, 90)
     return () => clearInterval(id)
   }, [])
