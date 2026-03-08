@@ -581,7 +581,7 @@ ${compact}
               if (!r) return null
               const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
               return (
-                <Link key={i} href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`}
+                <Link key={i} href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(r.name)}`}
                   style={{ textDecoration:'none', display:'block', color:'inherit' }}>
                   <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
                     onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
@@ -651,7 +651,7 @@ function BrowseTab() {
       </div>
       <div className="restaurant-grid">
         {filtered.map((r,i)=>(
-          <Link href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`} key={i}>
+          <Link href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(r.name)}`} key={i}>
             <div className="restaurant-card">
               <div className="card-name">{r.e} {r.name}</div>
               <div className="card-meta">
@@ -688,10 +688,10 @@ export default function JamsilPage() {
       <Head>
         <title>망포역 맛집 추천 | 삼성전자 망포 AI 추천 | 뭐먹지</title>
         <meta name="description" content={`망포역·수원 삼성전자·석촌호수 주변 맛집 AI 추천. 곱창·삼겹살·국밥·이자카야·오마카세 ${restaurants.length}개+ 식당.`} />
-        <link rel="canonical" href="https://dinner.ambitstock.com/dinner/jamsil" />
+        <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/mangpo" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org","@type":"ItemList","name":"망포역 맛집 추천",
-          "url":"https://dinner.ambitstock.com/dinner/jamsil","numberOfItems":restaurants.length,
+          "url":"https://dinner.ambitstock.com/samsungElectronics/mangpo","numberOfItems":restaurants.length,
           "itemListElement":topRated.slice(0,5).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"description":`${r.type} | ⭐${r.rt}` }))
         })}} />
       </Head>
@@ -744,7 +744,7 @@ export default function JamsilPage() {
               }).length
               return (
                 <div key={cat.slug} style={{ position:'relative' }}>
-                  <Link href={`/dinner/jamsil/category/${cat.slug}`}>
+                  <Link href={`/samsungElectronics/mangpo/category/${cat.slug}`}>
                     <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
                       onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
                       onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
@@ -781,7 +781,7 @@ export default function JamsilPage() {
               }).length
               return (
                 <div key={cat.slug} style={{ position:'relative' }}>
-                  <Link href={`/dinner/jamsil/category/${cat.slug}`} style={{ textDecoration:'none' }}>
+                  <Link href={`/samsungElectronics/mangpo/category/${cat.slug}`} style={{ textDecoration:'none' }}>
                     <div
                       style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'12px 10px 40px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
                       onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}

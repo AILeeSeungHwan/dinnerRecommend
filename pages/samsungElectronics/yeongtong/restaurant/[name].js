@@ -499,7 +499,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":BASE },
-      { "@type":"ListItem", "position":2, "name":"잠실 맛집", "item":`${BASE}/dinner/jamsil` },
+      { "@type":"ListItem", "position":2, "name":"영통역 맛집", "item":`${BASE}/samsungElectronics/yeongtong` },
       { "@type":"ListItem", "position":3, "name":r.name, "item":pageUrl },
     ]
   }
@@ -520,7 +520,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
           <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
-          <Link href="/samsungElectronics/yeongtong" style={{ color:'var(--muted)' }}>잠실 맛집</Link> <span>›</span>
+          <Link href="/samsungElectronics/yeongtong" style={{ color:'var(--muted)' }}>영통역 맛집</Link> <span>›</span>
           <span style={{ color:'var(--text)' }}>{r.name}</span>
         </div>
       </div>
