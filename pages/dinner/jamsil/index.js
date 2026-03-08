@@ -408,13 +408,27 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,3)
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
       const compact = top6.map(r =>
-        `${r.name}(${r.type},${r.rt},${(r.tags||[]).slice(0,1).join('')})`
+        `${r.name}(${r.type},⭐${r.rt},${(r.tags||[]).slice(0,3).join('/')},${r.priceRange?r.priceRange+'원':'가격미정'})`
       ).join('|')
-      const ctx_short = (ctx||'').slice(0,30)
-      const mood_short = moods.slice(0,2).join(',')
-      const prompt = `잠실역맛집3개추천.조건:"${ctx_short}"${weather?' '+weather:''}${mood_short?' '+mood_short:''}${exit2Only?' 2번출구':''}
-후보(restaurantName은 반드시 후보목록 이름 그대로):${compact}
-JSON만출력:{recommendations:[{rank:1,restaurantName:"후보이름그대로",reason:"25자이내",reviewHighlight:""},{rank:2,...},{rank:3,...}]}`
+      const ctx_full = (ctx||'').slice(0, 80)
+      const mood_str = moods.join(', ')
+      const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit2Only&&'2번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
+      const prompt = `당신은 잠실역 맛집 전문가입니다. 아래 조건에 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
+
+[검색 조건]
+${ctx_full ? `사용자 요청: "${ctx_full}"` : '특별한 요청 없음 (무작위 추천)'}
+${filter_str ? `필터: ${filter_str}` : ''}
+
+[후보 식당 목록]
+${compact}
+
+[출력 규칙]
+- restaurantName은 반드시 후보 목록의 이름을 그대로 사용
+- reason: 사용자의 검색 의도와 연결해서 왜 이 식당인지 2~3문장으로 설명 (분위기, 메뉴, 특징 포함)
+- reviewHighlight: 이 식당의 핵심 매력을 한 줄로 (태그/특징 기반)
+- JSON만 출력, 다른 텍스트 없음
+
+{"recommendations":[{"rank":1,"restaurantName":"후보이름그대로","reason":"검색의도와연결한설명2~3문장","reviewHighlight":"핵심매력한줄"},{"rank":2,...},{"rank":3,...}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
@@ -719,7 +733,7 @@ export default function JamsilPage() {
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         {/* 탭 */}
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
-          {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'}].map(tab=>(
+          {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
             <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
@@ -736,11 +750,43 @@ export default function JamsilPage() {
           </div>
         )}
         {activeTab==='browse' && <BrowseTab />}
+        {activeTab==='categories' && (
+          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10,padding:'4px 0' }}>
+            {CATS.map(cat=>{
+              const count = restaurants.filter(r=>{
+                const catMatch = cat.cats.length > 0 && cat.cats.some(c=>r.cat?.includes(c))
+                const tagMatch = cat.tags?.some(t=>r.tags?.some(rt=>rt.includes(t))||r.cat?.some(c=>c.includes(t)))
+                return catMatch||tagMatch
+              }).length
+              return (
+                <div key={cat.slug} style={{ position:'relative' }}>
+                  <Link href={`/dinner/jamsil/category/${cat.slug}`}>
+                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
+                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
+                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
+                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
+                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
+                    </div>
+                  </Link>
+                  <button
+                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
+                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
+                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
+                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
+                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
+                    🎲 바로 뽑기
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+        )}
         {/* ── 카테고리 항상 노출 ── */}
         <div style={{ marginBottom:36, paddingTop:8 }}>
           <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:12 }}>
             <span style={{ fontSize:'.8rem',fontWeight:700,color:'var(--muted)' }}>🗂️ 카테고리별 탐색</span>
-            <Link href="/dinner/jamsil/category/meat" style={{ fontSize:'.72rem',color:'var(--primary)' }}>전체 보기 →</Link>
+            <button onClick={()=>switchTab('categories')} style={{ fontSize:'.72rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',padding:0 }}>전체 보기 →</button>
           </div>
           <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(120px, 1fr))',gap:8 }}>
             {CATS.map(cat=>{
