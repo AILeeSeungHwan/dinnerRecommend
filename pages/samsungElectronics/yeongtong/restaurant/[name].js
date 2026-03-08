@@ -5,7 +5,7 @@ import restaurants from '../../../../data/yeongtong'
 
 export async function getStaticPaths() {
   return {
-    paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
+    paths: restaurants.map(r => ({ params: { name: r.name } })),
     fallback: 'blocking'
   }
 }
