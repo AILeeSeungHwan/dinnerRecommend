@@ -335,7 +335,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "돌산등대집 / Dolsan House / 突山家 / トルサンハウス",
+    "name": "돌산등대집",
     "type": "고기구이",
     "e": "🥩",
     "rt": 4.9,
@@ -466,7 +466,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "손에손잡고 삼성직영점 l Son-ae Son-jap-go Samsung Direct Store l 手牵手 三星直营店 l 手をつないで サムスン直営店 l 삼성역 맛집",
+    "name": "손에손잡고 삼성직영점",
     "type": "한식",
     "e": "🍶",
     "rt": 4.9,
@@ -722,7 +722,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "삼성역 맛집 국보가든 삼성본점 | Korean BBQ Restaurant Kukbo Garden Samseong | サムギョプサル | 烤肉",
+    "name": "삼성역 맛집 국보가든 삼성본점",
     "type": "한식",
     "e": "🍱",
     "rt": 4.8,
@@ -2758,7 +2758,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "메콩타이 삼성점 (Mekong Thai Samseong)",
+    "name": "메콩타이 삼성점",
     "type": "아시안",
     "e": "🦪",
     "rt": 4.4,
@@ -3010,7 +3010,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "아티피크(atypique)",
+    "name": "아티피크",
     "type": "양식·카페",
     "e": "🍱",
     "rt": 4.4,
@@ -3138,7 +3138,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "카야루(KAYARU)",
+    "name": "카야루",
     "type": "해산물",
     "e": "🦪",
     "rt": 4.4,
@@ -3643,7 +3643,7 @@ const restaurants = [
     "exit4": true
   },
   {
-    "name": "해봉(海峯)정육 삼성본점",
+    "name": "해봉정육 삼성본점",
     "type": "고기구이",
     "e": "🥩",
     "rt": 4.3,
@@ -4976,7 +4976,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "청자골(チョンジャゴル)",
+    "name": "청자골",
     "type": "고기구이",
     "e": "🥩",
     "rt": 4.2,
@@ -7567,7 +7567,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "본 죽&비빔밥 선릉점",
+    "name": "본 죽and비빔밥 선릉점",
     "type": "고기구이·중식",
     "e": "🥩",
     "rt": 4.1,
@@ -7683,7 +7683,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "카페 제이갸또(jgateau)",
+    "name": "카페 제이갸또",
     "type": "중식·카페",
     "e": "🥟",
     "rt": 4.1,
@@ -10198,7 +10198,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "비욘드비엣남 선릉점 / Beyond Vietnam Seolleung Branch / 超越越南 宣陵店 / ビヨンドベトナム 宣陵店",
+    "name": "비욘드비엣남 선릉점",
     "type": "한식",
     "e": "🍱",
     "rt": 4,
@@ -11220,7 +11220,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "본 죽&비빔밥 대치은마점",
+    "name": "본 죽and비빔밥 대치은마점",
     "type": "한식",
     "e": "🍱",
     "rt": 3.9,
@@ -12189,7 +12189,7 @@ const restaurants = [
     "exit4": true
   },
   {
-    "name": "용호동낙지 강남직영점(Yonghodong Nakji Gangnam)",
+    "name": "용호동낙지 강남직영점",
     "type": "해산물",
     "e": "🦪",
     "rt": 3.8,
@@ -13222,7 +13222,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "HOTSUNチキン",
+    "name": "HOTSUN치킨",
     "type": "한식",
     "e": "🍱",
     "rt": 3.8,
@@ -13533,7 +13533,7 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "Ultraman Izakaya • 울트라맨 이자카야 • ウルトラマン居酒屋",
+    "name": "울트라맨 이자카야",
     "type": "중식",
     "e": "🍶",
     "rt": 3.8,
