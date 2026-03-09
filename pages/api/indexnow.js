@@ -1,24 +1,11 @@
-import restaurants from '../../data/samseong'
-
+// IndexNow 제출 API - 사이트맵 기반 URL 수집
 const BASE = 'https://dinner.ambitstock.com'
 const INDEXNOW_KEY = '699c79d934824e84b1302ac527943497'
-const CATEGORIES = ['gukbap','meat','izakaya','chinese','western','group','chicken','japanese']
-
-// 전체 URL 목록 생성
-function getAllUrls() {
-  const static_ = ['/', '/dinner/samseong', '/dinner/gangnam', '/dinner/jamsil']
-  const cats = CATEGORIES.map(s => `/dinner/samseong/category/${s}`)
-  const rests = restaurants.map(r => `/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`)
-  return [...static_, ...cats, ...rests].map(u => `${BASE}${u}`)
-}
 
 export default async function handler(req, res) {
-  // GET: 상태 확인
   if (req.method === 'GET') {
-    const urls = getAllUrls()
     return res.status(200).json({
       message: 'IndexNow 제출 준비 완료',
-      totalUrls: urls.length,
       key: INDEXNOW_KEY,
       usage: 'POST /api/indexnow 으로 제출'
     })
@@ -27,9 +14,20 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
 
   try {
-    const urls = getAllUrls()
+    // 사이트맵에서 URL 수집
+    const sitemapRes = await fetch(`${BASE}/sitemap.xml`)
+    let urls = [BASE]
 
-    // IndexNow는 한 번에 최대 10,000개 허용 — 우리는 ~180개라 한 번에 가능
+    if (sitemapRes.ok) {
+      const xml = await sitemapRes.text()
+      const matches = xml.match(/<loc>([^<]+)<\/loc>/g) || []
+      urls = matches.map(m => m.replace(/<\/?loc>/g, ''))
+    }
+
+    if (urls.length === 0) {
+      return res.status(400).json({ error: '사이트맵에서 URL을 찾을 수 없어요' })
+    }
+
     const body = {
       host: 'dinner.ambitstock.com',
       key: INDEXNOW_KEY,
@@ -43,8 +41,6 @@ export default async function handler(req, res) {
       body: JSON.stringify(body)
     })
 
-    // IndexNow 응답 코드
-    // 200: 성공, 202: 수락됨, 400: 잘못된 요청, 403: 키 오류, 422: URL 오류, 429: 요청 과다
     const statusMsg = {
       200: '✅ 성공적으로 제출됨',
       202: '✅ 수락됨 (처리 중)',
