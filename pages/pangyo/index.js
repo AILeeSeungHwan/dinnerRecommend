@@ -443,7 +443,13 @@ function AiApp({pendingCat,onPendingCatUsed}) {
     if(!isAdmin&&count>=DAILY_WARN-1){setWarnCount(count+1);return}
     getRecommendations()
   }
-  function confirmFromWarn(){setWarnCount(null);getRecommendations()}
+  function confirmFromWarn(){
+    setWarnCount(null)
+    const isAdmin=localStorage.getItem('gm-admin-unlock')==='1'
+    const count=getUsageCount()
+    if(!isAdmin&&count>=DAILY_LIMIT){setShowLimit(true);return}
+    getRecommendations()
+  }
   function cancelFromWarn(){setWarnCount(null);getRandom(null)}
 
   async function getRecommendations() {
