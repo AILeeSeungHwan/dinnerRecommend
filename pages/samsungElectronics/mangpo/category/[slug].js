@@ -165,8 +165,8 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>잠실역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
-        <meta name="description" content={`잠실역·방이동·석촌호수 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
+        <title>망포역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
+        <meta name="description" content={`망포역·삼성전자 생활가전 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/mangpo/category/${slug}`} />
       </Head>
@@ -176,7 +176,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         <div className="container">
           <div className="breadcrumb">
             <Link href="/">홈</Link> <span>›</span>
-            <Link href="/samsungElectronics/mangpo">잠실역</Link> <span>›</span>
+            <Link href="/samsungElectronics/mangpo">망포역</Link> <span>›</span>
             <span style={{ color:'var(--text)' }}>{catInfo.name}</span>
           </div>
         </div>
@@ -187,10 +187,10 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         <div className="container">
           <div style={{ fontSize:'2.5rem', marginBottom:10 }}>{catInfo.emoji}</div>
           <h1 style={{ fontSize:'clamp(1.4rem, 4vw, 2rem)', fontWeight:900, marginBottom:8 }}>
-            잠실역 {catInfo.name} 맛집 추천
+            망포역 {catInfo.name} 맛집 추천
           </h1>
           <p style={{ color:'var(--muted)', fontSize:'.9rem', marginBottom:20 }}>
-            잠실역·방이동·석촌호수 주변 {catInfo.name} 맛집 <strong style={{ color:'var(--text)' }}>{restaurants.length}곳</strong> 정리
+            망포역 {catInfo.name} 맛집 <strong style={{ color:'var(--text)' }}>{restaurants.length}곳</strong> 정리
           </p>
           <button onClick={doRandom}
             style={{ display:'inline-flex', alignItems:'center', gap:8,
@@ -287,10 +287,10 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:12 }}>
-            잠실역 {catInfo.name} 맛집 선택 가이드
+            망포역 {catInfo.name} 맛집 선택 가이드
           </h2>
           <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8, marginBottom:10 }}>
-            잠실역 주변 {catInfo.name} 맛집은 방이동 먹자골목, 석촌호수 주변, 롯데타워 인근까지
+            망포역 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에
             다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
@@ -300,7 +300,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         </article>
 
         <div style={{ marginTop:24, display:'flex', gap:10 }}>
-          <Link href="/samsungElectronics/mangpo" className="btn btn-ghost">← 잠실역 전체 맛집</Link>
+          <Link href="/samsungElectronics/mangpo" className="btn btn-ghost">← 망포역 전체 맛집</Link>
           <Link href="/samsungElectronics/mangpo" className="btn btn-primary">✨ AI 추천 받기</Link>
         </div>
       </div>

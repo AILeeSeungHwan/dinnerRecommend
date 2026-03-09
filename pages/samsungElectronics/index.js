@@ -97,7 +97,7 @@ export default function SamsungElectronicsHome() {
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10, marginBottom: 40 }}>
           {CATS.map(cat => (
-            <Link href={`/samsungElectronics/yeongtong/category/${cat.slug}`} key={cat.slug} style={{ textDecoration: 'none' }}>
+            <Link href={`/samsungElectronics/category/${cat.slug}`} key={cat.slug} style={{ textDecoration: 'none' }}>
               <div style={{
                 background: 'var(--surface)', border: '1px solid var(--border)',
                 borderRadius: 12, padding: '14px 8px', textAlign: 'center', cursor: 'pointer',
