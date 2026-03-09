@@ -1067,8 +1067,6 @@ ${compact}
                         💬 &ldquo;{rec.reviewHighlight}&rdquo;
                       </div>
                     )}
-                      </div>
-                    )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
                       <a href={naverMapUrl(r.name)}
                         target="_blank" rel="noopener noreferrer"
