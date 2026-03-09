@@ -294,7 +294,8 @@ const HINTS = [
 function WarnModal({count,onConfirm,onCancel}) {
   const is4th=count>=4
   return (
-    <div style={{position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px'}}>
+    <div style={{position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px'}}
+      onClick={e=>{if(e.target===e.currentTarget)onCancel()}}>
       <div style={{background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)'}}>
         <div style={{fontSize:'3.8rem',marginBottom:14}}>{is4th?'😰':'🍜'}</div>
         <div style={{fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.35}}>{is4th?'개발자 통장이\n비어가고 있어요...':'잠깐,\n개발자가 굶을 수도 있어요'}</div>
@@ -309,7 +310,6 @@ function WarnModal({count,onConfirm,onCancel}) {
         </div>
         <div style={{fontSize:'.7rem',color:'var(--muted)',marginBottom:4}}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{marginBottom:16}}>
-          <button onClick={()=>{const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a)}} style={{fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer'}}>📥 QR 저장 (모바일 갤러리용)</button>
         </div>
         <div style={{display:'flex',flexDirection:'column',gap:8}}>
           <button onClick={onConfirm} style={{padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer'}}>{is4th?'그래도 검색할게요 (이번 포함 1회 남음 🙏)':'그래도 검색할게요'}</button>
@@ -338,9 +338,41 @@ function EasterEggModal({onClose}) {
   )
 }
 
+// ── API 크레딧 소진 모달 ─────────────────────────────────────
+function QuotaModal({ onClose }) {
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)' }}>
+        <div style={{ fontSize:'3.2rem',marginBottom:10 }}>😵</div>
+        <div style={{ fontSize:'1.15rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.35 }}>
+          개발자 통장이 텅 비었어요
+        </div>
+        <div style={{ fontSize:'.83rem',color:'var(--muted)',marginBottom:16,lineHeight:1.8 }}>
+          예상외의 관심에 감사하지만<br/>
+          AI 크레딧이 모두 소진됐어요 💸<br/>
+          <br/>
+          <span style={{ fontSize:'.78rem',color:'var(--primary)',fontWeight:700 }}>
+            빠른 시일 내에 통장을 메꾸고<br/>
+            AI 추천을 다시 켜놓겠습니다 🙏
+          </span><br/>
+          <br/>
+          <span style={{ fontSize:'.72rem',opacity:.7 }}>
+            그동안 🎲 랜덤 추천을 이용해 주세요
+          </span>
+        </div>
+        <button onClick={onClose}
+          style={{ width:'100%',padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.92rem',fontWeight:700,cursor:'pointer' }}>
+          🎲 랜덤 추천으로 볼게요
+        </button>
+      </div>
+    </div>
+  )
+}
+
 function LimitModal({onClose}) {
   const [showMoGuide,setShowMoGuide]=useState(false)
-  function saveQR(){const link=document.createElement('a');link.href='/toss-qr.png';link.download='toss-qr.png';link.click()}
+  function saveQR(){const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a)}
   return (
     <div style={{position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px'}} onClick={e=>{if(e.target===e.currentTarget)onClose()}}>
       <div style={{background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)',maxHeight:'90vh',overflowY:'auto'}}>
@@ -352,13 +384,12 @@ function LimitModal({onClose}) {
         </div>
         <div style={{fontSize:'.72rem',color:'var(--muted)',marginBottom:4}}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{marginBottom:16}}>
-          <button onClick={saveQR} style={{fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:4}}>📥 QR 이미지 저장 (갤러리)</button>
-          <div style={{fontSize:'.68rem',color:'var(--muted)',opacity:.7,marginTop:2}}>저장 후 토스앱 → 송금 → QR스캔 또는 갤러리에서 불러오기</div>
-          <button onClick={()=>setShowMoGuide(v=>!v)} style={{fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8}}>📲 모바일에서 QR 인식하는 법 {showMoGuide?'▲':'▼'}</button>
+          <button onClick={()=>setShowMoGuide(v=>!v)} style={{fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8}}>📲 모바일에서 QR 저장·인식하는 법 {showMoGuide?'▲':'▼'}</button>
           {showMoGuide&&(
             <div style={{marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8}}>
-              <strong style={{color:'var(--text)',display:'block',marginBottom:4}}>📱 토스앱으로 후원하는 법</strong>
-              1. 아래 버튼으로 QR 이미지 저장<br/>2. 토스앱 열기 → 하단 <strong style={{color:'var(--text)'}}>송금</strong> 탭<br/>3. 우측 상단 <strong style={{color:'var(--text)'}}>QR 아이콘</strong> 탭<br/>4. 카메라 화면 하단 <strong style={{color:'var(--text)'}}>갤러리에서 불러오기</strong><br/>5. 저장한 QR 이미지 선택 → 후원 완료 🎉
+              <strong style={{color:'var(--text)',display:'block',marginBottom:8}}>📱 토스앱으로 후원하는 법</strong>
+              <button onClick={saveQR} style={{fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%'}}>📥 QR 이미지 저장 (갤러리)</button>
+              1. 위 버튼으로 QR 이미지 저장<br/>2. 토스앱 열기 → 하단 <strong style={{color:'var(--text)'}}>송금</strong> 탭<br/>3. 우측 상단 <strong style={{color:'var(--text)'}}>QR 아이콘</strong> 탭<br/>4. 카메라 화면 하단 <strong style={{color:'var(--text)'}}>갤러리에서 불러오기</strong><br/>5. 저장한 QR 이미지 선택 → 후원 완료 🎉
             </div>
           )}
         </div>
@@ -383,6 +414,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
   const [error,setError]=useState(null)
   const [warnCount,setWarnCount]=useState(null)
   const [showLimit,setShowLimit]=useState(false)
+  const [showQuota,setShowQuota]=useState(false)
   const [showEaster,setShowEaster]=useState(false)
   const [hintIdx,setHintIdx]=useState(0)
   const [usedToday,setUsedToday]=useState(0)
@@ -483,7 +515,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt,usageCount:getUsageCount()})})
-      if(!res.ok){const errData=await res.json().catch(()=>({}));const msg=errData.detail||errData.error||`서버 오류 (${res.status})`;setLoading(false);setError(msg);return}
+      if(!res.ok){const errData=await res.json().catch(()=>({}));const msg=errData.detail||errData.error||`서버 오류 (${res.status})`;setLoading(false);if(msg==='##QUOTA_EXCEEDED##'){setShowQuota(true);return};setError(msg);return}
       const data=await res.json()
       setLoading(false)
       const recs=Array.isArray(data.recommendations)?data.recommendations:[]
@@ -511,6 +543,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       {warnCount!==null && <WarnModal count={warnCount} onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
       {showEaster && <EasterEggModal onClose={()=>setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={()=>{setShowLimit(false);getRandom(null)}} />}
+      {showQuota  && <QuotaModal onClose={()=>{setShowQuota(false);getRandom(null)}} />}
       <div style={{padding:'20px 16px'}}>
         <div style={{display:'flex',justifyContent:'flex-end',marginBottom:8}}>
           <span style={{fontSize:'.7rem',padding:'3px 10px',borderRadius:100,background:usedToday>=DAILY_LIMIT?'#2a1111':usedToday>=DAILY_WARN-1?'#2a2000':'var(--surface2)',border:`1px solid ${usedToday>=DAILY_LIMIT?'#ff4444':usedToday>=DAILY_WARN-1?'#f5c842':'var(--border)'}`,color:usedToday>=DAILY_LIMIT?'#ff6666':usedToday>=DAILY_WARN-1?'#f5c842':'var(--muted)'}}>

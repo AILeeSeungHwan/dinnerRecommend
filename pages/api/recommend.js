@@ -41,7 +41,7 @@ export default async function handler(req, res) {
       if (response.status === 401) userMsg = 'API 키 오류 — 환경변수를 확인하세요'
       else if (response.status === 404) userMsg = `모델을 찾을 수 없어요 (${MODEL})`
       else if (response.status === 429) userMsg = '요청이 너무 많아요. 잠시 후 다시 시도하세요'
-      else if (errType === 'insufficient_quota') userMsg = 'API 크레딧이 소진됐어요'
+      else if (errType === 'insufficient_quota' || response.status === 402) userMsg = '##QUOTA_EXCEEDED##'
       else userMsg = errMsg.slice(0, 100)
 
       return res.status(502).json({ error: userMsg, status: response.status, type: errType })

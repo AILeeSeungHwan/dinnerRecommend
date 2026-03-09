@@ -467,10 +467,47 @@ const HINTS = [
 ]
 
 // ── 경고 모달 ──────────────────────────────────────────────────
+// ── 모바일 QR 저장 + 인식 안내 (WarnModal 공용) ──────────────
+function WarnQrGuide() {
+  const [show, setShow] = React.useState(false)
+  function saveQR() {
+    const a = document.createElement('a')
+    a.href = '/toss-qr.png'; a.download = 'toss-qr.png'
+    a.style.display = 'none'; document.body.appendChild(a)
+    a.click(); document.body.removeChild(a)
+  }
+  return (
+    <>
+      <button onClick={()=>setShow(v=>!v)}
+        style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8,display:'block',width:'100%' }}>
+        📲 모바일에서 QR 저장·인식하는 법 {show ? '▲' : '▼'}
+      </button>
+      {show && (
+        <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
+          <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>📱 토스앱으로 후원하는 법</strong>
+          <button onClick={saveQR}
+            style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
+            📥 QR 이미지 저장 (갤러리)
+          </button>
+          1. 위 버튼으로 QR 이미지 저장<br/>
+          2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
+          3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
+          4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
+          5. 저장한 QR 이미지 선택 → 후원 완료 🎉<br/>
+          <span style={{ fontSize:'.65rem',opacity:.6,marginTop:4,display:'block' }}>
+            * 기본 카메라앱 → QR인식 → 갤러리불러오기도 가능해요
+          </span>
+        </div>
+      )}
+    </>
+  )
+}
+
 function WarnModal({ count, onConfirm, onCancel }) {
   const is4th = count >= 4
   return (
-    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onCancel() }}>
       <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
         <div style={{ fontSize:'3.8rem',marginBottom:14 }}>{is4th ? '😰' : '🍜'}</div>
         <div style={{ fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.35 }}>
@@ -494,10 +531,7 @@ function WarnModal({ count, onConfirm, onCancel }) {
         </div>
         <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{ marginBottom:16 }}>
-          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a) }}
-            style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
-            📥 QR 저장 (모바일 갤러리용)
-          </button>
+          <WarnQrGuide />
         </div>
         <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
           <button onClick={onConfirm} style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
@@ -585,6 +619,38 @@ function EasterEggModal({ onClose }) {
 }
 
 // ── 한도 초과 모달 (5회 이후) ────────────────────────────────
+// ── API 크레딧 소진 모달 ─────────────────────────────────────
+function QuotaModal({ onClose }) {
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)' }}>
+        <div style={{ fontSize:'3.2rem',marginBottom:10 }}>😵</div>
+        <div style={{ fontSize:'1.15rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.35 }}>
+          개발자 통장이 텅 비었어요
+        </div>
+        <div style={{ fontSize:'.83rem',color:'var(--muted)',marginBottom:16,lineHeight:1.8 }}>
+          예상외의 관심에 감사하지만<br/>
+          AI 크레딧이 모두 소진됐어요 💸<br/>
+          <br/>
+          <span style={{ fontSize:'.78rem',color:'var(--primary)',fontWeight:700 }}>
+            빠른 시일 내에 통장을 메꾸고<br/>
+            AI 추천을 다시 켜놓겠습니다 🙏
+          </span><br/>
+          <br/>
+          <span style={{ fontSize:'.72rem',opacity:.7 }}>
+            그동안 🎲 랜덤 추천을 이용해 주세요
+          </span>
+        </div>
+        <button onClick={onClose}
+          style={{ width:'100%',padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.92rem',fontWeight:700,cursor:'pointer' }}>
+          🎲 랜덤 추천으로 볼게요
+        </button>
+      </div>
+    </div>
+  )
+}
+
 function LimitModal({ onClose }) {
   const [showMoGuide, setShowMoGuide] = React.useState(false)
 
@@ -624,22 +690,19 @@ function LimitModal({ onClose }) {
 
         {/* 모바일 QR 저장 버튼 */}
         <div style={{ marginBottom:16 }}>
-          <button onClick={saveQR}
-            style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:4 }}>
-            📥 QR 이미지 저장 (갤러리)
-          </button>
-          <div style={{ fontSize:'.68rem',color:'var(--muted)',opacity:.7,marginTop:2 }}>
-            저장 후 토스앱 → 송금 → QR스캔 또는 갤러리에서 불러오기
-          </div>
           {/* 모바일에서 QR 인식 방법 토글 */}
           <button onClick={()=>setShowMoGuide(v=>!v)}
             style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8 }}>
-            📲 모바일에서 QR 인식하는 법 {showMoGuide ? '▲' : '▼'}
+            📲 모바일에서 QR 저장·인식하는 법 {showMoGuide ? '▲' : '▼'}
           </button>
           {showMoGuide && (
             <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
-              <strong style={{ color:'var(--text)',display:'block',marginBottom:4 }}>📱 토스앱으로 후원하는 법</strong>
-              1. 아래 버튼으로 QR 이미지 저장<br/>
+              <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>📱 토스앱으로 후원하는 법</strong>
+              <button onClick={saveQR}
+                style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
+                📥 QR 이미지 저장 (갤러리)
+              </button>
+              1. 위 버튼으로 QR 이미지 저장<br/>
               2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
               3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
               4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
@@ -679,6 +742,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [error,      setError]     = useState(null)  // null | string
   const [warnCount,  setWarnCount] = useState(null)
   const [showLimit,  setShowLimit] = useState(false)
+  const [showQuota,  setShowQuota] = useState(false)
   const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
@@ -899,7 +963,9 @@ ${compact}
         const errData = await res.json().catch(()=>({}))
         console.error('API HTTP error', res.status, errData)
         const msg = errData.detail || errData.error || `서버 오류 (${res.status})`
-        setLoading(false); setError(msg); return
+        setLoading(false)
+        if (msg === '##QUOTA_EXCEEDED##') { setShowQuota(true); return }
+        setError(msg); return
       }
 
       const data = await res.json()
@@ -954,6 +1020,7 @@ ${compact}
       {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
       {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
+      {showQuota  && <QuotaModal onClose={() => { setShowQuota(false); getRandom(null) }} />}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}

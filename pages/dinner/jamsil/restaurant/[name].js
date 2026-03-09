@@ -5,8 +5,8 @@ import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
   return {
-    paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
-    fallback: false
+    paths: restaurants.map(r => ({ params: { name: r.name } })),
+    fallback: 'blocking'
   }
 }
 
@@ -410,31 +410,6 @@ function buildIntro(r) {
   ]}
 }
 // ── 이미지 검색 URL (Unsplash) ─────────────────────────────
-function getFoodImages(r) {
-  const cats = r.cat || []
-  const tags = r.tags || []
-
-  let foodQ = 'korean-restaurant-food'
-  if (tags.some(t => /곱창|막창/.test(t)))                   foodQ = 'korean-gopchang-grilled-offal'
-  else if (cats.includes('국밥') || cats.includes('국물'))    foodQ = 'korean-gukbap-soup-bowl'
-  else if (tags.some(t => /오마카세/.test(t)))                foodQ = 'japanese-omakase-sushi'
-  else if (cats.includes('이자카야') || cats.includes('일식'))foodQ = 'japanese-izakaya-food'
-  else if (cats.includes('고기구이'))                          foodQ = 'korean-bbq-grilling'
-  else if (tags.some(t => /마라|훠궈/.test(t)))               foodQ = 'chinese-hot-pot'
-  else if (cats.includes('중식'))                              foodQ = 'chinese-food'
-  else if (cats.includes('양식') || cats.includes('이탈리안'))foodQ = 'pasta-italian-food'
-  else if (cats.includes('와인바'))                            foodQ = 'wine-bar-drinks'
-
-  let ambiQ = 'cozy-restaurant-interior-night'
-  if (r.moods?.includes('데이트'))       ambiQ = 'romantic-restaurant-dinner'
-  else if (r.moods?.includes('회식'))    ambiQ = 'group-dining-korean'
-  else if (r.moods?.includes('혼밥'))    ambiQ = 'solo-dining-japanese-counter'
-
-  return [
-    `https://source.unsplash.com/800x500/?${foodQ}`,
-    `https://source.unsplash.com/800x500/?${ambiQ}`,
-  ]
-}
 
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
 // 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
@@ -443,6 +418,11 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
+
+function formatHours(h) {
+  if (!h) return h
+  return h.replace(/AM (\d+:\d+)/g, '$1 AM').replace(/PM (\d+:\d+)/g, '$1 PM')
+}
 function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -470,9 +450,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   // 감성 인트로 + 이미지
   const intro = buildIntro(r)
-  const foodImages = getFoodImages(r)
 
-  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
+  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org", "@type": "Restaurant",
@@ -498,7 +477,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const breadcrumbSchema = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"강남뭐먹", "item":BASE },
+      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":BASE },
       { "@type":"ListItem", "position":2, "name":"잠실 맛집", "item":`${BASE}/dinner/jamsil` },
       { "@type":"ListItem", "position":3, "name":r.name, "item":pageUrl },
     ]
@@ -519,7 +498,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> <span>›</span>
+          <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
           <Link href="/dinner/jamsil" style={{ color:'var(--muted)' }}>잠실 맛집</Link> <span>›</span>
           <span style={{ color:'var(--text)' }}>{r.name}</span>
         </div>
@@ -545,7 +524,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 )}
               </div>
               <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 송파구 {r.addr}</p>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {r.hours}</p>
+              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
             </div>
           </div>
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
@@ -667,17 +646,21 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             {r.rv.map((rv, i) => {
               const ratingMatch = rv.match(/^\[([0-9.]+)★\]\s*/)
               const indivRt = ratingMatch ? parseFloat(ratingMatch[1]) : null
-              const keywords = rv.replace(/^\[[0-9.]+★\]\s*/, '').split(' · ')
+              const text = rv.replace(/^\[[0-9.]+★\]\s*/, '')
               return (
-                <div key={i} style={{ marginBottom:10, display:'flex', flexWrap:'wrap', alignItems:'center', gap:6 }}>
-                  {indivRt && <span style={{ fontSize:'.75rem', fontWeight:700, color:'var(--primary)', flexShrink:0 }}>⭐ {indivRt}</span>}
-                  {keywords.map((kw, j) => (
-                    <span key={j} style={{
-                      fontSize:'.78rem', padding:'3px 10px', borderRadius:100,
-                      background:'var(--surface)', border:'1px solid var(--border)',
-                      color:'var(--text)', whiteSpace:'nowrap',
-                    }}>{kw}</span>
-                  ))}
+                <div key={i} style={{
+                  marginBottom:10, padding:'10px 14px',
+                  background:'var(--surface)', border:'1px solid var(--border)',
+                  borderRadius:10, width:'100%', boxSizing:'border-box',
+                }}>
+                  {indivRt && (
+                    <span style={{ fontSize:'.73rem', fontWeight:700, color:'var(--primary)', display:'block', marginBottom:4 }}>
+                      ⭐ {indivRt}
+                    </span>
+                  )}
+                  <p style={{ margin:0, fontSize:'.82rem', color:'var(--text)', lineHeight:1.65, wordBreak:'break-all', overflowWrap:'anywhere', whiteSpace:'normal' }}>
+                    {text}
+                  </p>
                 </div>
               )
             })}
@@ -691,7 +674,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 padding:'6px 12px', textDecoration:'none',
                 background:'var(--surface)', transition:'all .15s',
               }}>
-              🗺️ Google Maps에서 실제 리뷰 보기 →
+              🗺️ 네이버에서 실제 리뷰 보러가기 →
             </a>
           </>
         )}
@@ -726,7 +709,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* FAQ */}
         <h2 style={h2s}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
-          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
+          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역 인근입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 웨이팅이 있나요?`, r.waiting === '웨이팅 있음' ? '인기 맛집으로 웨이팅이 있을 수 있습니다. 오픈 시간에 맞춰 방문하거나 여유 있게 방문하세요.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 전화 예약을 추천드립니다.' : '일반적으로 바로 입장 가능합니다.'],
@@ -770,7 +753,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </Link>
         </div>
 
-        {/* 쿠팡 파트너스 배너 */}
       </article>
     </Layout>
   )

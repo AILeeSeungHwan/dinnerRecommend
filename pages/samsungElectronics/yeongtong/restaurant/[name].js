@@ -410,31 +410,6 @@ function buildIntro(r) {
   ]}
 }
 // ── 이미지 검색 URL (Unsplash) ─────────────────────────────
-function getFoodImages(r) {
-  const cats = r.cat || []
-  const tags = r.tags || []
-
-  let foodQ = 'korean-restaurant-food'
-  if (tags.some(t => /곱창|막창/.test(t)))                   foodQ = 'korean-gopchang-grilled-offal'
-  else if (cats.includes('국밥') || cats.includes('국물'))    foodQ = 'korean-gukbap-soup-bowl'
-  else if (tags.some(t => /오마카세/.test(t)))                foodQ = 'japanese-omakase-sushi'
-  else if (cats.includes('이자카야') || cats.includes('일식'))foodQ = 'japanese-izakaya-food'
-  else if (cats.includes('고기구이'))                          foodQ = 'korean-bbq-grilling'
-  else if (tags.some(t => /마라|훠궈/.test(t)))               foodQ = 'chinese-hot-pot'
-  else if (cats.includes('중식'))                              foodQ = 'chinese-food'
-  else if (cats.includes('양식') || cats.includes('이탈리안'))foodQ = 'pasta-italian-food'
-  else if (cats.includes('와인바'))                            foodQ = 'wine-bar-drinks'
-
-  let ambiQ = 'cozy-restaurant-interior-night'
-  if (r.moods?.includes('데이트'))       ambiQ = 'romantic-restaurant-dinner'
-  else if (r.moods?.includes('회식'))    ambiQ = 'group-dining-korean'
-  else if (r.moods?.includes('혼밥'))    ambiQ = 'solo-dining-japanese-counter'
-
-  return [
-    `https://source.unsplash.com/800x500/?${foodQ}`,
-    `https://source.unsplash.com/800x500/?${ambiQ}`,
-  ]
-}
 
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
 // 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
@@ -475,7 +450,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   // 감성 인트로 + 이미지
   const intro = buildIntro(r)
-  const foodImages = getFoodImages(r)
 
   const metaDesc = `${r.name} — 영통역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 

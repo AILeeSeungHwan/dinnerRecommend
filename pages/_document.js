@@ -38,14 +38,6 @@ export default function Document() {
         <meta name="twitter:image" content={`${BASE}/og-image.png?v=3`} />
         <meta name="twitter:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
 
-        {/* ── 카카오톡 공유 SDK ── */}
-        <script
-          src="https://t1.kakaocdn.net/kakao_js_sdk/2.8.0/kakao.min.js"
-          integrity="sha384-Lvrr4dmJLLhBimcAC4GfpNV3oEGKgfd26Mp7KkvDz8PxGrhUhUT3zoax7EirW8fu"
-          crossOrigin="anonymous"
-          async
-        />
-
         {/* ── Google Analytics GA4 ── */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNZGYTGP41" />
         <script dangerouslySetInnerHTML={{ __html: `
