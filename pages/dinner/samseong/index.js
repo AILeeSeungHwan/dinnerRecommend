@@ -847,12 +847,12 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 상위 8개 중 3개 고정(최고점) + 나머지 풀에서 랜덤 3개 → 매번 다른 조합
       const fixed3 = top20.slice(0, 3)
       const rest = top20.slice(3)
-      const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,3)
+      const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,5)
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
       // 후보 포맷: 상세 정보 포함 (AI가 차별화된 설명 생성하도록)
       const compact = top6.map(r => {
-        const rvSnippet = (r.rv || []).slice(0, 2)
-          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 50))
+        const rvSnippet = (r.rv || []).slice(0, 3)
+          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 80))
           .join(' / ')
         const moodStr = (r.moods || []).slice(0, 3).join('·')
         const tagsStr = (r.tags || []).slice(0, 5).join('/')
