@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
-import { CoupangDetailBanner } from '../../../../components/CoupangBanner'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
@@ -770,7 +769,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
 
         {/* 쿠팡 파트너스 배너 */}
-        <CoupangDetailBanner cats={r.cat} />
       </article>
     </Layout>
   )
