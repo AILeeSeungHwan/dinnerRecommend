@@ -173,17 +173,17 @@ function QRMobileGuide() {
   }
   return (
     <div style={{ marginBottom:8 }}>
-      <button onClick={saveQR}
-        style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:4,width:'100%' }}>
-        📥 QR 이미지 저장 (갤러리)
-      </button>
       <button onClick={() => setShow(v => !v)}
         style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',textDecoration:'underline',opacity:.8,display:'block',width:'100%' }}>
-        📲 모바일에서 QR 인식하는 법 {show ? '▲' : '▼'}
+        📲 모바일에서 QR 저장·인식하는 법 {show ? '▲' : '▼'}
       </button>
       {show && (
         <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
-          <strong style={{ color:'var(--text)',display:'block',marginBottom:4 }}>📱 토스앱으로 후원하는 법</strong>
+          <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>📱 토스앱으로 후원하는 법</strong>
+          <button onClick={saveQR}
+            style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
+            📥 QR 이미지 저장 (갤러리)
+          </button>
           1. 위 버튼으로 QR 이미지 저장<br/>
           2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
           3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
