@@ -25,14 +25,23 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "점심"
+      "기념일",
+      "데이트",
+      "점심",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -40,7 +49,22 @@ const restaurants = [
       "[5★] 연말 분위기 내기 딱 좋은 솔트랑 스테이크 삼성 다녀왔어요. 내부가 모로코 사막 리조트처럼 부드러운 곡선 인테리어라 들어가는 순간부터 분위기가 너무 좋았어요.  식전 소금빵은 따뜻…",
       "[5★] 솔트랑 스테이크 삼성 : 연말모임,기념일 식사 추천해요. 친구와 코엑스 전시 보고 점심 먹으러 방문했어요. 점심시간인데도 연말모임 손님이 많은 건가 봐요. 잠시 웨이팅했구요. 우리…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 2,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 5,
+      "late_night": 3
+    }
   },
   {
     "name": "몰튼스 더 스테이크하우스 코리아",
@@ -68,11 +92,14 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "점심"
+      "데이트",
+      "점심",
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -83,7 +110,22 @@ const restaurants = [
       "[5★] 평소 스테이크로 너무나 유명한 몰튼스지만, 오늘은 런치로 햄버거와 스파게티를 선택해봤습니다. 역시 스테이크하우스답게 버거 패티의 육즙과 풍미가 압권이었어요. 번과 채소의 조화도 훌…",
       "[5★] 솔직히 스테이크는 다 비슷하겠지 하고 갔는데, 몰튼스 다녀오고 나서는 생각이 좀 바뀌었어요. 확실히 다르더라고요.  입구 들어가는 순간부터 분위기가 잡혀 있어요. 조명 톤이나 테이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "Gourmet Tree Korean Buffet Restaurant 맛나무 한식 뷔페 Gangnam",
@@ -110,16 +152,19 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
+      "가성비",
       "점심",
-      "회식 2차"
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -127,7 +172,22 @@ const restaurants = [
       "[5★] 한국 음식을 맛볼 수 있는 훌륭한 뷔페입니다. 매일 메뉴가 바뀌는데, 오늘 메뉴가 정말 마음에 들었어요. 음식들이 정말 맛있습니다 :)…",
       "[5★] 정말 맛있고 가격도 훌륭해요!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 4,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "Food Café 김밥천국",
@@ -157,19 +217,36 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 김밥천국 중 분위기, 위생상태 등 제일 좋음.",
       "[5★] 아주 맛있는 한국 음식을 맛볼 수 있는 곳입니다. 환경도 깨끗하고, 오랫동안 운영해 온 곳입니다.",
       "[5★] 점심시간에는 매우 붐비지만 음식은 매우 맛있습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 4,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "자담치킨",
@@ -193,16 +270,16 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주"
+      "야근후",
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -210,7 +287,22 @@ const restaurants = [
       "[5★] 역시 맛있어요~",
       "[5★] 치킨과 맥주 다 맛있네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "포카코 Foccaco",
@@ -234,15 +326,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "스트레스",
-      "혼밥"
+      "데이트"
     ],
     "scene": [
-      "야장에 맥주"
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -250,7 +341,22 @@ const restaurants = [
       "[5★] 강남에서 제가 제일 좋아하는 샌드위치 가게 중 하나예요. 카페는 꽤 작고 좌석도 많지 않지만, 샌드위치 퀄리티는 정말 끝내줘요. 애플 모닝과 불고기 샌드위치를 ​​강력 추천합니다.",
       "[5★] 바로 옆 프라이드치킨집에서 밥을 먹다가 우연히 이 카페를 발견했어요. 버스 정류장 바로 옆이라 편리해요. 아이스 바닐라라떼, 망고 히비스커스 아이스티, 아이스 애플 밀크티를 시켰는…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "브레덴코 삼성점",
@@ -275,14 +381,16 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
+      "가성비",
       "브런치",
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -290,7 +398,22 @@ const restaurants = [
       "[5★] 매장이 깔끔하고 좋아요!! 커피도 맛있고 직원들이 친절해요~ 점심에 브런치로 샌드위치랑 샐러드 먹기에 딱이네요!!",
       "[5★] 싸고 맛있어요 ."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "솥내음 코엑스몰점",
@@ -316,15 +439,15 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -332,7 +455,22 @@ const restaurants = [
       "[5★] 스타필드 코엑스몰 안에 있는 솥내음은 웨이팅이 있을 만큼 인기 많은 이유가 확실한 곳이에요. 20여 종의 솥밥 메뉴가 있어 선택 폭이 넓고, 저는 시그니처인 1인 모듬해물장 솥밥과…",
       "[5★] 맛있는 기기막힌 매콤돼지불고기 솥밥 제대로 먹고갑니다♡ 혼자 코엑스 나올일이 있어 나왔다가 배가고파 들린곳인데 평도 너무 좋고 직원분들도 친절하고 진짜 최고에요♡ 매콤돼지불고기가…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "돌산등대집",
@@ -359,25 +497,46 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "가성비",
+      "고기구이",
+      "야근후",
       "점심",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 갓김치좋아하는데 갓김치랑 등갈비라니! 등갈비 너무 부드러워요. 빠삭오징어튀김전 완전 대박! 진짜 바삭하고 맛나요. 음식도 맛있고 메뉴가 하나하나 다 독특하네요. 가성비좋은듯! 회사…",
       "[5★] 갓김치 등갈비찜 너무 부드럽고 맛있음! 주말 점심에 가면 인기 맛집이랑 몇테이블 없었지만 다행히 금방 앉아서 먹었는데 세트로 등갈비랑 새우튀김전 꼭꼭 시키시길. 전이 파삭하고 튀김…",
       "[5★] 돌산등대집에서 갓김치등갈비찜 시그니처 세트 먹고 완전 만족! 국물은 얼큰·칼칼하고 등갈비는 살이 부드럽게 발라져 먹기 너무 편했어요. 빠삭오징어튀김전도 진짜 바삭해서 조합이 완벽했…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "김치옥 대치점",
@@ -400,25 +559,37 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "가성비"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 협찬 // 김치옥 대치점에서 식사하고 온 개인적인 후기를 남겨보면, 우선 김치찜이 진하게 우러나온 국물 맛이 정말 마음에 들었습니다. 해남 묵은지 특유의 깊은 산미와 고소한 감칠맛…",
       "[5★] 아이와 함께 학원 끝나고 들른 대치동 맛집, 김치옥 대치점! 해남 묵은지 김치찜 2인 세트와 치즈계란찜을 주문했는데, 정말 만족스러웠어요. 묵은지의 깊은 맛과 부드러운 고기가 어우…",
       "[5★] 김치찜대박 맛있어요!! 양도 푸짐하고 라면사리도 무료로 제공되서 푸짐한데 새콤하면서 매콤한맛이라 밥도둑이 따로없네요 김치도 푹익혀서 쭉쭉 잘 찢어져서 고기랑 싸먹으면 대존맛이에요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 2,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "솥내음 삼성점",
@@ -450,12 +621,14 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "데이트",
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -463,7 +636,22 @@ const restaurants = [
       "[5★] 솥밥이 진짜 고소하고 양념이 듬뿍이라 좋았어요 전복이 엄청 쫄깃 탱글하고 장어는 맛있게 잘 구워져있어서 좋더라구요 ㅎㅎ 김에싸먹어도 맛있고 그냥 먹어도 맛있어요 다음에는 부모님 모…",
       "[5★] 여기 진짜 맛있어요! 가격도 이정도면 나쁘지 않고 마지막 누룽지도 맛있어요. 음식도 깔끔하게 나와서 누구 데려오기 좋아요! 마지막 매실차까지 완벽합니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "손에손잡고 삼성직영점",
@@ -493,15 +681,19 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -509,7 +701,22 @@ const restaurants = [
       "[5★] 점심시간에 함박스테이크 먹으러 왔는데 가격은 착한데 음식 퀄리티 좋아서 놀랐어요! 같이 온 팀장님도 그릇 싹싹 비우셨네요 ㅎㅎ 저녁도 궁금해서 와보고 싶어요💓…",
       "[5★] 너무 맛잇고 다시 오고싶어요. 음식도 맛나요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "피제리아 호키포키 삼성점",
@@ -536,10 +743,11 @@ const restaurants = [
       "데이트"
     ],
     "scene": [
-      "점심"
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -547,7 +755,22 @@ const restaurants = [
       "[5★] 깨끗한 점내와 너무 큰 피자! ! ! ! 🇺🇸🍕 바삭바삭한 아메리칸 피자는 진한 양념이 버릇이 됩니다. 생각보다 크기감이 있고, 얇은데 만복이 될 정도로 만족감이 있습니다!",
       "[5★] 팝적인 세련된 분위기로, 가게는 크지 않지만, 자리는 느긋하게 편히 쉬는 넓이입니다^^ 피자도 볼륨 넘치고 맛있었습니다 😍 종류도 풍부하기 때문에 하프로 여러가지 먹는 것을 추천…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "빠완",
@@ -573,12 +796,14 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
-      "점심"
+      "야근후",
+      "점심",
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -589,7 +814,22 @@ const restaurants = [
       "[5★] 뭐먹지하다가 여자친구랑 같이 들어왔는데 직원분들 너무 친절하시고 너무 맛있게 먹구왔어요! 다음에는 다른 메뉴도 먹어볼거에요!",
       "[5★] 평일 점심시간에 다녀왔어요~ 엄청 붐비는데도 음식이 빨리 나오더라구요. 덮밥 먹었는데 고기 야들야들한게 맛있게 먹고왔네요~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "일상정원 코엑스점",
@@ -618,22 +858,44 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "접대",
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 구름 스키야키랑 한우육회동 반상을 시켰는데, 다 메뉴 구성이 너무 알차고 재료도 너무 신선해서 더 맛있게 먹었어요! 직원분들도 너무 친절하시구 가게 인테리어도 너무 멋져서 식사 내…",
       "[5★] 샤브샤브 먹을때 항상 오는 곳이예요. 인테리어도 깔끔해서 모임하기에도 좋아요. 소스, 반찬, 고기 모두 1인용으로 나오고 인덕션도 1인용으로 되어 있어서 각자 원하는대로 먹을 수…",
       "[5★] 일상정원 스끼야끼집은 재료가 신선하고 국물이 깊어서 한 입 먹자마자 만족스러워요. 조용하고 정갈한 분위기라 식사에 집중하기 좋고, 소중한 사람과 함께 오기 딱 좋은 곳이에요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "우와해 선릉본점 WOOWAHAE Korean BBQ",
@@ -658,24 +920,42 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 프리미엄 1++ 등급 한우를 도매가 수준으로 즐길 수 있는 깔끔하고 고급스러운 정육식당입니다. 직접 눈으로 고기를 골라 구워먹는 방식이 인상적이고, 깍두기볶음밥 등 사이드 메뉴도…",
       "[5★] 밖에서 보는 느낌보다~ 내부 들어와서의 느낌이 좋네요! 고기 손질하지는 분들도 바로 보이고! 들어가자 마자 보이는~ 선홍빛 고기들의 행렬ㅎㅎㅎ 고기 맛도 좋고 & 가격도 좋네요^^…",
       "[5★] 여러부위의 투쁠 소고기와 잘어울리는 사이드 메뉴입니다 우설도 경험해보고 가족모임으로 적합…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "냉동고집 삼성점 K-BBQ RESTAURANTS",
@@ -701,25 +981,47 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "한식",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 같이온친구가 제일맛있었대요!!!!! 전여기너무좋아해서 단골이예용^^ 누가 오자고 하면 뮤조건 냉동고집부터 찾아요!!!!!!! 잘먹었습니다*^^*…",
       "[5★] 점심식사로 방문하였습니다. 매장이 넓고 깔끔해요! 사장님께서도 친절하셔서 기분 좋게 점심 식사합니다!",
       "[3★]   삼겹살 정식메뉴가 있으며 구워서 나와서 삼겹살 냄새가 옷에 베이지 않는점이 좋은반면 직접 개인 취향대로 구워먹을수가 없는부분은 아쉬움 구워서 나오는정도는 살짝 익혀서 나오는정도…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "삼성역 맛집 국보가든 삼성본점",
@@ -746,19 +1048,35 @@ const restaurants = [
       "데이트"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 비싼만큼 값어치를 하는 오랜만에 삼성동에서 보는 고기 맛집이네요 고기 퀄리티와 맛, 서비스, 밑반찬, 찌개, 후식 모두 만족입니다 특히 기억에 남았던 부분들은 1. 고기를 정말 세…",
       "[5★] 외관과 내부 모두 깔끔하고 분위기가 좋아서 식사 내내 편안했습니다. 태블릿 주문으로 메뉴 선택이 편했고, 고기 품질도 좋았으며 전골이 특히 진하고 푸짐해서 만족스러웠어요. 직원분들…",
       "[5★] 국보가든 다녀왔는데 전체적으로 너무 만족스러웠어요. 고기 질이 좋아서 한 점 먹을 때마다 촉촉하고 풍미가 확 느껴졌습니다. 셀프바도 깔끔하게 관리돼 있고, 특히 소프트 아이스크림이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "소소헌",
@@ -783,16 +1101,16 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "회식 2차"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -800,7 +1118,22 @@ const restaurants = [
       "[5★] It's a restaurant where you can eat delicious Korean food at a very good price! 건강검진 때문에 삼성동에 왔다가 끝나…",
       "[3★] 구글 평점보고 찾아가서 소소헌 한상차림 주문했음. 기대에 비해 전반적으로 실망했음.  장점: 메인으로 나온 낙지볶음과 조개미역국은 맛있었음. 제육볶음은 평범  단점: 밥이 떡밥이었…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "진미언양불고기",
@@ -824,22 +1157,38 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "점심",
+      "한식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[4★] 점심 스페셜2인 주문했습니다. 반찬가지수 다양하고 맛있네요 불고기도 맛있고 냉면,된장죽이 세트구성이였는데 함흥물냉치고 자극적이지않고 슴슴한 편이였어요. 된장죽은 그냥 먹을만했어요…",
       "[5★] 맛도 서비스도 최고입니다. 친절한 서비스와 기가 막힌 밑반찬과 메인메뉴 덕분에 깨끗이 싹 비우고 나왔습니다. 언양불고기, 육회 모두 맛있습니다. 가격이 싼 편은 아니지만 그만큼의…",
       "[5★] 봉은사 가기 전에 점심 먹으러 갔어요🤍 주말 나들이 가시는 분들 강추합니다 밑반찬 한정식집 수준으로 화려한데 하나같이 다 맛있구요 언양불고기 아주 부드럽고 얇은데도 육즙이 살아있…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "공감 삼성본점",
@@ -861,14 +1210,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -876,7 +1225,22 @@ const restaurants = [
       "[5★] 삼성역 근처에 위치한 캐쥬얼 이탈리안 음식점인데, 여기 정말 강추!! 4번째 방문했는데, 무엇을 주문해도 맛있어요. 이번에는 안 먹어본 메뉴를 주문해봤는데, 우리로제 파스타, 그리…",
       "[5★] 매장 넓고 아늑해요 피자랑 파스타도 다 넘넘 맛있게 먹었어요~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "감자보리밥",
@@ -900,21 +1264,38 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "퇴근후술"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 집된장으로 만든 된장찌개가 맛있고 속을 편하게 합니다. 황태조림과 보쌈도 부드럽고 맛있어요. 개인적으로는 산나물이 제일 맛있고 특별하게 느껴졌어요. 잔반찬들도 신선하고 리필도 되고…",
       "[5★] 수구레 먹기 힘든 음식인데 이곳에서 하고요 감자 보리밥 정말 맛 있습니다. 점심은 감자 보리밥. 저녁은 수구레 무침 또는 전골 소주 한잔 좋습니다…",
       "[5★] 주인장이 건강한 먹거리제공을 위해 노력함. 시골된장 좋은쌀 싱싱한 야채…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 0
+    }
   },
   {
     "name": "심가네칼국수 선릉역본점",
@@ -939,18 +1320,15 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "스트레스",
       "피곤함",
-      "허전함",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주",
       "점심",
       "혼밥"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -959,7 +1337,22 @@ const restaurants = [
       "[5★] 올 때마다 만족도가 정말 높아요. 닭한마리는 잡내가 전혀 없고 국물도 진하고 깊어서 첫 입부터 맛있습니다. 매장도 넓고 깔끔해서 편하게 먹을 수 있고, 직원분들도 항상 친절해 기분…",
       "[5★] 날씨가 추워져서 칼국수가 땡겨서 방문했어요!! 칼국수도 너무 맛있고 만두도 집에서 만든 맛이에요 ㅠㅠ 다음에 또 올게요!!💛…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "부리또리선릉점",
@@ -984,7 +1377,6 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "혼밥"
     ],
     "scene": [
@@ -993,6 +1385,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1000,7 +1393,22 @@ const restaurants = [
       "[5★] 주변에 오픈한지 얼마안되서 방문했습니다.  평소 부리또 타코 등 멕시코음식 좋아해서 방문해봤는데, 입간판부터 특이한게 K-부리또라고 멕시코 정통부리또랑은 다르다고 해서 궁금했습니다…",
       "[5★] 선릉에서 점심 먹을 곳 찾다가 방문한 부리또리 선릉점이에요. 매장 깔끔하고 혼밥하기도 편해서 점심시간에 부담 없이 들르기 좋았어요. 반반부리또랑 소고기부리또 주문했는데 둘 다 속이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "이치즈 삼성",
@@ -1025,14 +1433,17 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "단체",
+      "야근후",
+      "점심",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1040,7 +1451,22 @@ const restaurants = [
       "[5★] 예전에 단골가게였는데 삼성에 새롭게 오픈했다해서 갔다왔습니다. 음식을 시켜보시면 압니다.. 재료가 우선 신선한게 느껴집니다. 메뉴가 다양해서 다 시켜보진못했지만 사시미나 튀김류에…",
       "[5★] 점심 시간에 맞춰 방문했어요 얼마 걸리지 않아 카이센 벤토가 나왔고 우선 비주얼부터 완전 합격! 그리고 나서 한 입 먹는데 입에서 사시미가 사르르 녹더라구요 눈으로 한 번 먹고 입…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "정삼이네수제비김밥",
@@ -1066,15 +1492,15 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "피곤함",
-      "허전함",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -1083,7 +1509,22 @@ const restaurants = [
       "[5★] 수제비 & 김밥 맛있음. 수제비 간이 좀 쎈 편이라 살짝 생수로 간을 맞추면 오히려(?) 안뜨겁고 맛있음^^; 주변에 가게들이 종종 바뀌는데, 정삼이네만 안 바뀌는 거 보니 제법…",
       "[4★] 수제비는 2인분부터…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "테바사키반초",
@@ -1116,11 +1557,16 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "회식 2차"
+      "데이트",
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1128,7 +1574,22 @@ const restaurants = [
       "[5★] 닭 좋아하는 사람으로서 어느 메뉴도 버릴게 없습니다. 후기 검색이 잘 안 되서 가게 문 닫은게 아닌가 했는데 장사 잘 하고 있고요. 너무 번잡하지 않고 적당히 손님들이 있었습니다.",
       "[5★] 오리온 맥주를 마실 수 있는 곳.  아늑한 분위기 좋네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 2
+    }
   },
   {
     "name": "예꼬랑",
@@ -1150,14 +1611,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1165,7 +1626,22 @@ const restaurants = [
       "[5★] 마카롱 엄청 맛있어요!! 대치동 학원가에서 달콤한 사치를 얻을 수 있는 빛과 소금같은 존재!",
       "[5★] 세상에서 가장 사랑스러운 뚱카롱과 사랑스러운 사장님이 계시는 곳💕 매일 먹고 싶어요!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "동화고옥 선릉점",
@@ -1196,23 +1672,44 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
+      "데이트",
       "점심",
       "접대",
-      "회식 2차"
+      "특별한날",
+      "한식",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 한식 다이닝 코스요리로 유명한 동화고옥 선릉점을 와이프와 방문했습니다. 선릉역 출구 앞이라 접근성이 좋았고 무엇보다 선택한 메뉴인 영빈 갈비코스가 환상적이었습니다. 다양한 코스요리…",
       "[5★] 코스가 끊임없이 나오네요.. 밀가루 없는 코스요리인 점이 가장 눈에 띄었고, 밀면 대신 메밀면을 사용해서 오히려 더부룩함 없이 속도 편했습니다 전체적으로 구성이나 맛이 다 좋았습니…",
       "[5★] 동화고옥 선릉점 점심 시간에 방문해서 금란코스 먹었어요~ 분위기가 정말 좋고, 창밖으로 뷰도 탁 트여 있어서 식사하는 내내 기분이 좋았어요 :)  음식은 전체적으로 깔끔하고 정갈하…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "하나샤부정",
@@ -1234,17 +1731,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1252,7 +1746,22 @@ const restaurants = [
       "[5★] 하나샤부정(4.7/5.0) 돼지고기 샤부샤부 세트 ₩21,000 / 버섯 모듬바구니 ₩3,000 / 준마이 월계관 ₩28,000 / 오토코 300 ₩13,000 / 센푸쿠 준마이…",
       "[5★] 정갈하고 맛있는 일식 샤부샤부! 돼지고기 샤부샤부가 대표여서 주문했는데 냄새 전혀 안나고 엄청 맛있네요. 전반적으로 자극적이지 않고 슴슴해서 더 좋았어요. 야채는 부족하면 조금 더…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "와려",
@@ -1283,16 +1792,19 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "오마카세·스시",
       "점심",
       "접대",
-      "회식 2차"
+      "특별한날"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1300,7 +1812,22 @@ const restaurants = [
       "[5★] 오랜만에 만난 지인과 점심으로 스시를 먹기위해 방문했습니다. 스시와 곁들여 따뜻하게 데운 추천 정종을 도쿠리로 먹었습니다. 샤리와 네타의 밸런스도 좋았고 코스 구성도 만족했습니다.",
       "[5★] 음식도 가격도 다 훌륭하지만 사케 셀렉션과 추천이 너무 좋았음. 장어솥밥은 민물맛이 너무 나서 저와는 맞지 않았지만 맛있는 사케들 잘 추천해주셨고 이미 배도 충분히 불러 상관없었습…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "LE SOL",
@@ -1334,13 +1861,18 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
+      "가성비",
+      "단체",
+      "데이트",
       "브런치",
       "점심",
-      "접대"
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -1348,7 +1880,22 @@ const restaurants = [
       "[4★] 음식보다는 분위기가 더 좋았어요. 스테이크 전문점이라고 하는데 오히려 스테이크는 별로였고 시즌파스타가 더 낫네요. 하지만 파스타도 엔초비 파스타라고 했는데 오징어와 게살맛이 너무…",
       "[5★] 스테이크 강추!!! 그리고 코스 마지막으로 나온 디저트는 정말 맛있었습니다 글로벌세아에서 르쏠 옆에 같은 디저트 라인으로 카페를 만들어줬으면 하는 바램이 들 정도였습니다!!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 4,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 5,
+      "late_night": 0
+    }
   },
   {
     "name": "순감자옹심이메밀칼국수",
@@ -1375,13 +1922,11 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "스트레스",
       "피곤함",
-      "허전함",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주",
+      "데이트",
       "점심",
       "혼밥"
     ],
@@ -1394,7 +1939,22 @@ const restaurants = [
       "[5★] 진짜 맛있습니다! 한번가면 안되고 계속 꾸준히 먹어줘야 하는 곳입니다. 맛, 양, 인테리어, 반찬 등등 다 만족 스러웠습니다. 다만 주문하고 나올때까지 시간이 좀 걸리는 편이라 부…",
       "[5★] 옹심이 동글동글 쫄깃 찰진 식감 순살 치킨도 맛있다 넓고 청결함…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "커리인",
@@ -1419,25 +1979,39 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
       "혼밥"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
-      "흐림"
+      "비"
     ],
     "rv": [
       "[5★] 늦은 점심으로 가서 손님은 저희 뿐이었어요 사장님께서 시간적 여유가 있으신지 메뉴 맛이 어떤지 얘기도 나누고 서비스를 계속 주셨어요 아이는 다음에 또 오고싶다고 했습니다 바나나푸딩…",
       "[4★] 인도인 주인분이 하시는 커리 음식점. 1인 메뉴로 판매해서 혼자서도 먹기 좋다. 가격은 만2천~만5천원 정도. 고기가 약간 적은 느낌은 들지만 적당히 맛있다. (not underc…",
       "[5★] 난이 정말 맛있어요.. 소고기 카레도 안매운 맛으로 먹었는데 다사 오고싶은 맛이에요. 사장님이 난을 계속 주시네요... 계속 부족한거 물어봐주시구.. 채워주시구... 배불러요..."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "배산임수",
@@ -1460,15 +2034,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "스트레스",
-      "회식"
+      "데이트"
     ],
     "scene": [
-      "야식"
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1476,7 +2049,22 @@ const restaurants = [
       "[5★] 일단 음식이 매우 맛있었습니다. 단품 메뉴 하나하나가 매우 퀄리티 있게 느껴졌습니다. 보쌈의 고기는 너무 잘 삶아져있었고 삶은 고기 특유의 불쾌한 냄새가 전혀 나지 않았습니다. 같…",
       "[5★] 개업한지 얼마되지 않은 깨끗한 식당입니다. 정확하게 언제 개업했는지는 모르겠지만 빌딩을 리빌딩 한 수에 건물에 이마트 24편의점이 들어와 있고, 아직 1층은 인테리어 공사중입니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "여포집 선릉점",
@@ -1507,11 +2095,14 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "회식 2차"
+      "가성비",
+      "데이트",
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1519,7 +2110,22 @@ const restaurants = [
       "[4★] 가격대가 비싸고 양이 적어요. 고등어회는 신선하고 맛있습니다…",
       "[5★] 너무 맛있게 잘 먹었습니다. 다음번엔 꼭 고등어회를 먹어볼게요! 분위기도 좋고 직원분들도 너무 친절하셔요! 선릉 대표 맛집, 대표 횟집입니다! 많이 파세요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "백년가",
@@ -1544,24 +2150,46 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 신선한 한우 육회와 아삭한 채소, 고소한 양념장이 어우러진 비빔밥과 구수하고 깊은 맛의 차돌된장찌개... 정갈하게 나오는 반찬들까지 만족스러운 한 끼입니다.",
       "[4★] 예전 홍백일때 자주 방문했었다가 백년가로 바뀌고 오늘 첫 방문 !! 너무 만족 !! 새우살 장어구이 모두 만족스럽고 물냉 비냉 솥밥 차돌된장도 만족 ! 육전 사이드메뉴도 고기냄새…",
       "[4★] 예전에 홍백이 백년가로 바뀐 후 처음 가봤는데... 전반적으로 홍백 때만 못한 느낌이네요. 세월 앞에 장사없다고 고기손질 기막히게 하시던 사장님이 나이 드셔서 힘들다고 다 정리하고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "에이씨앤코리아유한회사",
@@ -1582,15 +2210,14 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "회식 2차"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1598,7 +2225,22 @@ const restaurants = [
       "[3★]…",
       "[5★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "가츠몽 포스코사거리점",
@@ -1619,14 +2261,14 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1634,7 +2276,22 @@ const restaurants = [
       "[4★] 돈가스가 맛있는 집, 바삭함이 최고 장점이네요…",
       "[5★] 여러분, 세 단어만 말씀드리겠습니다. 저는 이것을 좋아합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "크라이치즈버거 삼성역점",
@@ -1658,8 +2315,6 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
@@ -1668,14 +2323,29 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 인근에서 먹을 수 있는 치즈버거중 탑급입니다. 점원들은 항상 밝고 친절합니다. 감자튀김이 바삭하고 맛있으며 다양한 사이드 메뉴로 도전하는 와중에 메인인 버거는 항상 맛있습니다.",
       "[4★] 1층입구에서 지하로 내려가요 매장에서 먹으면 음료가 무한리필이에요 패티가 얇고 번이 맛있어요 야채가 싱싱해요 패티 추가 추천합니다…",
       "[5★] 맛있어요. 제대로된 치즈버거라서 마음에 들어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "농민백암순대 본점",
@@ -1701,22 +2371,39 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "한식",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 순댓국 전문으로 하는 집 선릉역 1번 출구에서 도보 8분 거리에 위치. 국밥은 11,000원이다.  들깨 듬뿍~ 순댓국은 머릿고기를 포함한 부속?고기와 수제(?) 순대의 조합이다.",
       "[5★] 순대국밥충으로서 항상 가보고 싶었으나 웨이팅이 싫어 수년간 미루다 드디어 가 봄 기대가 크면 실망도 큰 법인데 웬걸 여긴 기대 이상이었음. 여긴 그냥 클라스가 다른 곳이다. 언아더…",
       "[4★] 약간 꾸리한 옛날 순댓국. 기다려서 먹을 정도는 아님.  국밥과 국밥정식 ( 순대와 고기 한 접시 나옴)  우거지들어간 물컹한 순대 별로 부드러운 머릿고기 별로지만 고기 양은 엄청…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "그랜드 키친",
@@ -1750,8 +2437,12 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "접대",
+      "특별한날",
+      "한식",
+      "회식"
     ],
     "wx": [
       "맑음",
@@ -1762,7 +2453,22 @@ const restaurants = [
       "[2★] 조식 부페! 음식들은 👍최고수준, 실내는 혼잡스럽고, 안쪽 자리는 많이 비어있는데도, 입구 접수대는, 두명도 아닌,한사람이  쩔쩔매면서, 줄을서서 기다리라고 합니다…",
       "[5★] 한식 메뉴가 완전 정통파로 준비되어있어서 외국인 친구 소개시켜주기에 딱 좋을 것 같아요! 크림치즈 종류가 다양한것도 마음에 들고 딤섬까지 다양하게 있는게 좀 놀랍네요 ㅋㅋㅋ 뭘 좋…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "플랜튜드",
@@ -1783,14 +2489,14 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1798,7 +2504,22 @@ const restaurants = [
       "[4★] 비건식당이라고 해서 슴슴하고 건강식 위주일 줄 알았는데 전혀 아니었다...! 양식이나 자극적인 음식이 오히려 메인이라 이게 비건으로 되는 메뉴라고...? 싶었는데 생각보다 괜찮았다…",
       "[3★] 비건 푸드라 해서 걱정했었지만, 메뉴들을 보니 그냥 평소에 먹는 좋아하는 음식들이 꽤 많이 있었습니다.  내부는 환하고 깔끔합니다. 플렌테리어도 곳곳에 보여요~ 테이블 간격도 여유…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "육성급",
@@ -1822,24 +2543,41 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 일단 너무 친절하시고 고기를 정성스럽게 잘 구워주세요! 고기 질도 좋아서 부드렂고 맛있네욯ㅎ 친구랑 오랜만에 놀러왔다가 또 방문해요☺️…",
       "[5★] 고기의 육즙이 가득해요!!! 그동안 내가 먹은 고기들은 무엇인가, 생각하게 되는 식사였습니다. 삼겹살과 목살을 시켰는데 쫄깃하면서도 육즙이 가득나옵니다. 목살은 별로 안 좋아하는데…",
       "[5★] 사장님이 항상 웃고게시고 너무 착하셔서 대우받는 느낌도 있고 테이블에 떨어져 있는 음식도 케치를 잘하시고 고기도 구워주시고 목살보다는 삼겹살이 더 맛있어요.가격이 나가긴 하지만 매…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "도명골 청국장",
@@ -1860,14 +2598,14 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1875,7 +2613,22 @@ const restaurants = [
       "[5★] #삼성동 #도명골청국장  \"삼성동 끝자락에 숨은 청국장 초강자\" \"놀라운 떡볶이 맛집\"  지금은 한참 공사중인 현대자동차 사옥의 끝자락이 삼성동의 끝자락이다. 그쪽에 숨은 집들이…",
       "[4★] 들깨 시래기 청국장,, 뚝배기에 시래기가 가득 들어 있습니다. 청국장보다 들깨향이 강한 느낌입니다. 밥은 보리밥에 반찬들도 전반적으로 깔끔 합니다. 맵고, 짠맛을 확 줄인 느낌이라…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "돈주는남자",
@@ -1898,13 +2651,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "축하"
     ],
     "scene": [
-      "점심"
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1912,7 +2666,22 @@ const restaurants = [
       "[5★] 사장님이 초벌 해주시고 직원분이 고기를 구워주셔서 편하게 먹을 수 있었고 고기 말고도 다른 메뉴들도 맛있었어요~ 특히 계란찜이 진짜 맛있으니 꼭 드셔보세요!!",
       "[5★] 초벌해서 나온 고기를 직원분들이 구워주셔서 너무 편하고 빨리 먹을 수 있더라구요! 매장도 깨끗하고 고기도 부드럽고 풍미가 미쳤더라구요..👍🏻 매장 앞에 주차도 가능해서 조만간…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 2,
+      "late_night": 0
+    }
   },
   {
     "name": "갓포아키 삼성점",
@@ -1937,13 +2706,20 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "단체",
+      "데이트",
+      "야근후",
+      "점심",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1951,7 +2727,22 @@ const restaurants = [
       "[3★] 분위기는 좋고 어느 정도의 맛은 있지만, 가성비 대비는 아쉬움이 남네요. 소주 선택도 제한적이라..",
       "[5★] 평일 저녁에 방문했는데 직장인들이 많은 것 같았습니다. 다른 지점도 가보았는데 고급스러운 분위기였고 서비스도 좋고 맛도 좋았습니다. 주류는 가격이 조금 있는 편입니다. 음식은 가격…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "밥스키친",
@@ -1976,13 +2767,20 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "데이트",
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "점심"
+      "가성비",
+      "데이트",
+      "점심",
+      "한식",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -1990,7 +2788,22 @@ const restaurants = [
       "[5★] 삼성역 부근, 지하에 위치한 점심 뷔페집입니다. 애슐리같은 메뉴가 많고, 깔끔한 분위기입니다. 11시반 ~ 3시까지 영업하고, 저녁은 일반적으로 영업안하되 따로 예약받은 대형 모임…",
       "[5★] 돈까스 치킨 퀄리티가 좋네요~ 현금으로 하면 8천원으로 500원 할인해줘요~ 추천…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "키친바락",
@@ -2016,17 +2829,17 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2034,7 +2847,22 @@ const restaurants = [
       "[5★] 회는 활어회라는 개인적인 취향을 깨트린 맛집! 여러번 갔는데, 대짜 회를 시키면 인원수 대로 나온다. 대략 10종류 이상의 회가 나오는데 두명이면 4점, 3명이면 3점씩! 싸울일이…",
       "[4★] 전통주와 함께 폭식 가니고로케, 편육, 새우우니, 오징어초회등 참신한 요리들 맛은 전부 기대이상이며  술과 함께 폭식을 하게된다 주차가 안되서 조금 불편하지만 예약이 쉽지는 않은곳…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "여수벌교 꼬막전문점 삼성역맛집 뻘밭에핀꽃",
@@ -2056,14 +2884,15 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2071,7 +2900,22 @@ const restaurants = [
       "[5★] 꼬막비빔밥 먹었는데, 인근에서 제 입에 젤 잘 맞네요. 꼬막 맛을 온전히 느낄 수 있어요. 함께 나오는 미역국도 맛있습니다.",
       "[5★] 무역센터로 18년 근무.  삼성동 최고  맛집입니다. 꼬막 육회 너무 깔끔하고 야채도 싱싱하고 간도 감칠맛나게 딱! 좋습니다. 저녁에도 굿. 가격도 착해요.  사장님 감사합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "진양재순대 삼성점",
@@ -2096,22 +2940,40 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[2★] 점심시간 대기줄 엄청남. 너무 유명해서 기대했는데, 기대에 못미칩니다. 양은 많은데 고기 냄새 많이 나고, 별로입니다. 청와옥(방이본점)이 훨씬 맛있어요. 왜이렇게 손님이 많은지…",
       "[5★] 잡내 없이 깔끔한 순대국. 수제 순대, 건더기 실하게 들어가 있음. 수육메뉴도 기대 됨. 남녀노소 누구나 좋아할만한 집. 손님이 많은 이유가 충분히 있음.  맛있게 잘 먹고 갑니다…",
       "[5★] 직접 만든 맛있는 순대와 잡내없이 부드러운 내용물들을 묵직하고 구수한 국물과 함께 즐길 수 있는 순대국 맛집입니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 4,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "스시류",
@@ -2140,8 +3002,10 @@ const restaurants = [
       "축하"
     ],
     "scene": [
-      "오마카세·스시",
-      "접대"
+      "가성비",
+      "데이트",
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -2152,7 +3016,22 @@ const restaurants = [
       "[4★] 분위기는 협소하고 손님모시기에는 좀 그렇습니다. 그러나 맛은 엄지척입니다. 요리도 전반적으로 다 맛있고, 스시도 밥양 많지않아 배가 기분좋게 부릅니다. 요리가 다 인상적이였고, 친…",
       "[5★] 가성비 식당이니 만큼 맛은 좋았지만 감안해야할 단점이 있다면, 예약시간대 손님이 모두 도착해야 코스가 시작됩니다. 협소하고 대화하기엔 불편한 구석이 있어서 소개팅자리나 중요한 자리…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "얼룩도야지 전문점 골목집",
@@ -2176,23 +3055,41 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 삼성동에 오픈한지 1년이 안된 돼지고기 전문식당. 한마디로 고기맛이 훌륭하다. 철판에 고기를 구울때 가스토치를 활용해서 직접 분사해서 고기를 구워주는 특이한 방식인데 육즙이 풍부하…",
       "[5★] 삼각살을 씹었을때 탱글탱글함을 잊을 수 없네요, 다음으로 삼겹살도 씹으니 이 고기의 맛은 우리가 아는 돼지고기 지방의 꽉참인거 같아요. 탱글탱글!!  ...  김치맛도 좋고 처음…",
       "[5★] 최근 먹은 고기중에 가장 맛있어요. 사장님이 직접 구워주시고 편하게 맛있게 먹을 수 있습니다^^…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "남노명가",
@@ -2216,24 +3113,41 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 사장님이 아주 친절하신 식당입니다. 음식 맛도 아주 좋습니다. 반찬도 아주 맛있구요. 어떤 메뉴를 선택하시든지 다 만족하실거라고 생각합니다.",
       "[5★] 가지마세요 여기 술값이 더나와요 맛난 메뉴도 많고…",
       "[4★] 물갈비  맛을 처음 접한 이 곳  너무 맛나네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "하늘담은시래기땅품은청국장",
@@ -2254,14 +3168,14 @@ const restaurants = [
       "고평점"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
-      "점심"
+      "한식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2269,7 +3183,22 @@ const restaurants = [
       "[5★] 매우 맛있어요…",
       "[5★] 리필도 해주시고, 건강한 식사."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "덴키카츠",
@@ -2295,17 +3224,20 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2313,7 +3245,22 @@ const restaurants = [
       "[5★] 점심엔 일식음식점 저녁엔 이자카야 일식 카츠, 카레 모두 맛있습니다 도쿄에서도 보기 힘든 산토리 프리미엄 생맥이 있습니다.",
       "[4★] 쏘쏘한 느낌이에요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "오미마리",
@@ -2335,24 +3282,37 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심",
       "혼밥"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 급하게 근처 검색해서 들린곳입니다. 포장했는데 큼직하니 다들 맛있다합니다~ 매장은 크지않습니다~ 근처라면 자주 사먹을거 같습니다.",
       "[5★] 김밥에 밥보다 야채,메인재료가 듬뿍이고 짜지않고 조미료맛 안나서 넘 좋아요. 1인식사하기에도 좋고요. 이쪽 볼일 있을때 꼭 들러요.",
       "[5★] 여기 계신 친절한 아주머니께서 정말 좋으셨어요!!! 들어오시자마자 저희를 보시고 인사도 해 주시고 따뜻한 수프도 주셨어요. 저는 외국인이라 아는 게 별로 없었는데 따뜻한 마음으로…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "슬로우캘리 삼성점",
@@ -2376,13 +3336,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2390,7 +3351,22 @@ const restaurants = [
       "[5★] 깔끔하게 샐러드를 주문할수있는곳입니다. 무엇보다 두부가 온기가 유지되서 오는것이 너무 매력적입니다. 자주시켜먹고있습니다. 샐러드 주문할때 풀만있는것과 달라요…",
       "[5★] 건강하고 맛있는 샐러드나 포케볼을 맛볼 수 있는 아담한 공간입니다. 가격도 좋고 비건과 비건을 포함한 다양한 메뉴가 있으며, 서비스도 빠르고 직원분들도 친절합니다. 다시 방문할 예…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 1,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "Oakwood Premier Coex Center Seoul",
@@ -2414,15 +3390,16 @@ const restaurants = [
       "심야영업"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심"
+      "가성비",
+      "야근후",
+      "접대"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2430,7 +3407,22 @@ const restaurants = [
       "[5★] 아주좋은 위치에 조금 노후 되어있지만 너무 관리잘된 시설 친절한 직원분들 다 너무 좋아요…",
       "[5★] 레지던스 타입이며 합리적인 가격으로 운영중입니다. 직원분들 서비스 마인드도 높습니다. 입지도 좋기 때문에 코엑스 주변 관광에 용이합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 2
+    }
   },
   {
     "name": "코너스톤",
@@ -2460,17 +3452,18 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
+      "데이트",
       "브런치",
       "점심",
-      "접대",
-      "회식 2차"
+      "접대"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2478,7 +3471,22 @@ const restaurants = [
       "[5★] 해산물이랑 베이커리가 맛있는 브런치 뷔페 😀 리조또, 광어요리도 맛있었어요! 코스요리뿐만 아니라 뷔페 구성도 좋았어요 👍 다만 조명이 어두운편이고 사진이 잘 안나와요…",
       "[3★] 분위기 괜찮고 맛은 평범한데 양이 매우 적습니다…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "대치정육식당",
@@ -2503,24 +3511,41 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 차돌박이 맛은 좋은데요. 밥 된장찌개,김치는 별로였어요. 그리고 본인이 직접 구워야해요. 지하이고 테이블이 편하지도 않고,  테이블 간격도 넘 좁아요. 옆건물 뒤쪽 주차장을 이용하…",
       "[4★] 이 근방에서 유명한 정육식당이라고 들었는데 그래서인지 평일 저녁에도 거의 꽉 차 있었습니다. 정육식당치고 저렴한 편은 아니지만 고기 퀄리티가 괜찮은 편이라  가성비가 그렇게 나쁘다…",
       "[4★] 소고기 맛집!  생등심 꽃등심 새우살 안창살 안심 차돌박이를 숯불에 구워...  육회도 강추...!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "서백자간장게장",
@@ -2543,19 +3568,21 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2563,7 +3590,22 @@ const restaurants = [
       "[2★] 친절한 사장님과 게장의 맛은 좋은데... 주문받을때 직원아주머니 한분은 정신을 사납게 하고 외국인에게 가격이 다른 53,000원짜리 매뉴표를 따로 가지고 옵니다.  실제 나오는 게…",
       "[5★] Delicious soy crab and spicy crab bibimbap.  간장게장과 양념게살비빔밥을 추천합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "재희키친",
@@ -2591,15 +3633,20 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "데이트",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2607,7 +3654,22 @@ const restaurants = [
       "[4★] 점심시간에 들러본 재희키친.  평소에 고등어구이등 생선구이를 좋아하지만 냄새나 맛있게 굽기가 쉽지 않은 이유로 집에선 좀처럼 먹기가 쉽지않은데 언젠가 졸리님의 리뷰에서 이 집을 보…",
       "[4★] 맛난 해물 포차. 봉은사역 근처 맛집. 강추요~^~^…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "안식",
@@ -2628,14 +3690,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2643,7 +3705,22 @@ const restaurants = [
       "[4★] 편하게 먹는 레스토랑, 내 마음에 쉼을 주는 레스토랑.  퓨전 음식인데, 뭔가 다름을 추구하는 컨셉트.  새로운 음식을 찿는 이들에게 강추!",
       "[5★] 재료 본연의 맛과 신선함을 느낄수 있는 음식점! 압구정 로데오에서 건강하게 먹을수 있는 몇 안되는 가게중에 한곳~~예약하면 웨이팅 없이 식사가능함요~^^ 식사후 후식(차, 커피,…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "양가식당",
@@ -2665,22 +3742,40 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 양갈비 양고기 유명한집 많이 가봤지만 정말 최고로 만족한집. 뽈레에서도 보고 예전부터 눈팅했지만 작은 매장이라 언제나 사람들이 바글해 못가봤는데, 오늘 어쩐일로 비어있길래 방문.",
       "[5★] 최고의 양갈비집. 테이블 4개 밖에 되지 않아서 예약 손님만 받습니다. 오후 5시부터 영업을 시작하며 최소한 3일 전에는 예약을 해야합니다. 양갈비 질이 아주 좋고 1인분이 양갈비…",
       "[4★] 선릉역 1번 출구에서 도보 400미터 거리에 위치. 테이블 4개의 작은 식당. 바로옆에 요즘 핫한 족발집 뽕나무쟁이가 있는 골목에 위치. 몇달만에 7명의 모임을 가지게 되어 방문…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "봉은사 서래원",
@@ -2702,13 +3797,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2716,7 +3812,22 @@ const restaurants = [
       "[1★] #삼성동 #봉은사 #서래원  \"가격이 문제\"  봉은사의 식당이 서래원인데, 보통 종교시설에서 공양(불고식)이나 애찬(기독교식)은 무료로 나눠준다. 그런데 여긴 식당 처럼 돈을 받고…",
       "[4★]   서래원 : 상서로운 기운이 들어오는 전각이라는 뜻을 가진 식당이다  잔치국수가 대표메뉴이며 그 외에 비빔국수 막국수등을 팔며 기본반찬과 밥은 셀프이며 무료로 구성이되어있음  구…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "FESTIVA",
@@ -2742,9 +3853,8 @@ const restaurants = [
       "데이트"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후"
     ],
     "wx": [
       "맑음",
@@ -2755,7 +3865,22 @@ const restaurants = [
       "[3★] 뷰가 아니라 음식맛만 놓고 본다면 가격대비 실망스럽습니다.  음식중 가장 맛있는건 식전빤으로 나온 포카아에요. 파스타나 스테이크 등 전반적으로 만족도는 높지 않은 편이지만 뷰가 좋…",
       "[5★] 기대 없이 들렀다 만족하고 갑니다. 한강 뷰, 봉은사 뷰, 뷰 맛집에 음식도 괜찮아요. 관자 구이, 봉골레 파스타 추천합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "메콩타이 삼성점",
@@ -2780,27 +3905,39 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "피곤함",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
       "점심",
-      "해장",
-      "회식 2차"
+      "해장"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
-      "흐림"
+      "비"
     ],
     "rv": [
       "[4★] 근처에 볼일이 있어서 딸랑 구. 아들 같이왔어요 점심 기간 이라서 15분 정도에 웨이팅 사장님 께서 먼저 주문 받으시고 빈자리 안내해 주시면 2.3분 후 바로 식사가 나왔네요 메장…",
       "[4★] 소고기 쌀국수 R 사이즈 9500원. 코엑스에 있는 쌀국수 프랜차이즈보다 훨씬 낫다. 사장님이 매우 친절하고, 양이나 맛도 괜찮은 편이다. 해장용으로 아주 좋은 쌀국수.",
       "[3★] 기다리는 줄이 긴거에 비해 맛은 그냥 보통임. 매운 해산물 팟타이는 넘 매워서 비추. 양은 많음…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "민속칼국수",
@@ -2827,12 +3964,16 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "가성비",
+      "데이트",
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -2841,7 +3982,22 @@ const restaurants = [
       "[5★] 합리적인 가격에 즐길 수 있는 삼성역 식사, 직장인들이 많이 보인다. 육수가 일품. 물론 사진은 비빔밥인데 비빔밥도 맛있다 츄릅…",
       "[5★] 근처 유일무이한 맛집. 칼국수와 열무비빔밥 조합 최고. 칼국수 국물 비오는 날 완전 생각나요. 체인점 내도 될듯한 맛입니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "식껍 삼성역점",
@@ -2865,24 +4021,40 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 삼성동에서 가격이 조금 덜 부담스러운 삼겹살 집입니다. 돼지껍데기도 맛있다고  하는데, 저희는 삼겹살만 먹었습니다. 이 집은 특히 쌈장이 맛있습니다. 특별히 보리를 넣어서 만들었다…",
       "[5★] 아쉬운 점 : 룸이 없고 홀이 생각만큼 크지 않은 장점 : 이동네 몇 안되는 특수부위 맛집. 한 5가지 종류 먹어봤는데 대부분 맛있음  쭈꾸미는 그냥 그러함…",
       "[5★] 고기 특수부위를 파는곳인거 같고 고기가 쫄깃하고 맛있습니다. 월요일에 방문했었는데 맛있거에 비해선 손님은 딱 2인 테이블 한곳만 있었고 나름 여유롭게 들어갔습니다. 아마 먹거리 골…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "신라스테이 삼성 카페",
@@ -2916,14 +4088,15 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "브런치",
-      "오마카세·스시",
+      "데이트",
       "점심",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -2931,7 +4104,22 @@ const restaurants = [
       "[4★] 주중 저녁 55000, 주말 저녁 63000. 창가 좌석은 예약이 필요하다. 가격 생각하면 전체적으로 무난한데 스시 퀄리티가 별로임..그래도 코엑스가 보이는 야경과 분위기가 좋은…",
       "[3★] 예전엔 많지는 않아도 괜찮은 메뉴들로 구성되어 있었는데 오히려 신라스테이 역삼이 승! 직원들은 친절합니다. 생맥주 추천~ 중식은 구색만 맞춤~ 저녁 노을과 야경은 별 5개~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 0
+    }
   },
   {
     "name": "파이어벨 코엑스점",
@@ -2955,13 +4143,17 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
+      "축하",
       "혼밥"
     ],
     "scene": [
+      "데이트",
+      "특별한날",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -2969,7 +4161,22 @@ const restaurants = [
       "[5★] 친구가 맛있다고해서 다녀왔어요! 코엑스 지도엔 안 나와서 잠깐 헤맸는데 오크우드 지하 2층에 있다는 거 알고 가니까 금방 찾음ㅋㅋ 분위기 너무 편해서 친구랑 와도 좋고, 혼자 와도…",
       "[5★] 닥터레오 세트와 베버리힐즈 버거 더블, 코울슬로 먹었는데 둘이 먹기에 충분합니다. 감자튀김 맛있고 코울슬로도 2500원에도 괜찮으네요~ 별도로 마요네즈, 머스타드, 케첩, 핫소스,…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 0
+    }
   },
   {
     "name": "페리카나치킨",
@@ -2990,16 +4197,16 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주"
+      "야근후",
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3007,7 +4214,22 @@ const restaurants = [
       "[4★] 가게는 작으나 떡도 있는 치킨 맛나요 서비스 식빵튀김 맛남…",
       "[5★] 사장님 쾌활하시고 치킨도 맛있어요!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "아티피크",
@@ -3035,16 +4257,18 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하",
-      "혼밥"
+      "축하"
     ],
     "scene": [
-      "분위기 좋은 저녁",
+      "가성비",
+      "데이트",
       "브런치",
-      "접대"
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -3052,7 +4276,22 @@ const restaurants = [
       "[4★] 여기는 1층에 아티피크가 있는 곳입니다.  작은 식당인 줄 알았는데 검색을 해 보니, 삼성동 파인다이닝 아티피크더군요. 여기 가서 저녁 식사를 하기에 애매했습니다. 가격이 17만원…",
       "[5★] 오랜만에 먹는 프렌치 파인 다이닝 아담하지만 분위기도 좋고 음식들도 독특하면서 훌륭합니다 와인페어링도 훌륭하네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 0
+    }
   },
   {
     "name": "두어마리 삼성점",
@@ -3080,25 +4319,42 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "심야 밥",
-      "오마카세·스시",
+      "가성비",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "흐림"
     ],
     "rv": [
       "[3★] 점심 먹으러 왔어요~~ 점심메뉴 장어덮밥 먹었는데 가격도 합리적이고 맛있습니다. 일행은 짬뽕순두부 먹었는데 맛있다고 하네요. 근처 직장인들에게 점심메뉴로 추천합니다.",
       "[4★] 신선한 장어를 하나하나 구워 주시는 친절함 속에서 바다장어구이와 회를 와인과 함께 즐기기 좋은 식당입니다.",
       "[4★] 매일 통영에서 배송되는 신선한 바다장어구이를 맛볼 수 있는 곳. 특이하게 장어회도 파는걸 보면 장어의 신선도가 보증되는 곳. 두툼하게 살이 오른 장어를 노릇하게 구워 생강을 함께…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "길목 신관",
@@ -3120,22 +4376,38 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★]  껍살 뽈살이 시그니쳐 메뉴이고 모듬야채를 추가로 보통 많이 먹음 콜키지 프리라는게 가장 큰 매력이고 그덕에 대부분 가져가는편 주변에 참 먹을게 마땅히 없는동네요 맛있는 삼겹살 집…",
       "[5★] 삼성중앙역5번 출구 가까운 곳에 위치한 길목 신관은 직원분께서 구워주시는 단백하고 부드러운 고기를 즐길 수 있는 매력적인 고깃집입니다. 직원분들 센스있게 미리 잘 챙겨 주시고 기본…",
       "[4★] 돼지 목살이 맛있는 돼지고기 전문점 오겹살도 맛있긴 하지만 목살이 제일 맛있네요. 초벌만 해주시고 그 다음부턴 각자 알아서 구워먹어야 합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "카야루",
@@ -3164,11 +4436,12 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "점심",
-      "회식 2차"
+      "가성비",
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3176,7 +4449,22 @@ const restaurants = [
       "[4★] 맛있고 서비스 분위기 너무 좋은데요 양은 살짝 아쉽네요…",
       "[4★] 맛있지만 좀 비싸요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "풍성옥",
@@ -3200,24 +4488,43 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "피곤함",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 남자 4명이사 육전에 수육전골 중 시켰어요. 전골은 육수를 리필 빵빵하게 해주시구요 중간중간 먹는법이나 친절하게 잘 알려주시고 최고였어요~ 다먹을때쯤 반두랑 칼국수사리2개 시켜서…",
       "[5★] 저녁에 수육에 소주한잔하면서 국물로 같이 먹고싶은 맛이네요…",
       "[5★] 점심 메뉴로 갈비탕과 비슷한 한우탕을 먹었습니다. 맑은 국물에 아주 맛있게 먹었습니다. 빨간 국물의 탕도 있더군요. 점심 식당으로 추천합니다. 가격이 만원이 넘지만 요즘 점심물가…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "경성골목집",
@@ -3242,23 +4549,44 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 매콤달콤한 특제 소스를 불판에 올려주는데 냉삼을 찍어 먹으면 그또한 일품이다. 국물 땡겨서 쌀국수 시켯는데 그것도 매우 맛있었다. 찾기가 조금 힘들 수 있는데 나만 간직하고픈 냉삼…",
       "[4★] 조용히 먹을수 있는 냉동 삼겹살 분위기 좋네요…",
       "[5★] 냉삼맛집~~굿…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "중앙해장",
@@ -3286,13 +4614,10 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "피곤함",
-      "허전함"
+      "피곤함"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
+      "야근후",
       "점심",
       "해장"
     ],
@@ -3305,7 +4630,22 @@ const restaurants = [
       "[4★] 솔직히 곱창전골 먹고 주차요금 10분에 1000원 내면 별로 기분안좋음…..다른건 뭐 불만없음 아무리 갑이라고해도 주차비는 좀 에바인듯…",
       "[4★] 강남에서 해장국 맛있는집중 하나. 해장국 먹었는데..역시 맛있네요. 원래 곱창 전골이 유명해요."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "캘리포니아 피자 키친",
@@ -3334,9 +4674,8 @@ const restaurants = [
       "데이트"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후"
     ],
     "wx": [
       "맑음",
@@ -3347,7 +4686,22 @@ const restaurants = [
       "[5★] 가족들과 쇼핑나왔어요 웨이팅 싫어서 미리 예약한 캘리포니아파자키친 다양하게 먹을수있고 맛도있어서 넘 좋았어요…",
       "[5★] 코엑스 데이트와서 만족스러운 양식 식당이에요. 분위기가 너무 좋고 음식의 맛도 매우 훌륭했어요! 식당의 유래가 캘리포니아에서 시작했다던데 미국의 맛도 역시 느껴집니다. 코엑스에서…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "마노디셰프 삼성점",
@@ -3371,21 +4725,40 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "회식"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 삼성역 근처에서 조용하게 이탈리안 음식 먹기 좋은 곳이에요. 블루리본을 여러 해 받은 곳이라 기대했는데 음식, 분위기 모두 만족스러웠습니다.  스트로베리&아보카도 샐러드는 재료가…",
       "[5★] 드라마에도 종종 나올만큼 고급스럽고 클래식한 분위기에서 퀄리티 높은 신선한 식재료로 조리된 맛있는 이탈리안 음식을 즐길 수 있었습니다. 삼성역 블루리본 맛집 '마노디셰프' 삼성점…",
       "[5★] 연말 가족모임으로 다녀왔는데, 들어서는 순간부터 고급스럽고 따뜻한 분위기가 너무 인상적이었어요. 드라마나 광고 촬영지로 쓰일 만큼 인테리어가 정말 세련되고, 곳곳에 연말 소품들이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "부타이 1막",
@@ -3410,15 +4783,18 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3426,7 +4802,22 @@ const restaurants = [
       "[4★] 라멘과 돈까스를 제대로 맛 볼 수 있는 곳. 최고라고 하기에는 조금 부족함이 있지만, 그래도 줄을 서서 먹어볼 가치는 충분히 있다. 진한 국물의 라멘을 좋아하는 분이라면 만족할만하…",
       "[5★] 강남구 삼성역 근처에 위치한 부타이 1막 다녀왔어요  예전부터 가보고 싶던 곳인데 삼성역 온김에 오픈런했습니다  마제소바와 돈카츠 엄청 고민하다 매운맛 마제소바로 주문했어요  민찌…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "경천애인2237",
@@ -3453,24 +4844,41 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "데이트",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 좋아하는 와인을 가져가서 즐길 수 있는 corkage free 한우 전문점입니다. 상당한 품질의 한우를 맛볼 수 있이며 방문객이 많아 예약하고 가시는 것이 안전합니다.",
       "[5★] 적당한 가격에 최상의 숙성한우를 맛볼 수 있다. 안심, 등심 모두 최상급, 고기 구워주시는 분도 친절하다…",
       "[5★] 고기 맛있고 곁들임 반찬 최고고 룸도 있고 분위기 어두워서 좋음  미나리볶음밥 정말 맛있고 서비스도 정말 좋았음 다만 술을 판매하지 않기때문에 술 드실 분들은 콜키지 프리이니 챙겨…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "그란구스또",
@@ -3495,24 +4903,39 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "접대",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 매번 갈 때마다 디너 코스만 이용해서 다른 요리는 잘 모르겠지만, 가격대비 훌륭함. 메뉴 구성도, 맛도 만족스러움 메인메뉴 옵션에 따라 코스가격이 다르게 책정되어있는데, 양갈비는…",
       "[5★] 동네에 있는 최고의 레스토랑. 오래오래 계속 있으면 좋겠는 곳. 분위기도 좋고 고등어파스타가 일품인곳.주로 생선요리가 맛있다.",
       "[5★] (2023.04.) 전반적으로 분위기가 좋고 음식도 훌륭했습니다. 이 곳이 고등어파스타로 유명한 것으로 알고 있는데 명성을 얻을 만하다고 생각했습니다. 다른 음식들도 제가 우리나라…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "성북동청국장",
@@ -3534,24 +4957,39 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 냄새때문에 청국장을 그리 좋아하지 않았는데, 지인 추천으로 가서 먹어보니 담백하고 맛있었어요. 냄새가 별로 나지 않아 부담스럽지 않네요. 갈비살 같은 것도 들어 있고, 간이 세지…",
       "[4★] 처음에는 비주얼을 보고 살짝 실망했다가 맛을 보고는 그 실망이 사라졌다. 정갈한 느낌의 청국장이라고 해야하나. 계속 떠먹게 되는 매력을 거진 맛이다. 대접에 상추와 함께 비벼 먹을…",
       "[3★] #삼성동 #성북동청국장  \"변하지 않는 자극\"  재료맛 보다는 자극을 강하게 주는  식당들이 있다. 삼성동에 위치한 성북동청국장이 전형적인 예인데 그 자극 때문인지 꾸준하게 사랑을…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "고운님삼성점",
@@ -3573,24 +5011,37 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
-      "4번출구 근처",
-      "점심",
-      "접대"
+      "가성비"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 3년전이랑은 다르게 음식이 그냥그냥. 특히 갈치조림은 갈치가 다이어트 하고왔는지 살도 없고 비린내나고.  가격대가 저렴한것도 아닌데 너무 실망.  남도음식은 역시 남도랑인가 •_•…",
       "[4★] 정식 중 2번째로 상차림이 다양한 코스 주문 자극적이지 않고 정갈하며 요리의 불조절 및 염도조절도 괜찮은 편 회도 일본식 까진 아니지만 조금 숙성해서 내놓은 듯. 음식 설명, 서빙…",
       "[5★] 정말 제대로된 남도음식을 맛볼 수 있는 고운님입니다. 정성 가득한 반찬들 늘 맛있고 특별히 오늘 요일정식의 콩비지찌개 참 맛났어요!  오늘 김장하는 날이라고 사장님 차에 실려있던…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "파크 하얏트 서울 더 라운지",
@@ -3621,26 +5072,45 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "고기 구이",
-      "분위기 좋은 저녁",
-      "심야 밥",
-      "점심",
+      "고기구이",
+      "데이트",
+      "야근후",
       "접대",
-      "회식 2차"
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 발렛되고 대화하기 편해서 자주이용해요. 음식은단품으로 늘 먹지만 오늘 저녁약속을 여기로잡고 디너 코스요리 처음 오더해봤는데 1인 20만원코스에요 . . 세상에 세상에나 세상에 이렇…",
       "[4★] 뷰도 좋고 친절하며 음식도 전체적으로 라운지치고 훌륭합니다 우대갈비 먹기좋고 맛있게 나오고 조림요리도 좋습니다 추천합니다…",
       "[2★] 20250517 오후4시30분경 식스핸즈 애프터 눈 티 세트 이용했습니다. 직원 서비스 교육이 필요합니다. 첫번째 음식이 세팅되고 얼마지나지 않아서 여자분이 오셔서 양해도 구하지않…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "해봉정육 삼성본점",
@@ -3670,20 +5140,38 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "데이트",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 바로 앞에 유료 주차장이 있는데, 한 시간 무료 주차되요. 프리미엄 모듬을 먹었는데, 특히 토시살이 완전 부드럽고 맛있었어요.  다른 부위도 좋았어요. 미경산 한우라서 그런지 비싸…",
       "[5★] #대치동 #해봉정육  \"맛있는 미경산우를 좋은 가격과 좋은 분위기로 즐기자\" \"주말 콜프의 즐거움\" “고기집 티리미스가 이렇게 맛있으면 반칙이지”  미경산한우를 취급하는 해봉은 해…",
       "[3★] 소고기는 1 +(plus)등급이고 맛은 괜찮습니다. 가격도 강남에 위치한 소고기집 치곤 비싸지 않습니다. 다만 손님에 대한 직원들의 태도가 매우 별로입니다. 강남이나 삼성역 근처에…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "치즈룸X멜팅샵 코엑스 파르나스몰",
@@ -3708,15 +5196,18 @@ const restaurants = [
     "moods": [
       "기분 좋음",
       "데이트",
-      "축하",
-      "혼밥"
+      "축하"
     ],
     "scene": [
+      "단체",
+      "데이트",
       "브런치",
-      "심야 밥"
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -3724,7 +5215,22 @@ const restaurants = [
       "[5★] 삼성동 파르나스몰에 위치한 독특한 컨셉의 이탈리안 레스토랑. 전체적으로 노란색 백열등과 더불어 작고 노란 타일과 둥근 거울 여러개로 디자인한 벽면의 인테리어가 샤방샤방해서 굉장히…",
       "[3★] 귀여운 분위기의 치즈룸 멜팅샵. 퓨전 이탈리안이라고 해야할까. 피자, 파스타 등의 음식을 즐길 수 있다. 음식들은 모두 예쁘게 플레이팅 되어 있어 보는 눈을 즐겁게 한다.  하지만…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "서울물회",
@@ -3747,15 +5253,18 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "가성비",
+      "단체",
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3763,7 +5272,22 @@ const restaurants = [
       "[4★] 우선 가성비는 나쁩니다. 꽤 비쌉니다. 가성비 빼곤 음식은 상당히 괜찮습니다. 막회 소자가 거진 7만원은 했던걸로 기억하나 양이 크게 많지 않구요. 막회는 그냥저냥 일반적이나 초장…",
       "[5★]   11시오픈 저녁 10시까지 영업을 하시며 오픈런을 하지 않으면 한테이블이 돌때까지 식사를 기다려야함  홀과 룸이 별도로 있으며 미리 예약을 하여야 룸이 입장가능 이식당이전에 \"…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "탄탄면공방 파르나스몰점",
@@ -3785,23 +5309,38 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
       "축하"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 탄탄면 맛있습니다. 저 맵질인데, 맵지 않고 맛있게 잘 먹었습니다. 중간쯤먹고 마늘소스 추가하면 별미입니다. 미니 공깃밥 무료입니다. 남은 국물에 말아 마무리하면 너무 좋습니다.",
       "[2★] 별점도 높고 항상 웨이팅이 길어서 궁금했는데, 평범하고 와 맛잇다~~ 이런맛 전혀 없습니다. 그릇만 귀여움. 그리고 견과류 때문인지, 국물이 칼칼하지 않고 걸죽-해요. 사천매운맛도…",
       "[3★] (당신이 외국인이라면, 견과류 알레르기와 매운맛의 유무를 확인하고 주문하세요)  원래 집 근처에도 있었는데 매장이 사라져서, 이제는 코엑스몰 오면 먹어요. 여기가 본점이에요. 주문…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "아메리칸테이블",
@@ -3823,15 +5362,16 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3839,7 +5379,22 @@ const restaurants = [
       "[5★] 아메리칸스탠다드가 직영하는 식당으로 입구 바로 옆에 주방가구 쇼룸이 큼직하게 자리잡고 있어 직영 매장 느낌을 주었습니다. 매장이 매우 넓고 좌석간의 간격도 넉넉하여 좋았습니다. 캐…",
       "[4★] 아메리칸 스탠다드에서 운영하는 레스토랑인가봐요. 주차 자리는 여유있는데, 무거운 주차금지 구조물(?)이 칸을 막고 있어서 문의했더니 직접 치우고 하라고 안내해줘서 조금 당황했어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "한양화로삼성동본점",
@@ -3863,23 +5418,40 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 점심 식사하러 찾아간 곳, 뚝배기불고기와 육개장이 9,000원으로 만족. 살은 좋은 재료를 사용해 밥맛이 좋으나 반찬이 깍두기와 배추김치 뿐으로 한가지라도 더 있었으면 좋겠음. 다…",
       "[5★] 음식의 퀄리티가 장난 아니네요 .. 고기 육즙도 장난아니고 항상 사람이 많아서 궁금했는데 사람이 많은 이유가 있네요!! 부모님도 너무 좋아하시고 자주 방문할거같아요 맛있게 잘 먹고…",
       "[3★] 소고기 전문 체인점  소고기를 이런 가격에 먹을 수 있다니!! 500그램이 이 정도 가격이면, 비싼 삼겹살 가격 정도로 먹을 수 있다. 세트 메뉴인 한판 A와 B를 둘 다 먹어본…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "오마치 슌",
@@ -3901,16 +5473,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
-      "피곤함",
-      "혼밥"
+      "데이트"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3918,7 +5488,22 @@ const restaurants = [
       "[5★] 사장님 친절하고 재밌으시고 가장 중요한 요리! 신선하고 좋은 재료로 애주가의 입맛에 딱 맞게 만들어주신다~~한번 가면 무조건 또 생각나는 곳!👍👍👍…",
       "[4★] 사케에 진심인 니혼슈전문점 사장님 참친절하시고 음식도 맛있어서 손님이 더 많아졌으면 좋겠네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "일미쌈밥",
@@ -3940,13 +5525,15 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "회식"
     ],
     "scene": [
-      "점심"
+      "단체",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -3954,7 +5541,22 @@ const restaurants = [
       "[5★] 이 동네에서 이 가격에 이정도 퀄리티면 굳굳, 사장님도 친절하시고 후식이라고 수박까지 챙겨주시니 더욱 좋았던 곳! 회사에서 조오금 멀지만 또 찾아갈만한 듯…",
       "[5★] 쌈밥이 아주 맛있어서 회식때 자주 이용하고 있습니다^^…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "강남꿀돼지",
@@ -3976,24 +5578,41 @@ const restaurants = [
     "tags": [],
     "moods": [
       "기분 좋음",
-      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 삼성동 대웅제약 사옥 근처에 있는 돼지고기 전문식당. 제주흑돼지 삼겹살,  오겹살, 목살 등은 고기의 육즙이 풍부하고 부드러워 맛이 좋다. 고기 먹은 후에 먹는 해물라면도 시원하고…",
       "[4★] 정확한 온도네서 정성스럽게 구워주는 고기가 맛있네요.",
       "[1★] 야채 등 밑반찬은 다양하고 좋습니다. 정체를 알 수 없는 퓨전계란고추참기름황태국(?)이 있습니다. 고기 잡내 엄청 심합니다. 똥통에 담궈놨다가 꺼낸 고기라고 해도 믿을 정도로 똥내…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "솔향기",
@@ -4015,13 +5634,14 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4029,7 +5649,22 @@ const restaurants = [
       "[4★] #삼성동 #봉은사역 #한식뷔페 #9.0원(현금8.0) #10가지반찬다양함…",
       "[5★] 점심만 먹었는데 디저트까지 완벽합니다 6,000원 선불…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "소나무집 꼬막밥상",
@@ -4052,14 +5687,17 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트"
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "점심",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4067,7 +5705,22 @@ const restaurants = [
       "[5★] 모임하기에도 좋은장소이며 시골에서 직접담아온 알타리(총각)김치가 일품이네요~^^*…",
       "[5★] 소나무집 꼬막밥상  12월 14일 강남구 삼성역 인근 백암아트홀에서 뮤지컬 스토리오브 마이라이프를 관람했는데..  저녁시간이라 같이 관람한 친구와 저녁을 먹기위해 들렀던 곳.."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "화차이",
@@ -4094,21 +5747,38 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "데이트",
+      "야근후",
+      "회식"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 정말 맛있어요~~~ 모든것에 정성이담긴것같아요~ 항아리에 음식이 나오니 계속 따뜻하고 깔끔한것같아요^^…",
       "[4★] 예전보다 나빠졌어요. 아래는 예전 리뷰...  여기서 차돌짬뽕이랑 짜장면 먹고 한국의 짜장면 짬뽕 수준에 대한 기대치를 재설정 할 수 있었음. 정말 감동할 만한 맛이었음.  물론…",
       "[5★] 선릉 화차이로 검색해야 됨 오향동고가 가장 유명 요리를 즉시 해줘서 좋음 겨울 한정 굴탕면 9천원 요일별 할인 메뉴 있음 금요일에는 오향동고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "서울밥상",
@@ -4127,22 +5797,37 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 진짜 오랜만에 방문했는데도 변함없는 정성스러운 음식 ! 반찬리필도 잘해주시고 친절하신 사장님 최고 !  물없이 조리신다는 감자볶음 비법전수까지 ^^ 오늘은 바삭 뜨끈 초크초크 가자…",
       "[4★] 봉은사역 5번 출구의 골목에 위치한 백반 전문점입니다. 보통 밥과 국 그리고 5가지의 기본반찬이 나오며, 추가로 고등어 조림, 가자미 구이 와 제육볶음이 매일 번갈아 가며 나옵니다…",
       "[5★] 반찬수북이  주시고  맛있어요 . 메인찬도  따뜻하게  바로해서  주셔서  항시  맛있게  먹고있어요 . 계속 운영하셨으면 좋겠어요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "삼성동 밀밭칼국수",
@@ -4170,12 +5855,15 @@ const restaurants = [
       "기분 좋음",
       "데이트",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -4184,7 +5872,22 @@ const restaurants = [
       "[4★] 콩국수 먹었는데 국물이 진해서 좋았어요. 근데 뭔가 2%부족한 느낌?? 면이 우동면?? 뚱뚱한 면이라서 씹는데 좀 힘들었어요. 사람들이 칼국수는 안먹고 비빔밥 먹는 이유를 알겠던.",
       "[4★] 동네 오래된 칼국수 집이라 맛은 개안은데, 분위기는 일반 식당 분위기…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "백가향",
@@ -4210,25 +5913,42 @@ const restaurants = [
     ],
     "moods": [
       "기분 좋음",
-      "데이트",
+      "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "마라탕·훠궈",
+      "단체",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] 백가향. 삼성역 주변은 정말 먹을만한 곳이 많지 않은 편. 이 날도 작지만 쉽지 않은 보고를 끝내고 퇴근 후 회포를 풀면서 앞으로 어떻게 할지 고민하기 위해 어디로 갈지 어슬렁거리…",
       "[4★] 인원: 3명 시간: 평일점심 주문: 짬뽕1, 차돌짬뽕2  매장은 넓은데 사람이 많아서 대기를 10분정도 함.  차돌짬뽕에 고소한맛과 매운맛 그리고 약간에 불향 매운정도는 신라면보다…",
       "[5★] 정통 중국음식점인데 룸도 있어 편하게 대화하며 음식과 술을 즐길 수 있어 좋았습니다. 음식맛도 뛰어나고 직원분들도 친절해서 좋네요! 삼성동 인근에서는 가장 맛있는 중국집이 아닐까…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "본죽 삼성차관아파트점",
@@ -4247,19 +5967,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4267,7 +5982,22 @@ const restaurants = [
       "[1★] 재료 너무아끼네 죽에 물탄느낌이고 굴에선 굴껍질나와 형태는 알아보기도 힘든데다가 버섯은 종이처럼 얇음. 본죽 여럿다녀봤지만 최 악!",
       "[4★] 가게는 그리 크지 않습니다. 10명이 겨우 앉을 정도인데 미리 주문도 되고 친절하심..."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "파지티브호텔 선릉",
@@ -4288,21 +6018,15 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "기분 좋음",
-      "데이트",
-      "스트레스",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4310,7 +6034,22 @@ const restaurants = [
       "[5★] 선릉의 오아시스 같은 곳🏝️요가하고 스무디 한잔 하면서 힐링하고 가요! 여기 와서 아메리카노만 먹고가는 회사원분들 아쉬워요 진짜 매력적인 메뉴가 많아요🥹즐겨요 우리…",
       "[1★] 커피는 많이 싱거웠고 체다치즈랑 시금치 들어간 토스트는 밀가루맛만 나고 싸구려맛 나요~\" 토스트가이니라무슨 호떡인줄 알았네요 ㅎ 맛에비해 가격도 비싸구 두번다시는 안가고 싶음 🪳…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "미웨이",
@@ -4329,22 +6068,37 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "기분 좋음",
-      "데이트"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 저는 제육쌈밥을 주문했는데요 상추하고 양배추 쌈이 나와서 좋았어요 저염 저당이라니 몸에 좋을 거 같긴 하지만 제 입맛에는 맛이 좀 아쉬웠어요!  콩나물 국이나 반찬은 괜찮았어요 ㅎ…",
       "[5★] 모든 메뉴에 진미료를 넣어 맛 뿐 아니라 건강도 생각하는 음식으로 판매하는 음식점 나를 사랑하는 모든분들은 무조건 방문해야 하는 곳~^^ 최고 강추👍💕…",
       "[3★] 김치찌개 8천원 고기가넘적어요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "보노보노 삼성점",
@@ -4370,14 +6124,12 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하",
       "회식"
     ],
     "scene": [
-      "오마카세·스시",
-      "점심",
-      "회식 2차"
+      "데이트"
     ],
     "wx": [
       "맑음",
@@ -4388,7 +6140,22 @@ const restaurants = [
       "[5★] 음식, 서비스, 분위기 전부 만족스러웠어요. 사시미부터 핫푸드, 디저트까지 종류가 다양하고 재료도 신선해서 하나하나 퀄리티가 좋았습니다. 특히 사시미랑 튀김류가 맛있었고 디저트 케…",
       "[5★] 작년에 오고 오랜만에 재방문했어요. 서비스도 좋고 해산물이 확실히 강합니다! 맛잇고 신선해서 너무 좋아요 :) 아이스크림도 디저트도 다 좋습니다~!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "뽕나무쟁이 본점",
@@ -4411,27 +6178,37 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "야식",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 지인의 청첩장 모임을 위해 방문한 뽕족 본점. 방이동에서도 본 적이 있었는데 이 곳이 본점이라고 한다. 근처에 직장이 있다면 모두가 아는 인기점이다. 인기점답게 실내가 넓은데도 거…",
       "[3★] 2025.07.30 방문 선릉역 족발 맛집입니다 음식이 참 맛있는데 너무 시끄럽습니다  테이블 간격이 정말 좁습니다 손님을 최대한 많이 받으시겠다고 꾸역꾸역 자리를 만들어 두셔서…",
       "[5★] 강남 근처에 약속이 있으면 자주 들르는 족발 맛집  저녁시간에 조금만 늦어도 웨이팅이 걸려있으니 바로 가서 자리를 잡는게 중요!!  야들야들 쫄깃한 족발과 함께 시원한 막국수 한젓…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "외고집설렁탕",
@@ -4455,14 +6232,16 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
       "점심",
       "해장"
     ],
     "wx": [
+      "덥고 습함",
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -4471,7 +6250,22 @@ const restaurants = [
       "[5★] #삼성동 #외고집설렁탕  \"가격의 부담을 이겨내는 맛: 강남 최고의 설렁탕\"  도곡동 지하에서 시작한 설렁탕집이 미슐랭을 받는 모습까지 지켜보고 있자니, 이렇게 해서 강남 최고의…",
       "[5★] 도가니탕 먹었는데 맛 좋았습니다 가격이 비싼 느낌이 있지만 누린네도 안나고 도가니도 커서 만족했습니다 든든한 한 끼 생각날때 또 올 것 같아요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 2,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "이남장 삼성점",
@@ -4493,25 +6287,41 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "축하",
       "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "해장",
+      "특별한날",
       "혼밥"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 을지로 뒷골목에서 상당히 오랫동안 똑같은 맛을 지켜오고 있는 설렁탕 전문점의 삼성동 분점입니다. 꼬박 이틀을 고아낸 고깃국물은 진한 맛이 일품이며 고기가 굵고 좋습니다. 또한 특에…",
       "[3★] 국수와 밥이 말아져 나오는 설렁탕이에요. 1인 1메뉴시 국수, 밥, 육수 무한리필이래요.(단 후식 설렁탕은 제외) 고기 두툼하고 맛있어요. 국수, 밥량 너무 적게들어있어요.  테이…",
       "[4★] 모듬수육 대(80,000원) + 일품진로(25,000원, 이벤트 1+1, 아사히맥주 3잔 제공)주문하였습니다.  일품진로를 1+1 로 이벤트 하시는 혜자 스럽네요. 덕분에 오크를…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "아웃백스테이크하우스 코엑스스타필드점",
@@ -4536,12 +6346,15 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "점심"
+      "점심",
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -4552,7 +6365,22 @@ const restaurants = [
       "[4★] 런치세트로 페퍼콘스트립로인 새로나온거 같아서 주문했는데 맛있었어요 채끝이라 퍽퍽할 수 있는데 겨자 소스가 잘 어울려서 부드럽게 먹었어요 👍😀…",
       "[5★] 으앙 아웃백은 언제나 옳아유. 블랙라벨 마넌 할인에 에스케이 할인까지~ 배터지게 먹었는데도 8만원도 안나왔네용. 굿굿. 고기도 넘 알맞게 익어서 나오구요. 친절하고~ 좋았어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "오발탄 삼성점",
@@ -4577,23 +6405,43 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하",
+      "기분 좋음",
+      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "데이트",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 강남구 삼성중앙역 근처에 위치한 오발탄 다녀왔어요  주문한 메뉴는 특양구이와 대창구이 여기에 왕갈비까지 함께 구성해 다양한 부위를 즐겼습니다  고기는 양념된 고기를 테이블에서 바로…",
       "[5★] 양밥 주문. 쫄깃하게 식감 좋은 양과 밥을 잘 비벼 뜨거운 돌판위에 올려서 서브. 식욕 돋구는 비주얼에 돌판에 닿은 부분은 눌은밥이 되어 구수하고 씹는 맛까지 좋음.  곁들임으로…",
       "[5★] 고급진 분위기의 맛있는 곱창집! 저는 사실 곱창을 좋아하지 않아요. 누가 사준다해도 잘 안먹는 음식인데, 여기 곱창은 비싸고 맛있어요. 달달한 소스가 킥인것 같은데 유일하게 내돈내…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "허머스키친",
@@ -4618,22 +6466,42 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "가성비",
+      "데이트",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 음식도 맛있고 분위기도 좋아서 굿. 중동요리가 생각날 때마다 찾는 곳인데, 이번에도 만족스럽게 식사를 했어요. 무사카, 새우 샥슈카, 스매쉬드 포테이토, 아보카도샐러드를 먹었는데…",
       "[5★] 깔끔한 분위기에서 적당한 가격에 중동음식을 맛볼 수 있는 곳이에요 스테이크샥슈카도 적당히 매콤달달했고 치킨샐러드는 닭이 엄청 부드러웠고 중동식단에서 빠질 수 없는 피타빵과 후무스가…",
       "[5★] 코엑스에서 가성비 좋고 분위기있는 식당. 음식도 자극적이지않고 맛있음. 직원응대도 친절한편. 피크타임에 웨이팅은 항상있으나, 회전이 빨라서 오래기다리진 않아도 됨 레몬갈릭치킨, 하…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "창고43 삼성점",
@@ -4657,15 +6525,21 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "데이트",
+      "축하",
+      "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "점심"
+      "단체",
+      "데이트",
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4673,7 +6547,22 @@ const restaurants = [
       "[5★] 분위기 프라이빗해서 좋았구용, 고기도 매우 맛있게 잘 먹었습니다. 종류별로 거의 다 먹어본 것 같은데 추천해주신 특안심이 감동이였습니다. 서비스는 당연히 훌륭했고, 마지막에 먹은…",
       "[4★] 회식으로 강남점 창고를 많이 가봤고 삼성점은 두번째입니다. 고기맛은 창고는 비슷~ 언제 먹어도 안심은 부드럽고 육즙터지고.. 굿~ 근데 깍두기볶음밥 된장밥은 그냥 다 따로 노는 느…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "Boreumsae (보름쇠)",
@@ -4694,22 +6583,39 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "축하"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 가격은 좀 비싼 편이고, 실내 인테리어가 특별하지는 않지만, 고기 질과 맛은 매우 뛰어났습니다. 귀한 손님 모시고 갔었는데 매우 만족했습니다. 안창살과 치맛살을 맛있게 먹었습니다.",
       "[4★] 흑우의 식감은 독특하다. 소고기와는 차이가 있으며 부드럽지는 않지만 그렇다고 질기지도 않다. 고기외 국물의 맛은 입맛을 자극한다. 한그릇 먹는 동안 멈출수가 없다.",
       "[4★] Enjoying the Michelin chosen meat. only the one Michelin star Restaurant on the world which shop has…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 5,
+      "late_night": 3
+    }
   },
   {
     "name": "고운님 포스코점",
@@ -4730,22 +6636,42 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "축하"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "접대",
+      "특별한날"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] ​\"손맛 좋은 남도 음식 전문점!\"  ​오랜만에 방문해도 여전한 남도 손맛의 정석, 고운님. 🌊  여름 하모와 겨울 새조개도 별미지만, 자금 사정도 고려 다채로운 구성을 위해 선…",
       "[3★] Rating : 👍👍👍 Place : 대치동 고운님  대치동 포스코 사거리에 위치한 남도식 사계절 제철음식 전문점.  포스코 아재들이 접대 받느라 하도 맛있는 음식들만 찾아대…",
       "[5★] 반찬한가지만 먹어봐도 왜? 맛집인지 알 수 있는 곳입니다. 반찬만으로도 밥 한끼 충분 할 것 같네요. 조기국이랑 돌솥문어 밥이랑 먹었고 충분히 맛있게 먹었어서 만족했습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 4,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "후레쉬빌",
@@ -4768,21 +6694,38 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 부모님 모시고 왔는데 너무 맛있게 드셨다고 하네요~ 양도 많고 맛도 좋고 좋은 시간 보내고 갑니다~! 회오리 오므라이스 양식 돈가스 좋아하시는 분은 꼭 와보세요~!",
       "[5★] 삼성역에서 점심맛집으로 유명한 후레쉬빌에 다녀왔어요:)  다양한 메뉴로 친구들끼리 와도 각자 먹고싶은걸 고를 수 있어서 너무 좋았어요  그리고 치즈앤치즈불돈까스 메뉴 완전 추천드려…",
       "[5★] 강남에서 이가격에 ...취향껏 식사 해도 1인 1만원초반.. 블루리본 이해가요.. 돈까스에 코다리비빔모밀까지 다양한 음식이 양도 넉넉해요.. 돈까스도 두껍진 않지만 바삭하니..식감…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 5,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "쉐이크쉑 코엑스점",
@@ -4804,21 +6747,40 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 가격대가 저렴하지 않지만 한국의 프리미엄 버거가 본격적으로 확산하게된 계기가 된 가게라고 생각합니다.  버거번 과 패티가 고기향과 질이 좋은 편이며 이번 트러플 버거는 트러플과 야…",
       "[5★] 깔끔한 매장에 자동 손세척기까지 구비되어있는 코엑스메가박스점 쉑쉑버거 버거가 작은 듯 하지만 일단 먹어보면 수제버거의 깔끔하고 정갈한 맛을 느낄수 있어요 감튀도 두껍고 맛있어요 케…",
       "[4★] 쉑쉑버거는 어느지점을 가도 시끄럽고 정신 없는듯? 그래도 주문하고 음식 빨리 나와서 좋았고, 맛은 그럭저럭 괜춘! 수제버거 느낌은 아니지만, 뭔가 크기가 부담스럽지 않아서 코엑스가…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 5,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "현대옥 코엑스점",
@@ -4840,6 +6802,7 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함"
     ],
     "scene": [
@@ -4847,6 +6810,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -4854,7 +6818,22 @@ const restaurants = [
       "[4★] 남부식 콩나물국밥^♡^밥이 같이 들어있어요 오징어 추가해서 먹으면 더 맛있고~! 반찬.김.밥은 셀프바에서 추가 가능해요~☆ 가게앞 주차도 됩니다^^…",
       "[4★] 현대옥은 콩나물 국밥을 전문으로 하는 체인점입니다.  여기는 전주식 콩나물 국밥을 토렴하는 전주남부시장 방식과 끓어서 나오는 방식 2가지 모두 제공하고 있어요. 콩나물 국밥에 제공…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "어방참치",
@@ -4880,15 +6859,18 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
+      "가성비",
+      "야근후",
       "점심",
-      "회식 2차"
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -4899,7 +6881,22 @@ const restaurants = [
       "[5★] 우연히 가족과 갔는데 예상보다 좋았다. 참치도 괜찮고, 친절하시고, 가게도 작디만 깔끔했다. 가성비가 높아 다시 갈 예정이다.",
       "[2★] 저녁시간에 방문했고, 우선 처음 나오는 참치가 사진과 같은데 꽤 퀄리티가 이상했습니다. 아래에 까는 무채인가요..!? 그것도 살짝 갈변되기 전이었고 참치도 공기 노출이 좀 된게 나…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "고메고매 정육회관",
@@ -4920,23 +6917,41 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 고기 육즙 엄청나고 계란찜도 보들보들 맛있구 누룽지랑 된장찌개도 최고에요!!!단골될 것 같아요ㅠㅠ 상차림도 대박이에요. 반찬 종류가 많은데 하나같이 다 맛있네용ㅎㅎ…",
       "[4★] 이벤트중인 항아리삼겹살 가격대비 맛이 갠찮네요 밑반찬은 다른고기집에 비해푸짐한폅이고 김치맛났어요 아쉬운거라면 찌개든 밑반찬이든 간이다소 센편이네요 가족끼리 식사하기 괜찮아요 직원들…",
       "[5★] 좌석마다 분리돼 있어서 조용한 식사가 가능한 것도 좋은데 고기도 진짜 맛있어요. 안 바쁠 땐 고기도 구워주시는데 솜씨가 아주 예술입니다. 고기굽기 특강 여시면 1등으로 수강 신청할…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 5,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "버거킹 삼성중앙역점",
@@ -4961,19 +6976,35 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 늦은 점심 먹으러 버거킹 들어왔습니다. 치즈와퍼세트 주문했고,  콜라를 아메리카노로, 감자튀김은 코울슬로로 변경했습니다. 프렌차이즈라 어느 지점이나 맛은 크게 차이없죠. 와이파이는…",
       "[5★] 주문 후 수령까지 속도가 빠릅니다.  매장의 내부 또한 깨끗합니다.  문의 및 추가 내역에 대한 요청에 친절하게 응대해주십니다.",
       "[4★] 코엑스근처 버거킹 생긴지오래안되깔끔하고 이용하기좋습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "청자골",
@@ -4996,23 +7027,41 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 선릉역 포스코사거리 맛집..! 남도 전통음식을 강남 한복판에서 만나다니! 육사시미 때깔 진짜 장난아닌데 씹는식감도 지금까지 먹어본 것중에 최고 ㅜㅜ근본 어리굴젓에 모찌 식감 육사시…",
       "[5★] 포스코 뒷편 대치동에 위치한 한우 및 남도음식 전문점.  강진에서 당일 직송으로 청정 한우를 공급받기에 항상 신선하고 질 좋은 고기로 유명한 곳이다.  이곳은 저녁식사 및 회식장소…",
       "[5★] 여긴 정말 반찬도 다 손맛이 느껴지고 찐으로 맛있는 집이에요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "밀숲 대치점",
@@ -5033,23 +7082,37 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "가성비"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 가성비가 정말 좋은 칼국수 맛집입니다. 요즘 식사 한끼 가격은 보통 1만원이 넘는데, 여기 칼국수는 5,500원으로 반값입니다. 국물과 면 맛 모두 좋고, 반찬 김치도 정말 맛있습…",
       "[5★] 은마아파트 북문쪽 입구. 대치동이라고 음식 모두 비싸지 않습니다.선입관을 버리세요. 칼국수4500원. 체인을 따나서 good. 그렇지만 코로나시대 매장내 식사는 부담되니 포장해와서…",
       "[3★] 제일 기본이자 간판메뉴인 사골칼국수. 당시 추가주문이 계속들어가 계속 추가 추가 섞여서인지 간도 제대로 안맞음.  원래그럴수도 있겠지만;;  사골육수에 큰 기대를 한건 아니지만,…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "아시안 라이브",
@@ -5073,24 +7136,46 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "점심",
-      "접대",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "특별한날",
+      "회식"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 업무 때문에 가끔 가는데 개인적으로 너무 돈 아까운 곳. 물론 5성호텔 레스토랑이니 분위기나 서비스는 뭐라 할게 없지만, 룸에서 먹어야하는 디너코스가 20~23만원인데 비슷한 가격…",
       "[5★] 5성급이름에 걸맞게 직원들 매우친절하고며 음식도 너무정갈하게 잘나오며 마음이 담긴 서빙으로로 매우 만족스럽습니다! (((지배인분의))) 고객의 니즈를 간파한 마음이 담긴 서비스가…",
       "[4★] 분위기 맛 서비스 다 좋음. 가격은 너무 비쌈. 된장찌개나오는 멍게비빔밥이 9만원이었던걸로 기억."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "수다 대치점, IZAKAYA SOODA Daechi Branch",
@@ -5115,15 +7200,24 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5131,7 +7225,22 @@ const restaurants = [
       "[5★] 강남 깔끔하고 고급진 이자카야 수다 대치점 방문했어요! 수다 거의 전 지점 가본거 같은데 맛과 분위기 친절까지 정말 최고에요! 가을 신메뉴 새우회 꼭 드셔보세요❤️ 버터관자구이도…",
       "[5★] 선릉역 인근에서 모임을 가질 때면 고민없이 들르기 좋은 선릉역이자카야.  근사한 분위기, 프라이빗 한 공간에서 훌륭한 맛의 일품요리를 만나볼 수 있어 매우 만족했다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 5,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "이봉",
@@ -5154,24 +7263,45 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 가격대가 상당히 높은 편이나 가격 만큼의 음식을 하는 곳.  곰치탕은 고추장베이스의 매운탕 스타일인데 전혀 텁턱하지 않고 개운하다.  고기야 가격이 있는 만큼 당연히 맛이 좋고,…",
       "[4★] 최고의 반찬들과 한우고기들 안창살,암꽃살 기가막히네요 마무리로 생태찌게로 식사도 좋아요 24/12 자연산전복 25만원 메뉴중 싯가는 좀 많이 비싼편입니다…",
       "[5★] 점심메뉴로 대구맑은탕(지리) 매우 훌륭하다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "도스타코스 선릉점",
@@ -5194,16 +7324,19 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "접대"
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -5211,7 +7344,22 @@ const restaurants = [
       "[5★] 선릉역 10번 출구 인근 선정릉 입구 앞 지하에 위치한 멕시칸 레스토랑  다양한 멕시칸 음식을 선보이고 있는 체인점으로서 수도권 안에 10여 곳 지점이 운영중에 있다.  그리 크지…",
       "[4★] 가게는 지하1층에 있으며, 조용한 편에 속하는 음식점이다. 멕시코의 음식을 판매 하며, 정통적인 멕시코 음식은 아니다. 남성 보다 여성이 더 선호 할수 있는 가게이다. 맛은 꽤 맛…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 0
+    }
   },
   {
     "name": "트라토리아 모로",
@@ -5236,13 +7384,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트"
+      "기분 좋음",
+      "데이트",
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "심야 밥",
+      "단체",
+      "데이트",
+      "야근후",
       "점심",
-      "접대"
+      "회식"
     ],
     "wx": [
       "맑음",
@@ -5253,7 +7405,22 @@ const restaurants = [
       "[5★] 회사 회식으로 점심 코스를 먹었는데, 너무 맛있었음 양도 적당하고 고기 굽기도 너무 좋았고 특이한 음식도 있었고 마무리 디저트까지 좋았음  다만 느리게 운영되는 곳이니 전체 코스를…",
       "[4★] 런치에 방문해 와인과 식사를 즐겼다. 특별히 기억에 남는 맛은 아니지만 이곳의 아지트같은 공간 분위기는 대화를 편안하게 만들어준다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 5,
+      "vip_friendly": 4,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "바토스 파르나스점",
@@ -5276,16 +7443,20 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
-      "점심"
+      "점심",
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -5293,7 +7464,22 @@ const restaurants = [
       "[4★] 식당 시그니쳐 메뉴인 김치 까르니따스 프라이즈를 가장 추천드립니다. 타코는 무난무난한 맛있습니다. 단지 타코양에 비해 가격이 조금 비싼편이긴 합니다만 서울시 물가 생각한다면 많이…",
       "[5★] 안녕하세요. 맛있는 멕시코 음식을 먹었으니 스페인어를 병기하도록 하겠습니다.  점심시간(hora de comer) 피해서 갔는데도 손님(cliente)들이 많습니다. 테이블 안내(…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "교대밀밭 삼성점",
@@ -5316,15 +7502,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트"
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5332,7 +7520,22 @@ const restaurants = [
       "[5★] (2024.03.) 마제소바 돈까스세트를 먹었는데 양이 푸짐했습니다. 돈까스는 부수적이지만 적절히 제 역할을 하고 역시 마제소바가 괜찮았습니다. 재방문 의사 있습니다.",
       "[5★] 오랜만에 재방문 했네요.. 오늘 점심은 카레덮밥(1만원)~ 카레가 조금 식었는지 따뜻한 느낌은 없었지만, 그럼에도 맛은 좋았습니다.. 눈이 많이 온 날이라 그런지 테이블이 꽉차있고…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 2,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 0
+    }
   },
   {
     "name": "오발탄 대치점",
@@ -5353,13 +7556,17 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "축하"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5367,7 +7574,22 @@ const restaurants = [
       "[4★] (2025.10.) 분위기가 차분한 느낌인 점이 마음에 듭니다. 양, 대창, 홍창을 골고루 먹어봤는데 괜찮았습니다. 일하시는 분께서 고기를 굽고 잘라 주시는데 너무 크게 잘라 주셨…",
       "[5★] 삼성중앙역 본점만 가다가 대치점 첫방문 ! 너무 만족 !!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "내림손삼계탕 삼성점",
@@ -5390,13 +7612,15 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
+      "가성비",
       "해장"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -5405,7 +7629,22 @@ const restaurants = [
       "[4★] 회사가 많은 곳 주변에 있는 삼계탕 집. 가격으로 인해 반계탕을 많이 먹으며 국물이 좋은 곳. 아쉬운 점이 있다면 손님의 체크를 잘 못하는 지 음식 나오는 순서를 조절하지 못함.",
       "[5★] 닭볶음탕이 맛있고 치킨도 무난함. 저녁에 왜 손님이 별루 없는지 모르겠지만 지금같은 코로나 시기에는 최고인듯.. 넓은 장소에 손님은 한두테이블정도라 코로나 때문에 더 자주가게 되는…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "옥이네",
@@ -5427,13 +7666,19 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
+      "스트레스",
       "혼밥"
     ],
     "scene": [
+      "데이트",
+      "퇴근후술",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5441,7 +7686,22 @@ const restaurants = [
       "[5★] 금요일 밤 퇴근 후에 들리기 좋은 곳🧡 음악도 틀어주시고 음식도 맛있고 분위기도 맛있고…",
       "[5★] 신청곡을 틀어주는 재밌는 곳. 가게 자체의 분위기도 좋습니다. 혼자,친구랑,연인,가족 모두 방문하기 좋은 곳입니다. 화장실이 밖에 있다는게 유일한 단점."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "삼성골목집 삼성본점",
@@ -5465,23 +7725,42 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 파삼겹 하나만으로 방문할 가치가 있는곳. 보통 냉삼보다는 살짝 두껍고 가운데 대파가 딱 박혀있어서 비주얼로도 충분히 맛있어보이고요. 먹으면 파향이 은근하게 올라와서 별미입니다. 기…",
       "[5★] 토요일 6시쯤 방문했는데 꽉 차 있더라구요 매장도 너무 이쁘고 방송에도 나온집이라 기대가 컸는데 기대보다 더 맛나네요 파삼겹은 이쁘기도 한데 파김치 파무침 김치 삼종과 함께하니 아…",
       "[5★] 회식하기도 너무 좋고 정말 맛있어요!! 파삼겹 강추강추 강추!!!! 명란 계란찜 강추!!! 존맛이여유…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "민규 삼성점",
@@ -5504,24 +7783,42 @@ const restaurants = [
       "오마카세"
     ],
     "moods": [
+      "기분 좋음",
+      "축하",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
+      "고기구이",
+      "야근후",
       "접대",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 지인 추천으로 마음찍어둔 곳을 오늘에서야 방문해볼 수 있어서 너무 좋았습니다.  스프로 시작한 코스요리는 혀와 위장으로 하여금 메인 고기를 위한 준비를 마치게 하였고 메인으로 나온…",
       "[5★] 맛이면 맛 서비스면 서비스 친절까지  완벽한 저녁이였습니다 다음에 가족들과 함께 올께요…",
       "[5★] 삼성동 한우 오마카세 민규 삼성점에 방문해서 투뿔 디너코스요리를 즐겼어요.  코스요리가 나올때마다 눈도 즐겁고, 입도 즐거운 맛이에요.  ​특히 메인 식사인 투뿔 한우고기의 육즙과…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "ebt 코엑스점",
@@ -5544,16 +7841,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "데이트",
       "혼밥"
     ],
     "scene": [
       "브런치",
-      "심야 밥",
-      "점심",
-      "접대"
+      "야근후",
+      "점심"
     ],
     "wx": [
-      "맑음",
+      "비",
       "흐림"
     ],
     "rv": [
@@ -5561,7 +7858,22 @@ const restaurants = [
       "[5★] 점심 때 런치코스로 주문하면 둘이서 먹기 딱 좋았어요! 다른 메뉴들도 먹어보고 싶네요 ㅎㅎ 주말에 갔는데 대기시간은 적당했습니다! 코엑스는 어딜가나 사람이 많네요…",
       "[4★] 삼성동 코엑스몰내 새로 오픈한지 오래 안된 Italian Restaurant. 시래가 아주 심플하고 깨끗하고 또 모던한 느낌을 주어서, 지나가다가 쳐다보게 되는 음식점이다. 스테이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "명동칼국수",
@@ -5587,13 +7899,14 @@ const restaurants = [
     ],
     "moods": [
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -5602,7 +7915,22 @@ const restaurants = [
       "[4★] 기계면이지만 면발은 합격. 김치는 약간 짠 느낌이지만 무난. 국물은 맑은 닭국물 같은데 조미료를 좀 줄이면 좋겠음. 하지만 합격점. 단무지는 너무 단맛이고 식초가 없음. 명동교자보…",
       "[4★] 가게명처럼 명동에 있는 명동칼국수 레시피로 만들었네요. 김치 생김치로 국내산 표기까지 되어 있어 믿고 먹었어요. 처음 가봤는데 회사 근처라 칼국수 먹고 싶을때 종종 가려고 합니다."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "보돌미역 강남포스코점",
@@ -5623,17 +7951,16 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "데이트",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "축하"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "가성비",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5641,7 +7968,22 @@ const restaurants = [
       "[4★] 조그만 매장이지만 음식에 내공과 정성이 느껴진다. 미역국은 고급지고 특별한 맛이다. 양도 충분하고....다만 밑반찬은 신선도나 맛에서 조금 아쉽다. 가자미 튀김은 약간의 비린내도…",
       "[5★] 항상 먹는 곳인데 강남포스코점이 근처에 있는지 몰랐습니다. 반찬도 좋고 사장님도 친절하시고.. 저는 전복조개미역국을 시켰는데.. 큰 전복도 2개나 들어 있더라구요. 강남포스코점은…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "지지미",
@@ -5665,16 +8007,22 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "데이트",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5682,7 +8030,22 @@ const restaurants = [
       "[5★] 봄에는 엄나무순(개두릅)전, 겨울에는 꼬막 등 제철 재료를 이용한 안주 때문에 방문하는 곳.",
       "[4★] 편안한 분위기에서 가볍게 한 잔 하기 좋은 곳. 예상하는 바로 그 맛의 음식이 나온다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "다연",
@@ -5703,23 +8066,38 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "점심",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 연 부대찌개는 늘 맛있다.  항상 맛있다고 느꼈고 같이 간 사람들의 열의 아홉 정도는 동의했다. 한 사람 정도는 싱겁다고 느꼈던 걸로 기억한다.  맛있게 먹으려면 사장님이 알려주시…",
       "[4★] 노부부가 운영하시고 육수는 사골베이스가 아니라 멸치나 해산물로 만든걸로 느껴지는데 깔끔합니다. 얼큰한거 좋아하시는분 비추고 짜지않고 담백한거 좋아하시는 분에게 추천합니다…",
       "[5★] 부대찌개 8,000원 3인분 라면사리추가 1,000원 25,000원  맛있습니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "명가막회집",
@@ -5743,19 +8121,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "가성비",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5763,7 +8138,22 @@ const restaurants = [
       "[5★] 막회라는 이름에 맞지않게 정성껏 잘 나옵니다.  생선구이에 소맥을 한잔하고 있으면 주문한 회가 나오고, 전어가 있어 추가 주문하니 가을을 알리네요.",
       "[5★] 친절하고 야채막회가 넘 맛있어요! 가격도 부담스럽지 않고 추천합니다^^…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "네모오징어 삼성역점",
@@ -5784,18 +8174,16 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "단체",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5803,7 +8191,22 @@ const restaurants = [
       "[5★] 깔끔하게 매콤한 갑오징어 볶음이에요. 회사 근처에서 가장 맛있게 먹는 음식 중 하나!",
       "[5★] 삼성동 근처에서 간단하게 저녁회식하기 좋은 곳이라고 생각합니다. 운전면허시험장 근처라서 약간 중심가에서 떨어졌다고 말할 수는 있겠지만, 아주 붐비지도 않고, 그렇다고 손님이 적지도…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "사계절",
@@ -5825,23 +8228,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "회식 2차"
+      "데이트",
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 병어조림 맛있고 친절합니다~ 다음에 또 가보고 싶어요…",
       "[1★] 저와 같은 피해자가 나오지 않길 바라며 리뷰를 적습니다. 회사 근처라 점심으로 갔었습니다. 기본 정식 시켰는데, 김치찌개, 제육볶음, 생선과 밑반찬 여러개 나옵니다. 가격은 만원인…",
       "[5★] 점심 정식으로 먹었는데 맛있었습니다 밑반찬도 정갈하고 맛없는 메뉴가 없네요 만원에 삼성역 근처에서 이정도 식사는 무조건 추천이죠…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "레드바삭",
@@ -5862,15 +8282,14 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "가성비"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -5878,7 +8297,22 @@ const restaurants = [
       "[5★] 진짜 싸고 다맛있고 맛없는게 하나도 없음 특히 김밥은 김치김밥이 죤맛…",
       "[1★] 분식집에서 튀김위에 떡볶이 소스 올려달라고 했다가 발린집은 이곳이 처음입니다. 국룰이란게 있는데 이곳은 분식집 기본이 안되어있는곳입니다  친절하게 거절도아니고 불친절합니다. 튀김에…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "신의주부대찌개삼성점",
@@ -5904,28 +8338,46 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "가성비",
+      "고기구이",
+      "야근후",
       "점심",
       "해장",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "눈",
       "비",
-      "쌀쌀함"
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] #삼성동 #신의주부대찌개  \"우삼겹과 파채가 킥인 부대전골집\"  동네마다 부대찌개집이 몇 군데 있다. 이 집은 전형적인 동네 부대찌개 집인데, 삼성동 직장인들의 점심을 채워주는 곳…",
       "[5★] 파도  많고  맛있습니다..삼성동에서 가성비 좋은 부대찌게입니다. 들어가시면서 결제하고  영수증  반드시 먼저주세요…",
       "[5★] 지하철 9호선 봉은사역 5번이나 6번출구로 나와서 탄천방향으로 100미터쯤 가다가 골목안에 위치. 프랜차이즈형 부대찌개 전문식당으로, 우삼겹과 파가 듬뿍 들어있어 아주 맛있는 부대…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 1,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 4,
+      "heavy_food": 3,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "리나스 선릉점",
@@ -5944,21 +8396,37 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] SFC에서 운영하는 샌드위치 전문점 LINA'S 입니다. 다양한 종류의 샌드위치, 샐러드, 스프, 신선한 쥬스, 커피 등 다양하게 판매하고 있어요. 선릉역 가까이 위치해 있어서 점…",
       "[5★] 샌드위치가 1만1천원대입니다. 커피가 고소해서 맛있어요.",
       "[1★] 새우 과카몰리와 디카프 아메리카노 라지를 주문했는데 머그 사이즈에 비해 커피 양이 너무 적음. 뜨거운 물을 추가해 달라고 했더니 종업원 왈 “원래는 따로 주문하셔야 되는데요” 라고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "우족보",
@@ -5982,22 +8450,45 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "가성비",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 기본으로 나오는 국물도 맛있고 족발도 최고예요! 군더더기없이 깔끔하게 기본에 충실한 맛입니다!",
       "[4★] 막 비싸지 않으면서 맛있는 이동갈비를 먹고 싶다면 추천, 특히 여름에 야외에서 물에 발 담궈가며 먹으면 더욱 좋을듯…",
       "[4★] 친절합니다. 특히, 점심메뉴 쌈밥이 맛있습니다. 가격도 적당합니다. 저녁에 먹은 족발도 맛있습니다. 이유는 모르겠으나 입구에 커다랗게 라디오를 틀어놓은 것은 왜인지 모르겠습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "김셰프의도시어부",
@@ -6021,15 +8512,21 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "회식 2차"
+      "가성비",
+      "단체",
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6037,7 +8534,22 @@ const restaurants = [
       "[4★] 날짜: 22년 12월 29일 시간: 18시 주문: 6만원/1인  예약없이 방문해서 한자리 차지함. 삼성동 일대에서 가성비 있는 횟집임. 지하에 있어서 조금 답답했지만. 가성비 있음…",
       "[4★] 룸에서 조용히 식사할 수 있습니다. 비싼 편이지만 맛있네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "전주식당",
@@ -6056,6 +8568,7 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "피곤함"
     ],
     "scene": [
@@ -6063,6 +8576,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6070,7 +8584,22 @@ const restaurants = [
       "[5★] 20년만에 왔더니 사장님이 아직도 식당하고 계시네요. 맛있어요.",
       "[5★] 술마신 다음날 해장으로 생태탕 최고인듯…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "(주)토종맛집대치점",
@@ -6091,6 +8620,7 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
@@ -6098,6 +8628,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6105,7 +8636,22 @@ const restaurants = [
       "[5★] 혼밥도 친절하게 잘해주시고 청국장 김치찌게 반찬 등 다 맛있습니다…",
       "[3★] 메뉴의 특이함에 비해 맛은 평범. 고민없는 한 끼로 추천."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "재동",
@@ -6124,16 +8670,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6141,7 +8685,22 @@ const restaurants = [
       "[4★] 맛있어요…",
       "[5★] 맛집!!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "반룡산",
@@ -6163,26 +8722,36 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 제대로된 함흥냉면을 먹고 싶다면 추천합니다. 회냉면도 맛있고 직접 만드는 만두도 맛있어요.",
       "[4★] 너무 맛있게 잘 먹었어요. 함흥냉면이고, 만두도 그렇고 오징어순대도 그렇고 속이 정말 실해요. 저는 비빔 먹었는데, 기본이 훨씬 맛있어요. 물 냉 추천 드립니다.",
       "[3★] 이북식치고는 맛이 엄청 강렬한데 미원맛이 되게 강합니다 맛있어서 다시 방문했던거인데 요리사분에 따라 맛이 달라지는건지 너무 짰었네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "곰바위 본점",
@@ -6209,24 +8778,43 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "단체",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 추운 겨울 따뜻한 국물과 함께 든든한 한끼 하기 좋습니다. 점심식사로 홍탕 먹었는데요.갈비,야채,곱창 건더기 모두 적덩히 부드러운 식감이여서 먹기 편해요.  국물 깔끔하고 밑반찬과…",
       "[5★] 양대창으로 유명한 고깃집.  미슐랭 빕구르망에 항상 선정되는 곳.  양깃머리구이는 쫄깃한 식감. 담백한 맛.  대창은 역시나 중독적인 기름맛. 약간 매콤 감칠맛 풍부한 양념으로 무…",
       "[4★] 엄청난 규모의 곱창 식당 주차장은 100대 규모이고건물의 1층은 홀, 2층은 룸으로 되어 있다(3층도 있는데 안 가봤음)  곱창전골 맛은 아주 좋은데 이 가격을 줄 만큼인지는 좀…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 5,
+      "warm_food": 4,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "아야진생태찌개 본점",
@@ -6252,15 +8840,21 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "야근후",
       "점심",
-      "해장"
+      "해장",
+      "혼밥"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -6269,7 +8863,22 @@ const restaurants = [
       "[4★] 생태찌개 2인분 양 많아요 생태가 신선하고 부드러워요 전체적으로 바다내음 많이 나는 해물집이예요 가게앞 아저씨 발렛주차3000원이예요…",
       "[5★] 원래 시원하고 칼칼한 맛인데 오늘따라 너무 짰다. 다음엔 맛있겠지? 그리고 너무 비싸다 비싸 1인분에 13000원이면 충분한 가격일듯..."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 5,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 2,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "더플레이스 코엑스몰점",
@@ -6291,13 +8900,16 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "심야 밥"
+      "데이트",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6305,7 +8917,22 @@ const restaurants = [
       "[5★] 음식이 너무 맛있어요! 피에몬테 스페셜 주문해서 먹었는데 너무 맛있게 먹었어요! 특히 샐러드랑 스테이크 완전 강력추천!! 매장도 깨끗하고 분위기가 좋아요 :)…",
       "[5★] 파크하비오점만 다니다가 여기오니깐 손님이 많네요?ㅋㅋ 여긴 추가할인이 안되어서 좀 아쉽지만 그래도 넓고 실내가 이쁘네요. 커피는 좀 밍밍했고 피스타치오 젤라또는 맛있네요.  딸리아…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "바이킹스워프 VIKING'S WHARF 코엑스점",
@@ -6329,23 +8956,41 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하",
+      "기분 좋음",
+      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 너무 좋은 사람들과 맛있는 음식도 먹고 즐거운 시간도 보내고~~~ 와인도 한잔 마시고 디저트도 맛난거 먹고 너무 좋아요^^ 랍스타. 소갈비. 가리비구이 망고 꼭꼭 드시길~~~~",
       "[5★] 좋은사람들과 맛있는 식사와 서비스  너무 좋습니다 담엔 또 방문해야겠어요…",
       "[5★] 명절 지나고 지인들과의 만남이였는데 음식도 맛있고 분위기도 좋고 직원들이 친절하셔서 너무 좋은 시간이 되었네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "몽중헌 대치점",
@@ -6368,14 +9013,19 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "회식"
     ],
     "scene": [
-      "점심",
-      "접대"
+      "가성비",
+      "단체",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6383,7 +9033,22 @@ const restaurants = [
       "[5★] 대치점 몽중헌 두번째 방문 ! 탕ㅅ 몽중헌 중에 탕슈육이랑 자장면 젤 맛있네요 판교 몽즁헌은 자장면 간이 짜고 여긴 간이 딱이예요 좀 불어서 나왔는데 해삼이 많이 들어있어요 ㅎ 입…",
       "[4★] 가족 모임하러 자주 찾는 곳이에요. 디너 기준 룸은 인당 75,000원 이상 주문해야 해요. 코스 또는 다른걸로 기준 금액 채우면 됩니당! 식사까지 다 하면 양 적당하고, 맛있어요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 4,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 5,
+      "late_night": 3
+    }
   },
   {
     "name": "차이린",
@@ -6405,13 +9070,21 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "데이트",
+      "축하",
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6419,7 +9092,22 @@ const restaurants = [
       "[3★] 음식들은 그냥 먹을만 해요 그리고 화장실 조금 냄새가 납니다😭 그래도 일 하시는 분들이 너무 친절하셔서 기분 좋게 잘 먹었습니다🙂…",
       "[5★] 모임 때문에 갔었는데, 분위기, 음식 모두 전반적으로 맘에 들었음. 동파육, 군만두 등이 괜찮음. 마파두부는 생각보다 양이 적고 별로. 콜키지프리. 방을 얘약할 경우 1인당 5만원…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "붓처스컷 삼성점",
@@ -6441,13 +9129,17 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "축하"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6455,7 +9147,22 @@ const restaurants = [
       "[4★] 쾌적하고 넓은 공간에서 친절한 서버들과 편안한 분위기로 맛있는 음식, 즐겁게 저녁식사 했습니다. 가격은 있지만 그 값에 준하는 분위기와 음식이라 좋았습니다.",
       "[4★] 붓처스컷을 참 좋아해서 전 지점을 두루 다니는데 삼성점은 조금 아쉬워요. 주방에서 직원들이 큰소리로 웃고 욕하며 이야기 나누는 소리가 적나라하게 들려서 자리이동했고(그나저나 몇년째…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "꽃지",
@@ -6479,13 +9186,18 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "가성비",
+      "점심",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6493,7 +9205,22 @@ const restaurants = [
       "[5★] 간장게장 전문점으로 주말저녁에 방문 전혀비리거나 짜지 않아서 2인분도 가능하다 생각됩니다. 가위도 요청하면 주시니까 다리도 잘라서 먹을 수 있습니다. 같이 나오는 기본반찬도 맛있었…",
       "[5★] 정말 좋아하는 동네맛집 중 한 곳입니다! 평소 게장 먹고 싶을 때 가볍게 갈 수 있어서 좋아해요. 엄청 많지 않고 정식으로 시키면 가격도 합리적이어서요. 다른 게장집에 비하면 싼…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "해초록",
@@ -6517,17 +9244,16 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "데이트",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "접대",
-      "회식 2차"
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6535,7 +9261,22 @@ const restaurants = [
       "[5★] 발렛파킹가능, 직원분들이  매우친절함, 해초록정식은 회,사시미,배추전,식사등 매우 신선한 재료를 사용, 품위있게 편안하게 식사할수있는 장소.",
       "[5★] 부산에서 시작해서 서울까지 진출한 자연산 전문 일식당. 재계 유명인들의 단골 식당. 좋은 재료를 군더더기 없이 깔끔하게 차려냄."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "가연국시",
@@ -6557,14 +9298,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "혼밥",
       "회식"
     ],
     "scene": [
+      "단체",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6572,7 +9316,22 @@ const restaurants = [
       "[4★] 음식이 전체적으로 삼삼한 맛이 난다. 간이 강하지 않아서 좋다. 가격은 그냥 평범한 수준이다.  가게는 룸처럼 많이 되어있어서 테이블간 소음이 좀 적은 편이다.",
       "[4★] 어제 저녁(11/27(월) 17:30) 캐나다에서 거주하고 있는 친구가 일시귀국해 정기적으로 갖는 50년죽마고우 모임을 선릉역 \"가연\"에서 가졌다. 연말모임이 시작되는 시기이고 저…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "스시유",
@@ -6594,13 +9353,14 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하"
+      "회식"
     ],
     "scene": [
-      "오마카세·스시",
-      "점심",
-      "접대"
+      "단체",
+      "데이트",
+      "회식"
     ],
     "wx": [
       "맑음",
@@ -6611,7 +9371,22 @@ const restaurants = [
       "[5★] 2층 룸에서 먹었는데 코스하나하나 고급지고 맛있습니다. 잔잔한 음악도 나와서 분위기가 좋네요. 단체모임 추천드려요! 👍🏻👍🏻…",
       "[5★] 너무 좋습니다. 저희는 사시미, 스시 아닌 일반 정식으로 2층 룸에서 식사했습니다. 쉐프가 직접 해주시는 특별식과 사시미도 좋고요. 서비스가 특히 각별하시네요. 이경주 지배인님 감…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 4,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 4,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "글로브 비스트로",
@@ -6639,23 +9414,26 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "스트레스",
       "축하",
-      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "분위기 좋은 저녁",
-      "브런치",
-      "심야 밥",
-      "야장에 맥주",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "야근후",
+      "접대",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6663,7 +9441,22 @@ const restaurants = [
       "[3★] 분위기는 좋어요. 노래도 좋고 서비스도 좋았어요. 가지치즈구이 좋아해서 시켰눈데 바닥 완전 타서 나오고 다 식어서 나왔어요. 둘이서 1줄 먹고 다 남김. 양갈비 스테이크는 진짜 맛…",
       "[4★] 파르나스몰에 있으나, 안은 상대적으로 조용. 샐러드/고기 맛있음. 파자는 보통. 서버 분들 친절함…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "L7 강남 플로팅",
@@ -6685,18 +9478,18 @@ const restaurants = [
       "뷰맛집"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "피곤함",
-      "혼밥",
       "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6704,7 +9497,22 @@ const restaurants = [
       "[5★] 음식 퀄리티 좋고 인당 52000원으로 비싼 고기집이나 양대창 가서 부서회식하는 거 보다 경제성 있습니다. 부채살 스테이크 원없이 먹으면서 와인 따로 시켜서 한잔 하며 이야기하니…",
       "[5★] 음식 가지수는 많지 않지만, 전반적으로 모든 음식이 맛있는 뷔페입니다. 창가라면 뷰도 괜찮구요. 스테이크와 스파게티도 웬만한 이탈리안 레스토랑 정도 되고, 디저트류는 고급 뷔페보다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "선릉을지순대국",
@@ -6728,15 +9536,20 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "해장"
+      "야근후",
+      "점심",
+      "해장",
+      "혼밥"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -6745,7 +9558,22 @@ const restaurants = [
       "[3★] 사리곰탕 기성제품을 떠올리게 하는 익숙한 맛으로 시작된다. 국물을 골고루 섞고 간을 더하니, 들깨칼국수 느낌의 고소하고 진한 풍미가 부각되었다. 깍두기는 아삭하면서도 시원해 적당히…",
       "[4★] 가격 좋고, 잡내 없고, 건더기가 듬뿍 들어있는 순대국집. 대기 난이도는 근처 유명 백암농민순대보다 훨씬 낮은 집."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "폴리스 파르나스몰점",
@@ -6767,13 +9595,17 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "축하"
     ],
     "scene": [
-      "점심"
+      "데이트",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6781,7 +9613,22 @@ const restaurants = [
       "[3★] 2호선 삼성역 파르나스몰 지하1층에 있는 피자집인데, 피자와 음식이 맛있기도 하고, 유동인구도 많아 항상 손님이 많습니다. 미리 예약을 하고 가시는게 좋습니다. 음식은 모두 무난하…",
       "[3★] 회사 근처 가끔 가는 맥주집 차를 끌고가서 맥주는 못마심.. 디아블로 스파게티 맛집 피자는 그냥 그래씀."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "아선재",
@@ -6805,23 +9652,42 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
+      "단체",
       "점심",
-      "접대",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 집에오니 또 생각나는 맛입니다.. 원래도 한정식 좋아하는데 여기는 더 맛있어요!!! 점심코스를 먹었는데 나오는 음식이 전부 하나하나 정성이 느껴지고, 양도 많습니다. 특히 중간에…",
       "[3★] 매번 올때마다 느끼지만. 이 금액내고 먹을만한 음식은 절대 아님. 아무리 단체였어도 서빙 너무 느리고. 음식도 어쩜 제대로 맛있는게 1도 없고.  떡갈비는 시판제품인지 햄인지 뭔지…",
       "[3★] 일단 금액대비 음식이 너무 부실함. 코스인 걸 감안하더라도 코스별 음식 양이 부족하고 맛도 솔직히 너무 없음. 식당 규모 대비 서버가 너무 부족해서 고급 식당에서 기대할 수 있는데…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "성가네큰집추어탕",
@@ -6840,19 +9706,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6860,7 +9721,22 @@ const restaurants = [
       "[5★] 추어탕 잡내도 없고 추어가 다 갈려있어서 첨 접하시는 분들도 부담없이 도전 가능하고 들깨가루가  있고 추어가 잘 갈려있어 그런지 고소담백해요. 돌솥밥 나와서  밥을 먼저 먹고 누룽…",
       "[4★] 추어탕(공기밥)에 추어튀김 절반에 소주1병. 추어탕 맛은 좀 아쉬었지만 다른 곳과 비교하면 크게 차이 없으니 평타인데 반찬으로 나온 어리굴젓과 바삭한 추어튀김에 보너스를 주겠습니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "해초록사랑",
@@ -6881,13 +9757,18 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "회식"
     ],
     "scene": [
-      "점심"
+      "단체",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6895,7 +9776,22 @@ const restaurants = [
       "[4★] 만나는 사람이 좋았고, 장소도 좋았으며 음식역시 맛나고 친절했습니다. 연말 모임아니여도 좋은 분들과 함께하면 더 좋은 장소입니다.",
       "[4★] 자연산 이라 그런지 회 너무 맛있네요. 세꼬시와 같이 먹으라는 김치도 최고!! 그럼에도 10시 마감인데 9시 좀 넘어서 바로 그릇을 치우기 시작하는거 넘 아쉽다. 10시까지 오붓하…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "초가집",
@@ -6916,26 +9812,37 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 서비스 인삼주부터 만족스러운 집 닭한마리만 먹어봤었는데 닭볶음탕도 맛있다. 볶음밥은 필수…",
       "[5★] 오늘 초복이라 정말 많은 사람들이 대기를 하면서 기다렸다 먹었습니다. 일반 삼계탕을 먹었는데 닭 가슴살도 아주 부드럽고 무엇보다 간이 잘 맞춰서 나온 국물맛이 끝내주었어요. 인삼주…",
       "[3★] 맛이 없는 건 아니지만 능이라는 제목을 넣기는 좀 국물도 능이 맛이 안나고 능이ㅜ버섯은 보이지도 않네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "자유참치",
@@ -6958,15 +9865,17 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "축하",
       "회식"
     ],
     "scene": [
-      "회식 2차"
+      "가성비",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -6974,7 +9883,22 @@ const restaurants = [
       "[4★] 가성비 좋은 참다랑어전문 참치집.. 강남에서 혼마구로를 이가격에 먹을수 있다니..50,000원/인.. 참치 맛나고.. 후식우동 맛나게 먹었더니 기성품..",
       "[5★] 입안에서 사르르르 녹는 것이 말로 형언할 수 없을만큼 맛있다. 참치 조금 더 달라고 하면 듬뿍 주시고 하이볼도 엄청 진하게 타서 주심. 사장님 인심 짱. 삼성, 선릉, 대치동 인근…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "조개천국 선릉점",
@@ -6995,14 +9919,15 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "회식 2차"
+      "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7010,7 +9935,22 @@ const restaurants = [
       "[3★] 교통편이 좋은 선릉역 근처이고 3층이라서 통풍이 잘되서 좋았어요. 큰창문에 맞바람치는 구조라서 덥지않아요.  수족관이 한개뿐이라서 조개종류가 많지 않은거 같아요. 조개가 큰것 구이…",
       "[4★] 무한리필 1인 27,000원에 셀프로 조개와 다양한 사이드 메뉴를 가져다 먹을 수 있는 곳입니다. 2시간 30분동안 무제한으로 이용이 가능하고 다양한 조개류를 이용할 수 있습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "베이비기네스삼성점",
@@ -7036,16 +9976,24 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "가성비",
+      "데이트",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7053,7 +10001,22 @@ const restaurants = [
       "[5★] 점심에 돈가스  먹으러 가는곳입니다. 가성비  좋습니디…",
       "[4★] 맥주 맛집이네요 역시 생맥주는 밖에서 먹는 게 제일 맛있는 거 같아요👍 안주는 그냥 무난해요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "수궁갈비",
@@ -7076,23 +10039,42 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 삼성동 봉은사 바로 옆 골목에 위치한 한식당. 오랜전통이 있는 한우전문점이라고 한다. 점심때 들러 김치찌개를 먹었는데, 두꺼운 돼지고기가 듬뿍 들어 있고 김치도 자극적이지 않아서…",
       "[5★] 최애의 김치전골..한우.삼겹집…",
       "[5★] 봉은사옆 한우갈비집. 김찌찌개가 장독대 김치찌개 같아요. 맑은 김치국 같고 생고기를 넣어줍니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "거제지심도횟집",
@@ -7114,14 +10096,20 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "데이트",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후",
+      "점심",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7129,7 +10117,22 @@ const restaurants = [
       "[4★] 점심 시간은 바빠서 그런지 분주한 분위기네요. 음식은 맛있었어요-!",
       "[4★] 음식이 괜찮게 나옵니다. 밥 대신 담백한 맛의 떡국이 나오는 게 특이하고 좋네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "사천옥",
@@ -7150,15 +10153,15 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "가성비",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7166,7 +10169,22 @@ const restaurants = [
       "[1★] 반찬재사용하는곳입니다 다시는 가고싶지않습니다 주방쪽 자세히 보세요 남은 반찬가져가서 어찌하는지요 선릉쪽 직장인들 계시면 알려주세요…",
       "[3★] 선릉에서 저렴하게 한 끼 먹을 수 있는 곳. 하숙집밥 느낌…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "바다풍경",
@@ -7190,14 +10208,16 @@ const restaurants = [
       "인스타감성"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "회식"
     ],
     "scene": [
-      "회식 2차"
+      "데이트"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7205,7 +10225,22 @@ const restaurants = [
       "[5★] 분위기도 너무좋고 고기도 맛있고 무엇보다 바다를 보면서 먹을수 있다는게 너무 좋았어요!",
       "[5★] 제주여행 중 고깃집을 고르던 중 인스타에서 우연히 발견하여 방문했습니다! 2인임에도 불구하고 창가 6인석 앉을 수 있게 해주셔서 예쁜 바다 보면서 식사했어요. 제주 방문하는 지인들…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "생선지존 진땡이",
@@ -7227,24 +10262,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "피곤함",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "가성비",
+      "야근후",
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 겨울에 조기매운탕이나 도루묵매운탕을 먹으면 몸에 열기도 붙고 맛도 좋아요. 여러가지 음식들을 깔끔하게 잘 합니다.",
       "[4★] 코다리조림 점심메뉴 맛 가성비 신속한 서빙 나무랄 곳이 없는 맛집…",
       "[5★] 이곳은 사실 볶음밥 맛집이다. 지금껏 경험해본 모든 볶음밥을 통틀어 단연 이곳이 최고라고 평가할 수 있다. 매운명태조림을 먹어야만 주문 가능한데, 메인 메뉴 보다 볶음밥 조리시간이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "동해횟집",
@@ -7269,17 +10320,22 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "단체",
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7287,7 +10343,22 @@ const restaurants = [
       "[5★] 가성비 좋은 횟집 3만원짜리로도 충분히 맛있는 회와 안주꺼리를 끊임없이 먹을수 있는 곳. 사장님 음식 솜씨가 상당히 좋으셔서 신선한회 맛외에도 다른 음식들의 맛도 좋고 추천할만함…",
       "[4★] 장소가 조금 비좁네요. 성인이 앉기는 좀 불편하군요. 대구탕을 먹었는데 맛은 보통이군요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "레스토랑G",
@@ -7310,20 +10381,21 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
-      "피곤함",
       "혼밥",
       "회식"
     ],
     "scene": [
+      "데이트",
       "점심",
       "접대",
-      "혼밥",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7331,7 +10403,22 @@ const restaurants = [
       "[4★] 글래드호텔 코엑스센터 지하1층에 있는 이탈리안 식당. 한시적으로 판매하는 점심 3코스가 맛과 가격 모두 만족스러움. 대신 점심시간엔 매우 정신이 없는 서빙이 제공되니 감안할 것.",
       "[4★] 테이블거리가 멀어  와인과 음식 매칭이 좋은곳. 테이블간격이 멀어  대화하기에도  무리가 없다. 코스를시키면  잔은두개씩.  단품도 맛난곳.  데이트나 모임하기 좋은곳."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "댓짱돈까스 대치점",
@@ -7350,10 +10437,10 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
@@ -7365,7 +10452,22 @@ const restaurants = [
       "[3★] 대치동 주택가에 위치한 일본식 돈카츠 전문 체인점.  두툼한 생고기를 튀겨낸 돈카츠로 겉바속촉의 맛을 느낄 수 있는 곳이다. 말 그대로 겉은 바삭하고 속은 촉촉하다. 두꺼운 고기를…",
       "[4★] 반포에 있는 댓짱돈까스 대치점인 듯요. 돈까스도 맛있고 우동도 직접 면을 뽑는지 맛있네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "일공중식",
@@ -7388,23 +10490,39 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "회식 2차"
+      "단체",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] #삼성동 #중화요리일공  \"지역봉사 많이 하시는 맘 좋은 사장님의 가게\"  삼성동의 동네 중국집. 꽤나 오래 자리를 지키시고 계시는데 이집은 다른 가게와는 다르게 사장님이 지역봉사…",
       "[3★] 괴랄한 중식당.  지인추천으로 여러번 갔는데 계단벽면에 여기 사장님이신듯한 분의 인증샷 감사 표창장 액자 엄청 많고. 뭔가 활동을 많이 하시는듯 한데 음식맛은 중간이하.  이런곳이…",
       "[5★] 음식이 전반적으로 깔끔하게 잘 나옴. 가격도 강남치고는 적당함.  요리/술 세팅으로 갈때는 3층 룸으로 예약하면 편함 2층은 홀이라 4명이상이면 애매함.  주차는 인근주차장."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "깐부치킨 은마 아파트",
@@ -7426,14 +10544,19 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
-      "혼밥"
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "야장에 맥주"
+      "단체",
+      "야장",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7441,7 +10564,22 @@ const restaurants = [
       "[1★] 너무 지저분, 너무 불친절, 음식나오는 데스크에서 본인들 식사깔고 침튀기며 얘기하고 음식 거기로 나오고.. 장사가 아무리 잘되도 개념은 좀 있어야 할텐데..",
       "[5★] 전기구이 치킨이 매우 바삭하게 구워져나와서 눅눅하지 않아 쫄깃하고 맛있습니다 소세지 감자튀김 메뉴, 샐러드도 애용하는 메뉴죠🍗🥗🍿…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "광수사",
@@ -7463,14 +10601,16 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "축하"
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
+      "야근후",
       "점심",
-      "접대"
+      "접대",
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -7481,7 +10621,22 @@ const restaurants = [
       "[5★] 코스로 먹었는데 처음부터 회가 많이 나올거라 하셨고.. 그말대로 회가 여러 종류가 나왔다. 민어을 비롯하여 마구로까지... 하나같이 정말 최고! 들어가는 입구는 오래되고 작아 보였…",
       "[5★] 남자 넷이 가서 너무 만족스럽게 잘 먹고 왔습니다. 깔끔하게 잘 차려 내주셨고 회가 감칠감이 있게 너무 좋았습니다. 음식 내주시는 분도 너무 친절하셨고 덕분에 즐거웠던 자리가 더욱…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "시마스시 코엑스몰점",
@@ -7505,14 +10660,12 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
-      "점심",
-      "회식 2차"
+      "야근후"
     ],
     "wx": [
       "맑음",
@@ -7523,7 +10676,22 @@ const restaurants = [
       "[4★]  샤리가 달달하게 나오는편 기본 스시들과 롤이 괜찮은 반면 관광지다 보니 아쉽게 우니 안키모 관자 같은 회전이 잘 안되는 음식들은 식자재 관리에 따라 맛의 편차가 큰 편…",
       "[2★] 참치배꼽살초밥  맛있어요 다만 안경낀 여자직원분 불친절합니다 일도 대충대충하시네요 계산하고 주차정산 똑바로안해주셔서 주차비따로 지불하고 사케주문한지가언젠데 음식 중간쯤먹어갔을때 주…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "목포낙지회집",
@@ -7547,16 +10715,19 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
+      "단체",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7564,7 +10735,22 @@ const restaurants = [
       "[5★] 낙지초무침...정말 맛있어요. 양도 많고요.",
       "[5★] 사무실에서 가끔씩 회식도하고 점심을먹으러갑니다. 가격도착하고 반찬이맛나요. 모든음식이신선하고좋아요. 손님도많고 일손이부족한듯보이지만 사장님들이 엄청빠르게 해주십니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "본 죽and비빔밥 선릉점",
@@ -7586,24 +10772,42 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "마라탕·훠궈",
-      "회식 2차"
+      "고기구이",
+      "회식"
     ],
     "wx": [
       "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 부드러운 죽에 칼칼함을 더한 신짬뽕죽, 단맛으로 무장한 동지팥죽, 기대보다 다양하고 풍부한 맛을 즐길 수 있고, 깔끔한 반찬과 동치미 국물은 일품, 남은 죽은 원래 셀프 포장이었나…",
       "[4★] 매우 깔끔한 한식 한상  개인적으로 죽을 좋아하지 않아 본죽을 이용하지 않았으니 본 비빔밥은 모든 메뉴가 정갈해서 아주 먹기 좋음  떡갈비가 짱 맛있다는건 비밀 ^.~",
       "[4★] 지나가는길에 들렸어요. 오래된 건물이라 실내가 깨끗하진 않았지만 음식은 맛있었어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "방이샤브칼국수 대치점",
@@ -7626,24 +10830,45 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "오마카세·스시"
+      "점심",
+      "접대",
+      "특별한날",
+      "혼밥"
     ],
     "wx": [
+      "맑음",
       "비",
-      "쌀쌀함"
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 맛있어요 주인분 인심도 후하고 마지막에 먹는 볶음밥이 대박이에요…",
       "[3★] 일석삼조라 좋은데 버섯종류도 한가지에 양도적고 특히 반찬이 김치 한가지라 좀 아쉬운점이 없자나있고 볶음밥이 너무 맛있는데 이것도 양이 넘 적어요! 동치미를 주셔서 그나마 맛이 중화…",
       "[4★] 등촌샤브와 유사한 메뉴입니다. 버섯칼국수에 볶음밥이 포함되어 있고 고기는 추가해야 합니다. 기본찬이 깔끔합니다. 술자리보다는 식사가 어울리는 장소 입니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 0,
+      "alcohol": 2,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 0
+    }
   },
   {
     "name": "지호한방삼계탕 삼성점",
@@ -7664,11 +10889,9 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "피곤함"
     ],
     "scene": [
-      "점심",
       "해장"
     ],
     "wx": [
@@ -7680,7 +10903,22 @@ const restaurants = [
       "[4★] 봉은사 둘러 본 후 속 든든히 챙겨야겠다 싶어 들렀다.  다양한 메뉴 중 들깨를 좋아해서 '들깨한방삼계탕'으로 주문했다. 인삼주가 나와 가볍게 술한잔 하면서 닭을 뜯어 먹었다. 양…",
       "[5★] 기운 없을 때 방문하는 건강 맛집입니다. 사장님도 직원분들도 다 친철하고 음식 맛도 좋습니다.  저는 삼을 못 먹어 빼달라고 주문하는데 항상 웃으면서 알겠다해 주십니다(안 되는 집…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 4,
+      "heavy_food": 2,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "카페 제이갸또",
@@ -7703,24 +10941,41 @@ const restaurants = [
       "뷰맛집"
     ],
     "moods": [
-      "혼밥",
+      "기분 좋음",
+      "데이트",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "브런치",
-      "회식 2차"
+      "데이트",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "흐림"
     ],
     "rv": [
       "[4★] 선정릉 뷰를 가진 조용한 카페. 사장님 프랑스 르꼬르동블루 나오셔서 기저트 맛도 남다릅니다. 수제 초코파이가 대표인데 완전 달달하고 쫀득해서 맛있어요. 커피도 콜드브루가 정말 진하…",
       "[4★] 선정릉공원을 바라보며 한적한 거리를 걷다보면 마라게되는 카페~  커피와 카눌레또를 같이 드세요~",
       "[5★] 프랑스 유명학교 나오신 분이 직접 빵이랑 디저트 만드셔서 그런지 모든메뉴가 맛있어요~ 창밖에 푸릇푸릇한 선릉뷰도 좋구요~ 사장님도 친절하십니다~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "하레이자카야",
@@ -7744,16 +10999,23 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "회식 2차"
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7761,7 +11023,22 @@ const restaurants = [
       "[5★] 처음가봤는데 분위기도 좋고 음식도 맛있네요 자주가 봐야겠어요 !̆̈ !̆̈…",
       "[4★] 부스석도 좌식도 있어서 편하게 이야기 나눌 수 있습니다. 다만 사람이 많으면 소리가 울리긴 하더라고요. 음식은 전반적으로 맛있어여 양도 많은편이고요 모찌나베와 오이가 맛있었습니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "써브웨이 봉은사역점",
@@ -7782,16 +11059,14 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7799,7 +11074,22 @@ const restaurants = [
       "[2★] 주차가 가능해서 좋았어요. 여자 알바분 연습하셔야 할거 같아요. 야채 많이 넣어주신거도 아닌데 빵이 다 터지고.. 소스도 한쪽에 몰리게 푹 짜주셔서 맛이 너무 별로에요. 사람 없는…",
       "[4★] 서브웨이는 맛도 좋고 한 끼 식사로 충분 한데 ,,왜 손님이 별로 없을까요? 여러 메뉴를 선택하는데 어려워서? 어떤 맛이 나 올지 충분히 사전에 설명이 있면 선택 하기도 좋을것 같…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "떡판왕",
@@ -7820,15 +11110,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7836,7 +11125,22 @@ const restaurants = [
       "[4★] 선릉역 근처 숨은 떡볶이 맛집. 간장베이스라 맵지도 않고, 밀떡은 왜이렇게 쫄깃한지 젓가락 왕복운동이 쉴틈이 없네요. 토핑도 다양하게 고를 수 있어서 취향에 맞게 고르시면 되고요.",
       "[5★] 점신시간에 웨이팅이 긴 것은 당연하기에, 이걸 참고해서 방문하시길.  맛, 가격 모두 좋았습니다👍…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "보스골뱅이치킨",
@@ -7861,20 +11165,20 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "스트레스",
       "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "단체",
+      "야근후",
+      "야장",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7882,7 +11186,22 @@ const restaurants = [
       "[5★] 맛있고, 친절하고, 2차로 만족!",
       "[3★] 단체 모임하기 좋은 곳입니다."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "정참치",
@@ -7907,16 +11226,15 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
-      "점심",
+      "야근후",
       "접대",
-      "회식 2차"
+      "특별한날"
     ],
     "wx": [
       "맑음",
@@ -7927,7 +11245,22 @@ const restaurants = [
       "[5★] 처음 왔을땐 참치회 코스로 먹었다가 이번엔 혼마구로 특선을 먹어봤어요! 친절하게 어떤 부위인지 설명도 해주시고,덥지는 않을까 선풍기도 챙겨주시고, 부족하면 더 말하라고 세심하게 봐…",
       "[1★] 서빙 최악 대기하다가 5분에 앉았는데 10분이 지나도록 와서 주문을 안받으세요. 바쁘신거 같아서 참다가 누른게 2번 ㅋㅋㅋㅋㅋ  간장종지에 뭐가 묻어서 교체해달라고 했더니 가져가서…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "자연의원죽",
@@ -7948,14 +11281,15 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "회식 2차"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -7963,7 +11297,22 @@ const restaurants = [
       "[4★] 테이크아웃이 되고, 평균 이상의 맛을 낸다. 입에 착 붙기보다는 건강한 쪽에 가까움. 주문이 들어가야 조리를 시작하기 때문에 서빙이 다소 느린 것은 감수 해야함.",
       "[5★] 삼성동 숨은 맛집! 건강하고 깔끔한 맛에 양도 많습니다👍…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "의정부부대찌개",
@@ -7986,28 +11335,44 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
       "해장",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "눈",
       "비",
-      "쌀쌀함"
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 부대찌개는 이집만큼 맛있는 데가 또 있을까 싶을 정도로 맛짱, 일품요리 솟아오른 계란찜. 삼겹살 엄청 맛있네요.",
       "[4★] 부대찌개는 평준한 맛입니다 다만 계란찜은 특별합니다  꼭 추가해서 드시길 부탁드립니다…",
       "[3★] 맛 자체는 평범했으나 에어컨을 강하게 틀어주어 좋았습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 1,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 4,
+      "heavy_food": 3,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "마녀김밥 대치점",
@@ -8027,21 +11392,40 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 특색있는 김밥을 팔고, 음식은 생각보다 양이 많아요. 개인적으로는 마녀김밥이 제일 무난한 것 같고, 전반적으로 김밥이 기대만큼 맛이 있지는 않아요. 단무지와 김치, 국물을 자유롭게…",
       "[4★] 배달시켜서 먹는 곳. 마녀김밥 기본 진짜 맛있어요! 로제 떡볶이도 짱 다만 계란 김밥은 별로에요 근데 배달시키면 젓가락을 안줘요 ㅜㅜ…",
       "[3★] 튀긴맛살덕에 식감이 매우 좋은 김밥. 라면에는 계란없이 파채가 올려져 깔끔한 신라면이다. 매장은 아늑하지만 자리 구성이 잘 되있어 답답하지 않게 먹고 갈 수 있다. 주문부터 음식…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "남도밥상이어요",
@@ -8064,14 +11448,18 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "혼밥"
     ],
     "scene": [
+      "데이트",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8079,7 +11467,22 @@ const restaurants = [
       "[5★] 집반찬 먹는것 같은 맛갈스러운 반찬과 입맛슬 확 끌어당기는 묵은지 김치찌게 맛있어요 생삽겹살 고기맛있어서 고기별로 좋아하지않는데도 맛있어서 젓가락 못놓았네요…",
       "[4★] 생고기두루치기 맛있어요 고기씹는 맛이 아주좋아요 황태구이도 바싹촉촉~~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "가츠몽 삼성점",
@@ -8098,15 +11501,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8114,7 +11516,22 @@ const restaurants = [
       "[3★] 서울에 삼성역에 있는 돈까스 집입니다. 주변에 있는 다른 돈까스 집보다 더 좋은 퀄리티입니다. 사실 최상의 맛은 아니지만 그럭저럭 맛있는 수준입니다. 메뉴판 사진과 실제 나오는 음…",
       "[3★] 돈까스와 우동맛은 평범했습니다. 근처에 돈까스 하는 곳이 없어 가끔 돈까스 생각날 때 오면 나쁘지는 않을 것 같습니다. 순두부 돈까스가 메인이라는 것 같은데 순두부도 별 특징은 없…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "핫쵸 코엑스점",
@@ -8137,14 +11554,19 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
+      "스트레스",
       "혼밥"
     ],
     "scene": [
-      "점심",
+      "데이트",
+      "퇴근후술",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8152,7 +11574,22 @@ const restaurants = [
       "[4★] 맛있는데 현지맛 백프로는 아니지만 괜찮앗어용 웨이팅은 조금 잇구 야끼소바는 저는 기름기가 많은 느낌이라 일본에서 먹은 맛은 아니었는데 같이 식사한 사람은 맛있다네용…",
       "[5★] 25.09.21.(주일) 방문  가족이랑 방문했습니다. 음식도 맛있고 서비스도 좋은 곳 생긴지얼마 안됐음 가격은 좀 있습니다.  일본에서먹는 느낌임 15시 부터 17시까지 브레이크…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "강릉엄지네꼬막집 삼성역점",
@@ -8175,17 +11612,19 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "가성비",
+      "데이트",
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8193,7 +11632,22 @@ const restaurants = [
       "[4★] 강릉, 속초에서 먹어보지 못해 아쉬웠는데.. 일단 둘이 먹기 양이 적지 않습니다.. 둘이라서 꼬막 비빔밥만 먹었는데.. 사진에서 보는 것처럼 배달이 많은가 봅니다..  처음먹어보니…",
       "[3★] 삼성역 주변 꼬막비빔밥 맛집. 양도 많지만 가격도 비싸다. 꼬막비빔밥 큰 한 접시면 2인이 먹기에 충분한 양. 3,3만원.(공기밥 제외) 특이하게 수입맥주를 싸게 판매하고 계심(삼…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "더하노이 삼성본점",
@@ -8212,15 +11666,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8228,7 +11681,22 @@ const restaurants = [
       "[3★] 일반적인 양지나 다른 고기류는 없고 소고기 쌜국수는 오로지 소고기만 들어감. 맛은 나쁘지 않았음.",
       "[4★] 이곳에서는 늘 팟타이를 먹었는데, 이번에 처음으로 쌀국수도 먹어보니, 맛있었습니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "바스버거 삼성역점",
@@ -8247,22 +11715,38 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "스트레스",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주"
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 삼성역 수제버거집 바스버거 버거 프렌차이즈 1티어. 여러 버거 중에서 치킨 버거는 당연히 맘스터치보다 낫고 시내 유명 치킨버거집에 비해서도 퀄리티가 떨어지지 않는다. 셀프바에서 직…",
       "[2★] 가격대비 퀄리티는…. 별로임 서비스는 뭐 다 셀프라 이야기 할 것이 없고… 감자칩이 나에겐 좀 독특했는데 장점인지는 모르겠음…",
       "[5★] 바스버거 세트 맛있게 먹었어요~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "노다지돌생삼겹살",
@@ -8286,21 +11770,41 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 주차: 작은 전용주차장. 역사 및 개요: 몇 년 전에 현위치로 이전함. 최근에는 의자식 테이블로 교체함. 특징: 사라져가는 대패삼겹살을 조용하고 편안한 분위기에서 먹을 수 있는 곳…",
       "[5★] 차돌박이와 삼겹살을 먹었는데, 둘다 너무 맛있었습니다. 반찬 리필도 잘 해주셨어요. 두 분꺼서 하시는데 너무 바빠보였지만 바쁜 가운데 친절한 모습이었습니다. 가족끼리 와서 먹기 좋…",
       "[4★] 기성비 좋은 대치동 삼겹살집…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "올레길 삼성점",
@@ -8326,6 +11830,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8333,7 +11838,22 @@ const restaurants = [
       "[5★]…",
       "[5★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "개미집 선릉점",
@@ -8352,13 +11872,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8366,7 +11887,22 @@ const restaurants = [
       "[4★] 먹을만 해요…",
       "[5★] 맛있어요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "맥도날드 코엑스점",
@@ -8392,18 +11928,35 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 지하철 2호선 삼성역 5번과 6번 출구 사이 코엑스 직결 통로 바로 앞에 위치한 지점.  코엑스 단지와 지하철역을 연결하는 위치에 있다보니 약속장소로도 많이 이용되고 유동인구도 많…",
       "[5★] 매장이 넓어 이용하기 편리해요.",
       "[4★] 25.1.19.(일) 방문  삼성역내려서 코엑스 가는길에 바로 있음 사람도 많고 외국인도 많고 그만큼 정신없음 키오스크도 있음 하지만 주문하고 기다리는 시간이 있음 그렇게 청결하지…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "온더보더 코엑스 도심공항점",
@@ -8426,14 +11979,21 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "데이트",
+      "축하",
+      "피곤함",
+      "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "데이트",
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8441,7 +12001,22 @@ const restaurants = [
       "[4★] 코엑스1층, 모임으로도 데이트로도 적당한 멕시코요리 맛집이에요. 항상 사람이 많은듯하고 직원들이 바빠서 추가주문할때 조금 힘들지만,, 맛은 있어요~",
       "[4★] 스테이크가 오버쿡 되었음. 환불은 해줬는데 기분은 별로 다른 요리도 맛은 쏘쏘  (1년후에 재방문) 스테이크 없는 파티셋 시켰는데 타코 브리또 화이타 다 맛있었음. 분위기도 매우…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "케르반",
@@ -8464,16 +12039,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "스트레스",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
+      "야근후",
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8481,7 +12056,22 @@ const restaurants = [
       "[5★] 카다이프 원조 쿠나페 맛있었어요 치킨 메뉴들 다 실패 없을 거 같고 맛있습니다 런치타임에 가는 거도 추천드려요 💝…",
       "[3★] 주문받는 사람이 다 외국인. 터키 할랄 음식점으로 이슬람 외국인들이 많이 오는듯. 내입맛에는 별로. 그돈 주고 다른거 푸짐하게 먹을듯."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "하동관 코엑스몰직영점",
@@ -8504,21 +12094,41 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "피곤함",
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 부산사는사람이라 하동관명성만 들었지 처음 방문해보았습니다 본점은 아니고 직영점이지만 약간의 기대를 가지고 방문하였습니다  저는 특으로 시켰고 고기양은 꽤 많았습니다 내장은 안했습니…",
       "[4★] 내돈주고 먹을거 같지는 않지만 남이 사줄때 맛있게 먹을 수 있는 곰탕입니다.  좌석 수가 많은데도 평일 점심에는 줄 서서 먹지만, 회전률이 좋은 편이라서 줄이 금방 빠집니다. 음식…",
       "[1★] 점심으로 비싼 가격이지만 간만에 갔다가 황당한 경험을 했네요. 하동관 곰탕의 매력은 토렴에서 나오는 맑은 국물과 살아있는 밥알이었는데, 공기밥을 말아서 가지고 왔는지 밥알끼리 뭉쳐…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "스시히로바 삼성동본점",
@@ -8540,11 +12150,10 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "데이트",
-      "축하"
+      "기분 좋음",
+      "데이트"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
@@ -8556,7 +12165,22 @@ const restaurants = [
       "[4★] -------------- 재방문 후 별점 수정 합니다 재방문을 우연찮게 하게됐고 먹어 본 결과.. 스시 상태가 전반적으로 상당히 좋아 메뉴 하나 빠짐 없이 잘 먹었던 기억이네요…",
       "[4★] 제일 좋아하는 청어스시가 있어서 매우 만족해요. 청어스시의 가격도 딱 좋네요! 밥의 온도, 생선의 식감 다 좋았습니다. 한가지 개선했으면 하는 점은, 가격을 식별하게 해 주는 접시…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "신동궁 감자탕 뼈숯불구이 선릉직영점",
@@ -8583,27 +12207,44 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
+      "점심",
       "해장",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "눈",
       "비",
-      "쌀쌀함"
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 역삼본점보다 더 맛있다. 바로 구워낸듯 따듯한 뼈구이 (역삼은 만드러둔거 내주는듯한 미지근함) 불향이 제대로 느껴지는 뼈구이 . 볶음밥도 훨씬 따듯고소함 . 앞으로 뼈구이 먹으러는…",
       "[4★] 테이블링으로 대기할 수 있고, 제가 갔던 날은 대기가 없어서 바로 들어갈 수 있었어요.  단순한 메뉴판 구성에 오른쪽에 원산지 표시도 되어있어요.  저는 매운 음식에 약하기도 하고…",
       "[4★] 뼈구이가 많이 맵지도않고 달달하니 양념치킨같은 맛이다. 서비스로 뼈국물도 주니 술먹기도 좋다.밤샘가능. 볶음밥은 별도로 볶아서 접시에 내준다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 1,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 5,
+      "heavy_food": 3,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "한가대로",
@@ -8625,13 +12266,16 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "축하"
     ],
     "scene": [
-      "심야 밥"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8639,7 +12283,22 @@ const restaurants = [
       "[5★] 고기 질이 정말 좋아요. 그래서인지 자잘한 반찬들보다는 깍두기, 파채 정도만 딱 서빙됩니다. 구워먹는 양배추도 의외로 달달+고소해서 잘 어울리고요. 고기 본연 맛을 느끼다가 약간…",
       "[5★] 고기 너무 맛있고 깍두기 볶음밥은 필수!!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "노브랜드버거 코엑스점",
@@ -8661,23 +12320,39 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "피곤함",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
+      "가성비",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 콜라는1번만 더 리필가능해요. 너무 맛있게 잘먹었네요^^굿굿 동문쪽으로 가는길  코너돌면 바로 보여요…",
       "[5★] 코엑스에 있는 가성비 최고의 햄버거 상점. 적당한 가격에 적당한 맛이 맘에 든다. 코엑스에 1만원 이하로 끼니를 때우기는 참 어려운 상황에서 좋은 대안이다. 재방문의사는 있습니다.",
       "[5★] 맛있는데 계속 먹다보면 좀 느끼해요. 콜라 리필 한번만가능!!굿굿…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "하남돼지집 선릉1호점",
@@ -8700,22 +12375,43 @@ const restaurants = [
       "심야영업"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[2★] 너무 늦게까지 영업하는 집은 가장 문제되는게 바로 이 청결도인데, 이집도 그런 여느 집들과 다를 바 없이 청결이 아쉬움. 손님이 오면 상을 셋팅하는게 기본인데, 언제 한지 추정도…",
       "[4★] 인테리어를 다시 하셔서 환해진 매장이 깔끔해보이고 사람도 더 많아진거같아요.. 고기도 맛있고 사이드 메뉴로 시킨 고추장 찌게와 계란찜 예술입니다..ㅋ…",
       "[5★] 삼겹1인분, 목살1인분 호로록 맛있게 먹었어요. 된장찌개는 3천원인데 좀 아쉬운맛이예요. 된장찌개는 비추!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 5
+    }
   },
   {
     "name": "뚝심한우 선릉역점",
@@ -8738,23 +12434,41 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 친구들 모임으로 5명 예약하고 갔는데 이집은 인생 고기집 될 느낌. 고기 품질 아주 괜찮고, 숙성 잘 된게 먹어보면 바로 알수있음. , 샐러드, 파무침등 반찬도 정갈하고 깔끔해서…",
       "[4★] 사장님과 처음으로 회식. 한우를 맛나게 먹음. 룸으로 되어 있어 코로나 시대 안전했고, 숫불에 먹는데 육즙도 괜찮고 맛있다. 추석 전 회식(9.28)인데 이제야 올림. 적게 먹을…",
       "[5★] 반찬도 정갈하니 좋았어요. 룸도 많아서 조용히 편안하게 식사할 수 있었습니다. 고기는 말해모해 대자연 존맛!!  Tip. 예약하고 가세요~  로스트 편채 프리미엄 모듬 시그니처 눈…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "선릉설렁탕",
@@ -8778,15 +12492,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
       "해장"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -8795,7 +12511,22 @@ const restaurants = [
       "[4★] 지인과 함께 늦은 점심을 먹기 위해서 갔는데 1시간 넘어서 그런지 손님이 많지는 않은데 아마 11시30분 정도에는 사람들이 많을 것으로 보임. 선릉설렁탕은 선릉역 5번출구로 나와서…",
       "[5★] 담백하고, 깔끔한 맛.누린네 없는 맛임. 김치가 3종류가 나오고,간도 쎄지않고 맛있더라구요.조미료맛이 강하게 안느껴졌음.프렌차이즈맛이 아니라 더 좋았었음. 메뉴도 많아 저녁에 술밥…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "써브웨이 선릉점",
@@ -8817,15 +12548,18 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "브런치",
+      "야근후",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8833,7 +12567,22 @@ const restaurants = [
       "[2★] 점심시간엔 줄이 엄청남 저녁에는 괜찮은데 많이 달라고 해도 많이 안 주는 듯... ㅠㅜ  샐러드로 먹으니까 허기진다 ㅠㅠ…",
       "[5★] 출장 왔다가 아침에 들렸습니다. 천장이 넓어 개방감이 좋고 서브웨이는 어딜가나 맛있습니다. 직원들도 충분하여 1-2분만에 받을 수 있었고 매장 컨디션도 좋았습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "문배동 육칼 삼성동직영점",
@@ -8857,22 +12606,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 빨간 육개장과 뽀얀 칼국수의 만남! 국수 다 먹고, 밥까지 말아먹는 3단 콤보  1층짜리 건물이고, 입구는 도로변인데 식당은 안쪽에 있는 약간 애매한 위치에 있습니다. 점심시간 웨…",
       "[5★] 문배동 육칼은 40년 전통의 한우사골육수로 맛을 낸 육개장 칼국수 맛집입니다. 1980년부터 시작되어 비법 다대기와 신선한 재료와 문배동 육칼만의 레시피로 만들어내는 육개장이라 더…",
       "[4★] #삼성동 #문배동육칼  \"육칼의 정석\"  본인이 육개장칼국수라는 메뉴를 알게 된 것이 이라는 식당 때문이다. 꽤 오래전이긴 하지만 문배동육칼이라는 식당이 떡상을 했고 육개장에 칼국…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "미사리 밀빛 초계국수 코엑스점",
@@ -8891,26 +12658,39 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "피곤함"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "해장",
-      "혼밥"
+      "점심"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 여름에는초계국수먹어보고, 이번엔비빔으로먹었는데, 맛은살짝텁텁한비빔국수맛이였음, 휴일이라, 손님이많아선지, 식사자리가잘치워지지않았고,친절은,그냥저냥,, :;…",
       "[5★] *하남에 위치한 초계국수의 분점  맛은 본점과 같다. 새콤한 감칠맛의 국물에 쫄깃하고 매끄러운 면발이 일품. 성인 남성을 위한 곱빼기 선택지도 있다.",
       "[4★] 코엑스몰 스타필드 지하1층 위치. 닭곰탕 진짜 맛좋다. 오후 5시 입장했다. 서너 테이블만이 차 있었다. 빈 자리 많아 골라 앉았다. 점원 친절하다. 홀 넓고 좌석간 거리 보통."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "치폴라로쏘 삼성점",
@@ -8935,15 +12715,19 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
+      "단체",
+      "데이트",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8951,7 +12735,22 @@ const restaurants = [
       "[4★] 음식은 무난하고 조금 올드스쿨 스타일인데 콜키지가 착하고 공간이 여유있고 아늑해서 주변에서 편하게 와인 마시고 싶을 때 찾아갈 듯...잔도 좋은 잔 아니지만 청결상태가 맘에 들더이…",
       "[4★] 2013년 방문후 거의 10년만에 찾은 차폴라로쏘 삼성점.  이제는 확실히 오래됨이 느껴진 인테리어와 메뉴판이었다. 서버도 일한지 얼마안된건지 서툴지만 잘하려고 노력함은 알수 있었…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "우마쿠라",
@@ -8977,16 +12776,23 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "단체",
+      "야근후",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -8994,7 +12800,22 @@ const restaurants = [
       "[4★] 오늘 점심은 사무실 근처 맛집 그 전부터 가고 싶었던 우마쿠라. 저녁에는 이자카야 점심에는 밥집. 오전 11시30분에 문을 열고 새벽 0시30분까지 영업하고 오후2시부터 5시30분…",
       "[5★] 사시미 구성 다양하고 맛있게 제공됨 회식 하기에 딱좋은 이자까야 동네가 동네인지라 가격이 좀 나감…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 5
+    }
   },
   {
     "name": "르사이공 코엑스몰점",
@@ -9015,15 +12836,14 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9031,7 +12851,22 @@ const restaurants = [
       "[4★] 분짜와 쌀국수 새우짜조 세트를 먹었어요. 전체적으로 무난한 맛입니다. 다만 쌀국수의 육수가 조금 더 진했으면 한 생각과 육수에 베어있는 약간의 밀가루맛같은 느낌이 아쉬웠어요.",
       "[4★] 주말에 방문. 당연히 대기가 있었지만 직원들이 친절하게 응대해준 편. 쌀국수 맛은 무난했습니다. 줄 서서 먹을만큼은 아니지만 위치가 위치이다보니 항상 대기가 있는거고, 맛이 특별하…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "후지",
@@ -9050,14 +12885,18 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9065,7 +12904,22 @@ const restaurants = [
       "[5★] 회 두께도 좋고 맛있습니다. 연어를 못 먹어서 아쉬웠어요…",
       "[5★] 최고의 럭셔리 식당입니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "록스플레이트",
@@ -9097,16 +12951,17 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야장에 맥주",
-      "오마카세·스시",
+      "야근후",
+      "야장",
+      "이자카야",
       "점심",
+      "퇴근후술",
       "혼밥",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9114,7 +12969,22 @@ const restaurants = [
       "[4★] 삼성역 근처에 혼밥과 2차로 한잔하기 좋았던 록스플레이트 다녀 왔어요  라멘,덮밥,벤또 등 다양한 일본요리를 판매 하고 있었고 안주류도 있었습니다  저희는 저녁 늦은 시간 방문했는…",
       "[3★] 점심식사로 방문하였습니다. 모듬까스덮밥 시켰는데, 밥은 풀질 낮은쌀을 사용하시는것같아 제 스타일은 아니었습니다. 치즈돈까스도 치즈가 너무 낮은등급을 사용하는것 같았구요. 가장 문제…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "여수동촌",
@@ -9138,25 +13008,46 @@ const restaurants = [
       "뷰맛집"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "야근후",
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[1★] 1인당 약 4만원에 삶은 꼬막 8개, 연포탕 낙지 한마리 먹음. 리뷰라는 거 처음 올립니다. 값이 사악하다는 타 리뷰가 맞나요?",
       "[4★] 제철음식 파는 식당인데 요즘은 하모회랑 샤브합니다..가격은 조금 사악하지만 맛과 서비스는 보장..만족합니다.  특히 샤브육수는 역대최고.  비린내를 싹잡아주는게 최고 매력입니당.",
       "[5★] 겨울이 끝나기 전에 제철 음식인 새조개를 맛보러 에서 새조개 샤브샤브와 벌교 참꼬막을...^^ 발을 내려놓고 좌식할 수 있는 룸이 있습니다... 새조개는 4월까지 먹을 수 있구요~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "아우네",
@@ -9177,24 +13068,39 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
       "혼밥"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 삼성동 코엑스에서 가까운 부대찌게 전문점입니다. 주변에 오피스가 많아서 평일 점심에는 줄을 서는집입니다. 가격도 적당하고, 오래된 가게 내공도 있습니다. 편하게 식사하기 좋은 장소…",
       "[5★] 삼성역 코엑스 주변 부대찌개 맛집. 점심시간에 일찍가지않으면 대부분 자리가 없을정도다. 가게가 오래되어 전통도 있지만 그만큼 오래 일한 직원분들의 노하우와 노련미가 느껴져 괜히 더…",
       "[4★] 2019년 하반기 기준 부대찌개 1인당 ₩8000 정도네요. 가게는 꽤 넓은 편이고요. 근처에 일하신다면 점심으로 들르는 것도 괜찮네요. 다진 고기를 넣어서인지 타 체인점 보다는…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "전주콩나루 콩나물국밥",
@@ -9217,10 +13123,13 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "데이트",
+      "피곤함"
     ],
     "scene": [
+      "데이트",
+      "점심",
       "해장"
     ],
     "wx": [
@@ -9232,7 +13141,22 @@ const restaurants = [
       "[5★] 삼성역 1, 2번 출구에서 도보로 5분거리 내에 위치한 곳에 있습니다.. 강남운전면허시험장 부근으로 가다보면,  지하1층에 출입문이 보이며, 내부는 겉보기보다 넓직하게 생겼습니다.",
       "[5★] 유명 전주콩나물국밥집인 왱이집과 굉장히 비슷하네요. 국밥위의 토핑이라든지 수란이라든지. 물론 그 수준까진 아니더라도 기분좋게 먹을 수 이ㅛ는 8천원 국밥입니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "초량돼지",
@@ -9255,21 +13179,42 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 육겹갈비살과 껍데기살? 이 참 맛있습니다. 육겹갈비는 지방도 적당히 붙어있고 쫄깃쫄깃 고소해서 계속 들어가는 맛이고요. 껍데기살은 약간 별미 느낌입니다. 항정살 + 껍데기 섞어놓은…",
       "[4★] 고기질이 좋고 밑반찬들도 깔끔하니 맛있음  두껍데기살 궁금해서 먹어보았는데 껍데기 특유의 식감과 고소함을 느끼고 싶은 분들은 두껍데기살 비추  사장님과 직원분들이 친절하심…",
       "[4★] 고기는 육질과 고기 손질 모두 좋고 깻잎지와 고추지에 싸서 먹는 방식도 맛남. 비빔당면과 튀김, 오뎅 등이 기본 찬으로 나오는데 맛있고 1,000원으로 리필 가능. 단 냉면류는 일…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "호아빈 삼성점",
@@ -9291,16 +13236,15 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9308,7 +13252,22 @@ const restaurants = [
       "[4★] ----------------------- 포스코사거리 맛집 시리즈 -----------------------  * 체인점이라 맛집으로 소개하기에는 좀 주저했지만 맛있게 한끼를 먹…",
       "[4★] 블랙빈 소고기 볶음밥을 주문했는데 제법 양이 푸짐하게 나왔습니다. 가격이 저렴하진 않지만 주변 가격이나 음식맛 생각하면 납득이 안가는 가격은 아닙니다. 시간대에 따라 웨이팅이 있을…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "정겨운 오뎅집 코엑스 삼성점",
@@ -9332,16 +13291,22 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "회식 2차"
+      "데이트",
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9349,7 +13314,22 @@ const restaurants = [
       "[4★] 2차로 사케 한잔이랑 간단하게 먹기 좋은 곳 내부도 완전히 일본의 선술집 느낌이다…",
       "[4★] 오뎅과 사케 먹기 좋은 집. 아주 특별하진 않은 알고있는 그 오뎅맛이지만 아기자기한 소품과 분위기가 좋음. 특히 웃는얼굴 술잔이 센스있음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "이태리부대찌개 삼성강남경찰서점",
@@ -9373,14 +13353,16 @@ const restaurants = [
     ],
     "moods": [
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
-      "해장"
+      "해장",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -9389,7 +13371,22 @@ const restaurants = [
       "[4★] 점심시간 들어가면 앉자마자 나오는 밑반친 서빙 속도, 그리고 부대찌개도 정말 빨리 나옵니다. 라면사리도 추가금 없이 얼마든지 먹을 수 있고 맛도 괜찮은 곳입니다.",
       "[3★] 밥, 반찬, 라면사리 무한리필입니다 1인분도 가능해요 맛도 괜찮고 양도 푸짐해서 좋습니다  다만 별로였던 점은 점심시간이었는데 제가 앉은 자리가 2인석이라 비어있는 옆자리에 외투를…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 5,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 2,
+      "warm_food": 4,
+      "fast_meal": 5,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "삼정복집 본점",
@@ -9412,23 +13409,43 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "단체",
+      "야근후",
       "점심",
-      "접대"
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 복 지리 하나 먹으러 들어갔다가 ㅡㅡㅋ 단품 파는 곳이 아니였네요 각 방으로 구성이 되어 있네요 코스 형태로 먹는 곳인데 런치에만 저렴하게 파는 메뉴가 있네요 인당 47,000원…",
       "[4★] 예약을해야하는데 빈방이있다며 친절히안내해주시고 활복이어서인지 지리는 무척 시원하고 쫄깃해서 부모님이 너무만족하셨습니다. 재방문 의향 있습니다~",
       "[4★] 룸 으로 돼어있어 조용히 식사 하기 좋아요. 생복을 사용한다고 하네요 지리탕은 부드럽고 개운 합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 4,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "하루",
@@ -9456,18 +13473,26 @@ const restaurants = [
       "오마카세"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "가성비",
+      "단체",
+      "데이트",
+      "야장",
+      "이자카야",
       "접대",
-      "회식 2차"
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9475,7 +13500,22 @@ const restaurants = [
       "[5★] 정갈한 분위기에 룸으로 되어있어 조용히 한잔하기 좋음. 안주는 단품으로 여러개 시켰는데 모두 평균이상으로 훌륭했음. 선릉에서 이정도 가격에 분위기면 꽤 괜찮음. 사시미도 신선하니…",
       "[4★] 선정릉 근처 가성비 좋은 일식집…  강남에서는 만나기 힘든 디너 오마카세(인당 45,000원)..  룸 charge 없음…!! - 전채 : 낙지 & 사과 샐러드, 수란 등 - 사시…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "대한민국",
@@ -9496,15 +13536,15 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "피곤함",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9512,7 +13552,22 @@ const restaurants = [
       "[5★] 점심메뉴만 경험했음 국수전골과 만두전골을 섞어 주문했고 음식의 양과 질 모두 만족스러움 가격이 살짝 비싼 것은 참고사항, 가끔 가면 큰 문제 안될 듯. 손님 모시고 가기에 적당한…",
       "[4★] 쑥국수전골 먹었는데, 맛있게 잘먹었습니다. 의외로 고기와 국수의 조화가 좋더라구요. 별미였습니다. 칸막이 있는 방도있고 이야기하기 좋습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "노메",
@@ -9537,16 +13592,21 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9554,7 +13614,22 @@ const restaurants = [
       "[4★] 라멘하고 미니 깐풍기 주문했는데  맛있어요. 점심에 대기가 있으니 참고하세요!",
       "[4★] 점심도 저녁도 맛있는 이자카야 노메. 점심메뉴는 7,000 - 9,000원이여서 값도 매우 착합니다. 근처 직장인들이 점심 저녁 모두 즐겨 찾는 숨겨진 공간!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "육갑식당",
@@ -9577,21 +13652,40 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 가브리살 촉촉하고 담백고소해요!! 매장도 깔끔하구 넓고 염창역 회식하기 좋은 고깃집이에요~! >_…",
       "[5★] 돼지갈비 질기지 않고 부드러운 게 아주 맛있어요 고기 두툼해서 더 좋고 달달하니 맛납니다 옛날 도시락은 완전 검정고무신에 나오는 도시락st…",
       "[5★] 육회도 맛있고 사장님 친절하세요!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "담미온 강남경찰서점",
@@ -9614,20 +13708,16 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야식",
-      "점심",
-      "해장"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9635,7 +13725,22 @@ const restaurants = [
       "[4★] 푸짐하게 나와요. 가격도 적당한거 같고…",
       "[4★] 23.12.11 방문 만족 가격대비 양이 적음 셀프바 만족  수육국밥 10,000원 × 2개 착한보쌈 25,000원…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "강산애",
@@ -9657,19 +13762,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "피곤함",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "해장",
-      "혼밥",
-      "회식 2차"
+      "가성비",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9677,7 +13780,22 @@ const restaurants = [
       "[5★] 좋아요 음식맛 좋구 가격도 합리적이구. 거의 나물반찬인데 손 많이 가는 나물 반찬 여러가지 먹을 수 있어 좋아요.",
       "[3★] 음식 깔끔해요. 가격은.. 상대적으로 가성비가 좋은 편은 아닙니다. 가끔 집밥 귀찮은 주변 거주자의 한끼에 적합한 거 같아요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "북촌손만두 선릉점",
@@ -9700,22 +13818,42 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 선릉역 근처에 있는 북촌손만두집.여기는 만두전문점이다.가게는 매우 작은편이다.여기에는 주로 굴림만두를 먹는데 굴림만두가 괜찮은편이다.찐만두와 새우만두도 괜찮아 보인다.",
       "[5★] 평일 점심시간대에 방문해서 떡갈비만둣국과 북촌만굿둑을 주문했다. 내부 방문객이 많아 떡갈비는 곧장 나왔는데 만둣국은 제공되는데까지 조금 시간이 걸렸다. 내부는 따뜻했고, 외부 출입…",
       "[5★] 갈비만두, 새우만두, 김치만두 다 맛있고 사골육수도 너무 맛있어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 4,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "봉화전2",
@@ -9737,26 +13875,37 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[4★] 평양냉면 처음 맛보는 사람도 맛있게 먹을 수 있을 것 같습니다. 다만, 점심시간은 피하시는걸 추천드립니다. 인근에 회사가 많이 밀집해 있어서 점심시간은 웨이팅이 있을 수 있습니다.",
       "[4★] 이북식 음식을 먹을 수 있는 막걸리집. 어복쟁반 보다 감동 먹은 건 주문 하면 조리 시작하는 전이다. 시그니처 막걸리와 모듬전만 보고도 갈만 하다.",
       "[2★] 기대를 해서 그런지 그닥 재방문 하고싶진 않음 저녁시간에 방문했는데 반접시 만두(5천)시키니 만두 2개 나오는데 맛은 괜찮으나 하나에 2천5백짜리까지는 아닌거 같고 평양냉면도 맛이…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "메밀밭",
@@ -9775,15 +13924,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9791,7 +13939,22 @@ const restaurants = [
       "[5★] 쓴메밀이라고 하지만, 쓰다고 느껴진 않아요. 막국수, 콩국수, 전병, 왕만두, 들깨 칼국수 먹어봤는데 다 맛있어요. 사장님 부부도 완전 친절하시구요~~",
       "[5★] 광주에서 하남방향 남한산성 지나서 있는 만두집임. 가격은 8천원 인데 성인 남자 가 먹기에도 양이 상당히 많음. 만두 는6천원에 안익힌것은 8개,익힌것은 6개임.  장소가ㅈ넓어서…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "포포빈",
@@ -9812,11 +13975,11 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "오마카세·스시",
-      "점심"
+      "가성비"
     ],
     "wx": [
       "맑음",
@@ -9827,7 +13990,22 @@ const restaurants = [
       "[1★] 소고기 덮밥이 11,000원이다. 밥도 고기도 너무 건조해서 먹을 수록 기분이 나빠진다. 쌀국수 육수는 다시다로 만든 느낌이 든다.",
       "[5★] 삼성동 가성비 좋은 쌀국수집. 솔직히 요즘 23년 24년  물가로 가성비라 하긴 그렇지만 9천원짜리 국수라 보면 된다.  맛은 담백하니 누린내 없고 고수는 기본으로 있지 않아  깔…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "뒤끝",
@@ -9851,24 +14029,41 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "고기 구이",
+      "고기구이",
       "해장",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] #Menu : 한우곱창전골 중 60,000 볶음밥 3,000 중앙해장 가려다가 웨이팅이 너무 길어서 갔는데 맛에서 밀린다는 느낌이 없었어요. 충분히 맛있었고 양도 적당했습니다~ 참…",
       "[5★] 한우곱창전골 추천. 담백하고 깔끔한 육수에 내용물이 신선하고 무엇보다 곱창이 매우 부드럽고 곱도 풍성하고 잡내도 없는 뛰어난 집이다. 곱창 추가시 3만원의 추가요금이 있고 반찬은…",
       "[5★] 소고기전골추천! 마지막 볶음밥은 필수!"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "이복희 해장",
@@ -9889,11 +14084,11 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
       "해장"
     ],
@@ -9906,7 +14101,22 @@ const restaurants = [
       "[3★] 2차로 가서 전골 먹었습니다. 곱창이라 질기긴 한데 생각보다 좀 질겨서 대부분 궁물이랑 야채만 먹었어요. 전골 맛은 보통인거 같은데 반찬류는 잘 손이 안갔습니다. 이미 매콤한 메뉴…",
       "[5★] 조금 호불호가 있을 부속이 많지 않아서 쉽게 좋아할만한 해장국. 김치와 무채도 맛있는데 쌈장에 땅콩가루가 들어간거 같은데 퀵이다. 종업원 분들이 조금만 더 친절했으면 한다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "봉추찜닭 선릉역점",
@@ -9927,15 +14137,15 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "스트레스",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주",
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -9943,7 +14153,22 @@ const restaurants = [
       "[3★] C 맛있는 찜닭. 점심 정식에서는 조금 약한 느낌.",
       "[3★] 찜닭 자체의 맛은 보통이며 찜닭에 올려주는 누룽지가 정말 맛있어요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "장호왕",
@@ -9964,22 +14189,39 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 삼성동에서 김치찌개를 제대로 맛볼 수 있는 집…",
       "[1★] 김치찌개가 아닌 김치국, 김치도 아끼고 고기도 아끼고, 심지어 계란말이 계란도 아끼고, 너무  알뜰하게 돈 많이 버실듯.",
       "[5★] 점심에 즐겨찾는 식당! 묵은지 김치찌개에 돌솥밥은 먹어도 먹어도 맛있다!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "향나무집 사철탕",
@@ -10000,21 +14242,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 근처 일와서 점심으로 알탕 먹었어요^^ 진한 국물이 시원하고 겉절이가 완전 맛있어요…",
       "[5★] 매콤하고 진한 국물의 동태탕이 맛있습니다…",
       "[5★] 친구와 밥을 먹기 위해서  부대찌게를 맛있게 먹음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "신전떡볶이 삼성청담점",
@@ -10036,22 +14297,40 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "가성비",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 잠실 공룡떡볶이에서 떡볶이와 튀김을 포장한 후 집에 오는 길에 어린가족인원이 먹고싶다고 한 신전떡볶이 순한맛과 오뎅튀김 2인분을 사러 집에서 제일 가까운 것 같은 예전에 보긴 했었…",
       "[3★] 떡볶이 외 메뉴들 먹어봤는데요 가격이 저렴한만큼 그 정도의 맛과 질이라고 생각됩니다. 가성비 감안 그냥 무난하네요…",
       "[4★] 김밥 맴지만 맛있는 맛이네요 튀김 빼고 나머지는 다맛있네요 튀김은 그냥 상품 돌려주는 느낌이네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "어부2가",
@@ -10075,10 +14354,11 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "4번출구 근처"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10086,7 +14366,22 @@ const restaurants = [
       "[5★] 바다향 가득한 쇠미역,꼬시래기,톳 등 해초와 함께 씹을 수록 고소한 맛이 나는 세꼬시까지 재료 참맛을 제대로 느낄 수 있는 곳…",
       "[4★]…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "서해쭈꾸미",
@@ -10107,16 +14402,15 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10124,7 +14418,22 @@ const restaurants = [
       "[3★] 용두랑 천호처럼 너무 맵지 않아서 좋아요.",
       "[5★] 정말로 맛있는 집입니다~~^^^…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "성풍한우",
@@ -10145,23 +14454,40 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 질 좋고 맛있는 소고기를 즐기기 좋은 식당입니다.",
       "[5★] 매주 가는 곳 맛도 서비스도 최곱니다…",
       "[4★] 음식이 너무 깔끔 했음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "봉구스밥버거 대치사거리점",
@@ -10180,22 +14506,38 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "스트레스",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주"
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 간단하고 빠르게 식사를 해결할 수 있는 곳. 편의점에서 도시락 먹는 것보다 여기서 해결하는 게 조금 더 나을지도.. 직원 분도 친절하시고 양을 많이 주신다. 점보치킨마요컵밥을 시켰…",
       "[5★] 맛있어요. 사장님이 친절해요. 양도 많이 줘요.",
       "[5★] 봉구스밥버거…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 5,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "비욘드비엣남 선릉점",
@@ -10217,28 +14559,38 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "스트레스",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "야식",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 매일 점심으로 먹고싶지만 웨이팅이 너무 많아요. 제일 좋아하는 쌀국수인데 자주 먹을 수가 없네요. 주말이나 공휴일에는 한가하니 참고하시고, 사이드 메뉴로는 짜조 추천합니다. 쌀국수…",
       "[5★] 여의도에 처음생긴 후부터 수년째 단골집입니다. 쌀국수는 아직까지 저에게 1등인 식당! 제래식으로 끊이는 국물이 진짜 엄청납니다. 면은 넙적면이라 식감도 좋고 쫄깃해서 후루룩~ 게다…",
       "[5★] 회사 근처로 선릉 근처 베트남 음식은 여기가 최고인듯👍🏻 주로 곱창쌀국수 분짜를 먹는데 둘 다 너무 맛있음. 곱창쌀국수가 얼큰하고 진한 국물이 매력적임 분짜는 면이 이렇게 얇은…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "가가미",
@@ -10264,6 +14616,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10271,7 +14624,22 @@ const restaurants = [
       "[3★]…",
       "[4★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "엠바",
@@ -10295,10 +14663,11 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "4번출구 근처"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10306,7 +14675,22 @@ const restaurants = [
       "[5★]…",
       "[4★]…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "들녘숯불구이",
@@ -10334,18 +14718,37 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "단체",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 갈비는 잘라진 상태로 거의 구워서 나와서 먹기 너무 편하고 맛도 있어요 개인적으로 고기 찍어먹는 소스가 너무 많은 것보다 기본 소스로 고기 맛에 집중하는 걸 더 좋게 생각하는데,…",
       "[4★] 삼성동 가성비 좋은 고기집. 이모님들 친절하시고 고기, 후식 다 좋았습니다. 고기는 초벌해서 나와 편합니다.",
       "[3★] 보통 저녁겸 회식 하는곳. 그나마 가격이저렴 하여 자주 이용하는곳 홀이가득차면 늦게 나옴…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "할머니",
@@ -10364,14 +14767,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10379,7 +14782,22 @@ const restaurants = [
       "[4★]…",
       "[4★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "수하동 본점",
@@ -10401,17 +14819,16 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "축하",
-      "피곤함",
-      "혼밥"
+      "피곤함"
     ],
     "scene": [
-      "점심",
-      "해장",
-      "혼밥"
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10419,7 +14836,22 @@ const restaurants = [
       "[4★] 하동관이랑 같은 맛 너무 좋아요. 다만 고기양이 좀 줄은 거 같아요. 깍두기 맛있어요.",
       "[2★] 좋아하는 맛집이지만 하동관과 마찰 생각하면 좀 아쉽긴합니다 ㅎㅎ  고기 양이 갈수록 적어지고 특곰탕인데도 두세점중 하나는 비계인게.. (사진은 나오자마자 바로찍은겁니다)  1700…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 0
+    }
   },
   {
     "name": "피양콩할마니 본점",
@@ -10441,24 +14873,37 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 선릉역 오피스 거리 일대에 있는 콩 비지 찌개 전문점입니다. 몇년전까지는 미쉐린 가이드 빕그루망에 등재된 것 같습니다. 콩 비지는 두부를 만드는 과정에서 콩물을 짜고 난 뒤에 남는…",
       "[5★] 저녁에 만두전골 먹으러감 이북식만두 느낌으로 담백한 맛이다 콩나물이 많이 들어있어서 콩나물국 같은 느낌도 남 육개장처럼 양지를 찢은게 듬뿍 들어감 반찬도 깔끔해서 좋음 가격대는 좀…",
       "[4★] 비지전골, 감자전, 콩국수를 먹었어요 모두 맛있어요! 다만 콩국수를 다른 식당과 비교 마시고 슴슴한 맛으로 평가하세요 맛 좋습니다. 비지전골 추천!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "데블스도어 코엑스점",
@@ -10482,17 +14927,20 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10500,7 +14948,22 @@ const restaurants = [
       "[4★] 매장이 크고 삼성역 바로 위에 있어서 모임하기 좋아요.",
       "[4★] 신세계푸드에서 운영하고있는 수제맥주펍입니다. 코엑스 전시장 1층에 위치하고 있어 전시를 보고 방문하기 좋습니다. 낮시간이어서인지 다양한 할인혜택들이 있어서 적당한 가격에 맛있게 먹…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "KFC 코엑스몰점",
@@ -10522,21 +14985,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "스트레스",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10544,7 +15002,22 @@ const restaurants = [
       "[4★] 점심으로 친구 2명과 같이 이탈리안타워버거세트를 할인받아3인분에 20,400원에 먹으면서 이야기를 나누다 왔다. 오후 1시가 지나서인지 매장에는 사람들이 많지 않아서 여유롭게 햄버…",
       "[5★] 코엑스 전시장에 들렀다가 점심식사를 위해 들른 KFC 코엑스몰점. 큰 전시회가 있을 때마다 점심시간엔 코엑스의 모든 식당이 북새통이 이뤄 긴 줄을 서야만 입장할 수 있음. 이곳에서…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "버거킹 선릉역점",
@@ -10569,18 +15042,36 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 덴키라멘에서 이에케라멘을 먹고 나와 집으로 향하면서 혹시나 먹을 거 사 갈게 있는지 가족인원에게 문의를 하니 어린 가족인원들이 먹을 햄버거를 버거킹에서 사오라고 해서 집으로 향하는…",
       "[5★] 선릉역에서 가깝고 1층에서 주문하고 2층에서 먹으면 됩니다. 2층 공간도 넓어요. 오케이캐쉬백 쿠폰으로 저렴한 가격에 베이컨치즈와퍼 먹었습니다..",
       "[5★] 주문 빨리빨리 빠지고 중년의 여성분이 서버로 일하시는데 빠르시고 열심히 일하시는 모습이 참 보기 좋았습니다. 버거킹의 지역사회환원을 위한 행동들 칭찬해요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 5,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "봉산집",
@@ -10602,16 +15093,19 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10619,7 +15113,22 @@ const restaurants = [
       "[5★] \"강남 같지 않은 이모님들의 밥인심과 차돌박이\"  저희 가족이 단골로 가는 고기집들이 있습니다. 가족의 단골집이 되기 위한 조건들이 있는데 - 예약이 쉽거나 워크인 난이도가 낮아…",
       "[4★] 고기가 고소하고 맛있어요 다만 된장찌게는 양은 냄비 보다는 뚝배기를 사용 하면 좋겠네요 유해물질도 걱정되고 하네요 요즘 건강을 생각하는 백세 시대라서요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "생어거스틴 파르나스몰점",
@@ -10640,13 +15149,17 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10654,7 +15167,22 @@ const restaurants = [
       "[4★] 코엑스 안에 있는 태국요리집, 우연히 들른 곳인데 맛있었습니다. 일단 양이 꽤 많아서 먹다가 남을 정도였습니다. 그리고 현지화를 시킨건지 향신료 맛이 엄청 세지는 않아요.(이건 사…",
       "[4★] 뭐 맛은 좋습니다. 지점마다 평이 갈리기도 하고 그렇던데, 파르나스몰점은 그냥 크게 모난 데는 없었습니다.  6만원권 금액권을 11번가에서 35,000원에 사서 오게 되었고 이렇게…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "깐부치킨 삼성점",
@@ -10676,14 +15204,16 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주"
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10691,7 +15221,22 @@ const restaurants = [
       "[5★] 현 시점 전세계에서 가장 유명한 음식점!!!!!  대한민국에 이런 음식점이 있다는 게 자랑스럽습니다 ^^  치킨, 사이드 메뉴, 맥주 모두 꿀맛이고 직원분들도 모두 친절하세요ㅎㅎㅎ…",
       "[5★] 삼자회동으로 유명해져서 주말에도 대기가 긴 상황임. 치킨 맛있고 다른 음식도 맛있었음. 외국인들도 매우 많이 방문중임. 바쁘지만 주인내외분 및 직원들 서비스가 매우 좋음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "해우리 선릉L7점",
@@ -10715,17 +15260,22 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "단체",
+      "데이트",
+      "야근후",
       "점심",
-      "회식 2차"
+      "접대",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10733,7 +15283,22 @@ const restaurants = [
       "[5★] 팀원들과 점심식사로 예약후 방문하였습니다. 남도 음식들 정갈하게 나왔고, 맛있게 먹고 왔습니다. 미역에 싸먹는 세꼬시회가 아주 인상깊었습니다. 룸으로 되어있어서 저희끼리 대화도 나…",
       "[4★] 올해 7월 회사 동료들과 함께 선릉역 근처 롯데비즈니스호텔 L7강남 지하에 있는 해우리선릉L7점에서 점심식사했습니다. 가급적 예약을 하시는 것이 좋습니다. 미리 연락하셔서 확인하시…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "딤섬청요리전문점 하이보",
@@ -10758,26 +15323,43 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "마라탕·훠궈",
-      "심야 밥",
+      "가성비",
+      "단체",
+      "야근후",
       "점심",
-      "접대",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[1★] 생각보다 서비스가 별로인곳 저녁에는 마감해야한다면서 더 드실꺼는 아니죠? 라는 식으로 압박하고 점심에는 같은 메뉴로 주문하라는 식으로 압박하고... 후식도 제철과일이라면서 제철이…",
       "[5★] 딤섬 맛집이라고 해서 갔는데 즉석에서 쪄주고 튀겨주는 딤섬 맛이 맘에 들더라고요. 점심에 코스로 시키니까. 다른 요리들과 함께 딤섬을 맛볼 수 있어서 가성비가 좋았던 것 같아요.",
       "[5★] 음식 맛있고, 서비스 좋은데.. 예산이 부족한 경우가 많음.  룸 사용시 룸차지 여부 확인바랍니다. 룸차지 얘기 안하셨다가 2만원 받으셔서 당황했습니다.  디너딤섬A코스 사진 투척…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "서래향 삼성점",
@@ -10799,23 +15381,39 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[5★] 탕수육 진짜 맛있어요...! 등심과 튀김옷이 한몸인데 튀김옷은 얇고 등심은 이거 돈까스인가 싶을정도의 식감이 느껴지는 두툼하고 부드러운 좋은고기를 써서 완맛인데 탕수육 소스도 너무…",
       "[5★] 일반적으로 먹을 수 있는 짜장, 짬뽕 외에도 귀한 식재료인 샥스핀이 들어간 스프라던지 X.O 소스로 만든 게살 볶음밥 등 쉽게 접할 수 없는 메뉴를 가성비 넘치는 가격에 골고루 맛…",
       "[5★] 자주 애용하는 곳입니다. 코엑스 들르고 나서 코엑스는 비싸고 넘 정신없는데 쾌적하게 식사즐길 수 있는 코엑스 즌처 맛집이에요. 개인적으로 탕수육이 존맛이니 꼭 시켜드시길…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "원조 양평해장국",
@@ -10836,14 +15434,16 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
+      "점심",
       "해장"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -10852,7 +15452,22 @@ const restaurants = [
       "[4★] 옛골 원조양평해장국 삼성점은 양평해장국과 뼈해장국이 맛있는 프렌치프라이 음식점입니다.  여기 음식은 생각나는 맛은 아니지만, 술먹은 다음날 해장하고 싶을때 가는 곳입니다. 그래서,…",
       "[4★] 특 내장탕은 고기반 국물반이네요 다진고추와 고추기름 시너지가 엄청납니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "라 피자 노스트라",
@@ -10874,10 +15489,11 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트"
+      "기분 좋음",
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "분위기 좋은 저녁",
       "점심"
     ],
     "wx": [
@@ -10889,7 +15505,22 @@ const restaurants = [
       "[4★] 다양한 화덕피자와 파스타가 맛있는 곳 생각보다 피자 사이즈가 커서 충분히 즐길 수 있다. 면을 즐기지 않는 분들은 파스타 대신 같은 맛의 리조토로 바꿀 수도 있다. 식사 후 주문한…",
       "[4★] 캐치테이블 예약하고 갔습니다. 지하철 출구 앞 건물 1층이라 찾기 쉬운 게 장점입니다. 음식은 괜찮았지만 테이블 간 간격이 좁아 좀 시끄러웠습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "깐부치킨 삼성역점",
@@ -10911,16 +15542,17 @@ const restaurants = [
       "4번출구"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야장에 맥주"
+      "야근후",
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10928,7 +15560,22 @@ const restaurants = [
       "[4★] 종종 방문하는 매장입니다 외국인 여자 직원분 친절해서 기분 좋았습니다…",
       "[5★] 후라이드 먹었는데 튀김 얇고 맛있었어요!!"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "영덕횟집",
@@ -10954,16 +15601,22 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "단체",
+      "데이트",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -10971,7 +15624,22 @@ const restaurants = [
       "[3★] 돔 한마리 먹었습니다. 반은 껍데기있게 주셨는데 그 부분이 비린내가 있었고 추가로 주문한 오징어 숙회등 몇 가지 요리도 그다지 맛있지 않았습니다. 회식분위기의 일반 횟집이라 아이와…",
       "[5★] 코엑스몰은 밥값이 비싸서 밖으로 좀만 나오면 이런 훌륭한곳이 있어요. 점심메뉴 푸짐한 오삼불고기 . 고기도 신선하고 오징어도 진짜에요. 간도 너무 달거나 세지 않아요. 9000이라…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "계동치킨 삼성역점",
@@ -10994,15 +15662,20 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "야장에 맥주"
+      "가성비",
+      "야장"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11010,7 +15683,22 @@ const restaurants = [
       "[5★] 뜨거운 치킨에 시원한 생맥주를 법인카드로 즐기기 좋은 치킨가게.",
       "[4★] 저렴한 편이고 가끔 가긴 나쁘지않아요~ 닭똥집 맛있었어요…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "스시츠카무 파르나스몰점",
@@ -11043,11 +15731,11 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
+      "야근후",
       "점심",
-      "혼밥",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "혼밥"
     ],
     "wx": [
       "맑음",
@@ -11058,7 +15746,22 @@ const restaurants = [
       "[5★] 무난무난 합니다 생선스시중에 칼질이 잘들어간게 있어서 식감이 좋았어요 참치도 무난무난 메가아나고는 좋았습니다 회덮밥도 굿 차돌우동은 쏘쏘…",
       "[3★] 점심으로 간단히 먹었는데, 평범합니다. 접시색깔 한번, 가격표 한번  보느냐고 정신 없었음 ㅋㅋ 언제쯤 회전초밥 접시 색깔에서 자유로워 질 수 있을까 🍣🍣🍣🍣🍣…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "듬북담북 선릉1점",
@@ -11077,22 +15780,41 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함"
+      "기분 좋음",
+      "피곤함",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
+      "점심",
       "해장"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 선릉에서 직장인들의 해장 맛집 으로 유명한 듬북담북 다녀왔는데 북어떡국 진짜 제대로였음! 북어를 방망이로 두드려 만든 전통 방식에 사골육수 블렌딩 해서 국물이 진하고 깊은 맛이 일…",
       "[5★] 선릉에서 직장인들의 겨울을 책임지는 듬북담북 북어국은 다이어트에도 좋고 최고의 국물 해장도 겸하는 요리라 자주가는데 북어는 칼로리가 낮고 단백질ㄹ 함량이 56% 높아 저칼로리 고단…",
       "[4★] 만두국은 밥 미포함입니다 북어국 특으로 드신다면 뜨거운 뚝배기로 끓여서 나옵니다 보통은 그냥 대접입니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "사조참치삼성점",
@@ -11119,21 +15841,27 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "축하",
       "피곤함",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "오마카세·스시",
+      "가성비",
+      "야근후",
       "점심",
-      "해장",
-      "회식 2차"
+      "접대",
+      "특별한날",
+      "해장"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11141,7 +15869,22 @@ const restaurants = [
       "[5★] 입에서 사르르 녹는다는 표현이 여기 참치를 보고 말하는 거 같아요. 두께도 두껍고 정말 맛있습니다. 이때까지 먹어본 참치 중에 최고입니다. 진짜 강력 추천!",
       "[5★] 사장님의 외길 27년 참치사랑길이 대단합니다, 해동도 너무 잘되었고 입에서 살살 녹는게 김을 싸먹는건 참치에 대한 모욕이었어요. 생으로 그냥 드세요…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 2,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "돈꼬레",
@@ -11164,22 +15907,41 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 삼성동 도심공항터미널 맞은편 식당가 골목에 위치한 돼지고기 전문식당. 내부는 그리 크지는 않지만 원통형 테이블과 좌석이 제법 많이 배치되어 있다. 생삽겹살은 초벌구이가 되어 나오기…",
       "[5★] 점심 특선으로 맛있게 먹었고요 생고기라서 그런지 육즙이 굉장히 많고 종이호일 있어서 너무 좋았어요 밑반찬 또 정갈하고 맛있었고 사장님 친절해요…",
       "[4★] 삼겹살 맛있습니다. 김치칼국수도 맛있습니다. 젊은 손님들도 많습니다. 가격도 만족스럽습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "향로식당",
@@ -11201,15 +15963,14 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "데이트",
-      "축하"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "접대"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11217,7 +15978,22 @@ const restaurants = [
       "[5★] 남도음식 코스가 푸짐한 향로식당이에요. 삼합 꼬막 계절생선등 좋네요. 예약필수이고요 주차공간은 2군데 밖에 없어요.",
       "[5★] 깔끔하기 그지없는 음식과 친절하신 이모님 덕분에 아주 즐거운 식사를 할 수 있었어요. 홍어삼합 단품만 먹었지만 나머지도 기대할 수 있을 정도로 정갈하고 맛있습니다. 기본 반찬도 굳…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "본 죽and비빔밥 대치은마점",
@@ -11236,15 +16012,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11252,7 +16027,22 @@ const restaurants = [
       "[5★] 죽이 진짜 너무 맛있어요 사장님이 항상 웃으면서 맞이해 주셔서 갈때마다 기분이 좋네요 우리 애기들이 먹기에 간이 세지도 않고 딱 좋네요 그리고 여기는 비빔밥이 제일 맛있어요 애들…",
       "[5★] 미나리꼬막비빔밥 최고 맛있어요~ 대치동 올때마다 식사 하고 가는데 오픈한지 얼마 안된것처럼 식당 내부가 항상 깨끗합니다. 사장님도 너무 친절해요~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "고메홈",
@@ -11273,27 +16063,38 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "야근후",
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 보리굴비2만5천원이며, 예전대비해서 쓰끼다시가 좀 안좋아진거같음. 예전어는 회무침같은것도 있었는데 요즘은 두부튀김 같은게 나오네요. 조용히 얘기하면서 점심먹기는 좋아요…",
       "[3★] 고메정식 먹었는데 음식이 끝도 없이 나왔음. 맛이 엄청 있지는 않았던 듯. 식당 자체는 깔끔하고 조용하니 얘기하기 좋았음.",
       "[4★] 다양한 요리를 한곳에서 맛 볼수 있다는 큰 장점이 있습니다. 조리솜씨가 뛰어 나지만, 조금 단 맛을 강하게 넣은것이  아쉽습니다~ 적당한 가격에 따뜻한 음식이 서빙되어 나와서 좋음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "전주콩나물국밥",
@@ -11314,10 +16115,12 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
+      "브런치",
+      "점심",
       "해장"
     ],
     "wx": [
@@ -11329,7 +16132,22 @@ const restaurants = [
       "[1★] 대치동 먹자골목 안의 콩나물국밥 전문점.  유명한 농민백암순대국 바로 앞 2층에 위치한 곳으로 아침 08시부터 식사가 가능한 곳이다.  점포명 처럼 계란을 수란으로 제공하는 콩나물…",
       "[4★] 음식맛에 비해 알려지지않은곳..선릉역 가까운 대치동 골목 2층이라 손님이 많을듯 한데 조용하다. 음식맛은 좋다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "브라운치킨 삼성점",
@@ -11352,14 +16170,21 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
-      "혼밥"
+      "혼밥",
+      "회식"
     ],
     "scene": [
-      "야장에 맥주"
+      "단체",
+      "데이트",
+      "야장",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11367,7 +16192,22 @@ const restaurants = [
       "[5★] 편하게 회식하기 좋은 장소입니다. 후라이드 치킨 맛있고 분위기도 나쁘지 않습니다.",
       "[3★] 야외죄석은 마음에 드나 손님이 많아 친절하지 않네요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "형제회관",
@@ -11390,22 +16230,43 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 회사사람들과 가벼운 저녁을 먹었어요. 오랜만에 형제회관에 갔습니다. 대패삼겹살을 먹었는데 흔한 싸구려 냉삼이 아니었습니다. 생삼겹살을 살짝 얼려서 얇게 썰어주는 것이었습니다. 음~",
       "[5★] 맛잇고 완벽한 강남구 맛집 대치동 형제회관 고기맛집 40년된 전문 고기맛집 이랍니다 한번 방문하시면 후회하지않을걸요 맛집으로 인정합니다^^…",
       "[4★] 주로 김치찌게를 주문하는데, 묵은지에 전짓살 고기인데 맛나요. 다른 메뉴도 있는데 주인장이 오랜 노하우 탓에 맛나게 보여요. 추천합니다!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "바오바오",
@@ -11428,24 +16289,43 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
+      "단체",
       "점심",
-      "접대",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 봉은사 갔다 근처에서 식사하려고 방문 홀과 룸도 있어 이용하기 편리. 런치코스 이용 음식 깔끔하고 전반적으로 좋았습니다.  게살스프,  전가복, 모듬버섯볶음, 칠리중새우, 식사 그…",
       "[5★] 간짜장이 꽤 맛있음. 다음번에는 요리에 술한잔 해도 좋을듯 함. ////// 저녁시간에 요리와 한잔했는데 역시 만족스러움. 서버분도 친절하고 어향동고, 유린기, 칠리새우 모두 훌륭…",
       "[5★] 토요일오후 한가한 타임이라 손님은 없었네요 배고파서 그냥 들어간 집인데 차돌짬뽕이 주메뉴라고 써져있고 시켜서 나왔을때 맑은 국물인거 보고 아 잘못시켰나 생각했는데 너무 맛있었어요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "삼성골",
@@ -11467,15 +16347,15 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "점심"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11483,7 +16363,22 @@ const restaurants = [
       "[4★] 지하에 위치한 다소 작은 음식점입니다. 음식 종류는 너무 많고 편하게 가성비로 가기 좋은 장소 입니다.",
       "[3★] 다양한 메뉴들이 있다. 제육볶음을 9,000원에 먹었다. 반찬 구성은 매우 조잡하다."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "깡장시골보리밥",
@@ -11504,23 +16399,38 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "피곤함",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 건강한 맛입니다. 단순한 반찬이나 맛있게 먹었어요. 오래만에 두툼한 계란말이 케찹찍어 먹었고 씨래기는 심심하지만 부드러워 술술 넘어갑니다. 감치찌개는 2인분같이 양이 많아요. 다…",
       "[3★] 삼성역~선릉역에서 적당한 가격에 만족할 만한 점심식사를 제공하는 곳이 드물지만, 여기서 식사를 하고나면 제 값은 분명히 했다는 기분이 듭니다. 손님의 연령대도 다른 식당에 비해…",
       "[5★] 강남(선릉) 삼합 맛집!! 삭힘도 중 이상이고...처음인 soft하게 다가오다가.. 중간이후 암모니아 펀칭이 재미지네요. ^^  2인 중자면 충분합니다. 양도 많은 편입니다. 반찬…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "호호식당 코엑스",
@@ -11542,15 +16452,14 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11558,7 +16467,22 @@ const restaurants = [
       "[5★] 블루리본 많길래 들어가서 먹어봄.  맛은 그냥 평범 그자체..  개인적으로 줄서서 먹을정도 아님..",
       "[4★] 코엑스에서 점심시간이면 항상 웨이팅이 걸리는 일본식 음식을 파는 곳으로 각종 나베와 카츠류가 메인입니다. 메뉴는 단품과 세트로 구성되어 있고 맛은 전체적으로 좋은편이며 다른 가게들…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "옛날명동칼국수",
@@ -11581,11 +16505,13 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "비",
@@ -11596,7 +16522,22 @@ const restaurants = [
       "[5★] 명동칼국수 삼성점 ... 물가가 많이 오른것이 느껴지네요 ..",
       "[3★] 다른 지역 명동칼국수 보다 못해요. 장사가 잘 되는지 입객에 신경도 못 쓰시고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 2,
+      "warm_food": 4,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "전주순대국",
@@ -11622,14 +16563,17 @@ const restaurants = [
     ],
     "moods": [
       "피곤함",
-      "허전함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "해장"
+      "가성비",
+      "야근후",
+      "점심",
+      "해장",
+      "혼밥"
     ],
     "wx": [
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -11638,7 +16582,22 @@ const restaurants = [
       "[3★] 조금 꼬릿한 냄새가 나는 편인데, 좋아하는 사람들은 좋아할듯 해요.",
       "[5★] 오랫동안 순대국 먹고 싶을 때마다 떠올리는 곳. 매우 실한 순대국 한그릇에 10000원으로 강남지역에서도 가성비가 매우 높은 곳. 원래 24시간 영업했으나 코로나사태이후 밤 10시…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 2,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "이조식당",
@@ -11660,15 +16619,18 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
+      "데이트",
+      "야근후",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11676,7 +16638,22 @@ const restaurants = [
       "[4★] 복집에 좀 다녀봤습니다 가격대는 역시 강남에 있는 복집 수준이지만 맛이 깊습니다 30년을 하셨다는 사장님의 손맛이 일품입니다 복불고기, 지리를 먹어봤는데 불고기가 어주 맛있습니다…",
       "[3★] 일단 분위기는 노포로 89년부터 이어져온 복집이다. 필자는 근무 이후 혼자 저녁을 먹기 위해 방황하던 도중 깨끗한 복지리, 복국이 먹고싶어 큰맘먹고 방문하였으나, 1인 메뉴는 복미…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "삼성족발",
@@ -11700,14 +16677,17 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "야식",
-      "회식 2차"
+      "단체",
+      "점심",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11715,7 +16695,22 @@ const restaurants = [
       "[4★] 지역 맛집. 대치동 대명중학교 바로옆 건물 지하에 위치. 매콤한 족발이 별미다. 근처 직장인들의 회식장소로 많이 이용되는 집이다. 다만 주차공간이 하나도 없어서 차를 가져가면 어려…",
       "[4★] 족발~ 마늘소스 보쌈 나이스~~~ 전체적으로 괜찮음!!! 보쌈 김치만있으면 완벽했을 뻔함~~~~ 한번 맛보시는걸로 강추!!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "종로김밥",
@@ -11738,23 +16733,40 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "피곤함",
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
+      "브런치",
+      "야근후",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 친절하시고 따끈따끈한 김밥 맛있게 잘 먹고갑니다 사장님이 부드러운 말씨와 새벽부터 나오셔서 부지런함 마인드 덕분에 이리저리 헤메지 않고 아침 해결했어요 복받으세요…",
       "[4★] 메뉴가 다양한 김밥집. 김밥 라면 그럭저럭. 주차 어려워요. 김치는 중국산.",
       "[5★] 종로김밥 기본에 충실한 맛! 언제든지 가도 실패하지 않음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 2
+    }
   },
   {
     "name": "파파존스 대치점",
@@ -11773,26 +16785,39 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 삼성동에 있는 호텔에서 주문을 했는데 배달하시는 분이 참 친절했다. 그리고 피자도 아주 뜨끈뜨끈했고... 가장 작은 라지 사이즈로 주문을 했는데 기본적으로 제공되는 것은 피클과 갈…",
       "[1★] 아무리 비대면 배달이라지만  음식 놓고 가면 문자라도 줘야되는게 상식 아님?  텔레파시로 도착했다고 배달기사랑 연락 해야되는거임?  대치점 배달부 개판임  차라리 배달어플로 시키세…",
       "[4★] 파파존스 스파이스 치킨 랜치 먹었는데 좋아요 피자계의 평양냉면이란 말이 참 맞는듯해요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "피에스타",
@@ -11817,16 +16842,24 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
+      "축하",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "단체",
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11834,7 +16867,22 @@ const restaurants = [
       "[4★] 맛있고 가격은 좀 있는, 그러나 선택지가 아주 많은 특색있는 퓨전 요리주점. 전반적으로 다 맛들은 괜찮고 참신한 메뉴들이지만 가격대비 양은 조금 아쉽습니다. 특별한 안주들과 가볍게…",
       "[2★] 야끼소바에 파스타 면 넣어주는 곳은 처음봤음. 술집이어도 별로고 일반 음식점으로도 별로임. 메뉴엔 별의 별게 많은데 정작 먹을만한 메뉴는 없고 술집답게 비쌈. 맛도 평균 이하. 식…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "일품돼지국밥 삼성역본점",
@@ -11858,11 +16906,13 @@ const restaurants = [
       "심야영업"
     ],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "야근후",
+      "점심",
       "해장"
     ],
     "wx": [
@@ -11874,7 +16924,22 @@ const restaurants = [
       "[4★] 저렴하고 메뉴가 다양한, 가성비 찾으시는 분들께 추천 드립니다.",
       "[4★] 생각보다 깔끔하게 맛있음. 국밥 잘 먹는 사람에겐 건더기가 좀 부실할 수 있으니 곱배기 메뉴로 추천함."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "마라품격",
@@ -11899,18 +16964,25 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "야장에 맥주",
+      "데이트",
+      "야장",
+      "이자카야",
       "점심",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11918,7 +16990,22 @@ const restaurants = [
       "[5★] 점심에는 항상 복작복작한 곳 오늘도 맛있게 헤비하게 먹고 갑니다 ㅎㅎ…",
       "[1★] 바로 앞 현백에 왕푸짐 마라탕과 비교해 보면, 왕푸짐과 가격 차이가 없는데 맛이 도저히 먹을 수 없을 정도로 별로입니다. 임대료 싼 지하에 있고 분위기도 완전 별로인데 물도 셀프입…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 5,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "그집",
@@ -11939,15 +17026,16 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "혼밥",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "점심",
-      "회식 2차"
+      "가성비",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11955,7 +17043,22 @@ const restaurants = [
       "[5★] 독특한 맛 강남인데도 합리적 가격 모임을 한 번 할만한 장소…",
       "[4★] 아주 좋아요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "샌드위밋 파르나스점",
@@ -11974,13 +17077,16 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "축하"
     ],
     "scene": [
-      "심야 밥"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -11988,7 +17094,22 @@ const restaurants = [
       "[4★] 맛있는데... 제 돈 다 주고 먹기엔 부단스럽다.",
       "[3★] 적당히 한산하고 맛있는 샌드위치 가게…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "흑돈가 삼성직영점",
@@ -12014,18 +17135,22 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12033,7 +17158,22 @@ const restaurants = [
       "[5★] 규모있고 서비스 좋고 고기의 질도 좋은 멋진식당 주차도 대중교통도 편리하다 강추합니다…",
       "[5★] 제주도 돼지고기 전문점입니다. 고기도 맛있고, 직원분들도 친절하시네요. 멜젖에 찍어먹는 제주오겹살, 목살은 소주한잔하기 딱 좋은 안주네요. 된장찌게 맛도 좋습니다. 다만 가격이 좀…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "평가옥 삼성점",
@@ -12056,22 +17196,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "점심",
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 나름 평양냉면 먹어봤다고 얕보고 들어갔는데, 평양냉면 = 중상(육수 주전자로 양껏줘서 더좋음) 편육(돼지) = 깜짝놀라게 맛있음 수육(소) = 아주 맛있음 밑반찬도 다 슴슴하니 맛…",
       "[4★] 선릉 평가옥 동료들이랑 점심 먹으러 다녀왔어요! 3대째 내려온 평양음식 전문점이라 그런지 정통 맛이더라구요. 평양냉면은 호불호가 좀 있을 것 같은데 저는 슴슴하고 깔끔한 맛이 좋았…",
       "[4★] 토요일 오픈 시간에 가서 바로 식사할 수 있었습니다. 잘 관리되고 있는 매장이고 직원 분 중에 키크고 억양이 약간 독특하신 아주머니가 차분하고 친절하셔서 인상에 남습니다.  육수가…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "맥도날드 선릉점",
@@ -12093,23 +17251,38 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "데이트",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
-      "회식 2차"
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 새로 나온 익산 고구마 모짜렐라 버거 맛있네요…",
       "[4★] 강남에 있는 맥날이라 그런지 천장이 높고 다른 지점보다 훨씬 쾌적하게 느껴졌다. 예를 들어 신림역 근처에 있는 지점은 뭔가 어둡고...날파리도 날아다녔는데 여긴 그런 것도 없음ㅋㅋ…",
       "[2★] 일행분이 한입먹고 보여줬는데 어떻게 이게 바로나온 햄버거인지.... 제꺼도 너무 퍽퍽하고 별로입니다 회사근처라 바쁜건 이해하지만 누가봐도 햄버거를 대충만든게 보여서 좀 아쉽네요 키…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "버거킹 대치점",
@@ -12132,21 +17305,39 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 특별할게 없는 평범한 버거킹. 최근 ‘플랜트와퍼’가 나왔다길래 가보았다. 생각했던 것 보다는 고기패티 맛을 잘 구현했다. 하지만 요놈의 예민한 혓바닥이 “이거 진짜는 아니야~”라고…",
       "[4★] 학원 끝나고 많이 먹어요 가끔 메뉴가 엇갈릴 때도 있습니다 근데 역사 버거킹에서 맛있긴 합니다…",
       "[3★] 새로나온 치킨킹 맛있어요. 학생들 없을때는 대기 길지 않네요. 키오스크 UX 엉망이에요. 매뉴 하나 주문할때 마다 화면 터치를 몇번을 하는지 원… 쓸데없는 추천 팝업은 짜증만 나게…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "홍영재장수청국장",
@@ -12170,15 +17361,19 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "점심"
+      "단체",
+      "야근후",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12186,7 +17381,22 @@ const restaurants = [
       "[5★] 맛있고 신선한 건강식을 찾는다면 강력추천해요! 입덧이 심한 임산부인데 지인추천으로 방문했어요. 청국장 냄새를 걱정했는데 냄새하나도없고 한알씩 살아있는 콩과 크리미하고 고소한 청국장…",
       "[5★] 일반적인 청국장집이라기 보다는 맛깔스러운 한정식집이에요. 대부분 룸으로 되어있어 모임하기에도 좋네요. 청국장이 냄새도 안나는데 맛있고 음식비쥬얼도 훌륭해요. 양껏 먹어도 건강해지는…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 4,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "용호동낙지 강남직영점",
@@ -12211,16 +17421,18 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12228,7 +17440,22 @@ const restaurants = [
       "[4★] 음식은 너무 맛있습디다. 다만 손님이 많을때는 자리가 좁게 배정될수 있습니다.",
       "[5★] 해외오래있다, 또는 한국의 매콤한 맛 보고싶을때 추천드려요~ 샐러드바 무료이용, 그리고 세트메뉴, 점심메뉴 딱 적당해요 ❤️…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "60년전통신촌황소곱창 선릉직영점",
@@ -12250,22 +17477,39 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "축하",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 선릉역 주변에서 맛있게 먹을 수 있는 곱창가게 선릉에도 있고 다른 지역에도 있는 곱창집 이지만, 그만큼 맛보장 곱창집이고 이 집에서 나오는 부추를 숨죽여 같이 먹으면 다른 밑반찬은…",
       "[5★] 레전드 곱창집중 하나..  난 3개를 꼽는데 그 중 한곳이다  테이블은 좁기에 4명정도 가면 불편할수도 있다  맛이 매우 좋고 양도 꽤나온다  그러나 가격이 좀 있는 편(?)  주…",
       "[3★] 저는 외식100%하는사람인데.. 맛있긴한데 다른 곱창집에비해 양이적어 좀비싼느낌이...맛은 맛있어요...!! 회사사장님이쏘시면 이집으로!!ㅎㅎ…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "롯데리아 선릉점",
@@ -12290,10 +17534,11 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "심야 밥"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12301,7 +17546,22 @@ const restaurants = [
       "[5★] 요즘 롯데리아. 직원은 적고 기계로 가득하다. 햄버거는 역시나 빈약했다.  해당 건물 주차등록 안되고 엘리베이터로는 지하1층으로 연결되는 길이 빠르다.",
       "[4★] 키오스크 무인점포로 주문부터 픽업까지 다 본인이 직접 해야합니다. 매장이 커서 자리 여유도 많고 새벽 4시까지 영업합니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 2
+    }
   },
   {
     "name": "원조광양불고기",
@@ -12325,25 +17585,46 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "축하",
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "단체",
+      "야근후",
+      "접대",
+      "특별한날",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 고기전문점이라 갈비탕 맛있습니다. 반찬도 아주 실하게 나오고요, 녹진한 국물에 밥공기 통째로 말아서 먹으면 든든해요~ 매장도 넓어서 단체로 회식하기에도 좋아요…",
       "[4★] 2층 규모의 광양불고기 삼성점! 단독건물이고 화장실은 2층에 위치하고 깨끗합니다. 키오스크로 주문하는 시스템이고 저는 광양불고기, 누룽지+된장찌개, 육회를 먹었습니다. 고기는 직접…",
       "[1★] 미국산고기 150그람 4만원에 반찬도 수준급.. 이름만 보고 들어갔으니 뭐 눈텡이 좀 맞았다 생각하고 먹고 나오는데 결정적으로 자연스럽게 가격올려 계산하다 걸림... 참나..."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 5,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 2,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "동보성",
@@ -12367,25 +17648,44 @@ const restaurants = [
       "오마카세"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "축하",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
+      "단체",
+      "데이트",
       "접대",
-      "회식 2차"
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] since1975.  남산, 명동을 거쳐 지금의 강남에 정착. 분위기도 좋고 직원분들 서비스 훌륭. 여럿이서 코스로 먹어봄. 양장피, 삼선누룽지탕, 버섯유산슬, 칠리중새우, 사자두…",
       "[3★] 코스로 먹었는데 가격 생각하면 아쉽고 그냥 맛만 고려해도 조금 아쉬움이 있습니다. 손님은 상당히 많네요. 친절하시고 서비스도 나쁘지 않았습니다. 저는 짬뽕을 먹었는데 좀 아쉬웠고…",
       "[5★] 가격이 있는 편이지만 회식으로 오기엔 나쁘지 않은 곳이에요! 코스요리도 4만원대부터 있어요!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "KFC 대치동점",
@@ -12404,18 +17704,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12423,7 +17719,22 @@ const restaurants = [
       "[4★] 얼마전 리뉴얼 재오픈함 11일에 가면 사람이 너무많아 징거벨 오더후 픽업추천 학원끝나는 시간만 피하면 갈만함…",
       "[4★] 직원들도 친절하고 위치도 좋지만 항상 붐비고 특히 식사 시간에 가면 패스트푸드 라는 말이 무색할정도로 밀릴때가 있음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "광양불고기본가",
@@ -12447,16 +17758,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12464,7 +17775,22 @@ const restaurants = [
       "[4★] 불고기 직접 잘 구워주심, 반찬가지수가 많으며 가족 식사에 적합함…",
       "[4★] 에서 광양본가 정식(불고기+간장 양념 낙지)... 정식은 점심에만 가능..."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "강진수산수산물직판장",
@@ -12489,14 +17815,15 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "오마카세·스시",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
       "맑음",
@@ -12507,7 +17834,22 @@ const restaurants = [
       "[4★] 가격이 저렴해서 좋습니다. 강남서 저렴한 비용으로 초밥과 회와 함께 소주한잔 하기에는 저렴해서 좋습니다…",
       "[4★] 선릉역에서 수산시장이상으로 맛있는 회를 먹었습니다. 룸도 있어 단체회식시에도 좋을것같네요. 가격도 인근에서 이런 가격은 쉽지않을것 같구요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "써브웨이 삼성점",
@@ -12528,15 +17870,16 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "회식 2차"
+      "브런치",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12544,7 +17887,22 @@ const restaurants = [
       "[4★] 다른 곳보다 재료를 넉넉히 넣어줘요. 오늘 아침 간단히 해결했습니다.",
       "[1★] 평일 오전 타임 직원들 너무 불친절하네요. 말하는 게 하나같이 공격적이고 짜증이 뒤섞여있습니다. 뭐 대단한 서비스를 바라는 건 아니고 사람 간에 기본적인 예의는 지켜주시기 바랍니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "친친",
@@ -12566,24 +17924,39 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "접대",
-      "회식 2차"
+      "단체",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[3★] 주변인 추천으로 와서 기대반 걱정반으로 저녁 식사로 방문하였습니다 이유를 모르겠지만 코스가 나오는 시간이 일정하지 않고 코스 다 먹는데 1시간 40분 걸렸어요 제가 앉은 테이블 뿐…",
       "[4★] 요리는 맛있네요.지인이 짬뽕맛있다 했는데 싱겁네요. 식사는 별로 였고 누룽지돈까스가 구수하고 맛있어요. 새우요리도 괜찮은거 같네요.",
       "[4★] 선릉역 근처의 나름 고급진 중국집 가끔 짬뽕생각이 나면 찾는 집입니다.  내부는 고급진 느낌과 테이블 커버를 식사마다 변경해줍니다. 테이블 보와 은은한 조명 그리고 단체석과 방으로…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "리칭",
@@ -12607,24 +17980,44 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "심야 밥",
+      "가성비",
+      "데이트",
+      "야근후",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[1★] 이곳이 왜 이렇게 변했을까?  오랜만에 점심 식사 시간 조금 지나서 방문하여 짬뽕 쟁반짜장 탕수육을 주문...  그런데 탕수육이 30초 만에 제일 먼저 나온다.  운이 좋다고 생각…",
       "[4★] 적당히 싸고 그럭저럭 먹을만 해요.",
       "[5★] 위생이나 분위기가 좋다고는 말할 수 없지만 음식 맛으로만 냉정히 평가한다면 이 인근 지역에서는 최고의 맛임.  특히 해물볶음짬뽕의 경우, 과연 이 가격에 이렇게 재료를 써서 남는…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "도미노피자 잠실야구장점",
@@ -12647,10 +18040,11 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "분위기 좋은 저녁"
+      "가성비"
     ],
     "wx": [
       "맑음",
@@ -12661,7 +18055,22 @@ const restaurants = [
       "[5★] 잠실야구장 가서 두산베어스 응원하고 홈런 보느라 매우 즐거웠습니다…",
       "[3★] 일단 야구장 안에 위치하여 가격이 싸지 않다. 피자도 종류가 한정되어 있어서 피자를 좋아하는 사람이라면 외부에서 사오는 것을 추천한다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 0
+    }
   },
   {
     "name": "전통원조한방삼계탕",
@@ -12682,12 +18091,11 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "피곤함"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
+      "야근후",
       "해장"
     ],
     "wx": [
@@ -12699,7 +18107,22 @@ const restaurants = [
       "[5★] 한국에 갔을 때 항상 가는 삼계탕 가게. 맛이 맛있고 점원이 친절합니다. サムゲタンの美味しい店。ご機嫌なおばちゃんが親切に対応してくれます。 한국에 같은데…",
       "[5★] 여긴 대치동 찐 삼계탕집! 기본으로 나오는 인삼주까지 삼계탕에 뿌려서 먹으면 기분이 그렇게 좋을 수가 없네요 ㅎㅎ 10년이 넘게 자리를 지키는 집이니 꼭 가보셔요 :)…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "티엔티엔티엔",
@@ -12719,23 +18142,41 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "회식 2차"
+      "접대",
+      "회식"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 동파학센. 이름도 신기해서 맛보라 갔다. 진짜 부러워서 이가 없는 어르신도 드시겠다. 꽃빵이 따뜻해서 좋다. 칠리새우는 10월 이벤트로 사이즈 업글 되는 것 완전 혜자다!! 뚝섬역…",
       "[5★] 티엔티엔의 대표 메뉴는 동파학센 궁금해서 다녀왔어요  독일의 족발 요리로 불리는 슈바인 학세를 동파육 스타일로 요리해 낸 동파학센  매콤 칼칼하면서도 꼬리곰탕의 깊은 맛이 나는 진…",
       "[5★] [실고기짬뽕(1만)]  늦은오후 Break time에 우연히 발견한 중국집. 중국집 특유의 담백 시원한 국물맛이 일품입니다. 각종 야채가 들어있어서 건강한 맛을 내는 조합이며 면과…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "희래등",
@@ -12756,15 +18197,14 @@ const restaurants = [
       "심야영업"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12772,7 +18212,22 @@ const restaurants = [
       "[4★] 가격대가 다른 곳에 비해 천원 정도는 더 얹혀져 있지만 음식이 맛있다. 크림새우 꼭 먹어보길 바란다. 유니짜장도 간이 살짝 센 편이었지만 맛이 정말 좋았다.",
       "[3★] 삼성역 파크하얏트 블럭의 특이한 지정학적 상황때문에 꽤 인기가 있지만 특별할 것은 없는 그냥 동네 중국집. 늦게까지 한다는 점이 장점이라면 장점. (익일 새벽 1시까지 영업) 모든…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 5
+    }
   },
   {
     "name": "이화수전통육개장 삼성역점",
@@ -12795,16 +18250,16 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "데이트",
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12812,7 +18267,22 @@ const restaurants = [
       "[3★] 양도 많고 맛은 있음, 다만 점심시간이라 그런지 편하게 식사할 수 있는 분위기는 아님. 내부가 정신이 없고 직원분들이 힘드셔서 그닥 친절하지 않음. 점심시간되면 사람은 늘 많다.",
       "[2★] 삼성역 신안빌딩 뒷편애 위치한 육개장 전문점.  체인점이다 보니 어느 정도 맛은 나쁘지 않고 요즘 같이 비가 많은 날에는 얼큰함을 추구하는 손님들로 가득하다.  점포 깔끔한 편이고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "흑도야지",
@@ -12835,21 +18305,43 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 육회 비빔밥, 성북동청국장 가려다, 1인 식사가 안된다고 튕겨서 여기로 왔습니다. 아주머니가 친절히 맞아주시네요. 저녁시간 전이라 사람도 많지 않았고...찬도 6가지 정도에 육회비…",
       "[5★] 전략적으로 도야지로 상호 변경, 제주도 흑도야지를 강조하여 주변 소고기집 오픈을 경계하고 있음, 맛과 서비스, 분위기에서 이기면 될텐데 하는 아쉬움이 많음.",
       "[5★] 비가 주룩주룩 오는데, 저녁 먹으러 갔어요. 모듬한우, 술과 식사를 하니 맛이 최고입니다.  23_0614 수:…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "화수사",
@@ -12872,14 +18364,20 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "피곤함",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "가성비",
+      "야근후",
+      "점심",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12887,7 +18385,22 @@ const restaurants = [
       "[3★] 점심 정식이 깔끔해요. 깨끗하고 가성비 좋은편입니다.  발렛이 없어서 주차가 좀 힘들었어요.",
       "[5★] 방이 있어 거래처 식사에 좋습니다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "사보텐 대치점",
@@ -12912,10 +18425,12 @@ const restaurants = [
       "혼밥"
     ],
     "scene": [
+      "가성비",
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12923,7 +18438,22 @@ const restaurants = [
       "[5★] 가격이 좀 비싸지만 맛은 절대 배신 안하는 맛이에요…",
       "[4★] 대치동 학원가 고등학생 점심에 인기 많은 식당…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "한국촌",
@@ -12946,22 +18476,42 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 점심 맛집. 패스트푸드같이 빠르게나옴…",
       "[4★] 국수전골이 여기 시그니처 중 하나입니다. 다른 식사 메뉴도 인기가 많아요.",
       "[5★] 삼겹살 맛있게 먹었습니다. 밥 공기 시키면 된장찌개주는데 맛있어요. 식당 깔끔하고 괜찮아요. 구글지도에 위치가 다르게 나오네요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "Salady",
@@ -12980,13 +18530,18 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "회식"
+      "기분 좋음",
+      "스트레스",
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "브런치",
+      "점심",
+      "퇴근후술"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -12994,7 +18549,22 @@ const restaurants = [
       "[4★] 아침7~10시까지 아이스아메리카노1.500,아메리카노 1.000원 행사중,햄버거,샐러드,랩등으로 웰빙과 다이어트용으로 식사대용으로 챙기는 직장인들이 퇴근후에도 많은것을 느끼게됨,남…",
       "[3★] 개인적으로 웜볼 메뉴들을 추천합니다! 샐러드 기반이지만 진짜 든든하고 맛있게 한끼할 수 있음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "삼군김치찌개",
@@ -13017,14 +18587,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
       "점심",
       "해장"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -13033,7 +18605,22 @@ const restaurants = [
       "[2★] 찌개가 딱 나오는 순간 '오~~ 비쥬얼 좋다' 했다가 잉?? 했어요. 군내가 확! 나는데 순간 비위가 상했어요. 반찬으로 나온 오이김치는 비린내가 확 ... 나머지 반찬은 아예 안…",
       "[4★] 강남 선릉에서 김치찌개가 생각날 때 방문해 볼만한 식당…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 2,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "부산완당 COEX",
@@ -13054,14 +18641,19 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트"
+      "기분 좋음",
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13069,7 +18661,22 @@ const restaurants = [
       "[3★] 국물은 전형적인 msg맛으로 먹을만할정도로 맛있는 맛이었어요. 제가 싱겁게 먹는 편이라 좀 짜게 느껴졌어요.  완당이 참 생긴게 귀엽고 부드럽네요. 완당에 곁들어 나온 유부초밥은…",
       "[3★] 삼성동 페르나스건물 지하 식당가에 위치한 만두국집. 멸치국물에 홍콩식 완탕과 비슷한 얇고 작고 둥그런 만두가 끓여져 나오는데 맛은 밍밍하고 별 특색은 없다. 점심때는 직장인들로 제…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "담소소사골순대육개장삼성1호점",
@@ -13091,21 +18698,43 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
+      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "눈",
       "맑음",
-      "흐림"
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 이곳은 식당에서도 먹지만 자주 가서 포장을 해서 집에서 먹는다. 그렇게 포장해서 먹으면 가성비로는 강남에서 원탑일 듯! 맛도 전혀 떨어지지 않기 때문에 식당이나 포장이나 들다 강추…",
       "[5★] 시래기국 맛있어서 자주 찾는 식당입니다.. 시그니쳐 메뉴인 청국장을 오늘에야 처음 맛을 보았네요..  역시나 엄지척 나오는 맛입니다.. 사장님 친절하시고, 반찬도 맛있어서 리필하게…",
       "[3★] 삼성역 근방 무난한 프랜차이즈 순댓국집. 순대국 9,800원으로, 탁한 설렁탕 국물맛의 순대국으로 들깨가루와 양념이 같이 들어있다. 고기도 무난하게 들어있는편이고, 깍두기와 무 생…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "모로미쿠시",
@@ -13129,15 +18758,21 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "회식 2차"
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13145,7 +18780,22 @@ const restaurants = [
       "[4★] 일본에 가까운 이자까야~ 맛있는 애비수생맥주 음식은 일찍떨어질때도 있으나 신선도 좋음…",
       "[4★] 강남 대치동 선릉역 1번출구 인근 유명한 이자카야 메인 메뉴는 꼬치구이 단품이나 세트나 비싼게 흠 그래도 먹어보면 다시찾게 되는 정말 맛있는 술집 다른 메뉴는 보통 전체적으로 가격…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "우희담",
@@ -13164,10 +18814,10 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
@@ -13179,7 +18829,22 @@ const restaurants = [
       "[2★] (생대구지리) 보통의 일식당 육수(마늘베이스, 약간의msg?), 동태에 가까운 생대구살…",
       "[4★] 동ㄴ에 작은 일식집으로 초밥먹으로 자주찾는 집입니다. 신선하고 맛있게 신경써서 잘 차려주셔서 더욱 맛있는 느낌입니다~"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "차호랑",
@@ -13202,16 +18867,17 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "데이트",
+      "야근후",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13219,7 +18885,22 @@ const restaurants = [
       "[3★] 1층 반룡산에서 함께 운영하는 북한 음식을 표방하는 음식점 1층 반룡산과 겹치는 메뉴도 있으나 이곳 만의 색다른 메뉴로 차별화 되어있다. 정식 주문 시 많은 가짓수의 반찬이 나오는…",
       "[4★] 섭밥(홍합밥) 정식 가격이 1인 22,000원(2인 부터 주문가능) , 단품은 11,000원 두가지를 비교 하자면 나오는 찬의 차이죠 ^^ 홍합밥 맛은 있네요 ^^ 이북식음식이라고…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "HOTSUN치킨",
@@ -13240,18 +18921,17 @@ const restaurants = [
       "뷰맛집"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "스트레스"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "혼밥"
+      "데이트",
+      "퇴근후술"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13259,7 +18939,22 @@ const restaurants = [
       "[5★] 단골입니다. 언제가도 좋은 곳.",
       "[3★] 맛있어요.. 근처에 기름에 튀긴 치킨만 있어서 구워서 기름 쫙~ 빠져 나오는 집은 없잖아요 근데 화장실 앞 자리는 너무 구석지고 벌레많아서 개선 필요해요..맛은 별5개지만, 자리는…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "기꾸",
@@ -13280,18 +18975,14 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13299,7 +18990,22 @@ const restaurants = [
       "[3★] 28000원짜리 점심 기꾸 정식입니다. 맛은 있는데 가격은 제법 있습니다. 그래도 나름 좋은 횟감으로 승부하는 곳 입니다.",
       "[1★] 서빙 여자아주머니가 불친절 회 상태가 별로…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "군자대한곱창 선릉점",
@@ -13321,21 +19027,39 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 모든 메뉴 다 너무 맛있어요~~~ 여러 소스가 있고 카레가루도 있는데 개인적으로 치즈가루 찍어먹으면 더욱 맛있는 것 같아요!!! 자주 가는 단골집입니다👍👍…",
       "[4★] 곱이 많고 실제로 진짜 맛있어요!! 양이 좀 적은 거 같아서 아쉽긴한데 그래도 매우 맛있답니다:-) 옆에 있는 황소곱창도 매우 좋아하는데, 황소곱창보다 맛있는거 같아요! 부추와 영…",
       "[5★] 맞은편에 있는 강남 최고 롯데불한증막사우나(찜질방)를 자주 다니다 오랜만에 와 보니 그 동안 보지 못했던 새로운 곱창집이 들어섰네요. 평일 저녁7시인데 손님이 바글바글 많기는 한데…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "고기가 맛있는 집",
@@ -13354,23 +19078,37 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "회식 2차"
+      "야근후"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 부대찌개 맛있어요~~ 순두부찌개와 청국장도 엄청 맛있는데. 강남에 있는 집이라 양이 적어보여도 맛있게 먹었습돠…",
       "[3★] 회사건물이라 자주갑니다. 밑반찬 맛있어요…",
       "[5★] 직원분들이 친절해서좋아요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "원조마포소금구이",
@@ -13394,22 +19132,42 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "가성비",
+      "고기구이",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 돼지고기 소고기 모두 훌륭함. 목살과 삼겹살을 먼저 구웠는데 잡내없이 육질도 좋았음. 콩나물과 대파, 김치를 같이 구워 쌈싸먹으니 훌륭했음. 소고기 모듬은 다소 비싸긴 했지만 때깔…",
       "[5★] 제육볶음 8천원이고 계란찜 나오고 된장국 서브로 나와요 점심시간에 가도 빨리 나오고 아주 맛있어요…",
       "[5★] 20년이 넘게 맛이 변치 않는 집입니다. 일하시는 분도 수십년간 계속 일하시는데 그분들께서 타지 않게 잘 구워주세요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "족발보쌈마을",
@@ -13433,17 +19191,17 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야식",
-      "점심",
-      "회식 2차"
+      "단체",
+      "야근후",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13451,7 +19209,22 @@ const restaurants = [
       "[3★] 주말 저녁 매장은 넓고 손님은 많은데 일 하시는 분이 주방 1명 홀 1명이네요!! 두분 너무 바쁘셔서 벨 누르기가 죄송했네요!",
       "[3★] 삼성역 사거리 근방 2층에 있는 족발보쌈집. 음식이나 서비스는 깔끔한데, 가격대가 꽤 있는 편이다. 또한, 회사원들 회식이 잦은 곳이라, 조용한 식사는 불가할 것 같다. 그래도 전…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "바다사랑생태찌개",
@@ -13474,15 +19247,19 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
+      "야근후",
       "점심",
       "해장"
     ],
     "wx": [
+      "눈",
+      "덥고 습함",
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -13491,7 +19268,22 @@ const restaurants = [
       "[4★] 이동네에서 생태로 나름 유명한 집인 것같습니다. 점심 동태찌개도 맛납니다. 생태는 안 먹어봤지만 더 맛있겠지요??? 원래 왼쪽에 바다사랑 한쪽만 장사했는데 장사가 잘 되는지 오른쪽…",
       "[5★] 지리가 명품입니다. 미역과 조개를 듬뿍넣어서 생선 비린내를 깔끔하게 잡고 시원한 맛을 냅니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "물고기하우스 본점",
@@ -13510,19 +19302,16 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "축하"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "야근후",
+      "특별한날"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13530,7 +19319,22 @@ const restaurants = [
       "[3★] 숙성회인데 특별한 것은 없네요.  원없이 부드러운 회 먹고싶은데 삼성역 부근이면 추천.",
       "[2★] 6개월전까지만 해도 별5개의 평점을 받기에 충분한 강남 한복판의 보기드믄 숙회 무한리필 회집이었으나 입소문이나 손님이 많아진탓인지 초기의 진정성이 많이 사라졌음. 형식적인 리필에다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 3
+    }
   },
   {
     "name": "울트라맨 이자카야",
@@ -13554,19 +19358,24 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "데이트",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "야장에 맥주",
-      "점심",
-      "회식 2차"
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "덥고 습함",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13574,7 +19383,22 @@ const restaurants = [
       "[5★] 사장님이 서비스를 잘해주고 공간이 시끄럽지않음…",
       "[2★] 내부 분위기는 괜찮으나 꼬치구이는 너무 짜서 먹을수가 없었음. 화장실에 휴지도 비치 안됨."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "꺼벙이 분식",
@@ -13597,21 +19421,40 @@ const restaurants = [
       "심야영업"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "심야 밥"
+      "가성비",
+      "야근후",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 메뉴도 빨리나오고 싸고 좋습니다 와사비날치알? 날치알김밥 맛있습니다 김치라면도 좋았습니다…",
       "[3★] (선릉역 삼성동) 이제24시간 아님ㅜ 이 날 라뽁이 넘 달아  ———————————- 맛만 따지면 더 맛있는 분식집 많겠지만 소중한 24시간 운영집에 소주와 맥주를 파는 분식집!!",
       "[4★] 떡볶이가 맛있다고 해서 찾아간 곳 밀떡에 진하고 매운 단 소스가 학교 분식집 떡볶이 같음 떡이 알맞게 익고 맛도 달고 매워서 좋기는 하나 가격이 있음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 5,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "소공동뚝배기집",
@@ -13635,14 +19478,16 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
       "점심",
       "해장"
     ],
     "wx": [
+      "눈",
       "비",
       "쌀쌀함"
     ],
@@ -13651,7 +19496,22 @@ const restaurants = [
       "[4★] 점심시간에 웨이팅이 엄청 심했던 집인데 요즘은 많이 줄었습니다. 직화구이는 맛있는데 순두부는 거의 국물만 주시네요. 서비스는 별로입니다.",
       "[2★] 3인 섞어 28,000원 (직화 제육, 오징어). 점심 한끼 떼우기용으로는 갈만하나, 고기 양이 너무 적다. 불맛으로만 방문하는 매력으로는 더이상 소비자에게 어필 할 수는 없을 것…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "부엉이돈가스 대치점",
@@ -13670,14 +19530,17 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함"
+      "기분 좋음",
+      "피곤함",
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "해장"
+      "해장",
+      "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13685,7 +19548,22 @@ const restaurants = [
       "[5★] 김치카츠나베먹고 나니 지난주 먹은 술까지 해장되는 느낌이!! 양은 어찌나 많은지 돈가스에 우동에 밥까지 있으니 포만감도 최고~!!",
       "[1★] 최근 새롭게 생긴 부엉이돈까스 대치점. 개인적으로 브랜드는 알고 있었지만 한번도 방문 안했던곳. 아이 학원때문에 5시경 방문. 세트메뉴(우동포함)를 포함 2가지를 시킴.  결론ㅡ…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "부산아지매국밥 삼성역점",
@@ -13706,10 +19584,10 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "허전함"
+      "피곤함"
     ],
     "scene": [
+      "점심",
       "해장"
     ],
     "wx": [
@@ -13721,7 +19599,22 @@ const restaurants = [
       "[4★] 밀면 괜찮고, 만두 괜찮음. 아지매 국밥은 사진은 두툼한 고기인데 실제로는 슬라이스한 것으로 조금 들어간 것이 가격대비 별로. 순대국밥은 완전 별로.",
       "[2★] 가끔 조리를 잘못해서 그런지 돼지 똥내가 엄청 심하게 올라올 때가 있네요 3번 가봤는데 2번은 안그랬는데 1번은 진짜 너무 냄새가 심해서 후추를 때려넣고 먹었습니다 이 근처에 돼지…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "종로면옥",
@@ -13744,22 +19637,43 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
+      "기분 좋음",
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 설렁탕이 뚝배기에 보글보글 끓여 나오지는 않지만, 맛은 무난합니다. 특(13,000원) 사이즈는 고기도 부족하지 않고요. 고기 퀄리티도 괜찮습니다. 다만 깍두기와 김치가 맛이 부족…",
       "[2★] 갈비찜. 종로빈대떡집인데, 평양냉면 전문이고, 설렁탕, 갈비찜도 메인으로 판매하고 있다. 맛은 소불고기뚝배기 그 달디 단 맛이고, 고기도 썩 잘 발리는 편은 아니다. 전체적으로 부…",
       "[4★] 전반적으로 가성비좋고 맛있는 서울맛집♡…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "정다원",
@@ -13780,24 +19694,40 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "데이트",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 삼성동 뒷골목 가정식 분위기 한식당 추천합니다. 청주댁 사장님 너무 친절하시고 모임에 좋습니다…",
       "[2★] 가정집 개조한 음식점. 분위기는 깔끔하고 좋음. 밑반찬도 평범하지만 깔끔하게 나옴. 고등어구이를 시켰는데 딱딱하고 말라있고 짜고 향도 없고 맛도 없음.",
       "[1★] 생선구이 전문이라고 하지만.. 냉동고등어는 거의 모든 식당이 사용하지만 안쪽살코기는 너무 퍽퍽하고 맛이없음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "경성옥",
@@ -13818,27 +19748,37 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
       "피곤함",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "해장",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[2★] 회사 근처라 점심때 방문했습니다. 점심 기준으로 냉면은 그냥저냥~ 뚝배기 불고기는 너무 슴슴한 맛이었고, 곰탕인가 있었는데 이게 최악인게 국수를 주는데 익힌 면발을 공기중에 오래…",
       "[5★] 점심때 먹기 적당한맛. 음식 양도 충실하고 회 맛도 적당하다.",
       "[1★] 냉면 면이 잘 삶아지지 않아 딱딱히 굳어 있음. 만두에서는 털이 나옴."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "직화한상",
@@ -13857,23 +19797,37 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[1★] 아이들이랑은 절대로 오지 마세요. 아빠, 엄마 그리고 3세 미만 형제 둘이 수족관 방문후 저녁을 먹으렬고 하는데 문에는 5시 열은다고 했지만 5:12분에 문을 열고 인사 드릴땐 5…",
       "[5★] 음식이 맛있었어요. 비빔밥은 처음 먹어봤는데 정말 환상적이었어요. 음식은 따로 그릇에 담겨 나와서 비벼 먹으면 돼요. 비벼 먹은 후 다른 그릇에 뜨거운 물을 부어 밥을 부드럽게 만…",
       "[4★] 수족관이나 코엑스몰에 갔을 때 바비큐를 즐기기에 아주 좋은 곳이에요. 고기를 구울 때 장작이나 숯을 사용하는 점이 마음에 들었어요. 덕분에 음식에 풍미가 더해지더라고요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "낙월식당",
@@ -13894,19 +19848,17 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "기분 좋음",
+      "데이트"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "데이트",
+      "야근후",
+      "퇴근후술"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13914,7 +19866,22 @@ const restaurants = [
       "[1★] 회사에서 선결제하고싶어서 전화했더니 물어보지도안고 그런거안한다고 끊는데 말투존나열받네 어이가없네 ㅋㅋㅋ…",
       "[5★] 비가오니  낙곱새전골이  딱이네요!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "구프로냉면",
@@ -13938,12 +19905,15 @@ const restaurants = [
     ],
     "moods": [
       "피곤함",
-      "허전함"
+      "혼밥"
     ],
     "scene": [
-      "점심"
+      "점심",
+      "혼밥"
     ],
     "wx": [
+      "덥고 습함",
+      "맑음",
       "비",
       "쌀쌀함"
     ],
@@ -13952,7 +19922,22 @@ const restaurants = [
       "[4★] 고기 맛나요 초벌로 구워서 먹기도 좋고 불향도 납니다…",
       "[5★] 면추가도 밥추가도 공짜 맛도 끝내줌…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 4,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "아그라 코엑스점",
@@ -13975,15 +19960,17 @@ const restaurants = [
       "리뷰많음"
     ],
     "moods": [
-      "데이트",
-      "혼밥"
+      "기분 좋음",
+      "데이트"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "가성비",
+      "데이트",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -13991,7 +19978,22 @@ const restaurants = [
       "[4★] 자주 가는 집이고 맛과 구성에 비해 가격도 저렴한 맛집. 다만 테이블이 너무 작음 그 외 만족…",
       "[2★] 이색적인 분위기로 인도음식인 커리를 맛볼 수 있지만, 여유롭게 즐기긴 어렵다. 정신없다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "니뽕내뽕 코엑스점",
@@ -14011,23 +20013,40 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
+      "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[3★] 두개다 면을 삶아놨던지 간도 안베어있고 면이 푹 퍼져서 도저히 먹을수가 없어 크뽕 재조리 요청 재조리한건 내가알던 그맛이었음 (그래서 별 세개는 드림)  차뽕은 어차피 국물만 마실…",
       "[4★] 항상 로뽕을 먹다가 마라로뽕을 처음먹어봤는데, 마라향을 좋아하시는분들은 좋아하실것 같고 첫 맛은 맛있지만 많이 먹으면 속이 쓰릴 수도 있을 것 같아요 면추가하면 양념에 면이 안베는…",
       "[4★] 다양한 퓨전식 짬뽕을 맛볼 수 있는 프랜차이즈 짬뽕집. 토뽕은 짬뽕에서 매운맛을 줄이고 토마토 맛을 더해서 매운맛 부담없이 누구나 즐길 수 있으며, 로제불고기리조또는 로제소스로 잘…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "시골진지상",
@@ -14048,14 +20067,15 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "회식"
+      "기분 좋음"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "퇴근후술"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14063,7 +20083,22 @@ const restaurants = [
       "[4★] 반찬들 맛있고 묵은지고등어 고등어 살이 부드럽고 맛나요…",
       "[5★] 친절하신 사장님과 정갈하고 맛갈스러운 음식 오랫만에 정말 잘 대접받고 온 기분이었습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "임고집한우",
@@ -14086,25 +20121,48 @@ const restaurants = [
       "4번출구"
     ],
     "moods": [
+      "기분 좋음",
       "축하",
+      "피곤함",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "접대",
+      "특별한날",
+      "혼밥",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 고기 가격은 1인분에 48,000원. 하지만 고기를 구워주시지 않아요😭  고기는 맛있게 먹었지만 너무 아쉬운 서비스  비빔냉면은 먹을만 하지만 엄청 맛있지는 않은 퀄리티  그래서…",
       "[4★] 맛있는 한우❤️ 갈비탕+육회 비빔빠…",
       "[3★] 갈비탕이 진국임. 건더기도 많고 괜찮음. 대신 한끼 식사치곤 가격은 후덜덯…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "놀부보쌈",
@@ -14128,25 +20186,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "야식",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[2★] 역시 가격이 사악한 삼성동. 평범한 육수와 평범한 건더기의 부대찌개 맛. 건더기가 별로 풍성하지 않다. 보쌈도 그냥 저냥 무난한 편. 근처에 다른 부대찌개 집을 방문하는 것을 추천…",
       "[4★] 부대찌게를 먹었는데 푸짐하고 정갈하고 맛있어서 모처럼 즐거운 식사른 했음 점심엔 약간 복잡하나 의외로 순환이 잘되어 많이 기다리는 사람이 없음…",
       "[5★] 네이버 예약하면 만두서비스 주는데 딤섬처럼 맛있어요…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 5,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "사보텐 선릉역점",
@@ -14167,13 +20240,15 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "회식"
+      "기분 좋음",
+      "혼밥"
     ],
     "scene": [
       "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14181,7 +20256,22 @@ const restaurants = [
       "[4★] 돈가스는 맛있고 실력있는 가게들이 많아 그런지 가격 대비 뛰어난 돈가스라 보이지 않음. 그런데 여기는 3종 소스가 미쳤음. 깨를 갈아서 곁들여먹는 돈가스 소스도 맛있는데, 유자드레…",
       "[5★] 10년전에 아이와 함께왔는데 그때부터 무척 친절하고 맛있는 곳이에요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "한촌설렁탕 선릉점",
@@ -14207,27 +20297,45 @@ const restaurants = [
     ],
     "moods": [
       "피곤함",
-      "허전함",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
+      "고기구이",
+      "야근후",
       "점심",
       "해장",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "눈",
+      "덥고 습함",
+      "맑음",
       "비",
-      "쌀쌀함"
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 2층에 있어 잘 안보이고.. 맛은 깔끔해요~",
       "[4★] 냉면세트로 물냉면과 비빔냉면에 김치만두, 갈비만두 먹고 약간 모자른 듯이 싶어 수제만두 5알(8천)을 주문해서 먹었는데, 남아서 만두는 포장해 와서…",
       "[3★] 추운 날씨에 뜨끈한 국물이 먹고싶다는 일행의 말어 평일 점심에 방문한 곳이다. 다른 지역에서 이용했던 경험이 있기도 하고 프랜차이즈이니 기본은 하겠다싶어 처음 이었지만 가게되었다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 1,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 5,
+      "heavy_food": 3,
+      "warm_food": 5,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "둘둘치킨",
@@ -14247,14 +20355,18 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주"
+      "야장",
+      "점심"
     ],
     "wx": [
+      "덥고 습함",
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14262,7 +20374,22 @@ const restaurants = [
       "[5★] 골뱅이 무침이 맛있네요~",
       "[4★] 전형적으로 근처 직장인들 2차 맥주먹기 좋은곳. 9시 넘으니 금방 꽉참. 치킨도 맛있고 맥주 시원하고 사장님도 친절함 티비가 있어 스포츠경기 보면서 먹기 좋음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "명동할머니국수 삼성역점",
@@ -14284,17 +20411,15 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "4번출구 근처",
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "가성비",
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14302,7 +20427,22 @@ const restaurants = [
       "[2★] 다른 메뉴는 뭐 얼마나 맛있는지 모르겠으나.. 김밥은 크기도 작고 내용물도 영..",
       "[5★] 싸고, 빨리나오고, 호다닥 먹고 나가기 좋은곳 게다가 맛있다?! 여길 올수밖에 없는 이유…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "순천만",
@@ -14323,22 +20463,41 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "특별한날",
+      "혼밥"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 보리굴비 참 맛있습니다. 좋은 식당이라고 생각합니다. 서비스도 체계화된곳이고 발렛파킹가능하며 발렛비용은 2000원 입니다…",
       "[4★] 맛있습니다~재료에서 요리까지 만족합니다~ 가격대는 1인 3~10만원대입니다. 다음에는 겨울 꼬막정식 기대합니다.",
       "[4★] 가격도 괜찮고 맛있는 남도음식점…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 2,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 1,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "교촌치킨 대치2호점",
@@ -14358,15 +20517,17 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주"
+      "야근후",
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14374,7 +20535,22 @@ const restaurants = [
       "[5★] 스쿱당 대치은마 12월 14일 오픈…",
       "[1★] 우리동네 체스커치킨이 쉬는날이라서 배달의민족으로 후라이드시켰는데 병아리에 튀김옷 입혀서 왔다. 43년만에 맛 없는 치킨먹어봤다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "해장옥",
@@ -14398,11 +20574,14 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
-      "피곤함",
-      "허전함"
+      "기분 좋음",
+      "데이트",
+      "피곤함"
     ],
     "scene": [
-      "심야 밥",
+      "가성비",
+      "데이트",
+      "야근후",
       "점심",
       "해장"
     ],
@@ -14415,7 +20594,22 @@ const restaurants = [
       "[5★] 음식이 깔끔하고 맛있었습니다. 분위기도 조용하면서 대화하기 좋은 장소였어요…",
       "[3★] 가게 인테리어는 깔끔하고 김치도 괜찮았으나 대창 해장국은 먼가가 부족한 맛, 수육도 괜찮았는데 가성비 대비 양이 적었음 그냥 무난한 곳이나 추천할 만한 곳은 아님…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 5,
+      "heavy_food": 0,
+      "warm_food": 4,
+      "fast_meal": 3,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "멕시카나치킨",
@@ -14435,14 +20629,16 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "야장에 맥주"
+      "야장"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14450,7 +20646,22 @@ const restaurants = [
       "[1★] 순살치킨이팝콘치킨같음;콜팝에주는그런거…",
       "[5★] 너무 맛있고 좋은 시간보냈음 사장님 너무 친절하시고 인상도 서비스도 너무 좋으심 사장님때문이라도 또가고 싶은곳 위치좋고요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "카츠8 파르나스몰점",
@@ -14472,22 +20683,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "축하"
+      "기분 좋음",
+      "축하",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후",
+      "점심",
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[1★] Very Expensive Very Blend overall Udon was not even warm more like room temperature water level Sush…",
       "[4★] ifc 몰 보다는 맛있는걸까 아님 이제 조금 맛있어진걸까  그런데 가격은 진짜 너무 사악하다 법카 없으면 가기 힘든곳 가격은 그렇게 비싼데 찍어 먹는 소스도 딸랑 ...  음 냉각…",
       "[5★] 삼성동 코엑스 지하에 있는 \"카츠8\" 입니다. 점심 시간대에는 대기가 있으며, 편안한 식사를 원한다면 11시나 14시 정도 방문하는 것을 추천합니다. 메뉴 중 안심 카츠를 선택하였…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 3,
+      "late_night": 3
+    }
   },
   {
     "name": "둘둘치킨",
@@ -14509,16 +20738,17 @@ const restaurants = [
       "4번출구"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
       "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "야장에 맥주",
-      "접대"
+      "야장",
+      "퇴근후술"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14526,7 +20756,22 @@ const restaurants = [
       "[4★] 먹태가 맛있다고 해서 갔는데 가본 곳들을 비교했을때 그냥 괜찮은 정도!  치킨반반이랑 먹태 먹았는데 맛있었어요.",
       "[3★] 대부분 마지막 코스로 방문하는 듯 하고, 야외에서 먹을 수 있는 테이블이 마련되어 있음. 맛을 기대하러 오기 보다, 그냥 가볍게 한 잔 하러 오는 곳인듯…"
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "길농원",
@@ -14551,22 +20796,45 @@ const restaurants = [
       "주차가능"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "고기 구이",
+      "고기구이",
+      "단체",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[5★] 오리탕이랑 해물파전이 정말 맛있어요. 막걸리까지 곁들이니 조합이 좋네요. 된장찌개나 순두부찌개, 뚝배기불고기 등 메뉴도 많아서 직장인들 점심 식사장소로도 적합할것 같습니다…",
       "[5★] 직원들 회식차 예약.. 1층에 손님이 없어 이상하다 했더니 2층에 큰자리.. 오리 반반..이것저것.. 오리로스 맛나고..양갈비도 무척 맛남.. 후식 보리밥정식과 냉면도 맛나네요..",
       "[5★] 오리고기도  신선하고 공간도 넓어 좋았어요. 주차도 강남에서 신경쓰지 않고 할 수 있다는것이 좋아요."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 2,
+      "parking": 1,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "천미향",
@@ -14588,23 +20856,40 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
       "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] 40년 전통의 점심 시간에 항상 붐비는 중국집입니다. 단백하고 얼큰한 짬뽕, 소스가 달지 않고, 진한 고기·야채 육수 풍미가 살아 있어 감칠맛나는 짜장면 등 만족스러운 식당이네요.",
       "[4★] #삼성동 #천미향  \"동네 중국집으로 합격\"  1. 강남 중식당의 한 획을 그은 곳이 이라는 것은 누구도 부인할 수 없다. 일일향이 지점도 늘려갔지만 그로인해 일일향에서 일하신 요…",
       "[4★] 여기 정말 맛있는 집인데 문제는 한가할때 가야한다는 점 입니다 맛 기복이 정말 심합니다 점심때 가보면 맛없을만 합니다.. 너무바빠요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "일우별관",
@@ -14623,23 +20908,38 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음",
+      "축하"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "특별한날"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[5★] 아주 짭잘하니 잘 먹었습니다 술이 술술들어갑니다 라면사리도 신라면 주시네요…",
       "[4★] 그냥 일반 부대찌개 집이다. 특별함은 없고 코로나를 반영해서인지 반찬을 개인별 그릇에 나눠 담아주는것이 만족스러웠다. 코로나가 끝나도 개인 반찬그릇 유지해 주었으면 좋겠다.",
       "[5★] 부개전골 부대찌개 매우 맛 있습니다. 특별한 맛이 있습니다. 건물은 오래 되어 낡았지만, 사장님 직원분들 매우 친절하시고 정말 맛 있습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 0
+    }
   },
   {
     "name": "취화헌",
@@ -14663,25 +20963,40 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
+      "축하",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "오마카세·스시",
-      "점심",
       "접대",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "흐림"
     ],
     "rv": [
       "[3★] 포스코사거리 인근 이비스 앰버서더 호텔 건너편에 위치한 중식당.  원래는 인근 도화빌딩 뒷편에서 영업하다가 최근 이곳으로 이전하여 재오픈 한 곳으로 다양한 코스요리 및 개별 메뉴를…",
       "[4★] 가지덮밥을 시켰는데, 맛이 좋으나 소스가 뜨겁고 매운 양념이 있어서 땀을 흘리며 먹었습니다. 3년이 지난 후 2024년에 재방문하니 \"가지튀김덮밥\"이 있어서 먹었습니다. 제가 생각…",
       "[4★] 볶음밥의 고슬고슬한 식감이 좋았고 불향도 적절하다. 기름에 볶았지만 느끼하지는 않았다.  냉짬뽕은 차가워서 그런건지 무슨 맛인지 잘 느껴지지 않아서 아쉬웠다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 5,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "예손",
@@ -14700,26 +21015,36 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥",
       "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[3★] 순두부는 호불호가 크게 갈리지 않는 음식이다. 몸에도 좋고 맛도 웬만하면 나쁘지 않고, 가격도 부담스럽지 않은 무난해 항상 사람들의 발길이 끊이지 않는 곳. 특히 돌솥밥으로 준비해…",
       "[1★] 불친절합니다 저희가 고기를 한 3 4일 부리 시켰나 거기에다가 상추는 원래 나오는 기본인데 사람이 여섯 명에서 일곱 명이면 한순간에 없어져요 근데 이런 말 들었습니다 벌써 없어졌어…",
       "[5★] 깔끔하고 정갈한 맛을 느낄수 있어요.해물순두부와 여름별미 메밀면도 일품입니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "허수아비돈까스 삼성점",
@@ -14742,15 +21067,15 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "데이트",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14758,7 +21083,22 @@ const restaurants = [
       "[4★] 바삭하게 튀긴 돈가스가 점심 메뉴로 간단하게 먹기가 좋아요. 대신 같이 나오는 밥은 먹기가 불편했어요. 드셔 보시고 음식을 준비해 줬으면 좋으련만....",
       "[2★] 1세대 일식 돈까스여서 오랜만에 기대하고 갔는데 기대가 컸는지 별로였음 튀김이 다소 눅눅하고, 밥은 약간 굳어 있었음. 양상추가 아니라 양배추로 주는데 신선도가 약간 떨어지는 게…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "먹쇠네",
@@ -14783,26 +21123,39 @@ const restaurants = [
     ],
     "moods": [
       "데이트",
-      "피곤함",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "4번출구 근처",
-      "점심",
-      "혼밥",
-      "회식 2차"
+      "가성비",
+      "데이트",
+      "점심"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "눈",
+      "비",
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 회사 근처 식당에서 뭘 바라는가를 생각해 보면 이 식당의 미덕이 나옴. 저렴한 가격, 취향을 타지 않는 메뉴, 빠른 서빙. 조미료가 많이 더해진 맛이지만 6,000원으로도 괜찮은…",
       "[4★] 먹쇠네에서 상호 및 주인분이 바뀌셨습니다. 식당 분위기, 음식은 거의 비슷합니다. 편하게 지인들과 먹을 수 있는 곳 입니다.",
       "[3★] 김치찌개 청국장 등 점심을 간단히 먹고 싶을 때 찾는 곳. 기사식당처럼 느껴져요."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "옛골토성 선릉점",
@@ -14821,15 +21174,14 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14837,7 +21189,22 @@ const restaurants = [
       "[5★] 맛있다…",
       "[5★] 한 번 시도해 볼 만한 가치가 있다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "Gate9",
@@ -14859,11 +21226,11 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "점심"
+      "야근후"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14871,7 +21238,22 @@ const restaurants = [
       "[4★] 음식에 고수는 많이 안들어가는거 같고 로컬음식느낌보다는 잘 정리된 퓨전음식에 가까워요. 부담없이 먹을수있는 딱 그런맛입니다. 볶음밥은 밥알 날리는 느낌 잘살려서 나왔습니다. 소프트…",
       "[2★] 食べ物は悪くないが、ピクルスにゴミがついてる。  あれを見てからは何も食べたくなかった。  음식은 나쁘지 않았지만, 피클에 먼지가 붙어있음.  그걸 본 이후로는 아무것도 먹고 싶지 않았다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "홍수계찜닭 코엑스점",
@@ -14892,17 +21274,14 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "스트레스",
-      "피곤함",
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "야장에 맥주",
-      "점심",
-      "혼밥"
+      "가성비"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14910,7 +21289,22 @@ const restaurants = [
       "[1★] 글쎄... 태블릿으로 주문하는데 안매운 맛으로 시켰는데 매운 맛이 나오는건...  저녁에 한가한 시간이라 손님도 많지 않은 상황인데 이게 뭔지 ㅎ…",
       "[4★] 음식은 맛있었어요. 셀프비빔밥도 맛있었고 2000원이라 저렴해서 좋았습니다."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "러브미텐더 대치점",
@@ -14934,18 +21328,37 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "회식 2차"
+      "고기구이",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 매운 갈비찜을 주로해서 냉면과 기타 갈비찜류를 판매함. 맛은 상중. 더 맵게해달라는 오더가 가능하나, 일반으로도 충분히 매움…",
       "[4★] 사장님 부부 친절하시고 당연히 돼지갈비 및 매운갈비찜도 맛남...아참..냉면도 잊지 마시길..",
       "[4★] 깔끔하고 좋아요…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "피카소",
@@ -14969,15 +21382,21 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "스트레스",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "회식 2차"
+      "데이트",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -14985,7 +21404,22 @@ const restaurants = [
       "[4★] 옛추억이 생각나는 분위기의 치킨집입니다. 생맥주 맛 좋고 각종 마른 안주류 괜찮고 치킨도 바삭하니 맛있습니다.",
       "[4★] 삼성동 오래된 맥주집 가볍게 먹고가기 좋아여…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "우남정",
@@ -15006,13 +21440,14 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "혼밥"
+      "기분 좋음"
     ],
     "scene": [
-      "점심"
+      "가성비"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15020,7 +21455,22 @@ const restaurants = [
       "[1★]…",
       "[5★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "남산옥",
@@ -15045,16 +21495,21 @@ const restaurants = [
       "웨이팅맛집"
     ],
     "moods": [
+      "기분 좋음",
       "스트레스",
+      "피곤함",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "회식 2차"
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15062,7 +21517,22 @@ const restaurants = [
       "[5★] 24시간영업하는 남산옥. 야구보고 11시에 방문. 육개장의 신기한맛! 모듬순대도 주문. 늦게까지 술먹기 좋은곳!!",
       "[5★] 특설렁탕(1.3만원) 주문해서 먹었습니다.. 반찬은 국내산 깍두기와 김치면 충분했어요..  남산옥은 식당이 충분히 넓어서 대기가 거의 없을듯 하네요.. 1층 식당도 넓은데, 지하로…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 5
+    }
   },
   {
     "name": "나무 스시 앤 참치",
@@ -15091,19 +21561,26 @@ const restaurants = [
       "접대추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
       "스트레스",
       "축하",
       "회식"
     ],
     "scene": [
-      "야장에 맥주",
-      "오마카세·스시",
-      "점심",
-      "회식 2차"
+      "가성비",
+      "단체",
+      "데이트",
+      "야장",
+      "이자카야",
+      "접대",
+      "퇴근후술",
+      "특별한날",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15111,7 +21588,22 @@ const restaurants = [
       "[4★] 룸으로 되어있어 소모임으로 나쁘지 않고 분위기가 깔끔한게 장점임. 다만 안주가 가성비가 조금 떨어져 아쉬움.사케 등 술과 안주종류가 많음…",
       "[3★] 초밥, 스시 맛과 가격 퀼리티는 별 5개 위생은 별 2개 직원들 서빙 및 서비스 수준은 별 1개 직원을 불러도 오지않고 한참기다리게 하는데 차라리 테이블에 벨이 있었으면 함…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 5,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 5,
+      "vip_friendly": 5,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 4,
+      "late_night": 3
+    }
   },
   {
     "name": "카레마치",
@@ -15132,23 +21624,42 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
-      "피곤함"
+      "기분 좋음",
+      "데이트",
+      "피곤함",
+      "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
+      "데이트",
+      "야근후",
       "해장"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] 지나가는 어느 무더운날에 일행이 중앙해장의 해장국을 못먹어 그 앞의 카레마치로..  11시반쯤 들어가 맥주한잔 주문, 카레주문.. 낮술 생맥한잔에 분위기는 그냥 일본이 되어버렸네.",
       "[3★] 맛있다. 가격대에 비해 비싼감이 있긴 하지만 양도 많고 맛도 좋아서 무난했다. 처음에 받으면 적어보이는데 먹고나면 엄청 배불렀다. 셀프코너에 밥도 무제한으로 먹을 수 있게 해놨는데…",
       "[5★] 메뉴가 다양하고 양도 적당함 맛은 괜찮고 매운 정도를 조절이 가능함 (순한맛 / 보통맛(신라면) / 매운맛(보통의3배) 튀김옷이 바삭하고 너무 두껍지 않아서 좋았음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 2,
+      "comfort_food": 2,
+      "heavy_food": 2,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "삼환소한마리",
@@ -15172,20 +21683,38 @@ const restaurants = [
       "회식"
     ],
     "scene": [
-      "고기 구이",
-      "심야 밥",
-      "점심",
-      "회식 2차"
+      "고기구이",
+      "야근후",
+      "회식"
     ],
     "wx": [
-      "눈"
+      "눈",
+      "덥고 습함",
+      "맑음",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[4★] 코엑스 근처, 강남에서 소고기 무한리필로 먹을 수 있는 곳입니다. 소고기 다양한 부위를 무제한으로 먹을 수 있어서 좋아요.  It's an unlimited beef refill…",
       "[2★] 갠적으로 비추....기대가 넘 컸던건가 이곳에 오래 정착해있어서 나름 맛집이라고 여겼는데..  역시  무한리필은 아닌가하는 생각 다른 무한리필도 가봤지만..  소고기맛이 참 아쉽다…",
       "[1★] 국내산 육우 무한리필 23000원 일단 한우가 아닌 \"육우\"이며 냉동된채로 나옵니다. 고기가 등심, 안심, 토시살 외 부위 등 다양하게 나오고 육회도 함께 나왔어요  첫판은 대체적…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "홍대돈부리 코엑스몰점",
@@ -15207,7 +21736,6 @@ const restaurants = [
       "데이트"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
@@ -15219,7 +21747,22 @@ const restaurants = [
       "[3★] 20251001 첫 방문.  세트메뉴 2번을 주문. 가츠동과 가라아게동, 교자와 미니우동 2개가 포함된 구성으로 방문 당시 가격은 28,500원이었다. 널려있는 일식 체인점이라고…",
       "[3★] 덮밥 전문점. 메뉴가 다양하다. 튀김도 좋고 우동도 있다. 자리가 많지는 않지만 금방 자리가 난다. 양도 적고 가격은 좀 비싼듯 하다. 재방문의사는 없습니다.a rice bowl…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "본죽 선릉역점",
@@ -15241,16 +21784,15 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
-      "혼밥",
-      "회식"
+      "혼밥"
     ],
     "scene": [
-      "점심",
-      "회식 2차"
+      "가성비",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15258,7 +21800,22 @@ const restaurants = [
       "[4★] 본죽 체인점으로 가끔 입맛없을때 찾는데 일상으로 먹어도 좋다. 점심시간에는 줄을 서야한다. 본죽 정책이겠지만 값은 싸지않은편이다…",
       "[4★] 좁은장소에서 방역수칙에 따라 칸막이 설치와 빠른 회전율로 고객서스가 좋음…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "경성면옥",
@@ -15279,24 +21836,37 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
-      "혼밥"
+      "기분 좋음",
+      "데이트"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "데이트"
     ],
     "wx": [
-      "맑음",
-      "흐림"
+      "덥고 습함",
+      "맑음"
     ],
     "rv": [
       "[5★] 우연하게 들어간 집인데 라멘 진짜 맛있어요! 저는 홍라멘 먹었는데 딱 신라면 맵기고 안 느끼했어요. 다음에도 또 올게요~",
       "[3★] 코엑스 스타필드에 위치한 경성면옥입니다. 날씨가 더워져 시원한 물냉면 주문했습니다. 맛은 특별하지도, 나쁘지도 않은 평범한 맛이었습니다. 다시 방문 할 것 같지는 않네요. 잘 먹었…",
       "[5★] 만두가 먹고 싶어 만두국 먹었는데 진짜 맛있음. 분위기도 그렇고 식기 그릇도 그렇고, 반찬도 그렇고.. 모든게 다 맛있고 깔끔하다는 인상. 맛도 깔끔, 분위기도 깔끔. 추천!!"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 2,
+      "late_night": 0
+    }
   },
   {
     "name": "남오토코",
@@ -15321,25 +21891,44 @@ const restaurants = [
       "데이트"
     ],
     "moods": [
+      "기분 좋음",
+      "데이트",
       "회식"
     ],
     "scene": [
-      "4번출구 근처",
-      "고기 구이",
-      "마라탕·훠궈",
-      "회식 2차"
+      "고기구이",
+      "데이트",
+      "회식"
     ],
     "wx": [
       "눈",
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비",
+      "쌀쌀함",
+      "흐림"
     ],
     "rv": [
       "[3★] 매장 분위기 좋고요. 나가사키 짬뽕이 맛있습니다. 사케가 술술 넘어가네요 ㅎ 데이트 장소로 좋을거 같습니다. 다만 모듬꼬치 구성이 야채도 없고 비슷한 꼬치가 중복되서 다양성이 아쉽…",
       "[1★] 메뉴를 시켰는데 엉망진창 아무런 기본도 되어 있지 않다.  닭꼬치와 삼겹 꼬치는 고기 누린내가 심하고 심지어 고로케는 가운데가 얼어 있어 다시 해달라고 했는데 두번째도 얼어서 나왔…",
       "[1★] 직원응대 매우 불편하고, 야끼도리는 어묵탕 모두 맛도 별로인데 가격은 비쌈. 추천하지 않음."
     ],
-    "exit4": true
+    "exit4": true,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 4,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "월정",
@@ -15362,16 +21951,20 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트",
+      "기분 좋음",
       "혼밥",
       "회식"
     ],
     "scene": [
+      "가성비",
+      "단체",
       "점심",
-      "회식 2차"
+      "접대",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15379,7 +21972,22 @@ const restaurants = [
       "[3★] 단체모임하기 딱좋아요 음식이 깔끔하고 맛있어요…",
       "[1★] 점심 특정식 - 청결 상태가 전반적으로 좋지 않았다. 수저엔 기름이 껴있고 테이블은 끈적거렸으며 직원 호출용 벨은 먼지로 덮여있었다. 또한 밥을 전날 지은 것 같았다. 음식 맛 역…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "스시팡",
@@ -15403,12 +22011,15 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
-      "데이트"
+      "기분 좋음",
+      "데이트",
+      "혼밥"
     ],
     "scene": [
-      "오마카세·스시",
+      "가성비",
+      "단체",
       "점심",
-      "접대"
+      "회식"
     ],
     "wx": [
       "맑음",
@@ -15419,7 +22030,22 @@ const restaurants = [
       "[5★] 재료도 신선하고 초밥정식 가성비 짱짱맨 초밥 12피스에 튀김, 우동까지 오랜만에 가성비 이런 스시집 갔네요~ 번창하세요오오오 주말에 스시초희에서 먹고와서 대충 배나 채우려고 했는데…",
       "[4★] 삼성역 인근 가성비 괜찮고, 조금 고급진 점심을 먹고 싶다하는 직장인들은 가기 좋음. 대신 열두시 줄이 너무 길어 30 분 일찍 나와먹으면 웨이팅 없이 먹을 수 있다. 회가 무척…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 4,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 3,
+      "date": 3,
+      "vip_friendly": 4,
+      "private_room": 5,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "삼성역옥토버훼스트",
@@ -15440,19 +22066,20 @@ const restaurants = [
       "단체가능"
     ],
     "moods": [
-      "데이트",
-      "피곤함",
+      "기분 좋음",
       "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
+      "단체",
+      "야근후",
       "점심",
-      "혼밥",
-      "회식 2차"
+      "퇴근후술",
+      "회식"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15460,7 +22087,22 @@ const restaurants = [
       "[1★] 안에는 넓고 쾌적해보이는데 실제로는 뭔가 휑해서 답답한 느낌마저 드는 곳. 가격대도 전체적으로 고가이면서 딱히 서비스를 챙겨주는 느낌도 없음... 그야말로 직장인 회식용 장소..",
       "[3★] 기본 빵이 넘나 맛있고 맥주도 맛남 다만 다른메뉴들은 맛이 음슴…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 5,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "육해공탕탕탕",
@@ -15483,14 +22125,17 @@ const restaurants = [
       "혼밥가능"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
+      "가성비",
       "점심",
       "혼밥"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15498,7 +22143,22 @@ const restaurants = [
       "[3★] 맛과 가격은 괜찮은데... 점심 때 알탕을 시키면 좀 기다려야 함(사실 이해가 좀 안 됨)…",
       "[1★] 직장인 점심 식사하기는 괜찮으나 서빙을 직원 혼자하기에는 너무 버거워보이는 매장 점심시간의 절반 이상을 음식기다리며 보냄…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 4,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "백암가선순대",
@@ -15521,21 +22181,39 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "혼밥"
     ],
     "scene": [
-      "점심"
+      "가성비",
+      "점심",
+      "혼밥"
     ],
     "wx": [
       "맑음",
-      "흐림"
+      "쌀쌀함"
     ],
     "rv": [
       "[4★] 감자탕이 저렴하고 맛있어요. 우거지, 야채가 넘치도록 나옵니다. 자주 애용하는 곳입니다.~^^…",
       "[5★] 사장님이 너무 친절 하시고 양도 많이 주시고 배려를 해주십니다 감사 합니다…",
       "[5★] 점심 부페가 가성비  갑.반찬 수나  질이  집밥 수준임…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 3,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 4,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "스노우폭스 선릉역점",
@@ -15554,10 +22232,10 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "데이트"
     ],
     "scene": [
-      "오마카세·스시",
       "점심"
     ],
     "wx": [
@@ -15569,7 +22247,22 @@ const restaurants = [
       "[1★] 두 번째 이용하는 스폭. 맛은 있었으나 직원분의 불친절로 다시 찾고싶진 않음…",
       "[4★] 샐러드와 건강한 식사를 할 수 있는 깔끔한 곳…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 0,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "예가낙지마을",
@@ -15593,19 +22286,25 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "데이트",
       "스트레스",
+      "혼밥",
       "회식"
     ],
     "scene": [
-      "심야 밥",
-      "야장에 맥주",
-      "오마카세·스시",
-      "점심",
-      "회식 2차"
+      "야근후",
+      "야장",
+      "이자카야",
+      "퇴근후술",
+      "혼밥",
+      "회식"
     ],
     "wx": [
+      "눈",
       "맑음",
+      "비",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15613,7 +22312,22 @@ const restaurants = [
       "[4★] 낙곱새 2인에 당면사리 추가하고, 낙지만두 낙지새우볶음밥 계란찜 시켰어요. 낙곱새는 완조리 된 상태로 나왔는데, 낙지나 건더기의 양이 많다고는 할 수 없었지만 국물도 얼큰하고 당면…",
       "[5★] (우선 활낙지덮밥이 1인분 된다는게 좋았음)  나는 낙지매니아라서 한입 먹으면 낙지의 퀄리티나 크기를 대충 알수있음. 여기 활낙지덮밥은 낙지도 괜찮고 뭣보다 양념이 너어무 맛있음."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 5,
+      "comfort_food": 2,
+      "heavy_food": 0,
+      "warm_food": 2,
+      "fast_meal": 0,
+      "date": 3,
+      "vip_friendly": 2,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 1,
+      "late_night": 3
+    }
   },
   {
     "name": "스타디아홀",
@@ -15639,6 +22353,7 @@ const restaurants = [
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15646,7 +22361,22 @@ const restaurants = [
       "[4★] 뷔페…",
       "[3★]…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 0
+    }
   },
   {
     "name": "김가네 삼성점",
@@ -15667,15 +22397,14 @@ const restaurants = [
       "가성비"
     ],
     "moods": [
-      "피곤함",
-      "혼밥"
+      "회식"
     ],
     "scene": [
-      "점심",
-      "혼밥"
+      "가성비"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15683,7 +22412,22 @@ const restaurants = [
       "[1★] 위생이 안 좋다. 가격도 비싸다.",
       "[2★] 딱 그가격에 그맛."
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 0,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "만리장성",
@@ -15705,17 +22449,18 @@ const restaurants = [
       "점심추천"
     ],
     "moods": [
+      "기분 좋음",
       "데이트",
-      "피곤함",
       "혼밥"
     ],
     "scene": [
-      "심야 밥",
-      "점심",
-      "혼밥"
+      "데이트",
+      "야근후",
+      "점심"
     ],
     "wx": [
       "맑음",
+      "쌀쌀함",
       "흐림"
     ],
     "rv": [
@@ -15723,7 +22468,22 @@ const restaurants = [
       "[5★] 분위기는 평범한 중식집 입니다. 막 럭셔리하거나 엄청나게 깨끗하거나 그런느낌보단(절대 더럽지는 않음) 익숙한 중식집 느낌! 그래서 데일리로 가기에 편안해서 좋고 무엇보다 이 근처에…",
       "[4★] 오~ 탕수육 궁보기정 두개 요리 먹었는데 완전 맛있어요.. 탕수육에 검은깨 밖혀있는데 보기에도 먹음직스럽네요 짜장면도 만족스러웠습니다 ^ㅇ^)/…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 0,
+      "comfort_food": 0,
+      "heavy_food": 0,
+      "warm_food": 0,
+      "fast_meal": 1,
+      "date": 4,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   },
   {
     "name": "베이징",
@@ -15743,23 +22503,38 @@ const restaurants = [
     ],
     "tags": [],
     "moods": [
+      "기분 좋음",
       "회식"
     ],
     "scene": [
-      "마라탕·훠궈",
-      "점심",
-      "회식 2차"
+      "회식"
     ],
     "wx": [
       "덥고 습함",
-      "맑음"
+      "맑음",
+      "비"
     ],
     "rv": [
       "[4★] 상호가 자주 바뀌어서 지금은 '베이징' 중화요리집. 짬뽕류가 맛있고 특히 짬뽕밥이 너무 자극적이지 않고 맛이 좋다. 다른 음식들도 비교적 괜찮다.",
       "[4★] 음식이 빨리 나오고 짜장면 빼고는 음식들도 맛있습니다.",
       "[3★] 그냥 그냥 무난한 맛 탕수육은 너무 튀겼고 짜장음 조금 짰다…"
     ],
-    "exit4": false
+    "exit4": false,
+    "vector": {
+      "solo": 0,
+      "group": 3,
+      "alcohol": 2,
+      "comfort_food": 0,
+      "heavy_food": 3,
+      "warm_food": 0,
+      "fast_meal": 2,
+      "date": 0,
+      "vip_friendly": 0,
+      "private_room": 0,
+      "parking": 0,
+      "celebration": 0,
+      "late_night": 3
+    }
   }
 ]
 
