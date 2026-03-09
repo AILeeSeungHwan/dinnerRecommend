@@ -312,7 +312,7 @@ function WarnModal({count,onConfirm,onCancel}) {
           <button onClick={()=>{const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a)}} style={{fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer'}}>📥 QR 저장 (모바일 갤러리용)</button>
         </div>
         <div style={{display:'flex',flexDirection:'column',gap:8}}>
-          <button onClick={onConfirm} style={{padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer'}}>{is4th?'그래도 검색할게요 (마지막 기회 🙏)':'그래도 검색할게요'}</button>
+          <button onClick={onConfirm} style={{padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer'}}>{is4th?'그래도 검색할게요 (이번 포함 1회 남음 🙏)':'그래도 검색할게요'}</button>
           <button onClick={onCancel} style={{padding:'13px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.88rem',cursor:'pointer'}}>🎲 랜덤으로 할게요 (무료)</button>
         </div>
       </div>
