@@ -568,10 +568,14 @@ function AiApp({pendingCat,onPendingCatUsed}) {
                     </div>
                     <p style={{fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9}}>{rec.reason}</p>
                     {rec.reviewHighlight&&(<div style={{background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8}}>💬 {`"${rec.reviewHighlight}"`}</div>)}
-                    <div style={{display:'flex',gap:6,marginTop:8,alignItems:'center'}}>
-                      <a href={naverMapUrl(r.name)} target="_blank" rel="noopener noreferrer" onClick={e=>e.stopPropagation()} style={{fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1}}>📍 지도</a>
-                      <span style={{fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)'}}>🕐 {r.hours}</span>
-                      <span style={{marginLeft:'auto',fontSize:'.72rem',color:'var(--muted)',opacity:.6}}>상세보기 →</span>
+                    {/* 영업시간 */}
+                    <div style={{fontSize:'.75rem',color:'var(--muted)',marginTop:8,padding:'5px 10px',background:'var(--surface)',borderRadius:8,border:'1px solid var(--border)'}}>
+                      🕐 {r.hours}
+                    </div>
+                    {/* 버튼 행 */}
+                    <div style={{display:'flex',gap:6,marginTop:6,alignItems:'center'}}>
+                      <a href={naverMapUrl(r.name)} target="_blank" rel="noopener noreferrer" onClick={e=>e.stopPropagation()} style={{fontSize:'.75rem',padding:'5px 14px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1,flexShrink:0}}>📍 지도</a>
+                      <span style={{marginLeft:'auto',fontSize:'.75rem',padding:'5px 14px',borderRadius:8,background:'var(--primary)',color:'#fff',border:'none',opacity:.9}}>상세보기 →</span>
                     </div>
                   </div>
                 </Link>
