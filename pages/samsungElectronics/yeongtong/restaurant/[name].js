@@ -273,7 +273,7 @@ function buildIntro(r) {
     }
     if (isHighRated) {
       return { emoji:'🍲', lines:[
-        `잠실에서 ${type}으로 ⭐${rt}점을 유지한다는 게 어떤 의미인지,`,
+        `영통에서 ${type}으로 ⭐${rt}점을 유지한다는 게 어떤 의미인지,`,
         `${name} 뚝배기 한 그릇을 받아 들면 압니다.`,
         isCheap ? '가격도, 맛도, 양도. 이 세 박자를 다 잡았습니다.' : '진한 국물 한 그릇. "아, 살겠다" 소리가 절로 납니다.',
       ]}
@@ -291,13 +291,13 @@ function buildIntro(r) {
       return { emoji:'🍷', lines:[
         '오늘 저녁, 조금 특별하게 마셔도 되는 날 있잖아요.',
         `${name}. 분위기도, 안주도, 잔 비우는 속도도 다른 곳입니다.`,
-        `⭐${rt}점, ${cnt}개의 리뷰가 말해주는 잠실 프리미엄 술자리.`,
+        `⭐${rt}점, ${cnt}개의 리뷰가 말해주는 영통 프리미엄 술자리.`,
       ]}
     }
     if (moods.includes('회식') || tags.includes('단체가능')) {
       return { emoji:'🎉', lines:[
         '"오늘 회식 어디 가지?" 팀원들 눈치 보며 검색하는 시간, 이제 끝냅니다.',
-        `${name}. 잠실에서 ⭐${rt}점으로 검증된 회식 장소입니다.`,
+        `${name}. 영통에서 ⭐${rt}점으로 검증된 회식 장소입니다.`,
         `안주 첫 접시 나오는 순간 팀워크가 생성됩니다. (${cnt}명이 검증함)`,
       ]}
     }
@@ -321,14 +321,14 @@ function buildIntro(r) {
       return { emoji:'🥩✨', lines:[
         `생일이든, 승진이든, 그냥 오늘 기분이 좋든.`,
         `${name}. ${tags.some(t=>t.includes('한우')) ? '한우' : '고기'} 한 점이 지갑은 울려도 입은 웃게 합니다.`,
-        `⭐${rt}점, ${cnt}명이 인정한 잠실 ${type} 맛집.`,
+        `⭐${rt}점, ${cnt}명이 인정한 영통 ${type} 맛집.`,
       ]}
     }
     if (moods.includes('데이트')) {
       return { emoji:'🔥❤️', lines:[
         '데이트 장소 고민에 에너지를 쓰지 않아도 됩니다.',
         `${name}. 불 앞에서 마주 앉아 고기 굽다 보면 분위기는 자동으로 만들어집니다.`,
-        `잠실 ${type} 맛집, ⭐${rt}점으로 검증 완료.`,
+        `영통 ${type} 맛집, ⭐${rt}점으로 검증 완료.`,
       ]}
     }
     return { emoji:'🔥', lines:[
@@ -351,7 +351,7 @@ function buildIntro(r) {
       return { emoji:'🥢', lines:[
         `짜장이냐 짬뽕이냐, 그 행복한 고민 앞에 서게 만드는 집.`,
         `${name}. ⭐${rt}점이 말해주는 건, 어떤 걸 시켜도 실망이 없다는 겁니다.`,
-        `${cnt}명이 선택한 잠실 ${type} 맛집.`,
+        `${cnt}명이 선택한 영통 ${type} 맛집.`,
       ]}
     }
     return { emoji:'🥢', lines:[
@@ -367,13 +367,13 @@ function buildIntro(r) {
       return { emoji:'🍣🌙', lines:[
         '셰프가 그날의 최선을 담아 한 점씩 올려주는 경험.',
         `${name} 오마카세. 지갑은 울지만 입은 웃습니다.`,
-        `⭐${rt}점. 잠실에서 이 수준이라면 충분히 특별한 저녁입니다.`,
+        `⭐${rt}점. 영통에서 이 수준이라면 충분히 특별한 저녁입니다.`,
       ]}
     }
     return { emoji:'🍣', lines:[
       `신선한 네타 한 점, 샤리와의 황금 비율.`,
       `${name}에서 그 완성도를 느껴보세요.`,
-      `⭐${rt}점, ${isCheap ? '부담 없는 가격까지 챙긴' : '잠실 숨은'} 일식 맛집.`,
+      `⭐${rt}점, ${isCheap ? '부담 없는 가격까지 챙긴' : '영통 숨은'} 일식 맛집.`,
     ]}
   }
 
@@ -382,14 +382,14 @@ function buildIntro(r) {
     if (moods.includes('데이트')) {
       return { emoji:'🍷', lines:[
         '데이트 장소 고민, 더 이상 안 해도 됩니다.',
-        `${name}. 분위기·맛·가격 세 박자가 맞는 잠실 ${type} 맛집.`,
+        `${name}. 분위기·맛·가격 세 박자가 맞는 영통 ${type} 맛집.`,
         `⭐${rt}점. 상대방이 먼저 "여기 또 오자"를 말하게 됩니다.`,
       ]}
     }
     return { emoji:'🍝', lines:[
       '오늘은 뭔가 다르게 먹고 싶은 날.',
       `${name}. 파스타 면발이 소스를 머금는 찰진 식감, 혹은 육즙 가득한 스테이크.`,
-      `⭐${rt}점이 검증한 잠실 ${type}.`,
+      `⭐${rt}점이 검증한 영통 ${type}.`,
     ]}
   }
 
@@ -404,7 +404,7 @@ function buildIntro(r) {
 
   // ── fallback ──
   return { emoji: r.e || '🍽️', lines:[
-    `잠실에서 ${type}을 찾는다면, 선택지를 좁혀드립니다.`,
+    `영통에서 ${type}을 찾는다면, 선택지를 좁혀드립니다.`,
     `${name}. ⭐${rt}점에 ${cnt}개의 리뷰.`,
     isBusy ? `이 많은 분들이 그냥 오신 게 아닙니다.` : (isCheap ? `${fmtPrice(r.priceRange)}원, 가성비까지 챙겼습니다.` : '한 번 드셔보시면 압니다.'),
   ]}
@@ -454,7 +454,7 @@ function naverMapUrl(name) {
     .replace(/ (영통점|영통역점|망포점|수원점|영통본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  // 식당명에 잠실/송파/방이/석촌 등 지역이 포함되면 그대로, 아니면 " 잠실" 추가
+  // 식당명에 영통 지역이 포함되면 그대로, 아니면 " 영통" 추가
   const hasRegion = /(영통|망포|수원|삼성전자|영통역|영통구)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 영통'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
@@ -477,13 +477,13 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const intro = buildIntro(r)
   const foodImages = getFoodImages(r)
 
-  const metaDesc = `${r.name} — 잠실 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
+  const metaDesc = `${r.name} — 영통역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org", "@type": "Restaurant",
     "name": r.name, "description": metaDesc, "url": pageUrl,
     "servesCuisine": r.type,
-    "address": { "@type":"PostalAddress", "streetAddress":r.addr, "addressLocality":"서울특별시 송파구", "addressCountry":"KR" },
+    "address": { "@type":"PostalAddress", "streetAddress":r.addr, "addressLocality":"경기도 수원시 영통구", "addressCountry":"KR" },
     "geo": { "@type":"GeoCoordinates", "latitude":r.lat, "longitude":r.lng },
     "aggregateRating": { "@type":"AggregateRating", "ratingValue":r.rt, "reviewCount":r.cnt, "bestRating":5, "worstRating":1 },
     "openingHours": r.hours,
@@ -494,7 +494,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org", "@type": "FAQPage",
     "mainEntity": [
       { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours } },
-      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`서울 송파구 ${r.addr} (잠실역 근처)` } },
+      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`경기도 수원시 영통구 ${r.addr} (영통역 근처)` } },
       { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
       { "@type":"Question", "name":`${r.name} 웨이팅 있나요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.waiting === '웨이팅 있음' ? '웨이팅이 있을 수 있습니다. 방문 전 확인 권장합니다.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 예약을 추천합니다.' : '일반적으로 바로 입장 가능합니다.' } },
     ]
@@ -510,10 +510,10 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   }
 
   return (
-    <Layout title={`${r.name} | 잠실 ${r.type}`} description={metaDesc} canonical={pageUrl}>
+    <Layout title={`${r.name} | 영통역 ${r.type}`} description={metaDesc} canonical={pageUrl}>
       <Head>
-        <meta name="keywords" content={`${r.name}, 잠실 ${r.type}, 방이동 맛집, ${r.tags?.join(', ')}`} />
-        <meta property="og:title" content={`${r.name} — 잠실 ${r.type} 맛집`} />
+        <meta name="keywords" content={`${r.name}, 영통역 ${r.type}, 영통역 맛집, 삼성전자 영통캠퍼스 맛집, ${r.tags?.join(', ')}`} />
+        <meta property="og:title" content={`${r.name} — 영통역 ${r.type} 맛집`} />
         <meta property="og:description" content={metaDesc} />
         <meta property="og:url" content={pageUrl} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
@@ -549,7 +549,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                   </span>
                 )}
               </div>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 송파구 {r.addr}</p>
+              <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 경기도 수원시 {r.addr}</p>
               <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
             </div>
           </div>
@@ -575,7 +575,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           <tbody>
             {[
               ['식당 종류', r.type],
-              ['주소', `서울 송파구 ${r.addr}`],
+              ['주소', `경기도 수원시 ${r.addr}`],
               ['영업시간', r.hours],
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
               ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
@@ -715,13 +715,13 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 위치 & 찾아가는 법 */}
         <h2 style={h2s}>🗺️ 위치 & 찾아가는 법</h2>
         <p style={ps}>
-          <strong>{r.name}</strong>은 서울 송파구 {r.addr}에 위치한 잠실 맛집입니다.
- 잠실역에서 도보로 이동 가능합니다. 정확한 경로는 지도를 참고해주세요.
+          <strong>{r.name}</strong>은 경기도 수원시 {r.addr}에 위치한 영통 맛집입니다.
+ 영통역에서 도보로 이동 가능합니다. 정확한 경로는 지도를 참고해주세요.
         </p>
         <ul style={uls}>
-          <li style={lis}><strong>지하철</strong> — 2호선·8호선 잠실역 하차</li>
-          <li style={lis}><strong>도보</strong> — 잠실역 각 출구에서 도보 5~10분 내외</li>
-          <li style={lis}><strong>주차</strong> — {r.parking ? '주차 가능 (매장 문의)' : '롯데월드몰·잠실 공영주차장 이용 권장'}</li>
+          <li style={lis}><strong>지하철</strong> — 수인분당선 영통역 하차</li>
+          <li style={lis}><strong>도보</strong> — 영통역 각 출구에서 도보 5~10분 내외</li>
+          <li style={lis}><strong>주차</strong> — {r.parking ? '주차 가능 (매장 문의)' : '영통역 인근 공영주차장 이용 권장'}</li>
         </ul>
         <a href={mapUrl} target="_blank" rel="noopener noreferrer"
           style={{ display:'inline-flex', alignItems:'center', gap:6, padding:'9px 18px', borderRadius:10, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none', marginBottom:28 }}>
@@ -732,7 +732,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <h2 style={h2s}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
-          [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실역 인근입니다.`],
+          [`${r.name} 주소(위치)는 어디인가요?`, `경기도 수원시 영통구 ${r.addr}에 위치합니다. 영통역 근처입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다.` : '정확한 가격은 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 웨이팅이 있나요?`, r.waiting === '웨이팅 있음' ? '인기 맛집으로 웨이팅이 있을 수 있습니다. 오픈 시간에 맞춰 방문하거나 여유 있게 방문하세요.' : r.waiting === '예약 가능' ? '예약이 가능합니다. 방문 전 전화 예약을 추천드립니다.' : '일반적으로 바로 입장 가능합니다.'],
         ].map(([q, a], i) => (
@@ -745,8 +745,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
           <>
-            <h2 style={h2s}>🍽️ 잠실 {r.type} 맛집 더 보기</h2>
-            <p style={ps}><strong>{r.name}</strong>와 비슷한 잠실 {r.type} 맛집을 더 추천해드립니다.</p>
+            <h2 style={h2s}>🍽️ 영통 {r.type} 맛집 더 보기</h2>
+            <p style={ps}><strong>{r.name}</strong>와 비슷한 영통 {r.type} 맛집을 더 추천해드립니다.</p>
             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))', gap:10, marginBottom:28 }}>
               {similar.map((s, i) => (
                 <Link href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(s.name)}`} key={i}>
@@ -767,7 +767,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <div style={{ display:'flex', gap:10, flexWrap:'wrap', paddingTop:20, borderTop:'1px solid var(--border)' }}>
           <Link href="/samsungElectronics/yeongtong"
             style={{ padding:'9px 16px', borderRadius:10, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.84rem', textDecoration:'none' }}>
-            ← 잠실 전체 맛집
+            ← 영통역 전체 맛집
           </Link>
           <Link href="/samsungElectronics/yeongtong"
             style={{ padding:'9px 16px', borderRadius:10, background:'var(--primary)', color:'#fff', fontSize:'.84rem', fontWeight:700, textDecoration:'none' }}>
