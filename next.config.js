@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // dinner.ambitstock.com 서브도메인으로 운영하므로 basePath 불필요
+  // Vercel symlink deduplication 오류 방지
+  outputFileTracingExcludes: {
+    '*': ['**/@swc/core*', '**/@esbuild*'],
+  },
 }
 
 module.exports = nextConfig
