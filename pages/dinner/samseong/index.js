@@ -471,6 +471,32 @@ const HINTS = [
 ]
 
 // ── 경고 모달 (3~4회) ────────────────────────────────────────
+// ── 모바일 QR 인식 안내 (WarnModal/UsageModal 공용) ─────────
+function WarnQrGuide() {
+  const [show, setShow] = React.useState(false)
+  return (
+    <>
+      <button onClick={()=>setShow(v=>!v)}
+        style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8,display:'block',width:'100%' }}>
+        📲 모바일에서 QR 인식하는 법 {show ? '▲' : '▼'}
+      </button>
+      {show && (
+        <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
+          <strong style={{ color:'var(--text)',display:'block',marginBottom:4 }}>📱 토스앱으로 후원하는 법</strong>
+          1. 위 버튼으로 QR 이미지 저장<br/>
+          2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
+          3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
+          4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
+          5. 저장한 QR 이미지 선택 → 후원 완료 🎉<br/>
+          <span style={{ fontSize:'.65rem',opacity:.6,marginTop:4,display:'block' }}>
+            * 기본 카메라앱 → QR인식 → 갤러리불러오기도 가능해요
+          </span>
+        </div>
+      )}
+    </>
+  )
+}
+
 function WarnModal({ count, onConfirm, onCancel }) {
   const is4th = count >= 4
   return (
@@ -496,6 +522,7 @@ function WarnModal({ count, onConfirm, onCancel }) {
             style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
             📥 QR 저장 (모바일 갤러리용)
           </button>
+          <WarnQrGuide />
         </div>
         <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
           <button onClick={onConfirm} style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
@@ -505,6 +532,48 @@ function WarnModal({ count, onConfirm, onCancel }) {
             🎲 랜덤으로 할게요 (무료)
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+// ── 사용량 뱃지 클릭 팝업 ───────────────────────────────────
+function UsageModal({ used, limit, warn, onClose }) {
+  const isFull = used >= limit
+  const isWarn = used >= warn - 1
+  return (
+    <div onClick={e=>{ if(e.target===e.currentTarget) onClose() }}
+      style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:340,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        <div style={{ fontSize:'3rem',marginBottom:10 }}>{isFull ? '🫙' : isWarn ? '⚠️' : '✨'}</div>
+        <div style={{ fontSize:'1.05rem',fontWeight:900,color:'var(--text)',marginBottom:8 }}>
+          {isFull ? 'AI 검색 소진' : `오늘 AI 검색 ${used} / ${limit}회`}
+        </div>
+        <div style={{ fontSize:'.82rem',color:'var(--muted)',marginBottom:18,lineHeight:1.7 }}>
+          {isFull
+            ? <>자정이 지나면 다시 <strong style={{color:'var(--primary)'}}>{limit}회</strong> 충전돼요 🌙<br/>그 동안 <strong style={{color:'var(--primary)'}}>랜덤 추천</strong>을 이용해보세요!</>
+            : isWarn
+            ? <>AI 검색 잔여 <strong style={{color:'#f5c842'}}>{limit - used}회</strong>. 아껴써요 🥲<br/><span style={{fontSize:'.75rem',opacity:.75}}>후원하면 개발자가 국밥을 먹어요 🍜</span></>
+            : <>잔여 <strong style={{color:'var(--primary)'}}>{limit - used}회</strong> 남았어요.<br/><span style={{fontSize:'.75rem',opacity:.75}}>AI 검색은 매 요청마다 서버 비용이 발생해요.</span></>
+          }
+        </div>
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:14,padding:12,marginBottom:8,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+          <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
+        </div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ marginBottom:16 }}>
+          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.click() }}
+            style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
+            📥 QR 저장 (모바일 갤러리용)
+          </button>
+          <WarnQrGuide />
+        </div>
+        <button onClick={onClose}
+          style={{ width:'100%',padding:'11px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.88rem',fontWeight:700,cursor:'pointer' }}>
+          닫기
+        </button>
+        <div style={{ fontSize:'.68rem',color:'var(--muted)',marginTop:8,opacity:.6 }}>탭 밖을 누르면 닫혀요</div>
       </div>
     </div>
   )
@@ -676,6 +745,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [error,      setError]     = useState(null)  // null | string
   const [warnCount,  setWarnCount] = useState(null)
   const [showLimit,  setShowLimit] = useState(false)
+  const [showUsage,  setShowUsage] = useState(false)
   const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
@@ -958,18 +1028,19 @@ ${compact}
       {warnCount  !== null && <WarnModal  count={warnCount}  onConfirm={confirmFromWarn} onCancel={cancelFromWarn} />}
       {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
+      {showUsage  && <UsageModal used={usedToday} limit={DAILY_LIMIT} warn={DAILY_WARN} onClose={()=>setShowUsage(false)} />}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}
         <div style={{ display:'flex',justifyContent:'flex-end',marginBottom:8 }}>
-          <span style={{
-            fontSize:'.7rem', padding:'3px 10px', borderRadius:100,
+          <button onClick={()=>setShowUsage(true)} style={{
+            fontSize:'.7rem', padding:'3px 10px', borderRadius:100, cursor:'pointer',
             background: usedToday >= DAILY_LIMIT ? '#2a1111' : usedToday >= DAILY_WARN-1 ? '#2a2000' : 'var(--surface2)',
             border: `1px solid ${usedToday >= DAILY_LIMIT ? '#ff4444' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--border)'}`,
             color: usedToday >= DAILY_LIMIT ? '#ff6666' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--muted)',
           }}>
             {usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
-          </span>
+          </button>
         </div>
         <div style={{ marginBottom:16, position:'relative' }}>
           <textarea value={ctx} onChange={e=>setCtx(e.target.value)}
