@@ -770,6 +770,118 @@ function LimitModal({ onClose }) {
   )
 }
 
+
+// ── 룰렛 모달 ─────────────────────────────────────────────────
+function RouletteModal({ results, restaurants, onPick, onClose }) {
+  const [cur, setCur] = React.useState(0)
+  const [done, setDone] = React.useState(false)
+  const [finalIdx, setFinalIdx] = React.useState(null)
+  const names = results.map(r => r.restaurantName)
+
+  React.useEffect(() => {
+    // 5초 룰렛: 점점 느려지는 인터벌
+    const TOTAL = 5000
+    const start = Date.now()
+    let frame
+    const picked = Math.floor(Math.random() * names.length)
+
+    function spin() {
+      const elapsed = Date.now() - start
+      const progress = elapsed / TOTAL
+      if (progress >= 1) {
+        setCur(picked); setFinalIdx(picked); setDone(true); return
+      }
+      // 가속→감속: 초반 빠르게, 후반 느리게
+      const delay = 80 + progress * progress * 600
+      setCur(p => (p + 1) % names.length)
+      frame = setTimeout(spin, delay)
+    }
+    frame = setTimeout(spin, 80)
+    return () => clearTimeout(frame)
+  }, [])
+
+  const pickedRec = finalIdx !== null ? results[finalIdx] : null
+  const pickedR = pickedRec
+    ? (restaurants.find(x=>x.name===pickedRec.restaurantName)
+    || restaurants.find(x=>pickedRec.restaurantName?.includes(x.name)||x.name?.includes(pickedRec.restaurantName)))
+    : null
+
+  return (
+    <div style={{ position:'fixed',inset:0,background:'rgba(0,0,0,.85)',zIndex:1000,display:'flex',alignItems:'center',justifyContent:'center',padding:20 }}
+      onClick={done ? onClose : undefined}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:20,padding:'28px 24px',maxWidth:380,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.8)' }}
+        onClick={e=>e.stopPropagation()}>
+        <div style={{ fontSize:'2rem',marginBottom:8 }}>🎰</div>
+        <div style={{ fontSize:'1rem',fontWeight:800,marginBottom:20,color:'var(--text)' }}>
+          {done ? '오늘은 여기로 결정!' : '고르는 중...'}
+        </div>
+
+        {/* 슬롯 카드들 */}
+        <div style={{ display:'flex',flexDirection:'column',gap:8,marginBottom:20 }}>
+          {names.map((name,i) => {
+            const isActive = cur === i
+            const isFinal = done && finalIdx === i
+            return (
+              <div key={i} style={{
+                padding:'12px 16px', borderRadius:12,
+                border: isFinal ? '2px solid var(--primary)' : isActive ? '2px solid var(--accent)' : '1px solid var(--border)',
+                background: isFinal ? 'rgba(255,107,53,.12)' : isActive ? 'rgba(108,99,255,.1)' : 'var(--surface2)',
+                transition: 'all .08s',
+                transform: isActive && !done ? 'scale(1.03)' : 'scale(1)',
+                opacity: done && !isFinal ? 0.4 : 1,
+              }}>
+                <div style={{ fontSize:'.9rem',fontWeight:700,color: isFinal?'var(--primary)':isActive?'var(--accent)':'var(--text)' }}>
+                  {isFinal ? '🎯 ' : isActive && !done ? '▶ ' : ''}{name}
+                </div>
+                {isFinal && pickedRec?.reviewHighlight && (
+                  <div style={{ fontSize:'.75rem',color:'var(--muted)',marginTop:4 }}>
+                    💬 {pickedRec.reviewHighlight}
+                  </div>
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        {done && pickedR && (
+          <div style={{ display:'flex',gap:8,justifyContent:'center',flexWrap:'wrap' }}>
+            <a href={`/dinner/samseong/restaurant/${encodeURIComponent(pickedR.name)}`}
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              ✅ 여기로 결정
+            </a>
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedR.name + ' 삼성역')}`}
+              target="_blank" rel="noopener noreferrer"
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              📍 지도 보기
+            </a>
+          </div>
+        )}
+        {done && pickedRec?._external && (
+          <div style={{ display:'flex',gap:8,justifyContent:'center',marginTop:8 }}>
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedRec.restaurantName + ' 삼성역')}`}
+              target="_blank" rel="noopener noreferrer"
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              ✅ 지도에서 확인
+            </a>
+          </div>
+        )}
+        {!done && (
+          <button onClick={onClose}
+            style={{ marginTop:4,padding:'8px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',cursor:'pointer' }}>
+            취소
+          </button>
+        )}
+        {done && (
+          <button onClick={onClose}
+            style={{ display:'block',width:'100%',marginTop:10,padding:'8px',borderRadius:10,background:'none',border:'none',color:'var(--muted)',fontSize:'.78rem',cursor:'pointer' }}>
+            닫기
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
 // ── AI 추천 앱 ───────────────────────────────────────────────
 // 제외 목록 관리: 50개 초과 시 자동 리셋
 const EXCLUDE_RESET = 50
@@ -792,8 +904,17 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
-  const excludedRef = useRef(new Set())
-  const resultsRef  = useRef(null)
+  const excludedRef   = useRef(new Set())
+  const resultsRef    = useRef(null)
+  // ── 픽·룰렛 state ──
+  const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
+  const [showRoulette,setShowRoulette]= useState(false)  // 룰렛 모달
+  const [rouletteIdx, setRouletteIdx] = useState(0)      // 룰렛 현재 하이라이트
+  const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
+  const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
+  const [idleCount,   setIdleCount]   = useState(30)     // 카운트다운
+  const idleTimerRef  = useRef(null)
+  const idleBarRef    = useRef(null)
 
   useEffect(() => {
     setUsedToday(getUsageCount())
@@ -864,6 +985,54 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     } catch(e) {}
     return () => { clearInterval(t); if (easterTimer) clearTimeout(easterTimer) }
   }, [])
+
+  // ── idle 타이머: results 생기면 30초 후 카운트다운 바 표시 ──
+  useEffect(() => {
+    if (idleTimerRef.current) { clearInterval(idleTimerRef.current); clearTimeout(idleBarRef.current) }
+    if (!results || pickedIdx !== null || showRoulette) return
+    setShowIdleBar(false); setIdleCount(30)
+    // 3초 뒤부터 카운트다운 바 표시
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      idleTimerRef.current = setInterval(() => {
+        setIdleCount(prev => {
+          if (prev <= 1) {
+            clearInterval(idleTimerRef.current)
+            setShowIdleBar(false)
+            setShowRoulette(true)
+            return 30
+          }
+          return prev - 1
+        })
+      }, 1000)
+    }, 3000)
+    return () => {
+      if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+      if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    }
+  }, [results])
+
+  // 사용자 인터랙션 감지 → idle 타이머 리셋
+  function resetIdle() {
+    if (!results || pickedIdx !== null || showRoulette) return
+    if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+    if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    setShowIdleBar(false); setIdleCount(30)
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      idleTimerRef.current = setInterval(() => {
+        setIdleCount(prev => {
+          if (prev <= 1) {
+            clearInterval(idleTimerRef.current)
+            setShowIdleBar(false)
+            setShowRoulette(true)
+            return 30
+          }
+          return prev - 1
+        })
+      }, 1000)
+    }, 3000)
+  }
 
   // 카테고리 바로뽑기 - 외부에서 pendingCat 전달 시 자동 실행
   useEffect(() => {
@@ -941,6 +1110,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         matchScore:Math.floor(Math.random()*15)+80, _random:true,
       }
     })
+    setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
     setPendingRnd(res); setDicing(true)
   }
 
@@ -990,6 +1160,49 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       }
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
+
+      // ── 특정 메뉴 키워드가 rv/type/tags에 직접 매칭되는 식당이 2개 미만이면 외부검색 ──
+      // 카테고리로만 매핑된 것과 구분 (예: "사케" → 이자카야 31개 있어도 사케 직접 언급은 2개뿐)
+      function extractSpecificMenu(text) {
+        if (!text) return null
+        const m = text.match(/사케|라멘|우동|소바|돈부리|오마카세|스시|초밥|마라탕|훠궈|양꼬치|딤섬|파스타|리조또|스테이크|타코|버거|샐러드|비빔밥|순두부|곱창|막창|홍어|파전|빈대떡|냉면|밀면|칼국수|수제비|설렁탕|곰탕|삼계탕|보쌈|족발|갈비찜|제육|쭈꾸미|낙지|오징어|아구찜|간장게장|돼지국밥|순대국|해장국/)
+        return m ? m[0] : null
+      }
+      const specificMenu = extractSpecificMenu(ctx)
+      const directMatchCount = specificMenu
+        ? restaurants.filter(r =>
+            r.rv?.some(v => v.includes(specificMenu)) ||
+            r.type?.includes(specificMenu) ||
+            r.tags?.some(t => t.includes(specificMenu))
+          ).length
+        : 99
+      const needsExternal = ctx && !selectedCat && (
+        base.length < 3 ||
+        (specificMenu && directMatchCount < 3)
+      )
+      if (needsExternal) {
+        const extRes = await fetch('/api/web-search-recommend', {
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ menuQuery: ctx.trim(), area: '삼성역', usageCount: getUsageCount() })
+        })
+        if (extRes.ok) {
+          const extData = await extRes.json()
+          const extRecs = Array.isArray(extData.recommendations) ? extData.recommendations : []
+          if (extRecs.length > 0) {
+            if (extData.usage) {
+              window.dispatchEvent(new CustomEvent('token-used', {
+                detail: calcCost(extData.usage.input_tokens||0, extData.usage.output_tokens||0)
+              }))
+            }
+            const newCount = incrementUsage()
+            setUsedToday(newCount)
+            setResults(extRecs.map((r,i) => ({ ...r, _external:true, rank:i+1 })))
+            scrollTo(); setLoading(false); return
+          }
+        }
+        base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+      }
+
       if (base.length < 5) base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
 
       // 이전 결과 제외 후 스코어링
@@ -1004,44 +1217,20 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top6.map((r, idx) => {
-        const rvLines = (r.rv || []).slice(0, 3)
-          .map(v => '  · ' + v.replace(/"/g, '\u2019').slice(0, 50))
-          .join('\n')
-        const tagsStr  = (r.tags  || []).slice(0, 6).join(' ')
-        const sceneStr = (r.scene || []).slice(0, 4).join('·')
-        const moodStr  = (r.moods || []).slice(0, 4).join('·')
-        return `[후보${idx+1}] ${r.name}
-  종류: ${r.type} | 가격: ${r.priceRange||'미정'}원 | 영업: ${r.hours||'확인필요'}
-  태그: ${tagsStr} | 어울리는상황: ${sceneStr} | 분위기: ${moodStr}
-  리뷰:
-${rvLines}`
-      }).join('\n\n')
+        const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').replace(/\[\d+\.?\d*★\]\s*/,'').slice(0,35) : ''
+        const tags = (r.tags||[]).slice(0,4).join(' ')
+        return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
+      }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
-            const prompt = `당신은 삼성역·코엑스 상권을 손바닥처럼 아는 맛집 큐레이터입니다.
-사용자의 요청에 담긴 상황과 감정을 먼저 파악하고, 후보 목록 중 가장 잘 맞는 식당 3곳을 골라 풍부하게 추천해주세요.
-
-[사용자 요청]
-${ctx_full ? `"${ctx_full}"` : '특별한 요청 없음'}
-${filter_str ? `[조건] ${filter_str}` : ''}
-
-[후보 식당 목록]
+            const prompt = `삼성역 맛집 큐레이터. 후보 중 3곳 추천.
+요청:${ctx_full||'없음'}${filter_str?' ('+filter_str+')':''}
+후보:
 ${compact}
-
-[추천 작성 규칙 — 반드시 준수]
-- restaurantName: 후보 목록의 이름 그대로 복사 (절대 수정 금지)
-- reason: ${usageCnt<=2?'반드시 4문장. 각 문장 최소 35자 이상':'반드시 2문장. 각 문장 최소 30자 이상'}
-  ① 사용자 요청의 상황·감정을 풀어 공감. 검색어 단순 반복 금지
-  ${usageCnt<=2?'② 이 식당의 대표 메뉴 1~2가지를 구체적으로 설명\n  ③ 분위기·접근성·공간 중 선정 결정적 이유\n  ④ 리뷰 키워드를 자연스럽게 녹여서 작은따옴표로 인용':'② 이 식당의 시그니처와 선정 이유를 한 문장으로'}
-- reviewHighlight: 사용자 상황과 이 식당을 잇는 한 줄 (${usageCnt<=2?'15':'10'}자 이내, 평점·가격 금지)
-- 3개 식당은 반드시 서로 다른 매력 포인트 강조 — 3개가 같은 톤·같은 표현이면 실격
-- '최고 평점', '높은 평점', '⭐숫자', '리뷰 수' 같은 수치 서술 절대 금지
-- reason·reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(')나 「」만 사용
-- JSON만 출력, 마크다운 금지
-
-{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~4문장","reviewHighlight":"15자이내"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+규칙:reason 2문장 각40자이내 큰따옴표금지 수치금지 highlight 10자이내 각 다른매력
+JSON만:{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2문장","highlight":""},{"rank":2,"restaurantName":"","reason":"","highlight":""},{"rank":3,"restaurantName":"","reason":"","highlight":""}]}'
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
@@ -1089,6 +1278,7 @@ ${compact}
       setUsedToday(newCount)
       markShown(matched)
       setResults(matched)
+      setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
       scrollTo()
     } catch (err) {
       console.error('getRecommendations error:', err)
@@ -1112,6 +1302,14 @@ ${compact}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
       {showQuota  && <QuotaModal onClose={() => { setShowQuota(false); getRandom(null) }} />}
       {showUsage  && <UsageModal used={usedToday} limit={DAILY_LIMIT} warn={DAILY_WARN} onClose={()=>setShowUsage(false)} />}
+      {showRoulette && (
+        <RouletteModal
+          results={results}
+          restaurants={restaurants}
+          onPick={(idx)=>{ setPickedIdx(idx); setShowRoulette(false) }}
+          onClose={()=>{ setShowRoulette(false); setPickedIdx(null) }}
+        />
+      )}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}
@@ -1199,7 +1397,84 @@ ${compact}
         )}
 
         {results && (
-          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
+          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}
+            onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
+
+            {/* ── idle 카운트다운 바 ── */}
+            {showIdleBar && !pickedIdx && !showRoulette && (
+              <div style={{ marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10 }}>
+                <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6 }}>
+                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>🎰 {idleCount}초 후 대신 골라드릴게요</span>
+                  <button onClick={()=>{ setShowIdleBar(false); if(idleTimerRef.current) clearInterval(idleTimerRef.current) }}
+                    style={{ fontSize:'.7rem',color:'var(--muted)',background:'none',border:'none',cursor:'pointer' }}>✕</button>
+                </div>
+                <div style={{ height:4,borderRadius:100,background:'var(--border)',overflow:'hidden' }}>
+                  <div style={{ height:'100%',borderRadius:100,background:'var(--primary)',
+                    width:`${(idleCount/30)*100}%`,transition:'width 1s linear' }} />
+                </div>
+                <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center' }}>
+                  고민된다면 룰렛에 맡겨요 — 지금 바로 돌리려면 <button onClick={()=>{setShowIdleBar(false);if(idleTimerRef.current)clearInterval(idleTimerRef.current);setShowRoulette(true)}} style={{background:'none',border:'none',color:'var(--primary)',fontWeight:700,cursor:'pointer',fontSize:'.7rem'}}>지금 돌리기 →</button>
+                </div>
+              </div>
+            )}
+
+            {/* ── 오늘의 픽 버튼 (결과 있을 때 항상 노출) ── */}
+            {!pickedIdx && !showRoulette && (
+              <div style={{ display:'flex',gap:8,marginBottom:14,alignItems:'center' }}>
+                <button
+                  onClick={()=>{
+                    if(idleTimerRef.current) clearInterval(idleTimerRef.current)
+                    if(idleBarRef.current) clearTimeout(idleBarRef.current)
+                    setShowIdleBar(false)
+                    setShowRoulette(true)
+                  }}
+                  style={{ flex:1,padding:'10px',borderRadius:10,background:'rgba(255,107,53,.08)',border:'1px solid rgba(255,107,53,.3)',color:'var(--primary)',fontSize:'.85rem',fontWeight:700,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',gap:6 }}>
+                  🎰 대신 골라줘
+                </button>
+                <button
+                  onClick={()=>{
+                    if(idleTimerRef.current) clearInterval(idleTimerRef.current)
+                    if(idleBarRef.current) clearTimeout(idleBarRef.current)
+                    setShowIdleBar(false)
+                    const idx = Math.floor(Math.random()*results.length)
+                    setPickedIdx(idx)
+                  }}
+                  style={{ flex:1,padding:'10px',borderRadius:10,background:'rgba(108,99,255,.08)',border:'1px solid rgba(108,99,255,.3)',color:'var(--accent)',fontSize:'.85rem',fontWeight:700,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',gap:6 }}>
+                  🎯 오늘의 픽
+                </button>
+              </div>
+            )}
+
+            {/* ── pickedIdx: 픽 결과 강조 배너 ── */}
+            {pickedIdx !== null && (() => {
+              const pr = results[pickedIdx]
+              const prR = pr && (restaurants.find(x=>x.name===pr.restaurantName)||restaurants.find(x=>pr.restaurantName?.includes(x.name)||x.name?.includes(pr.restaurantName)))
+              return pr ? (
+                <div style={{ marginBottom:14,padding:'14px 16px',background:'rgba(255,107,53,.1)',border:'2px solid var(--primary)',borderRadius:12 }}>
+                  <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:4 }}>🎯 오늘의 픽</div>
+                  <div style={{ fontSize:'1rem',fontWeight:800,color:'var(--primary)',marginBottom:6 }}>
+                    {prR?.e} {pr.restaurantName}
+                  </div>
+                  <div style={{ display:'flex',gap:6,flexWrap:'wrap' }}>
+                    {prR && <a href={`/dinner/samseong/restaurant/${encodeURIComponent(prR.name)}`}
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                      ✅ 여기로 결정
+                    </a>}
+                    {prR && <a href={`https://map.naver.com/v5/search/${encodeURIComponent(prR.name + ' 삼성역')}`}
+                      target="_blank" rel="noopener noreferrer"
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                      📍 지도
+                    </a>}
+                    <button onClick={()=>setPickedIdx(null)}
+                      style={{ padding:'7px 14px',borderRadius:8,background:'none',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.8rem',cursor:'pointer' }}>
+                      다시 고르기
+                    </button>
+                  </div>
+                </div>
+              ) : null
+            })()}
+
+            {/* ── 상단 배너: 랜덤 / 외부검색 안내 ── */}
             {results[0]?._random && (
               <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(99,179,237,.07)',border:'1px solid rgba(99,179,237,.2)',borderRadius:10,textAlign:'center' }}>
                 {usedToday >= DAILY_LIMIT
@@ -1209,52 +1484,120 @@ ${compact}
                 }
               </div>
             )}
-            {results.map((rec,i)=>{
-              const r = restaurants.find(x=>x.name===rec.restaurantName)
-                     || restaurants.find(x=>rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
-              if (!r) return null
-              const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
-              return (
-                <Link key={i} href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}
-                  style={{ textDecoration:'none', display:'block', color:'inherit' }}>
-                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
-                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
-                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
-                  >
-                    <div style={{ display:'flex',gap:10,marginBottom:8 }}>
-                      <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
-                      <div style={{ flex:1,minWidth:0 }}>
-                        <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:5 }}>{r.e} {r.name}</div>
-                        <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
-                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
-                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
-                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
-                          {r.exit4&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--accent)' }}>🚇4번출구</span>}
+            {results[0]?._external && (
+              <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(108,99,255,.07)',border:'1px solid rgba(108,99,255,.25)',borderRadius:10 }}>
+                <div style={{ fontSize:'.78rem',fontWeight:700,color:'var(--accent)',marginBottom:2 }}>🔍 DB 외부 검색 결과</div>
+                <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>삼성역 커뮤니티·지도 앱에서 실시간 검색한 결과예요. 방문 전 영업 여부를 확인하세요.</div>
+              </div>
+            )}
+
+            {/* ── PC: 2컬럼 그리드 / 모바일: 1컬럼 ── */}
+            <div style={{
+              display:'grid',
+              gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',
+              gap:12,
+            }}>
+              {results.map((rec,i)=>{
+                const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
+                const accentColor = borders[i] || '#888'
+
+                // ── 외부 검색 결과 카드 ──
+                if (rec._external) {
+                  const naverUrl = `https://map.naver.com/v5/search/${encodeURIComponent(rec.restaurantName + ' 삼성역')}`
+                  // 3가지 형식 분기
+                  const cardStyle = [
+                    // 1번: 메뉴 중심 - 가격 뱃지 강조
+                    { bg:'var(--surface2)', accent:'var(--primary)', icon:'🍽️', label:'메뉴 추천' },
+                    // 2번: 분위기 중심 - accent 컬러
+                    { bg:'rgba(108,99,255,.06)', accent:'var(--accent)', icon:'✨', label:'분위기 픽' },
+                    // 3번: 평판 중심 - 중립 톤
+                    { bg:'rgba(99,179,237,.05)', accent:'#63b3ed', icon:'💬', label:'리뷰 추천' },
+                  ][i] || { bg:'var(--surface2)', accent:'var(--primary)', icon:'📍', label:'추천' }
+
+                  return (
+                    <a key={i} href={naverUrl} target="_blank" rel="noopener noreferrer"
+                      style={{ textDecoration:'none', color:'inherit', display:'block' }}>
+                      <div style={{ background:cardStyle.bg, border:`1px solid var(--border)`, borderLeft:`3px solid ${accentColor}`, borderRadius:14, padding:'16px 14px', cursor:'pointer', transition:'border-color .15s', height:'100%' }}
+                        onMouseEnter={e=>e.currentTarget.style.borderColor=accentColor}
+                        onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                        {/* 헤더 */}
+                        <div style={{ display:'flex', gap:10, marginBottom:10, alignItems:'flex-start' }}>
+                          <span style={{ fontSize:'1.3rem', flexShrink:0 }}>{medals[i]}</span>
+                          <div style={{ flex:1, minWidth:0 }}>
+                            <div style={{ display:'flex', alignItems:'center', gap:6, marginBottom:4, flexWrap:'wrap' }}>
+                              <span style={{ fontSize:'.95rem', fontWeight:700 }}>{rec.restaurantName}</span>
+                              <span style={{ fontSize:'.65rem', padding:'2px 7px', borderRadius:100, background:`${cardStyle.accent}22`, border:`1px solid ${cardStyle.accent}44`, color:cardStyle.accent, fontWeight:700 }}>{cardStyle.icon} {cardStyle.label}</span>
+                            </div>
+                            <div style={{ display:'flex', flexWrap:'wrap', gap:4 }}>
+                              {rec.priceInfo && <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--primary)' }}>💰 {rec.priceInfo}</span>}
+                              {rec.hours && <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--muted)' }}>🕐 {rec.hours}</span>}
+                            </div>
+                          </div>
+                        </div>
+                        {/* 본문 */}
+                        <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word' }}>{rec.reason}</p>
+                        {/* 하이라이트 */}
+                        {rec.reviewHighlight && (
+                          <div style={{ background:'var(--surface)', borderLeft:`3px solid ${cardStyle.accent}`, borderRadius:'0 8px 8px 0', padding:'7px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
+                            {cardStyle.icon} &ldquo;{rec.reviewHighlight}&rdquo;
+                          </div>
+                        )}
+                        {/* 푸터 */}
+                        <div style={{ display:'flex', gap:6, marginTop:8, alignItems:'center' }}>
+                          <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>📍 {rec.address || '삼성역 근처'}</span>
+                          <span style={{ marginLeft:'auto', fontSize:'.72rem', color:cardStyle.accent, opacity:.8 }}>지도에서 보기 →</span>
                         </div>
                       </div>
-                    </div>
-                    <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:10,lineHeight:1.7,opacity:.9,wordBreak:'break-word',whiteSpace:'pre-line' }}>{rec.reason}</p>
-                    {rec.reviewHighlight&&(
-                      <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'8px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8,wordBreak:'break-word' }}>
-                        💬 &ldquo;{rec.reviewHighlight}&rdquo;
+                    </a>
+                  )
+                }
+
+                // ── DB 결과 카드 (기존) ──
+                const r = restaurants.find(x=>x.name===rec.restaurantName)
+                       || restaurants.find(x=>rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
+                if (!r) return null
+                return (
+                  <Link key={i} href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}
+                    style={{ textDecoration:'none', display:'block', color:'inherit' }}>
+                    <div style={{ background:'var(--surface2)', border:'1px solid var(--border)', borderLeft:`3px solid ${borders[i]}`, borderRadius:14, padding:'16px 14px', cursor:'pointer', transition:'all .2s', height:'100%', opacity:pickedIdx!==null&&pickedIdx!==i?0.35:1, transform:pickedIdx===i?'scale(1.01)':'scale(1)' }}
+                      onMouseEnter={e=>{ if(pickedIdx===null) e.currentTarget.style.borderColor=borders[i] }}
+                      onMouseLeave={e=>{ if(pickedIdx===null) e.currentTarget.style.borderColor='var(--border)' }}
+                    >
+                      <div style={{ display:'flex', gap:10, marginBottom:8 }}>
+                        <span style={{ fontSize:'1.4rem', flexShrink:0 }}>{medals[i]}</span>
+                        <div style={{ flex:1, minWidth:0 }}>
+                          <div style={{ fontSize:'.95rem', fontWeight:700, marginBottom:5 }}>{r.e} {r.name}</div>
+                          <div style={{ display:'flex', flexWrap:'wrap', gap:4 }}>
+                            <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--muted)' }}>{r.type}</span>
+                            <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--text)' }}>⭐{r.rt}</span>
+                            {r.priceRange&&<span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
+                            {r.exit4&&<span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--accent)' }}>🚇4번출구</span>}
+                          </div>
+                        </div>
                       </div>
-                    )}
-                    <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
-                      <a href={naverMapUrl(r.name)}
-                        target="_blank" rel="noopener noreferrer"
-                        onClick={e=>e.stopPropagation()}
-                        style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1 }}>
-                        📍 지도
-                      </a>
-                      <span style={{ fontSize:'.75rem',padding:'5px 12px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>
-                        🕐 {r.hours}
-                      </span>
-                      <span style={{ marginLeft:'auto',fontSize:'.72rem',color:'var(--muted)',opacity:.6 }}>상세보기 →</span>
+                      <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word', whiteSpace:'pre-line' }}>{rec.reason}</p>
+                      {rec.reviewHighlight&&(
+                        <div style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 8px 8px 0', padding:'8px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
+                          💬 &ldquo;{rec.reviewHighlight}&rdquo;
+                        </div>
+                      )}
+                      <div style={{ display:'flex', gap:6, marginTop:8, alignItems:'center' }}>
+                        <a href={naverMapUrl(r.name)}
+                          target="_blank" rel="noopener noreferrer"
+                          onClick={e=>e.stopPropagation()}
+                          style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)', textDecoration:'none', position:'relative', zIndex:1 }}>
+                          📍 지도
+                        </a>
+                        <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>
+                          🕐 {r.hours}
+                        </span>
+                        <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>상세보기 →</span>
+                      </div>
                     </div>
-                  </div>
-                </Link>
-              )
-            })}
+                  </Link>
+                )
+              })}
+            </div>
           </div>
         )}
       </div>
@@ -1369,31 +1712,59 @@ export default function SamseongPage() {
         )}
         {activeTab==='browse' && <BrowseTab />}
         {activeTab==='categories' && (
-          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10,padding:'4px 0' }}>
-            {CATS.map(cat=>{
-              const count = cat.exit4Only ? restaurants.filter(r=>r.exit4).length : restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))||(cat.tags||[]).some(t=>r.tags?.includes(t))).length
-              return (
-                <div key={cat.slug} style={{ position:'relative' }}>
-                  <Link href={`/dinner/samseong/category/${cat.slug}`}>
-                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
-                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
-                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
-                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
-                    </div>
-                  </Link>
-                  <button
-                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
-                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
-                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
-                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
-                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
-                    🎲 바로 뽑기
-                  </button>
-                </div>
-              )
-            })}
+          <div>
+            <div style={{ fontSize:'.8rem',color:'var(--muted)',marginBottom:14,paddingTop:4 }}>
+              카테고리 포스팅 보기 &middot; <strong style={{color:'var(--primary)'}}>🎲 바로뽑기</strong>로 즉석 랜덤 추천
+            </div>
+            <div style={{
+              display:'grid',
+              gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))',
+              gap:12,
+            }}>
+              {CATS.map(cat=>{
+                const count = cat.exit4Only
+                  ? restaurants.filter(r=>r.exit4).length
+                  : restaurants.filter(r=>
+                      cat.cats.some(c=>r.cat?.includes(c)) ||
+                      (cat.tags||[]).some(t=>r.tags?.includes(t))
+                    ).length
+                return (
+                  <div key={cat.slug} style={{
+                    background:'var(--surface)', border:'1px solid var(--border)',
+                    borderRadius:14, overflow:'hidden', display:'flex', flexDirection:'column',
+                    transition:'border-color .15s, box-shadow .15s',
+                  }}
+                    onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--primary)'; e.currentTarget.style.boxShadow='0 4px 16px rgba(255,107,53,.12)' }}
+                    onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.boxShadow='none' }}
+                  >
+                    <Link href={`/dinner/samseong/category/${cat.slug}`} style={{ display:'block', textDecoration:'none', color:'inherit', flex:1 }}>
+                      <div style={{ padding:'18px 16px 14px', display:'flex', alignItems:'center', gap:12 }}>
+                        <span style={{ fontSize:'2rem', lineHeight:1, flexShrink:0 }}>{cat.emoji}</span>
+                        <div>
+                          <div style={{ fontSize:'.9rem', fontWeight:700, marginBottom:2 }}>{cat.name}</div>
+                          <div style={{ fontSize:'.73rem', color:'var(--muted)' }}>{count}개 식당 &middot; 보기 →</div>
+                        </div>
+                      </div>
+                    </Link>
+                    <button
+                      onClick={()=>{ setPendingCat(cat); switchTab('ai') }}
+                      style={{
+                        width:'100%', padding:'10px',
+                        borderTop:'1px solid var(--border)',
+                        background:'rgba(255,107,53,.07)', border:'none', borderTop:'1px solid var(--border)',
+                        color:'var(--primary)', fontSize:'.8rem', fontWeight:700,
+                        cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center', gap:5,
+                        transition:'background .15s',
+                      }}
+                      onMouseEnter={e=>e.currentTarget.style.background='rgba(255,107,53,.18)'}
+                      onMouseLeave={e=>e.currentTarget.style.background='rgba(255,107,53,.07)'}
+                    >
+                      🎲 바로 뽑기
+                    </button>
+                  </div>
+                )
+              })}
+            </div>
           </div>
         )}
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>

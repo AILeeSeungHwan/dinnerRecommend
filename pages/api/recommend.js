@@ -8,9 +8,8 @@ export default async function handler(req, res) {
 
   // 사용 횟수별 max_tokens 분기
   const count = parseInt(usageCount) || 0
-  const maxTokens = count >= 5 ? 600
-                  : count >= 3 ? 800   // 3·4회: 800
-                  : 1200               // 1·2회: 1200
+  // 2문장 * 40자 * 3개 = 240자 ≈ 360 tokens + JSON 구조 = 500 토큰으로 충분
+  const maxTokens = count >= 3 ? 400 : 500
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -91,7 +90,12 @@ export default async function handler(req, res) {
       return res.status(502).json({ error: 'recommendations 배열이 비어있어요' })
     }
 
-    return res.status(200).json({ recommendations: parsed.recommendations, usage: data.usage || null })
+    // highlight → reviewHighlight 정규화 (프롬프트 축소로 필드명 변경 대응)
+    const recs = parsed.recommendations.map(r => ({
+      ...r,
+      reviewHighlight: r.reviewHighlight || r.highlight || ''
+    }))
+    return res.status(200).json({ recommendations: recs, usage: data.usage || null })
 
   } catch (err) {
     console.error('Handler error:', err)
