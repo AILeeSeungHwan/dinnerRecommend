@@ -482,6 +482,13 @@ function WarnModal({ count, onConfirm, onCancel }) {
             : `오늘 ${count}번째 AI 검색이에요 👀\nAI 검색은 매 요청마다 서버 비용이 발생해요.\n국밥 한 그릇 값이면 100번 검색이 가능해요 🥣`
           }
         </div>
+        {/* 절약 모드 공지 */}
+        <div style={{ fontSize:'.74rem',padding:'8px 12px',background:'rgba(245,200,66,.08)',border:'1px solid rgba(245,200,66,.25)',borderRadius:10,color:'#f5c842',marginBottom:8,lineHeight:1.6 }}>
+          ⚡ {count >= 4
+            ? '토큰 절약 모드 — 추천 설명이 짧아져요'
+            : '토큰 절약 모드 진입 — 이번 검색부터 추천 퀄리티가 다소 낮아질 수 있어요'
+          }
+        </div>
         <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
@@ -875,7 +882,7 @@ ${compact}
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ prompt })
+        body: JSON.stringify({ prompt, usageCount: getUsageCount() })
       })
 
       // HTTP 오류 체크

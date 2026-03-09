@@ -301,6 +301,9 @@ function WarnModal({count,onConfirm,onCancel}) {
         <div style={{fontSize:'.84rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75,whiteSpace:'pre-line'}}>
           {is4th?`오늘 벌써 ${count}번째 AI 검색이에요 🥲\nAI 한 번 쓸 때마다 개발자 통장에서\n조금씩 빠져나가고 있답니다 💸`:`오늘 ${count}번째 AI 검색이에요 👀\nAI 검색은 매 요청마다 서버 비용이 발생해요.\n국밥 한 그릇 값이면 100번 검색이 가능해요 🥣`}
         </div>
+        <div style={{fontSize:'.74rem',padding:'8px 12px',background:'rgba(245,200,66,.08)',border:'1px solid rgba(245,200,66,.25)',borderRadius:10,color:'#f5c842',marginBottom:8,lineHeight:1.6}}>
+          ⚡ {count>=4?'토큰 절약 모드 — 추천 설명이 짧아져요':'토큰 절약 모드 진입 — 이번 검색부터 추천 퀄리티가 다소 낮아질 수 있어요'}
+        </div>
         <div style={{background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)'}}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{width:110,height:110,display:'block'}} />
         </div>
@@ -473,7 +476,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       const filter_str=[weather&&`날씨:${weather}`,mood_str&&`기분:${mood_str}`,selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
       const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
-      const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt})})
+      const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt,usageCount:getUsageCount()})})
       if(!res.ok){const errData=await res.json().catch(()=>({}));const msg=errData.detail||errData.error||`서버 오류 (${res.status})`;setLoading(false);setError(msg);return}
       const data=await res.json()
       setLoading(false)

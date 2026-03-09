@@ -1,10 +1,17 @@
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
 
-  const { prompt } = req.body
+  const { prompt, usageCount } = req.body
   if (!prompt) return res.status(400).json({ error: 'No prompt' })
 
   const MODEL = 'claude-haiku-4-5-20251001'
+
+  // 사용 횟수별 max_tokens 분기 (3회~부터 절약 모드)
+  const count = parseInt(usageCount) || 0
+  const maxTokens = count >= 5 ? 600
+                  : count >= 4 ? 800
+                  : count >= 3 ? 1200
+                  : 2000
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -16,7 +23,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         model: MODEL,
-        max_tokens: 2000,
+        max_tokens: maxTokens,
         messages: [{ role: 'user', content: prompt }]
       })
     })

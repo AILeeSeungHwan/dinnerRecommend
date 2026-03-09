@@ -509,6 +509,13 @@ function WarnModal({ count, onConfirm, onCancel }) {
             : `오늘 ${count}번째 AI 검색이에요 👀\nAI 검색은 매 요청마다 서버 비용이 발생해요.\n국밥 한 그릇 값이면 100번 검색이 가능해요 🥣`
           }
         </div>
+        {/* 절약 모드 공지 */}
+        <div style={{ fontSize:'.74rem',padding:'8px 12px',background:'rgba(245,200,66,.08)',border:'1px solid rgba(245,200,66,.25)',borderRadius:10,color:'#f5c842',marginBottom:8,lineHeight:1.6 }}>
+          ⚡ {count >= 4
+            ? '토큰 절약 모드 — 추천 설명이 짧아져요'
+            : '토큰 절약 모드 진입 — 이번 검색부터 추천 퀄리티가 다소 낮아질 수 있어요'
+          }
+        </div>
         <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
@@ -751,27 +758,51 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
     // 이스터에그: 시크릿 모드 감지
     // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
-    // 일반 모드: 디스크 기반 수 GB → 1GB 초과
-    // Safari: localStorage 쓰기 후 즉시 사라지는 특성 이용
+    // ── 시크릿 모드 감지 (다중 방법 조합) ─────────────────────
     let easterTimer = null
     async function detectIncognito() {
+      let score = 0  // 신호 점수 합산 — 2점 이상이면 시크릿으로 판정
+
+      // 방법 1: storage quota (시크릿은 120MB~1GB로 제한됨)
       try {
-        // 1) Chrome/Edge/Firefox — storage estimate
-        if (navigator.storage && navigator.storage.estimate) {
+        if (navigator.storage?.estimate) {
           const { quota } = await navigator.storage.estimate()
-          if (quota < 500 * 1024 * 1024) return true  // 500MB 미만 = 시크릿
+          if (quota < 1.2 * 1024 * 1024 * 1024) score += 2  // 1.2GB 미만
         }
-        // 2) Safari 시크릿 — IDB 쓰기 실패
-        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
-        if (isSafari) {
-          return await new Promise(resolve => {
-            const db = window.indexedDB.open('__test__')
-            db.onerror = () => resolve(true)
-            db.onsuccess = e => { e.target.result.close(); resolve(false) }
-          })
-        }
-        return false
-      } catch { return false }
+      } catch {}
+
+      // 방법 2: FileSystem API (시크릿에서 막힘 — 구형 Chrome/Safari)
+      try {
+        await new Promise((res, rej) => {
+          const req = window.webkitRequestFileSystem
+            ? window.webkitRequestFileSystem(0, 0, res, rej)
+            : res()
+        })
+      } catch { score += 2 }
+
+      // 방법 3: IndexedDB 차단 여부 (Safari 시크릿)
+      try {
+        await new Promise((res, rej) => {
+          const r = indexedDB.open('__gm_probe__')
+          r.onerror = rej
+          r.onsuccess = e => { e.target.result.close(); res() }
+        })
+      } catch { score += 2 }
+
+      // 방법 4: localStorage 쓰기 가능 여부
+      try {
+        const k = '__gm_ls_probe__'
+        localStorage.setItem(k, '1')
+        localStorage.removeItem(k)
+      } catch { score += 1 }
+
+      // 방법 5: navigator.webdriver (자동화 도구 → 제외)
+      if (navigator.webdriver) return false
+
+      // 방법 6: 세션 내 히스토리 길이 (시크릿 첫 방문은 거의 항상 1)
+      if (window.history.length <= 1) score += 1
+
+      return score >= 2
     }
 
     try {
@@ -956,7 +987,7 @@ ${compact}
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ prompt })
+        body: JSON.stringify({ prompt, usageCount: getUsageCount() })
       })
 
       // HTTP 오류 체크
