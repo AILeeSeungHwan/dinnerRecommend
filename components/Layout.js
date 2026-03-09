@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 // ── 폰트 프리셋 ──────────────────────────────────────────────
 const FONTS = {
@@ -158,6 +158,45 @@ const THEMES = [
     vars:{ bg:'#050300', surface:'#0e0800', surface2:'#140b00', border:'#261800', text:'#fff5d0', muted:'#aa8822', primary:'#f59e0b', accent:'#fde68a', glow:'rgba(245,158,11,.12)' },
   },
 ]
+
+// ── 모바일 QR 저장 + 인식 안내 ───────────────────────────────
+function QRMobileGuide() {
+  const [show, setShow] = React.useState(false)
+  function saveQR() {
+    const a = document.createElement('a')
+    a.href = '/toss-qr.png'
+    a.download = 'toss-qr.png'
+    a.style.display = 'none'
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+  }
+  return (
+    <div style={{ marginBottom:8 }}>
+      <button onClick={saveQR}
+        style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:4,width:'100%' }}>
+        📥 QR 이미지 저장 (갤러리)
+      </button>
+      <button onClick={() => setShow(v => !v)}
+        style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',textDecoration:'underline',opacity:.8,display:'block',width:'100%' }}>
+        📲 모바일에서 QR 인식하는 법 {show ? '▲' : '▼'}
+      </button>
+      {show && (
+        <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
+          <strong style={{ color:'var(--text)',display:'block',marginBottom:4 }}>📱 토스앱으로 후원하는 법</strong>
+          1. 위 버튼으로 QR 이미지 저장<br/>
+          2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
+          3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
+          4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
+          5. 저장한 QR 이미지 선택 → 후원 완료 🎉<br/>
+          <span style={{ fontSize:'.65rem',opacity:.6,marginTop:4,display:'block' }}>
+            * 기본 카메라앱 → QR인식 → 갤러리불러오기도 가능해요
+          </span>
+        </div>
+      )}
+    </div>
+  )
+}
 
 export default function Layout({ children, title, description, canonical }) {
   const [theme,      setTheme]      = useState('light')
@@ -599,11 +638,12 @@ export default function Layout({ children, title, description, canonical }) {
             <div style={{ background:'#fff', borderRadius:12, padding:12, display:'inline-block', marginBottom:10 }}>
               <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:196, height:196, display:'block' }} />
             </div>
-            <p style={{ fontSize:'.72rem', color:'var(--muted)', marginBottom:18 }}>
-              📱 토스앱으로 QR 스캔 (PC에서 확인)
+            <p style={{ fontSize:'.72rem', color:'var(--muted)', marginBottom:8 }}>
+              📱 토스앱으로 QR 스캔 또는 아래 저장 후 불러오기
             </p>
+            <QRMobileGuide />
             <button onClick={() => setShowQR(false)} style={{
-              width:'100%', padding:'10px', borderRadius:10,
+              width:'100%', padding:'10px', borderRadius:10, marginTop:12,
               background:'var(--surface2)', border:'1px solid var(--border)',
               color:'var(--text)', cursor:'pointer', fontSize:'.88rem',
             }}>닫기</button>
