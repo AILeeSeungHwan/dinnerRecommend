@@ -6,12 +6,11 @@ export default async function handler(req, res) {
 
   const MODEL = 'claude-haiku-4-5-20251001'
 
-  // 사용 횟수별 max_tokens 분기 (3회~부터 절약 모드)
+  // 사용 횟수별 max_tokens 분기
   const count = parseInt(usageCount) || 0
   const maxTokens = count >= 5 ? 600
-                  : count >= 4 ? 800
-                  : count >= 3 ? 1200
-                  : 2000
+                  : count >= 3 ? 800   // 3·4회: 800
+                  : 1200               // 1·2회: 1200
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {

@@ -51,7 +51,7 @@ function buildRandomReason(r, idx, usedTemplates) {
       .replace(/\[\d+\.?\d*★\]\s*/g, '')
       .replace(/\(실제 Google 리뷰.*?\)/g, '')
       .trim()
-      .slice(0, 70)
+      .slice(0, 40)
   }
   // 한글 받침에 따른 조사 선택
   function josa(word, j1, j2) {
@@ -119,7 +119,7 @@ function buildRandomReason(r, idx, usedTemplates) {
 
     // 4: 리뷰 한 개를 길게 (80자)
     () => {
-      const rv0long = (r.rv || []).map(cleanRv).filter(Boolean).map(v => v.slice(0, 80))[0] || ''
+      const rv0long = (r.rv || []).map(cleanRv).filter(Boolean).map(v => v.slice(0, 40))[0] || ''
       if (!rv0long) return templates[1]()
       return {
         reason: `"${rv0long}"`,
@@ -928,10 +928,11 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         const tagsStr = (r.tags || []).slice(0, 5).join('/')
         return `${r.name}|타입:${r.type}|평점:⭐${r.rt}(${r.cnt}개리뷰)|가격:${r.priceRange||'미정'}원|태그:${tagsStr}|분위기:${moodStr}|리뷰:"${rvSnippet}"|영업:${r.hours||'확인필요'}`
       }).join('\n')
-      const ctx_full = (ctx||'').slice(0, 80)
+      const ctx_full = (ctx||'').slice(0, 40)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt = `당신은 망포역·영통지구 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
+const usageCnt = getUsageCount()
+            const prompt = `당신은 망포역·영통지구 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
 
 [사용자 요청]
 ${ctx_full ? `\"${ctx_full}\"` : '특별한 요청 없음 (상황에 맞는 추천)'}
@@ -942,20 +943,20 @@ ${compact}
 
 [추천 작성 규칙 — 반드시 준수]
 - restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)
-- reason: 반드시 3문장, 아래 순서대로 작성
-  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)
-  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주
-  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)
-- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)
+- reason: 반드시 ${usageCnt<=2?'3문장':'2문장'}, 아래 순서대로 작성
+  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어 반복 금지
+  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 위주
+  ${usageCnt<=2?'③ 셋째 문장: 실제 리뷰 키워드를 자연스럽게 녹여서 (작은따옴표 사용)':''}
+- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (${usageCnt<=2?'15':'10'}자 이내, 평점·가격 금지)
 - 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지
 - reason/reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(') 또는 「」 사용
 - JSON만 출력, 마크다운·설명 없음
 
-{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~3문장","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ prompt, usageCount: getUsageCount() })
+        body: JSON.stringify({ prompt, usageCount: usageCnt })
       })
 
       // HTTP 오류 체크

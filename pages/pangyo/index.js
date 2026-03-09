@@ -46,7 +46,7 @@ const CATS = [
 // ── 랜덤 추천 결과 문구 템플릿 ──────────────────────────────
 function buildRandomReason(r, idx, usedTemplates) {
   function cleanRv(v) {
-    return (v||'').replace(/\[\d+\.?\d*★\]\s*/g,'').replace(/\(실제 Google 리뷰.*?\)/g,'').trim().slice(0,70)
+    return (v||'').replace(/\[\d+\.?\d*★\]\s*/g,'').replace(/\(실제 Google 리뷰.*?\)/g,'').trim().slice(0, 40)
   }
   function josa(word, j1, j2) {
     if (!word) return j2
@@ -75,7 +75,7 @@ function buildRandomReason(r, idx, usedTemplates) {
     ()=>{ const tagStr=tags.slice(0,2).join(' · '); const base=cnt>=100?`${cnt.toLocaleString()}명이 다녀갔다.`:`${cnt}명이 다녀갔다.`; return {reason:`${base}${tagStr?` ${tagStr}.`:''}${rv0?` "${rv0}"`:''}`      ,highlight:rv0.slice(0,20)||tagStr} },
     ()=>{ const sc=(scene[0]||moods[0]||'').replace(/에$/,''); const intro=sc?`${sc}, 딱 맞는 곳.`:(tags[0]?`${tags[0]}${josa(tags[0],'으로','로')} 알려진 곳.`:'한 번 가볼 만한 곳.'); return {reason:rv0?`${intro} "${rv0}"`:intro, highlight:rv0.slice(0,20)||sc} },
     ()=>{ if(!tags.length) return templates[0](); const tagStr=tags.slice(0,4).map(t=>`#${t}`).join('  '); return {reason:rv0?`${tagStr}  "${rv0}"`:tagStr, highlight:rv0.slice(0,20)||`#${tags[0]}`} },
-    ()=>{ const rv0long=(r.rv||[]).map(cleanRv).filter(Boolean).map(v=>v.slice(0,80))[0]||''; if(!rv0long) return templates[1](); return {reason:`"${rv0long}"`,highlight:rv0long.slice(0,20)} },
+    ()=>{ const rv0long=(r.rv||[]).map(cleanRv).filter(Boolean).map(v=>v.slice(0, 40))[0]||''; if(!rv0long) return templates[1](); return {reason:`"${rv0long}"`,highlight:rv0long.slice(0,20)} },
     ()=>{ const m=moods[0]||scene[0]||''; const moodMap={'기분 좋음':'기분 좋을 때','피곤함':'피곤할 때','스트레스 받음':'스트레스받을 때','혼밥':'혼밥할 때','축하':'축하하는 날','허전함':'허전할 때','데이트':'데이트할 때','회식':'회식 자리에'}; const when=moodMap[m]||(m?`${m}일 때`:'오늘'); return {reason:rv0?`${when} 당기는 곳. "${rv0}"`:  `${when} 추천하는 ${r.type||'식당'}.`, highlight:rv0.slice(0,20)||when} },
     ()=>{ if(!tags[0]) return templates[0](); const t0=tags[0]; const label=tagToLabel(t0); const particle=josa(label,'으로','로'); const intro=`${label}${particle} 알려진 곳.`; const reason=rv0&&rv1?`${intro} "${rv0}" "${rv1}"`:rv0?`${intro} "${rv0}"`:intro; return {reason, highlight:rv0.slice(0,20)||t0} },
     ()=>{ const intro=tags[0]?`#${tags.slice(0,3).join(' #')}.`:''; const reason=rv0?`${intro?intro+' ':''}  "${rv0}"`:intro||`${r.type||''} 한 곳.`; return {reason, highlight:rv0.slice(0,20)||(tags[0]?`#${tags[0]}`:'')} },
@@ -509,10 +509,10 @@ function AiApp({pendingCat,onPendingCatUsed}) {
         const tagsStr=(r.tags||[]).slice(0,5).join('/')
         return `${r.name}|타입:${r.type}|평점:⭐${r.rt}(${r.cnt}개리뷰)|가격:${r.priceRange||'미정'}원|태그:${tagsStr}|분위기:${moodStr}|리뷰:"${rvSnippet}"|영업:${r.hours||'확인필요'}`
       }).join('\n')
-      const ctx_full=(ctx||'').slice(0,80)
+      const ctx_full=(ctx||'').slice(0, 40)
       const mood_str=moods.join(', ')
       const filter_str=[weather&&`날씨:${weather}`,mood_str&&`기분:${mood_str}`,selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+      const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~3문장","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt,usageCount:getUsageCount()})})
       if(!res.ok){const errData=await res.json().catch(()=>({}));const msg=errData.detail||errData.error||`서버 오류 (${res.status})`;setLoading(false);if(msg==='##QUOTA_EXCEEDED##'){setShowQuota(true);return};setError(msg);return}

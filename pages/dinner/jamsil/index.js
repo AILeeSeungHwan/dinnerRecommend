@@ -52,7 +52,7 @@ function buildRandomReason(r, idx, usedTemplates) {
       .replace(/\[\d+\.?\d*★\]\s*/g, '')
       .replace(/\(실제 Google 리뷰.*?\)/g, '')
       .trim()
-      .slice(0, 70)
+      .slice(0, 40)
   }
   // 한글 받침에 따른 조사 선택
   function josa(word, j1, j2) {
@@ -120,7 +120,7 @@ function buildRandomReason(r, idx, usedTemplates) {
 
     // 4: 리뷰 한 개를 길게 (80자)
     () => {
-      const rv0long = (r.rv || []).map(cleanRv).filter(Boolean).map(v => v.slice(0, 80))[0] || ''
+      const rv0long = (r.rv || []).map(cleanRv).filter(Boolean).map(v => v.slice(0, 40))[0] || ''
       if (!rv0long) return templates[1]()
       return {
         reason: `"${rv0long}"`,
@@ -986,7 +986,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
       const compact = top6.map((r, idx) => {
         const rvLines = (r.rv || []).slice(0, 3)
-          .map(v => '  · ' + v.replace(/"/g, '\u2019').slice(0, 120))
+          .map(v => '  · ' + v.replace(/"/g, '\u2019').slice(0, 50))
           .join('\n')
         const tagsStr  = (r.tags  || []).slice(0, 6).join(' ')
         const sceneStr = (r.scene || []).slice(0, 4).join('·')
@@ -1000,7 +1000,8 @@ ${rvLines}`
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt = `당신은 잠실·방이동·석촌호수 상권을 손바닥처럼 아는 맛집 큐레이터입니다.
+const usageCnt = getUsageCount()
+            const prompt = `당신은 잠실·방이동·석촌호수 상권을 손바닥처럼 아는 맛집 큐레이터입니다.
 사용자의 요청에 담긴 상황과 감정을 먼저 파악하고, 후보 목록 중 가장 잘 맞는 식당 3곳을 골라 풍부하게 추천해주세요.
 
 [사용자 요청]
@@ -1012,24 +1013,20 @@ ${compact}
 
 [추천 작성 규칙 — 반드시 준수]
 - restaurantName: 후보 목록의 이름 그대로 복사 (절대 수정 금지)
-- reason: 반드시 4문장. 각 문장은 최소 40자 이상, reason 전체 합계 최소 200자 이상 작성할 것
-  ① [상황 공감 — 최소 40자] 사용자 요청의 숨은 의도·상황·감정을 구체적으로 풀어 공감. 검색어 단순 반복 금지, 반드시 상황·감정으로 승화
-    좋은 예: '야근 후 혼밥' → '긴 하루를 혼자 조용히 마무리하고 싶을 때, 대충 때우기 싫고 제대로 된 한 끼가 필요한 그 느낌.'
-    나쁜 예: '야근 후 혼밥을 원하시는군요.'
-  ② [시그니처 메뉴 — 최소 45자] 이 식당의 대표 메뉴 1~2가지를 구체적 이름과 함께 설명. 왜 그 메뉴가 특별한지 언급
-  ③ [선정 이유 — 최소 40자] 분위기·접근성·서비스·공간 중 이 요청에 이 식당을 고른 결정적 이유 한 문장
-  ④ [리뷰 인용 — 최소 40자] 제공된 리뷰 중 가장 인상적인 손님 반응을 자연스럽게 녹여서. 핵심 표현은 작은따옴표로 직접 인용
-- reviewHighlight: 사용자 상황과 이 식당을 잇는 임팩트 있는 한 줄 (15자 이내, 평점·가격 언급 금지)
+- reason: ${usageCnt<=2?'반드시 4문장. 각 문장 최소 35자 이상':'반드시 2문장. 각 문장 최소 30자 이상'}
+  ① 사용자 요청의 상황·감정을 풀어 공감. 검색어 단순 반복 금지
+  ${usageCnt<=2?'② 이 식당의 대표 메뉴 1~2가지를 구체적으로 설명\n  ③ 분위기·접근성·공간 중 선정 결정적 이유\n  ④ 리뷰 키워드를 자연스럽게 녹여서 작은따옴표로 인용':'② 이 식당의 시그니처와 선정 이유를 한 문장으로'}
+- reviewHighlight: 사용자 상황과 이 식당을 잇는 한 줄 (${usageCnt<=2?'15':'10'}자 이내, 평점·가격 금지)
 - 3개 식당은 반드시 서로 다른 매력 포인트 강조 — 3개가 같은 톤·같은 표현이면 실격
 - '최고 평점', '높은 평점', '⭐숫자', '리뷰 수' 같은 수치 서술 절대 금지
 - reason·reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(')나 「」만 사용
 - JSON만 출력, 마크다운 금지
 
-{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"4문장·합계200자이상","reviewHighlight":"15자이내"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~4문장","reviewHighlight":"15자이내"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ prompt, usageCount: getUsageCount() })
+        body: JSON.stringify({ prompt, usageCount: usageCnt })
       })
 
       // HTTP 오류 체크

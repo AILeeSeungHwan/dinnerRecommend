@@ -112,7 +112,7 @@ export async function getStaticProps({ params }) {
 // ── 랜덤 결과 문구 ──────────────────────────────────────────────
 function buildReason(r, idx) {
   function cleanRv(v) {
-    return (v || '').replace(/\[\d+\.?\d*★\]\s*/g, '').replace(/\(실제 Google 리뷰.*?\)/g, '').trim().slice(0, 70)
+    return (v || '').replace(/\[\d+\.?\d*★\]\s*/g, '').replace(/\(실제 Google 리뷰.*?\)/g, '').trim().slice(0, 40)
   }
   const rv0   = cleanRv(r.rv?.[0] || '')
   const rv1   = cleanRv(r.rv?.[1] || '')
@@ -357,7 +357,7 @@ export default function UnifiedCategoryPage({ slug, catInfo, byRegion }) {
                   <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
                   {r.rv?.[0] && (
                     <div style={{ fontSize:'.75rem', color:'var(--muted)', lineHeight:1.4, marginTop:6 }}>
-                      💬 {r.rv[0].replace(/\[\d+\.?\d*★\]\s*/g, '').slice(0, 60)}…
+                      💬 {r.rv[0].replace(/\[\d+\.?\d*★\]\s*/g, '').slice(0, 40)}…
                     </div>
                   )}
                 </div>
