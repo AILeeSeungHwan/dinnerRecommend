@@ -25,7 +25,7 @@ export default function Document() {
         <meta property="og:title" content="오늘뭐먹지 — AI 맛집 추천" />
         <meta property="og:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
         <meta property="og:url" content={BASE} />
-        <meta property="og:image" content={`${BASE}/og-image.png`} />
+        <meta property="og:image" content={`${BASE}/og-image.png?v=3`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
@@ -35,7 +35,7 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="오늘뭐먹지 — AI 맛집 추천" />
         <meta name="twitter:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
-        <meta name="twitter:image" content={`${BASE}/og-image.png`} />
+        <meta name="twitter:image" content={`${BASE}/og-image.png?v=3`} />
         <meta name="twitter:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
 
         {/* ── 카카오톡 공유 SDK ── */}
