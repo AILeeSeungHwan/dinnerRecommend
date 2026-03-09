@@ -521,7 +521,7 @@ function WarnModal({ count, onConfirm, onCancel }) {
         </div>
         <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{ marginBottom:16 }}>
-          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.click() }}
+          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a) }}
             style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
             📥 QR 저장 (모바일 갤러리용)
           </button>
@@ -566,7 +566,7 @@ function UsageModal({ used, limit, warn, onClose }) {
         </div>
         <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{ marginBottom:16 }}>
-          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.click() }}
+          <button onClick={()=>{ const a=document.createElement('a');a.href='/toss-qr.png';a.download='toss-qr.png';a.style.display='none';document.body.appendChild(a);a.click();document.body.removeChild(a) }}
             style={{ fontSize:'.7rem',padding:'4px 12px',borderRadius:100,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer' }}>
             📥 QR 저장 (모바일 갤러리용)
           </button>
@@ -662,13 +662,16 @@ function LimitModal({ onClose }) {
     const link = document.createElement('a')
     link.href = '/toss-qr.png'
     link.download = 'toss-qr.png'
+    link.style.display = 'none'
+    document.body.appendChild(link)
     link.click()
+    document.body.removeChild(link)
   }
 
   return (
     <div style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
       onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
-      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)' }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 80px rgba(0,0,0,.8)',maxHeight:'90vh',overflowY:'auto' }}>
 
         {/* 타이틀 */}
         <div style={{ fontSize:'3.2rem',marginBottom:10 }}>🫙</div>
