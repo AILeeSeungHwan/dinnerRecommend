@@ -849,39 +849,49 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const rest = top20.slice(3)
       const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,5)
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
-      // 후보 포맷: 상세 정보 포함 (AI가 차별화된 설명 생성하도록)
-      const compact = top6.map(r => {
-        const rvSnippet = (r.rv || []).slice(0, 3)
-          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 80))
-          .join(' / ')
-        const moodStr = (r.moods || []).slice(0, 3).join('·')
-        const tagsStr = (r.tags || []).slice(0, 5).join('/')
-        return `${r.name}|타입:${r.type}|평점:⭐${r.rt}(${r.cnt}개리뷰)|가격:${r.priceRange||'미정'}원|태그:${tagsStr}|분위기:${moodStr}|리뷰:"${rvSnippet}"|영업:${r.hours||'확인필요'}`
-      }).join('\n')
-      const ctx_full = (ctx||'').slice(0, 80)
+      // 후보 포맷: 식당별 블록으로 분리 — rv 120자, scene/addr 포함
+      const compact = top6.map((r, idx) => {
+        const rvLines = (r.rv || []).slice(0, 3)
+          .map(v => '  · ' + v.replace(/"/g, '\u2019').slice(0, 120))
+          .join('\n')
+        const tagsStr  = (r.tags  || []).slice(0, 6).join(' ')
+        const sceneStr = (r.scene || []).slice(0, 4).join('·')
+        const moodStr  = (r.moods || []).slice(0, 4).join('·')
+        return `[후보${idx+1}] ${r.name}
+  종류: ${r.type} | 가격: ${r.priceRange||'미정'}원 | 영업: ${r.hours||'확인필요'}
+  태그: ${tagsStr} | 어울리는상황: ${sceneStr} | 분위기: ${moodStr}
+  리뷰:
+${rvLines}`
+      }).join('\n\n')
+      const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt = `당신은 삼성역·코엑스 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
+      const prompt = `당신은 삼성역·코엑스 상권을 손바닥처럼 아는 맛집 큐레이터입니다.
+사용자의 요청에 담긴 상황과 감정을 먼저 파악하고, 후보 목록 중 가장 잘 맞는 식당 3곳을 골라 풍부하게 추천해주세요.
 
 [사용자 요청]
-${ctx_full ? `\"${ctx_full}\"` : '특별한 요청 없음 (상황에 맞는 추천)'}
-${filter_str ? `조건: ${filter_str}` : ''}
+${ctx_full ? `"${ctx_full}"` : '특별한 요청 없음'}
+${filter_str ? `[조건] ${filter_str}` : ''}
 
-[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]
+[후보 식당 목록]
 ${compact}
 
 [추천 작성 규칙 — 반드시 준수]
-- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)
-- reason: 반드시 3문장, 아래 순서대로 작성
-  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)
-  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주
-  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)
-- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)
-- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지
-- reason/reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(') 또는 「」 사용
-- JSON만 출력, 마크다운·설명 없음
+- restaurantName: 후보 목록의 이름 그대로 복사 (절대 수정 금지)
+- reason: 반드시 4문장. 각 문장은 최소 40자 이상, reason 전체 합계 최소 200자 이상 작성할 것
+  ① [상황 공감 — 최소 40자] 사용자 요청의 숨은 의도·상황·감정을 구체적으로 풀어 공감. 검색어 단순 반복 금지, 반드시 상황·감정으로 승화
+    좋은 예: '야근 후 혼밥' → '긴 하루를 혼자 조용히 마무리하고 싶을 때, 대충 때우기 싫고 제대로 된 한 끼가 필요한 그 느낌.'
+    나쁜 예: '야근 후 혼밥을 원하시는군요.'
+  ② [시그니처 메뉴 — 최소 45자] 이 식당의 대표 메뉴 1~2가지를 구체적 이름과 함께 설명. 왜 그 메뉴가 특별한지 언급
+  ③ [선정 이유 — 최소 40자] 분위기·접근성·서비스·공간 중 이 요청에 이 식당을 고른 결정적 이유 한 문장
+  ④ [리뷰 인용 — 최소 40자] 제공된 리뷰 중 가장 인상적인 손님 반응을 자연스럽게 녹여서. 핵심 표현은 작은따옴표로 직접 인용
+- reviewHighlight: 사용자 상황과 이 식당을 잇는 임팩트 있는 한 줄 (15자 이내, 평점·가격 언급 금지)
+- 3개 식당은 반드시 서로 다른 매력 포인트 강조 — 3개가 같은 톤·같은 표현이면 실격
+- '최고 평점', '높은 평점', '⭐숫자', '리뷰 수' 같은 수치 서술 절대 금지
+- reason·reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(')나 「」만 사용
+- JSON만 출력, 마크다운 금지
 
-{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"3~4문장구체설명","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"4문장·합계200자이상","reviewHighlight":"15자이내"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
@@ -1069,10 +1079,10 @@ ${compact}
                         </div>
                       </div>
                     </div>
-                    <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
+                    <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:10,lineHeight:1.7,opacity:.9,wordBreak:'break-word',whiteSpace:'pre-line' }}>{rec.reason}</p>
                     {rec.reviewHighlight&&(
-                      <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
-                        💬 {`"${rec.reviewHighlight}"`}
+                      <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'8px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8,wordBreak:'break-word' }}>
+                        💬 &ldquo;{rec.reviewHighlight}&rdquo;
                       </div>
                     )}
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
