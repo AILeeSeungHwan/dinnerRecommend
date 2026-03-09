@@ -1217,7 +1217,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top6.map((r, idx) => {
-        const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').replace(/\[\d+\.?\d*★\]\s*/,'').slice(0,35) : ''
+        const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
         const tags = (r.tags||[]).slice(0,4).join(' ')
         return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
       }).join('\n')
@@ -1225,12 +1225,14 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
-            const prompt = `삼성역 맛집 큐레이터. 후보 중 3곳 추천.
-요청:${ctx_full||'없음'}${filter_str?' ('+filter_str+')':''}
-후보:
-${compact}
-규칙:reason 2문장 각40자이내 큰따옴표금지 수치금지 highlight 10자이내 각 다른매력
-JSON만:{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2문장","highlight":""},{"rank":2,"restaurantName":"","reason":"","highlight":""},{"rank":3,"restaurantName":"","reason":"","highlight":""}]}'
+            const prompt = [
+        '삼성역 맛집 큐레이터. 후보 중 3곳 추천.',
+        '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
+        '후보:',
+        compact,
+        '규칙: JSON만 출력. reason은 2문장 40자이내, highlight 10자이내, 각 다른 매력 포인트.',
+        '출력형식: {"recommendations":[{"rank":1,"restaurantName":"후보이름","reason":"2문장","highlight":"10자"},{"rank":2,...},{"rank":3,...}]}'
+      ].join('\n')
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
