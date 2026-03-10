@@ -17,28 +17,12 @@ const FONTS = {
 const THEMES = [
   // ── LIGHT ──────────────────────────────────────────────────
   {
-    id:'light', name:'라이트', emoji:'☀️', font:'clean', group:'라이트',
+    id:'light', name:'라이트', emoji:'☀️', font:'clean', group:'메인',
     vars:{ bg:'#f8f8fa', surface:'#ffffff', surface2:'#f2f2f7', border:'#e0e0eb', text:'#191922', muted:'#6b6b80', primary:'#e05a1e', accent:'#4a3cde' },
-  },
-  {
-    id:'cream', name:'크림', emoji:'🧈', font:'rounded', group:'라이트',
-    vars:{ bg:'#fdf8f0', surface:'#fffcf5', surface2:'#f5ede0', border:'#e8d8c0', text:'#2a1e10', muted:'#8a6848', primary:'#c87820', accent:'#e05a1e' },
-  },
-  {
-    id:'mocha', name:'모카', emoji:'☕', font:'serif', group:'라이트',
-    vars:{ bg:'#f5ede4', surface:'#fdf7f2', surface2:'#ede0d4', border:'#d4bfaa', text:'#241810', muted:'#8a6858', primary:'#8b4513', accent:'#c87820' },
-  },
-  {
-    id:'sage', name:'세이지', emoji:'🌿', font:'clean', group:'라이트',
-    vars:{ bg:'#f0f4f0', surface:'#f8fbf8', surface2:'#e4ece4', border:'#c8d8c8', text:'#182418', muted:'#5a7060', primary:'#3a7a50', accent:'#8b7355' },
   },
   {
     id:'lavender', name:'라벤더', emoji:'💜', font:'rounded', group:'라이트',
     vars:{ bg:'#f4f0ff', surface:'#faf8ff', surface2:'#ece8ff', border:'#ccc0f0', text:'#1a1030', muted:'#7060a0', primary:'#6c3fd4', accent:'#e040a0' },
-  },
-  {
-    id:'rose-light', name:'로즈', emoji:'🌸', font:'elegant', group:'라이트',
-    vars:{ bg:'#fff5f8', surface:'#ffffff', surface2:'#ffe8f0', border:'#f0c8d8', text:'#2a1020', muted:'#906878', primary:'#d4546e', accent:'#9b59b6' },
   },
   // ── GRADIENT ───────────────────────────────────────────────
   {
@@ -73,7 +57,7 @@ const THEMES = [
   },
   // ── DARK ───────────────────────────────────────────────────
   {
-    id:'dark', name:'다크', emoji:'🌑', font:'default', group:'다크',
+    id:'dark', name:'다크', emoji:'🌑', font:'default', group:'메인',
     vars:{ bg:'#0f0f13', surface:'#1a1a22', surface2:'#22222e', border:'#2e2e3e', text:'#f0f0f5', muted:'#888899', primary:'#ff6b35', accent:'#7c6cff' },
   },
   {
@@ -134,7 +118,7 @@ const THEMES = [
   },
   // ── 시즌 ────────────────────────────────────────────────────
   {
-    id:'spring', name:'봄 벚꽃', emoji:'🌸', font:'clean', group:'시즌',
+    id:'spring', name:'봄 벚꽃', emoji:'🌸', font:'clean', group:'메인',
     vars:{ bg:'#fef0f5', surface:'#ffffff', surface2:'#fde8f0', border:'#f4c2d4', text:'#1a0812', muted:'#7a3858', primary:'#c0335a', accent:'#8b1a40' },
     isSpring: true,
   },
@@ -583,7 +567,7 @@ export default function Layout({ children, title, description, canonical }) {
                     boxShadow: isLightGroup ? '0 8px 24px rgba(0,0,0,.12)' : '0 8px 32px rgba(0,0,0,.5)',
                   }}>
                     {/* 그룹별 렌더 */}
-                    {['라이트','그라디언트','다크','스페셜','지역','글로우','시즌'].map(group => {
+                    {['메인','그라디언트','다크','스페셜','지역','글로우'].map(group => {
                       const groupThemes = THEMES.filter(t => t.group === group)
                       return (
                         <div key={group} style={{ marginBottom:10 }}>
@@ -632,45 +616,122 @@ export default function Layout({ children, title, description, canonical }) {
 
       <main>{children}</main>
 
-      {/* ── 봄 벚꽃 애니메이션 ── */}
+      {/* ── 봄 벚꽃 배경 나무 + 꽃잎 애니메이션 ── */}
       {ct.isSpring && mounted && (
         <style>{`
-          @keyframes sakura-fall {
-            0%   { transform: translateY(-20px) rotate(0deg);   opacity: 0; }
+          @keyframes sakura-drift-1 {
+            0%   { transform: translate(0px, -20px) rotate(0deg);   opacity: 0; }
+            5%   { opacity: .9; }
+            25%  { transform: translate(28px, 22vh) rotate(95deg); }
+            50%  { transform: translate(-18px, 48vh) rotate(200deg); }
+            75%  { transform: translate(22px, 72vh) rotate(295deg); opacity: .65; }
+            100% { transform: translate(-10px, 108vh) rotate(400deg); opacity: 0; }
+          }
+          @keyframes sakura-drift-2 {
+            0%   { transform: translate(0px, -20px) rotate(30deg);  opacity: 0; }
             5%   { opacity: .85; }
-            85%  { opacity: .7; }
-            100% { transform: translateY(105vh) rotate(360deg); opacity: 0; }
+            30%  { transform: translate(-32px, 28vh) rotate(130deg); }
+            55%  { transform: translate(20px, 52vh) rotate(240deg); }
+            80%  { transform: translate(-14px, 78vh) rotate(330deg); opacity: .6; }
+            100% { transform: translate(8px, 108vh) rotate(450deg); opacity: 0; }
+          }
+          @keyframes sakura-drift-3 {
+            0%   { transform: translate(0px, -20px) rotate(60deg);  opacity: 0; }
+            5%   { opacity: .8; }
+            20%  { transform: translate(18px, 18vh) rotate(110deg); }
+            45%  { transform: translate(-24px, 42vh) rotate(210deg); }
+            70%  { transform: translate(16px, 68vh) rotate(320deg); opacity: .7; }
+            100% { transform: translate(-6px, 108vh) rotate(430deg); opacity: 0; }
           }
           .sakura-petal {
             position: fixed;
             top: 0;
-            width: 14px;
-            height: 14px;
             border-radius: 80% 0 80% 0;
-            background: linear-gradient(135deg, #ffb7cc, #ff8aad);
-            box-shadow: 0 2px 6px rgba(255,100,150,.25);
+            box-shadow: 0 2px 6px rgba(255,100,150,.2);
             pointer-events: none;
-            z-index: 9999;
-            animation: sakura-fall linear infinite;
+            z-index: 50;
+          }
+          @keyframes branch-sway {
+            0%, 100% { transform: rotate(-1deg) translateX(0); }
+            50%       { transform: rotate(1.5deg) translateX(3px); }
           }
         `}</style>
       )}
-      {ct.isSpring && mounted && Array.from({length:18}).map((_,i) => (
-        <div key={i} className="sakura-petal" style={{
-          left: `${(i * 5.8 + 2) % 100}%`,
-          animationDuration: `${6 + (i * 1.3) % 7}s`,
-          animationDelay: `${(i * 0.7) % 6}s`,
-          width: `${10 + (i % 3) * 4}px`,
-          height: `${10 + (i % 3) * 4}px`,
-          opacity: 0.7 + (i % 3) * 0.1,
-          transform: `rotate(${i * 23}deg)`,
-          background: i % 3 === 0
-            ? 'linear-gradient(135deg, #ffd6e7, #ffb3cc)'
-            : i % 3 === 1
-            ? 'linear-gradient(135deg, #ffb3cc, #ff85aa)'
-            : 'linear-gradient(135deg, #ffe0ec, #ffc8d8)',
-        }} />
-      ))}
+      {/* 벚꽃나무 SVG — 화면 우하단 고정 */}
+      {ct.isSpring && mounted && (
+        <div style={{ position:'fixed', bottom:0, right:'-20px', zIndex:10, pointerEvents:'none', userSelect:'none', opacity:.9 }}>
+          <svg width="320" height="480" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg"
+            style={{ animation:'branch-sway 6s ease-in-out infinite', transformOrigin:'50% 100%' }}>
+            {/* 줄기 */}
+            <path d="M160 480 C158 420 154 380 150 330 C146 280 142 240 148 190 C152 160 156 130 160 100" stroke="#8B4513" strokeWidth="14" strokeLinecap="round"/>
+            {/* 굵은 가지들 */}
+            <path d="M150 330 C130 300 100 280 70 265" stroke="#8B4513" strokeWidth="9" strokeLinecap="round"/>
+            <path d="M148 280 C168 255 195 240 225 230" stroke="#8B4513" strokeWidth="8" strokeLinecap="round"/>
+            <path d="M149 220 C125 200 95 188 65 182" stroke="#7A3C10" strokeWidth="7" strokeLinecap="round"/>
+            <path d="M151 200 C172 180 200 168 230 162" stroke="#7A3C10" strokeWidth="7" strokeLinecap="round"/>
+            <path d="M155 150 C135 128 108 115 78 108" stroke="#7A3C10" strokeWidth="6" strokeLinecap="round"/>
+            <path d="M157 140 C178 118 205 106 238 100" stroke="#7A3C10" strokeWidth="5" strokeLinecap="round"/>
+            <path d="M160 100 C145 78 130 58 118 38" stroke="#7A3C10" strokeWidth="5" strokeLinecap="round"/>
+            <path d="M160 100 C175 76 190 55 205 34" stroke="#7A3C10" strokeWidth="4" strokeLinecap="round"/>
+            {/* 잔가지 */}
+            <path d="M70 265 C52 252 38 242 22 238" stroke="#6B3410" strokeWidth="4" strokeLinecap="round"/>
+            <path d="M70 265 C60 248 55 232 52 215" stroke="#6B3410" strokeWidth="3" strokeLinecap="round"/>
+            <path d="M225 230 C242 220 256 210 268 200" stroke="#6B3410" strokeWidth="4" strokeLinecap="round"/>
+            <path d="M65 182 C48 172 32 165 16 162" stroke="#6B3410" strokeWidth="3" strokeLinecap="round"/>
+            <path d="M230 162 C248 154 262 145 275 135" stroke="#6B3410" strokeWidth="3" strokeLinecap="round"/>
+            {/* 꽃송이 덩어리들 */}
+            <ellipse cx="50" cy="250" rx="36" ry="28" fill="#ffcce0" opacity=".85"/>
+            <ellipse cx="30" cy="238" rx="24" ry="20" fill="#ffb3cc" opacity=".8"/>
+            <ellipse cx="62" cy="232" rx="20" ry="16" fill="#ffe0ec" opacity=".9"/>
+            <ellipse cx="240" cy="218" rx="34" ry="26" fill="#ffcce0" opacity=".85"/>
+            <ellipse cx="265" cy="205" rx="22" ry="18" fill="#ffb3cc" opacity=".8"/>
+            <ellipse cx="55" cy="170" rx="30" ry="24" fill="#ffe0ec" opacity=".85"/>
+            <ellipse cx="18" cy="158" rx="20" ry="16" fill="#ffcce0" opacity=".8"/>
+            <ellipse cx="245" cy="150" rx="32" ry="25" fill="#ffb3cc" opacity=".85"/>
+            <ellipse cx="272" cy="130" rx="22" ry="18" fill="#ffe0ec" opacity=".8"/>
+            <ellipse cx="85" cy="98" rx="36" ry="28" fill="#ffcce0" opacity=".88"/>
+            <ellipse cx="58" cy="88" rx="24" ry="20" fill="#ffb3cc" opacity=".82"/>
+            <ellipse cx="220" cy="90" rx="34" ry="26" fill="#ffe0ec" opacity=".88"/>
+            <ellipse cx="248" cy="78" rx="22" ry="18" fill="#ffcce0" opacity=".82"/>
+            <ellipse cx="118" cy="30" rx="30" ry="24" fill="#ffb3cc" opacity=".85"/>
+            <ellipse cx="160" cy="85" rx="42" ry="32" fill="#ffe0ec" opacity=".9"/>
+            <ellipse cx="205" cy="28" rx="28" ry="22" fill="#ffcce0" opacity=".85"/>
+            <ellipse cx="160" cy="55" rx="28" ry="22" fill="#ffb3cc" opacity=".88"/>
+            {/* 작은 꽃잎들 */}
+            {[{cx:42,cy:242},{cx:68,cy:228},{cx:245,cy:212},{cx:260,cy:198},{cx:50,cy:164},{cx:252,cy:144},{cx:78,cy:92},{cx:218,cy:84},{cx:112,cy:25},{cx:208,cy:22}].map((p,i)=>(
+              <g key={i}>
+                <circle cx={p.cx} cy={p.cy} r="5" fill="#ff85aa" opacity=".7"/>
+                <circle cx={p.cx+8} cy={p.cy-4} r="4" fill="#ffb3cc" opacity=".6"/>
+                <circle cx={p.cx-6} cy={p.cy+5} r="3.5" fill="#ffd6e7" opacity=".65"/>
+              </g>
+            ))}
+          </svg>
+        </div>
+      )}
+      {/* 흩날리는 꽃잎 */}
+      {ct.isSpring && mounted && Array.from({length:22}).map((_,i) => {
+        const anim = ['sakura-drift-1','sakura-drift-2','sakura-drift-3'][i % 3]
+        const sz = 9 + (i % 4) * 3
+        const colors = [
+          'linear-gradient(135deg, #ffd6e7, #ffb3cc)',
+          'linear-gradient(135deg, #ffb3cc, #ff85aa)',
+          'linear-gradient(135deg, #ffe0ec, #ffc8d8)',
+          'linear-gradient(135deg, #ff9dc0, #ff6fa0)',
+        ]
+        return (
+          <div key={i} className="sakura-petal" style={{
+            left: `${(i * 4.7 + 1) % 100}%`,
+            width: sz+'px', height: sz+'px',
+            animationName: anim,
+            animationDuration: `${7 + (i * 1.1) % 6}s`,
+            animationDelay: `${(i * 0.65) % 7}s`,
+            animationTimingFunction: 'ease-in-out',
+            animationIterationCount: 'infinite',
+            background: colors[i % 4],
+            transform: `rotate(${i * 17}deg)`,
+          }} />
+        )
+      })}
 
       {/* ── 푸터 ── */}
       <footer style={{ borderTop:'1px solid var(--border)', padding:'32px 16px 28px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>
