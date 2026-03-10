@@ -814,6 +814,38 @@ function LimitModal({ onClose }) {
 }
 
 
+// ── 데이터 없는 메뉴 안내 모달 ─────────────────────────────
+function NoDataModal({ menuKeyword, onContinue, onClose }) {
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,.85)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:340,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        <div style={{ fontSize:'3.2rem',marginBottom:12 }}>🔍</div>
+        <div style={{ fontSize:'1rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.4 }}>
+          아직 v0.1이에요
+        </div>
+        <div style={{ fontSize:'.86rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75 }}>
+          <strong style={{ color:'var(--primary)' }}>{menuKeyword}</strong> 데이터가 아직 부족해요.{' '}
+          API 연동 전까지는 데이터가 제한적이랍니다 🙏
+        </div>
+        <div style={{ fontSize:'.78rem',padding:'10px 14px',background:'rgba(108,99,255,.07)',border:'1px solid rgba(108,99,255,.2)',borderRadius:10,color:'var(--accent)',marginBottom:20,lineHeight:1.6 }}>
+          연관된 매장들을 대신 보여드릴게요
+        </div>
+        <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
+          <button onClick={onContinue}
+            style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
+            연관 매장 보기
+          </button>
+          <button onClick={onClose}
+            style={{ padding:'12px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.86rem',cursor:'pointer' }}>
+            닫기
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ── 이미 확정했을 때 차단 모달 ───────────────────────────────────
 function AlreadyPickedModal({ restaurantName, onGoAnyway, onClose }) {
   const [showQr, setShowQr] = React.useState(false)
@@ -1044,6 +1076,8 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
   const [showRoulette,setShowRoulette]= useState(false)  // 룰렛 모달
   const [showAlreadyPicked, setShowAlreadyPicked] = useState(false) // 확정 후 차단 모달
+  const [showCatFilter, setShowCatFilter] = useState(false) // 카테고리 펼침/닫힘
+  const [noDataMenu, setNoDataMenu] = useState(null) // DB에 없는 메뉴 감지 팝업
   const [rouletteIdx, setRouletteIdx] = useState(0)      // 룰렛 현재 하이라이트
   const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
   const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
@@ -1256,6 +1290,11 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   }
 
   // ── AI 추천 (횟수 체크 포함) ──
+  function handleNoDataContinue() {
+    setNoDataMenu(null)
+    getRecommendations()
+  }
+
   function handleRecommendClick() {
     if (!ctx && !weather && moods.length===0) { getRandom(null); return }
     const isAdmin = localStorage.getItem('gm-admin-unlock') === '1'
@@ -1275,7 +1314,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   function cancelFromWarn()  { setWarnCount(null); getRandom(null) }
 
   async function getRecommendations() {
-    setLoading(true); setError(null); setResults(null)
+    setLoading(true); setError(null); setResults(null); setNoDataMenu(null)
 
     try {
       const mm = detectMenu(ctx, moods, weather)
@@ -1305,7 +1344,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 카테고리로만 매핑된 것과 구분 (예: "사케" → 이자카야 31개 있어도 사케 직접 언급은 2개뿐)
       function extractSpecificMenu(text) {
         if (!text) return null
-        const m = text.match(/사케|라멘|우동|소바|돈부리|오마카세|스시|초밥|마라탕|훠궈|양꼬치|딤섬|파스타|리조또|스테이크|타코|버거|샐러드|비빔밥|순두부|곱창|막창|홍어|파전|빈대떡|냉면|밀면|칼국수|수제비|설렁탕|곰탕|삼계탕|보쌈|족발|갈비찜|제육|쭈꾸미|낙지|오징어|아구찜|간장게장|돼지국밥|순대국|해장국/)
+        const m = text.match(/사케|라멘|우동|소바|돈부리|오마카세|스시|초밥|마라탕|훠궈|양꼬치|딤섬|파스타|리조또|스테이크|타코|버거|샐러드|비빔밥|순두부|곱창|막창|홍어|파전|빈대떡|냉면|밀면|칼국수|수제비|설렁탕|곰탕|삼계탕|보쌈|족발|갈비찜|제육|쭈꾸미|낙지|오징어|아구찜|간장게장|돼지국밥|순대국|해장국|장어|메로|연어|방어|참치|문어|게장|랍스터|타코야끼|교자|만두|탕탕이|수육|편육|삼계탕|오리|전복|굴|꼬막|대하|생선회|회덮밥/)
         return m ? m[0] : null
       }
       const specificMenu = extractSpecificMenu(ctx)
@@ -1316,6 +1355,13 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
             r.tags?.some(t => t.includes(specificMenu))
           ).length
         : 99
+      // DB 미보유 메뉴 감지: 구체적 메뉴 검색인데 직접 매칭 < 2개
+      const isDbMissing = specificMenu && directMatchCount < 3
+      if (isDbMissing && !noDataMenu) {
+        setNoDataMenu(specificMenu)
+        setLoading(false)
+        return
+      }
       const needsExternal = ctx && !selectedCat && (
         base.length < 3 ||
         (specificMenu && directMatchCount < 3)
@@ -1444,6 +1490,11 @@ const usageCnt = getUsageCount()
       {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
       {showQuota  && <QuotaModal onClose={() => { setShowQuota(false); getRandom(null) }} />}
+      {noDataMenu && <NoDataModal
+        menuKeyword={noDataMenu}
+        onContinue={handleNoDataContinue}
+        onClose={()=>setNoDataMenu(null)}
+      />}
       {showAlreadyPicked && <AlreadyPickedModal
         restaurantName={pickedIdx!==null&&results?.[pickedIdx]?.restaurantName||'선택한 식당'}
         onGoAnyway={()=>{ setShowAlreadyPicked(false); setPickedIdx(null) }}
@@ -1495,15 +1546,22 @@ const usageCnt = getUsageCount()
             </div>
           </div>
           <div style={{ marginBottom:12 }}>
-            <div style={{ fontSize:'.73rem',color:'var(--muted)',marginBottom:6 }}>🗂️ 카테고리</div>
-            <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
-              {CATS.map(cat=>(
-                <button key={cat.slug} onClick={()=>setSelectedCat(selectedCat?.slug===cat.slug?null:cat)}
-                  style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
-                  {cat.emoji} {cat.name}
-                </button>
-              ))}
-            </div>
+            <button onClick={()=>setShowCatFilter(v=>!v)}
+              style={{ display:'flex',alignItems:'center',gap:6,background:'none',border:'none',cursor:'pointer',padding:0,marginBottom: showCatFilter ? 8 : 0 }}>
+              <span style={{ fontSize:'.73rem',color:'var(--muted)' }}>🗂️ 카테고리</span>
+              {selectedCat && <span style={{ fontSize:'.68rem',padding:'2px 8px',borderRadius:100,background:'var(--primary)',color:'#fff' }}>{selectedCat.emoji} {selectedCat.name}</span>}
+              <span style={{ fontSize:'.65rem',color:'var(--muted)',marginLeft:'auto',opacity:.7 }}>{showCatFilter ? '▲ 닫기' : '▼ 선택'}</span>
+            </button>
+            {showCatFilter && (
+              <div style={{ display:'flex',flexWrap:'wrap',gap:5 }}>
+                {CATS.map(cat=>(
+                  <button key={cat.slug} onClick={()=>{ setSelectedCat(selectedCat?.slug===cat.slug?null:cat); if(selectedCat?.slug!==cat.slug) setShowCatFilter(false) }}
+                    style={{ ...chip(selectedCat?.slug===cat.slug,'var(--primary)'), fontSize:'.72rem' }}>
+                    {cat.emoji} {cat.name}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
