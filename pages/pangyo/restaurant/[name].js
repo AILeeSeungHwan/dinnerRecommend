@@ -389,10 +389,9 @@ function naverMapUrl(name) {
     .replace(/ (판교점|성남점|분당점|정자점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const hasRegion = /(판교|성남|분당|정자)/.test(name)
+  const hasRegion = /(판교|성남|분당|정자|백현)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 판교'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {

@@ -421,7 +421,6 @@ function naverMapUrl(name) {
   const hasRegion = /(판교|성남|분당|정자|백현)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 판교'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 function DiceOverlay({ onDone }) {

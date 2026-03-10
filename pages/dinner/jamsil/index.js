@@ -421,7 +421,6 @@ function naverMapUrl(name) {
   const hasRegion = /(잠실|방이|송파|석촌|롯데월드|올림픽공원)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 잠실'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 function DiceOverlay({ onDone }) {

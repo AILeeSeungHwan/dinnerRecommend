@@ -421,7 +421,6 @@ function naverMapUrl(name) {
   const hasRegion = /(영통|수원|망포|광교)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 영통'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 function DiceOverlay({ onDone }) {

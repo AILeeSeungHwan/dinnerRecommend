@@ -386,13 +386,12 @@ function formatHours(h) {
 }
 function naverMapUrl(name) {
   const cleaned = name
-    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점)$/, '')
+    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const hasRegion = /(잠실|방이|송파|석촌|롯데월드)/.test(name)
+  const hasRegion = /(잠실|방이|송파|석촌|롯데월드|올림픽공원)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 잠실'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
