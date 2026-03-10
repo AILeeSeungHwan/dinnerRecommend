@@ -1,6 +1,6 @@
 const restaurants = [
   {
-    "name": "이치규 아브뉴프랑 판교점 (japanese restaurant ichigyu) いちぎゅう/ 一牛",
+    "name": "이치규 아브뉴프랑 판교점",
     "type": "일식",
     "e": "🍣",
     "rt": 5,
