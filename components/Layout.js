@@ -122,6 +122,27 @@ const THEMES = [
     vars:{ bg:'#fef0f5', surface:'#ffffff', surface2:'#fde8f0', border:'#f4c2d4', text:'#1a0812', muted:'#7a3858', primary:'#c0335a', accent:'#8b1a40' },
     isSpring: true,
   },
+  {
+    id:'rain', name:'빗소리', emoji:'🌧️', font:'clean', group:'시즌',
+    vars:{ bg:'#0e1520', surface:'#141e2e', surface2:'#1a2538', border:'#253548', text:'#c8dff0', muted:'#5a7a96', primary:'#4a9fd4', accent:'#7ecef4' },
+    gradient: 'linear-gradient(180deg, #0b1018 0%, #0e1520 40%, #0a1218 100%)',
+    headerGrad: 'linear-gradient(90deg, rgba(14,21,32,.98), rgba(10,18,24,.98))',
+    isRain: true,
+  },
+  {
+    id:'snow', name:'첫눈', emoji:'❄️', font:'clean', group:'시즌',
+    vars:{ bg:'#e8eef8', surface:'#f5f8ff', surface2:'#dce5f5', border:'#c0ceea', text:'#1a2040', muted:'#5060a0', primary:'#2255cc', accent:'#4488ff' },
+    gradient: 'linear-gradient(180deg, #c8d8ee 0%, #e8eef8 40%, #f0f4fc 100%)',
+    headerGrad: 'linear-gradient(90deg, rgba(200,216,238,.98), rgba(220,229,245,.98))',
+    isSnow: true,
+  },
+  {
+    id:'autumn', name:'단풍', emoji:'🍁', font:'serif', group:'시즌',
+    vars:{ bg:'#1a0e04', surface:'#261408', surface2:'#30180a', border:'#4a2810', text:'#ffe8c8', muted:'#b87840', primary:'#e8641a', accent:'#f5a623' },
+    gradient: 'linear-gradient(170deg, #1a0e04 0%, #221006 50%, #160a02 100%)',
+    headerGrad: 'linear-gradient(90deg, rgba(38,20,8,.98), rgba(22,10,2,.98))',
+    isAutumn: true,
+  },
   // ── 글로우 ─────────────────────────────────────────────────
   {
     id:'glow-orange', name:'글로우🔥', emoji:'🔥', font:'default', group:'글로우',
@@ -567,7 +588,7 @@ export default function Layout({ children, title, description, canonical }) {
                     boxShadow: isLightGroup ? '0 8px 24px rgba(0,0,0,.12)' : '0 8px 32px rgba(0,0,0,.5)',
                   }}>
                     {/* 그룹별 렌더 */}
-                    {['메인','그라디언트','다크','스페셜','지역','글로우'].map(group => {
+                    {['메인','시즌','그라디언트','다크','스페셜','지역','글로우'].map(group => {
                       const groupThemes = THEMES.filter(t => t.group === group)
                       return (
                         <div key={group} style={{ marginBottom:10 }}>
@@ -659,7 +680,7 @@ export default function Layout({ children, title, description, canonical }) {
       )}
       {/* 벚꽃나무 SVG — 화면 우하단 고정 */}
       {ct.isSpring && mounted && (
-        <div style={{ position:'fixed', bottom:0, right:'-30px', zIndex:0, pointerEvents:'none', userSelect:'none', opacity:.55 }}>
+        <div style={{ position:'fixed', bottom:0, right:'-30px', zIndex:0, pointerEvents:'none', userSelect:'none', opacity:.2 }}>
           <svg width="180" height="270" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg"
             style={{ animation:'branch-sway 6s ease-in-out infinite', transformOrigin:'50% 100%' }}>
             {/* 줄기 */}
@@ -727,8 +748,132 @@ export default function Layout({ children, title, description, canonical }) {
             animationDelay: `${(i * 0.65) % 7}s`,
             animationTimingFunction: 'ease-in-out',
             animationIterationCount: 'infinite',
+            opacity: 0.25 + (i % 3) * 0.05,
             background: colors[i % 4],
             transform: `rotate(${i * 17}deg)`,
+          }} />
+        )
+      })}
+
+      {/* ── 비 애니메이션 ── */}
+      {ct.isRain && mounted && (
+        <style>{`
+          @keyframes rain-fall {
+            0%   { transform: translateY(-10px) translateX(0); opacity: 0; }
+            5%   { opacity: .6; }
+            95%  { opacity: .5; }
+            100% { transform: translateY(110vh) translateX(-20px); opacity: 0; }
+          }
+          .rain-drop {
+            position: fixed; top: 0; pointer-events: none; z-index: 0;
+            width: 1.5px; border-radius: 2px;
+            background: linear-gradient(180deg, transparent, #7ecef4cc, transparent);
+            animation: rain-fall linear infinite;
+          }
+          @keyframes rain-splash {
+            0%   { transform: scale(0); opacity: .7; }
+            100% { transform: scale(1.8); opacity: 0; }
+          }
+        `}</style>
+      )}
+      {ct.isRain && mounted && Array.from({length:55}).map((_,i) => (
+        <div key={i} className="rain-drop" style={{
+          left: `${(i * 1.85) % 100}%`,
+          height: `${18 + (i % 4) * 8}px`,
+          opacity: 0.3 + (i % 3) * 0.1,
+          animationDuration: `${0.6 + (i * 0.07) % 0.5}s`,
+          animationDelay: `${(i * 0.13) % 1.2}s`,
+        }} />
+      ))}
+      {/* 빗소리 배경 overlay — 분위기 */}
+      {ct.isRain && mounted && (
+        <div style={{ position:'fixed', inset:0, zIndex:0, pointerEvents:'none',
+          background:'radial-gradient(ellipse 120% 60% at 50% 100%, rgba(74,159,212,.04) 0%, transparent 70%)',
+        }} />
+      )}
+
+      {/* ── 눈 애니메이션 ── */}
+      {ct.isSnow && mounted && (
+        <style>{`
+          @keyframes snow-fall-1 {
+            0%   { transform: translate(0,-10px) rotate(0deg); opacity:0; }
+            5%   { opacity:.85; }
+            40%  { transform: translate(12px,35vh) rotate(120deg); }
+            70%  { transform: translate(-8px,68vh) rotate(240deg); }
+            100% { transform: translate(5px,108vh) rotate(360deg); opacity:0; }
+          }
+          @keyframes snow-fall-2 {
+            0%   { transform: translate(0,-10px) rotate(20deg); opacity:0; }
+            5%   { opacity:.8; }
+            35%  { transform: translate(-15px,30vh) rotate(110deg); }
+            65%  { transform: translate(10px,62vh) rotate(230deg); }
+            100% { transform: translate(-5px,108vh) rotate(350deg); opacity:0; }
+          }
+          .snow-flake {
+            position:fixed; top:0; pointer-events:none; z-index:0;
+            border-radius:50%;
+            background: radial-gradient(circle, #fff 30%, rgba(200,220,255,.6) 100%);
+            box-shadow: 0 0 4px rgba(150,180,255,.4);
+          }
+        `}</style>
+      )}
+      {ct.isSnow && mounted && Array.from({length:35}).map((_,i) => {
+        const sz = 4 + (i % 5) * 3
+        return (
+          <div key={i} className="snow-flake" style={{
+            left: `${(i * 2.9 + 1) % 100}%`,
+            width: sz+'px', height: sz+'px',
+            opacity: 0.2 + (i % 4) * 0.07,
+            animationName: i % 2 === 0 ? 'snow-fall-1' : 'snow-fall-2',
+            animationDuration: `${5 + (i * 0.4) % 5}s`,
+            animationDelay: `${(i * 0.35) % 6}s`,
+            animationTimingFunction: 'linear',
+            animationIterationCount: 'infinite',
+          }} />
+        )
+      })}
+
+      {/* ── 단풍 애니메이션 ── */}
+      {ct.isAutumn && mounted && (
+        <style>{`
+          @keyframes leaf-fall-1 {
+            0%   { transform: translate(0,-10px) rotate(0deg);    opacity:0; }
+            5%   { opacity:.9; }
+            25%  { transform: translate(35px,22vh) rotate(90deg); }
+            50%  { transform: translate(-20px,48vh) rotate(200deg); }
+            75%  { transform: translate(25px,72vh) rotate(310deg); opacity:.7; }
+            100% { transform: translate(-8px,108vh) rotate(420deg); opacity:0; }
+          }
+          @keyframes leaf-fall-2 {
+            0%   { transform: translate(0,-10px) rotate(45deg);   opacity:0; }
+            5%   { opacity:.85; }
+            30%  { transform: translate(-30px,28vh) rotate(140deg); }
+            55%  { transform: translate(18px,54vh) rotate(255deg); }
+            80%  { transform: translate(-12px,78vh) rotate(350deg); opacity:.65; }
+            100% { transform: translate(6px,108vh) rotate(460deg); opacity:0; }
+          }
+          .autumn-leaf {
+            position:fixed; top:0; pointer-events:none; z-index:0;
+            clip-path: polygon(50% 0%, 85% 20%, 100% 50%, 80% 85%, 50% 100%, 20% 85%, 0% 50%, 15% 20%);
+          }
+        `}</style>
+      )}
+      {ct.isAutumn && mounted && Array.from({length:20}).map((_,i) => {
+        const sz = 12 + (i % 4) * 5
+        const leafColors = [
+          '#e8641a','#d44010','#f5a623','#c83208','#e87820','#ff6b1a','#b83008','#f09030'
+        ]
+        return (
+          <div key={i} className="autumn-leaf" style={{
+            left: `${(i * 5.1 + 2) % 100}%`,
+            width: sz+'px', height: sz+'px',
+            background: leafColors[i % leafColors.length],
+            opacity: 0.2 + (i % 3) * 0.07,
+            animationName: i % 2 === 0 ? 'leaf-fall-1' : 'leaf-fall-2',
+            animationDuration: `${6 + (i * 0.9) % 5}s`,
+            animationDelay: `${(i * 0.55) % 7}s`,
+            animationTimingFunction: 'ease-in-out',
+            animationIterationCount: 'infinite',
           }} />
         )
       })}

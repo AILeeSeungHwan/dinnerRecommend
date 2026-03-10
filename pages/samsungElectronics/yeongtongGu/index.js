@@ -945,24 +945,27 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
   const names = results.map(r => r.restaurantName)
 
   React.useEffect(() => {
-    // 5초 룰렛: 점점 느려지는 인터벌
-    const TOTAL = 5000
-    const start = Date.now()
-    let frame
+    // 룰렛: 시각적 정지 위치 = 결과 (step 기반)
     const picked = Math.floor(Math.random() * names.length)
+    const baseLaps = 4 + Math.floor(Math.random() * 3)   // 4~6바퀴
+    const totalSteps = baseLaps * names.length + picked   // picked에 정확히 착지
+    let step = 0
+    let frame
 
     function spin() {
-      const elapsed = Date.now() - start
-      const progress = elapsed / TOTAL
-      if (progress >= 1) {
-        setCur(picked); setFinalIdx(picked); setDone(true); return
+      step++
+      const progress = step / totalSteps
+      setCur(step % names.length)
+      if (step >= totalSteps) {
+        setFinalIdx(picked); setDone(true); return
       }
-      // 가속→감속: 초반 빠르게, 후반 느리게
-      const delay = 80 + progress * progress * 600
-      setCur(p => (p + 1) % names.length)
-      frame = setTimeout(spin, delay)
+      // ease-in-out: 초반 빠르게 → 후반 급격히 느리게
+      const ease = progress < 0.7
+        ? 70 + progress * 80
+        : 80 + Math.pow((progress - 0.7) / 0.3, 2.5) * 700
+      frame = setTimeout(spin, ease)
     }
-    frame = setTimeout(spin, 80)
+    frame = setTimeout(spin, 70)
     return () => clearTimeout(frame)
   }, [])
 
