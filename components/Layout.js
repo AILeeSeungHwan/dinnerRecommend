@@ -204,6 +204,84 @@ function QRMobileGuide() {
   )
 }
 
+
+// ── 개발자 노트 팝업 ────────────────────────────────────────────
+const OPEN_DATE = new Date('2026-03-05')
+function getOpenDayCount() {
+  const diff = Math.floor((Date.now() - OPEN_DATE.getTime()) / (1000*60*60*24)) + 1
+  return diff > 0 ? diff : 1
+}
+function DevNoteSection({ icon, title, children }) {
+  return (
+    <div>
+      <div style={{ fontWeight:700, marginBottom:5, display:'flex', gap:6, alignItems:'center' }}>
+        <span>{icon}</span><span style={{ color:'var(--text)' }}>{title}</span>
+      </div>
+      <div style={{ color:'var(--muted)', paddingLeft:26, lineHeight:1.8 }}>{children}</div>
+    </div>
+  )
+}
+function DevNote() {
+  const [open, setOpen] = React.useState(false)
+  const [dayCount, setDayCount] = React.useState(6)
+  React.useEffect(() => { setDayCount(getOpenDayCount()) }, [])
+  return (
+    <>
+      <div onClick={()=>setOpen(true)} style={{ marginTop:20, textAlign:'center', cursor:'pointer', padding:'8px 0' }}>
+        <span style={{ fontSize:'.7rem', color:'var(--muted)', borderBottom:'1px dashed var(--border)', paddingBottom:2, letterSpacing:'.03em' }}>
+          오늘 뭐 먹지? 에 관하여 · 개발자 노트
+        </span>
+      </div>
+      {open && (
+        <div onClick={e=>{ if(e.target===e.currentTarget) setOpen(false) }}
+          style={{ position:'fixed', inset:0, zIndex:9999, background:'rgba(0,0,0,.6)',
+            display:'flex', alignItems:'center', justifyContent:'center', padding:20 }}>
+          <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:18,
+            maxWidth:520, width:'100%', maxHeight:'85vh', overflowY:'auto', padding:'28px 24px', position:'relative' }}>
+            <button onClick={()=>setOpen(false)}
+              style={{ position:'absolute', top:14, right:16, background:'none', border:'none',
+                color:'var(--muted)', fontSize:'1.2rem', cursor:'pointer' }}>✕</button>
+            <div style={{ marginBottom:22 }}>
+              <div style={{ fontSize:'.7rem', color:'var(--muted)', marginBottom:6 }}>
+                🗓 오픈 {dayCount}일차 &nbsp;·&nbsp; ver 0.1
+              </div>
+              <h2 style={{ margin:0, fontSize:'1.1rem', fontWeight:800, lineHeight:1.4 }}>
+                오늘 뭐 먹지?<br/>
+                <span style={{ color:'var(--primary)' }}>만든 사람이 드리는 말씀</span>
+              </h2>
+            </div>
+            <div style={{ fontSize:'.84rem', lineHeight:1.85, color:'var(--text)', display:'flex', flexDirection:'column', gap:18 }}>
+              <DevNoteSection icon="🌱" title="지금은 ver 0.1 입니다">
+                오픈한 지 {dayCount}일밖에 안 됐어요. 아직 데이터가 얇고 추천 품질도 완성과는 거리가 있습니다.
+                시간이 쌓이면서 리뷰·메뉴·방문 패턴이 누적될수록 훨씬 정확하고 풍부한 추천을 드릴 수 있게 됩니다. 지금 이 버전은 그 시작점이에요.
+              </DevNoteSection>
+              <DevNoteSection icon="💼" title="직장인들의 점심 성지가 되길">
+                삼성역, 잠실, 판교, 영통 — 매일 점심 뭐 먹을지 고민하는 직장인들을 가장 먼저 생각하며 만들었어요.
+                &quot;오늘 뭐 먹지&quot; 한 줄로 날씨·기분·상황까지 파악해서 딱 맞는 곳을 골라주는 것, 그게 목표입니다.
+              </DevNoteSection>
+              <DevNoteSection icon="🌏" title="한국을 찾는 외국인 관광객까지">
+                &quot;비 오는 날 혼밥하기 좋은 곳&quot; 텍스트 하나로 관광지 맛집을 찾아주는 서비스로 키우고 싶습니다.
+                영어·일본어·중국어로도 검색되는 날이 오면, 서울 여행자들의 밥상 고민을 함께 덜어줄 수 있을 거라 믿어요.
+              </DevNoteSection>
+              <DevNoteSection icon="⚡" title="AI 검색이 가끔 막힐 수 있어요">
+                AI 검색 기능은 API 토큰을 수기로 충전하면서 운영 중이에요.
+                사용량이 많은 날엔 예고 없이 잠시 막힐 수 있습니다. 그럴 땐 🎲 랜덤 추천을 이용해 주세요. 양해 부탁드립니다.
+              </DevNoteSection>
+              <DevNoteSection icon="🛠" title="앞으로의 계획">
+                메뉴 가격 구축, 식당 사진 추가, 별점 반영, 지역 확대,
+                그리고 &quot;저번에 갔던 곳 제외해줘&quot; 같은 히스토리 기반 추천까지. 하나씩 천천히 만들어 나갈게요.
+              </DevNoteSection>
+              <div style={{ marginTop:4, padding:'14px 16px', background:'var(--surface2)',
+                borderRadius:10, fontSize:'.78rem', color:'var(--muted)', lineHeight:1.7, textAlign:'center' }}>
+                진정성 있게 만들고 있습니다. 부족한 부분은 시간이 채워줄 거라 믿어요. 🙏
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  )
+}
 export default function Layout({ children, title, description, canonical }) {
   const [theme,      setTheme]      = useState('light')
   const [mounted,    setMounted]    = useState(false)
@@ -651,7 +729,8 @@ export default function Layout({ children, title, description, canonical }) {
             📬 광고 및 비즈니스 문의
           </button>
         </p>
-        <p style={{ fontSize:'.72rem', opacity:.6 }}>© 2026 오늘뭐먹지. All rights reserved.</p>
+        <DevNote />
+        <p style={{ fontSize:'.72rem', opacity:.6, marginTop:16 }}>© 2026 오늘뭐먹지. All rights reserved.</p>
         {/* 숨김 어드민 링크 — 텍스트 없음, 점 하나 */}
         <a href="/admin" style={{ display:'inline-block', marginTop:16, width:6, height:6, borderRadius:'50%', background:'var(--border)', opacity:.3, textDecoration:'none' }} aria-hidden="true" />
       </footer>
