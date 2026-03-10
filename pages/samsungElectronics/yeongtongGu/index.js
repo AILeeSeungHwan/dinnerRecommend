@@ -395,6 +395,25 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
+
+function moodEmoji(m) {
+  const map = {
+    '회식': '🥂', '축하': '🎉', '데이트': '💑', '혼밥': '🙋', '가족': '👨‍👩‍👧',
+    '기분 좋음': '😄', '스트레스 받음': '😤', '피곤함': '😴', '우울함': '😔',
+    '설렘': '🥰', '신남': '🎊', '소소함': '☕', '배고픔': '🤤', '치팅데이': '🍔',
+    '혼술': '🍶', '해장': '🍜', '야식': '🌙',
+  }
+  return (map[m] || '🙂') + ' ' + m
+}
+function wxEmoji(w) {
+  const map = {
+    '맑음': '☀️', '흐림': '☁️', '비': '🌧️', '눈': '❄️',
+    '더움': '🌡️', '덥고 습함': '🥵', '쌀쌀함': '🧥', '추움': '🥶',
+    '바람': '💨', '황사': '😷',
+  }
+  return (map[w] || '🌤️') + ' ' + w
+}
+
 function naverMapUrl(name) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
@@ -746,6 +765,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
+  const [isMounted,   setIsMounted]  = useState(false)
   const excludedRef = useRef(new Set())
   const resultsRef  = useRef(null)
   const [showIdleBar, setShowIdleBar] = useState(false)
@@ -757,6 +777,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
 
   useEffect(() => {
     setUsedToday(getUsageCount())
+    setIsMounted(true)
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
     // 이스터에그: 시크릿 모드 감지
     // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
@@ -1027,14 +1048,14 @@ ${compact}
       }
 
       // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
-      const matched = recs.filter(rec => {
+      // DB에 있는 식당은 정상 처리, 없는 식당은 _notInDB 플래그로 네이버지도 링크 사용
+      const matched = recs.map(rec => {
         const found = restaurants.find(x => x.name === rec.restaurantName)
                    || restaurants.find(x => rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
-        return !!found
+        return found ? rec : { ...rec, _notInDB: true }
       })
-      if (matched.length === 0) {
-        console.error('No matched restaurants:', recs)
-        setError('AI가 목록에 없는 식당을 추천했어요 (매칭 실패)'); return
+      if (matched.every(r => r._notInDB)) {
+        console.warn('All recommendations not in DB, showing with naver map links')
       }
 
       if (data.usage) {
@@ -1076,11 +1097,11 @@ ${compact}
         <div style={{ display:'flex',justifyContent:'flex-end',marginBottom:8 }}>
           <span style={{
             fontSize:'.7rem', padding:'3px 10px', borderRadius:100,
-            background: usedToday >= DAILY_LIMIT ? '#2a1111' : usedToday >= DAILY_WARN-1 ? '#2a2000' : 'var(--surface2)',
-            border: `1px solid ${usedToday >= DAILY_LIMIT ? '#ff4444' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--border)'}`,
-            color: usedToday >= DAILY_LIMIT ? '#ff6666' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--muted)',
+            background: !isMounted ? 'var(--surface2)' : usedToday >= DAILY_LIMIT ? '#2a1111' : usedToday >= DAILY_WARN-1 ? '#2a2000' : 'var(--surface2)',
+            border: `1px solid ${!isMounted ? 'var(--border)' : usedToday >= DAILY_LIMIT ? '#ff4444' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--border)'}`,
+            color: !isMounted ? 'var(--muted)' : usedToday >= DAILY_LIMIT ? '#ff6666' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--muted)',
           }}>
-            {usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
+            {!isMounted ? '✨ AI 검색' : usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
           </span>
         </div>
         <div style={{ marginBottom:16, position:'relative' }}>
@@ -1190,9 +1211,31 @@ ${compact}
             )}
             <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',gap:12 }}>
             {results.map((rec,i)=>{
-              const r = restaurants.find(x=>x.name===rec.restaurantName)
-                     || restaurants.find(x=>rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
-              if (!r) return null
+              const r = restaurants.find(x=>x.name===rec.restaurantName) || restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
+              if (!r && !rec._notInDB) return null
+              if (rec._notInDB && !r) {
+                // DB에 없는 식당 → 네이버지도 카드
+                return (
+                  <a key={i} href={`https://map.naver.com/v5/search/${encodeURIComponent(rec.restaurantName)}`}
+                    target="_blank" rel="noopener noreferrer"
+                    style={{ textDecoration:'none', display:'block', color:'inherit' }}>
+                    <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]||'#888'}`,borderRadius:14,padding:'16px 14px',cursor:'pointer',height:'100%',opacity:.85 }}>
+                      <div style={{ display:'flex',gap:10,marginBottom:8 }}>
+                        <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
+                        <div style={{ flex:1,minWidth:0 }}>
+                          <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:4 }}>🍽 {rec.restaurantName}</div>
+                          <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
+                            <span style={{ fontSize:'.68rem',background:'rgba(255,107,53,.1)',padding:'2px 8px',borderRadius:100,border:'1px solid rgba(255,107,53,.2)',color:'#ff6b35' }}>AI 추천 · DB 외 식당</span>
+                          </div>
+                        </div>
+                      </div>
+                      {rec.reason && <div style={{ fontSize:'.82rem',color:'var(--text)',lineHeight:1.65,marginBottom:8 }}>{rec.reason}</div>}
+                      {rec.reviewHighlight && <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'8px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>💬 &ldquo;{rec.reviewHighlight}&rdquo;</div>}
+                      <div style={{ fontSize:'.75rem',padding:'5px 10px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'#38bdf8',display:'inline-block' }}>📍 네이버지도에서 확인 →</div>
+                    </div>
+                  </a>
+                )
+              }
               const medals=['🥇','🥈','🥉','🏅'], borders=['#ffd700','#c0c0c0','#cd7f32','#a0b0c0']
               return (
                 <Link key={i} href={`/samsungElectronics/yeongtongGu/restaurant/${encodeURIComponent(r.name)}`}
@@ -1221,10 +1264,10 @@ ${compact}
                     {/* 태그 섹션 */}
                     <div style={{ display:'flex',flexWrap:'wrap',gap:4,marginTop:6,marginBottom:6 }}>
                       {(r.moods||[]).slice(0,2).map(m=>(
-                        <span key={m} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(5,150,105,.1)',border:'1px solid rgba(5,150,105,.2)',color:'#059669' }}>😊 {m}</span>
+                        <span key={m} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(5,150,105,.1)',border:'1px solid rgba(5,150,105,.2)',color:'#059669' }}>{moodEmoji(m)}</span>
                       ))}
                       {(r.wx||[]).slice(0,2).map(w=>(
-                        <span key={w} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(56,189,248,.08)',border:'1px solid rgba(56,189,248,.2)',color:'#38bdf8' }}>🌤️ {w}</span>
+                        <span key={w} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(56,189,248,.08)',border:'1px solid rgba(56,189,248,.2)',color:'#38bdf8' }}>{wxEmoji(w)}</span>
                       ))}
                       {(r.tags||[]).slice(0,3).map(t=>(
                         <span key={t} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>#{t}</span>
