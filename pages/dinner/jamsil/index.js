@@ -201,26 +201,31 @@ function extractContext(q, moods, wx) {
 function detectMenu(q, moods, wx) {
   const text = `${q} ${moods.join(' ')}`.toLowerCase()
   for (const cat of CATS) {
+    if (cat.exit4Only) continue
     const allTerms = [...(cat.cats||[]), ...(cat.tags||[])].map(t => t.toLowerCase())
     if (allTerms.some(t => text.includes(t))) return cat
   }
-  // 추가 키워드 매핑
-  if (/고기|구이|갈비|삼겹|목살|한우|소고기|돼지/.test(text)) return CATS.find(c=>c.slug==='meat')
-  if (/국밥|해장|설렁|곰탕|순대국|뼈해장/.test(text))         return CATS.find(c=>c.slug==='gukbap')
-  if (/일식|스시|초밥|사시미|오마카세|돈카츠|라멘/.test(text)) return CATS.find(c=>c.slug==='japanese')
-  if (/중식|마라|양꼬치|훠궈|짬뽕|탕수육/.test(text))         return CATS.find(c=>c.slug==='chinese')
-  if (/양식|파스타|피자|스테이크|이탈리안/.test(text))         return CATS.find(c=>c.slug==='western')
-  if (/치킨|닭|맥주|야장|포차/.test(text))                    return CATS.find(c=>c.slug==='chicken')
-  if (/이자카야|하이볼|사케|술집/.test(text))                  return CATS.find(c=>c.slug==='izakaya')
-  if (/데이트|커플|연인|분위기/.test(text))                    return CATS.find(c=>c.slug==='date')
-  if (/회식|단체|모임/.test(text))                             return CATS.find(c=>c.slug==='group')
-  if (/가성비|혼밥|혼자|점심/.test(text))                      return CATS.find(c=>c.slug==='budget')
-  if (/접대|vip|임원|파인다이닝|오마카세/.test(text))          return CATS.find(c=>c.slug==='premium')
-  if (/족발|곱창|보쌈|막창/.test(text))                        return CATS.find(c=>c.slug==='special')
+  if (/해산물|횟집|생선구이|수산|어시장|물회|매운탕|꽃게|조개구이|굴밥|전복구이|낙지볶음|쭈꾸미|갈치|고등어|가자미|대구탕|아구찜/.test(text)) return {slug:'seafood', cats:['해산물'], tags:[]}
+  if (/회(?!식|의|사|원|장|고)|회덮밥|회무침|광어|우럭|참치회/.test(text))                         return {slug:'seafood', cats:['해산물','일식'], tags:[]}
+  if (/고기|구이|갈비|삼겹|목살|한우|소고기|돼지고기|불판|등심|안심/.test(text))                   return CATS.find(c=>c.slug==='meat')
+  if (/국밥|설렁탕|곰탕|순대국|해장국|뼈해장|선지국|우거지/.test(text))                          return CATS.find(c=>c.slug==='gukbap')
+  if (/라멘|우동|소바|텐동|돈부리|오야코동|일본카레|돈카츠/.test(text))                           return CATS.find(c=>c.slug==='japanese')
+  if (/마라탕|마라샹궈|훠궈|양꼬치|딤섬|탕수육|깐풍기|짜장면|짬뽕/.test(text))                   return CATS.find(c=>c.slug==='chinese')
+  if (/파스타|리조또|스테이크|그릴요리|와규|피자|이탈리안요리/.test(text))                        return CATS.find(c=>c.slug==='western')
+  if (/이자카야|하이볼|사케|야키토리|일본식술집/.test(text))                                    return CATS.find(c=>c.slug==='izakaya')
+  if (/치킨|통닭|닭강정|닭발|후라이드|양념치킨/.test(text))                                    return CATS.find(c=>c.slug==='chicken')
+  if (/야장|포차|호프|생맥주|맥주집/.test(text))                                            return CATS.find(c=>c.slug==='izakaya')
+  if (/데이트|커플|연인|로맨틱|분위기좋은/.test(text))                                        return CATS.find(c=>c.slug==='date')
+  if (/회식|단체|모임|팀회식|부서/.test(text))                                             return CATS.find(c=>c.slug==='group')
+  if (/가성비|혼밥|혼자|저렴|싸게|저가|가격착한/.test(text))                                  return CATS.find(c=>c.slug==='budget')
+  if (/접대|파인다이닝|고급식당|프라이빗룸|럭셔리/.test(text))                                  return CATS.find(c=>c.slug==='premium')
+  if (/족발|곱창|보쌈|막창|대창/.test(text))                                              return CATS.find(c=>c.slug==='special')
+  if (/해장|숙취|속풀이/.test(text))                                                    return CATS.find(c=>c.slug==='gukbap')
+  if (/오마카세|코스요리|파인다이닝|예약제식당/.test(text))                                    return CATS.find(c=>c.slug==='premium')
   return null
 }
 
-function preScore(q, moods, wx, cands, selectedCat) {
+function preScore(q, moods, wx, cands, selectedCat, mm) {
   const qt  = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   const ctx = extractContext(q, moods, wx)
 
@@ -246,6 +251,16 @@ function preScore(q, moods, wx, cands, selectedCat) {
       else                        s -= 30
     }
 
+    // ① 자연어 메뉴 매핑(mm) 기반 cat 보너스 (selectedCat 없을 때)
+    if (!selectedCat && mm) {
+      const mmCats = mm.cats || []
+      const mmSlug = mm.slug || ''
+      const rCat = r.cat || []
+      const rType = r.type || ''
+      if (mmCats.some(c => rCat.includes(c)))                  s += 55  // cat 직접 일치
+      else if (rType.split('·').some(t => mmCats.some(c=>t.includes(c)))) s += 35  // type 일치
+      else if (rType.split('·')[0] !== mmCats[0] && mmCats.length > 0)    s -= 25  // 주메뉴 불일치 패널티
+    }
     // ② VIP·접대·임원 (핵심)
     if (ctx.vipScore > 0) {
       const v = ctx.vipScore
@@ -1262,7 +1277,13 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         )
         if (base.length < 5) base = restaurants  // 풀 너무 작으면 완화
       } else if (mm) {
-        base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
+        const mmCats = mm.cats || []
+        base = base.filter(r => mmCats.some(c => (r.cat||[]).includes(c)))
+        // 필터 결과가 너무 적으면 type으로도 확장
+        if (base.length < 4) {
+          const typeBase = restaurants.filter(r => mmCats.some(c => (r.type||'').includes(c)))
+          base = [...new Map([...base,...typeBase].map(r=>[r.name,r])).values()]
+        }
       }
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
@@ -1314,29 +1335,29 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
       // top20 스코어링 후 → 매번 다른 4개 뽑기 (로테이션으로 다양성 확보)
-      const scored = preScore(ctx, moods, weather, pool, selectedCat)
+      const scored = preScore(ctx, moods, weather, pool, selectedCat, mm)
       const top20 = scored.slice(0, 20)
       // 상위 3개 고정 + 랜덤 3개 = 6개 후보 → AI가 4개 선택
-      const top6 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5)
+      const top6 = [...top20.slice(0,4), ...[...top20.slice(4)].sort(()=>Math.random()-0.5).slice(0,4)].sort(()=>Math.random()-0.5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top6.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
         const tags = (r.tags||[]).slice(0,4).join(' ')
-        return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
+        return `[${idx+1}]${r.name} | ${r.type} | ${r.priceRange||'?'}원 | ${r.hours||''}\n  카테고리:${(r.cat||[]).join('·')} 태그:${tags}${rv0?'\n'+rv0:''}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
             const prompt = [
-        '잠실 맛집 큐레이터. 후보 중 정확히 4곳 추천.',
+        '잠실 맛집 큐레이터. 아래 후보들 중에서 요청에 맞는 곳 정확히 3곳 추천.',
         '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
-        '규칙: JSON만 출력. 정확히 3개. reason은 3문장 100자이내. 검색어 그대로 복붙 금지 — 요청자의 상황·감정·의도를 파악해 자연스럽게.',
+        '규칙: JSON만 출력. 반드시 정확히 3개(rank1~3). reason은 3문장 이내, 총 80자 이내. 후보 목록 안에서만 선택. 검색의도 파악해 자연스럽게.',
         'rank1: 요청자 상황·감정에 공감하며 왜 지금 이 식당인지 감성적으로. rank2: 메뉴·가격·분위기 핵심을 실용적으로. rank3: 이 식당만의 독특한 매력을 구체적으로.',
         'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
-        '출력형식: {"recommendations":[{"rank":1,...},{"rank":2,...},{"rank":3,...},{"rank":4,...}]}'
+        '출력형식: {"recommendations":[{"rank":1,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":2,...},{"rank":3,...}]}'
       ].join('\n')
 
       const res = await fetch('/api/recommend', {
