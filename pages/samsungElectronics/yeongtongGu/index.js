@@ -1096,7 +1096,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     let base = restaurants
     // 카테고리 필터
     if (cat) {
-      else base = base.filter(r =>
+      base = base.filter(r =>
         cat.cats.some(c=>r.cat?.includes(c)) ||
         (cat.tags||[]).some(t=>r.tags?.includes(t))
       )
