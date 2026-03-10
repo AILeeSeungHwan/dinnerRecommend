@@ -1071,6 +1071,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [usedToday,  setUsedToday] = useState(0)
   const [isMounted,   setIsMounted]  = useState(false)
   const excludedRef   = useRef(new Set())
+  const skipDbCheckRef = useRef(false)  // noDataMenu 재진입 방지
   const resultsRef    = useRef(null)
   // ── 픽·룰렛 state ──
   const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
@@ -1291,8 +1292,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
 
   // ── AI 추천 (횟수 체크 포함) ──
   function handleNoDataContinue() {
+    skipDbCheckRef.current = true
     setNoDataMenu(null)
-    getRecommendations()
+    setTimeout(() => getRecommendations(), 0)  // state flush 후 실행
   }
 
   function handleRecommendClick() {
@@ -1314,7 +1316,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   function cancelFromWarn()  { setWarnCount(null); getRandom(null) }
 
   async function getRecommendations() {
-    setLoading(true); setError(null); setResults(null); setNoDataMenu(null)
+    setLoading(true); setError(null); setResults(null)
 
     try {
       const mm = detectMenu(ctx, moods, weather)
@@ -1357,7 +1359,8 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         : 99
       // DB 미보유 메뉴 감지: 구체적 메뉴 검색인데 직접 매칭 < 2개
       const isDbMissing = specificMenu && directMatchCount < 3
-      if (isDbMissing && !noDataMenu) {
+      if (isDbMissing && !skipDbCheckRef.current) {
+        skipDbCheckRef.current = false  // 다음 호출을 위해 리셋은 handleNoDataContinue에서
         setNoDataMenu(specificMenu)
         setLoading(false)
         return
@@ -1367,10 +1370,21 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         (specificMenu && directMatchCount < 3)
       )
       if (needsExternal) {
-        const extRes = await fetch('/api/web-search-recommend', {
-          method:'POST', headers:{'Content-Type':'application/json'},
-          body: JSON.stringify({ menuQuery: ctx.trim(), area: '판교', usageCount: getUsageCount() })
-        })
+        const wCtrl = new AbortController()
+        const wTimer = setTimeout(() => wCtrl.abort(), 25000)
+        let extRes
+        try {
+          extRes = await fetch('/api/web-search-recommend', {
+            method:'POST', headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({ menuQuery: ctx.trim(), area: '판교', usageCount: getUsageCount() }),
+            signal: wCtrl.signal,
+          })
+        } catch (wErr) {
+          clearTimeout(wTimer)
+          if (wErr.name === 'AbortError') { setLoading(false); setError('검색 시간이 초과됐어요 ⏱'); return }
+          throw wErr
+        }
+        clearTimeout(wTimer)
         if (extRes.ok) {
           const extData = await extRes.json()
           const extRecs = Array.isArray(extData.recommendations) ? extData.recommendations : []
@@ -1419,10 +1433,23 @@ const usageCnt = getUsageCount()
         '출력형식: {"recommendations":[{"rank":1,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":2,...},{"rank":3,...}]}'
       ].join('\n')
 
-      const res = await fetch('/api/recommend', {
-        method:'POST', headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ prompt, usageCount: usageCnt })
-      })
+      const ctrl = new AbortController()
+      const fetchTimer = setTimeout(() => ctrl.abort(), 20000)
+      let res
+      try {
+        res = await fetch('/api/recommend', {
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ prompt, usageCount: usageCnt }),
+          signal: ctrl.signal,
+        })
+      } catch (fetchErr) {
+        clearTimeout(fetchTimer)
+        if (fetchErr.name === 'AbortError') {
+          setLoading(false); setError('응답 시간이 초과됐어요. 다시 시도해주세요 ⏱'); return
+        }
+        throw fetchErr
+      }
+      clearTimeout(fetchTimer)
 
       // HTTP 오류 체크
       if (!res.ok) {

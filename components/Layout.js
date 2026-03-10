@@ -583,7 +583,7 @@ export default function Layout({ children, title, description, canonical }) {
                     boxShadow: isLightGroup ? '0 8px 24px rgba(0,0,0,.12)' : '0 8px 32px rgba(0,0,0,.5)',
                   }}>
                     {/* 그룹별 렌더 */}
-                    {['라이트','그라디언트','다크','스페셜','지역','글로우'].map(group => {
+                    {['라이트','그라디언트','다크','스페셜','지역','글로우','시즌'].map(group => {
                       const groupThemes = THEMES.filter(t => t.group === group)
                       return (
                         <div key={group} style={{ marginBottom:10 }}>
