@@ -384,20 +384,22 @@ function formatHours(h) {
   if (!h) return h
   return h.replace(/AM (\d+:\d+)/g, '$1 AM').replace(/PM (\d+:\d+)/g, '$1 PM')
 }
-function naverMapUrl(name) {
+function naverMapUrl(name, lat, lng) {
   const cleaned = name
     .replace(/ (판교점|성남점|분당점|정자점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
   const hasRegion = /(판교|성남|분당|정자|백현)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 판교'
+  if (lat && lng) return `https://map.naver.com/v5/search/${encodeURIComponent(query)}?c=${lng},${lat},15,0,0,0,dh`
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
+}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
   const slug = CAT_TO_SLUG[r.cat?.[0]] || null
   const catName = slug ? CAT_NAMES[slug] : null
-  const mapUrl = naverMapUrl(r.name)
+  const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
   const pageUrl = `https://dinner.ambitstock.com/pangyo/restaurant/${encodeURIComponent(r.name)}`
 
   // 날씨·기분 매칭
@@ -424,7 +426,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "description": metaDesc,
     "url": pageUrl,
     "servesCuisine": r.type,
-    "address": { "@type":"PostalAddress", "streetAddress":r.addr, "addressLocality":"서울특별시 강남구", "addressCountry":"KR" },
+    "address": { "@type":"PostalAddress", "streetAddress":r.addr !== 'South Korea' ? r.addr : '', "addressLocality":"경기도 성남시 분당구", "addressCountry":"KR" },
     "geo": { "@type":"GeoCoordinates", "latitude":r.lat, "longitude":r.lng },
     "aggregateRating": { "@type":"AggregateRating", "ratingValue":r.rt, "reviewCount":r.cnt, "bestRating":5, "worstRating":1 },
     "openingHours": r.hours,
@@ -436,7 +438,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@type": "FAQPage",
     "mainEntity": [
       { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours } },
-      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`서울 강남구 ${r.addr} (판교 근처)` } },
+      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`경기 성남시 ${r.addr} (판교 근처)` } },
       { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
       { "@type":"Question", "name":`${r.name} 주차 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text":'판교 인근 공영주차장 또는 코엑스 주차장을 이용하시거나 대중교통을 권장합니다.' } },
     ]
@@ -490,7 +492,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
                 {r.exit4 && <span style={{ fontSize:'.7rem', background:'#1a1a00', padding:'2px 8px', borderRadius:100, border:'1px solid #4a4a00', color:'#ffd700' }}>🚇 4번출구 근처</span>}
               </div>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 강남구 {r.addr}</p>
+              {r.addr && r.addr !== 'South Korea' && <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 경기 성남시 {r.addr}</p>}
               <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
             </div>
           </div>
@@ -516,7 +518,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           <tbody>
             {[
               ['식당 종류', r.type],
-              ['주소', `서울 강남구 ${r.addr}`],
+              ['주소', r.addr && r.addr !== 'South Korea' ? `경기 성남시 ${r.addr}` : '위치 정보 준비 중'],
               ['영업시간', r.hours],
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
               ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
@@ -674,7 +676,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 위치 & 찾아가는 법 */}
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
         <p style={pstyle}>
-          <strong>{r.name}</strong>은 서울 강남구 {r.addr}에 위치한 판교 맛집입니다.
+          <strong>{r.name}</strong>은 경기 성남시 {r.addr}에 위치한 판교 맛집입니다.
           {r.exit4
             ? ' 판교 4번출구에서 도보 3분 이내로 접근성이 매우 좋습니다.'
             : ' 판교에서 도보로 이동 가능합니다. 정확한 경로는 지도를 참고해주세요.'}
@@ -695,7 +697,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
-          [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 강남구 ${r.addr}에 위치합니다. 판교${r.exit4 ? ' 4번출구에서 도보 3분 거리' : ' 인근'}입니다.`],
+          [`${r.name} 주소(위치)는 어디인가요?`, `경기도 성남시 분당구 ${r.addr}에 위치합니다. 판교${r.exit4 ? ' 인근' : ' 인근'}입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다. 메뉴와 구성에 따라 다를 수 있습니다.` : '정확한 가격은 매장에 문의하거나 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 혼밥 가능한가요?`, r.moods?.includes('혼밥') ? '네, 혼밥하기 좋은 분위기입니다. 혼자 방문해도 전혀 어색하지 않아요.' : '매장 좌석 구성에 따라 다르니 방문 전 확인을 권장합니다.'],
         ].map(([q, a], i) => (
