@@ -1281,13 +1281,15 @@ const usageCnt = getUsageCount()
 
       // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
       // DB에 있는 식당은 정상 처리, 없는 식당은 _notInDB 플래그로 네이버지도 링크 사용
-      const matched = recs.map(rec => {
-        const found = restaurants.find(x => x.name === rec.restaurantName)
-                   || restaurants.find(x => rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
-        return found ? rec : { ...rec, _notInDB: true }
-      })
-      if (matched.every(r => r._notInDB)) {
-        console.warn('All recommendations not in DB, showing with naver map links')
+      const matched = recs
+        .filter(rec => rec.restaurantName && rec.restaurantName !== 'undefined')
+        .map(rec => {
+          const found = restaurants.find(x => x.name === rec.restaurantName)
+                     || restaurants.find(x => rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
+          return found ? rec : { ...rec, _notInDB: true }
+        })
+      if (matched.length === 0) {
+        setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.'); return
       }
 
       if (data.usage) {

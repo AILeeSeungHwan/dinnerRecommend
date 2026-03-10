@@ -587,10 +587,13 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       setLoading(false)
       const recs=Array.isArray(data.recommendations)?data.recommendations:[]
       if(recs.length===0){setError(data.error||'추천 결과가 비어있어요');return}
-      const matched=recs.map(rec=>{
-        const found=restaurants.find(x=>x.name===rec.restaurantName)||restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
-        return found ? rec : { ...rec, _notInDB: true }
-      })
+      const matched=recs
+        .filter(rec=>rec.restaurantName && rec.restaurantName!=='undefined')
+        .map(rec=>{
+          const found=restaurants.find(x=>x.name===rec.restaurantName)||restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
+          return found ? rec : { ...rec, _notInDB: true }
+        })
+      if(matched.length===0){setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.');return}
       if(data.usage){window.dispatchEvent(new CustomEvent('token-used',{detail:calcCost(data.usage.input_tokens||0,data.usage.output_tokens||0)}))}
       const newCount=incrementUsage()
       setUsedToday(newCount)

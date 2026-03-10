@@ -83,10 +83,17 @@ export default async function handler(req, res) {
       return res.status(502).json({ error: 'recommendations 배열이 비어있어요' })
     }
 
-    const recs = parsed.recommendations.map(r => ({
-      ...r,
-      reviewHighlight: r.reviewHighlight || r.highlight || ''
-    }))
+    const recs = parsed.recommendations
+      .map(r => ({
+        ...r,
+        // 다양한 키명 호환 (restaurantName, name, restaurant_name 등)
+        restaurantName: r.restaurantName || r.name || r.restaurant_name || r.restaurant || '',
+        reviewHighlight: r.reviewHighlight || r.highlight || r.review_highlight || ''
+      }))
+      .filter(r => r.restaurantName && r.restaurantName.trim() !== '' && r.restaurantName !== 'undefined')
+    if (recs.length === 0) {
+      return res.status(502).json({ error: 'restaurantName 필드가 없는 응답' })
+    }
     return res.status(200).json({ recommendations: recs, usage: data.usage || null })
 
   } catch (err) {
