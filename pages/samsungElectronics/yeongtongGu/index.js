@@ -748,6 +748,12 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [usedToday,  setUsedToday] = useState(0)
   const excludedRef = useRef(new Set())
   const resultsRef  = useRef(null)
+  const [showIdleBar, setShowIdleBar] = useState(false)
+  const [idleCount,   setIdleCount]   = useState(30)
+  const [idlePaused,  setIdlePaused]  = useState(false)
+  const idleTimerRef  = useRef(null)
+  const idleBarRef    = useRef(null)
+  const idlePausedRef = useRef(false)
 
   useEffect(() => {
     setUsedToday(getUsageCount())
@@ -790,6 +796,50 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     } catch(e) {}
     return () => { clearInterval(t); if (easterTimer) clearTimeout(easterTimer) }
   }, [])
+
+
+  function startIdleCountdown() {
+    idlePausedRef.current = false
+    setIdlePaused(false)
+    idleTimerRef.current = setInterval(() => {
+      if (idlePausedRef.current) return
+      setIdleCount(prev => {
+        if (prev <= 1) {
+          clearInterval(idleTimerRef.current)
+          setShowIdleBar(false)
+          setShowRoulette(true)
+          return 30
+        }
+        return prev - 1
+      })
+    }, 1000)
+  }
+
+  useEffect(() => {
+    if (idleTimerRef.current) { clearInterval(idleTimerRef.current); clearTimeout(idleBarRef.current) }
+    if (!results || showRoulette) return
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      startIdleCountdown()
+    }, 3000)
+    return () => {
+      if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+      if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    }
+  }, [results])
+
+  function resetIdle() {
+    if (!results || showRoulette) return
+    if (showIdleBar) return
+    if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+    if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      startIdleCountdown()
+    }, 3000)
+  }
 
   useEffect(() => {
     if (!pendingCat) return
@@ -848,7 +898,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         : restaurants
     }
     const pool = filterExcluded(base)
-    const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 3)
+    const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 4)
     const filterDesc = [cat?.name, weather, ...moods].filter(Boolean)
     const usedTpl = []
     const res = picks.map((r,i) => {
@@ -916,11 +966,8 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // top20 스코어링 → 매번 다른 6개 (top3 고정 + 랜덤3)
       const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
-      const fixed2 = top20.slice(0, 2)
-      const rest   = top20.slice(2)
-      const rand2  = [...rest].sort(()=>Math.random()-0.5).slice(0,2)
-      const top4   = [...fixed2, ...rand2].sort(()=>Math.random()-0.5)
-      const compact = top4.map(r => {
+      const top6 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5)
+      const compact = top6.map(r => {
         const rvSnippet = (r.rv || []).slice(0, 2)
           .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 50))
           .join(' / ')
@@ -1000,6 +1047,7 @@ ${compact}
       setUsedToday(newCount)
       markShown(matched)
       setResults(matched)
+      setShowIdleBar(false); setIdleCount(30)
       scrollTo()
     } catch (err) {
       console.error('getRecommendations error:', err)
@@ -1101,7 +1149,7 @@ ${compact}
         )}
 
         {results && (
-          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}>
+          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }} onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
             {results[0]?._random && (
               <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(99,179,237,.07)',border:'1px solid rgba(99,179,237,.2)',borderRadius:10,textAlign:'center' }}>
                 {usedToday >= DAILY_LIMIT
@@ -1109,6 +1157,35 @@ ${compact}
                       <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>대신 랜덤 추천으로 보여드려요 — 의외로 딱 맞을 수도 있어요 😄{selectedCat ? ` · ${selectedCat.emoji} ${selectedCat.name}` : ''}</div></>
                   : <div style={{ fontSize:'.74rem',color:'var(--muted)' }}>🎲 랜덤 추천 결과{selectedCat ? ` — ${selectedCat.emoji} ${selectedCat.name}` : ''}</div>
                 }
+              </div>
+            )}
+            {showIdleBar && !showRoulette && (
+              <div style={{ marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10 }}>
+                <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6 }}>
+                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>
+                    {idlePaused ? `🎰 ${idleCount}초에서 멈춤` : `🎰 ${idleCount}초 후 대신 골라드릴게요`}
+                  </span>
+                  {idlePaused ? (
+                    <button onClick={()=>{ idlePausedRef.current=false; setIdlePaused(false); startIdleCountdown() }}
+                      style={{ fontSize:'.7rem',color:'var(--primary)',background:'rgba(255,107,53,.15)',border:'1px solid rgba(255,107,53,.3)',borderRadius:6,padding:'3px 10px',cursor:'pointer',fontWeight:700 }}>
+                      ▶ 카운트다운 시작
+                    </button>
+                  ) : (
+                    <button onClick={()=>{ idlePausedRef.current=true; setIdlePaused(true); clearInterval(idleTimerRef.current) }}
+                      style={{ fontSize:'.7rem',color:'var(--muted)',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:6,padding:'3px 10px',cursor:'pointer' }}>
+                      ✋ 괜찮아요
+                    </button>
+                  )}
+                </div>
+                <div style={{ height:4,borderRadius:100,background:'var(--border)',overflow:'hidden' }}>
+                  <div style={{ height:'100%',borderRadius:100,background:idlePaused?'var(--muted)':'var(--primary)',
+                    width:`${(idleCount/30)*100}%`,transition:idlePaused?'none':'width 1s linear' }} />
+                </div>
+                <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center' }}>
+                  고민된다면 룰렛에 맡겨요 —{' '}
+                  <button onClick={()=>{ setShowIdleBar(false); if(idleTimerRef.current) clearInterval(idleTimerRef.current); setShowRoulette(true) }}
+                    style={{background:'none',border:'none',color:'var(--primary)',fontWeight:700,cursor:'pointer',fontSize:'.7rem'}}>지금 돌리기 →</button>
+                </div>
               </div>
             )}
             <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',gap:12 }}>

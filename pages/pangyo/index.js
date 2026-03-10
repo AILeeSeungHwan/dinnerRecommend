@@ -419,6 +419,12 @@ function AiApp({pendingCat,onPendingCatUsed}) {
   const [hintIdx,setHintIdx]=useState(0)
   const [usedToday,setUsedToday]=useState(0)
   const excludedRef=useRef(new Set())
+  const [showIdleBar, setShowIdleBar] = useState(false)
+  const [idleCount,   setIdleCount]   = useState(30)
+  const [idlePaused,  setIdlePaused]  = useState(false)
+  const idleTimerRef  = useRef(null)
+  const idleBarRef    = useRef(null)
+  const idlePausedRef = useRef(false)
   const resultsRef=useRef(null)
 
   useEffect(()=>{
@@ -446,6 +452,49 @@ function AiApp({pendingCat,onPendingCatUsed}) {
     setTimeout(()=>{ getRandom(pendingCat); if(onPendingCatUsed) onPendingCatUsed() },80)
   },[pendingCat])
 
+
+  function startIdleCountdown() {
+    idlePausedRef.current = false
+    setIdlePaused(false)
+    idleTimerRef.current = setInterval(() => {
+      if (idlePausedRef.current) return
+      setIdleCount(prev => {
+        if (prev <= 1) {
+          clearInterval(idleTimerRef.current)
+          setShowIdleBar(false)
+          return 30
+        }
+        return prev - 1
+      })
+    }, 1000)
+  }
+
+  useEffect(() => {
+    if (idleTimerRef.current) { clearInterval(idleTimerRef.current); clearTimeout(idleBarRef.current) }
+    if (!results) return
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      startIdleCountdown()
+    }, 3000)
+    return () => {
+      if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+      if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    }
+  }, [results])
+
+  function resetIdle() {
+    if (!results) return
+    if (showIdleBar) return
+    if (idleTimerRef.current) clearInterval(idleTimerRef.current)
+    if (idleBarRef.current) clearTimeout(idleBarRef.current)
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
+    idleBarRef.current = setTimeout(() => {
+      setShowIdleBar(true)
+      startIdleCountdown()
+    }, 3000)
+  }
+
   function scrollTo() {
     setTimeout(()=>{ if(!resultsRef.current) return; const el=resultsRef.current; const top=el.getBoundingClientRect().top+window.pageYOffset-16; window.scrollTo({top,behavior:'smooth'}) },150)
   }
@@ -460,7 +509,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
     if(moods.length>0) base=base.filter(r=>moods.some(m=>r.moods?.includes(m)))
     if(base.length<5){ base=cat?restaurants.filter(r=>(cat.cats.length>0&&cat.cats.some(c=>r.cat?.includes(c)))||(cat.tags||[]).some(t=>r.tags?.some(rt=>rt.includes(t)))):restaurants }
     const pool=filterExcluded(base)
-    const picks=[...pool].sort(()=>Math.random()-0.5).slice(0,3)
+    const picks=[...pool].sort(()=>Math.random()-0.5).slice(0,4)
     const usedTpl=[]
     const res=picks.map((r,i)=>{ const{reason,highlight,templateIdx}=buildRandomReason(r,i,usedTpl); usedTpl.push(templateIdx); return {rank:i+1,restaurantName:r.name,reason,reviewHighlight:highlight,matchScore:Math.floor(Math.random()*15)+80,_random:true} })
     setPendingRnd(res); setDicing(true)
@@ -499,11 +548,8 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       const pool=filterExcluded(base)
       const scored=preScore(ctx,moods,weather,pool,selectedCat)
       const top20=scored.slice(0,20)
-      const fixed2=top20.slice(0,2)
-      const rest=top20.slice(2)
-      const rand2=[...rest].sort(()=>Math.random()-0.5).slice(0,2)
-      const top4=[...fixed2,...rand2].sort(()=>Math.random()-0.5)
-      const compact=top4.map(r=>{
+      const top6=[...top20.slice(0,3),...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5)
+      const compact=top6.map(r=>{
         const rvSnippet=(r.rv||[]).slice(0,2).map(v=>v.replace(/^\[.*?\u2605\]\s*/,'').replace(/"/g,'\u2019').slice(0,50)).join(' / ')
         const moodStr=(r.moods||[]).slice(0,3).join('·')
         const tagsStr=(r.tags||[]).slice(0,5).join('/')
@@ -512,7 +558,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       const ctx_full=(ctx||'').slice(0, 40)
       const mood_str=moods.join(', ')
       const filter_str=[weather&&`날씨:${weather}`,mood_str&&`기분:${mood_str}`,selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
-      const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~3문장","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+      const prompt=`당신은 판교 테크노밸리·판교역 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 4곳을 후보 목록에서 골라 추천해주세요.\n\n[사용자 요청]\n${ctx_full?`\"${ctx_full}\"`:'특별한 요청 없음 (상황에 맞는 추천)'}\n${filter_str?`조건: ${filter_str}`:''}\n\n[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]\n${compact}\n\n[추천 작성 규칙 — 반드시 준수]\n- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)\n- reason: 반드시 3문장, 아래 순서대로 작성\n  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어를 그대로 반복 금지. (예: 요청이 '최고최고 맛집'이면 → '최고의 맛을 찾는 당신을 위해', '상무님 모시기'이면 → '격식 있는 자리에서 어르신을 모실 때'처럼 상황으로 승화)\n  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 — 평점·가격 나열 금지, 구체적 특색 위주\n  ③ 셋째 문장: 실제 리뷰 손님 반응을 자연스럽게 녹여서 (리뷰 원문 직접 인용 가능, 작은따옴표 사용)\n- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (20자 이내, 평점·가격 금지)\n- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지\n- reason/reviewHighlight 안에 큰따옴표(\") 절대 사용 금지 — 작은따옴표(\') 또는 「」 사용\n- JSON만 출력, 마크다운·설명 없음\n\n{"recommendations":[{"rank":1,...},{"rank":2,...},{"rank":3,...},{"rank":4,...}]}`
 
       const res=await fetch('/api/recommend',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt,usageCount:getUsageCount()})})
       if(!res.ok){const errData=await res.json().catch(()=>({}));const msg=errData.detail||errData.error||`서버 오류 (${res.status})`;setLoading(false);if(msg==='##QUOTA_EXCEEDED##'){setShowQuota(true);return};setError(msg);return}
@@ -578,6 +624,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
         </div>
         {excludedRef.current.size>0&&(<div style={{marginTop:8,fontSize:'.68rem',color:'var(--muted)',textAlign:'center'}}>지금까지 {excludedRef.current.size}개 식당 추천됨{excludedRef.current.size>=EXCLUDE_RESET-5?' · 곧 처음부터 다시 추천':''}</div>)}
         {error&&(<div style={{marginTop:14,padding:14,background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:10,fontSize:'.82rem'}}><div style={{color:'#fc8181',fontWeight:700,marginBottom:4}}>⚠️ 추천을 불러오지 못했어요</div><div style={{color:'var(--muted)',fontSize:'.76rem',marginBottom:8}}>{error}</div><div style={{color:'var(--muted)',fontSize:'.74rem'}}>잠시 후 다시 시도하거나 🎲 랜덤 추천을 이용해주세요</div></div>)}
+        <div onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
         {results&&(
           <div ref={resultsRef} style={{marginTop:24,maxWidth:'100%',overflowX:'hidden'}}>
             {results[0]?._random&&(
@@ -586,6 +633,33 @@ function AiApp({pendingCat,onPendingCatUsed}) {
                   ?<><div style={{fontSize:'.8rem',fontWeight:700,color:'var(--primary)',marginBottom:2}}>🎲 오늘의 AI 기회를 모두 소진했어요</div><div style={{fontSize:'.72rem',color:'var(--muted)'}}>대신 랜덤 추천으로 보여드려요 — 의외로 딱 맞을 수도 있어요 😄{selectedCat?` · ${selectedCat.emoji} ${selectedCat.name}`:''}</div></>
                   :<div style={{fontSize:'.74rem',color:'var(--muted)'}}>🎲 랜덤 추천 결과{selectedCat?` — ${selectedCat.emoji} ${selectedCat.name}`:''}</div>
                 }
+              </div>
+            )}
+            {showIdleBar && (
+              <div style={{marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10}}>
+                <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6}}>
+                  <span style={{fontSize:'.78rem',fontWeight:700,color:'var(--primary)'}}>
+                    {idlePaused ? `🎰 ${idleCount}초에서 멈춤` : `🎰 ${idleCount}초 후 대신 골라드릴게요`}
+                  </span>
+                  {idlePaused ? (
+                    <button onClick={()=>{ idlePausedRef.current=false; setIdlePaused(false); startIdleCountdown() }}
+                      style={{fontSize:'.7rem',color:'var(--primary)',background:'rgba(255,107,53,.15)',border:'1px solid rgba(255,107,53,.3)',borderRadius:6,padding:'3px 10px',cursor:'pointer',fontWeight:700}}>
+                      ▶ 카운트다운 시작
+                    </button>
+                  ) : (
+                    <button onClick={()=>{ idlePausedRef.current=true; setIdlePaused(true); clearInterval(idleTimerRef.current) }}
+                      style={{fontSize:'.7rem',color:'var(--muted)',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:6,padding:'3px 10px',cursor:'pointer'}}>
+                      ✋ 괜찮아요
+                    </button>
+                  )}
+                </div>
+                <div style={{height:4,borderRadius:100,background:'var(--border)',overflow:'hidden'}}>
+                  <div style={{height:'100%',borderRadius:100,background:idlePaused?'var(--muted)':'var(--primary)',
+                    width:`${(idleCount/30)*100}%`,transition:idlePaused?'none':'width 1s linear'}} />
+                </div>
+                <div style={{fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center'}}>
+                  잠깐, 어떤 조건으로 다시 검색해볼까요?
+                </div>
               </div>
             )}
             <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',gap:12}}>
@@ -639,6 +713,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
             </div>
           </div>
         )}
+        </div>
       </div>
     </>
   )

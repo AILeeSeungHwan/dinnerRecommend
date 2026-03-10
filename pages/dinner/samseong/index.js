@@ -1097,7 +1097,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         : (exit4Only ? restaurants.filter(r=>r.exit4) : restaurants)
     }
     const pool = filterExcluded(base)
-    const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 3)
+    const picks = [...pool].sort(() => Math.random()-0.5).slice(0, 4)
     const filterDesc = [cat?.name, weather, ...moods, (!cat&&exit4Only)?'4번출구':''].filter(Boolean)
     const usedTpl = []
     const res = picks.map((r,i) => {
@@ -1210,13 +1210,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // top20 스코어링 후 → 매번 다른 4개 뽑기 (로테이션으로 다양성 확보)
       const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
-      // 상위 2개 고정(최고점) + 나머지 풀에서 랜덤 2개 → 총 4개
-      const fixed2 = top20.slice(0, 2)
-      const rest = top20.slice(2)
-      const rand2 = [...rest].sort(()=>Math.random()-0.5).slice(0,2)
-      const top4 = [...fixed2, ...rand2].sort(()=>Math.random()-0.5)
+      // 상위 3개 고정 + 랜덤 3개 = 6개 후보 → AI가 4개 선택
+      const top6 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
-      const compact = top4.map((r, idx) => {
+      const compact = top6.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
         const tags = (r.tags||[]).slice(0,4).join(' ')
         return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
@@ -1226,14 +1223,14 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
             const prompt = [
-        '삼성역 맛집 큐레이터. 후보 중 정확히 3곳 추천.',
+        '삼성역 맛집 큐레이터. 후보 중 정확히 4곳 추천.',
         '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
         '규칙: JSON만 출력. 정확히 3개. reason은 2문장 60자이내. 검색어 그대로 복붙 금지 — 의도를 파악해 자연스러운 표현으로.',
         'rank1: 요청자 상황·감정에 공감하는 감성적 문체. rank2: 메뉴·가격·위치 중심 실용적 문체. rank3: 이 식당만의 독특한 매력 부각.',
         'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
-        '출력형식: {"recommendations":[{"rank":1,"restaurantName":"후보이름","reason":"2문장","highlight":"10자"},{"rank":2,...},{"rank":3,...}]}'
+        '출력형식: {"recommendations":[{"rank":1,...},{"rank":2,...},{"rank":3,...},{"rank":4,...}]}'
       ].join('\n')
 
       const res = await fetch('/api/recommend', {
