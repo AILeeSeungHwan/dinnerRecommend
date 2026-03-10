@@ -640,35 +640,39 @@ export default function Layout({ children, title, description, canonical }) {
       {/* ── 봄 벚꽃 배경 나무 + 꽃잎 애니메이션 ── */}
       {ct.isSpring && mounted && (
         <style>{`
-          @keyframes sakura-drift-1 {
+          /* 타입 A: 살랑살랑 직선 낙하 (좌우 흔들림만, 회전 거의 없음) */
+          @keyframes sakura-sway {
             0%   { transform: translate(0px, -20px) rotate(0deg);   opacity: 0; }
-            5%   { opacity: .9; }
-            25%  { transform: translate(28px, 22vh) rotate(95deg); }
-            50%  { transform: translate(-18px, 48vh) rotate(200deg); }
-            75%  { transform: translate(22px, 72vh) rotate(295deg); opacity: .65; }
-            100% { transform: translate(-10px, 108vh) rotate(400deg); opacity: 0; }
+            8%   { opacity: .8; }
+            25%  { transform: translate(12px, 24vh)  rotate(8deg); }
+            50%  { transform: translate(-10px, 50vh) rotate(-5deg); }
+            75%  { transform: translate(14px, 75vh)  rotate(10deg); opacity: .65; }
+            100% { transform: translate(-6px, 108vh) rotate(-3deg); opacity: 0; }
           }
-          @keyframes sakura-drift-2 {
-            0%   { transform: translate(0px, -20px) rotate(30deg);  opacity: 0; }
-            5%   { opacity: .85; }
-            30%  { transform: translate(-32px, 28vh) rotate(130deg); }
-            55%  { transform: translate(20px, 52vh) rotate(240deg); }
-            80%  { transform: translate(-14px, 78vh) rotate(330deg); opacity: .6; }
-            100% { transform: translate(8px, 108vh) rotate(450deg); opacity: 0; }
+          /* 타입 B: 느린 큰 흔들림 + 반바퀴 회전 */
+          @keyframes sakura-tumble {
+            0%   { transform: translate(0px, -20px) rotate(0deg);    opacity: 0; }
+            8%   { opacity: .75; }
+            30%  { transform: translate(-38px, 26vh) rotate(80deg); }
+            60%  { transform: translate(28px,  56vh) rotate(160deg); }
+            85%  { transform: translate(-18px, 82vh) rotate(200deg); opacity: .55; }
+            100% { transform: translate(8px, 108vh)  rotate(220deg); opacity: 0; }
           }
-          @keyframes sakura-drift-3 {
-            0%   { transform: translate(0px, -20px) rotate(60deg);  opacity: 0; }
-            5%   { opacity: .8; }
-            20%  { transform: translate(18px, 18vh) rotate(110deg); }
-            45%  { transform: translate(-24px, 42vh) rotate(210deg); }
-            70%  { transform: translate(16px, 68vh) rotate(320deg); opacity: .7; }
-            100% { transform: translate(-6px, 108vh) rotate(430deg); opacity: 0; }
+          /* 타입 C: 한 바퀴 돌면서 나선형 낙하 */
+          @keyframes sakura-spin {
+            0%   { transform: translate(0px, -20px) rotate(0deg);    opacity: 0; }
+            8%   { opacity: .85; }
+            20%  { transform: translate(32px, 20vh)  rotate(120deg); }
+            40%  { transform: translate(-22px, 40vh) rotate(240deg); }
+            60%  { transform: translate(26px, 60vh)  rotate(360deg); }
+            80%  { transform: translate(-14px, 80vh) rotate(420deg); opacity: .6; }
+            100% { transform: translate(6px, 108vh)  rotate(500deg); opacity: 0; }
           }
           .sakura-petal {
             position: fixed;
             top: 0;
             border-radius: 80% 0 80% 0;
-            box-shadow: 0 2px 6px rgba(255,100,150,.2);
+            box-shadow: 0 2px 6px rgba(255,100,150,.15);
             pointer-events: none;
             z-index: 0;
           }
@@ -730,8 +734,10 @@ export default function Layout({ children, title, description, canonical }) {
         </div>
       )}
       {/* 흩날리는 꽃잎 */}
-      {ct.isSpring && mounted && Array.from({length:22}).map((_,i) => {
-        const anim = ['sakura-drift-1','sakura-drift-2','sakura-drift-3'][i % 3]
+      {ct.isSpring && mounted && Array.from({length:24}).map((_,i) => {
+        // 0~7: sway(직선 살랑), 8~15: tumble(반바퀴), 16~23: spin(한바퀴)
+        const animMap = ['sakura-sway','sakura-tumble','sakura-spin']
+        const anim = animMap[Math.floor(i / 8)]
         const sz = 9 + (i % 4) * 3
         const colors = [
           'linear-gradient(135deg, #ffd6e7, #ffb3cc)',
@@ -741,14 +747,14 @@ export default function Layout({ children, title, description, canonical }) {
         ]
         return (
           <div key={i} className="sakura-petal" style={{
-            left: `${(i * 4.7 + 1) % 100}%`,
+            left: `${(i * 4.2 + 1) % 100}%`,
             width: sz+'px', height: sz+'px',
             animationName: anim,
             animationDuration: `${7 + (i * 1.1) % 6}s`,
-            animationDelay: `${(i * 0.65) % 7}s`,
-            animationTimingFunction: 'ease-in-out',
+            animationDelay: `${(i * 0.65) % 8}s`,
+            animationTimingFunction: anim === 'sakura-sway' ? 'ease-in-out' : 'linear',
             animationIterationCount: 'infinite',
-            opacity: 0.25 + (i % 3) * 0.05,
+            opacity: 0.4 + (i % 4) * 0.05,
             background: colors[i % 4],
             transform: `rotate(${i * 17}deg)`,
           }} />

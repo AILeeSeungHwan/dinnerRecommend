@@ -1430,8 +1430,8 @@ const usageCnt = getUsageCount()
         '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
-        '규칙: JSON만 출력. 반드시 정확히 3개(rank1~3). reason은 3문장 이내, 총 80자 이내. 후보 목록 안에서만 선택. 검색의도 파악해 자연스럽게.',
-        'rank1: 요청자 상황·감정에 공감하며 왜 지금 이 식당인지 감성적으로. rank2: 메뉴·가격·분위기 핵심을 실용적으로. rank3: 이 식당만의 독특한 매력을 구체적으로.',
+        '규칙: JSON만 출력. 반드시 정확히 3개(rank1~3). reason은 3문장, 총 120~150자. 후보 목록에서만 선택. 후보 없을 때 연관 메뉴·분위기 기준으로 대체. 검색의도 공감해서 자연스럽게.',
+        'rank1: 요청자 상황·감정에 공감하며 왜 지금 이 식당인지 감성있게 (2~3문장). rank2: 메뉴·가격·분위기 핵심을 구체적 수치·특징과 함께 실용적으로 (2~3문장). rank3: 이 식당만의 독특한 매력·히든메뉴·분위기를 생생하게 (2~3문장).',
         'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
         '출력형식: {"recommendations":[{"rank":1,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":2,...},{"rank":3,...}]}'
       ].join('\n')
@@ -1461,6 +1461,12 @@ const usageCnt = getUsageCount()
         const msg = errData.detail || errData.error || `서버 오류 (${res.status})`
         setLoading(false)
         if (msg === '##QUOTA_EXCEEDED##') { setLoading(false); setShowQuota(true); return }
+        // AI가 후보에 없는 메뉴라고 응답 → NoDataModal 전환
+        if (msg.includes('JSON 블록 없음') && (specificMenu || ctx)) {
+          skipDbCheckRef.current = true
+          setNoDataMenu(specificMenu || ctx.slice(0, 10))
+          setLoading(false); return
+        }
         setLoading(false); setError(msg); return
       }
 
