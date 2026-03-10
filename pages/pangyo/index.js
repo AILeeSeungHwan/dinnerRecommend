@@ -235,6 +235,8 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
     const blob = [r.name, r.type,
       ...(r.tags||[]), ...(r.scene||[]), ...(r.moods||[]), ...(r.wx||[]), ...(r.cat||[])
     ].join(' ').toLowerCase()
+    // 쿼리 토큰 분리: 조사·불용어 제거 후 의미 단위 추출
+    const qtTokens = qt.replace(/맛집|추천|좀|으로|에서|이나|이랑|이랑|하게|해줘|해봐|싶어|먹고|갈꺼|갈게|좋은|기가막힌|완전|진짜|정말|너무|꺼야|거야|어때|어디|부탁|인데|이야|노포|감성|갈꺼야/g,' ').replace(/\s+/g,' ').split(/\s+/).filter(w=>w.length>1)
 
     const priceAvg = (() => {
       if (!r.priceRange) return 20000
@@ -243,14 +245,13 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
     })()
 
     // ① 카테고리 선택 최우선
-    if (selectedCat) {
+    if (selectedCat && !selectedCat.exit4Only) {
       const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
       const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
       if (catMatch)               s += 60
       else if (tagMatch)          s += 30
       else                        s -= 30
     }
-
     // ① 자연어 메뉴 매핑(mm) 기반 cat 보너스 (selectedCat 없을 때)
     if (!selectedCat && mm) {
       const mmCats = mm.cats || []
@@ -261,6 +262,7 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       else if (rType.split('·').some(t => mmCats.some(c=>t.includes(c)))) s += 35  // type 일치
       else if (rType.split('·')[0] !== mmCats[0] && mmCats.length > 0)    s -= 25  // 주메뉴 불일치 패널티
     }
+
     // ② VIP·접대·임원 (핵심)
     if (ctx.vipScore > 0) {
       const v = ctx.vipScore
@@ -299,10 +301,21 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
     moods.forEach(m => { if (blob.includes(m.toLowerCase())) s += 10 })
     if (wx && blob.includes(wx)) s += 8
 
-    // ⑦ 태그·씬 텍스트 매칭
-    ;(r.tags||[]).forEach(t   => { if (qt.includes(t.toLowerCase()))   s += 15 })
-    ;(r.scene||[]).forEach(sc => { if (qt.includes(sc.toLowerCase()))  s += 12 })
-    qt.split(/\s+/).filter(w => w.length > 1).forEach(w => { if (blob.includes(w)) s += 5 })
+    // ⑦ 태그·씬 텍스트 매칭 (qtTokens 기반으로 개선)
+    ;(r.tags||[]).forEach(t => {
+      const tl = t.toLowerCase()
+      if (qt.includes(tl) || qtTokens.some(w => tl.includes(w))) s += 15
+    })
+    ;(r.scene||[]).forEach(sc => {
+      const scl = sc.toLowerCase()
+      if (qt.includes(scl) || qtTokens.some(w => scl.includes(w))) s += 12
+    })
+    qtTokens.forEach(w => { if (blob.includes(w)) s += 8 })
+    // cat 직접 텍스트 매칭 추가
+    ;(r.cat||[]).forEach(c => {
+      const cl = c.toLowerCase()
+      if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
+    })
 
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
@@ -1371,8 +1384,8 @@ const usageCnt = getUsageCount()
         console.error('API HTTP error', res.status, errData)
         const msg = errData.detail || errData.error || `서버 오류 (${res.status})`
         setLoading(false)
-        if (msg === '##QUOTA_EXCEEDED##') { setShowQuota(true); return }
-        setError(msg); return
+        if (msg === '##QUOTA_EXCEEDED##') { setLoading(false); setShowQuota(true); return }
+        setLoading(false); setError(msg); return
       }
 
       const data = await res.json()
@@ -1382,7 +1395,7 @@ const usageCnt = getUsageCount()
       const recs = Array.isArray(data.recommendations) ? data.recommendations : []
       if (recs.length === 0) {
         console.error('Empty recommendations:', data)
-        setError(data.error || '추천 결과가 비어있어요'); return
+        setLoading(false); setError(data.error || '추천 결과가 비어있어요'); return
       }
 
       // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
@@ -1395,7 +1408,7 @@ const usageCnt = getUsageCount()
           return found ? rec : { ...rec, _notInDB: true }
         })
       if (matched.length === 0) {
-        setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.'); return
+        setLoading(false); setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.'); return
       }
 
       if (data.usage) {

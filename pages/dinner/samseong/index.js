@@ -237,7 +237,7 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       ...(r.tags||[]), ...(r.scene||[]), ...(r.moods||[]), ...(r.wx||[]), ...(r.cat||[])
     ].join(' ').toLowerCase()
     // 쿼리 토큰 분리: 조사·불용어 제거 후 의미 단위 추출
-    const qtTokens = qt.replace(/맛집|추천|좀|이|가|은|는|을|를|의|에서|으로|로|하게|해줘|싶어|먹고|갈|좋은|기가막힌|완전|진짜|정말|너무/g,' ').split(/\s+/).filter(w=>w.length>1)
+    const qtTokens = qt.replace(/맛집|추천|좀|으로|에서|이나|이랑|이랑|하게|해줘|해봐|싶어|먹고|갈꺼|갈게|좋은|기가막힌|완전|진짜|정말|너무|꺼야|거야|어때|어디|부탁|인데|이야|노포|감성|갈꺼야/g,' ').replace(/\s+/g,' ').split(/\s+/).filter(w=>w.length>1)
 
     const priceAvg = (() => {
       if (!r.priceRange) return 20000
@@ -1390,8 +1390,8 @@ const usageCnt = getUsageCount()
         console.error('API HTTP error', res.status, errData)
         const msg = errData.detail || errData.error || `서버 오류 (${res.status})`
         setLoading(false)
-        if (msg === '##QUOTA_EXCEEDED##') { setShowQuota(true); return }
-        setError(msg); return
+        if (msg === '##QUOTA_EXCEEDED##') { setLoading(false); setShowQuota(true); return }
+        setLoading(false); setError(msg); return
       }
 
       const data = await res.json()
@@ -1401,7 +1401,7 @@ const usageCnt = getUsageCount()
       const recs = Array.isArray(data.recommendations) ? data.recommendations : []
       if (recs.length === 0) {
         console.error('Empty recommendations:', data)
-        setError(data.error || '추천 결과가 비어있어요'); return
+        setLoading(false); setError(data.error || '추천 결과가 비어있어요'); return
       }
 
       // 실제 DB에 있는 식당인지 검증 (매칭 실패 제거)
@@ -1414,7 +1414,7 @@ const usageCnt = getUsageCount()
           return found ? rec : { ...rec, _notInDB: true }
         })
       if (matched.length === 0) {
-        setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.'); return
+        setLoading(false); setError('추천 결과를 가져오지 못했어요. 다시 시도해주세요.'); return
       }
 
       if (data.usage) {
