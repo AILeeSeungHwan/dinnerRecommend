@@ -393,7 +393,6 @@ function naverMapUrl(name, lat, lng) {
   const query = hasRegion ? cleaned : cleaned + ' 망포'
   if (lat && lng) return `https://map.naver.com/v5/search/${encodeURIComponent(query)}?c=${lng},${lat},15,0,0,0,dh`
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
-}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
