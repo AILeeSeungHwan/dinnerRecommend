@@ -649,7 +649,7 @@ export default function Layout({ children, title, description, canonical }) {
             border-radius: 80% 0 80% 0;
             box-shadow: 0 2px 6px rgba(255,100,150,.2);
             pointer-events: none;
-            z-index: 50;
+            z-index: 0;
           }
           @keyframes branch-sway {
             0%, 100% { transform: rotate(-1deg) translateX(0); }
@@ -659,8 +659,8 @@ export default function Layout({ children, title, description, canonical }) {
       )}
       {/* 벚꽃나무 SVG — 화면 우하단 고정 */}
       {ct.isSpring && mounted && (
-        <div style={{ position:'fixed', bottom:0, right:'-20px', zIndex:10, pointerEvents:'none', userSelect:'none', opacity:.9 }}>
-          <svg width="320" height="480" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <div style={{ position:'fixed', bottom:0, right:'-30px', zIndex:0, pointerEvents:'none', userSelect:'none', opacity:.55 }}>
+          <svg width="180" height="270" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg"
             style={{ animation:'branch-sway 6s ease-in-out infinite', transformOrigin:'50% 100%' }}>
             {/* 줄기 */}
             <path d="M160 480 C158 420 154 380 150 330 C146 280 142 240 148 190 C152 160 156 130 160 100" stroke="#8B4513" strokeWidth="14" strokeLinecap="round"/>
