@@ -503,7 +503,7 @@ function WarnQrGuide() {
       </button>
       {show && (
         <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
-          <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>📱 토스앱으로 후원하는 법</strong>
+          <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>토스앱으로 후원하는 법</strong>
           <button onClick={saveQR}
             style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
             📥 QR 이미지 저장 (갤러리)
@@ -549,7 +549,7 @@ function WarnModal({ count, onConfirm, onCancel }) {
         <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:8,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
-        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{ marginBottom:16 }}>
           <WarnQrGuide />
         </div>
@@ -590,7 +590,7 @@ function UsageModal({ used, limit, warn, onClose }) {
         <div style={{ background:'#fff',borderRadius:14,padding:12,marginBottom:8,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
-        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
         <div style={{ marginBottom:16 }}>
           <WarnQrGuide />
         </div>
@@ -743,7 +743,7 @@ function LimitModal({ onClose }) {
           <img src="/toss-qr.png" id="toss-qr-img" alt="토스 후원 QR" style={{ width:120,height:120,display:'block' }} />
         </div>
         <div style={{ fontSize:'.72rem',color:'var(--muted)',marginBottom:4 }}>
-          📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요
+          토스앱으로 스캔하면 개발자가 국밥을 먹어요
         </div>
 
         {/* 모바일 QR 저장 버튼 */}
@@ -755,7 +755,7 @@ function LimitModal({ onClose }) {
           </button>
           {showMoGuide && (
             <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
-              <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>📱 토스앱으로 후원하는 법</strong>
+              <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>토스앱으로 후원하는 법</strong>
               <button onClick={saveQR}
                 style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
                 📥 QR 이미지 저장 (갤러리)
@@ -785,6 +785,97 @@ function LimitModal({ onClose }) {
   )
 }
 
+
+// ── 이미 확정했을 때 차단 모달 ───────────────────────────────────
+function AlreadyPickedModal({ restaurantName, onGoAnyway, onClose }) {
+  const [showQr, setShowQr] = React.useState(false)
+  const [showMoGuide, setShowMoGuide] = React.useState(false)
+  function saveQR() {
+    const a = document.createElement('a')
+    a.href = '/toss-qr.png'; a.download = 'toss-qr.png'
+    a.style.display = 'none'; document.body.appendChild(a)
+    a.click(); document.body.removeChild(a)
+  }
+  return (
+    <div style={{ position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,.88)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
+      onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'36px 28px',maxWidth:360,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        {!showQr ? (
+          <>
+            <div style={{ fontSize:'3.6rem',marginBottom:14 }}>🤦</div>
+            <div style={{ fontSize:'1.1rem',fontWeight:900,color:'var(--text)',marginBottom:10,lineHeight:1.4 }}>
+              이미 정했잖아요
+            </div>
+            <div style={{ fontSize:'.88rem',color:'var(--muted)',marginBottom:20,lineHeight:1.8,whiteSpace:'pre-line' }}>
+              <strong style={{ color:'var(--text)' }}>{restaurantName}</strong>{'\n'}
+              이미 선택했어요. 더 고민해봤자 시간낭비예요.{'\n'}
+              지금 당장 가세요.
+            </div>
+            <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
+              <button onClick={()=>setShowQr(true)}
+                style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
+                ⏰ 시간낭비하러 가기
+              </button>
+              <button onClick={onClose}
+                style={{ padding:'13px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.88rem',cursor:'pointer' }}>
+                닫기
+              </button>
+            </div>
+          </>
+        ) : (
+          <>
+            <div style={{ fontSize:'3.2rem',marginBottom:12 }}>⏳</div>
+            <div style={{ fontSize:'1rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.4 }}>
+              시간 부자세요?
+            </div>
+            <div style={{ fontSize:'.84rem',color:'var(--muted)',marginBottom:16,lineHeight:1.75 }}>
+              저도 공유해주시지 않겠어요?{'\n'}
+              AI 한 번 쓸 때마다 개발자 통장에서{'\n'}
+              조금씩 빠져나가고 있답니다 💸
+            </div>
+            <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:6,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+              <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:120,height:120,display:'block' }} />
+            </div>
+            <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+            <div style={{ marginBottom:16 }}>
+              <button onClick={()=>setShowMoGuide(v=>!v)}
+                style={{ fontSize:'.68rem',color:'var(--primary)',background:'none',border:'none',cursor:'pointer',marginTop:4,textDecoration:'underline',opacity:.8,display:'block',width:'100%' }}>
+                📲 모바일에서 QR 저장·인식하는 법 {showMoGuide ? '▲' : '▼'}
+              </button>
+              {showMoGuide && (
+                <div style={{ marginTop:8,padding:'12px 14px',background:'var(--surface2)',border:'1px solid var(--border)',borderRadius:12,textAlign:'left',fontSize:'.72rem',color:'var(--muted)',lineHeight:1.8 }}>
+                  <strong style={{ color:'var(--text)',display:'block',marginBottom:8 }}>토스앱으로 후원하는 법</strong>
+                  <button onClick={saveQR}
+                    style={{ fontSize:'.72rem',padding:'5px 14px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',cursor:'pointer',marginBottom:8,display:'block',width:'100%' }}>
+                    📥 QR 이미지 저장 (갤러리)
+                  </button>
+                  1. 위 버튼으로 QR 이미지 저장<br/>
+                  2. 토스앱 열기 → 하단 <strong style={{ color:'var(--text)' }}>송금</strong> 탭<br/>
+                  3. 우측 상단 <strong style={{ color:'var(--text)' }}>QR 아이콘</strong> 탭<br/>
+                  4. 카메라 화면 하단 <strong style={{ color:'var(--text)' }}>갤러리에서 불러오기</strong><br/>
+                  5. 저장한 QR 이미지 선택 → 후원 완료 🎉<br/>
+                  <span style={{ fontSize:'.65rem',opacity:.6,marginTop:4,display:'block' }}>
+                    * 기본 카메라앱 → QR인식 → 갤러리불러오기도 가능해요
+                  </span>
+                </div>
+              )}
+            </div>
+            <div style={{ display:'flex',gap:8 }}>
+              <button onClick={onGoAnyway}
+                style={{ flex:1,padding:'12px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.85rem',cursor:'pointer' }}>
+                그래도 다시 검색
+              </button>
+              <button onClick={onClose}
+                style={{ flex:1,padding:'12px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.85rem',fontWeight:700,cursor:'pointer' }}>
+                닫기
+              </button>
+            </div>
+          </>
+        )}
+      </div>
+    </div>
+  )
+}
 
 // ── 룰렛 모달 ─────────────────────────────────────────────────
 function RouletteModal({ results, restaurants, onPick, onClose }) {
@@ -924,6 +1015,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   // ── 픽·룰렛 state ──
   const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
   const [showRoulette,setShowRoulette]= useState(false)  // 룰렛 모달
+  const [showAlreadyPicked, setShowAlreadyPicked] = useState(false) // 확정 후 차단 모달
   const [rouletteIdx, setRouletteIdx] = useState(0)      // 룰렛 현재 하이라이트
   const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
   const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
@@ -1241,8 +1333,8 @@ const usageCnt = getUsageCount()
         '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
-        '규칙: JSON만 출력. 정확히 3개. reason은 2문장 60자이내. 검색어 그대로 복붙 금지 — 의도를 파악해 자연스러운 표현으로.',
-        'rank1: 요청자 상황·감정에 공감하는 감성적 문체. rank2: 메뉴·가격·위치 중심 실용적 문체. rank3: 이 식당만의 독특한 매력 부각.',
+        '규칙: JSON만 출력. 정확히 3개. reason은 3문장 100자이내. 검색어 그대로 복붙 금지 — 요청자의 상황·감정·의도를 파악해 자연스럽게.',
+        'rank1: 요청자 상황·감정에 공감하며 왜 지금 이 식당인지 감성적으로. rank2: 메뉴·가격·분위기 핵심을 실용적으로. rank3: 이 식당만의 독특한 매력을 구체적으로.',
         'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
         '출력형식: {"recommendations":[{"rank":1,...},{"rank":2,...},{"rank":3,...},{"rank":4,...}]}'
       ].join('\n')
@@ -1318,6 +1410,11 @@ const usageCnt = getUsageCount()
       {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
       {showQuota  && <QuotaModal onClose={() => { setShowQuota(false); getRandom(null) }} />}
+      {showAlreadyPicked && <AlreadyPickedModal
+        restaurantName={pickedIdx!==null&&results?.[pickedIdx]?.restaurantName||'선택한 식당'}
+        onGoAnyway={()=>{ setShowAlreadyPicked(false); setPickedIdx(null) }}
+        onClose={()=>setShowAlreadyPicked(false)}
+      />}
       {showUsage  && <UsageModal used={usedToday} limit={DAILY_LIMIT} warn={DAILY_WARN} onClose={()=>setShowUsage(false)} />}
       {showRoulette && (
         <RouletteModal
@@ -1378,12 +1475,12 @@ const usageCnt = getUsageCount()
 
 
         <div style={{ display:'flex',gap:8 }}>
-          <button onClick={handleRecommendClick} disabled={loading||dicing} style={{
+          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} handleRecommendClick() }} disabled={loading||dicing} style={{
             flex:1,padding:'13px',borderRadius:10,background:'var(--primary)',
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
           }}>✨ AI 추천받기</button>
-          <button onClick={()=>getRandom(null)} disabled={loading||dicing}
+          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} getRandom(null) }} disabled={loading||dicing}
             style={{ padding:'13px 18px',borderRadius:10,background:'var(--surface2)',color:'var(--text)',border:'1px solid var(--border)',fontSize:'.88rem',fontWeight:700,cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.6:1,whiteSpace:'nowrap' }}>
             🎲 랜덤
           </button>

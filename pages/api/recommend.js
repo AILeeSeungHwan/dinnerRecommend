@@ -6,10 +6,10 @@ export default async function handler(req, res) {
 
   const MODEL = 'claude-haiku-4-5-20251001'
 
-  // 7원 수준: 입력 약 800토큰 × 0.8$/M + 출력 약 700토큰 × 4$/M ≈ 7원
-  // max_tokens 700~800으로 이성/감성 분리된 3개 결과를 충분히 담음
+  // ~12원 수준: 입력 약 900토큰 × 0.8$/M + 출력 약 1100토큰 × 4$/M ≈ 5원
+  // max_tokens 900~1100: reason 3문장 100자 기준
   const count = parseInt(usageCount) || 0
-  const maxTokens = count >= 3 ? 700 : 800
+  const maxTokens = count >= 3 ? 900 : 1100
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
