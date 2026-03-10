@@ -29,18 +29,18 @@ const NL_MENU_MAP = [
 const WEATHER = ['맑음','흐림','비','눈','쌀쌀함','덥고 습함']
 const MOODS   = ['기분 좋음','피곤함','스트레스','혼밥','축하','허전함','데이트','회식']
 const CATS = [
-  {emoji:'🥩', name:'고기구이·삼겹살', slug:'meat',     cats:['고기구이'],              tags:['한우','갈비','삼겹살','목살']},
-  {emoji:'🥣', name:'국밥·해장·칼국수', slug:'gukbap',  cats:['국밥','국물','칼국수'],  tags:['해장','설렁탕','순대국밥']},
-  {emoji:'🏮', name:'이자카야·포차',   slug:'izakaya',  cats:['이자카야','야장'],       tags:['포차','하이볼','수제맥주']},
-  {emoji:'🍣', name:'일식·스시·돈카츠', slug:'japanese', cats:['일식'],                 tags:['스시','사시미','돈카츠','규동']},
-  {emoji:'🍜', name:'중식·마라탕',     slug:'chinese',  cats:['중식','훠궈'],           tags:['마라탕','양꼬치','짬뽕']},
-  {emoji:'🍝', name:'양식·파스타',     slug:'western',  cats:['양식','이탈리안','스테이크'], tags:['파스타','피자','스테이크']},
-  {emoji:'🐔', name:'치킨·분식',       slug:'chicken',  cats:['치킨'],                  tags:['통닭','치킨','떡볶이','분식']},
-  {emoji:'🎉', name:'회식·단체',       slug:'group',    cats:[],                        tags:['단체가능','회식','룸있음']},
-  {emoji:'💑', name:'데이트·분위기',   slug:'date',     cats:[],                        tags:['데이트','뷰맛집','프라이빗']},
-  {emoji:'💰', name:'가성비·혼밥·점심', slug:'budget',  cats:[],                        tags:['가성비','점심','혼밥가능','점심특선']},
+  {emoji:'🥩', name:'고기·한우',       slug:'meat',     cats:['고기구이'],              tags:['한우','갈비','삼겹살','목살','항정살']},
+  {emoji:'🥣', name:'국밥·해장',       slug:'gukbap',   cats:['국밥','국물'],           tags:['해장','설렁탕','곰탕','순대국밥']},
+  {emoji:'🏮', name:'이자카야·술집',   slug:'izakaya',  cats:['이자카야','야장'],       tags:['포차','하이볼','사케','수제맥주']},
+  {emoji:'🍣', name:'일식·스시',       slug:'japanese', cats:['일식'],                  tags:['스시','사시미','오마카세','돈카츠']},
+  {emoji:'🍜', name:'중식·마라탕',     slug:'chinese',  cats:['중식','훠궈'],           tags:['마라탕','양꼬치','짬뽕','훠궈']},
+  {emoji:'🍝', name:'양식·스테이크',   slug:'western',  cats:['양식','이탈리안','스테이크'], tags:['파스타','피자','스테이크','와규']},
+  {emoji:'🐔', name:'치킨·야장',       slug:'chicken',  cats:['치킨','야장'],           tags:['통닭','치킨','야장','치맥']},
+  {emoji:'🎉', name:'회식·단체',       slug:'group',    cats:[],                        tags:['단체가능','회식','룸있음','주차가능']},
+  {emoji:'💑', name:'데이트·분위기',   slug:'date',     cats:[],                        tags:['데이트','뷰맛집','프라이빗','인스타감성']},
+  {emoji:'💰', name:'가성비·혼밥',     slug:'budget',   cats:[],                        tags:['가성비','점심','혼밥가능','점심특선']},
   {emoji:'✨', name:'접대·파인다이닝', slug:'premium',  cats:[],                        tags:['오마카세','예약제','코스요리','프라이빗']},
-  {emoji:'🍱', name:'한식·정식·보쌈',  slug:'korean',   cats:['한식'],                  tags:['족발','보쌈','갈비찜','한정식']},
+  {emoji:'🍖', name:'족발·곱창·보쌈',  slug:'special',  cats:[],                        tags:['족발','곱창','보쌈','막창']},
 ]
 
 // ── 랜덤 추천 결과 문구 템플릿 ──────────────────────────────
@@ -201,7 +201,6 @@ function extractContext(q, moods, wx) {
 function detectMenu(q, moods, wx) {
   const text = `${q} ${moods.join(' ')}`.toLowerCase()
   for (const cat of CATS) {
-    if (cat.exit4Only) continue
     const allTerms = [...(cat.cats||[]), ...(cat.tags||[])].map(t => t.toLowerCase())
     if (allTerms.some(t => text.includes(t))) return cat
   }
@@ -221,7 +220,6 @@ function detectMenu(q, moods, wx) {
   return null
 }
 
-
 function preScore(q, moods, wx, cands, selectedCat) {
   const qt  = `${q} ${moods.join(' ')} ${wx}`.toLowerCase()
   const ctx = extractContext(q, moods, wx)
@@ -240,7 +238,7 @@ function preScore(q, moods, wx, cands, selectedCat) {
     })()
 
     // ① 카테고리 선택 최우선
-    if (selectedCat && !selectedCat.exit4Only) {
+    if (selectedCat) {
       const catMatch = (selectedCat.cats||[]).some(c => (r.cat||[]).includes(c))
       const tagMatch = (selectedCat.tags||[]).some(t => (r.tags||[]).includes(t))
       if (catMatch)               s += 60
@@ -331,6 +329,7 @@ function filterByPrice(cands, pf) {
   })
 }
 
+// 평점 필터: "4점 이상", "4.5 이상", "별 4개" 등
 function parseRatingFilter(q) {
   const m = q.match(/([3-5](?:[.,]\d)?)\s*(?:점|별|★|⭐)?\s*(이상|이하|넘|초과)?/) ||
             q.match(/(?:평점|별점|rating)\s*([3-5](?:[.,]\d)?)/)
@@ -352,7 +351,7 @@ function filterByRating(cands, rf) {
 // ── 비용 계산 ────────────────────────────────────────────────
 function calcCost(i, o) { return (i/1e6)*0.8 + (o/1e6)*4 }  // haiku
 
-// ── 로딩 오버레이 ──────────────────────────────────────────────
+// ── 로딩 오버레이 ─────────────────────────────────────────────
 function LoadingOverlay() {
   const frames = ['🍚','🥢','🍜','🥩','🏮','🍣','🥣','✨']
   const msgs   = ['맛집 탐색 중...','리뷰 분석 중...','최적 매칭 중...','거의 다 됐어요!']
@@ -387,7 +386,7 @@ function LoadingOverlay() {
   )
 }
 
-// ── 주사위 오버레이 ────────────────────────────────────────────
+// ── 주사위 오버레이 ───────────────────────────────────────────
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
 // 가격 구분자 포맷: "25000~40000" → "25,000~40,000"
 function fmtPrice(p) {
@@ -416,14 +415,13 @@ function wxEmoji(w) {
 
 function naverMapUrl(name) {
   const cleaned = name
-    .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
-    .replace(/ (영통점|영통역점|망포점|수원점|영통본점)$/, '')
+    .replace(/ (영통점|수원점|망포점|광교점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  // 식당명에 잠실/송파/방이/석촌 등 지역이 포함되면 그대로, 아니면 " 잠실" 추가
-  const hasRegion = /(영통|망포|수원|삼성전자|영통역|영통구)/.test(name)
+  const hasRegion = /(영통|수원|망포|광교|매탄)/.test(name)
   const query = hasRegion ? cleaned : cleaned + ' 영통'
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
+}`
 }
 
 function DiceOverlay({ onDone }) {
@@ -450,11 +448,13 @@ function DiceOverlay({ onDone }) {
   )
 }
 
-// ── 사용 횟수 관리 ─────────────────────────────────────────────
-const DAILY_WARN  = 3
-const DAILY_LIMIT = 5
+// ── 사용 횟수 관리 (localStorage, 하루 기준) ─────────────────
+const DAILY_WARN  = 3   // 3회째부터 경고
+const DAILY_LIMIT = 5   // 5회 초과 시 AI 차단
 
-function getTodayKey() { return 'ai_count_' + new Date().toISOString().slice(0,10) }
+function getTodayKey() {
+  return 'ai_count_' + new Date().toISOString().slice(0,10)
+}
 function getUsageCount() {
   try { return parseInt(localStorage.getItem(getTodayKey()) || '0') } catch { return 0 }
 }
@@ -467,26 +467,27 @@ function incrementUsage() {
   } catch { return 1 }
 }
 
-// ── 검색 힌트 ─────────────────────────────────────────────────
+// ── 검색 힌트 (placeholder 회전용) ───────────────────────────
 const HINTS = [
   '예: 비 오는 날 따뜻한 국밥집',
-  '예: 영통역 회식 장소 추천',
+  '예: 평점 4.7점 이상 이자카야',
   '예: 야근 후 해장할 곳',
   '예: 1만원 이하 혼밥 가능한 곳',
-  '예: 삼성전자 근처 점심 혼밥',
-  '예: 영통 데이트 코스 저녁',
-  '예: 회식하기 좋은 고기집',
-  '예: 쌀쌀한 날 뜨끈한 칼국수',
-  '예: 평점 4.5 이상 이자카야',
-  '예: 오마카세 기념일 코스',
-  '예: 송리단길 브런치 데이트',
-  '예: 늦은 밤 야식 족발',
+  '예: 10명 회식 가능한 룸 있는 곳',
+  '예: 데이트하기 좋은 분위기 맛집',
+  '예: 눈 오는 날 생각나는 칼국수',
+  '예: 4번출구 근처 점심 빠른 곳',
+  '예: 가성비 좋은 한우 구이',
+  '예: 스트레스 풀리는 마라탕 훠궈',
+  '예: 평점 4.5 이상 4번출구 근처',
+  '예: 2만원대 분위기 좋은 이자카야',
+  '예: 쌀쌀한 날 뜨끈한 순대국밥',
   '예: 혼자 조용히 먹을 수 있는 곳',
-  '예: 스트레스 풀리는 마라탕',
+  '예: 회식 후 2차로 가기 좋은 바',
 ]
 
-// ── 경고 모달 ──────────────────────────────────────────────────
-// ── 모바일 QR 저장 + 인식 안내 (WarnModal 공용) ──────────────
+// ── 경고 모달 (3~4회) ────────────────────────────────────────
+// ── 모바일 QR 인식 안내 (WarnModal/UsageModal 공용) ─────────
 function WarnQrGuide() {
   const [show, setShow] = React.useState(false)
   function saveQR() {
@@ -545,7 +546,8 @@ function WarnModal({ count, onConfirm, onCancel }) {
             : '토큰 절약 모드 진입 — 이번 검색부터 추천 퀄리티가 다소 낮아질 수 있어요'
           }
         </div>
-        <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:20,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:14,padding:14,marginBottom:8,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
           <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
         </div>
         <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
@@ -560,6 +562,44 @@ function WarnModal({ count, onConfirm, onCancel }) {
             🎲 랜덤으로 할게요 (무료)
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+// ── 사용량 뱃지 클릭 팝업 ───────────────────────────────────
+function UsageModal({ used, limit, warn, onClose }) {
+  const isFull = used >= limit
+  const isWarn = used >= warn - 1
+  return (
+    <div onClick={e=>{ if(e.target===e.currentTarget) onClose() }}
+      style={{ position:'fixed',inset:0,zIndex:400,background:'rgba(0,0,0,.85)',backdropFilter:'blur(10px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:340,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
+        <div style={{ fontSize:'3rem',marginBottom:10 }}>{isFull ? '🫙' : isWarn ? '⚠️' : '✨'}</div>
+        <div style={{ fontSize:'1.05rem',fontWeight:900,color:'var(--text)',marginBottom:8 }}>
+          {isFull ? 'AI 검색 소진' : `오늘 AI 검색 ${used} / ${limit}회`}
+        </div>
+        <div style={{ fontSize:'.82rem',color:'var(--muted)',marginBottom:18,lineHeight:1.7 }}>
+          {isFull
+            ? <>자정이 지나면 다시 <strong style={{color:'var(--primary)'}}>{limit}회</strong> 충전돼요 🌙<br/>그 동안 <strong style={{color:'var(--primary)'}}>랜덤 추천</strong>을 이용해보세요!</>
+            : isWarn
+            ? <>AI 검색 잔여 <strong style={{color:'#f5c842'}}>{limit - used}회</strong>. 아껴써요 🥲<br/><span style={{fontSize:'.75rem',opacity:.75}}>후원하면 개발자가 국밥을 먹어요 🍜</span></>
+            : <>잔여 <strong style={{color:'var(--primary)'}}>{limit - used}회</strong> 남았어요.<br/><span style={{fontSize:'.75rem',opacity:.75}}>AI 검색은 매 요청마다 서버 비용이 발생해요.</span></>
+          }
+        </div>
+        {/* 토스 QR */}
+        <div style={{ background:'#fff',borderRadius:14,padding:12,marginBottom:8,display:'inline-block',boxShadow:'0 2px 12px rgba(0,0,0,.15)' }}>
+          <img src="/toss-qr.png" alt="토스 후원 QR" style={{ width:110,height:110,display:'block' }} />
+        </div>
+        <div style={{ fontSize:'.7rem',color:'var(--muted)',marginBottom:4 }}>📱 토스앱으로 스캔하면 개발자가 국밥을 먹어요</div>
+        <div style={{ marginBottom:16 }}>
+          <WarnQrGuide />
+        </div>
+        <button onClick={onClose}
+          style={{ width:'100%',padding:'11px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.88rem',fontWeight:700,cursor:'pointer' }}>
+          닫기
+        </button>
+        <div style={{ fontSize:'.68rem',color:'var(--muted)',marginTop:8,opacity:.6 }}>탭 밖을 누르면 닫혀요</div>
       </div>
     </div>
   )
@@ -746,7 +786,120 @@ function LimitModal({ onClose }) {
   )
 }
 
-// ── AI 추천 앱 ────────────────────────────────────────────────
+
+// ── 룰렛 모달 ─────────────────────────────────────────────────
+function RouletteModal({ results, restaurants, onPick, onClose }) {
+  const [cur, setCur] = React.useState(0)
+  const [done, setDone] = React.useState(false)
+  const [finalIdx, setFinalIdx] = React.useState(null)
+  const names = results.map(r => r.restaurantName)
+
+  React.useEffect(() => {
+    // 5초 룰렛: 점점 느려지는 인터벌
+    const TOTAL = 5000
+    const start = Date.now()
+    let frame
+    const picked = Math.floor(Math.random() * names.length)
+
+    function spin() {
+      const elapsed = Date.now() - start
+      const progress = elapsed / TOTAL
+      if (progress >= 1) {
+        setCur(picked); setFinalIdx(picked); setDone(true); return
+      }
+      // 가속→감속: 초반 빠르게, 후반 느리게
+      const delay = 80 + progress * progress * 600
+      setCur(p => (p + 1) % names.length)
+      frame = setTimeout(spin, delay)
+    }
+    frame = setTimeout(spin, 80)
+    return () => clearTimeout(frame)
+  }, [])
+
+  const pickedRec = finalIdx !== null ? results[finalIdx] : null
+  const pickedR = pickedRec
+    ? (restaurants.find(x=>x.name===pickedRec.restaurantName)
+    || restaurants.find(x=>pickedRec.restaurantName?.includes(x.name)||x.name?.includes(pickedRec.restaurantName)))
+    : null
+
+  return (
+    <div style={{ position:'fixed',inset:0,background:'rgba(0,0,0,.85)',zIndex:1000,display:'flex',alignItems:'center',justifyContent:'center',padding:20 }}
+      onClick={done ? onClose : undefined}>
+      <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:20,padding:'28px 24px',maxWidth:380,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.8)' }}
+        onClick={e=>e.stopPropagation()}>
+        <div style={{ fontSize:'2rem',marginBottom:8 }}>🎰</div>
+        <div style={{ fontSize:'1rem',fontWeight:800,marginBottom:20,color:'var(--text)' }}>
+          {done ? '오늘은 여기로 결정!' : '고르는 중...'}
+        </div>
+
+        {/* 슬롯 카드들 */}
+        <div style={{ display:'flex',flexDirection:'column',gap:8,marginBottom:20 }}>
+          {names.map((name,i) => {
+            const isActive = cur === i
+            const isFinal = done && finalIdx === i
+            return (
+              <div key={i} style={{
+                padding:'12px 16px', borderRadius:12,
+                border: isFinal ? '2px solid var(--primary)' : isActive ? '2px solid var(--accent)' : '1px solid var(--border)',
+                background: isFinal ? 'rgba(255,107,53,.12)' : isActive ? 'rgba(108,99,255,.1)' : 'var(--surface2)',
+                transition: 'all .08s',
+                transform: isActive && !done ? 'scale(1.03)' : 'scale(1)',
+                opacity: done && !isFinal ? 0.4 : 1,
+              }}>
+                <div style={{ fontSize:'.9rem',fontWeight:700,color: isFinal?'var(--primary)':isActive?'var(--accent)':'var(--text)' }}>
+                  {isFinal ? '🎯 ' : isActive && !done ? '▶ ' : ''}{name}
+                </div>
+                {isFinal && pickedRec?.reviewHighlight && (
+                  <div style={{ fontSize:'.75rem',color:'var(--muted)',marginTop:4 }}>
+                    💬 {pickedRec.reviewHighlight}
+                  </div>
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        {done && pickedR && (
+          <div style={{ display:'flex',gap:8,justifyContent:'center',flexWrap:'wrap' }}>
+            <a href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(pickedR.name)}`}
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              ✅ 여기로 결정
+            </a>
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedR.name + ' 영통')}`}
+              target="_blank" rel="noopener noreferrer"
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              📍 지도 보기
+            </a>
+          </div>
+        )}
+        {done && pickedRec?._external && (
+          <div style={{ display:'flex',gap:8,justifyContent:'center',marginTop:8 }}>
+            <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedRec.restaurantName + ' 영통')}`}
+              target="_blank" rel="noopener noreferrer"
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+              ✅ 지도에서 확인
+            </a>
+          </div>
+        )}
+        {!done && (
+          <button onClick={onClose}
+            style={{ marginTop:4,padding:'8px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',cursor:'pointer' }}>
+            취소
+          </button>
+        )}
+        {done && (
+          <button onClick={onClose}
+            style={{ display:'block',width:'100%',marginTop:10,padding:'8px',borderRadius:10,background:'none',border:'none',color:'var(--muted)',fontSize:'.78rem',cursor:'pointer' }}>
+            닫기
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ── AI 추천 앱 ───────────────────────────────────────────────
+// 제외 목록 관리: 50개 초과 시 자동 리셋
 const EXCLUDE_RESET = 50
 
 function AiApp({ pendingCat, onPendingCatUsed }) {
@@ -762,16 +915,21 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [warnCount,  setWarnCount] = useState(null)
   const [showLimit,  setShowLimit] = useState(false)
   const [showQuota,  setShowQuota] = useState(false)
+  const [showUsage,  setShowUsage] = useState(false)
   const [showEaster, setShowEaster] = useState(false)
   const [hintIdx,    setHintIdx]   = useState(0)
   const [usedToday,  setUsedToday] = useState(0)
   const [isMounted,   setIsMounted]  = useState(false)
-  const excludedRef = useRef(new Set())
-  const resultsRef  = useRef(null)
-  const [showIdleBar, setShowIdleBar] = useState(false)
-  const [showRoulette, setShowRoulette] = useState(false)
-  const [idleCount,   setIdleCount]   = useState(30)
-  const [idlePaused,  setIdlePaused]  = useState(false)
+  const excludedRef   = useRef(new Set())
+  const resultsRef    = useRef(null)
+  // ── 픽·룰렛 state ──
+  const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
+  const [showRoulette,setShowRoulette]= useState(false)  // 룰렛 모달
+  const [rouletteIdx, setRouletteIdx] = useState(0)      // 룰렛 현재 하이라이트
+  const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
+  const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
+  const [idleCount,   setIdleCount]   = useState(30)     // 카운트다운
+  const [idlePaused,  setIdlePaused]  = useState(false)  // 일시정지
   const idleTimerRef  = useRef(null)
   const idleBarRef    = useRef(null)
   const idlePausedRef = useRef(false)
@@ -780,31 +938,59 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     setUsedToday(getUsageCount())
     setIsMounted(true)
     const t = setInterval(() => setHintIdx(i => (i + 1) % HINTS.length), 3200)
-    // 이스터에그: 시크릿 모드 감지
-    // Chrome/Edge: 시크릿 모드에서 storage quota가 RAM 기반(~120~300MB)으로 제한됨
-    // 일반 모드: 디스크 기반 수 GB → 1GB 초과
-    // Safari: localStorage 쓰기 후 즉시 사라지는 특성 이용
+    // ── 시크릿 모드 감지 (다중 방법 조합) ─────────────────────
     let easterTimer = null
     async function detectIncognito() {
-      try {
-        // 1) Chrome/Edge/Firefox — storage estimate
-        if (navigator.storage && navigator.storage.estimate) {
-          const { quota } = await navigator.storage.estimate()
-          if (quota < 500 * 1024 * 1024) return true  // 500MB 미만 = 시크릿
-        }
-        // 2) Safari 시크릿 — IDB 쓰기 실패
-        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
-        if (isSafari) {
-          return await new Promise(resolve => {
-            const db = window.indexedDB.open('__test__')
-            db.onerror = () => resolve(true)
-            db.onsuccess = e => { e.target.result.close(); resolve(false) }
-          })
-        }
-        return false
-      } catch { return false }
-    }
+      let score = 0  // 신호 점수 합산 — 2점 이상이면 시크릿으로 판정
 
+      // 방법 1: storage quota (시크릿은 120MB~1GB로 제한됨)
+      try {
+        if (navigator.storage?.estimate) {
+          const { quota } = await navigator.storage.estimate()
+          if (quota < 1.2 * 1024 * 1024 * 1024) score += 2  // 1.2GB 미만
+        }
+      } catch {}
+
+      // 방법 2: FileSystem API (시크릿에서 막힘 — 구형 Chrome/Safari)
+      try {
+        await new Promise((res, rej) => {
+          const req = window.webkitRequestFileSystem
+            ? window.webkitRequestFileSystem(0, 0, res, rej)
+            : res()
+        })
+      } catch { score += 2 }
+
+      // 방법 3: IndexedDB 차단 여부 (Safari 시크릿)
+      try {
+        await new Promise((res, rej) => {
+          const r = indexedDB.open('__gm_probe__')
+          r.onerror = rej
+          r.onsuccess = e => { e.target.result.close(); res() }
+        })
+      } catch { score += 2 }
+
+      // 방법 4: localStorage 쓰기 가능 여부
+      // 시크릿이어도 대부분 쓰기는 되므로 점수 낮게
+      try {
+        const k = '__gm_ls_probe__'
+        localStorage.setItem(k, '1')
+        localStorage.removeItem(k)
+      } catch { score += 1 }
+
+      // 방법 5: navigator.webdriver (자동화 도구 → 점수 제외)
+      if (navigator.webdriver) return false
+
+      // 방법 6: 세션 내 히스토리 길이 (시크릿 첫 방문은 거의 항상 1)
+      if (window.history.length <= 1) score += 1
+
+      // 방법 7: connection.saveData / effectiveType 힌트
+      try {
+        const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection
+        if (!conn) score += 0  // 정보 없으면 중립
+      } catch {}
+
+      return score >= 2
+    }
     try {
       const seenThisSession = sessionStorage.getItem('easter_seen')
       if (!seenThisSession) {
@@ -819,7 +1005,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     return () => { clearInterval(t); if (easterTimer) clearTimeout(easterTimer) }
   }, [])
 
-
+  // ── idle 타이머: results 생기면 30초 후 카운트다운 바 표시 ──
   function startIdleCountdown() {
     idlePausedRef.current = false
     setIdlePaused(false)
@@ -839,8 +1025,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
 
   useEffect(() => {
     if (idleTimerRef.current) { clearInterval(idleTimerRef.current); clearTimeout(idleBarRef.current) }
-    if (!results || showRoulette) return
+    if (!results || pickedIdx !== null || showRoulette) return
     setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
+    // 3초 뒤부터 카운트다운 바 표시
     idleBarRef.current = setTimeout(() => {
       setShowIdleBar(true)
       startIdleCountdown()
@@ -851,9 +1038,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     }
   }, [results])
 
+  // 사용자 인터랙션 감지 → idle 타이머 리셋 (IdleBar 표시 중엔 무시)
   function resetIdle() {
-    if (!results || showRoulette) return
-    if (showIdleBar) return
+    if (!results || pickedIdx !== null || showRoulette) return
+    if (showIdleBar) return  // ← IdleBar 표시 중엔 마우스로 사라지지 않음
     if (idleTimerRef.current) clearInterval(idleTimerRef.current)
     if (idleBarRef.current) clearTimeout(idleBarRef.current)
     setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
@@ -863,6 +1051,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     }, 3000)
   }
 
+  // 카테고리 바로뽑기 - 외부에서 pendingCat 전달 시 자동 실행
   useEffect(() => {
     if (!pendingCat) return
     setSelectedCat(pendingCat)
@@ -902,21 +1091,25 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     return avail
   }
 
-  // ── 랜덤 ──
+  // ── 랜덤 (필터 + 카테고리 반영) ──
   function getRandom(catOverride) {
     const cat = catOverride || selectedCat
     let base = restaurants
+    // 카테고리 필터
     if (cat) {
-      base = base.filter(r =>
-        (cat.cats.length>0 && cat.cats.some(c=>r.cat?.includes(c))) ||
-        (cat.tags||[]).some(t=>r.tags?.some(rt=>rt.includes(t))||r.cat?.some(c=>c.includes(t)))
+      else base = base.filter(r =>
+        cat.cats.some(c=>r.cat?.includes(c)) ||
+        (cat.tags||[]).some(t=>r.tags?.includes(t))
       )
     }
+    // 날씨 필터
     if (weather) base = base.filter(r=>!r.wx||r.wx.includes(weather))
+    // 기분 필터
     if (moods.length>0) base = base.filter(r=>moods.some(m=>r.moods?.includes(m)))
+    // 풀 너무 작으면 날씨·기분 완화
     if (base.length < 5) {
       base = cat
-        ? restaurants.filter(r=>(cat.cats.length>0&&cat.cats.some(c=>r.cat?.includes(c)))||(cat.tags||[]).some(t=>r.tags?.some(rt=>rt.includes(t))))
+        ? restaurants.filter(r=>cat.cats.some(c=>r.cat?.includes(c))||(cat.tags||[]).some(t=>r.tags?.includes(t)))
         : restaurants
     }
     const pool = filterExcluded(base)
@@ -933,6 +1126,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         matchScore:Math.floor(Math.random()*15)+80, _random:true,
       }
     })
+    setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
     setPendingRnd(res); setDicing(true)
   }
 
@@ -969,59 +1163,90 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const pf = parsePriceFilter(ctx)
       const rf = parseRatingFilter(ctx)
       let base = restaurants
-      // 카테고리 선택이 최우선 필터
-      if (selectedCat && !selectedCat.exit4Only) {
+      // 카테고리 선택이 최우선 필터 — mm(자연어)보다 명시적 선택이 우선
+      if (selectedCat) {
         base = base.filter(r =>
           (selectedCat.cats||[]).some(c => r.cat?.includes(c)) ||
           (selectedCat.tags||[]).some(t => r.tags?.includes(t))
         )
-        if (base.length < 5) base = restaurants
+        if (base.length < 5) base = restaurants  // 풀 너무 작으면 완화
       } else if (mm) {
         base = base.filter(r=>mm.cats.some(c=>r.cat?.includes(c)))
       }
       if (pf) base = filterByPrice(base, pf)
       if (rf) base = filterByRating(base, rf)
+
+      // ── 특정 메뉴 키워드가 rv/type/tags에 직접 매칭되는 식당이 2개 미만이면 외부검색 ──
+      // 카테고리로만 매핑된 것과 구분 (예: "사케" → 이자카야 31개 있어도 사케 직접 언급은 2개뿐)
+      function extractSpecificMenu(text) {
+        if (!text) return null
+        const m = text.match(/사케|라멘|우동|소바|돈부리|오마카세|스시|초밥|마라탕|훠궈|양꼬치|딤섬|파스타|리조또|스테이크|타코|버거|샐러드|비빔밥|순두부|곱창|막창|홍어|파전|빈대떡|냉면|밀면|칼국수|수제비|설렁탕|곰탕|삼계탕|보쌈|족발|갈비찜|제육|쭈꾸미|낙지|오징어|아구찜|간장게장|돼지국밥|순대국|해장국/)
+        return m ? m[0] : null
+      }
+      const specificMenu = extractSpecificMenu(ctx)
+      const directMatchCount = specificMenu
+        ? restaurants.filter(r =>
+            r.rv?.some(v => v.includes(specificMenu)) ||
+            r.type?.includes(specificMenu) ||
+            r.tags?.some(t => t.includes(specificMenu))
+          ).length
+        : 99
+      const needsExternal = ctx && !selectedCat && (
+        base.length < 3 ||
+        (specificMenu && directMatchCount < 3)
+      )
+      if (needsExternal) {
+        const extRes = await fetch('/api/web-search-recommend', {
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ menuQuery: ctx.trim(), area: '영통', usageCount: getUsageCount() })
+        })
+        if (extRes.ok) {
+          const extData = await extRes.json()
+          const extRecs = Array.isArray(extData.recommendations) ? extData.recommendations : []
+          if (extRecs.length > 0) {
+            if (extData.usage) {
+              window.dispatchEvent(new CustomEvent('token-used', {
+                detail: calcCost(extData.usage.input_tokens||0, extData.usage.output_tokens||0)
+              }))
+            }
+            const newCount = incrementUsage()
+            setUsedToday(newCount)
+            setResults(extRecs.map((r,i) => ({ ...r, _external:true, rank:i+1 })))
+            scrollTo(); setLoading(false); return
+          }
+        }
+        base = restaurants
+      }
+
       if (base.length < 5) base = restaurants
 
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
-      // top20 스코어링 → 매번 다른 6개 (top3 고정 + 랜덤3)
+      // top20 스코어링 후 → 매번 다른 4개 뽑기 (로테이션으로 다양성 확보)
       const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
+      // 상위 3개 고정 + 랜덤 3개 = 6개 후보 → AI가 4개 선택
       const top6 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5)
-      const compact = top6.map(r => {
-        const rvSnippet = (r.rv || []).slice(0, 2)
-          .map(v => v.replace(/^\[.*?\u2605\]\s*/, '').replace(/"/g, '\u2019').slice(0, 50))
-          .join(' / ')
-        const moodStr = (r.moods || []).slice(0, 3).join('·')
-        const tagsStr = (r.tags || []).slice(0, 5).join('/')
-        return `${r.name}|타입:${r.type}|평점:⭐${r.rt}(${r.cnt}개리뷰)|가격:${r.priceRange||'미정'}원|태그:${tagsStr}|분위기:${moodStr}|리뷰:"${rvSnippet}"|영업:${r.hours||'확인필요'}`
+      // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
+      const compact = top6.map((r, idx) => {
+        const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
+        const tags = (r.tags||[]).slice(0,4).join(' ')
+        return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
       }).join('\n')
-      const ctx_full = (ctx||'').slice(0, 40)
+      const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
-            const prompt = `당신은 영통역·수원 삼성전자 맛집 전문가입니다. 아래 사용자의 요청에 딱 맞는 식당 3곳을 후보 목록에서 골라 추천해주세요.
-
-[사용자 요청]
-${ctx_full ? `\"${ctx_full}\"` : '특별한 요청 없음 (상황에 맞는 추천)'}
-${filter_str ? `조건: ${filter_str}` : ''}
-
-[후보 식당 목록 — 각 항목: 이름|타입|평점|가격|태그|분위기|리뷰|영업시간]
-${compact}
-
-[추천 작성 규칙 — 반드시 준수]
-- restaurantName: 후보 목록 이름 그대로 (절대 수정 금지)
-- reason: 반드시 ${usageCnt<=2?'3문장':'2문장'}, 아래 순서대로 작성
-  ① 첫 문장: 사용자 요청의 의도·목적·상황을 파악해 자연스러운 문장으로 풀어쓰기 — 검색어 반복 금지
-  ② 둘째 문장: 이 식당만의 시그니처 메뉴·분위기·특징 위주
-  ${usageCnt<=2?'③ 셋째 문장: 실제 리뷰 키워드를 자연스럽게 녹여서 (작은따옴표 사용)':''}
-- reviewHighlight: 사용자 맥락과 이 식당을 연결하는 한 줄 (${usageCnt<=2?'15':'10'}자 이내, 평점·가격 금지)
-- 3개 식당이 각자 완전히 다른 매력 강조 — '최고 평점', '높은 평점', '⭐숫자' 같은 평점 서술 절대 금지
-- reason/reviewHighlight 안에 큰따옴표(") 절대 사용 금지 — 작은따옴표(') 또는 「」 사용
-- JSON만 출력, 마크다운·설명 없음
-
-{"recommendations":[{"rank":1,"restaurantName":"이름그대로","reason":"2~3문장","reviewHighlight":"핵심한줄"},{"rank":2,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":3,"restaurantName":"...","reason":"...","reviewHighlight":"..."}]}`
+            const prompt = [
+        '영통 맛집 큐레이터. 후보 중 정확히 4곳 추천.',
+        '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
+        '후보:',
+        compact,
+        '규칙: JSON만 출력. 정확히 3개. reason은 2문장 60자이내. 검색어 그대로 복붙 금지 — 의도를 파악해 자연스러운 표현으로.',
+        'rank1: 요청자 상황·감정에 공감하는 감성적 문체. rank2: 메뉴·가격·위치 중심 실용적 문체. rank3: 이 식당만의 독특한 매력 부각.',
+        'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
+        '출력형식: {"recommendations":[{"rank":1,...},{"rank":2,...},{"rank":3,...},{"rank":4,...}]}'
+      ].join('\n')
 
       const res = await fetch('/api/recommend', {
         method:'POST', headers:{'Content-Type':'application/json'},
@@ -1071,7 +1296,7 @@ ${compact}
       setUsedToday(newCount)
       markShown(matched)
       setResults(matched)
-      setShowIdleBar(false); setIdleCount(30)
+      setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
       scrollTo()
     } catch (err) {
       console.error('getRecommendations error:', err)
@@ -1094,18 +1319,27 @@ ${compact}
       {showEaster && <EasterEggModal onClose={() => setShowEaster(false)} />}
       {showLimit  && <LimitModal onClose={() => { setShowLimit(false); getRandom(null) }} />}
       {showQuota  && <QuotaModal onClose={() => { setShowQuota(false); getRandom(null) }} />}
+      {showUsage  && <UsageModal used={usedToday} limit={DAILY_LIMIT} warn={DAILY_WARN} onClose={()=>setShowUsage(false)} />}
+      {showRoulette && (
+        <RouletteModal
+          results={results}
+          restaurants={restaurants}
+          onPick={(idx)=>{ setPickedIdx(idx); setShowRoulette(false) }}
+          onClose={()=>{ setShowRoulette(false); setPickedIdx(null) }}
+        />
+      )}
 
       <div style={{ padding:'20px 16px' }}>
         {/* 사용 횟수 뱃지 */}
         <div style={{ display:'flex',justifyContent:'flex-end',marginBottom:8 }}>
-          <span style={{
-            fontSize:'.7rem', padding:'3px 10px', borderRadius:100,
+          <button onClick={()=>setShowUsage(true)} style={{
+            fontSize:'.7rem', padding:'3px 10px', borderRadius:100, cursor:'pointer',
             background: !isMounted ? 'var(--surface2)' : usedToday >= DAILY_LIMIT ? '#2a1111' : usedToday >= DAILY_WARN-1 ? '#2a2000' : 'var(--surface2)',
             border: `1px solid ${!isMounted ? 'var(--border)' : usedToday >= DAILY_LIMIT ? '#ff4444' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--border)'}`,
             color: !isMounted ? 'var(--muted)' : usedToday >= DAILY_LIMIT ? '#ff6666' : usedToday >= DAILY_WARN-1 ? '#f5c842' : 'var(--muted)',
           }}>
             {!isMounted ? '✨ AI 검색' : usedToday >= DAILY_LIMIT ? '🚫 오늘 AI 검색 소진' : `✨ AI 검색 ${usedToday}/${DAILY_LIMIT}회`}
-          </span>
+          </button>
         </div>
         <div style={{ marginBottom:16, position:'relative' }}>
           <textarea value={ctx} onChange={e=>setCtx(e.target.value)}
@@ -1173,7 +1407,103 @@ ${compact}
         )}
 
         {results && (
-          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }} onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
+          <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}
+            onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
+
+            {/* ── idle 카운트다운 바 ── */}
+            {showIdleBar && !pickedIdx && !showRoulette && (
+              <div style={{ marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10 }}>
+                <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6 }}>
+                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>
+                    🎰 {idlePaused ? `${idleCount}초에서 멈춤` : `${idleCount}초 후 대신 골라드릴게요`}
+                  </span>
+                  {idlePaused ? (
+                    <button onClick={()=>{
+                        idlePausedRef.current = false
+                        setIdlePaused(false)
+                        startIdleCountdown()
+                      }}
+                      style={{ fontSize:'.7rem',color:'var(--primary)',background:'rgba(255,107,53,.15)',border:'1px solid rgba(255,107,53,.3)',borderRadius:6,padding:'3px 10px',cursor:'pointer',fontWeight:700 }}>
+                      ▶ 카운트다운 시작
+                    </button>
+                  ) : (
+                    <button onClick={()=>{
+                        idlePausedRef.current = true
+                        setIdlePaused(true)
+                        clearInterval(idleTimerRef.current)
+                      }}
+                      style={{ fontSize:'.7rem',color:'var(--muted)',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:6,padding:'3px 10px',cursor:'pointer' }}>
+                      ✋ 괜찮아요
+                    </button>
+                  )}
+                </div>
+                <div style={{ height:4,borderRadius:100,background:'var(--border)',overflow:'hidden' }}>
+                  <div style={{ height:'100%',borderRadius:100,background: idlePaused ? 'var(--muted)' : 'var(--primary)',
+                    width:`${(idleCount/30)*100}%`,transition: idlePaused ? 'none' : 'width 1s linear' }} />
+                </div>
+                <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center' }}>
+                  고민된다면 룰렛에 맡겨요 — 지금 바로 돌리려면 <button onClick={()=>{setShowIdleBar(false);if(idleTimerRef.current)clearInterval(idleTimerRef.current);setShowRoulette(true)}} style={{background:'none',border:'none',color:'var(--primary)',fontWeight:700,cursor:'pointer',fontSize:'.7rem'}}>지금 돌리기 →</button>
+                </div>
+              </div>
+            )}
+
+            {/* ── 오늘의 픽 버튼 (결과 있을 때 항상 노출) ── */}
+            {!pickedIdx && !showRoulette && (
+              <div style={{ display:'flex',gap:8,marginBottom:14,alignItems:'center' }}>
+                <button
+                  onClick={()=>{
+                    if(idleTimerRef.current) clearInterval(idleTimerRef.current)
+                    if(idleBarRef.current) clearTimeout(idleBarRef.current)
+                    setShowIdleBar(false)
+                    setShowRoulette(true)
+                  }}
+                  style={{ flex:1,padding:'10px',borderRadius:10,background:'rgba(255,107,53,.08)',border:'1px solid rgba(255,107,53,.3)',color:'var(--primary)',fontSize:'.85rem',fontWeight:700,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',gap:6 }}>
+                  🎰 대신 골라줘
+                </button>
+                <button
+                  onClick={()=>{
+                    if(idleTimerRef.current) clearInterval(idleTimerRef.current)
+                    if(idleBarRef.current) clearTimeout(idleBarRef.current)
+                    setShowIdleBar(false)
+                    const idx = Math.floor(Math.random()*results.length)
+                    setPickedIdx(idx)
+                  }}
+                  style={{ flex:1,padding:'10px',borderRadius:10,background:'rgba(108,99,255,.08)',border:'1px solid rgba(108,99,255,.3)',color:'var(--accent)',fontSize:'.85rem',fontWeight:700,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center',gap:6 }}>
+                  🎯 오늘의 픽
+                </button>
+              </div>
+            )}
+
+            {/* ── pickedIdx: 픽 결과 강조 배너 ── */}
+            {pickedIdx !== null && (() => {
+              const pr = results[pickedIdx]
+              const prR = pr && (restaurants.find(x=>x.name===pr.restaurantName)||restaurants.find(x=>pr.restaurantName?.includes(x.name)||x.name?.includes(pr.restaurantName)))
+              return pr ? (
+                <div style={{ marginBottom:14,padding:'14px 16px',background:'rgba(255,107,53,.1)',border:'2px solid var(--primary)',borderRadius:12 }}>
+                  <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:4 }}>🎯 오늘의 픽</div>
+                  <div style={{ fontSize:'1rem',fontWeight:800,color:'var(--primary)',marginBottom:6 }}>
+                    {prR?.e} {pr.restaurantName}
+                  </div>
+                  <div style={{ display:'flex',gap:6,flexWrap:'wrap' }}>
+                    {prR && <a href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(prR.name)}`}
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                      ✅ 여기로 결정
+                    </a>}
+                    {prR && <a href={`https://map.naver.com/v5/search/${encodeURIComponent(prR.name + ' 영통')}`}
+                      target="_blank" rel="noopener noreferrer"
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                      📍 지도
+                    </a>}
+                    <button onClick={()=>setPickedIdx(null)}
+                      style={{ padding:'7px 14px',borderRadius:8,background:'none',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.8rem',cursor:'pointer' }}>
+                      다시 고르기
+                    </button>
+                  </div>
+                </div>
+              ) : null
+            })()}
+
+            {/* ── 상단 배너: 랜덤 / 외부검색 안내 ── */}
             {results[0]?._random && (
               <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(99,179,237,.07)',border:'1px solid rgba(99,179,237,.2)',borderRadius:10,textAlign:'center' }}>
                 {usedToday >= DAILY_LIMIT
@@ -1183,38 +1513,76 @@ ${compact}
                 }
               </div>
             )}
-            {showIdleBar && !showRoulette && (
-              <div style={{ marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10 }}>
-                <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6 }}>
-                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>
-                    {idlePaused ? `🎰 ${idleCount}초에서 멈춤` : `🎰 ${idleCount}초 후 대신 골라드릴게요`}
-                  </span>
-                  {idlePaused ? (
-                    <button onClick={()=>{ idlePausedRef.current=false; setIdlePaused(false); startIdleCountdown() }}
-                      style={{ fontSize:'.7rem',color:'var(--primary)',background:'rgba(255,107,53,.15)',border:'1px solid rgba(255,107,53,.3)',borderRadius:6,padding:'3px 10px',cursor:'pointer',fontWeight:700 }}>
-                      ▶ 카운트다운 시작
-                    </button>
-                  ) : (
-                    <button onClick={()=>{ idlePausedRef.current=true; setIdlePaused(true); clearInterval(idleTimerRef.current) }}
-                      style={{ fontSize:'.7rem',color:'var(--muted)',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:6,padding:'3px 10px',cursor:'pointer' }}>
-                      ✋ 괜찮아요
-                    </button>
-                  )}
-                </div>
-                <div style={{ height:4,borderRadius:100,background:'var(--border)',overflow:'hidden' }}>
-                  <div style={{ height:'100%',borderRadius:100,background:idlePaused?'var(--muted)':'var(--primary)',
-                    width:`${(idleCount/30)*100}%`,transition:idlePaused?'none':'width 1s linear' }} />
-                </div>
-                <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center' }}>
-                  고민된다면 룰렛에 맡겨요 —{' '}
-                  <button onClick={()=>{ setShowIdleBar(false); if(idleTimerRef.current) clearInterval(idleTimerRef.current); setShowRoulette(true) }}
-                    style={{background:'none',border:'none',color:'var(--primary)',fontWeight:700,cursor:'pointer',fontSize:'.7rem'}}>지금 돌리기 →</button>
-                </div>
+            {results[0]?._external && (
+              <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(108,99,255,.07)',border:'1px solid rgba(108,99,255,.25)',borderRadius:10 }}>
+                <div style={{ fontSize:'.78rem',fontWeight:700,color:'var(--accent)',marginBottom:2 }}>🔍 DB 외부 검색 결과</div>
+                <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>영통 커뮤니티·지도 앱에서 실시간 검색한 결과예요. 방문 전 영업 여부를 확인하세요.</div>
               </div>
             )}
-            <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',gap:12 }}>
-            {results.map((rec,i)=>{
-              const r = restaurants.find(x=>x.name===rec.restaurantName) || restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
+
+            {/* ── PC: 2컬럼 그리드 / 모바일: 1컬럼 ── */}
+            <div style={{
+              display:'grid',
+              gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',
+              gap:12,
+            }}>
+              {results.map((rec,i)=>{
+                const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
+                const accentColor = borders[i] || '#888'
+
+                // ── 외부 검색 결과 카드 ──
+                if (rec._external) {
+                  const naverUrl = `https://map.naver.com/v5/search/${encodeURIComponent(rec.restaurantName + ' 영통')}`
+                  // 3가지 형식 분기
+                  const cardStyle = [
+                    // 1번: 메뉴 중심 - 가격 뱃지 강조
+                    { bg:'var(--surface2)', accent:'var(--primary)', icon:'🍽️', label:'메뉴 추천' },
+                    // 2번: 분위기 중심 - accent 컬러
+                    { bg:'rgba(108,99,255,.06)', accent:'var(--accent)', icon:'✨', label:'분위기 픽' },
+                    // 3번: 평판 중심 - 중립 톤
+                    { bg:'rgba(99,179,237,.05)', accent:'#63b3ed', icon:'💬', label:'리뷰 추천' },
+                  ][i] || { bg:'var(--surface2)', accent:'var(--primary)', icon:'📍', label:'추천' }
+
+                  return (
+                    <a key={i} href={naverUrl} target="_blank" rel="noopener noreferrer"
+                      style={{ textDecoration:'none', color:'inherit', display:'block' }}>
+                      <div style={{ background:cardStyle.bg, border:`1px solid var(--border)`, borderLeft:`3px solid ${accentColor}`, borderRadius:14, padding:'16px 14px', cursor:'pointer', transition:'border-color .15s', height:'100%' }}
+                        onMouseEnter={e=>e.currentTarget.style.borderColor=accentColor}
+                        onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
+                        {/* 헤더 */}
+                        <div style={{ display:'flex', gap:10, marginBottom:10, alignItems:'flex-start' }}>
+                          <span style={{ fontSize:'1.3rem', flexShrink:0 }}>{medals[i]}</span>
+                          <div style={{ flex:1, minWidth:0 }}>
+                            <div style={{ display:'flex', alignItems:'center', gap:6, marginBottom:4, flexWrap:'wrap' }}>
+                              <span style={{ fontSize:'.95rem', fontWeight:700 }}>{rec.restaurantName}</span>
+                              <span style={{ fontSize:'.65rem', padding:'2px 7px', borderRadius:100, background:`${cardStyle.accent}22`, border:`1px solid ${cardStyle.accent}44`, color:cardStyle.accent, fontWeight:700 }}>{cardStyle.icon} {cardStyle.label}</span>
+                            </div>
+                            <div style={{ display:'flex', flexWrap:'wrap', gap:4 }}>
+                              {rec.priceInfo && <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--primary)' }}>💰 {rec.priceInfo}</span>}
+                              {rec.hours && <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--muted)' }}>🕐 {rec.hours}</span>}
+                            </div>
+                          </div>
+                        </div>
+                        {/* 본문 */}
+                        <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word' }}>{rec.reason}</p>
+                        {/* 하이라이트 */}
+                        {rec.reviewHighlight && (
+                          <div style={{ background:'var(--surface)', borderLeft:`3px solid ${cardStyle.accent}`, borderRadius:'0 8px 8px 0', padding:'7px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
+                            {cardStyle.icon} &ldquo;{rec.reviewHighlight}&rdquo;
+                          </div>
+                        )}
+                        {/* 푸터 */}
+                        <div style={{ display:'flex', gap:6, marginTop:8, alignItems:'center' }}>
+                          <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>📍 {rec.address || '영통 근처'}</span>
+                          <span style={{ marginLeft:'auto', fontSize:'.72rem', color:cardStyle.accent, opacity:.8 }}>지도에서 보기 →</span>
+                        </div>
+                      </div>
+                    </a>
+                  )
+                }
+
+                // ── DB 결과 카드 (기존) ──
+                const r = restaurants.find(x=>x.name===rec.restaurantName) || restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
               if (!r && !rec._notInDB) return null
               if (rec._notInDB && !r) {
                 // DB에 없는 식당 → 네이버지도 카드
@@ -1239,61 +1607,58 @@ ${compact}
                   </a>
                 )
               }
-              const medals=['🥇','🥈','🥉','🏅'], borders=['#ffd700','#c0c0c0','#cd7f32','#a0b0c0']
-              return (
-                <Link key={i} href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`}
-                  style={{ textDecoration:'none', display:'block', color:'inherit' }}>
-                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',cursor:'pointer',transition:'border-color .15s',height:'100%' }}
-                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
-                    onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
-                  >
-                    <div style={{ display:'flex',gap:10,marginBottom:8 }}>
-                      <span style={{ fontSize:'1.4rem',flexShrink:0 }}>{medals[i]}</span>
-                      <div style={{ flex:1,minWidth:0 }}>
-                        <div style={{ fontSize:'.95rem',fontWeight:700,marginBottom:5 }}>{r.e} {r.name}</div>
-                        <div style={{ display:'flex',flexWrap:'wrap',gap:4 }}>
-                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--muted)' }}>{r.type}</span>
-                          <span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--text)' }}>⭐{r.rt}</span>
-                          {r.priceRange&&<span style={{ fontSize:'.7rem',background:'var(--surface)',padding:'2px 7px',borderRadius:100,border:'1px solid var(--border)',color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
+                return (
+                  <Link key={i} href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`}
+                    style={{ textDecoration:'none', display:'block', color:'inherit' }}>
+                    <div style={{ background:'var(--surface2)', border:'1px solid var(--border)', borderLeft:`3px solid ${borders[i]}`, borderRadius:14, padding:'16px 14px', cursor:'pointer', transition:'all .2s', height:'100%', opacity:pickedIdx!==null&&pickedIdx!==i?0.35:1, transform:pickedIdx===i?'scale(1.01)':'scale(1)' }}
+                      onMouseEnter={e=>{ if(pickedIdx===null) e.currentTarget.style.borderColor=borders[i] }}
+                      onMouseLeave={e=>{ if(pickedIdx===null) e.currentTarget.style.borderColor='var(--border)' }}
+                    >
+                      <div style={{ display:'flex', gap:10, marginBottom:8 }}>
+                        <span style={{ fontSize:'1.4rem', flexShrink:0 }}>{medals[i]}</span>
+                        <div style={{ flex:1, minWidth:0 }}>
+                          <div style={{ fontSize:'.95rem', fontWeight:700, marginBottom:5 }}>{r.e} {r.name}</div>
+                          <div style={{ display:'flex', flexWrap:'wrap', gap:4 }}>
+                            <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--muted)' }}>{r.type}</span>
+                            <span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--text)' }}>⭐{r.rt}</span>
+                            {r.priceRange&&<span style={{ fontSize:'.7rem', background:'var(--surface)', padding:'2px 7px', borderRadius:100, border:'1px solid var(--border)', color:'var(--primary)' }}>💰{fmtPrice(r.priceRange)}원</span>}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <p style={{ fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9 }}>{rec.reason}</p>
-                    {rec.reviewHighlight&&(
-                      <div style={{ background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8 }}>
-                        💬 {`"${rec.reviewHighlight}"`}
+                      <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word', whiteSpace:'pre-line' }}>{rec.reason}</p>
+                      {rec.reviewHighlight&&(
+                        <div style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 8px 8px 0', padding:'8px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
+                          💬 &ldquo;{rec.reviewHighlight}&rdquo;
+                        </div>
+                      )}
+                      {/* ── DB 태그 섹션 ── */}
+                      <div style={{ display:'flex', flexWrap:'wrap', gap:4, marginBottom:8 }}>
+                        {(r.moods||[]).slice(0,3).map(m=>(
+                          <span key={m} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'rgba(108,99,255,.1)', border:'1px solid rgba(108,99,255,.2)', color:'var(--accent)' }}>{moodEmoji(m)}</span>
+                        ))}
+                        {(r.wx||[]).slice(0,2).map(w=>(
+                          <span key={w} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'rgba(56,189,248,.08)', border:'1px solid rgba(56,189,248,.2)', color:'#38bdf8' }}>{wxEmoji(w)}</span>
+                        ))}
+                        {(r.tags||[]).slice(0,3).map(t=>(
+                          <span key={t} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>#{t}</span>
+                        ))}
                       </div>
-                    )}
-                    {/* 태그 섹션 */}
-                    <div style={{ display:'flex',flexWrap:'wrap',gap:4,marginTop:6,marginBottom:6 }}>
-                      {(r.moods||[]).slice(0,2).map(m=>(
-                        <span key={m} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(5,150,105,.1)',border:'1px solid rgba(5,150,105,.2)',color:'#059669' }}>{moodEmoji(m)}</span>
-                      ))}
-                      {(r.wx||[]).slice(0,2).map(w=>(
-                        <span key={w} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(56,189,248,.08)',border:'1px solid rgba(56,189,248,.2)',color:'#38bdf8' }}>{wxEmoji(w)}</span>
-                      ))}
-                      {(r.tags||[]).slice(0,3).map(t=>(
-                        <span key={t} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>#{t}</span>
-                      ))}
+                      <div style={{ display:'flex', gap:6, marginTop:8, alignItems:'center' }}>
+                        <a href={naverMapUrl(r.name)}
+                          target="_blank" rel="noopener noreferrer"
+                          onClick={e=>e.stopPropagation()}
+                          style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)', textDecoration:'none', position:'relative', zIndex:1 }}>
+                          📍 지도
+                        </a>
+                        <span style={{ fontSize:'.75rem', padding:'5px 12px', borderRadius:8, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>
+                          🕐 {r.hours}
+                        </span>
+                        <span style={{ marginLeft:'auto', fontSize:'.72rem', color:'var(--muted)', opacity:.6 }}>상세보기 →</span>
+                      </div>
                     </div>
-                    {/* 영업시간 */}
-                    <div style={{ fontSize:'.75rem',color:'var(--muted)',padding:'5px 10px',background:'var(--surface)',borderRadius:8,border:'1px solid var(--border)' }}>
-                      🕐 {r.hours}
-                    </div>
-                    {/* 버튼 행 */}
-                    <div style={{ display:'flex',gap:6,marginTop:6,alignItems:'center' }}>
-                      <a href={naverMapUrl(r.name)}
-                        target="_blank" rel="noopener noreferrer"
-                        onClick={e=>e.stopPropagation()}
-                        style={{ fontSize:'.75rem',padding:'5px 14px',borderRadius:8,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)',textDecoration:'none',position:'relative',zIndex:1,flexShrink:0 }}>
-                        📍 지도
-                      </a>
-                      <span style={{ marginLeft:'auto',fontSize:'.75rem',padding:'5px 14px',borderRadius:8,background:'var(--primary)',color:'#fff',border:'none',opacity:.9 }}>상세보기 →</span>
-                    </div>
-                  </div>
-                </Link>
-              )
-            })}
+                  </Link>
+                )
+              })}
             </div>
           </div>
         )}
@@ -1304,9 +1669,9 @@ ${compact}
 
 // ── 전체 목록 탭 ─────────────────────────────────────────────
 function BrowseTab() {
-  const [search, s]      = useState('')
-  const [activeCat, ac]  = useState('전체')
-  const allCats = ['전체','고기구이','국밥','이자카야','일식','중식','양식','치킨','한식','분식']
+  const [search,s]       = useState('')
+  const [activeCat,ac]   = useState('전체')
+  const allCats = ['전체','고기구이','국밥','이자카야','일식','중식','양식','치킨','야장','족발보쌈','해산물','분식','한식']
   const filtered = restaurants.filter(r => {
     return (activeCat==='전체'||r.cat?.includes(activeCat)) &&
       (!search||r.name.includes(search)||r.type.includes(search)||r.tags?.some(t=>t.includes(search)))
@@ -1333,7 +1698,6 @@ function BrowseTab() {
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>
                 {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
-                {r.waiting&&r.waiting!=='바로 입장'&&<span className="tag" style={{color:'var(--muted)'}}>{r.waiting}</span>}
               </div>
               <div className="card-addr">📍 {r.addr}</div>
             </div>
@@ -1344,8 +1708,8 @@ function BrowseTab() {
   )
 }
 
-// ── 메인 ──────────────────────────────────────────────────────
-export default function JamsilPage() {
+// ── 메인 ─────────────────────────────────────────────────────
+export default function SamseongPage() {
   const [activeTab, setActiveTab] = useState(() => {
     if (typeof window !== 'undefined') return sessionStorage.getItem('yeongtong-tab') || 'ai'
     return 'ai'
@@ -1355,34 +1719,29 @@ export default function JamsilPage() {
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
-    <Layout
-      title="영통역 맛집 AI 추천"
-      description="영통역·삼성전자 인근 맛집 AI 추천. 고기구이·부대찌개·국밥·이자카야 맛집."
-      canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtong"
-    >
+    <Layout title="영통 맛집 AI 추천" description="영통·수원 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtong">
       <Head>
-        <title>영통 맛집 추천 | 삼성전자 영통 AI 추천 | 뭐먹지</title>
-        <meta name="description" content={`영통역·삼성전자 인근 맛집 AI 추천. 고기구이·부대찌개·국밥·이자카야 ${restaurants.length}개+ 식당.`} />
+        <title>영통 맛집 추천 | 코엑스·강남 AI 추천 | 오늘뭐먹지</title>
+        <meta name="description" content="영통 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context":"https://schema.org","@type":"ItemList","name":"영통역 맛집 추천",
+          "@context":"https://schema.org","@type":"ItemList","name":"영통 맛집 추천",
           "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtong","numberOfItems":restaurants.length,
           "itemListElement":topRated.slice(0,5).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"description":`${r.type} | ⭐${r.rt}` }))
         })}} />
       </Head>
 
-      {/* 히어로 */}
       <section style={{ background:'linear-gradient(135deg, var(--surface) 0%, var(--bg) 100%)',padding:'32px 16px 24px',borderBottom:'1px solid var(--border)' }}>
         <div style={{ maxWidth:900,margin:'0 auto' }}>
           <div style={{ fontSize:'.75rem',color:'var(--muted)',marginBottom:8 }}>
-            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 영통역
+            <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> › 영통
           </div>
-          <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🚇 영통역 맛집</h1>
+          <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🏙️ 영통 맛집</h1>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',marginBottom:14 }}>
-            영통역·먹자골목·삼성전자 인근 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
+            코엑스·파르나스·테헤란로 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
           </p>
           <div style={{ display:'flex',flexWrap:'wrap',gap:6 }}>
-            {['#회식', '#직장인점심', '#고기구이', '#부대찌개', '#영통맛집'].map(t=>(
+            {['#국밥','#한우','#이자카야','#중식','#회식','#4번출구'].map(t=>(
               <span key={t} style={{ fontSize:'.72rem',color:'var(--muted)',background:'var(--surface2)',padding:'3px 9px',borderRadius:100,border:'1px solid var(--border)' }}>{t}</span>
             ))}
           </div>
@@ -1390,7 +1749,6 @@ export default function JamsilPage() {
       </section>
 
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
-        {/* 탭 */}
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
           {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
             <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
@@ -1410,59 +1768,68 @@ export default function JamsilPage() {
         )}
         {activeTab==='browse' && <BrowseTab />}
         {activeTab==='categories' && (
-          <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(130px, 1fr))',gap:10,padding:'4px 0' }}>
-            {CATS.map(cat=>{
-              const count = restaurants.filter(r=>{
-                const catMatch = cat.cats.length > 0 && cat.cats.some(c=>r.cat?.includes(c))
-                const tagMatch = cat.tags?.some(t=>r.tags?.some(rt=>rt.includes(t))||r.cat?.some(c=>c.includes(t)))
-                return catMatch||tagMatch
-              }).length
-              return (
-                <div key={cat.slug} style={{ position:'relative' }}>
-                  <Link href={`/samsungElectronics/yeongtong/category/${cat.slug}`}>
-                    <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:12,padding:'14px 12px 44px',textAlign:'center',cursor:'pointer',transition:'border-color .15s' }}
-                      onMouseEnter={e=>e.currentTarget.style.borderColor='var(--primary)'}
-                      onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
-                      <div style={{ fontSize:'1.8rem',marginBottom:6 }}>{cat.emoji}</div>
-                      <div style={{ fontSize:'.82rem',fontWeight:600,marginBottom:3 }}>{cat.name}</div>
-                      <div style={{ fontSize:'.72rem',color:'var(--muted)' }}>{count}개</div>
-                    </div>
-                  </Link>
-                  <button
-                    onClick={e=>{ e.preventDefault(); setPendingCat(cat); switchTab('ai') }}
-                    style={{ position:'absolute',bottom:8,left:'50%',transform:'translateX(-50%)',
-                      padding:'4px 14px',borderRadius:8,fontSize:'.72rem',fontWeight:700,
-                      background:'var(--primary)',color:'#fff',border:'none',cursor:'pointer',
-                      whiteSpace:'nowrap',boxShadow:'0 2px 8px rgba(108,99,255,.3)' }}>
-                    🎲 바로 뽑기
-                  </button>
-                </div>
-              )
-            })}
+          <div>
+            <div style={{ fontSize:'.8rem',color:'var(--muted)',marginBottom:14,paddingTop:4 }}>
+              카테고리 포스팅 보기 &middot; <strong style={{color:'var(--primary)'}}>🎲 바로뽑기</strong>로 즉석 랜덤 추천
+            </div>
+            <div style={{
+              display:'grid',
+              gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))',
+              gap:12,
+            }}>
+              {CATS.map(cat=>{
+                const count = restaurants.filter(r=>
+                      cat.cats.some(c=>r.cat?.includes(c)) ||
+                      (cat.tags||[]).some(t=>r.tags?.includes(t))
+                    ).length
+                return (
+                  <div key={cat.slug} style={{
+                    background:'var(--surface)', border:'1px solid var(--border)',
+                    borderRadius:14, overflow:'hidden', display:'flex', flexDirection:'column',
+                    transition:'border-color .15s, box-shadow .15s',
+                  }}
+                    onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--primary)'; e.currentTarget.style.boxShadow='0 4px 16px rgba(255,107,53,.12)' }}
+                    onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.boxShadow='none' }}
+                  >
+                    <Link href={`/samsungElectronics/yeongtong/category/${cat.slug}`} style={{ display:'block', textDecoration:'none', color:'inherit', flex:1 }}>
+                      <div style={{ padding:'18px 16px 14px', display:'flex', alignItems:'center', gap:12 }}>
+                        <span style={{ fontSize:'2rem', lineHeight:1, flexShrink:0 }}>{cat.emoji}</span>
+                        <div>
+                          <div style={{ fontSize:'.9rem', fontWeight:700, marginBottom:2 }}>{cat.name}</div>
+                          <div style={{ fontSize:'.73rem', color:'var(--muted)' }}>{count}개 식당 &middot; 보기 →</div>
+                        </div>
+                      </div>
+                    </Link>
+                    <button
+                      onClick={()=>{ setPendingCat(cat); switchTab('ai') }}
+                      style={{
+                        width:'100%', padding:'10px',
+                        borderTop:'1px solid var(--border)',
+                        background:'rgba(255,107,53,.07)', border:'none', borderTop:'1px solid var(--border)',
+                        color:'var(--primary)', fontSize:'.8rem', fontWeight:700,
+                        cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center', gap:5,
+                        transition:'background .15s',
+                      }}
+                      onMouseEnter={e=>e.currentTarget.style.background='rgba(255,107,53,.18)'}
+                      onMouseLeave={e=>e.currentTarget.style.background='rgba(255,107,53,.07)'}
+                    >
+                      🎲 바로 뽑기
+                    </button>
+                  </div>
+                )
+              })}
+            </div>
           </div>
         )}
-
-        {/* SEO 콘텐츠 */}
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통역 맛집 가이드</h2>
+          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통 맛집 가이드</h2>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            영통역 맛집의 중심은 <strong style={{ color:'var(--text)' }}>영통역 먹자골목과 삼성전자 인근 상권</strong>입니다. 직장인 점심·회식 수요가 높아 가성비 한식부터 프리미엄 고기구이까지 다양한 선택지가 있습니다.
-          </p>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            <strong style={{ color:'var(--text)' }}>영통역 1번 출구</strong> 방향에는 국밥·부대찌개·칼국수 등 저렴하고 든든한 한식이 집중되어 있으며, 직장인 점심 피크타임에는 웨이팅이 생기는 맛집들이 즐비합니다.
+            영통 맛집은 코엑스몰, 파르나스타워, 현대백화점 무역센터 등 대형 상권과 테헤란로 골목의 숨은 맛집들이 공존합니다. 4번출구 방향에는 직장인 점심 맛집이 즐비하고, 코엑스 지하에는 다양한 레스토랑이 자리합니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            <strong style={{ color:'var(--text)' }}>삼성전자 영통캠퍼스 인근</strong>에는 고기구이·이자카야·중식 등 회식에 최적화된 맛집이 많습니다. 주차 가능한 대형 식당도 여럿 있어 법인카드 자리로 자주 이용됩니다.
+            회식 장소로는 웨어하우스43, 대도식당, 하이딜라오 훠궈 등이 인기이며, 가성비 점심을 찾는다면 중앙해장, 연화산 짬뽕, 리춍 중식당을 추천합니다.
           </p>
         </article>
-
-        {/* 다른 지역 링크 */}
-        <div style={{ marginTop:24,padding:'16px',background:'var(--surface)',borderRadius:12,border:'1px solid var(--border)',display:'flex',alignItems:'center',justifyContent:'space-between' }}>
-          <span style={{ fontSize:'.85rem',color:'var(--muted)' }}>🏙️ 삼성역·코엑스도 보고 싶다면?</span>
-          <Link href="/dinner/samseong" style={{ fontSize:'.82rem',color:'var(--primary)',textDecoration:'none',fontWeight:600 }}>
-            삼성역 맛집 →
-          </Link>
-        </div>
       </div>
     </Layout>
   )
