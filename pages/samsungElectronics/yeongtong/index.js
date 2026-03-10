@@ -769,6 +769,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const excludedRef = useRef(new Set())
   const resultsRef  = useRef(null)
   const [showIdleBar, setShowIdleBar] = useState(false)
+  const [showRoulette, setShowRoulette] = useState(false)
   const [idleCount,   setIdleCount]   = useState(30)
   const [idlePaused,  setIdlePaused]  = useState(false)
   const idleTimerRef  = useRef(null)
