@@ -913,8 +913,10 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
   const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
   const [idleCount,   setIdleCount]   = useState(30)     // 카운트다운
+  const [idlePaused,  setIdlePaused]  = useState(false)  // 일시정지
   const idleTimerRef  = useRef(null)
   const idleBarRef    = useRef(null)
+  const idlePausedRef = useRef(false)
 
   useEffect(() => {
     setUsedToday(getUsageCount())
@@ -987,24 +989,31 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   }, [])
 
   // ── idle 타이머: results 생기면 30초 후 카운트다운 바 표시 ──
+  function startIdleCountdown() {
+    idlePausedRef.current = false
+    setIdlePaused(false)
+    idleTimerRef.current = setInterval(() => {
+      if (idlePausedRef.current) return
+      setIdleCount(prev => {
+        if (prev <= 1) {
+          clearInterval(idleTimerRef.current)
+          setShowIdleBar(false)
+          setShowRoulette(true)
+          return 30
+        }
+        return prev - 1
+      })
+    }, 1000)
+  }
+
   useEffect(() => {
     if (idleTimerRef.current) { clearInterval(idleTimerRef.current); clearTimeout(idleBarRef.current) }
     if (!results || pickedIdx !== null || showRoulette) return
-    setShowIdleBar(false); setIdleCount(30)
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
     // 3초 뒤부터 카운트다운 바 표시
     idleBarRef.current = setTimeout(() => {
       setShowIdleBar(true)
-      idleTimerRef.current = setInterval(() => {
-        setIdleCount(prev => {
-          if (prev <= 1) {
-            clearInterval(idleTimerRef.current)
-            setShowIdleBar(false)
-            setShowRoulette(true)
-            return 30
-          }
-          return prev - 1
-        })
-      }, 1000)
+      startIdleCountdown()
     }, 3000)
     return () => {
       if (idleTimerRef.current) clearInterval(idleTimerRef.current)
@@ -1012,25 +1021,16 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
     }
   }, [results])
 
-  // 사용자 인터랙션 감지 → idle 타이머 리셋
+  // 사용자 인터랙션 감지 → idle 타이머 리셋 (IdleBar 표시 중엔 무시)
   function resetIdle() {
     if (!results || pickedIdx !== null || showRoulette) return
+    if (showIdleBar) return  // ← IdleBar 표시 중엔 마우스로 사라지지 않음
     if (idleTimerRef.current) clearInterval(idleTimerRef.current)
     if (idleBarRef.current) clearTimeout(idleBarRef.current)
-    setShowIdleBar(false); setIdleCount(30)
+    setShowIdleBar(false); setIdleCount(30); idlePausedRef.current = false; setIdlePaused(false)
     idleBarRef.current = setTimeout(() => {
       setShowIdleBar(true)
-      idleTimerRef.current = setInterval(() => {
-        setIdleCount(prev => {
-          if (prev <= 1) {
-            clearInterval(idleTimerRef.current)
-            setShowIdleBar(false)
-            setShowRoulette(true)
-            return 30
-          }
-          return prev - 1
-        })
-      }, 1000)
+      startIdleCountdown()
     }, 3000)
   }
 
@@ -1207,16 +1207,16 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
 
       // 이전 결과 제외 후 스코어링
       const pool = filterExcluded(base)
-      // top20 스코어링 후 → 매번 다른 6개 뽑기 (로테이션으로 다양성 확보)
+      // top20 스코어링 후 → 매번 다른 4개 뽑기 (로테이션으로 다양성 확보)
       const scored = preScore(ctx, moods, weather, pool, selectedCat)
       const top20 = scored.slice(0, 20)
-      // 상위 8개 중 3개 고정(최고점) + 나머지 풀에서 랜덤 3개 → 매번 다른 조합
-      const fixed3 = top20.slice(0, 3)
-      const rest = top20.slice(3)
-      const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,5)
-      const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
+      // 상위 2개 고정(최고점) + 나머지 풀에서 랜덤 2개 → 총 4개
+      const fixed2 = top20.slice(0, 2)
+      const rest = top20.slice(2)
+      const rand2 = [...rest].sort(()=>Math.random()-0.5).slice(0,2)
+      const top4 = [...fixed2, ...rand2].sort(()=>Math.random()-0.5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
-      const compact = top6.map((r, idx) => {
+      const compact = top4.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
         const tags = (r.tags||[]).slice(0,4).join(' ')
         return `[${idx+1}]${r.name} ${r.type} ${r.priceRange||''}원 ${r.hours||''}\n  태그:${tags}${rv0?'\n'+rv0:''}`
@@ -1226,11 +1226,13 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
             const prompt = [
-        '삼성역 맛집 큐레이터. 후보 중 3곳 추천.',
+        '삼성역 맛집 큐레이터. 후보 중 정확히 3곳 추천.',
         '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
-        '규칙: JSON만 출력. reason은 2문장 40자이내, highlight 10자이내, 각 다른 매력 포인트.',
+        '규칙: JSON만 출력. 정확히 3개. reason은 2문장 60자이내. 검색어 그대로 복붙 금지 — 의도를 파악해 자연스러운 표현으로.',
+        'rank1: 요청자 상황·감정에 공감하는 감성적 문체. rank2: 메뉴·가격·위치 중심 실용적 문체. rank3: 이 식당만의 독특한 매력 부각.',
+        'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
         '출력형식: {"recommendations":[{"rank":1,"restaurantName":"후보이름","reason":"2문장","highlight":"10자"},{"rank":2,...},{"rank":3,...}]}'
       ].join('\n')
 
@@ -1406,13 +1408,32 @@ const usageCnt = getUsageCount()
             {showIdleBar && !pickedIdx && !showRoulette && (
               <div style={{ marginBottom:12,padding:'10px 14px',background:'rgba(255,107,53,.07)',border:'1px solid rgba(255,107,53,.2)',borderRadius:10 }}>
                 <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',marginBottom:6 }}>
-                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>🎰 {idleCount}초 후 대신 골라드릴게요</span>
-                  <button onClick={()=>{ setShowIdleBar(false); if(idleTimerRef.current) clearInterval(idleTimerRef.current) }}
-                    style={{ fontSize:'.7rem',color:'var(--muted)',background:'none',border:'none',cursor:'pointer' }}>✕</button>
+                  <span style={{ fontSize:'.78rem',fontWeight:700,color:'var(--primary)' }}>
+                    🎰 {idlePaused ? `${idleCount}초에서 멈춤` : `${idleCount}초 후 대신 골라드릴게요`}
+                  </span>
+                  {idlePaused ? (
+                    <button onClick={()=>{
+                        idlePausedRef.current = false
+                        setIdlePaused(false)
+                        startIdleCountdown()
+                      }}
+                      style={{ fontSize:'.7rem',color:'var(--primary)',background:'rgba(255,107,53,.15)',border:'1px solid rgba(255,107,53,.3)',borderRadius:6,padding:'3px 10px',cursor:'pointer',fontWeight:700 }}>
+                      ▶ 카운트다운 시작
+                    </button>
+                  ) : (
+                    <button onClick={()=>{
+                        idlePausedRef.current = true
+                        setIdlePaused(true)
+                        clearInterval(idleTimerRef.current)
+                      }}
+                      style={{ fontSize:'.7rem',color:'var(--muted)',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:6,padding:'3px 10px',cursor:'pointer' }}>
+                      ✋ 괜찮아요
+                    </button>
+                  )}
                 </div>
                 <div style={{ height:4,borderRadius:100,background:'var(--border)',overflow:'hidden' }}>
-                  <div style={{ height:'100%',borderRadius:100,background:'var(--primary)',
-                    width:`${(idleCount/30)*100}%`,transition:'width 1s linear' }} />
+                  <div style={{ height:'100%',borderRadius:100,background: idlePaused ? 'var(--muted)' : 'var(--primary)',
+                    width:`${(idleCount/30)*100}%`,transition: idlePaused ? 'none' : 'width 1s linear' }} />
                 </div>
                 <div style={{ fontSize:'.7rem',color:'var(--muted)',marginTop:5,textAlign:'center' }}>
                   고민된다면 룰렛에 맡겨요 — 지금 바로 돌리려면 <button onClick={()=>{setShowIdleBar(false);if(idleTimerRef.current)clearInterval(idleTimerRef.current);setShowRoulette(true)}} style={{background:'none',border:'none',color:'var(--primary)',fontWeight:700,cursor:'pointer',fontSize:'.7rem'}}>지금 돌리기 →</button>
@@ -1583,6 +1604,18 @@ const usageCnt = getUsageCount()
                           💬 &ldquo;{rec.reviewHighlight}&rdquo;
                         </div>
                       )}
+                      {/* ── DB 태그 섹션 ── */}
+                      <div style={{ display:'flex', flexWrap:'wrap', gap:4, marginBottom:8 }}>
+                        {(r.moods||[]).slice(0,3).map(m=>(
+                          <span key={m} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'rgba(108,99,255,.1)', border:'1px solid rgba(108,99,255,.2)', color:'var(--accent)' }}>😊 {m}</span>
+                        ))}
+                        {(r.wx||[]).slice(0,2).map(w=>(
+                          <span key={w} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'rgba(56,189,248,.08)', border:'1px solid rgba(56,189,248,.2)', color:'#38bdf8' }}>🌤️ {w}</span>
+                        ))}
+                        {(r.tags||[]).slice(0,3).map(t=>(
+                          <span key={t} style={{ fontSize:'.66rem', padding:'2px 7px', borderRadius:100, background:'var(--surface)', border:'1px solid var(--border)', color:'var(--muted)' }}>#{t}</span>
+                        ))}
+                      </div>
                       <div style={{ display:'flex', gap:6, marginTop:8, alignItems:'center' }}>
                         <a href={naverMapUrl(r.name)}
                           target="_blank" rel="noopener noreferrer"

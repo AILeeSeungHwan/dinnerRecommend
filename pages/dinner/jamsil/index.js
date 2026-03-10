@@ -984,7 +984,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const rest = top20.slice(3)
       const rand3 = [...rest].sort(()=>Math.random()-0.5).slice(0,5)
       const top6 = [...fixed3, ...rand3].sort(()=>Math.random()-0.5)
-      const compact = top6.map((r, idx) => {
+      const compact = top4.map((r, idx) => {
         const rvLines = (r.rv || []).slice(0, 3)
           .map(v => '  · ' + v.replace(/"/g, '\u2019').slice(0, 50))
           .join('\n')
@@ -1182,16 +1182,17 @@ ${compact}
                 }
               </div>
             )}
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))', gap:12 }}>
             {results.map((rec,i)=>{
               const r = restaurants.find(x=>x.name===rec.restaurantName)
                      || restaurants.find(x=>rec.restaurantName?.includes(x.name) || x.name?.includes(rec.restaurantName))
               if (!r) return null
-              const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
+              const medals=['🥇','🥈','🥉','🏅'], borders=['#ffd700','#c0c0c0','#cd7f32','#a0b0c0']
               return (
                 <Link key={i} href={`/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`}
                   style={{ textDecoration:'none', display:'block', color:'inherit' }}>
-                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s' }}
-                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
+                  <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]||'#888'}`,borderRadius:14,padding:'16px 14px',cursor:'pointer',transition:'border-color .15s',height:'100%' }}
+                    onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]||'#888'}
                     onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}
                   >
                     <div style={{ display:'flex',gap:10,marginBottom:8 }}>
@@ -1211,6 +1212,18 @@ ${compact}
                         💬 &ldquo;{rec.reviewHighlight}&rdquo;
                       </div>
                     )}
+                    {/* ── 태그 섹션 ── */}
+                    <div style={{ display:'flex',flexWrap:'wrap',gap:4,marginBottom:8 }}>
+                      {(r.moods||[]).slice(0,2).map(m=>(
+                        <span key={m} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(255,140,32,.1)',border:'1px solid rgba(255,140,32,.2)',color:'#ff8c20' }}>😊 {m}</span>
+                      ))}
+                      {(r.wx||[]).slice(0,2).map(w=>(
+                        <span key={w} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(56,189,248,.08)',border:'1px solid rgba(56,189,248,.2)',color:'#38bdf8' }}>🌤️ {w}</span>
+                      ))}
+                      {(r.tags||[]).slice(0,3).map(t=>(
+                        <span key={t} style={{ fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)' }}>#{t}</span>
+                      ))}
+                    </div>
                     <div style={{ display:'flex',gap:6,marginTop:8,alignItems:'center' }}>
                       <a href={naverMapUrl(r.name)}
                         target="_blank" rel="noopener noreferrer"
@@ -1227,6 +1240,7 @@ ${compact}
                 </Link>
               )
             })}
+            </div>
           </div>
         )}
       </div>

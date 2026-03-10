@@ -132,6 +132,12 @@ const THEMES = [
     gradient: 'linear-gradient(160deg, #0e0804 0%, #1c1006 50%, #0e0a04 100%)',
     headerGrad: 'linear-gradient(90deg, rgba(26,16,6,.98), rgba(14,10,4,.98))',
   },
+  // ── 시즌 ────────────────────────────────────────────────────
+  {
+    id:'spring', name:'봄 벚꽃', emoji:'🌸', font:'clean', group:'시즌',
+    vars:{ bg:'#fef0f5', surface:'#ffffff', surface2:'#fde8f0', border:'#f4c2d4', text:'#1a0812', muted:'#7a3858', primary:'#c0335a', accent:'#8b1a40' },
+    isSpring: true,
+  },
   // ── 글로우 ─────────────────────────────────────────────────
   {
     id:'glow-orange', name:'글로우🔥', emoji:'🔥', font:'default', group:'글로우',
@@ -547,6 +553,46 @@ export default function Layout({ children, title, description, canonical }) {
       </header>
 
       <main>{children}</main>
+
+      {/* ── 봄 벚꽃 애니메이션 ── */}
+      {ct.isSpring && mounted && (
+        <style>{`
+          @keyframes sakura-fall {
+            0%   { transform: translateY(-20px) rotate(0deg);   opacity: 0; }
+            5%   { opacity: .85; }
+            85%  { opacity: .7; }
+            100% { transform: translateY(105vh) rotate(360deg); opacity: 0; }
+          }
+          .sakura-petal {
+            position: fixed;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            border-radius: 80% 0 80% 0;
+            background: linear-gradient(135deg, #ffb7cc, #ff8aad);
+            box-shadow: 0 2px 6px rgba(255,100,150,.25);
+            pointer-events: none;
+            z-index: 9999;
+            animation: sakura-fall linear infinite;
+          }
+        `}</style>
+      )}
+      {ct.isSpring && mounted && Array.from({length:18}).map((_,i) => (
+        <div key={i} className="sakura-petal" style={{
+          left: `${(i * 5.8 + 2) % 100}%`,
+          animationDuration: `${6 + (i * 1.3) % 7}s`,
+          animationDelay: `${(i * 0.7) % 6}s`,
+          width: `${10 + (i % 3) * 4}px`,
+          height: `${10 + (i % 3) * 4}px`,
+          opacity: 0.7 + (i % 3) * 0.1,
+          transform: `rotate(${i * 23}deg)`,
+          background: i % 3 === 0
+            ? 'linear-gradient(135deg, #ffd6e7, #ffb3cc)'
+            : i % 3 === 1
+            ? 'linear-gradient(135deg, #ffb3cc, #ff85aa)'
+            : 'linear-gradient(135deg, #ffe0ec, #ffc8d8)',
+        }} />
+      ))}
 
       {/* ── 푸터 ── */}
       <footer style={{ borderTop:'1px solid var(--border)', padding:'32px 16px 28px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>

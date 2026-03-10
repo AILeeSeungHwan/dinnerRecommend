@@ -499,11 +499,11 @@ function AiApp({pendingCat,onPendingCatUsed}) {
       const pool=filterExcluded(base)
       const scored=preScore(ctx,moods,weather,pool,selectedCat)
       const top20=scored.slice(0,20)
-      const fixed3=top20.slice(0,3)
-      const rest=top20.slice(3)
-      const rand3=[...rest].sort(()=>Math.random()-0.5).slice(0,3)
-      const top6=[...fixed3,...rand3].sort(()=>Math.random()-0.5)
-      const compact=top6.map(r=>{
+      const fixed2=top20.slice(0,2)
+      const rest=top20.slice(2)
+      const rand2=[...rest].sort(()=>Math.random()-0.5).slice(0,2)
+      const top4=[...fixed2,...rand2].sort(()=>Math.random()-0.5)
+      const compact=top4.map(r=>{
         const rvSnippet=(r.rv||[]).slice(0,2).map(v=>v.replace(/^\[.*?\u2605\]\s*/,'').replace(/"/g,'\u2019').slice(0,50)).join(' / ')
         const moodStr=(r.moods||[]).slice(0,3).join('·')
         const tagsStr=(r.tags||[]).slice(0,5).join('/')
@@ -588,13 +588,14 @@ function AiApp({pendingCat,onPendingCatUsed}) {
                 }
               </div>
             )}
+            <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill, minmax(min(100%, 400px), 1fr))',gap:12}}>
             {results.map((rec,i)=>{
               const r=restaurants.find(x=>x.name===rec.restaurantName)||restaurants.find(x=>rec.restaurantName?.includes(x.name)||x.name?.includes(rec.restaurantName))
               if(!r) return null
-              const medals=['🥇','🥈','🥉'], borders=['#ffd700','#c0c0c0','#cd7f32']
+              const medals=['🥇','🥈','🥉','🏅'], borders=['#ffd700','#c0c0c0','#cd7f32','#a0b0c0']
               return (
                 <Link key={i} href={`/pangyo/restaurant/${encodeURIComponent(r.name)}`} style={{textDecoration:'none',display:'block',color:'inherit'}}>
-                  <div style={{background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',marginBottom:12,cursor:'pointer',transition:'border-color .15s'}}
+                  <div style={{background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]}`,borderRadius:14,padding:'16px 14px',cursor:'pointer',transition:'border-color .15s',height:'100%'}}
                     onMouseEnter={e=>e.currentTarget.style.borderColor=borders[i]}
                     onMouseLeave={e=>e.currentTarget.style.borderColor='var(--border)'}>
                     <div style={{display:'flex',gap:10,marginBottom:8}}>
@@ -610,8 +611,20 @@ function AiApp({pendingCat,onPendingCatUsed}) {
                     </div>
                     <p style={{fontSize:'.84rem',color:'var(--text)',marginBottom:rec.reviewHighlight?8:0,lineHeight:1.65,opacity:.9}}>{rec.reason}</p>
                     {rec.reviewHighlight&&(<div style={{background:'var(--surface)',borderLeft:'3px solid var(--primary)',borderRadius:'0 8px 8px 0',padding:'7px 11px',fontSize:'.78rem',color:'var(--muted)',marginBottom:8}}>💬 {`"${rec.reviewHighlight}"`}</div>)}
+                    {/* 태그 섹션 */}
+                    <div style={{display:'flex',flexWrap:'wrap',gap:4,marginTop:6,marginBottom:6}}>
+                      {(r.moods||[]).slice(0,2).map(m=>(
+                        <span key={m} style={{fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(108,63,212,.1)',border:'1px solid rgba(108,63,212,.2)',color:'#6c3fd4'}}>😊 {m}</span>
+                      ))}
+                      {(r.wx||[]).slice(0,2).map(w=>(
+                        <span key={w} style={{fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'rgba(56,189,248,.08)',border:'1px solid rgba(56,189,248,.2)',color:'#38bdf8'}}>🌤️ {w}</span>
+                      ))}
+                      {(r.tags||[]).slice(0,3).map(t=>(
+                        <span key={t} style={{fontSize:'.66rem',padding:'2px 7px',borderRadius:100,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--muted)'}}>#{t}</span>
+                      ))}
+                    </div>
                     {/* 영업시간 */}
-                    <div style={{fontSize:'.75rem',color:'var(--muted)',marginTop:8,padding:'5px 10px',background:'var(--surface)',borderRadius:8,border:'1px solid var(--border)'}}>
+                    <div style={{fontSize:'.75rem',color:'var(--muted)',padding:'5px 10px',background:'var(--surface)',borderRadius:8,border:'1px solid var(--border)'}}>
                       🕐 {r.hours}
                     </div>
                     {/* 버튼 행 */}
@@ -623,6 +636,7 @@ function AiApp({pendingCat,onPendingCatUsed}) {
                 </Link>
               )
             })}
+            </div>
           </div>
         )}
       </div>

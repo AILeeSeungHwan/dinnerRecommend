@@ -6,10 +6,10 @@ export default async function handler(req, res) {
 
   const MODEL = 'claude-haiku-4-5-20251001'
 
-  // 사용 횟수별 max_tokens 분기
+  // 7원 수준: 입력 약 800토큰 × 0.8$/M + 출력 약 700토큰 × 4$/M ≈ 7원
+  // max_tokens 700~800으로 이성/감성 분리된 3개 결과를 충분히 담음
   const count = parseInt(usageCount) || 0
-  // 2문장 * 40자 * 3개 = 240자 ≈ 360 tokens + JSON 구조 = 500 토큰으로 충분
-  const maxTokens = count >= 3 ? 400 : 500
+  const maxTokens = count >= 3 ? 700 : 800
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -26,7 +26,6 @@ export default async function handler(req, res) {
       })
     })
 
-    // API 키 없음 / 모델명 오류 / 크레딧 소진 등 모두 여기서 잡힘
     if (!response.ok) {
       let errBody = {}
       try { errBody = await response.json() } catch { errBody = { raw: await response.text().catch(()=>'') } }
@@ -34,7 +33,6 @@ export default async function handler(req, res) {
       const errMsg  = errBody?.error?.message || JSON.stringify(errBody).slice(0, 150)
       console.error(`Anthropic API ${response.status} [${errType}]:`, errMsg)
 
-      // 사용자에게 보여줄 메시지
       let userMsg = `API 오류 (${response.status})`
       if (response.status === 401) userMsg = 'API 키 오류 — 환경변수를 확인하세요'
       else if (response.status === 404) userMsg = `모델을 찾을 수 없어요 (${MODEL})`
@@ -48,7 +46,6 @@ export default async function handler(req, res) {
     const data = await response.json()
     const text = (data.content || []).map(i => i.text || '').join('')
 
-    // ── JSON 추출 ──
     const cleaned = text.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim()
     const start = cleaned.indexOf('{')
     const end   = cleaned.lastIndexOf('}')
@@ -58,23 +55,19 @@ export default async function handler(req, res) {
     }
     const jsonStr = cleaned.slice(start, end + 1)
 
-    // ── 1차: 직접 파싱 ──
     let parsed
     try {
       parsed = JSON.parse(jsonStr)
     } catch (e1) {
-      // ── 2차: 따옴표 교체 후 재파싱 ──
-      const fixed = jsonStr.replace(/"(reason|reviewHighlight)"\s*:\s*"((?:[^"\\]|\\.)*)"/g, (_, key, val) =>
+      const fixed = jsonStr.replace(/"(reason|reviewHighlight|highlight)"\s*:\s*"((?:[^"\\]|\\.)*)"/g, (_, key, val) =>
         `"${key}": "${val.replace(/(?<!\\)"/g, "'")}"`)
       try {
         parsed = JSON.parse(fixed)
       } catch (e2) {
-        // ── 3차: regex 직접 추출 ──
         const names = [...jsonStr.matchAll(/"restaurantName"\s*:\s*"([^"]+)"/g)].map(m => m[1])
-        const reasons = [...jsonStr.matchAll(/"reason"\s*:\s*"((?:[^"\\]|\\.){0,400})"/g)].map(m => m[1])
-        const highlights = [...jsonStr.matchAll(/"reviewHighlight"\s*:\s*"([^"]{0,40})"/g)].map(m => m[1])
+        const reasons = [...jsonStr.matchAll(/"reason"\s*:\s*"((?:[^"\\]|\\.){0,500})"/g)].map(m => m[1])
+        const highlights = [...jsonStr.matchAll(/"(?:reviewHighlight|highlight)"\s*:\s*"([^"]{0,50})"/g)].map(m => m[1])
         const ranks = [...jsonStr.matchAll(/"rank"\s*:\s*(\d)/g)].map(m => parseInt(m[1]))
-
         if (names.length === 0) {
           console.error('All parse failed:', jsonStr.slice(0, 200))
           return res.status(502).json({ error: `JSON 파싱 실패: ${e2.message.slice(0,60)}` })
@@ -90,7 +83,6 @@ export default async function handler(req, res) {
       return res.status(502).json({ error: 'recommendations 배열이 비어있어요' })
     }
 
-    // highlight → reviewHighlight 정규화 (프롬프트 축소로 필드명 변경 대응)
     const recs = parsed.recommendations.map(r => ({
       ...r,
       reviewHighlight: r.reviewHighlight || r.highlight || ''
