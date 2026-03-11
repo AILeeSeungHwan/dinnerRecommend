@@ -520,9 +520,7 @@ function naverMapUrl(name) {
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const hasRegion = /(잠실|방이|송파|석촌|롯데월드|올림픽공원)/.test(name)
-  const query = hasRegion ? cleaned : cleaned + ' 잠실'
-  return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
+  return `https://map.naver.com/v5/search/${encodeURIComponent(cleaned + ' 잠실')}`
 }
 
 function DiceOverlay({ onDone }) {
@@ -1495,7 +1493,7 @@ const usageCnt = getUsageCount()
             const prompt = [
         (skipDbCheckRef.current && lastNoDataMenuRef.current
           ? `잠실 맛집 추천. 사용자가 원래 "${lastNoDataMenuRef.current}"을 찾았으나 DB에 없어 연관 매장을 추천함. 각 reason에서 반드시 "${lastNoDataMenuRef.current}과 비슷한 이유" 또는 "${lastNoDataMenuRef.current} 대신 이 집을 추천하는 이유"를 자연스럽게 녹여줘. 단순 나열 금지.`
-          : '잠실 맛집 추천. 검색자의 진짜 의도를 파악해서 후보 중 딱 맞는 3곳 골라줘. 단순 나열 금지—상황과 감정에 맞게 큐레이션.'),
+          : '잠실 맛집 추천. 오늘 무엇을 원하는지 맥락을 파악해서 후보 중 딱 맞는 3곳 골라줘. 단순 나열 금지—상황과 감정에 맞게 큐레이션. reason에 "검색자"라는 단어 절대 금지.'),
         '요청:'+(ctx_full||'없음')+(filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
@@ -2104,7 +2102,7 @@ export default function SamseongPage() {
                       </div>
                     </Link>
                     <button
-                      onClick={()=>{ setPendingCat(cat); switchTab('ai') }}
+                      onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} setPendingCat(cat); switchTab('ai') }}
                       style={{
                         width:'100%', padding:'10px',
                         borderTop:'1px solid var(--border)',

@@ -2060,7 +2060,7 @@ const restaurants = [
   exit4: false
 },
 {
-  name: '백녀가 삼성점',
+  name: '백년가야',
   type: '한우·코스BBQ',
   priceRange: '25000~50000',
   cat: ['고기구이', '한식'],
