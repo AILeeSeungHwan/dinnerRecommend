@@ -897,21 +897,22 @@ function NoDataModal({ menuKeyword, onContinue, onClose }) {
     <div style={{ position:'fixed',inset:0,zIndex:500,background:'rgba(0,0,0,.85)',backdropFilter:'blur(12px)',display:'flex',alignItems:'center',justifyContent:'center',padding:'0 16px' }}
       onClick={e=>{ if(e.target===e.currentTarget) onClose() }}>
       <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:24,padding:'32px 24px',maxWidth:340,width:'100%',textAlign:'center',boxShadow:'0 24px 64px rgba(0,0,0,.7)' }}>
-        <div style={{ fontSize:'3.2rem',marginBottom:12 }}>🔍</div>
+        <div style={{ fontSize:'3.2rem',marginBottom:12 }}>🍽️</div>
         <div style={{ fontSize:'1rem',fontWeight:900,color:'var(--text)',marginBottom:8,lineHeight:1.4 }}>
-          아직 v0.1이에요
+          아직 등록된 <strong style={{ color:'var(--primary)' }}>{menuKeyword}</strong> 매장이 없어요
         </div>
         <div style={{ fontSize:'.86rem',color:'var(--muted)',marginBottom:6,lineHeight:1.75 }}>
-          <strong style={{ color:'var(--primary)' }}>{menuKeyword}</strong> 데이터가 아직 부족해요.{' '}
-          API 연동 전까지는 데이터가 제한적이랍니다 🙏
+          더 많은 매장을 계속 추가하고 있어요 🙏<br/>
+          지금은 <strong style={{ color:'var(--primary)' }}>{menuKeyword}</strong>과 어울리는<br/>
+          비슷한 분위기·메뉴의 매장을 추천해 드릴게요.
         </div>
         <div style={{ fontSize:'.78rem',padding:'10px 14px',background:'rgba(108,99,255,.07)',border:'1px solid rgba(108,99,255,.2)',borderRadius:10,color:'var(--accent)',marginBottom:20,lineHeight:1.6 }}>
-          연관된 매장들을 대신 보여드릴게요
+          ✨ 취향에 맞을 연관 매장을 찾아볼게요
         </div>
         <div style={{ display:'flex',flexDirection:'column',gap:8 }}>
           <button onClick={onContinue}
             style={{ padding:'13px',borderRadius:12,background:'var(--primary)',color:'#fff',border:'none',fontSize:'.9rem',fontWeight:700,cursor:'pointer' }}>
-            연관 매장 보기
+            연관 매장 추천받기
           </button>
           <button onClick={onClose}
             style={{ padding:'12px',borderRadius:12,background:'var(--surface2)',color:'var(--muted)',border:'1px solid var(--border)',fontSize:'.86rem',cursor:'pointer' }}>
@@ -1156,6 +1157,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [isMounted,   setIsMounted]  = useState(false)
   const excludedRef   = useRef(new Set())
   const skipDbCheckRef = useRef(false)  // noDataMenu 재진입 방지
+  const lastNoDataMenuRef = useRef(null) // 연관추천 시 원래 검색어 보존
   const resultsRef    = useRef(null)
   // ── 픽·룰렛 state ──
   const [pickedIdx,   setPickedIdx]   = useState(null)   // 오늘의 픽 강조 인덱스
@@ -1378,6 +1380,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   // ── AI 추천 (횟수 체크 포함) ──
   function handleNoDataContinue() {
     skipDbCheckRef.current = true
+    lastNoDataMenuRef.current = noDataMenu  // 원래 검색어 저장
     setNoDataMenu(null)
     setTimeout(() => getRecommendations(), 0)  // state flush 후 실행
   }
@@ -1496,7 +1499,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, exit4Only&&'4번출구근처', selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
             const prompt = [
-        '삼성역 맛집 추천. 검색자의 진짜 의도를 파악해서 후보 중 딱 맞는 3곳 골라줘. 단순 나열 금지—상황과 감정에 맞게 큐레이션.',
+        (skipDbCheckRef.current && lastNoDataMenuRef.current
+          ? `삼성역 맛집 추천. 사용자가 원래 "${lastNoDataMenuRef.current}"을 찾았으나 DB에 없어 연관 매장을 추천함. 각 reason에서 반드시 "${lastNoDataMenuRef.current}과 비슷한 이유" 또는 "${lastNoDataMenuRef.current} 대신 이 집을 추천하는 이유"를 자연스럽게 녹여줘. 단순 나열 금지.`
+          : '삼성역 맛집 추천. 검색자의 진짜 의도를 파악해서 후보 중 딱 맞는 3곳 골라줘. 단순 나열 금지—상황과 감정에 맞게 큐레이션.'),
         '요청:'+(ctx_full||'없음')+(filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
@@ -1805,7 +1810,17 @@ const usageCnt = getUsageCount()
               ) : null
             })()}
 
-            {/* ── 상단 배너: 랜덤 / 외부검색 안내 ── */}
+            {/* ── 상단 배너: 연관추천 / 랜덤 / 외부검색 안내 ── */}
+            {lastNoDataMenuRef.current && !results[0]?._random && (
+              <div style={{ marginBottom:14,padding:'12px 16px',background:'rgba(108,99,255,.07)',border:'1px solid rgba(108,99,255,.25)',borderRadius:10 }}>
+                <div style={{ fontSize:'.8rem',fontWeight:700,color:'var(--accent)',marginBottom:4 }}>
+                  🔗 <strong style={{ color:'var(--primary)' }}>{lastNoDataMenuRef.current}</strong>과 어울리는 연관 매장이에요
+                </div>
+                <div style={{ fontSize:'.72rem',color:'var(--muted)',lineHeight:1.6 }}>
+                  아직 등록된 {lastNoDataMenuRef.current} 매장이 없어 비슷한 분위기·메뉴의 곳들을 선별했어요.
+                </div>
+              </div>
+            )}
             {results[0]?._random && (
               <div style={{ marginBottom:14,padding:'10px 14px',background:'rgba(99,179,237,.07)',border:'1px solid rgba(99,179,237,.2)',borderRadius:10,textAlign:'center' }}>
                 {usedToday >= DAILY_LIMIT
