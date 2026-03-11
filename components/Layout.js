@@ -20,10 +20,6 @@ const THEMES = [
     id:'light', name:'라이트', emoji:'☀️', font:'clean', group:'메인',
     vars:{ bg:'#f8f8fa', surface:'#ffffff', surface2:'#f2f2f7', border:'#e0e0eb', text:'#191922', muted:'#6b6b80', primary:'#e05a1e', accent:'#4a3cde' },
   },
-  {
-    id:'lavender', name:'라벤더', emoji:'💜', font:'rounded', group:'라이트',
-    vars:{ bg:'#f4f0ff', surface:'#faf8ff', surface2:'#ece8ff', border:'#ccc0f0', text:'#1a1030', muted:'#7060a0', primary:'#6c3fd4', accent:'#e040a0' },
-  },
   // ── GRADIENT ───────────────────────────────────────────────
   {
     id:'aurora-grad', name:'오로라', emoji:'🌌', font:'display', group:'그라디언트',
@@ -84,37 +80,34 @@ const THEMES = [
     id:'jade', name:'제이드', emoji:'🍃', font:'default', group:'다크',
     vars:{ bg:'#040a06', surface:'#081410', surface2:'#0c1a14', border:'#122a1e', text:'#eafaf2', muted:'#66aa88', primary:'#059669', accent:'#34d399' },
   },
-  // ── METALLIC / SPECIAL ─────────────────────────────────────
+  // ── 창의 테마 ────────────────────────────────────────────
   {
-    id:'gold', name:'골드', emoji:'✨', font:'elegant', group:'스페셜',
-    vars:{ bg:'#0e0900', surface:'#1a1200', surface2:'#241900', border:'#3a2800', text:'#fff8d0', muted:'#b09040', primary:'#f5c518', accent:'#ff8c20' },
+    id:'space', name:'우주', emoji:'🚀', font:'display', group:'창의',
+    vars:{ bg:'#000008', surface:'#06060f', surface2:'#0c0c1c', border:'#181830', text:'#e8f0ff', muted:'#6068a0', primary:'#7c6cff', accent:'#00d4ff' },
+    gradient: 'radial-gradient(ellipse 140% 80% at 50% 120%, #0a0a2a 0%, #000008 60%)',
+    headerGrad: 'linear-gradient(90deg, rgba(6,6,15,.98), rgba(0,0,8,.98))',
+    isSpace: true,
   },
   {
-    id:'silver', name:'실버', emoji:'🪙', font:'display', group:'스페셜',
-    vars:{ bg:'#0a0c10', surface:'#141820', surface2:'#1c2030', border:'#2c3040', text:'#e8eef8', muted:'#7080a0', primary:'#94a3b8', accent:'#e2e8f0' },
+    id:'firework', name:'불꽃축제', emoji:'🎆', font:'display', group:'창의',
+    vars:{ bg:'#020108', surface:'#07040f', surface2:'#0e0818', border:'#1e1030', text:'#fff4e0', muted:'#9070a0', primary:'#ff4488', accent:'#ffcc00' },
+    gradient: 'radial-gradient(ellipse 120% 60% at 50% 100%, #1a0a08 0%, #020108 60%)',
+    headerGrad: 'linear-gradient(90deg, rgba(7,4,15,.98), rgba(2,1,8,.98))',
+    isFirework: true,
   },
   {
-    id:'retro80', name:'레트로80', emoji:'📺', font:'mono', group:'스페셜',
-    vars:{ bg:'#0a0014', surface:'#100820', surface2:'#180c30', border:'#301840', text:'#ffeeff', muted:'#cc88cc', primary:'#ff00ff', accent:'#00ffcc' },
-    gradient: 'linear-gradient(180deg, #0a0014 0%, #0f0520 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(16,8,32,.97), rgba(8,2,20,.97))',
+    id:'deepocean', name:'심해', emoji:'🌊', font:'clean', group:'창의',
+    vars:{ bg:'#000d1a', surface:'#001828', surface2:'#002035', border:'#003350', text:'#b8eeff', muted:'#3a7890', primary:'#00b4d8', accent:'#48cae4' },
+    gradient: 'linear-gradient(180deg, #00060f 0%, #000d1a 50%, #001020 100%)',
+    headerGrad: 'linear-gradient(90deg, rgba(0,24,40,.98), rgba(0,6,15,.98))',
+    isOcean: true,
   },
   {
-    id:'earthy', name:'어스', emoji:'🏔️', font:'serif', group:'스페셜',
-    vars:{ bg:'#1a1208', surface:'#241a0c', surface2:'#2e2010', border:'#48321c', text:'#f5e8d0', muted:'#a08060', primary:'#d2691e', accent:'#8fbc8f' },
-  },
-  // ── 지역 테마 ───────────────────────────────────────────────
-  {
-    id:'samseong', name:'삼성역', emoji:'🏙️', font:'display', group:'지역',
-    vars:{ bg:'#040810', surface:'#08101e', surface2:'#0c182c', border:'#182840', text:'#e0eeff', muted:'#607090', primary:'#3b8fff', accent:'#00cfcc' },
-    gradient: 'linear-gradient(170deg, #040810 0%, #060c1a 60%, #040a0e 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(8,16,30,.98), rgba(4,10,14,.98))',
-  },
-  {
-    id:'jamsil', name:'잠실역', emoji:'🎡', font:'display', group:'지역',
-    vars:{ bg:'#0e0804', surface:'#1a1006', surface2:'#221408', border:'#3a2210', text:'#fff4e0', muted:'#a07848', primary:'#ff8c20', accent:'#ff4d6d' },
-    gradient: 'linear-gradient(160deg, #0e0804 0%, #1c1006 50%, #0e0a04 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(26,16,6,.98), rgba(14,10,4,.98))',
+    id:'neon', name:'네온사인', emoji:'🌃', font:'mono', group:'창의',
+    vars:{ bg:'#060008', surface:'#0e0014', surface2:'#160020', border:'#280040', text:'#fff0ff', muted:'#aa44cc', primary:'#ff00aa', accent:'#00ffcc' },
+    gradient: 'linear-gradient(135deg, #060008 0%, #0a0010 50%, #060008 100%)',
+    headerGrad: 'linear-gradient(90deg, rgba(14,0,20,.98), rgba(6,0,8,.98))',
+    isNeon: true,
   },
   // ── 시즌 ────────────────────────────────────────────────────
   {
@@ -142,31 +135,6 @@ const THEMES = [
     gradient: 'linear-gradient(170deg, #1a0e04 0%, #221006 50%, #160a02 100%)',
     headerGrad: 'linear-gradient(90deg, rgba(38,20,8,.98), rgba(22,10,2,.98))',
     isAutumn: true,
-  },
-  // ── 글로우 ─────────────────────────────────────────────────
-  {
-    id:'glow-orange', name:'글로우🔥', emoji:'🔥', font:'default', group:'글로우',
-    vars:{ bg:'#060300', surface:'#0e0700', surface2:'#130b00', border:'#281500', text:'#fff0e0', muted:'#bb7733', primary:'#ff6b35', accent:'#ffaa44', glow:'rgba(255,107,53,.12)' },
-  },
-  {
-    id:'glow-blue', name:'글로우💙', emoji:'💙', font:'default', group:'글로우',
-    vars:{ bg:'#010408', surface:'#030a16', surface2:'#050f20', border:'#0a1e3c', text:'#e0eeff', muted:'#6688aa', primary:'#3b8fff', accent:'#00d4ff', glow:'rgba(59,143,255,.12)' },
-  },
-  {
-    id:'glow-purple', name:'글로우💜', emoji:'💜', font:'default', group:'글로우',
-    vars:{ bg:'#030108', surface:'#070514', surface2:'#0b081e', border:'#1c1040', text:'#ede0ff', muted:'#8855bb', primary:'#a855f7', accent:'#e040fb', glow:'rgba(168,85,247,.12)' },
-  },
-  {
-    id:'glow-green', name:'글로우💚', emoji:'💚', font:'default', group:'글로우',
-    vars:{ bg:'#010501', surface:'#040c05', surface2:'#070f08', border:'#0e2010', text:'#e0ffe8', muted:'#447744', primary:'#22c55e', accent:'#86efac', glow:'rgba(34,197,94,.12)' },
-  },
-  {
-    id:'glow-pink', name:'글로우🌸', emoji:'🌸', font:'default', group:'글로우',
-    vars:{ bg:'#060102', surface:'#100408', surface2:'#16060c', border:'#2e0c1a', text:'#ffe8f4', muted:'#bb4477', primary:'#ec4899', accent:'#f9a8d4', glow:'rgba(236,72,153,.12)' },
-  },
-  {
-    id:'glow-gold', name:'글로우✨', emoji:'✨', font:'default', group:'글로우',
-    vars:{ bg:'#050300', surface:'#0e0800', surface2:'#140b00', border:'#261800', text:'#fff5d0', muted:'#aa8822', primary:'#f59e0b', accent:'#fde68a', glow:'rgba(245,158,11,.12)' },
   },
 ]
 
@@ -408,7 +376,7 @@ export default function Layout({ children, title, description, canonical }) {
             {[
               { href:'/dinner/samseong',              label:'삼성역',  emoji:'🏙️', live:true },
               { href:'/dinner/jamsil',                label:'잠실역',  emoji:'🎡',  live:true },
-              { href:'/samsungElectronics/yeongtong', label:'삼전',    emoji:'🏢', live:true },
+              { href:'/samsungElectronics', label:'삼전',    emoji:'🏢', live:true },
               { href:'/pangyo',                       label:'판교',    emoji:'💻', live:true },
               { href:null, label:'강남역', emoji:'🏙️', live:false },
               { href:null, label:'역삼역', emoji:'💼', live:false },
@@ -447,7 +415,7 @@ export default function Layout({ children, title, description, canonical }) {
               const stations = [
                 { href:'/dinner/samseong',               short:'삼성' },
                 { href:'/dinner/jamsil',                 short:'잠실' },
-                { href:'/samsungElectronics/yeongtong',  short:'삼전' },
+                { href:'/samsungElectronics',  short:'삼전' },
                 { href:'/pangyo',                        short:'판교' },
               ]
               const current = stations.find(s => path.startsWith(s.href))
@@ -479,7 +447,7 @@ export default function Layout({ children, title, description, canonical }) {
                   {[
                     { href:'/dinner/samseong',               label:'삼성역',   emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
                     { href:'/dinner/jamsil',                 label:'잠실역',   emoji:'🎡',  live:true,  desc:'롯데월드·석촌호수·방이' },
-                    { href:'/samsungElectronics/yeongtong',  label:'삼성전자', emoji:'🏢', live:true,  desc:'영통·망포·영통구청' },
+                    { href:'/samsungElectronics',  label:'삼성전자', emoji:'🏢', live:true,  desc:'영통·망포·영통구청' },
                     { href:'/pangyo',                        label:'판교',     emoji:'💻', live:true,  desc:'테크노밸리·현대백화점' },
                     { href:null, label:'강남역', emoji:'🏙️', live:false, desc:'' },
                     { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
@@ -592,7 +560,7 @@ export default function Layout({ children, title, description, canonical }) {
                     boxShadow: isLightGroup ? '0 8px 24px rgba(0,0,0,.12)' : '0 8px 32px rgba(0,0,0,.5)',
                   }}>
                     {/* 그룹별 렌더 */}
-                    {['메인','시즌','그라디언트','다크','스페셜','지역','글로우'].map(group => {
+                    {['메인','시즌','창의','그라디언트','다크'].map(group => {
                       const groupThemes = THEMES.filter(t => t.group === group)
                       return (
                         <div key={group} style={{ marginBottom:10 }}>
@@ -901,6 +869,163 @@ export default function Layout({ children, title, description, canonical }) {
           </div>
         )
       })}
+
+      {/* ── 우주 애니메이션 ── */}
+      {ct.isSpace && mounted && (
+        <style>{`
+          @keyframes star-twinkle {
+            0%, 100% { opacity: .15; transform: scale(1); }
+            50%       { opacity: .9; transform: scale(1.4); }
+          }
+          @keyframes meteor {
+            0%   { transform: translate(0,0) rotate(35deg); opacity:0; width:2px; }
+            5%   { opacity:1; }
+            100% { transform: translate(400px, 240px) rotate(35deg); opacity:0; width:120px; }
+          }
+          .star-dot {
+            position:fixed; border-radius:50%; pointer-events:none; z-index:0;
+            background:#fff;
+            animation: star-twinkle ease-in-out infinite;
+          }
+          .meteor-trail {
+            position:fixed; pointer-events:none; z-index:0;
+            height:1.5px; border-radius:2px;
+            background:linear-gradient(90deg, transparent, #c8d8ff, #fff);
+            animation: meteor linear infinite;
+          }
+        `}</style>
+      )}
+      {ct.isSpace && mounted && Array.from({length:60}).map((_,i) => (
+        <div key={'s'+i} className="star-dot" style={{
+          left:`${(i*1.67+0.5)%100}%`, top:`${(i*2.13+1)%85}%`,
+          width: i%5===0 ? '3px' : i%3===0 ? '2px' : '1.5px',
+          height: i%5===0 ? '3px' : i%3===0 ? '2px' : '1.5px',
+          opacity: 0.1 + (i%5)*0.04,
+          animationDuration:`${2 + (i*0.3)%4}s`,
+          animationDelay:`${(i*0.4)%5}s`,
+        }} />
+      ))}
+      {ct.isSpace && mounted && Array.from({length:5}).map((_,i) => (
+        <div key={'m'+i} className="meteor-trail" style={{
+          left:`${(i*22)%80}%`, top:`${(i*14)%40}%`,
+          opacity: 0.5 + (i%3)*0.1,
+          animationDuration:`${4 + i*1.5}s`,
+          animationDelay:`${i*2.8}s`,
+        }} />
+      ))}
+
+      {/* ── 불꽃축제 애니메이션 ── */}
+      {ct.isFirework && mounted && (
+        <style>{`
+          @keyframes spark-rise {
+            0%   { transform: translate(0,0) scale(1); opacity:0; }
+            10%  { opacity:1; }
+            100% { transform: translate(var(--dx), var(--dy)) scale(0); opacity:0; }
+          }
+          @keyframes firework-pop {
+            0%   { transform: scale(0); opacity:0; }
+            30%  { opacity:1; transform: scale(1.2); }
+            100% { transform: scale(2.5); opacity:0; }
+          }
+          .spark {
+            position:fixed; border-radius:50%; pointer-events:none; z-index:0;
+            width:4px; height:4px;
+            animation: spark-rise ease-out infinite;
+          }
+        `}</style>
+      )}
+      {ct.isFirework && mounted && Array.from({length:30}).map((_,i) => {
+        const angle = (i / 30) * Math.PI * 2
+        const dist = 60 + (i%5)*25
+        const dx = Math.round(Math.cos(angle)*dist)
+        const dy = Math.round(Math.sin(angle)*dist - 80)
+        const colors = ['#ff4488','#ffcc00','#00ffaa','#ff8800','#cc44ff','#00ccff','#ff2244']
+        const cx = [20,50,75,35,65][Math.floor(i/6)]
+        const cy = [30,20,35,50,15][Math.floor(i/6)]
+        return (
+          <div key={i} className="spark" style={{
+            left:`${cx}%`, top:`${cy}%`,
+            background: colors[i%colors.length],
+            opacity: 0.15 + (i%4)*0.04,
+            '--dx': dx+'px', '--dy': dy+'px',
+            animationDuration:`${1.2 + (i*0.07)%1}s`,
+            animationDelay:`${(i*0.15)%3}s`,
+          }} />
+        )
+      })}
+
+      {/* ── 심해 애니메이션 ── */}
+      {ct.isOcean && mounted && (
+        <style>{`
+          @keyframes bubble-rise {
+            0%   { transform: translateY(0) translateX(0) scale(1); opacity:0; }
+            10%  { opacity:.6; }
+            50%  { transform: translateY(-45vh) translateX(8px) scale(1.05); }
+            90%  { opacity:.3; }
+            100% { transform: translateY(-100vh) translateX(-5px) scale(.8); opacity:0; }
+          }
+          @keyframes seaweed-sway {
+            0%, 100% { transform: skewX(-6deg); }
+            50%       { transform: skewX(6deg); }
+          }
+          .bubble {
+            position:fixed; bottom:0; border-radius:50%; pointer-events:none; z-index:0;
+            border:1px solid rgba(0,180,216,.4);
+            background:radial-gradient(circle at 35% 35%, rgba(180,240,255,.15), transparent);
+            animation: bubble-rise ease-in-out infinite;
+          }
+        `}</style>
+      )}
+      {ct.isOcean && mounted && Array.from({length:25}).map((_,i) => {
+        const sz = 6 + (i%5)*8
+        return (
+          <div key={i} className="bubble" style={{
+            left:`${(i*4.1+2)%95}%`,
+            width:sz+'px', height:sz+'px',
+            opacity: 0.08 + (i%4)*0.03,
+            animationDuration:`${4 + (i*0.6)%5}s`,
+            animationDelay:`${(i*0.45)%6}s`,
+          }} />
+        )
+      })}
+      {ct.isOcean && mounted && (
+        <div style={{ position:'fixed', bottom:0, left:0, right:0, height:'18vh', zIndex:0, pointerEvents:'none',
+          background:'linear-gradient(180deg, transparent 0%, rgba(0,20,40,.35) 100%)',
+        }} />
+      )}
+
+      {/* ── 네온사인 애니메이션 ── */}
+      {ct.isNeon && mounted && (
+        <style>{`
+          @keyframes neon-flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: .12; }
+            20%, 24%, 55% { opacity: .04; }
+          }
+          @keyframes neon-pulse {
+            0%, 100% { opacity:.08; transform:scale(1); }
+            50%       { opacity:.18; transform:scale(1.03); }
+          }
+          .neon-orb {
+            position:fixed; border-radius:50%; pointer-events:none; z-index:0;
+            filter: blur(40px);
+            animation: neon-pulse ease-in-out infinite;
+          }
+          .neon-line {
+            position:fixed; pointer-events:none; z-index:0;
+            animation: neon-flicker ease-in-out infinite;
+          }
+        `}</style>
+      )}
+      {ct.isNeon && mounted && (
+        <>
+          <div className="neon-orb" style={{ width:'300px',height:'300px',left:'10%',top:'20%',background:'#ff00aa',opacity:.1,animationDuration:'3.2s' }} />
+          <div className="neon-orb" style={{ width:'250px',height:'250px',right:'8%',top:'35%',background:'#00ffcc',opacity:.08,animationDuration:'4.1s',animationDelay:'1.2s' }} />
+          <div className="neon-orb" style={{ width:'200px',height:'200px',left:'40%',bottom:'20%',background:'#aa00ff',opacity:.09,animationDuration:'3.7s',animationDelay:'0.8s' }} />
+          <div className="neon-line" style={{ left:'5%',top:'15%',width:'2px',height:'120px',background:'linear-gradient(180deg,transparent,#ff00aa,transparent)',opacity:.12,animationDuration:'1.8s' }} />
+          <div className="neon-line" style={{ right:'12%',top:'40%',width:'2px',height:'80px',background:'linear-gradient(180deg,transparent,#00ffcc,transparent)',opacity:.1,animationDuration:'2.3s',animationDelay:'0.6s' }} />
+          <div className="neon-line" style={{ left:'60%',bottom:'25%',width:'80px',height:'2px',background:'linear-gradient(90deg,transparent,#ff00aa,transparent)',opacity:.12,animationDuration:'1.5s',animationDelay:'1s' }} />
+        </>
+      )}
 
       {/* ── 푸터 ── */}
       <footer style={{ borderTop:'1px solid var(--border)', padding:'32px 16px 28px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>
