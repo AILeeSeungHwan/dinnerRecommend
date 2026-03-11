@@ -406,10 +406,11 @@ export default function Layout({ children, title, description, canonical }) {
           {/* PC — 인라인 pill 가로 나열 */}
           <div className="stnav-desktop" style={{ alignItems:'center', gap:2, flex:1, minWidth:0, overflowX:'auto', scrollbarWidth:'none' }}>
             {[
-              { href:'/dinner/samseong', label:'삼성역', emoji:'🏙️', live:true },
-              { href:'/dinner/jamsil',   label:'잠실역', emoji:'🎡',  live:true },
-              { href:null, label:'강남역', emoji:'🏢', live:false },
-              { href:null, label:'서초역', emoji:'🌿', live:false },
+              { href:'/dinner/samseong',              label:'삼성역',  emoji:'🏙️', live:true },
+              { href:'/dinner/jamsil',                label:'잠실역',  emoji:'🎡',  live:true },
+              { href:'/samsungElectronics/yeongtong', label:'삼전',    emoji:'🏢', live:true },
+              { href:'/pangyo',                       label:'판교',    emoji:'💻', live:true },
+              { href:null, label:'강남역', emoji:'🏙️', live:false },
               { href:null, label:'역삼역', emoji:'💼', live:false },
             ].map(s => {
               const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
@@ -444,8 +445,10 @@ export default function Layout({ children, title, description, canonical }) {
             {(() => {
               const path = typeof window !== 'undefined' ? window.location.pathname : ''
               const stations = [
-                { href:'/dinner/samseong', short:'삼성' },
-                { href:'/dinner/jamsil',   short:'잠실' },
+                { href:'/dinner/samseong',               short:'삼성' },
+                { href:'/dinner/jamsil',                 short:'잠실' },
+                { href:'/samsungElectronics/yeongtong',  short:'삼전' },
+                { href:'/pangyo',                        short:'판교' },
               ]
               const current = stations.find(s => path.startsWith(s.href))
               return (
@@ -474,11 +477,12 @@ export default function Layout({ children, title, description, canonical }) {
                   boxShadow:'0 8px 24px rgba(0,0,0,.3)',
                 }}>
                   {[
-                    { href:'/dinner/samseong', label:'삼성', emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
-                    { href:'/dinner/jamsil',   label:'잠실', emoji:'🎡',  live:true,  desc:'방이동·석촌호수·롯데타워' },
-                    { href:null, label:'강남', emoji:'🏢', live:false, desc:'' },
-                    { href:null, label:'서초', emoji:'🌿', live:false, desc:'' },
-                    { href:null, label:'역삼', emoji:'💼', live:false, desc:'' },
+                    { href:'/dinner/samseong',               label:'삼성역',   emoji:'🏙️', live:true,  desc:'코엑스·4번출구 주변' },
+                    { href:'/dinner/jamsil',                 label:'잠실역',   emoji:'🎡',  live:true,  desc:'롯데월드·석촌호수·방이' },
+                    { href:'/samsungElectronics/yeongtong',  label:'삼성전자', emoji:'🏢', live:true,  desc:'영통·망포·영통구청' },
+                    { href:'/pangyo',                        label:'판교',     emoji:'💻', live:true,  desc:'테크노밸리·현대백화점' },
+                    { href:null, label:'강남역', emoji:'🏙️', live:false, desc:'' },
+                    { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
                   ].map((s, i) => {
                     const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
                     return s.live ? (
@@ -684,7 +688,7 @@ export default function Layout({ children, title, description, canonical }) {
       )}
       {/* 벚꽃나무 SVG — 화면 우하단 고정 */}
       {ct.isSpring && mounted && (
-        <div style={{ position:'fixed', bottom:0, right:'-30px', zIndex:0, pointerEvents:'none', userSelect:'none', opacity:.2 }}>
+        <div style={{ position:'fixed', bottom:0, right:'-30px', zIndex:0, pointerEvents:'none', userSelect:'none', opacity:.1 }}>
           <svg width="180" height="270" viewBox="0 0 320 480" fill="none" xmlns="http://www.w3.org/2000/svg"
             style={{ animation:'branch-sway 6s ease-in-out infinite', transformOrigin:'50% 100%' }}>
             {/* 줄기 */}
@@ -754,7 +758,7 @@ export default function Layout({ children, title, description, canonical }) {
             animationDelay: `${(i * 0.65) % 8}s`,
             animationTimingFunction: anim === 'sakura-sway' ? 'ease-in-out' : 'linear',
             animationIterationCount: 'infinite',
-            opacity: 0.4 + (i % 4) * 0.05,
+            opacity: 0.18 + (i % 4) * 0.05,
             background: colors[i % 4],
             transform: `rotate(${i * 17}deg)`,
           }} />
@@ -766,14 +770,14 @@ export default function Layout({ children, title, description, canonical }) {
         <style>{`
           @keyframes rain-fall {
             0%   { transform: translateY(-10px) translateX(0); opacity: 0; }
-            5%   { opacity: .6; }
-            95%  { opacity: .5; }
+            5%   { opacity: .35; }
+            95%  { opacity: .28; }
             100% { transform: translateY(110vh) translateX(-20px); opacity: 0; }
           }
           .rain-drop {
             position: fixed; top: 0; pointer-events: none; z-index: 0;
             width: 1.5px; border-radius: 2px;
-            background: linear-gradient(180deg, transparent, #7ecef4cc, transparent);
+            background: linear-gradient(180deg, transparent, #7ecef488, transparent);
             animation: rain-fall linear infinite;
           }
           @keyframes rain-splash {
@@ -786,7 +790,7 @@ export default function Layout({ children, title, description, canonical }) {
         <div key={i} className="rain-drop" style={{
           left: `${(i * 1.85) % 100}%`,
           height: `${18 + (i % 4) * 8}px`,
-          opacity: 0.3 + (i % 3) * 0.1,
+          opacity: 0.12 + (i % 3) * 0.05,
           animationDuration: `${0.6 + (i * 0.07) % 0.5}s`,
           animationDelay: `${(i * 0.13) % 1.2}s`,
         }} />
@@ -860,27 +864,41 @@ export default function Layout({ children, title, description, canonical }) {
           }
           .autumn-leaf {
             position:fixed; top:0; pointer-events:none; z-index:0;
-            clip-path: polygon(50% 0%, 85% 20%, 100% 50%, 80% 85%, 50% 100%, 20% 85%, 0% 50%, 15% 20%);
           }
         `}</style>
       )}
       {ct.isAutumn && mounted && Array.from({length:20}).map((_,i) => {
-        const sz = 12 + (i % 4) * 5
+        const sz = 18 + (i % 4) * 6
         const leafColors = [
-          '#e8641a','#d44010','#f5a623','#c83208','#e87820','#ff6b1a','#b83008','#f09030'
+          '#e8641a','#d44010','#f5a623','#c83208','#e87820','#cc3300','#b83008','#f09030'
         ]
+        const col = leafColors[i % leafColors.length]
+        // 단풍잎 SVG 3종
+        const leafPaths = [
+          // 캐나다 단풍 (메이플)
+          'M20 2 L22 10 L30 8 L25 14 L32 18 L24 18 L26 26 L20 22 L14 26 L16 18 L8 18 L15 14 L10 8 L18 10 Z M20 22 L20 38',
+          // 손바닥 단풍 (5갈래)
+          'M20 4 L21 11 L27 7 L23 13 L30 12 L25 16 L28 22 L21 18 L20 26 L19 18 L12 22 L15 16 L10 12 L17 13 L13 7 L19 11 Z M20 26 L20 38',
+          // 일본 단풍 (7갈래 깊은 홈)
+          'M20 3 L21 9 L25 5 L23 11 L28 9 L25 14 L30 14 L26 17 L28 22 L22 19 L21 26 L20 20 L19 26 L18 19 L12 22 L14 17 L10 14 L15 14 L12 9 L17 11 L15 5 L19 9 Z M20 26 L20 37',
+        ]
+        const path = leafPaths[i % 3]
         return (
           <div key={i} className="autumn-leaf" style={{
             left: `${(i * 5.1 + 2) % 100}%`,
             width: sz+'px', height: sz+'px',
-            background: leafColors[i % leafColors.length],
-            opacity: 0.2 + (i % 3) * 0.07,
+            opacity: 0.1 + (i % 3) * 0.04,
             animationName: i % 2 === 0 ? 'leaf-fall-1' : 'leaf-fall-2',
             animationDuration: `${6 + (i * 0.9) % 5}s`,
             animationDelay: `${(i * 0.55) % 7}s`,
             animationTimingFunction: 'ease-in-out',
             animationIterationCount: 'infinite',
-          }} />
+          }}>
+            <svg viewBox="0 0 40 40" width={sz} height={sz} fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d={path.split(' M20')[0]} fill={col} stroke={col} strokeWidth="0.8" strokeLinejoin="round"/>
+              <line x1="20" y1="22" x2="20" y2="38" stroke={col} strokeWidth="1.2" strokeLinecap="round"/>
+            </svg>
+          </div>
         )
       })}
 
