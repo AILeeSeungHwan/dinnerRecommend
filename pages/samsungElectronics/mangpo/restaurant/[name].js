@@ -621,7 +621,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <p style={pstyle}>
               실제 방문자들이 자주 언급한 키워드를 요약했습니다.
             </p>
-            {r.rv.map((rv, i) => {
+            {r.rv.filter(rv => rv != null && rv.trim() !== '').map((rv, i) => {
               const ratingMatch = rv.match(/^\[([0-9.]+)★\]\s*/)
               const indivRt = ratingMatch ? parseFloat(ratingMatch[1]) : null
               const text = rv.replace(/^\[[0-9.]+★\]\s*/, '')
