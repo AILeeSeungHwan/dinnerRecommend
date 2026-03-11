@@ -460,7 +460,7 @@ function DiceOverlay({ onDone }) {
     const t = setInterval(() => {
       setFace(dice[Math.floor(Math.random()*dice.length)])
       c++; setN(c)
-      if (c >= 18) { clearInterval(t); setTimeout(onDone, 200) }
+      if (c >= 26) { clearInterval(t); setTimeout(onDone, 200) }
     }, 170)
     return () => clearInterval(t)
   }, [])
@@ -998,7 +998,10 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
                 transition: 'all .08s',
                 transform: isActive && !done ? 'scale(1.03)' : 'scale(1)',
                 opacity: done && !isFinal ? 0.4 : 1,
-              }}>
+                cursor: done && isFinal ? 'pointer' : 'default',
+              }}
+              onClick={ done && isFinal ? ()=>onPick(finalIdx) : undefined }
+            >
                 <div style={{ fontSize:'.9rem',fontWeight:700,color: isFinal?'var(--primary)':isActive?'var(--accent)':'var(--text)' }}>
                   {isFinal ? '🎯 ' : isActive && !done ? '▶ ' : ''}{name}
                 </div>
@@ -1014,10 +1017,10 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
 
         {done && pickedR && (
           <div style={{ display:'flex',gap:8,justifyContent:'center',flexWrap:'wrap' }}>
-            <a href={`/samsungElectronics/yeongtongGu/restaurant/${encodeURIComponent(pickedR.name)}`}
-              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+            <button onClick={()=>{ onPick(finalIdx) }}
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,border:'none',cursor:'pointer' }}>
               ✅ 여기로 결정
-            </a>
+            </button>
             <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedR.name + ' 영통구청')}`}
               target="_blank" rel="noopener noreferrer"
               style={{ padding:'10px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
@@ -1709,10 +1712,10 @@ const usageCnt = getUsageCount()
                     {prR?.e} {pr.restaurantName}
                   </div>
                   <div style={{ display:'flex',gap:6,flexWrap:'wrap' }}>
-                    {prR && <a href={`/samsungElectronics/yeongtongGu/restaurant/${encodeURIComponent(prR.name)}`}
-                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                    {prR && <button onClick={()=>setPickedIdx(i)}
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,border:'none',cursor:'pointer' }}>
                       ✅ 여기로 결정
-                    </a>}
+                    </button>}
                     {prR && <a href={`https://map.naver.com/v5/search/${encodeURIComponent(prR.name + ' 영통구청')}`}
                       target="_blank" rel="noopener noreferrer"
                       style={{ padding:'7px 16px',borderRadius:8,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
@@ -1945,8 +1948,8 @@ export default function SamseongPage() {
   return (
     <Layout title="영통구청 맛집 AI 추천" description="영통구청·수원 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu">
       <Head>
-        <title>영통구청 맛집 추천 | 코엑스·강남 AI 추천 | 오늘뭐먹지</title>
-        <meta name="description" content="영통구청 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
+        <title>영통구청 맛집 추천 | 영통구청역·수원 AI 추천 | 오늘뭐먹지</title>
+        <meta name="description" content="영통구청 맛집 AI 추천. 영통구청역·수원 영통구 주변 국밥·이자카야·한우·중식 100개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org","@type":"ItemList","name":"영통구청 맛집 추천",
@@ -1962,7 +1965,7 @@ export default function SamseongPage() {
           </div>
           <h1 style={{ fontSize:'clamp(1.4rem,5vw,2.2rem)',fontWeight:900,marginBottom:8,lineHeight:1.2 }}>🏙️ 영통구청 맛집</h1>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',marginBottom:14 }}>
-            코엑스·파르나스·테헤란로 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
+            영통구청역·수원 영통구 <strong style={{ color:'var(--text)' }}>{restaurants.length}개+</strong> 식당 AI 추천
           </p>
           <div style={{ display:'flex',flexWrap:'wrap',gap:6 }}>
             {['#국밥','#한우','#이자카야','#중식','#회식','#4번출구'].map(t=>(
@@ -2048,10 +2051,10 @@ export default function SamseongPage() {
         <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통구청 맛집 가이드</h2>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            영통구청 맛집은 코엑스몰, 파르나스타워, 현대백화점 무역센터 등 대형 상권과 테헤란로 골목의 숨은 맛집들이 공존합니다. 4번출구 방향에는 직장인 점심 맛집이 즐비하고, 코엑스 지하에는 다양한 레스토랑이 자리합니다.
+            영통구청 주변 맛집은 영통구청역 인근 주거 상권과 수원 영통구 로데오 거리 일대에 집중되어 있습니다. 조용한 골목 맛집부터 가족 외식 레스토랑까지 다양하게 갖춰져 있습니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 웨어하우스43, 대도식당, 하이딜라오 훠궈 등이 인기이며, 가성비 점심을 찾는다면 중앙해장, 연화산 짬뽕, 리춍 중식당을 추천합니다.
+            회식 장소로는 영통구청 인근 한우·돼지갈비 전문점이 인기이며, 가성비 점심을 찾는다면 영통구청역 상권의 국밥·분식 골목을 추천합니다.
           </p>
         </article>
       </div>

@@ -460,7 +460,7 @@ function DiceOverlay({ onDone }) {
     const t = setInterval(() => {
       setFace(dice[Math.floor(Math.random()*dice.length)])
       c++; setN(c)
-      if (c >= 18) { clearInterval(t); setTimeout(onDone, 200) }
+      if (c >= 26) { clearInterval(t); setTimeout(onDone, 200) }
     }, 170)
     return () => clearInterval(t)
   }, [])
@@ -998,7 +998,10 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
                 transition: 'all .08s',
                 transform: isActive && !done ? 'scale(1.03)' : 'scale(1)',
                 opacity: done && !isFinal ? 0.4 : 1,
-              }}>
+                cursor: done && isFinal ? 'pointer' : 'default',
+              }}
+              onClick={ done && isFinal ? ()=>onPick(finalIdx) : undefined }
+            >
                 <div style={{ fontSize:'.9rem',fontWeight:700,color: isFinal?'var(--primary)':isActive?'var(--accent)':'var(--text)' }}>
                   {isFinal ? '🎯 ' : isActive && !done ? '▶ ' : ''}{name}
                 </div>
@@ -1014,10 +1017,10 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
 
         {done && pickedR && (
           <div style={{ display:'flex',gap:8,justifyContent:'center',flexWrap:'wrap' }}>
-            <a href={`/dinner/jamsil/restaurant/${encodeURIComponent(pickedR.name)}`}
-              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
+            <button onClick={()=>{ onPick(finalIdx) }}
+              style={{ padding:'10px 20px',borderRadius:10,background:'var(--primary)',color:'#fff',fontSize:'.88rem',fontWeight:700,border:'none',cursor:'pointer' }}>
               ✅ 여기로 결정
-            </a>
+            </button>
             <a href={`https://map.naver.com/v5/search/${encodeURIComponent(pickedR.name + ' 잠실')}`}
               target="_blank" rel="noopener noreferrer"
               style={{ padding:'10px 20px',borderRadius:10,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.88rem',fontWeight:700,textDecoration:'none' }}>
@@ -1709,10 +1712,10 @@ const usageCnt = getUsageCount()
                     {prR?.e} {pr.restaurantName}
                   </div>
                   <div style={{ display:'flex',gap:6,flexWrap:'wrap' }}>
-                    {prR && <a href={`/dinner/jamsil/restaurant/${encodeURIComponent(prR.name)}`}
-                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
+                    {prR && <button onClick={()=>setPickedIdx(i)}
+                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,border:'none',cursor:'pointer' }}>
                       ✅ 여기로 결정
-                    </a>}
+                    </button>}
                     {prR && <a href={`https://map.naver.com/v5/search/${encodeURIComponent(prR.name + ' 잠실')}`}
                       target="_blank" rel="noopener noreferrer"
                       style={{ padding:'7px 16px',borderRadius:8,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
