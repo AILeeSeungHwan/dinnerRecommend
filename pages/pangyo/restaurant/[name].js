@@ -389,8 +389,7 @@ function naverMapUrl(name, lat, lng) {
     .replace(/ (판교점|성남점|분당점|정자점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const hasRegion = /(판교|성남|분당|정자|백현)/.test(name)
-  const query = hasRegion ? cleaned : cleaned + ' 판교'
+  const query = cleaned + ' 판교'
   if (lat && lng) return `https://map.naver.com/v5/search/${encodeURIComponent(query)}?c=${lng},${lat},15,0,0,0,dh`
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }

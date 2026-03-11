@@ -389,8 +389,7 @@ function naverMapUrl(name, lat, lng) {
     .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  const hasRegion = /(잠실|방이|송파|석촌|롯데월드|올림픽공원)/.test(name)
-  const query = hasRegion ? cleaned : cleaned + ' 잠실'
+  const query = cleaned + ' 잠실'
   if (lat && lng) return `https://map.naver.com/v5/search/${encodeURIComponent(query)}?c=${lng},${lat},15,0,0,0,dh`
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
