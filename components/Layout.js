@@ -20,37 +20,6 @@ const THEMES = [
     id:'light', name:'라이트', emoji:'☀️', font:'clean', group:'메인',
     vars:{ bg:'#f8f8fa', surface:'#ffffff', surface2:'#f2f2f7', border:'#e0e0eb', text:'#191922', muted:'#6b6b80', primary:'#e05a1e', accent:'#4a3cde' },
   },
-  // ── GRADIENT ───────────────────────────────────────────────
-  {
-    id:'aurora-grad', name:'오로라', emoji:'🌌', font:'display', group:'그라디언트',
-    vars:{ bg:'#0a0520', surface:'#140d30', surface2:'#1c1440', border:'#302060', text:'#f0e8ff', muted:'#9080c0', primary:'#c084fc', accent:'#22d3ee' },
-    gradient: 'linear-gradient(135deg, #0a0520 0%, #1a0a3a 40%, #0a2040 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(20,13,48,.95), rgba(10,32,64,.95))',
-  },
-  {
-    id:'sunset-grad', name:'선셋', emoji:'🌇', font:'display', group:'그라디언트',
-    vars:{ bg:'#1a0810', surface:'#280d18', surface2:'#340f20', border:'#50182c', text:'#fff0e8', muted:'#c07888', primary:'#ff6b50', accent:'#ffc850' },
-    gradient: 'linear-gradient(160deg, #1a0810 0%, #2a0f18 35%, #1a1008 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(40,13,24,.95), rgba(26,16,8,.95))',
-  },
-  {
-    id:'ocean-grad', name:'오션', emoji:'🌊', font:'display', group:'그라디언트',
-    vars:{ bg:'#020c1e', surface:'#041828', surface2:'#062038', border:'#0c3050', text:'#d0eeff', muted:'#5888aa', primary:'#38bdf8', accent:'#34d399' },
-    gradient: 'linear-gradient(160deg, #020c1e 0%, #041828 50%, #02100e 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(4,24,40,.97), rgba(2,16,14,.97))',
-  },
-  {
-    id:'candy', name:'캔디', emoji:'🍭', font:'rounded', group:'그라디언트',
-    vars:{ bg:'#1a0820', surface:'#240d2c', surface2:'#2e1038', border:'#501858', text:'#ffe8ff', muted:'#c070c0', primary:'#e040fb', accent:'#ff7043' },
-    gradient: 'linear-gradient(135deg, #1a0820 0%, #0a1030 50%, #200820 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(36,13,44,.95), rgba(10,16,48,.95))',
-  },
-  {
-    id:'forest-grad', name:'포레스트', emoji:'🌲', font:'serif', group:'그라디언트',
-    vars:{ bg:'#030e06', surface:'#071408', surface2:'#0c1c0c', border:'#142814', text:'#d8f0dc', muted:'#508860', primary:'#4ade80', accent:'#facc15' },
-    gradient: 'linear-gradient(160deg, #030e06 0%, #071408 60%, #0e1204 100%)',
-    headerGrad: 'linear-gradient(90deg, rgba(7,20,8,.97), rgba(14,18,4,.97))',
-  },
   // ── DARK ───────────────────────────────────────────────────
   {
     id:'dark', name:'다크', emoji:'🌑', font:'default', group:'메인',
@@ -109,9 +78,53 @@ const THEMES = [
     headerGrad: 'linear-gradient(90deg, rgba(14,0,20,.98), rgba(6,0,8,.98))',
     isNeon: true,
   },
+  // ── 창의 (밝은) ───────────────────────────────────────────
+  {
+    id:'sunflower', name:'해바라기밭', emoji:'🌻', font:'clean', group:'창의',
+    vars:{ bg:'#fffdf0', surface:'#ffffff', surface2:'#fffbe0', border:'#ffe87a', text:'#2a1a00', muted:'#8a6a00', primary:'#f5a800', accent:'#e8500a' },
+    gradient: 'linear-gradient(180deg, #87ceeb 0%, #b8e4f8 30%, #fffdf0 55%)',
+    headerGrad: 'linear-gradient(90deg, rgba(255,253,240,.97), rgba(255,248,200,.97))',
+    isSunflower: true,
+  },
+  {
+    id:'butterfly', name:'나비정원', emoji:'🦋', font:'clean', group:'창의',
+    vars:{ bg:'#f8fff8', surface:'#ffffff', surface2:'#f0fff2', border:'#c8eec8', text:'#0a1f0a', muted:'#4a7a4a', primary:'#22a845', accent:'#e040fb' },
+    gradient: 'linear-gradient(180deg, #e8f8e8 0%, #f8fff8 50%)',
+    headerGrad: 'linear-gradient(90deg, rgba(248,255,248,.97), rgba(240,255,242,.97))',
+    isButterfly: true,
+  },
+  {
+    id:'cloud', name:'뭉게구름', emoji:'⛅', font:'clean', group:'창의',
+    vars:{ bg:'#f0f8ff', surface:'#ffffff', surface2:'#e8f4ff', border:'#c8dcf0', text:'#0a1828', muted:'#5070a0', primary:'#2880d8', accent:'#f5a623' },
+    gradient: 'linear-gradient(180deg, #87ceeb 0%, #b8e0f8 25%, #deeeff 50%, #f0f8ff 75%)',
+    headerGrad: 'linear-gradient(90deg, rgba(240,248,255,.97), rgba(232,244,255,.97))',
+    isCloud: true,
+  },
+  // ── 창의 (캐릭터/자연) ──────────────────────────────────────
+  {
+    id:'squirrel', name:'다람쥐숲', emoji:'🐿️', font:'clean', group:'창의',
+    vars:{ bg:'#f5f0e8', surface:'#fffcf5', surface2:'#ede8d8', border:'#d4c8a8', text:'#1a1008', muted:'#7a6040', primary:'#8b4513', accent:'#d4860a' },
+    gradient: 'linear-gradient(180deg, #87ceaa 0%, #a8d8a0 20%, #c8e8b0 40%, #f5f0e8 65%)',
+    headerGrad: 'linear-gradient(90deg, rgba(245,240,232,.97), rgba(237,232,216,.97))',
+    isSquirrel: true,
+  },
+  {
+    id:'salmon', name:'연어의강', emoji:'🐟', font:'clean', group:'창의',
+    vars:{ bg:'#e8f4f8', surface:'#f5fcff', surface2:'#d8eef8', border:'#a8cce0', text:'#0a1820', muted:'#406080', primary:'#1a7ab0', accent:'#e8602a' },
+    gradient: 'linear-gradient(180deg, #6ab0d0 0%, #88c8e8 25%, #a8dcf0 50%, #e8f4f8 75%)',
+    headerGrad: 'linear-gradient(90deg, rgba(232,244,248,.97), rgba(216,238,248,.97))',
+    isSalmon: true,
+  },
+  {
+    id:'waterfall', name:'폭포', emoji:'💧', font:'clean', group:'창의',
+    vars:{ bg:'#f0f8f4', surface:'#f8fffc', surface2:'#e0f4ea', border:'#a8d8b8', text:'#0a1810', muted:'#3a6850', primary:'#1a9060', accent:'#0098c8' },
+    gradient: 'linear-gradient(180deg, #4a9870 0%, #6ab890 20%, #90d0a8 40%, #c8ecd8 60%, #f0f8f4 80%)',
+    headerGrad: 'linear-gradient(90deg, rgba(240,248,244,.97), rgba(224,244,234,.97))',
+    isWaterfall: true,
+  },
   // ── 시즌 ────────────────────────────────────────────────────
   {
-    id:'spring', name:'봄 벚꽃', emoji:'🌸', font:'clean', group:'메인',
+    id:'spring', name:'봄 벚꽃', emoji:'🌸', font:'clean', group:'시즌',
     vars:{ bg:'#fef0f5', surface:'#ffffff', surface2:'#fde8f0', border:'#f4c2d4', text:'#1a0812', muted:'#7a3858', primary:'#c0335a', accent:'#8b1a40' },
     isSpring: true,
   },
@@ -560,7 +573,7 @@ export default function Layout({ children, title, description, canonical }) {
                     boxShadow: isLightGroup ? '0 8px 24px rgba(0,0,0,.12)' : '0 8px 32px rgba(0,0,0,.5)',
                   }}>
                     {/* 그룹별 렌더 */}
-                    {['메인','시즌','창의','그라디언트','다크'].map(group => {
+                    {['메인','시즌','창의','다크'].map(group => {
                       const groupThemes = THEMES.filter(t => t.group === group)
                       return (
                         <div key={group} style={{ marginBottom:10 }}>
@@ -1024,6 +1037,517 @@ export default function Layout({ children, title, description, canonical }) {
           <div className="neon-line" style={{ left:'5%',top:'15%',width:'2px',height:'120px',background:'linear-gradient(180deg,transparent,#ff00aa,transparent)',opacity:.12,animationDuration:'1.8s' }} />
           <div className="neon-line" style={{ right:'12%',top:'40%',width:'2px',height:'80px',background:'linear-gradient(180deg,transparent,#00ffcc,transparent)',opacity:.1,animationDuration:'2.3s',animationDelay:'0.6s' }} />
           <div className="neon-line" style={{ left:'60%',bottom:'25%',width:'80px',height:'2px',background:'linear-gradient(90deg,transparent,#ff00aa,transparent)',opacity:.12,animationDuration:'1.5s',animationDelay:'1s' }} />
+        </>
+      )}
+
+      {/* ── 해바라기밭 애니메이션 ── */}
+      {ct.isSunflower && mounted && (
+        <style>{`
+          @keyframes sunflower-sway {
+            0%,100% { transform: rotate(-3deg) translateX(0); }
+            50%      { transform: rotate(3deg) translateX(4px); }
+          }
+          @keyframes petal-float {
+            0%   { transform: translate(0,-10px) rotate(0deg); opacity:0; }
+            8%   { opacity:.7; }
+            50%  { transform: translate(20px,45vh) rotate(180deg); }
+            100% { transform: translate(-10px,108vh) rotate(360deg); opacity:0; }
+          }
+          @keyframes bee-fly {
+            0%   { transform: translate(0,0) rotate(0deg); }
+            25%  { transform: translate(60px,-30px) rotate(15deg); }
+            50%  { transform: translate(120px,10px) rotate(-10deg); }
+            75%  { transform: translate(60px,40px) rotate(8deg); }
+            100% { transform: translate(0,0) rotate(0deg); }
+          }
+          .sunflower-petal {
+            position:fixed; top:0; pointer-events:none; z-index:0; border-radius:50% 0 50% 0;
+            animation: petal-float linear infinite;
+          }
+        `}</style>
+      )}
+      {ct.isSunflower && mounted && (
+        <>
+          {/* 해바라기 3그루 SVG */}
+          {[{x:'-20px',scale:1.1,delay:'0s'},{x:'calc(50% - 60px)',scale:.9,delay:'0.8s'},{x:'calc(100% - 80px)',scale:1,delay:'0.3s'}].map((p,i)=>(
+            <div key={i} style={{ position:'fixed', bottom:0, left:p.x, zIndex:0, pointerEvents:'none', opacity:.18,
+              animation:'sunflower-sway '+(5+i)+'s ease-in-out infinite', animationDelay:p.delay, transformOrigin:'50% 100%', transform:`scale(${p.scale})` }}>
+              <svg width="100" height="220" viewBox="0 0 100 220" fill="none">
+                <line x1="50" y1="220" x2="48" y2="80" stroke="#5a8a20" strokeWidth="6" strokeLinecap="round"/>
+                <line x1="48" y1="160" x2="20" y2="130" stroke="#5a8a20" strokeWidth="4" strokeLinecap="round"/>
+                <line x1="49" y1="140" x2="78" y2="110" stroke="#5a8a20" strokeWidth="3.5" strokeLinecap="round"/>
+                {[0,30,60,90,120,150,180,210,240,270,300,330].map((a,j)=>(
+                  <ellipse key={j} cx={50+Math.cos(a*Math.PI/180)*22} cy={80+Math.sin(a*Math.PI/180)*22}
+                    rx="10" ry="5" fill="#f5c800" opacity=".9"
+                    transform={`rotate(${a+90},${50+Math.cos(a*Math.PI/180)*22},${80+Math.sin(a*Math.PI/180)*22})`}/>
+                ))}
+                <circle cx="50" cy="80" r="16" fill="#8b4513"/>
+                <circle cx="50" cy="80" r="10" fill="#5a2a00"/>
+              </svg>
+            </div>
+          ))}
+          {/* 꽃잎 날리기 */}
+          {Array.from({length:12}).map((_,i)=>(
+            <div key={i} className="sunflower-petal" style={{
+              left:`${(i*8.5+3)%95}%`, width:'8px', height:'14px',
+              background:`hsl(${42+(i%4)*8},95%,${60+(i%3)*8}%)`,
+              opacity:.15+(i%3)*.04,
+              animationDuration:`${6+(i*.8)%5}s`,
+              animationDelay:`${(i*.6)%7}s`,
+            }}/>
+          ))}
+        </>
+      )}
+
+      {/* ── 나비정원 애니메이션 ── */}
+      {ct.isButterfly && mounted && (
+        <style>{`
+          @keyframes butterfly-flutter {
+            0%,100% { transform: scaleX(1); }
+            50%      { transform: scaleX(.3); }
+          }
+          @keyframes butterfly-path-1 {
+            0%   { transform: translate(0,0); }
+            20%  { transform: translate(80px,-60px); }
+            40%  { transform: translate(160px,-20px); }
+            60%  { transform: translate(220px,-80px); }
+            80%  { transform: translate(160px,-130px); }
+            100% { transform: translate(0,0); }
+          }
+          @keyframes butterfly-path-2 {
+            0%   { transform: translate(0,0); }
+            25%  { transform: translate(-60px,-80px); }
+            50%  { transform: translate(-140px,-30px); }
+            75%  { transform: translate(-80px,-110px); }
+            100% { transform: translate(0,0); }
+          }
+          @keyframes butterfly-path-3 {
+            0%   { transform: translate(0,0); }
+            33%  { transform: translate(100px,-50px); }
+            66%  { transform: translate(50px,-120px); }
+            100% { transform: translate(0,0); }
+          }
+          @keyframes flower-bob {
+            0%,100% { transform: rotate(-2deg); }
+            50%      { transform: rotate(2deg); }
+          }
+          .butterfly-wrap { position:fixed; pointer-events:none; z-index:0; }
+          .butterfly-wing { animation: butterfly-flutter .25s ease-in-out infinite; transform-origin:center; }
+        `}</style>
+      )}
+      {ct.isButterfly && mounted && (
+        <>
+          {/* 꽃들 배경 */}
+          {[{l:'8%',b:'0',c:'#ff80ab'},{l:'30%',b:'0',c:'#ffb3c6'},{l:'55%',b:'0',c:'#c8f5a0'},{l:'75%',b:'0',c:'#80d8ff'},{l:'90%',b:'0',c:'#ff80ab'}].map((f,i)=>(
+            <div key={i} style={{ position:'fixed', bottom:0, left:f.l, zIndex:0, pointerEvents:'none', opacity:.15,
+              animation:'flower-bob '+(3+i*.5)+'s ease-in-out infinite', animationDelay:(i*.4)+'s', transformOrigin:'50% 100%' }}>
+              <svg width="40" height={100+i*20} viewBox="0 0 40 120" fill="none">
+                <line x1="20" y1="120" x2="20" y2="40" stroke="#4a9a20" strokeWidth="3"/>
+                {[0,60,120,180,240,300].map((a,j)=>(
+                  <ellipse key={j} cx={20+Math.cos(a*Math.PI/180)*13} cy={40+Math.sin(a*Math.PI/180)*13}
+                    rx="9" ry="5" fill={f.c} opacity=".85"
+                    transform={`rotate(${a},${20+Math.cos(a*Math.PI/180)*13},${40+Math.sin(a*Math.PI/180)*13})`}/>
+                ))}
+                <circle cx="20" cy="40" r="7" fill="#fff176"/>
+              </svg>
+            </div>
+          ))}
+          {/* 나비 5마리 */}
+          {[
+            {l:'20%',t:'35%',anim:'butterfly-path-1',dur:'8s',w1:'#9c27b0',w2:'#e040fb',sz:22},
+            {l:'60%',t:'45%',anim:'butterfly-path-2',dur:'10s',w1:'#2196f3',w2:'#64b5f6',sz:18},
+            {l:'40%',t:'55%',anim:'butterfly-path-3',dur:'12s',w1:'#ff9800',w2:'#ffcc02',sz:16},
+            {l:'75%',t:'30%',anim:'butterfly-path-1',dur:'9s',delay:'3s',w1:'#e91e63',w2:'#f48fb1',sz:14},
+            {l:'15%',t:'50%',anim:'butterfly-path-2',dur:'11s',delay:'2s',w1:'#009688',w2:'#4db6ac',sz:20},
+          ].map((b,i)=>(
+            <div key={i} className="butterfly-wrap" style={{
+              left:b.l, top:b.t, opacity:.18+(i%3)*.04,
+              animation:`${b.anim} ${b.dur} ease-in-out infinite`,
+              animationDelay:b.delay||'0s',
+            }}>
+              <svg width={b.sz*2} height={b.sz*1.5} viewBox="0 0 40 30" className="butterfly-wing">
+                <ellipse cx="10" cy="10" rx="10" ry="8" fill={b.w1} opacity=".9"/>
+                <ellipse cx="8" cy="22" rx="8" ry="6" fill={b.w2} opacity=".8"/>
+                <ellipse cx="30" cy="10" rx="10" ry="8" fill={b.w1} opacity=".9"/>
+                <ellipse cx="32" cy="22" rx="8" ry="6" fill={b.w2} opacity=".8"/>
+                <line x1="20" y1="4" x2="20" y2="26" stroke="#333" strokeWidth="1.5"/>
+              </svg>
+            </div>
+          ))}
+        </>
+      )}
+
+      {/* ── 뭉게구름 애니메이션 ── */}
+      {ct.isCloud && mounted && (
+        <style>{`
+          @keyframes cloud-drift-1 {
+            0%   { transform: translateX(-220px); opacity:0; }
+            5%   { opacity:.9; }
+            95%  { opacity:.9; }
+            100% { transform: translateX(calc(100vw + 220px)); opacity:0; }
+          }
+          @keyframes cloud-drift-2 {
+            0%   { transform: translateX(calc(100vw + 180px)); opacity:0; }
+            5%   { opacity:.7; }
+            95%  { opacity:.7; }
+            100% { transform: translateX(-180px); opacity:0; }
+          }
+          @keyframes sun-spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+          @keyframes bird-fly {
+            0%   { transform: translateX(-80px) translateY(0); }
+            25%  { transform: translateX(25vw) translateY(-20px); }
+            50%  { transform: translateX(50vw) translateY(10px); }
+            75%  { transform: translateX(75vw) translateY(-15px); }
+            100% { transform: translateX(calc(100vw+80px)) translateY(0); }
+          }
+          .cloud-puff { position:fixed; pointer-events:none; z-index:0; }
+          .bird { position:fixed; pointer-events:none; z-index:0; animation: bird-fly linear infinite; }
+        `}</style>
+      )}
+      {ct.isCloud && mounted && (
+        <>
+          {/* 태양 */}
+          <div style={{ position:'fixed', top:'5%', right:'8%', zIndex:0, pointerEvents:'none', opacity:.12 }}>
+            <svg width="100" height="100" viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="22" fill="#f5c800"/>
+              <g style={{ animation:'sun-spin 20s linear infinite', transformOrigin:'50px 50px' }}>
+                {[0,30,60,90,120,150,180,210,240,270,300,330].map((a,i)=>(
+                  <line key={i} x1={50+Math.cos(a*Math.PI/180)*28} y1={50+Math.sin(a*Math.PI/180)*28}
+                    x2={50+Math.cos(a*Math.PI/180)*42} y2={50+Math.sin(a*Math.PI/180)*42}
+                    stroke="#f5c800" strokeWidth="3" strokeLinecap="round"/>
+                ))}
+              </g>
+            </svg>
+          </div>
+          {/* 구름들 */}
+          {[
+            {top:'8%',w:200,h:70,dur:'28s',delay:'0s',anim:'cloud-drift-1',op:.85},
+            {top:'16%',w:150,h:55,dur:'36s',delay:'8s',anim:'cloud-drift-1',op:.7},
+            {top:'5%',w:180,h:65,dur:'32s',delay:'4s',anim:'cloud-drift-2',op:.75},
+            {top:'22%',w:130,h:50,dur:'42s',delay:'14s',anim:'cloud-drift-1',op:.6},
+            {top:'12%',w:220,h:75,dur:'38s',delay:'20s',anim:'cloud-drift-2',op:.8},
+          ].map((c,i)=>(
+            <div key={i} className="cloud-puff" style={{
+              top:c.top, left:0, opacity:c.op*.13,
+              animation:`${c.anim} ${c.dur} linear infinite`,
+              animationDelay:c.delay,
+            }}>
+              <svg width={c.w} height={c.h} viewBox={`0 0 ${c.w} ${c.h}`} fill="white">
+                <ellipse cx={c.w*.5} cy={c.h*.7} rx={c.w*.48} ry={c.h*.3}/>
+                <ellipse cx={c.w*.3} cy={c.h*.5} rx={c.w*.28} ry={c.h*.4}/>
+                <ellipse cx={c.w*.55} cy={c.h*.4} rx={c.w*.32} ry={c.h*.45}/>
+                <ellipse cx={c.w*.75} cy={c.h*.52} rx={c.w*.24} ry={c.h*.35}/>
+              </svg>
+            </div>
+          ))}
+          {/* 새 V자 3마리 */}
+          {[{t:'18%',dur:'18s',d:'0s'},{t:'28%',dur:'22s',d:'6s'},{t:'12%',dur:'26s',d:'12s'}].map((b,i)=>(
+            <div key={i} className="bird" style={{ top:b.t, opacity:.1, animationDuration:b.dur, animationDelay:b.d }}>
+              <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+                <path d="M0 6 Q6 0 12 5 Q18 0 24 6" stroke="#2880d8" strokeWidth="1.8" fill="none" strokeLinecap="round"/>
+              </svg>
+            </div>
+          ))}
+        </>
+      )}
+
+      {/* ── 다람쥐숲 애니메이션 ── */}
+      {ct.isSquirrel && mounted && (
+        <style>{`
+          @keyframes squirrel-run {
+            0%            { transform: translateX(-80px) scaleX(1); }
+            35%           { transform: translateX(calc(var(--tree-x) - 70px)) scaleX(1); }
+            38%,62%       { transform: translateX(calc(var(--tree-x) - 70px)) scaleX(1); }
+            65%           { transform: translateX(calc(var(--tree-x) - 70px)) scaleX(-1); }
+            100%          { transform: translateX(-80px) scaleX(-1); }
+          }
+          @keyframes squirrel-climb {
+            0%,34%         { bottom: 4px; }
+            36%            { bottom: 60px; }
+            38%,61%        { bottom: 100px; }
+            63%            { bottom: 60px; }
+            65%,100%       { bottom: 4px; }
+          }
+          @keyframes squirrel-hide {
+            0%,35%,63%,100% { opacity:1; }
+            38%,61%          { opacity:0; }
+          }
+          @keyframes tree-sway {
+            0%,100% { transform: rotate(-.8deg); }
+            50%     { transform: rotate(.8deg); }
+          }
+          @keyframes leaf-rustle {
+            0%,100% { transform: rotate(-2deg) scale(1); }
+            50%     { transform: rotate(2deg) scale(1.02); }
+          }
+          @keyframes acorn-fall {
+            0%   { transform: translate(0,0) rotate(0deg); opacity:0; }
+            10%  { opacity:.8; }
+            100% { transform: translate(15px, 80px) rotate(180deg); opacity:0; }
+          }
+          .squirrel-sprite { position:fixed; bottom:4px; pointer-events:none; z-index:1;
+            animation: squirrel-run var(--sq-dur) ease-in-out infinite var(--sq-delay),
+                       squirrel-climb var(--sq-dur) ease-in-out infinite var(--sq-delay),
+                       squirrel-hide var(--sq-dur) ease-in-out infinite var(--sq-delay);
+          }
+        `}</style>
+      )}
+      {ct.isSquirrel && mounted && (
+        <>
+          {/* 나무 2그루 */}
+          {[{x:'28%',h:260,tw:110},{x:'68%',h:220,tw:90}].map((tr,i)=>(
+            <div key={i} style={{ position:'fixed', bottom:0, left:tr.x, zIndex:0, pointerEvents:'none', opacity:.2,
+              animation:'tree-sway '+(7+i*2)+'s ease-in-out infinite', animationDelay:(i*1.5)+'s', transformOrigin:'50% 100%' }}>
+              <svg width={tr.tw} height={tr.h} viewBox={`0 0 ${tr.tw} ${tr.h}`} fill="none">
+                <rect x={tr.tw/2-7} y={tr.h-80} width="14" height="80" rx="4" fill="#7a4a1a"/>
+                <rect x={tr.tw/2-4} y={tr.h-160} width="8" height="90" rx="3" fill="#6a3a10"/>
+                <circle cx={tr.tw/2} cy={tr.h-180} r={tr.tw*.45} fill="#4a8a20"/>
+                <circle cx={tr.tw/2-18} cy={tr.h-160} r={tr.tw*.28} fill="#5a9a28"/>
+                <circle cx={tr.tw/2+16} cy={tr.h-165} r={tr.tw*.3} fill="#3a7a18"/>
+                {/* 구멍 */}
+                <ellipse cx={tr.tw/2+5} cy={tr.h-100} rx="7" ry="5" fill="#3a1a00"/>
+              </svg>
+            </div>
+          ))}
+          {/* 다람쥐 */}
+          <div className="squirrel-sprite" style={{
+            left:0,
+            '--tree-x':'28vw','--sq-dur':'7s','--sq-delay':'0s',
+          }}>
+            <svg width="40" height="36" viewBox="0 0 40 36" fill="none">
+              {/* 몸 */}
+              <ellipse cx="18" cy="24" rx="10" ry="7" fill="#c87830"/>
+              {/* 머리 */}
+              <circle cx="28" cy="18" r="8" fill="#d88840"/>
+              {/* 귀 */}
+              <ellipse cx="25" cy="11" rx="3" ry="4" fill="#c87830"/>
+              <ellipse cx="33" cy="11" rx="3" ry="4" fill="#c87830"/>
+              <ellipse cx="25" cy="11" rx="1.5" ry="2.5" fill="#f0a060"/>
+              <ellipse cx="33" cy="11" rx="1.5" ry="2.5" fill="#f0a060"/>
+              {/* 눈 코 */}
+              <circle cx="30" cy="17" r="2" fill="#1a0800"/>
+              <circle cx="31" cy="16" r=".6" fill="white"/>
+              <ellipse cx="34" cy="20" rx="2" ry="1" fill="#f09070"/>
+              {/* 꼬리 */}
+              <path d="M8 24 Q-2 10 4 4 Q14 0 16 12 Q18 20 14 26 Z" fill="#e89840" opacity=".9"/>
+              <path d="M8 24 Q0 14 5 7 Q12 4 14 14 Q16 20 13 25 Z" fill="#f0b060" opacity=".6"/>
+              {/* 다리 */}
+              <ellipse cx="14" cy="30" rx="4" ry="3" fill="#c07020"/>
+              <ellipse cx="23" cy="31" rx="4" ry="3" fill="#c07020"/>
+            </svg>
+          </div>
+          {/* 도토리 */}
+          {[{l:'30%',d:'3s'},{l:'70%',d:'8s'}].map((a,i)=>(
+            <div key={i} style={{ position:'fixed', top:'25%', left:a.l, zIndex:0, pointerEvents:'none', opacity:.15,
+              animation:'acorn-fall 4s ease-in infinite', animationDelay:a.d }}>
+              <svg width="14" height="20" viewBox="0 0 14 20" fill="none">
+                <path d="M2 8 Q7 2 12 8 L10 8 Q7 5 4 8 Z" fill="#5a3a10"/>
+                <ellipse cx="7" cy="13" rx="5" ry="6" fill="#8b5e20"/>
+                <line x1="7" y1="5" x2="7" y2="2" stroke="#5a3a10" strokeWidth="1.5"/>
+              </svg>
+            </div>
+          ))}
+        </>
+      )}
+
+      {/* ── 연어의강 애니메이션 ── */}
+      {ct.isSalmon && mounted && (
+        <style>{`
+          @keyframes river-flow {
+            0%   { transform: translateX(0); }
+            100% { transform: translateX(-60px); }
+          }
+          @keyframes salmon-jump-1 {
+            0%,39%        { transform: translate(0, 0) rotate(0deg); opacity:0; }
+            40%           { opacity:1; transform: translate(0, 0) rotate(-20deg); }
+            55%           { transform: translate(-40px, -120px) rotate(-60deg); }
+            65%           { transform: translate(-60px, -150px) rotate(-80deg); }
+            75%           { transform: translate(-80px, -120px) rotate(-100deg); }
+            88%           { transform: translate(-100px, -20px) rotate(-150deg); opacity:1; }
+            90%,100%      { transform: translate(-110px, 10px) rotate(-160deg); opacity:0; }
+          }
+          @keyframes salmon-jump-2 {
+            0%,59%        { transform: translate(0,0) rotate(0deg); opacity:0; }
+            60%           { opacity:1; transform: translate(0,0) rotate(-25deg); }
+            72%           { transform: translate(-30px,-100px) rotate(-65deg); }
+            80%           { transform: translate(-50px,-130px) rotate(-85deg); }
+            90%           { transform: translate(-75px,-30px) rotate(-140deg); opacity:1; }
+            92%,100%      { transform: translate(-85px, 8px) rotate(-155deg); opacity:0; }
+          }
+          @keyframes ripple-spread {
+            0%   { transform: scale(0); opacity:.8; }
+            100% { transform: scale(3); opacity:0; }
+          }
+          @keyframes water-shimmer {
+            0%,100% { opacity:.06; }
+            50%     { opacity:.12; }
+          }
+          .salmon { position:fixed; pointer-events:none; z-index:1; }
+          .ripple { position:fixed; pointer-events:none; z-index:0; border-radius:50%;
+            border: 2px solid rgba(26,122,176,.5);
+            animation: ripple-spread 1.5s ease-out infinite;
+          }
+        `}</style>
+      )}
+      {ct.isSalmon && mounted && (
+        <>
+          {/* 강물 레이어 */}
+          <div style={{ position:'fixed', bottom:0, left:0, right:0, height:'35%', zIndex:0, pointerEvents:'none',
+            background:'linear-gradient(180deg, transparent 0%, rgba(26,122,176,.08) 40%, rgba(26,122,176,.18) 100%)',
+            overflow:'hidden' }}>
+            {Array.from({length:8}).map((_,i)=>(
+              <div key={i} style={{ position:'absolute', top:`${10+i*12}%`, left:0, right:0, height:'2px',
+                background:`linear-gradient(90deg, transparent, rgba(136,200,232,${.15+i*.02}), transparent)`,
+                animation:'river-flow '+( 3+i*.4)+'s linear infinite',
+                animationDelay:(i*.3)+'s', opacity:.7+(i%3)*.1 }}/>
+            ))}
+          </div>
+          {/* 연어 3마리 */}
+          {[
+            {l:'55%',b:'30%',anim:'salmon-jump-1',dur:'5s',delay:'0s'},
+            {l:'70%',b:'28%',anim:'salmon-jump-2',dur:'5s',delay:'1.8s'},
+            {l:'62%',b:'32%',anim:'salmon-jump-1',dur:'5s',delay:'3.2s'},
+          ].map((s,i)=>(
+            <div key={i} className="salmon" style={{ left:s.l, bottom:s.b,
+              animation:`${s.anim} ${s.dur} ease-in-out infinite`, animationDelay:s.delay, opacity:.22+(i%2)*.04 }}>
+              <svg width="52" height="22" viewBox="0 0 52 22" fill="none">
+                <ellipse cx="22" cy="11" rx="20" ry="8" fill="#e8602a"/>
+                <ellipse cx="20" cy="11" rx="18" ry="6.5" fill="#f07840"/>
+                {/* 배 */}
+                <ellipse cx="22" cy="14" rx="14" ry="4" fill="#f8c8a0" opacity=".6"/>
+                {/* 지느러미 */}
+                <path d="M10 6 L18 11 L10 13 Z" fill="#c04020"/>
+                <path d="M28 4 L34 11 L28 16 Z" fill="#c04020"/>
+                {/* 꼬리 */}
+                <path d="M40 11 L52 4 L50 11 L52 18 Z" fill="#c04020"/>
+                {/* 눈 */}
+                <circle cx="8" cy="10" r="2.5" fill="#fff"/>
+                <circle cx="8" cy="10" r="1.5" fill="#1a0800"/>
+                <circle cx="8.5" cy="9.5" r=".5" fill="white"/>
+                {/* 반짝임 */}
+                <ellipse cx="18" cy="8" rx="5" ry="2" fill="white" opacity=".18" transform="rotate(-15,18,8)"/>
+              </svg>
+            </div>
+          ))}
+          {/* 물방울 파문 */}
+          {[{l:'55%',b:'29%',d:'2.5s'},{l:'68%',b:'27%',d:'4.3s'},{l:'61%',b:'31%',d:'6s'}].map((r,i)=>(
+            <div key={i} className="ripple" style={{ left:r.l, bottom:r.b, width:'20px', height:'10px',
+              animationDelay:r.d, animationDuration:'2s', opacity:.15 }}/>
+          ))}
+        </>
+      )}
+
+      {/* ── 폭포 애니메이션 ── */}
+      {ct.isWaterfall && mounted && (
+        <style>{`
+          @keyframes fall-stream {
+            0%   { transform: translateY(-100%); opacity:0; }
+            5%   { opacity:1; }
+            95%  { opacity:.8; }
+            100% { transform: translateY(100%); opacity:0; }
+          }
+          @keyframes mist-rise {
+            0%   { transform: translateY(0) scale(1); opacity:0; }
+            20%  { opacity:.5; }
+            100% { transform: translateY(-80px) scale(2.5); opacity:0; }
+          }
+          @keyframes pool-ripple {
+            0%   { transform: scale(1) scaleY(.4); opacity:.6; }
+            100% { transform: scale(4) scaleY(.4); opacity:0; }
+          }
+          @keyframes moss-sway {
+            0%,100% { transform: rotate(-3deg); }
+            50%     { transform: rotate(3deg); }
+          }
+          @keyframes splash-drop {
+            0%   { transform: translate(0,0); opacity:0; }
+            20%  { opacity:1; }
+            100% { transform: translate(var(--sx), var(--sy)); opacity:0; }
+          }
+          .fall-col { position:absolute; top:0; border-radius:4px;
+            background: linear-gradient(180deg, rgba(255,255,255,.9), rgba(140,210,240,.6), rgba(255,255,255,.5));
+            animation: fall-stream linear infinite;
+          }
+          .mist-puff { position:absolute; border-radius:50%;
+            background: radial-gradient(circle, rgba(255,255,255,.8), transparent);
+            animation: mist-rise ease-out infinite;
+          }
+          .splash { position:absolute; width:4px; height:4px; border-radius:50%;
+            background:rgba(255,255,255,.9);
+            animation: splash-drop ease-out infinite;
+          }
+        `}</style>
+      )}
+      {ct.isWaterfall && mounted && (
+        <>
+          {/* 절벽/바위 SVG */}
+          <div style={{ position:'fixed', right:'6%', top:0, bottom:0, width:'180px', zIndex:0, pointerEvents:'none', opacity:.18 }}>
+            <svg width="180" height="100%" viewBox="0 0 180 800" preserveAspectRatio="none" fill="none">
+              {/* 절벽 */}
+              <path d="M60 0 L75 0 L80 50 L90 800 L0 800 Z" fill="#5a7a58"/>
+              <path d="M60 0 L75 0 L78 40 L70 800 L55 800 Z" fill="#4a6a48" opacity=".6"/>
+              {/* 바위들 */}
+              <ellipse cx="30" cy="750" rx="35" ry="20" fill="#4a5a48"/>
+              <ellipse cx="75" cy="760" rx="28" ry="15" fill="#3a4a38"/>
+              <ellipse cx="120" cy="755" rx="22" ry="12" fill="#4a5a48"/>
+              {/* 이끼 */}
+              <path d="M55 200 Q62 195 70 200 Q65 220 55 215 Z" fill="#3a8a30"/>
+              <path d="M56 320 Q63 315 70 320 Q66 340 56 335 Z" fill="#4a9a38"/>
+              <path d="M55 440 Q62 435 70 440 Q66 460 55 455 Z" fill="#3a8a30"/>
+              {/* 이끼 흔들기 */}
+              <g style={{ animation:'moss-sway 4s ease-in-out infinite', transformOrigin:'62px 760px' }}>
+                <path d="M50 760 Q62 740 74 760 Q80 775 62 778 Q44 775 50 760 Z" fill="#3a8a20" opacity=".8"/>
+              </g>
+            </svg>
+            {/* 폭포 물줄기 */}
+            <div style={{ position:'absolute', top:0, left:'32px', width:'46px', height:'100%', overflow:'hidden' }}>
+              {Array.from({length:8}).map((_,i)=>(
+                <div key={i} className="fall-col" style={{
+                  left:`${i*5.5+1}px`,
+                  width: i%3===0 ? '6px' : i%2===0 ? '4px' : '3px',
+                  height: `${12+i%4*4}%`,
+                  opacity: .5+(i%3)*.1,
+                  animationDuration: `${.6+(i*.08)%0.5}s`,
+                  animationDelay: `${(i*.12)%0.7}s`,
+                }}/>
+              ))}
+              {/* 물보라 */}
+              {Array.from({length:10}).map((_,i)=>(
+                <div key={'m'+i} className="mist-puff" style={{
+                  bottom: `${2+i%3*3}%`, left:`${i*4+2}px`,
+                  width:'18px', height:'18px', opacity:.08+(i%3)*.03,
+                  animationDuration:`${1.5+(i*.2)%1.5}s`,
+                  animationDelay:`${(i*.18)%2}s`,
+                }}/>
+              ))}
+              {/* 튀기는 물방울 */}
+              {Array.from({length:8}).map((_,i)=>(
+                <div key={'sp'+i} className="splash" style={{
+                  bottom:'3%', left:`${i*5+3}px`,
+                  '--sx': (Math.cos(i*0.8)*25)+'px',
+                  '--sy': (-20-i%3*10)+'px',
+                  opacity:.15+(i%3)*.04,
+                  animationDuration:`${.8+(i*.1)%0.6}s`,
+                  animationDelay:`${(i*.15)%1}s`,
+                }}/>
+              ))}
+            </div>
+          </div>
+          {/* 수면 파문 */}
+          {Array.from({length:4}).map((_,i)=>(
+            <div key={i} style={{ position:'fixed', bottom:'12%', right:`${12+i*3}%`, zIndex:0, pointerEvents:'none',
+              width:'40px', height:'16px', borderRadius:'50%',
+              border:'1.5px solid rgba(26,144,96,.25)',
+              animation:'pool-ripple 2.5s ease-out infinite',
+              animationDelay:(i*.6)+'s', opacity:.12 }}/>
+          ))}
+          {/* 배경 안개 */}
+          <div style={{ position:'fixed', right:0, top:0, bottom:0, width:'220px', zIndex:0, pointerEvents:'none',
+            background:'linear-gradient(90deg, transparent, rgba(200,240,220,.06))',
+          }}/>
         </>
       )}
 
