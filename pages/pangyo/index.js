@@ -1479,26 +1479,23 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const scored = preScore(ctx, moods, weather, pool, selectedCat, mm)
       const top20 = scored.slice(0, 20)
       // 상위 3개 고정 + 랜덤 3개 = 6개 후보 → AI가 4개 선택
-      const top6 = [...top20.slice(0,4), ...[...top20.slice(4)].sort(()=>Math.random()-0.5).slice(0,4)].sort(()=>Math.random()-0.5)
+      const top5 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5).slice(0,5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
-      const compact = top6.map((r, idx) => {
-        const rv0 = (r.rv||[])[0] ? '  · '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,30) : ''
-        const tags = (r.tags||[]).slice(0,4).join(' ')
-        return `[${idx+1}]${r.name} | ${r.type} | ${r.priceRange||'?'}원 | ${r.hours||''}\n  카테고리:${(r.cat||[]).join('·')} 태그:${tags}${rv0?'\n'+rv0:''}`
+      const compact = top5.map((r, idx) => {
+        const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
       const filter_str = [weather&&`날씨:${weather}`, mood_str&&`기분:${mood_str}`, selectedCat&&`카테고리:${selectedCat.name}`].filter(Boolean).join(' / ')
 const usageCnt = getUsageCount()
             const prompt = [
-        '판교 맛집 큐레이터. 아래 후보들 중에서 요청에 맞는 곳 정확히 3곳 추천.',
-        '요청:' + (ctx_full||'없음') + (filter_str?' ('+filter_str+')':''),
+        '판교 맛집 추천. 검색자의 진짜 의도를 파악해서 후보 중 딱 맞는 3곳 골라줘. 단순 나열 금지—상황과 감정에 맞게 큐레이션.',
+        '요청:'+(ctx_full||'없음')+(filter_str?' ('+filter_str+')':''),
         '후보:',
         compact,
-        '규칙: JSON만 출력. 반드시 정확히 3개(rank1~3). reason은 3문장, 총 120~150자. 후보 목록에서만 선택. 후보 없을 때 연관 메뉴·분위기 기준으로 대체. 검색의도 공감해서 자연스럽게.',
-        'rank1: 요청자 상황·감정에 공감하며 왜 지금 이 식당인지 감성있게 (2~3문장). rank2: 메뉴·가격·분위기 핵심을 구체적 수치·특징과 함께 실용적으로 (2~3문장). rank3: 이 식당만의 독특한 매력·히든메뉴·분위기를 생생하게 (2~3문장).',
-        'highlight는 10자이내. 3개 각각 완전히 다른 매력 포인트.',
-        '출력형식: {"recommendations":[{"rank":1,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":2,...},{"rank":3,...}]}'
+        'JSON만. 정확히 3개. reason: 의도 공감+이 식당인 이유 2문장 80~100자. highlight 8자이내.',
+        '{"recommendations":[{"rank":1,"restaurantName":"...","reason":"...","reviewHighlight":"..."},{"rank":2,...},{"rank":3,...}]}'
       ].join('\n')
 
       const ctrl = new AbortController()
@@ -1878,7 +1875,7 @@ const usageCnt = getUsageCount()
               if (rec._notInDB && !r) {
                 // DB에 없는 식당 → 네이버지도 카드
                 return (
-                  <a key={i} href={`https://map.naver.com/v5/search/${encodeURIComponent(rec.restaurantName)}`}
+                  <a key={i} href={`https://map.naver.com/v5/search/${encodeURIComponent(rec.restaurantName + ' 판교')}`}
                     target="_blank" rel="noopener noreferrer"
                     style={{ textDecoration:'none', display:'block', color:'inherit' }}>
                     <div style={{ background:'var(--surface2)',border:'1px solid var(--border)',borderLeft:`3px solid ${borders[i]||'#888'}`,borderRadius:14,padding:'16px 14px',cursor:'pointer',height:'100%',opacity:.85 }}>

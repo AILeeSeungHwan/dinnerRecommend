@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   // ~7~9원 수준: 입력 약 1000토큰 × 0.8$/M + 출력 1200~1400토큰 × 4$/M
   // 절약모드도 1200 유지 — 1000이면 JSON 출력이 잘려 파싱 오류 발생
   const count = parseInt(usageCount) || 0
-  const maxTokens = count >= 3 ? 1200 : 1400
+  const maxTokens = count >= 3 ? 900 : 1000
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
