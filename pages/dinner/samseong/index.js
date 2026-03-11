@@ -537,7 +537,7 @@ function DiceOverlay({ onDone }) {
     const t = setInterval(() => {
       setFace(dice[Math.floor(Math.random()*dice.length)])
       c++; setN(c)
-      if (c >= 26) { clearInterval(t); setTimeout(onDone, 200) }
+      if (c >= 10) { clearInterval(t); setTimeout(onDone, 300) }
     }, 170)
     return () => clearInterval(t)
   }, [])
@@ -1036,13 +1036,13 @@ function RouletteModal({ results, restaurants, onPick, onClose }) {
       if (step >= totalSteps) {
         setFinalIdx(picked); setDone(true); return
       }
-      // ease-in-out: 초반 빠르게 → 후반 급격히 느리게
-      const ease = progress < 0.7
-        ? 70 + progress * 80
-        : 80 + Math.pow((progress - 0.7) / 0.3, 2.5) * 700
+      // 초반 빠르게 → 후반 점점 느리게 (총 ~5초)
+      const ease = progress < 0.5
+        ? 50
+        : 50 + Math.pow((progress - 0.5) / 0.5, 2) * 2000
       frame = setTimeout(spin, ease)
     }
-    frame = setTimeout(spin, 70)
+    frame = setTimeout(spin, 50)
     return () => clearTimeout(frame)
   }, [])
 
