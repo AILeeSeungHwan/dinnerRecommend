@@ -167,6 +167,80 @@ function buildRandomReason(r, idx, usedTemplates) {
       const reason = rv0 ? `${intro ? intro + ' ' : ''}"${rv0}"` : (intro || `${r.type || ''} 한 곳.`)
       return { reason, highlight: rv0.slice(0, 20) || (tags[0] ? `#${tags[0]}` : '') }
     },
+
+    // 8: 평점 수치 강조 + 방문 코멘트
+    () => {
+      const star = rt ? `⭐${rt}점` : ''
+      const cntStr = cnt >= 100 ? `${cnt.toLocaleString()}명 방문` : cnt > 0 ? `${cnt}명 방문` : ''
+      const badge = [star, cntStr].filter(Boolean).join(' · ')
+      const base8 = badge ? `${badge}.` : `${r.type || '식당'}.`
+      const reason = rv0 ? `${base8} "${rv0}"` : base8
+      return { reason, highlight: rv0.slice(0, 20) || (star || cntStr) }
+    },
+
+    // 9: 가격대 앞세우기
+    () => {
+      const price = r.priceRange
+        ? (() => { const [a,b]=r.priceRange.split('~').map(Number); const avg=Math.round((a+(b||a))/2/1000); return `${avg}천원대` })()
+        : null
+      const intro = price ? `${price}, 부담 없이 즐길 수 있는 곳.` : (tags[0] ? `${tags[0]}${tags[0].endsWith('집')?'':'집'}.` : '한 번 가볼 만한 곳.')
+      const reason = rv0 ? `${intro} "${rv0}"` : intro
+      return { reason, highlight: rv0.slice(0,20) || (price||'') }
+    },
+
+    // 10: 재방문/단골 스타일
+    () => {
+      const repeat = cnt >= 300 ? `${cnt.toLocaleString()}명이 다녀간` : cnt > 0 ? `${cnt}명이 다녀간` : ''
+      const tagWord = tags[0] || r.type || ''
+      const intro = repeat
+        ? `${repeat} ${tagWord} 맛집.`
+        : `${tagWord} 좋아하면 여기 한번.`
+      const reason = rv0 ? `${intro} "${rv0}"` : intro
+      return { reason, highlight: rv0.slice(0,20) || tagWord }
+    },
+
+    // 11: 첫 방문 추천 스타일 (태그 나열 + 짧은 문장)
+    () => {
+      const tagLine = tags.slice(0,3).map(t=>`#${t}`).join(' ')
+      const sc = scene[0] || moods[0] || ''
+      const intro = sc ? `${sc.replace(/에$/,'')}에 딱 맞는 선택.` : `한 번은 가봐야 할 곳.`
+      const reason = `${intro}${tagLine ? '  '+tagLine : ''}${rv0 ? '  "'+rv0+'"' : ''}`
+      return { reason, highlight: rv0.slice(0,20) || (tags[0]||sc) }
+    },
+
+    // 12: 두 번째 리뷰 강조 + 태그
+    () => {
+      const rv1use = rv1 || rv0
+      if (!rv1use) return templates[1]()
+      const tagStr = tags[0] ? `#${tags.slice(0,2).join(' #')}` : ''
+      const reason = tagStr ? `${tagStr}  "${rv1use}"` : `"${rv1use}"`
+      return { reason, highlight: rv1use.slice(0,20) }
+    },
+
+    // 13: 상황 + 메뉴타입 자연어 설명
+    () => {
+      const when = moods[0] ? (() => {
+        const m={'기분 좋음':'기분 좋은 날','피곤함':'피곤할 때','스트레스 받음':'스트레스받을 때',
+          '혼밥':'혼자일 때','축하':'축하하는 날','허전함':'왠지 허전할 때',
+          '데이트':'데이트하는 날','회식':'회식 자리라면'}
+        return m[moods[0]] || moods[0]
+      })() : null
+      const typeWord = r.type?.split('·')[0] || ''
+      const intro = when
+        ? `${when}, ${typeWord} 생각난다면.`
+        : `${typeWord} 고민될 때 이 집.`
+      const reason = rv0 ? `${intro} "${rv0}"` : intro
+      return { reason, highlight: rv0.slice(0,20) || typeWord }
+    },
+
+    // 14: 리뷰 없을 때 태그 스토리
+    () => {
+      const scStr = scene.slice(0,2).join(', ')
+      const tagStr = tags.slice(0,3).join(' · ')
+      const intro = scStr ? `${scStr}에 어울리는` : ''
+      const reason = `${intro ? intro+' ' : ''}${tagStr || r.type || '맛집'}.${cnt>0 ? ` 방문객 ${cnt.toLocaleString()}명 인증.` : ''}`
+      return { reason, highlight: tagStr.slice(0,20) || r.type || '' }
+    },
   ]
 
   const available = templates.map((_,i) => i).filter(i => !usedTemplates.includes(i))
@@ -1365,48 +1439,36 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         : 99
       // DB 미보유 메뉴 감지: 구체적 메뉴 검색인데 직접 매칭 < 2개
       const isDbMissing = specificMenu && directMatchCount < 3
-      if (isDbMissing && !skipDbCheckRef.current) {
-        skipDbCheckRef.current = false  // 다음 호출을 위해 리셋은 handleNoDataContinue에서
-        setNoDataMenu(specificMenu)
-        setLoading(false)
-        return
-      }
-      const needsExternal = ctx && !selectedCat && (
-        base.length < 3 ||
-        (specificMenu && directMatchCount < 3)
-      )
-      if (needsExternal) {
-        const wCtrl = new AbortController()
-        const wTimer = setTimeout(() => wCtrl.abort(), 25000)
-        let extRes
-        try {
-          extRes = await fetch('/api/web-search-recommend', {
-            method:'POST', headers:{'Content-Type':'application/json'},
-            body: JSON.stringify({ menuQuery: ctx.trim(), area: '영통', usageCount: getUsageCount() }),
-            signal: wCtrl.signal,
-          })
-        } catch (wErr) {
-          clearTimeout(wTimer)
-          if (wErr.name === 'AbortError') { setLoading(false); setError('검색 시간이 초과됐어요 ⏱'); return }
-          throw wErr
+      // isDbMissing → 내부 연관검색으로 대체 (외부검색/팝업 제거)
+      // ── 내부 DB 연관 검색 — 후보 부족 시 키워드 확장으로 처리 ──
+      if (base.length < 3) {
+        const expanded = ctx ? ctx.toLowerCase().split(/[\s,]+/).filter(w => w.length > 1) : []
+        const synExpand = [...expanded]
+        const SYNS = {
+          '국밥':['해장국','설렁탕','곰탕','순대국','뼈해장'],
+          '고기':['구이','삼겹살','갈비','한우','등심','목살'],
+          '이자카야':['야끼토리','사케','하이볼','안주','일본술'],
+          '중식':['짜장','짬뽕','탕수육','마라탕','훠궈','양꼬치'],
+          '양식':['파스타','피자','이탈리안','리조또'],
+          '치킨':['후라이드','통닭','닭강정','양념치킨'],
+          '야장':['포차','포장마차','노천'],
+          '해장':['숙취','속풀이','다음날'],
+          '혼밥':['혼자','1인'],
+          '데이트':['커플','둘이','연인'],
+          '회식':['단체','팀식사','부서'],
+          '매운':['얼큰','마라','불닭','화끈'],
+          '가성비':['저렴','싸게','착한가격'],
         }
-        clearTimeout(wTimer)
-        if (extRes.ok) {
-          const extData = await extRes.json()
-          const extRecs = Array.isArray(extData.recommendations) ? extData.recommendations : []
-          if (extRecs.length > 0) {
-            if (extData.usage) {
-              window.dispatchEvent(new CustomEvent('token-used', {
-                detail: calcCost(extData.usage.input_tokens||0, extData.usage.output_tokens||0)
-              }))
-            }
-            const newCount = incrementUsage()
-            setUsedToday(newCount)
-            setResults(extRecs.map((r,i) => ({ ...r, _external:true, rank:i+1 })))
-            scrollTo(); setLoading(false); return
-          }
+        for (const [key, vals] of Object.entries(SYNS)) {
+          if (vals.some(v => synExpand.some(w => w.includes(v.toLowerCase())))) synExpand.push(key)
+          if (synExpand.some(w => w.includes(key))) synExpand.push(...vals.map(v => v.toLowerCase()))
         }
-        base = restaurants
+        const expanded2 = [...new Set(synExpand)]
+        const fuzzyBase = restaurants.filter(r => {
+          const blob = [r.name, r.type, ...(r.tags||[]), ...(r.cat||[]), ...(r.scene||[])].join(' ').toLowerCase()
+          return expanded2.some(kw => blob.includes(kw))
+        })
+        base = fuzzyBase.length >= 3 ? fuzzyBase : restaurants
       }
 
       if (base.length < 5) base = restaurants
@@ -1712,10 +1774,12 @@ const usageCnt = getUsageCount()
                     {prR?.e} {pr.restaurantName}
                   </div>
                   <div style={{ display:'flex',gap:6,flexWrap:'wrap' }}>
-                    {prR && <button onClick={()=>setPickedIdx(i)}
-                      style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,border:'none',cursor:'pointer' }}>
-                      ✅ 여기로 결정
-                    </button>}
+                    {prR && (
+                      <Link href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(prR.name)}`}
+                        style={{ padding:'7px 16px',borderRadius:8,background:'var(--primary)',color:'#fff',fontSize:'.82rem',fontWeight:700,textDecoration:'none',display:'inline-block' }}>
+                        ✅ 여기로 결정
+                      </Link>
+                    )}
                     {prR && <a href={`https://map.naver.com/v5/search/${encodeURIComponent(prR.name + ' 영통')}`}
                       target="_blank" rel="noopener noreferrer"
                       style={{ padding:'7px 16px',borderRadius:8,background:'var(--surface2)',border:'1px solid var(--border)',color:'var(--muted)',fontSize:'.82rem',fontWeight:700,textDecoration:'none' }}>
@@ -1853,7 +1917,7 @@ const usageCnt = getUsageCount()
                         </div>
                       </div>
                       <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word', whiteSpace:'pre-line' }}>{rec.reason}</p>
-                      {rec.reviewHighlight&&(
+                      {rec.reviewHighlight && !rec._random &&(
                         <div style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 8px 8px 0', padding:'8px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
                           💬 &ldquo;{rec.reviewHighlight}&rdquo;
                         </div>
