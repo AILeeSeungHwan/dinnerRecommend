@@ -4718,7 +4718,7 @@ const restaurants = [
   moods: ["기분 좋음", "혼밥"],
   scene: ["점심 특선"],
   wx: ["맑음", "흐림"],
-  rv: ["해초와 쌈을 함께 먹는데 정말", ", , ", null, ",", ","],
+  rv: ["해초와 쌈을 함께 먹는데 정말"],
   vector: {"solo": 0.5, "group": 0.5, "alcohol": 0.3, "comfort_food": 0.5, "heavy_food": 0.5, "warm_food": 0.5, "fast_meal": 0.4, "date": 0.4},
   exit4: true
 },
@@ -4739,7 +4739,7 @@ const restaurants = [
   moods: ["기분 좋음", "혼밥"],
   scene: ["점심 특선"],
   wx: ["맑음", "흐림"],
-  rv: ["", "", ""],
+  rv: [],
   vector: {"solo": 0.5, "group": 0.5, "alcohol": 0.3, "comfort_food": 0.5, "heavy_food": 0.5, "warm_food": 0.5, "fast_meal": 0.4, "date": 0.4},
   exit4: true
 },
@@ -5201,7 +5201,7 @@ const restaurants = [
   moods: ["회식", "혼밥"],
   scene: ["회식 2차", "마라탕·훠궈"],
   wx: ["맑음", "덥고 습함", "흐림"],
-  rv: ["김밥집에서 파는 특이한 메뉴가 몇개", "적당", ""],
+  rv: ["김밥집에서 파는 특이한 메뉴가 몇개", "적당"],
   vector: {"solo": 0.9, "group": 0.75, "alcohol": 0.6, "comfort_food": 0.7, "heavy_food": 0.6, "warm_food": 0.6, "fast_meal": 0.9, "date": 0.7},
   exit4: false
 },
@@ -5516,7 +5516,7 @@ const restaurants = [
   moods: ["기분 좋음", "혼밥"],
   scene: ["점심 특선"],
   wx: ["맑음", "흐림"],
-  rv: ["좋음", "뷔페", ""],
+  rv: ["좋음", "뷔페"],
   vector: {"solo": 0.5, "group": 0.5, "alcohol": 0.3, "comfort_food": 0.5, "heavy_food": 0.5, "warm_food": 0.5, "fast_meal": 0.4, "date": 0.4},
   exit4: false
 },
@@ -5600,7 +5600,7 @@ const restaurants = [
   moods: ["피곤함", "허전함"],
   scene: ["해장"],
   wx: ["비", "쌀쌀함", "눈", "흐림"],
-  rv: ["뼈다귀 최고", "", ""],
+  rv: ["뼈다귀 최고"],
   vector: {"solo": 0.8, "group": 0.5, "alcohol": 0.1, "comfort_food": 0.9, "heavy_food": 0.7, "warm_food": 0.9, "fast_meal": 0.6, "date": 0.4},
   exit4: true
 },
@@ -5621,7 +5621,7 @@ const restaurants = [
   moods: ["기분 좋음", "혼밥"],
   scene: ["심야 밥"],
   wx: ["맑음", "흐림"],
-  rv: ["짜장면은 시키지마세요. 3분짜장", "깐풍기 맜있음", ""],
+  rv: ["짜장면은 시키지마세요. 3분짜장", "깐풍기 맜있음"],
   vector: {"solo": 0.5, "group": 0.5, "alcohol": 0.3, "comfort_food": 0.5, "heavy_food": 0.5, "warm_food": 0.5, "fast_meal": 0.4, "date": 0.4},
   exit4: false
 },
