@@ -191,6 +191,85 @@ function QRMobileGuide() {
 }
 
 
+// ── 버전 히스토리 데이터 ────────────────────────────────────────
+const VERSION_HISTORY = [
+  { version:'v0.9.1', date:'2026-03-11', current:true,  summary:'안정화 — 잠실 가짜 데이터 19개 제거, 테마 6개 추가, DiceOverlay/RouletteModal 타이밍 조정, 삼성역 데이터 최신화, 태그 자동생성' },
+  { version:'v0.9',   date:'2026-03-10', current:false, summary:'전 지역 통일 + 시즌 테마 — 6개 지역 기능 완전 동기화(룰렛/IdleBar/외부검색), 시즌 테마 4종(벚꽃/비/눈/단풍), 개발자 노트 팝업, AI 결과 비용 최적화(~4원), 데이터 rv→rvs 저작권 처리' },
+  { version:'v0.8',   date:'2026-03-09', current:false, summary:'판교 + AI 고도화 — 판교역 423개 식당 추가, AI 프롬프트 전면 개편(의도 파악·시그니처·리뷰 반응 3요소), 토큰 절약 모드(사용횟수별 max_tokens 차등), 랜덤 문구 10종 템플릿' },
+  { version:'v0.7',   date:'2026-03-09', current:false, summary:'삼성전자 전용 + 브랜드 리뉴얼 — 영통/망포/영통구청 3개 지역 추가(삼성전자 임직원용), 브랜드명 "강남뭐먹" → "오늘뭐먹지" 전면 변경, 삼성역 113개 추가(총 325개)' },
+  { version:'v0.6',   date:'2026-03-08', current:false, summary:'네이버 지도 + AI 개선 — 전체 지도를 네이버로 교체, AI 추천 max_tokens 확대, 카테고리 랜덤뽑기, 삼성역 50개 추가, exit4 재계산, 가짜 데이터 제거' },
+  { version:'v0.5',   date:'2026-03-07', current:false, summary:'멀티 지역 체계 — 헤더 지역 네비게이션(삼성/잠실), 모바일 지역 드롭다운, 카테고리 페이지 13개, 카드 클릭→상세 연결, 잠실 100개 추가(총 150개), 리뷰 키워드 요약으로 저작권 대응, 모바일 필터 접이식' },
+  { version:'v0.4',   date:'2026-03-06', current:false, summary:'잠실역 추가 — 잠실·방이동 54개 식당 데이터, 식당 상세페이지 신규, 감성 인트로 배너, 카테고리별 이미지 자동 매칭' },
+  { version:'v0.3',   date:'2026-03-06', current:false, summary:'SEO + UX 완성 — Bing 인증, RSS 피드, 사이트맵, 파비콘/OG이미지, 사용횟수 제한(5회), 경고 모달, 테마 32개로 대량 확장, 모바일 가로스크롤 방지' },
+  { version:'v0.2',   date:'2026-03-06', current:false, summary:'스코어링 고도화 — AI 검색 개선, 토큰 사용량 절감, 백그라운드/텍스트 색상 수정' },
+  { version:'v0.1',   date:'2026-03-05', current:false, summary:'프로젝트 시작 — 삼성역 기반 저녁메뉴 추천 사이트 생성. AI 추천, 랜덤뽑기, 8개 테마, 4번출구 필터, 토큰 비용 표시' },
+]
+
+// ── 버전 히스토리 팝업 ──────────────────────────────────────────
+function VersionHistoryModal({ onClose }) {
+  return (
+    <div
+      onClick={e => { if (e.target === e.currentTarget) onClose() }}
+      style={{ position:'fixed', inset:0, zIndex:10000, background:'rgba(0,0,0,.7)',
+        display:'flex', alignItems:'center', justifyContent:'center', padding:20 }}
+    >
+      <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:18,
+        maxWidth:560, width:'100%', maxHeight:'85vh', display:'flex', flexDirection:'column', position:'relative' }}>
+        {/* 헤더 */}
+        <div style={{ padding:'22px 24px 16px', borderBottom:'1px solid var(--border)', flexShrink:0 }}>
+          <button onClick={onClose}
+            style={{ position:'absolute', top:14, right:16, background:'none', border:'none',
+              color:'var(--muted)', fontSize:'1.2rem', cursor:'pointer', lineHeight:1 }}>✕</button>
+          <div style={{ fontSize:'.7rem', color:'var(--muted)', marginBottom:5, letterSpacing:'.04em' }}>
+            📋 CHANGELOG
+          </div>
+          <h2 style={{ margin:0, fontSize:'1.05rem', fontWeight:800 }}>
+            사이트 버전 히스토리
+          </h2>
+        </div>
+        {/* 타임라인 본문 */}
+        <div style={{ overflowY:'auto', padding:'20px 24px', display:'flex', flexDirection:'column', gap:0 }}>
+          {VERSION_HISTORY.map((item, idx) => (
+            <div key={item.version} style={{ display:'flex', gap:14, paddingBottom: idx < VERSION_HISTORY.length - 1 ? 20 : 0 }}>
+              {/* 타임라인 라인 + 점 */}
+              <div style={{ display:'flex', flexDirection:'column', alignItems:'center', flexShrink:0, width:14 }}>
+                <div style={{
+                  width:12, height:12, borderRadius:'50%', flexShrink:0, marginTop:3,
+                  background: item.current ? 'var(--primary)' : 'var(--border)',
+                  border: item.current ? '2px solid var(--primary)' : '2px solid var(--border)',
+                  boxShadow: item.current ? '0 0 0 3px color-mix(in srgb, var(--primary) 20%, transparent)' : 'none',
+                }} />
+                {idx < VERSION_HISTORY.length - 1 && (
+                  <div style={{ width:2, flex:1, background:'var(--border)', marginTop:4, borderRadius:1, minHeight:16 }} />
+                )}
+              </div>
+              {/* 내용 */}
+              <div style={{ flex:1, paddingBottom:0 }}>
+                <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:5, flexWrap:'wrap' }}>
+                  <span style={{
+                    fontSize:'.82rem', fontWeight:800,
+                    color: item.current ? 'var(--primary)' : 'var(--text)',
+                  }}>{item.version}</span>
+                  {item.current && (
+                    <span style={{
+                      fontSize:'.65rem', fontWeight:700, padding:'1px 7px', borderRadius:20,
+                      background:'var(--primary)', color:'#fff', letterSpacing:'.04em',
+                    }}>현재</span>
+                  )}
+                  <span style={{ fontSize:'.72rem', color:'var(--muted)' }}>{item.date}</span>
+                </div>
+                <p style={{ margin:0, fontSize:'.78rem', color:'var(--muted)', lineHeight:1.75 }}>
+                  {item.summary}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ── 개발자 노트 팝업 ────────────────────────────────────────────
 const OPEN_DATE = new Date('2026-03-05')
 function getOpenDayCount() {
@@ -209,6 +288,7 @@ function DevNoteSection({ icon, title, children }) {
 }
 function DevNote() {
   const [open, setOpen] = React.useState(false)
+  const [showVersionHistory, setShowVersionHistory] = React.useState(false)
   const [dayCount, setDayCount] = React.useState(6)
   React.useEffect(() => { setDayCount(getOpenDayCount()) }, [])
   return (
@@ -229,7 +309,7 @@ function DevNote() {
                 color:'var(--muted)', fontSize:'1.2rem', cursor:'pointer' }}>✕</button>
             <div style={{ marginBottom:22 }}>
               <div style={{ fontSize:'.7rem', color:'var(--muted)', marginBottom:6 }}>
-                🗓 오픈 {dayCount}일차 &nbsp;·&nbsp; ver 0.1
+                🗓 오픈 {dayCount}일차 &nbsp;·&nbsp; ver 0.9.1
               </div>
               <h2 style={{ margin:0, fontSize:'1.1rem', fontWeight:800, lineHeight:1.4 }}>
                 오늘 뭐 먹지?<br/>
@@ -237,7 +317,7 @@ function DevNote() {
               </h2>
             </div>
             <div style={{ fontSize:'.84rem', lineHeight:1.85, color:'var(--text)', display:'flex', flexDirection:'column', gap:18 }}>
-              <DevNoteSection icon="🌱" title="지금은 ver 0.1 입니다">
+              <DevNoteSection icon="🌱" title="지금은 ver 0.9.1 입니다">
                 오픈한 지 {dayCount}일밖에 안 됐어요. 아직 데이터가 얇고 추천 품질도 완성과는 거리가 있습니다.
                 시간이 쌓이면서 리뷰·메뉴·방문 패턴이 누적될수록 훨씬 정확하고 풍부한 추천을 드릴 수 있게 됩니다. 지금 이 버전은 그 시작점이에요.
               </DevNoteSection>
@@ -261,9 +341,28 @@ function DevNote() {
                 borderRadius:10, fontSize:'.78rem', color:'var(--muted)', lineHeight:1.7, textAlign:'center' }}>
                 진정성 있게 만들고 있습니다. 부족한 부분은 시간이 채워줄 거라 믿어요. 🙏
               </div>
+              {/* 버전 히스토리 버튼 */}
+              <button
+                onClick={() => setShowVersionHistory(true)}
+                style={{
+                  display:'flex', alignItems:'center', justifyContent:'center', gap:7,
+                  width:'100%', padding:'10px 16px',
+                  background:'var(--surface2)', border:'1px solid var(--border)',
+                  borderRadius:10, cursor:'pointer',
+                  fontSize:'.8rem', fontWeight:600, color:'var(--text)',
+                  letterSpacing:'.02em', transition:'border-color .15s, color .15s',
+                }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor='var(--primary)'; e.currentTarget.style.color='var(--primary)' }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.color='var(--text)' }}
+              >
+                📋 버전 히스토리
+              </button>
             </div>
           </div>
         </div>
+      )}
+      {showVersionHistory && (
+        <VersionHistoryModal onClose={() => setShowVersionHistory(false)} />
       )}
     </>
   )
