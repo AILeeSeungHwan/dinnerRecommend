@@ -165,10 +165,31 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>영통구청 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
+        <title>영통구청 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
         <meta name="description" content={`영통구청·매탄동 인근 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": `영통구청 ${catInfo.name} 맛집`,
+          "url": `https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`,
+          "numberOfItems": restaurants.length,
+          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+              "@type": "Restaurant",
+              "name": r.name,
+              "address": r.addr,
+              ...(r.rt ? { "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": String(r.rt),
+                "reviewCount": String(r.cnt || 0)
+              }} : {})
+            }
+          }))
+        })}} />
       </Head>
 
       {/* 헤더 */}
@@ -286,16 +307,162 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         </div>
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:12 }}>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:16 }}>
             영통구청 {catInfo.name} 맛집 선택 가이드
           </h2>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8, marginBottom:10 }}>
-            영통구청 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에
-            다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
-          </p>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
-            <Link href="/samsungElectronics/yeongtongGu" style={{ color:'var(--primary)' }}>영통구청 AI 맛집 추천</Link>을 이용하면
-            오늘 날씨, 기분, 예산에 맞는 {catInfo.name} 맛집을 바로 추천받을 수 있습니다.
+
+          {slug === 'meat' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 고기구이·삼겹살 맛집은 매탄동 상가 지역과 영통구청 인근 이면도로에 분포합니다. 삼성전기·삼성전자 인근 직장인들의 퇴근 후 회식 수요를 받는 삼겹살·목살 전문점이 주를 이루며, 구청 인근 로컬 상권 특성상 대형 체인보다 독립 운영 식당이 많아 분위기가 편안합니다. 조용한 환경에서 여유 있게 고기를 즐기기 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              삼겹살 1인분 기준 1만 2천~1만 7천 원, 한우 코스는 1인 3만~5만 5천 원대입니다. 매탄동 구이 식당은 상권 크기가 아담한 편이라 주말 저녁에는 특정 식당에 수요가 집중될 수 있습니다. 4인 이상이라면 예약을 통해 단체석을 미리 확보하는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link> · <Link href="/samsungElectronics/yeongtongGu/category/korean" style={{ color:'var(--primary)' }}>영통구청 한식·정식</Link> · <Link href="/samsungElectronics/yeongtongGu/category/izakaya" style={{ color:'var(--primary)' }}>영통구청 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'gukbap' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 국밥·해장·칼국수 맛집은 매탄동 주거 지역과 구청 인근 직장인 상권이 겹치는 위치에 자리합니다. 순대국밥·돼지국밥·설렁탕 전문점이 매탄동 골목에 분포하며, 아침 출근 전 빠른 식사부터 야근 후 해장까지 폭넓게 활용됩니다. 주거 지역 특성상 가정식 느낌의 국밥·정식 복합 식당도 운영 중입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인분 7천~1만 2천 원이 일반적입니다. 매탄동 국밥 식당은 단골 중심으로 운영되는 곳이 많아 메뉴 구성이 일정하고 서비스가 친근한 편입니다. 1인 혼밥 방문 시에는 카운터석 여부를 미리 확인하면 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/budget" style={{ color:'var(--primary)' }}>영통구청 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtongGu/category/korean" style={{ color:'var(--primary)' }}>영통구청 한식·정식</Link> · <Link href="/samsungElectronics/yeongtongGu/category/meat" style={{ color:'var(--primary)' }}>영통구청 고기구이</Link>
+            </p>
+          </>}
+
+          {slug === 'izakaya' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 이자카야·포차는 매탄동 상가 지역에 소규모로 운영 중인 이자카야와 포차들로 구성됩니다. 삼성전기·삼성전자 인근 직원들의 퇴근 후 1차·2차 장소로 활용되며, 조용한 분위기에서 가볍게 한잔할 수 있는 환경이 특징입니다. 영통역 이자카야 방향으로 이동하면 선택 폭이 더 넓어집니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 안주 기준 1만~1만 8천 원, 2인 주류 포함 3만 5천~6만 원대입니다. 영통구청 이자카야는 소규모 운영이 많아 단체 방문 시 사전 예약이 필수입니다. 더 다양한 선택이 필요하다면 영통역·망포역 방향 이자카야를 함께 고려하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/japanese" style={{ color:'var(--primary)' }}>영통구청 일식·스시</Link> · <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link> · <Link href="/samsungElectronics/yeongtongGu/category/meat" style={{ color:'var(--primary)' }}>영통구청 고기구이</Link>
+            </p>
+          </>}
+
+          {slug === 'japanese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 일식·스시·돈카츠 맛집은 매탄동 상가와 영통구청 인근에 소수 운영 중입니다. 돈카츠·규동 등 캐주얼 일식 단품 식당이 점심 빠른 식사 수요를 담당하며, 저녁에는 스시 코스를 제공하는 식당도 일부 운영 중입니다. 선택지가 제한적일 경우 영통역·망포역 방향 일식 식당을 함께 검토하면 다양한 옵션이 가능합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 1만 2천~1만 8천 원, 저녁 스시 코스는 1인 6만~12만 원 수준입니다. 접대 또는 기념일 방문 시에는 예약 시 개인석·룸 가능 여부를 반드시 확인하세요. 영통구청 지역은 주차가 편리한 편이어서 차량 방문에 유리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/premium" style={{ color:'var(--primary)' }}>영통구청 접대·파인다이닝</Link> · <Link href="/samsungElectronics/yeongtongGu/category/izakaya" style={{ color:'var(--primary)' }}>영통구청 이자카야·포차</Link> · <Link href="/samsungElectronics/yeongtongGu/category/date" style={{ color:'var(--primary)' }}>영통구청 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'chinese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 중식·마라탕 맛집은 매탄동 상가 지역에서 찾을 수 있습니다. 점심 짬뽕·짜장 세트를 저렴하게 제공하는 중화요리 식당이 직장인 점심 수요를 받으며, 마라탕·마라샹궈 전문점도 매탄동 상가에 운영 중입니다. 더 다양한 중식 선택이 필요하다면 영통역 방향 이동을 고려하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트 8천~1만 5천 원, 마라탕 1인 1만~1만 8천 원대입니다. 매탄동 중식 식당은 소규모 운영이 많아 메뉴 변동이 있을 수 있으므로, 특정 메뉴를 원한다면 방문 전 전화 확인이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/budget" style={{ color:'var(--primary)' }}>영통구청 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link> · <Link href="/samsungElectronics/yeongtongGu/category/korean" style={{ color:'var(--primary)' }}>영통구청 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'western' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 양식·파스타 맛집은 매탄동과 영통구청 인근에 소수 운영 중인 카테고리입니다. 파스타·피자 캐주얼 레스토랑이 저녁 식사와 소규모 데이트 자리에 활용됩니다. 스테이크를 원한다면 영통역 방향 스테이크 전문점이 더 다양한 선택지를 제공합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 파스타·피자 1만 2천~2만 원, 저녁 코스는 1인 4만~7만 원 수준입니다. 영통구청 지역 양식 레스토랑은 조용한 주거 상권에 위치해 소규모 기념일·데이트 자리로 아늑한 분위기를 제공합니다. 예약 가능 여부는 방문 전 확인이 필요합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/date" style={{ color:'var(--primary)' }}>영통구청 데이트·분위기</Link> · <Link href="/samsungElectronics/yeongtongGu/category/premium" style={{ color:'var(--primary)' }}>영통구청 접대·파인다이닝</Link> · <Link href="/samsungElectronics/yeongtongGu/category/japanese" style={{ color:'var(--primary)' }}>영통구청 일식·스시</Link>
+            </p>
+          </>}
+
+          {slug === 'chicken' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 치킨·분식 맛집은 매탄동 주거 지역 인근과 영통구청 상가 지역에 분포합니다. 삼성전기·삼성전자 직원들의 빠른 점심과 퇴근 후 간편한 저녁을 해결하기 좋은 카테고리입니다. 치킨 전문점 외에 분식 전문점도 운영 중이며, 포장·배달 위주 운영 여부는 가게별로 다르므로 홀 착석 전 확인이 필요합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              치킨 1인분 기준 1만 2천~1만 8천 원, 분식 세트 6천~1만 원대입니다. 매탄동 치킨집은 소규모 운영이 많아 저녁 늦은 시간 영업 여부를 사전에 확인하세요. 단체 치맥 자리는 영통역 방향의 홀 전문 치킨집이 더 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/budget" style={{ color:'var(--primary)' }}>영통구청 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtongGu/category/gukbap" style={{ color:'var(--primary)' }}>영통구청 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtongGu/category/izakaya" style={{ color:'var(--primary)' }}>영통구청 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'group' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 회식·단체 맛집은 삼성전기·삼성전자 인근 직장인들의 팀 회식 수요를 중심으로 형성됩니다. 매탄동 상가 지역에 삼겹살·한식 정식·이자카야 중심의 단체 식당이 운영 중입니다. 상권 규모가 작은 편이라 10인 이상 대규모 단체 모임은 영통역 방향 대형 홀 식당을 함께 검토하는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 기준 2만~3만 5천 원이 영통구청 회식의 일반적 예산입니다. 6인 이상 단체 모임이라면 2~3일 전 전화 예약으로 단체석을 확보하는 것을 권장합니다. 주차 가능한 식당이 많아 차량 참석자가 많은 모임에도 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/meat" style={{ color:'var(--primary)' }}>영통구청 고기구이</Link> · <Link href="/samsungElectronics/yeongtongGu/category/izakaya" style={{ color:'var(--primary)' }}>영통구청 이자카야·포차</Link> · <Link href="/samsungElectronics/yeongtongGu/category/korean" style={{ color:'var(--primary)' }}>영통구청 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'date' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 데이트·분위기 맛집은 매탄동 상권의 조용하고 아늑한 분위기를 살린 소규모 레스토랑들입니다. 대형 상업지구 대비 한적한 환경에서 여유 있게 식사할 수 있으며, 이탈리안·일식·분위기 있는 한식 레스토랑이 자리합니다. 영통구청 인근은 수원 화성, 광교 호수공원과 연계하는 데이트 동선에서 식사 장소로 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              2인 기준 4만~8만 원 예산으로 여유 있는 저녁 식사가 가능합니다. 주거 상권에 위치한 분위기 있는 식당은 수가 많지 않으므로 주말 저녁에는 예약을 미리 완료하세요. 차량 이용 시 주차 환경이 넉넉한 편이라 드라이브 데이트 코스로 활용하기 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/western" style={{ color:'var(--primary)' }}>영통구청 양식·파스타</Link> · <Link href="/samsungElectronics/yeongtongGu/category/japanese" style={{ color:'var(--primary)' }}>영통구청 일식·스시</Link> · <Link href="/samsungElectronics/yeongtongGu/category/premium" style={{ color:'var(--primary)' }}>영통구청 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'budget' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 가성비·혼밥·점심 맛집은 삼성전기·삼성전자 인근 직장인의 빠른 점심 수요를 반영합니다. 국밥·정식·제육볶음·순두부찌개 등 단품 위주 식당이 매탄동 상가와 구청 인근에 분포하며, 주거 지역 특성상 가격이 합리적인 편입니다. 1인석·카운터석을 갖춘 식당도 일부 운영 중입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 7천~1만 2천 원, 런치 세트 1만~1만 5천 원이 이 지역 가성비 기준입니다. 영통구청 상권은 비교적 한산해 점심 피크 시간에도 여유 있게 앉을 수 있는 경우가 많습니다. 반면 식당 수가 적어 선호 메뉴가 좁다면 영통역 방향 이동을 고려하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/gukbap" style={{ color:'var(--primary)' }}>영통구청 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtongGu/category/korean" style={{ color:'var(--primary)' }}>영통구청 한식·정식</Link> · <Link href="/samsungElectronics/yeongtongGu/category/chicken" style={{ color:'var(--primary)' }}>영통구청 치킨·분식</Link>
+            </p>
+          </>}
+
+          {slug === 'premium' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 접대·파인다이닝 식당은 삼성전기·삼성전자 협력사 접대와 임원급 회식에 활용됩니다. 매탄동 인근에서 고급 식당으로 꼽히는 스시 바·한정식 전문점이 소수 운영 중이며, 선택지가 제한적일 경우 영통역·망포역 방향 파인다이닝 식당을 함께 검토하면 좋습니다. 주차가 편리하고 조용한 환경이어서 중요한 미팅 자리에 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 코스 기준 7만~15만 원대입니다. 예약은 최소 3~5일 전에 완료해야 하며, 룸 또는 개인석 가능 여부와 주차 현황을 예약 시 함께 확인하세요. 접대 자리에 적합한 분위기와 메뉴 구성을 갖춘 곳인지 방문 전 리뷰 확인을 권장합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/japanese" style={{ color:'var(--primary)' }}>영통구청 일식·스시</Link> · <Link href="/samsungElectronics/yeongtongGu/category/western" style={{ color:'var(--primary)' }}>영통구청 양식·파스타</Link> · <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link>
+            </p>
+          </>}
+
+          {slug === 'korean' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 한식·정식·보쌈 맛집은 매탄동 주거 지역 인근에 가정식 스타일의 한식 정식 식당들이 자리합니다. 삼성전기·삼성전자 직원들의 점심 수요를 받는 백반·정식 식당이 구청 인근 상가에 운영 중이며, 저녁에는 족발·보쌈·된장찌개 한식 전문점이 소규모 가족 모임과 직장인 저녁 수요를 받습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 정식 7천~1만 3천 원, 저녁 족발·보쌈 2인 기준 2만 5천~4만 원대입니다. 매탄동 한식 식당은 주거 지역 특성상 단골손님 중심으로 운영되어 편안하고 익숙한 분위기에서 식사할 수 있습니다. 6인 이상 단체 방문은 사전에 단체석 확인이 필요합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtongGu/category/budget" style={{ color:'var(--primary)' }}>영통구청 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtongGu/category/gukbap" style={{ color:'var(--primary)' }}>영통구청 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link>
+            </p>
+          </>}
+
+          {!['meat','gukbap','izakaya','japanese','chinese','western','chicken','group','date','budget','premium','korean'].includes(slug) && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통구청 주변 {catInfo.name} 맛집은 매탄동·영통구청 일대에 다양하게 분포되어 있습니다. 각 식당의 영업시간·가격대·특징을 확인하고 방문하세요.
+            </p>
+          </>}
+
+          <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8 }}>
+            날씨·기분·예산을 입력하면 <Link href="/samsungElectronics/yeongtongGu" style={{ color:'var(--primary)' }}>영통구청 AI 맛집 추천</Link>이 {catInfo.name} 포함 전체 카테고리에서 맞춤 식당 3곳을 바로 골라드립니다.
           </p>
         </article>
 

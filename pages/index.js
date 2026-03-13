@@ -62,11 +62,72 @@ export default function Home() {
   const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length + pangyoData.length
   const seTotal = yeongtongData.length + mangpoData.length + yeongtongGuData.length
 
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "오늘뭐먹지",
+    "url": "https://dinner.ambitstock.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://dinner.ambitstock.com/pangyo?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "오늘뭐먹지는 어떤 서비스인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "오늘뭐먹지는 삼성역·잠실역·판교역·영통·망포·영통구청 인근 맛집을 AI가 날씨·기분·예산에 맞게 추천해주는 서비스입니다. 현재 6개 지역 맛집 데이터를 바탕으로 최적의 식당 3곳을 3초 안에 골라드립니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AI 맛집 추천은 어떻게 작동하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "오늘 날씨, 기분, 예산, 원하는 메뉴 등을 자유롭게 입력하면 AI가 해당 조건에 맞는 식당 3곳을 추천합니다. 회식·혼밥·데이트·접대 등 상황도 반영되며, 평점·리뷰 수·가격대 데이터를 종합해 결과를 제시합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "어떤 지역을 지원하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "현재 삼성역(코엑스·강남), 잠실역(방이동·석촌호수), 판교역(테크노밸리·백현동), 영통역(삼성전자 DS), 망포역(삼성전자 생활가전), 영통구청(매탄동·삼성전기) 6개 지역을 지원합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "랜덤 뽑기 기능은 무엇인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "카테고리 페이지에서 '랜덤 뽑기' 버튼을 누르면 해당 카테고리 식당 중 3곳을 무작위로 추천합니다. 오늘 뭐 먹을지 결정하기 어려울 때 주사위를 굴리듯 빠르게 후보를 선정할 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "회식 장소 추천도 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "네, 각 지역별 '회식·단체' 카테고리를 이용하면 단체석·룸이 있는 회식 장소를 별도로 확인할 수 있습니다. AI 추천 시 '회식', '단체', '룸 있는 곳' 등을 입력하면 회식에 적합한 식당만 필터링해 추천합니다."
+        }
+      }
+    ]
+  }
+
   return (
     <Layout
-      title="오늘뭐먹지 — AI 맛집 추천"
-      description="삼성역·잠실·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
+      title="오늘뭐먹지 | AI 맛집 추천 - 삼성역·잠실·판교·영통"
+      description="삼성역·잠실·판교·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
       canonical="https://dinner.ambitstock.com"
+      jsonLd={websiteJsonLd}
+      extraJsonLd={faqJsonLd}
     >
       {/* 히어로 */}
       <section style={{ padding:'44px 16px 32px', textAlign:'center' }}>
@@ -161,27 +222,34 @@ export default function Home() {
         </div>
 
         {/* SEO 텍스트 */}
-        <article style={{ padding:'24px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:10 }}>강남·판교 맛집 추천, AI로 3초 만에</h2>
-          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·판교역·영통 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다.
-            오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 TOP3를 바로 알려드립니다.
+        <article style={{ padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:14 }}>강남·판교·영통 맛집 추천, AI로 3초 만에</h2>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·판교역·영통·망포·영통구청 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다. 오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 3곳을 바로 알려드립니다. 회식·데이트·혼밥·접대 등 상황도 자유롭게 입력하면 AI가 상황에 맞는 식당을 필터링해 제안합니다.
           </p>
-          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>삼성역·코엑스</strong> 주변은 국밥·한우·이자카야·딤섬·훠궈·스테이크 등 {samseongData.length}개 식당을 엄선했습니다.
-            4번출구 근처 맛집 필터와 AI 추천으로 회식·데이트·혼밥 어디든 딱 맞는 곳을 찾을 수 있습니다.
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>삼성역·코엑스</strong> 주변은 국밥·한우·이자카야·중식·훠궈·스테이크 등 {samseongData.length}개 식당을 엄선했습니다. 코엑스몰 내부부터 테헤란로 이면도로, 봉은사로 골목까지 다양한 선택지가 있으며, 4번출구 근처 맛집 필터로 대치동 방향 식당도 별도로 확인할 수 있습니다. 강남 비즈니스 상권 특성상 접대용 개인실 레스토랑과 오마카세도 다수 포함되어 있습니다.
           </p>
-          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>잠실·방이동</strong>은 곱창·삼겹살 골목의 로컬 맛집부터 석촌호수 카페·송리단길 브런치·롯데타워 오마카세까지
-            {jamsilData.length}개 식당을 담았습니다. 잠실에서 오늘 뭐 먹지 고민이라면 AI 추천을 써보세요.
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>잠실·방이동</strong>은 곱창·삼겹살 로컬 골목부터 석촌호수 뷰 레스토랑·송리단길 이탈리안·롯데타워 오마카세까지 {jamsilData.length}개 식당을 담았습니다. 방이동 먹자골목은 서울 동남권에서 손꼽히는 로컬 식당 밀집 구역으로, 직장인 회식과 가족 모임 수요를 동시에 충족합니다. 석촌호수 봄 벚꽃 시즌에는 뷰 레스토랑 예약이 빠르게 채워지므로 미리 계획하세요.
           </p>
-          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:10 }}>
-            <strong>판교역·테크노밸리</strong>는 IT·바이오·의료기기 직장인을 위한 맛집 {pangyoData.length}개를 담았습니다.
-            백현동 카페거리·아브뉴프랑·현대백화점 판교점 주변 회식·데이트·점심 맛집을 AI로 바로 찾아보세요.
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>판교역·테크노밸리</strong>는 IT·바이오·의료기기 직장인을 위한 맛집 {pangyoData.length}개를 담았습니다. 알파돔시티 지하 가성비 점심부터 아브뉴프랑 프리미엄 레스토랑까지 가격대 폭이 넓습니다. 백현동 카페거리와 현대백화점 판교점 인근에는 데이트·접대에 어울리는 분위기 좋은 식당이 집중되어 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>영통·망포·영통구청</strong>은 삼성전자 임직원 회식장소 맛집 특화 서비스입니다. DS사업부(영통역), 생활가전사업부(망포역), 삼성전기·매탄캠퍼스(영통구청) 세 구역을 모두 커버하며 {seTotal}개 식당을 AI가 골라드립니다. 강남 대비 가격이 낮고 접근성이 좋아 협력사 방문 접대 자리로도 활용도가 높습니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>카테고리별 맛집 가이드</strong>도 제공합니다. 고기구이·국밥·이자카야·일식·중식·양식·치킨·회식·데이트·가성비·접대·한식 12개 카테고리로 세분화되어 있으며, 각 카테고리 페이지에서 지역 특성을 반영한 상세 가이드를 확인할 수 있습니다. 상황·가격대·상권별 선택 기준이 필요할 때 카테고리 가이드가 도움이 됩니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            <strong>랜덤 뽑기 기능</strong>을 이용하면 결정 장애 없이 오늘 식당을 정할 수 있습니다. 원하는 카테고리 페이지에서 주사위 버튼을 누르면 해당 카테고리 식당 중 3곳이 무작위로 추천됩니다. AI 추천과 랜덤 뽑기 두 가지 방식을 상황에 따라 선택할 수 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
+            오늘뭐먹지는 삼성역·잠실·판교·영통 맛집 외에도 앞으로 강남역·선릉역·역삼역 등 테헤란로 전체 구간으로 서비스를 확장할 예정입니다. 현재 지원 지역 내 식당 데이터는 꾸준히 업데이트되며, 새로 오픈한 식당이나 폐업 정보도 반영하기 위해 주기적으로 검토합니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8 }}>
-            <strong>영통·망포·영통구청</strong>은 삼성전자 회식장소 맛집 특화 서비스입니다.
-            직장인 점심·회식·이자카야까지 {seTotal}개 식당을 AI가 골라드립니다.
+            지역을 선택한 뒤 날씨·기분·예산을 자유롭게 입력하면 AI가 3초 안에 지금 상황에 딱 맞는 식당 3곳을 골라드립니다. 국밥부터 오마카세까지, 혼밥부터 30인 단체 회식까지 모두 커버하는 <strong>오늘뭐먹지</strong>를 지금 바로 이용해보세요.
           </p>
         </article>
       </div>

@@ -391,6 +391,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1484,7 +1496,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2122,15 +2136,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            영통 맛집은 삼성전자 수원캠퍼스 인근과 영통역·망포역 주변에 직장인 맛집이 밀집해 있습니다. 영통구 일대에는 퇴근 후 이자카야와 고기집이 즐비하고, 영통역 상권에는 다양한 국밥·분식 맛집이 자리합니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>영통역 맛집 가이드 — 삼성전자 DS·영통 먹자골목 완전 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            영통역 맛집은 삼성전자 DS(반도체)사업부 수원캠퍼스 인근 직장인 수요를 중심으로 형성된 상권입니다. 영통역 출구를 기준으로 영통 먹자골목, 영통 로데오거리, 망포역 방향 이면도로로 구역이 나뉘며, 수원 내 직장인 맛집 밀도가 가장 높은 지역 중 하나입니다. 강남·판교 대비 가격이 낮으면서 음식 퀄리티를 유지하는 곳이 많아 가성비 식사를 원하는 방문객에게 적합합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            점심 가성비를 기준으로 보면, 영통 먹자골목 이면도로의 국밥·정식·제육볶음·김치찌개 식당은 7천~1만 2천 원대에 한 끼를 해결할 수 있습니다. 삼성전자 DS사업부 점심 시간에는 특정 식당에 수요가 집중되므로, 12시 이전 또는 12시 30분 이후에 방문하면 웨이팅을 피할 수 있습니다. 1인 혼밥에는 카운터석이 있는 국밥 전문점이나 빠른 회전의 돈카츠 식당이 편리합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            팀 회식 장소는 영통 먹자골목 중심 구역의 삼겹살·이자카야 전문점이 가장 접근성이 좋습니다. 10인 이상 단체 예약은 2~3일 전에 전화로 룸·단체석 가능 여부를 확인하는 것이 중요합니다. 삼성전자 연말 시즌(12월)과 반기 결산 시기에는 인근 식당 예약이 특히 빠르게 채워지는 경향이 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            접대·파인다이닝 자리를 찾고 있다면, 영통 상권에서 고급 식당으로 꼽히는 오마카세·한정식·스테이크 전문점을 이용할 수 있습니다. 강남 대비 예약 경쟁이 낮아 급하게 접대 자리를 잡아야 할 때 유리하며, 가격도 합리적인 편입니다. 삼성전자 협력사 미팅이나 임원 접대 자리로 영통 오마카세를 선택하는 사례도 늘고 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            수원 영통은 수원갈비 전통을 잇는 갈비 전문점과 수원 왕갈비 식당도 인근에서 찾아볼 수 있습니다. 수원 방문 외부 손님과의 식사 자리에는 수원 갈비를 포함한 한식 코스를 제안하면 지역 특색을 살린 접대가 가능합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            영통역 맛집 카테고리별 가이드: 고기구이는 <Link href="/samsungElectronics/yeongtong/category/meat" style={{ color:'var(--primary)' }}>영통역 고기구이·삼겹살</Link>, 회식은 <Link href="/samsungElectronics/yeongtong/category/group" style={{ color:'var(--primary)' }}>영통역 회식·단체</Link>, 접대는 <Link href="/samsungElectronics/yeongtong/category/premium" style={{ color:'var(--primary)' }}>영통역 접대·파인다이닝</Link> 페이지를 확인하세요.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 삼성전자 인근 대형 고기집이 인기이며, 가성비 점심을 찾는다면 영통역 주변 국밥·김치찌개 골목을 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 영통 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )

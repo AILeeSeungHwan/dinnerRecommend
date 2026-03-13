@@ -21,7 +21,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [] }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [] }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -550,27 +550,37 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           ))}
         </div>
 
+        {/* 방문자 키워드 뱃지 */}
+        {r.keywords?.length > 0 && (
+          <>
+            <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>
+              {r.keywords.map((kw, i) => (
+                <span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>{kw}</span>
+              ))}
+            </div>
+          </>
+        )}
+
         {/* 메뉴 & 가격 */}
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
-        <p style={pstyle}>
-          <strong>{r.name}</strong>의 대표 메뉴와 가격대입니다. 정확한 메뉴는 방문 전 매장에 확인하세요.
-        </p>
-        <ul style={{ ...ulstyle }}>
-          {/* 음식 관련 태그만 메뉴로 표시 (특성/편의 태그 제외) */}
-          {r.tags?.filter(t => !['리뷰5000+','리뷰1000+','리뷰500+','아침가능','주차가능','혼밥가능','단체가능',
-            '깔끔','친절','빠름','넓음','조용함','가성비','혼밥','데이트','뷰맛집','분위기좋음','노포',
-            '힙함','모던','캐주얼','라이브음악','포차감성','프라이빗','룸'].includes(t)
-            && !['깔끔','친절','빠름','넓음','조용함','가성비','힙한 곳','모던','캐주얼','라이브음악',
-              '포차감성','프라이빗','분위기최고'].some(kw => t.includes(kw))
-          ).map((tag, i) => (
-            <li key={i} style={listyle}>
-              <strong>{tag}</strong>
-            </li>
-          ))}
-          {r.priceRange && (
-            <li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>
-          )}
-        </ul>
+        {r.menuItems?.length > 0 ? (
+          <>
+            <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격입니다. 실제 가격은 방문 시 확인하세요.</p>
+            <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
+              <thead><tr style={{ borderBottom:'2px solid var(--border)' }}><th style={{ padding:'10px 14px', textAlign:'left', color:'var(--muted)', fontWeight:600 }}>메뉴</th><th style={{ padding:'10px 14px', textAlign:'right', color:'var(--muted)', fontWeight:600 }}>가격</th></tr></thead>
+              <tbody>{r.menuItems.map((mi, i) => (<tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}><td style={{ padding:'10px 14px' }}>{mi.name}</td><td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td></tr>))}</tbody>
+            </table>
+          </>
+        ) : (
+          <>
+            <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격대입니다. 정확한 메뉴는 방문 전 매장에 확인하세요.</p>
+            <ul style={{ ...ulstyle }}>
+              {r.tags?.filter(t => !['리뷰5000+','리뷰1000+','리뷰500+','아침가능','주차가능','혼밥가능','단체가능','깔끔','친절','빠름','넓음','조용함','가성비','혼밥','데이트','뷰맛집','분위기좋음','노포','힙함','모던','캐주얼','라이브음악','포차감성','프라이빗','룸'].includes(t) && !['깔끔','친절','빠름','넓음','조용함','가성비','힙한 곳','모던','캐주얼','라이브음악','포차감성','프라이빗','분위기최고'].some(kw => t.includes(kw))).map((tag, i) => (<li key={i} style={listyle}><strong>{tag}</strong></li>))}
+              {r.priceRange && (<li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>)}
+            </ul>
+          </>
+        )}
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (

@@ -231,9 +231,31 @@ export default function UnifiedCategoryPage({ slug, catInfo, byRegion }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>영통·망포·구청 {catInfo.name} 맛집 {totalCount}선 | 삼성전자 맛집</title>
+        <title>영통·망포·구청 {catInfo.name} 맛집 추천 {totalCount}곳 | 2026 | 오늘뭐먹지</title>
         <meta name="description" content={`영통역·망포역·영통구청 삼성전자 임직원을 위한 ${catInfo.name} 맛집 ${totalCount}개. 지역 통합 검색.`} />
+        <meta name="keywords" content={`영통 ${catInfo.name}, 망포 ${catInfo.name}, 영통구청 ${catInfo.name}, 삼성전자 맛집 ${catInfo.name}`} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/category/${slug}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": `삼성전자 ${catInfo.name} 맛집 (영통·망포·구청)`,
+          "url": `https://dinner.ambitstock.com/samsungElectronics/category/${slug}`,
+          "numberOfItems": totalCount,
+          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+              "@type": "Restaurant",
+              "name": r.name,
+              "address": r.addr,
+              ...(r.rt ? { "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": String(r.rt),
+                "reviewCount": String(r.cnt || 0)
+              }} : {})
+            }
+          }))
+        })}} />
       </Head>
 
       {/* 헤더 */}

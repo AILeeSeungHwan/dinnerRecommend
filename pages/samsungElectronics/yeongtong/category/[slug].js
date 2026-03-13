@@ -165,10 +165,31 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>영통역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
+        <title>영통역 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
         <meta name="description" content={`영통역·영통 먹자골목 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/yeongtong/category/${slug}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": `영통역 ${catInfo.name} 맛집`,
+          "url": `https://dinner.ambitstock.com/samsungElectronics/yeongtong/category/${slug}`,
+          "numberOfItems": restaurants.length,
+          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+              "@type": "Restaurant",
+              "name": r.name,
+              "address": r.addr,
+              ...(r.rt ? { "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": String(r.rt),
+                "reviewCount": String(r.cnt || 0)
+              }} : {})
+            }
+          }))
+        })}} />
       </Head>
 
       {/* 헤더 */}
@@ -286,16 +307,162 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         </div>
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:12 }}>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:16 }}>
             영통역 {catInfo.name} 맛집 선택 가이드
           </h2>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8, marginBottom:10 }}>
-            영통역 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에
-            다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
-          </p>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
-            <Link href="/samsungElectronics/yeongtong" style={{ color:'var(--primary)' }}>영통역 AI 맛집 추천</Link>을 이용하면
-            오늘 날씨, 기분, 예산에 맞는 {catInfo.name} 맛집을 바로 추천받을 수 있습니다.
+
+          {slug === 'meat' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 고기구이·삼겹살 맛집은 영통 먹자골목과 영통역 인근 상가에 집중되어 있습니다. 삼성전자 DS사업부 직장인들의 저녁 회식 수요가 높아 대형 홀과 단체석을 갖춘 삼겹살·목살 전문점이 많습니다. 한우 특수부위 전문점도 일부 운영 중이며, 영통 로컬 식당들은 강남 대비 합리적인 가격에 품질 좋은 고기를 제공하는 편입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              삼겹살 1인분 기준 1만 2천~1만 8천 원, 한우 코스는 1인 3만 5천~6만 원대입니다. 삼성전자 사업부 식당가와 인접한 구역은 점심보다 퇴근 시간대인 오후 6~7시에 혼잡하므로, 팀 단위 회식이라면 예약 후 방문이 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/group" style={{ color:'var(--primary)' }}>영통역 회식·단체</Link> · <Link href="/samsungElectronics/yeongtong/category/korean" style={{ color:'var(--primary)' }}>영통역 한식·정식</Link> · <Link href="/samsungElectronics/yeongtong/category/izakaya" style={{ color:'var(--primary)' }}>영통역 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'gukbap' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 국밥·해장·칼국수 맛집은 삼성전자 출근 전 아침 식사와 야근 후 해장 수요를 동시에 충족하는 카테고리입니다. 영통 먹자골목 안쪽과 영통역 인근 골목에 순대국밥·돼지국밥·설렁탕 전문점이 다수 자리하며, 칼국수 겸 국밥을 함께 판매하는 복합 메뉴 식당도 여럿입니다. 수원 지역 특산 전통 국밥인 수원갈비탕을 메뉴에 포함한 식당도 만날 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인분 7천~1만 2천 원으로 가성비가 높은 편입니다. 점심 피크 시간(12~13시)에는 삼성전자 직원들이 몰리는 식당에 웨이팅이 생기므로, 1인 혼밥이라면 카운터석 또는 가장자리 1인석이 있는 곳을 찾는 것이 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/budget" style={{ color:'var(--primary)' }}>영통역 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtong/category/korean" style={{ color:'var(--primary)' }}>영통역 한식·정식</Link> · <Link href="/samsungElectronics/yeongtong/category/meat" style={{ color:'var(--primary)' }}>영통역 고기구이</Link>
+            </p>
+          </>}
+
+          {slug === 'izakaya' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 이자카야·포차는 삼성전자 직원들의 퇴근 후 회식 2차 또는 팀 회식 1차로 자주 활용되는 카테고리입니다. 영통 먹자골목 주변에 하이볼·사케·수제맥주를 중심으로 한 카운터 이자카야와 야키토리 전문점, 포장마차 스타일 포차가 고루 분포합니다. 영통 상권은 강남 대비 가격이 낮고 분위기가 부담 없어 직장인 소모임 장소로 인기가 높습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 안주 기준 1만~2만 원, 2인 주류 포함 4만~7만 원대입니다. 주말 저녁에는 예약이 필요한 곳이 있으니 인원이 3인 이상이라면 당일 오전에 예약 여부를 확인하세요. 심야 영업 식당은 가게별로 상이하므로 늦은 2차를 계획한다면 미리 영업 마감 시간을 체크하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/japanese" style={{ color:'var(--primary)' }}>영통역 일식·스시</Link> · <Link href="/samsungElectronics/yeongtong/category/group" style={{ color:'var(--primary)' }}>영통역 회식·단체</Link> · <Link href="/samsungElectronics/yeongtong/category/date" style={{ color:'var(--primary)' }}>영통역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'japanese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 일식·스시·돈카츠 맛집은 영통 상권에서 가장 빠르게 늘고 있는 카테고리 중 하나입니다. 삼성전자 직원 수요를 배경으로 점심 도시락·규동·돈카츠 중심의 캐주얼 일식 식당과 저녁 오마카세 스시 바가 공존합니다. 강남 오마카세보다 예약 난이도가 낮고 가격도 합리적인 편입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트 1만 2천~1만 9천 원, 저녁 오마카세는 1인 6만~14만 원 수준입니다. 접대나 기념일에는 예약 시 개인석·룸 가능 여부를 먼저 확인하세요. 영통역 인근 일식 레스토랑은 주차 공간이 협소한 경우가 있으니 차량 방문 시 미리 확인하는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/premium" style={{ color:'var(--primary)' }}>영통역 접대·파인다이닝</Link> · <Link href="/samsungElectronics/yeongtong/category/izakaya" style={{ color:'var(--primary)' }}>영통역 이자카야·포차</Link> · <Link href="/samsungElectronics/yeongtong/category/date" style={{ color:'var(--primary)' }}>영통역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'chinese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 중식·마라탕 맛집은 영통 먹자골목 상가 밀집 구역에 분포합니다. 마라탕 전문점이 꾸준히 늘고 있으며, 점심 짬뽕·짜장 세트를 저렴하게 제공하는 중화요리 식당도 운영 중입니다. 양꼬치 전문점은 저녁 회식 후 2차 또는 소규모 모임 장소로 활용 빈도가 높습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트 8천~1만 5천 원, 마라탕 1인 1만~1만 8천 원, 양꼬치 2인 기준 2만 5천~4만 5천 원대입니다. 마라 레벨을 직접 조절할 수 있는 곳과 고정된 맵기로만 제공하는 곳이 다르니, 매운 음식을 잘 못 먹는 동행이 있다면 주문 전 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/group" style={{ color:'var(--primary)' }}>영통역 회식·단체</Link> · <Link href="/samsungElectronics/yeongtong/category/budget" style={{ color:'var(--primary)' }}>영통역 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtong/category/korean" style={{ color:'var(--primary)' }}>영통역 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'western' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 양식·파스타 맛집은 수원 영통 상권에서 비교적 최근에 확장된 카테고리입니다. 파스타·피자 전문점은 영통역 상가 1~2층에 자리하며, 주말 브런치 메뉴를 운영하는 곳도 늘고 있습니다. 스테이크 전문점은 수원 특성상 외곽 도로변에 위치한 경우가 많으며 넓은 주차 공간을 갖추고 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 파스타·피자 1만 2천~2만 원, 저녁 스테이크 코스는 1인 4만~8만 원 수준입니다. 영통 지역 양식 레스토랑은 강남 대비 가격이 낮으면서 음식 퀄리티를 유지하는 편이라 데이트나 소규모 기념일 자리로 활용하기 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/date" style={{ color:'var(--primary)' }}>영통역 데이트·분위기</Link> · <Link href="/samsungElectronics/yeongtong/category/premium" style={{ color:'var(--primary)' }}>영통역 접대·파인다이닝</Link> · <Link href="/samsungElectronics/yeongtong/category/japanese" style={{ color:'var(--primary)' }}>영통역 일식·스시</Link>
+            </p>
+          </>}
+
+          {slug === 'chicken' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 치킨·분식 맛집은 삼성전자 직원들의 빠른 점심과 퇴근 후 간편 저녁 수요를 충족하는 카테고리입니다. 치킨 전문점 외에 떡볶이·순대·튀김을 함께 파는 분식 전문점과 포장 전문 치킨집이 영통역 인근에 자리합니다. 배달 수요가 높아 홀 매장 운영 여부를 미리 확인하는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              치킨 1인분 기준 1만 2천~1만 8천 원, 분식 세트 6천~1만 원대입니다. 저녁 치맥 모임을 계획한다면 홀 테이블 수와 좌석 수용 인원을 미리 확인하세요. 영통역 인근 치킨집은 포장 중심으로 운영되는 곳도 있어 홀 착석이 필요하다면 사전에 확인이 필요합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/budget" style={{ color:'var(--primary)' }}>영통역 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtong/category/gukbap" style={{ color:'var(--primary)' }}>영통역 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtong/category/izakaya" style={{ color:'var(--primary)' }}>영통역 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'group' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 회식·단체 맛집은 삼성전자 DS사업부 팀 회식 수요에 특화된 카테고리입니다. 영통 먹자골목을 중심으로 삼겹살·이자카야·한식 코스 등 다양한 장르의 단체 식당이 분포하며, 10인 이상 단체석을 갖춘 곳도 다수입니다. 접근성 측면에서는 영통역 출구 인근 식당이 지하철 이용 직원들에게 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 기준 2만~3만 5천 원이 영통 회식의 일반적 예산입니다. 룸 예약은 2~3일 전 전화 확인을 권장합니다. 삼성전자 사원 식당 이용 가능 여부가 제한된 기간(연말, 프로젝트 마감 등) 전후에는 인근 식당 수요가 급증하므로 서둘러 예약하는 것이 안전합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/meat" style={{ color:'var(--primary)' }}>영통역 고기구이</Link> · <Link href="/samsungElectronics/yeongtong/category/izakaya" style={{ color:'var(--primary)' }}>영통역 이자카야·포차</Link> · <Link href="/samsungElectronics/yeongtong/category/premium" style={{ color:'var(--primary)' }}>영통역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'date' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 데이트·분위기 맛집은 수원 영통 상권에서 분위기 있는 식사를 원하는 커플과 소규모 모임을 위한 카테고리입니다. 영통 로컬 상권에는 아늑한 인테리어의 이탈리안 레스토랑, 감성적인 분위기의 이자카야, 테이블 간격이 넓은 일식 레스토랑이 자리합니다. 수원 화성이나 광교 호수공원과 함께 연계하는 데이트 코스로도 활용할 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              2인 기준 4만~9만 원 예산으로 코스·세트 메뉴를 선택할 수 있습니다. 주말 저녁 분위기 있는 레스토랑은 예약이 필요한 경우가 많으므로 방문 전 예약 여부를 확인하세요. 영통 지역은 주차 환경이 좋은 편이라 차량 데이트 코스로도 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/western" style={{ color:'var(--primary)' }}>영통역 양식·파스타</Link> · <Link href="/samsungElectronics/yeongtong/category/japanese" style={{ color:'var(--primary)' }}>영통역 일식·스시</Link> · <Link href="/samsungElectronics/yeongtong/category/premium" style={{ color:'var(--primary)' }}>영통역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'budget' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 가성비·혼밥·점심 맛집은 삼성전자 직원들의 빠른 점심 수요에 맞게 회전이 빠르고 가격이 합리적인 식당으로 구성됩니다. 국밥·순두부찌개·제육볶음·김치찌개 정식 등 단품 메뉴 위주이며, 영통 먹자골목 안쪽 이면도로에서 가성비 식당을 집중적으로 찾을 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 7천~1만 2천 원, 런치 세트 1만~1만 5천 원이 이 지역 가성비 기준입니다. 피크 시간(12~12시 30분) 전후로 방문하면 줄이 없이 앉을 수 있는 경우가 많습니다. 카운터석이나 1인 테이블을 갖춘 식당은 혼밥 방문 시 시선 부담 없이 이용 가능합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/gukbap" style={{ color:'var(--primary)' }}>영통역 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtong/category/korean" style={{ color:'var(--primary)' }}>영통역 한식·정식</Link> · <Link href="/samsungElectronics/yeongtong/category/chicken" style={{ color:'var(--primary)' }}>영통역 치킨·분식</Link>
+            </p>
+          </>}
+
+          {slug === 'premium' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 접대·파인다이닝 식당은 삼성전자 DS사업부 협력사 미팅과 임원급 접대 자리에 활용됩니다. 영통 상권에서 고급 식당으로 꼽히는 오마카세·한정식·스테이크 전문점이 꾸준히 늘고 있으며, 강남 대비 예약 경쟁이 낮고 가격도 합리적입니다. 주차가 편리한 외곽 도로변 레스토랑은 차량 접대 자리에 유리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 코스 기준 7만~16만 원대입니다. 예약은 최소 3~5일 전에 완료하는 것이 안전하며, 중요한 접대 자리라면 룸 또는 개인석 가능 여부와 주차 가능 여부를 예약 시 함께 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/japanese" style={{ color:'var(--primary)' }}>영통역 일식·스시</Link> · <Link href="/samsungElectronics/yeongtong/category/western" style={{ color:'var(--primary)' }}>영통역 양식·파스타</Link> · <Link href="/samsungElectronics/yeongtong/category/date" style={{ color:'var(--primary)' }}>영통역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'korean' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 한식·정식·보쌈 맛집은 영통 먹자골목과 영통 주거 지역 인근에 고루 분포합니다. 삼성전자 직원 점심 수요에 맞춰 빠른 서비스와 밑반찬을 갖춘 백반식 한식 정식 식당이 많으며, 저녁에는 족발·보쌈·갈비찜 전문점이 소규모 모임을 받습니다. 수원갈비 전통을 잇는 갈비 전문점도 영통 인근에서 찾아볼 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 정식 7천~1만 3천 원, 저녁 족발·보쌈 2인 기준 2만 5천~4만 원대입니다. 한정식 코스나 수원갈비 전문점은 예약이 필요한 경우가 많습니다. 저녁 6인 이상 단체 방문이라면 미리 단체석 확보 여부를 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/yeongtong/category/budget" style={{ color:'var(--primary)' }}>영통역 가성비·혼밥</Link> · <Link href="/samsungElectronics/yeongtong/category/gukbap" style={{ color:'var(--primary)' }}>영통역 국밥·해장</Link> · <Link href="/samsungElectronics/yeongtong/category/group" style={{ color:'var(--primary)' }}>영통역 회식·단체</Link>
+            </p>
+          </>}
+
+          {!['meat','gukbap','izakaya','japanese','chinese','western','chicken','group','date','budget','premium','korean'].includes(slug) && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              영통역 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에 다양하게 분포되어 있습니다. 각 식당의 영업시간·가격대·특징을 확인하고 방문하세요.
+            </p>
+          </>}
+
+          <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8 }}>
+            날씨·기분·예산을 입력하면 <Link href="/samsungElectronics/yeongtong" style={{ color:'var(--primary)' }}>영통역 AI 맛집 추천</Link>이 {catInfo.name} 포함 전체 카테고리에서 맞춤 식당 3곳을 바로 골라드립니다.
           </p>
         </article>
 

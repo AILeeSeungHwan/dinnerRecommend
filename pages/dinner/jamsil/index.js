@@ -391,6 +391,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1484,7 +1496,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2122,15 +2136,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>잠실 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            잠실 맛집은 롯데월드몰, 석촌호수, 방이먹자골목을 중심으로 다양한 식당이 모여 있습니다. 송리단길에는 감성적인 브런치·카페가 즐비하고, 잠실새내역 일대에는 직장인 점심 맛집이 밀집해 있습니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>잠실역 맛집 가이드 — 방이동·석촌호수·롯데타워 구역별 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            잠실역 맛집은 방이동 먹자골목, 석촌호수 주변, 롯데월드·롯데타워 인근 세 구역으로 나뉩니다. 방이동 먹자골목은 서울에서 손꼽히는 로컬 식당 밀집 구역으로, 삼겹살·곱창·족발·보쌈 전문점이 집중되어 있습니다. 저녁 퇴근 후 방이동을 찾는 회식 모임은 친근한 분위기에서 저렴하게 즐길 수 있다는 것이 강점입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            석촌호수 주변은 잠실역 데이트 맛집의 중심 구역입니다. 호수 뷰를 즐길 수 있는 테라스 레스토랑과 이탈리안·일식 레스토랑이 집중되어 있으며, 봄 벚꽃 시즌에는 창가·테라스 자리 예약 경쟁이 치열합니다. 석촌호수 인근에는 송리단길이 연결되어 브런치 카페와 감성 레스토랑이 추가적인 선택지가 됩니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            롯데타워는 하이엔드 레스토랑이 입주한 서울 동남권 최고급 다이닝 존입니다. 고층에서 서울 야경을 바라보며 식사할 수 있는 레스토랑, 접대용 개인실을 갖춘 일식·한식 코스 레스토랑이 중요한 비즈니스 미팅과 기념일 자리에 활용됩니다. 롯데월드몰 주차 연계가 가능해 차량 방문 손님 접대에도 유리합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            가성비 점심을 기준으로 보면, 방이동 이면도로와 잠실 2동 주거 지역 인근 국밥·정식 식당이 7천~1만 3천 원대에 한 끼를 해결할 수 있는 선택지입니다. 롯데월드몰 지하 푸드코트도 빠른 점심에 적합하며, 12시 이전에 입장하면 피크를 피할 수 있습니다. 혼밥이라면 카운터석이 있는 국밥·일식 단품 식당을 먼저 확인하세요.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            잠실 회식 장소는 방이동 대형 홀 구이 식당이 예산 대비 효율적입니다. 1인 기준 2만~4만 원 예산으로 고기구이·이자카야·한식 코스 등을 선택할 수 있으며, 롯데월드 주차 연계로 원거리 참석자도 편하게 모일 수 있습니다. 대규모 단체(20인 이상)는 3~5일 전 예약으로 룸·홀을 사전 확보하세요.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            잠실역 맛집 카테고리별 가이드: 고기구이는 <Link href="/dinner/jamsil/category/meat" style={{ color:'var(--primary)' }}>잠실 고기구이·한우</Link>, 방이동 곱창은 <Link href="/dinner/jamsil/category/gopchang" style={{ color:'var(--primary)' }}>잠실 곱창·막창·내장</Link>, 데이트 레스토랑은 <Link href="/dinner/jamsil/category/date" style={{ color:'var(--primary)' }}>잠실 데이트·분위기</Link> 페이지에서 확인할 수 있습니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 웨어하우스43, 대도식당, 하이딜라오 훠궈 등이 인기이며, 가성비 점심을 찾는다면 중앙해장, 연화산 짬뽕, 리춍 중식당을 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 잠실 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )

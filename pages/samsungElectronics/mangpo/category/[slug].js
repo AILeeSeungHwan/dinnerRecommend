@@ -165,10 +165,31 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>망포역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
+        <title>망포역 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
         <meta name="description" content={`망포역·삼성전자 생활가전 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/mangpo/category/${slug}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": `망포역 ${catInfo.name} 맛집`,
+          "url": `https://dinner.ambitstock.com/samsungElectronics/mangpo/category/${slug}`,
+          "numberOfItems": restaurants.length,
+          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+              "@type": "Restaurant",
+              "name": r.name,
+              "address": r.addr,
+              ...(r.rt ? { "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": String(r.rt),
+                "reviewCount": String(r.cnt || 0)
+              }} : {})
+            }
+          }))
+        })}} />
       </Head>
 
       {/* 헤더 */}
@@ -286,16 +307,162 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         </div>
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:12 }}>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:16 }}>
             망포역 {catInfo.name} 맛집 선택 가이드
           </h2>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8, marginBottom:10 }}>
-            망포역 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에
-            다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
-          </p>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
-            <Link href="/samsungElectronics/mangpo" style={{ color:'var(--primary)' }}>망포역 AI 맛집 추천</Link>을 이용하면
-            오늘 날씨, 기분, 예산에 맞는 {catInfo.name} 맛집을 바로 추천받을 수 있습니다.
+
+          {slug === 'meat' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 고기구이·삼겹살 맛집은 망포역 인근 상가와 영통 방향 이면도로에 분포합니다. 삼성전자 생활가전사업부 직원들의 퇴근 후 회식 수요를 받는 삼겹살·목살 전문점이 주를 이루며, 비교적 조용한 로컬 분위기에서 부담 없이 식사할 수 있습니다. 영통역 대비 유동인구가 적어 웨이팅 없이 앉을 수 있는 경우가 많습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              삼겹살 1인분 기준 1만 2천~1만 7천 원, 2인 이상 고기 코스는 3만~5만 원대입니다. 망포 상권은 영통보다 상대적으로 작은 편이라, 특정 식당에 예약이 집중될 수 있습니다. 금요일 저녁이나 삼성전자 행사 시즌에는 예약을 미리 해두는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link> · <Link href="/samsungElectronics/mangpo/category/korean" style={{ color:'var(--primary)' }}>망포역 한식·정식</Link> · <Link href="/samsungElectronics/mangpo/category/izakaya" style={{ color:'var(--primary)' }}>망포역 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'gukbap' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 국밥·해장·칼국수 맛집은 망포역 출구 인근과 영통 방향 이면도로에 자리합니다. 삼성전자 생활가전 직원들의 아침·점심·야근 후 해장을 모두 해결할 수 있는 국밥 전문점이 망포 상권에서도 확인됩니다. 주거 지역 인근 특성상 가정식 느낌의 백반·정식 식당과 함께 운영되는 경우가 많습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인분 7천~1만 2천 원으로 가성비가 높습니다. 망포역 상권은 영통역보다 점심 피크가 짧아 12시 10분 이후에는 비교적 여유롭게 자리를 잡을 수 있습니다. 1인 혼밥 시에는 카운터석이 있는 국밥 전문점을 우선으로 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/budget" style={{ color:'var(--primary)' }}>망포역 가성비·혼밥</Link> · <Link href="/samsungElectronics/mangpo/category/korean" style={{ color:'var(--primary)' }}>망포역 한식·정식</Link> · <Link href="/samsungElectronics/mangpo/category/meat" style={{ color:'var(--primary)' }}>망포역 고기구이</Link>
+            </p>
+          </>}
+
+          {slug === 'izakaya' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 이자카야·포차는 망포 상권의 로컬 분위기 속에서 소규모로 운영되는 곳들이 주를 이룹니다. 하이볼이나 사케를 중심으로 한 카운터 이자카야와 야키토리 전문점이 영통 방향 이면도로에 위치합니다. 영통역 이자카야보다 손님 회전이 적어 조용한 분위기를 선호하는 방문객에게 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 안주 기준 1만~1만 8천 원, 2인 주류 포함 4만~6만 원대입니다. 망포역 이자카야 일부는 소규모 운영으로 인원 제한이 있을 수 있으니, 4인 이상 방문 시 사전 예약이나 전화 확인이 필요합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/japanese" style={{ color:'var(--primary)' }}>망포역 일식·스시</Link> · <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link> · <Link href="/samsungElectronics/mangpo/category/date" style={{ color:'var(--primary)' }}>망포역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'japanese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 일식·스시·돈카츠 맛집은 영통·망포 상권 전반에 걸쳐 점차 늘고 있는 카테고리입니다. 점심 돈카츠·규동 단품 식당이 삼성전자 직원들의 빠른 점심을 담당하며, 저녁에는 스시 바·이자카야 겸 일식 레스토랑이 소모임 자리로 활용됩니다. 영통역 주변 일식 식당까지 함께 선택 폭을 넓히면 다양한 옵션을 비교할 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 1만 2천~1만 8천 원, 저녁 스시 코스는 1인 6만~12만 원 수준입니다. 접대 또는 기념일 방문 시에는 반드시 예약 후 개인석 가능 여부를 확인하세요. 망포 지역은 주차 환경이 좋은 편이라 차량 방문에 유리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/premium" style={{ color:'var(--primary)' }}>망포역 접대·파인다이닝</Link> · <Link href="/samsungElectronics/mangpo/category/izakaya" style={{ color:'var(--primary)' }}>망포역 이자카야·포차</Link> · <Link href="/samsungElectronics/mangpo/category/date" style={{ color:'var(--primary)' }}>망포역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'chinese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 중식·마라탕 맛집은 망포역 상가 인근과 영통 방향으로 이동하는 대로변에 자리합니다. 점심 짬뽕·짜장 세트를 저렴하게 제공하는 중화 식당과 마라탕 전문점이 운영 중입니다. 양꼬치는 저녁 소모임 자리로 주로 활용되며, 영통역 방향 이면도로의 양꼬치 전문점도 접근 거리 내에 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트 8천~1만 4천 원, 마라탕 1인 1만~1만 8천 원대입니다. 망포역 중식 식당 수는 영통역 대비 적은 편이므로, 원하는 스타일의 식당이 없다면 영통역 방향 이동을 고려하세요. 훠궈 모임은 영통역 쪽 훠궈 전문점을 이용하는 것이 선택지가 넓습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/budget" style={{ color:'var(--primary)' }}>망포역 가성비·혼밥</Link> · <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link> · <Link href="/samsungElectronics/mangpo/category/korean" style={{ color:'var(--primary)' }}>망포역 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'western' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 양식·파스타 맛집은 망포·영통 상권에서 가장 빠르게 성장 중인 카테고리 중 하나입니다. 망포역 인근 상가에 파스타·피자 캐주얼 레스토랑이 자리하며, 주말 브런치 메뉴를 제공하는 곳도 증가하는 추세입니다. 스테이크를 원한다면 영통 방향 도로변 스테이크 전문점으로 이동하는 것이 선택지가 다양합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 파스타·피자 1만 2천~2만 원, 저녁 코스 레스토랑은 1인 4만~7만 원 수준입니다. 망포역 지역 양식 레스토랑은 주차 공간이 넉넉한 편이어서 차량 데이트 방문에 편리합니다. 기념일·소규모 접대 자리에는 예약 가능 여부와 테이블 배치를 미리 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/date" style={{ color:'var(--primary)' }}>망포역 데이트·분위기</Link> · <Link href="/samsungElectronics/mangpo/category/premium" style={{ color:'var(--primary)' }}>망포역 접대·파인다이닝</Link> · <Link href="/samsungElectronics/mangpo/category/japanese" style={{ color:'var(--primary)' }}>망포역 일식·스시</Link>
+            </p>
+          </>}
+
+          {slug === 'chicken' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 치킨·분식 맛집은 삼성전자 생활가전사업부 직원들의 빠른 점심과 퇴근 후 간단한 저녁 수요를 충족합니다. 치킨 전문점은 포장·배달 중심으로 운영되는 곳이 많으며, 홀 착석 가능 여부를 사전에 확인하는 것이 좋습니다. 분식 전문점은 망포역 상가 1층에서 떡볶이·순대·튀김을 함께 판매합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              치킨 기준 1인분 1만 2천~1만 8천 원, 분식 세트 6천~1만 원대입니다. 망포역 치킨집은 소규모 운영이 많아 홀 테이블 수가 적습니다. 3인 이상 저녁 치맥 자리를 계획한다면 홀 좌석 수를 미리 확인하거나 영통역 방향의 치킨 홀 전문점을 고려하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/budget" style={{ color:'var(--primary)' }}>망포역 가성비·혼밥</Link> · <Link href="/samsungElectronics/mangpo/category/gukbap" style={{ color:'var(--primary)' }}>망포역 국밥·해장</Link> · <Link href="/samsungElectronics/mangpo/category/izakaya" style={{ color:'var(--primary)' }}>망포역 이자카야·포차</Link>
+            </p>
+          </>}
+
+          {slug === 'group' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 회식·단체 맛집은 삼성전자 생활가전사업부의 팀·부서 회식 수요를 중심으로 형성됩니다. 규모는 영통역보다 작지만, 삼겹살·이자카야·한식 정식 중심의 단체석 식당이 망포역 인근에 운영 중입니다. 단체 인원이 많다면 영통역 방향 대형 홀 식당을 함께 검토하는 것이 선택 폭을 넓힐 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 기준 2만~3만 5천 원이 망포 회식의 일반적 예산입니다. 10인 이상 단체 모임은 식당 측과 사전 협의를 통해 단체 메뉴와 좌석 배치를 확인하는 것이 중요합니다. 식당 선택이 제한적이라면 영통·망포 두 지역을 함께 고려하면 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/meat" style={{ color:'var(--primary)' }}>망포역 고기구이</Link> · <Link href="/samsungElectronics/mangpo/category/izakaya" style={{ color:'var(--primary)' }}>망포역 이자카야·포차</Link> · <Link href="/samsungElectronics/mangpo/category/korean" style={{ color:'var(--primary)' }}>망포역 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'date' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 데이트·분위기 맛집은 조용한 망포 로컬 상권의 특성을 살린 아늑하고 소박한 분위기의 레스토랑들입니다. 대형 상업지구의 번잡함 없이 여유 있게 식사를 즐길 수 있다는 점이 특징이며, 파스타·이탈리안·일식 레스토랑이 소규모로 운영 중입니다. 수원 화성이나 광교 호수공원을 방문한 뒤 식사 장소로 활용하기에도 좋은 위치입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              2인 기준 4만~8만 원 예산으로 여유 있는 식사가 가능합니다. 분위기 있는 식당의 수가 많지 않으므로 주말 저녁에는 예약 후 방문하는 것이 좋습니다. 차량 접근이 편리한 지역이라 드라이브 데이트 코스로도 활용하기 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/western" style={{ color:'var(--primary)' }}>망포역 양식·파스타</Link> · <Link href="/samsungElectronics/mangpo/category/japanese" style={{ color:'var(--primary)' }}>망포역 일식·스시</Link> · <Link href="/samsungElectronics/mangpo/category/premium" style={{ color:'var(--primary)' }}>망포역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'budget' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 가성비·혼밥·점심 맛집은 삼성전자 생활가전사업부 직원들의 빠른 점심 수요를 반영해 회전 빠르고 가격이 합리적인 식당들로 구성됩니다. 국밥·정식·칼국수 등 단품 메뉴 식당이 주를 이루며, 망포역 주변 소규모 상가에 분포합니다. 영통역 대비 경쟁이 적어 피크 시간에도 비교적 여유 있게 앉을 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 7천~1만 2천 원, 런치 세트 1만~1만 5천 원이 망포 가성비 기준입니다. 망포 상권 식당은 가게 수가 적어 특정 식당에 집중 현상이 생길 수 있습니다. 선호 식당이 있다면 오픈 시간에 맞춰 방문하는 것이 안전합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/gukbap" style={{ color:'var(--primary)' }}>망포역 국밥·해장</Link> · <Link href="/samsungElectronics/mangpo/category/korean" style={{ color:'var(--primary)' }}>망포역 한식·정식</Link> · <Link href="/samsungElectronics/mangpo/category/chicken" style={{ color:'var(--primary)' }}>망포역 치킨·분식</Link>
+            </p>
+          </>}
+
+          {slug === 'premium' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 접대·파인다이닝 식당은 삼성전자 생활가전사업부 협력사 접대와 팀장·임원급 회식에 활용됩니다. 망포 상권에서 고급 식당으로 분류되는 스시 바·한정식·스테이크 전문점이 소수 운영 중이며, 더 넓은 선택이 필요하다면 영통역 방향 식당을 함께 검토하는 것이 좋습니다. 접근성과 주차 편의를 동시에 고려하면 차량 접대 자리에 유리한 위치입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 코스 기준 7만~15만 원대입니다. 예약은 최소 3~5일 전에 완료하는 것이 안전하며, 중요한 자리일수록 룸 또는 개인석 가능 여부를 반드시 미리 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/japanese" style={{ color:'var(--primary)' }}>망포역 일식·스시</Link> · <Link href="/samsungElectronics/mangpo/category/western" style={{ color:'var(--primary)' }}>망포역 양식·파스타</Link> · <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link>
+            </p>
+          </>}
+
+          {slug === 'korean' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 한식·정식·보쌈 맛집은 망포 주거 지역 인근에 가정식 스타일의 한식 정식 식당들이 자리합니다. 삼성전자 직원 점심 수요를 받는 백반·정식 식당이 망포역 상가 주변에 운영 중이며, 저녁에는 족발·보쌈·갈비찜을 제공하는 한식 전문점이 소규모 모임 수요를 담당합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 정식 7천~1만 3천 원, 저녁 족발·보쌈 2인 기준 2만 5천~4만 원대입니다. 망포 한식 식당은 주거 지역 특성상 단골손님 중심으로 운영되는 경우가 많아 조용하고 편안한 분위기에서 식사할 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/samsungElectronics/mangpo/category/budget" style={{ color:'var(--primary)' }}>망포역 가성비·혼밥</Link> · <Link href="/samsungElectronics/mangpo/category/gukbap" style={{ color:'var(--primary)' }}>망포역 국밥·해장</Link> · <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link>
+            </p>
+          </>}
+
+          {!['meat','gukbap','izakaya','japanese','chinese','western','chicken','group','date','budget','premium','korean'].includes(slug) && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              망포역 주변 {catInfo.name} 맛집은 수원 영통·망포 일대에 다양하게 분포되어 있습니다. 각 식당의 영업시간·가격대·특징을 확인하고 방문하세요.
+            </p>
+          </>}
+
+          <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8 }}>
+            날씨·기분·예산을 입력하면 <Link href="/samsungElectronics/mangpo" style={{ color:'var(--primary)' }}>망포역 AI 맛집 추천</Link>이 {catInfo.name} 포함 전체 카테고리에서 맞춤 식당 3곳을 바로 골라드립니다.
           </p>
         </article>
 

@@ -391,6 +391,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1484,7 +1496,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2122,15 +2136,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>영통구청 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            영통구청 주변 맛집은 영통구청역 인근 주거 상권과 수원 영통구 로데오 거리 일대에 집중되어 있습니다. 조용한 골목 맛집부터 가족 외식 레스토랑까지 다양하게 갖춰져 있습니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>영통구청 맛집 가이드 — 매탄동·삼성전기·구청 인근 완전 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            영통구청 맛집은 수원 영통구청 인근과 매탄동 주거 상권, 삼성전기·삼성전자 매탄캠퍼스 인근을 기반으로 합니다. 구청과 주거 지역이 공존하는 조용한 상권으로, 가족 외식·직장인 점심·소규모 저녁 모임을 아우르는 다양한 식당이 분포합니다. 대형 상업지구의 번잡함 없이 여유 있는 식사를 원하는 방문객에게 적합한 지역입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            점심 식사는 매탄동 상가 지역의 국밥·정식·백반 식당에서 7천~1만 3천 원대에 해결할 수 있습니다. 삼성전기·삼성전자 매탄캠퍼스 직원들의 점심 수요가 있지만, 영통역·망포역 대비 상권이 조용해 피크 시간에도 비교적 여유롭게 앉을 수 있습니다. 1인 혼밥 방문 시에는 카운터석이나 소규모 테이블 운영 여부를 미리 확인하면 편리합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            저녁 회식 장소는 매탄동 삼겹살·한식 정식 전문점을 우선으로 검토하세요. 단체석 운영 규모가 크지 않아 6인 이상 모임은 2~3일 전 예약이 안전합니다. 더 많은 선택지가 필요하다면 차량·도보로 15분 내에 영통역 방향 대형 고기구이·이자카야 식당에 접근할 수 있습니다. 1인 기준 2만~3만 5천 원이 이 지역 회식의 일반적 예산입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            영통구청 지역은 주차 환경이 비교적 넉넉한 편입니다. 차량으로 방문하는 외부 손님을 모실 때 주차 걱정 없이 식사 장소를 선택할 수 있다는 점이 장점입니다. 삼성전기 협력사 방문이나 수원 외곽 업무 후 식사 장소로 활용하기에도 적합한 위치입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            데이트나 소규모 기념일 자리를 찾는다면, 매탄동 이탈리안 레스토랑이나 일식 레스토랑이 아늑한 분위기를 제공합니다. 번잡한 상업 지구와 달리 조용하고 여유 있는 환경이어서 대화에 집중할 수 있는 식사 자리가 됩니다. 수원 화성이나 광교 호수공원 방문 후 저녁 식사 장소로 연계하기에도 좋은 위치입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            영통구청 맛집 카테고리별 가이드: 고기구이는 <Link href="/samsungElectronics/yeongtongGu/category/meat" style={{ color:'var(--primary)' }}>영통구청 고기구이·삼겹살</Link>, 회식은 <Link href="/samsungElectronics/yeongtongGu/category/group" style={{ color:'var(--primary)' }}>영통구청 회식·단체</Link>, 가성비 점심은 <Link href="/samsungElectronics/yeongtongGu/category/budget" style={{ color:'var(--primary)' }}>영통구청 가성비·혼밥·점심</Link> 페이지를 확인하세요.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 영통구청 인근 한우·돼지갈비 전문점이 인기이며, 가성비 점심을 찾는다면 영통구청역 상권의 국밥·분식 골목을 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 영통구청 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )

@@ -367,7 +367,7 @@ function DevNote() {
     </>
   )
 }
-export default function Layout({ children, title, description, canonical }) {
+export default function Layout({ children, title, description, canonical, jsonLd, extraJsonLd }) {
   const [theme,      setTheme]      = useState('light')
   const [mounted,    setMounted]    = useState(false)
   const [showThemes, setShowThemes] = useState(false)
@@ -377,7 +377,7 @@ export default function Layout({ children, title, description, canonical }) {
   const [showStations, setShowStations] = useState(false)
   const [tokenCost,  setTokenCost]  = useState(0)
 
-  const rawTitle = title ? `${title} | 오늘뭐먹지` : '오늘뭐먹지 — AI 맛집 추천'
+  const rawTitle = title || '오늘뭐먹지 | AI 맛집 추천 - 삼성역·잠실·판교·영통'
   const siteTitle = rawTitle.length > 70 ? rawTitle.slice(0, 68) + '…' : rawTitle
   const siteDesc  = description || '강남역·삼성역 맛집을 AI가 빠르게 추천. 국밥·이자카야·한우·중식 170개+ 식당 정보.'
 
@@ -449,6 +449,18 @@ export default function Layout({ children, title, description, canonical }) {
         {canonical && <meta property="og:url" content={canonical} />}
         <meta name="twitter:title" content={siteTitle} />
         <meta name="twitter:description" content={siteDesc} />
+        {jsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+        )}
+        {extraJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(extraJsonLd) }}
+          />
+        )}
       </Head>
 
       {/* ── 헤더 ── */}

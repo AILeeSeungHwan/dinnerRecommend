@@ -391,6 +391,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1484,7 +1496,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2122,15 +2136,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>판교 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            판교 맛집은 판교테크노밸리 IT기업 직장인들이 즐겨 찾는 점심·저녁 맛집이 풍부합니다. 현대백화점 판교점 주변에는 프리미엄 다이닝이 몰려있고, 판교역 상권에는 가성비 좋은 한식·분식 맛집이 즐비합니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>판교역 맛집 가이드 — 지역별, 상황별 완전 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            판교역 맛집은 크게 세 구역으로 나뉩니다. 판교테크노밸리 알파·베타캠퍼스 인근은 IT·바이오·의료기기 직장인의 점심과 퇴근 후 회식 수요가 집중되는 핵심 구역입니다. 알파돔시티 지하 상가에는 빠른 점심을 해결할 수 있는 다양한 음식점이 모여 있으며, 아브뉴프랑·현대백화점 판교점 일대는 데이트·접대·기념일 식사에 어울리는 프리미엄 레스토랑이 자리합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            백현동 카페거리는 판교역 2번 출구 방향에 위치하며, 주말 브런치와 저녁 식사를 즐기는 커플·가족 방문객이 많습니다. 테이블 간격이 넓고 분위기가 차분한 레스토랑이 집중되어 있어 특별한 자리를 찾는 방문객에게 적합합니다. 판교역 상권 전반에 걸쳐 주차 공간이 넉넉한 편이어서 차량 방문자도 불편 없이 이동할 수 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            점심 가성비를 기준으로 보면, 국밥·칼국수·순두부찌개·제육볶음 정식 등 단품 메뉴 중심 식당은 7천~1만 3천 원대에 한 끼를 해결할 수 있습니다. 점심 피크 시간(12~12시 30분)을 피해 오전 11시 40분 전후에 방문하면 웨이팅 없이 앉을 수 있는 경우가 많습니다. 알파돔시티 지하 푸드코트는 다양한 메뉴를 빠르게 해결하기에 좋은 선택지입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            팀 회식 장소를 고르고 있다면, 테크노밸리 인근 대형 고기구이 전문점과 이자카야가 가장 접근성이 좋습니다. 10인 이상 단체는 룸 예약이 가능한 곳을 2~3일 전에 확인하는 것이 안전합니다. 1차 고기구이 후 2차 이자카야로 이어지는 동선은 테크노밸리 알파캠퍼스 서쪽 이면도로에서 대부분 해결 가능합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            접대나 파인다이닝을 원한다면 아브뉴프랑·현대백화점 판교점 인근 예약제 오마카세와 코스 레스토랑을 우선 확인하세요. 1인 코스 기준 8만~20만 원 이상으로 범위가 넓으며, 예약은 최소 3~5일 전에 완료하는 것이 일반적입니다. 개인실(룸)과 주차 지원 여부를 예약 시 함께 확인하면 외부 손님을 모시기에 더 편리합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            판교역 맛집은 카테고리별로 세분화된 가이드를 제공합니다. 고기구이는 <Link href="/pangyo/category/meat" style={{ color:'var(--primary)' }}>판교역 고기구이·삼겹살</Link>, 회식 장소는 <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link>, 데이트 레스토랑은 <Link href="/pangyo/category/date" style={{ color:'var(--primary)' }}>판교역 데이트·분위기</Link> 페이지에서 확인할 수 있습니다.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 판교 테크노밸리 인근 대형 고기집·이자카야가 인기이며, 가성비 점심을 찾는다면 판교역 지하상가와 알파돔시티를 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 지금 상황에 딱 맞는 판교 맛집 3곳을 3초 만에 골라드립니다. 국밥부터 오마카세까지, 혼밥부터 30인 단체 회식까지 모두 커버합니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )

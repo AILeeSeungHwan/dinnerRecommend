@@ -153,10 +153,31 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
     <>
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
-        <title>판교역 {catInfo.name} 맛집 추천 {restaurants.length}선 | 오늘뭐먹지</title>
+        <title>판교역 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
         <meta name="description" content={`판교역·판교테크노밸리·백현동 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/pangyo/category/${slug}`} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": `판교역 ${catInfo.name} 맛집`,
+          "url": `https://dinner.ambitstock.com/pangyo/category/${slug}`,
+          "numberOfItems": restaurants.length,
+          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "item": {
+              "@type": "Restaurant",
+              "name": r.name,
+              "address": r.addr,
+              ...(r.rt ? { "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": String(r.rt),
+                "reviewCount": String(r.cnt || 0)
+              }} : {})
+            }
+          }))
+        })}} />
       </Head>
 
       {/* 헤더 */}
@@ -274,22 +295,171 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         </div>
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:12 }}>
+          <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:16 }}>
             판교역 {catInfo.name} 맛집 선택 가이드
           </h2>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8, marginBottom:10 }}>
-            판교역 주변 {catInfo.name} 맛집은 판교테크노밸리 알파/베타, 백현동 카페거리, 아브뉴프랑까지
-            다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
-          </p>
-          <p style={{ color:'var(--muted)', fontSize:'.9rem', lineHeight:1.8 }}>
-            <Link href="/pangyo" style={{ color:'var(--primary)' }}>판교역 AI 맛집 추천</Link>을 이용하면
-            오늘 날씨, 기분, 예산에 맞는 {catInfo.name} 맛집을 바로 추천받을 수 있습니다.
+
+          {slug === 'meat' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 고기구이 맛집은 테크노밸리 직장인 회식 수요가 집중되는 만큼 규모 있는 홀과 넉넉한 주차 공간을 갖춘 곳이 많습니다. 한우 특수부위부터 돼지 삼겹살·목살까지 선택지가 다양하며, 백현동 카페거리 인근에는 분위기를 겸한 고급 고기집도 자리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              상황별로 보면, 팀 회식에는 단체석과 룸을 갖춘 대형 구이 전문점이 적합하고, 1~2인 저녁이라면 1인분 주문이 가능한 곳을 먼저 확인하는 것이 좋습니다. 가격대는 1인 기준 점심 런치 메뉴가 1만 2천~1만 8천 원 선, 저녁 한우 코스는 4만~7만 원대로 폭이 넓습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교에서 고기구이를 선택할 때는 예약 가능 여부를 미리 체크하세요. 금·토 저녁과 월요일 회식 시즌에는 웨이팅이 발생하는 곳도 있습니다. 아브뉴프랑 인근 고기집은 테이블 간격이 넓어 조용한 자리를 선호하는 접대 식사에도 활용도가 높습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/korean" style={{ color:'var(--primary)' }}>판교역 한식·정식</Link> · <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link> · <Link href="/pangyo/category/premium" style={{ color:'var(--primary)' }}>판교역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'gukbap' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 국밥·해장 맛집은 아침 일찍 출근하는 테크노밸리 직장인과 야근 후 늦은 저녁을 챙기는 수요가 모두 높습니다. 순대국밥·돼지국밥·설렁탕 등 기본 국밥류 외에 뼈해장국·선지해장·황태해장까지 선택지가 다양합니다. 칼국수와 함께 파는 복합 메뉴 식당도 여럿 있어 점심 한 끼로 부담 없이 이용하기 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              가격대는 1인분 7천~1만 2천 원 수준으로 비교적 균일합니다. 점심 혼밥에는 카운터석이 있는 국밥 전문점, 팀 점심에는 테이블이 넓은 칼국수·국밥 복합 식당이 편리합니다. 해장이 필요한 아침에는 판교역 근처 24시 영업 국밥집을 우선 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/budget" style={{ color:'var(--primary)' }}>판교역 가성비·혼밥</Link> · <Link href="/pangyo/category/korean" style={{ color:'var(--primary)' }}>판교역 한식·정식</Link> · <Link href="/pangyo/category/meat" style={{ color:'var(--primary)' }}>판교역 고기구이</Link>
+            </p>
+          </>}
+
+          {slug === 'izakaya' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 이자카야·포차는 IT·바이오 직장인들의 퇴근 후 1차·2차 장소로 자주 이용됩니다. 카운터 중심의 소규모 이자카야부터 단체석을 갖춘 대형 야키토리 전문점까지 스타일이 다양합니다. 백현동 카페거리 인근에는 분위기 있는 와인바 겸 이자카야도 운영 중입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 안주 기준 1만~2만 원, 2인 기준 음식+주류 포함 5만~8만 원대가 일반적입니다. 하이볼·사케·수제맥주를 기준으로 주류 라인업이 다른 경우가 많으니, 주류 취향이 뚜렷하다면 메뉴판을 미리 확인하는 것이 좋습니다. 심야 영업 여부는 가게별로 다르므로 늦은 2차에는 영업 시간을 미리 체크하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/japanese" style={{ color:'var(--primary)' }}>판교역 일식·스시</Link> · <Link href="/pangyo/category/date" style={{ color:'var(--primary)' }}>판교역 데이트·분위기</Link> · <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link>
+            </p>
+          </>}
+
+          {slug === 'japanese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 일식·스시 맛집은 아브뉴프랑과 현대백화점 판교점 인근에 집중되어 있습니다. 점심 도시락·돈카츠·규동 등 단품 메뉴를 파는 캐주얼 일식부터 예약제 오마카세 코스 레스토랑까지 가격대 폭이 넓습니다. 분당·판교 상권 특성상 스시 바 형태의 카운터 석이 있는 식당이 많아 혼밥에도 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트는 1만 2천~2만 원대, 저녁 오마카세 코스는 1인 8만~15만 원 수준입니다. 접대·기념일 용도라면 예약 필수 여부와 개인실 유무를 먼저 확인하세요. 백현동 카페거리 인근 일식집은 접근성이 좋고 주차가 편리해 외부 손님을 모시기에도 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/premium" style={{ color:'var(--primary)' }}>판교역 접대·파인다이닝</Link> · <Link href="/pangyo/category/izakaya" style={{ color:'var(--primary)' }}>판교역 이자카야·포차</Link> · <Link href="/pangyo/category/date" style={{ color:'var(--primary)' }}>판교역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'chinese' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 중식 맛집은 마라탕·훠궈부터 전통 중화요리까지 다양하게 분포합니다. 테크노밸리 직장인의 점심 수요가 높아 짬뽕·짜장·탕수육 세트를 합리적 가격에 제공하는 런치 특선 식당이 많습니다. 양꼬치 골목도 별도로 형성되어 있어 저녁 모임 장소로 활용도가 높습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 세트 8천~1만 5천 원, 마라탕 1인 1만~1만 8천 원, 훠궈 2인 기준 3만~5만 원대입니다. 마라탕·훠궈는 매운 정도를 선택할 수 있는지 주문 전 확인하세요. 단체 방문 시 훠궈 전골 형태는 예약이 필수인 경우가 많습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link> · <Link href="/pangyo/category/budget" style={{ color:'var(--primary)' }}>판교역 가성비·혼밥</Link> · <Link href="/pangyo/category/korean" style={{ color:'var(--primary)' }}>판교역 한식·정식</Link>
+            </p>
+          </>}
+
+          {slug === 'western' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 양식·파스타 맛집은 아브뉴프랑과 현대백화점 판교점 주변에 집중되어 있습니다. 캐주얼 파스타·피자 전문점부터 스테이크 하우스, 분위기 있는 이탈리안 레스토랑까지 선택지가 풍부합니다. 주말 브런치 메뉴를 운영하는 곳이 많아 늦은 점심 방문에도 어울립니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 파스타·피자는 1만 3천~2만 원대, 스테이크 코스는 1인 4만~8만 원 수준입니다. 데이트나 소규모 접대 자리에는 테이블 간격이 넉넉한 레스토랑을 우선 고르세요. 아브뉴프랑의 양식 레스토랑은 예약 후 방문을 권장하는 편입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/date" style={{ color:'var(--primary)' }}>판교역 데이트·분위기</Link> · <Link href="/pangyo/category/premium" style={{ color:'var(--primary)' }}>판교역 접대·파인다이닝</Link> · <Link href="/pangyo/category/japanese" style={{ color:'var(--primary)' }}>판교역 일식·스시</Link>
+            </p>
+          </>}
+
+          {slug === 'chicken' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 치킨·분식은 점심 빠른 한 끼와 퇴근 후 가볍게 한 잔 할 때 모두 쓸 수 있는 카테고리입니다. 치킨 전문점 외에 떡볶이·튀김·라볶이를 함께 파는 분식 포장 전문점도 다수 운영 중입니다. 판교테크노밸리 지하 푸드코트에도 치킨·분식 옵션이 있어 짧은 점심 시간에 이용하기 편리합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              치킨 1인분 기준 1만 2천~1만 8천 원, 분식 세트 6천~1만 원대입니다. 저녁 치맥 모임에는 단체 테이블 좌석 수를 미리 확인하고 방문하세요. 배달 전용 브랜드의 홀 매장은 회전이 빠른 편이라 대기 없이 이용할 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/budget" style={{ color:'var(--primary)' }}>판교역 가성비·혼밥</Link> · <Link href="/pangyo/category/gukbap" style={{ color:'var(--primary)' }}>판교역 국밥·해장</Link> · <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link>
+            </p>
+          </>}
+
+          {slug === 'group' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 회식·단체 맛집은 판교테크노밸리 IT·바이오 기업의 팀 회식 수요에 맞게 대형 홀과 별도 룸을 갖춘 곳이 많습니다. 삼겹살·한우 구이, 이자카야, 중식 코스 등 메뉴가 다양하며, 10인 이상 단체 예약을 받는 식당도 상당수입니다. 알파돔시티와 아브뉴프랑 주변에 회식 장소로 자주 쓰이는 식당들이 분포합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 기준 2만~3만 5천 원대가 판교 회식의 일반적인 예산입니다. 룸 예약은 적어도 2~3일 전 전화 확인을 권장합니다. 주차 지원이 되는 곳인지도 함께 체크하면 원거리 손님도 부담 없이 참석할 수 있습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/meat" style={{ color:'var(--primary)' }}>판교역 고기구이</Link> · <Link href="/pangyo/category/izakaya" style={{ color:'var(--primary)' }}>판교역 이자카야·포차</Link> · <Link href="/pangyo/category/premium" style={{ color:'var(--primary)' }}>판교역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'date' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 데이트 맛집으로는 백현동 카페거리와 아브뉴프랑 일대가 손꼽힙니다. 개방감 있는 테라스 레스토랑, 조명이 차분한 이탈리안 다이닝, 오마카세 스타일의 카운터 코스까지 분위기 선택지가 넓습니다. 현대백화점 판교점 5~6층 식당가도 쇼핑과 식사를 함께 즐기는 데이트 코스로 자주 활용됩니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              2인 기준 5만~10만 원대 예산으로 코스·세트 메뉴를 선택할 수 있습니다. 인기 레스토랑은 주말 저녁 예약이 빠르게 찼으므로 1주일 전 예약을 권장합니다. 창가 자리나 테라스 자리를 원한다면 예약 시 미리 요청하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/western" style={{ color:'var(--primary)' }}>판교역 양식·파스타</Link> · <Link href="/pangyo/category/japanese" style={{ color:'var(--primary)' }}>판교역 일식·스시</Link> · <Link href="/pangyo/category/premium" style={{ color:'var(--primary)' }}>판교역 접대·파인다이닝</Link>
+            </p>
+          </>}
+
+          {slug === 'budget' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 가성비·혼밥 맛집은 테크노밸리 점심 수요에 맞춰 빠른 서비스와 합리적인 가격을 내세운 식당이 많습니다. 국밥·칼국수·순두부찌개·김치찌개·제육볶음 정식 등 단품 메뉴 중심으로 구성되어 있으며, 혼자 앉기 편한 1인석 또는 카운터석을 갖춘 식당도 늘어나는 추세입니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 단품 7천~1만 2천 원, 런치 세트 1만~1만 5천 원이 일반적입니다. 11시 30분~12시 30분 피크 시간대를 피하면 웨이팅 없이 앉을 수 있는 경우가 많습니다. 판교테크노밸리 지하 푸드코트도 1만 원 내외의 다양한 메뉴로 구성되어 있어 빠른 점심에 적합합니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/gukbap" style={{ color:'var(--primary)' }}>판교역 국밥·해장</Link> · <Link href="/pangyo/category/korean" style={{ color:'var(--primary)' }}>판교역 한식·정식</Link> · <Link href="/pangyo/category/chicken" style={{ color:'var(--primary)' }}>판교역 치킨·분식</Link>
+            </p>
+          </>}
+
+          {slug === 'premium' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 접대·파인다이닝 식당은 중요한 비즈니스 미팅이나 임원 접대, 계약 성사 자리에 활용도가 높습니다. 아브뉴프랑과 현대백화점 판교점 인근에 예약제 오마카세, 코스 요리 레스토랑이 집중되어 있으며, 주차 편의와 조용한 분위기를 갖춘 곳을 우선 추려놓았습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              1인 코스 기준 8만~20만 원 이상으로 범위가 넓습니다. 예약은 최소 3~5일 전에 완료하는 것이 안전하며, 특정 와인 페어링이나 케이크 옵션 등 추가 요청은 예약 시 함께 안내해야 합니다. 개인실(룸) 운영 여부를 꼭 확인하세요.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/japanese" style={{ color:'var(--primary)' }}>판교역 일식·스시</Link> · <Link href="/pangyo/category/western" style={{ color:'var(--primary)' }}>판교역 양식·파스타</Link> · <Link href="/pangyo/category/date" style={{ color:'var(--primary)' }}>판교역 데이트·분위기</Link>
+            </p>
+          </>}
+
+          {slug === 'korean' && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 한식·정식 맛집은 점심 한정식 세트부터 저녁 족발·보쌈까지 한국인 직장인 입맛에 맞는 메뉴를 다양하게 갖추고 있습니다. 판교테크노밸리 인근에는 밑반찬과 찌개를 포함한 백반 스타일 한식당이 밀집해 있어 점심 이용 편의성이 높습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              점심 정식 8천~1만 5천 원, 저녁 족발·보쌈 2인 기준 3만~5만 원대입니다. 한정식 코스는 예약이 필요한 경우가 많으며, 저녁 인원이 6인 이상이라면 보쌈·족발 전문 식당에 단체석 확인 후 방문하는 것이 좋습니다.
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
+              관련 카테고리: <Link href="/pangyo/category/budget" style={{ color:'var(--primary)' }}>판교역 가성비·혼밥</Link> · <Link href="/pangyo/category/gukbap" style={{ color:'var(--primary)' }}>판교역 국밥·해장</Link> · <Link href="/pangyo/category/group" style={{ color:'var(--primary)' }}>판교역 회식·단체</Link>
+            </p>
+          </>}
+
+          {!['meat','gukbap','izakaya','japanese','chinese','western','chicken','group','date','budget','premium','korean'].includes(slug) && <>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              판교역 주변 {catInfo.name} 맛집은 판교테크노밸리 알파/베타, 백현동 카페거리, 아브뉴프랑까지 다양하게 분포되어 있습니다. 평점과 리뷰 수를 기준으로 {restaurants.length}곳을 엄선했습니다.
+            </p>
+          </>}
+
+          <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8 }}>
+            오늘 날씨·기분·예산을 입력하면 <Link href="/pangyo" style={{ color:'var(--primary)' }}>판교역 AI 맛집 추천</Link>이 {catInfo.name} 포함 전체 카테고리에서 맞춤 식당 3곳을 바로 골라드립니다.
           </p>
         </article>
 
         <div style={{ marginTop:24, display:'flex', gap:10 }}>
           <Link href="/pangyo" className="btn btn-ghost">← 판교역 전체 맛집</Link>
-          <Link href="/pangyo" className="btn btn-primary">✨ AI 추천 받기</Link>
+          <Link href="/pangyo" className="btn btn-primary">AI 추천 받기</Link>
         </div>
       </div>
     </>

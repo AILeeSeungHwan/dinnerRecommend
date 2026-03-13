@@ -391,6 +391,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1484,7 +1496,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2122,15 +2136,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>망포 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            망포 맛집은 망포역을 중심으로 형성된 주거·직장인 상권에 다양한 식당이 모여 있습니다. 삼성전자 퇴근길 직장인들이 즐겨 찾는 고기집·이자카야가 많고, 역 인근에는 가성비 좋은 한식 점심 맛집이 즐비합니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>망포역 맛집 가이드 — 삼성전자 생활가전·망포 로컬 완전 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            망포역 맛집은 삼성전자 생활가전사업부와 인접한 수원 영통구 망포동 상권을 기반으로 합니다. 영통역보다 규모는 작지만 주거 지역과 직장인 상권이 혼재한 로컬 분위기로, 붐비지 않는 환경에서 여유 있게 식사할 수 있다는 점이 특징입니다. 망포역 출구 인근 상가와 영통 방향 이면도로에 삼겹살·국밥·이자카야·일식 식당이 집중되어 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            점심 식사를 빠르게 해결하려면 망포역 인근 상가 1층의 국밥·정식·칼국수 식당을 선택하세요. 7천~1만 2천 원대에 한 끼를 해결할 수 있으며, 영통역 대비 점심 혼잡도가 낮아 12시에 방문해도 여유롭게 앉을 수 있는 경우가 많습니다. 1인 혼밥 환경을 갖춘 카운터석 식당도 일부 운영 중입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            저녁 회식 장소로는 망포역 인근 삼겹살·이자카야 전문점이 적합합니다. 상권 특성상 대형 홀보다 소규모 식당 중심으로 운영되므로, 10인 이상 단체 모임은 2~3일 전에 단체석 가능 여부를 확인하거나 영통역 방향 대형 식당을 함께 검토하는 것이 좋습니다. 1인 기준 2만~3만 5천 원이 망포 회식의 일반적 예산입니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            망포 로컬 상권의 특징 중 하나는 단골 중심으로 운영되는 가정식 느낌의 한식 정식 식당이 많다는 점입니다. 체인 프랜차이즈보다 독립 운영 식당의 비중이 높아 메뉴 구성이나 서비스 스타일이 다양합니다. 처음 방문하는 식당이라면 리뷰를 미리 확인하고 가는 것이 좋습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            파스타·양식 레스토랑과 스시 바도 망포역 인근에 소수 운영 중입니다. 조용한 주거 상권 특성상 소규모 기념일이나 데이트 자리에 아늑한 분위기를 제공하며, 주차 공간이 넉넉한 편이어서 차량 방문에 적합합니다. 접대나 고급 식사를 원한다면 영통역 방향 파인다이닝 식당도 도보·차량으로 10분 내에 접근 가능합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            망포역 맛집 카테고리별 가이드: 고기구이는 <Link href="/samsungElectronics/mangpo/category/meat" style={{ color:'var(--primary)' }}>망포역 고기구이·삼겹살</Link>, 회식은 <Link href="/samsungElectronics/mangpo/category/group" style={{ color:'var(--primary)' }}>망포역 회식·단체</Link>, 가성비 점심은 <Link href="/samsungElectronics/mangpo/category/budget" style={{ color:'var(--primary)' }}>망포역 가성비·혼밥·점심</Link> 페이지를 확인하세요.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 망포역 인근 고기구이 전문점들이 인기이며, 가성비 점심을 찾는다면 망포역 상권의 김치찌개·국밥 골목을 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 망포역 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )

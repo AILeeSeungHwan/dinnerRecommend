@@ -392,6 +392,18 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
       if (qtTokens.some(w => cl.includes(w) || w.includes(cl))) s += 18
     })
 
+    // ⑦-b keywords 필드 매칭
+    ;(r.keywords||[]).forEach(k => {
+      const kl = k.toLowerCase()
+      if (qt.includes(kl) || qtTokens.some(w => kl.includes(w) || w.includes(kl))) s += 12
+    })
+
+    // ⑦-c menuItems 메뉴명 매칭
+    ;(r.menuItems||[]).forEach(mi => {
+      const ml = (mi.name||'').toLowerCase()
+      if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
+    })
+
     // ⑧ vector 스코어 (있는 식당만)
     if (r.vector) {
       if (ctx.isSolo)              s += (r.vector.solo        ||0) * 14
@@ -1488,7 +1500,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${rv0}`
+        const kwStr = (r.keywords||[]).slice(0,3).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
@@ -2143,15 +2157,30 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
-        <article style={{ marginTop:48,padding:'24px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
-          <h2 style={{ fontSize:'1rem',fontWeight:800,marginBottom:12 }}>삼성역 맛집 가이드</h2>
-          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:10 }}>
-            삼성역 맛집은 코엑스몰, 파르나스타워, 현대백화점 무역센터 등 대형 상권과 테헤란로 골목의 숨은 맛집들이 공존합니다. 4번출구 방향에는 직장인 점심 맛집이 즐비하고, 코엑스 지하에는 다양한 레스토랑이 자리합니다.
+        <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
+          <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>삼성역 맛집 가이드 — 코엑스·테헤란로·봉은사 구역별 정리</h2>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            삼성역 맛집은 코엑스몰·파르나스·그랜드인터컨티넨탈 방향, 테헤란로 이면도로, 봉은사로 세 구역으로 나뉩니다. 코엑스몰 내부와 아셈타워 주변은 외부 비즈니스 손님 접대와 데이트 자리에 활용되는 고급 레스토랑이 집중되어 있으며, 테헤란로 이면도로는 금융사·IT기업 직장인 점심 수요를 받는 가성비 식당들이 포진합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            봉은사로는 코엑스와 대치동 사이에 위치해 조용한 골목 분위기를 원하는 방문객이 선호합니다. 이자카야·스시 바·오마카세 레스토랑이 봉은사로 이면에 다수 위치하며, 코엑스 혼잡을 피하면서 수준 높은 식사를 즐기고 싶을 때 좋은 선택지입니다. 삼성역 4번출구 방향 대치동 인근에는 학원가 특성에 맞는 저렴한 한식·분식 식당이 밀집해 있습니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            점심 가성비를 기준으로 보면, 테헤란로 이면도로의 국밥·정식·칼국수 식당은 8천~1만 3천 원대에서 한 끼를 해결할 수 있습니다. 코엑스몰 지하 푸드코트는 다양한 메뉴를 빠르게 해결하기에 편리하며, 11시 40분 이전에 입장하면 점심 피크를 피할 수 있습니다. 혼밥을 원한다면 카운터석이 있는 국밥 전문점이나 일식 단품 식당이 적합합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            회식 장소를 찾고 있다면, 삼성동 이면도로의 대형 고기구이·이자카야 전문점이 가장 접근성이 좋습니다. 10~30인 단체 수용 가능한 식당도 코엑스 인근 이면도로에 다수 위치하며, 코엑스몰 주차 연계로 원거리 참석자도 편하게 이용할 수 있습니다. 룸 예약은 3~5일 전에 전화 확인하는 것이 안전합니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:12 }}>
+            접대·파인다이닝은 파르나스호텔 인근 예약제 오마카세와 코스 레스토랑이 중심입니다. 강남 비즈니스 상권의 핵심 지역인 만큼 개인실을 갖춘 접대 레스토랑이 다른 지역 대비 많으며, 예약 경쟁도 치열합니다. 1인 코스 기준 10만~30만 원 이상 범위로, 최소 1주일 전 예약이 권장됩니다.
+          </p>
+          <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8,marginBottom:16 }}>
+            삼성역 맛집은 카테고리별 가이드 페이지에서 더 자세히 확인할 수 있습니다. 고기 맛집은 <Link href="/dinner/samseong/category/meat" style={{ color:'var(--primary)' }}>삼성역 고기·한우</Link>, 회식 장소는 <Link href="/dinner/samseong/category/group" style={{ color:'var(--primary)' }}>삼성역 회식·단체</Link>, 오마카세·접대 자리는 <Link href="/dinner/samseong/category/premium" style={{ color:'var(--primary)' }}>삼성역 접대·파인다이닝</Link> 페이지를 확인하세요.
           </p>
           <p style={{ color:'var(--muted)',fontSize:'.88rem',lineHeight:1.8 }}>
-            회식 장소로는 웨어하우스43, 대도식당, 하이딜라오 훠궈 등이 인기이며, 가성비 점심을 찾는다면 중앙해장, 연화산 짬뽕, 리춍 중식당을 추천합니다.
+            오늘 날씨·기분·예산을 입력하면 AI가 삼성역 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
-        </article>
+        </section>
       </div>
     </Layout>
   )
