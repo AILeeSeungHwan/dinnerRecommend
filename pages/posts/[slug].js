@@ -81,22 +81,22 @@ function TocSection({ sections }) {
   )
 }
 
-// ── H2 그라디언트 소제목 ─────────────────────────────────────────
-function H2Section({ id, text, gradientStyle }) {
-  const from = gradientStyle?.from || 'var(--primary)'
-  const to = gradientStyle?.to || 'var(--accent)'
+// ── H2 배경 블록 소제목 ──────────────────────────────────────────
+function H2Section({ id, text, paletteIndex }) {
+  const palette = H2_PALETTES[(paletteIndex || 0) % H2_PALETTES.length]
   return (
     <h2
       id={id}
       style={{
-        fontSize: 'clamp(1.05rem, 3vw, 1.3rem)',
+        fontSize: 'clamp(1.05rem, 3vw, 1.25rem)',
         fontWeight: 800,
-        margin: '36px 0 14px',
-        background: `linear-gradient(90deg, ${from}, ${to})`,
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        backgroundClip: 'text',
+        margin: '36px 0 16px',
+        padding: '16px 22px',
+        borderRadius: 12,
+        background: palette.bg,
+        color: palette.color,
         scrollMarginTop: 64,
+        lineHeight: 1.4,
       }}
     >
       {text}
@@ -255,15 +255,17 @@ function renderSection(section, idx, allSections, relatedPosts) {
     case 'ad':
       return <AdSection key={idx} slot={section.slot} format={section.format} />
 
-    case 'h2':
+    case 'h2': {
+      const h2Index = allSections.slice(0, idx).filter(s => s.type === 'h2').length
       return (
         <H2Section
           key={idx}
           id={section.id}
           text={section.text}
-          gradientStyle={section.gradientStyle}
+          paletteIndex={h2Index}
         />
       )
+    }
 
     case 'body':
       return (
@@ -341,10 +343,35 @@ export async function getStaticProps({ params }) {
   }
 }
 
+// ── 지역 매핑 ───────────────────────────────────────────────────
+const REGION_MAP = {
+  samseong:    { name: '삼성역',     path: '/dinner/samseong' },
+  jamsil:      { name: '잠실역',     path: '/dinner/jamsil' },
+  pangyo:      { name: '판교역',     path: '/pangyo' },
+  yeongtong:   { name: '영통역',     path: '/samsungElectronics/yeongtong' },
+  mangpo:      { name: '망포역',     path: '/samsungElectronics/mangpo' },
+  yeongtongGu: { name: '영통구청',   path: '/samsungElectronics/yeongtongGu' },
+}
+
+// ── H2 배경 그라디언트 팔레트 (순환) ─────────────────────────────
+const H2_PALETTES = [
+  { bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: '#fff' },
+  { bg: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)', color: '#fff' },
+  { bg: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #fccb90 0%, #d57eeb 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #30cfd0 0%, #330867 100%)', color: '#fff' },
+  { bg: 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)', color: '#1a1a22' },
+  { bg: 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)', color: '#1a1a22' },
+]
+
 // ── 페이지 컴포넌트 ──────────────────────────────────────────────
 export default function PostPage({ meta, sections, related }) {
   const BASE_URL = 'https://dinner.ambitstock.com'
   const pageUrl = `${BASE_URL}/posts/${meta.slug}`
+  const region = REGION_MAP[meta.region] || REGION_MAP.pangyo
 
   const jsonLdArticle = {
     '@context': 'https://schema.org',
@@ -388,8 +415,8 @@ export default function PostPage({ meta, sections, related }) {
       {
         '@type': 'ListItem',
         position: 2,
-        name: '포스트',
-        item: `${BASE_URL}/posts`,
+        name: region.name,
+        item: `${BASE_URL}${region.path}`,
       },
       {
         '@type': 'ListItem',
@@ -440,7 +467,7 @@ export default function PostPage({ meta, sections, related }) {
           <nav className="breadcrumb" aria-label="breadcrumb">
             <Link href="/">홈</Link>
             <span>›</span>
-            <Link href="/pangyo">판교역</Link>
+            <Link href={region.path}>{region.name}</Link>
             <span>›</span>
             <span style={{ color: 'var(--text)' }}>{meta.title}</span>
           </nav>
@@ -555,10 +582,10 @@ export default function PostPage({ meta, sections, related }) {
               flexWrap: 'wrap',
             }}
           >
-            <Link href="/pangyo" className="btn btn-ghost">
-              ← 판교역 맛집 홈
+            <Link href={region.path} className="btn btn-ghost">
+              ← {region.name} 맛집 홈
             </Link>
-            <Link href={`/pangyo/category/${meta.category || 'meat'}`} className="btn btn-primary">
+            <Link href={`${region.path}/category/${meta.category || 'meat'}`} className="btn btn-primary">
               {meta.category ? `${meta.category} 맛집 전체보기` : '맛집 전체보기'}
             </Link>
           </div>
