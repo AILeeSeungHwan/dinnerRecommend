@@ -6,6 +6,7 @@ import yeongtongData from '../data/yeongtong'
 import mangpoData from '../data/mangpo'
 import yeongtongGuData from '../data/yeongtongGu'
 import pangyoData from '../data/pangyo'
+import posts from '../data/posts'
 
 const stations = [
   {
@@ -216,6 +217,27 @@ export default function Home() {
               <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'16px 10px', textAlign:'center', cursor:'pointer' }}>
                 <div style={{ fontSize:'1.6rem', marginBottom:5 }}>{cat.emoji}</div>
                 <div style={{ fontSize:'.78rem', fontWeight:600 }}>{cat.name}</div>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* 최신 가이드 */}
+        <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>📝 최신 맛집 가이드</h2>
+        <div style={{ display:'flex', flexDirection:'column', gap:10, marginBottom:40 }}>
+          {posts.map(p => (
+            <Link key={p.slug} href={`/posts/${p.slug}`} style={{ textDecoration:'none' }}>
+              <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'16px 18px', cursor:'pointer', transition:'border-color .15s' }}>
+                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:6 }}>
+                  <span style={{ fontSize:'.92rem', fontWeight:700, color:'var(--text)' }}>{p.title}</span>
+                  <span style={{ fontSize:'.68rem', color:'var(--muted)', whiteSpace:'nowrap', marginLeft:12 }}>{p.date}</span>
+                </div>
+                <p style={{ fontSize:'.78rem', color:'var(--muted)', margin:0, lineHeight:1.5 }}>{p.description}</p>
+                <div style={{ display:'flex', gap:6, marginTop:8, flexWrap:'wrap' }}>
+                  {p.tags.slice(0,3).map(t => (
+                    <span key={t} style={{ fontSize:'.65rem', padding:'2px 8px', borderRadius:100, background:'rgba(99,102,241,.1)', border:'1px solid rgba(99,102,241,.25)', color:'#818cf8' }}>{t}</span>
+                  ))}
+                </div>
               </div>
             </Link>
           ))}

@@ -1,3 +1,4 @@
+import posts from '../data/posts'
 import samseongRestaurants  from '../data/samseong'
 import jamsilRestaurants    from '../data/jamsil'
 import pangyoRestaurants    from '../data/pangyo'
@@ -49,7 +50,12 @@ export async function getServerSideProps({ res }) {
     }))
   )
 
-  const all = [...staticPages, ...regionPages, ...categoryPages, ...restaurantPages]
+  // 5. 포스트 페이지 (priority 0.7)
+  const postPages = (posts || []).map(p => ({
+    url: `/posts/${p.slug}`, priority: '0.7'
+  }))
+
+  const all = [...staticPages, ...regionPages, ...categoryPages, ...postPages, ...restaurantPages]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

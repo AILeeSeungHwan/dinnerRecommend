@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 import restaurants from '../../../data/samseong'
+import posts from '../../../data/posts'
 
 const NL_MENU_MAP = [
   {patterns:/야장|포장마차|포차|노천|치킨.*야외/i,                       cats:['야장','치킨','이자카야']},
@@ -2156,6 +2157,22 @@ export default function SamseongPage() {
               })}
             </div>
           </div>
+        )}
+        {/* 최신 맛집 가이드 */}
+        {posts.filter(p => p.region === 'samseong').length > 0 && (
+          <section style={{ marginTop:40 }}>
+            <h2 style={{ fontSize:'.88rem', fontWeight:700, color:'var(--muted)', marginBottom:12 }}>📝 최신 맛집 가이드</h2>
+            <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
+              {posts.filter(p => p.region === 'samseong').map(p => (
+                <Link key={p.slug} href={`/posts/${p.slug}`} style={{ textDecoration:'none' }}>
+                  <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'14px 16px', cursor:'pointer' }}>
+                    <div style={{ fontSize:'.88rem', fontWeight:700, color:'var(--text)', marginBottom:4 }}>{p.title}</div>
+                    <p style={{ fontSize:'.76rem', color:'var(--muted)', margin:0 }}>{p.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
         )}
         <section style={{ marginTop:48,padding:'28px 20px',background:'var(--surface)',borderRadius:14,border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1.05rem',fontWeight:800,marginBottom:16 }}>삼성역 맛집 가이드 — 코엑스·테헤란로·봉은사 구역별 정리</h2>

@@ -4,5 +4,14 @@ const posts = [
   { id:3, slug:'jamsil-team-dinner-2026', title:'잠실 회식 장소 추천 2026 | 단체석·룸·주차 완벽 비교', description:'잠실 회식 장소 5~7곳 비교', category:'group', region:'jamsil', date:'2026-03-13', tags:['잠실','회식','단체석','룸'], thumbnail:null },
   { id:4, slug:'pangyo-honbap-budget-2026', title:'판교역 혼밥 맛집 1만원대 추천 | 가성비 점심', description:'판교 1인식 가능 가성비 식당 5곳', category:'budget', region:'pangyo', date:'2026-03-13', tags:['판교','혼밥','가성비','점심'], thumbnail:null },
   { id:5, slug:'samsung-lunch-guide-2026', title:'삼성역 점심 뭐 먹지? 카테고리별 추천 총정리', description:'삼성역 카테고리별 대표 맛집 총정리', category:'lunch', region:'samseong', date:'2026-03-13', tags:['삼성역','점심','추천','카테고리'], thumbnail:null },
+  { id:6, slug:'jamsil-japanese-sushi-2026', title:'잠실 일식·스시 맛집 추천 5선 | 2026 평점·가격 비교', description:'잠실 오마카세부터 회전초밥까지 일식 맛집 5곳 비교', category:'japanese', region:'jamsil', date:'2026-03-13', tags:['잠실','일식','스시','오마카세'], thumbnail:null },
+  { id:7, slug:'yeongtong-lunch-guide-2026', title:'영통역 점심 맛집 카테고리별 추천 총정리 | 2026', description:'영통역 카테고리별 대표 점심 맛집 총정리', category:'lunch', region:'yeongtong', date:'2026-03-13', tags:['영통','점심','삼성전자','카테고리'], thumbnail:null },
+  { id:8, slug:'samsung-date-restaurant-2026', title:'삼성역 데이트 레스토랑 추천 5곳 | 코엑스 분위기 맛집', description:'삼성역·코엑스 데이트 분위기 레스토랑 5곳 비교', category:'date', region:'samseong', date:'2026-03-13', tags:['삼성역','데이트','레스토랑','코엑스'], thumbnail:null },
+  { id:9, slug:'pangyo-team-dinner-2026', title:'판교역 회식 장소 추천 2026 | 룸·단체석·주차 비교', description:'판교 테크노밸리 회식 장소 7곳 룸·주차 비교', category:'group', region:'pangyo', date:'2026-03-13', tags:['판교','회식','단체석','룸'], thumbnail:null },
+  { id:10, slug:'mangpo-budget-lunch-2026', title:'망포역 가성비 점심 맛집 5선 | 1만원대 추천', description:'망포역 1만원대 가성비 점심 맛집 5곳', category:'budget', region:'mangpo', date:'2026-03-13', tags:['망포','가성비','점심','삼성전자'], thumbnail:null },
+  { id:11, slug:'jamsil-gukbap-best-2026', title:'잠실 국밥·해장국 맛집 추천 5선 | 2026 가격 비교', description:'잠실 국밥·해장국 맛집 5곳 가격·평점 비교', category:'gukbap', region:'jamsil', date:'2026-03-13', tags:['잠실','국밥','해장국','가성비'], thumbnail:null },
+  { id:12, slug:'samsung-chinese-food-2026', title:'삼성역 중식 맛집 추천 5곳 | 코엑스 짜장·짬뽕·딤섬', description:'삼성역 중식 맛집 5곳 가격·분위기 비교', category:'chinese', region:'samseong', date:'2026-03-13', tags:['삼성역','중식','짜장','딤섬'], thumbnail:null },
+  { id:13, slug:'yeongtonggu-team-dinner-2026', title:'영통구청 회식 장소 추천 2026 | 매탄동 단체석·룸 비교', description:'영통구청·매탄동 회식 장소 7곳 비교', category:'group', region:'yeongtongGu', date:'2026-03-13', tags:['영통구청','회식','매탄동','단체석'], thumbnail:null },
+  { id:14, slug:'pangyo-date-restaurant-2026', title:'판교 데이트 레스토랑 추천 5곳 | 백현동·아브뉴프랑 분위기 맛집', description:'판교 백현동·아브뉴프랑 데이트 레스토랑 5곳', category:'date', region:'pangyo', date:'2026-03-13', tags:['판교','데이트','백현동','아브뉴프랑'], thumbnail:null },
 ]
 export default posts
