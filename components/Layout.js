@@ -193,7 +193,8 @@ function QRMobileGuide() {
 
 // ── 버전 히스토리 데이터 ────────────────────────────────────────
 const VERSION_HISTORY = [
-  { version:'v0.9.1', date:'2026-03-11', current:true,  summary:'안정화 — 잠실 가짜 데이터 19개 제거, 테마 6개 추가, DiceOverlay/RouletteModal 타이밍 조정, 삼성역 데이터 최신화, 태그 자동생성' },
+  { version:'v1.0',   date:'2026-03-13', current:true,  summary:'SEO + 콘텐츠 대규모 확장 — 포스팅 시스템 구축(14편 가이드), sitemap 전 6지역 1,400+ URL, JSON-LD(ItemList/WebSite/Article/FAQ), 카테고리·지역 가이드 콘텐츠 추가, keywords/menuItems 검색 강화, 메인·지역 포스트 피드 UI' },
+  { version:'v0.9.1', date:'2026-03-11', current:false, summary:'안정화 — 잠실 가짜 데이터 19개 제거, 테마 6개 추가, DiceOverlay/RouletteModal 타이밍 조정, 삼성역 데이터 최신화, 태그 자동생성' },
   { version:'v0.9',   date:'2026-03-10', current:false, summary:'전 지역 통일 + 시즌 테마 — 6개 지역 기능 완전 동기화(룰렛/IdleBar/외부검색), 시즌 테마 4종(벚꽃/비/눈/단풍), 개발자 노트 팝업, AI 결과 비용 최적화(~4원), 데이터 rv→rvs 저작권 처리' },
   { version:'v0.8',   date:'2026-03-09', current:false, summary:'판교 + AI 고도화 — 판교역 423개 식당 추가, AI 프롬프트 전면 개편(의도 파악·시그니처·리뷰 반응 3요소), 토큰 절약 모드(사용횟수별 max_tokens 차등), 랜덤 문구 10종 템플릿' },
   { version:'v0.7',   date:'2026-03-09', current:false, summary:'삼성전자 전용 + 브랜드 리뉴얼 — 영통/망포/영통구청 3개 지역 추가(삼성전자 임직원용), 브랜드명 "강남뭐먹" → "오늘뭐먹지" 전면 변경, 삼성역 113개 추가(총 325개)' },
@@ -317,9 +318,9 @@ function DevNote() {
               </h2>
             </div>
             <div style={{ fontSize:'.84rem', lineHeight:1.85, color:'var(--text)', display:'flex', flexDirection:'column', gap:18 }}>
-              <DevNoteSection icon="🌱" title="지금은 ver 0.9.1 입니다">
-                오픈한 지 {dayCount}일밖에 안 됐어요. 아직 데이터가 얇고 추천 품질도 완성과는 거리가 있습니다.
-                시간이 쌓이면서 리뷰·메뉴·방문 패턴이 누적될수록 훨씬 정확하고 풍부한 추천을 드릴 수 있게 됩니다. 지금 이 버전은 그 시작점이에요.
+              <DevNoteSection icon="🌱" title="지금은 ver 1.0 입니다">
+                오픈한 지 {dayCount}일째, 드디어 v1.0에 도달했습니다. 14편의 맛집 가이드, 6개 지역 SEO 최적화, 검색 고도화까지 — 아직 갈 길이 멀지만 든든한 기반이 완성됐어요.
+                시간이 쌓이면서 리뷰·메뉴·방문 패턴이 누적될수록 훨씬 정확하고 풍부한 추천을 드릴 수 있게 됩니다.
               </DevNoteSection>
               <DevNoteSection icon="💼" title="직장인들의 점심 성지가 되길">
                 삼성역, 잠실, 판교, 영통 — 매일 점심 뭐 먹을지 고민하는 직장인들을 가장 먼저 생각하며 만들었어요.
