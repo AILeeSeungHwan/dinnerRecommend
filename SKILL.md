@@ -1,7 +1,8 @@
 # SKILL.md — dinner.ambitstock.com 콘텐츠 생성/수정 실행 스킬
 
-> 마지막 업데이트: 2026-03-13
+> 마지막 업데이트: 2026-03-15
 > 이 문서는 포스팅 생성/수정, 콘텐츠 강화 시 실행 절차와 품질 기준을 정의한다.
+> CLAUDE.md(프로젝트 기준), RULE.md(운영 규칙)와 함께 사용한다.
 
 ---
 
@@ -25,7 +26,7 @@
 |---|---|---|
 | Editor Lead | Sonnet | 전체 방향, 최종 승인, 품질 기준 확인 |
 | SEO Reviewer | Sonnet | 검색의도, slug, 제목, 내부링크, 메타 구조 |
-| Data Reviewer | Sonnet | 식당 데이터 정확성, 가격, 평점 기준일 |
+| Data Reviewer | Sonnet | 식당 데이터 정확성, 가격, 평점 기준일, 리뷰 미노출 확인 |
 | Content Builder A | Sonnet | 할당 포스팅 초안 작성 |
 | Content Builder B | Sonnet | 할당 포스팅 초안 작성 |
 
@@ -156,3 +157,84 @@
 - `삼성역 vs 판교역 직장인 점심 비교`
 - `2026 여름 야장 맛집 총정리`
 - `판교 테크노밸리 런치 가격대별 가이드`
+
+---
+
+## 8. 작업 유형별 세부 가이드
+
+### 8-1. 기존 포스트 갱신
+1. 대상 포스트 posts/XX.js 읽기
+2. data/{region}.js에서 최신 데이터 확인 (평점, 리뷰수, 가격 변동)
+3. 변경된 데이터 반영 + 기준일 업데이트
+4. 누락된 식당/폐업 식당 확인
+5. 상황별 추천표/비교표 정합성 확인
+6. `node --check posts/XX.js`
+7. 커밋 메시지 제안
+
+### 8-2. 신규 포스트 생성
+1. POST_TEMPLATE.md 구조 확인
+2. data/{region}.js에서 추천 식당 실존 여부 확인
+3. sections 배열 작성 (intro → image → toc → h2+body 반복 → ending)
+4. 비교표/상황별 추천표 필수 포함
+5. 데이터 기준일 명시
+6. `node --check posts/XX.js`
+7. data/posts.js 메타데이터 추가
+8. 커밋 메시지 제안
+
+### 8-3. 카테고리/지역 페이지 콘텐츠 강화
+1. 해당 지역 데이터 파일에서 카테고리별 식당 수, 평균 평점, 가격대 범위 집계
+2. 가이드 콘텐츠 작성 (800~1,200자)
+3. 상황별 추천 (회식/데이트/혼밥) + 가격대별 가이드 포함
+4. 관련 카테고리/포스트 내부링크 추가
+5. `node --check` 통과 확인
+
+### 8-4. 데이터 보강 (네이버 크롤링 후)
+1. merge-naver-data.mjs로 기존 데이터와 병합
+2. 스키마 확장 필드 (menuItems, keywords, naverUrl 등) 정합성 확인
+3. rv 필드 사이트 노출 여부 검증 (절대 금지)
+4. tags/moods/scene 자동 매핑 결과 확인
+5. 전체 데이터 검증: `node --check` + `validate_name()`
+
+---
+
+## 9. 갱신 우선순위
+
+### 갱신 필요 (높음)
+| 대상 | 문제 |
+|------|------|
+| 3순위 포스트 | 비교·트렌드 포스트 5~10편 미작성 |
+| 네이버 데이터 | 크롤러 준비 완료, 실행 및 병합 필요 |
+| 강남역 지역 | placeholder만 존재, 데이터 없음 |
+
+### 갱신 필요 (중간)
+| 대상 | 문제 |
+|------|------|
+| 기존 포스트 | 데이터 기준일 갱신 필요 (네이버 수집 후) |
+| 카테고리 가이드 | 네이버 데이터 보강 후 추천 내용 업데이트 |
+
+---
+
+## 10. callout 스타일 규칙 (포스트용)
+
+```html
+<!-- 추천 포인트 (초록) -->
+<div style="background:rgba(5,150,105,0.06);border-left:3px solid #059669;padding:14px 18px;border-radius:8px;margin:16px 0">
+<strong>추천 포인트:</strong> [내용]
+</div>
+
+<!-- 주의사항 (빨강) -->
+<div style="background:rgba(220,38,38,0.06);border-left:3px solid #DC2626;padding:14px 18px;border-radius:8px;margin:16px 0">
+<strong>주의:</strong> [내용 — 예: 주차 불가, 웨이팅 30분+, 런치 14시 마감]
+</div>
+
+<!-- 참고/팁 (노랑) -->
+<div style="background:rgba(217,119,6,0.06);border-left:3px solid #D97706;padding:14px 18px;border-radius:8px;margin:16px 0">
+<strong>팁:</strong> [내용]
+</div>
+
+<!-- 이 글이 필요한 사람 (브랜드 컬러) -->
+<div style="background:rgba(99,102,241,0.05);border-left:3px solid #6366f1;padding:14px 18px;border-radius:8px;margin:16px 0">
+<strong>이 글이 필요한 사람</strong>
+<ul style="margin:8px 0 0;padding-left:20px"><li>...</li></ul>
+</div>
+```

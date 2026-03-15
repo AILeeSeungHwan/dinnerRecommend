@@ -1,11 +1,12 @@
 # CLAUDE.md — dinner.ambitstock.com
 
-> 마지막 업데이트: 2026-03-13
+> 마지막 업데이트: 2026-03-15
 > 프로젝트: dinner.ambitstock.com (오늘뭐먹지)
 > 이 문서는 Claude Code 세션 시작 시 반드시 읽는 프로젝트 기준 문서다.
 > 세션 시작 시 반드시 `PROGRESS.md`도 함께 읽어 현재 작업 진행 상태를 파악할 것.
 > 작업 완료 후 항상 커밋 코멘트를 제공할 것. `PROGRESS.md`도 업데이트. PROGRESS 너무 길어지면 앞 부분은 지울것.
 > CLAUDE_RULES.md 는 RULE.md 과 동등하게 볼 것
+> 포스팅 품질 판단 시 `CONTENT_GRADING.md`, 검수 시 `REVIEW_CHECKLIST.md` 참조할 것.
 
 ---
 
@@ -432,4 +433,16 @@ for f in posts/*.js; do node --check "$f" || echo "FAIL: $f"; done
 
 # sitemap URL 수
 curl -s https://dinner.ambitstock.com/sitemap.xml | grep -c '<url>'
+
+# 광고 과다 포스트 확인
+for f in posts/*.js; do id=$(basename $f .js); c=$(grep -c "type: 'ad'" "$f"); [ "$c" -gt 3 ] && echo "$id: $c ads"; done
+
+# 날짜형/불릿형 H2 탐지
+grep -RniE "text: '(20[0-9]{2}[./-]|- |📌)" posts/*.js
+
+# 다크 테마 하드코딩 색상 탐지
+grep -RniE "color:\s*['\"]#[0-9a-fA-F]{3,6}" posts/*.js | grep -v "var(--"
+
+# rv(리뷰 원문) 노출 여부 확인 — 페이지 소스에서 rv 내용 검색
+grep -RniE "\.rv" pages/ components/ | grep -v "// " | grep -v "reason"
 ```

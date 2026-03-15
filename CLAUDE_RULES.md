@@ -1,5 +1,40 @@
 # Claude 작업 룰 — dinner-app
 
+> 마지막 업데이트: 2026-03-15
+
+## 0. 다크 테마 가독성 규칙 (CRITICAL)
+
+### CSS 변수 사용 원칙
+- 모든 컴포넌트/페이지에서 색상 지정 시 **반드시 CSS 변수 사용** — 하드코딩 금지
+- `color: '#fff'`는 **자체 배경이 보장된 경우에만** 허용 (예: callout 박스 내부)
+- `opacity` 0.4 이하는 다크에서 거의 안 보임 — **최소 0.5 권장**
+
+### 테마별 대응
+```css
+/* ❌ 금지 */
+color: #333;
+background: #fff;
+border-color: #ddd;
+
+/* ✅ 올바른 방법 */
+color: var(--text-color);
+background: var(--card-bg);
+border-color: var(--border-color);
+```
+
+### posts/*.js HTML 문자열에서
+- 비교표/추천표의 `border-color`, `background` 등도 CSS 변수 사용
+- `style="color:#888"` 같은 보조 텍스트는 `var(--text-muted)` 또는 최소 `opacity:0.6` 적용
+- callout 박스는 `rgba()` + 투명도로 배경 설정 (테마와 자연스럽게 어울림)
+
+### 검증 명령
+```bash
+# 하드코딩된 색상 찾기 (posts/*.js 내 HTML)
+grep -RniE "color:\s*['\"]#[0-9a-fA-F]{3,6}" posts/*.js | grep -v "var(--"
+```
+
+---
+
 ## 1. Python으로 JS 코드 생성 시 (f-string 충돌 방지)
 
 ### 문제
