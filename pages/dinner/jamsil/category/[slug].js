@@ -90,7 +90,8 @@ export async function getStaticProps({ params }) {
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
         priceRange: r.priceRange || null, cat: r.cat || [],
-        rv: r.rv || []
+        rv: r.rv || [], lat: r.lat || null, lng: r.lng || null,
+        scene: r.scene || [], moods: r.moods || [],
       }))
     }
   }

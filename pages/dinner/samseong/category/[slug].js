@@ -49,7 +49,8 @@ export async function getStaticProps({ params }) {
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
         priceRange: r.priceRange || null, cat: r.cat || [],
-        rv: r.rv || [], lat: r.lat, lng: r.lng
+        rv: r.rv || [], lat: r.lat, lng: r.lng,
+        scene: r.scene || [], moods: r.moods || [],
       }))
     }
   }

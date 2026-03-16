@@ -94,6 +94,8 @@ export async function getStaticProps({ params }) {
     hours: r.hours, tags: r.tags || [],
     priceRange: r.priceRange || null, cat: r.cat || [],
     rv: r.rv || [], region,
+    lat: r.lat || null, lng: r.lng || null,
+    scene: r.scene || [], moods: r.moods || [],
   }))
 
   return {
