@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React, { useState, useEffect } from 'react'
 
 // ── 폰트 프리셋 ──────────────────────────────────────────────
@@ -369,6 +370,7 @@ function DevNote() {
   )
 }
 export default function Layout({ children, title, description, canonical, jsonLd, extraJsonLd }) {
+  const router = useRouter()
   const [theme,      setTheme]      = useState('light')
   const [mounted,    setMounted]    = useState(false)
   const [showThemes, setShowThemes] = useState(false)
@@ -506,7 +508,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
               { href:null, label:'강남역', emoji:'🏙️', live:false },
               { href:null, label:'역삼역', emoji:'💼', live:false },
             ].map(s => {
-              const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
+              const isActive = s.href && router.asPath.startsWith(s.href)
               return s.live ? (
                 <Link key={s.label} href={s.href} className="stnpill" style={{
                   display:'flex', alignItems:'center', gap:3, flexShrink:0,
@@ -536,7 +538,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
           {/* 모바일 — 드롭다운 버튼 */}
           <div className="stnav-mobile-btn" style={{ flex:1, minWidth:0, position:'relative' }}>
             {(() => {
-              const path = typeof window !== 'undefined' ? window.location.pathname : ''
+              const path = router.asPath
               const stations = [
                 { href:'/dinner/samseong',               short:'삼성' },
                 { href:'/dinner/jamsil',                 short:'잠실' },
@@ -577,7 +579,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
                     { href:null, label:'강남역', emoji:'🏙️', live:false, desc:'' },
                     { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
                   ].map((s, i) => {
-                    const isActive = typeof window !== 'undefined' && s.href && window.location.pathname.startsWith(s.href)
+                    const isActive = s.href && router.asPath.startsWith(s.href)
                     return s.live ? (
                       <Link key={s.label} href={s.href} onClick={() => setShowStations(false)} style={{
                         display:'flex', alignItems:'center', gap:12,

@@ -243,6 +243,41 @@ function buildRandomReason(r, idx, usedTemplates) {
       const reason = `${intro ? intro+' ' : ''}${tagStr || r.type || '맛집'}.${cnt>0 ? ` 방문객 ${cnt.toLocaleString()}명 인증.` : ''}`
       return { reason, highlight: tagStr.slice(0,20) || r.type || '' }
     },
+
+    // 15: 대표 메뉴 + 가격대 강조
+    () => {
+      const menus = (r.menuItems || []).filter(m => m.name && m.price > 0)
+      if (menus.length === 0) return templates[1]()
+      const top = menus.slice(0, 2)
+      const menuStr = top.map(m => `${m.name} ${m.price.toLocaleString()}원`).join(', ')
+      const intro = cnt >= 100
+        ? `${cnt.toLocaleString()}명이 찾은 ${r.type || '맛집'}.`
+        : `${r.type || '맛집'} 추천.`
+      const reason = `${intro} 대표 메뉴: ${menuStr}.${rv0 ? ` "${rv0}"` : ''}`
+      return { reason, highlight: top[0].name }
+    },
+
+    // 16: 가격대 분석 + 메뉴 나열
+    () => {
+      const menus = (r.menuItems || []).filter(m => m.price > 0)
+      if (menus.length < 2) return templates[9]()
+      const prices = menus.map(m => m.price)
+      const avg = Math.round(prices.reduce((a,b)=>a+b,0)/prices.length)
+      const avgStr = avg >= 10000 ? `${(avg/10000).toFixed(1)}만원대` : `${avg.toLocaleString()}원대`
+      const menuNames = menus.slice(0,3).map(m=>m.name).join(' · ')
+      const reason = `평균 ${avgStr}. ${menuNames}.${rv0 ? ` "${rv0}"` : ''}`
+      return { reason, highlight: menuNames.slice(0,20) }
+    },
+
+    // 17: 방문자 수 + 메뉴 조합
+    () => {
+      const menus = (r.menuItems || []).filter(m => m.name)
+      if (cnt < 50 && menus.length === 0) return templates[2]()
+      const menuStr = menus.length > 0 ? menus.slice(0,2).map(m=>m.name).join('·') : ''
+      const cntStr = cnt >= 100 ? `리뷰 ${cnt.toLocaleString()}개.` : cnt > 0 ? `리뷰 ${cnt}개.` : ''
+      const reason = [cntStr, menuStr ? `대표 메뉴는 ${menuStr}.` : '', rv0 ? `"${rv0}"` : ''].filter(Boolean).join(' ')
+      return { reason, highlight: menuStr || rv0?.slice(0,20) || '' }
+    },
   ]
 
   const available = templates.map((_,i) => i).filter(i => !usedTemplates.includes(i))
@@ -1374,6 +1409,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
         reason,
         reviewHighlight: highlight,
         matchScore:Math.floor(Math.random()*15)+80, _random:true,
+        _menuItems: (r.menuItems||[]).slice(0,4),
+        _cnt: r.cnt || 0,
+        _naverBlogCnt: r.naverBlogCnt || 0,
       }
     })
     setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
@@ -1955,9 +1993,32 @@ const usageCnt = getUsageCount()
                         </div>
                       </div>
                       <p style={{ fontSize:'.84rem', color:'var(--text)', marginBottom:10, lineHeight:1.7, opacity:.9, wordBreak:'break-word', whiteSpace:'pre-line' }}>{rec.reason}</p>
-                      {rec.reviewHighlight && !rec._random &&(
+                      {rec.reviewHighlight && (
                         <div style={{ background:'var(--surface)', borderLeft:'3px solid var(--primary)', borderRadius:'0 8px 8px 0', padding:'8px 11px', fontSize:'.78rem', color:'var(--muted)', marginBottom:8, wordBreak:'break-word' }}>
                           💬 &ldquo;{rec.reviewHighlight}&rdquo;
+                        </div>
+                      )}
+                      {/* ── 메뉴 미리보기 (menuItems 있을 때) ── */}
+                      {rec._menuItems?.length > 0 && (
+                        <div style={{ display:'flex', flexWrap:'wrap', gap:5, marginBottom:8 }}>
+                          {rec._menuItems.map((m,mi)=>(
+                            <span key={mi} style={{ fontSize:'.7rem', padding:'3px 8px', borderRadius:8, background:'rgba(255,107,53,.06)', border:'1px solid rgba(255,107,53,.15)', color:'var(--text)' }}>
+                              {m.name}{m.price > 0 ? ` ${(m.price/10000>=1) ? (m.price/10000).toFixed(1)+'만' : m.price.toLocaleString()}원` : ''}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      {/* ── 방문자 수 뱃지 ── */}
+                      {rec._cnt > 0 && (
+                        <div style={{ display:'inline-flex', alignItems:'center', gap:4, marginBottom:8, fontSize:'.7rem', color:'var(--muted)' }}>
+                          <span style={{ padding:'2px 8px', borderRadius:100, background:'rgba(56,189,248,.08)', border:'1px solid rgba(56,189,248,.15)' }}>
+                            👥 방문자 리뷰 {rec._cnt.toLocaleString()}개
+                          </span>
+                          {rec._naverBlogCnt > 0 && (
+                            <span style={{ padding:'2px 8px', borderRadius:100, background:'rgba(72,187,120,.08)', border:'1px solid rgba(72,187,120,.15)' }}>
+                              📝 블로그 {rec._naverBlogCnt.toLocaleString()}개
+                            </span>
+                          )}
                         </div>
                       )}
                       {/* ── DB 태그 섹션 ── */}

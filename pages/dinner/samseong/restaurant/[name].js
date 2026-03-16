@@ -21,7 +21,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [] }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -415,7 +415,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
   const intro = buildIntro(r)
 
   // 메타 desc
-  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
+  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org",
@@ -495,10 +495,16 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </div>
           </div>
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
-            <a href={mapUrl} target="_blank" rel="noopener noreferrer"
+            <a href={r.naverUrl || mapUrl} target="_blank" rel="noopener noreferrer"
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--primary)', color:'#fff', fontSize:'.85rem', fontWeight:700, textDecoration:'none' }}>
               📍 지도로 보기
             </a>
+            {r.tel && (
+              <a href={`tel:${r.tel}`}
+                style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
+                📞 전화하기
+              </a>
+            )}
             <Link href="/dinner/samseong"
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
               ✨ AI 맞춤 추천 받기
@@ -518,10 +524,14 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               ['식당 종류', r.type],
               ['주소', `서울 강남구 ${r.addr}`],
               ['영업시간', r.hours],
+              r.tel ? ['전화번호', r.tel] : null,
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
-              ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
+              ['평점', `⭐ ${r.rt > 0 ? r.rt + '점' : '-'} (${r.cnt > 0 ? r.cnt.toLocaleString() + '개 리뷰' : '리뷰 수집 중'})`],
+              r.naverBlogCnt > 0 ? ['블로그 리뷰', `📝 ${r.naverBlogCnt.toLocaleString()}개`] : null,
+              ['주차', r.parking ? '✅ 주차 가능' : '매장 문의 또는 인근 공영주차장'],
+              ['예약', r.reservation ? '✅ 예약 가능' : '매장 문의'],
               ['삼성역 4번출구', r.exit4 ? '✅ 도보 3분 이내' : '삼성역 도보권 내'],
-            ].map(([label, val], i) => (
+            ].filter(Boolean).map(([label, val], i) => (
               <tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}>
                 <td style={{ padding:'10px 14px', color:'var(--muted)', whiteSpace:'nowrap', width:110 }}>{label}</td>
                 <td style={{ padding:'10px 14px' }}>{val}</td>
