@@ -3,6 +3,9 @@
  * 네이버 플레이스 상세 수집 v3 — 텍스트 파싱 방식
  * pcmap.place.naver.com/restaurant/{id}/home 방문 → innerText 파싱
  * + 메뉴 탭 클릭 → 메뉴 추출
+ *
+ * 사용법: node scripts/naver-detail-v3.mjs [region]
+ *   예시: node scripts/naver-detail-v3.mjs jamsil
  */
 
 import puppeteer from 'puppeteer'
@@ -12,9 +15,11 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, 'naver-data')
-const CHECKPOINT_FILE = path.join(OUT_DIR, 'samseong-browser-checkpoint.json')
-const FINAL_FILE = path.join(OUT_DIR, 'samseong-browser.json')
-const PROGRESS_FILE = path.join(OUT_DIR, 'detail-v3-done.json')
+
+const REGION = process.argv[2] || 'samseong'
+const CHECKPOINT_FILE = path.join(OUT_DIR, `${REGION}-browser-checkpoint.json`)
+const FINAL_FILE = path.join(OUT_DIR, `${REGION}-browser.json`)
+const PROGRESS_FILE = path.join(OUT_DIR, `${REGION}-detail-v3-done.json`)
 
 let data = JSON.parse(fs.readFileSync(CHECKPOINT_FILE, 'utf-8'))
 console.log(`로드: ${data.restaurants.length}개`)
@@ -115,28 +120,71 @@ async function main() {
       await sleep(1500)
 
       const menuInfo = await page.evaluate(() => {
-        const text = document.body?.innerText || ''
         const menus = []
 
-        // "메뉴명\n가격원" 패턴 추출
-        const lines = text.split('\n').map(l => l.trim()).filter(Boolean)
-        for (let i = 0; i < lines.length - 1; i++) {
-          const name = lines[i]
-          const next = lines[i + 1]
-          // 가격 패턴: "53,000원" or "15000원"
-          const priceMatch = next.match(/^([\d,]+)원$/)
-          if (priceMatch && name.length >= 2 && name.length <= 30 && !/^(대표|인기|추천|메뉴|홈|소식|리뷰|사진|정보)$/.test(name)) {
-            menus.push({
-              name,
-              price: parseInt(priceMatch[1].replace(/,/g, ''))
-            })
+        // 방법 1: 구조화된 메뉴 요소 (네이버 최신 UI)
+        document.querySelectorAll('.E2jtL, [class*="menu_item"], [class*="MenuItem"], .K0PDV').forEach(el => {
+          const nameEl = el.querySelector('.lPzHi, .name, [class*="menuName"], [class*="item_name"]')
+          const descEl = el.querySelector('.kPogF, .desc, [class*="menuDesc"], [class*="item_desc"], [class*="detail"]')
+          const priceEl = el.querySelector('.GXS1X, .price, [class*="price"]')
+
+          const menuName = nameEl?.textContent?.trim() || ''
+          const description = descEl?.textContent?.trim() || ''
+          const priceText = priceEl?.textContent?.trim() || ''
+          const price = parseInt((priceText).replace(/[^0-9]/g, '')) || 0
+
+          if (menuName && menuName.length >= 1) {
+            menus.push({ menuName, price, description })
+          }
+        })
+
+        // 방법 2: 폴백 — 텍스트 기반 파싱
+        if (menus.length === 0) {
+          const text = document.body?.innerText || ''
+          const lines = text.split('\n').map(l => l.trim()).filter(Boolean)
+
+          const isDescPattern = /입니다|메뉴입|드리는|즐기는|만들어진|준비했|묻어있는|볶은|우려낸|넣어|한상차림|맛볼 수|내어드리는|일품입니다|추천드립니다|즐길 수|차려지는/
+
+          for (let i = 0; i < lines.length - 1; i++) {
+            const line = lines[i]
+            const next = lines[i + 1]
+            const priceMatch = next.match(/^([\d,]+)원$/)
+
+            if (priceMatch && line.length >= 2 && line.length <= 50
+                && !/^(대표|인기|추천|메뉴|홈|소식|리뷰|사진|정보|더보기)$/.test(line)) {
+
+              const price = parseInt(priceMatch[1].replace(/,/g, ''))
+              const isDescription = line.length > 20 || isDescPattern.test(line)
+
+              if (isDescription) {
+                const prevLine = i > 0 ? lines[i - 1] : ''
+                if (prevLine.length >= 2 && prevLine.length <= 20 && !/^(대표|인기|추천|메뉴|홈|소식|리뷰|사진|정보|더보기|\d)/.test(prevLine)) {
+                  menus.push({ menuName: prevLine, price, description: line })
+                } else {
+                  menus.push({ menuName: '', price, description: line })
+                }
+              } else {
+                const descCandidate = (i + 2 < lines.length) ? lines[i + 2] : ''
+                const hasDesc = descCandidate.length > 15 && !/^\d/.test(descCandidate) && !/원$/.test(descCandidate)
+                menus.push({
+                  menuName: line,
+                  price,
+                  description: hasDesc ? descCandidate : ''
+                })
+              }
+            }
           }
         }
-        return menus
+
+        return menus.slice(0, 10)
       }).catch(() => [])
 
       if (menuInfo.length > 0) {
-        r.menuItems = menuInfo.slice(0, 10)
+        r.menuItems = menuInfo.slice(0, 10).map(m => ({
+          menuName: m.menuName || '',
+          price: m.price || 0,
+          description: m.description || ''
+        }))
         gotMenu++
 
         // 가격대 추정
@@ -201,7 +249,7 @@ async function main() {
   // 최종 파일
   let existingNames = new Set()
   try {
-    const raw = fs.readFileSync('/tmp/samseong_names.json', 'utf-8')
+    const raw = fs.readFileSync(`/tmp/${REGION}_names.json`, 'utf-8')
     existingNames = new Set(JSON.parse(raw).map(n => n.trim().toLowerCase().replace(/\s+/g, '')))
   } catch (e) {}
 

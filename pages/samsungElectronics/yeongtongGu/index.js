@@ -400,7 +400,7 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
 
     // ⑦-c menuItems 메뉴명 매칭
     ;(r.menuItems||[]).forEach(mi => {
-      const ml = (mi.name||'').toLowerCase()
+      const ml = (mi.menuName||mi.name||'').toLowerCase()
       if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
     })
 
@@ -1498,7 +1498,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
         const kwStr = (r.keywords||[]).slice(0,3).join(' ')
-        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.menuName||m.name).join(' ')
         return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)

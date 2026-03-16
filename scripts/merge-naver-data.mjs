@@ -215,6 +215,36 @@ function validateName(name) {
 }
 
 // ─────────────────────────────────────────────
+// menuItems 스키마 마이그레이션
+// 기존 { name, price } → { menuName, price, description }
+// ─────────────────────────────────────────────
+
+const DESC_PATTERN = /입니다|메뉴입|드리는|즐기는|만들어진|준비했|묻어있는|볶은|우려낸|넣어|한상차림|맛볼 수|내어드리는|일품입니다|추천드립니다|즐길 수|차려지는|코스$|세트$|한상$/
+
+function migrateMenuItem(item) {
+  // 이미 새 스키마인 경우 그대로 반환
+  if ('menuName' in item) {
+    return {
+      menuName: (item.menuName || '').trim(),
+      price: item.price || 0,
+      description: (item.description || '').trim()
+    }
+  }
+
+  const name = (item.name || '').trim()
+  const price = item.price || 0
+
+  const isDesc = name.length > 20 || DESC_PATTERN.test(name)
+  const cleanName = name.replace(/\d+[,.]?\d*원/g, '').replace(/\d+인\s*[-~]/g, '').trim()
+
+  return {
+    menuName: isDesc ? '' : cleanName,
+    price,
+    description: isDesc ? cleanName : ''
+  }
+}
+
+// ─────────────────────────────────────────────
 // 병합 로직
 // ─────────────────────────────────────────────
 
@@ -300,7 +330,9 @@ function mergeRestaurant(existing, naverMatch) {
     // ── 신규 추가 필드 ──────────────────────
     naverPlaceId: naverPlaceId || null,
     naverBlogCnt: naverBlogCnt || null,
-    menuItems: menuItems && menuItems.length > 0 ? menuItems : [],
+    menuItems: menuItems && menuItems.length > 0
+      ? menuItems.map(migrateMenuItem)
+      : (existing.menuItems || []).map(migrateMenuItem),
     keywords: analysis.keywords,
     naverUrl: naverUrl || '',
     parking: parking !== null && parking !== undefined ? parking : null,

@@ -1,58 +1,65 @@
 #!/usr/bin/env node
 /**
- * 네이버 지도 브라우저 크롤링 — 삼성역 식당 400개+ 수집
- * Puppeteer 기반, 기존 data/samseong.js 중복 제거
+ * 네이버 지도 브라우저 크롤링 — 지역별 식당 수집
+ * Puppeteer 기반, 기존 data/{region}.js 중복 제거
  *
- * 사용법: node scripts/naver-crawl-browser.mjs
+ * 사용법: node scripts/naver-crawl-browser.mjs [region]
+ *   예시: node scripts/naver-crawl-browser.mjs jamsil
+ *         node scripts/naver-crawl-browser.mjs pangyo
+ *         node scripts/naver-crawl-browser.mjs samseong (기본값)
  *
- * 출력: scripts/naver-data/samseong-browser.json
+ * 출력: scripts/naver-data/{region}-browser.json
  */
 
 import puppeteer from 'puppeteer'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { getRegionConfig, listRegions } from './region-config.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, 'naver-data')
-const OUT_FILE = path.join(OUT_DIR, 'samseong-browser.json')
-const CHECKPOINT_FILE = path.join(OUT_DIR, 'samseong-browser-checkpoint.json')
 
-// 검색 쿼리 목록 — 다양한 카테고리로 400개+ 확보
-const SEARCH_QUERIES = [
-  '삼성역 맛집', '삼성역 음식점', '삼성역 식당',
-  '코엑스 맛집', '코엑스 식당', '코엑스 음식점',
-  '삼성동 맛집', '삼성동 식당', '삼성동 음식점',
-  '봉은사역 맛집', '봉은사역 식당',
-  '테헤란로 맛집', '테헤란로 식당',
-  '삼성역 한식', '삼성역 고기', '삼성역 삼겹살',
-  '삼성역 이자카야', '삼성역 술집', '삼성역 포차',
-  '삼성역 일식', '삼성역 스시', '삼성역 초밥',
-  '삼성역 중식', '삼성역 마라탕', '삼성역 짬뽕',
-  '삼성역 양식', '삼성역 파스타', '삼성역 스테이크',
-  '삼성역 치킨', '삼성역 카페', '삼성역 브런치',
-  '삼성역 국밥', '삼성역 해장', '삼성역 설렁탕',
-  '삼성역 족발', '삼성역 곱창', '삼성역 보쌈',
-  '삼성역 분식', '삼성역 떡볶이',
-  '삼성역 베트남', '삼성역 태국', '삼성역 인도',
-  '삼성역 회', '삼성역 횟집', '삼성역 해산물',
-  '삼성역 돈카츠', '삼성역 라멘', '삼성역 우동',
-  '삼성역 피자', '삼성역 햄버거', '삼성역 샌드위치',
-  '삼성역 뷔페', '삼성역 샤브샤브',
-  '대치동 맛집', '대치동 식당',
-  '코엑스몰 맛집', '코엑스몰 식당',
-  '삼성역 점심', '삼성역 저녁', '삼성역 혼밥',
-  '삼성역 회식', '삼성역 데이트',
-]
+// 지역 인자 파싱
+const REGION = process.argv[2] || 'samseong'
+if (REGION === '--help' || REGION === '-h') {
+  console.log('사용법: node scripts/naver-crawl-browser.mjs [region]')
+  console.log('지역:', listRegions().map(r => `${r.key} (${r.label})`).join(', '))
+  process.exit(0)
+}
+
+let regionConfig
+try {
+  regionConfig = getRegionConfig(REGION)
+} catch (e) {
+  console.error(e.message)
+  process.exit(1)
+}
+
+const OUT_FILE = path.join(OUT_DIR, `${REGION}-browser.json`)
+const CHECKPOINT_FILE = path.join(OUT_DIR, `${REGION}-browser-checkpoint.json`)
+const SEARCH_QUERIES = regionConfig.queries
+
+console.log(`[${regionConfig.label}] 크롤링 시작`)
 
 // 기존 식당명 로드 (중복 제거용)
 let existingNames = new Set()
 try {
-  const raw = fs.readFileSync('/tmp/samseong_names.json', 'utf-8')
+  const namesFile = `/tmp/${REGION}_names.json`
+  const raw = fs.readFileSync(namesFile, 'utf-8')
   existingNames = new Set(JSON.parse(raw).map(n => n.trim().toLowerCase()))
   console.log(`기존 식당: ${existingNames.size}개 로드`)
 } catch (e) {
-  console.warn('기존 식당명 로드 실패, 중복 체크 없이 진행')
+  // data 파일에서 직접 로드 시도
+  try {
+    const dataPath = path.join(__dirname, '..', regionConfig.dataFile)
+    const mod = await import('file://' + dataPath)
+    const data = mod.default || []
+    existingNames = new Set(data.map(r => (r.name || '').trim().toLowerCase()))
+    console.log(`기존 식당 (data 파일): ${existingNames.size}개 로드`)
+  } catch (e2) {
+    console.warn('기존 식당명 로드 실패, 중복 체크 없이 진행')
+  }
 }
 
 // 체크포인트 로드
@@ -86,11 +93,11 @@ function saveCheckpoint() {
 function isDuplicate(name) {
   const norm = name.trim().toLowerCase()
     .replace(/\s+/g, '')
-    .replace(/(삼성역점|삼성점|삼성동점|코엑스점|강남점|본점|직영점)$/, '')
+    .replace(/(삼성역점|삼성점|삼성동점|코엑스점|강남점|판교점|잠실점|영통점|망포점|본점|직영점)$/, '')
 
   for (const existing of existingNames) {
     const existNorm = existing.replace(/\s+/g, '')
-      .replace(/(삼성역점|삼성점|삼성동점|코엑스점|강남점|본점|직영점)$/, '')
+      .replace(/(삼성역점|삼성점|삼성동점|코엑스점|강남점|판교점|잠실점|영통점|망포점|본점|직영점)$/, '')
     if (norm === existNorm) return true
     // 포함 관계 체크 (짧은 쪽이 긴 쪽에 포함)
     if (norm.length >= 2 && existNorm.length >= 2) {
@@ -146,12 +153,9 @@ function autoTags(r) {
   return tags
 }
 
-// 삼성역 좌표 범위 체크
-function isInSamseongArea(lat, lng) {
-  // 삼성역 중심 약 1.5km 반경
-  // 삼성역: 37.5088, 127.0631
-  if (!lat || !lng) return true // 좌표 없으면 일단 포함
-  return lat >= 37.495 && lat <= 37.525 && lng >= 127.045 && lng >= 127.045 && lng <= 127.080
+// 지역 좌표 범위 체크
+function isInArea(lat, lng) {
+  return regionConfig.isInArea(lat, lng)
 }
 
 async function sleep(ms) {
@@ -288,7 +292,7 @@ async function main() {
             // 좌표 체크
             const lat = parseFloat(p.y || p.lat || 0)
             const lng = parseFloat(p.x || p.lng || 0)
-            if (!isInSamseongArea(lat, lng)) continue
+            if (!isInArea(lat, lng)) continue
 
             const restaurant = {
               naverPlaceId: placeId,
@@ -426,13 +430,20 @@ async function main() {
                 .filter(Boolean)
             }
             if (place.menus) {
-              r.menuItems = place.menus
-                .slice(0, 10)
-                .map(m => ({
-                  name: (m.name || '').trim(),
-                  price: parseInt((m.price || '').replace(/[^0-9]/g, '')) || 0
-                }))
-                .filter(m => m.name)
+              r.menuItems = place.menus.slice(0, 10).map(m => {
+                const rawName = (m.name || '').trim()
+                const rawDesc = (m.description || m.desc || '').trim()
+                const price = parseInt((m.price || '').replace(/[^0-9]/g, '')) || 0
+
+                const isNameActuallyDesc = rawName.length > 20
+                  || /입니다|메뉴입|드리는|즐기는|만들어진|준비했|묻어있는|볶은|우려낸|넣어|한상차림/.test(rawName)
+
+                return {
+                  menuName: isNameActuallyDesc ? '' : rawName,
+                  price,
+                  description: isNameActuallyDesc ? rawName : rawDesc
+                }
+              }).filter(m => m.menuName || m.description)
             }
             if (place.businessHours) {
               r.hours = typeof place.businessHours === 'string'
@@ -454,10 +465,14 @@ async function main() {
       try {
         const details = await page.evaluate(() => {
           const menuItems = []
-          document.querySelectorAll('.K0PDV, [class*="menu_item"], [class*="menuItem"]').forEach(el => {
-            const name = el.querySelector('.lPzHi, [class*="name"]')?.textContent?.trim()
-            const price = el.querySelector('.GXS1X, [class*="price"]')?.textContent?.trim()
-            if (name) menuItems.push({ name, price: parseInt((price||'').replace(/[^0-9]/g,''))||0 })
+          document.querySelectorAll('.K0PDV, [class*="menu_item"], [class*="menuItem"], .E2jtL').forEach(el => {
+            const nameEl = el.querySelector('.lPzHi, [class*="name"], [class*="menuName"]')
+            const descEl = el.querySelector('.kPogF, [class*="desc"], [class*="detail"]')
+            const priceEl = el.querySelector('.GXS1X, [class*="price"]')
+            const menuName = nameEl?.textContent?.trim() || ''
+            const description = descEl?.textContent?.trim() || ''
+            const price = parseInt((priceEl?.textContent||'').replace(/[^0-9]/g,''))||0
+            if (menuName) menuItems.push({ menuName, price, description })
           })
 
           const hours = document.querySelector('.A_cdD, [class*="bizHour"]')?.textContent?.trim() || ''

@@ -579,7 +579,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격입니다. 실제 가격은 방문 시 확인하세요.</p>
             <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
               <thead><tr style={{ borderBottom:'2px solid var(--border)' }}><th style={{ padding:'10px 14px', textAlign:'left', color:'var(--muted)', fontWeight:600 }}>메뉴</th><th style={{ padding:'10px 14px', textAlign:'right', color:'var(--muted)', fontWeight:600 }}>가격</th></tr></thead>
-              <tbody>{r.menuItems.map((mi, i) => (<tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}><td style={{ padding:'10px 14px' }}>{mi.name}</td><td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td></tr>))}</tbody>
+              <tbody>{r.menuItems.map((mi, i) => (<tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}><td style={{ padding:'10px 14px' }}>{mi.menuName ? <><strong>{mi.menuName}</strong>{mi.description && <><br/><span style={{ fontSize:'.8rem', color:'var(--muted)' }}>{mi.description}</span></>}</> : (mi.description || mi.name || '-')}</td><td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td></tr>))}</tbody>
             </table>
           </>
         ) : (

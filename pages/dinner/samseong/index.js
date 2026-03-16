@@ -246,15 +246,15 @@ function buildRandomReason(r, idx, usedTemplates) {
 
     // 15: 대표 메뉴 + 가격대 강조
     () => {
-      const menus = (r.menuItems || []).filter(m => m.name && m.price > 0)
+      const menus = (r.menuItems || []).filter(m => (m.menuName||m.name) && m.price > 0)
       if (menus.length === 0) return templates[1]()
       const top = menus.slice(0, 2)
-      const menuStr = top.map(m => `${m.name} ${m.price.toLocaleString()}원`).join(', ')
+      const menuStr = top.map(m => `${m.menuName||m.name} ${m.price.toLocaleString()}원`).join(', ')
       const intro = cnt >= 100
         ? `${cnt.toLocaleString()}명이 찾은 ${r.type || '맛집'}.`
         : `${r.type || '맛집'} 추천.`
       const reason = `${intro} 대표 메뉴: ${menuStr}.${rv0 ? ` "${rv0}"` : ''}`
-      return { reason, highlight: top[0].name }
+      return { reason, highlight: top[0].menuName||top[0].name }
     },
 
     // 16: 가격대 분석 + 메뉴 나열
@@ -264,16 +264,16 @@ function buildRandomReason(r, idx, usedTemplates) {
       const prices = menus.map(m => m.price)
       const avg = Math.round(prices.reduce((a,b)=>a+b,0)/prices.length)
       const avgStr = avg >= 10000 ? `${(avg/10000).toFixed(1)}만원대` : `${avg.toLocaleString()}원대`
-      const menuNames = menus.slice(0,3).map(m=>m.name).join(' · ')
+      const menuNames = menus.slice(0,3).map(m=>m.menuName||m.name).join(' · ')
       const reason = `평균 ${avgStr}. ${menuNames}.${rv0 ? ` "${rv0}"` : ''}`
       return { reason, highlight: menuNames.slice(0,20) }
     },
 
     // 17: 방문자 수 + 메뉴 조합
     () => {
-      const menus = (r.menuItems || []).filter(m => m.name)
+      const menus = (r.menuItems || []).filter(m => m.menuName||m.name)
       if (cnt < 50 && menus.length === 0) return templates[2]()
-      const menuStr = menus.length > 0 ? menus.slice(0,2).map(m=>m.name).join('·') : ''
+      const menuStr = menus.length > 0 ? menus.slice(0,2).map(m=>m.menuName||m.name).join('·') : ''
       const cntStr = cnt >= 100 ? `리뷰 ${cnt.toLocaleString()}개.` : cnt > 0 ? `리뷰 ${cnt}개.` : ''
       const reason = [cntStr, menuStr ? `대표 메뉴는 ${menuStr}.` : '', rv0 ? `"${rv0}"` : ''].filter(Boolean).join(' ')
       return { reason, highlight: menuStr || rv0?.slice(0,20) || '' }
@@ -436,7 +436,7 @@ function preScore(q, moods, wx, cands, selectedCat, mm) {
 
     // ⑦-c menuItems 메뉴명 매칭
     ;(r.menuItems||[]).forEach(mi => {
-      const ml = (mi.name||'').toLowerCase()
+      const ml = (mi.menuName||mi.name||'').toLowerCase()
       if (ml && (qt.includes(ml) || qtTokens.some(w => ml.includes(w) || w.includes(ml)))) s += 20
     })
 
@@ -1540,7 +1540,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const compact = top5.map((r, idx) => {
         const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
         const kwStr = (r.keywords||[]).slice(0,3).join(' ')
-        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.name).join(' ')
+        const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.menuName||m.name).join(' ')
         return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
@@ -2003,7 +2003,7 @@ const usageCnt = getUsageCount()
                         <div style={{ display:'flex', flexWrap:'wrap', gap:5, marginBottom:8 }}>
                           {rec._menuItems.map((m,mi)=>(
                             <span key={mi} style={{ fontSize:'.7rem', padding:'3px 8px', borderRadius:8, background:'rgba(255,107,53,.06)', border:'1px solid rgba(255,107,53,.15)', color:'var(--text)' }}>
-                              {m.name}{m.price > 0 ? ` ${(m.price/10000>=1) ? (m.price/10000).toFixed(1)+'만' : m.price.toLocaleString()}원` : ''}
+                              {m.menuName||m.name}{m.price > 0 ? ` ${(m.price/10000>=1) ? (m.price/10000).toFixed(1)+'만' : m.price.toLocaleString()}원` : ''}
                             </span>
                           ))}
                         </div>

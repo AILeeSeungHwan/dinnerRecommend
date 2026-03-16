@@ -579,7 +579,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               <tbody>
                 {r.menuItems.map((mi, i) => (
                   <tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}>
-                    <td style={{ padding:'10px 14px' }}>{mi.name}</td>
+                    <td style={{ padding:'10px 14px' }}>{mi.menuName ? <><strong>{mi.menuName}</strong>{mi.description && <><br/><span style={{ fontSize:'.8rem', color:'var(--muted)' }}>{mi.description}</span></>}</> : (mi.description || mi.name || '-')}</td>
                     <td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td>
                   </tr>
                 ))}

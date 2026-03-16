@@ -124,8 +124,9 @@ dinnerRecommend-main/
   // 신규 추가
   naverPlaceId: "1234567890", // 네이버 Place ID
   naverBlogCnt: 342,          // 블로그 리뷰 수
-  menuItems: [                // 대표 메뉴 + 가격
-    { name: "된장찌개", price: 9000 },
+  menuItems: [                // 대표 메뉴 + 가격 (v2 스키마: 2026-03-16~)
+    { menuName: "된장찌개", price: 9000, description: "" },
+    { menuName: "한우 육개장", price: 18000, description: "한우고기 듬뿍 넣어 진하게 우려낸 얼큰한 육개장" },
   ],
   keywords: [...],            // 리뷰 키워드 분석 결과 (tags와 별도)
   naverUrl: "",               // 네이버 플레이스 직링크
