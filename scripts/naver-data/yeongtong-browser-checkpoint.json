@@ -1,0 +1,4666 @@
+{
+  "restaurants": [
+    {
+      "naverPlaceId": "1636249945",
+      "name": "마루테이블",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 330,
+      "addr": "경기도 수원시 영통구 영통동 1001-7 1층 101호",
+      "hours": "",
+      "tel": "0507-1304-9364",
+      "lat": 37.2502759,
+      "lng": 127.0738977,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1636249945",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250518_64/1747555005315vAt5a_JPEG/IMG_6293.jpeg"
+    },
+    {
+      "naverPlaceId": "1598285466",
+      "name": "핵밥 수원영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "덮밥"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 471,
+      "addr": "경기도 수원시 영통구 영통동 998-7 2층 210호",
+      "hours": "",
+      "tel": "031-546-5940",
+      "lat": 37.2523162,
+      "lng": 127.0747174,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1598285466",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251201_118/1764549933479RRMgr_JPEG/4.jpg"
+    },
+    {
+      "naverPlaceId": "1767802567",
+      "name": "미카도스시 수원영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "초밥,롤"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 371,
+      "addr": "경기도 수원시 영통구 영통동 995-5 1층 103호",
+      "hours": "",
+      "tel": "0507-1307-9362",
+      "lat": 37.2528025,
+      "lng": 127.0737412,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1767802567",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251024_237/1761267477994s0SHM_JPEG/P20250926_135651710_45D0C052-7008-4684-8755-11FDEE5C1ABB.jpg"
+    },
+    {
+      "naverPlaceId": "1492011072",
+      "name": "특별한 초밥",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "초밥,롤"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 736,
+      "addr": "경기도 수원시 영통구 영통동 998-7 2층 209호",
+      "hours": "",
+      "tel": "0507-1377-0966",
+      "lat": 37.2524101,
+      "lng": 127.0747332,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1492011072",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240604_193/1717485939005EeGhF_JPEG/KakaoTalk_20240604_155518753_09.jpg"
+    },
+    {
+      "naverPlaceId": "1714515518",
+      "name": "택이네조개전골 영통점",
+      "type": "해물,생선요리",
+      "categories": [
+        "해물,생선요리",
+        "조개요리"
+      ],
+      "cat": [
+        "해산물"
+      ],
+      "rt": 0,
+      "cnt": 70,
+      "addr": "경기도 수원시 영통구 영통동 1007-11 1층",
+      "hours": "",
+      "tel": "0507-1383-8458",
+      "lat": 37.2508408,
+      "lng": 127.0746105,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1714515518",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250206_245/17388382024751RD8B_JPEG/1000016128.jpg"
+    },
+    {
+      "naverPlaceId": "1344896539",
+      "name": "은하전골 영통본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "곱창,막창,양"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 415,
+      "addr": "경기도 수원시 영통구 영통동 1002-2 1층 은하전골",
+      "hours": "",
+      "tel": "0507-1321-0932",
+      "lat": 37.2504611,
+      "lng": 127.074671,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1344896539",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240820_138/1724130001726tfV5h_JPEG/%BC%F6%BF%F8%BF%B5%C5%EB%B0%F6%C3%A2%B8%C0%C1%FD%C0%BA%C7%CF%C0%FC%B0%F10027%B8%F0%B5%EB%C0%FC%B0%F1%C0%C7%B0%F6%C3%A2.jpg"
+    },
+    {
+      "naverPlaceId": "37379365",
+      "name": "태백한우실비",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "소고기구이"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 2261,
+      "addr": "경기도 수원시 영통구 영통동 961-6 111호, 110호",
+      "hours": "",
+      "tel": "070-7755-1584",
+      "lat": 37.252766,
+      "lng": 127.070896,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37379365",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251005_210/1759629991250NyyOI_JPEG/IMG_8988.jpeg"
+    },
+    {
+      "naverPlaceId": "254188116",
+      "name": "양푼애등갈비 영통역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 1273,
+      "addr": "경기도 수원시 영통구 영통동 1001-6 1층",
+      "hours": "",
+      "tel": "0507-1411-9638",
+      "lat": 37.2503897,
+      "lng": 127.0739733,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/254188116",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260218_181/1771423673113gzEih_JPEG/KakaoTalk_20260218_224558175_02.jpg"
+    },
+    {
+      "naverPlaceId": "1567849532",
+      "name": "고기카페 엠쿡",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 144,
+      "addr": "경기도 수원시 영통구 영통동 961-6 트리플렉스 201호",
+      "hours": "",
+      "tel": "031-202-6992",
+      "lat": 37.2522437,
+      "lng": 127.0704259,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1567849532",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220801_146/1659356619329Ef9IY_JPEG/%C0%FC%B8%E9%BB%E7%C1%F8.jpg"
+    },
+    {
+      "naverPlaceId": "1358687053",
+      "name": "쿄쿄식당",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "이자카야"
+      ],
+      "cat": [
+        "이자카야"
+      ],
+      "rt": 0,
+      "cnt": 239,
+      "addr": "경기도 수원시 영통구 영통동 1008-5 2층",
+      "hours": "",
+      "tel": "0507-1497-0647",
+      "lat": 37.2513346,
+      "lng": 127.0747854,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1358687053",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20240529_207/1716989713468Lho53_JPEG/image.jpg"
+    },
+    {
+      "naverPlaceId": "2010081030",
+      "name": "스시이안앤 영통역점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "초밥,롤"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 396,
+      "addr": "경기도 수원시 영통구 영통동 1008-4 2층",
+      "hours": "",
+      "tel": "031-548-0032",
+      "lat": 37.2514253,
+      "lng": 127.0746057,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2010081030",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251024_24/17612939795841dVcf_JPEG/KakaoTalk_20251023_132851004_04.jpg"
+    },
+    {
+      "naverPlaceId": "1859604452",
+      "name": "긴자료코 영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "돈가스"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 134,
+      "addr": "경기도 수원시 영통구 영통동 998-7 107호",
+      "hours": "",
+      "tel": "031-203-5811",
+      "lat": 37.25241,
+      "lng": 127.0747332,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1859604452",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240530_262/17170476637347AYKy_JPEG/%B8%DE%C0%CE_01.jpg"
+    },
+    {
+      "naverPlaceId": "1146990281",
+      "name": "스시와쿠 영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "초밥,롤"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 26,
+      "addr": "경기도 수원시 영통구 영통동 998-6 1층 109호",
+      "hours": "",
+      "tel": "0507-1444-5521",
+      "lat": 37.2519026,
+      "lng": 127.0745889,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1146990281",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241220_96/1734684794365qK8qw_JPEG/%C1%F8%BD%C9%C3%CA%B9%E4%B8%AE%BA%E4%BB%E7%C1%F8.jpg"
+    },
+    {
+      "naverPlaceId": "1188888389",
+      "name": "칭차이",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 72,
+      "addr": "경기도 수원시 영통구 영통동 989-7 1층",
+      "hours": "",
+      "tel": "0507-1316-0963",
+      "lat": 37.2494685,
+      "lng": 127.0741556,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1188888389",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250605_38/1749108694600NW8wq_JPEG/7.jpg"
+    },
+    {
+      "naverPlaceId": "1407334188",
+      "name": "도야짬뽕 영통역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 157,
+      "addr": "경기도 수원시 영통구 영통동 995-5 1층 119호",
+      "hours": "",
+      "tel": "0507-1407-1652",
+      "lat": 37.2528263,
+      "lng": 127.0732959,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1407334188",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250405_277/1743864057552Rfo6c_PNG/%B5%B5%BE%DF_%C7%D1%BB%F3%B8%F0%C0%BD_%BE%DB.png"
+    },
+    {
+      "naverPlaceId": "18256631",
+      "name": "팔선생",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 128,
+      "addr": "경기도 수원시 영통구 영통동 1008-7",
+      "hours": "",
+      "tel": "031-202-8839",
+      "lat": 37.2511917,
+      "lng": 127.075,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18256631",
+      "imageUrl": "http://blogfiles.naver.net/20141026_288/yjy1983_1414311065864APP0w_JPEG/1414311065042_20141026_125021.jpg"
+    },
+    {
+      "naverPlaceId": "1758839381",
+      "name": "홍콩반점0410 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 37,
+      "addr": "경기도 수원시 영통구 영통동 998-6 1층, 홍콩반점",
+      "hours": "",
+      "tel": "031-203-0410",
+      "lat": 37.2519182,
+      "lng": 127.0743611,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1758839381",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250317_161/1742200975971De0pU_PNG/KakaoTalk_20241204_143552883.png"
+    },
+    {
+      "naverPlaceId": "1581759373",
+      "name": "라돌이마라탕 영통점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 49,
+      "addr": "경기도 수원시 영통구 영통동 960-3 103호",
+      "hours": "",
+      "tel": "031-203-9888",
+      "lat": 37.2520903,
+      "lng": 127.0713681,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1581759373",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221013_142/166559301325614pNn_PNG/1648434108496.png"
+    },
+    {
+      "naverPlaceId": "1093267856",
+      "name": "조은홍 마라탕",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 4,
+      "addr": "경기도 수원시 영통구 영통동 961-4 106호",
+      "hours": "",
+      "tel": "0507-1333-1469",
+      "lat": 37.2553395,
+      "lng": 127.0735168,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1093267856",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241230_120/1735535461985voNV9_JPEG/IMG_4243.jpeg"
+    },
+    {
+      "naverPlaceId": "1150933179",
+      "name": "진향원 마라탕",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 50,
+      "addr": "경기도 수원시 영통구 영통동 998-2 르네상스시티프라자 102호",
+      "hours": "",
+      "tel": "0507-1483-2058",
+      "lat": 37.2532947,
+      "lng": 127.0748135,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1150933179",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230123_62/16744587557470oWS9_JPEG/5E1F0DC8-FE18-4402-8856-E117CDA0C9B2.jpeg"
+    },
+    {
+      "naverPlaceId": "1250353673",
+      "name": "불라라마라탕 영통점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 14,
+      "addr": "경기도 수원시 영통구 영통동 996-4 122호",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2542592,
+      "lng": 127.0749343,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1250353673",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240609_102/1717880278887tfKf2_JPEG/IMG_6083.jpeg"
+    },
+    {
+      "naverPlaceId": "1785939217",
+      "name": "마라집 수원영통점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 28,
+      "addr": "경기도 수원시 영통구 영통동 958-1 드림피아빌딩 103호",
+      "hours": "",
+      "tel": "0507-1496-9496",
+      "lat": 37.2560741,
+      "lng": 127.0745457,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1785939217",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20211015_245/1634273431758wkJQM_JPEG/3y6JIX_1ywSDiYfrliMHfzLP.jpg"
+    },
+    {
+      "naverPlaceId": "1215852416",
+      "name": "삼첩분식 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 50,
+      "addr": "경기도 수원시 영통구 영통동 963-2 상가동 103호",
+      "hours": "",
+      "tel": "031-202-8709",
+      "lat": 37.2534301,
+      "lng": 127.0662856,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1215852416",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250102_28/17357784038404sUXH_JPEG/1.%B4%EB%C7%A5%B7%CE%B0%ED.jpg"
+    },
+    {
+      "naverPlaceId": "2040703172",
+      "name": "신왕푸마라탕 영통점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 4,
+      "addr": "경기도 수원시 영통구 영통동 998-6 1층 115호",
+      "hours": "",
+      "tel": "0507-1483-6785",
+      "lat": 37.2520814,
+      "lng": 127.0747583,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2040703172",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250708_44/1751961201094MLdyH_JPEG/17519611705681844905146139277004.jpg"
+    },
+    {
+      "naverPlaceId": "1094293669",
+      "name": "전국5대짬뽕연화산",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 55,
+      "addr": "경기도 수원시 영통구 영통동 961-4 112,113호",
+      "hours": "",
+      "tel": "031-203-6880",
+      "lat": 37.2555748,
+      "lng": 127.0736664,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1094293669",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190911_261/1568186745132lxorS_JPEG/z-CCJBYeFdT2B6pe8IkARVcg.jpg"
+    },
+    {
+      "naverPlaceId": "1560622493",
+      "name": "쌤순 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1002,
+      "addr": "경기도 수원시 영통구 영통동 961-4 1층 105호",
+      "hours": "",
+      "tel": "0507-1355-4998",
+      "lat": 37.2553723,
+      "lng": 127.0734602,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1560622493",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250312_280/17417546255064FX62_JPEG/KakaoTalk_20250312_133919525.jpg"
+    },
+    {
+      "naverPlaceId": "1020891325",
+      "name": "스매쉬드 매스 본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 386,
+      "addr": "경기도 수원시 영통구 영통동 1000-10 1층 102호, 103호",
+      "hours": "",
+      "tel": "0507-1468-8921",
+      "lat": 37.2500732,
+      "lng": 127.0737433,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1020891325",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241005_50/1728132416575GrXpE_JPEG/B82C4C67-3B95-411B-978C-3E33FFD6CDCF.jpeg"
+    },
+    {
+      "naverPlaceId": "1693237544",
+      "name": "롯데리아 수원영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 29,
+      "addr": "경기도 수원시 영통구 영통동 998-6",
+      "hours": "",
+      "tel": "031-206-0066",
+      "lat": 37.2519766,
+      "lng": 127.0746275,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1693237544",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240923_185/1727052511572Vxuh6_JPEG/1.jpg"
+    },
+    {
+      "naverPlaceId": "1562463580",
+      "name": "버거리 수원영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 50,
+      "addr": "경기도 수원시 영통구 영통동 995-2 118호",
+      "hours": "",
+      "tel": "031-273-2272",
+      "lat": 37.2537967,
+      "lng": 127.0747294,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1562463580",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260317_65/1773705591340RQfln_PNG/1.png"
+    },
+    {
+      "naverPlaceId": "842850383",
+      "name": "맘스터치 영통역점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 68,
+      "addr": "경기도 수원시 영통구 영통동 995-5 밀레니엄프라자 118-1호",
+      "hours": "",
+      "tel": "031-202-5558",
+      "lat": 37.2527744,
+      "lng": 127.0731508,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/842850383",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191021_249/15716451108655801T_JPEG/TmeslPtHQ-atoDlmsyYHEUJf.jpg"
+    },
+    {
+      "naverPlaceId": "2079875351",
+      "name": "복피자 본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "피자"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 8,
+      "addr": "경기도 수원시 영통구 영통동 958-1 111호",
+      "hours": "",
+      "tel": "0507-1481-8976",
+      "lat": 37.2559363,
+      "lng": 127.0747301,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2079875351",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260311_58/17732005984286pK39_PNG/%B3%D7%C0%CC%B9%F6%B8%DE%C0%CE%C0%CC%B9%CC%C1%F6-8.png"
+    },
+    {
+      "naverPlaceId": "1574575818",
+      "name": "롤링파스타 수원영통점",
+      "type": "이탈리아음식",
+      "categories": [
+        "이탈리아음식",
+        "스파게티,파스타전문"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 68,
+      "addr": "경기도 수원시 영통구 영통동 998-7 208호",
+      "hours": "",
+      "tel": "0507-1361-1581",
+      "lat": 37.2524101,
+      "lng": 127.0747332,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1574575818",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260211_120/17707699837236OWB4_JPEG/260203_%B7%D1%B8%B5%C6%C4%BD%BA%C5%B8_%BA%D2%B4%DF%C6%C4%BD%BA%C5%B8-2%C1%BE_%C6%F7%BD%BA%C5%CD_A2.jpg"
+    },
+    {
+      "naverPlaceId": "2004770845",
+      "name": "노모어피자 영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "피자"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 영통동 998-6 1층 105호",
+      "hours": "",
+      "tel": "0507-1375-7899",
+      "lat": 37.2518872,
+      "lng": 127.0743953,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2004770845",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240116_3/1705376556071Xe3sT_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg"
+    },
+    {
+      "naverPlaceId": "1538149906",
+      "name": "뱃살도둑 영통점",
+      "type": "도시락,컵밥",
+      "categories": [
+        "도시락,컵밥",
+        "다이어트,샐러드"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 109,
+      "addr": "경기도 수원시 영통구 영통동 995-2 1층 113호",
+      "hours": "",
+      "tel": "0507-1418-6444",
+      "lat": 37.2539661,
+      "lng": 127.0747064,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1538149906",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20211028_202/1635403456246qIW12_JPEG/U9CVBhN0Z7p8z_dkLTadhfAS.jpg"
+    },
+    {
+      "naverPlaceId": "1040634911",
+      "name": "아 남문통닭",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 9,
+      "addr": "경기도 수원시 영통구 영통동 961-4",
+      "hours": "",
+      "tel": "031-204-2365",
+      "lat": 37.2553141,
+      "lng": 127.0734284,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1040634911",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260105_45/1767617359377diE3P_JPEG/1000009019.jpg"
+    },
+    {
+      "naverPlaceId": "36468175",
+      "name": "씨에프바베큐치킨 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 26,
+      "addr": "경기도 수원시 영통구 영통동 966-2 건영2차아파트 상가동 108호, 109호",
+      "hours": "",
+      "tel": "031-206-5545",
+      "lat": 37.2512993,
+      "lng": 127.0685626,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/36468175",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190308_17/1552031385935Rtxsw_JPEG/gBXYx9_aYRdQ364rwXTa_Wsm.jpg"
+    },
+    {
+      "naverPlaceId": "1792001800",
+      "name": "영계소문 옛날통닭 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 21,
+      "addr": "경기도 수원시 영통구 영통동 961-6 1층 103호",
+      "hours": "",
+      "tel": "0507-1357-4961",
+      "lat": 37.2522842,
+      "lng": 127.0705984,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1792001800",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221028_83/1666952508152a6J0b_JPEG/16669524738124820124746958462382.jpg"
+    },
+    {
+      "naverPlaceId": "1265932838",
+      "name": "청년다방 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 118,
+      "addr": "경기도 수원시 영통구 영통동 995-5 밀레니엄프라자 104호",
+      "hours": "",
+      "tel": "031-202-5152",
+      "lat": 37.2527682,
+      "lng": 127.0736844,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1265932838",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251106_269/1762396969478eLUM9_JPEG/%C6%F7%BD%BA%C5%CD.jpg"
+    },
+    {
+      "naverPlaceId": "1381199271",
+      "name": "수원의아침 본점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 959,
+      "addr": "경기도 수원시 영통구 영통동 961-4 1층 수원의아침 (한스 뒤)",
+      "hours": "",
+      "tel": "0507-1341-9885",
+      "lat": 37.255782,
+      "lng": 127.0736165,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1381199271",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210705_154/16254667484062vvVR_PNG/zOfPkeJI6U6ERTY3Uk_jxd5a.png"
+    },
+    {
+      "naverPlaceId": "30995708",
+      "name": "스타벅스 수원영통점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "카페"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 156,
+      "addr": "경기도 수원시 영통구 영통동 958-2 훼미리타워 1층 ()",
+      "hours": "",
+      "tel": "1522-3232",
+      "lat": 37.2556084,
+      "lng": 127.0746453,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/30995708",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png"
+    },
+    {
+      "naverPlaceId": "1680525813",
+      "name": "에덴베이커리",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 135,
+      "addr": "경기도 수원시 영통구 영통동 988-2 에덴베이커리",
+      "hours": "",
+      "tel": "031-205-0334",
+      "lat": 37.2493101,
+      "lng": 127.0699694,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1680525813",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251201_35/1764569974800P8wdN_JPEG/1764569837161.jpg"
+    },
+    {
+      "naverPlaceId": "1546273699",
+      "name": "메가MGC커피 수원영통역점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "카페"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 27,
+      "addr": "경기도 수원시 영통구 영통동 960-3 뉴월드프라자 1층 106호",
+      "hours": "",
+      "tel": "031-202-0778",
+      "lat": 37.2519173,
+      "lng": 127.0711718,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1546273699",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220503_24/1651565913563w6qS5_JPEG/KakaoTalk_20220503_171801989.jpg"
+    },
+    {
+      "naverPlaceId": "11780203",
+      "name": "한스 영통점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "카페"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 152,
+      "addr": "경기도 수원시 영통구 영통동 961-4 동아프라자 1층",
+      "hours": "",
+      "tel": "031-273-3867",
+      "lat": 37.2556536,
+      "lng": 127.0737921,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/11780203",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260304_238/1772612213529C3W9I_PNG/IMG_6755.png"
+    },
+    {
+      "naverPlaceId": "1172227631",
+      "name": "헬로파크 영통점",
+      "type": "키즈카페,실내놀이터",
+      "categories": [
+        "키즈카페,실내놀이터"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 98,
+      "addr": "경기도 수원시 영통구 영통동 994-2 영통홈플러스 4층",
+      "hours": "",
+      "tel": "031-202-7773",
+      "lat": 37.2517852,
+      "lng": 127.0725448,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1172227631",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250913_193/1757758338444jtnQF_JPEG/%A1%A4.jpg"
+    },
+    {
+      "naverPlaceId": "2052292671",
+      "name": "기린1리터카페",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 영통동 967-2 상가동 1층 109호",
+      "hours": "",
+      "tel": "",
+      "lat": 37.248758,
+      "lng": 127.0671198,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2052292671",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251122_276/1763796980473cBVg9_JPEG/1000026073.jpg"
+    },
+    {
+      "naverPlaceId": "1685196377",
+      "name": "베이콜로지 빵학개론 수원 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "카페,디저트"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 1642,
+      "addr": "경기도 수원시 영통구 원천동 627 B동 B1층 지1, 지2, L147호 ,G219호",
+      "hours": "",
+      "tel": "0507-1380-9436",
+      "lat": 37.2577624,
+      "lng": 127.0615628,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1685196377",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240708_74/17204356833081avlG_JPEG/IMG_9464.jpeg"
+    },
+    {
+      "naverPlaceId": "1246079747",
+      "name": "어글리스토브 영통망포점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "브런치"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1419,
+      "addr": "경기도 수원시 영통구 영통동 981-2",
+      "hours": "",
+      "tel": "0507-1361-8459",
+      "lat": 37.2452169,
+      "lng": 127.0617204,
+      "priceRange": "",
+      "tags": [
+        "점심추천",
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1246079747",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250423_181/1745370818196gdHzp_JPEG/%BD%C5%B8%DE%B4%BA_%B0%A5%B8%AF%B8%B3%BE%C6%C0%CC%BD%BA%C5%D7%C0%CC%C5%A9.jpg"
+    },
+    {
+      "naverPlaceId": "1067050744",
+      "name": "위노잉커피",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "카페,디저트"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 221,
+      "addr": "경기도 수원시 영통구 영통동 980-3 1층 E동 133호",
+      "hours": "",
+      "tel": "0507-2093-2627",
+      "lat": 37.2453928,
+      "lng": 127.0607703,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1067050744",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260305_248/17727110170326Sgh7_JPEG/%BB%E7%C1%F8%BF%EB_%2813%29.jpg"
+    },
+    {
+      "naverPlaceId": "1841205343",
+      "name": "씨유쑨",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 33,
+      "addr": "경기도 수원시 영통구 영통동 1000-2 1층",
+      "hours": "",
+      "tel": "0507-1313-0235",
+      "lat": 37.2507268,
+      "lng": 127.0738799,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1841205343",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260206_293/1770374606582DCocG_JPEG/IMG_1759.jpeg"
+    },
+    {
+      "naverPlaceId": "1868375091",
+      "name": "한뚝",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "국밥"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 21,
+      "addr": "경기도 수원시 영통구 영통동 998-6 1층 107호",
+      "hours": "",
+      "tel": "0507-1398-2679",
+      "lat": 37.2518559,
+      "lng": 127.074473,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1868375091",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241115_201/17316537442519obRR_JPEG/GJF01697.jpg"
+    },
+    {
+      "naverPlaceId": "1004631135",
+      "name": "김윤이감자탕&뼈숯불구이 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "감자탕"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 101,
+      "addr": "경기도 수원시 영통구 영통동 1008-5 1층",
+      "hours": "",
+      "tel": "031-273-2222",
+      "lat": 37.2513466,
+      "lng": 127.0748016,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1004631135",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250426_119/17456585737556C3z3_JPEG/%B1%E8%C0%B1%C0%CC%B0%A8%C0%DA.jpg"
+    },
+    {
+      "naverPlaceId": "1335017072",
+      "name": "환이네뭉티기 영통본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 116,
+      "addr": "경기도 수원시 영통구 영통동 1007-9 1층",
+      "hours": "",
+      "tel": "0507-1444-4830",
+      "lat": 37.2507141,
+      "lng": 127.0748054,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1335017072",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260219_256/1771489676871W5d4J_JPEG/IMG_3423.jpeg"
+    },
+    {
+      "naverPlaceId": "1192289557",
+      "name": "생각나는순대국 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "순대,순댓국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 70,
+      "addr": "경기도 수원시 영통구 영통동 998-6 아셈프라자 1층",
+      "hours": "",
+      "tel": "031-202-0811",
+      "lat": 37.251852,
+      "lng": 127.0745382,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1192289557",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230914_107/1694689245483VUWE0_JPEG/IMG_1478.jpeg"
+    },
+    {
+      "naverPlaceId": "1274345205",
+      "name": "비빔가",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 4,
+      "addr": "경기도 수원시 영통구 영통동 994-2",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2518158,
+      "lng": 127.0726006,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1274345205",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200106_216/1578278770652oeVF6_JPEG/17myorqqT95KdkZcgsTVjVeT.jpg"
+    },
+    {
+      "naverPlaceId": "1857999515",
+      "name": "본죽&비빔밥 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "죽"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 8,
+      "addr": "경기도 수원시 영통구 영통동 961-6",
+      "hours": "",
+      "tel": "031-204-2023",
+      "lat": 37.2527356,
+      "lng": 127.0710237,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1857999515",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260316_141/17736696490818nhX5_JPEG/2603_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%C3%C0%CC%B5%C8%C0%E5%BA%D2%B0%ED%B1%E2%BA%F1%BA%F6%B9%E4.jpg"
+    },
+    {
+      "naverPlaceId": "1146554009",
+      "name": "해장쿡 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "해장국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 영통동 961-4",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2555746,
+      "lng": 127.073353,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1146554009",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210629_126/1624949169577LFBF6_JPEG/NXy55bp7-rq4XbpdZ9jae0Yp.jpg"
+    },
+    {
+      "naverPlaceId": "1975005004",
+      "name": "해장쿡 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "해장국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 영통동 961-4 동아프라자 118-2호",
+      "hours": "",
+      "tel": "031-202-8882",
+      "lat": 37.2555746,
+      "lng": 127.073353,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1975005004",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210629_126/1624949169577LFBF6_JPEG/NXy55bp7-rq4XbpdZ9jae0Yp.jpg"
+    },
+    {
+      "naverPlaceId": "19214761",
+      "name": "방일해장국 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "해장국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 228,
+      "addr": "경기도 수원시 영통구 신동 261-1",
+      "hours": "",
+      "tel": "031-204-6222",
+      "lat": 37.252607,
+      "lng": 127.0609429,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/19214761",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1790488035",
+      "name": "본죽&비빔밥 수원영통벽적골점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "죽"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 26,
+      "addr": "경기도 수원시 영통구 영통동 971-1 벽적골롯데아파트",
+      "hours": "",
+      "tel": "0507-1310-6288",
+      "lat": 37.2466054,
+      "lng": 127.0614044,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1790488035",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260316_141/17736696490818nhX5_JPEG/2603_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%C3%C0%CC%B5%C8%C0%E5%BA%D2%B0%ED%B1%E2%BA%F1%BA%F6%B9%E4.jpg"
+    },
+    {
+      "naverPlaceId": "2038830653",
+      "name": "일품양평해장국 수원망포점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "해장국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 6,
+      "addr": "경기도 수원시 영통구 영통동 980-3 1층 110호",
+      "hours": "",
+      "tel": "0507-1393-3823",
+      "lat": 37.2453555,
+      "lng": 127.0599551,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2038830653",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260210_239/1770705001816DHPkP_JPEG/1.jpg"
+    },
+    {
+      "naverPlaceId": "1660305026",
+      "name": "제주은희네해장국 수원망포점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "해장국"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 339,
+      "addr": "경기도 수원시 영통구 영통동 978-8 1층",
+      "hours": "",
+      "tel": "0507-1312-1152",
+      "lat": 37.2464877,
+      "lng": 127.0566037,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1660305026",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220625_24/1656148062680fXtEy_JPEG/20220620_215429.jpg"
+    },
+    {
+      "naverPlaceId": "1367329589",
+      "name": "명백집 본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "국밥"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 573,
+      "addr": "경기도 수원시 영통구 신동 334-32 1층",
+      "hours": "",
+      "tel": "0507-1384-5408",
+      "lat": 37.2485221,
+      "lng": 127.0549183,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1367329589",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250629_50/17511923641888nr2J_JPEG/1000008243.jpg"
+    },
+    {
+      "naverPlaceId": "2013620719",
+      "name": "육개장터 매탄삼성점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 615,
+      "addr": "경기도 수원시 영통구 매탄동 383-8 103, 104호",
+      "hours": "",
+      "tel": "0507-1384-1536",
+      "lat": 37.2611504,
+      "lng": 127.0598107,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2013620719",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260203_62/1770116564870kcsFX_JPEG/1000020590.jpg"
+    },
+    {
+      "naverPlaceId": "1802426955",
+      "name": "육회일잔 망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 67,
+      "addr": "경기도 수원시 영통구 망포동 539-1 101호 육회일잔",
+      "hours": "",
+      "tel": "0507-1318-3126",
+      "lat": 37.2394296,
+      "lng": 127.057526,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1802426955",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250222_198/1740208037169UiVzA_PNG/%C0%FC%B0%F11.png"
+    },
+    {
+      "naverPlaceId": "1145626450",
+      "name": "본죽&비빔밥 수원망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "죽"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 9,
+      "addr": "경기도 수원시 영통구 망포동 386 118-1호",
+      "hours": "",
+      "tel": "031-273-1599",
+      "lat": 37.2394406,
+      "lng": 127.0564523,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1145626450",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260316_141/17736696490818nhX5_JPEG/2603_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%C3%C0%CC%B5%C8%C0%E5%BA%D2%B0%ED%B1%E2%BA%F1%BA%F6%B9%E4.jpg"
+    },
+    {
+      "naverPlaceId": "18260799",
+      "name": "신선설농탕 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "곰탕,설렁탕"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 158,
+      "addr": "경기도 수원시 영통구 영통동 976-17",
+      "hours": "",
+      "tel": "031-202-0039",
+      "lat": 37.2463089,
+      "lng": 127.0606324,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18260799",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20161124_30/1479981398559lrvyP_JPEG/177074588658457_0.jpeg"
+    },
+    {
+      "naverPlaceId": "99400657",
+      "name": "원천설농탕 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "곰탕,설렁탕"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 82,
+      "addr": "경기도 수원시 영통구 원천동 362-10",
+      "hours": "",
+      "tel": "031-212-8188",
+      "lat": 37.2614579,
+      "lng": 127.0641341,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/99400657",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220823_110/1661244530573dIBeV_JPEG/Screenshot_20210213-230819_NAVER.jpg"
+    },
+    {
+      "naverPlaceId": "1766386983",
+      "name": "양심소 매탄점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 224,
+      "addr": "경기도 수원시 영통구 매탄동 408-1 1층 양심소 매탄점",
+      "hours": "",
+      "tel": "0507-1336-9285",
+      "lat": 37.2596362,
+      "lng": 127.0595009,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1766386983",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260114_73/1768386599289I3BJp_JPEG/%B3%D7%C0%CC%B9%F6_%BE%F7%C3%BC%BB%E7%C1%F8_1%B9%F8.jpg"
+    },
+    {
+      "naverPlaceId": "1834431033",
+      "name": "팔팔정육식당",
+      "type": "육류,고기요리",
+      "categories": [
+        "육류,고기요리",
+        "정육식당"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 133,
+      "addr": "경기도 수원시 영통구 망포동 3-12 2층 팔팔정육식당",
+      "hours": "",
+      "tel": "0507-1404-4990",
+      "lat": 37.2465368,
+      "lng": 127.0550524,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1834431033",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250823_37/1755936627486yOp4z_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-08-23_170617.png"
+    },
+    {
+      "naverPlaceId": "1473972692",
+      "name": "옛장터설렁탕",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "곰탕,설렁탕"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 59,
+      "addr": "경기도 수원시 영통구 매탄동 372-6 202호",
+      "hours": "",
+      "tel": "070-4154-0660",
+      "lat": 37.2616862,
+      "lng": 127.0602179,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1473972692",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230127_163/167480785929112aIW_PNG/20230116_105808.png"
+    },
+    {
+      "naverPlaceId": "1447981187",
+      "name": "자연드림힐링밥상 수원힐링센터점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 48,
+      "addr": "경기도 수원시 영통구 망포동 397-1 6층 자연드림힐링밥상 수원힐링센터점",
+      "hours": "",
+      "tel": "031-546-1516",
+      "lat": 37.2405616,
+      "lng": 127.0553462,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1447981187",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251206_158/1764989510551b26G3_JPEG/KakaoTalk_20251206_113543817_02.jpg"
+    },
+    {
+      "naverPlaceId": "2086516778",
+      "name": "한촌설렁탕 수원망포점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "곰탕,설렁탕"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 2,
+      "addr": "경기도 수원시 영통구 망포동 542-5",
+      "hours": "",
+      "tel": "031-202-3444",
+      "lat": 37.2387219,
+      "lng": 127.0560572,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2086516778",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260309_65/1773034229115sAoAe_PNG/%C1%A4%B5%BF%BF%F8_%C6%F7%C5%E4%C4%AB%B5%E5_%C6%BC%BF%C0%B4%F5.png"
+    },
+    {
+      "naverPlaceId": "1465591981",
+      "name": "식사준비 수원망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "밀키트"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 30,
+      "addr": "경기도 수원시 영통구 망포동 558 102호 식사준비 수원망포점",
+      "hours": "",
+      "tel": "031-205-7482",
+      "lat": 37.2379011,
+      "lng": 127.0570271,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1465591981",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1667839730",
+      "name": "양심소 망포역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 84,
+      "addr": "경기도 수원시 영통구 영통동 976-5 2층 양심소 망포역점",
+      "hours": "",
+      "tel": "0507-1373-7542",
+      "lat": 37.2462466,
+      "lng": 127.0582518,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1667839730",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260114_200/1768382839049EvtEG_JPEG/%B3%D7%C0%CC%B9%F6-%BE%F7%C3%BC%BB%E7%C1%F8_1%B9%F8.jpg"
+    },
+    {
+      "naverPlaceId": "1799884373",
+      "name": "원할머니보쌈족발 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 8,
+      "addr": "경기도 수원시 영통구 영통동 961-4 1층",
+      "hours": "",
+      "tel": "031-204-5953",
+      "lat": 37.2555305,
+      "lng": 127.0736295,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1799884373",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260115_186/17684389417787fCWB_JPEG/KakaoTalk_20260109_141341768.jpg"
+    },
+    {
+      "naverPlaceId": "1530922534",
+      "name": "족발상식 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 3,
+      "addr": "경기도 수원시 영통구 영통동 960-3 101호",
+      "hours": "",
+      "tel": "0507-1448-3697",
+      "lat": 37.2521402,
+      "lng": 127.0713666,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1530922534",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240924_87/1727160337255F0Oue_JPEG/KakaoTalk_20240924_154459307.jpg"
+    },
+    {
+      "naverPlaceId": "1920823361",
+      "name": "슈바인 당케 영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1,
+      "addr": "경기도 수원시 영통구 영통동 1002-2",
+      "hours": "",
+      "tel": "070-8875-0220",
+      "lat": 37.250437,
+      "lng": 127.0746322,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1920823361",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1002264647",
+      "name": "항아리보쌈망포본점직영점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1,
+      "addr": "경기도 수원시 영통구 영통동 986-10 1층 항아리보쌈",
+      "hours": "",
+      "tel": "031-205-1697",
+      "lat": 37.2452475,
+      "lng": 127.067654,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1002264647",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "37079675",
+      "name": "장군족발",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 185,
+      "addr": "경기도 수원시 영통구 매탄동 511 용마프린테크",
+      "hours": "",
+      "tel": "031-211-2117",
+      "lat": 37.2548258,
+      "lng": 127.0622103,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37079675",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20170120_144/1484896646506c40vb_JPEG/186070564743961_0.jpeg"
+    },
+    {
+      "naverPlaceId": "1396691384",
+      "name": "귀한족발 수원망포역점",
+      "type": "육류,고기요리",
+      "categories": [
+        "육류,고기요리",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 50,
+      "addr": "경기도 수원시 영통구 영통동 974-1 토야프라자 1층 102호",
+      "hours": "",
+      "tel": "0507-1401-0388",
+      "lat": 37.2467017,
+      "lng": 127.0591633,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1396691384",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230502_195/1683028806134oWlEE_JPEG/1683028794522.jpg"
+    },
+    {
+      "naverPlaceId": "180644011",
+      "name": "궁돈보쌈 본사직영점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 134,
+      "addr": "경기도 수원시 영통구 신동 342-5",
+      "hours": "",
+      "tel": "031-203-9399",
+      "lat": 37.249367,
+      "lng": 127.057877,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/180644011",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20180724_14/15323974006729ix5u_JPEG/_frjOjP5zpnytVsO9X-dt1YP.jpg"
+    },
+    {
+      "naverPlaceId": "21636278",
+      "name": "통통족발",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 158,
+      "addr": "경기도 수원시 영통구 영통동 975-5",
+      "hours": "",
+      "tel": "031-205-1911",
+      "lat": 37.2467682,
+      "lng": 127.0581033,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/21636278",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190826_8/1566808092689GlCcL_JPEG/wUbktS1sfn9M8IDo6dAIWT8c.jpeg.jpg"
+    },
+    {
+      "naverPlaceId": "1996752893",
+      "name": "부함식당 수원망포역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 311,
+      "addr": "경기도 수원시 영통구 영통동 975-9 2층 부함식당",
+      "hours": "",
+      "tel": "031-203-8882",
+      "lat": 37.2466257,
+      "lng": 127.0585743,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1996752893",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190408_162/15546998651840iSVu_JPEG/KakaoTalk_20181029_154927541.jpg"
+    },
+    {
+      "naverPlaceId": "1557600277",
+      "name": "불불이족발 수원망포역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "족발,보쌈"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 6,
+      "addr": "경기도 수원시 영통구 영통동 975-9",
+      "hours": "",
+      "tel": "031-203-8882",
+      "lat": 37.2466257,
+      "lng": 127.0585743,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1557600277",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20180830_107/1535617791090g3pW4_JPEG/-VbcjzWlMrrdB7G-x8s2kWbt.JPG.jpg"
+    },
+    {
+      "naverPlaceId": "801970178",
+      "name": "디델리 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 186,
+      "addr": "경기도 수원시 영통구 영통동 998-4",
+      "hours": "",
+      "tel": "0507-1420-2420",
+      "lat": 37.2527814,
+      "lng": 127.0742663,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/801970178",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20170329_119/1490760810348yi7h8_JPEG/186278468835364_0.jpeg"
+    },
+    {
+      "naverPlaceId": "1678005080",
+      "name": "떡볶이마을",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "떡볶이"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 74,
+      "addr": "경기도 수원시 영통구 영통동 1002-13 1층 101호",
+      "hours": "",
+      "tel": "0507-1483-7912",
+      "lat": 37.2503433,
+      "lng": 127.0749029,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1678005080",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260103_271/1767402765064j8rPJ_JPEG/IMG_8348.jpeg"
+    },
+    {
+      "naverPlaceId": "1572579292",
+      "name": "두끼 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 37,
+      "addr": "경기도 수원시 영통구 영통동 998-6 아셈프라자 2층 207호,208호",
+      "hours": "",
+      "tel": "031-273-2771",
+      "lat": 37.2520344,
+      "lng": 127.0744554,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1572579292",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231024_30/1698074166691VwgGc_JPEG/%C4%B8%C3%B3.JPG"
+    },
+    {
+      "naverPlaceId": "1137751855",
+      "name": "김가네 수원영통역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 13,
+      "addr": "경기도 수원시 영통구 영통동 995-2 미네시티 104호",
+      "hours": "",
+      "tel": "031-546-3516",
+      "lat": 37.2538737,
+      "lng": 127.0744859,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1137751855",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231017_279/1697539926156cg04m_JPEG/%B1%E8%B0%A1%B3%D7.jpg"
+    },
+    {
+      "naverPlaceId": "1052144455",
+      "name": "도리돌돌김밥 수원영통점",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "김밥"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 9,
+      "addr": "경기도 수원시 영통구 영통동 958-1 1층 120호",
+      "hours": "",
+      "tel": "0507-1491-1484",
+      "lat": 37.2558029,
+      "lng": 127.0748742,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1052144455",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241202_258/1733134173511pvKz1_JPEG/20241202_143219.jpg"
+    },
+    {
+      "naverPlaceId": "1983311335",
+      "name": "신원미주김밥",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "김밥"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 25,
+      "addr": "경기도 수원시 영통구 영통동 965-2",
+      "hours": "",
+      "tel": "031-203-6123",
+      "lat": 37.2526293,
+      "lng": 127.0662638,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1983311335",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190521_63/1558414909365PYOHF_JPEG/mSlyiZ9GlifAVEKQY36p50Pz.jpeg.jpg"
+    },
+    {
+      "naverPlaceId": "1601707357",
+      "name": "당당한꼬마김밥 영통점",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "종합분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 25,
+      "addr": "경기도 수원시 영통구 영통동 996-4 보보스프라자 1층 110호",
+      "hours": "",
+      "tel": "031-203-7070",
+      "lat": 37.2547355,
+      "lng": 127.0749666,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1601707357",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220623_154/1655990112638FUO6D_JPEG/1644306476225.jpg"
+    },
+    {
+      "naverPlaceId": "1272031851",
+      "name": "두둑김밥",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "종합분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 10,
+      "addr": "경기도 수원시 영통구 영통동 963-2 상가 지하 1층",
+      "hours": "",
+      "tel": "031-203-2449",
+      "lat": 37.2534915,
+      "lng": 127.0662968,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1272031851",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200131_181/15804531944251vsxs_JPEG/PlG5oWVFHV-d1BsPMnl3-QQj.jpeg.jpg"
+    },
+    {
+      "naverPlaceId": "1419829095",
+      "name": "헬키푸키 영통점",
+      "type": "도시락,컵밥",
+      "categories": [
+        "도시락,컵밥",
+        "다이어트,샐러드"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 39,
+      "addr": "경기도 수원시 영통구 영통동 961-6 1층 126호",
+      "hours": "",
+      "tel": "",
+      "lat": 37.252766,
+      "lng": 127.070896,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1419829095",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250409_203/17441887513186nb2k_JPEG/%B9%E8%B9%CE_%BF%AC%C3%E205.jpg"
+    },
+    {
+      "naverPlaceId": "1312416923",
+      "name": "편백회관 영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 143,
+      "addr": "경기도 수원시 영통구 영통동 998-7 203호, 204호, 205호",
+      "hours": "",
+      "tel": "0507-1346-3598",
+      "lat": 37.2524101,
+      "lng": 127.0747332,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1312416923",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240112_26/1705047158150CsBd5_JPEG/3.jpg"
+    },
+    {
+      "naverPlaceId": "1832145386",
+      "name": "낭사이공",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "베트남음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 264,
+      "addr": "경기도 수원시 영통구 영통동 995-5 2층",
+      "hours": "",
+      "tel": "031-273-6787",
+      "lat": 37.2527903,
+      "lng": 127.0734351,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1832145386",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20171124_202/151148557058119g0V_JPEG/qEnlg5OVg09GYzI2ZpnKafJN.jpg"
+    },
+    {
+      "naverPlaceId": "34490387",
+      "name": "메콩타이 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "아시아음식"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 91,
+      "addr": "경기도 수원시 영통구 영통동 1008-6 천마빌딩 2층",
+      "hours": "",
+      "tel": "0507-1458-7116",
+      "lat": 37.2512309,
+      "lng": 127.0749328,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/34490387",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220708_97/16572534110127DPHf_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF_ZH5A9070.jpg"
+    },
+    {
+      "naverPlaceId": "1766992813",
+      "name": "포레스트오늘숲 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "베트남음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 65,
+      "addr": "경기도 수원시 영통구 신동 338 B2층 214호",
+      "hours": "",
+      "tel": "0507-1346-0358",
+      "lat": 37.2486677,
+      "lng": 127.0570044,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1766992813",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241214_148/1734185430233pHb82_JPEG/%C0%FC%C3%BC_%282%29.jpg"
+    },
+    {
+      "naverPlaceId": "1009168388",
+      "name": "포박 수원망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "베트남음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 54,
+      "addr": "경기도 수원시 영통구 망포동 693 108~109호",
+      "hours": "",
+      "tel": "0507-1418-2416",
+      "lat": 37.244314,
+      "lng": 127.0578373,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1009168388",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241108_131/1731066779690HGWE9_JPEG/1000009408.jpg"
+    },
+    {
+      "naverPlaceId": "1877094596",
+      "name": "전티마이베트남쌀국수 망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "베트남음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 223,
+      "addr": "경기도 수원시 영통구 망포동 322-3",
+      "hours": "",
+      "tel": "031-203-4929",
+      "lat": 37.2453223,
+      "lng": 127.0559488,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1877094596",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190131_155/1548934455744LKN7X_JPEG/kz-dMz3hZb79bi5nU27S1pQm.jpg"
+    },
+    {
+      "naverPlaceId": "2014299196",
+      "name": "연제네 망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "베트남음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 10,
+      "addr": "경기도 수원시 영통구 망포동 322-3 골든스퀘어 동관 1층 105호",
+      "hours": "",
+      "tel": "0507-1366-7761",
+      "lat": 37.2452099,
+      "lng": 127.0558468,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2014299196",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260121_277/1768977125148XXenJ_JPEG/2.jpeg"
+    },
+    {
+      "naverPlaceId": "1601602028",
+      "name": "첸나이 만나 인도레스토랑",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "인도음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 19,
+      "addr": "경기도 수원시 영통구 매탄동 414-22 2층",
+      "hours": "",
+      "tel": "031-546-1986",
+      "lat": 37.2592725,
+      "lng": 127.0582065,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1601602028",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241104_294/1730688859421nzSgi_JPEG/20241104115246cebxa6l3.jpg"
+    },
+    {
+      "naverPlaceId": "1143587205",
+      "name": "맛카츠",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "돈가스"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 58,
+      "addr": "경기도 수원시 영통구 영통동 981-2 판타지움 1층 108호",
+      "hours": "",
+      "tel": "0507-1326-6873",
+      "lat": 37.2451296,
+      "lng": 127.0618145,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1143587205",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250115_297/1736909389230JXUwq_PNG/PNG%281%29.png"
+    },
+    {
+      "naverPlaceId": "1886315639",
+      "name": "상화돈까스",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "돈가스"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 351,
+      "addr": "경기도 수원시 영통구 영통동 980-3 E동1층122,123호",
+      "hours": "",
+      "tel": "031-273-6432",
+      "lat": 37.2454726,
+      "lng": 127.0606859,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1886315639",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220325_187/1648158284084mcPG1_JPEG/KakaoTalk_20220323_144113822.jpg"
+    },
+    {
+      "naverPlaceId": "13508342",
+      "name": "미소야 수원벽적골점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "돈가스"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 34,
+      "addr": "경기도 수원시 영통구 영통동 974-8 세일빌딩",
+      "hours": "",
+      "tel": "031-205-9589",
+      "lat": 37.2466705,
+      "lng": 127.0603437,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/13508342",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251211_78/1765432526857QgdxY_PNG/out_20251120_%C6%F7%BD%BA%C5%CD_%BF%EC%B5%BF%BA%BA%C0%CC_%C3%D6%C1%BE_%BC%F6%C1%A4-02.png"
+    },
+    {
+      "naverPlaceId": "1758830996",
+      "name": "큐슈울트라아멘 수원영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "일본식라면"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 428,
+      "addr": "경기도 수원시 영통구 원천동 627 현대테라타워영통 L125호",
+      "hours": "",
+      "tel": "031-213-3399",
+      "lat": 37.2583484,
+      "lng": 127.0606994,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1758830996",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231205_95/1701762419918nzc5f_JPEG/%C5%A5%BD%B4_%B8%DE%C0%CE.jpeg"
+    },
+    {
+      "naverPlaceId": "1599622341",
+      "name": "면식당 망포역점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "일식당"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 769,
+      "addr": "경기도 수원시 영통구 망포동 322-3 골든스퀘어 1층 102호",
+      "hours": "",
+      "tel": "031-8055-8157",
+      "lat": 37.2452996,
+      "lng": 127.0562464,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1599622341",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250729_143/1753765805310NqdOB_JPEG/%B8%F0%C0%BD%C4%C6.JPG"
+    },
+    {
+      "naverPlaceId": "1987385749",
+      "name": "하카타식당 삼성로점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "일본식라면"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 159,
+      "addr": "경기도 수원시 영통구 매탄동 383-8 지1층 B06일부, B07호",
+      "hours": "",
+      "tel": "0507-1320-4621",
+      "lat": 37.2611032,
+      "lng": 127.05965,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1987385749",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240626_117/1719370242074o1RTk_PNG/%C8%AD%B8%E9_%C4%B8%C3%B3_2024-06-26_115032.png"
+    },
+    {
+      "naverPlaceId": "1462667450",
+      "name": "최고당돈가스 망포역점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "돈가스"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 76,
+      "addr": "경기도 수원시 영통구 망포동 322-3 골든스퀘어 119호 최고당돈가스 망포역점",
+      "hours": "",
+      "tel": "031-202-3720",
+      "lat": 37.2452817,
+      "lng": 127.0554348,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1462667450",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251216_99/1765871125150X9MzT_JPEG/%C3%D6%B0%ED%B4%E7_%B7%CE%B0%ED.jpeg"
+    },
+    {
+      "naverPlaceId": "37160772",
+      "name": "쭈꾸쭈꾸아 영통점",
+      "type": "해물,생선요리",
+      "categories": [
+        "해물,생선요리",
+        "주꾸미요리"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 77,
+      "addr": "경기도 수원시 영통구 영통동 961-4 동아프라자 2층 204호",
+      "hours": "",
+      "tel": "031-202-8770",
+      "lat": 37.2556468,
+      "lng": 127.073638,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37160772",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210101_87/1609437821069kuSuE_JPEG/5L_C6Zv9ipjLs-D9vHxfWsEI.jpg"
+    },
+    {
+      "naverPlaceId": "1659771469",
+      "name": "움버거앤윙스 수원영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 41,
+      "addr": "경기도 수원시 영통구 영통동 958-1 드림피아빌딩 1층 122호",
+      "hours": "",
+      "tel": "0507-1436-0635",
+      "lat": 37.2559363,
+      "lng": 127.07473,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1659771469",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251216_224/1765871410084JMYud_JPEG/251211_%BF%F2%B9%F6%B0%C5%BE%D8%C0%AE%BD%BA_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA_%BC%DB%B0%AD2.jpg"
+    },
+    {
+      "naverPlaceId": "1850226200",
+      "name": "부리또인 수원영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "멕시코,남미음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 20,
+      "addr": "경기도 수원시 영통구 영통동 996-4 1층 111호",
+      "hours": "",
+      "tel": "0507-1372-2713",
+      "lat": 37.2547136,
+      "lng": 127.0749354,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1850226200",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230620_283/1687234928839upjCE_JPEG/IMG_2114.jpeg"
+    },
+    {
+      "naverPlaceId": "1762274320",
+      "name": "BBQ치킨 수원영통역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 20,
+      "addr": "경기도 수원시 영통구 영통동 961-6",
+      "hours": "",
+      "tel": "0507-1460-6691",
+      "lat": 37.2524323,
+      "lng": 127.0707445,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1762274320",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg"
+    },
+    {
+      "naverPlaceId": "38530826",
+      "name": "맘스터치 영통1호점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 39,
+      "addr": "경기도 수원시 영통구 영통동 974-6 세일빌딩 101, 102호",
+      "hours": "",
+      "tel": "0507-1430-8114",
+      "lat": 37.2466687,
+      "lng": 127.0606862,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38530826",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191022_32/1571736610382zecTQ_JPEG/-bcRDgKyM8XFTjSfeH71GXxu.jpg"
+    },
+    {
+      "naverPlaceId": "1457161420",
+      "name": "프랭크버거 수원망포역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "햄버거"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 61,
+      "addr": "경기도 수원시 영통구 영통동 976-7 현대프라자 107, 108호",
+      "hours": "",
+      "tel": "031-203-9767",
+      "lat": 37.2462515,
+      "lng": 127.0589443,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1457161420",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260306_297/1772770047760i0NRp_JPEG/KakaoTalk_20260306_120543414.jpg"
+    },
+    {
+      "naverPlaceId": "1183100192",
+      "name": "BBQ치킨 용인서천점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 21,
+      "addr": "경기도 용인시 기흥구 서천동 720",
+      "hours": "",
+      "tel": "031-203-9993",
+      "lat": 37.2411888,
+      "lng": 127.0729302,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1183100192",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg"
+    },
+    {
+      "naverPlaceId": "92036501",
+      "name": "애플민트키친",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "샌드위치"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 35,
+      "addr": "경기도 수원시 영통구 영통동 961-4 107호",
+      "hours": "",
+      "tel": "0507-1404-9274",
+      "lat": 37.2553185,
+      "lng": 127.0734174,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/92036501",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230807_212/16913796817115k77C_JPEG/1691379481067.jpg"
+    },
+    {
+      "naverPlaceId": "1550981556",
+      "name": "홍루이젠 수원영통점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "샌드위치"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 48,
+      "addr": "경기도 수원시 영통구 영통동 995-2 미네시티 106호",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2541129,
+      "lng": 127.0744882,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1550981556",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250728_75/1753707815700dijMX_JPEG/1753707563133.jpg"
+    },
+    {
+      "naverPlaceId": "1869957216",
+      "name": "레브",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "카페,디저트"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 5,
+      "addr": "경기도 수원시 영통구 영통동 965-2 상가동 101호",
+      "hours": "",
+      "tel": "0507-1384-9963",
+      "lat": 37.2525637,
+      "lng": 127.0662073,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1869957216",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260205_199/1770250553242GRGBW_JPEG/1000035782.jpg"
+    },
+    {
+      "naverPlaceId": "20237822",
+      "name": "파리바게뜨 영통청명점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 9,
+      "addr": "경기도 수원시 영통구 영통동 958-1",
+      "hours": "",
+      "tel": "031-206-0482",
+      "lat": 37.2561856,
+      "lng": 127.0747591,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/20237822",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220413_197/1649839476179fYCX4_PNG/image.png"
+    },
+    {
+      "naverPlaceId": "2028984451",
+      "name": "샤브올데이 수원영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 355,
+      "addr": "경기도 수원시 영통구 영통동 958-2 훼미리타워 102호",
+      "hours": "",
+      "tel": "031-306-0233",
+      "lat": 37.2555521,
+      "lng": 127.0743041,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2028984451",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260225_102/1771986300066O0ESC_JPEG/%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5%A4%B5.jpg"
+    },
+    {
+      "naverPlaceId": "38463579",
+      "name": "진수성찬",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1,
+      "addr": "경기도 수원시 영통구 매탄동 553-12",
+      "hours": "",
+      "tel": "031-472-5520",
+      "lat": 37.2543691,
+      "lng": 127.0621124,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38463579",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "12829372",
+      "name": "칼튼출장부페 기흥점",
+      "type": "음식",
+      "categories": [
+        "음식",
+        "출장요리"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 용인시 기흥구 서천동 700",
+      "hours": "",
+      "tel": "031-206-6681",
+      "lat": 37.244262,
+      "lng": 127.071617,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/12829372",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20150831_40/1441027042171NXxfO_JPEG/96365558438618_0.jpg"
+    },
+    {
+      "naverPlaceId": "35540762",
+      "name": "애슐리퀸즈 수원망포점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "패밀리레스토랑"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 1288,
+      "addr": "경기도 수원시 영통구 영통동 981-2 판타지움 2층",
+      "hours": "",
+      "tel": "0507-1405-1032",
+      "lat": 37.2451137,
+      "lng": 127.0615348,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/35540762",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20260315_224/1773578607249lLTXG_JPEG/image.jpg"
+    },
+    {
+      "naverPlaceId": "1989810310",
+      "name": "테라푸드",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 8,
+      "addr": "경기도 수원시 영통구 원천동 627",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2576175,
+      "lng": 127.0616396,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1989810310",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "19212821",
+      "name": "밥사랑한식부페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1,
+      "addr": "경기도 수원시 영통구 매탄동 491-10",
+      "hours": "",
+      "tel": "031-211-2798",
+      "lat": 37.2562444,
+      "lng": 127.0597897,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/19212821",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1006472119",
+      "name": "비전푸드한중식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 194,
+      "addr": "경기도 수원시 영통구 매탄동 407-43 2층",
+      "hours": "",
+      "tel": "0507-1477-6684",
+      "lat": 37.2584018,
+      "lng": 127.0602305,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1006472119",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250622_278/1750585000934y1WYy_JPEG/IMG_1699.jpeg"
+    },
+    {
+      "naverPlaceId": "1994802956",
+      "name": "우렁각시한식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 8,
+      "addr": "경기도 수원시 영통구 신동 338 에이스하이엔드타워 1층 101호",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2486677,
+      "lng": 127.0570044,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1994802956",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "36983340",
+      "name": "행복한식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 원천동 364-1",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2604111,
+      "lng": 127.0631658,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/36983340",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "19213357",
+      "name": "호남한식부페식당",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 원천동 373",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2599333,
+      "lng": 127.0625375,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/19213357",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1945588342",
+      "name": "밥심 한식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 3,
+      "addr": "경기도 수원시 영통구 매탄동 407-39 2층",
+      "hours": "",
+      "tel": "031-214-2769",
+      "lat": 37.2585273,
+      "lng": 127.0602526,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1945588342",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240116_146/1705387820895kDtxq_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2024-01-16_154359.png"
+    },
+    {
+      "naverPlaceId": "2070845801",
+      "name": "한솔한식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1,
+      "addr": "경기도 수원시 영통구 영통동 1106 2층 일부호",
+      "hours": "",
+      "tel": "031-203-6200",
+      "lat": 37.2446519,
+      "lng": 127.0579139,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2070845801",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260124_92/1769236377395n4cy2_JPEG/IMG_4352.jpeg"
+    },
+    {
+      "naverPlaceId": "1744456889",
+      "name": "밥심한식뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "뷔페"
+      ],
+      "cat": [
+        "뷔페"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 매탄동 407-22",
+      "hours": "",
+      "tel": "031-214-2769",
+      "lat": 37.2590892,
+      "lng": 127.0604578,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1744456889",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1097298749",
+      "name": "용갈이뷔페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 61,
+      "addr": "경기도 수원시 영통구 원천동 554 3동, 1층 용갈이뷔페",
+      "hours": "",
+      "tel": "0507-1354-3442",
+      "lat": 37.2623828,
+      "lng": 127.061023,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1097298749",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260128_6/1769552782050ijlhE_JPEG/%BF%EB%B0%A5%C0%CC%BA%DF%C6%E4_%C8%F2%B7%CE%B0%ED.jpeg"
+    },
+    {
+      "naverPlaceId": "36984047",
+      "name": "압구정한식부페",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식뷔페"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 14,
+      "addr": "경기도 수원시 영통구 망포동 5-21",
+      "hours": "",
+      "tel": "031-273-8289",
+      "lat": 37.2474317,
+      "lng": 127.0552288,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/36984047",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190104_107/1546577850312FSOEq_JPEG/Ep-tFNNweh4E0FhqKYf53Rke.jpg"
+    },
+    {
+      "naverPlaceId": "1946968711",
+      "name": "미채담샤브정",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 75,
+      "addr": "경기도 수원시 영통구 영통동 994-2",
+      "hours": "",
+      "tel": "070-4113-2222",
+      "lat": 37.2518145,
+      "lng": 127.0725998,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1946968711",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241025_246/1729861909090V1TU2_JPEG/20240318_140103.jpg"
+    },
+    {
+      "naverPlaceId": "1496657953",
+      "name": "등촌샤브칼국수 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 137,
+      "addr": "경기도 수원시 영통구 영통동 998-7 클래시아 3층 308호",
+      "hours": "",
+      "tel": "031-206-9001",
+      "lat": 37.2524089,
+      "lng": 127.0747318,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1496657953",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20201204_265/1607052327124yeFkM_JPEG/S--R9SRvbfgKEZf3c4ZvCKSp.jpeg.jpg"
+    },
+    {
+      "naverPlaceId": "1752692540",
+      "name": "청담동샤브 더판타지움점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 206,
+      "addr": "경기도 수원시 영통구 영통동 981-2 더판타지움 2층",
+      "hours": "",
+      "tel": "0507-1326-2823",
+      "lat": 37.2455573,
+      "lng": 127.0618405,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1752692540",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240416_183/1713233819600Jlhhl_JPEG/IMG_0059.JPG"
+    },
+    {
+      "naverPlaceId": "1388802295",
+      "name": "두둑한샤브칼국수",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 312,
+      "addr": "경기도 수원시 영통구 영통동 980-3 E동 120호",
+      "hours": "",
+      "tel": "031-206-3349",
+      "lat": 37.245483,
+      "lng": 127.0606612,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1388802295",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241210_69/1733821622726ojT25_JPEG/KakaoTalk_20240420_110033640_06.jpg"
+    },
+    {
+      "naverPlaceId": "1562150064",
+      "name": "다온에프엔비",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 신동 343-3",
+      "hours": "",
+      "tel": "",
+      "lat": 37.2495958,
+      "lng": 127.0580436,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1562150064",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1572161342",
+      "name": "소담샤브칼국수",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 64,
+      "addr": "경기도 용인시 기흥구 서천동 730-3",
+      "hours": "",
+      "tel": "031-202-3040",
+      "lat": 37.2404635,
+      "lng": 127.0741044,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1572161342",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190627_155/1561613092934D8tYC_JPEG/jd7aUC0l1KIEX03BUr_NQIxz.jpg"
+    },
+    {
+      "naverPlaceId": "1913443929",
+      "name": "마라섬 마라탕 & 딤섬 수원망포본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 229,
+      "addr": "경기도 수원시 영통구 신동 338 에이스하이엔드타워영통 지하 2층 B212호",
+      "hours": "",
+      "tel": "0507-1316-2599",
+      "lat": 37.248397,
+      "lng": 127.0569152,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1913443929",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250917_229/17580933640265L4ah_GIF/%C0%CC%B4%EB%C8%C6_gif.gif"
+    },
+    {
+      "naverPlaceId": "37414320",
+      "name": "벌교참꼬막새조개전문점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "조개요리"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 48,
+      "addr": "경기도 수원시 영통구 매탄동 409-24",
+      "hours": "",
+      "tel": "031-291-9003",
+      "lat": 37.2582328,
+      "lng": 127.0591998,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37414320",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20151224_252/1450944129498mhuNo_JPEG/167171557375770_0.jpeg"
+    },
+    {
+      "naverPlaceId": "18277255",
+      "name": "금촌샤브칼국수",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 180,
+      "addr": "경기도 수원시 영통구 망포동 378",
+      "hours": "",
+      "tel": "031-205-5636",
+      "lat": 37.239317,
+      "lng": 127.0541847,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18277255",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "2039557595",
+      "name": "우마이야 망포점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "일식당"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 69,
+      "addr": "경기도 수원시 영통구 망포동 369-3 202호 우마이야 망포점",
+      "hours": "",
+      "tel": "0507-1448-3997",
+      "lat": 37.2417698,
+      "lng": 127.0549928,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2039557595",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251117_189/1763305319405Pr2Or_JPEG/KakaoTalk_20251116_233806508_19.jpg"
+    },
+    {
+      "naverPlaceId": "18280708",
+      "name": "대머리칼국수 망포점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 682,
+      "addr": "경기도 수원시 영통구 영통동 1112-1 대머리칼국수",
+      "hours": "",
+      "tel": "031-273-2338",
+      "lat": 37.2443946,
+      "lng": 127.0598047,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18280708",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220916_281/1663338946223Ls5yo_JPEG/kmong_1618919740213_DSC00003.jpg"
+    },
+    {
+      "naverPlaceId": "2037202677",
+      "name": "요시야 야키니쿠 영통망포역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 43,
+      "addr": "경기도 수원시 영통구 영통동 974-4 1층 101호",
+      "hours": "",
+      "tel": "0507-1484-6264",
+      "lat": 37.2468345,
+      "lng": 127.0603095,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2037202677",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251206_103/1765007259497Voo46_JPEG/KakaoTalk_20251201_162045017_24.jpg"
+    },
+    {
+      "naverPlaceId": "1542277620",
+      "name": "합 수원망포점",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "요리주점"
+      ],
+      "cat": [
+        "야장"
+      ],
+      "rt": 0,
+      "cnt": 382,
+      "addr": "경기도 수원시 영통구 영통동 975-4 2층",
+      "hours": "",
+      "tel": "0507-1461-1891",
+      "lat": 37.246728,
+      "lng": 127.0579352,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1542277620",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250905_252/1757067104582KTvmX_JPEG/%B8%C1%C6%F7_%B8%C0%C1%FD2.jpg"
+    },
+    {
+      "naverPlaceId": "2052757126",
+      "name": "Poke all day 포케&샐러드 수원망포점",
+      "type": "도시락,컵밥",
+      "categories": [
+        "도시락,컵밥",
+        "다이어트,샐러드"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 30,
+      "addr": "경기도 수원시 영통구 영통동 980-3 A동 1층 103호",
+      "hours": "",
+      "tel": "0507-1360-4811",
+      "lat": 37.2454308,
+      "lng": 127.0591447,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2052757126",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg"
+    },
+    {
+      "naverPlaceId": "1023960058",
+      "name": "샐러디 수원망포역점",
+      "type": "도시락,컵밥",
+      "categories": [
+        "도시락,컵밥",
+        "다이어트,샐러드"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 113,
+      "addr": "경기도 수원시 영통구 영통동 977-4 1층 108호(, 센터프라자)",
+      "hours": "",
+      "tel": "031-203-3388",
+      "lat": 37.2469792,
+      "lng": 127.0568979,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1023960058",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png"
+    },
+    {
+      "naverPlaceId": "1655229946",
+      "name": "닭갈비두목 수원망포역 본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "닭갈비"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 813,
+      "addr": "경기도 수원시 영통구 영통동 978-3 1층",
+      "hours": "",
+      "tel": "0507-1343-5687",
+      "lat": 37.2466802,
+      "lng": 127.0560014,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1655229946",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220822_133/1661150826475B2HYK_JPEG/P20220819_133758094_DD55ACB4-A441-475C-9B2C-DD735508ECA1.JPG"
+    },
+    {
+      "naverPlaceId": "1675029355",
+      "name": "솥내음 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 65,
+      "addr": "경기도 수원시 영통구 영통동 998-2 1층 110호",
+      "hours": "",
+      "tel": "0507-1424-0199",
+      "lat": 37.2530682,
+      "lng": 127.0747232,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1675029355",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240510_170/1715307968479RSlEt_JPEG/KakaoTalk_20240208_141256217_03.jpg"
+    },
+    {
+      "naverPlaceId": "1675449391",
+      "name": "메가혼밥 수원영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "경기도 수원시 영통구 영통동 984-6 1층 104호",
+      "hours": "",
+      "tel": "031-216-1993",
+      "lat": 37.2453001,
+      "lng": 127.0662694,
+      "priceRange": "",
+      "tags": [
+        "혼밥가능"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1675449391",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240214_242/1707904807475iyy7I_JPEG/%B8%DE%B0%A1%C8%A5%B9%E4-%B7%CE%B0%ED%28%B9%E8%B4%DE%BE%DB%BF%EB%29-%C2%F0%BA%B8%B6%F3%28560x560%29.jpg"
+    },
+    {
+      "naverPlaceId": "1651455411",
+      "name": "만고쿠 영통점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "덮밥"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 194,
+      "addr": "경기도 수원시 영통구 영통동 998-2 르네상스 시티프라자 1층 108호 MANKOKU",
+      "hours": "",
+      "tel": "070-4115-8862",
+      "lat": 37.2530455,
+      "lng": 127.074767,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1651455411",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241205_299/1733366030053XIFKS_JPEG/1000011309.jpg"
+    },
+    {
+      "naverPlaceId": "1555169133",
+      "name": "혼밥대왕 영통점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 10,
+      "addr": "경기도 수원시 영통구 영통동 1112",
+      "hours": "",
+      "tel": "031-205-5263",
+      "lat": 37.2444745,
+      "lng": 127.0595996,
+      "priceRange": "",
+      "tags": [
+        "혼밥가능"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1555169133",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1782184250",
+      "name": "홍남매칼국수 망포역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 333,
+      "addr": "경기도 수원시 영통구 신동 338 에이스하이엔드타워 B201호",
+      "hours": "",
+      "tel": "0507-1378-2573",
+      "lat": 37.2488217,
+      "lng": 127.0572913,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1782184250",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250715_112/1752587520256Tx30A_JPEG/1000005287.jpg"
+    },
+    {
+      "naverPlaceId": "1771548936",
+      "name": "기울어진뚝배기 수원영통점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "국밥"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 346,
+      "addr": "경기도 수원시 영통구 매탄동 399-8 1층 기뚝",
+      "hours": "",
+      "tel": "0507-1443-5522",
+      "lat": 37.2602392,
+      "lng": 127.059405,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1771548936",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251211_5/1765421913885pHRpx_JPEG/KakaoTalk_20251210_145236351.jpg"
+    },
+    {
+      "naverPlaceId": "1638064711",
+      "name": "농탁",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "국밥"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 76,
+      "addr": "경기도 수원시 영통구 영통동 977-4 1층 105호",
+      "hours": "",
+      "tel": "0507-1412-1647",
+      "lat": 37.2469069,
+      "lng": 127.0567342,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1638064711",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251216_112/1765855827830kLijX_JPEG/001.jpg"
+    },
+    {
+      "naverPlaceId": "1847939686",
+      "name": "이솔당",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "김밥"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 59,
+      "addr": "경기도 수원시 영통구 망포동 322-3 1층 127호",
+      "hours": "",
+      "tel": "0507-1433-1360",
+      "lat": 37.2450562,
+      "lng": 127.0561901,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1847939686",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240611_20/1718050197770ayHVl_JPEG/IMG_4964--------1.jpg"
+    }
+  ],
+  "completedQueries": [
+    "영통역 맛집",
+    "영통역 음식점",
+    "영통역 식당",
+    "영통역 한식",
+    "영통역 고기",
+    "영통역 삼겹살",
+    "영통역 이자카야",
+    "영통역 술집",
+    "영통역 포차",
+    "영통역 일식",
+    "영통역 스시",
+    "영통역 초밥",
+    "영통역 중식",
+    "영통역 마라탕",
+    "영통역 짬뽕",
+    "영통역 양식",
+    "영통역 파스타",
+    "영통역 스테이크",
+    "영통역 치킨",
+    "영통역 카페",
+    "영통역 브런치",
+    "영통역 국밥",
+    "영통역 해장",
+    "영통역 설렁탕",
+    "영통역 족발",
+    "영통역 곱창",
+    "영통역 보쌈",
+    "영통역 분식",
+    "영통역 떡볶이",
+    "영통역 베트남",
+    "영통역 태국",
+    "영통역 인도",
+    "영통역 회",
+    "영통역 횟집",
+    "영통역 해산물",
+    "영통역 돈카츠",
+    "영통역 라멘",
+    "영통역 우동",
+    "영통역 피자",
+    "영통역 햄버거",
+    "영통역 샌드위치",
+    "영통역 뷔페",
+    "영통역 샤브샤브",
+    "영통역 점심",
+    "영통역 저녁",
+    "영통역 혼밥",
+    "영통역 회식"
+  ],
+  "timestamp": "2026-03-17T12:57:03.123Z"
+}

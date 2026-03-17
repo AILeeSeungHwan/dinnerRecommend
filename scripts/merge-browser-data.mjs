@@ -168,7 +168,7 @@ async function main() {
       priceRange: nr.priceRange || '',
       lat: nr.lat || 0,
       lng: nr.lng || 0,
-      cat: (nr.categories || []).join(', '),
+      cat: (nr.categories || []).map(c => c.replace(/,/g, '').trim()).filter(Boolean),
       tags: extractTags(nr),
       moods: [],
       wx: [],
