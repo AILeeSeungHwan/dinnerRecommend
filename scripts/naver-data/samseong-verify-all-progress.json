@@ -1,0 +1,6736 @@
+{
+  "철수포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 96,
+    "method": "placeId"
+  },
+  "못난이포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 115,
+    "method": "placeId"
+  },
+  "ASOBOY": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 51,
+    "method": "placeId"
+  },
+  "만선호프 삼성동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 55,
+    "method": "placeId"
+  },
+  "다빈치호프": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 74,
+    "method": "placeId"
+  },
+  "데일리비어 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "데일리비어 삼성코엑스 2호점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "깐부치킨 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 431,
+    "method": "placeId"
+  },
+  "깐부치킨 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 516,
+    "method": "placeId"
+  },
+  "BHC치킨 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "피카소": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "닭금터": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "치킨뱅이 삼성3호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "골목길와인집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "MaltBarBARREL": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "SIDE A": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "데블스도어 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "미주이자카야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이자카야한잔 삼성본점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "신라스테이 삼성 루프탑바": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이화수전통육개장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "중앙해장 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "전통백암순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "박서방순대국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "진양재순대 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "전주소고기해장국": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이여곰탕 강남삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "재수돈감자탕 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "일품돼지국밥 삼성역본점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "외고집설렁탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이남장 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "곰탕LAB": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "아오내순대 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "남산옥 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "김명자굴국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "원조양평해장국 삼성동점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "본가신의주찹쌀순대": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "제주은희네해장국 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "하동관 코엑스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "남다른감자탕 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "24시 본가신의주찹쌀순대": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "우도옥 삼성동코엑스몰": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "낭동고집 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "국보가든 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "곰바위": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "웨어하우스 43 삼성": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "소트늠 코엑스몰": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "모도우 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "남해안집 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "도명골 청국장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1120,
+    "method": "placeId"
+  },
+  "일상정원 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2873,
+    "method": "placeId"
+  },
+  "멘쇼쿠 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 152,
+    "method": "placeId"
+  },
+  "해화장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 234,
+    "method": "placeId"
+  },
+  "동어동락 삼성2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2874,
+    "method": "placeId"
+  },
+  "카포 아키 삼성": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "부타이 일막": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "야키토리 수다": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1024,
+    "method": "placeId"
+  },
+  "란주쿠 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 681,
+    "method": "placeId"
+  },
+  "무탄 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 20766,
+    "method": "placeId"
+  },
+  "일일향 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 893,
+    "method": "placeId"
+  },
+  "사천하우스 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "연화산": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 724,
+    "method": "placeId"
+  },
+  "천미미 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 668,
+    "method": "placeId"
+  },
+  "솔트랑 스테이크 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1517,
+    "method": "placeId"
+  },
+  "부처스컷 삼성": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "소이연남 코엑스점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "American Table": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1185,
+    "method": "placeId"
+  },
+  "브루클린 더 버거조인트 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1067,
+    "method": "placeId"
+  },
+  "더 피자 스탠드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1608,
+    "method": "placeId"
+  },
+  "캘리포니아 피자 키친 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 5069,
+    "method": "placeId"
+  },
+  "둘둘치킨 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 262,
+    "method": "placeId"
+  },
+  "둘둘치킨 삼성2호점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "B&D 치킨닭갈비": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "최고야 닭갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 357,
+    "method": "placeId"
+  },
+  "숯칼 숯불닭구이칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 444,
+    "method": "placeId"
+  },
+  "치킨잇수다 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "꼬끼오치킨호프": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "쉐이크쉑 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3733,
+    "method": "placeId"
+  },
+  "파이어벨 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1326,
+    "method": "placeId"
+  },
+  "요로트릭 버거": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "트레인버거 삼성역": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2037,
+    "method": "placeId"
+  },
+  "바스버거 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 781,
+    "method": "placeId"
+  },
+  "맥도날드 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 6316,
+    "method": "placeId"
+  },
+  "맥도날드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 14430,
+    "method": "placeId"
+  },
+  "롯데리아 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 216,
+    "method": "placeId"
+  },
+  "더차이홍": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 644,
+    "method": "placeId"
+  },
+  "왕푸징마라탕 코엑스": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "서래향 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "호성각": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "차이린 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "마라차이즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1883,
+    "method": "placeId"
+  },
+  "담소소사골순대국 삼성1호점": {
+    "exists": false,
+    "notFound": false,
+    "closed": true,
+    "cnt": 1049,
+    "method": "placeId"
+  },
+  "명우등심 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "명우돈가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1220,
+    "method": "placeId"
+  },
+  "한국돈거래소": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 199,
+    "method": "placeId"
+  },
+  "이화옥 삼성한국BBQ": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "보름새 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "맛찬들왕소금구이 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 673,
+    "method": "placeId"
+  },
+  "돈주는남자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1390,
+    "method": "placeId"
+  },
+  "육성급": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1556,
+    "method": "placeId"
+  },
+  "백년가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 371,
+    "method": "placeId"
+  },
+  "고설우 한우오마카세": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 239,
+    "method": "placeId"
+  },
+  "삼환소한마리 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "진밀옥 삼성동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1505,
+    "method": "placeId"
+  },
+  "불고기브라더스 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1079,
+    "method": "placeId"
+  },
+  "대도식당 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 624,
+    "method": "placeId"
+  },
+  "경천아인 2237": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 844,
+    "method": "placeId"
+  },
+  "아우정 한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 142,
+    "method": "placeId"
+  },
+  "등심팩토리": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "우와해 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1839,
+    "method": "placeId"
+  },
+  "마초갈비 삼성동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 957,
+    "method": "placeId"
+  },
+  "우정소갈비 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 68,
+    "method": "placeId"
+  },
+  "풍년집 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 456,
+    "method": "placeId"
+  },
+  "다이닝갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2172,
+    "method": "placeId"
+  },
+  "봉산집 삼성동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 307,
+    "method": "placeId"
+  },
+  "동인동 갈비찜": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2031,
+    "method": "placeId"
+  },
+  "백코프하우스 코엑스": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "오봉집 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2279,
+    "method": "placeId"
+  },
+  "수다 삼성2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 783,
+    "method": "placeId"
+  },
+  "수다 삼성1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 827,
+    "method": "placeId"
+  },
+  "요란 이자카야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 205,
+    "method": "placeId"
+  },
+  "이자카야 열": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이자카야나무 서초점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "P.F.창스 코엑스": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "도원스타일 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1069,
+    "method": "placeId"
+  },
+  "이화원 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "마노디셰프 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2438,
+    "method": "placeId"
+  },
+  "더 이탈리안 클럽 현대무역센터": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 441,
+    "method": "placeId"
+  },
+  "치폴라 로쏘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 604,
+    "method": "placeId"
+  },
+  "매드포갈릭 봉은사 아이파크타워": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1848,
+    "method": "placeId"
+  },
+  "THE PLACE 이탈리안 비스트로 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 6246,
+    "method": "placeId"
+  },
+  "ebt 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3834,
+    "method": "placeId"
+  },
+  "페리지 이탈리안": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 141,
+    "method": "placeId"
+  },
+  "치즈룸 멜팅샵 파르나스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4058,
+    "method": "placeId"
+  },
+  "포모도로 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1105,
+    "method": "placeId"
+  },
+  "아웃백 코엑스점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "오크우드 코엑스 레스토랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1967,
+    "method": "placeId"
+  },
+  "리춍 삼성동": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "동강 중식": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "해정천": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "하이딜라오 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1037,
+    "method": "placeId"
+  },
+  "웨이루 파르나스타워": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "더그레이트홍위안": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "딤딤덕": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "딤섬 청요리 전문점 하이보": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "호우섬 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1911,
+    "method": "placeId"
+  },
+  "온천집 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "COEX 크래프트비어 탭룸": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "COEX 쉐이크쉑 신관": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "COEX 파리크라상 티라운지": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "팔공산 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "참숯화로 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "돈가네 삼겹살 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "미가 불판 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "양반 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "오기와라 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "화락 삼성본점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "백년옥 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이자카야 코코로": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "봉평막걸리집 대치": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "우포국밥 삼성역": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "서울깍두기설렁탕 대치": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "제주 흑돼지국밥 삼성": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "진미식당 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 143,
+    "method": "placeId"
+  },
+  "마라탕후루 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "쉐이크쉑 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "고든램지 버거 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3470,
+    "method": "placeId"
+  },
+  "맘스터치 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "타코벨 삼성역": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "목포집 삼성역": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "센터커피 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "밀도 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "설빙 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "교촌치킨 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "노랑통닭 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "굽네치킨 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "탐앤탐스 삼성역점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "파리바게뜨 삼성역 4번출구점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "삼겹살의 신 대치점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "브레덴코 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "포카코 Foccaco": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 111,
+    "method": "placeId"
+  },
+  "올라포케 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2583,
+    "method": "placeId"
+  },
+  "롤드(Rolled)": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 403,
+    "method": "placeId"
+  },
+  "공감 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 65,
+    "method": "placeId"
+  },
+  "와려": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 149,
+    "method": "placeId"
+  },
+  "무월식탁 파르나스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3334,
+    "method": "placeId"
+  },
+  "Crispy Fresh Parnas Mall Branch": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "크라이치즈버거 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 5503,
+    "method": "placeId"
+  },
+  "그랜드 키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2745,
+    "method": "placeId"
+  },
+  "갓포아키 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 298,
+    "method": "placeId"
+  },
+  "홍콩다방 파르나스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1090,
+    "method": "placeId"
+  },
+  "디저트플래넷 파르나스몰점 (Dessert Planet Parnas Mall)": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "코너스톤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "메콩타이 삼성점 (Mekong Thai Samseong)": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "모구모구돈부리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1331,
+    "method": "placeId"
+  },
+  "신라스테이 삼성 카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1022,
+    "method": "placeId"
+  },
+  "경성골목집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "크리스피프레시 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 798,
+    "method": "placeId"
+  },
+  "딤딤섬 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 5279,
+    "method": "placeId"
+  },
+  "고운님삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 739,
+    "method": "placeId"
+  },
+  "파크 하얏트 서울 더 라운지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 653,
+    "method": "placeId"
+  },
+  "해봉(海峯)정육 삼성본점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "치즈룸X멜팅샵 코엑스 파르나스몰": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "탄탄면공방 파르나스몰점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "백가향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 146,
+    "method": "placeId"
+  },
+  "허머스키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3808,
+    "method": "placeId"
+  },
+  "창고43 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1474,
+    "method": "placeId"
+  },
+  "후레쉬빌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 5009,
+    "method": "placeId"
+  },
+  "송 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1926,
+    "method": "placeId"
+  },
+  "이봉": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 157,
+    "method": "placeId"
+  },
+  "자연산횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 10,
+    "method": "placeId"
+  },
+  "바토스 파르나스점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "교대밀밭 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 598,
+    "method": "placeId"
+  },
+  "삼성골목집 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 446,
+    "method": "placeId"
+  },
+  "명동칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 267,
+    "method": "placeId"
+  },
+  "명가막회집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 294,
+    "method": "placeId"
+  },
+  "네모오징어 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 547,
+    "method": "placeId"
+  },
+  "육가온 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 180,
+    "method": "placeId"
+  },
+  "김셰프의도시어부": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "스시유": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 415,
+    "method": "placeId"
+  },
+  "글로브 비스트로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1690,
+    "method": "placeId"
+  },
+  "폴리스 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2229,
+    "method": "placeId"
+  },
+  "거제지심도횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 79,
+    "method": "placeId"
+  },
+  "동해횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 152,
+    "method": "placeId"
+  },
+  "레스토랑G": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 530,
+    "method": "placeId"
+  },
+  "훠궈야 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2693,
+    "method": "placeId"
+  },
+  "영동갈비살": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 248,
+    "method": "placeId"
+  },
+  "하레이자카야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 516,
+    "method": "placeId"
+  },
+  "보스골뱅이치킨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 268,
+    "method": "placeId"
+  },
+  "장수서울순대가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 245,
+    "method": "placeId"
+  },
+  "강릉엄지네꼬막집 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 342,
+    "method": "placeId"
+  },
+  "스트릿 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 571,
+    "method": "placeId"
+  },
+  "동인동 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2031,
+    "method": "placeId"
+  },
+  "록스플레이트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1049,
+    "method": "placeId"
+  },
+  "전주콩나루 콩나물국밥": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "초량돼지": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이태리부대찌개 삼성강남경찰서점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "대한민국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 198,
+    "method": "placeId"
+  },
+  "담미온 강남경찰서점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 964,
+    "method": "placeId"
+  },
+  "포포빈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 243,
+    "method": "placeId"
+  },
+  "뒤끝": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 408,
+    "method": "placeId"
+  },
+  "플라넌": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "어부2가": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "엠바": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "생어거스틴 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3012,
+    "method": "placeId"
+  },
+  "딤섬청요리전문점 하이보": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "동강": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 442,
+    "method": "placeId"
+  },
+  "계동치킨 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 211,
+    "method": "placeId"
+  },
+  "스시츠카무 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1458,
+    "method": "placeId"
+  },
+  "사조참치삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 682,
+    "method": "placeId"
+  },
+  "삼성골": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1200,
+    "method": "placeId"
+  },
+  "아리랑 Arirang": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 193,
+    "method": "placeId"
+  },
+  "마라품격": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 760,
+    "method": "placeId"
+  },
+  "방배김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 168,
+    "method": "placeId"
+  },
+  "샌드위밋 파르나스점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "홍영재장수청국장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 485,
+    "method": "placeId"
+  },
+  "희래등": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 608,
+    "method": "placeId"
+  },
+  "한국촌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 665,
+    "method": "placeId"
+  },
+  "삼군김치찌개": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 426,
+    "method": "placeId"
+  },
+  "부산완당 COEX": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "얌샘김밥 대치삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1775,
+    "method": "placeId"
+  },
+  "기꾸": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "족발보쌈마을": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 656,
+    "method": "placeId"
+  },
+  "부산아지매국밥 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 501,
+    "method": "placeId"
+  },
+  "히노츠키 그랜드인터컨티넨탈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 14,
+    "method": "placeId"
+  },
+  "김밥까페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "임고집한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "놀부보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명동할머니국수 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카츠8 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "길농원": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "리틀사이공 파르나스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이나세": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉남이네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "먹쇠네": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "Gate9": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남산옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카레마치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남오토코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성역옥토버훼스트": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "스타디아홀": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "개성집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주 순옥이네 명가": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "리김밥 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "조마루뼈다귀 삼성점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "Chai797 파르나스몰점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "샐러드박스 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우도옥 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "트라가 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "목포명가 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "솥내음 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남연가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "페이홍러우 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고메램 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "양심장어 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김인복의광평 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해담채 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오징어세상 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "탐라도야지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "광화문석갈비 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모도우 The ROOM 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무쇠김치삼겹 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몰튼스 더 스테이크하우스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 22,
+    "method": "placeId"
+  },
+  "그랜드 인터컨티넨탈 메르카토521": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 903,
+    "method": "placeId"
+  },
+  "핫쵸 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더이탈리안클럽 현대백화점무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멜팅샵 치즈룸 파르나스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더타코부스 NYC 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1986,
+    "method": "placeId"
+  },
+  "더플레이스 스타필드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호호식당 스타필드코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오크우드 프리미어 오크레스토랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시마스시 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "케르반 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 코엑스아셈타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수담 한정식 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1760,
+    "method": "placeId"
+  },
+  "멍텅구리꼼장어막창 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1435,
+    "method": "placeId"
+  },
+  "428 레스토랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1020,
+    "method": "placeId"
+  },
+  "김돈이 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2804,
+    "method": "placeId"
+  },
+  "서관면옥 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 19,
+    "method": "placeId"
+  },
+  "포스톤즈 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "솥내음 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "성북동청국장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영동가든": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 966,
+    "method": "placeId"
+  },
+  "목포명가 봉은사역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 968,
+    "method": "placeId"
+  },
+  "솥내음 강남 역삼 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 734,
+    "method": "placeId"
+  },
+  "만목": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 160,
+    "method": "placeId"
+  },
+  "알렉산더 커피 스튜디오": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 237,
+    "method": "placeId"
+  },
+  "봄담아 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 669,
+    "method": "placeId"
+  },
+  "코지라멘 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 10474,
+    "method": "placeId"
+  },
+  "미랑 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1226,
+    "method": "placeId"
+  },
+  "스시이안앤 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3745,
+    "method": "placeId"
+  },
+  "동화고옥 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1091,
+    "method": "placeId"
+  },
+  "부대찌개대사관 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 24685,
+    "method": "placeId"
+  },
+  "머무를 정 세이로무시 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1266,
+    "method": "placeId"
+  },
+  "논두렁오리주물럭 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 5204,
+    "method": "placeId"
+  },
+  "이가네양꼬치 선릉역직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 469,
+    "method": "placeId"
+  },
+  "야키토리 잔잔 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1506,
+    "method": "placeId"
+  },
+  "이복희해장 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3219,
+    "method": "placeId"
+  },
+  "스시이찌 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1006,
+    "method": "placeId"
+  },
+  "바오로흑염소 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 255,
+    "method": "placeId"
+  },
+  "뽕나무쟁이 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2761,
+    "method": "placeId"
+  },
+  "진대감 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3675,
+    "method": "placeId"
+  },
+  "순정갈비 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 834,
+    "method": "placeId"
+  },
+  "일품진진수라 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1038,
+    "method": "placeId"
+  },
+  "청자골": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 474,
+    "method": "placeId"
+  },
+  "고설우 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 239,
+    "method": "placeId"
+  },
+  "우곱집 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1416,
+    "method": "placeId"
+  },
+  "이화옥 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화설 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김이정 숯불구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해봉정육 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "민규 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "냉동고집 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도담 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대치정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주덕구 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈꼬레": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연몽 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "의령전원": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연송": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이자카야 미주 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키도리 수다": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "훈이자카야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쿠시일오이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "키친바락": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노메 이자카야 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지직 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토노야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "리브": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지칸 삼성2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미미동 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정일면 삼성점 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토말실비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뉴스타하이볼 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한사발포차 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉도원 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조을지로골뱅이 코엑스 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선주가 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포차일공": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "여포집 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "요리가 있는 술집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "새벽밤바다 강남본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배가무 닭볶음탕 대치본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "성균관 사시미 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "용수사": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그랜드 인터컨티넨탈 히노츠키": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미노센": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쇼지 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이치규 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부타이 1막": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시도손 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정참치 선릉역본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사조회참치 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롤드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몰타참치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화수사": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시욘즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시아오마츠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어방참치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호신각": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍운장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서래향 삼성대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그랜드 인터컨티넨탈 서울 파르나스 웨이루": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시추안하우스 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신 차이홍": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하이보 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몽중헌 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "흑백홍 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하이디라오 COEX점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "불이아 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라토끼 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라공방 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신왕우육면": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우면관 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한성양꼬치 선릉1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "예가낙지마을": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조강뚝꼬치구이전문점 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정통마라탕마포마라회관 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신마라명가마라탕&마라샹궈 강남대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "빠완 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라의신 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "치바오 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "리칭본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일일향 삼성11호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "운봉": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "천미향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "니뽕내뽕 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르브런쉭 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미태리 선릉포스코점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쿠차라 코엑스몰오크우드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피제리아호키포키 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이비티 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "플랜튜드 스타필드코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안식 레스토랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아메리칸테이블": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파크 하얏트 서울 코너스톤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라스키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그란구스또": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비마이게스트 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아웃백스테이크하우스 코엑스스타필드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "문어앤치킨 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성동치킨 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "루나아시아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후라이드참잘하는집 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온더보더 코엑스도심공항점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바토스 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "KFC 코엑스MALL": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "테라로사 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브라이언스커피 포스코사거리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 삼성역섬유센터R점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "앤써 서울": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바나프레소 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그랜드 인터컨티넨탈 로비 라운지&바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파리크라상 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "북앤레스트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페드리옹 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 코엑스별마당점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "웨스틴 서울 파르나스 더 로그": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투썸플레이스 포스코사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아라비카 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "테라로사 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오더에스프레소&베이커리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모모 베이글": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "벨지움재즈카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페마마스 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페아모제 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "클로리스 삼성중앙역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베카프리미엄델리샵": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스윗버튼 스타필드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페인더무드 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사라베스 현대백화점무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오페라빈 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "퀴즈노스 대치사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비마이게스트 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명인대동양평해장국 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보름쇠 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소연 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명인등심 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우밀가 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반룡산": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "담미온 삼성중앙역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "복드림 복국 콩나물국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수림복국 선릉 삼성 별관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성대주옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "금수복국 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동래복국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "황태만상 선릉포스코직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉해장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일품양평해장국 강남대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아야진생태찌개 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부탄츄 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수림복국 선릉 삼성 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "최순옥명품국밥 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카토멘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전우소고기해장국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서울깍두기 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "종로면옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수하동 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "풍성옥 강남본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온새미로 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "두꺼비정육점식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명가원설농탕 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한촌설렁탕 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신선설농탕 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어머니족발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "초원족발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백세주마을 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그때그집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더맛있는족발보쌈 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반반족 강남대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반하는보쌈 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성 족발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성족발 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "편장군족발 현대백화점무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숭의족발 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "족발공화국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사또족발 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "족발신선생 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "형제곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "황소곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "손에손잡고 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소곱삼 강남 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미당뭉티기 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온니담": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "세계관 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대도파곱창 낙곱새": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이모네뭉티기": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무월식탁 코엑스 파르나스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피양콩할마니": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김명자굴국밥 삼성3호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "평창집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "순두부열전": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이대성의진면목 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "류창희국수 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김밥킹 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후토루 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "여신김밥 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김피라 스타필드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이드쇼 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고씨떡볶이 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청담동마녀김밥 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소운나김밥 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김밥천국 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오미마리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오 예술김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "헐레벌떡 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김밥천국 포스코4거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방배김밥 삼성섬유센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후토루 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉구스밥버거 대치사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "종로김밥 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다정한떡볶이현대백화점무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소풍 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼청당 강남포스코점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르사이공 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반포식스 포스코사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노이 봉은사 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호아빈 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이공본가 포스코점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노이 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포베이 도심공항점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "벳남미식 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포텐": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호앙비엣 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비욘드비엣남 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반포식스 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "메콩타이 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이공본가 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무삥과팟타이 삼성본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 427,
+    "method": "placeId"
+  },
+  "소이연남 스타필드 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파파야리프 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태국의밤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타이반쩜 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "알로이타이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아그라 스타필드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커리인 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르까프골프연습장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커리146 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아그라 롯데백화점 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청담스포피아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영덕횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "속초오징어어시장 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "회초리씨푸드 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숙성회장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사시미랑초밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안동찜닭&해물떡찜": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "택이네조개전골 서울삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육지로 간 고래 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바이킹스워프 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "웨스틴 서울 파르나스 온 테이블": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "덴키카츠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부엉이식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정원돈까스 포스코 대치학원가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미카제": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동경": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사보텐 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피제이돈까스 스타필드코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도모다찌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈부리칸": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사쿠카츠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라멘호토리 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더라멘워 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쇼군 스타필드코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송강제면소 강남삼성 직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키니쿠 규": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소노야 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카츠선명": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "히노아지 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멘무샤 스타필드코엑스몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "센도수산": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멘츠루 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미아리 우동집 대치동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "앰버더피자룸": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스폰티니 PUB 삼성중앙점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고든램지 스트리트 버거 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옐로트렁크": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노브랜드버거 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "힘난다버거 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맘스터치 대치사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파파존스 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멜츠버거 삼성역": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롸카두들 내쉬빌 핫치킨 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맘스터치 피자앤치킨 대치사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르푸도레": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "드코닝 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페쎄미 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포카코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "언더라인": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더치앤빈 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "죠샌드위치 대치사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페 더하리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르뱅룰즈 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 도심공항타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "크랩52&샤브52": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그랜드 인터컨티넨탈 그랜드 키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맛나무": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유리앤 아레테": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바른식탁 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온기 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼백플러스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "밥스키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전셰프의 뷔페플러스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보노보노 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이비스스타일앰배서더강남 프레쉬365다이닝": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남집밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가득드림 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤블랑157 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브촌by계백집 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하나샤부정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노야 스타필드 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오동도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선향정 샤브샤브 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미성양꼬치 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "편백집 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나의가야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "등촌샤브칼국수 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동촌 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "은마상가 피자느반 대치동학원가 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김태완스시 대치본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "에그파일즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김치옥 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돌산등대집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "난포 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한우뜸 포스코센터선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "솔솥 선릉 삼성 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "국민한우집 삼성역본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "목삼정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이치류 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봄카츠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오마뎅 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곰살이네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "혼밥일기 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉 닭곰탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "싸움의고수 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "긴자료코 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "키와미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도쿄 멘친테이 혼포": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "능라도 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주오전복 스타필드 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주갈치전문점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "상록수 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "끓임 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이향 삼성동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보돌미역 강남포스코점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전주집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백반감자탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김미영앤드집밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선애밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "산호골": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "윤식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조해장촌 뼈구이한판 감자탕 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남도밥상이어요 삼성중앙점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카소미야 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가거도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "건강밥상 현대백화점무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멸콩국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "통빱": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아오끼": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일품두부 삼성동본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "웰컴투순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "먹보소갈비살 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서래쭈꾸미 청담역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉돈까스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잇쇼우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "캠토토스트커피&1인집밥정식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이천가든 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주부엌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우노": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장독대": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청담수 청담역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남부 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "불백아찌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "딸부자네불백 역삼점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부뚜막": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일리있는": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백압관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포란 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "면요리연구소 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "셰프의국수N육개장 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대치동마당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백소정 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경평면옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경성면옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "은하수면옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "판동면옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경성면옥 스타필드코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "풍년집 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배꼽집 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한솔냉면 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "밀밭 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉계타 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "문배동 육칼 삼성동직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "속이 꽉찬 만두 99.9": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선비칼국수 삼성대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남교자 스타필드코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소호정 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미사리밀빛초계국수 삼성코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "교대이층집 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남포동 수제비 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오면가면칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정삼이네수제비김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "밀밭사이로칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "향호면옥강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉이밥 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보글지글 부대찌개&닭볶음탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소표국수한티점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미러칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "산월수제비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "범호국수 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "행복들깨수제비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오늘은닭 삼성코엑스본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "빠들담 닭갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "핫스토리 부대찌개": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍수계찜닭 포스코센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영희네 닭갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유가네닭갈비 한티역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉구스밥버거 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉구스밥버거 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바른 닭칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한가네숯불닭갈비 역삼점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한가람식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한방정통삼계탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼계옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김치공장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지호한방삼계탕 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "길포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "월매네주막 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남밭": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성한방삼계탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아리랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "막끌리네 삼성코엑스본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남노명가 삼성직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신사골감자탕 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신동궁 감자탕 뼈숯불구이 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼성동뼈다귀집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남도감자탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "족발야시장&무청감자탕 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진담옥 감자탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도마다리 감자탕 강남점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한소반탕마을": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팔팔감자탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉감자탕뼈숯불구이 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "석기정돌솥부대찌개 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "흑도야지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아선재": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "금복당 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소소헌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경복궁 블랙 오크우드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "매드테이블 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백년가 삼성중앙역본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영동식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본도시락 대치은마점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쭈불앤쭈불 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "식껍 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한국인의 솥밥 숯불한우 도야지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서해쭈꾸미 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉쭈꾸미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "애니홀": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "냉삼식당 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청국장과보리밥 청담점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼월애쭈꾸미 콩나물국밥 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명품 칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김뚜껑 부대찌개 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "넘버원양꼬치 강남 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가네양꼬치 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가네양꼬치 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신라양꼬치 삼성동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미쓰양꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한성양꼬치 선릉2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가네양꼬치 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호우양꼬치 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "양꼬치 전문점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "징기스칸 슌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "항방양꼬치 한티점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제일양 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명품 청운러우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경성양꼬치 청담점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만리장성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "매머드익스프레스 봉은사로 선정릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팀호완 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 봉은사로선정릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 삼성봉은사로점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후토시 대치본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가초밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "튀김아저씨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화목": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이오복순대국 대치은마점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마미치킨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "극강은마 대치본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시하쿠샤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시류": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시호 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진미언양불고기 삼성동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "와인웍스 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파크 하얏트 서울 더 팀버 하우스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배산임수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뮤직아날로그": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이비스 스타일 앰배서더 강남 르바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하이엔드 위스키": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "엘리스와인": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피바 힘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이드에이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "빌라파이브": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "로이든 바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "10월19일": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "블룸": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마이위스키테이블 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영심이와SECOND bar": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몰트바배럴": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오스카": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오크바 오크우드 프리미어 코엑스 센터": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "디오엠삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시가플레이스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "WHISKY TheA": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신라스테이 삼성 바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "체인엔터라운지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "까발로비안코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키니쿠 스미비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진대감 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연타발 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오발탄 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오발탄 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카마도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "60년전통신촌황소곱창 선릉직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대파 양곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청춘닭볶이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "세광양대창 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육곱식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "윈스커피": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "텟어텟": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베르체 도심공항터미널점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "에덴스벨리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "로코하우스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "랄프스커피 파르나스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도레도레 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한정선 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피어커피 코엑스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "누누커피": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피진심베이커리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소울마켓 베이커리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "에키노마에 현대백화점 무역센터점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페자몽": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "에이알커피": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브라이언스커피 현대백화점 무역센터": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼송빵집 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스템커피 코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더제이제이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아트몬스터 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생활맥주 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동호숯불바베큐호프": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베이비기네스 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타임즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생활맥주 삼성코엑스 2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오비어밤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생활맥주 삼성휘문점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "기네스72 삼성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비어팩토리 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생활맥주 삼성코엑스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가든": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만선호프 을지로직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "Poke all day 포케&샐러드 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디 봉은사역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멘야미코 청담역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수미돈 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시사카바 산원": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지칸 삼성1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오카동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "조인바이트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "37.5 시그니처 청담점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더라운드 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "티엔티엔티엔": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "귀신반점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "친친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉고깃집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고래사냥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안주가 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청춘포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청담나인": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "빨강우산 부대찌개 선릉역 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오케이파스타 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선릉도담 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "1703 참한집 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "힘내라정육식당 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바우한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "푸드카페김밥천국 삼성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "249광양불고기 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아담스애플": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디아 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "슬로우캘리 삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "불고기브라더스 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "담소소사골순대육개장 삼성1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "북창동순두부 코엑스몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "순두부와 삼겹살": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호미곶막회물회 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전주순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "자매분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "군선생 포스코사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타코잇 선릉역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "로꼬타코 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부리또리 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "엘에이도그&부리또 코엑스삼성점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타코치바스코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지미스 타코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비야게레로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "칠랑고 선릉본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "프레시부리또 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도스타코스 선릉점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "펠리스산쵸 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "자이온 대치점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더타코부스 한티역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멕시칸치킨 대치2점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브라운그릴": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타코레아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  }
+}

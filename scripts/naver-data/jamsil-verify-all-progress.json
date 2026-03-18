@@ -1,0 +1,8584 @@
+{
+  "방이옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "올림픽 참숯갈비": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "석촌 이자카야 사쿠라": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 파스타공방": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 새마을식당": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 황소곱창": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 양곱창": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 육칼국수": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "송리단길 브런치 온": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 막국수": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "석촌호수 카페 레이크뷰": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 스시카이": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 낙곱새": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 족발보쌈": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "석촌 수제버거 브루클린": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 롯데몰 딘타이펑": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 빈대떡 막걸리": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 교촌치킨": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 인도카레 나마스테": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 와인바 그레이프": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 닭갈비": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 양꼬치 신장": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 곰발바닥 족발": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 스몰비어 탭하우스": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 쭈꾸미 볶음": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 막창 골목": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 타코야끼 본점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 마라탕 향": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 참치 마구로": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 광장 육회": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 멕시칸 타코박스": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "롯데타워 스시 효": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 더 오마카세 준": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이옥 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "부자등심": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "그릴1492 잠실점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "초원소금구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "찌마기 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "요즈음 잠실방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "청초수물회": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "몽돌조개구이집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "개나리아구찜 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "싱어리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "배키욘방": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "동면": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "요리하는남자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "피자덕후피자힙 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "짚불구이 본가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "봉땅": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "한아람 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "요시 이자카야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "활문어집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "크래프트아일랜드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 스시야": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 연어덮밥": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "본디 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "고도식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "단디": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "그리지하우스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "갓잇": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "금금": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "인딕슬로우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "서보": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "엘리스 리틀 이태리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "세컨디포레스트": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "멘야하나비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "우무드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "뷰클런즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "다운타우너 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "아낙네그루브": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "오사이초밥 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "서울리즘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "호르몬동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "런던베이글뮤지엄 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "더빛남": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "쥬뗑뷔뜨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "서정적살롱": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "벨라스가든": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "진저베어파이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "대만우육면집 잠실": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "롯데호텔라세느": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "바이킹스워프 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "도쿄등심 롯데캐슬점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "팟어케이크": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "웰하우스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "김태완스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "차만다": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "스시스미레": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "라비또": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "온레스토": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "소나무이자카야": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이 돈부리 일식": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "잠실 삼계탕 궁": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "송돝": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "대세박목살 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "모소리 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "별미곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "옛촌매운갈비찜": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "장생관 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "쌍연이포차": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "한사발포차 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "또올래곱창 송파점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "글로리칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "남다른감자탕 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 대가집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "농부의꿈": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "미친양꼬치 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "글로리샤브샤브": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "돼지명가 방이동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "고반식당": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "독도쭈꾸미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 짱꼬집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "백암왕순대 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 칼국수집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 보리굴비집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 마라탕집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 족발집": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 부대찌개": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "아라쭈꾸미 방이점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "벽제갈비 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "이랑칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "완도산회 포장마차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "대가주점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "화목순대국": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "소담삼겹": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "명동돼지국밥": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "모란식당": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "방이동 생선구이": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "짬뽕지존": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "교동짬뽕 잠실점": {
+    "exists": false,
+    "notFound": true,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "소금집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "search"
+  },
+  "안목 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 686,
+    "method": "placeId"
+  },
+  "롯데호텔월드 더 라운지 앤 바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2090,
+    "method": "placeId"
+  },
+  "스시이안앤 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2967,
+    "method": "placeId"
+  },
+  "태산회전훠궈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 339,
+    "method": "placeId"
+  },
+  "일월고기": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2877,
+    "method": "placeId"
+  },
+  "픽베이크 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2811,
+    "method": "placeId"
+  },
+  "라스트춘선 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1013,
+    "method": "placeId"
+  },
+  "골드참치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3347,
+    "method": "placeId"
+  },
+  "호랑이굴 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3036,
+    "method": "placeId"
+  },
+  "청선 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1566,
+    "method": "placeId"
+  },
+  "쌤쌤쌤 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 12138,
+    "method": "placeId"
+  },
+  "일월의밤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 99,
+    "method": "placeId"
+  },
+  "깃뽀 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2471,
+    "method": "placeId"
+  },
+  "VGG": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 627,
+    "method": "placeId"
+  },
+  "트라가 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4198,
+    "method": "placeId"
+  },
+  "메밀집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4976,
+    "method": "placeId"
+  },
+  "연남토마 롯데캐슬 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 33,
+    "method": "placeId"
+  },
+  "보승회관 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2718,
+    "method": "placeId"
+  },
+  "코티지 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1817,
+    "method": "placeId"
+  },
+  "소뭉집 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1266,
+    "method": "placeId"
+  },
+  "진성한우곱창 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1617,
+    "method": "placeId"
+  },
+  "연낙 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 715,
+    "method": "placeId"
+  },
+  "오막하세 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 118,
+    "method": "placeId"
+  },
+  "지강한식당 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 7524,
+    "method": "placeId"
+  },
+  "몽촌 닭갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1804,
+    "method": "placeId"
+  },
+  "조개진": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 944,
+    "method": "placeId"
+  },
+  "숙수돈가 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2077,
+    "method": "placeId"
+  },
+  "독도회센터": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 261,
+    "method": "placeId"
+  },
+  "방이돈가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 840,
+    "method": "placeId"
+  },
+  "우리한돈 방이본관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1247,
+    "method": "placeId"
+  },
+  "표현식당 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1409,
+    "method": "placeId"
+  },
+  "함평육회 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3584,
+    "method": "placeId"
+  },
+  "광화문갈비 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 620,
+    "method": "placeId"
+  },
+  "홍교집 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2668,
+    "method": "placeId"
+  },
+  "육화식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1410,
+    "method": "placeId"
+  },
+  "화반 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1337,
+    "method": "placeId"
+  },
+  "동화고옥 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2521,
+    "method": "placeId"
+  },
+  "굽돌집 잠실방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1575,
+    "method": "placeId"
+  },
+  "이소한우전문 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1632,
+    "method": "placeId"
+  },
+  "우대포 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3595,
+    "method": "placeId"
+  },
+  "광화문등심 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 387,
+    "method": "placeId"
+  },
+  "묵힘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 372,
+    "method": "placeId"
+  },
+  "전설의우대갈비 잠실석촌호수직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1039,
+    "method": "placeId"
+  },
+  "후발대 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 673,
+    "method": "placeId"
+  },
+  "꿉당 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 406,
+    "method": "placeId"
+  },
+  "로스로스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2496,
+    "method": "placeId"
+  },
+  "도깨비마을": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 320,
+    "method": "placeId"
+  },
+  "뼈고다": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 331,
+    "method": "placeId"
+  },
+  "빽돈 잠실 방이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 7041,
+    "method": "placeId"
+  },
+  "만주": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 980,
+    "method": "placeId"
+  },
+  "이자카야 대물 잠실방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1009,
+    "method": "placeId"
+  },
+  "이자카야 우규 방이동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1449,
+    "method": "placeId"
+  },
+  "이카리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 690,
+    "method": "placeId"
+  },
+  "이날 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1482,
+    "method": "placeId"
+  },
+  "도톤보리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 517,
+    "method": "placeId"
+  },
+  "야키토리잔잔 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1805,
+    "method": "placeId"
+  },
+  "요즈음": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2067,
+    "method": "placeId"
+  },
+  "대박쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1032,
+    "method": "placeId"
+  },
+  "야키톤탄탄": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 992,
+    "method": "placeId"
+  },
+  "압구정수산시장 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 525,
+    "method": "placeId"
+  },
+  "금우도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 477,
+    "method": "placeId"
+  },
+  "철판오사카야 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1001,
+    "method": "placeId"
+  },
+  "세이야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 154,
+    "method": "placeId"
+  },
+  "야키토리 나루토 방이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 104,
+    "method": "placeId"
+  },
+  "야키토리 로만 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 373,
+    "method": "placeId"
+  },
+  "쿠시노아 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 181,
+    "method": "placeId"
+  },
+  "산카이 이자카야 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 495,
+    "method": "placeId"
+  },
+  "감성요리점 메끼야": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 797,
+    "method": "placeId"
+  },
+  "7번방 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3305,
+    "method": "placeId"
+  },
+  "대취 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1488,
+    "method": "placeId"
+  },
+  "조조모모": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1497,
+    "method": "placeId"
+  },
+  "한남대교": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 982,
+    "method": "placeId"
+  },
+  "매주가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1084,
+    "method": "placeId"
+  },
+  "신비주막": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1175,
+    "method": "placeId"
+  },
+  "칼누들바 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1089,
+    "method": "placeId"
+  },
+  "청불천막집포차 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 241,
+    "method": "placeId"
+  },
+  "범포구 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1110,
+    "method": "placeId"
+  },
+  "새마을포차 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 471,
+    "method": "placeId"
+  },
+  "무진장포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 320,
+    "method": "placeId"
+  },
+  "불마차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 299,
+    "method": "placeId"
+  },
+  "강호의도리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 762,
+    "method": "placeId"
+  },
+  "문어천하": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 293,
+    "method": "placeId"
+  },
+  "방이 광안리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해목 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "덴푸라감춘 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진가와 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시이세이 롯데백화점 에비뉴엘 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "코바치 잠실 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소피텔 앰배서더 서울 미오": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마루가메 우동 잠실롯데월드몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시아지 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해담": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "세이류": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "치마오": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토도로끼": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "산고 스시바 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방이수산 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이타마에스시 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "갓덴스시 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "헤이로쿠스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청화초밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나루스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우주횟집 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시우미 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만옥 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "형제애": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "난랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "심포니오브차이나": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "댄싱홍콩 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데호텔 월드 도림 더 칸톤 테이블": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모던눌랑 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일일향 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서두산딤섬 2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신류 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "딤딤섬 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팔진향 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "Chai797 잠실롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태산양꼬치 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야래향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보배반점 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "딘타이펑 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "js가든 시그니처 잠실 에비뉴엘점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보배반점 롯데월드 아이스가든점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "상하이꽁시면관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "성화마라탕 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라사부마라탕 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라장양갈비,양꼬치 무한리필": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미미램양꼬치 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마르르 롯데월드몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "양복점 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라화쿵부 롯데마트 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라공방 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미성양꼬치 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일미양다리꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라홍방마라탕 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마라공방 롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "용용선생 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2630,
+    "method": "placeId"
+  },
+  "경미양꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "채선당 자연한가득 롯데월드 몽촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "차알 잠실730타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미성양꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 75,
+    "method": "placeId"
+  },
+  "선주가 방이먹자골목점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 772,
+    "method": "placeId"
+  },
+  "만다복 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2536,
+    "method": "placeId"
+  },
+  "경몽루 제타플렉스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 218,
+    "method": "placeId"
+  },
+  "오끼 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 557,
+    "method": "placeId"
+  },
+  "Chai797 롯데백화점 잠실점 캐슬플라자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1086,
+    "method": "placeId"
+  },
+  "만리장성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르뵈프 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "MIP": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더 이탈리안 클럽": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2376,
+    "method": "placeId"
+  },
+  "마노디셰프 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1799,
+    "method": "placeId"
+  },
+  "보틀벙커 비스트로 Bottle Bunker Bistro": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 191,
+    "method": "placeId"
+  },
+  "오스테리아 라고": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 507,
+    "method": "placeId"
+  },
+  "디라이프스타일키친 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 7161,
+    "method": "placeId"
+  },
+  "정순함박 잠실 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3039,
+    "method": "placeId"
+  },
+  "카페마마스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4576,
+    "method": "placeId"
+  },
+  "러반로제 레스토랑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 723,
+    "method": "placeId"
+  },
+  "라콘차 롯데백화점 에비뉴엘 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 109,
+    "method": "placeId"
+  },
+  "쉐이크쉑 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3171,
+    "method": "placeId"
+  },
+  "매드포갈릭 롯데시네마월드타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4838,
+    "method": "placeId"
+  },
+  "고든램지버거 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 12214,
+    "method": "placeId"
+  },
+  "시그니엘 서울 STAY": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2802,
+    "method": "placeId"
+  },
+  "캐롤스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 6242,
+    "method": "placeId"
+  },
+  "라코즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2171,
+    "method": "placeId"
+  },
+  "빌즈 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3437,
+    "method": "placeId"
+  },
+  "퍼프룸 치즈룸 월드타워": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 10306,
+    "method": "placeId"
+  },
+  "르글라스 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 729,
+    "method": "placeId"
+  },
+  "세상의모든아침 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2344,
+    "method": "placeId"
+  },
+  "콘피에르 셀렉션 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 175,
+    "method": "placeId"
+  },
+  "로얄테라스가든": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1101,
+    "method": "placeId"
+  },
+  "123라운지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소피텔 앰배서더 서울 페메종": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "목탄장 롯데백화점에비뉴엘잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "작살치킨 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3865,
+    "method": "placeId"
+  },
+  "손에손잡고 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 426,
+    "method": "placeId"
+  },
+  "BBQ치킨 빌리지 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 823,
+    "method": "placeId"
+  },
+  "BHC치킨 송파구청점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 516,
+    "method": "placeId"
+  },
+  "치킨뱅이 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 735,
+    "method": "placeId"
+  },
+  "교촌치킨 방이2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1310,
+    "method": "placeId"
+  },
+  "교촌치킨 잠실2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 256,
+    "method": "placeId"
+  },
+  "감상": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 716,
+    "method": "placeId"
+  },
+  "키친오브인디아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 470,
+    "method": "placeId"
+  },
+  "메가MGC커피 송파구청점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페드로잉 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "테디뵈르하우스 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아쿠아가든카페 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커넥트투": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 2238,
+    "method": "placeId"
+  },
+  "젠젠 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 6885,
+    "method": "placeId"
+  },
+  "올드페리도넛 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 852,
+    "method": "placeId"
+  },
+  "모타운 서울": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 771,
+    "method": "placeId"
+  },
+  "노티드 잠실롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 6741,
+    "method": "placeId"
+  },
+  "스타벅스 송파KT점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 4721,
+    "method": "placeId"
+  },
+  "더반베이크샵 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3357,
+    "method": "placeId"
+  },
+  "키친205 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "킴스델리마켓 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비밀베이커리 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마이서울바이츠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 522,
+    "method": "placeId"
+  },
+  "엔제리너스 잠실샤롯데점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 3468,
+    "method": "placeId"
+  },
+  "위커파크 이스트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 525,
+    "method": "placeId"
+  },
+  "뉴질랜드스토리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 1138,
+    "method": "placeId"
+  },
+  "소피텔 앰배서더 서울 레스파스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 815,
+    "method": "placeId"
+  },
+  "오리지널팬케이크하우스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "슬로우어스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "크림베이글 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "버터핑거팬케익스 잠실롯데점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한뭉티기": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진지한국밥 잠실롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장미시장국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육전국밥 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서래냉면 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "횡성한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "솔직한우 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주삼대국수 잠실장미직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투뿔 한우천국 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "조박사토종순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숙성시대 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈블랑 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투뿔한우천국 2호직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가마솥순대국밥 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "을밀대 롯데백화점잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "얼큰본가 연품뼈해장국 24시 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "달래해장 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포뚜옌달랏 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "금수복국 잠실소피텔점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽&비빔밥 잠실푸르지오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육장정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽&비빔밥 잠실역지하상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라디오헤드펍": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼백집 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제주은희네해장국 잠실직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한신북어국 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도이티 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청담동순도리 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "양양집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉피양 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼우정 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본가설렁탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실설렁탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수하동 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마싯소 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "참설농탕 송파본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유원설렁탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "황귀엄나무닭곰탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장안정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우리정육점식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진미옥설렁탕 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한강": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우리한우곰탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전주설렁탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도니족발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 933,
+    "method": "placeId"
+  },
+  "뽕족 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 327,
+    "method": "placeId"
+  },
+  "완미족발 서울방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 819,
+    "method": "placeId"
+  },
+  "더맛있는족발보쌈 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 412,
+    "method": "placeId"
+  },
+  "더히어로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 238,
+    "method": "placeId"
+  },
+  "촉디": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 578,
+    "method": "placeId"
+  },
+  "구구족 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고래주방 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "꿀때기곱창 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태양곱창 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제일곱창 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도래집 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아는곱창 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "인생2막창 대구숯불막창 방이동 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장수소곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조부산화로양곱창 송파구청": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "헬로우낙곱새 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부엉이산장 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원할머니국수보쌈 제2롯데월드몰직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김경자원조손칼국수&보쌈 직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보부선부대보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데월드 저자거리 주막": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만석장 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수가성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한국교자 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "큰기와집 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김명자국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수 보리밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대강": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뽀빠이분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무궁화튀김": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "환희분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마미떡 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "떡산 롯데백화점잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유미분김밥 잠실 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만남분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장미분식 잠실장미상가 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제일맛있는집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사이드쇼 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올떡 잠실롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동대문엽기떡볶이 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "식물원김밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "두끼 홈플러스잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "공룡떡볶이 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이삭토스트 롯데백화점 잠실점 캐슬플라자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서울김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청년다방 롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오늘,김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보영만두 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유브유부 잠실롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "죠스떡볶이 월드타워롯데마트점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방배김밥 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "촙촙 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "땀땀 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "반포식스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포브라더스 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미분당 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "퍼틴 롯데백화점 잠실점 캐슬플라자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포차이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "퍼틴롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍대쌀국수 롯데마트잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포템템 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포베이 롯데월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포옹남 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포시애틀 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미분당 잠실학원가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베트남취향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "콘타이 송파 KT점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "콘타이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "골든타이키친": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방콕언니": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파이랭": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "월간우주": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아그라 롯데 잠실에비뉴엘점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아그라 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강가 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "인딕슬로우 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오징어선수촌 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파도집 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연안부두 횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "죽변항": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청춘종합어시장 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숙성회136 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "싱싱활어횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바이킹스워프 잠실 헤리티지점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무교낙지해물탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시선 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "찌마기 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이춘복참치 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "초온 서울": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이태리어부": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쇼미더크랩 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연주방 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "분지로 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시부야돈까스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시준": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후라토식당 잠실직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "간코 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "털보네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백소정 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진작 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "츠키젠 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "테루카츠 홈플러스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우동명가 기리야마": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "댓짱돈까스 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라멘쨩": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우츄진 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "칸다소바 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "코이라멘 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토리오": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미스타교자 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태양의토마토라멘 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모토이시 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일월애오사카": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오레노라멘 잠실롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잇츠월드 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미도인 송리단길": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멘츠루 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시선 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥인피자 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피자페이스오프 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "Jbout": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "디트로이트 1달러 피자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라뜰리에 르지우 월드타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피제리아라고": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "애슐리퀸즈 잠실롯데캐슬점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "매드포갈릭 롯데캐슬 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미즈컨테이너 롯데백화점잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멜팅소울 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브루클린더버거조인트 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맥도날드 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "짱구베이커리카페 롯데백화점잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데리아 잠실롯데월드몰B1점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모스버거 홈플러스잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데리아 롯데백잠실광장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "KFC 잠실롯데월드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데리아 언더랜드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브럭시 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "버거베어 롯데월드 어드벤처점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "세븐패티버거 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데리아롯데백화점잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "블리스라운드 롯데백화점 잠실점 캐슬플라자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페시나몬": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페아일랜드&베이커리 잠실1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아틀리에폰드 베이크앤모어": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "렌위치 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아쿠아디파르마 옐로우 카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르베지왕 롯데잠실공간": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "엔제리너스 롯데월드몰F1점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소피텔 앰배서더 서울 쟈뎅 디베르": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데호텔 월드 라세느": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청년고기장수 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한식뷔페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명가한식뷔페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "퀸즈가든 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브앤 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모던샤브하우스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "설온 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "복면옥 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "채선당 샤브보트 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥소반 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브로21 송리단점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모미지 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "등촌샤브칼국수 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진대감 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "편백집 잠실롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "등촌샤브칼국수 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한우리 잠실 에비뉴엘점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브테이블": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한우리 롯데백화점 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브플레이롯데월드몰": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어물전 청 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신라제면 잠실 롯데몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아도겐 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곽만근갈비탕 삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "손오향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "EU피자&파스타 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서호생갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화목집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라미아파밀리아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안재식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오일리버거 잠실석촌호수직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "불타니한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디 잠실스타파크점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시 스이신": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "88샤브": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "번쩍피자 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "짐승덮밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "싸움의고수 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "꿀꿀농장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "6떡갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온수반 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브로21 삼전": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파송": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브로21 잠실새내": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파인카츠 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "면24 석촌직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토오코": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "플로리샌드위치 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "SOS커피 브런치 석촌역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오봉집 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쭈꾸미도사 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천돼지 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진원소우 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "물고기자리 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우곱집 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한남동감자탕 잠실새내 직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍콩완탕면 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연탄부락 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투파인드피터 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카사데타코 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신선계 춘천숯불닭갈비 잠실새내본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동신상회 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대홍집 잠실새내본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무궁화정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥돈 클라식 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유담들밥 다온재": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "담은갈비 송파잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미강식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "임금돼지 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥봉갈비 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백석": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "드럼통참숯석쇠구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숯불성화": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후발대 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동래정 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대패감성 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장수식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "불타는삼겹살 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나리식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈순장 잠실새내 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "깃뽀 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이치고": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도마카세 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다이키 잠실새내본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숯토리 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "추엌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유키토리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키토리 로만 잠실새내 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팔각동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토우지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키토리 켄젠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쿠시노아 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잊힐리야 잠실새내": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "벌스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "손자네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수다주막": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연화리해녀촌 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한사발포차 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멜티도나": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동경산책 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "훈지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시 미타": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시애": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남해물고기 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라라스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "히비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도요스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "민 스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나레초밥 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바이완 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도원반점 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쯔린 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진지아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팡즈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "무한리필 홍태관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "취향마라 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태민양꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대홍샤브샤브 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "춘리마라탕 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "세인양꼬치 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동북양꼬치 신천본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "탕화쿵푸마라탕 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화심": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명가교동짬뽕 신천역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몽중헌 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "짬뽕지존 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "래빗캐슬 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "앨리나인": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송리단취향": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "까사피에스타 송파본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스카이가든": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토스카노": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "온량": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "제리브라운": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몽가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사생활 파스타&브런치카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "국민통닭 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옛날통닭호프 잠실동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "윙집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베이프치킨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청 치킨 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "영오이칠 초콜릿": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "테라로사 잠실한강공원점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "트레스드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "위커파크 웨스트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더팬런던테이블": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더치즈샵 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쾌세라": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르브리에": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정담옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "순대고집 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청와옥 석촌호수직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호석촌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비사벌전주콩나물국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "솔직한우 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실한우정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장옥정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "금금 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나물비빔밥&북엇국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포드림": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해주찹쌀순대": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "석촌칼국수보리밥 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장수설렁탕해장국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팔당족발&닭발 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만족오향족발 잠실신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "족발미녀 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "공씨네족발보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장원보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈푸짐감자탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이공족발 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장충동한방족발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토시래 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "박만배아리랑보쌈 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가장맛있는족발 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남도보쌈짚 잠실직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "초대창 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모퉁이직화구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유정소곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대갈곱창&막창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화덕돌곱창 잠실직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실황소곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동천곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부산양곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시래마루": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "산들해 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "칼라분식 루프탑": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오렌지분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실첫집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "입분식가정집 송파본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뉴서울분식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어멍서울분식 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고래즉석떡볶이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김반장과 부산어묵": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뽕식이네김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오뎅매니아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신전떡볶이 잠실2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도산 김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포시애틀 잠실새내리센츠점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "레몬그라스 타이 잠실송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어부바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태풍수산 1997": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "숙성촌 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "울랄라횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바다약방 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오징어잡는남자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나주왕대포": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "간이횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오징어청춘 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부산회집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어가": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "케이준서울": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "현순자 용대리코다리찜": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈까스의집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마싯내": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "교차점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "수아영 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미타우동 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김자순 수제돈가스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "헤세드 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈까스집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "백소정 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마카나이 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오리진": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "죠렌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오레노라멘송파": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나니요리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미소야 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "임뻬라또": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어론피자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피자네버슬립스 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보니스피자펍 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "프레디버거 삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올더웨이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맥도날드 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "차고버거": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "티제이버거앤파스타": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피크닉그린": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실그릴샐러드&더데일리쥬스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉봉샌드위치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우스블랑 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올드몬트베이글 잠실파크리오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올루올루 잠실삼전역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르봉마리아쥬 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "집밥한끼 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브올데이 서울잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "석촌집 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥소반 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천샤브칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청아식당 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천양꼬치 신천본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노을길": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화담": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시윤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청년감자탕 순대국 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청기와타운 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청국장과보리밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "늘푸른목장 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송추가마골 인어반 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "담가화로구이 잠실1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한나낙지마당 잠실동 직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남면옥 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실백정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다이닝갈비 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도야지공방 잠실새내 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "알라딘의양고기": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "와인에빠진저팔계": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아궁이왕돌구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배고픈 돼지 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "돈담 잠실새내본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "유정아 솥뚜껑오겹살 잠실직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오하이요 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그늘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마스타하이볼 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실새내 스시화": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아나바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시선 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키토리진": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "콤마": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "꼼포차": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "땡초우동인포차 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삼전역 2번부두": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "끌 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "벼락가우리 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고쿠텐 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "천수 횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "상무초밥 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "효탄신참치 2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호시아이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야나기스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진미참치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샹하이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤오롱바오 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대홍소양꼬치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하얼빈 양꼬치 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천마라샹궈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍콩반점0410 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "천미마라탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "킹콩 마라탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생마차 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쿠킹주방": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "중화요리린": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "해오름": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다래연 삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태정각": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "긴밀": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아이마미따": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "써브웨이 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맘스터치 잠실1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미태리 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명랑핫도그 잠실신천역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정띠": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "지미존스 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "KFC 잠실새내": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도스타코스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "폴스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "알루메": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "갤러리덴": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라치오파스타": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피자스쿨 잠실본동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보통의숲": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "thisispasta": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동일문": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "깐부치킨 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "치킨박사": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "치맥킹 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "깻잎닭강정": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "노랑통닭 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "1%치킨": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뉴코 노래타운 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다온닭강정 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곤트란쉐리에 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "200도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피바이 로스터스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옹뜌": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뚜레쥬르 잠실트리지움점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화이트리에 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "할리스 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카공족 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실바게트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "COFFEE MIMI": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그린앤베리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "엠비뉴": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "새러데이 런치클럽": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맨들러": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파스쿠찌 잠실삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "썬앤문 SUN&MOON": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "보승회관 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화로백암순대": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곤드레 솥밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한모네소문난순대집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "열정국밥 송파잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "춘천100%순메밀막국수&냉면 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "조선육회 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곱창과순댓국의만남": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "새마을순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전주콩나물국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽 삼전동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "옥이네김밥&라면": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽&비빔밥 잠실레이크팰리스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "최순옥명품국밥 잠실삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "건강한곰탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "흥부골숯불돼지왕갈비": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강남교자 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "공씨네한방족발 잠실새마을시장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "공씨네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명성왕족발 새마을시장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원할머니보쌈족발 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전왕족발보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "THE맛있는곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실대왕소곱창구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오마이양대창 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우이락 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부엉이산장 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "땅스부대찌개 잠실새마을시장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "막곱당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이모네곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉평메밀막국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍코너 신천 새마을시장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김가네 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호떡매니아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동대문엽기떡볶이 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오토김밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "을찌로국물떡볶이 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오마뎅 엘스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이삭토스트 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우리할매떡볶이 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "경복궁개성손만두": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올레김밥 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방배김밥 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "조개창고 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서민국수 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후다PHO베트남쌀국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "똣똣카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배달의쌀국수 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "푸짐회": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "생생아구 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오징어세상 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "멸치집 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김영희동태찜&코다리냉면 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "88조개": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토마루해물칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실장어와 한우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카츠원": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가츠몽 잠실리센츠점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바르다김선생 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고봉민김밥인 잠실신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정성한줄 신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명서식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "코코로라멘 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어니언스 석촌호수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "골목길그집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오월식육점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "슬며시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "버거그랩": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 잠실엘스점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오카": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 송파삼전점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "우주 샐러드 샌드위치 cafe": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "타운 샌드위치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바샌25": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부케도르": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디 잠실새내역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 신천역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "채프터눈 샐러드&포케&샌드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잠실동 101호": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "상주": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명륜진사갈비 석촌호수점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "향촌로타리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "등촌샤브칼국수 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샤브탕과 월남말이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "담소스키야키": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "현풍할매외손자집곰탕잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오마뎅 리센츠점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "Poke all day 포케&샐러드 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "프레퍼스 다이어트 푸드 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쉐프의차돌집 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육회바른연어 잠실신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "헬키푸키 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "야키니쿠소설 잠실새내점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연정민 소금구이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "석촌회뜨는중": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "청년감자탕 송파 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부농정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송파한우정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도삼숯불구이 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사사노하": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "정원다이닝 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송리단양조장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서아진 루프탑 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마초야 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뜻한바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "시스스시 송리단길점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시오하요": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시 이백": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "니시카사이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "현차이나": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이디앤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쇼땅쟈 마라탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동자매마라탕 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "역대짬뽕 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "중화일상 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송쉐프 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더리피코너": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "필앳홈스테이크하우스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "닭튜브 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비터솔트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "밀빛": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팻어케이크 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오쿠쿠베이커리 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대디스테이블 송리단길 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스트링빈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "윤국밥 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "풍년뼈다귀해장국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진본가족발보쌈": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조왕십리곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "방배소곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "대현굴국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모꼬지에": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "석촌활어회": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "완도산회 송파별관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "부부횟집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마린보이코다리1번가 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마츠미 석촌호수본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고인돌돈까스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "센도": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "키타이 잠실본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토나리우동": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "잇쇼니라멘 석촌점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아타타카이 라멘": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시호": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피제리아다븟": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "꼬따 송파나루역 본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "그릴210버거": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "메이플버거 DT": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "팻보이버거 송파점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "룰루베이글": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오린지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "브루브루": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마루미베이글": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "힘내라정육식당 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페페퍼": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마차이 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "코코로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하나레": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시소라그린 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "비스트로 방이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시&회 산": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "기꾸참치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가일": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하얀스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어양": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이가네양꼬치 방이직영점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "춘리마라탕 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "덕클 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "루티드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "버거킹 송파나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "라뷔": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오니샐러드": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롯데리아 몽촌토성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다이닝 랑만": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "주신당 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오르베": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 방이스타점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "기투커피로스터스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "앙떼띠 커피로스터리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투썸플레이스 송파구청사거리점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 몽촌토성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아티제 올림픽공원점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "명조커피앤베이커리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "딜라이트호텔 Cafe Bolzan": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이오공곰탕 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "본죽 방이시장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장수본가해장국 송파나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "원조명성곱창": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "곱이랑창이랑 방이시장점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오봉집 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김가네 송파나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "동대문엽기떡볶이 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "맛있는할매집떡볶이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "사태1983": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "상보sea숙성회": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "문어세상해천탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "박대박 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "츠쿠모": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "간코 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가츠몽 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "1990 아구찜 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "도미노피자 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "피자마루 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "베스트케밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 송파나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "프랭크버거 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러바웃 송파본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한나식빵 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 몽촌토성역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소복재 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "순천옥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오륜명동칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "샐러디 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서커스래빗": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "DK동키치킨 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "메가MGC커피 잠실나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커스텀커피 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "레스쁘아": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파리바게뜨 잠실파크리오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선호커피 바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더타코부스 잠실스타점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나루모듬전": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "최순옥 명품국밥 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나루역쭈꾸미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한방삼계탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "고바우": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신당동즉석떡볶이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안동집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "봉평메밀촌 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "진전복삼계탕 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "송봉칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파랑새식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가보자식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "토종한우정육식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "천년맛두부": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "안동집한우관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쫄면주는 삼겹본능 잠실푸르지오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "태양의집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "초가집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "의정부실비부대볶음": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "민들레 식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오매가매 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "몬스터삼겹살": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오랭관": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "이자카야 하치": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "소담히": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마스타하이볼": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나나미 이자카야 잠실방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나루터": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육회바른연어 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카츠젠 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "연어식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "후또로마또로": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "롤인잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "김스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "바다회상 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오마카세 오사이초밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아사히 스시": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "나미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "양바오": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "하오미앤": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "핑퐁": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "일월성": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오한수 우육면가 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "만리장": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "치엔": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "북경": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "블랙디쉬 잠실 본점 차이나스토리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "홍콩반점0410 송파구청점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "남경": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더나루": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오구피자 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오아시스 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "크래프트아일랜드 잠실점 별관2호": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "포키도키": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "할아버지 돈까스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "선피자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "쿠차라 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "오호이박스 홈플러스 잠실": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "퀴즈노스 서울아산병원점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "써브웨이 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카츠젠 잠실월드타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스카이라운지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BHC치킨 잠실푸르지오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "깐부치킨 잠실월드마크점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한솥도시락 잠실장미상가점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "페리카나 장미점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "깜닭치킨 장미아파트점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "배스킨라빈스 잠실나루역": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "파리바게뜨 잠실장미점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "리사르커피 장미점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스타벅스 잠실푸르지오월드점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페콤피": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "컴포즈커피 잠실나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피인류 잠실나루점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페아일랜드&베이커리 잠실2호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "텐퍼센트커피 잠실신천점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "서울아산병원 신관지하카페": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아티제 잠실타워730점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "르봉마리아쥬": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "아티제 잠실롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "어바웃 프로젝트라운지": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "참맛돼지국밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "좋은날한우 홈플러스잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "병천가마솥순대국": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "전주콩나루콩나물국밥 잠실1호점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "현대칼국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한와담소반 롯데백화점 잠실점 캐슬플라자": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "미포집 롯데월드몰점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "가마솥국밥보쌈 월드타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올레김밥 잠실나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "감탄떡볶이 잠실나루역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "뭉치김밥": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "강구미주구리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "장미식당": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "새벽집": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "다미해물탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "설악추어탕": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "흥부네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "푸드코트": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "BBQ치킨 잠실파크리오점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "커피빈 잠실향군타워점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "모던파머스": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "투썸플레이스 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "더베이크 잠실역점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "카페 베즐리": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "압구정뽀글이": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "박복순쭈꾸미": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "Poke all day 포케&샐러드 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "신천한식": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "삿뽀로 방이점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "마호가니 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "한유정 잠실방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "문뜩, 한잔": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "호락호락 방이동점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "페어룸 혼술바": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "할머니포장마차멸치국수": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "화천닭발": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "스시타네": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "육참": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "꿈의김밥 잠실점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  },
+  "올쿡24 방이본점": {
+    "exists": true,
+    "notFound": false,
+    "closed": false,
+    "cnt": 0,
+    "method": "placeId"
+  }
+}
