@@ -10227,51 +10227,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "신왕푸마라탕 영통점",
-    "type": "중식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 수원시 영통구 영통동 998-6 1층 115호",
-    "hours": "",
-    "tel": "07-1483-6785",
-    "priceRange": "",
-    "lat": 37.2520814,
-    "lng": 127.0747583,
-    "cat": [
-      "중식",
-      "마라탕"
-    ],
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "2.5단계 먹었어요. 안매웠구요뭔가 심심해요..!"
-    ],
-    "naverPlaceId": "2040703172",
-    "naverBlogCnt": 4,
-    "menuItems": [
-      {
-        "menuName": "마라탕",
-        "price": 0,
-        "description": ""
-      },
-      {
-        "menuName": "마라샹궈",
-        "price": 0,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2040703172/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": false
-  },
-  {
     "name": "전국5대짬뽕연화산",
     "type": "중식",
     "e": "",
@@ -11942,41 +11897,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "기린1리터카페",
-    "type": "카페",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 수원시 영통구 영통동 967-2 상가동 1층 109호",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.248758,
-    "lng": 127.0671198,
-    "cat": [
-      "카페디저트",
-      "베이커리"
-    ],
-    "tags": [
-      "가성비"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "커피 맛있어요~~~특히 군밤은 사장님이 써비스로 까주셨는데 너무 맛있어요 군밤 추천~~~~프렌치토스트도 치즈  사르르 맛있네요..",
-      "저렴하고 커피가 맛있어요 ㅎㅎ 늦게까지 하셔서 편히 마실수 있네요^^ 👍 👍 👍"
-    ],
-    "naverPlaceId": "2052292671",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2052292671/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "베이콜로지 빵학개론 수원 영통점",
     "type": "카페",
     "e": "",
@@ -13193,95 +13113,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": true,
     "reservation": true
-  },
-  {
-    "name": "일품양평해장국 수원망포점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 수원시 영통구 영통동 980-3 1층 110호",
-    "hours": "11:00에 영업 시작",
-    "tel": "07-1393-3823",
-    "priceRange": "9000~13000",
-    "lat": 37.2453555,
-    "lng": 127.0599551,
-    "cat": [
-      "한식",
-      "해장국"
-    ],
-    "tags": [
-      "주차가능",
-      "깔끔한곳"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "오픈한지 한달 됐다고 들었는데 일찍이 알게된게 럭키비키에요고기가 잡내도 없고 너무 부드러워요!!남편도 너무 맛있게 먹어서 잘 골랐다 싶었어요수제비사리랑 시레기 깻잎이 넉넉하고둘이 중자 먹긴 했는데 대식가라 사리추가 필수라 생각했는데 양이 많아서 사리추가는 못했어요그래도 수제비 덕에 대만족 했습니다마지막에 먹은 감자까지 예술!!다음에 해장국 먹어보러 또 올게",
-      "동네 근처에 새로 생겨서 방문 했는데 음식이 다 맛있고 잡내 없이 고기가 부드럽고 쫄깃했어요저녁에 술 한잔 하러 오시는 분들도 많던데가볍게 한잔하기 좋고 저희는 밥 먹으러 갔는데 든든하게 먹고 왔네요!!메뉴도 다양하고 다 맛있어서 자주 와도 안질릴거 같아요☺️",
-      "메뉴가 엄청 다양해서 이것저것 시켜보고 싶지만, 첫 방문이라 가장 기본인 양평해장국 선택했어요.건더기도 푸짐하고 국물 간도 딱 좋네요.",
-      "망포역에 양평해장국집이 새로 오픈했다는 예기를 듣고 방문했어요. 양도 푸짐하고 깔끔한 해장국이네요. 양념소스만들어서 찍어먹으면 최고입니다."
-    ],
-    "naverPlaceId": "2038830653",
-    "naverBlogCnt": 6,
-    "menuItems": [
-      {
-        "menuName": "양평해장국",
-        "price": 11000,
-        "description": ""
-      },
-      {
-        "menuName": "얼큰양평해장국",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "얼큰순대국",
-        "price": 11000,
-        "description": ""
-      },
-      {
-        "menuName": "뼈다귀해장국",
-        "price": 11000,
-        "description": ""
-      },
-      {
-        "menuName": "내장탕",
-        "price": 13000,
-        "description": ""
-      },
-      {
-        "menuName": "뚝배기불고기",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "우거지해장국",
-        "price": 11000,
-        "description": ""
-      },
-      {
-        "menuName": "육개장",
-        "price": 11000,
-        "description": ""
-      },
-      {
-        "menuName": "선지해장국",
-        "price": 9000,
-        "description": ""
-      },
-      {
-        "menuName": "북어콩나물해장국",
-        "price": 9000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2038830653/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": false
   },
   {
     "name": "제주은희네해장국 수원망포점",
@@ -14628,74 +14459,6 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1530922534/home",
     "updatedAt": "2026-03-17",
     "parking": true,
-    "reservation": false
-  },
-  {
-    "name": "슈바인 당케 영통점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 수원시 영통구 영통동 1002-2",
-    "hours": "",
-    "tel": "070-8875-0220",
-    "priceRange": "",
-    "lat": 37.250437,
-    "lng": 127.0746322,
-    "cat": [
-      "한식",
-      "족발보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1920823361",
-    "naverBlogCnt": 1,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1920823361/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "항아리보쌈망포본점직영점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 수원시 영통구 영통동 986-10 1층 항아리보쌈",
-    "hours": "17:00에 영업 시작",
-    "tel": "031-205-1697",
-    "priceRange": "",
-    "lat": 37.2452475,
-    "lng": 127.067654,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "본점 에서 주문해서 먹다가 나들이 후 집에 가는길에 들러서 포장 해갑니다.추가 김치 말씀 드렸더니  넉넉히 주시는 후한 인심에 감동입니다.포장 할인도 해주시고 ㅎㅎ잠깐 기다리면서 보니 배달 기사님들 위한 작은 음료 냉장고가 있더라구요사장님의 장사철학이 느껴지는 모습에 계속 대박집이 될꺼라는 생각이 드네요~더보기"
-    ],
-    "naverPlaceId": "1002264647",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "보쌈",
-        "price": 39000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1002264647/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
     "reservation": false
   },
   {
@@ -18216,69 +17979,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "칼튼출장부페 기흥점",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 용인시 기흥구 서천동 700",
-    "hours": "09:00에 영업 시작",
-    "tel": "031-206-6681",
-    "priceRange": "13000~40000",
-    "lat": 37.244262,
-    "lng": 127.071617,
-    "cat": [
-      "음식",
-      "출장요리"
-    ],
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "12829372",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "A코스",
-        "price": 25000,
-        "description": ""
-      },
-      {
-        "menuName": "B코스",
-        "price": 20000,
-        "description": ""
-      },
-      {
-        "menuName": "C코스",
-        "price": 18000,
-        "description": ""
-      },
-      {
-        "menuName": "D코스",
-        "price": 16000,
-        "description": ""
-      },
-      {
-        "menuName": "E코스",
-        "price": 13000,
-        "description": ""
-      },
-      {
-        "menuName": "VIP메뉴",
-        "price": 40000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/12829372/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": true
-  },
-  {
     "name": "애슐리퀸즈 수원망포점",
     "type": "기타",
     "e": "",
@@ -18592,73 +18292,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1945588342/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": false
-  },
-  {
-    "name": "한솔한식뷔페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "경기도 수원시 영통구 영통동 1106 2층 일부호",
-    "hours": "11:00에 영업 시작",
-    "tel": "031-203-6200",
-    "priceRange": "1500~8800",
-    "lat": 37.2446519,
-    "lng": 127.0579139,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [
-      "주차가능",
-      "서비스좋음"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 106.101.0.124(2026.03.18 02:07:56)"
-    ],
-    "naverPlaceId": "2070845801",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "한식뷔페",
-        "price": 8800,
-        "description": ""
-      },
-      {
-        "menuName": "초등학생",
-        "price": 7000,
-        "description": ""
-      },
-      {
-        "menuName": "미취학(36개월~)",
-        "price": 5000,
-        "description": ""
-      },
-      {
-        "menuName": "음료수(얇은캔)",
-        "price": 1500,
-        "description": ""
-      },
-      {
-        "menuName": "음료수(뚱캔)",
-        "price": 2000,
-        "description": ""
-      },
-      {
-        "menuName": "주류(소주, 맥주)",
-        "price": 5000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2070845801/home",
     "updatedAt": "2026-03-17",
     "parking": true,
     "reservation": false
@@ -20218,89 +19851,6 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1675029355/home",
     "updatedAt": "2026-03-17",
     "parking": true,
-    "reservation": false
-  },
-  {
-    "name": "메가혼밥 수원영통점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 수원시 영통구 영통동 984-6 1층 104호",
-    "hours": "09:30에 영업 시작",
-    "tel": "031-216-1993",
-    "priceRange": "9900~20900",
-    "lat": 37.2453001,
-    "lng": 127.0662694,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [
-      "혼밥가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1675449391",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "찌개+사이드 [SET]",
-        "price": 12900,
-        "description": ""
-      },
-      {
-        "menuName": "1인 고추장 삼겹구이 도시락",
-        "price": 11900,
-        "description": ""
-      },
-      {
-        "menuName": "육회비빔밥",
-        "price": 11500,
-        "description": ""
-      },
-      {
-        "menuName": "햄부대찌개",
-        "price": 12900,
-        "description": ""
-      },
-      {
-        "menuName": "김치찌개",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "비빔밥+찌개 [SET]",
-        "price": 17900,
-        "description": ""
-      },
-      {
-        "menuName": "도시락+찌개 [SET]",
-        "price": 19000,
-        "description": ""
-      },
-      {
-        "menuName": "정식+찌개 [SET]",
-        "price": 20900,
-        "description": ""
-      },
-      {
-        "menuName": "덮밥+찌개 [SET]",
-        "price": 17900,
-        "description": ""
-      },
-      {
-        "menuName": "1인 삼겹구이 도시락",
-        "price": 10900,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1675449391/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
     "reservation": false
   },
   {
@@ -38078,36 +37628,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "한턱쏘시지요 영통구청점",
-    "type": "술집",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 수원시 영통구 매탄동 1262-2",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.2599904,
-    "lng": 127.0442558,
-    "cat": [
-      "술집",
-      "이자카야"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "2057093143",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2057093143/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "헝그리스패로",
     "type": "술집",
     "e": "",
@@ -38620,54 +38140,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
-  },
-  {
-    "name": "황금포차",
-    "type": "술집",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 수원시 영통구 매탄동 840-2 1층",
-    "hours": "16:00에 영업 시작",
-    "tel": "",
-    "priceRange": "14000~18000",
-    "lat": 37.264628,
-    "lng": 127.0471265,
-    "cat": [
-      "음식점",
-      "술집"
-    ],
-    "tags": [
-      "가성비",
-      "데이트",
-      "서비스좋음"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "새로 오픈했다고 해서 가봤는데 진짜 황금포차에요 안주 메뉴 너무 좋고과메기너무잘나오고 맛있어요 ! 가리비탕 시원가성비 쩝니다 소주 3병각 편안한분위기 싸장님이 너무 친절하세요단골 예약 입니당 또올께요더보기",
-      "날씨가 쌀쌀해지니 굴생각이 났는데파는곳이 잘 없는데 완전 맛있어요 넘싱싱하게 맛있게 잘 먹었습니당"
-    ],
-    "naverPlaceId": "2008622953",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "닭똥집볶음",
-        "price": 14000,
-        "description": ""
-      },
-      {
-        "menuName": "제육볶음",
-        "price": 18000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2008622953/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": true
   },
   {
     "name": "정강일식",
@@ -42334,38 +41806,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "고급양식 매탄점",
-    "type": "양식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 수원시 영통구 매탄동 871-12 1층 102호",
-    "hours": "10:00에 영업 시작",
-    "tel": "07-1372-0658",
-    "priceRange": "",
-    "lat": 37.2632763,
-    "lng": 127.0470736,
-    "cat": [
-      "음식점",
-      "양식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "날씨도 덥고 아무것도 하기는 싫은데 파스타가 갑자기 땡겨서 픽업해서 먹었습니다😆 조리를 금방해주셔서 대기도없고 바로 가져와서 먹었네요! 맛있습니다 👍"
-    ],
-    "naverPlaceId": "1048507843",
-    "naverBlogCnt": 5,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1048507843/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "덤브치킨 수원 매탄점",
     "type": "치킨",
     "e": "",
@@ -43917,42 +43357,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "열정국밥 수원인계점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 수원시 영통구 매탄동 1166 1층",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.2568949,
-    "lng": 127.040004,
-    "cat": [
-      "한식",
-      "국밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "2039109487",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "돼지국밥",
-        "price": 11000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2039109487/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "염정본가옛장터",
     "type": "한식",
     "e": "",
@@ -44212,36 +43616,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": true
-  },
-  {
-    "name": "바른해장 본점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 수원시 영통구 매탄동 871-13",
-    "hours": "",
-    "tel": "031-216-8989",
-    "priceRange": "",
-    "lat": 37.2632765,
-    "lng": 127.0469392,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1955720078",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1955720078/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
   },
   {
     "name": "바우네나주곰탕 매탄점",
@@ -48304,84 +47678,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "목동버거 매탄점",
-    "type": "패스트푸드",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 수원시 영통구 매탄동 1156-7 1층",
-    "hours": "11:00에 영업 시작",
-    "tel": "07-1355-8496",
-    "priceRange": "5800~11800",
-    "lat": 37.259056,
-    "lng": 127.0414751,
-    "cat": [
-      "음식점",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "코코넛 새우는 좀 덜 튀겨주셔야 할 듯"
-    ],
-    "naverPlaceId": "1095718152",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "목동버거",
-        "price": 9800,
-        "description": ""
-      },
-      {
-        "menuName": "1인세트",
-        "price": 0,
-        "description": ""
-      },
-      {
-        "menuName": "치즈버거",
-        "price": 5800,
-        "description": ""
-      },
-      {
-        "menuName": "치킨버거",
-        "price": 7500,
-        "description": ""
-      },
-      {
-        "menuName": "클래식버거",
-        "price": 8500,
-        "description": ""
-      },
-      {
-        "menuName": "통새우버거",
-        "price": 7800,
-        "description": ""
-      },
-      {
-        "menuName": "하와이안치즈버거",
-        "price": 9800,
-        "description": ""
-      },
-      {
-        "menuName": "트러플버거",
-        "price": 9800,
-        "description": ""
-      },
-      {
-        "menuName": "더블클래식버거",
-        "price": 11800,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1095718152/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": true
-  },
-  {
     "name": "장미빵집",
     "type": "카페",
     "e": "",
@@ -48729,7 +48025,7 @@ const restaurants = [
     "type": "카페",
     "e": "",
     "rt": 0,
-    "cnt": 2340,
+    "cnt": 2341,
     "addr": "경기도 수원시 영통구 매탄동 923-30",
     "hours": "07:00에 영업 시작",
     "tel": "031-216-4752",
@@ -48994,7 +48290,7 @@ const restaurants = [
     "type": "카페",
     "e": "",
     "rt": 0,
-    "cnt": 16,
+    "cnt": 17,
     "addr": "경기도 수원시 영통구 매탄동 383-8 109호",
     "hours": "08:00에 영업 시작",
     "tel": "07-1410-7176",
@@ -49709,38 +49005,6 @@ const restaurants = [
     ],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123951602/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "혹시 혼자세요 .혼밥",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 수원시 영통구 매탄동 871-12",
-    "hours": "",
-    "tel": "031-212-0202",
-    "priceRange": "",
-    "lat": 37.2632683,
-    "lng": 127.0470233,
-    "cat": [
-      "음식점",
-      "도시락컵밥"
-    ],
-    "tags": [
-      "혼밥가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1596920581",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1596920581/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false

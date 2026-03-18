@@ -28192,38 +28192,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "삼첩분식 판교점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 분당구 백현동 529 B동 B129호",
-    "hours": "",
-    "tel": "031-606-1235",
-    "priceRange": "",
-    "lat": 37.3911015,
-    "lng": 127.1093671,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1617501541",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1617501541/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "마라장룡 마라상궈마라탕",
     "type": "중식",
     "e": "",
@@ -28507,70 +28475,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1316809012/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "갓뽕",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 740",
-    "hours": "",
-    "tel": "0507-1430-2832",
-    "priceRange": "",
-    "lat": 37.3974919,
-    "lng": 127.1136107,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1480447428",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1480447428/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "메이루 현대백화점 판교점",
-    "type": "중식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 백현동 541 현대백화점 판교점 지하1층",
-    "hours": "",
-    "tel": "0507-1436-1002",
-    "priceRange": "",
-    "lat": 37.392879,
-    "lng": 127.1123875,
-    "cat": [
-      "중식",
-      "중식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1250817992",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1250817992/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -28871,38 +28775,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "참치더테이블",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 백현동 530 알파돔시티 라스트리트2동 지하1층",
-    "hours": "",
-    "tel": "031-702-0320",
-    "priceRange": "",
-    "lat": 37.3941563,
-    "lng": 127.1091843,
-    "cat": [
-      "한식",
-      "생선회"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "38431673",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/38431673/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "루아참치",
     "type": "한식",
     "e": "",
@@ -28963,38 +28835,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37168960/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "이자카야호시로",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 647",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3967044,
-    "lng": 127.1106573,
-    "cat": [
-      "한식",
-      "생선회"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1668409684",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1668409684/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -29386,38 +29226,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37197515/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "라라멘",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 740",
-    "hours": "",
-    "tel": "070-4760-6688",
-    "priceRange": "",
-    "lat": 37.3977288,
-    "lng": 127.1135578,
-    "cat": [
-      "일식",
-      "일본식라면"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1625067568",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1625067568/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -29911,38 +29719,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "데일리픽스 판교",
-    "type": "패스트푸드",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 662 104호",
-    "hours": "",
-    "tel": "070-4222-2023",
-    "priceRange": "",
-    "lat": 37.3978852,
-    "lng": 127.1113869,
-    "cat": [
-      "음식점",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2072583259",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2072583259/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "GTS버거 판교점",
     "type": "패스트푸드",
     "e": "",
@@ -30067,38 +29843,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1261877961/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "맘스터치 판교봇들마을점",
-    "type": "양식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 삼평동 709 201호",
-    "hours": "",
-    "tel": "0507-1468-0716",
-    "priceRange": "",
-    "lat": 37.4043627,
-    "lng": 127.115677,
-    "cat": [
-      "양식",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2068446030",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2068446030/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -30599,136 +30343,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "자연스레함바라지",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 659 207호",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3980298,
-    "lng": 127.1120303,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1034534042",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1034534042/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "매드한식뷔페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 661 판교예미 지",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3974779,
-    "lng": 127.1118136,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1550147531",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1550147531/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "주상한식부페",
-    "type": "뷔페",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 651",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3964786,
-    "lng": 127.111506,
-    "cat": [
-      "음식점",
-      "뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "36784451",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/36784451/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "오늘점심",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 분당구 이매동 137-4 지하",
-    "hours": "",
-    "tel": "031-702-1190",
-    "priceRange": "",
-    "lat": 37.3994834,
-    "lng": 127.1228284,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [
-      "점심추천"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1415208819",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1415208819/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "더카라",
     "type": "뷔페",
     "e": "",
@@ -30822,38 +30436,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1475210661/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "오늘은,뷔페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 분당구 서현동 269-6 201호",
-    "hours": "",
-    "tel": "0507-1306-2222",
-    "priceRange": "",
-    "lat": 37.3839203,
-    "lng": 127.1213463,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2087426250",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2087426250/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -31181,40 +30763,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1714928078/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "역전국밥 판교점",
-    "type": "고기",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 670 유스페이스1 2층 213호",
-    "hours": "",
-    "tel": "0507-1321-2130",
-    "priceRange": "",
-    "lat": 37.4004763,
-    "lng": 127.106853,
-    "cat": [
-      "육류",
-      "고기요리",
-      "순대",
-      "순댓국"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2081574822",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2081574822/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -31586,40 +31134,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "혼밥에 빠진날",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 서현동 272-3 지하1층 B106호",
-    "hours": "",
-    "tel": "031-781-7780",
-    "priceRange": "",
-    "lat": 37.385464,
-    "lng": 127.1208099,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [
-      "혼밥가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1063177725",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1063177725/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "프레퍼스다이어트푸드 분당서현점",
     "type": "기타",
     "e": "",
@@ -31752,38 +31266,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "샤브온당 분당서현점",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 서현동 269-4 202호(, 산호트윈스2)",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3841997,
-    "lng": 127.1217683,
-    "cat": [
-      "일식",
-      "샤브샤브"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2017149376",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2017149376/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "돈화당 서현본점",
     "type": "일식",
     "e": "",
@@ -31811,73 +31293,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1281208507/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "앵그리치밥 판교W시티점",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 618 2층 231호",
-    "hours": "",
-    "tel": "050-7997-0036",
-    "priceRange": "",
-    "lat": 37.4040238,
-    "lng": 127.1000896,
-    "cat": [
-      "음식점",
-      "도시락",
-      "컵밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1882064992",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1882064992/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "메가혼밥 분당서현점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 서현동 248-4 유성트윈프라자1차 203호",
-    "hours": "",
-    "tel": "031-781-7341",
-    "priceRange": "",
-    "lat": 37.3860693,
-    "lng": 127.124371,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [
-      "혼밥가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2087859512",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2087859512/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -33643,39 +33058,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "신주옥미 판교점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 647 115호~117호",
-    "hours": "",
-    "tel": "031-704-1237",
-    "priceRange": "",
-    "lat": 37.3966909,
-    "lng": 127.1106823,
-    "cat": [
-      "한식",
-      "순대",
-      "순댓국"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2060443062",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2060443062/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "대가국밥쟁이 라스트리트점",
     "type": "한식",
     "e": "",
@@ -33806,38 +33188,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "중앙해장 현대백화점판교점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 백현동 541",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3927946,
-    "lng": 127.1120875,
-    "cat": [
-      "한식",
-      "해장국"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2143598984",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2143598984/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "조이포",
     "type": "아시안",
     "e": "",
@@ -33931,38 +33281,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1777167474/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "일품양평해장국 분당백현점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 분당구 백현동 597-5 1층",
-    "hours": "",
-    "tel": "0507-1443-9957",
-    "priceRange": "",
-    "lat": 37.3869099,
-    "lng": 127.1142384,
-    "cat": [
-      "한식",
-      "해장국"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1347396238",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1347396238/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -34460,38 +33778,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "쿡앤카페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 618 우림W시티 224호 쿡앤카페",
-    "hours": "",
-    "tel": "031-628-8077",
-    "priceRange": "",
-    "lat": 37.4037532,
-    "lng": 127.0999016,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1669371749",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1669371749/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "푸드빅",
     "type": "한식",
     "e": "",
@@ -34619,206 +33905,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1957049231/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "구구족 분당판교점",
-    "type": "고기",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 백현동 553 상가동 1층 b108호",
-    "hours": "",
-    "tel": "031-703-9982",
-    "priceRange": "",
-    "lat": 37.3910313,
-    "lng": 127.116505,
-    "cat": [
-      "육류",
-      "고기요리",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1788097047",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1788097047/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "기대만족 분당판교점",
-    "type": "고기",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "경기도 성남시 분당구 삼평동 738 에이상가동 1층 102호",
-    "hours": "",
-    "tel": "0507-1334-8464",
-    "priceRange": "",
-    "lat": 37.3970614,
-    "lng": 127.116523,
-    "cat": [
-      "육류",
-      "고기요리",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1962977446",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1962977446/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "낭만족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 658 KCC웰츠타워 105",
-    "hours": "",
-    "tel": "031-818-9943",
-    "priceRange": "",
-    "lat": 37.3979975,
-    "lng": 127.1125252,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "33979547",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/33979547/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "미담족 판교점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 백현동 530",
-    "hours": "",
-    "tel": "031-8017-7122",
-    "priceRange": "",
-    "lat": 37.3941053,
-    "lng": 127.109144,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1546040033",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1546040033/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "모서리 족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 670 1층",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.4010087,
-    "lng": 127.1063722,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1789353360",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1789353360/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "한상가득38보쌈족발 판교점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 679 삼환하이펙스 B동 215호",
-    "hours": "",
-    "tel": "031-698-3579",
-    "priceRange": "",
-    "lat": 37.4011819,
-    "lng": 127.1103568,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "33704219",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/33704219/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -35229,38 +34315,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "1+1 소곱창전골 판교점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 662",
-    "hours": "",
-    "tel": "031-8017-2225",
-    "priceRange": "",
-    "lat": 37.3977539,
-    "lng": 127.1114025,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1003101291",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1003101291/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "문막집",
     "type": "한식",
     "e": "",
@@ -35358,38 +34412,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "만석상회",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 백현동 535 그레이츠판교 B1층 B105호",
-    "hours": "",
-    "tel": "0507-1342-4263",
-    "priceRange": "",
-    "lat": 37.394407,
-    "lng": 127.1115651,
-    "cat": [
-      "한식",
-      "쌈밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1529214854",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1529214854/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "오봉집 판교유스페이스점",
     "type": "한식",
     "e": "",
@@ -35450,38 +34472,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345379282/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "시켜먹자 야들야들보쌈전문점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 백현동 595-2",
-    "hours": "",
-    "tel": "031-701-0444",
-    "priceRange": "",
-    "lat": 37.3865208,
-    "lng": 127.113799,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1132817176",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1132817176/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -35642,38 +34632,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1664765639/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "백현김밥",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 백현동 552 1층 113호",
-    "hours": "",
-    "tel": "0507-1464-7957",
-    "priceRange": "",
-    "lat": 37.3882472,
-    "lng": 127.1146681,
-    "cat": [
-      "분식",
-      "김밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1787530140",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1787530140/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -35903,102 +34861,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "채리분식",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 662",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.397686,
-    "lng": 127.1113844,
-    "cat": [
-      "분식",
-      "종합분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1190595868",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1190595868/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "꾸온",
-    "type": "아시안",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "경기도 성남시 분당구 백현동 541 현대백화점판교점B1",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.3926068,
-    "lng": 127.112243,
-    "cat": [
-      "음식점",
-      "베트남음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2140001862",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2140001862/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "포앤타이소마",
-    "type": "아시안",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 분당구 백현동 535 크래프톤타워 지하1층 104호 일부",
-    "hours": "",
-    "tel": "031-622-7787",
-    "priceRange": "",
-    "lat": 37.3942367,
-    "lng": 127.1122582,
-    "cat": [
-      "음식점",
-      "베트남음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1395297593",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1395297593/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "르메콩",
     "type": "아시안",
     "e": "",
@@ -36026,38 +34888,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000106291/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "리베로시스템즈 판교지점",
-    "type": "아시안",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 분당구 삼평동 680 H스퀘어 S동 1층 125호",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.4012685,
-    "lng": 127.1086539,
-    "cat": [
-      "음식점",
-      "베트남음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2022251987",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2022251987/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -37768,38 +36598,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "김밥천국",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 삼평동 680 에이치스퀘어 에스동 지하1층 119호",
-    "hours": "",
-    "tel": "0507-1396-7599",
-    "priceRange": "",
-    "lat": 37.4013231,
-    "lng": 127.1086567,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1300125642",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1300125642/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "진부엉이꼬마김밥",
     "type": "분식",
     "e": "",
@@ -39023,102 +37821,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38238589/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "울림푸드한식뷔페판교아이스퀘어점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "경기도 성남시 수정구 시흥동 288-2",
-    "hours": "",
-    "tel": "031-755-6627",
-    "priceRange": "",
-    "lat": 37.4120494,
-    "lng": 127.0981104,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1132957139",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1132957139/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "어머니밥상",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "경기도 성남시 수정구 시흥동 272-7 1층",
-    "hours": "",
-    "tel": "0507-1379-6887",
-    "priceRange": "",
-    "lat": 37.4139387,
-    "lng": 127.1009964,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1200430295",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1200430295/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "풍경한식뷔페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "경기도 성남시 수정구 시흥동 293",
-    "hours": "",
-    "tel": "031-721-1155",
-    "priceRange": "",
-    "lat": 37.4124497,
-    "lng": 127.0944694,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1617385020",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1617385020/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -43425,46 +42127,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "아연당",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 백현동 496 1층",
-    "hours": "",
-    "tel": "031-709-8094",
-    "priceRange": "",
-    "lat": 37.3819977,
-    "lng": 127.0932945,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "본 게시물은 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제 44조 2항을 준수하기 위해 다른 이용자의 요청으로 삭제되었습니다."
-    ],
-    "naverPlaceId": "1647917435",
-    "naverBlogCnt": 131,
-    "menuItems": [
-      {
-        "menuName": "커스텀 웨딩 (별도 문의)",
-        "price": 0,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1647917435/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": true
-  },
-  {
     "name": "원두막한식뷔페",
     "type": "뷔페",
     "e": "",
@@ -43939,91 +42601,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": true,
     "reservation": true
-  },
-  {
-    "name": "99육회본가 분당서현점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "경기도 성남시 분당구 서현동 251-3 2층 207호",
-    "hours": "",
-    "tel": "031-705-8847",
-    "priceRange": "5000~14900",
-    "lat": 37.3884615,
-    "lng": 127.1238349,
-    "cat": [
-      "한식",
-      "육류",
-      "고기요리"
-    ],
-    "tags": [
-      "주차가능",
-      "서비스좋음"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "분당 서현역 맛집, 99육회본가!샵인샵 형태로 양푼애등갈비 분당 본점에서 먹을 수 있다. 양도 많고 맛도 일품인 육회+양념꼬막 세트, 육회 날치알비빔밥, 연탄 불고기 비빔밥 강추강추~",
-      "서비스가 너무 좋아요!! 맛있게 잘 먹었습니다:) 서현 맛집으로 유명한 이유가 있네용~",
-      "육회랑 육회비빔밥 포장했는데양도 진짜 많고 맛있어요특히 비빔밥이 감칠맛이 장난이 아니네요 👍",
-      "와 비빔밥 양념뭐죠? 진심 맛있네요ㅠ"
-    ],
-    "naverPlaceId": "1115032496",
-    "naverBlogCnt": 70,
-    "menuItems": [
-      {
-        "menuName": "육회 듬뿍 비빔밥",
-        "price": 8900,
-        "description": ""
-      },
-      {
-        "menuName": "연탄 불고기 비빔밥",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "양념 꼬막 비빔밥",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "날치알 비빔밥",
-        "price": 8900,
-        "description": ""
-      },
-      {
-        "menuName": "육회 날치알 비빔밥",
-        "price": 10900,
-        "description": ""
-      },
-      {
-        "menuName": "육회 꼬막 비빔밥",
-        "price": 11900,
-        "description": ""
-      },
-      {
-        "menuName": "육회(고추장/참기름/불)",
-        "price": 14900,
-        "description": ""
-      },
-      {
-        "menuName": "서현역 점심 특선",
-        "price": 8900,
-        "description": ""
-      },
-      {
-        "menuName": "물만두",
-        "price": 5000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1115032496/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
-    "reservation": false
   },
   {
     "name": "오봉집 서현역점",
@@ -48161,36 +46738,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "준일푸드",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 삼평동 618",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.4040238,
-    "lng": 127.1000896,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1029781688",
-    "naverBlogCnt": 1,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1029781688/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "애슐리퀸즈 NC 야탑점",
     "type": "기타",
     "e": "",
@@ -49109,36 +47656,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": true,
     "reservation": true
-  },
-  {
-    "name": "미스터이타바",
-    "type": "술집",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "경기도 성남시 분당구 백현동 565-5",
-    "hours": "17:00에 영업 시작",
-    "tel": "031-8016-3470",
-    "priceRange": "",
-    "lat": 37.3855586,
-    "lng": 127.1109877,
-    "cat": [
-      "술집",
-      "이자카야"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "31241526",
-    "naverBlogCnt": 1,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/31241526/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
   },
   {
     "name": "어바웃풍미",

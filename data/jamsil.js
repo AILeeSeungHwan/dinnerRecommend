@@ -25648,36 +25648,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "본가설렁탕입구",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 석촌동",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.506534,
-    "lng": 127.0996829,
-    "cat": [
-      "도로시설",
-      "방면정보"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "18859078",
-    "naverBlogCnt": 10,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/18859078/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "유원설렁탕",
     "type": "한식",
     "e": "",
@@ -25776,70 +25746,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "뚝딱국밥",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 방이동 115 1층 104호",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5097499,
-    "lng": 127.11426,
-    "cat": [
-      "한식",
-      "국밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2087145549",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2087145549/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "보양면옥",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 석촌동 283-3 지하1층 제일면옥",
-    "hours": "",
-    "tel": "0507-1316-4727",
-    "priceRange": "",
-    "lat": 37.5035697,
-    "lng": 127.1063081,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1845104334",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1845104334/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "우리정육점식당",
     "type": "고기",
     "e": "",
@@ -25868,39 +25774,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13526130/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "명가원설농탕익스프레스 잠실점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 잠실동 241-4 1층",
-    "hours": "",
-    "tel": "02-553-5511",
-    "priceRange": "",
-    "lat": 37.5075563,
-    "lng": 127.0875715,
-    "cat": [
-      "한식",
-      "곰탕",
-      "설렁탕"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1316618791",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1316618791/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -26232,337 +26105,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1218872524/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "귀한족발 방이직영점",
-    "type": "고기",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 방이동 37-5 1층 귀한족발 방이직영점",
-    "hours": "",
-    "tel": "02-2039-2480",
-    "priceRange": "",
-    "lat": 37.5156325,
-    "lng": 127.109713,
-    "cat": [
-      "육류",
-      "고기요리",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2027634637",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2027634637/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "장원왕족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 잠실동 40",
-    "hours": "",
-    "tel": "0507-525-5582",
-    "priceRange": "",
-    "lat": 37.5115363,
-    "lng": 127.0936077,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "37812225",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/37812225/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "발해왕족발보쌈",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 방이동 60-15",
-    "hours": "",
-    "tel": "050-8439-0277",
-    "priceRange": "",
-    "lat": 37.5142959,
-    "lng": 127.1099743,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "38709475",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/38709475/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "가정으로찾아가는장충동족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 잠실6동 7-25",
-    "hours": "",
-    "tel": "0508-2753-5695",
-    "priceRange": "",
-    "lat": 37.5151027,
-    "lng": 127.099728,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "42868159",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/42868159/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "장충이네족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 방이동 60-15",
-    "hours": "",
-    "tel": "050-8439-0260",
-    "priceRange": "",
-    "lat": 37.5142959,
-    "lng": 127.1099743,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "38709489",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/38709489/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "왕푸짐족발보쌈",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 방이동 60-15",
-    "hours": "",
-    "tel": "050-8439-0325",
-    "priceRange": "",
-    "lat": 37.5142959,
-    "lng": 127.1099743,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "35559607",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/35559607/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "족발이와보쌈이",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 방이동 60-15",
-    "hours": "",
-    "tel": "050-8439-0284",
-    "priceRange": "",
-    "lat": 37.5142959,
-    "lng": 127.1099743,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "38709465",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/38709465/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "병천청년순대국 방이점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 방이동 42 106호,107호",
-    "hours": "",
-    "tel": "02-420-8382",
-    "priceRange": "",
-    "lat": 37.516084,
-    "lng": 127.1115423,
-    "cat": [
-      "한식",
-      "순대",
-      "순댓국"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2023512062",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2023512062/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "원조장충왕족발",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 방이동 100",
-    "hours": "",
-    "tel": "050-4898-9246",
-    "priceRange": "",
-    "lat": 37.5127647,
-    "lng": 127.1108668,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "37392122",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/37392122/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "옹가네",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 송파동 8-6",
-    "hours": "",
-    "tel": "02-488-9755",
-    "priceRange": "",
-    "lat": 37.5086624,
-    "lng": 127.1051413,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "36476402",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/36476402/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -28534,38 +28076,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1124035059/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "반포 베트남 가정식 쌀국수",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미상가 A동 지하층 반포베트남 가정식 쌀국수",
-    "hours": "",
-    "tel": "02-419-0777",
-    "priceRange": "",
-    "lat": 37.5174925,
-    "lng": 127.1009378,
-    "cat": [
-      "음식점",
-      "아시아음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1127033155",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1127033155/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -31499,70 +31009,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "행복한밥상",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 방이동 35-2 지하1층",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5160328,
-    "lng": 127.1092997,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1893619750",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1893619750/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "헬로키티 X 롯데호텔 월드 콜라보 뷔페",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 잠실동 40-1",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5110855,
-    "lng": 127.0981197,
-    "cat": [
-      "팝업스토어",
-      "음식 팝업"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1079694474",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1079694474/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "퀸즈가든 잠실점",
     "type": "일식",
     "e": "",
@@ -32458,38 +31904,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "오마뎅 잠실장미상가점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 신천동 7 1층 107호",
-    "hours": "",
-    "tel": "0507-1465-2446",
-    "priceRange": "",
-    "lat": 37.5176934,
-    "lng": 127.1017793,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1073904301",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1073904301/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "오일리버거 잠실석촌호수직영점",
     "type": "패스트푸드",
     "e": "",
@@ -32517,38 +31931,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1033536218/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "오마뎅 잠실학원사거리점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 삼전동 22-7 1층 103호 오마뎅 잠실학원사거리점",
-    "hours": "",
-    "tel": "02-418-8425",
-    "priceRange": "",
-    "lat": 37.5069961,
-    "lng": 127.0933097,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1664997550",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1664997550/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -32938,38 +32320,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2025647966/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "헬키푸키 방이점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 방이동 47 1층 105호, 106호",
-    "hours": "",
-    "tel": "02-412-8887",
-    "priceRange": "",
-    "lat": 37.5164824,
-    "lng": 127.1133184,
-    "cat": [
-      "분식",
-      "김밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2098874440",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2098874440/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -36090,39 +35440,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "잠실치킨",
-    "type": "치킨",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 방이동 61",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5139827,
-    "lng": 127.1097381,
-    "cat": [
-      "음식점",
-      "치킨",
-      "닭강정"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1204339849",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1204339849/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "국민통닭 잠실본점",
     "type": "치킨",
     "e": "",
@@ -37022,38 +36339,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18570229/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "소소한 엄마밥상",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 잠실동 200-10 1층 101호,102호",
-    "hours": "",
-    "tel": "0507-1319-8888",
-    "priceRange": "",
-    "lat": 37.5084468,
-    "lng": 127.0812468,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1131928817",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1131928817/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -44703,94 +43988,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "큰나무유통",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 잠실동 205-4",
-    "hours": "",
-    "tel": "02-409-0799",
-    "priceRange": "7000~50000",
-    "lat": 37.5088482,
-    "lng": 127.0835418,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [
-      "서비스좋음"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "안주 맛집 삼겹 꼼장어 김밥 순두부 복지리 자주먹는 메뉴 입니다 진짜 술마시기 좋아요",
-      "꽃게찜 꽃게탕 완전 맛있어요 수족관에 활꽃게라 진짜 달고 맛있어요",
-      "싸고 친절 했어요.자주 애용 할께요.",
-      "맛있게  잘 먹었습니다"
-    ],
-    "naverPlaceId": "1116241092",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "보리밥",
-        "price": 7000,
-        "description": ""
-      },
-      {
-        "menuName": "가정식백반",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "왕김밥",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "햄덮밥",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "전복/멍게",
-        "price": 25000,
-        "description": ""
-      },
-      {
-        "menuName": "산낙지",
-        "price": 30000,
-        "description": ""
-      },
-      {
-        "menuName": "문어숙회",
-        "price": 50000,
-        "description": ""
-      },
-      {
-        "menuName": "해삼",
-        "price": 30000,
-        "description": ""
-      },
-      {
-        "menuName": "해물파전",
-        "price": 0,
-        "description": ""
-      },
-      {
-        "menuName": "아구탕",
-        "price": 35000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1116241092/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "삼전역 2번부두",
     "type": "한식",
     "e": "",
@@ -46137,92 +45334,6 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1737313025/home",
     "updatedAt": "2026-03-17",
     "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "드렁큰 플로리스트",
-    "type": "술집",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 잠실동 242-8 . 2층",
-    "hours": "11:00에 영업 시작",
-    "tel": "07-1431-4500",
-    "priceRange": "4000~35000",
-    "lat": 37.5075382,
-    "lng": 127.089696,
-    "cat": [
-      "술집",
-      "요리주점"
-    ],
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "지나가다 들렀는데 기대 이상이었어요!김치전에 오징어가 푸짐하게 들어가 있고 간도 딱 맞아서 맛있게 먹었어요. 연잎 막걸리도 향긋하고 잘 어울리더라고요. 다음에 또 들르고 싶네요❤️",
-      "사장님이 서툴러서 계산하는데도 5분이상 소요되고전반적으로 맛이 별로네요꿔바로우는 소자시켰는데 대자로 계산하시고 누린내나고 튀김옷도 이상해요나오는것도 오래걸리네요냉면도 오래걸리고 보니 다 떡져서 나오네요더보기"
-    ],
-    "naverPlaceId": "1556146210",
-    "naverBlogCnt": 2,
-    "menuItems": [
-      {
-        "menuName": "랍스터새우",
-        "price": 33000,
-        "description": ""
-      },
-      {
-        "menuName": "황제갈비살",
-        "price": 29000,
-        "description": ""
-      },
-      {
-        "menuName": "소부위 양볶음",
-        "price": 25000,
-        "description": ""
-      },
-      {
-        "menuName": "목살제육볶음",
-        "price": 20000,
-        "description": ""
-      },
-      {
-        "menuName": "김치전",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "연엽주",
-        "price": 35000,
-        "description": ""
-      },
-      {
-        "menuName": "연잎막걸리",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "유산균막걸리",
-        "price": 8000,
-        "description": ""
-      },
-      {
-        "menuName": "맥주",
-        "price": 5000,
-        "description": ""
-      },
-      {
-        "menuName": "소주",
-        "price": 4000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1556146210/home",
-    "updatedAt": "2026-03-17",
-    "parking": true,
     "reservation": false
   },
   {
@@ -51074,89 +50185,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "으쌰라곱창 잠실새내점",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 잠실동 188-2 1층",
-    "hours": "17:00에 영업 시작",
-    "tel": "",
-    "priceRange": "9900~19900",
-    "lat": 37.5103523,
-    "lng": 127.0827397,
-    "cat": [
-      "한식",
-      "곱창",
-      "막창",
-      "양"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "2093326058",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "으쌰라모둠 200g",
-        "price": 19900,
-        "description": ""
-      },
-      {
-        "menuName": "한우곱창 100g",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "돼지막창 100g",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "치즈쫄면순두부",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "한우차돌사시미",
-        "price": 9900,
-        "description": ""
-      },
-      {
-        "menuName": "곱창전골",
-        "price": 14900,
-        "description": ""
-      },
-      {
-        "menuName": "야채곱창(1인분)",
-        "price": 14900,
-        "description": ""
-      },
-      {
-        "menuName": "갑오징어(1인분)",
-        "price": 14900,
-        "description": ""
-      },
-      {
-        "menuName": "물쫄면",
-        "price": 10000,
-        "description": ""
-      },
-      {
-        "menuName": "쫄면우동",
-        "price": 10000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2093326058/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "이모네곱창",
     "type": "한식",
     "e": "",
@@ -54440,89 +53468,6 @@ const restaurants = [
     "reservation": true
   },
   {
-    "name": "프랭크버거 잠실새마을시장점",
-    "type": "패스트푸드",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 잠실동 213-1 1층",
-    "hours": "04:00에 영업 종료",
-    "tel": "02-2202-1257",
-    "priceRange": "4900~9900",
-    "lat": 37.5085995,
-    "lng": 127.0835791,
-    "cat": [
-      "음식점",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "버거도 맛있지만,감튀가 특히 더 맛잇습니다."
-    ],
-    "naverPlaceId": "2001455706",
-    "naverBlogCnt": 1,
-    "menuItems": [
-      {
-        "menuName": "100%한우갈릭버거",
-        "price": 8900,
-        "description": ""
-      },
-      {
-        "menuName": "100%한우버거",
-        "price": 8400,
-        "description": ""
-      },
-      {
-        "menuName": "갈릭콘페퍼치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "청양마요치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "블랙소이갈릭치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "허니간장치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "매콤레드핫치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "클래식양념치킨(순살 200g)",
-        "price": 5300,
-        "description": ""
-      },
-      {
-        "menuName": "바삭후라이드치킨(순살 200g)",
-        "price": 4900,
-        "description": ""
-      },
-      {
-        "menuName": "피넛버터더블치즈버거",
-        "price": 9900,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2001455706/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": true
-  },
-  {
     "name": "오카",
     "type": "술집",
     "e": "",
@@ -54611,119 +53556,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": true
-  },
-  {
-    "name": "땡스버거 Thank's burger",
-    "type": "패스트푸드",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "서울특별시 송파구 삼전동 22-2",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5070223,
-    "lng": 127.0925386,
-    "cat": [
-      "음식점",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "1075891970",
-    "naverBlogCnt": 1,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1075891970/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "샌드위치 곳간",
-    "type": "패스트푸드",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 삼전동 46-8 101호(,유라빌라트)",
-    "hours": "",
-    "tel": "02-422-0468",
-    "priceRange": "4000~10500",
-    "lat": 37.5027691,
-    "lng": 127.0892071,
-    "cat": [
-      "음식점",
-      "햄버거"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "생과일쥬스두 요거트두 너무 맛있어여~~"
-    ],
-    "naverPlaceId": "1148659324",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "방앗간라떼(수제바닐라라떼/매장판매율1위)(ice)",
-        "price": 5500,
-        "description": ""
-      },
-      {
-        "menuName": "방앗간라떼(수제바닐라라떼/매장판매율1위)(hot)",
-        "price": 5500,
-        "description": ""
-      },
-      {
-        "menuName": "방앗간라떼(수제바닐라라떼/매장판매율1위)(big ice(710ml+3shot))",
-        "price": 7000,
-        "description": ""
-      },
-      {
-        "menuName": "방앗간라떼(수제바닐라라떼/매장판매율1위)(big ice(710ml+4shot))",
-        "price": 7000,
-        "description": ""
-      },
-      {
-        "menuName": "디저트세트(인생앙버터+음료)",
-        "price": 10500,
-        "description": ""
-      },
-      {
-        "menuName": "햄치즈토스트",
-        "price": 4300,
-        "description": ""
-      },
-      {
-        "menuName": "카야버터토스트",
-        "price": 4500,
-        "description": ""
-      },
-      {
-        "menuName": "햄치즈카야토스트",
-        "price": 4500,
-        "description": ""
-      },
-      {
-        "menuName": "[꼬~소한] 냉율무 스무디(캔)",
-        "price": 6000,
-        "description": ""
-      },
-      {
-        "menuName": "아메리카노(ice)",
-        "price": 4000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1148659324/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
   },
   {
     "name": "BBQ치킨 송파삼전점",
@@ -55660,37 +54492,6 @@ const restaurants = [
     "updatedAt": "2026-03-17",
     "parking": true,
     "reservation": true
-  },
-  {
-    "name": "카르파쵸 롯데백화점잠실점",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 잠실동 40-1",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5123135,
-    "lng": 127.0994226,
-    "cat": [
-      "음식점",
-      "일식",
-      "초밥뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "2146621721",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2146621721/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
   },
   {
     "name": "향촌로타리",
@@ -63092,88 +61893,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "옹고집왕족발보쌈",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 방이동 110-14",
-    "hours": "",
-    "tel": "02-488-0598",
-    "priceRange": "23000~65000",
-    "lat": 37.5102673,
-    "lng": 127.1129077,
-    "cat": [
-      "한식",
-      "족발",
-      "보쌈"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "32105411",
-    "naverBlogCnt": 0,
-    "menuItems": [
-      {
-        "menuName": "족발 또는 보쌈 中",
-        "price": 28000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 더하기 보쌈 잔치상세트 中",
-        "price": 45000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 또는 보쌈 小",
-        "price": 23000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 또는 보쌈 大",
-        "price": 33000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 또는 보쌈 특大",
-        "price": 38000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 더하기 보쌈 잔치상세트 小",
-        "price": 35000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 더하기 보쌈 잔치상세트 大",
-        "price": 55000,
-        "description": ""
-      },
-      {
-        "menuName": "족발 더하기 보쌈 잔치상세트 특大",
-        "price": 65000,
-        "description": ""
-      },
-      {
-        "menuName": "불족발 또는 냉채족발 小",
-        "price": 23000,
-        "description": ""
-      },
-      {
-        "menuName": "불족발 또는 냉채족발 中",
-        "price": 28000,
-        "description": ""
-      }
-    ],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/32105411/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": true
-  },
-  {
     "name": "원조명성곱창",
     "type": "한식",
     "e": "",
@@ -65053,36 +63772,6 @@ const restaurants = [
     ],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/559535513/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "한식Semi부페",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 방이동 51-2",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5150417,
-    "lng": 127.1147749,
-    "cat": [
-      "음식점",
-      "한식뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [],
-    "naverPlaceId": "18876134",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/18876134/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -67080,40 +65769,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "대성곱창",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5184626,
-    "lng": 127.103457,
-    "cat": [
-      "한식",
-      "곱창",
-      "막창",
-      "양"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1034321744",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1034321744/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "천년맛두부",
     "type": "한식",
     "e": "",
@@ -67141,39 +65796,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1885191240/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "시골원조삼계탕",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "02-422-2900",
-    "priceRange": "",
-    "lat": 37.5178642,
-    "lng": 127.1019554,
-    "cat": [
-      "한식",
-      "백숙",
-      "삼계탕"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1006762067",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1006762067/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -67211,39 +65833,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "한우몽",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.517819,
-    "lng": 127.1017233,
-    "cat": [
-      "한식",
-      "육류",
-      "고기요리"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1948973207",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1948973207/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "쫄면주는 삼겹본능 잠실푸르지오점",
     "type": "고기",
     "e": "",
@@ -67272,39 +65861,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1560869119/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "몬스터식당",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11-4 1층 136호",
-    "hours": "",
-    "tel": "0507-1377-9163",
-    "priceRange": "",
-    "lat": 37.5174909,
-    "lng": 127.1036864,
-    "cat": [
-      "한식",
-      "육류",
-      "고기요리"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1370517399",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1370517399/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -67369,38 +65925,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36625974/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "이송생삼겹살",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 15 장미전철상가",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5198868,
-    "lng": 127.1039558,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1951910759",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1951910759/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -67569,38 +66093,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "하나이로",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "서울특별시 송파구 신천동 11 장미전철상가동 1층 118호",
-    "hours": "",
-    "tel": "0507-1498-2110",
-    "priceRange": "",
-    "lat": 37.5199303,
-    "lng": 127.1037887,
-    "cat": [
-      "음식점",
-      "퓨전음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1285478912",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1285478912/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "이자카야 하치",
     "type": "술집",
     "e": "",
@@ -67762,39 +66254,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "전통",
-    "type": "술집",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "02-413-5777",
-    "priceRange": "",
-    "lat": 37.5182598,
-    "lng": 127.1020535,
-    "cat": [
-      "술집",
-      "전통",
-      "민속주점"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "37943859",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/37943859/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "육회바른연어 잠실점",
     "type": "술집",
     "e": "",
@@ -67923,38 +66382,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "돈까스 천국",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 11-8",
-    "hours": "",
-    "tel": "02-420-6233",
-    "priceRange": "",
-    "lat": 37.5179898,
-    "lng": 127.104372,
-    "cat": [
-      "일식",
-      "일식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1660791340",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1660791340/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "롤인잠실",
     "type": "일식",
     "e": "",
@@ -67983,102 +66410,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1005047063/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "밤스푸드시스템 잠실점",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5177402,
-    "lng": 127.1013186,
-    "cat": [
-      "일식",
-      "돈가스"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1159937143",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1159937143/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "하루야마 춘산",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "02-427-2270",
-    "priceRange": "",
-    "lat": 37.5174925,
-    "lng": 127.1009378,
-    "cat": [
-      "일식",
-      "일식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1196051663",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1196051663/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "동경 그곳",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트 에이상가",
-    "hours": "",
-    "tel": "02-418-0915",
-    "priceRange": "",
-    "lat": 37.517406,
-    "lng": 127.1008488,
-    "cat": [
-      "일식",
-      "일식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1902811644",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1902811644/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -68242,70 +66573,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1878474942/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "독보국수",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 7 장미상가 A동 29-1",
-    "hours": "",
-    "tel": "0507-1399-5768",
-    "priceRange": "",
-    "lat": 37.5173765,
-    "lng": 127.1005431,
-    "cat": [
-      "한식",
-      "국수"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1837733052",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1837733052/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "려흠반점",
-    "type": "중식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 신천동 17-4 A동 지하1층 B109호",
-    "hours": "",
-    "tel": "02-423-8819",
-    "priceRange": "",
-    "lat": 37.520898,
-    "lng": 127.1044351,
-    "cat": [
-      "중식",
-      "중식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1214257997",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1214257997/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -68530,38 +66797,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1666456114/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "상하이",
-    "type": "중식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트 에이상가 1동",
-    "hours": "",
-    "tel": "02-421-9100",
-    "priceRange": "",
-    "lat": 37.5173229,
-    "lng": 127.1006842,
-    "cat": [
-      "중식",
-      "중식당"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "13157332",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/13157332/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -68793,38 +67028,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "송파구바쿠테",
-    "type": "양식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 11-8 지하1층 B101호",
-    "hours": "",
-    "tel": "0507-1372-3819",
-    "priceRange": "",
-    "lat": 37.5177325,
-    "lng": 127.1044332,
-    "cat": [
-      "음식점",
-      "양식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2057530326",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2057530326/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "크래프트아일랜드 잠실점 별관2호",
     "type": "양식",
     "e": "",
@@ -69050,70 +67253,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "나폴리폴리",
-    "type": "기타",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7-29",
-    "hours": "",
-    "tel": "02-6115-0114",
-    "priceRange": "",
-    "lat": 37.5167619,
-    "lng": 127.1012216,
-    "cat": [
-      "음식점",
-      "이탈리아음식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1880158794",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1880158794/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "만나쿠킹",
-    "type": "양식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11-10",
-    "hours": "",
-    "tel": "0507-1337-3611",
-    "priceRange": "",
-    "lat": 37.5167558,
-    "lng": 127.1054457,
-    "cat": [
-      "양식",
-      "샌드위치"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1899751744",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1899751744/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "써브웨이 잠실역점",
     "type": "패스트푸드",
     "e": "",
@@ -69276,39 +67415,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "옛날통닭 잠실점",
-    "type": "치킨",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "02-419-9595",
-    "priceRange": "",
-    "lat": 37.5179828,
-    "lng": 127.1018441,
-    "cat": [
-      "음식점",
-      "치킨",
-      "닭강정"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1028520793",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1028520793/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "한솥도시락 잠실장미상가점",
     "type": "기타",
     "e": "",
@@ -69375,105 +67481,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "엉클파닭 본점",
-    "type": "치킨",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트 비상가",
-    "hours": "",
-    "tel": "02-415-8324",
-    "priceRange": "",
-    "lat": 37.5178473,
-    "lng": 127.1016621,
-    "cat": [
-      "음식점",
-      "치킨",
-      "닭강정"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "38548950",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/38548950/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "베에이치씨잠실푸르지오점",
-    "type": "치킨",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11-4",
-    "hours": "",
-    "tel": "02-418-9992",
-    "priceRange": "",
-    "lat": 37.5174445,
-    "lng": 127.1034686,
-    "cat": [
-      "음식점",
-      "치킨",
-      "닭강정"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "466553203",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/466553203/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "7번가 깜닭치킨",
-    "type": "치킨",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5174925,
-    "lng": 127.1009378,
-    "cat": [
-      "음식점",
-      "치킨",
-      "닭강정"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1130551961",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1130551961/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "깜닭치킨 장미아파트점",
     "type": "치킨",
     "e": "",
@@ -69502,70 +67509,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1791500462/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "스터디센터 한강 잠실 본점",
-    "type": "카페",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 17-4 에이동 3층 312호",
-    "hours": "",
-    "tel": "02-422-1692",
-    "priceRange": "",
-    "lat": 37.520898,
-    "lng": 127.1044351,
-    "cat": [
-      "스터디카페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1252371490",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1252371490/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "카페 느긋",
-    "type": "카페",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 14 서울책보고",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5220147,
-    "lng": 127.1040777,
-    "cat": [
-      "음식점",
-      "카페",
-      "디저트"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2035904925",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2035904925/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -69868,39 +67811,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "카페 만월경 잠실점",
-    "type": "카페",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5182695,
-    "lng": 127.1020069,
-    "cat": [
-      "카페",
-      "디저트",
-      "카페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1769876991",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1769876991/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "서울아산병원 신관지하카페",
     "type": "카페",
     "e": "",
@@ -70127,38 +68037,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1681954007/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "국밥킹",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트 에이상가",
-    "hours": "",
-    "tel": "02-417-7328",
-    "priceRange": "",
-    "lat": 37.5173986,
-    "lng": 127.1008885,
-    "cat": [
-      "음식점",
-      "한식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1613314337",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1613314337/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -70424,38 +68302,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "마마김밥",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "서울특별시 송파구 신천동 17 상가 에이동 1층 141호",
-    "hours": "",
-    "tel": "0507-1491-0964",
-    "priceRange": "",
-    "lat": 37.520703,
-    "lng": 127.1046167,
-    "cat": [
-      "분식",
-      "종합분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2042443132",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2042443132/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "뭉치김밥",
     "type": "분식",
     "e": "",
@@ -70483,230 +68329,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1341933193/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "명동스넥",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "02-422-8659",
-    "priceRange": "",
-    "lat": 37.5181145,
-    "lng": 127.1020837,
-    "cat": [
-      "분식",
-      "종합분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1987052185",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1987052185/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "라백이",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5180076,
-    "lng": 127.1022301,
-    "cat": [
-      "분식",
-      "라면"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1176806104",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1176806104/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "영스넥",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 7 장미아파트",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5180425,
-    "lng": 127.1017514,
-    "cat": [
-      "분식",
-      "종합분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1286816699",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1286816699/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "갈현동 떡볶이",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 7 장미상가 지하",
-    "hours": "",
-    "tel": "02-422-4088",
-    "priceRange": "",
-    "lat": 37.5177994,
-    "lng": 127.1017484,
-    "cat": [
-      "분식",
-      "떡볶이"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1215184720",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1215184720/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "사랑체",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.517819,
-    "lng": 127.1017233,
-    "cat": [
-      "분식",
-      "만두"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1515907144",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1515907144/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "돈까스퐁당떡볶이공수간 잠실푸르지오점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11-4 지하1층 41호 지금출발했어요 잠실점",
-    "hours": "",
-    "tel": "02-3431-8590",
-    "priceRange": "",
-    "lat": 37.5174065,
-    "lng": 127.1035388,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1792634969",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1792634969/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "김밥과보따리",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11-4 푸르지오 월드마크 지하1층",
-    "hours": "",
-    "tel": "02-416-7027",
-    "priceRange": "",
-    "lat": 37.517434,
-    "lng": 127.1035949,
-    "cat": [
-      "분식",
-      "김밥"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "34581538",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/34581538/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -70771,39 +68393,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1069733381/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "장미코다리",
-    "type": "한식",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 15 잠실나루역",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.520019,
-    "lng": 127.1038514,
-    "cat": [
-      "한식",
-      "해물",
-      "생선요리"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1701585324",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1701585324/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -70941,39 +68530,6 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "신선미미사리우동 잠실르엘점",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 신천동 17-6 잠실르엘 상가 지하층 132호, 133호",
-    "hours": "",
-    "tel": "0507-1310-3343",
-    "priceRange": "",
-    "lat": 37.5161072,
-    "lng": 127.1068893,
-    "cat": [
-      "일식",
-      "우동",
-      "소바"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2069476023",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2069476023/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
     "name": "푸드코트",
     "type": "한식",
     "e": "",
@@ -71034,39 +68590,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19512511/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "비츠커피",
-    "type": "카페",
-    "e": "",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "서울특별시 송파구 신천동 11 장미씨상가동 2층 204호",
-    "hours": "",
-    "tel": "02-423-6007",
-    "priceRange": "",
-    "lat": 37.5184626,
-    "lng": 127.103457,
-    "cat": [
-      "음식점",
-      "카페",
-      "디저트"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2023490451",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2023490451/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -71233,70 +68756,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38522280/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "잠실뷔폐도시락",
-    "type": "뷔페",
-    "e": "",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "서울특별시 송파구 신천동 7",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5178053,
-    "lng": 127.1018406,
-    "cat": [
-      "음식점",
-      "뷔페"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "1878637146",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/1878637146/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "샤브촌by계백집 롯데쇼핑롯데캐슬플라자",
-    "type": "일식",
-    "e": "",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "서울특별시 송파구 신천동 7-18",
-    "hours": "",
-    "tel": "",
-    "priceRange": "",
-    "lat": 37.5143207,
-    "lng": 127.1006907,
-    "cat": [
-      "일식",
-      "샤브샤브"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2141773897",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2141773897/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false
@@ -71791,38 +69250,6 @@ const restaurants = [
     "menuItems": [],
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1209976364/home",
-    "updatedAt": "2026-03-17",
-    "parking": false,
-    "reservation": false
-  },
-  {
-    "name": "33떡볶이&꼬마김밥 몽촌토성점",
-    "type": "분식",
-    "e": "",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "서울특별시 송파구 방이동 46-6 1층 101호",
-    "hours": "",
-    "tel": "0507-1345-7958",
-    "priceRange": "",
-    "lat": 37.5166124,
-    "lng": 127.1128944,
-    "cat": [
-      "음식점",
-      "분식"
-    ],
-    "tags": [],
-    "moods": [],
-    "wx": [],
-    "scene": [],
-    "rv": [
-      "ERR_INTERNET_DISCONNECTED"
-    ],
-    "naverPlaceId": "2028891695",
-    "naverBlogCnt": 0,
-    "menuItems": [],
-    "keywords": [],
-    "naverUrl": "https://pcmap.place.naver.com/restaurant/2028891695/home",
     "updatedAt": "2026-03-17",
     "parking": false,
     "reservation": false

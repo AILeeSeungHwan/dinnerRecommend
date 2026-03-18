@@ -469,7 +469,7 @@ const restaurants = [
     ],
     "e": "🐓",
     "rt": 3.9,
-    "cnt": 430,
+    "cnt": 431,
     "addr": "삼성로 96길 3",
     "hours": "02:00",
     "tel": "02-566-7088",
@@ -2354,7 +2354,7 @@ const restaurants = [
     ],
     "e": "🫕",
     "rt": 4.8,
-    "cnt": 2868,
+    "cnt": 2873,
     "addr": "봉은사로 524 오크우드호텔 코엑스별관",
     "hours": "21:30",
     "tel": "07-1485-8070",
@@ -2571,7 +2571,7 @@ const restaurants = [
     ],
     "e": "🐟",
     "rt": 4.9,
-    "cnt": 233,
+    "cnt": 234,
     "addr": "테헤란로 81길 47 1층",
     "hours": "02:00",
     "tel": "07-1376-7872",
@@ -2639,7 +2639,7 @@ const restaurants = [
     ],
     "e": "🦑",
     "rt": 4.8,
-    "cnt": 2855,
+    "cnt": 2871,
     "addr": "삼성로 92길 27 1층",
     "hours": "PM 4–AM 2",
     "tel": "07-1350-4938",
@@ -3031,7 +3031,7 @@ const restaurants = [
     ],
     "e": "🥡",
     "rt": 4.9,
-    "cnt": 20737,
+    "cnt": 20766,
     "addr": "영동대로 513 코엑스몰 B1",
     "hours": "11 AM–9:30 PM",
     "tel": "07-1397-0364",
@@ -3427,7 +3427,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 5,
-    "cnt": 1499,
+    "cnt": 1516,
     "addr": "테헤란로 610 지하 1층",
     "hours": "11:30 AM–9:30 PM",
     "tel": "02-6012-7429",
@@ -3889,7 +3889,7 @@ const restaurants = [
     ],
     "e": "🍕",
     "rt": 4.3,
-    "cnt": 5062,
+    "cnt": 5069,
     "addr": "영동대로 513 코엑스몰",
     "hours": "22:00",
     "tel": "07-1430-6502",
@@ -4316,66 +4316,6 @@ const restaurants = [
     "exit4": false
   },
   {
-    "name": "BBQ치킨 삼성역점",
-    "type": "치킨·프랜차이즈",
-    "priceRange": "4000~30000",
-    "cat": [
-      "치킨",
-      "야장"
-    ],
-    "e": "🍟",
-    "rt": 4,
-    "cnt": 2,
-    "addr": "삼성로 103길 12",
-    "hours": "23:00",
-    "tel": "02-539-9282",
-    "tags": [
-      "BBQ황금올리브",
-      "치맥"
-    ],
-    "moods": [
-      "기분 좋음",
-      "혼밥",
-      "회식"
-    ],
-    "wx": [
-      "맑음",
-      "흐림"
-    ],
-    "scene": [
-      "치맥",
-      "야장에 맥주"
-    ],
-    "rv": [
-      "친절하시고 맛도 좋고 만족입니다.",
-      "황금 올리브치킨을 좋아하는데 주말이라 그런지 너무바빠 주문이 밀리는거같아 평일에 먹어야겠어요."
-    ],
-    "lat": 37.5103886,
-    "lng": 127.053406,
-    "exit4": false,
-    "naverPlaceId": "1639999674",
-    "naverUrl": "https://map.naver.com/p/entry/place/1639999674",
-    "menuItems": [
-      {
-        "menuName": "BBQ맛탕",
-        "price": 4000,
-        "description": "추억의 오리지널 맛탕을 그대로 재현한 BBQ맛탕"
-      },
-      {
-        "menuName": "",
-        "price": 29000,
-        "description": "황금올리브치킨™+닭다리 2개+BBQ감자튀김"
-      },
-      {
-        "menuName": "",
-        "price": 30000,
-        "description": "핫황금올리브치킨™크리스피+닭다리 2개+BBQ감자튀김"
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "꼬끼오치킨호프",
     "type": "치킨·호프",
     "cat": [
@@ -4423,7 +4363,7 @@ const restaurants = [
     ],
     "e": "🍔",
     "rt": 4.2,
-    "cnt": 3731,
+    "cnt": 3732,
     "addr": "영동대로 513 코엑스몰",
     "hours": "22:00",
     "tel": "07-1406-0636",
@@ -4473,7 +4413,7 @@ const restaurants = [
     ],
     "e": "🔔",
     "rt": 4.4,
-    "cnt": 1323,
+    "cnt": 1326,
     "addr": "테헤란로 87길 46 오크우드 B2",
     "hours": "영업시간 미확인",
     "tel": "07-1366-8901",
@@ -4620,7 +4560,7 @@ const restaurants = [
     ],
     "e": "🚂",
     "rt": 5,
-    "cnt": 2022,
+    "cnt": 2037,
     "addr": "영동대로 85길 38",
     "hours": "AM 10–PM 9 (일 영업)",
     "tel": "07-1367-2649",
@@ -4723,7 +4663,7 @@ const restaurants = [
     ],
     "e": "🧀",
     "rt": 4.1,
-    "cnt": 778,
+    "cnt": 781,
     "addr": "테헤란로 114길 16",
     "hours": "영업시간 미확인",
     "tel": "07-1325-1271",
@@ -4803,7 +4743,7 @@ const restaurants = [
     ],
     "e": "🍟",
     "rt": 3.9,
-    "cnt": 6317,
+    "cnt": 6316,
     "addr": "삼성로 92길 29",
     "hours": "24:00",
     "tel": "02-6203-4600",
@@ -5653,7 +5593,7 @@ const restaurants = [
     ],
     "e": "🧂",
     "rt": 4.5,
-    "cnt": 669,
+    "cnt": 673,
     "addr": "삼성로 104길 23",
     "hours": "AM 11–AM 3 (일 ~PM 11)",
     "tel": "02-558-6692",
@@ -5718,7 +5658,7 @@ const restaurants = [
     ],
     "e": "🐖",
     "rt": 4.5,
-    "cnt": 1389,
+    "cnt": 1390,
     "addr": "삼성1동 162-19",
     "hours": "PM 5–PM 10 (토일 PM 4:30~PM 9:30)",
     "tel": "07-1349-6342",
@@ -5820,7 +5760,7 @@ const restaurants = [
     ],
     "e": "🏆",
     "rt": 4.5,
-    "cnt": 1540,
+    "cnt": 1555,
     "addr": "테헤란로 79길 25",
     "hours": "AM 11–PM 2:30, PM 4–PM 10 (일 휴무)",
     "tel": "07-1307-2628",
@@ -5955,7 +5895,7 @@ const restaurants = [
     ],
     "e": "🎯",
     "rt": 4.9,
-    "cnt": 238,
+    "cnt": 239,
     "addr": "테헤란로 87길 33 B1F",
     "hours": "AM 11–PM 10 (매일)",
     "tel": "07-1413-7877",
@@ -6092,7 +6032,7 @@ const restaurants = [
     ],
     "e": "🦑",
     "rt": 4.6,
-    "cnt": 1499,
+    "cnt": 1505,
     "addr": "테헤란로 81길 16",
     "hours": "22:00",
     "tel": "07-1346-4124",
@@ -6351,7 +6291,7 @@ const restaurants = [
     ],
     "e": "🎎",
     "rt": 4.3,
-    "cnt": 843,
+    "cnt": 844,
     "addr": "테헤란로 421",
     "hours": "AM 11:30–PM 10 (일 휴무)",
     "tel": "07-1410-2237",
@@ -6557,7 +6497,7 @@ const restaurants = [
     ],
     "e": "⭐",
     "rt": 4.8,
-    "cnt": 1779,
+    "cnt": 1837,
     "addr": "삼성동 테헤란로 69길 8",
     "hours": "24시간 (매일)",
     "tel": "07-1367-1692",
@@ -6900,7 +6840,7 @@ const restaurants = [
     ],
     "e": "🍽️",
     "rt": 4.6,
-    "cnt": 2160,
+    "cnt": 2172,
     "addr": "테헤란로 81길 62-4",
     "hours": "PM 4–PM 10:30 (매일)",
     "tel": "07-1305-0095",
@@ -7234,7 +7174,7 @@ const restaurants = [
     ],
     "e": "🥬",
     "rt": 4.7,
-    "cnt": 2278,
+    "cnt": 2279,
     "addr": "테헤란로 81길 62",
     "hours": "AM 11–PM 2:30, PM 5–PM 10 (토일 PM 11:30~PM 10)",
     "tel": "07-1302-1529",
@@ -7981,7 +7921,7 @@ const restaurants = [
     ],
     "e": "🇮🇹",
     "rt": 4.9,
-    "cnt": 438,
+    "cnt": 441,
     "addr": "테헤란로 517 현대백화점 무역센터점 10층",
     "hours": "AM 11–PM 2:30, PM 5–PM 10 (매일)",
     "tel": "07-1322-2928",
@@ -8080,7 +8020,7 @@ const restaurants = [
     ],
     "e": "🧅",
     "rt": 4,
-    "cnt": 598,
+    "cnt": 605,
     "addr": "삼성동 91-25",
     "hours": "AM 11:30–PM 10 (매일)",
     "tel": "07-1334-1274",
@@ -8164,7 +8104,7 @@ const restaurants = [
     ],
     "e": "🧄",
     "rt": 4.3,
-    "cnt": 1840,
+    "cnt": 1849,
     "addr": "영동대로 520 봉은사 아이파크타워 지하1층",
     "hours": "AM 11–PM 9 (매일)",
     "tel": "07-1413-6103",
@@ -8223,7 +8163,7 @@ const restaurants = [
     ],
     "e": "🍕",
     "rt": 4.1,
-    "cnt": 6243,
+    "cnt": 6246,
     "addr": "영동대로 513 코엑스 지하1층",
     "hours": "AM 10–PM 10 (매일)",
     "tel": "07-1497-1163",
@@ -8457,7 +8397,7 @@ const restaurants = [
     ],
     "e": "🧀",
     "rt": 4.3,
-    "cnt": 4057,
+    "cnt": 4058,
     "addr": "테헤란로 521 파르나스몰 지하1층",
     "hours": "22:00",
     "tags": [
@@ -8540,7 +8480,7 @@ const restaurants = [
     ],
     "e": "🍅",
     "rt": 3.4,
-    "cnt": 1103,
+    "cnt": 1105,
     "addr": "봉은사로 524 코엑스몰",
     "hours": "AM 11–PM 9 (매일)",
     "tel": "02-551-1515",
@@ -8690,7 +8630,7 @@ const restaurants = [
     ],
     "e": "🏨",
     "rt": 4.2,
-    "cnt": 1965,
+    "cnt": 1966,
     "addr": "오크우드 프리미어 호텔 삼성동",
     "hours": "22:00",
     "tel": "02-3466-7277",
@@ -9137,7 +9077,7 @@ const restaurants = [
     ],
     "e": "🫕",
     "rt": 3.6,
-    "cnt": 1904,
+    "cnt": 1911,
     "addr": "영동대로 513 코엑스몰",
     "hours": "AM 11–PM 10 (매일)",
     "tel": "07-1428-3797",
@@ -10789,7 +10729,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 4.9,
-    "cnt": 2571,
+    "cnt": 2581,
     "addr": "영동대로85길 34",
     "hours": "영업시간 확인 필요",
     "tel": "07-1365-6782",
@@ -11736,7 +11676,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 4.4,
-    "cnt": 1333,
+    "cnt": 1331,
     "addr": "대치동 2 KR 서울특별시 강남구 944-21 차아이파크 101호",
     "hours": "영업시간 확인 필요",
     "tel": "07-1389-3072",
@@ -11830,7 +11770,7 @@ const restaurants = [
     ],
     "e": "☕",
     "rt": 4.4,
-    "cnt": 1021,
+    "cnt": 1022,
     "addr": "영동대로 506",
     "hours": "18:00",
     "tel": "02-2175-9107",
@@ -12027,7 +11967,7 @@ const restaurants = [
     ],
     "e": "🥟",
     "rt": 4.3,
-    "cnt": 5277,
+    "cnt": 5278,
     "addr": "테헤란로 521",
     "hours": "AM 10:30 ~ PM 9:20",
     "tel": "07-1478-3999",
@@ -12129,7 +12069,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 4.3,
-    "cnt": 738,
+    "cnt": 739,
     "addr": "대치동 995-24",
     "hours": "AM 11:00 ~ PM 9:00",
     "tel": "02-403-8282",
@@ -12528,7 +12468,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 4.2,
-    "cnt": 3805,
+    "cnt": 3808,
     "addr": "삼성1동 테헤란로 521",
     "hours": "22:00",
     "tel": "02-3453-6811",
@@ -13187,7 +13127,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 4.2,
-    "cnt": 442,
+    "cnt": 446,
     "addr": "테헤란로104길 19",
     "hours": "AM 11:30 ~ PM 3:00, PM 5:00~10:00",
     "tel": "07-1475-1282",
@@ -16913,7 +16853,7 @@ const restaurants = [
     ],
     "e": "🐷",
     "rt": 3.8,
-    "cnt": 649,
+    "cnt": 656,
     "addr": "대치동 테헤란로104길 11",
     "hours": "22:00",
     "tel": "02-567-2772",
@@ -17272,7 +17212,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 3.7,
-    "cnt": 589,
+    "cnt": 593,
     "addr": "대치동 테헤란로104길 11",
     "hours": "22:00",
     "tel": "02-567-5620",
@@ -17509,7 +17449,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 3.7,
-    "cnt": 1194,
+    "cnt": 1192,
     "addr": "테헤란로 521",
     "hours": "AM 11:00 ~ PM 10:00",
     "tel": "07-1443-8944",
@@ -17717,7 +17657,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 3.7,
-    "cnt": 2294,
+    "cnt": 2292,
     "addr": "삼성1동 테헤란로 521",
     "hours": "22:00",
     "tel": "02-567-1031",
@@ -17815,7 +17755,7 @@ const restaurants = [
     ],
     "e": "🍱",
     "rt": 3.7,
-    "cnt": 387,
+    "cnt": 388,
     "addr": "South Korea",
     "hours": "AM 11:00 ~ PM 9:00",
     "tel": "02-555-4039",
@@ -18160,7 +18100,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 3.6,
-    "cnt": 255,
+    "cnt": 256,
     "addr": "South Korea",
     "hours": "02:00",
     "tel": "02-568-2252",
@@ -18573,7 +18513,7 @@ const restaurants = [
     ],
     "e": "☕",
     "rt": 2.1,
-    "cnt": 725,
+    "cnt": 726,
     "addr": "영동대로86길 6 1층",
     "hours": "영업시간 확인 필요",
     "tel": "02-565-7344",
@@ -18675,7 +18615,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1882,
+    "cnt": 1907,
     "addr": "삼성동 149-23",
     "hours": "11:30",
     "tags": [
@@ -18763,7 +18703,7 @@ const restaurants = [
     ],
     "e": "🍴",
     "rt": 0,
-    "cnt": 5656,
+    "cnt": 5699,
     "addr": "삼성동 144-17 아이콘삼성 ((구)골든타워) 지하1층",
     "hours": "11:00",
     "tags": [
@@ -18851,7 +18791,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1610,
+    "cnt": 1616,
     "addr": "삼성동 154-2 지하1층, 1층",
     "hours": "11:30",
     "tags": [
@@ -18928,7 +18868,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 18976,
+    "cnt": 19094,
     "addr": "삼성동 159 지하1층 O-107호 라운지",
     "hours": "10:30",
     "tags": [
@@ -18986,7 +18926,7 @@ const restaurants = [
     ],
     "e": "🍜",
     "rt": 0,
-    "cnt": 637,
+    "cnt": 672,
     "addr": "삼성동 149-24 2층",
     "hours": "주소서울 강남구 봉은사로82길 31 2층9삼성중앙역 5번 출구에서 287m미터",
     "tags": [
@@ -19085,7 +19025,7 @@ const restaurants = [
     ],
     "e": "🍜",
     "rt": 0,
-    "cnt": 2267,
+    "cnt": 2270,
     "addr": "삼성동 154-8 B1F",
     "hours": "11:00",
     "tags": [
@@ -19138,7 +19078,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 3404,
+    "cnt": 3431,
     "addr": "삼성동 155-13 2층 고메램",
     "hours": "11:30",
     "tags": [
@@ -19220,7 +19160,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 381,
+    "cnt": 382,
     "addr": "대치동 957-4 1층",
     "hours": "11:00",
     "tags": [
@@ -19336,7 +19276,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 2396,
+    "cnt": 2399,
     "addr": "대치동 942 해성1빌딩 지하1층",
     "hours": "주소서울 강남구 테헤란로 504 해성1빌딩 지하1층2삼성역 4번 출구에서 502m미터",
     "tags": [
@@ -19427,7 +19367,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1998,
+    "cnt": 2018,
     "addr": "삼성동 155-13 지상 1층",
     "hours": "03:00",
     "tags": [
@@ -19599,7 +19539,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 3588,
+    "cnt": 3592,
     "addr": "삼성동 159-6 도심공항 터미널 1층",
     "hours": "10:30",
     "tags": [
@@ -19765,7 +19705,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 697,
+    "cnt": 737,
     "addr": "대치동 956 1층",
     "hours": "주소서울 강남구 삼성로86길 18 1층2삼성역 4번 출구에서 573m미터",
     "tags": [
@@ -20026,7 +19966,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 4702,
+    "cnt": 4735,
     "addr": "삼성동 159 코엑스 스타필드 지하 1층",
     "hours": "11:00",
     "tags": [
@@ -20104,7 +20044,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 438,
+    "cnt": 441,
     "addr": "삼성동 159-7 현대백화점 10층",
     "hours": "11:00",
     "tags": [
@@ -20189,7 +20129,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 4057,
+    "cnt": 4058,
     "addr": "삼성동 159-8 파르나스몰 지하1층",
     "hours": "10:30",
     "tags": [
@@ -20264,7 +20204,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 1960,
+    "cnt": 1987,
     "addr": "삼성동 159",
     "hours": "11:00",
     "tags": [
@@ -20342,7 +20282,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 6241,
+    "cnt": 6246,
     "addr": "삼성동 159 지하1층 J102호 더플레이스 (컬럼비아,에이랜드 옆)",
     "hours": "10:00",
     "tags": [
@@ -20398,7 +20338,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 6975,
+    "cnt": 7001,
     "addr": "삼성동 159 B1층 H103A호",
     "hours": "11:00",
     "tags": [
@@ -20442,7 +20382,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 1964,
+    "cnt": 1966,
     "addr": "삼성동 159 오크우드 호텔 5층 오크레스토랑",
     "hours": "06:30",
     "tags": [
@@ -20486,7 +20426,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 17,
+    "cnt": 1530,
     "addr": "삼성동 159 스타필드 코엑스몰 지하1층",
     "hours": "주소서울 강남구 영동대로 513 스타필드 코엑스몰 지하1층9봉은사역 7번 출구에서 2m미터",
     "tags": [],
@@ -20516,7 +20456,7 @@ const restaurants = [
     ],
     "e": "🍴",
     "rt": 0,
-    "cnt": 2308,
+    "cnt": 2310,
     "addr": "삼성동 159 코엑스몰 B1 H105",
     "hours": "11:00",
     "tags": [
@@ -20594,7 +20534,7 @@ const restaurants = [
     ],
     "e": "☕",
     "rt": 0,
-    "cnt": 68,
+    "cnt": 1600,
     "addr": "삼성동 159",
     "hours": "주소서울 강남구 영동대로 517 (삼성동)9봉은사역 7번 출구에서 75m미터",
     "tags": [],
@@ -20653,7 +20593,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1738,
+    "cnt": 1759,
     "addr": "삼성동 113 조양빌딩",
     "hours": "11:30",
     "tags": [
@@ -20698,7 +20638,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1433,
+    "cnt": 1435,
     "addr": "삼성동 44-15 1층",
     "hours": "주소서울 강남구 봉은사로 445 1층9삼성중앙역 1번 출구에서 374m미터",
     "tags": [
@@ -20796,7 +20736,7 @@ const restaurants = [
     ],
     "e": "🍝",
     "rt": 0,
-    "cnt": 1019,
+    "cnt": 1020,
     "addr": "삼성동 113-5 호텔 크레센도 서울 1층",
     "hours": "11:00",
     "tags": [
@@ -20878,7 +20818,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 2773,
+    "cnt": 2802,
     "addr": "삼성동 140-29 1층",
     "hours": "10:30",
     "tags": [
@@ -20946,7 +20886,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 14,
+    "cnt": 19,
     "addr": "삼성동 127-7 1층, 2층",
     "hours": "11:00",
     "tags": [
@@ -21006,7 +20946,7 @@ const restaurants = [
     ],
     "e": "☕",
     "rt": 0,
-    "cnt": 2164,
+    "cnt": 2166,
     "addr": "삼성동 168-27 포스톤즈커피로스터스",
     "hours": "07:30",
     "tags": [
@@ -21094,7 +21034,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 2200,
+    "cnt": 2234,
     "addr": "삼성동 162-25 동영빌딩 지상1층 102~103호",
     "hours": "11:00",
     "tags": [
@@ -21239,7 +21179,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 960,
+    "cnt": 966,
     "addr": "삼성동 162-15 1층 102호",
     "hours": "11:00",
     "tags": [
@@ -21312,7 +21252,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 961,
+    "cnt": 967,
     "addr": "삼성동 110-5 지상1층",
     "hours": "11:00",
     "tags": [
@@ -21368,7 +21308,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 636,
+    "cnt": 734,
     "addr": "역삼동 696-18 2층",
     "hours": "10:30",
     "tags": [
@@ -21419,7 +21359,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 148,
+    "cnt": 159,
     "addr": "대치동 897-11 1층",
     "hours": "11:00",
     "tags": [
@@ -21464,7 +21404,7 @@ const restaurants = [
     ],
     "e": "☕",
     "rt": 0,
-    "cnt": 236,
+    "cnt": 237,
     "addr": "역삼동 704-47 1층 알렉산더 커피 스튜디오",
     "hours": "07:00",
     "tags": [
@@ -21505,7 +21445,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 642,
+    "cnt": 669,
     "addr": "역삼동 704-51 우리빌딩 2층",
     "hours": "11:00",
     "tags": [
@@ -21594,7 +21534,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 10428,
+    "cnt": 10474,
     "addr": "대치동 897-36 지상 1층",
     "hours": "11:00",
     "tags": [
@@ -21660,7 +21600,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 1205,
+    "cnt": 1226,
     "addr": "역삼동 705 정다운빌딩 2층",
     "hours": "11:30",
     "tags": [
@@ -21721,7 +21661,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 3727,
+    "cnt": 3745,
     "addr": "대치동 897-13 2층 스시이안앤 선릉역점",
     "hours": "11:20",
     "tags": [
@@ -21776,7 +21716,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1090,
+    "cnt": 1091,
     "addr": "역삼동 705-27 화남빌딩 14층",
     "hours": "11:30",
     "tags": [
@@ -21869,7 +21809,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 24595,
+    "cnt": 24682,
     "addr": "대치동 896 지상 1층",
     "hours": "주소서울 강남구 선릉로86길 24 지상 1층2수인분당선릉역 1번 출구에서 261m미터",
     "tags": [
@@ -21918,7 +21858,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 1193,
+    "cnt": 1266,
     "addr": "대치동 890-49 107호",
     "hours": "주소서울 강남구 테헤란로64길 9 107호2수인분당선릉역 1번 출구에서 154m미터",
     "tags": [
@@ -21995,7 +21935,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 5164,
+    "cnt": 5204,
     "addr": "대치동 895-9 1층",
     "hours": "10:00",
     "tags": [
@@ -22083,7 +22023,7 @@ const restaurants = [
     ],
     "e": "🍜",
     "rt": 0,
-    "cnt": 433,
+    "cnt": 467,
     "addr": "역삼동 696-16 엠스빌딩 1층",
     "hours": "주소서울 강남구 테헤란로57길 17 엠스빌딩 1층2수인분당선릉역 7번 출구에서 184m미터",
     "tags": [
@@ -22156,7 +22096,7 @@ const restaurants = [
     ],
     "e": "🏮",
     "rt": 0,
-    "cnt": 1502,
+    "cnt": 1506,
     "addr": "대치동 896-46 1층 101호",
     "hours": "주소서울 강남구 선릉로86길 44-3 1층 101호2수인분당선릉역 1번 출구에서 452m미터",
     "tags": [
@@ -22240,7 +22180,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 3214,
+    "cnt": 3219,
     "addr": "대치동 890-43 지상1층",
     "hours": "24:00",
     "tags": [
@@ -22282,7 +22222,7 @@ const restaurants = [
     ],
     "e": "🍣",
     "rt": 0,
-    "cnt": 1002,
+    "cnt": 1006,
     "addr": "삼성동 141-8 롯데 클라쎄 2층 203호",
     "hours": "11:00",
     "tags": [
@@ -22328,7 +22268,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 254,
+    "cnt": 255,
     "addr": "역삼동 697-11 2층",
     "hours": "10:00",
     "tags": [
@@ -22419,7 +22359,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 2760,
+    "cnt": 2761,
     "addr": "대치동 896-5",
     "hours": "12:00",
     "tags": [
@@ -22475,7 +22415,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 3658,
+    "cnt": 3675,
     "addr": "대치동 895-11 백합힐 1층",
     "hours": "11:30",
     "tags": [
@@ -22535,7 +22475,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 804,
+    "cnt": 833,
     "addr": "대치동 891-23 1층 104호, 105호",
     "hours": "11:00",
     "tags": [
@@ -22594,7 +22534,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 1034,
+    "cnt": 1038,
     "addr": "대치동 891-44 노벨빌딩 지하1층",
     "hours": "11:30",
     "tags": [
@@ -22768,7 +22708,7 @@ const restaurants = [
     ],
     "e": "🍚",
     "rt": 0,
-    "cnt": 237,
+    "cnt": 239,
     "addr": "삼성동 154-10 B1F",
     "hours": "11:00",
     "tags": [
@@ -22859,7 +22799,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 1402,
+    "cnt": 1415,
     "addr": "대치동 895-5 1층",
     "hours": "주소서울 강남구 삼성로81길 36 1층2수인분당선릉역 1번 출구에서 573m미터",
     "tags": [
@@ -23015,7 +22955,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 978,
+    "cnt": 994,
     "addr": "대치동 891-46 지상1층",
     "hours": "11:30",
     "tags": [
@@ -23073,7 +23013,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 1786,
+    "cnt": 1787,
     "addr": "삼성동 152-47 1층",
     "hours": "주소서울 강남구 테헤란로81길 46-5 1층2삼성역 5번 출구에서 780m미터",
     "tags": [
@@ -23287,7 +23227,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 1429,
+    "cnt": 1433,
     "addr": "삼성동 144-14 1층 104호",
     "hours": "주소서울 강남구 삼성로 517 1층 104호9삼성중앙역 6번 출구에서 561m미터",
     "tags": [
@@ -23361,7 +23301,7 @@ const restaurants = [
     ],
     "e": "🥩",
     "rt": 0,
-    "cnt": 1000,
+    "cnt": 1017,
     "addr": "삼성동 158-6 지하1층",
     "hours": "주소서울 강남구 삼성로96길 26-12 지하1층2삼성역 5번 출구에서 445m미터",
     "tags": [
@@ -33898,34 +33838,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "명인닭곰탕 삼성본점",
-    "type": "곰탕,설렁탕",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "삼성동 157-18 지하2층 201호",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5081633,
-    "lng": 127.0574633,
-    "exit4": false,
-    "naverPlaceId": "1920118495",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1920118495",
-    "naverBlogCnt": 3,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "온새미로 대치점",
     "type": "한식",
     "priceRange": "9000~39000",
@@ -38200,45 +38112,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "포몬스 대치점",
-    "type": "베트남음식",
-    "priceRange": "9500",
-    "cat": [
-      "아시안"
-    ],
-    "e": "🍛",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "대치동 961-2 지상1층",
-    "hours": "",
-    "tags": [],
-    "moods": [
-      "기분 좋음"
-    ],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "세트 C 굿. 볶음밥이 지난번도 느꼈는데 질어요. 볶음밥은 뽀글뽀글해야 하는데",
-      "아이 학원 시간 때문에 식사 시간이 빠듯한데 음식이 빨리 나오고 맛도 좋았습니다. 특히 사장님이 친절하셔서 아이와 기분 좋게 식사하고 나왔네요.",
-      "제 입맛에는 P4가 최애. 양파절임,단무지를 테이블에 덜어먹기 쉽게 해주시고 무료 고수 추가 소중해요"
-    ],
-    "lat": 37.503213,
-    "lng": 127.0594871,
-    "exit4": true,
-    "naverPlaceId": "1041667366",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1041667366",
-    "menuItems": [
-      {
-        "menuName": "양지 쌀국수",
-        "price": 9500,
-        "description": ""
-      }
-    ],
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "노이 삼성점",
     "type": "베트남음식",
     "cat": [
@@ -38625,37 +38498,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "두두퐁안",
-    "type": "베트남음식",
-    "cat": [
-      "아시안"
-    ],
-    "e": "🍛",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "삼성동 121-38 신도브래뉴 B109",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(2026.03.16 00:28:32)"
-    ],
-    "lat": 37.5103725,
-    "lng": 127.0534331,
-    "exit4": false,
-    "naverPlaceId": "1719048750",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1719048750",
-    "naverBlogCnt": 13,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180713_103/1531469976494dj1ie_JPEG/7ZkKI3pRk2aFzrB5bns9qPtH.jpg",
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "사이공본가 대치점",
     "type": "베트남음식",
     "cat": [
@@ -38682,35 +38524,6 @@ const restaurants = [
     "naverPlaceId": "1221397577",
     "naverUrl": "https://map.naver.com/v5/entry/place/1221397577",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230406_118/1680744289907kLNHc_JPEG/KakaoTalk_20230403_203320108.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "뉴리치프라퍼티",
-    "type": "부동산",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 945-10 KT&G대치타워 3층",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(16/Mar/2026:00:28:53 +0900)"
-    ],
-    "lat": 37.5076869,
-    "lng": 127.0620266,
-    "exit4": false,
-    "naverPlaceId": "1311312160",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1311312160",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200810_300/1597046691062Wi55b_PNG/rM6i1Pud9jSffZfa3ujv0JkL.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -38868,105 +38681,6 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241004_28/1728021010413WpWYU_JPEG/1728020975508.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "룩친&타이누들",
-    "type": "태국음식",
-    "priceRange": "3000~20000",
-    "cat": [
-      "아시안"
-    ],
-    "e": "🍛",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "삼성동 152-32",
-    "hours": "11:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "팟카파우 무쌉 매콤하고 맛있습니다"
-    ],
-    "lat": 37.5102432,
-    "lng": 127.0562407,
-    "exit4": false,
-    "naverPlaceId": "1174350473",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1174350473",
-    "naverBlogCnt": 3,
-    "menuItems": [
-      {
-        "menuName": "뚬얌꿍",
-        "price": 15000,
-        "description": ""
-      },
-      {
-        "menuName": "팟타이",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "룩친 삥(고기완자구이) 3꼬치",
-        "price": 8000,
-        "description": ""
-      },
-      {
-        "menuName": "쏨땅 + 윙 5조각",
-        "price": 14000,
-        "description": ""
-      },
-      {
-        "menuName": "룩친 1꼬치",
-        "price": 3000,
-        "description": ""
-      },
-      {
-        "menuName": "룩친 1꼬치",
-        "price": 3000,
-        "description": ""
-      },
-      {
-        "menuName": "룩친 1꼬치",
-        "price": 3000,
-        "description": ""
-      },
-      {
-        "menuName": "공기밥은 포함되지 않습니다.",
-        "price": 20000,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201113_240/1605236121644Lr1Xr_JPEG/LeYMzkXeZ_R0vkS05QUFgjs2.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "코엑스19 오마이핏",
-    "type": "태국음식",
-    "cat": [
-      "아시안"
-    ],
-    "e": "🍛",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 159",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "에그슬럿 먹어보고 싶었는데 드디어 먹었어요!가격은 비싼감이 없지않지만 그래도 나쁘지 않았어요!다만 한가지!!! 버거를 시켰는데..음료랑 사이드메"
-    ],
-    "lat": 37.5128784,
-    "lng": 127.0572911,
-    "exit4": false,
-    "naverPlaceId": "1827382265",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1827382265",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39219,64 +38933,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "누구나자유 유학원",
-    "type": "지원,대행",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 3,
-    "addr": "대치동 948 .",
-    "hours": "09:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(16/Mar/2026:00:30:47 +0900)"
-    ],
-    "lat": 37.5062938,
-    "lng": 127.0637081,
-    "exit4": true,
-    "naverPlaceId": "1822840090",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1822840090",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250905_40/1757056682773z4Q1s_PNG/ST_ReferenceChecked-CMYK.png",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "아엠유학원",
-    "type": "교육,학문",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 989-10",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(16/Mar/2026:00:30:58 +0900)"
-    ],
-    "lat": 37.4989174,
-    "lng": 127.0626498,
-    "exit4": true,
-    "naverPlaceId": "1030361202",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1030361202",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250328_15/1743128818425mOIo2_PNG/1000066813.png",
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "아그라 스타필드 코엑스점",
     "type": "인도음식",
     "priceRange": "29800~178300",
@@ -39439,63 +39095,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "이글스포렉스",
-    "type": "스포츠,오락",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "대치동 1006-2",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(2026.03.16 00:31:47)"
-    ],
-    "lat": 37.5052331,
-    "lng": 127.0660187,
-    "exit4": true,
-    "naverPlaceId": "18823652",
-    "naverUrl": "https://map.naver.com/v5/entry/place/18823652",
-    "naverBlogCnt": 2,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "어피닛",
-    "type": "컴퓨터프로그래밍,정보서비스업",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 143-40 위워크타워 13층 101호",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(16/Mar/2026:00:31:57 +0900)"
-    ],
-    "lat": 37.5063711,
-    "lng": 127.0536603,
-    "exit4": false,
-    "naverPlaceId": "37052937",
-    "naverUrl": "https://map.naver.com/v5/entry/place/37052937",
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "커리146 강남점",
     "type": "인도음식",
     "priceRange": "2300~13000",
@@ -39575,60 +39174,6 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231127_250/170106862168438wEt_JPEG/1.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "Daewoong Pharmaceutical India",
-    "type": "제조업",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 163-3",
-    "hours": "12:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "Daewoong Pharmaceutical India",
-      "Daewoong Pharmaceutical India의약품제조"
-    ],
-    "lat": 37.5144323,
-    "lng": 127.0654871,
-    "exit4": false,
-    "naverPlaceId": "1980514879",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1980514879",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201103_137/1604398697831IG5ie_PNG/i2NjXPwDneOWVGd1AdGeTqn3.png",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "리치로코리아",
-    "type": "설계,엔지니어링",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 159-1 30층",
-    "hours": "09:30",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5103316,
-    "lng": 127.0609721,
-    "exit4": false,
-    "naverPlaceId": "1809187819",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1809187819",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39727,104 +39272,6 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150901_156/1441033456878lEnVt_JPEG/11737706_0.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "리빈커피 현대백화점 무역센터점",
-    "type": "카페,디저트",
-    "priceRange": "35000",
-    "cat": [
-      "카페"
-    ],
-    "e": "☕",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 159-7 현대백화점 무역점",
-    "hours": "10:30",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "비·눈",
-      "추움"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5090403,
-    "lng": 127.0599017,
-    "exit4": false,
-    "naverPlaceId": "1930075131",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1930075131",
-    "menuItems": [
-      {
-        "menuName": "바닐라헤이즐넛",
-        "price": 35000,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230316_232/1678947214819h0s6I_JPEG/%B9%AB%BF%AA1.jpg",
-    "parking": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "심플사파리",
-    "type": "서비스,산업",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "역삼동 696-28",
-    "hours": "10:30",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5066733,
-    "lng": 127.0472576,
-    "exit4": false,
-    "naverPlaceId": "1044240519",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1044240519",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241210_146/1733802677185aDv0P_JPEG/02_%281%29.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "테헤란공감법무사사무소",
-    "type": "전문,기술서비스",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "역삼동 707-38 테헤란로오피스빌딩 4층 415호",
-    "hours": "09:30",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [],
-    "lat": 37.5032132,
-    "lng": 127.0471401,
-    "exit4": false,
-    "naverPlaceId": "1872923895",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1872923895",
-    "naverBlogCnt": 2,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231115_26/1700022584582TrDYq_JPEG/1000003388.jpg",
-    "parking": true,
-    "reservation": true,
     "updatedAt": "2026-03-16"
   },
   {
@@ -45788,40 +45235,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "크레이지스푼",
-    "type": "분식",
-    "cat": [
-      "분식"
-    ],
-    "e": "🍢",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "대치동 891-44 지하1층 B08-1호",
-    "hours": "11:00",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 211.241.121.25(2026.03.16 00:53:04)"
-    ],
-    "lat": 37.5050648,
-    "lng": 127.0553624,
-    "exit4": false,
-    "naverPlaceId": "2091793212",
-    "naverUrl": "https://map.naver.com/v5/entry/place/2091793212",
-    "naverBlogCnt": 1,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251120_94/17636180690995982L_JPEG/IMG_8164.jpeg",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "싸움의고수 대치점",
     "type": "육류,고기요리",
     "priceRange": "4500",
@@ -45967,31 +45380,6 @@ const restaurants = [
     "naverPlaceId": "1165904418",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165904418",
     "imageUrl": "https://ldb-phinf.pstatic.net/20191203_239/1575362383562xRv2Y_JPEG/k8zf0Tq5ICWvWR1XUSzMpKp2.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "다모고",
-    "type": "소프트웨어개발",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 159 2층 A100호",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5118239,
-    "lng": 127.0591591,
-    "exit4": false,
-    "naverPlaceId": "1678698351",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1678698351",
     "updatedAt": "2026-03-16"
   },
   {
@@ -46799,81 +46187,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "3층 냉삼집",
-    "type": "한식",
-    "priceRange": "4000~15000",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "삼성동 77-17 3층",
-    "hours": "11:00",
-    "tags": [
-      "혼밥가능",
-      "가성비"
-    ],
-    "moods": [
-      "혼밥"
-    ],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [
-      "저녁 식사",
-      "가볍게 술",
-      "혼밥"
-    ],
-    "rv": [
-      "3층 냉삼집.봉은사역 인근 숨겨진 나의 구내식당미팅없이 혼밥일때 자주 오는 곳.처음엔 여기가 식당인가?싶지만3층에 가성비 최고 함바집.친절한 미",
-      "반찬늬 종류가 더있어요 이 근처에서 빠르게 가성비 있게 드시기 좋아요",
-      "이런 곳이 있었군요 또 가 보아요"
-    ],
-    "lat": 37.5145676,
-    "lng": 127.0592467,
-    "exit4": false,
-    "naverPlaceId": "1292513466",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1292513466",
-    "naverBlogCnt": 2,
-    "menuItems": [
-      {
-        "menuName": "150g당",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "냉동 삼겹살",
-        "price": 12000,
-        "description": ""
-      },
-      {
-        "menuName": "사이드 계란말이",
-        "price": 8000,
-        "description": ""
-      },
-      {
-        "menuName": "사이드 된장찌개",
-        "price": 5000,
-        "description": ""
-      },
-      {
-        "menuName": "김치째개",
-        "price": 15000,
-        "description": ""
-      },
-      {
-        "menuName": "소주  맥주",
-        "price": 4000,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250105_243/17360626759198CYC8_JPEG/20241204_110007.jpg",
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "김미영앤드집밥",
     "type": "백반,가정식",
     "priceRange": "8000~13000",
@@ -47345,33 +46658,6 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20200428_300/1588042887640rPgX9_PNG/Ha1Xs3EkRMNpxdrIs3CZLbDP.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "훈민정식",
-    "type": "서비스,산업",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "삼성동 158-6",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [
-      "2층 키오스크 주문 편하네요."
-    ],
-    "lat": 37.5083577,
-    "lng": 127.058137,
-    "exit4": false,
-    "naverPlaceId": "1191675816",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1191675816",
     "updatedAt": "2026-03-16"
   },
   {
@@ -51737,63 +51023,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "24시 원조 춘천닭갈비",
-    "type": "야식",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 896-27",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5037961,
-    "lng": 127.0527382,
-    "exit4": false,
-    "naverPlaceId": "1572633025",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1572633025",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "직화명인 곱창&불닭발",
-    "type": "한식",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 990 삼성상가 지하3호",
-    "hours": "19:00",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.4991911,
-    "lng": 127.0630094,
-    "exit4": true,
-    "naverPlaceId": "1172944946",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1172944946",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221206_77/1670322717270GXm2E_JPEG/%C1%F7%C8%AD%B8%ED%C0%CE_%C7%AA%C1%FC%BC%BC%C6%AE.jpg",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "유가네닭갈비 한티역점",
     "type": "닭갈비",
     "priceRange": "29000~45000",
@@ -53611,33 +52840,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "태백감자탕",
-    "type": "한식",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "대치동 900-24 대치동 빌딩 지하1층",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5029592,
-    "lng": 127.0523788,
-    "exit4": false,
-    "naverPlaceId": "1667253067",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1667253067",
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "도마다리 감자탕 강남점",
     "type": "감자탕",
     "priceRange": "34000~93000",
@@ -53722,33 +52924,6 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230915_154/1694749278387NaUrQ_JPEG/KakaoTalk_20230915_123732610_04.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "응암동감자탕부대찌개",
-    "type": "한식",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "역삼동 765-7",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.4972842,
-    "lng": 127.0520955,
-    "exit4": false,
-    "naverPlaceId": "1755023513",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1755023513",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58076,40 +57251,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "프레지던트",
-    "type": "술집",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "삼성동 152-2 2층",
-    "hours": "03:00",
-    "tags": [],
-    "moods": [
-      "기분 좋음"
-    ],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [
-      "삼성중앙역 사거리에서 조금만 걸어오면 위치해있는 프레지던트 모던바예전 가게 오픈을 위해 공사중이던 모습을 외부에서 보긴했으나 내부를 방문해 한잔"
-    ],
-    "lat": 37.5106925,
-    "lng": 127.0558081,
-    "exit4": false,
-    "naverPlaceId": "1911141281",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1911141281",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240311_200/1710142337301aCq2k_JPEG/DDF92EA9-3154-4CA8-8452-5393055B0F72.jpeg",
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "빌라파이브",
     "type": "술집",
     "priceRange": "26000",
@@ -58746,39 +57887,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "나인위스키",
-    "type": "술집",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 944-21 1층, 9 Whiskey",
-    "hours": "19:00",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [],
-    "lat": 37.5067237,
-    "lng": 127.060916,
-    "exit4": true,
-    "naverPlaceId": "2005434112",
-    "naverUrl": "https://map.naver.com/v5/entry/place/2005434112",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250604_123/1749041517968lWYcD_JPEG/%B3%AA%C0%CE%C0%A7%BD%BA%C5%B0_%B0%A3%C6%C7.jpg",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "시가플레이스",
     "type": "술집",
     "priceRange": "29000",
@@ -58871,39 +57979,6 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210404_135/1617524337987jxi8N_JPEG/v1WHFf1ZCEtXf_DthHDxrKrV.jpeg.jpg",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "BAR BAILEY",
-    "type": "술집",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 943-11 지하1층 BAR BAILEY",
-    "hours": "20:00",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [],
-    "lat": 37.5064295,
-    "lng": 127.0586875,
-    "exit4": true,
-    "naverPlaceId": "1254953918",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1254953918",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240102_214/1704195087972DTaDv_JPEG/%BE%D5_%B0%A3%C6%C7-03.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59033,40 +58108,6 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250401_221/1743473679985Lr8k0_JPEG/KakaoTalk_20250328_010343652_01.jpg",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "어게인 위스키",
-    "type": "술집",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 2,
-    "addr": "삼성동 152-67 2층 201호",
-    "hours": "19:00",
-    "tags": [
-      "주차가능"
-    ],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [],
-    "lat": 37.5100707,
-    "lng": 127.0566719,
-    "exit4": false,
-    "naverPlaceId": "1282760613",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1282760613",
-    "naverBlogCnt": 1,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240314_207/17104146608688JQ7v_JPEG/IMG_9545.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59947,34 +58988,6 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20191225_179/1577254293622cSy3i_JPEG/4T8a33QemHqnLLXDnE9-6_dK.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "구미낙곱새",
-    "type": "한식",
-    "cat": [
-      "한식"
-    ],
-    "e": "🍚",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "역삼동 708-25 지하1층 구미낙곱새",
-    "hours": "11:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "추움",
-      "비·눈"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5034189,
-    "lng": 127.048815,
-    "exit4": false,
-    "naverPlaceId": "1223102690",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1223102690",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231223_31/17033032671077XjRf_JPEG/%B7%CE%B0%ED2_20231102_185510.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -62064,35 +61077,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "오비맥주",
-    "type": "술집",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 4,
-    "addr": "삼성동 159 아셈타워",
-    "hours": "17:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [],
-    "lat": 37.5130928,
-    "lng": 127.0598122,
-    "exit4": false,
-    "naverPlaceId": "12161508",
-    "naverUrl": "https://map.naver.com/v5/entry/place/12161508",
-    "naverBlogCnt": 74,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "비어팩토리 본점",
     "type": "술집",
     "priceRange": "13000~24000",
@@ -62242,72 +61226,6 @@ const restaurants = [
     "updatedAt": "2026-03-16"
   },
   {
-    "name": "평상 Live Jazz Pub",
-    "type": "술집",
-    "priceRange": "18000~28000",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 1,
-    "addr": "삼성동 127-8 초록빌딩 3층",
-    "hours": "",
-    "tags": [
-      "주차가능",
-      "단체가능",
-      "데이트"
-    ],
-    "moods": [
-      "데이트",
-      "회식"
-    ],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술",
-      "팀 회식",
-      "데이트"
-    ],
-    "rv": [
-      "단체모임 / 이색데이트 하고싶다면 강남 평상 라이브 재즈펍 추천합니다!2차로 가볍게 가기에도 좋아요~널찍한 공간에서 라이브 음악으로 귀호강하고맛"
-    ],
-    "lat": 37.5098976,
-    "lng": 127.0546963,
-    "exit4": false,
-    "naverPlaceId": "1317911876",
-    "naverUrl": "https://map.naver.com/v5/entry/place/1317911876",
-    "naverBlogCnt": 43,
-    "menuItems": [
-      {
-        "menuName": "감바스 알하이오",
-        "price": 28000,
-        "description": ""
-      },
-      {
-        "menuName": "페퍼로니 치즈피자",
-        "price": 25000,
-        "description": ""
-      },
-      {
-        "menuName": "카프레제",
-        "price": 18000,
-        "description": ""
-      },
-      {
-        "menuName": "나쵸칩스",
-        "price": 20000,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250327_156/1743046550548d3QkK_PNG/%C6%F2%BB%F32.png",
-    "parking": true,
-    "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
     "name": "이가든",
     "type": "술집",
     "priceRange": "21000~23000",
@@ -62423,46 +61341,6 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230228_256/1677576523215dXX5W_JPEG/E25DBAC0-327E-47EC-96BB-305A46CB4531.jpeg",
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "바이엔슈테판 포스코점",
-    "type": "술집",
-    "priceRange": "22000",
-    "cat": [
-      "야장"
-    ],
-    "e": "🍺",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "대치동 893 상가 1층",
-    "hours": "",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음",
-      "덥고 습함"
-    ],
-    "scene": [
-      "가볍게 술"
-    ],
-    "rv": [
-      "가게 바로 앞에서 담배필수 있어요",
-      "치킨 맛있어요유튜브 : 뚱야TV"
-    ],
-    "lat": 37.505015,
-    "lng": 127.0566119,
-    "exit4": false,
-    "naverPlaceId": "2071979632",
-    "naverUrl": "https://map.naver.com/v5/entry/place/2071979632",
-    "menuItems": [
-      {
-        "menuName": "순살치킨",
-        "price": 22000,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251224_129/1766587256939wKUHq_PNG/344.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -65579,75 +64457,6 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231212_132/1702380704227GSMJS_JPEG/Screenshot_20231212_203139_KakaoTalk.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
-  },
-  {
-    "name": "타코볼볼 대웅제약점",
-    "type": "멕시코,남미음식",
-    "priceRange": "7900~13700",
-    "cat": [
-      "기타"
-    ],
-    "e": "🍴",
-    "rt": 0,
-    "cnt": 0,
-    "addr": "삼성동 163-3 B1층 01호",
-    "hours": "11:00",
-    "tags": [],
-    "moods": [],
-    "wx": [
-      "맑음"
-    ],
-    "scene": [],
-    "rv": [],
-    "lat": 37.5144323,
-    "lng": 127.0654871,
-    "exit4": false,
-    "naverPlaceId": "2084912790",
-    "naverUrl": "https://map.naver.com/v5/entry/place/2084912790",
-    "menuItems": [
-      {
-        "menuName": "화이타비프 타코 라임라이스볼",
-        "price": 12900,
-        "description": ""
-      },
-      {
-        "menuName": "치킨 부리또",
-        "price": 9800,
-        "description": ""
-      },
-      {
-        "menuName": "화이타비프 부리또",
-        "price": 11200,
-        "description": ""
-      },
-      {
-        "menuName": "치킨퀘사디아",
-        "price": 10700,
-        "description": ""
-      },
-      {
-        "menuName": "폭탄 치즈 나초",
-        "price": 7900,
-        "description": ""
-      },
-      {
-        "menuName": "칠리 치즈 감자튀김",
-        "price": 7900,
-        "description": ""
-      },
-      {
-        "menuName": "비프스테이크 타코라임라이스볼",
-        "price": 13700,
-        "description": ""
-      },
-      {
-        "menuName": "쉬림프 타코",
-        "price": 10800,
-        "description": ""
-      }
-    ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250829_263/175643753156454oXn_JPEG/TBB_QUESADILLA-07.jpg",
     "updatedAt": "2026-03-16"
   },
   {
