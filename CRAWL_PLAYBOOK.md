@@ -18,9 +18,9 @@
 | samseong     | 삼성역   | ✅ 완료 |
 | jamsil       | 잠실     | ✅ 완료 |
 | pangyo       | 판교     | ✅ 완료 |
-| yeongtong    | 영통     | ⬜ 미진행 |
-| mangpo       | 망포     | ⬜ 미진행 |
-| yeongtongGu  | 영통구청 | ⬜ 미진행 |
+| yeongtong    | 영통     | ✅ 완료 |
+| mangpo       | 망포     | ✅ 완료 |
+| yeongtongGu  | 영통구청 | ✅ 완료 |
 
 ---
 

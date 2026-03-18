@@ -5,13 +5,14 @@ import restaurants from '../../../data/pangyo'
 
 export async function getStaticPaths() {
   return {
-    paths: restaurants.map(r => ({ params: { name: r.name } })),
+    paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
     fallback: 'blocking'
   }
 }
 
 export async function getStaticProps({ params }) {
-  const name = decodeURIComponent(params.name)
+  let name
+  try { name = decodeURIComponent(params.name) } catch { name = params.name }
   const r = restaurants.find(x => x.name === name)
   if (!r) return { notFound: true }
 
