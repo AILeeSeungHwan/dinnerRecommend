@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
   if (!r) return { notFound: true }
 
   const similar = restaurants
-    .filter(x => x.name !== r.name && x.cat?.some(c => r.cat?.includes(c)))
+    .filter(x => x.name !== r.name && Array.isArray(x.cat) && Array.isArray(r.cat) && x.cat.some(c => r.cat.includes(c)))
     .sort((a, b) => b.rt - a.rt)
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))

@@ -38,8 +38,23 @@ export default function Document() {
         <meta name="twitter:image" content={`${BASE}/og-image.png?v=3`} />
         <meta name="twitter:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
 
-        {/* ── 구글 애드센스 ── */}
+        {/* ── 구글 애드센스 (앵커·오버레이 자동광고 비활성화) ── */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8640254349508671" crossOrigin="anonymous" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          (function(){
+            var adBreak=window.adsbygoogle=window.adsbygoogle||[];
+            adBreak.requestNonPersonalizedAds=1;
+          })();
+        `}} />
+        <meta name="google-adsense-platform-account" content="ca-pub-8640254349508671" />
+        <style dangerouslySetInnerHTML={{ __html: `
+          /* 모바일 앵커/오버레이 자동광고 제거 */
+          ins.adsbygoogle[data-anchor-status],
+          ins.adsbygoogle[data-ad-format="auto"],
+          div[id^="google_ads_iframe"][style*="fixed"],
+          div[id^="google_ads_iframe"][style*="sticky"],
+          .google-auto-placed { display: none !important; height: 0 !important; overflow: hidden !important; }
+        `}} />
 
         {/* ── Google Analytics GA4 ── */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNZGYTGP41" />
