@@ -25443,7 +25443,7 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "동그리 솥뚜껑 삼겹살 판교테크노밸리 유스페이스점",
+    "name": "동그리 솥뚜껑 삼겹살 유스페이스점",
     "type": "한식",
     "e": "",
     "rt": 0,
@@ -31385,7 +31385,7 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "일미닭갈비파전 분당서현역 가성비점심밥집 저녁회식명가",
+    "name": "일미닭갈비파전 분당서현역점",
     "type": "한식",
     "e": "",
     "rt": 0,

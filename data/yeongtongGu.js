@@ -18197,7 +18197,7 @@ const restaurants = [
     "reservation": false
   },
   {
-    "name": "돈까스 주는 찜요리 끝판왕 찜뚝딱 수원매탄점",
+    "name": "찜뚝딱 수원매탄점",
     "type": "한식",
     "e": "",
     "rt": 0,
