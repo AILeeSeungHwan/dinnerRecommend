@@ -36,7 +36,7 @@ const restaurants = [
     ],
     "lat": 37.5036769,
     "lng": 127.0540903,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1089192231",
     "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
     "naverBlogCnt": 1256,
@@ -85,7 +85,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "회초리씨푸드 대치점",
@@ -176,7 +177,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "솔트랑 스테이크 삼성",
@@ -517,7 +519,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251215_202/1765785751578uBeF7_JPEG/GJF03207.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "몰튼스 더 스테이크하우스",
@@ -702,7 +705,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260105_269/1767602305230MYF99_JPEG/KakaoTalk_20260105_172400605_03.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "맛나무",
@@ -845,7 +849,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251113_140/1763026292517LEbRa_JPEG/1000018844.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06205"
   },
   {
     "name": "이오복순대국 대치은마점",
@@ -879,7 +884,7 @@ const restaurants = [
     ],
     "lat": 37.4952666,
     "lng": 127.0641581,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "2022139367",
     "naverUrl": "https://map.naver.com/v5/entry/place/2022139367",
     "naverBlogCnt": 121,
@@ -893,7 +898,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250925_215/1758783073049PzeT7_JPEG/KakaoTalk_20250924_212307170_16.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "블룸",
@@ -1455,7 +1461,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251212_64/1765466652726utiUg_PNG/1765466639878.png",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "연송",
@@ -1582,7 +1589,7 @@ const restaurants = [
     ],
     "lat": 37.5052885,
     "lng": 127.0541947,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1618253187",
     "naverUrl": "https://map.naver.com/v5/entry/place/1618253187",
     "naverBlogCnt": 1305,
@@ -1611,7 +1618,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "쇼지 삼성본점",
@@ -1720,7 +1728,8 @@ const restaurants = [
     "naverPlaceId": "2092244336",
     "naverUrl": "https://map.naver.com/v5/entry/place/2092244336",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250908_227/1757296328149bp7GF_JPEG/%AB%ED%AB%B4%A1%A1%AB%E9%AB%B9%AB%BF%AB%E9%AB%A4%AB%BA%AA%DF_2.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06205"
   },
   {
     "name": "백소정 삼성점",
@@ -1796,7 +1805,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "빠들담 닭갈비",
@@ -1828,13 +1838,14 @@ const restaurants = [
     ],
     "lat": 37.5015245,
     "lng": 127.0584518,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1457776595",
     "naverUrl": "https://map.naver.com/v5/entry/place/1457776595",
     "naverBlogCnt": 2,
     "imageUrl": "https://ldb-phinf.pstatic.net/20240128_142/1706380419689eDQIw_JPEG/27.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06203"
   },
   {
     "name": "고래사냥",
@@ -2056,7 +2067,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250922_293/1758524852319lcFaA_JPEG/1.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "택이네조개전골 서울삼성점",
@@ -2175,7 +2187,7 @@ const restaurants = [
     ],
     "lat": 37.5064629,
     "lng": 127.0584569,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "2033949754",
     "naverUrl": "https://map.naver.com/v5/entry/place/2033949754",
     "naverBlogCnt": 226,
@@ -2223,7 +2235,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250821_143/17557784592085UEMd_JPEG/KakaoTalk_Photo_2025-08-21-21-14-02.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "유리앤 아레테",
@@ -2670,7 +2683,7 @@ const restaurants = [
     ],
     "lat": 37.5037412,
     "lng": 127.0541149,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1519208404",
     "naverUrl": "https://map.naver.com/v5/entry/place/1519208404",
     "naverBlogCnt": 25,
@@ -2719,7 +2732,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260206_133/17703619580374r9di_JPEG/KakaoTalk_20260130_221033873_19.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "신라스테이 삼성 바",
@@ -2947,7 +2961,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20241220_275/17346753358776zElR_JPEG/KakaoTalk_20241218_174655650_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "류창희국수 삼성점",
@@ -3176,7 +3191,7 @@ const restaurants = [
     ],
     "lat": 37.5023262,
     "lng": 127.0587784,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "11807801",
     "naverUrl": "https://map.naver.com/v5/entry/place/11807801",
     "naverBlogCnt": 31,
@@ -3223,7 +3238,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220428_212/1651107016362sIV2K_JPEG/1611197379728.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "에그파일즈",
@@ -3270,7 +3286,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241026_92/17299520574598GMMa_JPEG/IMG_2026.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06203"
   },
   {
     "name": "끓임 삼성직영점",
@@ -3413,7 +3430,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231023_280/1698050201078PtXaF_PNG/230907_%C0%AF%B0%A1%B3%D7-%B7%CE%B0%ED_NEW.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06206"
   },
   {
     "name": "삼월애쭈꾸미 콩나물국밥 선릉점",
@@ -3496,7 +3514,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251218_247/1766065694924qFMGj_JPEG/098765.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "호우양꼬치 대치점",
@@ -3563,7 +3582,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210114_178/1610571532462zjFkz_PNG/fORzEMAkFRqiveVO-tYd_PTg.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "화목",
@@ -3599,7 +3619,7 @@ const restaurants = [
     ],
     "lat": 37.4956711,
     "lng": 127.0635205,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1246845274",
     "naverUrl": "https://map.naver.com/v5/entry/place/1246845274",
     "naverBlogCnt": 64,
@@ -3613,7 +3633,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251127_19/1764229418175km1S1_JPEG/KakaoTalk_20251127_163932634.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "로코하우스",
@@ -3698,7 +3719,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250220_34/1740056062015rvIty_JPEG/KakaoTalk_20250220_194400073_07.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "샐러디 봉은사역점",
@@ -3855,7 +3877,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251014_196/17604332292932ypby_GIF/IMG_1576_2.gif",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "샐러디아 삼성점",
@@ -3917,7 +3940,7 @@ const restaurants = [
     ],
     "lat": 37.4997528,
     "lng": 127.0646673,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1677375954",
     "naverUrl": "https://map.naver.com/v5/entry/place/1677375954",
     "naverBlogCnt": 2,
@@ -3964,7 +3987,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220830_213/16617878703504HOL8_JPEG/Screenshot_20220830-004414_Instagram.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "무탄 코엑스",
@@ -4356,7 +4380,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1779384279",
     "naverUrl": "https://map.naver.com/v5/entry/place/1779384279",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06191"
   },
   {
     "name": "소이연남 스타필드 코엑스몰점",
@@ -4648,7 +4673,7 @@ const restaurants = [
     ],
     "lat": 37.5042773,
     "lng": 127.0533991,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1964934333",
     "naverUrl": "https://map.naver.com/v5/entry/place/1964934333",
     "naverBlogCnt": 893,
@@ -4707,7 +4732,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250912_218/1757656136205gJJvi_JPEG/%B4%DC%C3%BC%C8%B8%BD%C4_%B0%AB%B1%E8%C4%A1%B5%EE%B0%A5%BA%F1%C2%F2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06193"
   },
   {
     "name": "이치규 본점",
@@ -4770,7 +4796,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250331_164/1743395243012mf7FG_JPEG/IMG_9622.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "김치옥 대치점",
@@ -4834,7 +4861,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250721_277/1753086319638xt6nA_JPEG/%B9%CE%BB%FD%C8%B8%BA%B9-%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "솥내음 삼성점",
@@ -4948,7 +4976,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250916_255/17579892262695BN6C_GIF/%C0%CC%C4%A1%B7%F9_%BC%B1%B8%AA%C1%A1_gif.gif",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "스시이안앤 선릉역점",
@@ -5003,7 +5032,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20260205_144/1770257731550X8WHW_JPEG/DSC02806.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "텟어텟",
@@ -5225,7 +5255,7 @@ const restaurants = [
     ],
     "lat": 37.5042405,
     "lng": 127.0542892,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1190446735",
     "naverUrl": "https://map.naver.com/v5/entry/place/1190446735",
     "naverBlogCnt": 616,
@@ -5239,7 +5269,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240327_188/17115430236214euQU_JPEG/IMG_7682.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "요란 이자카야",
@@ -5716,7 +5747,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06187"
   },
   {
     "name": "솥내음 강남 역삼 선릉역점",
@@ -5950,7 +5982,7 @@ const restaurants = [
     ],
     "lat": 37.5046674,
     "lng": 127.0547063,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2052833367",
     "naverUrl": "https://map.naver.com/v5/entry/place/2052833367",
     "naverBlogCnt": 34,
@@ -5989,7 +6021,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250523_111/17479975069684paDF_JPEG/1000011057.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "롤드(Rolled)",
@@ -6154,7 +6187,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240510_204/1715341928586MsFKu_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001_%282%29.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "부리또리 선릉점",
@@ -6190,12 +6224,13 @@ const restaurants = [
     ],
     "lat": 37.5049385,
     "lng": 127.0563744,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2055869936",
     "naverUrl": "https://map.naver.com/v5/entry/place/2055869936",
     "naverBlogCnt": 24,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251113_7/1763019027694Nik3M_JPEG/1000016794.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "골목길와인집",
@@ -6547,7 +6582,7 @@ const restaurants = [
     ],
     "lat": 37.5050411,
     "lng": 127.0538631,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2006551745",
     "naverUrl": "https://map.naver.com/v5/entry/place/2006551745",
     "naverBlogCnt": 103,
@@ -6566,7 +6601,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251116_237/1763294710201aeMrh_JPEG/KakaoTalk_20251115_080056575_03.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "연몽 삼성본점",
@@ -6634,7 +6670,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260130_92/1769753854534mXFFk_JPEG/IMG_9121.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "피제리아호키포키 삼성점",
@@ -6728,7 +6765,7 @@ const restaurants = [
     ],
     "lat": 37.5031232,
     "lng": 127.0505447,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1199484216",
     "naverUrl": "https://map.naver.com/v5/entry/place/1199484216",
     "naverBlogCnt": 545,
@@ -6775,7 +6812,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231127_250/170106862168438wEt_JPEG/1.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "브라운그릴",
@@ -6841,7 +6879,8 @@ const restaurants = [
     ],
     "lat": 37.5065462,
     "lng": 127.060289,
-    "exit4": false
+    "exit4": true,
+    "zip": "06183"
   },
   {
     "name": "이자카야 미주 삼성본점",
@@ -6931,7 +6970,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260116_18/1768573133842kxban_JPEG/IMG_4157.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "미노센",
@@ -7100,7 +7140,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260226_173/1772097486204O0vTb_JPEG/01KJCKQXJ6M31XWK4JSZ5MMP86.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "징기스칸 슌",
@@ -7135,11 +7176,12 @@ const restaurants = [
     ],
     "lat": 37.504225,
     "lng": 127.0513124,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1627178297",
     "naverUrl": "https://map.naver.com/v5/entry/place/1627178297",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240323_5/1711200869373VPkNi_JPEG/IMG_6569.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "로꼬타코 대치점",
@@ -7225,7 +7267,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220721_77/1658404935510KAOaS_JPEG/20220715_010657.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "고설우 한우오마카세",
@@ -7791,7 +7834,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250927_274/1758946186672XjunD_JPEG/1000008708.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "동어동락 삼성2호점",
@@ -7941,7 +7985,7 @@ const restaurants = [
     ],
     "lat": 37.5049705,
     "lng": 127.0550567,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1485367468",
     "naverUrl": "https://map.naver.com/v5/entry/place/1485367468",
     "naverBlogCnt": 1237,
@@ -7960,7 +8004,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260303_72/17725324351079dxeo_JPEG/%B5%C5%C1%F6%B8%F0%B5%D2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "생활맥주 삼성코엑스 2호점",
@@ -8468,7 +8513,7 @@ const restaurants = [
     ],
     "lat": 37.5081,
     "lng": 127.0649,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1335951464",
     "naverUrl": "https://map.naver.com/p/entry/place/1335951464",
     "naverBlogCnt": 124,
@@ -8735,7 +8780,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240912_79/1726106454687vunEB_PNG/IMG_7784.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "봉계타 현대백화점 무역센터점",
@@ -8846,11 +8892,12 @@ const restaurants = [
     ],
     "lat": 37.5041954,
     "lng": 127.054736,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1453579006",
     "naverUrl": "https://map.naver.com/v5/entry/place/1453579006",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230102_240/1672641102470tIKIX_JPEG/%C1%F6%C1%F7_%BF%DC%BA%CE.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "엘리스와인",
@@ -9042,7 +9089,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260107_262/17677545880834i9bQ_JPEG/IMG_3567.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "스시이찌 선릉점",
@@ -9202,7 +9250,7 @@ const restaurants = [
     ],
     "lat": 37.4958022,
     "lng": 127.0632718,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1038432718",
     "naverUrl": "https://map.naver.com/v5/entry/place/1038432718",
     "naverBlogCnt": 339,
@@ -9250,7 +9298,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240915_149/1726363715996rlAbx_PNG/1000007820.png",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "봉구스밥버거 선릉역점",
@@ -9325,7 +9374,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200804_257/1596544322825C8pFk_JPEG/YgWel5KffEt9YkqMWdTeMVJM.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "강남밭",
@@ -9413,7 +9463,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20250813_207/1755085581336BnnxJ_JPEG/20250514_195836.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "아트몬스터 삼성점",
@@ -9575,7 +9626,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250307_178/1741314395287kNfGX_JPEG/1000001765.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "오 예술김밥",
@@ -9731,7 +9783,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191201_243/1575193248124IxeNX_JPEG/5J58sj9ZcXW0FwCsDdas6ljC.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "커피바 힘",
@@ -10452,7 +10505,7 @@ const restaurants = [
     ],
     "lat": 37.5055281,
     "lng": 127.0549352,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1251999118",
     "naverUrl": "https://map.naver.com/v5/entry/place/1251999118",
     "naverBlogCnt": 310,
@@ -10470,7 +10523,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260114_87/17683511706783DsAL_JPEG/1.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "야키토리 수다",
@@ -10734,7 +10788,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251112_155/1762875389642qqFuR_JPEG/SE-1a0b6e74-7d07-4e19-b359-8207c8494e39.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06199"
   },
   {
     "name": "삼계옥",
@@ -11011,7 +11066,7 @@ const restaurants = [
     ],
     "lat": 37.5039224,
     "lng": 127.0546984,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1051362303",
     "naverUrl": "https://map.naver.com/v5/entry/place/1051362303",
     "naverBlogCnt": 1125,
@@ -11048,7 +11103,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251017_35/1760675584718xtsne_GIF/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4__%284%29.gif",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "생활맥주 삼성휘문점",
@@ -11125,7 +11181,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240620_56/1718862813167lpvP7_JPEG/%B8%C6%C1%D6%BF%CD%B8%DE%B4%BA.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "멘츠루 선릉점",
@@ -11160,7 +11217,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240925_173/17272393139004pCPL_PNG/1.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "에이알커피",
@@ -11234,7 +11292,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250417_128/1744869517085hQCdo_JPEG/ar_coffee_005.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "새벽밤바다 강남본점",
@@ -11310,7 +11369,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240214_242/170787919269632GmV_JPEG/DSC_0159-min.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "성균관 사시미 선릉점",
@@ -11348,7 +11408,7 @@ const restaurants = [
     ],
     "lat": 37.5041628,
     "lng": 127.0559692,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1867874067",
     "naverUrl": "https://map.naver.com/v5/entry/place/1867874067",
     "naverBlogCnt": 76,
@@ -11377,7 +11437,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240825_244/1724563843345oELxG_JPEG/1000005571.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "앤써 서울",
@@ -11496,7 +11557,7 @@ const restaurants = [
     ],
     "lat": 37.5042102,
     "lng": 127.066326,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1410535636",
     "naverUrl": "https://map.naver.com/v5/entry/place/1410535636",
     "naverBlogCnt": 39,
@@ -11514,7 +11575,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240208_234/1707395349033URY8S_JPEG/IMG_3180.jpeg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06177"
   },
   {
     "name": "국민한우집 삼성역본점",
@@ -11558,7 +11620,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251018_246/1760784820300G5djW_GIF/%B4%EB%B9%AE%BB%E7%C1%F8gif.gif",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "봉이밥 대치점",
@@ -11619,7 +11682,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250909_107/1757381934145NBDet_GIF/%B8%DE%B4%BA%B8%F0%C0%BD_%C2%A9%282%29.gif",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06207"
   },
   {
     "name": "스시호 삼성",
@@ -11672,7 +11736,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240617_297/1718614478199d8Xi4_JPEG/IMG_7305.jpeg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "한정선 현대백화점 무역센터점",
@@ -11789,7 +11854,7 @@ const restaurants = [
     ],
     "lat": 37.5025688,
     "lng": 127.0586678,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1285928833",
     "naverUrl": "https://map.naver.com/v5/entry/place/1285928833",
     "naverBlogCnt": 13,
@@ -11808,7 +11873,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250617_26/1750165885635Wyibj_JPEG/1000020977.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "무월식탁 파르나스점",
@@ -12067,7 +12133,7 @@ const restaurants = [
     ],
     "lat": 37.5050735,
     "lng": 127.0531851,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "36734951",
     "naverUrl": "https://map.naver.com/v5/entry/place/36734951",
     "naverBlogCnt": 621,
@@ -12116,7 +12182,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250508_148/17466963187044HED6_JPEG/Screenshot_20250508_182404_Gallery.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "명우돈가",
@@ -12215,7 +12282,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20181115_112/1542211993114OHQaD_JPEG/aSY5BNCX_AKzLHdzxuSDQLZx.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "모도우 삼성",
@@ -12639,12 +12707,13 @@ const restaurants = [
     ],
     "lat": 37.504332,
     "lng": 127.0546749,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1131370514",
     "naverUrl": "https://map.naver.com/v5/entry/place/1131370514",
     "naverBlogCnt": 130,
     "imageUrl": "https://ldb-phinf.pstatic.net/20241016_171/1729058045352vpTfJ_JPEG/KakaoTalk_20241016_145109846_01.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "스시아오마츠",
@@ -12679,7 +12748,7 @@ const restaurants = [
     ],
     "lat": 37.5050648,
     "lng": 127.0553624,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1051920261",
     "naverUrl": "https://map.naver.com/v5/entry/place/1051920261",
     "naverBlogCnt": 494,
@@ -12703,7 +12772,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220530_188/1653893989114jxVa8_JPEG/20220413_175051.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "머무를 정 세이로무시 선릉점",
@@ -12741,7 +12811,7 @@ const restaurants = [
     ],
     "lat": 37.50443,
     "lng": 127.0514498,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1573322379",
     "naverUrl": "https://map.naver.com/v5/entry/place/1573322379",
     "naverBlogCnt": 447,
@@ -12780,7 +12850,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260303_182/1772539360176iXiq2_JPEG/%C6%ED%B9%E9_%BD%C5%B8%DE%B4%BA1_%286%29.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "세계관 삼성본점",
@@ -12933,7 +13004,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251025_255/1761360258458Hy4Iz_JPEG/1000040248.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "지칸 삼성1호점",
@@ -13348,7 +13420,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241203_228/1733220112263y6084_JPEG/20241203_142755_011.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "다이닝갈비",
@@ -13465,7 +13538,7 @@ const restaurants = [
     ],
     "lat": 37.4956812,
     "lng": 127.0634712,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1587497383",
     "naverUrl": "https://map.naver.com/v5/entry/place/1587497383",
     "naverBlogCnt": 418,
@@ -13513,7 +13586,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231221_262/1703139359102l2L6M_JPEG/397116255_18379745083064910_1061088444725233807_n.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "이가네양꼬치 선릉역직영점",
@@ -13666,7 +13740,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250907_22/17572139476342Ki01_JPEG/temp_1757213491952.-1543658339.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "산호골",
@@ -13803,7 +13878,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260101_103/1767243392532zM1Vo_JPEG/IMG_2711.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "백년가",
@@ -13955,7 +14031,7 @@ const restaurants = [
     ],
     "lat": 37.5066185,
     "lng": 127.0571916,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2077061316",
     "naverUrl": "https://map.naver.com/v5/entry/place/2077061316",
     "naverBlogCnt": 76,
@@ -13968,7 +14044,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260122_124/176905821702932iBS_JPEG/20251220_075545.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "후토루 삼성점",
@@ -14205,7 +14282,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250204_50/17386764069981C8z4_PNG/%B9%E8%B9%CE%C7%C1%B7%CE%C7%CA.png",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06173"
   },
   {
     "name": "그랜드 키친",
@@ -14490,11 +14568,12 @@ const restaurants = [
     ],
     "lat": 37.5058388,
     "lng": 127.0561271,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2059890908",
     "naverUrl": "https://map.naver.com/v5/entry/place/2059890908",
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20251104_288/17622441594327Uhtt_PNG/%C5%AC%B7%A1%BD%C4.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "기꾸",
@@ -15142,7 +15221,7 @@ const restaurants = [
     ],
     "lat": 37.5031831,
     "lng": 127.0567855,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37576822",
     "naverUrl": "https://map.naver.com/v5/entry/place/37576822",
     "naverBlogCnt": 59,
@@ -15191,7 +15270,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220317_201/1647528638923FzvcA_JPEG/%B4%F1%C2%AF%B5%B7%B1%EE%BD%BA_55.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06195"
   },
   {
     "name": "속이 꽉찬 만두 99.9",
@@ -15229,7 +15309,7 @@ const restaurants = [
     ],
     "lat": 37.5031115,
     "lng": 127.0561355,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "38556377",
     "naverUrl": "https://map.naver.com/v5/entry/place/38556377",
     "naverBlogCnt": 118,
@@ -15276,7 +15356,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190522_190/1558484843854gvxEY_JPEG/oMUT_w6debbTz_sT-N2epYtC.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "갓포아키 삼성점",
@@ -15618,7 +15699,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240702_48/1719909445794xBvj6_JPEG/0606_%B9%D9%B6%F4171.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "이가네양꼬치 대치점",
@@ -15648,7 +15730,7 @@ const restaurants = [
     ],
     "lat": 37.5056054,
     "lng": 127.0581956,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1630216914",
     "naverUrl": "https://map.naver.com/v5/entry/place/1630216914",
     "naverBlogCnt": 728,
@@ -15697,7 +15779,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20250907_250/1757242217585YH3ER_JPEG/KakaoTalk_20250905_202414690.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "428 레스토랑",
@@ -15818,7 +15901,7 @@ const restaurants = [
     ],
     "lat": 37.5058595,
     "lng": 127.0589847,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1041880614",
     "naverUrl": "https://map.naver.com/v5/entry/place/1041880614",
     "naverBlogCnt": 1115,
@@ -15861,7 +15944,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250702_297/1751424918924KBPub_JPEG/%B9%AB%BC%E8%B1%E8%C4%A1_%BB%EF%BC%BA_%B9%CC%B3%AA%B8%AE.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "진양재순대 삼성점",
@@ -16054,7 +16138,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240906_34/1725590760911E4ptQ_JPEG/Screenshot_20240905-102240_CatchTable.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "야키토리 잔잔 선릉점",
@@ -16139,7 +16224,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250925_277/1758798942783AClgY_GIF/%BC%B1%B8%AA%C1%A1.gif",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "고씨떡볶이 삼성점",
@@ -16264,7 +16350,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241217_288/1734417127857y3s1O_JPEG/56559DEA-DBDB-4FE4-8037-67EE84EB75D4.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "이가초밥",
@@ -16303,14 +16390,15 @@ const restaurants = [
     ],
     "lat": 37.4952526,
     "lng": 127.06363,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1015667321",
     "naverUrl": "https://map.naver.com/v5/entry/place/1015667321",
     "naverBlogCnt": 312,
     "imageUrl": "https://ldb-phinf.pstatic.net/20210729_291/1627543430584vW6Cy_PNG/xqITDr3QUTFr-Q41VCArBBqN.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "맛찬들왕소금구이 삼성직영점",
@@ -16869,12 +16957,13 @@ const restaurants = [
     ],
     "lat": 37.5032085,
     "lng": 127.0508929,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1936878162",
     "naverUrl": "https://map.naver.com/v5/entry/place/1936878162",
     "naverBlogCnt": 376,
     "imageUrl": "https://ldb-phinf.pstatic.net/20241129_26/1732877844664rv6cI_JPEG/DSC08451.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "홍콩다방 파르나스몰",
@@ -17017,7 +17106,8 @@ const restaurants = [
     "naverPlaceId": "1490969080",
     "naverUrl": "https://map.naver.com/v5/entry/place/1490969080",
     "imageUrl": "https://ldb-phinf.pstatic.net/20190104_263/1546598549133TXx4I_JPEG/Er7knhGGvcybZV3xSsdLfUuX.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "남노명가 삼성직영점",
@@ -17185,7 +17275,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251216_11/1765892573081MEPxT_JPEG/KakaoTalk_20251216_100829799.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "퀴즈노스 대치사거리점",
@@ -17260,7 +17351,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240912_44/1726122954220KqbU5_PNG/%B4%D9%BF%EE%B7%CE%B5%E5.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "오미마리",
@@ -17295,7 +17387,7 @@ const restaurants = [
     ],
     "lat": 37.5044078,
     "lng": 127.0559689,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1341330670",
     "naverUrl": "https://map.naver.com/v5/entry/place/1341330670",
     "naverBlogCnt": 193,
@@ -17342,7 +17434,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210825_154/1629871519628MHIw8_JPEG/sSH07p5kYGT3LELJVeqAytKg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "슬로우캘리 삼성점",
@@ -17507,7 +17600,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250619_99/1750312630542jQRRs_PNG/4.PNG",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "오카동",
@@ -17762,7 +17856,7 @@ const restaurants = [
     ],
     "lat": 37.5043136,
     "lng": 127.054291,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2041817316",
     "naverUrl": "https://map.naver.com/v5/entry/place/2041817316",
     "naverBlogCnt": 143,
@@ -17810,7 +17904,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250929_42/1759106669295RzevH_JPEG/%B7%CE%B0%ED_1080-01.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "선애밥",
@@ -17854,7 +17949,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "통빱",
@@ -17953,7 +18049,7 @@ const restaurants = [
     ],
     "lat": 37.4986677,
     "lng": 127.0681377,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1501035825",
     "naverUrl": "https://map.naver.com/v5/entry/place/1501035825",
     "naverBlogCnt": 108,
@@ -17966,7 +18062,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240225_295/17088519829876MJQK_JPEG/1641194448801.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06283"
   },
   {
     "name": "영심이와SECOND bar",
@@ -18005,7 +18102,7 @@ const restaurants = [
     ],
     "lat": 37.5065854,
     "lng": 127.0586775,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "21581784",
     "naverUrl": "https://map.naver.com/v5/entry/place/21581784",
     "naverBlogCnt": 433,
@@ -18052,7 +18149,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20180220_54/1519127544044P5tBA_JPEG/c6tG5K3VZN8taFqshcD88VCb.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "체인엔터라운지",
@@ -18091,7 +18189,7 @@ const restaurants = [
     ],
     "lat": 37.5047007,
     "lng": 127.0570726,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1992145088",
     "naverUrl": "https://map.naver.com/v5/entry/place/1992145088",
     "naverBlogCnt": 10,
@@ -18140,7 +18238,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250401_221/1743473679985Lr8k0_JPEG/KakaoTalk_20250328_010343652_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06195"
   },
   {
     "name": "오크바 오크우드 프리미어 코엑스 센터",
@@ -18331,7 +18430,7 @@ const restaurants = [
     ],
     "lat": 37.5060634,
     "lng": 127.0560829,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1542149931",
     "naverUrl": "https://map.naver.com/v5/entry/place/1542149931",
     "naverBlogCnt": 2517,
@@ -18364,7 +18463,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20180406_281/1522999750979nBQie_JPEG/SJglMNIovCOSk4LQDzWdAcUU.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "김돈이 선릉본점",
@@ -18468,7 +18568,7 @@ const restaurants = [
     ],
     "lat": 37.5039962,
     "lng": 127.0539791,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "34590424",
     "naverUrl": "https://map.naver.com/v5/entry/place/34590424",
     "naverBlogCnt": 2920,
@@ -18492,7 +18592,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251105_52/1762316485080s9FGy_JPEG/KakaoTalk_20220812_141914780_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "코너스톤",
@@ -18537,7 +18638,7 @@ const restaurants = [
     ],
     "lat": 37.5085791,
     "lng": 127.0641676,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1052216848",
     "naverUrl": "https://map.naver.com/p/entry/place/1052216848",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fapis.naver.com%2Fplace%2Fpanorama%2Fthumbnail%2F1052216848%2F0%3Fwidth%3D800%26height%3D400%26msgpad%3D1773650520114%26md%3D%252Bkvfk7edxjbdyAmSftHSNcD4iew%253D",
@@ -18613,7 +18714,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260313_3/1773389157858xtRp2_JPEG/Park_Hyatt_Seoul_-_May_2025_91.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "튀김아저씨",
@@ -18643,7 +18745,7 @@ const restaurants = [
     ],
     "lat": 37.4952576,
     "lng": 127.0636817,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "38337730",
     "naverUrl": "https://map.naver.com/v5/entry/place/38337730",
     "naverBlogCnt": 679,
@@ -18690,7 +18792,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220805_237/1659698345915HFQpr_JPEG/Screenshot_20220804-172703_Instagram.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "오동도",
@@ -18721,7 +18824,7 @@ const restaurants = [
     ],
     "lat": 37.5021901,
     "lng": 127.0583154,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "13528827",
     "naverUrl": "https://map.naver.com/v5/entry/place/13528827",
     "naverBlogCnt": 163,
@@ -18770,7 +18873,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220516_262/1652632197181Yj752_JPEG/43C61145-5100-4928-A812-ACFFA25D73BB.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "고메램 삼성점",
@@ -18892,7 +18996,7 @@ const restaurants = [
     ],
     "lat": 37.5039754,
     "lng": 127.0548225,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "30916873",
     "naverUrl": "https://map.naver.com/v5/entry/place/30916873",
     "naverBlogCnt": 413,
@@ -18929,7 +19033,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190120_184/1547962858164kz1ju_JPEG/b__hOsE2UGDByRIiYhKXVfdo.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "MaltBarBARREL",
@@ -19107,7 +19212,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251210_190/1765336822732HNl1r_JPEG/9759.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "팔팔감자탕",
@@ -19346,7 +19452,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150831_230/1441000047371ILmLh_JPEG/106576457129363_0.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "안식 레스토랑",
@@ -19397,7 +19504,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250122_165/1737520742838EbCpC_JPEG/%B8%DE%B4%BA%B8%F0%C0%BD%C4%C6_2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06187"
   },
   {
     "name": "황소곱창",
@@ -19876,7 +19984,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240722_289/1721627113604DErXK_PNG/6.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "나의가야",
@@ -20062,7 +20171,7 @@ const restaurants = [
     ],
     "lat": 37.505079,
     "lng": 127.0553814,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "38274761",
     "naverUrl": "https://map.naver.com/v5/entry/place/38274761",
     "naverBlogCnt": 50,
@@ -20078,7 +20187,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "그랜드 인터컨티넨탈 로비 라운지&바",
@@ -20176,7 +20286,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220503_93/1651568971295YCzqq_JPEG/%C5%E8%BE%E4%B2%E1ZH5A8937.JPG",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "파파야리프 코엑스점",
@@ -20268,7 +20379,7 @@ const restaurants = [
     ],
     "lat": 37.5066758,
     "lng": 127.0608789,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1067678037",
     "naverUrl": "https://map.naver.com/p/entry/place/1067678037",
     "naverBlogCnt": 256,
@@ -20315,7 +20426,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250422_295/1745313373223DOPx4_JPEG/20230416_012537_IMG_3796.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "가거도",
@@ -20346,7 +20458,7 @@ const restaurants = [
     ],
     "lat": 37.5052917,
     "lng": 127.055005,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1888772212",
     "naverUrl": "https://map.naver.com/v5/entry/place/1888772212",
     "naverBlogCnt": 31,
@@ -20360,7 +20472,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20200428_300/1588042887640rPgX9_PNG/Ha1Xs3EkRMNpxdrIs3CZLbDP.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "백반감자탕",
@@ -20436,7 +20549,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190729_143/1564364750334lOiJC_JPEG/7Cjhz7SwdFrEsRC9bQkH48IC.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "옐로트렁크",
@@ -20474,7 +20588,8 @@ const restaurants = [
     "naverBlogCnt": 198,
     "imageUrl": "https://ldb-phinf.pstatic.net/20211010_85/1633832347443GCMGW_JPEG/HPfz-fsVAbt3U0nB3U_i9Z5I.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "식껍 삼성역점",
@@ -20584,7 +20699,7 @@ const restaurants = [
     ],
     "lat": 37.5040611,
     "lng": 127.0556435,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1340882296",
     "naverUrl": "https://map.naver.com/v5/entry/place/1340882296",
     "menuItems": [
@@ -20630,7 +20745,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210906_275/1630924360425JeU6C_JPEG/TMmCbfsri9gMFpMh7VHkTYKf.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "형제곱창",
@@ -20672,7 +20788,7 @@ const restaurants = [
     ],
     "lat": 37.505778,
     "lng": 127.0588046,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1977729090",
     "naverUrl": "https://map.naver.com/v5/entry/place/1977729090",
     "naverBlogCnt": 290,
@@ -20715,7 +20831,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260308_50/1772902116987KW82C_PNG/IMG_7271.PNG",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "신라스테이 삼성 카페",
@@ -21346,7 +21463,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210310_103/1615366920661YfWCf_JPEG/ezWWQBs46BhwWdMnPDWVQ59y.jpeg.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "후토루 선릉점",
@@ -21382,7 +21500,7 @@ const restaurants = [
     ],
     "lat": 37.5044313,
     "lng": 127.0546329,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1118144271",
     "naverUrl": "https://map.naver.com/v5/entry/place/1118144271",
     "naverBlogCnt": 1315,
@@ -21440,7 +21558,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250115_254/1736926366778RBDck_JPEG/KakaoTalk_20250114_162916757.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "오면가면칼국수",
@@ -21519,7 +21638,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "포텐",
@@ -21549,7 +21669,8 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/2080746556",
     "naverBlogCnt": 106,
     "imageUrl": "https://ldb-phinf.pstatic.net/20260213_112/1770972730221YAGAq_JPEG/11765.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "풍성옥 강남본점",
@@ -21587,7 +21708,7 @@ const restaurants = [
     ],
     "lat": 37.5042617,
     "lng": 127.0558742,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1193860838",
     "naverUrl": "https://map.naver.com/v5/entry/place/1193860838",
     "naverBlogCnt": 269,
@@ -21621,7 +21742,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250820_292/1755690455651bGP19_PNG/%B4%EB%C4%A1%B5%BF%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD_%C7%B3%BC%BA%BF%C1%B0%AD%B3%B2%BA%BB%C1%A1_%C2%F0%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%C1%A1%BD%C9_%BC%B1%B8%AA%BF%AA%C1%A1%BD%C9_%B4%EB%C4%A1%B5%BF%C8%B8.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "극강은마 대치본점",
@@ -21654,7 +21776,7 @@ const restaurants = [
     ],
     "lat": 37.4956626,
     "lng": 127.0631666,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1894432484",
     "naverUrl": "https://map.naver.com/v5/entry/place/1894432484",
     "naverBlogCnt": 342,
@@ -21702,7 +21824,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251008_275/1759927177533fdPmT_JPEG/1000010593.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "크리스피프레시 파르나스몰점",
@@ -22753,7 +22876,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220414_66/1649924060607weHEK_JPEG/%B7%CE%B0%ED_%BA%CE%C5%B8%C0%CC_1.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "보름쇠 삼성점",
@@ -22874,7 +22998,7 @@ const restaurants = [
     ],
     "lat": 37.5050462,
     "lng": 127.0553784,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2079447608",
     "naverUrl": "https://map.naver.com/v5/entry/place/2079447608",
     "naverBlogCnt": 94,
@@ -22887,7 +23011,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251220_152/1766216806151j86ND_JPEG/%C8%B2%C5%C2%B8%B8%BB%F3_%C1%A4%BD%C4.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "경천아인 2237",
@@ -22985,7 +23110,7 @@ const restaurants = [
     ],
     "lat": 37.504999,
     "lng": 127.0550404,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "11842699",
     "naverUrl": "https://map.naver.com/v5/entry/place/11842699",
     "naverBlogCnt": 365,
@@ -23034,7 +23159,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20231104_234/16990829760613GJLA_JPEG/KakaoTalk_20231103_215640171.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "그란구스또",
@@ -23105,7 +23231,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250917_220/1758075499193RP5Re_JPEG/1000018839.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "매드포갈릭 봉은사 아이파크타워",
@@ -23659,7 +23786,7 @@ const restaurants = [
     ],
     "lat": 37.5080556,
     "lng": 127.065,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "35444331",
     "naverUrl": "https://map.naver.com/p/entry/place/35444331",
     "naverBlogCnt": 142,
@@ -23716,7 +23843,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMDZfOTcg%2FMDAxNzY3NjkwNjEzNzIy.V6518In1zrhLZNyxI39KSSfaA8cEotypMEx55C8YeGog.PPLMyTfpHiggRCi5FCDiotAnLNOpq55qozASYZMTzhsg.JPEG%2FC77EC7B1-2B80-443B-A9EF-D16ED244DABB.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "파크 하얏트 서울 더 라운지",
@@ -23764,7 +23892,7 @@ const restaurants = [
     ],
     "lat": 37.5085791,
     "lng": 127.0641676,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "19873420",
     "naverUrl": "https://map.naver.com/p/entry/place/19873420",
     "naverBlogCnt": 1025,
@@ -23873,7 +24001,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240212_163/1707726230136hl0t0_JPEG/2023-11-20_13_09_42.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "파크 하얏트 서울 더 팀버 하우스",
@@ -23924,7 +24053,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20260106_60/17676849893208JDek_JPEG/%B4%F5_%C6%C0%B9%F6_%C7%CF%BF%EC%BD%BA_%C7%D1%BF%EC_%BF%C0%BC%C7_%C5%D7%C0%CC%BD%BA%C6%C3_%C4%DA%BD%BA_%282%29.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "치즈룸 멜팅샵 파르나스몰",
@@ -24120,7 +24250,7 @@ const restaurants = [
     ],
     "lat": 37.5050648,
     "lng": 127.0553624,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1149787788",
     "naverUrl": "https://map.naver.com/v5/entry/place/1149787788",
     "naverBlogCnt": 1076,
@@ -24169,7 +24299,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250627_242/1751010209567zF4Ug_JPEG/img_sub1-1.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "투썸플레이스 포스코사거리점",
@@ -24208,7 +24339,7 @@ const restaurants = [
     ],
     "lat": 37.5069211,
     "lng": 127.0580947,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "36948897",
     "naverUrl": "https://map.naver.com/v5/entry/place/36948897",
     "naverBlogCnt": 133,
@@ -24222,7 +24353,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220811_104/1660213543359bTxVF_JPEG/39A0D79B-AD7D-494B-847A-D09E4E57B656.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "풍년집 대치점",
@@ -24269,7 +24401,7 @@ const restaurants = [
     ],
     "lat": 37.5055706,
     "lng": 127.0593066,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "13574747",
     "naverUrl": "https://map.naver.com/p/entry/place/13574747",
     "naverBlogCnt": 256,
@@ -24286,7 +24418,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240513_133/17155835114623Otj2_JPEG/20240511_124839.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "센도수산",
@@ -24323,7 +24456,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240519_264/17160840840563fld6_JPEG/IMG_1142.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "스타벅스 봉은사로선정릉점",
@@ -24467,7 +24601,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "원조강뚝꼬치구이전문점 선릉점",
@@ -24792,7 +24927,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250918_292/1758181561084k3XD9_JPEG/%B1%BA%BC%B1%BB%FD-%BF%AC%C3%E201.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "그랜드 인터컨티넨탈 서울 파르나스 웨이루",
@@ -25234,7 +25370,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191108_191/1573194292824SR4AW_JPEG/bogTAMuaPxeNr8En-KBvlPWx.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06206"
   },
   {
     "name": "한국돈거래소",
@@ -25752,7 +25889,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150901_10/1441036661630V30uh_JPEG/146570637172338_1.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "어머니족발",
@@ -26234,7 +26372,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250213_261/1739414376415o8hzt_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_5.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "원조을지로골뱅이 코엑스 본점",
@@ -26353,7 +26492,7 @@ const restaurants = [
     ],
     "lat": 37.5031225,
     "lng": 127.0561626,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "39948622",
     "naverUrl": "https://map.naver.com/v5/entry/place/39948622",
     "naverBlogCnt": 60,
@@ -26401,7 +26540,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250729_152/1753783465658g3aNA_JPEG/IMG_8294.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "막끌리네 삼성코엑스본점",
@@ -26517,11 +26657,12 @@ const restaurants = [
     ],
     "lat": 37.5008893,
     "lng": 127.0595577,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1758869498",
     "naverUrl": "https://map.naver.com/v5/entry/place/1758869498",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240529_47/1716965573385QTCe5_JPEG/1716965380669.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06203"
   },
   {
     "name": "더맛있는족발보쌈 선릉본점",
@@ -26554,7 +26695,7 @@ const restaurants = [
     ],
     "lat": 37.5044256,
     "lng": 127.0539518,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1541565368",
     "naverUrl": "https://map.naver.com/v5/entry/place/1541565368",
     "naverBlogCnt": 2145,
@@ -26603,7 +26744,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250414_106/1744606376095Nnw3p_JPEG/%C6%F7%C0%E5_%C7%D2%C0%CE_5000%BF%F8_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "코지라멘 선릉본점",
@@ -26669,7 +26811,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260312_43/1773308241482tR5mT_JPEG/photo_2026-03-12_18-37-03.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "Poke all day 포케&샐러드 삼성점",
@@ -26751,7 +26894,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "온밥",
@@ -26785,7 +26929,7 @@ const restaurants = [
     ],
     "lat": 37.5054696,
     "lng": 127.0589674,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1104637533",
     "naverUrl": "https://map.naver.com/v5/entry/place/1104637533",
     "naverBlogCnt": 42,
@@ -26819,7 +26963,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240628_8/17195672215089JcgC_JPEG/%B8%DE%C0%CE_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "백가향",
@@ -26926,7 +27071,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240809_2/1723188779899P0PLd_JPEG/0809%B9%E9%B0%A1%C7%E2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06181"
   },
   {
     "name": "우밀가 삼성점",
@@ -27087,7 +27233,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231025_252/1698227651250Hwpg0_JPEG/KakaoTalk_20231023_192814324_12.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "소표국수한티점",
@@ -27171,7 +27318,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240103_60/1704292725413RdNBe_JPEG/1000020990.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06206"
   },
   {
     "name": "지칸 삼성2호점",
@@ -27292,7 +27440,7 @@ const restaurants = [
     ],
     "lat": 37.504267,
     "lng": 127.0541185,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1982802045",
     "naverUrl": "https://map.naver.com/v5/entry/place/1982802045",
     "naverBlogCnt": 245,
@@ -27341,7 +27489,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20231019_165/1697699435150TidWU_JPEG/IMG_7792.JPG",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "반포식스 대치점",
@@ -27405,7 +27554,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230717_48/1689580247518OdYCP_JPEG/%B9%DD%C6%F7%BD%C4%BD%BA_%B4%EB%C4%A1%C1%A1_%BF%DC%B0%FC.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "신선설농탕 대치점",
@@ -27444,7 +27594,7 @@ const restaurants = [
     ],
     "lat": 37.4981263,
     "lng": 127.059375,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1068868402",
     "naverUrl": "https://map.naver.com/v5/entry/place/1068868402",
     "naverBlogCnt": 5,
@@ -27492,7 +27642,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241126_22/1732600532755PnFe5_JPEG/1000012611.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06209"
   },
   {
     "name": "카페쎄미 코엑스점",
@@ -27706,7 +27857,7 @@ const restaurants = [
     ],
     "lat": 37.5058388,
     "lng": 127.0561271,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1866443796",
     "naverUrl": "https://map.naver.com/v5/entry/place/1866443796",
     "naverBlogCnt": 100,
@@ -27743,7 +27894,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230705_166/1688530390678hceBN_JPEG/KakaoTalk_20230704_120944302_02.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "남도감자탕",
@@ -27774,7 +27926,7 @@ const restaurants = [
     ],
     "lat": 37.5049445,
     "lng": 127.0535023,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1263695397",
     "naverUrl": "https://map.naver.com/v5/entry/place/1263695397",
     "naverBlogCnt": 40,
@@ -27821,7 +27973,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20180914_97/1536890410403O5lRY_JPEG/M-M9Bq7fm_6H7Wv6CzT2aTlj.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06193"
   },
   {
     "name": "한국인의 솥밥 숯불한우 도야지",
@@ -27896,7 +28049,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191030_236/15724093448156HY1h_JPEG/1uR3WE0tU5B4qDV4fo3wqMeY.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "명동칼국수",
@@ -27943,12 +28097,13 @@ const restaurants = [
     ],
     "lat": 37.50795960000001,
     "lng": 127.0655921,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1082272677",
     "naverUrl": "https://map.naver.com/p/entry/place/1082272677",
     "naverBlogCnt": 48,
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MDZfMTc3%2FMDAxNzQ2NTI2NjYwMTc2.WZt8GOETaLOA2gO6MQUwwE06jJ9irOKWYcOrOve4qnMg.XXWnP2VuNndd9OUGWxRPgufXSg4NfHzoVafTSNXJZEcg.JPEG%2F20250503_155203.jpg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "보노보노 삼성점",
@@ -27986,7 +28141,7 @@ const restaurants = [
     ],
     "lat": 37.5069045,
     "lng": 127.0582101,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "11684863",
     "naverUrl": "https://map.naver.com/v5/entry/place/11684863",
     "naverBlogCnt": 2093,
@@ -28035,7 +28190,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240816_82/1723773175633mpazq_PNG/%C0%CC%BF%EB%BE%C8%B3%BB.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "뽕나무쟁이 선릉본점",
@@ -28091,7 +28247,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20161209_112/14812144599157O5dV_JPEG/177159415759626_0.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "외고집설렁탕",
@@ -28323,7 +28480,7 @@ const restaurants = [
     ],
     "lat": 37.5050648,
     "lng": 127.0553624,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1090319859",
     "naverUrl": "https://map.naver.com/v5/entry/place/1090319859",
     "naverBlogCnt": 2753,
@@ -28382,7 +28539,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250722_218/17531741850053kRmv_JPEG/DSC_30911.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "허머스키친",
@@ -28527,7 +28685,7 @@ const restaurants = [
     ],
     "lat": 37.507996,
     "lng": 127.0627848,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "693876659",
     "naverUrl": "https://map.naver.com/p/entry/place/693876659",
     "naverBlogCnt": 333,
@@ -28960,7 +29118,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06169"
   },
   {
     "name": "쉐이크쉑 코엑스",
@@ -29227,7 +29386,7 @@ const restaurants = [
     ],
     "lat": 37.5044765,
     "lng": 127.0547714,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37749228",
     "naverUrl": "https://map.naver.com/v5/entry/place/37749228",
     "naverBlogCnt": 169,
@@ -29276,7 +29435,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20230318_222/1679138414045iAWfL_JPEG/20230311_170310.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "소호정 대치점",
@@ -29355,7 +29515,8 @@ const restaurants = [
     ],
     "imageUrl": "http://blogfiles.naver.net/20141027_161/sosobang_1414403232131OFjPd_JPEG/10.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "미쓰양꼬치",
@@ -29445,7 +29606,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200210_240/1581313550561XGf2R_JPEG/-oyBlz16gT34UnnrZYEHgERL.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "수다 삼성2호점",
@@ -29637,7 +29799,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250318_195/1742289084752FsuGg_JPEG/20250318_164647.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "일일향 삼성점",
@@ -29963,7 +30126,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240220_12/1708392844646aOAzh_JPEG/KakaoTalk_20240219_142820792_02.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06180"
   },
   {
     "name": "송 현대백화점 무역센터점",
@@ -30054,11 +30218,12 @@ const restaurants = [
     ],
     "lat": 37.5036496,
     "lng": 127.0508953,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "36648833",
     "naverUrl": "https://map.naver.com/v5/entry/place/36648833",
     "imageUrl": "https://ldb-phinf.pstatic.net/20150903_115/1441266103434ljooy_JPEG/SUBMIT_1441266050796_36648833.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06192"
   },
   {
     "name": "청담수 청담역점",
@@ -30171,7 +30336,7 @@ const restaurants = [
     ],
     "lat": 37.5057604,
     "lng": 127.05406,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "35927543",
     "naverUrl": "https://map.naver.com/v5/entry/place/35927543",
     "naverBlogCnt": 844,
@@ -30220,7 +30385,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250731_77/1753940547698ua95F_JPEG/KakaoTalk_20250731_123449792_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "청자골",
@@ -30258,7 +30424,7 @@ const restaurants = [
     ],
     "lat": 37.5036737,
     "lng": 127.0561763,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "13151370",
     "naverUrl": "https://map.naver.com/v5/entry/place/13151370",
     "naverBlogCnt": 647,
@@ -30307,7 +30473,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251023_58/1761223864266Cr9mQ_GIF/%C3%BB%C0%DA%B0%F1_GIF.gif",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "목삼정",
@@ -30395,7 +30562,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251212_18/17655357155599CaDT_JPEG/%BA%B8%C1%A4%BA%BB-22_%C0%FA%BF%EB%B7%AE.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "이봉",
@@ -30441,7 +30609,7 @@ const restaurants = [
     ],
     "lat": 37.5065337,
     "lng": 127.0628845,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "18573957",
     "naverUrl": "https://map.naver.com/p/entry/place/18573957",
     "naverBlogCnt": 58,
@@ -30499,7 +30667,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191207_293/1575709752608q8bsg_JPEG/mAMOZajAQFa58fLcWpszJb0W.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "호미곶막회물회 선릉점",
@@ -30533,7 +30702,7 @@ const restaurants = [
     ],
     "lat": 37.5044403,
     "lng": 127.0528049,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1850038849",
     "naverUrl": "https://map.naver.com/v5/entry/place/1850038849",
     "naverBlogCnt": 168,
@@ -30582,7 +30751,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240109_212/17048090820953w6cu_JPEG/1000000805.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06193"
   },
   {
     "name": "도스타코스 선릉점",
@@ -31625,7 +31795,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20191104_102/1572869037989qp5Dy_JPEG/VWs7H1RLHlN8fdaqe6EEOA5V.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06205"
   },
   {
     "name": "마초갈비 삼성동",
@@ -31865,7 +32036,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251208_258/1765124052998ijy70_JPEG/%B1%D7%B8%B25.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06182"
   },
   {
     "name": "선비칼국수 삼성대치점",
@@ -31928,7 +32100,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251119_124/1763542344350b9g9K_JPEG/%C0%FC%C3%BC%BB%E7%C1%F8.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "오발탄 대치점",
@@ -31986,7 +32159,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20200508_54/15888989851893COvE_PNG/GYMiggSn-Lmj5Olk8eIbaaBz.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "미랑 선릉본점",
@@ -32415,7 +32589,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251205_117/1764916778640kXtqb_JPEG/%BB%E7%BD%C3%B9%CC2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "오크우드 코엑스 레스토랑",
@@ -32515,7 +32690,7 @@ const restaurants = [
     ],
     "lat": 37.5080557,
     "lng": 127.0653087,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1416884407",
     "naverUrl": "https://map.naver.com/p/entry/place/1416884407",
     "naverBlogCnt": 1031,
@@ -32751,7 +32926,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20200406_141/1586145105409bVBt3_JPEG/3mbsCbxwWJmKi0ELwtPSY6hX.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "바른식탁 삼성점",
@@ -33189,7 +33365,7 @@ const restaurants = [
     ],
     "lat": 37.5049655,
     "lng": 127.0564498,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1800110701",
     "naverUrl": "https://map.naver.com/v5/entry/place/1800110701",
     "naverBlogCnt": 65,
@@ -33237,7 +33413,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220825_218/1661396418495c8Kn9_JPEG/%C6%F7%BD%BA%C4%DA%C1%A1.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "삼성칼국수",
@@ -33357,7 +33534,7 @@ const restaurants = [
     ],
     "lat": 37.5047124,
     "lng": 127.0547291,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1459540460",
     "naverUrl": "https://map.naver.com/v5/entry/place/1459540460",
     "naverBlogCnt": 394,
@@ -33405,7 +33582,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240914_10/1726301822225dbLSB_JPEG/%C1%A1%BD%C903.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "명가막회집",
@@ -33450,7 +33628,7 @@ const restaurants = [
     ],
     "lat": 37.5079748,
     "lng": 127.0656492,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1011789728",
     "naverUrl": "https://map.naver.com/p/entry/place/1011789728",
     "naverBlogCnt": 85,
@@ -33509,7 +33687,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20260105_189/1767592338399sGfIV_JPEG/7H4A8713.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "카페드리옹 코엑스점",
@@ -33640,7 +33819,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230525_277/1684998717922jgu0d_JPEG/%B3%D7%B8%F0%B7%CE%B0%ED%C6%C4%C0%CF%28%B0%A9%BF%C0%C2%A1%BE%EE%BF%E4%B8%AE%C0%FC%B9%AE%C1%A1%29%C6%F7%BD%BA.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "신왕우육면",
@@ -33763,7 +33943,7 @@ const restaurants = [
     ],
     "lat": 37.5044514,
     "lng": 127.0540081,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1180450072",
     "naverUrl": "https://map.naver.com/v5/entry/place/1180450072",
     "naverBlogCnt": 55,
@@ -33810,7 +33990,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190828_21/1566973001497IIaLt_JPEG/TQJszUoStsqoHKXUloJGL64h.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "매드테이블 대치점",
@@ -33837,10 +34018,11 @@ const restaurants = [
     ],
     "lat": 37.5041126,
     "lng": 127.0577563,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1508953627",
     "naverUrl": "https://map.naver.com/v5/entry/place/1508953627",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "아그라 롯데백화점 강남점",
@@ -33879,7 +34061,8 @@ const restaurants = [
     "naverPlaceId": "1054117245",
     "naverUrl": "https://map.naver.com/v5/entry/place/1054117245",
     "imageUrl": "https://ldb-phinf.pstatic.net/20210219_194/16137263953861dzvm_JPEG/zr4Y3TNgEW14f_wzUtHObZvE.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06207"
   },
   {
     "name": "육가온 삼성점",
@@ -34030,7 +34213,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250725_174/1753380093272qSVY4_JPEG/IMG_8372.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "한소반탕마을",
@@ -34062,7 +34246,7 @@ const restaurants = [
     ],
     "lat": 37.4953924,
     "lng": 127.0635628,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1579102698",
     "naverUrl": "https://map.naver.com/v5/entry/place/1579102698",
     "naverBlogCnt": 23,
@@ -34093,7 +34277,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "평창집",
@@ -34255,14 +34440,15 @@ const restaurants = [
     ],
     "lat": 37.5051115,
     "lng": 127.057103,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1924966894",
     "naverUrl": "https://map.naver.com/v5/entry/place/1924966894",
     "naverBlogCnt": 65,
     "imageUrl": "https://ldb-phinf.pstatic.net/20171128_120/15118523450117kjRG_JPEG/_365___2.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "이비스 스타일 앰배서더 강남 르바",
@@ -34291,14 +34477,15 @@ const restaurants = [
     ],
     "lat": 37.505117,
     "lng": 127.0570937,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37402216",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402216",
     "naverBlogCnt": 33,
     "imageUrl": "https://ldb-phinf.pstatic.net/20180221_271/1519208834673khLk0_PNG/%B8%A3%B9%D91.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "능라도 강남점",
@@ -34414,7 +34601,7 @@ const restaurants = [
     ],
     "lat": 37.5045423,
     "lng": 127.0558933,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "12053368",
     "naverUrl": "https://map.naver.com/v5/entry/place/12053368",
     "naverBlogCnt": 1091,
@@ -34461,7 +34648,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250203_84/17385620055422AiWr_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-02-03_%BF%C0%C8%C4_2.52.57.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "곰바위",
@@ -34941,7 +35129,8 @@ const restaurants = [
     "naverPlaceId": "1894081090",
     "naverUrl": "https://map.naver.com/v5/entry/place/1894081090",
     "imageUrl": "https://ldb-phinf.pstatic.net/20181228_167/15459665692028aVBO_JPEG/DFH_1XCB7L_S_vLyCoufJhKt.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06187"
   },
   {
     "name": "산월수제비",
@@ -34980,7 +35169,7 @@ const restaurants = [
     ],
     "lat": 37.495325,
     "lng": 127.063733,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "11885058",
     "naverUrl": "https://map.naver.com/v5/entry/place/11885058",
     "naverBlogCnt": 370,
@@ -35003,7 +35192,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150831_109/14409944433466aJ8A_JPEG/11885058_0.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "스시유",
@@ -35472,7 +35662,7 @@ const restaurants = [
     ],
     "lat": 37.508206,
     "lng": 127.0620257,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37435002",
     "naverUrl": "https://map.naver.com/v5/entry/place/37435002",
     "naverBlogCnt": 307,
@@ -35504,7 +35694,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240621_69/1718937182870lSP7t_JPEG/PCK%BB%EF%BC%BA%BF%AA%C1%A1.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06181"
   },
   {
     "name": "폴리스 파르나스몰점",
@@ -35684,7 +35875,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20201220_47/1608395646227TRf2v_JPEG/HO__8434.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06187"
   },
   {
     "name": "김태완스시 대치본점",
@@ -35775,7 +35967,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250827_229/1756263376701oGqp3_JPEG/6.%BF%C0%B8%B6%C4%AB%BC%BC.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06206"
   },
   {
     "name": "웨스틴 서울 파르나스 더 로그",
@@ -35954,7 +36147,7 @@ const restaurants = [
     ],
     "lat": 37.5042782,
     "lng": 127.0544302,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "31986060",
     "naverUrl": "https://map.naver.com/v5/entry/place/31986060",
     "naverBlogCnt": 661,
@@ -35977,7 +36170,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260112_256/1768195114866PjCDF_JPEG/syr1.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "베이비기네스 삼성점",
@@ -36277,7 +36471,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250419_95/1745028430808OQ8gD_JPEG/%C4%C1%BC%C1_%286%29.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "김명자굴국밥",
@@ -36438,7 +36633,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20150831_86/1440994476656T21l5_JPEG/106470458547144_0.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "교대이층집 삼성점",
@@ -36600,7 +36796,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150901_129/1441061988785MUbmD_JPEG/SUBMIT_1321640135531_20717567.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06205"
   },
   {
     "name": "마미치킨",
@@ -36634,7 +36831,7 @@ const restaurants = [
     ],
     "lat": 37.4954074,
     "lng": 127.0632808,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "19497285",
     "naverUrl": "https://map.naver.com/v5/entry/place/19497285",
     "naverBlogCnt": 107,
@@ -36683,7 +36880,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20180111_39/1515614066101w5hFq_JPEG/GlQtzwrxtuObwImpBZKPJgba.JPG.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "불이아 삼성점",
@@ -36961,7 +37159,7 @@ const restaurants = [
     ],
     "lat": 37.496022,
     "lng": 127.0642473,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1602069078",
     "naverUrl": "https://map.naver.com/v5/entry/place/1602069078",
     "naverBlogCnt": 40,
@@ -36993,7 +37191,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230214_184/1676353585156lPt9m_JPEG/20230204_170154.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "레스토랑G",
@@ -37178,7 +37377,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240901_166/1725154606155UDMSg_JPEG/IMG_9557.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06205"
   },
   {
     "name": "부엉이식당",
@@ -37218,7 +37418,8 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1000937514",
     "naverBlogCnt": 260,
     "imageUrl": "https://ldb-phinf.pstatic.net/20230529_166/1685337306397fdL4f_JPEG/IMG_8677.JPG",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "샐러디 삼성점",
@@ -37584,7 +37785,7 @@ const restaurants = [
     ],
     "lat": 37.5071782,
     "lng": 127.0617724,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1152709541",
     "naverUrl": "https://map.naver.com/p/entry/place/1152709541",
     "naverBlogCnt": 15,
@@ -37616,7 +37817,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200501_264/1588324278715cQbaW_JPEG/Pm2y1abmKw5JlsjiFegIHT20.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "지호한방삼계탕 삼성점",
@@ -37769,7 +37971,7 @@ const restaurants = [
     ],
     "lat": 37.50663599999999,
     "lng": 127.0605658,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1170958687",
     "naverUrl": "https://map.naver.com/p/entry/place/1170958687",
     "naverBlogCnt": 827,
@@ -37807,7 +38009,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260103_255/1767448208187Tt4oN_JPEG/%B8%C5%C0%E5%C0%FC%B0%E6.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "보스골뱅이치킨",
@@ -37854,7 +38057,7 @@ const restaurants = [
     ],
     "lat": 37.5082817,
     "lng": 127.0656321,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1529421637",
     "naverUrl": "https://map.naver.com/p/entry/place/1529421637",
     "naverBlogCnt": 21,
@@ -37903,7 +38106,8 @@ const restaurants = [
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMTQ3%2FMDAxNzcwMzgxNjM0MDA1.653UKMEmIM-uIbuehrIpIwDiI4RlPSeU7DJ56G0ITI4g.EVv8p01HrX2EEyn36FkM-qbKioNXZf3n-3fELxvD2hsg.JPEG%2F212FF354-71A3-4BE8-8EFB-C049F3515830.jpeg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "정참치 선릉역본점",
@@ -37940,7 +38144,7 @@ const restaurants = [
     ],
     "lat": 37.5043178,
     "lng": 127.0559922,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1775501312",
     "naverUrl": "https://map.naver.com/v5/entry/place/1775501312",
     "naverBlogCnt": 762,
@@ -37989,7 +38193,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20241205_300/17334102531862aUb4_JPEG/KakaoTalk_20241202_200913893_02.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "제일양 선릉점",
@@ -38102,7 +38307,7 @@ const restaurants = [
     ],
     "lat": 37.5055922,
     "lng": 127.0550259,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1077814867",
     "naverUrl": "https://map.naver.com/v5/entry/place/1077814867",
     "naverBlogCnt": 126,
@@ -38150,7 +38355,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200814_7/1597391419307mCdwX_JPEG/w7TBaeB6un5cFBmbpSUOGOrw.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "장수서울순대가",
@@ -38193,7 +38399,7 @@ const restaurants = [
     ],
     "lat": 37.50725839999999,
     "lng": 127.0613541,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "20149056",
     "naverUrl": "https://map.naver.com/p/entry/place/20149056",
     "naverBlogCnt": 65,
@@ -38225,7 +38431,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200501_149/1588328035208xHEI8_JPEG/gJhTI2NPC5dd88PSSUQ30PRv.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "다빈치호프",
@@ -38392,7 +38599,7 @@ const restaurants = [
     ],
     "lat": 37.5039749,
     "lng": 127.0537709,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "539185018",
     "naverUrl": "https://map.naver.com/v5/entry/place/539185018",
     "naverBlogCnt": 330,
@@ -38440,7 +38647,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250220_246/1740014759529xmwy9_PNG/11.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "부탄츄 선릉점",
@@ -38470,7 +38678,7 @@ const restaurants = [
     ],
     "lat": 37.5042895,
     "lng": 127.0548333,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1686674158",
     "naverUrl": "https://map.naver.com/v5/entry/place/1686674158",
     "naverBlogCnt": 188,
@@ -38518,7 +38726,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230427_39/1682589390033VDDh3_JPEG/20230330_120726.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "한성양꼬치 선릉2호점",
@@ -38594,7 +38803,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200622_279/1592793846821SQI6v_JPEG/IMG_8221.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "남도밥상이어요 삼성중앙점",
@@ -38669,7 +38879,7 @@ const restaurants = [
     ],
     "lat": 37.5048888,
     "lng": 127.056223,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1112774603",
     "naverUrl": "https://map.naver.com/v5/entry/place/1112774603",
     "naverBlogCnt": 108,
@@ -38717,7 +38927,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20181023_110/1540271368168dQc8r_JPEG/BfEMEo-DGRnjdynhmESGkcJX.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "김밥천국 포스코4거리점",
@@ -38875,7 +39086,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240530_110/1717052900605pml5S_JPEG/%B8%DE%B4%BA_04-1.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "강릉엄지네꼬막집 삼성역점",
@@ -39037,7 +39249,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200413_149/1586746245522PAbkk_JPEG/PDBEKsJxY4A4SDXqn_VxWorZ.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "남포동 수제비 코엑스몰점",
@@ -39344,7 +39557,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20221118_111/1668756395589zCKpz_JPEG/KakaoTalk_20221118_162605015.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "스트릿 파르나스몰점",
@@ -39513,7 +39727,7 @@ const restaurants = [
     ],
     "lat": 37.4987644,
     "lng": 127.0613797,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1282487612",
     "naverUrl": "https://map.naver.com/v5/entry/place/1282487612",
     "naverBlogCnt": 19,
@@ -39561,7 +39775,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250731_6/1753946021269rfwEp_JPEG/YC_09930_%281%29.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "먹보소갈비살 대치점",
@@ -39592,7 +39807,7 @@ const restaurants = [
     ],
     "lat": 37.5039891,
     "lng": 127.0554415,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1726717986",
     "naverUrl": "https://map.naver.com/v5/entry/place/1726717986",
     "naverBlogCnt": 330,
@@ -39631,7 +39846,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250620_173/1750405572104gPczN_JPEG/KakaoTalk_20250620_142442331_01.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "동호숯불바베큐호프",
@@ -39662,7 +39878,7 @@ const restaurants = [
     ],
     "lat": 37.5028278,
     "lng": 127.0584096,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "20639914",
     "naverUrl": "https://map.naver.com/v5/entry/place/20639914",
     "naverBlogCnt": 27,
@@ -39694,7 +39910,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200502_50/1588378666303cpwVF_JPEG/sJsu4ObUghLwMYVIJQFKMMpP.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "타코치바스코",
@@ -40112,7 +40329,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191114_112/1573722983875g6mdb_JPEG/07qJTL5AVFJJyYJY7Ag6js5I.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "선릉감자탕뼈숯불구이 선릉본점",
@@ -40611,7 +40829,7 @@ const restaurants = [
     ],
     "lat": 37.50194,
     "lng": 127.058973,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "13371770",
     "naverUrl": "https://map.naver.com/v5/entry/place/13371770",
     "naverBlogCnt": 217,
@@ -40660,7 +40878,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20190818_28/1566110351936alQHD_JPEG/fcovEbHUgqX36zZWRqSyG9d8.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "미사리밀빛초계국수 삼성코엑스몰점",
@@ -41564,7 +41783,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20210320_271/1616215232094OFcp1_JPEG/d8oHTeGYYobJbfcpwUqKTEDT.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "동인동 삼성",
@@ -41837,7 +42057,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240923_256/1727049420447HJLlB_JPEG/1555727919214.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "초원족발",
@@ -42267,7 +42488,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251022_189/1761103354548KbBLY_JPEG/%B3%D7%C0%CC%B9%F6_1%B9%F8_%BB%E7%C1%F8.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "지미스 타코",
@@ -42348,7 +42570,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20170721_207/1500604284636a2VHV_JPEG/186671516144_0.JPG",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "더제이제이",
@@ -42435,7 +42658,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20231003_265/1696323290590grIJt_JPEG/20230927_201959.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "록스플레이트",
@@ -42484,7 +42708,7 @@ const restaurants = [
     ],
     "lat": 37.5077721,
     "lng": 127.0648902,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "19536440",
     "naverUrl": "https://map.naver.com/p/entry/place/19536440",
     "naverBlogCnt": 271,
@@ -42609,7 +42833,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150831_13/1440995283682tnL55_JPEG/156155408461088_0.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "오늘은닭 삼성코엑스본점",
@@ -42776,7 +43001,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191112_191/1573557377054CFIYM_JPEG/qp5fAX_l3btyndsuYemcyMlx.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "남부 선릉점",
@@ -42939,7 +43165,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20150901_4/1441041412681enTx7_JPEG/SUBMIT_1279700430254_13465296.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "호아빈 삼성점",
@@ -42964,11 +43191,12 @@ const restaurants = [
     ],
     "lat": 37.505436,
     "lng": 127.057686,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "35386954",
     "naverUrl": "https://map.naver.com/v5/entry/place/35386954",
     "imageUrl": "https://ldb-phinf.pstatic.net/20160817_4/1471397537333hJD7d_JPEG/176767506237128_0.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "미러칼국수",
@@ -43002,7 +43230,7 @@ const restaurants = [
     ],
     "lat": 37.4953235,
     "lng": 127.0634182,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "33879310",
     "naverUrl": "https://map.naver.com/v5/entry/place/33879310",
     "naverBlogCnt": 158,
@@ -43035,7 +43263,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191128_246/1574943900328Dgmz9_JPEG/tTlFsmHSwbdetHHQFVkkBcWb.jpeg.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "드코닝 코엑스몰점",
@@ -43674,7 +43903,7 @@ const restaurants = [
     ],
     "lat": 37.5080982,
     "lng": 127.0651151,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1927509432",
     "naverUrl": "https://map.naver.com/p/entry/place/1927509432",
     "naverBlogCnt": 108,
@@ -43827,7 +44056,7 @@ const restaurants = [
     ],
     "lat": 37.5058388,
     "lng": 127.0561271,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1694905210",
     "naverUrl": "https://map.naver.com/v5/entry/place/1694905210",
     "naverBlogCnt": 1129,
@@ -43871,7 +44100,8 @@ const restaurants = [
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20240626_257/1719371722735oFtSU_JPEG/DSC02630.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "여신김밥 대치점",
@@ -43898,7 +44128,7 @@ const restaurants = [
     ],
     "lat": 37.5055496,
     "lng": 127.0548935,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "20851041",
     "naverUrl": "https://map.naver.com/v5/entry/place/20851041",
     "naverBlogCnt": 38,
@@ -43929,7 +44159,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "포포빈",
@@ -44018,7 +44249,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200216_250/1581835688506d00p6_JPEG/VT6IohTCcp7UGifWhKNLqX9g.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "상록수 선릉점",
@@ -44057,7 +44289,7 @@ const restaurants = [
     ],
     "lat": 37.5042165,
     "lng": 127.0538325,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1021725079",
     "naverUrl": "https://map.naver.com/v5/entry/place/1021725079",
     "naverBlogCnt": 699,
@@ -44105,7 +44337,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220725_45/1658756721534ctUvp_JPEG/KakaoTalk_20220719_185726851_13.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "뒤끝",
@@ -44150,7 +44383,7 @@ const restaurants = [
     ],
     "lat": 37.5085777,
     "lng": 127.0648147,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1313733696",
     "naverUrl": "https://map.naver.com/p/entry/place/1313733696",
     "naverBlogCnt": 132,
@@ -44208,7 +44441,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210308_137/1615170706732gODNT_JPEG/mWycPJM4fb-pwKgQM8a8LFwA.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "이복희해장 선릉본점",
@@ -44244,12 +44478,13 @@ const restaurants = [
     ],
     "lat": 37.5042557,
     "lng": 127.0528516,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1375943999",
     "naverUrl": "https://map.naver.com/v5/entry/place/1375943999",
     "naverBlogCnt": 1310,
     "imageUrl": "https://ldb-phinf.pstatic.net/20250712_289/1752282922043RVBy1_JPEG/%C4%C1%BC%C1_%289%29.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06193"
   },
   {
     "name": "핫쵸 스타필드 코엑스몰점",
@@ -44413,7 +44648,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260225_45/1771984129225zE0Gv_PNG/%BC%B1%C1%D6%B0%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%C0%CC%B9%CC%C1%F6.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "삼성동뼈다귀집",
@@ -44750,7 +44986,8 @@ const restaurants = [
       }
     ],
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06201"
   },
   {
     "name": "호앙비엣 선릉점",
@@ -44959,7 +45196,7 @@ const restaurants = [
     ],
     "lat": 37.4978024,
     "lng": 127.0592063,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "33586155",
     "naverUrl": "https://map.naver.com/v5/entry/place/33586155",
     "naverBlogCnt": 8,
@@ -45007,7 +45244,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20191025_95/15719789582833DLDw_JPEG/p5yeWLanmrdz10MZp_pquPpH.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06279"
   },
   {
     "name": "선릉돈까스",
@@ -45131,7 +45369,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250330_237/1743314996024TRTMD_PNG/1000011617.png",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06198"
   },
   {
     "name": "더타코부스 한티역점",
@@ -45506,7 +45745,7 @@ const restaurants = [
     ],
     "lat": 37.5039751,
     "lng": 127.0617951,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1576184449",
     "naverUrl": "https://map.naver.com/v5/entry/place/1576184449",
     "naverBlogCnt": 33,
@@ -45553,7 +45792,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240210_110/1707559644669laqUF_PNG/KakaoTalk_20240121_123335854.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "행복들깨수제비",
@@ -45587,14 +45827,15 @@ const restaurants = [
     ],
     "lat": 37.4956086,
     "lng": 127.0644577,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1884410621",
     "naverUrl": "https://map.naver.com/v5/entry/place/1884410621",
     "naverBlogCnt": 4,
     "imageUrl": "https://ldb-phinf.pstatic.net/20250106_21/1736160053735ucSIw_JPEG/1000017670.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06284"
   },
   {
     "name": "선릉쭈꾸미",
@@ -45751,14 +45992,15 @@ const restaurants = [
     ],
     "lat": 37.5038363,
     "lng": 127.053798,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1978615049",
     "naverUrl": "https://map.naver.com/v5/entry/place/1978615049",
     "naverBlogCnt": 69,
     "imageUrl": "https://ldb-phinf.pstatic.net/20240930_242/1727686820558sh6R9_JPEG/IMG_1501.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "선릉고깃집",
@@ -45971,7 +46213,7 @@ const restaurants = [
     ],
     "lat": 37.5058388,
     "lng": 127.0561271,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1212452412",
     "naverUrl": "https://map.naver.com/v5/entry/place/1212452412",
     "menuItems": [
@@ -46017,7 +46259,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230330_108/1680174846087wxFLq_JPEG/D2885C32-BA0E-499B-9A5D-6E84DE03EC77.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "후라이드참잘하는집 삼성직영점",
@@ -46181,7 +46424,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260128_107/1769561303726WwcP2_JPEG/IMG_9364.jpeg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "면요리연구소 현대백화점 무역센터점",
@@ -46292,7 +46536,7 @@ const restaurants = [
     ],
     "lat": 37.508229,
     "lng": 127.062242,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "18575139",
     "naverUrl": "https://map.naver.com/v5/entry/place/18575139",
     "naverBlogCnt": 72,
@@ -46339,7 +46583,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190725_122/1564044926930hK2P9_JPEG/LZIEPuspZGKkmMYul0RUApDl.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06181"
   },
   {
     "name": "수하동 본점",
@@ -46380,7 +46625,7 @@ const restaurants = [
     ],
     "lat": 37.5051999,
     "lng": 127.0554523,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1336995247",
     "naverUrl": "https://map.naver.com/v5/entry/place/1336995247",
     "naverBlogCnt": 186,
@@ -46429,7 +46674,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20220415_18/1649994292416hrPa4_JPEG/image.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "피양콩할마니",
@@ -46470,7 +46716,7 @@ const restaurants = [
     ],
     "lat": 37.5040734,
     "lng": 127.0552817,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "12017005",
     "naverUrl": "https://map.naver.com/v5/entry/place/12017005",
     "naverBlogCnt": 1277,
@@ -46518,7 +46764,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20171129_96/1511951681037wRBmc_JPEG/image.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "맥도날드 삼성역점",
@@ -46669,11 +46916,12 @@ const restaurants = [
     ],
     "lat": 37.4996287,
     "lng": 127.0639045,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "507653831",
     "naverUrl": "https://map.naver.com/v5/entry/place/507653831",
     "imageUrl": "https://ldb-phinf.pstatic.net/20190903_243/1567505243090wCTkt_JPEG/014D9ECC-5179-4C04-A65C-0D23179FA635.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "봉산집 삼성동점",
@@ -47271,7 +47519,7 @@ const restaurants = [
     ],
     "lat": 37.5070068,
     "lng": 127.0626082,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37157332",
     "naverUrl": "https://map.naver.com/v5/entry/place/37157332",
     "naverBlogCnt": 581,
@@ -47330,7 +47578,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250610_233/1749538483596hnBQJ_JPEG/1000005268.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06182"
   },
   {
     "name": "서래향 삼성대치점",
@@ -47418,7 +47667,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250718_263/1752813606386oGfXc_JPEG/1.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "사이드쇼 코엑스점",
@@ -47752,7 +48002,7 @@ const restaurants = [
     ],
     "lat": 37.5085934,
     "lng": 127.065208,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "33868263",
     "naverUrl": "https://map.naver.com/p/entry/place/33868263",
     "naverBlogCnt": 67,
@@ -48124,12 +48374,13 @@ const restaurants = [
     ],
     "lat": 37.5080488,
     "lng": 127.0650123,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "43939507",
     "naverUrl": "https://map.naver.com/p/entry/place/43939507",
     "naverBlogCnt": 29,
     "imageUrl": "https://ldb-phinf.pstatic.net/20230627_133/1687856966803PGQuj_JPEG/BI_07_%B1%B9%B9%AE_Logo%2BSymbol_%BC%BC%B7%CE%C7%FC_1.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "스시츠카무 파르나스몰점",
@@ -48254,7 +48505,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251021_214/17610258635662Udjk_JPEG/KakaoTalk_20251017_143546682.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "돈꼬레",
@@ -48385,7 +48637,7 @@ const restaurants = [
     ],
     "lat": 37.5082657,
     "lng": 127.0654904,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "13175130",
     "naverUrl": "https://map.naver.com/p/entry/place/13175130",
     "naverBlogCnt": 480,
@@ -48432,7 +48684,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251127_93/1764222375479vzX7j_JPEG/KakaoTalk_20251125_143819642.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "사조회참치 삼성점",
@@ -48517,7 +48770,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251127_93/1764222375479vzX7j_JPEG/KakaoTalk_20251125_143819642.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "미성양꼬치 삼성점",
@@ -48879,7 +49133,7 @@ const restaurants = [
     ],
     "lat": 37.5077851,
     "lng": 127.065174,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1717038170",
     "naverUrl": "https://map.naver.com/p/entry/place/1717038170",
     "naverBlogCnt": 221,
@@ -48907,7 +49161,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20211210_32/1639125256087JwayC_JPEG/KakaoTalk_20211209_173226292.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "족발야시장&무청감자탕 선릉역점",
@@ -48941,7 +49196,7 @@ const restaurants = [
     ],
     "lat": 37.5041178,
     "lng": 127.0526968,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "2050316832",
     "naverUrl": "https://map.naver.com/v5/entry/place/2050316832",
     "naverBlogCnt": 1,
@@ -48989,7 +49244,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260203_255/1770100296333VyELe_JPEG/9.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06193"
   },
   {
     "name": "쿠차라 코엑스몰오크우드점",
@@ -49460,7 +49716,7 @@ const restaurants = [
     ],
     "lat": 37.5055912,
     "lng": 127.0581793,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "36480634",
     "naverUrl": "https://map.naver.com/v5/entry/place/36480634",
     "naverBlogCnt": 64,
@@ -49508,7 +49764,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231220_199/1703058801520mqdUa_JPEG/1000000602.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "종로김밥 삼성점",
@@ -49571,7 +49828,7 @@ const restaurants = [
     ],
     "lat": 37.5040888,
     "lng": 127.0578212,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "31363443",
     "naverUrl": "https://map.naver.com/v5/entry/place/31363443",
     "naverBlogCnt": 26,
@@ -49588,7 +49845,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260102_59/1767310761740N05zQ_JPEG/250102-%C6%C4%C6%C4%C1%B8%BD%BA-%BA%B8%B5%B5%C0%DA%B7%E1-%C0%CC%B9%CC%C1%F62.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "우면관 스타필드 코엑스몰점",
@@ -49702,7 +49960,7 @@ const restaurants = [
     ],
     "lat": 37.5028084,
     "lng": 127.05835,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1370747657",
     "naverUrl": "https://map.naver.com/v5/entry/place/1370747657",
     "naverBlogCnt": 7,
@@ -49748,7 +50006,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "금복당 코엑스점",
@@ -50086,7 +50345,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190920_94/1568944423518FF1kX_JPEG/RnDOjfQNPRm4ern8sRIuuXvx.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06169"
   },
   {
     "name": "누누커피",
@@ -50213,7 +50473,7 @@ const restaurants = [
     ],
     "lat": 37.5063277,
     "lng": 127.0587749,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "31519774",
     "naverUrl": "https://map.naver.com/v5/entry/place/31519774",
     "naverBlogCnt": 338,
@@ -50271,7 +50531,8 @@ const restaurants = [
     ],
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20231012_263/1697096289568nKhla_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%C5%A9%B1%E2%C1%B6%C1%A4.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "홍영재장수청국장",
@@ -50316,7 +50577,7 @@ const restaurants = [
     ],
     "lat": 37.5075057,
     "lng": 127.0644969,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "19963744",
     "naverUrl": "https://map.naver.com/p/entry/place/19963744",
     "naverBlogCnt": 157,
@@ -50340,7 +50601,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20150831_279/1441024985262WX73s_JPEG/SUBMIT_1422525576868_19963744.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "60년전통신촌황소곱창 선릉직영점",
@@ -50418,7 +50680,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200212_282/1581487705716iSv8a_JPEG/yzsWTybhrbNanK0bCLYPO3pd.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "롯데리아 선릉점",
@@ -50728,7 +50991,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240321_72/1710988741410Sei2F_JPEG/lg_c14817895649514_20150428_%B0%F1%C7%C1%C0%E5%C0%FC%B0%E62.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06187"
   },
   {
     "name": "비어팩토리 본점",
@@ -51193,7 +51457,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20171130_106/1511979877592U7NkB_JPEG/tip104t000123.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "이화수전통육개장",
@@ -51445,7 +51710,7 @@ const restaurants = [
     ],
     "lat": 37.5055591,
     "lng": 127.0558604,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1952803621",
     "naverUrl": "https://map.naver.com/v5/entry/place/1952803621",
     "naverBlogCnt": 494,
@@ -51494,7 +51759,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240411_140/1712802012030gYBCa_JPEG/IMG_20200528_212921_353.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "한국촌",
@@ -51538,7 +51804,7 @@ const restaurants = [
     ],
     "lat": 37.5068204,
     "lng": 127.0622577,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "37361497",
     "naverUrl": "https://map.naver.com/p/entry/place/37361497",
     "naverBlogCnt": 46,
@@ -51596,7 +51862,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20171027_230/1509070233722lLoil_JPEG/VUqHmnhU9bNj6HfqbaDDXqgM.JPG.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "삼군김치찌개",
@@ -51700,7 +51967,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190117_209/1547702519948QKtBj_JPEG/jD0cHEp613k-_LC0O6l_LUxS.jpeg.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "딸부자네불백 역삼점",
@@ -51848,7 +52116,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190708_48/1562567911032XYvbJ_JPEG/axRp_tRb9oXCVy7RIofrjYlB.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "일품두부 삼성동본점",
@@ -51973,7 +52242,7 @@ const restaurants = [
     ],
     "lat": 37.5082543,
     "lng": 127.0650176,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1411505334",
     "naverUrl": "https://map.naver.com/p/entry/place/1411505334",
     "naverBlogCnt": 45,
@@ -52021,7 +52290,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250602_155/1748848087457H3zhd_PNG/%B4%DC%C3%BC%C1%D6%B9%AE_%B1%E8%B9%E4%B3%AA%BF%AD%2B%C0%E7%B7%E1.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "족발보쌈마을",
@@ -52067,7 +52337,7 @@ const restaurants = [
     ],
     "lat": 37.50843440000001,
     "lng": 127.0651963,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "32594023",
     "naverUrl": "https://map.naver.com/p/entry/place/32594023",
     "naverBlogCnt": 115,
@@ -52126,7 +52396,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260308_236/1772896616835HuNfs_JPEG/Generated_Image_March_08%2C_2026_-_12_08AM.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "철수포차",
@@ -52305,7 +52576,8 @@ const restaurants = [
     ],
     "lat": 37.5079324,
     "lng": 127.0655738,
-    "exit4": true
+    "exit4": false,
+    "zip": "06174"
   },
   {
     "name": "이향 삼성동점",
@@ -52534,7 +52806,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220111_160/1641880902240ezv9k_JPEG/%B1%B9%B9%E4%B4%DC%C3%BC%C4%C6.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06175"
   },
   {
     "name": "종로면옥",
@@ -52569,7 +52842,7 @@ const restaurants = [
     ],
     "lat": 37.5052734,
     "lng": 127.0577458,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1272903066",
     "naverUrl": "https://map.naver.com/v5/entry/place/1272903066",
     "naverBlogCnt": 58,
@@ -52617,7 +52890,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230627_87/1687799736690dl31d_JPEG/2765E4AD-1578-4356-A7E0-074C55FAC985.jpeg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "라멘호토리 강남점",
@@ -52699,7 +52973,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240227_240/17089897473631LOKH_JPEG/IMG_4826.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "김밥까페",
@@ -52745,7 +53020,7 @@ const restaurants = [
     ],
     "lat": 37.5071516,
     "lng": 127.0617536,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "47948017",
     "naverUrl": "https://map.naver.com/p/entry/place/47948017",
     "naverBlogCnt": 37,
@@ -52792,7 +53067,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190723_49/15638591732100a5AR_JPEG/03yZMYQ_LyU4nm5OhAfDJaCw.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06183"
   },
   {
     "name": "모모 베이글",
@@ -52903,7 +53179,7 @@ const restaurants = [
     ],
     "lat": 37.5039697,
     "lng": 127.0546765,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1160719908",
     "naverUrl": "https://map.naver.com/v5/entry/place/1160719908",
     "naverBlogCnt": 29,
@@ -52935,7 +53211,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260208_212/1770534302030q2NNI_JPEG/IMG_4428.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "아그라 스타필드 코엑스점",
@@ -53132,7 +53409,7 @@ const restaurants = [
     ],
     "lat": 37.50841450000001,
     "lng": 127.0652317,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "13192719",
     "naverUrl": "https://map.naver.com/p/entry/place/13192719",
     "naverBlogCnt": 145,
@@ -53191,7 +53468,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260307_90/1772892899656AOOOP_JPEG/Generated_Image_March_07%2C_2026_-_11_14PM.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "BHC치킨 삼성",
@@ -53272,7 +53550,7 @@ const restaurants = [
     ],
     "lat": 37.5070991,
     "lng": 127.0631018,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "31699484",
     "naverUrl": "https://map.naver.com/p/entry/place/31699484",
     "naverBlogCnt": 14,
@@ -53347,7 +53625,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260309_65/1773034229115sAoAe_PNG/%C1%A4%B5%BF%BF%F8_%C6%F7%C5%E4%C4%AB%B5%E5_%C6%BC%BF%C0%B4%F5.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "둘둘치킨 삼성역점",
@@ -53513,7 +53792,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20171130_263/15119785500764SG0Q_JPEG/image.JPEG",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06181"
   },
   {
     "name": "청춘포차",
@@ -54427,7 +54707,8 @@ const restaurants = [
     "naverPlaceId": "1069096253",
     "naverUrl": "https://map.naver.com/v5/entry/place/1069096253",
     "imageUrl": "https://ldb-phinf.pstatic.net/20200710_290/1594309462517WOsVs_JPEG/Qxhtxq8Up2tA0o6xHTZ3xvcM.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "사이공본가 대치점",
@@ -54452,11 +54733,12 @@ const restaurants = [
     ],
     "lat": 37.4991015,
     "lng": 127.0623015,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1221397577",
     "naverUrl": "https://map.naver.com/v5/entry/place/1221397577",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230406_118/1680744289907kLNHc_JPEG/KakaoTalk_20230403_203320108.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "샤브촌by계백집 코엑스몰점",
@@ -54513,11 +54795,12 @@ const restaurants = [
     ],
     "lat": 37.4985161,
     "lng": 127.0614657,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1165904418",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165904418",
     "imageUrl": "https://ldb-phinf.pstatic.net/20191203_239/1575362383562xRv2Y_JPEG/k8zf0Tq5ICWvWR1XUSzMpKp2.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "Gate9",
@@ -55024,7 +55307,7 @@ const restaurants = [
     ],
     "lat": 37.5050468,
     "lng": 127.0548426,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1385327783",
     "naverUrl": "https://map.naver.com/v5/entry/place/1385327783",
     "naverBlogCnt": 45,
@@ -55072,7 +55355,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220823_44/1661253511480NpzIa_JPEG/DF61649C-24A9-49B4-AF19-969678EDD0F7.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "경성면옥",
@@ -55281,7 +55565,7 @@ const restaurants = [
     ],
     "lat": 37.5072113,
     "lng": 127.0623501,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "33956686",
     "naverUrl": "https://map.naver.com/p/entry/place/33956686",
     "naverBlogCnt": 78,
@@ -55798,7 +56082,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200612_4/15919324514890i1wj_JPEG/yHM9qCeHMCkMjZdCqbkPHg0s.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "가득드림 코엑스몰점",
@@ -55964,11 +56249,12 @@ const restaurants = [
     ],
     "lat": 37.5058388,
     "lng": 127.0561271,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1791996012",
     "naverUrl": "https://map.naver.com/v5/entry/place/1791996012",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230918_296/1694994818836jAFzB_JPEG/KakaoTalk_Photo_2023-09-18-08-47-20.jpeg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "랄프스커피 파르나스몰점",
@@ -56928,7 +57214,7 @@ const restaurants = [
     ],
     "lat": 37.505903,
     "lng": 127.0560742,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1152703637",
     "naverUrl": "https://map.naver.com/v5/entry/place/1152703637",
     "naverBlogCnt": 78,
@@ -56976,7 +57262,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241202_167/1733105286312pSPP3_JPEG/%C3%E2%B0%ED%C6%D0%B5%E51.jpg",
     "parking": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "김밥천국 삼성점",
@@ -57129,7 +57416,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20190723_49/15638591732100a5AR_JPEG/03yZMYQ_LyU4nm5OhAfDJaCw.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "토노야",
@@ -57167,7 +57455,7 @@ const restaurants = [
     ],
     "lat": 37.5048444,
     "lng": 127.0561137,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1623192562",
     "naverUrl": "https://map.naver.com/v5/entry/place/1623192562",
     "naverBlogCnt": 149,
@@ -57216,7 +57504,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240229_72/17092032630244mK6j_JPEG/KakaoTalk_20240222_140933361_09.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06194"
   },
   {
     "name": "전주집",
@@ -57319,7 +57608,7 @@ const restaurants = [
     ],
     "lat": 37.4984033,
     "lng": 127.0608878,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "649171345",
     "naverUrl": "https://map.naver.com/v5/entry/place/649171345",
     "naverBlogCnt": 52,
@@ -57366,7 +57655,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260102_204/1767342266360h1v9t_JPEG/KakaoTalk_20260102_172120013.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06279"
   },
   {
     "name": "소풍 코엑스몰점",
@@ -57483,7 +57773,8 @@ const restaurants = [
     "naverBlogCnt": 498,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251020_264/1760920485602PalSh_JPEG/KakaoTalk_20251020_093034416.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "순두부와 삼겹살",
@@ -57568,7 +57859,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220717_105/1658059662240cdT8B_JPEG/20220714_195203_HDR.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "캠토토스트커피&1인집밥정식",
@@ -58114,7 +58406,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20230829_137/1693282401170BAq7o_PNG/%B7%CE%B0%ED_%C1%A4%B9%E6%C7%FC.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "맘스터치 피자앤치킨 대치사거리점",
@@ -58143,7 +58436,8 @@ const restaurants = [
     "naverPlaceId": "1468136580",
     "naverUrl": "https://map.naver.com/v5/entry/place/1468136580",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240709_175/1720466969898TQ6Sc_JPEG/1718944238306.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06186"
   },
   {
     "name": "포베이 도심공항점",
@@ -58228,7 +58522,7 @@ const restaurants = [
     ],
     "lat": 37.5060272,
     "lng": 127.058142,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1561664368",
     "naverUrl": "https://map.naver.com/v5/entry/place/1561664368",
     "naverBlogCnt": 245,
@@ -58240,7 +58534,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20200806_80/15966810788797Cr1t_JPEG/IagWe9i1OxNoTyEaOzrny3sQ.jpeg.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06178"
   },
   {
     "name": "반반족 강남대치점",
@@ -58322,7 +58617,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240519_238/1716092064821FDnVl_JPEG/20240518_155005.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "쇼군 스타필드코엑스몰점",
@@ -58435,7 +58731,7 @@ const restaurants = [
     ],
     "lat": 37.50771,
     "lng": 127.0646806,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1612657646",
     "naverUrl": "https://map.naver.com/p/entry/place/1612657646",
     "naverBlogCnt": 125,
@@ -58625,7 +58921,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260303_222/1772469337621UF8C8_PNG/do-messenger_screenshot.png",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "소곱삼 강남 삼성역점",
@@ -58863,7 +59160,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251212_208/1765510400882L8nFL_JPEG/KakaoTalk_20251212_123111437.jpg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "한사발포차 선릉점",
@@ -58902,7 +59200,7 @@ const restaurants = [
     ],
     "lat": 37.5036333,
     "lng": 127.0543209,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1451574067",
     "naverUrl": "https://map.naver.com/v5/entry/place/1451574067",
     "naverBlogCnt": 100,
@@ -58951,7 +59249,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20260309_221/17730659009468S6zi_PNG/1000002935.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "곰살이네",
@@ -59032,7 +59331,8 @@ const restaurants = [
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260212_298/1770874155658jA9o0_PNG/1.png",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "프레시부리또 선릉점",
@@ -59235,7 +59535,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220629_124/1656492344681NkH0H_JPEG/KakaoTalk_20220629_112139490_04.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06199"
   },
   {
     "name": "온니담",
@@ -59542,7 +59843,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251124_9/1763978688541ntJBc_JPEG/1000005277.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06197"
   },
   {
     "name": "동경",
@@ -59688,7 +59990,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20240424_103/1713952498099WpKN6_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2024-04-24_%BF%C0%C8%C4_6.54.36.png",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "일리있는",
@@ -59869,13 +60172,14 @@ const restaurants = [
     ],
     "lat": 37.5030146,
     "lng": 127.0557923,
-    "exit4": false,
+    "exit4": true,
     "naverPlaceId": "1003292616",
     "naverUrl": "https://map.naver.com/v5/entry/place/1003292616",
     "naverBlogCnt": 19,
     "imageUrl": "https://ldb-phinf.pstatic.net/20250110_46/1736505561300q9xEg_JPEG/IMG_7575.jpeg",
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06196"
   },
   {
     "name": "복드림 복국 콩나물국",
@@ -60002,7 +60306,7 @@ const restaurants = [
     ],
     "lat": 37.4991911,
     "lng": 127.0630094,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "1279541025",
     "naverUrl": "https://map.naver.com/v5/entry/place/1279541025",
     "naverBlogCnt": 20,
@@ -60058,7 +60362,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06282"
   },
   {
     "name": "온기 삼성점",
@@ -60140,7 +60445,7 @@ const restaurants = [
     ],
     "lat": 37.5026029,
     "lng": 127.0586546,
-    "exit4": true,
+    "exit4": false,
     "naverPlaceId": "11800950",
     "naverUrl": "https://map.naver.com/v5/entry/place/11800950",
     "naverBlogCnt": 12,
@@ -60159,7 +60464,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20250724_214/1753362488560LCzV7_JPEG/1000022876.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06202"
   },
   {
     "name": "포란 삼성점",
@@ -60235,7 +60541,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250717_183/1752738877719fXBCM_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%281%29.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06184"
   },
   {
     "name": "사시미랑초밥",
@@ -60415,7 +60722,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230515_217/1684133877097IsEjN_JPEG/KakaoTalk_20230515_155725064.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06200"
   },
   {
     "name": "빌라파이브",
@@ -60469,7 +60777,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20251110_204/1762772002671T5EbH_JPEG/23236.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06185"
   },
   {
     "name": "시가플레이스",
@@ -60566,7 +60875,8 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260112_222/1768177077172cHC4f_JPEG/%B4%F5%BA%ED%C4%A1%C1%EE%B9%F6%B0%C5.jpg",
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06174"
   },
   {
     "name": "윤식당",
@@ -60634,7 +60944,8 @@ const restaurants = [
     "imageUrl": "https://ldb-phinf.pstatic.net/20231004_137/1696346801204vKyRQ_JPEG/KakaoTalk_20231004_000605758.jpg",
     "parking": true,
     "reservation": true,
-    "updatedAt": "2026-03-16"
+    "updatedAt": "2026-03-16",
+    "zip": "06190"
   },
   {
     "name": "기네스72 삼성",
