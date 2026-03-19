@@ -93,9 +93,6 @@ export async function getStaticProps({ params }) {
 }
 
 function buildCatReason(r, idx) {
-  function cleanRv(v) {
-    return (v||'').replace(/\[\d+\.?\d*★\]\s*/g,'').replace(/\(실제 Google 리뷰.*?\)/g,'').trim().slice(0, 40)
-  }
   function tagToLabel(tag) {
     const map = {
       '고평점':'맛집','SNS맛집':'SNS 핫플','웨이팅맛집':'웨이팅 맛집',
@@ -105,21 +102,20 @@ function buildCatReason(r, idx) {
     }
     return map[tag] || tag + ' 맛집'
   }
-  const rv = (r.rv||[]).map(cleanRv).filter(Boolean)
-  const rv0 = rv[0]||'', rv1 = rv[1]||''
   const tags = (r.tags||[]).slice(0,4)
   const cnt = r.cnt||0
+  const rt = r.rt||''
   const pool = [
-    ()=>rv1?`"${rv0}" 또 다른 방문객은, "${rv1}"`:rv0?`"${rv0}"`:null,
-    ()=>cnt>=50?`${cnt.toLocaleString()}명이 다녀갔다.${tags[0]?' '+tagToLabel(tags[0])+'.':''} ${rv0?'"'+rv0+'"':''}`.trim():null,
-    ()=>rv0?`"${rv0}"`:null,
-    ()=>tags.length?`${tags.slice(0,3).map(t=>'#'+t).join('  ')}${rv0?'  "'+rv0+'"':''}`:null,
-    ()=>tags[0]?`${tagToLabel(tags[0])}으로 알려진 곳.${rv0?' "'+rv0+'"':''}`:null,
-    ()=>rv0?`"${rv0}"`:null,
+    ()=>tags.length?tags.slice(0,3).map(t=>`#${t}`).join('  '):null,
+    ()=>cnt>=50?`${cnt.toLocaleString()}명이 다녀간 곳.${tags[0]?' '+tagToLabel(tags[0])+'.':''}`.trim():null,
+    ()=>rt?`⭐${rt}점${cnt>0?' · '+cnt.toLocaleString()+'명 방문':''}`:null,
+    ()=>tags[0]?`${tagToLabel(tags[0])}으로 알려진 곳.`:null,
+    ()=>tags[0]?`${tagToLabel(tags[0])}으로 알려진 곳.${tags[1]?' #'+tags[1]:''}`:null,
+    ()=>tags.length?tags.slice(0,2).join(' · '):null,
   ]
-  const order = [idx%pool.length, (idx+1)%pool.length, (idx+2)%pool.length, 2, 3, 0]
-  for(const i of order){ const r2=pool[i](); if(r2&&r2.trim()) return { reason: r2.trim(), highlight: rv0.slice(0,20)||'' } }
-  return { reason: rv0?`"${rv0}"`:r.type||'', highlight: rv0.slice(0,20)||'' }
+  const order = [idx%pool.length, (idx+1)%pool.length, (idx+2)%pool.length, 0, 3, 1]
+  for(const i of order){ const r2=pool[i](); if(r2&&r2.trim()) return { reason: r2.trim(), highlight: tags[0]||'' } }
+  return { reason: tags[0]||r.type||'', highlight: tags[0]||'' }
 }
 
 export default function CategoryPage({ slug, catInfo, restaurants }) {
@@ -285,11 +281,6 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                   {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
                 </div>
                 <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
-                {r.rv?.[0] && (
-                  <div style={{ fontSize:'.75rem', color:'var(--muted)', lineHeight:1.4, marginTop:6 }}>
-                    💬 {r.rv[0].replace(/\[\d+\.?\d*★\]\s*/, '').slice(0, 40)}...
-                  </div>
-                )}
               </div>
             </Link>
           ))}

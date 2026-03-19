@@ -113,23 +113,19 @@ export async function getStaticProps({ params }) {
 
 // ── 랜덤 결과 문구 ──────────────────────────────────────────────
 function buildReason(r, idx) {
-  function cleanRv(v) {
-    return (v || '').replace(/\[\d+\.?\d*★\]\s*/g, '').replace(/\(실제 Google 리뷰.*?\)/g, '').trim().slice(0, 40)
-  }
-  const rv0   = cleanRv(r.rv?.[0] || '')
-  const rv1   = cleanRv(r.rv?.[1] || '')
   const tags  = (r.tags || []).slice(0, 3)
   const cnt   = r.cnt || 0
+  const rt    = r.rt || ''
   const pool = [
-    () => rv1 ? `"${rv0}" 또 다른 방문객은, "${rv1}"` : rv0 ? `"${rv0}"` : null,
-    () => cnt >= 50 ? `${cnt.toLocaleString()}명이 다녀간 곳. ${rv0 ? '"' + rv0 + '"' : ''}`.trim() : null,
-    () => tags.length ? `${tags.slice(0, 3).map(t => '#' + t).join('  ')}${rv0 ? '  "' + rv0 + '"' : ''}` : null,
-    () => rv0 ? `"${rv0}"` : null,
+    () => tags.length ? tags.slice(0, 3).map(t => `#${t}`).join('  ') : null,
+    () => cnt >= 50 ? `${cnt.toLocaleString()}명이 다녀간 곳.${tags[0] ? ` #${tags[0]}` : ''}` : null,
+    () => rt ? `⭐${rt}점${cnt > 0 ? ` · ${cnt.toLocaleString()}명 방문` : ''}` : null,
+    () => tags.length ? tags.slice(0, 2).join(' · ') : null,
   ]
-  for (const i of [idx % pool.length, (idx + 1) % pool.length, 3, 0]) {
+  for (const i of [idx % pool.length, (idx + 1) % pool.length, 2, 0]) {
     const s = pool[i](); if (s?.trim()) return s.trim()
   }
-  return rv0 || r.type || ''
+  return tags[0] || r.type || ''
 }
 
 // ── 식당 카드 (랜덤 결과용) ──────────────────────────────────────
@@ -379,11 +375,6 @@ export default function UnifiedCategoryPage({ slug, catInfo, byRegion }) {
                     {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
                   </div>
                   <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
-                  {r.rv?.[0] && (
-                    <div style={{ fontSize:'.75rem', color:'var(--muted)', lineHeight:1.4, marginTop:6 }}>
-                      💬 {r.rv[0].replace(/\[\d+\.?\d*★\]\s*/g, '').slice(0, 40)}…
-                    </div>
-                  )}
                 </div>
               </Link>
             )

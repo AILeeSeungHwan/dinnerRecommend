@@ -634,34 +634,18 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </>
         )}
 
-        {/* 실제 리뷰 */}
-        {r.rv?.length > 0 && (
+        {/* 방문자 키워드 */}
+        {((r.tags?.length > 0) || (r.keywords?.length > 0) || (r.moods?.length > 0)) && (
           <>
-            <h2 style={h2style}>💬 방문자 후기 요약</h2>
-            <p style={pstyle}>
-              실제 방문자들이 자주 언급한 키워드를 요약했습니다.
-            </p>
-            {r.rv.filter(rv => rv != null && rv.trim() !== '').map((rv, i) => {
-              const ratingMatch = rv.match(/^\[([0-9.]+)★\]\s*/)
-              const indivRt = ratingMatch ? parseFloat(ratingMatch[1]) : null
-              const text = rv.replace(/^\[[0-9.]+★\]\s*/, '')
-              return (
-                <div key={i} style={{
-                  marginBottom:10, padding:'10px 14px',
-                  background:'var(--surface)', border:'1px solid var(--border)',
-                  borderRadius:10, width:'100%', boxSizing:'border-box',
-                }}>
-                  {indivRt && (
-                    <span style={{ fontSize:'.73rem', fontWeight:700, color:'var(--primary)', display:'block', marginBottom:4 }}>
-                      ⭐ {indivRt}
-                    </span>
-                  )}
-                  <p style={{ margin:0, fontSize:'.82rem', color:'var(--text)', lineHeight:1.65, wordBreak:'break-all', overflowWrap:'anywhere', whiteSpace:'normal' }}>
-                    {text}
-                  </p>
-                </div>
-              )
-            })}
+            <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+            <p style={pstyle}>실제 방문자들이 자주 언급한 키워드입니다.</p>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:16 }}>
+              {[...(r.tags||[]), ...(r.keywords||[]), ...(r.moods||[])].filter((v,i,a)=>a.indexOf(v)===i).slice(0,12).map((kw, i) => (
+                <span key={i} style={{ padding:'6px 14px', borderRadius:100, fontSize:'.82rem', background:'var(--surface)', border:'1px solid var(--border)' }}>
+                  {kw}
+                </span>
+              ))}
+            </div>
             <a href={naverMapUrl(r.name, r.lat, r.lng)}
               target="_blank" rel="noopener noreferrer"
               style={{

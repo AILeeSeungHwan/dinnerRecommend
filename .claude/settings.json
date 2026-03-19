@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/lee/Desktop/dinnerAIVer1.0/dinnerRecommend && if [ -n \"$(git status --porcelain)\" ]; then git add -A && git commit -m \"auto: claude 작업 완료 $(date '+%Y-%m-%d %H:%M')\" && git push; fi",
+            "timeout": 60,
+            "statusMessage": "변경사항 커밋 & 푸시 중..."
+          }
+        ]
+      }
+    ]
+  }
+}

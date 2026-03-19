@@ -23,7 +23,6 @@ export async function getServerSideProps({ res }) {
 
   const items = topRated.map(r => {
     const url = `${BASE}${r._base || '/dinner'}/${r._area}/restaurant/${encodeURIComponent(r.name)}`
-    const review = (r.rv?.[0] || '').replace(/^\[[0-9.]+★\]\s*/, '').slice(0, 40)
     const tags = (r.tags || []).slice(0, 5).join(', ')
     const desc = [
       `${r._areaName} ${r.type} | ⭐${r.rt}점 (${r.cnt?.toLocaleString() || '?'}개 리뷰)`,
@@ -31,7 +30,6 @@ export async function getServerSideProps({ res }) {
       `📍 ${r.addr}`,
       `🕐 ${r.hours}`,
       tags ? `🏷️ ${tags}` : '',
-      review ? `💬 "${review}"` : '',
     ].filter(Boolean).join(' | ')
 
     return `

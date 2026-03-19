@@ -73,9 +73,6 @@ function buildRandomReason(r, idx, usedTemplates) {
   }
 
 
-  const rv    = (r.rv || []).map(cleanRv).filter(Boolean)
-  const rv0   = rv[0] || ''
-  const rv1   = rv[1] || ''
   const tags  = (r.tags  || []).slice(0, 4)
   const scene = (r.scene || []).slice(0, 2)
   const moods = (r.moods || []).slice(0, 2)
@@ -83,55 +80,53 @@ function buildRandomReason(r, idx, usedTemplates) {
   const rt    = r.rt  || ''
 
   const templates = [
-    // 0: 리뷰 두 개로 말한다
+    // 0: 방문자 수 + 태그
     () => {
-      if (!rv0) return templates[2]()
-      const reason = rv1
-        ? `"${rv0}" 또 다른 방문객은, "${rv1}"`
-        : `"${rv0}"`
-      return { reason, highlight: rv0.slice(0, 20) }
+      const tagStr = tags.slice(0, 2).join(' · ')
+      const cntStr = cnt >= 100 ? `${cnt.toLocaleString()}명이 다녀갔다.` : cnt > 0 ? `${cnt}명이 방문했다.` : ''
+      const reason = [cntStr, tagStr].filter(Boolean).join('  ') || `${r.type || '맛집'}.`
+      return { reason, highlight: tagStr || cntStr }
     },
 
-    // 1: 방문자 수 + 대표 태그 + 리뷰
+    // 1: 방문자 수 + 대표 태그
     () => {
       const tagStr = tags.slice(0, 2).join(' · ')
       const base = cnt >= 100
         ? `${cnt.toLocaleString()}명이 다녀갔다.`
-        : `${cnt}명이 다녀갔다.`
-      const reason = `${base}${tagStr ? ` ${tagStr}.` : ''}${rv0 ? ` "${rv0}"` : ''}`
-      return { reason, highlight: rv0.slice(0, 20) || tagStr }
+        : cnt > 0 ? `${cnt}명이 다녀갔다.` : `${r.type || '식당'}.`
+      const reason = `${base}${tagStr ? `  ${tagStr}.` : ''}`
+      return { reason, highlight: tagStr || base }
     },
 
-    // 2: scene 맥락 + 리뷰
+    // 2: scene 맥락 + 태그
     () => {
       const sc = (scene[0] || moods[0] || '').replace(/에$/,'')
       const intro = sc ? `${sc}, 딱 맞는 곳.` : (tags[0] ? `${tags[0]}${josa(tags[0],'으로','로')} 알려진 곳.` : '한 번 가볼 만한 곳.')
-      const reason = rv0 ? `${intro} "${rv0}"` : intro
-      return { reason, highlight: rv0.slice(0, 20) || sc }
+      const tagStr = tags.slice(0, 2).join(' · ')
+      const reason = tagStr ? `${intro}  ${tagStr}` : intro
+      return { reason, highlight: tagStr || sc }
     },
 
-    // 3: 해시태그 나열 + 리뷰
+    // 3: 해시태그 나열
     () => {
-      if (!tags.length) return templates[0]()
       const tagStr = tags.slice(0, 4).map(t => `#${t}`).join('  ')
-      const reason = rv0 ? `${tagStr}  "${rv0}"` : tagStr
-      return { reason, highlight: rv0.slice(0, 20) || `#${tags[0]}` }
+      const reason = tagStr || `${r.type || '맛집'}.`
+      return { reason, highlight: `#${tags[0] || r.type}` }
     },
 
-    // 4: 리뷰 한 개를 길게 (80자)
+    // 4: 평점 + 방문자 수
     () => {
-      const rv0long = (r.rv || []).map(cleanRv).filter(Boolean).map(v => v.slice(0, 40))[0] || ''
-      if (!rv0long) return templates[1]()
-      return {
-        reason: `"${rv0long}"`,
-        highlight: rv0long.slice(0, 20)
-      }
+      const star = rt ? `⭐${rt}점` : ''
+      const cntStr = cnt >= 100 ? `${cnt.toLocaleString()}명 방문` : cnt > 0 ? `${cnt}명 방문` : ''
+      const badge = [star, cntStr].filter(Boolean).join(' · ')
+      const tagStr = tags.slice(0, 2).join(' · ')
+      const reason = badge ? `${badge}.${tagStr ? `  ${tagStr}` : ''}` : `${tagStr || r.type || '맛집'}.`
+      return { reason, highlight: star || cntStr || tagStr }
     },
 
-    // 5: moods 자연어 + 리뷰
+    // 5: moods 자연어
     () => {
       const m = moods[0] || scene[0] || ''
-      // "기분 좋음" → "기분 좋을 때", "회식" → "회식할 때", "혼밥" → "혼밥할 때"
       const moodMap = {
         '기분 좋음': '기분 좋을 때',
         '피곤함': '피곤할 때',
@@ -143,40 +138,38 @@ function buildRandomReason(r, idx, usedTemplates) {
         '회식': '회식 자리에',
       }
       const when = moodMap[m] || (m ? `${m}일 때` : '오늘')
-      const reason = rv0 ? `${when} 당기는 곳. "${rv0}"` : `${when} 추천하는 ${r.type || '식당'}.`
-      return { reason, highlight: rv0.slice(0, 20) || when }
+      const tagStr = tags.slice(0, 2).join(' · ')
+      const reason = `${when} 추천하는 ${r.type || '식당'}.${tagStr ? `  ${tagStr}` : ''}`
+      return { reason, highlight: when }
     },
 
-    // 6: 대표 태그 한 개 강조 + 리뷰 두 개
+    // 6: 대표 태그 한 개 강조
     () => {
-      if (!tags[0]) return templates[0]()
+      if (!tags[0]) return templates[3]()
       const t0 = tags[0]
       const label = tagToLabel(t0)
       const particle = josa(label, '으로', '로')
       const intro = `${label}${particle} 알려진 곳.`
-      const reason = rv0 && rv1
-        ? `${intro} "${rv0}" "${rv1}"`
-        : rv0
-          ? `${intro} "${rv0}"`
-          : intro
-      return { reason, highlight: rv0.slice(0, 20) || t0 }
+      const extra = tags.slice(1, 3).map(t => `#${t}`).join('  ')
+      const reason = extra ? `${intro}  ${extra}` : intro
+      return { reason, highlight: t0 }
     },
 
-    // 7: cnt 없을 때 — 태그 + 리뷰만
+    // 7: 태그 + 방문자 수
     () => {
-      const intro = tags[0] ? `#${tags.slice(0,3).join(' #')}.` : ''
-      const reason = rv0 ? `${intro ? intro + ' ' : ''}"${rv0}"` : (intro || `${r.type || ''} 한 곳.`)
-      return { reason, highlight: rv0.slice(0, 20) || (tags[0] ? `#${tags[0]}` : '') }
+      const tagLine = tags[0] ? `#${tags.slice(0,3).join(' #')}.` : ''
+      const cntStr = cnt > 0 ? `방문객 ${cnt.toLocaleString()}명.` : ''
+      const reason = [tagLine, cntStr].filter(Boolean).join('  ') || `${r.type || ''} 한 곳.`
+      return { reason, highlight: tags[0] ? `#${tags[0]}` : cntStr }
     },
 
-    // 8: 평점 수치 강조 + 방문 코멘트
+    // 8: 평점 수치 강조
     () => {
       const star = rt ? `⭐${rt}점` : ''
       const cntStr = cnt >= 100 ? `${cnt.toLocaleString()}명 방문` : cnt > 0 ? `${cnt}명 방문` : ''
       const badge = [star, cntStr].filter(Boolean).join(' · ')
-      const base8 = badge ? `${badge}.` : `${r.type || '식당'}.`
-      const reason = rv0 ? `${base8} "${rv0}"` : base8
-      return { reason, highlight: rv0.slice(0, 20) || (star || cntStr) }
+      const reason = badge ? `${badge}.` : `${r.type || '식당'}.`
+      return { reason, highlight: star || cntStr }
     },
 
     // 9: 가격대 앞세우기
@@ -184,9 +177,10 @@ function buildRandomReason(r, idx, usedTemplates) {
       const price = r.priceRange
         ? (() => { const [a,b]=r.priceRange.split('~').map(Number); const avg=Math.round((a+(b||a))/2/1000); return `${avg}천원대` })()
         : null
+      const tagStr = tags.slice(0, 2).join(' · ')
       const intro = price ? `${price}, 부담 없이 즐길 수 있는 곳.` : (tags[0] ? `${tags[0]}${tags[0].endsWith('집')?'':'집'}.` : '한 번 가볼 만한 곳.')
-      const reason = rv0 ? `${intro} "${rv0}"` : intro
-      return { reason, highlight: rv0.slice(0,20) || (price||'') }
+      const reason = tagStr && price ? `${intro}  ${tagStr}` : intro
+      return { reason, highlight: price || tagStr }
     },
 
     // 10: 재방문/단골 스타일
@@ -196,26 +190,28 @@ function buildRandomReason(r, idx, usedTemplates) {
       const intro = repeat
         ? `${repeat} ${tagWord} 맛집.`
         : `${tagWord} 좋아하면 여기 한번.`
-      const reason = rv0 ? `${intro} "${rv0}"` : intro
-      return { reason, highlight: rv0.slice(0,20) || tagWord }
+      const extra = tags.slice(1, 3).map(t => `#${t}`).join('  ')
+      const reason = extra ? `${intro}  ${extra}` : intro
+      return { reason, highlight: tagWord || repeat }
     },
 
-    // 11: 첫 방문 추천 스타일 (태그 나열 + 짧은 문장)
+    // 11: 첫 방문 추천 스타일
     () => {
       const tagLine = tags.slice(0,3).map(t=>`#${t}`).join(' ')
       const sc = scene[0] || moods[0] || ''
       const intro = sc ? `${sc.replace(/에$/,'')}에 딱 맞는 선택.` : `한 번은 가봐야 할 곳.`
-      const reason = `${intro}${tagLine ? '  '+tagLine : ''}${rv0 ? '  "'+rv0+'"' : ''}`
-      return { reason, highlight: rv0.slice(0,20) || (tags[0]||sc) }
+      const reason = `${intro}${tagLine ? '  '+tagLine : ''}`
+      return { reason, highlight: tags[0] || sc }
     },
 
-    // 12: 두 번째 리뷰 강조 + 태그
+    // 12: 태그 + 평점
     () => {
-      const rv1use = rv1 || rv0
-      if (!rv1use) return templates[1]()
       const tagStr = tags[0] ? `#${tags.slice(0,2).join(' #')}` : ''
-      const reason = tagStr ? `${tagStr}  "${rv1use}"` : `"${rv1use}"`
-      return { reason, highlight: rv1use.slice(0,20) }
+      const star = rt ? `⭐${rt}` : ''
+      const cntStr = cnt > 0 ? `${cnt.toLocaleString()}명` : ''
+      const badge = [star, cntStr].filter(Boolean).join(' · ')
+      const reason = [tagStr, badge].filter(Boolean).join('  ') || `${r.type || '맛집'}.`
+      return { reason, highlight: tagStr || star }
     },
 
     // 13: 상황 + 메뉴타입 자연어 설명
@@ -227,14 +223,15 @@ function buildRandomReason(r, idx, usedTemplates) {
         return m[moods[0]] || moods[0]
       })() : null
       const typeWord = r.type?.split('·')[0] || ''
+      const tagStr = tags.slice(0, 2).join(' · ')
       const intro = when
         ? `${when}, ${typeWord} 생각난다면.`
         : `${typeWord} 고민될 때 이 집.`
-      const reason = rv0 ? `${intro} "${rv0}"` : intro
-      return { reason, highlight: rv0.slice(0,20) || typeWord }
+      const reason = tagStr ? `${intro}  ${tagStr}` : intro
+      return { reason, highlight: typeWord || when }
     },
 
-    // 14: 리뷰 없을 때 태그 스토리
+    // 14: 태그 스토리
     () => {
       const scStr = scene.slice(0,2).join(', ')
       const tagStr = tags.slice(0,3).join(' · ')
@@ -1496,10 +1493,9 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
       const top5 = [...top20.slice(0,3), ...[...top20.slice(3)].sort(()=>Math.random()-0.5).slice(0,3)].sort(()=>Math.random()-0.5).slice(0,5)
       // 후보 포맷: 식당별 블록으로 분리 — rv 50자, scene/addr 포함
       const compact = top5.map((r, idx) => {
-        const rv0 = (r.rv||[])[0] ? ' '+(r.rv[0]).replace(/"/g,'\u2019').slice(0,20) : ''
         const kwStr = (r.keywords||[]).slice(0,3).join(' ')
         const menuStr = (r.menuItems||[]).slice(0,3).map(m => m.menuName||m.name).join(' ')
-        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}${rv0}`
+        return `[${idx+1}]${r.name}|${r.type}|${r.priceRange||'?'}원|태그:${(r.tags||[]).slice(0,3).join(' ')}${kwStr?'|키워드:'+kwStr:''}${menuStr?'|메뉴:'+menuStr:''}`
       }).join('\n')
       const ctx_full = (ctx||'').slice(0, 120)
       const mood_str = moods.join(', ')
