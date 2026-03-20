@@ -1462,13 +1462,14 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
           (selectedCat.cats||[]).some(c => r.cat?.includes(c)) ||
           (selectedCat.tags||[]).some(t => r.tags?.includes(t))
         )
-        if (base.length < 5) base = restaurants  // 풀 너무 작으면 완화
+        if (base.length < 5) base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants  // 풀 너무 작으면 완화 (exit4 유지)
       } else if (mm) {
         const mmCats = mm.cats || []
         base = base.filter(r => mmCats.some(c => (r.cat||[]).includes(c)))
         // 필터 결과가 너무 적으면 type으로도 확장
         if (base.length < 4) {
-          const typeBase = restaurants.filter(r => mmCats.some(c => (r.type||'').includes(c)))
+          const pool0 = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+          const typeBase = pool0.filter(r => mmCats.some(c => (r.type||'').includes(c)))
           base = [...new Map([...base,...typeBase].map(r=>[r.name,r])).values()]
         }
       }
@@ -1517,11 +1518,12 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
           if (synExpand.some(w => w.includes(key))) synExpand.push(...vals.map(v => v.toLowerCase()))
         }
         const expanded2 = [...new Set(synExpand)]
-        const fuzzyBase = restaurants.filter(r => {
+        const pool0 = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
+        const fuzzyBase = pool0.filter(r => {
           const blob = [r.name, r.type, ...(r.tags||[]), ...(r.cat||[]), ...(r.scene||[])].join(' ').toLowerCase()
           return expanded2.some(kw => blob.includes(kw))
         })
-        base = fuzzyBase.length >= 3 ? fuzzyBase : restaurants
+        base = fuzzyBase.length >= 3 ? fuzzyBase : pool0
       }
 
       if (base.length < 5) base = exit4Only ? restaurants.filter(r=>r.exit4) : restaurants
