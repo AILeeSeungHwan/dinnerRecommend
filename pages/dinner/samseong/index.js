@@ -2395,9 +2395,22 @@ export default function SamseongPage() {
         <meta name="description" content="삼성역 맛집 AI 추천. 4번출구·코엑스 주변 국밥·이자카야·한우·중식 170개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/samseong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context":"https://schema.org","@type":"ItemList","name":"삼성역 맛집 추천",
-          "url":"https://dinner.ambitstock.com/dinner/samseong","numberOfItems":restaurants.length,
-          "itemListElement":topRated.slice(0,5).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"description":`${r.type} | ⭐${r.rt}` }))
+          "@context":"https://schema.org",
+          "@graph": [
+            {
+              "@type":"ItemList","name":"삼성역 맛집 추천",
+              "description":`삼성역·코엑스·테헤란로 주변 ${restaurants.length}개+ 맛집 AI 추천. 국밥·이자카야·한우·중식 등 카테고리별 탐색.`,
+              "url":"https://dinner.ambitstock.com/dinner/samseong","numberOfItems":restaurants.length,
+              "itemListElement":topRated.slice(0,10).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"url":`https://dinner.ambitstock.com/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`,"description":`${r.type} | ⭐${r.rt}` }))
+            },
+            {
+              "@type":"BreadcrumbList",
+              "itemListElement":[
+                {"@type":"ListItem","position":1,"name":"오늘뭐먹지","item":"https://dinner.ambitstock.com"},
+                {"@type":"ListItem","position":2,"name":"삼성역 맛집","item":"https://dinner.ambitstock.com/dinner/samseong"}
+              ]
+            }
+          ]
         })}} />
       </Head>
 

@@ -166,24 +166,17 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "ItemList",
-          "name": `영통구청 ${catInfo.name} 맛집`,
-          "url": `https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`,
-          "numberOfItems": restaurants.length,
-          "itemListElement": sorted.slice(0, 10).map((r, i) => ({
-            "@type": "ListItem",
-            "position": i + 1,
-            "item": {
-              "@type": "Restaurant",
-              "name": r.name,
-              "address": r.addr,
-              ...(r.rt ? { "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": String(r.rt),
-                "reviewCount": String(r.cnt || 0)
-              }} : {})
-            }
-          }))
+          "@graph": [
+            { "@type": "ItemList", "name": `영통구청 ${catInfo.name} 맛집`, "description": `영통구청 ${catInfo.name} 맛집 ${restaurants.length}곳 추천.`, "url": `https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`, "numberOfItems": restaurants.length,
+              "itemListElement": sorted.slice(0, 10).map((r, i) => ({ "@type": "ListItem", "position": i + 1, "url": `https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/restaurant/${encodeURIComponent(r.name)}`, "item": { "@type": "Restaurant", "name": r.name, "address": r.addr, ...(r.rt ? { "aggregateRating": { "@type": "AggregateRating", "ratingValue": String(r.rt), "reviewCount": String(r.cnt || 0) }} : {}) } }))
+            },
+            { "@type": "BreadcrumbList", "itemListElement": [
+              {"@type":"ListItem","position":1,"name":"오늘뭐먹지","item":"https://dinner.ambitstock.com"},
+              {"@type":"ListItem","position":2,"name":"삼성전자 맛집","item":"https://dinner.ambitstock.com/samsungElectronics"},
+              {"@type":"ListItem","position":3,"name":"영통구청 맛집","item":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu"},
+              {"@type":"ListItem","position":4,"name":`영통구청 ${catInfo.name}`,"item":`https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/category/${slug}`}
+            ]}
+          ]
         })}} />
       </Head>
 

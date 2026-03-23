@@ -49,11 +49,39 @@ const CATS = [
 export default function SamsungElectronicsHome() {
   const totalCount = yeongtongData.length + mangpoData.length + yeongtongGuData.length
 
+  const hubJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemList",
+        "name": "삼성전자 임직원 맛집 추천 — 영통·망포·영통구청",
+        "description": `영통역·망포역·영통구청 삼성전자 인근 ${totalCount}개+ 맛집 AI 추천`,
+        "url": "https://dinner.ambitstock.com/samsungElectronics",
+        "numberOfItems": 3,
+        "itemListElement": stations.map((s, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "name": `${s.name} 맛집`,
+          "url": `https://dinner.ambitstock.com/samsungElectronics/${s.slug}`,
+          "description": `${s.desc} · ${s.count}개+ 식당 · ${s.highlight}`
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://dinner.ambitstock.com" },
+          { "@type":"ListItem", "position":2, "name":"삼성전자 맛집", "item":"https://dinner.ambitstock.com/samsungElectronics" },
+        ]
+      }
+    ]
+  }
+
   return (
     <Layout
       title="영통 맛집 추천 — 삼성전자 임직원 AI 맛집 가이드"
       description="영통역·망포역·영통구청 삼성전자 임직원을 위한 회식장소·점심 맛집 추천. AI가 기분·예산에 맞게 골라드립니다."
       canonical="https://dinner.ambitstock.com/samsungElectronics"
+      jsonLd={hubJsonLd}
     >
       {/* 히어로 */}
       <section style={{ padding: '44px 16px 32px', textAlign: 'center' }}>

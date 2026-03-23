@@ -2037,9 +2037,23 @@ export default function SamseongPage() {
         <meta name="description" content="영통구청 맛집 AI 추천. 영통구청역·수원 영통구 주변 국밥·이자카야·한우·중식 100개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context":"https://schema.org","@type":"ItemList","name":"영통구청 맛집 추천",
-          "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu","numberOfItems":restaurants.length,
-          "itemListElement":topRated.slice(0,5).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"description":`${r.type} | ⭐${r.rt}` }))
+          "@context":"https://schema.org",
+          "@graph": [
+            {
+              "@type":"ItemList","name":"영통구청 맛집 추천",
+              "description":`영통구청·매탄동·삼성전기 주변 ${restaurants.length}개+ 맛집 AI 추천.`,
+              "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu","numberOfItems":restaurants.length,
+              "itemListElement":topRated.slice(0,10).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"url":`https://dinner.ambitstock.com/samsungElectronics/yeongtongGu/restaurant/${encodeURIComponent(r.name)}`,"description":`${r.type} | ⭐${r.rt}` }))
+            },
+            {
+              "@type":"BreadcrumbList",
+              "itemListElement":[
+                {"@type":"ListItem","position":1,"name":"오늘뭐먹지","item":"https://dinner.ambitstock.com"},
+                {"@type":"ListItem","position":2,"name":"삼성전자 맛집","item":"https://dinner.ambitstock.com/samsungElectronics"},
+                {"@type":"ListItem","position":3,"name":"영통구청 맛집","item":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu"}
+              ]
+            }
+          ]
         })}} />
       </Head>
 

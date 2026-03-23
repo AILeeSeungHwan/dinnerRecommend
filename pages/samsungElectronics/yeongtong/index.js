@@ -2037,9 +2037,23 @@ export default function SamseongPage() {
         <meta name="description" content="영통 맛집 AI 추천. 삼성전자·영통역·망포역 주변 국밥·이자카야·한우·중식 180개+ 식당." />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtong" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context":"https://schema.org","@type":"ItemList","name":"영통 맛집 추천",
-          "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtong","numberOfItems":restaurants.length,
-          "itemListElement":topRated.slice(0,5).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"description":`${r.type} | ⭐${r.rt}` }))
+          "@context":"https://schema.org",
+          "@graph": [
+            {
+              "@type":"ItemList","name":"영통 맛집 추천",
+              "description":`영통역·삼성전자 DS 주변 ${restaurants.length}개+ 맛집 AI 추천.`,
+              "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtong","numberOfItems":restaurants.length,
+              "itemListElement":topRated.slice(0,10).map((r,i)=>({ "@type":"ListItem","position":i+1,"name":r.name,"url":`https://dinner.ambitstock.com/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`,"description":`${r.type} | ⭐${r.rt}` }))
+            },
+            {
+              "@type":"BreadcrumbList",
+              "itemListElement":[
+                {"@type":"ListItem","position":1,"name":"오늘뭐먹지","item":"https://dinner.ambitstock.com"},
+                {"@type":"ListItem","position":2,"name":"삼성전자 맛집","item":"https://dinner.ambitstock.com/samsungElectronics"},
+                {"@type":"ListItem","position":3,"name":"영통 맛집","item":"https://dinner.ambitstock.com/samsungElectronics/yeongtong"}
+              ]
+            }
+          ]
         })}} />
       </Head>
 

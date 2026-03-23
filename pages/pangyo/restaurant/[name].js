@@ -424,22 +424,36 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "name": r.name,
     "description": metaDesc,
     "url": pageUrl,
+    ...(r.imageUrl ? { "image": r.imageUrl } : {}),
+    ...(r.tel ? { "telephone": r.tel } : {}),
     "servesCuisine": r.type,
     "address": { "@type":"PostalAddress", "streetAddress":r.addr !== 'South Korea' ? r.addr : '', "addressLocality":"경기도 성남시 분당구", "addressCountry":"KR" },
     "geo": { "@type":"GeoCoordinates", "latitude":r.lat, "longitude":r.lng },
     "aggregateRating": { "@type":"AggregateRating", "ratingValue":r.rt, "reviewCount":r.cnt, "bestRating":5, "worstRating":1 },
     "openingHours": r.hours,
     "priceRange": r.priceRange ? `₩${fmtPrice(r.priceRange)}` : undefined,
+    "acceptsReservations": r.reservation ? "True" : "False",
+    ...(r.menuItems && r.menuItems.length > 0 ? { "hasMenu": {
+      "@type": "Menu",
+      "hasMenuSection": { "@type":"MenuSection", "name":"대표 메뉴", "hasMenuItem": r.menuItems.slice(0, 8).map(m => ({
+        "@type": "MenuItem", "name": m.menuName,
+        ...(m.price ? { "offers": { "@type":"Offer", "price": m.price, "priceCurrency":"KRW" } } : {}),
+        ...(m.description ? { "description": m.description } : {})
+      }))}
+    }} : {}),
+    ...(r.keywords && r.keywords.length > 0 ? { "keywords": r.keywords.join(', ') } : {}),
   }
 
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours } },
-      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`경기 성남시 ${r.addr} (판교 근처)` } },
+      { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours || '매장에 직접 문의 바랍니다.' } },
+      { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`경기 성남시 ${r.addr} (판교역 근처)` } },
       { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
-      { "@type":"Question", "name":`${r.name} 주차 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text":'판교 인근 공영주차장 또는 코엑스 주차장을 이용하시거나 대중교통을 권장합니다.' } },
+      { "@type":"Question", "name":`${r.name} 주차 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.parking ? '주차 가능합니다. 상세한 주차 정보는 매장에 문의하세요.' : '판교역 인근 공영주차장을 이용하시거나 대중교통을 권장합니다.' } },
+      { "@type":"Question", "name":`${r.name} 예약 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.reservation ? '예약 가능합니다. 전화 또는 네이버 예약을 이용하세요.' : '예약 없이 방문 가능합니다. 웨이팅이 있을 수 있습니다.' } },
+      ...(r.menuItems && r.menuItems.length > 0 ? [{ "@type":"Question", "name":`${r.name} 대표 메뉴와 가격은?`, "acceptedAnswer":{ "@type":"Answer", "text": r.menuItems.slice(0,5).map(m => `${m.menuName}${m.price ? ` ${m.price.toLocaleString()}원` : ''}`).join(', ') } }] : []),
     ]
   }
 
@@ -447,9 +461,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://gangnamwhat.com" },
-      { "@type":"ListItem", "position":2, "name":"판교 맛집", "item":"https://gangnamwhat.com/pangyo" },
-      slug && { "@type":"ListItem", "position":3, "name":`판교 ${catName}`, "item":`https://gangnamwhat.com/pangyo/category/${slug}` },
+      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://dinner.ambitstock.com" },
+      { "@type":"ListItem", "position":2, "name":"판교 맛집", "item":"https://dinner.ambitstock.com/pangyo" },
+      slug && { "@type":"ListItem", "position":3, "name":`판교 ${catName}`, "item":`https://dinner.ambitstock.com/pangyo/category/${slug}` },
       { "@type":"ListItem", "position": slug ? 4 : 3, "name":r.name, "item":pageUrl },
     ].filter(Boolean)
   }

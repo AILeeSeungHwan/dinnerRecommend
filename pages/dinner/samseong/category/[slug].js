@@ -239,24 +239,38 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
         <link rel="canonical" href={`https://dinner.ambitstock.com/dinner/samseong/category/${category}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "ItemList",
-          "name": `삼성역 ${catInfo.name} 맛집`,
-          "url": `https://dinner.ambitstock.com/dinner/samseong/category/${category}`,
-          "numberOfItems": restaurants.length,
-          "itemListElement": sortedByRating.slice(0, 10).map((r, i) => ({
-            "@type": "ListItem",
-            "position": i + 1,
-            "item": {
-              "@type": "Restaurant",
-              "name": r.name,
-              "address": r.addr,
-              ...(r.rt ? { "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": String(r.rt),
-                "reviewCount": String(r.cnt || 0)
-              }} : {})
+          "@graph": [
+            {
+              "@type": "ItemList",
+              "name": `삼성역 ${catInfo.name} 맛집`,
+              "description": `삼성역 ${catInfo.name} 맛집 ${restaurants.length}곳 추천. 평점·가격·리뷰 기반 정렬.`,
+              "url": `https://dinner.ambitstock.com/dinner/samseong/category/${category}`,
+              "numberOfItems": restaurants.length,
+              "itemListElement": sortedByRating.slice(0, 10).map((r, i) => ({
+                "@type": "ListItem",
+                "position": i + 1,
+                "url": `https://dinner.ambitstock.com/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`,
+                "item": {
+                  "@type": "Restaurant",
+                  "name": r.name,
+                  "address": r.addr,
+                  ...(r.rt ? { "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": String(r.rt),
+                    "reviewCount": String(r.cnt || 0)
+                  }} : {})
+                }
+              }))
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {"@type":"ListItem","position":1,"name":"오늘뭐먹지","item":"https://dinner.ambitstock.com"},
+                {"@type":"ListItem","position":2,"name":"삼성역 맛집","item":"https://dinner.ambitstock.com/dinner/samseong"},
+                {"@type":"ListItem","position":3,"name":`삼성역 ${catInfo.name}`,"item":`https://dinner.ambitstock.com/dinner/samseong/category/${category}`}
+              ]
             }
-          }))
+          ]
         })}} />
       </Head>
 

@@ -65,14 +65,56 @@ export default function Home() {
 
   const websiteJsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "오늘뭐먹지",
-    "url": "https://dinner.ambitstock.com",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://dinner.ambitstock.com/pangyo?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://dinner.ambitstock.com/#website",
+        "name": "오늘뭐먹지",
+        "alternateName": "dinner.ambitstock.com",
+        "url": "https://dinner.ambitstock.com",
+        "description": `삼성역·잠실·판교·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다. ${totalCount}개+ 검증된 식당 데이터 기반.`,
+        "inLanguage": "ko-KR",
+        "publisher": { "@id": "https://dinner.ambitstock.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://dinner.ambitstock.com/pangyo?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://dinner.ambitstock.com/#organization",
+        "name": "오늘뭐먹지",
+        "url": "https://dinner.ambitstock.com",
+        "description": "AI 기반 맛집 추천 서비스. 날씨·기분·예산·카테고리를 기반으로 최적의 식당을 추천합니다.",
+        "sameAs": [],
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://dinner.ambitstock.com/#main",
+        "name": "오늘뭐먹지 — AI 맛집 추천",
+        "url": "https://dinner.ambitstock.com",
+        "isPartOf": { "@id": "https://dinner.ambitstock.com/#website" },
+        "about": {
+          "@type": "Thing",
+          "name": "AI 맛집 추천",
+          "description": `삼성역·잠실·판교·영통·망포·영통구청 6개 지역 ${totalCount}개+ 식당 AI 추천 서비스`
+        },
+        "mainEntity": {
+          "@type": "ItemList",
+          "name": "지원 지역",
+          "numberOfItems": 6,
+          "itemListElement": [
+            { "@type":"ListItem", "position":1, "name":"삼성역 맛집", "url":"https://dinner.ambitstock.com/dinner/samseong" },
+            { "@type":"ListItem", "position":2, "name":"잠실 맛집", "url":"https://dinner.ambitstock.com/dinner/jamsil" },
+            { "@type":"ListItem", "position":3, "name":"판교 맛집", "url":"https://dinner.ambitstock.com/pangyo" },
+            { "@type":"ListItem", "position":4, "name":"영통 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtong" },
+            { "@type":"ListItem", "position":5, "name":"망포 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/mangpo" },
+            { "@type":"ListItem", "position":6, "name":"영통구청 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" },
+          ]
+        }
+      }
+    ]
   }
 
   const faqJsonLd = {
