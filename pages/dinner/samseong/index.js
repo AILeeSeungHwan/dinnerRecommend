@@ -75,51 +75,52 @@ const ROULETTE_MENUS = [
   { emoji:'🍿', label:'뷔페',          pattern:/뷔페/ },
 ]
 
-// ── 메뉴 룰렛 탭 컴포넌트 ────────────────────────────────────
+// ── 메뉴 룰렛 탭 컴포넌트 (원형 휠) ─────────────────────────
 function MenuRouletteTab() {
   const [spinning, setSpinning] = useState(false)
-  const [result, setResult] = useState(null)        // 당첨 메뉴 객체
+  const [result, setResult] = useState(null)
   const [matchedRestaurants, setMatchedRestaurants] = useState([])
-  const [highlightIdx, setHighlightIdx] = useState(-1)
-  const spinTimer = useRef(null)
+  const [rotation, setRotation] = useState(0)
+  const wheelRef = useRef(null)
+  const rafRef = useRef(null)
 
-  // 필터링: 해당 패턴에 맞는 식당 목록
   function getMatching(menu) {
     return restaurants.filter(r => menu.pattern.test(r.type))
   }
 
-  // 룰렛 돌리기
   function spin() {
     setResult(null)
     setMatchedRestaurants([])
     setSpinning(true)
 
-    const picked = Math.floor(Math.random() * ROULETTE_MENUS.length)
-    const totalSteps = (4 + Math.floor(Math.random() * 3)) * ROULETTE_MENUS.length + picked
-    let step = 0
+    const count = ROULETTE_MENUS.length
+    const picked = Math.floor(Math.random() * count)
+    // 각 슬라이스 각도
+    const sliceAngle = 360 / count
+    // 당첨 슬라이스 중앙 (12시 방향 = 0도 기준, 시계방향 회전)
+    const targetAngle = 360 - (picked * sliceAngle + sliceAngle / 2)
+    // 5~6바퀴 + 정확한 착지
+    const fullSpins = (5 + Math.random()) * 360
+    const finalRotation = rotation + fullSpins + targetAngle - (rotation % 360)
 
-    function tick() {
-      step++
-      setHighlightIdx(step % ROULETTE_MENUS.length)
-      if (step >= totalSteps) {
-        setSpinning(false)
-        const menu = ROULETTE_MENUS[picked]
-        setResult(menu)
-        setHighlightIdx(picked)
-        // 랜덤 3~4개 매장 선택
-        const pool = getMatching(menu)
-        const shuffled = [...pool].sort(() => Math.random() - 0.5)
-        setMatchedRestaurants(shuffled.slice(0, Math.min(4, shuffled.length)))
-        return
-      }
-      const progress = step / totalSteps
-      const delay = progress < 0.5 ? 60 : 60 + Math.pow((progress - 0.5) / 0.5, 2) * 1200
-      spinTimer.current = setTimeout(tick, delay)
+    // CSS transition으로 8초 내 완료 (ease-out)
+    if (wheelRef.current) {
+      wheelRef.current.style.transition = 'transform 5s cubic-bezier(0.17, 0.67, 0.12, 0.99)'
+      wheelRef.current.style.transform = `rotate(${finalRotation}deg)`
     }
-    spinTimer.current = setTimeout(tick, 60)
+    setRotation(finalRotation)
+
+    // 5초 후 결과 표시 (transition과 동기화)
+    setTimeout(() => {
+      setSpinning(false)
+      const menu = ROULETTE_MENUS[picked]
+      setResult(menu)
+      const pool = getMatching(menu)
+      const shuffled = [...pool].sort(() => Math.random() - 0.5)
+      setMatchedRestaurants(shuffled.slice(0, Math.min(4, shuffled.length)))
+    }, 5200)
   }
 
-  // 다시 돌리기 (같은 메뉴에서 다른 매장)
   function reshuffleRestaurants() {
     if (!result) return
     const pool = getMatching(result)
@@ -127,43 +128,86 @@ function MenuRouletteTab() {
     setMatchedRestaurants(shuffled.slice(0, Math.min(4, shuffled.length)))
   }
 
-  useEffect(() => { return () => { if (spinTimer.current) clearTimeout(spinTimer.current) } }, [])
+  useEffect(() => { return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current) } }, [])
+
+  const count = ROULETTE_MENUS.length
+  const sliceAngle = 360 / count
+  const WHEEL_SIZE = 320
+  const R = WHEEL_SIZE / 2
+
+  // SVG 원형 룰렛 생성
+  function renderWheel() {
+    const slices = ROULETTE_MENUS.map((menu, i) => {
+      const startAngle = i * sliceAngle - 90  // 12시 방향부터 시작
+      const endAngle = startAngle + sliceAngle
+      const startRad = (startAngle * Math.PI) / 180
+      const endRad = (endAngle * Math.PI) / 180
+      const x1 = R + R * Math.cos(startRad)
+      const y1 = R + R * Math.sin(startRad)
+      const x2 = R + R * Math.cos(endRad)
+      const y2 = R + R * Math.sin(endRad)
+      const largeArc = sliceAngle > 180 ? 1 : 0
+      const path = `M${R},${R} L${x1},${y1} A${R},${R} 0 ${largeArc} 1 ${x2},${y2} Z`
+
+      // 텍스트 위치 (슬라이스 중앙, 반지름 65% 지점)
+      const midAngle = ((startAngle + endAngle) / 2 * Math.PI) / 180
+      const textR = R * 0.68
+      const tx = R + textR * Math.cos(midAngle)
+      const ty = R + textR * Math.sin(midAngle)
+      const textAngle = (startAngle + endAngle) / 2 + 90
+
+      // 색상: 교차 배색
+      const colors = [
+        'rgba(255,107,53,.15)', 'rgba(108,99,255,.12)',
+        'rgba(255,180,50,.12)', 'rgba(80,200,120,.12)',
+        'rgba(255,107,53,.08)', 'rgba(108,99,255,.18)',
+      ]
+      const fill = colors[i % colors.length]
+
+      return (
+        <g key={menu.label}>
+          <path d={path} fill={fill} stroke="var(--border)" strokeWidth="1" />
+          <text x={tx} y={ty} textAnchor="middle" dominantBaseline="central"
+            transform={`rotate(${textAngle}, ${tx}, ${ty})`}
+            style={{ fontSize: '9px', fontWeight: 700, fill: 'var(--text)', pointerEvents: 'none' }}>
+            {menu.emoji} {menu.label.length > 6 ? menu.label.slice(0, 6) : menu.label}
+          </text>
+        </g>
+      )
+    })
+    return slices
+  }
 
   return (
     <div style={{ padding:'20px 16px' }}>
-      {/* 룰렛 그리드 */}
-      <div style={{ textAlign:'center', marginBottom:20 }}>
+      <div style={{ textAlign:'center', marginBottom:16 }}>
         <div style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:4 }}>🎰 오늘 뭐 먹지?</div>
         <p style={{ color:'var(--muted)', fontSize:'.82rem', margin:0 }}>룰렛을 돌려서 메뉴를 정해보세요!</p>
       </div>
 
-      <div style={{
-        display:'grid',
-        gridTemplateColumns:'repeat(auto-fill, minmax(110px, 1fr))',
-        gap:8,
-        marginBottom:20,
-      }}>
-        {ROULETTE_MENUS.map((menu, i) => {
-          const isHighlight = highlightIdx === i
-          const isResult = result && result.label === menu.label && !spinning
-          const count = getMatching(menu).length
-          return (
-            <div key={menu.label} style={{
-              padding:'12px 8px',
-              borderRadius:12,
-              textAlign:'center',
-              border: isResult ? '2px solid var(--primary)' : isHighlight && spinning ? '2px solid var(--accent)' : '1px solid var(--border)',
-              background: isResult ? 'rgba(255,107,53,.12)' : isHighlight && spinning ? 'rgba(108,99,255,.1)' : 'var(--surface2)',
-              transition: spinning ? 'all .05s' : 'all .2s',
-              transform: (isHighlight && spinning) || isResult ? 'scale(1.05)' : 'scale(1)',
-              opacity: result && !isResult && !spinning ? 0.35 : 1,
-            }}>
-              <div style={{ fontSize:'1.5rem', lineHeight:1.2 }}>{menu.emoji}</div>
-              <div style={{ fontSize:'.75rem', fontWeight:700, marginTop:4, color: isResult ? 'var(--primary)' : 'var(--text)' }}>{menu.label}</div>
-              <div style={{ fontSize:'.65rem', color:'var(--muted)', marginTop:2 }}>{count}곳</div>
-            </div>
-          )
-        })}
+      {/* 원형 룰렛 */}
+      <div style={{ display:'flex', flexDirection:'column', alignItems:'center', marginBottom:20, position:'relative' }}>
+        {/* 화살표 (12시 방향 고정) */}
+        <div style={{
+          position:'absolute', top:-2, left:'50%', transform:'translateX(-50%)',
+          width:0, height:0,
+          borderLeft:'12px solid transparent', borderRight:'12px solid transparent',
+          borderTop:'20px solid var(--primary)',
+          zIndex:2, filter:'drop-shadow(0 2px 4px rgba(0,0,0,.3))',
+        }} />
+        <div ref={wheelRef} style={{
+          width:WHEEL_SIZE, height:WHEEL_SIZE,
+          transition: spinning ? undefined : 'none',
+        }}>
+          <svg viewBox={`0 0 ${WHEEL_SIZE} ${WHEEL_SIZE}`} width={WHEEL_SIZE} height={WHEEL_SIZE}
+            style={{ borderRadius:'50%', boxShadow:'0 4px 24px rgba(0,0,0,.25)', border:'3px solid var(--border)' }}>
+            {renderWheel()}
+            {/* 중앙 원 */}
+            <circle cx={R} cy={R} r={28} fill="var(--surface)" stroke="var(--border)" strokeWidth="2" />
+            <text x={R} y={R} textAnchor="middle" dominantBaseline="central"
+              style={{ fontSize:'16px', fontWeight:900, fill:'var(--primary)' }}>SPIN</text>
+          </svg>
+        </div>
       </div>
 
       {/* 돌리기 버튼 */}
