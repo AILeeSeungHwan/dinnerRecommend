@@ -77,9 +77,9 @@ const ROULETTE_MENUS = [
 
 // ── 메뉴 룰렛 탭 컴포넌트 (원형 휠 — 15개 랜덤) ─────────────
 const WHEEL_COLORS = [
-  '#FF6B35','#6C63FF','#FFB432','#50C878','#FF4D6D','#3B82F6',
-  '#F59E0B','#10B981','#EC4899','#8B5CF6','#14B8A6','#F97316',
-  '#6366F1','#22C55E','#EF4444',
+  '#E8453C','#3B7DD8','#F5A623','#27AE60','#9B59B6','#E67E22',
+  '#2ECC71','#E74C8B','#3498DB','#D4AC0D','#1ABC9C','#C0392B',
+  '#8E44AD','#16A085','#D35400',
 ]
 
 function MenuRouletteTab() {
@@ -98,7 +98,6 @@ function MenuRouletteTab() {
   }
 
   function spin() {
-    // 매번 랜덤 15개 재선택
     const shuffledMenus = [...ROULETTE_MENUS].sort(() => Math.random() - 0.5).slice(0, 15)
     setActiveMenus(shuffledMenus)
     setResult(null)
@@ -108,19 +107,17 @@ function MenuRouletteTab() {
     const N = 15
     const picked = Math.floor(Math.random() * N)
     const sliceAngle = 360 / N
-    // 당첨 슬라이스 중앙이 12시(상단) 화살표에 오도록
-    const targetStop = 360 - (picked * sliceAngle + sliceAngle / 2)
-    // 4~5바퀴 + 착지
+    // 슬라이스 i의 중앙은 12시 기준 시계방향으로 i*sliceAngle + sliceAngle/2 도 위치
+    // 휠을 시계방향으로 그만큼 회전하면 해당 슬라이스가 12시 포인터에 정렬
+    const targetStop = picked * sliceAngle + sliceAngle / 2
     const fullSpins = (4 + Math.random()) * 360
-    const prev = angleState % 360
+    const prev = ((angleState % 360) + 360) % 360
     const finalAngle = angleState + fullSpins + ((targetStop - prev + 360) % 360)
 
-    // transition 제거 → 즉시 적용 → transition 부여
     requestAnimationFrame(() => {
       if (!wheelRef.current) return
       wheelRef.current.style.transition = 'none'
       wheelRef.current.style.transform = `rotate(${angleState}deg)`
-      // force reflow
       void wheelRef.current.offsetHeight
       wheelRef.current.style.transition = 'transform 5s cubic-bezier(0.15, 0.60, 0.10, 1.00)'
       wheelRef.current.style.transform = `rotate(${finalAngle}deg)`
@@ -148,11 +145,11 @@ function MenuRouletteTab() {
   useEffect(() => { return () => { if (timerRef.current) clearTimeout(timerRef.current) } }, [])
 
   const N = 15
-  const SIZE = 330
+  const SIZE = 340
   const R = SIZE / 2
   const CENTER = R
   const sliceAngle = 360 / N
-  const INNER_R = 36
+  const INNER_R = 32
 
   function renderSlices() {
     return activeMenus.map((menu, i) => {
@@ -167,37 +164,34 @@ function MenuRouletteTab() {
       const path = `M${CENTER},${CENTER} L${x1},${y1} A${R},${R} 0 0 1 ${x2},${y2} Z`
       const color = WHEEL_COLORS[i % WHEEL_COLORS.length]
 
-      // 텍스트: 중심 방향으로 세로 나열 (방사형)
+      // 방사형 텍스트: 슬라이스 중심선을 따라 바깥→안쪽 세로 배치
       const midDeg = startDeg + sliceAngle / 2
       const midRad = (midDeg * Math.PI) / 180
-      // 이모지는 바깥쪽, 글자는 안쪽으로
-      const label = menu.label.length > 5 ? menu.label.slice(0, 5) : menu.label
-      const chars = [menu.emoji, ...label.split('')]
-      const charCount = chars.length
-      // 바깥에서 안쪽으로 배치 (R*0.88 → R*0.38)
-      const outerPos = R * 0.88
-      const innerPos = R * 0.38
-      const step = charCount > 1 ? (outerPos - innerPos) / (charCount - 1) : 0
+      // · 중간점 제거, 첫 단어만 (예: "국밥" from "국밥·해장국")
+      const shortLabel = menu.label.split('·')[0].slice(0, 4)
+
+      // 이모지(바깥) + 글자들(안쪽) 배치
+      const items = [{ ch: menu.emoji, size: 16, bold: false }, ...shortLabel.split('').map(ch => ({ ch, size: 13, bold: true }))]
+      const outerDist = R * 0.9
+      const innerDist = R * 0.35
+      const gap = items.length > 1 ? (outerDist - innerDist) / (items.length - 1) : 0
 
       return (
         <g key={menu.label + i}>
-          <path d={path} fill={color} stroke="rgba(255,255,255,.3)" strokeWidth="1.5" />
-          {chars.map((ch, ci) => {
-            const dist = outerPos - step * ci
+          <path d={path} fill={color} stroke="rgba(255,255,255,.5)" strokeWidth="1" />
+          {items.map((item, ci) => {
+            const dist = outerDist - gap * ci
             const cx = CENTER + dist * Math.cos(midRad)
             const cy = CENTER + dist * Math.sin(midRad)
             return (
-              <text key={ci} x={cx} y={cy}
-                textAnchor="middle" dominantBaseline="central"
-                style={{
-                  fontSize: ci === 0 ? '14px' : '11px',
-                  fontWeight: 800,
-                  fill: '#fff',
-                  pointerEvents: 'none',
-                  textShadow: '0 1px 2px rgba(0,0,0,.5)',
-                }}>
-                {ch}
-              </text>
+              <React.Fragment key={ci}>
+                <text x={cx} y={cy}
+                  textAnchor="middle" dominantBaseline="central"
+                  stroke="#000" strokeWidth="3" strokeLinejoin="round" paintOrder="stroke"
+                  style={{ fontSize: item.size + 'px', fontWeight: 900, fill: '#fff', pointerEvents: 'none' }}>
+                  {item.ch}
+                </text>
+              </React.Fragment>
             )
           })}
         </g>
