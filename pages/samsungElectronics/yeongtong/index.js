@@ -44,6 +44,177 @@ const CATS = [
   {emoji:'🍖', name:'족발·곱창·보쌈',  slug:'special',  cats:[],                        tags:['족발','곱창','보쌈','막창']},
 ]
 
+// ── 메뉴 룰렛 중분류 카테고리 ─────────────────────────────────
+const ROULETTE_MENUS = [
+  { emoji:'🍛', label:'국밥·해장국',   pattern:/국밥|순대국|설렁탕|곰탕|해장|굴국밥/ },
+  { emoji:'🥩', label:'삼겹살·고기구이', pattern:/삼겹살|돼지고기|고기구이|소금구이|제주흑돼지/ },
+  { emoji:'🐄', label:'한우·소고기',   pattern:/한우|소고기|갈비|육류|차돌|불고기/ },
+  { emoji:'🍱', label:'돈까스',        pattern:/돈가스|돈까스|돈카츠/ },
+  { emoji:'🍜', label:'라면·라멘',     pattern:/라면|라멘/ },
+  { emoji:'🍔', label:'햄버거',        pattern:/햄버거|버거/ },
+  { emoji:'🍣', label:'초밥·회',       pattern:/초밥|롤|회|횟집|생선회|사시미|해산물/ },
+  { emoji:'🍝', label:'파스타·피자',   pattern:/파스타|피자|이탈리/ },
+  { emoji:'🥟', label:'짜장·짬뽕·중식', pattern:/중식|짜장|짬뽕|딤섬/ },
+  { emoji:'🍗', label:'치킨',          pattern:/치킨|닭강정|닭갈비|닭볶음|닭구이|닭요리/ },
+  { emoji:'🦶', label:'족발·보쌈',     pattern:/족발|보쌈|낙지/ },
+  { emoji:'🫕', label:'곱창·막창',     pattern:/곱창|막창/ },
+  { emoji:'🍲', label:'찌개·전골',     pattern:/찌개|전골|샤브|두부요리|청국장/ },
+  { emoji:'🥢', label:'칼국수·만두',   pattern:/칼국수|만두|수제비/ },
+  { emoji:'❄️', label:'냉면',          pattern:/냉면/ },
+  { emoji:'🥘', label:'감자탕',        pattern:/감자탕/ },
+  { emoji:'🐑', label:'양꼬치·양갈비', pattern:/양꼬치|양갈비/ },
+  { emoji:'🌶️', label:'마라탕·훠궈',   pattern:/마라탕|훠궈/ },
+  { emoji:'🍜', label:'쌀국수·베트남',  pattern:/베트남|쌀국수|아시안/ },
+  { emoji:'🫔', label:'타코·멕시칸',   pattern:/멕시코|남미/ },
+  { emoji:'🍚', label:'백반·한정식',   pattern:/백반|가정식|한정식|한식뷔페|백숙|삼계탕|한식·코스|한식·백반|보리밥|쌈밥/ },
+  { emoji:'🍢', label:'분식',          pattern:/분식/ },
+  { emoji:'🍛', label:'덮밥·도시락',   pattern:/덮밥|도시락|컵밥/ },
+  { emoji:'🥪', label:'샌드위치·브런치', pattern:/샌드위치|브런치/ },
+  { emoji:'🍺', label:'이자카야·술집', pattern:/이자카야|술집|야장|포차|호프|위스키|와인바|크래프트|라이브바|스포츠/ },
+  { emoji:'🍿', label:'뷔페',          pattern:/뷔페/ },
+]
+
+const WHEEL_COLORS = [
+  '#E8453C','#3B7DD8','#F5A623','#27AE60','#9B59B6','#E67E22',
+  '#2ECC71','#E74C8B','#3498DB','#D4AC0D','#1ABC9C','#C0392B',
+  '#8E44AD','#16A085','#D35400',
+]
+
+function MenuRouletteTab() {
+  const [spinning, setSpinning] = useState(false)
+  const [result, setResult] = useState(null)
+  const [matchedRestaurants, setMatchedRestaurants] = useState([])
+  const [angleState, setAngleState] = useState(0)
+  const [activeMenus, setActiveMenus] = useState(() =>
+    [...ROULETTE_MENUS].sort(() => Math.random() - 0.5).slice(0, 15)
+  )
+  const wheelRef = useRef(null)
+  const timerRef = useRef(null)
+  function getMatching(menu) { return restaurants.filter(r => menu.pattern.test(r.type)) }
+  function spin() {
+    const shuffledMenus = [...ROULETTE_MENUS].sort(() => Math.random() - 0.5).slice(0, 15)
+    setActiveMenus(shuffledMenus); setResult(null); setMatchedRestaurants([]); setSpinning(true)
+    const N = 15, picked = Math.floor(Math.random() * N), sliceAngle = 360 / N
+    const targetStop = picked * sliceAngle + sliceAngle / 2
+    const fullSpins = (4 + Math.random()) * 360
+    const prev = ((angleState % 360) + 360) % 360
+    const finalAngle = angleState + fullSpins + ((targetStop - prev + 360) % 360)
+    requestAnimationFrame(() => {
+      if (!wheelRef.current) return
+      wheelRef.current.style.transition = 'none'
+      wheelRef.current.style.transform = `rotate(${angleState}deg)`
+      void wheelRef.current.offsetHeight
+      wheelRef.current.style.transition = 'transform 5s cubic-bezier(0.15, 0.60, 0.10, 1.00)'
+      wheelRef.current.style.transform = `rotate(${finalAngle}deg)`
+    })
+    setAngleState(finalAngle)
+    if (timerRef.current) clearTimeout(timerRef.current)
+    timerRef.current = setTimeout(() => {
+      setSpinning(false); const menu = shuffledMenus[picked]; setResult(menu)
+      const pool = getMatching(menu), s = [...pool].sort(() => Math.random() - 0.5)
+      setMatchedRestaurants(s.slice(0, Math.min(6, s.length)))
+    }, 5300)
+  }
+  function reshuffleRestaurants() {
+    if (!result) return
+    const pool = getMatching(result), s = [...pool].sort(() => Math.random() - 0.5)
+    setMatchedRestaurants(s.slice(0, Math.min(6, s.length)))
+  }
+  useEffect(() => { return () => { if (timerRef.current) clearTimeout(timerRef.current) } }, [])
+  const N = 15, SIZE = 340, R = SIZE / 2, CENTER = R, sliceAngle = 360 / N, INNER_R = 32
+  function renderSlices() {
+    return activeMenus.map((menu, i) => {
+      const startDeg = i * sliceAngle - 90, endDeg = startDeg + sliceAngle
+      const startRad = (startDeg * Math.PI) / 180, endRad = (endDeg * Math.PI) / 180
+      const x1 = CENTER + R * Math.cos(startRad), y1 = CENTER + R * Math.sin(startRad)
+      const x2 = CENTER + R * Math.cos(endRad), y2 = CENTER + R * Math.sin(endRad)
+      const path = `M${CENTER},${CENTER} L${x1},${y1} A${R},${R} 0 0 1 ${x2},${y2} Z`
+      const color = WHEEL_COLORS[i % WHEEL_COLORS.length]
+      const midDeg = startDeg + sliceAngle / 2, midRad = (midDeg * Math.PI) / 180
+      const shortLabel = menu.label.split('·')[0].slice(0, 4)
+      const items = [{ ch: menu.emoji, size: 16, bold: false }, ...shortLabel.split('').map(ch => ({ ch, size: 13, bold: true }))]
+      const outerDist = R * 0.9, innerDist = R * 0.35
+      const gap = items.length > 1 ? (outerDist - innerDist) / (items.length - 1) : 0
+      return (
+        <g key={menu.label + i}>
+          <path d={path} fill={color} stroke="rgba(255,255,255,.5)" strokeWidth="1" />
+          {items.map((item, ci) => {
+            const dist = outerDist - gap * ci
+            const cx = CENTER + dist * Math.cos(midRad), cy = CENTER + dist * Math.sin(midRad)
+            return (<React.Fragment key={ci}><text x={cx} y={cy} textAnchor="middle" dominantBaseline="central" stroke="#000" strokeWidth="3" strokeLinejoin="round" paintOrder="stroke" style={{ fontSize: item.size + 'px', fontWeight: 900, fill: '#fff', pointerEvents: 'none' }}>{item.ch}</text></React.Fragment>)
+          })}
+        </g>
+      )
+    })
+  }
+  return (
+    <div style={{ padding:'20px 16px' }}>
+      <div style={{ textAlign:'center', marginBottom:16 }}>
+        <div style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:4 }}>🎰 오늘 뭐 먹지?</div>
+        <p style={{ color:'var(--muted)', fontSize:'.82rem', margin:0 }}>룰렛을 돌려서 메뉴를 정해보세요!</p>
+      </div>
+      <div style={{ display:'flex', flexDirection:'column', alignItems:'center', marginBottom:20, position:'relative' }}>
+        <div style={{ position:'absolute', top:4, left:'50%', transform:'translateX(-50%)', width:0, height:0, zIndex:3, borderLeft:'14px solid transparent', borderRight:'14px solid transparent', borderTop:'24px solid var(--primary)', filter:'drop-shadow(0 2px 6px rgba(255,107,53,.5))' }} />
+        <div ref={wheelRef} style={{ width:SIZE, height:SIZE }}>
+          <svg viewBox={`0 0 ${SIZE} ${SIZE}`} width="100%" height="100%" style={{ borderRadius:'50%', boxShadow:'0 6px 32px rgba(0,0,0,.35)', display:'block', maxWidth:SIZE }}>
+            {renderSlices()}
+            <circle cx={CENTER} cy={CENTER} r={INNER_R} fill="var(--surface)" stroke="rgba(255,255,255,.4)" strokeWidth="3" style={{ filter:'drop-shadow(0 2px 8px rgba(0,0,0,.3))' }} />
+            <text x={CENTER} y={CENTER - 6} textAnchor="middle" dominantBaseline="central" style={{ fontSize:'11px', fontWeight:900, fill:'var(--primary)' }}>SPIN</text>
+            <text x={CENTER} y={CENTER + 8} textAnchor="middle" dominantBaseline="central" style={{ fontSize:'8px', fontWeight:600, fill:'var(--muted)' }}>▼</text>
+          </svg>
+        </div>
+      </div>
+      <div style={{ textAlign:'center', marginBottom:24 }}>
+        <button onClick={spin} disabled={spinning} style={{ padding:'14px 40px', borderRadius:14, background: spinning ? 'var(--surface2)' : 'linear-gradient(135deg, var(--primary), var(--accent))', color: spinning ? 'var(--muted)' : '#fff', fontSize:'1rem', fontWeight:800, border:'none', cursor: spinning ? 'not-allowed' : 'pointer', boxShadow: spinning ? 'none' : '0 4px 20px rgba(255,107,53,.3)', transition:'all .2s' }}>
+          {spinning ? '돌리는 중...' : result ? '🎰 다시 돌리기' : '🎰 룰렛 돌리기'}
+        </button>
+      </div>
+      {result && !spinning && (
+        <div style={{ marginTop:8 }}>
+          <div style={{ textAlign:'center', marginBottom:16, padding:'16px', borderRadius:14, background:'linear-gradient(135deg, rgba(255,107,53,.08), rgba(108,99,255,.08))', border:'1px solid var(--primary)' }}>
+            <div style={{ fontSize:'2rem' }}>{result.emoji}</div>
+            <div style={{ fontSize:'1.15rem', fontWeight:900, color:'var(--primary)', marginTop:4 }}>오늘은 {result.label}!</div>
+            {matchedRestaurants.length === 0 && (<div style={{ fontSize:'.82rem', color:'var(--muted)', marginTop:8 }}>해당 메뉴 식당이 없습니다.</div>)}
+          </div>
+          {matchedRestaurants.length > 0 && (
+            <>
+              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:12 }}>
+                <div style={{ fontSize:'.88rem', fontWeight:700, color:'var(--text)' }}>🍽️ 추천 매장 {matchedRestaurants.length}곳</div>
+                <button onClick={reshuffleRestaurants} style={{ padding:'6px 14px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--accent)', fontSize:'.78rem', fontWeight:700, cursor:'pointer' }}>🔀 다른 매장 보기</button>
+              </div>
+              <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(240px, 1fr))', gap:10 }}>
+                {matchedRestaurants.map((r, i) => (
+                  <Link href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`} key={r.name + i} style={{ textDecoration:'none', color:'inherit' }}>
+                    <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'16px', transition:'border-color .15s, box-shadow .15s', cursor:'pointer' }}
+                      onMouseEnter={e=>{ e.currentTarget.style.borderColor='var(--primary)'; e.currentTarget.style.boxShadow='0 4px 16px rgba(255,107,53,.12)' }}
+                      onMouseLeave={e=>{ e.currentTarget.style.borderColor='var(--border)'; e.currentTarget.style.boxShadow='none' }}>
+                      <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:8 }}>
+                        <span style={{ fontSize:'1.2rem' }}>{r.e}</span>
+                        <div style={{ fontSize:'.9rem', fontWeight:700 }}>{r.name}</div>
+                      </div>
+                      <div style={{ display:'flex', flexWrap:'wrap', gap:5, marginBottom:6 }}>
+                        <span style={{ fontSize:'.72rem', padding:'2px 8px', borderRadius:100, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--muted)' }}>{r.type}</span>
+                        <span style={{ fontSize:'.72rem', padding:'2px 8px', borderRadius:100, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--muted)' }}>⭐{r.rt}</span>
+                        {r.priceRange && <span style={{ fontSize:'.72rem', padding:'2px 8px', borderRadius:100, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--muted)' }}>💰{fmtPrice(r.priceRange)}원</span>}
+                      </div>
+                      <div style={{ fontSize:'.75rem', color:'var(--muted)' }}>📍 {r.addr}</div>
+                      {r.tags && r.tags.length > 0 && (
+                        <div style={{ display:'flex', flexWrap:'wrap', gap:4, marginTop:6 }}>
+                          {r.tags.slice(0,3).map(t => (<span key={t} style={{ fontSize:'.65rem', padding:'1px 6px', borderRadius:100, background:'rgba(255,107,53,.08)', color:'var(--primary)' }}>#{t}</span>))}
+                        </div>
+                      )}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
 // ── 랜덤 추천 결과 문구 템플릿 ──────────────────────────────
 function buildRandomReason(r, idx, usedTemplates) {
   // rv에서 별점 접두사·불필요한 괄호 제거, 최대 70자
@@ -2023,8 +2194,8 @@ function BrowseTab() {
 // ── 메인 ─────────────────────────────────────────────────────
 export default function SamseongPage() {
   const [activeTab, setActiveTab] = useState(() => {
-    if (typeof window !== 'undefined') return sessionStorage.getItem('yeongtong-tab') || 'ai'
-    return 'ai'
+    if (typeof window !== 'undefined') return sessionStorage.getItem('yeongtong-tab') || 'roulette'
+    return 'roulette'
   })
   const [pendingCat, setPendingCat] = useState(null)
   const switchTab = (tab) => { setActiveTab(tab); sessionStorage.setItem('yeongtong-tab', tab) }
@@ -2076,7 +2247,7 @@ export default function SamseongPage() {
 
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
-          {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
+          {[{id:'roulette',label:'🎰 룰렛'},{id:'ai',label:'🔍 검색'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
             <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
@@ -2087,6 +2258,11 @@ export default function SamseongPage() {
           ))}
         </div>
 
+        {activeTab==='roulette' && (
+          <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden',marginTop:4 }}>
+            <MenuRouletteTab />
+          </div>
+        )}
         {activeTab==='ai' && (
           <div style={{ background:'var(--surface)',border:'1px solid var(--border)',borderRadius:16,overflow:'hidden',marginTop:4 }}>
             <AiApp pendingCat={pendingCat} onPendingCatUsed={()=>setPendingCat(null)} />
