@@ -13,5 +13,11 @@ const posts = [
   { id:12, slug:'samsung-chinese-food-2026', title:'삼성역 중식 맛집 추천 5곳 | 코엑스 짜장·짬뽕·딤섬', description:'삼성역 중식 맛집 5곳 가격·분위기 비교', category:'chinese', region:'samseong', date:'2026-03-13', tags:['삼성역','중식','짜장','딤섬'], thumbnail:null },
   { id:13, slug:'yeongtonggu-team-dinner-2026', title:'영통구청 회식 장소 추천 2026 | 매탄동 단체석·룸 비교', description:'영통구청·매탄동 회식 장소 7곳 비교', category:'group', region:'yeongtongGu', date:'2026-03-13', tags:['영통구청','회식','매탄동','단체석'], thumbnail:null },
   { id:14, slug:'pangyo-date-restaurant-2026', title:'판교 데이트 레스토랑 추천 5곳 | 백현동·아브뉴프랑 분위기 맛집', description:'판교 백현동·아브뉴프랑 데이트 레스토랑 5곳', category:'date', region:'pangyo', date:'2026-03-13', tags:['판교','데이트','백현동','아브뉴프랑'], thumbnail:null },
+  { id:15, slug:'samsung-meat-best-2026', title:'삼성역 고기 맛집 추천 5곳 | 한우·삼겹살·갈비 가격 비교', description:'삼성역 한우·삼겹살·갈비 고기 맛집 5곳 비교', category:'meat', region:'samseong', date:'2026-03-30', tags:['삼성역','고기','한우','삼겹살'], thumbnail:null },
+  { id:16, slug:'jamsil-date-restaurant-2026', title:'잠실 데이트 맛집 추천 5곳 | 석촌호수·방이동 분위기 레스토랑', description:'잠실 석촌호수·방이동 데이트 맛집 5곳 비교', category:'date', region:'jamsil', date:'2026-03-30', tags:['잠실','데이트','석촌호수','방이동'], thumbnail:null },
+  { id:17, slug:'pangyo-chinese-food-2026', title:'판교역 중식 맛집 추천 5곳 | 짜장·짬뽕·마라탕 가격 비교', description:'판교 중식 맛집 5곳 가격·평점 비교', category:'chinese', region:'pangyo', date:'2026-03-30', tags:['판교','중식','짜장','마라탕'], thumbnail:null },
+  { id:18, slug:'yeongtong-meat-best-2026', title:'영통역 고기 맛집 추천 5곳 | 한우·삼겹살·곱창 가격 비교', description:'영통역 고기 맛집 5곳 가격·평점 비교', category:'meat', region:'yeongtong', date:'2026-03-30', tags:['영통','고기','한우','곱창'], thumbnail:null },
+  { id:19, slug:'mangpo-team-dinner-2026', title:'망포역 회식 장소 추천 5곳 | 고기·양꼬치·국밥 단체석 비교', description:'망포역 회식 장소 5곳 단체석·가격 비교', category:'group', region:'mangpo', date:'2026-03-30', tags:['망포','회식','고기','단체석'], thumbnail:null },
+  { id:20, slug:'yeongtonggu-lunch-guide-2026', title:'영통구청 점심 맛집 추천 5곳 | 매탄동 카테고리별 가이드', description:'영통구청 매탄동 점심 맛집 5곳 카테고리별 비교', category:'lunch', region:'yeongtongGu', date:'2026-03-30', tags:['영통구청','점심','매탄동','카테고리'], thumbnail:null },
 ]
 export default posts
