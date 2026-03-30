@@ -95,8 +95,8 @@ function MenuRouletteTab() {
     const shuffledMenus = [...ROULETTE_MENUS].sort(() => Math.random() - 0.5).slice(0, 15)
     setActiveMenus(shuffledMenus); setResult(null); setMatchedRestaurants([]); setSpinning(true)
     const N = 15, picked = Math.floor(Math.random() * N), sliceAngle = 360 / N
-    const targetStop = picked * sliceAngle + sliceAngle / 2
-    const fullSpins = (4 + Math.random()) * 360
+    const targetStop = 360 - (picked * sliceAngle + sliceAngle / 2)
+    const fullSpins = (4 + Math.floor(Math.random() * 2)) * 360
     const prev = ((angleState % 360) + 360) % 360
     const finalAngle = angleState + fullSpins + ((targetStop - prev + 360) % 360)
     requestAnimationFrame(() => {

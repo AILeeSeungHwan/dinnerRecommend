@@ -109,8 +109,8 @@ function MenuRouletteTab() {
     const sliceAngle = 360 / N
     // 슬라이스 i의 중앙은 12시 기준 시계방향으로 i*sliceAngle + sliceAngle/2 도 위치
     // 휠을 시계방향으로 그만큼 회전하면 해당 슬라이스가 12시 포인터에 정렬
-    const targetStop = picked * sliceAngle + sliceAngle / 2
-    const fullSpins = (4 + Math.random()) * 360
+    const targetStop = 360 - (picked * sliceAngle + sliceAngle / 2)
+    const fullSpins = (4 + Math.floor(Math.random() * 2)) * 360
     const prev = ((angleState % 360) + 360) % 360
     const finalAngle = angleState + fullSpins + ((targetStop - prev + 360) % 360)
 

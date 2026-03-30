@@ -104,8 +104,8 @@ function MenuRouletteTab() {
     const N = 15
     const picked = Math.floor(Math.random() * N)
     const sliceAngle = 360 / N
-    const targetStop = picked * sliceAngle + sliceAngle / 2
-    const fullSpins = (4 + Math.random()) * 360
+    const targetStop = 360 - (picked * sliceAngle + sliceAngle / 2)
+    const fullSpins = (4 + Math.floor(Math.random() * 2)) * 360
     const prev = ((angleState % 360) + 360) % 360
     const finalAngle = angleState + fullSpins + ((targetStop - prev + 360) % 360)
     requestAnimationFrame(() => {
