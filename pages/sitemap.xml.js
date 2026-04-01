@@ -5,6 +5,7 @@ import pangyoRestaurants    from '../data/pangyo'
 import yeongtongRestaurants from '../data/yeongtong'
 import mangpoRestaurants    from '../data/mangpo'
 import yeongtongGuRestaurants from '../data/yeongtongGu'
+import sujiRestaurants from '../data/suji'
 
 const BASE = 'https://dinner.ambitstock.com'
 
@@ -20,6 +21,7 @@ const REGIONS = [
   { basePath: '/samsungElectronics/yeongtong',  restaurants: yeongtongRestaurants  },
   { basePath: '/samsungElectronics/mangpo',     restaurants: mangpoRestaurants     },
   { basePath: '/samsungElectronics/yeongtongGu',restaurants: yeongtongGuRestaurants},
+  { basePath: '/suji',                         restaurants: sujiRestaurants       },
 ]
 
 export async function getServerSideProps({ res }) {

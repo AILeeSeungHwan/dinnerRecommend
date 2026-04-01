@@ -6,6 +6,7 @@ import yeongtongData from '../data/yeongtong'
 import mangpoData from '../data/mangpo'
 import yeongtongGuData from '../data/yeongtongGu'
 import pangyoData from '../data/pangyo'
+import sujiData from '../data/suji'
 import posts from '../data/posts'
 
 const stations = [
@@ -23,6 +24,11 @@ const stations = [
     slug:'pangyo', name:'판교역', emoji:'🏢',
     desc:'판교테크노밸리·백현동·아브뉴프랑',
     count: pangyoData.length, ready:true, isPangyo:true,
+  },
+  {
+    slug:'suji', name:'수지구청역', emoji:'🏬',
+    desc:'수지구청·동천역·현대그린푸드',
+    count: sujiData.length, ready:true, isSuji:true,
   },
   {
     slug:'gangnam', name:'강남역', emoji:'🌆',
@@ -60,7 +66,7 @@ const CATS = [
 ]
 
 export default function Home() {
-  const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length + pangyoData.length
+  const totalCount = samseongData.length + jamsilData.length + yeongtongData.length + mangpoData.length + yeongtongGuData.length + pangyoData.length + sujiData.length
   const seTotal = yeongtongData.length + mangpoData.length + yeongtongGuData.length
 
   const websiteJsonLd = {
@@ -98,12 +104,12 @@ export default function Home() {
         "about": {
           "@type": "Thing",
           "name": "AI 맛집 추천",
-          "description": `삼성역·잠실·판교·영통·망포·영통구청 6개 지역 ${totalCount}개+ 식당 AI 추천 서비스`
+          "description": `삼성역·잠실·판교·수지·영통·망포·영통구청 7개 지역 ${totalCount}개+ 식당 AI 추천 서비스`
         },
         "mainEntity": {
           "@type": "ItemList",
           "name": "지원 지역",
-          "numberOfItems": 6,
+          "numberOfItems": 7,
           "itemListElement": [
             { "@type":"ListItem", "position":1, "name":"삼성역 맛집", "url":"https://dinner.ambitstock.com/dinner/samseong" },
             { "@type":"ListItem", "position":2, "name":"잠실 맛집", "url":"https://dinner.ambitstock.com/dinner/jamsil" },
@@ -111,6 +117,7 @@ export default function Home() {
             { "@type":"ListItem", "position":4, "name":"영통 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtong" },
             { "@type":"ListItem", "position":5, "name":"망포 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/mangpo" },
             { "@type":"ListItem", "position":6, "name":"영통구청 맛집", "url":"https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" },
+            { "@type":"ListItem", "position":7, "name":"수지 맛집", "url":"https://dinner.ambitstock.com/suji" },
           ]
         }
       }
@@ -126,7 +133,7 @@ export default function Home() {
         "name": "오늘뭐먹지는 어떤 서비스인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "오늘뭐먹지는 삼성역·잠실역·판교역·영통·망포·영통구청 인근 맛집을 AI가 날씨·기분·예산에 맞게 추천해주는 서비스입니다. 현재 6개 지역 맛집 데이터를 바탕으로 최적의 식당 3곳을 3초 안에 골라드립니다."
+          "text": "오늘뭐먹지는 삼성역·잠실역·판교역·수지·영통·망포·영통구청 인근 맛집을 AI가 날씨·기분·예산에 맞게 추천해주는 서비스입니다. 현재 7개 지역 맛집 데이터를 바탕으로 최적의 식당 3곳을 3초 안에 골라드립니다."
         }
       },
       {
@@ -142,7 +149,7 @@ export default function Home() {
         "name": "어떤 지역을 지원하나요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "현재 삼성역(코엑스·강남), 잠실역(방이동·석촌호수), 판교역(테크노밸리·백현동), 영통역(삼성전자 DS), 망포역(삼성전자 생활가전), 영통구청(매탄동·삼성전기) 6개 지역을 지원합니다."
+          "text": "현재 삼성역(코엑스·강남), 잠실역(방이동·석촌호수), 판교역(테크노밸리·백현동), 영통역(삼성전자 DS), 망포역(삼성전자 생활가전), 영통구청(매탄동·삼성전기) 7개 지역을 지원합니다."
         }
       },
       {
@@ -180,7 +187,7 @@ export default function Home() {
         </h1>
         <p style={{ fontSize:'.9rem', color:'var(--muted)', marginBottom:28, lineHeight:1.6 }}>
           날씨·기분·예산만 말하면 AI가 딱 맞는 식당 TOP3 추천<br />
-          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length} · 잠실 {jamsilData.length} · 판교 {pangyoData.length} · 영통 {seTotal}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
+          <span style={{ fontSize:'.8rem' }}>삼성역 {samseongData.length} · 잠실 {jamsilData.length} · 판교 {pangyoData.length} · 수지 {sujiData.length} · 영통 {seTotal}개 = <strong style={{ color:'var(--text)' }}>{totalCount}개+</strong> 식당</span>
         </p>
         <div style={{ display:'flex', gap:10, justifyContent:'center', flexWrap:'wrap' }}>
           <Link href="/dinner/samseong">
@@ -204,7 +211,7 @@ export default function Home() {
           {stations.map(s => (
             <div key={s.slug}>
               {s.ready ? (
-                <Link href={s.isPangyo ? `/pangyo` : `/dinner/${s.slug}`} style={{ textDecoration:'none' }}>
+                <Link href={s.isPangyo ? `/pangyo` : s.isSuji ? `/suji` : `/dinner/${s.slug}`} style={{ textDecoration:'none' }}>
                   <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:14, padding:'18px 16px', cursor:'pointer', position:'relative', overflow:'hidden', transition:'border-color .15s' }}>
                     <div style={{ fontSize:'1.8rem', marginBottom:6 }}>{s.emoji}</div>
                     <div style={{ fontSize:'1rem', fontWeight:800, marginBottom:3 }}>{s.name}</div>
@@ -289,7 +296,7 @@ export default function Home() {
         <article style={{ padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1rem', fontWeight:800, marginBottom:14 }}>강남·판교·영통 맛집 추천, AI로 3초 만에</h2>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
-            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·판교역·영통·망포·영통구청 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다. 오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 3곳을 바로 알려드립니다. 회식·데이트·혼밥·접대 등 상황도 자유롭게 입력하면 AI가 상황에 맞는 식당을 필터링해 제안합니다.
+            <strong>오늘뭐먹지</strong>는 삼성역·잠실역·판교역·수지·영통·망포·영통구청 주변 맛집 {totalCount}개를 AI가 즉시 추천하는 서비스입니다. 오늘 뭐 먹지 고민될 때, 날씨·기분·예산만 입력하면 딱 맞는 식당 3곳을 바로 알려드립니다. 회식·데이트·혼밥·접대 등 상황도 자유롭게 입력하면 AI가 상황에 맞는 식당을 필터링해 제안합니다.
           </p>
           <p style={{ color:'var(--muted)', fontSize:'.86rem', lineHeight:1.8, marginBottom:12 }}>
             <strong>삼성역·코엑스</strong> 주변은 국밥·한우·이자카야·중식·훠궈·스테이크 등 {samseongData.length}개 식당을 엄선했습니다. 코엑스몰 내부부터 테헤란로 이면도로, 봉은사로 골목까지 다양한 선택지가 있으며, 4번출구 근처 맛집 필터로 대치동 방향 식당도 별도로 확인할 수 있습니다. 강남 비즈니스 상권 특성상 접대용 개인실 레스토랑과 오마카세도 다수 포함되어 있습니다.
