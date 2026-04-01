@@ -54,6 +54,14 @@ const REGIONS = {
     bounds: { latMin: 37.242, latMax: 37.270, lngMin: 127.032, lngMax: 127.065 },
     searchKeywords: ['영통구청', '영통구', '봉영로', '이의동'],
   },
+  suji: {
+    label: '수지구청',
+    dataFile: 'data/suji.js',
+    center: { lat: 37.3250, lng: 127.0870 },
+    radius: 2.5,
+    bounds: { latMin: 37.305, latMax: 37.345, lngMin: 127.055, lngMax: 127.115 },
+    searchKeywords: ['수지구청역', '동천역', '수지', '풍덕천동', '성복동', '동천동', '현대그린푸드', '신봉동'],
+  },
 }
 
 // 카테고리 검색어 (지역 키워드와 조합)
