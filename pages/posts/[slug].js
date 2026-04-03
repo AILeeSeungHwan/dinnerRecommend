@@ -33,6 +33,66 @@ function AdSection({ slot, format }) {
   )
 }
 
+// ── 상단 2열 광고 (제목 아래, 본문 시작 전) ─────────────────────
+function TopDualAdSection() {
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      const ads = window.adsbygoogle || []
+      ads.push({})
+      ads.push({})
+    } catch (e) {}
+  }, [])
+
+  return (
+    <div style={{ display: 'flex', gap: 12, margin: '20px 0 28px', justifyContent: 'center' }}>
+      <div style={{ flex: 1, minWidth: 0, maxWidth: 350 }}>
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-8640254349508671"
+          data-ad-slot="9463227631"
+          data-ad-format="rectangle"
+          data-full-width-responsive="false"
+        />
+      </div>
+      <div style={{ flex: 1, minWidth: 0, maxWidth: 350 }}>
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block' }}
+          data-ad-client="ca-pub-8640254349508671"
+          data-ad-slot="6297515693"
+          data-ad-format="rectangle"
+          data-full-width-responsive="false"
+        />
+      </div>
+    </div>
+  )
+}
+
+// ── H2 뒤 인라인 본문 광고 ──────────────────────────────────────
+function InArticleAdSection() {
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    try {
+      if (window.adsbygoogle) window.adsbygoogle.push({})
+    } catch (e) {}
+  }, [])
+
+  return (
+    <div style={{ margin: '16px 0 24px', textAlign: 'center' }}>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block', textAlign: 'center' }}
+        data-ad-client="ca-pub-8640254349508671"
+        data-ad-slot="6297515693"
+        data-ad-format="fluid"
+        data-ad-layout="in-article"
+      />
+    </div>
+  )
+}
+
 // ── 목차(TOC) 자동 생성 ──────────────────────────────────────────
 function TocSection({ sections }) {
   const headings = sections.filter((s) => s.type === 'h2')
@@ -561,10 +621,34 @@ export default function PostPage({ meta, sections, related }) {
             padding: '28px 16px 48px',
           }}
         >
+          {/* 상단 2열 광고 (제목 아래, 본문 시작 전) */}
+          {sections.length > 0 && <TopDualAdSection />}
+
           {sections.length > 0 ? (
-            sections.map((section, idx) =>
-              renderSection(section, idx, sections, related)
-            )
+            (() => {
+              let h2Count = 0
+              let inArticleAdCount = 0
+              const MAX_IN_ARTICLE_ADS = 3
+              return sections.map((section, idx) => {
+                // 기존 포스트 파일의 ad 섹션은 스킵 (렌더러가 자동 처리)
+                if (section.type === 'ad') return null
+                const el = renderSection(section, idx, sections, related)
+                // h2 2개마다 1개 인라인 광고, 최대 3개
+                if (section.type === 'h2') {
+                  h2Count++
+                  if (h2Count % 2 === 0 && inArticleAdCount < MAX_IN_ARTICLE_ADS) {
+                    inArticleAdCount++
+                    return (
+                      <div key={'h2-ad-' + idx}>
+                        {el}
+                        <InArticleAdSection />
+                      </div>
+                    )
+                  }
+                }
+                return el
+              })
+            })()
           ) : (
             <p style={{ color: 'var(--muted)', textAlign: 'center', padding: '48px 0' }}>
               포스트 내용을 불러오지 못했습니다.
