@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import Interstitial from './Interstitial'
 
 // ── 폰트 프리셋 ──────────────────────────────────────────────
 const FONTS = {
@@ -220,6 +221,18 @@ export default function Layout({ children, title, description, canonical }) {
     }
     window.addEventListener('token-used', handler)
     return () => window.removeEventListener('token-used', handler)
+  }, [])
+
+  // 사이드 광고 push
+  useEffect(() => {
+    try {
+      const ads = document.querySelectorAll('.side-ad ins.adsbygoogle')
+      ads.forEach(ins => {
+        if (!ins.getAttribute('data-adsbygoogle-status')) {
+          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        }
+      })
+    } catch (e) {}
   }, [])
 
   const ct = THEMES.find(t => t.id === theme) || THEMES[0]
@@ -502,7 +515,43 @@ export default function Layout({ children, title, description, canonical }) {
         </div>
       </header>
 
-      <main>{children}</main>
+      {/* ── 사이드 광고 + 메인 콘텐츠 래퍼 ── */}
+      <style>{`
+        .layout-with-side-ads { max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; gap: 0; }
+        .side-ad { display: none; }
+        @media (min-width: 1300px) { .side-ad { display: block; } }
+      `}</style>
+      <div className="layout-with-side-ads">
+        {/* 좌측 사이드 광고 */}
+        <aside className="side-ad" style={{ width: 160, flexShrink: 0, position: 'relative' }}>
+          <div style={{ position: 'sticky', top: 80, paddingTop: 24 }}>
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block', width: 160, height: 600 }}
+              data-ad-client="ca-pub-8640254349508671"
+              data-ad-slot="6297515693"
+              data-ad-format="vertical"
+            />
+          </div>
+        </aside>
+
+        <main style={{ flex: 1, minWidth: 0 }}>{children}</main>
+
+        {/* 우측 사이드 광고 */}
+        <aside className="side-ad" style={{ width: 160, flexShrink: 0, position: 'relative' }}>
+          <div style={{ position: 'sticky', top: 80, paddingTop: 24 }}>
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block', width: 160, height: 600 }}
+              data-ad-client="ca-pub-8640254349508671"
+              data-ad-slot="6297515693"
+              data-ad-format="vertical"
+            />
+          </div>
+        </aside>
+      </div>
+
+      <Interstitial />
 
       {/* ── 푸터 ── */}
       <footer style={{ borderTop:'1px solid var(--border)', padding:'28px 16px', textAlign:'center', color:'var(--muted)', fontSize:'.78rem', marginTop:60 }}>

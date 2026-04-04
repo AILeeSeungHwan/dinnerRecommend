@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
+import AdUnit from '../components/AdUnit'
 import samseongData from '../data/samseong'
 import jamsilData from '../data/jamsil'
 
@@ -70,6 +71,11 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* 상단 광고 */}
+      <div style={{ maxWidth:900, margin:'0 auto', padding:'0 16px 8px' }}>
+        <AdUnit slot="6297515693" format="auto" />
+      </div>
 
       <div style={{ maxWidth:900, margin:'0 auto', padding:'0 16px 56px' }}>
 

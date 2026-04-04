@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
+import AdUnit from '../../../components/AdUnit'
 import restaurants from '../../../data/jamsil'
 
 const NL_MENU_MAP = [
@@ -714,7 +715,12 @@ export default function JamsilPage() {
         </div>
       </section>
 
-      <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
+      {/* 상단 광고 */}
+      <div style={{ maxWidth:900, margin:'0 auto', padding:'16px 16px 0' }}>
+        <AdUnit slot="6297515693" format="auto" />
+      </div>
+
+      <div style={{ maxWidth:900,margin:'0 auto',padding:'16px 16px' }}>
         {/* 탭 */}
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
           {[{id:'ai',label:'✨ AI 추천'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(

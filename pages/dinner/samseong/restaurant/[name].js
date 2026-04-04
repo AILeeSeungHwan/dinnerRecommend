@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
+import AdUnit from '../../../../components/AdUnit'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
@@ -537,8 +538,13 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
       </section>
 
+      {/* 상단 광고 */}
+      <div style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 0' }}>
+        <AdUnit slot="6297515693" format="auto" />
+      </div>
+
       {/* 본문 */}
-      <article style={{ maxWidth:760, margin:'0 auto', padding:'28px 16px 60px' }}>
+      <article style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 60px' }}>
 
         {/* 기본 정보 표 */}
         <h2 style={h2style}>📋 기본 정보</h2>
@@ -601,6 +607,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>
           )}
         </ul>
+
+        {/* 중간 광고 */}
+        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
@@ -753,6 +762,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </div>
           </>
         )}
+
+        {/* 하단 광고 */}
+        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 하단 네비 */}
         <div style={{ display:'flex', gap:10, flexWrap:'wrap', paddingTop:20, borderTop:'1px solid var(--border)' }}>
