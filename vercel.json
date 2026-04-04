@@ -1,10 +1,12 @@
 {
   "functions": {
     "pages/api/recommend.js": {
-      "maxDuration": 15
+      "maxDuration": 15,
+      "memory": 1024
     },
     "pages/api/indexnow.js": {
-      "maxDuration": 15
+      "maxDuration": 10,
+      "memory": 256
     }
   }
 }
