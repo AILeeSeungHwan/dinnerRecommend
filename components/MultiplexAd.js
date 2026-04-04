@@ -21,7 +21,7 @@ export default function MultiplexAd({ style = {}, className = '' }) {
   }, [])
 
   return (
-    <div className={className} style={{ overflow: 'hidden', textAlign: 'center', margin: '32px 0', ...style }}>
+    <div className={className + ' multiplex-ad-wrap'} style={{ overflow: 'hidden', textAlign: 'center', margin: '32px 0', maxHeight: 400, ...style }}>
       <ins
         ref={ref}
         className="adsbygoogle"
@@ -30,6 +30,7 @@ export default function MultiplexAd({ style = {}, className = '' }) {
         data-ad-slot="6619129290"
         data-ad-format="autorelaxed"
       />
+      <style>{`.multiplex-ad-wrap { max-height: 400px; } @media (max-width: 768px) { .multiplex-ad-wrap { max-height: 300px !important; } }`}</style>
     </div>
   )
 }
