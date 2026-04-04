@@ -626,6 +626,37 @@ export default function PostPage({ meta, sections, related }) {
 
           {sections.length > 0 ? (
             (() => {
+              const hasH2 = sections.some(s => s.type === 'h2')
+
+              // h2 없을 때: 1/3, 2/3 지점에 광고 각 1개
+              if (!hasH2) {
+                const filtered = sections.filter(s => s.type !== 'ad')
+                const total = filtered.length
+                const pt1 = Math.floor(total / 3)
+                const pt2 = Math.floor((total * 2) / 3)
+                return filtered.map((section, idx) => {
+                  const el = renderSection(section, idx, sections, related)
+                  if (idx === pt1) {
+                    return (
+                      <div key={'no-h2-ad1-' + idx}>
+                        {el}
+                        <InArticleAdSection />
+                      </div>
+                    )
+                  }
+                  if (idx === pt2) {
+                    return (
+                      <div key={'no-h2-ad2-' + idx}>
+                        {el}
+                        <InArticleAdSection />
+                      </div>
+                    )
+                  }
+                  return el
+                })
+              }
+
+              // h2 있을 때: h2 2개마다 1개 인라인 광고, 최대 3개
               let h2Count = 0
               let inArticleAdCount = 0
               const MAX_IN_ARTICLE_ADS = 3
@@ -633,7 +664,6 @@ export default function PostPage({ meta, sections, related }) {
                 // 기존 포스트 파일의 ad 섹션은 스킵 (렌더러가 자동 처리)
                 if (section.type === 'ad') return null
                 const el = renderSection(section, idx, sections, related)
-                // h2 2개마다 1개 인라인 광고, 최대 3개
                 if (section.type === 'h2') {
                   h2Count++
                   if (h2Count % 2 === 0 && inArticleAdCount < MAX_IN_ARTICLE_ADS) {
@@ -648,7 +678,6 @@ export default function PostPage({ meta, sections, related }) {
                 }
                 return el
               })
-            })()
           ) : (
             <p style={{ color: 'var(--muted)', textAlign: 'center', padding: '48px 0' }}>
               포스트 내용을 불러오지 못했습니다.

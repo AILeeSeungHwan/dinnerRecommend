@@ -1,18 +1,21 @@
 import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/router'
 
-const SESSION_KEY = 'gm-interstitial-count'
-const PAGE_KEY    = 'gm-page-count'
-const MAX_PER_SESSION = 3
-const PAGES_PER_AD    = 3
-const AUTO_CLOSE_SEC  = 5
+const SESSION_KEY       = 'gm-interstitial-count'
+const PAGE_KEY          = 'gm-page-count'
+const FIRST_SHOWN_KEY   = 'interstitialFirstShown'
+const MAX_PER_SESSION   = 3
+const PAGES_PER_AD      = 3
+const AUTO_CLOSE_SEC    = 5
+const FIRST_SHOW_DELAY  = 60000 // 1분
 
 export default function Interstitial() {
-  const router   = useRouter()
+  const router      = useRouter()
   const [visible, setVisible] = useState(false)
   const [seconds, setSeconds] = useState(AUTO_CLOSE_SEC)
-  const timerRef = useRef(null)
-  const pushed   = useRef(false)
+  const timerRef    = useRef(null)
+  const firstTimer  = useRef(null)
+  const pushed      = useRef(false)
 
   // 광고 push (한 번만)
   const pushAd = () => {
@@ -48,6 +51,28 @@ export default function Interstitial() {
     }
   }, [visible])
 
+  // 최초 1분 후 자동 노출 (모바일 전용, 세션 1회)
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    if (window.innerWidth > 768) return
+    if (sessionStorage.getItem(FIRST_SHOWN_KEY)) return
+
+    firstTimer.current = setTimeout(() => {
+      // 이미 다른 광고가 노출 중이면 스킵
+      if (visible) return
+      // 세션당 최대 3회 소진 여부 확인
+      const shownCount = parseInt(sessionStorage.getItem(SESSION_KEY) || '0', 10)
+      if (shownCount >= MAX_PER_SESSION) return
+
+      sessionStorage.setItem(FIRST_SHOWN_KEY, '1')
+      sessionStorage.setItem(SESSION_KEY, shownCount + 1)
+      openAd()
+    }, FIRST_SHOW_DELAY)
+
+    return () => clearTimeout(firstTimer.current)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   useEffect(() => {
     const handleRouteChange = () => {
       // 모바일 전용 (768px 이하)
@@ -77,20 +102,28 @@ export default function Interstitial() {
 
   if (!visible) return null
 
+  const closeAd = () => { clearInterval(timerRef.current); setVisible(false) }
+
   return (
     <div
+      onClick={closeAd}
       style={{
         position: 'fixed', inset: 0, zIndex: 9999,
         background: 'rgba(0,0,0,.85)',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
         padding: 16,
+        cursor: 'pointer',
       }}
     >
-      <div style={{
-        background: '#fff', borderRadius: 16, overflow: 'hidden',
-        width: '100%', maxWidth: 360, position: 'relative',
-        boxShadow: '0 20px 60px rgba(0,0,0,.6)',
-      }}>
+      <div
+        onClick={e => e.stopPropagation()}
+        style={{
+          background: '#fff', borderRadius: 16, overflow: 'hidden',
+          width: '100%', maxWidth: 360, position: 'relative',
+          boxShadow: '0 20px 60px rgba(0,0,0,.6)',
+          cursor: 'default',
+        }}
+      >
         {/* 헤더 */}
         <div style={{
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -99,7 +132,7 @@ export default function Interstitial() {
         }}>
           <span style={{ fontSize: '.72rem', color: '#888' }}>광고</span>
           <button
-            onClick={() => { clearInterval(timerRef.current); setVisible(false) }}
+            onClick={closeAd}
             style={{
               background: '#333', color: '#fff', border: 'none',
               borderRadius: 100, width: 26, height: 26, cursor: 'pointer',
