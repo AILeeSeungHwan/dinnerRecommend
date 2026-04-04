@@ -678,6 +678,7 @@ export default function PostPage({ meta, sections, related }) {
                 }
                 return el
               })
+            })()
           ) : (
             <p style={{ color: 'var(--muted)', textAlign: 'center', padding: '48px 0' }}>
               포스트 내용을 불러오지 못했습니다.
