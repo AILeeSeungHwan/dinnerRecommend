@@ -761,7 +761,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
               className="adsbygoogle"
               style={{ display: 'block', width: 160, height: 600 }}
               data-ad-client="ca-pub-8640254349508671"
-              data-ad-slot="6297515693"
+              data-ad-slot="9138210374"
               data-ad-format="vertical"
             />
           </div>
@@ -776,7 +776,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
               className="adsbygoogle"
               style={{ display: 'block', width: 160, height: 600 }}
               data-ad-client="ca-pub-8640254349508671"
-              data-ad-slot="6297515693"
+              data-ad-slot="9138210374"
               data-ad-format="vertical"
             />
           </div>

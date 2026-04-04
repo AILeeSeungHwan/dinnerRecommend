@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 import AdUnit from '../../../components/AdUnit'
+import MultiplexAd from '../../../components/MultiplexAd'
 import restaurants from '../../../data/jamsil'
 import posts from '../../../data/posts'
 
@@ -2313,7 +2314,7 @@ export default function SamseongPage() {
 
       {/* 상단 광고 */}
       <div style={{ maxWidth:900, margin:'0 auto', padding:'16px 16px 0' }}>
-        <AdUnit slot="6297515693" format="auto" />
+        <AdUnit slot="9138210374" format="auto" />
       </div>
 
       <div style={{ maxWidth:900,margin:'0 auto',padding:'16px 16px' }}>
@@ -2434,6 +2435,9 @@ export default function SamseongPage() {
             오늘 날씨·기분·예산을 입력하면 AI가 잠실 주변 맛집 중 지금 상황에 딱 맞는 3곳을 3초 만에 골라드립니다.
           </p>
         </section>
+
+        {/* 멀티플렉스 광고 */}
+        <MultiplexAd />
       </div>
     </Layout>
   )

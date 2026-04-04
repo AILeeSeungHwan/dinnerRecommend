@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import AdUnit from '../components/AdUnit'
+import MultiplexAd from '../components/MultiplexAd'
 import samseongData from '../data/samseong'
 import jamsilData from '../data/jamsil'
 import yeongtongData from '../data/yeongtong'
@@ -206,7 +207,7 @@ export default function Home() {
 
       {/* 상단 광고 */}
       <div style={{ maxWidth:900, margin:'0 auto', padding:'0 16px 8px' }}>
-        <AdUnit slot="6297515693" format="auto" />
+        <AdUnit slot="9138210374" format="auto" />
       </div>
 
       <div style={{ maxWidth:900, margin:'0 auto', padding:'0 16px 56px' }}>
@@ -329,6 +330,9 @@ export default function Home() {
             지역을 선택한 뒤 날씨·기분·예산을 자유롭게 입력하면 AI가 3초 안에 지금 상황에 딱 맞는 식당 3곳을 골라드립니다. 국밥부터 오마카세까지, 혼밥부터 30인 단체 회식까지 모두 커버하는 <strong>오늘뭐먹지</strong>를 지금 바로 이용해보세요.
           </p>
         </article>
+
+        {/* 멀티플렉스 광고 */}
+        <MultiplexAd />
       </div>
     </Layout>
   )

@@ -1,12 +1,10 @@
 import { useEffect, useRef } from 'react'
 
 /**
- * AdUnit — Google AdSense 광고 단위
- * slot: AdSense 광고 슬롯 ID
- * format: 'auto' | 'rectangle' | 'vertical' | 'horizontal'
- * style: 추가 인라인 스타일
+ * MultiplexAd — Google AdSense 멀티플렉스 광고 단위
+ * slot: 6619129290 (autorelaxed)
  */
-export default function AdUnit({ slot = '9138210374', format = 'auto', style = {}, className = '' }) {
+export default function MultiplexAd({ style = {}, className = '' }) {
   const ref = useRef(null)
   const pushed = useRef(false)
 
@@ -23,15 +21,14 @@ export default function AdUnit({ slot = '9138210374', format = 'auto', style = {
   }, [])
 
   return (
-    <div className={className} style={{ overflow: 'hidden', textAlign: 'center', ...style }}>
+    <div className={className} style={{ overflow: 'hidden', textAlign: 'center', margin: '32px 0', ...style }}>
       <ins
         ref={ref}
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-8640254349508671"
-        data-ad-slot={slot}
-        data-ad-format={format}
-        data-full-width-responsive="true"
+        data-ad-slot="6619129290"
+        data-ad-format="autorelaxed"
       />
     </div>
   )

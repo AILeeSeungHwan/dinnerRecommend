@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
+import MultiplexAd from '../../components/MultiplexAd'
 import posts from '../../data/posts'
 
 // ── AdSense 광고 섹션 ────────────────────────────────────────────
@@ -61,7 +62,7 @@ function TopDualAdSection() {
           className="adsbygoogle"
           style={{ display: 'block' }}
           data-ad-client="ca-pub-8640254349508671"
-          data-ad-slot="6297515693"
+          data-ad-slot="9138210374"
           data-ad-format="rectangle"
           data-full-width-responsive="false"
         />
@@ -85,7 +86,7 @@ function InArticleAdSection() {
         className="adsbygoogle"
         style={{ display: 'block', textAlign: 'center' }}
         data-ad-client="ca-pub-8640254349508671"
-        data-ad-slot="6297515693"
+        data-ad-slot="9138210374"
         data-ad-format="fluid"
         data-ad-layout="in-article"
       />
@@ -703,6 +704,9 @@ export default function PostPage({ meta, sections, related }) {
               {meta.category ? `${meta.category} 맛집 전체보기` : '맛집 전체보기'}
             </Link>
           </div>
+
+          {/* 멀티플렉스 광고 */}
+          <MultiplexAd />
         </article>
       </main>
     </Layout>

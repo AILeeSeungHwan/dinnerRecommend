@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
+import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
@@ -531,7 +532,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
       {/* 상단 광고 */}
       <div style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 0' }}>
-        <AdUnit slot="6297515693" format="auto" />
+        <AdUnit slot="9138210374" format="auto" />
       </div>
 
       {/* 본문 */}
@@ -614,7 +615,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 중간 광고 */}
-        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
+        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
@@ -757,7 +758,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 하단 광고 */}
-        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
+        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 하단 네비 */}
         <div style={{ display:'flex', gap:10, flexWrap:'wrap', paddingTop:20, borderTop:'1px solid var(--border)' }}>
@@ -772,6 +773,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
+
+        {/* 멀티플렉스 광고 */}
+        <MultiplexAd />
 
       </article>
     </Layout>

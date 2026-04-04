@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
+import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -525,7 +526,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
       {/* 상단 광고 */}
       <div style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 0' }}>
-        <AdUnit slot="6297515693" format="auto" />
+        <AdUnit slot="9138210374" format="auto" />
       </div>
 
       {/* 본문 */}
@@ -579,7 +580,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {r.menuItems?.length > 0 ? (<><p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격입니다.</p><table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}><thead><tr style={{ borderBottom:'2px solid var(--border)' }}><th style={{ padding:'10px 14px', textAlign:'left', color:'var(--muted)', fontWeight:600 }}>메뉴</th><th style={{ padding:'10px 14px', textAlign:'right', color:'var(--muted)', fontWeight:600 }}>가격</th></tr></thead><tbody>{r.menuItems.map((mi, i) => (<tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}><td style={{ padding:'10px 14px' }}>{mi.menuName ? <><strong>{mi.menuName}</strong>{mi.description && <><br/><span style={{ fontSize:'.8rem', color:'var(--muted)' }}>{mi.description}</span></>}</> : (mi.description || mi.name || '-')}</td><td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td></tr>))}</tbody></table></>) : (<><p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격대입니다. 정확한 메뉴는 방문 전 매장에 확인하세요.</p><ul style={{ ...ulstyle }}>{r.tags?.filter(t => !['리뷰5000+','리뷰1000+','리뷰500+','아침가능','주차가능','혼밥가능','단체가능','깔끔','친절','빠름','넓음','조용함','가성비','혼밥','데이트','뷰맛집','분위기좋음','노포','힙함','모던','캐주얼','라이브음악','포차감성','프라이빗','룸'].includes(t) && !['깔끔','친절','빠름','넓음','조용함','가성비','힙한 곳','모던','캐주얼','라이브음악','포차감성','프라이빗','분위기최고'].some(kw => t.includes(kw))).map((tag, i) => (<li key={i} style={listyle}><strong>{tag}</strong></li>))}{r.priceRange && (<li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>)}</ul></>)}
 
         {/* 중간 광고 */}
-        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
+        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
@@ -722,7 +723,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 하단 광고 */}
-        <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
+        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
 
         {/* 하단 네비 */}
         <div style={{ display:'flex', gap:10, flexWrap:'wrap', paddingTop:20, borderTop:'1px solid var(--border)' }}>
@@ -737,6 +738,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
+
+        {/* 멀티플렉스 광고 */}
+        <MultiplexAd />
 
       </article>
     </Layout>
