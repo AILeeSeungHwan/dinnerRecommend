@@ -1,23 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
-import { useRouter } from 'next/router'
 
-const SESSION_KEY       = 'gm-interstitial-count'
-const PAGE_KEY          = 'gm-page-count'
-const FIRST_SHOWN_KEY   = 'interstitialFirstShown'
-const MAX_PER_SESSION   = 3
-const PAGES_PER_AD      = 3
-const AUTO_CLOSE_SEC    = 5
-const FIRST_SHOW_DELAY  = 60000 // 1분
+const KEY_LINK = 'interstitial_link_last'   // 링크 클릭 쿨다운 (2분)
+const KEY_AUTO = 'interstitial_auto_last'   // 자동 노출 쿨다운 (5분)
+const COOLDOWN_LINK = 2 * 60 * 1000        // 2분
+const COOLDOWN_AUTO = 5 * 60 * 1000        // 5분
+const AUTO_SHOW_DELAY = 60 * 1000          // 1분 후 자동 노출
+const AUTO_CLOSE_SEC = 5                   // 5초 자동 닫기
 
 export default function Interstitial() {
-  const router      = useRouter()
   const [visible, setVisible] = useState(false)
   const [seconds, setSeconds] = useState(AUTO_CLOSE_SEC)
-  const timerRef    = useRef(null)
-  const firstTimer  = useRef(null)
-  const pushed      = useRef(false)
+  const timerRef = useRef(null)
+  const pushed = useRef(false)
+  const pendingHref = useRef(null)
 
-  // 광고 push (한 번만)
+  // AdSense push (한 번만)
   const pushAd = () => {
     if (pushed.current) return
     try {
@@ -37,6 +34,12 @@ export default function Interstitial() {
         if (prev <= 1) {
           clearInterval(timerRef.current)
           setVisible(false)
+          // 링크 클릭으로 열린 경우 href 이동
+          if (pendingHref.current) {
+            const href = pendingHref.current
+            pendingHref.current = null
+            window.location.href = href
+          }
           return AUTO_CLOSE_SEC
         }
         return prev - 1
@@ -44,65 +47,83 @@ export default function Interstitial() {
     }, 1000)
   }
 
-  // 광고 ins가 렌더링되면 push
+  // visible 시 광고 push
   useEffect(() => {
     if (visible) {
       setTimeout(pushAd, 100)
     }
   }, [visible])
 
-  // 최초 1분 후 자동 노출 (모바일 전용, 세션 1회)
+  // ── 링크 클릭 인터셉트 (capture phase) ──────────────────────────────
   useEffect(() => {
-    if (typeof window === 'undefined') return
-    if (window.innerWidth > 768) return
-    if (sessionStorage.getItem(FIRST_SHOWN_KEY)) return
+    const handleClick = (e) => {
+      // a 태그 찾기 (이벤트 버블링 대신 capture 사용)
+      const anchor = e.target.closest('a')
+      if (!anchor) return
 
-    firstTimer.current = setTimeout(() => {
-      // 이미 다른 광고가 노출 중이면 스킵
-      if (visible) return
-      // 세션당 최대 3회 소진 여부 확인
-      const shownCount = parseInt(sessionStorage.getItem(SESSION_KEY) || '0', 10)
-      if (shownCount >= MAX_PER_SESSION) return
+      const href = anchor.getAttribute('href') || ''
 
-      sessionStorage.setItem(FIRST_SHOWN_KEY, '1')
-      sessionStorage.setItem(SESSION_KEY, shownCount + 1)
+      // 제외: #, javascript:, 빈 값, 새 탭(_blank)
+      if (
+        !href ||
+        href.startsWith('#') ||
+        href.startsWith('javascript:') ||
+        anchor.target === '_blank'
+      ) return
+
+      // 쿨다운 체크 (2분)
+      const last = parseInt(sessionStorage.getItem(KEY_LINK) || '0', 10)
+      const now = Date.now()
+      if (now - last < COOLDOWN_LINK) return
+
+      // 광고 표시
+      e.preventDefault()
+      e.stopPropagation()
+
+      sessionStorage.setItem(KEY_LINK, now)
+      pendingHref.current = href
       openAd()
-    }, FIRST_SHOW_DELAY)
+    }
 
-    return () => clearTimeout(firstTimer.current)
+    document.addEventListener('click', handleClick, true) // capture phase
+    return () => document.removeEventListener('click', handleClick, true)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // ── 1분 후 자동 노출 ─────────────────────────────────────────────────
   useEffect(() => {
-    const handleRouteChange = () => {
-      // 모바일 전용 (768px 이하)
-      if (window.innerWidth > 768) return
+    if (typeof window === 'undefined') return
 
-      // 페이지 카운트
-      const pageCount = parseInt(sessionStorage.getItem(PAGE_KEY) || '0', 10) + 1
-      sessionStorage.setItem(PAGE_KEY, pageCount)
+    const autoTimer = setTimeout(() => {
+      if (visible) return // 이미 광고 중이면 스킵
 
-      // 3페이지마다 1번
-      if (pageCount % PAGES_PER_AD !== 0) return
+      // 이미 한 번 자동 노출 했는지 체크 (5분 쿨다운)
+      const last = parseInt(sessionStorage.getItem(KEY_AUTO) || '0', 10)
+      const now = Date.now()
+      if (now - last < COOLDOWN_AUTO) return
 
-      // 세션당 최대 3회
-      const shownCount = parseInt(sessionStorage.getItem(SESSION_KEY) || '0', 10)
-      if (shownCount >= MAX_PER_SESSION) return
-
-      sessionStorage.setItem(SESSION_KEY, shownCount + 1)
+      sessionStorage.setItem(KEY_AUTO, now)
+      pendingHref.current = null
       openAd()
-    }
+    }, AUTO_SHOW_DELAY)
 
-    router.events.on('routeChangeComplete', handleRouteChange)
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-      clearInterval(timerRef.current)
+    return () => clearTimeout(autoTimer)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  // ── 닫기 ─────────────────────────────────────────────────────────────
+  const closeAd = () => {
+    clearInterval(timerRef.current)
+    setVisible(false)
+    // 닫기 버튼으로 직접 닫은 경우에도 href 이동
+    if (pendingHref.current) {
+      const href = pendingHref.current
+      pendingHref.current = null
+      window.location.href = href
     }
-  }, [router.events])
+  }
 
   if (!visible) return null
-
-  const closeAd = () => { clearInterval(timerRef.current); setVisible(false) }
 
   return (
     <div
@@ -145,7 +166,10 @@ export default function Interstitial() {
         </div>
 
         {/* 광고 영역 */}
-        <div style={{ padding: '8px 0', minHeight: 260, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{
+          padding: '8px 0', minHeight: 260,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
           <ins
             className="adsbygoogle"
             style={{ display: 'block', width: 320, height: 250 }}
