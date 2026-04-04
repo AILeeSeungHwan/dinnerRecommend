@@ -1,13 +1,10 @@
 {
   "functions": {
-    "pages/api/indexnow.js": {
-      "maxDuration": 15
-    },
     "pages/api/recommend.js": {
       "maxDuration": 15
     },
-    "pages/api/web-search-recommend.js": {
-      "maxDuration": 30
+    "pages/api/indexnow.js": {
+      "maxDuration": 15
     }
   }
 }
