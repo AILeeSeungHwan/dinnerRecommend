@@ -15,35 +15,46 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
 
         {/* ── 기본 SEO ── */}
-        <meta name="author" content="강남뭐먹" />
+        <meta name="author" content="오늘뭐먹지" />
+        <meta name="keywords" content="오늘뭐먹지, 맛집추천, AI맛집, 삼성역맛집, 잠실맛집, 영통맛집, 강남맛집, 회식장소, 점심추천, 오늘뭐먹지추천" />
         <meta name="robots" content="index, follow" />
 
         {/* ── OG (카카오·페이스북·슬랙 등 공유 미리보기) ── */}
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="강남뭐먹" />
-        <meta property="og:title" content="강남뭐먹 — AI 맛집 추천" />
-        <meta property="og:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
+        <meta property="og:site_name" content="오늘뭐먹지" />
+        <meta property="og:title" content="오늘뭐먹지 — AI 맛집 추천" />
+        <meta property="og:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
         <meta property="og:url" content={BASE} />
-        <meta property="og:image" content={`${BASE}/og-image.png`} />
+        <meta property="og:image" content={`${BASE}/og-image.png?v=3`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="강남뭐먹 — AI 맛집 추천" />
+        <meta property="og:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
         <meta property="og:locale" content="ko_KR" />
 
         {/* ── Twitter Card ── */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="강남뭐먹 — AI 맛집 추천" />
-        <meta name="twitter:description" content="삼성역·잠실역 170개+ 맛집을 AI가 날씨·기분·예산에 맞게 추천해드려요." />
-        <meta name="twitter:image" content={`${BASE}/og-image.png`} />
-        <meta name="twitter:image:alt" content="강남뭐먹 — AI 맛집 추천" />
+        <meta name="twitter:title" content="오늘뭐먹지 — AI 맛집 추천" />
+        <meta name="twitter:description" content="삼성역·잠실역·영통역 맛집을 AI가 날씨·기분·예산에 맞게 추천. 오늘 뭐 먹지 고민 끝!" />
+        <meta name="twitter:image" content={`${BASE}/og-image.png?v=3`} />
+        <meta name="twitter:image:alt" content="오늘뭐먹지 — AI 맛집 추천" />
 
-        {/* ── 카카오톡 공유 SDK ── */}
-        <script
-          src="https://t1.kakaocdn.net/kakao_js_sdk/2.8.0/kakao.min.js"
-          integrity="sha384-Lvrr4dmJLLhBimcAC4GfpNV3oEGKgfd26Mp7KkvDz8PxGrhUhUT3zoax7EirW8fu"
-          crossOrigin="anonymous"
-          async
-        />
+        {/* ── 구글 애드센스 (앵커·오버레이 자동광고 비활성화) ── */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8640254349508671" crossOrigin="anonymous" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          (function(){
+            var adBreak=window.adsbygoogle=window.adsbygoogle||[];
+            adBreak.requestNonPersonalizedAds=1;
+          })();
+        `}} />
+        <meta name="google-adsense-platform-account" content="ca-pub-8640254349508671" />
+        <style dangerouslySetInnerHTML={{ __html: `
+          /* 모바일 앵커/오버레이 자동광고 제거 */
+          ins.adsbygoogle[data-anchor-status],
+          ins.adsbygoogle[data-ad-format="auto"],
+          div[id^="google_ads_iframe"][style*="fixed"],
+          div[id^="google_ads_iframe"][style*="sticky"],
+          .google-auto-placed { display: none !important; height: 0 !important; overflow: hidden !important; }
+        `}} />
 
         {/* ── Google Analytics GA4 ── */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-YNZGYTGP41" />
@@ -64,15 +75,8 @@ export default function Document() {
         `}} />
 
 
-        {/* ── Google AdSense ── */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8640254349508671"
-          crossOrigin="anonymous"
-        />
-
         {/* ── RSS ── */}
-        <link rel="alternate" type="application/rss+xml" title="강남뭐먹 RSS" href="https://dinner.ambitstock.com/rss.xml" />
+        <link rel="alternate" type="application/rss+xml" title="오늘뭐먹지 RSS" href="https://dinner.ambitstock.com/rss.xml" />
 
         {/* ── 파비콘 & 아이콘 ── */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -87,6 +91,18 @@ export default function Document() {
         <meta name="msapplication-TileColor" content="#0d1117" />
         <meta name="msapplication-TileImage" content="/icon-192x192.png" />
       </Head>
+
+      {/* ── 테마 깜빡임 방지: 렌더 전 light 기본값 고정 ── */}
+      <script dangerouslySetInnerHTML={{ __html: `
+        (function() {
+          var saved = localStorage.getItem('gm-theme');
+          var lightVars = '--bg:#ffffff;--surface:#f8f9fa;--surface2:#f1f3f5;--text:#111827;--muted:#6b7280;--border:#e5e7eb;--primary:#6366f1;--primary2:#818cf8;';
+          if (!saved || saved === 'light') {
+            var s = document.documentElement.style;
+            lightVars.split(';').forEach(function(v){ if(v){ var p=v.split(':'); s.setProperty(p[0], p[1]); } });
+          }
+        })();
+      `}} />
       <body>
         <Main />
         <NextScript />

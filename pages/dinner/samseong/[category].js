@@ -119,11 +119,6 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
                   {r.priceRange && <span className="tag price">💰 {r.priceRange}원</span>}
                 </div>
                 <div className="card-addr" style={{ marginBottom: 6 }}>📍 {r.addr}</div>
-                {r.rv?.[0] && (
-                  <div style={{ fontSize: '.75rem', color: 'var(--muted)', lineHeight: 1.4, marginTop: 6 }}>
-                    💬 {r.rv[0].replace(/ \(실제 Google 리뷰.*?\)/, '').slice(0, 60)}...
-                  </div>
-                )}
               </div>
             </Link>
           ))}

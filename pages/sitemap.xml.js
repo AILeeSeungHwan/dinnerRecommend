@@ -1,34 +1,63 @@
-import samseongRestaurants from '../data/samseong'
-import jamsilRestaurants from '../data/jamsil'
+import posts from '../data/posts'
+import samseongRestaurants  from '../data/samseong'
+import jamsilRestaurants    from '../data/jamsil'
+import pangyoRestaurants    from '../data/pangyo'
+import yeongtongRestaurants from '../data/yeongtong'
+import mangpoRestaurants    from '../data/mangpo'
+import yeongtongGuRestaurants from '../data/yeongtongGu'
+import sujiRestaurants from '../data/suji'
 
 const BASE = 'https://dinner.ambitstock.com'
-const CATEGORIES = ['gukbap','meat','izakaya','chinese','western','group','chicken','japanese']
+
+const CATEGORIES = [
+  'meat','gukbap','izakaya','japanese','chinese',
+  'western','chicken','group','date','budget','premium','korean'
+]
+
+const REGIONS = [
+  { basePath: '/dinner/samseong',               restaurants: samseongRestaurants   },
+  { basePath: '/dinner/jamsil',                 restaurants: jamsilRestaurants     },
+  { basePath: '/pangyo',                        restaurants: pangyoRestaurants     },
+  { basePath: '/samsungElectronics/yeongtong',  restaurants: yeongtongRestaurants  },
+  { basePath: '/samsungElectronics/mangpo',     restaurants: mangpoRestaurants     },
+  { basePath: '/samsungElectronics/yeongtongGu',restaurants: yeongtongGuRestaurants},
+  { basePath: '/suji',                         restaurants: sujiRestaurants       },
+]
 
 export async function getServerSideProps({ res }) {
   const today = new Date().toISOString().split('T')[0]
 
+  // 1. 메인 페이지 (priority 1.0)
   const staticPages = [
-    { url: '/',                   priority: '1.0' },
-    { url: '/dinner/samseong',    priority: '0.9' },
-    { url: '/dinner/jamsil',      priority: '0.9' },
-    { url: '/dinner/gangnam',     priority: '0.5' },
+    { url: '/', priority: '1.0' },
   ]
 
-  const categoryPages = CATEGORIES.map(slug => ({
-    url: `/dinner/samseong/category/${slug}`, priority: '0.8'
+  // 2. 지역 페이지 (priority 0.9)
+  const regionPages = REGIONS.map(r => ({
+    url: r.basePath, priority: '0.9'
   }))
 
-  const samseongPages = samseongRestaurants.map(r => ({
-    url: `/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`,
-    priority: '0.6'
+  // 3. 카테고리 페이지 6지역 × 12카테고리 (priority 0.8)
+  const categoryPages = REGIONS.flatMap(r =>
+    CATEGORIES.map(slug => ({
+      url: `${r.basePath}/category/${slug}`, priority: '0.8'
+    }))
+  )
+
+  // 4. 식당 상세 페이지 전 지역 (priority 0.6)
+  const restaurantPages = REGIONS.flatMap(r =>
+    r.restaurants.map(restaurant => ({
+      url: `${r.basePath}/restaurant/${encodeURIComponent(restaurant.name)}`,
+      priority: '0.6'
+    }))
+  )
+
+  // 5. 포스트 페이지 (priority 0.7)
+  const postPages = (posts || []).map(p => ({
+    url: `/posts/${p.slug}`, priority: '0.7'
   }))
 
-  const jamsilPages = jamsilRestaurants.map(r => ({
-    url: `/dinner/jamsil/restaurant/${encodeURIComponent(r.name)}`,
-    priority: '0.6'
-  }))
-
-  const all = [...staticPages, ...categoryPages, ...samseongPages, ...jamsilPages]
+  const all = [...staticPages, ...regionPages, ...categoryPages, ...postPages, ...restaurantPages]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

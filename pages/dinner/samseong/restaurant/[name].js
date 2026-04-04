@@ -7,22 +7,23 @@ import restaurants from '../../../../data/samseong'
 export async function getStaticPaths() {
   return {
     paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
-    fallback: false
+    fallback: 'blocking'
   }
 }
 
 export async function getStaticProps({ params }) {
-  const name = decodeURIComponent(params.name)
+  let name
+  try { name = decodeURIComponent(params.name) } catch { name = params.name }
   const r = restaurants.find(x => x.name === name)
   if (!r) return { notFound: true }
 
   const similar = restaurants
-    .filter(x => x.name !== r.name && x.cat?.some(c => r.cat?.includes(c)))
+    .filter(x => x.name !== r.name && Array.isArray(x.cat) && Array.isArray(r.cat) && x.cat.some(c => r.cat.includes(c)))
     .sort((a, b) => b.rt - a.rt)
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [] }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -371,38 +372,6 @@ function buildIntro(r) {
   ]}
 }
 // ── 이미지 검색 URL 생성 (Unsplash 기반) ─────────────────────
-function getFoodImages(r) {
-  const cats = r.cat || []
-  const tags = r.tags || []
-
-  // 카테고리별 Unsplash 검색 키워드 매핑
-  const queries = []
-
-  if (cats.includes('국밥') || cats.includes('국물')) queries.push('korean-gukbap-soup', 'korean-soup-bowl')
-  else if (tags.some(t => t.includes('오마카세'))) queries.push('japanese-omakase-sushi', 'sushi-chef')
-  else if (cats.includes('이자카야') || cats.includes('일식')) queries.push('japanese-izakaya', 'yakitori-japanese')
-  else if (cats.includes('고기구이')) queries.push('korean-bbq-grill', 'beef-grilling')
-  else if (tags.some(t => t.includes('마라') || t.includes('훠궈'))) queries.push('hot-pot-chinese', 'spicy-hotpot')
-  else if (cats.includes('중식')) queries.push('chinese-food-noodles', 'dim-sum')
-  else if (cats.includes('양식') || cats.includes('이탈리안')) queries.push('pasta-italian', 'steak-dinner')
-  else if (cats.includes('칼국수')) queries.push('korean-noodle-soup', 'handmade-noodles')
-  else if (cats.includes('야장') || cats.includes('치킨')) queries.push('korean-fried-chicken', 'chicken-beer')
-  else if (cats.includes('와인바')) queries.push('wine-bar-night', 'wine-glass-restaurant')
-  else queries.push('korean-restaurant-food', 'korean-food')
-
-  // 두 번째 이미지: 식당 분위기
-  const ambianceQueries = []
-  if (r.moods?.includes('데이트')) ambianceQueries.push('romantic-restaurant-interior')
-  else if (r.moods?.includes('회식')) ambianceQueries.push('korean-restaurant-group-dining')
-  else if (r.moods?.includes('혼밥')) ambianceQueries.push('solo-dining-counter-seat')
-  else ambianceQueries.push('cozy-restaurant-interior-dark')
-
-  return [
-    `https://source.unsplash.com/800x500/?${queries[0]}`,
-    `https://source.unsplash.com/800x500/?${ambianceQueries[0]}`,
-    queries[1] ? `https://source.unsplash.com/800x500/?${queries[1]}` : null,
-  ].filter(Boolean)
-}
 
 
 // 네이버 지도 URL - 이름에서 지역 suffix 제거 + 좌표 중심 검색
@@ -412,22 +381,25 @@ function fmtPrice(p) {
   return p.split('~').map(n => parseInt(n).toLocaleString('ko-KR')).join('~')
 }
 
-function naverMapUrl(name) {
+
+function formatHours(h) {
+  if (!h) return h
+  return h.replace(/AM (\d+:\d+)/g, '$1 AM').replace(/PM (\d+:\d+)/g, '$1 PM')
+}
+function naverMapUrl(name, lat, lng) {
   const cleaned = name
     .replace(/ (삼성역점|삼성역|삼성동점|삼성점|코엑스점|대치점|선릉점|강남점|삼성본점)$/, '')
-    .replace(/ (잠실점|잠실역점|방이점|송파점|석촌점|잠실새내점|잠실본점)$/, '')
     .replace(/ ([0-9]+호점)$/, '')
     .trim()
-  // 식당명에 삼성/강남/코엑스/선릉/대치 등 지역이 포함되면 그대로, 아니면 " 삼성" 추가
-  const hasRegion = /(삼성|강남|코엑스|선릉|대치|봉은사|테헤란)/.test(name)
-  const query = hasRegion ? cleaned : cleaned + ' 삼성'
+  const query = cleaned + ' 삼성역'
+  if (lat && lng) return `https://map.naver.com/v5/search/${encodeURIComponent(query)}?c=${lng},${lat},15,0,0,0,dh`
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
 
 export default function RestaurantPage({ restaurant: r, similar }) {
   const slug = CAT_TO_SLUG[r.cat?.[0]] || null
   const catName = slug ? CAT_NAMES[slug] : null
-  const mapUrl = naverMapUrl(r.name)
+  const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
   const pageUrl = `https://dinner.ambitstock.com/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`
 
   // 날씨·기분 매칭
@@ -443,10 +415,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   // 감성 인트로 + 이미지
   const intro = buildIntro(r)
-  const foodImages = getFoodImages(r)
 
   // 메타 desc
-  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${r.hours}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 강남뭐먹 AI 추천.`
+  const metaDesc = `${r.name} — 삼성역 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org",
@@ -454,22 +425,36 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "name": r.name,
     "description": metaDesc,
     "url": pageUrl,
+    ...(r.imageUrl ? { "image": r.imageUrl } : {}),
+    ...(r.tel ? { "telephone": r.tel } : {}),
     "servesCuisine": r.type,
     "address": { "@type":"PostalAddress", "streetAddress":r.addr, "addressLocality":"서울특별시 강남구", "addressCountry":"KR" },
     "geo": { "@type":"GeoCoordinates", "latitude":r.lat, "longitude":r.lng },
     "aggregateRating": { "@type":"AggregateRating", "ratingValue":r.rt, "reviewCount":r.cnt, "bestRating":5, "worstRating":1 },
     "openingHours": r.hours,
     "priceRange": r.priceRange ? `₩${fmtPrice(r.priceRange)}` : undefined,
+    "acceptsReservations": r.reservation ? "True" : "False",
+    ...(r.menuItems && r.menuItems.length > 0 ? { "hasMenu": {
+      "@type": "Menu",
+      "hasMenuSection": { "@type":"MenuSection", "name":"대표 메뉴", "hasMenuItem": r.menuItems.slice(0, 8).map(m => ({
+        "@type": "MenuItem", "name": m.menuName,
+        ...(m.price ? { "offers": { "@type":"Offer", "price": m.price, "priceCurrency":"KRW" } } : {}),
+        ...(m.description ? { "description": m.description } : {})
+      }))}
+    }} : {}),
+    ...(r.keywords && r.keywords.length > 0 ? { "keywords": r.keywords.join(', ') } : {}),
   }
 
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours } },
+      { "@type":"Question", "name":`${r.name} 영업시간은?`, "acceptedAnswer":{ "@type":"Answer", "text":r.hours || '매장에 직접 문의 바랍니다.' } },
       { "@type":"Question", "name":`${r.name} 위치(주소)는?`, "acceptedAnswer":{ "@type":"Answer", "text":`서울 강남구 ${r.addr} (삼성역 근처)` } },
       { "@type":"Question", "name":`${r.name} 가격대는?`, "acceptedAnswer":{ "@type":"Answer", "text": r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원입니다.` : '가격 정보는 매장에 직접 문의 바랍니다.' } },
-      { "@type":"Question", "name":`${r.name} 주차 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text":'삼성역 인근 공영주차장 또는 코엑스 주차장을 이용하시거나 대중교통을 권장합니다.' } },
+      { "@type":"Question", "name":`${r.name} 주차 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.parking ? '주차 가능합니다. 상세한 주차 정보는 매장에 문의하세요.' : '삼성역 인근 공영주차장 또는 코엑스 주차장을 이용하시거나 대중교통을 권장합니다.' } },
+      { "@type":"Question", "name":`${r.name} 예약 가능한가요?`, "acceptedAnswer":{ "@type":"Answer", "text": r.reservation ? '예약 가능합니다. 전화 또는 네이버 예약을 이용하세요.' : '예약 없이 방문 가능합니다. 웨이팅이 있을 수 있습니다.' } },
+      ...(r.menuItems && r.menuItems.length > 0 ? [{ "@type":"Question", "name":`${r.name} 대표 메뉴와 가격은?`, "acceptedAnswer":{ "@type":"Answer", "text": r.menuItems.slice(0,5).map(m => `${m.menuName}${m.price ? ` ${m.price.toLocaleString()}원` : ''}`).join(', ') } }] : []),
     ]
   }
 
@@ -477,9 +462,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type":"ListItem", "position":1, "name":"강남뭐먹", "item":"https://gangnamwhat.com" },
-      { "@type":"ListItem", "position":2, "name":"삼성역 맛집", "item":"https://gangnamwhat.com/dinner/samseong" },
-      slug && { "@type":"ListItem", "position":3, "name":`삼성역 ${catName}`, "item":`https://gangnamwhat.com/dinner/samseong/category/${slug}` },
+      { "@type":"ListItem", "position":1, "name":"오늘뭐먹지", "item":"https://dinner.ambitstock.com" },
+      { "@type":"ListItem", "position":2, "name":"삼성역 맛집", "item":"https://dinner.ambitstock.com/dinner/samseong" },
+      slug && { "@type":"ListItem", "position":3, "name":`삼성역 ${catName}`, "item":`https://dinner.ambitstock.com/dinner/samseong/category/${slug}` },
       { "@type":"ListItem", "position": slug ? 4 : 3, "name":r.name, "item":pageUrl },
     ].filter(Boolean)
   }
@@ -499,7 +484,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 브레드크럼 */}
       <div style={{ background:'var(--surface)', borderBottom:'1px solid var(--border)', padding:'10px 16px' }}>
         <div style={{ maxWidth:760, margin:'0 auto', fontSize:'.75rem', color:'var(--muted)', display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          <Link href="/" style={{ color:'var(--muted)' }}>강남뭐먹</Link> <span>›</span>
+          <Link href="/" style={{ color:'var(--muted)' }}>오늘뭐먹지</Link> <span>›</span>
           <Link href="/dinner/samseong" style={{ color:'var(--muted)' }}>삼성역 맛집</Link> <span>›</span>
           {slug && <><Link href={`/dinner/samseong/category/${slug}`} style={{ color:'var(--muted)' }}>삼성역 {catName}</Link> <span>›</span></>}
           <span style={{ color:'var(--text)' }}>{r.name}</span>
@@ -522,14 +507,20 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 {r.exit4 && <span style={{ fontSize:'.7rem', background:'#1a1a00', padding:'2px 8px', borderRadius:100, border:'1px solid #4a4a00', color:'#ffd700' }}>🚇 4번출구 근처</span>}
               </div>
               <p style={{ fontSize:'.84rem', color:'var(--muted)', marginBottom:4 }}>📍 서울 강남구 {r.addr}</p>
-              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {r.hours}</p>
+              <p style={{ fontSize:'.84rem', color:'var(--muted)' }}>🕐 {formatHours(r.hours)}</p>
             </div>
           </div>
           <div style={{ display:'flex', gap:8, marginTop:16, flexWrap:'wrap' }}>
-            <a href={mapUrl} target="_blank" rel="noopener noreferrer"
+            <a href={r.naverUrl || mapUrl} target="_blank" rel="noopener noreferrer"
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--primary)', color:'#fff', fontSize:'.85rem', fontWeight:700, textDecoration:'none' }}>
               📍 지도로 보기
             </a>
+            {r.tel && (
+              <a href={`tel:${r.tel}`}
+                style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
+                📞 전화하기
+              </a>
+            )}
             <Link href="/dinner/samseong"
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
               ✨ AI 맞춤 추천 받기
@@ -554,10 +545,14 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               ['식당 종류', r.type],
               ['주소', `서울 강남구 ${r.addr}`],
               ['영업시간', r.hours],
+              r.tel ? ['전화번호', r.tel] : null,
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
-              ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
+              ['평점', `⭐ ${r.rt > 0 ? r.rt + '점' : '-'} (${r.cnt > 0 ? r.cnt.toLocaleString() + '개 리뷰' : '리뷰 수집 중'})`],
+              r.naverBlogCnt > 0 ? ['블로그 리뷰', `📝 ${r.naverBlogCnt.toLocaleString()}개`] : null,
+              ['주차', r.parking ? '✅ 주차 가능' : '매장 문의 또는 인근 공영주차장'],
+              ['예약', r.reservation ? '✅ 예약 가능' : '매장 문의'],
               ['삼성역 4번출구', r.exit4 ? '✅ 도보 3분 이내' : '삼성역 도보권 내'],
-            ].map(([label, val], i) => (
+            ].filter(Boolean).map(([label, val], i) => (
               <tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}>
                 <td style={{ padding:'10px 14px', color:'var(--muted)', whiteSpace:'nowrap', width:110 }}>{label}</td>
                 <td style={{ padding:'10px 14px' }}>{val}</td>
@@ -586,27 +581,37 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           ))}
         </div>
 
+        {/* 방문자 키워드 뱃지 */}
+        {r.keywords?.length > 0 && (
+          <>
+            <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>
+              {r.keywords.map((kw, i) => (
+                <span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>{kw}</span>
+              ))}
+            </div>
+          </>
+        )}
+
         {/* 메뉴 & 가격 */}
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
-        <p style={pstyle}>
-          <strong>{r.name}</strong>의 대표 메뉴와 가격대입니다. 정확한 메뉴는 방문 전 매장에 확인하세요.
-        </p>
-        <ul style={{ ...ulstyle }}>
-          {/* 음식 관련 태그만 메뉴로 표시 (특성/편의 태그 제외) */}
-          {r.tags?.filter(t => !['리뷰5000+','리뷰1000+','리뷰500+','아침가능','주차가능','혼밥가능','단체가능',
-            '깔끔','친절','빠름','넓음','조용함','가성비','혼밥','데이트','뷰맛집','분위기좋음','노포',
-            '힙함','모던','캐주얼','라이브음악','포차감성','프라이빗','룸'].includes(t)
-            && !['깔끔','친절','빠름','넓음','조용함','가성비','힙한 곳','모던','캐주얼','라이브음악',
-              '포차감성','프라이빗','분위기최고'].some(kw => t.includes(kw))
-          ).map((tag, i) => (
-            <li key={i} style={listyle}>
-              <strong>{tag}</strong>
-            </li>
-          ))}
-          {r.priceRange && (
-            <li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>
-          )}
-        </ul>
+        {r.menuItems?.length > 0 ? (
+          <>
+            <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격입니다. 실제 가격은 방문 시 확인하세요.</p>
+            <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
+              <thead><tr style={{ borderBottom:'2px solid var(--border)' }}><th style={{ padding:'10px 14px', textAlign:'left', color:'var(--muted)', fontWeight:600 }}>메뉴</th><th style={{ padding:'10px 14px', textAlign:'right', color:'var(--muted)', fontWeight:600 }}>가격</th></tr></thead>
+              <tbody>{r.menuItems.map((mi, i) => (<tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}><td style={{ padding:'10px 14px' }}>{mi.menuName ? <><strong>{mi.menuName}</strong>{mi.description && <><br/><span style={{ fontSize:'.8rem', color:'var(--muted)' }}>{mi.description}</span></>}</> : (mi.description || mi.name || '-')}</td><td style={{ padding:'10px 14px', textAlign:'right', fontWeight:600 }}>{mi.price ? `${mi.price.toLocaleString()}원` : '-'}</td></tr>))}</tbody>
+            </table>
+          </>
+        ) : (
+          <>
+            <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격대입니다. 정확한 메뉴는 방문 전 매장에 확인하세요.</p>
+            <ul style={{ ...ulstyle }}>
+              {r.tags?.filter(t => !['리뷰5000+','리뷰1000+','리뷰500+','아침가능','주차가능','혼밥가능','단체가능','깔끔','친절','빠름','넓음','조용함','가성비','혼밥','데이트','뷰맛집','분위기좋음','노포','힙함','모던','캐주얼','라이브음악','포차감성','프라이빗','룸'].includes(t) && !['깔끔','친절','빠름','넓음','조용함','가성비','힙한 곳','모던','캐주얼','라이브음악','포차감성','프라이빗','분위기최고'].some(kw => t.includes(kw))).map((tag, i) => (<li key={i} style={listyle}><strong>{tag}</strong></li>))}
+              {r.priceRange && (<li style={listyle}>1인 평균 가격: <strong>{priceMin}원 ~ {priceMax}원</strong></li>)}
+            </ul>
+          </>
+        )}
 
         {/* 중간 광고 */}
         <AdUnit slot="6297515693" format="auto" style={{ margin: '24px 0' }} />
@@ -652,31 +657,19 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </>
         )}
 
-        {/* 실제 리뷰 */}
-        {r.rv?.length > 0 && (
+        {/* 방문자 키워드 */}
+        {((r.tags?.length > 0) || (r.keywords?.length > 0) || (r.moods?.length > 0)) && (
           <>
-            <h2 style={h2style}>💬 방문자 후기 요약</h2>
-            <p style={pstyle}>
-              실제 방문자들이 자주 언급한 키워드를 요약했습니다.
-            </p>
-            {r.rv.map((rv, i) => {
-              const ratingMatch = rv.match(/^\[([0-9.]+)★\]\s*/)
-              const indivRt = ratingMatch ? parseFloat(ratingMatch[1]) : null
-              const keywords = rv.replace(/^\[[0-9.]+★\]\s*/, '').split(' · ')
-              return (
-                <div key={i} style={{ marginBottom:10, display:'flex', flexWrap:'wrap', alignItems:'center', gap:6 }}>
-                  {indivRt && <span style={{ fontSize:'.75rem', fontWeight:700, color:'var(--primary)', flexShrink:0 }}>⭐ {indivRt}</span>}
-                  {keywords.map((kw, j) => (
-                    <span key={j} style={{
-                      fontSize:'.78rem', padding:'3px 10px', borderRadius:100,
-                      background:'var(--surface)', border:'1px solid var(--border)',
-                      color:'var(--text)', whiteSpace:'nowrap',
-                    }}>{kw}</span>
-                  ))}
-                </div>
-              )
-            })}
-            <a href={naverMapUrl(r.name)}
+            <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+            <p style={pstyle}>실제 방문자들이 자주 언급한 키워드입니다.</p>
+            <div style={{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:16 }}>
+              {[...(r.tags||[]), ...(r.keywords||[]), ...(r.moods||[])].filter((v,i,a)=>a.indexOf(v)===i).slice(0,12).map((kw, i) => (
+                <span key={i} style={{ padding:'6px 14px', borderRadius:100, fontSize:'.82rem', background:'var(--surface)', border:'1px solid var(--border)' }}>
+                  {kw}
+                </span>
+              ))}
+            </div>
+            <a href={naverMapUrl(r.name, r.lat, r.lng)}
               target="_blank" rel="noopener noreferrer"
               style={{
                 display:'inline-flex', alignItems:'center', gap:6,
@@ -686,7 +679,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
                 padding:'6px 12px', textDecoration:'none',
                 background:'var(--surface)', transition:'all .15s',
               }}>
-              🗺️ Google Maps에서 실제 리뷰 보기 →
+              🗺️ 네이버에서 실제 리뷰 보러가기 →
             </a>
           </>
         )}
@@ -729,7 +722,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* FAQ */}
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
         {[
-          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${r.hours}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
+          [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 강남구 ${r.addr}에 위치합니다. 삼성역${r.exit4 ? ' 4번출구에서 도보 3분 거리' : ' 인근'}입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다. 메뉴와 구성에 따라 다를 수 있습니다.` : '정확한 가격은 매장에 문의하거나 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 혼밥 가능한가요?`, r.moods?.includes('혼밥') ? '네, 혼밥하기 좋은 분위기입니다. 혼자 방문해도 전혀 어색하지 않아요.' : '매장 좌석 구성에 따라 다르니 방문 전 확인을 권장합니다.'],

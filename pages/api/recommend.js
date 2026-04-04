@@ -1,8 +1,15 @@
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
 
-  const { prompt } = req.body
+  const { prompt, usageCount } = req.body
   if (!prompt) return res.status(400).json({ error: 'No prompt' })
+
+  const MODEL = 'claude-haiku-4-5-20251001'
+
+  // ~7~9원 수준: 입력 약 1000토큰 × 0.8$/M + 출력 1200~1400토큰 × 4$/M
+  // 절약모드도 1200 유지 — 1000이면 JSON 출력이 잘려 파싱 오류 발생
+  const count = parseInt(usageCount) || 0
+  const maxTokens = count >= 3 ? 900 : 1000
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -13,48 +20,84 @@ export default async function handler(req, res) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 800,
+        model: MODEL,
+        max_tokens: maxTokens,
         messages: [{ role: 'user', content: prompt }]
       })
     })
 
     if (!response.ok) {
-      const errText = await response.text()
-      console.error('Anthropic API error:', response.status, errText)
-      return res.status(502).json({ error: 'Upstream API error', status: response.status })
+      let errBody = {}
+      try { errBody = await response.json() } catch { errBody = { raw: await response.text().catch(()=>'') } }
+      const errType = errBody?.error?.type || ''
+      const errMsg  = errBody?.error?.message || JSON.stringify(errBody).slice(0, 150)
+      console.error(`Anthropic API ${response.status} [${errType}]:`, errMsg)
+
+      let userMsg = `API 오류 (${response.status})`
+      if (response.status === 401) userMsg = 'API 키 오류 — 환경변수를 확인하세요'
+      else if (response.status === 404) userMsg = `모델을 찾을 수 없어요 (${MODEL})`
+      else if (response.status === 429) userMsg = '요청이 너무 많아요. 잠시 후 다시 시도하세요'
+      else if (errType === 'insufficient_quota' || response.status === 402) userMsg = '##QUOTA_EXCEEDED##'
+      else userMsg = errMsg.slice(0, 100)
+
+      return res.status(502).json({ error: userMsg, status: response.status, type: errType })
     }
 
     const data = await response.json()
-
-    // content 블록에서 텍스트 추출
     const text = (data.content || []).map(i => i.text || '').join('')
 
-    // JSON 추출 - 코드블록, 앞뒤 텍스트 제거 후 { } 블록만 파싱
-    const jsonMatch = text.match(/\{[\s\S]*\}/)
-    if (!jsonMatch) {
-      console.error('No JSON in response:', text)
-      return res.status(502).json({ error: 'No JSON in response', raw: text.slice(0, 200) })
+    const cleaned = text.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim()
+    const start = cleaned.indexOf('{')
+    const end   = cleaned.lastIndexOf('}')
+    if (start === -1 || end === -1) {
+      console.error('No JSON block:', text.slice(0, 200))
+      return res.status(502).json({ error: `JSON 블록 없음 — AI 응답: "${text.slice(0,80)}"` })
     }
+    const jsonStr = cleaned.slice(start, end + 1)
 
     let parsed
     try {
-      parsed = JSON.parse(jsonMatch[0])
-    } catch (parseErr) {
-      console.error('JSON parse error:', parseErr.message, '\nRaw:', jsonMatch[0].slice(0, 300))
-      return res.status(502).json({ error: 'JSON parse failed', raw: jsonMatch[0].slice(0, 200) })
+      parsed = JSON.parse(jsonStr)
+    } catch (e1) {
+      const fixed = jsonStr.replace(/"(reason|reviewHighlight|highlight)"\s*:\s*"((?:[^"\\]|\\.)*)"/g, (_, key, val) =>
+        `"${key}": "${val.replace(/(?<!\\)"/g, "'")}"`)
+      try {
+        parsed = JSON.parse(fixed)
+      } catch (e2) {
+        const names = [...jsonStr.matchAll(/"restaurantName"\s*:\s*"([^"]+)"/g)].map(m => m[1])
+        const reasons = [...jsonStr.matchAll(/"reason"\s*:\s*"((?:[^"\\]|\\.){0,500})"/g)].map(m => m[1])
+        const highlights = [...jsonStr.matchAll(/"(?:reviewHighlight|highlight)"\s*:\s*"([^"]{0,50})"/g)].map(m => m[1])
+        const ranks = [...jsonStr.matchAll(/"rank"\s*:\s*(\d)/g)].map(m => parseInt(m[1]))
+        if (names.length === 0) {
+          console.error('All parse failed:', jsonStr.slice(0, 200))
+          return res.status(502).json({ error: `JSON 파싱 실패: ${e2.message.slice(0,60)}` })
+        }
+        parsed = { recommendations: names.map((name, i) => ({
+          rank: ranks[i] || i + 1, restaurantName: name,
+          reason: reasons[i] || '', reviewHighlight: highlights[i] || ''
+        }))}
+      }
     }
 
-    // recommendations 배열 없으면 에러
     if (!Array.isArray(parsed.recommendations) || parsed.recommendations.length === 0) {
-      console.error('No recommendations in parsed:', parsed)
-      return res.status(502).json({ error: 'No recommendations', parsed })
+      return res.status(502).json({ error: 'recommendations 배열이 비어있어요' })
     }
 
-    return res.status(200).json({ recommendations: parsed.recommendations, usage: data.usage || null })
+    const recs = parsed.recommendations
+      .map(r => ({
+        ...r,
+        // 다양한 키명 호환 (restaurantName, name, restaurant_name 등)
+        restaurantName: r.restaurantName || r.name || r.restaurant_name || r.restaurant || '',
+        reviewHighlight: r.reviewHighlight || r.highlight || r.review_highlight || ''
+      }))
+      .filter(r => r.restaurantName && r.restaurantName.trim() !== '' && r.restaurantName !== 'undefined')
+    if (recs.length === 0) {
+      return res.status(502).json({ error: 'restaurantName 필드가 없는 응답' })
+    }
+    return res.status(200).json({ recommendations: recs, usage: data.usage || null })
 
   } catch (err) {
     console.error('Handler error:', err)
-    return res.status(500).json({ error: 'Internal error', message: err.message })
+    return res.status(500).json({ error: err.message || '서버 내부 오류' })
   }
 }

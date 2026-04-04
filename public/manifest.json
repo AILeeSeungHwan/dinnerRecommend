@@ -1,7 +1,7 @@
 {
-  "name": "강남뭐먹 — 삼성역 맛집 AI 추천",
-  "short_name": "강남뭐먹",
-  "description": "삼성역·코엑스 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+",
+  "name": "오늘뭐먹지 — AI 맛집 추천",
+  "short_name": "오늘뭐먹지",
+  "description": "삼성역·잠실역·영통역 맛집 AI 추천. 오늘 뭐 먹지 고민 끝!",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1117",
