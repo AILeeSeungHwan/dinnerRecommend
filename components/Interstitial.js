@@ -5,7 +5,7 @@ const KEY_AUTO = 'interstitial_auto_last'   // 자동 노출 쿨다운 (5분)
 const COOLDOWN_LINK = 2 * 60 * 1000        // 2분
 const COOLDOWN_AUTO = 5 * 60 * 1000        // 5분
 const AUTO_SHOW_DELAY = 60 * 1000          // 1분 후 자동 노출
-const AUTO_CLOSE_SEC = 5                   // 5초 자동 닫기
+const AUTO_CLOSE_SEC = 3                   // 3초 자동 닫기
 
 export default function Interstitial() {
   const [visible, setVisible] = useState(false)
@@ -126,67 +126,61 @@ export default function Interstitial() {
   if (!visible) return null
 
   return (
-    <div
-      onClick={closeAd}
-      style={{
-        position: 'fixed', inset: 0, zIndex: 9999,
-        background: 'rgba(0,0,0,.85)',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        padding: 16,
-        cursor: 'pointer',
-      }}
-    >
+    <>
+      <style>{`
+        .interstitial-box {
+          width: 70vw;
+          height: 70vh;
+        }
+        @media (max-width: 768px) {
+          .interstitial-box {
+            width: 90vw;
+            height: 90vh;
+          }
+        }
+      `}</style>
+      {/* 배경 클릭 닫기 없음 — cursor default */}
       <div
-        onClick={e => e.stopPropagation()}
         style={{
-          background: '#fff', borderRadius: 16, overflow: 'hidden',
-          width: '100%', maxWidth: 360, position: 'relative',
-          boxShadow: '0 20px 60px rgba(0,0,0,.6)',
+          position: 'fixed', inset: 0, zIndex: 9999,
+          background: 'rgba(0,0,0,.85)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
           cursor: 'default',
         }}
       >
-        {/* 헤더 */}
-        <div style={{
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          padding: '10px 14px',
-          background: '#f8f8f8', borderBottom: '1px solid #e0e0e0',
-        }}>
-          <span style={{ fontSize: '.72rem', color: '#888' }}>광고</span>
+        <div
+          className="interstitial-box"
+          style={{
+            background: '#fff', borderRadius: 16, overflow: 'hidden',
+            position: 'relative',
+            boxShadow: '0 20px 60px rgba(0,0,0,.6)',
+          }}
+        >
+          {/* 닫기 버튼 — 우상단 절대위치 */}
           <button
             onClick={closeAd}
             style={{
-              background: '#333', color: '#fff', border: 'none',
-              borderRadius: 100, width: 26, height: 26, cursor: 'pointer',
-              fontSize: '.75rem', fontWeight: 700, display: 'flex',
-              alignItems: 'center', justifyContent: 'center', flexShrink: 0,
+              position: 'absolute', top: 10, right: 10, zIndex: 10,
+              background: 'rgba(0,0,0,0.3)', color: '#fff', border: 'none',
+              borderRadius: '50%', width: 24, height: 24, cursor: 'pointer',
+              fontSize: 14, fontWeight: 700,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              lineHeight: 1,
             }}
           >
             {seconds > 0 ? seconds : '✕'}
           </button>
-        </div>
 
-        {/* 광고 영역 */}
-        <div style={{
-          padding: '8px 0', minHeight: 260,
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-        }}>
+          {/* 광고 영역 — 100%×100% */}
           <ins
             className="adsbygoogle"
-            style={{ display: 'block', width: 320, height: 250 }}
+            style={{ display: 'block', width: '100%', height: '100%' }}
             data-ad-client="ca-pub-8640254349508671"
             data-ad-slot="6297515693"
             data-ad-format="rectangle"
           />
         </div>
-
-        {/* 닫기 안내 */}
-        <div style={{
-          padding: '8px 14px 12px', textAlign: 'center',
-          fontSize: '.7rem', color: '#aaa',
-        }}>
-          {seconds > 0 ? `${seconds}초 후 자동 닫힘` : '닫기 버튼을 눌러주세요'}
-        </div>
       </div>
-    </div>
+    </>
   )
 }
