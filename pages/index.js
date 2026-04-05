@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import AdUnit from '../components/AdUnit'
-import MultiplexAd from '../components/MultiplexAd'
 import samseongData from '../data/samseong'
 import jamsilData from '../data/jamsil'
 import yeongtongData from '../data/yeongtong'
@@ -331,8 +330,6 @@ export default function Home() {
           </p>
         </article>
 
-        {/* 멀티플렉스 광고 */}
-        <MultiplexAd />
       </div>
     </Layout>
   )

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
-import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -738,9 +737,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
-
-        {/* 멀티플렉스 광고 */}
-        <MultiplexAd />
 
       </article>
     </Layout>
