@@ -520,6 +520,10 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
               ✨ AI 맞춤 추천 받기
             </Link>
+            <Link href="/suji"
+              style={{ padding:'9px 18px', borderRadius:10, background:'#FF6B35', color:'#fff', fontSize:'.85rem', fontWeight:700, textDecoration:'none' }}>
+              🎡 수지구청역 뭐먹지? 룰렛돌리기
+            </Link>
           </div>
         </div>
       </section>
@@ -535,6 +539,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
         {/* 기본 정보 표 */}
         <h2 style={h2style}>📋 기본 정보</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
           <tbody>
             {[
@@ -580,6 +585,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {r.keywords?.length > 0 && (
           <>
             <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>
               {r.keywords.map((kw, i) => (
                 <span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>
@@ -592,6 +598,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
         {/* 메뉴 & 가격 */}
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         {r.menuItems?.length > 0 ? (
           <>
             <p style={pstyle}><strong>{r.name}</strong>의 대표 메뉴와 가격입니다. 실제 가격은 방문 시 확인하세요.</p>
@@ -638,6 +645,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {matchedWx.length > 0 && (
           <>
             <h2 style={h2style}>🌤️ 이런 날씨에 특히 추천해요</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             {matchedWx.map((wx, i) => (
               <div key={i} style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'14px 16px', marginBottom:10, display:'flex', gap:12, alignItems:'flex-start' }}>
                 <span style={{ fontSize:'1.5rem', flexShrink:0 }}>{wx.emoji}</span>
@@ -651,6 +659,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {matchedMoods.length > 0 && (
           <>
             <h2 style={h2style}>😊 이런 기분일 때 추천</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <ul style={ulstyle}>
               {matchedMoods.map(({ mood, copy }, i) => (
                 <li key={i} style={listyle}>
@@ -665,6 +674,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {r.scene?.length > 0 && (
           <>
             <h2 style={h2style}>💡 이런 상황에 딱입니다</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <div style={{ display:'flex', flexWrap:'wrap', gap:7, marginBottom:24 }}>
               {r.scene.map((s, i) => (
                 <span key={i} style={{ padding:'6px 14px', borderRadius:100, fontSize:'.82rem', background:'var(--surface)', border:'1px solid var(--border)' }}>
@@ -679,6 +689,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {((r.tags?.length > 0) || (r.keywords?.length > 0) || (r.moods?.length > 0)) && (
           <>
             <h2 style={h2style}>🏷️ 방문자 키워드</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <p style={pstyle}>실제 방문자들이 자주 언급한 키워드입니다.</p>
             <div style={{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:16 }}>
               {[...(r.tags||[]), ...(r.keywords||[]), ...(r.moods||[])].filter((v,i,a)=>a.indexOf(v)===i).slice(0,12).map((kw, i) => (
@@ -706,6 +717,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {effect && (
           <>
             <h2 style={h2style}>🔬 {effect.title}</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <p style={pstyle}>
               과학적 근거는 없지만, 수많은 직장인의 체감 데이터를 기반으로 정리했습니다. (진지주의)
             </p>
@@ -719,6 +731,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
         {/* 위치 & 찾아가는 법 */}
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <p style={pstyle}>
           <strong>{r.name}</strong>은 경기 용인시 {r.addr}에 위치한 수지 맛집입니다.
           {r.exit4
@@ -739,6 +752,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
         {/* FAQ */}
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         {[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `경기도 용인시 수지구 ${r.addr}에 위치합니다. 수지${r.exit4 ? ' 인근' : ' 인근'}입니다.`],
@@ -758,6 +772,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {similar?.length > 0 && (
           <>
             <h2 style={h2style}>🍽️ 수지 {r.type} 맛집 더 보기</h2>
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
             <p style={pstyle}>
               <strong>{r.name}</strong>와 비슷한 수지 {r.type} 맛집을 더 추천해드립니다.
             </p>

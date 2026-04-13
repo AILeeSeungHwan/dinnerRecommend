@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 
-const KEY_LINK = 'interstitial_link_last'   // 링크 클릭 쿨다운 (2분)
+const KEY_LINK = 'interstitial_link_last'   // 링크 클릭 쿨다운 (1분)
 const KEY_AUTO = 'interstitial_auto_last'   // 자동 노출 쿨다운 (5분)
-const COOLDOWN_LINK = 2 * 60 * 1000        // 2분
+const COOLDOWN_LINK = 1 * 60 * 1000        // 1분
 const COOLDOWN_AUTO = 5 * 60 * 1000        // 5분
 const AUTO_SHOW_DELAY = 60 * 1000          // 1분 후 자동 노출
 const AUTO_CLOSE_SEC = 5                   // 5초 카운트다운 (이후 수동 닫기만 가능)
@@ -13,6 +13,7 @@ export default function Interstitial() {
   const timerRef = useRef(null)
   const pushed = useRef(false)
   const pendingHref = useRef(null)
+  const pendingBlank = useRef(false)
 
   // AdSense push (한 번만)
   const pushAd = () => {
@@ -57,15 +58,14 @@ export default function Interstitial() {
 
       const href = anchor.getAttribute('href') || ''
 
-      // 제외: #, javascript:, 빈 값, 새 탭(_blank)
+      // 제외: #, javascript:, 빈 값
       if (
         !href ||
         href.startsWith('#') ||
-        href.startsWith('javascript:') ||
-        anchor.target === '_blank'
+        href.startsWith('javascript:')
       ) return
 
-      // 쿨다운 체크 (2분)
+      // 쿨다운 체크 (1분)
       const last = parseInt(sessionStorage.getItem(KEY_LINK) || '0', 10)
       const now = Date.now()
       if (now - last < COOLDOWN_LINK) return
@@ -76,6 +76,7 @@ export default function Interstitial() {
 
       sessionStorage.setItem(KEY_LINK, now)
       pendingHref.current = href
+      pendingBlank.current = anchor.target === '_blank'
       openAd()
     }
 
@@ -112,8 +113,14 @@ export default function Interstitial() {
     // 닫기 버튼으로 직접 닫은 경우에도 href 이동
     if (pendingHref.current) {
       const href = pendingHref.current
+      const isBlank = pendingBlank.current
       pendingHref.current = null
-      window.location.href = href
+      pendingBlank.current = false
+      if (isBlank) {
+        window.open(href, '_blank', 'noopener,noreferrer')
+      } else {
+        window.location.href = href
+      }
     }
   }
 
