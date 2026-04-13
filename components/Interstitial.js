@@ -5,7 +5,7 @@ const KEY_AUTO = 'interstitial_auto_last'   // 자동 노출 쿨다운 (5분)
 const COOLDOWN_LINK = 2 * 60 * 1000        // 2분
 const COOLDOWN_AUTO = 5 * 60 * 1000        // 5분
 const AUTO_SHOW_DELAY = 60 * 1000          // 1분 후 자동 노출
-const AUTO_CLOSE_SEC = 3                   // 3초 자동 닫기
+const AUTO_CLOSE_SEC = 5                   // 5초 카운트다운 (이후 수동 닫기만 가능)
 
 export default function Interstitial() {
   const [visible, setVisible] = useState(false)
@@ -33,14 +33,8 @@ export default function Interstitial() {
       setSeconds(prev => {
         if (prev <= 1) {
           clearInterval(timerRef.current)
-          setVisible(false)
-          // 링크 클릭으로 열린 경우 href 이동
-          if (pendingHref.current) {
-            const href = pendingHref.current
-            pendingHref.current = null
-            window.location.href = href
-          }
-          return AUTO_CLOSE_SEC
+          // 자동 닫기 없음 — X 버튼 클릭 시만 닫힘
+          return 0
         }
         return prev - 1
       })
@@ -158,14 +152,18 @@ export default function Interstitial() {
         >
           {/* 닫기 버튼 — 우상단 절대위치 */}
           <button
-            onClick={closeAd}
+            onClick={seconds > 0 ? undefined : closeAd}
             style={{
               position: 'absolute', top: 10, right: 10, zIndex: 10,
-              background: 'rgba(0,0,0,0.3)', color: '#fff', border: 'none',
-              borderRadius: '50%', width: 24, height: 24, cursor: 'pointer',
-              fontSize: 14, fontWeight: 700,
+              background: seconds > 0 ? 'rgba(0,0,0,0.2)' : 'rgba(0,0,0,0.5)',
+              color: seconds > 0 ? 'rgba(255,255,255,0.6)' : '#fff',
+              border: 'none',
+              borderRadius: '50%', width: 28, height: 28,
+              cursor: seconds > 0 ? 'not-allowed' : 'pointer',
+              fontSize: seconds > 0 ? 12 : 15, fontWeight: 700,
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               lineHeight: 1,
+              transition: 'all .3s',
             }}
           >
             {seconds > 0 ? seconds : '✕'}

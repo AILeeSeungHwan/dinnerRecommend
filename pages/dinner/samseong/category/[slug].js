@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import AdUnit from '../../../../components/AdUnit'
+import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/samseong'
 
 const CATEGORY_MAP = {
@@ -319,8 +321,9 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
         </h2>
         <div className="restaurant-grid">
           {sortedByRating.map((r, i) => (
-            <Link href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`} key={i}>
-              <div className="restaurant-card">
+            <React.Fragment key={i}>
+              <Link href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}>
+                <div className="restaurant-card">
                 <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
                   <div className="card-name">{r.e} {r.name}</div>
                   <span style={{ fontSize:'.75rem', color:'var(--muted)', flexShrink:0 }}>#{i+1}</span>
@@ -335,6 +338,12 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
                     </div>
               </div>
             </Link>
+            {(i + 1) % 9 === 0 && (
+              <div style={{ gridColumn:'1 / -1' }}>
+                <AdUnit slot="9138210374" format="auto" />
+              </div>
+            )}
+          </React.Fragment>
           ))}
         </div>
 
@@ -499,7 +508,11 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
           </p>
         </article>
 
-        <div style={{ marginTop:24, display:'flex', gap:10 }}>
+        <div style={{ marginTop:24, marginBottom:24 }}>
+          <AdUnit slot="9138210374" format="auto" />
+        </div>
+
+        <div style={{ display:'flex', gap:10 }}>
           <Link href="/dinner/samseong" className="btn btn-ghost">← 삼성역 전체 맛집</Link>
           <Link href="/dinner/samseong" className="btn btn-primary">✨ AI 추천 받기</Link>
         </div>

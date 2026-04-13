@@ -1,6 +1,8 @@
+import React, { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useEffect, useRef } from 'react'
+import AdUnit from '../../../components/AdUnit'
+import MultiplexAd from '../../../components/MultiplexAd'
 import restaurants from '../../../data/pangyo'
 
 function fmtPrice(p) {
@@ -256,25 +258,34 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         )}
 
         {/* TOP 랭킹 */}
-        <h2 style={{ fontSize:'1rem', fontWeight:700, marginBottom:16, color:'var(--muted)' }}>
+        <h2 style={{ fontSize:'1rem', fontWeight:700, marginBottom:12, color:'var(--muted)' }}>
           ⭐ 평점 순 랭킹
         </h2>
+        {/* 첫번째 h2 이후 멀티플렉스 광고 */}
+        <MultiplexAd style={{ marginBottom:16 }} />
         <div className="restaurant-grid">
           {sorted.map((r, i) => (
-            <Link href={`/pangyo/restaurant/${encodeURIComponent(r.name)}`} key={i}>
-              <div className="restaurant-card">
-                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
-                  <div className="card-name">{r.e} {r.name}</div>
-                  <span style={{ fontSize:'.75rem', color:'var(--muted)', flexShrink:0 }}>#{i+1}</span>
+            <React.Fragment key={i}>
+              <Link href={`/pangyo/restaurant/${encodeURIComponent(r.name)}`}>
+                <div className="restaurant-card">
+                  <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
+                    <div className="card-name">{r.e} {r.name}</div>
+                    <span style={{ fontSize:'.75rem', color:'var(--muted)', flexShrink:0 }}>#{i+1}</span>
+                  </div>
+                  <div className="card-meta">
+                    <span className="tag">{r.type}</span>
+                    <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()})</span>
+                    {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
+                  </div>
+                  <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
                 </div>
-                <div className="card-meta">
-                  <span className="tag">{r.type}</span>
-                  <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()})</span>
-                  {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
+              </Link>
+              {(i + 1) % 9 === 0 && (
+                <div style={{ gridColumn:'1 / -1' }}>
+                  <AdUnit slot="9138210374" format="auto" />
                 </div>
-                <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
-              </div>
-            </Link>
+              )}
+            </React.Fragment>
           ))}
         </div>
 
@@ -441,7 +452,11 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
           </p>
         </article>
 
-        <div style={{ marginTop:24, display:'flex', gap:10 }}>
+        <div style={{ marginTop:24, marginBottom:24 }}>
+          <AdUnit slot="9138210374" format="auto" />
+        </div>
+
+        <div style={{ display:'flex', gap:10 }}>
           <Link href="/pangyo" className="btn btn-ghost">← 판교역 전체 맛집</Link>
           <Link href="/pangyo" className="btn btn-primary">AI 추천 받기</Link>
         </div>

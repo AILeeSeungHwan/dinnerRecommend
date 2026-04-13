@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
+import AdUnit from '../../../components/AdUnit'
+import MultiplexAd from '../../../components/MultiplexAd'
 import restaurants from '../../../data/mangpo'
 import posts from '../../../data/posts'
 
@@ -85,6 +87,7 @@ function MenuRouletteTab() {
   const [result, setResult] = useState(null)
   const [matchedRestaurants, setMatchedRestaurants] = useState([])
   const [angleState, setAngleState] = useState(0)
+  const [showRouletteAd, setShowRouletteAd] = useState(false)
   const [activeMenus, setActiveMenus] = useState(() =>
     [...ROULETTE_MENUS].sort(() => Math.random() - 0.5).slice(0, 15)
   )
@@ -113,6 +116,7 @@ function MenuRouletteTab() {
       setSpinning(false); const menu = shuffledMenus[picked]; setResult(menu)
       const pool = getMatching(menu), s = [...pool].sort(() => Math.random() - 0.5)
       setMatchedRestaurants(s.slice(0, Math.min(6, s.length)))
+      setShowRouletteAd(true)
     }, 5300)
   }
   function reshuffleRestaurants() {
@@ -1342,6 +1346,7 @@ function AiApp({ pendingCat, onPendingCatUsed }) {
   const [noDataMenu, setNoDataMenu] = useState(null) // DB에 없는 메뉴 감지 팝업
   const [rouletteIdx, setRouletteIdx] = useState(0)      // 룰렛 현재 하이라이트
   const [rouletteDone,setRouletteDone]= useState(false)  // 룰렛 완료
+  const [showAiAd,   setShowAiAd]    = useState(false)  // AI 검색 결과 광고
   const [showIdleBar, setShowIdleBar] = useState(false)  // 30초 idle 바
   const [idleCount,   setIdleCount]   = useState(30)     // 카운트다운
   const [idlePaused,  setIdlePaused]  = useState(false)  // 일시정지
@@ -1750,6 +1755,7 @@ const usageCnt = getUsageCount()
       setUsedToday(newCount)
       markShown(matched)
       setResults(matched)
+      setShowAiAd(true)
       setPickedIdx(null); setShowIdleBar(false); setIdleCount(30); setShowRoulette(false); setRouletteDone(false)
       scrollTo()
     } catch (err) {
@@ -1880,6 +1886,13 @@ const usageCnt = getUsageCount()
         {results && (
           <div ref={resultsRef} style={{ marginTop:24, maxWidth:'100%', overflowX:'hidden' }}
             onMouseMove={resetIdle} onClick={resetIdle} onTouchStart={resetIdle}>
+
+            {/* ── AI 검색 결과 광고 ── */}
+            {showAiAd && (
+              <div style={{ marginBottom:16 }}>
+                <AdUnit slot="9138210374" format="auto" />
+              </div>
+            )}
 
             {/* ── idle 카운트다운 바 ── */}
             {showIdleBar && !pickedIdx && !showRoulette && (
@@ -2174,17 +2187,24 @@ function BrowseTab() {
       </div>
       <div className="restaurant-grid">
         {filtered.map((r,i)=>(
-          <Link href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(r.name)}`} key={i}>
-            <div className="restaurant-card">
-              <div className="card-name">{r.e} {r.name}</div>
+          <React.Fragment key={i}>
+            <Link href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(r.name)}`}>
+              <div className="restaurant-card">
+                <div className="card-name">{r.e} {r.name}</div>
               <div className="card-meta">
                 <span className="tag">{r.type}</span>
                 <span className="tag rating">⭐{r.rt}</span>
                 {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
               </div>
-              <div className="card-addr">📍 {r.addr}</div>
-            </div>
-          </Link>
+                <div className="card-addr">📍 {r.addr}</div>
+              </div>
+            </Link>
+            {(i + 1) % 9 === 0 && (
+              <div style={{ gridColumn:'1 / -1' }}>
+                <AdUnit slot="9138210374" format="auto" />
+              </div>
+            )}
+          </React.Fragment>
         ))}
       </div>
     </div>
@@ -2247,7 +2267,7 @@ export default function SamseongPage() {
 
       <div style={{ maxWidth:900,margin:'0 auto',padding:'20px 16px' }}>
         <div style={{ display:'flex',borderBottom:'1px solid var(--border)',marginBottom:20 }}>
-          {[{id:'roulette',label:'🎰 룰렛'},{id:'ai',label:'🔍 검색'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
+          {[{id:'roulette',label:'🎰 룰렛'},{id:'ai',label:'✨ AI검색'},{id:'browse',label:'📋 전체 목록'},{id:'categories',label:'🗂️ 카테고리'}].map(tab=>(
             <button key={tab.id} onClick={()=>switchTab(tab.id)} style={{
               padding:'10px 16px',fontSize:'.85rem',fontWeight:activeTab===tab.id?700:400,
               background:'none',border:'none',cursor:'pointer',
@@ -2323,6 +2343,14 @@ export default function SamseongPage() {
             </div>
           </div>
         )}
+        {/* 하단 광고 배너 */}
+        <div style={{ marginTop:32, marginBottom:8 }}>
+          <AdUnit slot="9138210374" format="auto" />
+        </div>
+        <div style={{ marginBottom:32 }}>
+          <MultiplexAd />
+        </div>
+
         {/* 최신 맛집 가이드 */}
         {posts.filter(p => p.region === 'mangpo').length > 0 && (
           <section style={{ marginTop:40 }}>

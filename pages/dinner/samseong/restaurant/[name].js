@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
+import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
@@ -529,13 +530,14 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
       </section>
 
-      {/* 상단 광고 */}
-      <div style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 0' }}>
-        <AdUnit slot="9138210374" format="auto" />
-      </div>
-
       {/* 본문 */}
-      <article style={{ maxWidth:760, margin:'0 auto', padding:'16px 16px 60px' }}>
+      <article style={{ maxWidth:760, margin:'0 auto', padding:'28px 16px 60px' }}>
+
+        {/* 상단 광고 2개 (한 줄) */}
+        <div style={{ display:'flex', gap:10, marginBottom:20 }}>
+          <div style={{ flex:1, minWidth:0 }}><AdUnit slot="9138210374" format="auto" /></div>
+          <div style={{ flex:1, minWidth:0 }}><AdUnit slot="9138210374" format="auto" /></div>
+        </div>
 
         {/* 기본 정보 표 */}
         <h2 style={h2style}>📋 기본 정보</h2>
@@ -560,6 +562,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ))}
           </tbody>
         </table>
+
+        {/* 첫번째 h2 이후 멀티플렉스 광고 */}
+        <MultiplexAd style={{ marginBottom:20 }} />
 
         {/* ── 감성 인트로 ── */}
         <div style={{
@@ -615,6 +620,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
         {/* 중간 광고 */}
         <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
+
+        {/* 메뉴&가격 이후 광고 (h2 2개 후) */}
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:24 }} />
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
@@ -732,6 +740,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             <div style={{ padding:'12px 16px', fontSize:'.86rem', color:'var(--muted)', lineHeight:1.7 }}>A. {a}</div>
           </div>
         ))}
+
+        {/* FAQ 이후 광고 (h2 2개 후) */}
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:24 }} />
 
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
