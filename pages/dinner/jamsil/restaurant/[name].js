@@ -520,7 +520,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
               style={{ padding:'9px 18px', borderRadius:10, background:'var(--surface2)', border:'1px solid var(--border)', color:'var(--text)', fontSize:'.85rem', textDecoration:'none' }}>
               ✨ AI 맞춤 추천 받기
             </Link>
-            <Link href="/dinner/jamsil"
+            <Link href="/dinner/jamsil?tab=roulette"
               style={{ padding:'9px 18px', borderRadius:10, background:'#FF6B35', color:'#fff', fontSize:'.85rem', fontWeight:700, textDecoration:'none' }}>
               🎡 잠실역 뭐먹지? 룰렛돌리기
             </Link>

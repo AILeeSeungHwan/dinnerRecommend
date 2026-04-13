@@ -42,6 +42,21 @@ export default function Interstitial() {
     }, 1000)
   }
 
+  // window.__showInterstitial 전역 노출 (탭 버튼 등 비링크 클릭에서 호출)
+  useEffect(() => {
+    window.__showInterstitial = () => {
+      const last = parseInt(sessionStorage.getItem(KEY_LINK) || '0', 10)
+      const now = Date.now()
+      if (now - last < COOLDOWN_LINK) return
+      sessionStorage.setItem(KEY_LINK, now)
+      pendingHref.current = null
+      pendingBlank.current = false
+      openAd()
+    }
+    return () => { delete window.__showInterstitial }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   // visible 시 광고 push
   useEffect(() => {
     if (visible) {

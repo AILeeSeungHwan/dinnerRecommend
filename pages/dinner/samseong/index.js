@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import Layout from '../../../components/Layout'
 import AdUnit from '../../../components/AdUnit'
 import MultiplexAd from '../../../components/MultiplexAd'
@@ -238,7 +239,7 @@ function MenuRouletteTab() {
 
       {/* 돌리기 버튼 */}
       <div style={{ textAlign:'center', marginBottom:24 }}>
-        <button onClick={spin} disabled={spinning}
+        <button onClick={()=>{ window.__showInterstitial?.(); spin() }} disabled={spinning}
           style={{
             padding:'14px 40px', borderRadius:14,
             background: spinning ? 'var(--surface2)' : 'linear-gradient(135deg, var(--primary), var(--accent))',
@@ -2018,7 +2019,7 @@ const usageCnt = getUsageCount()
 
 
         <div style={{ display:'flex',gap:8 }}>
-          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} handleRecommendClick() }} disabled={loading||dicing} style={{
+          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} window.__showInterstitial?.(); handleRecommendClick() }} disabled={loading||dicing} style={{
             flex:1,padding:'13px',borderRadius:10,background:'var(--primary)',
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
@@ -2405,12 +2406,20 @@ function BrowseTab() {
 
 // ── 메인 ─────────────────────────────────────────────────────
 export default function SamseongPage() {
+  const router = useRouter()
   const [activeTab, setActiveTab] = useState(() => {
     if (typeof window !== 'undefined') return sessionStorage.getItem('samseong-tab') || 'roulette'
     return 'roulette'
   })
   const [pendingCat, setPendingCat] = useState(null)
-  const switchTab = (tab) => { setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
+  const switchTab = (tab) => { window.__showInterstitial?.(); setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
+  useEffect(() => {
+    const t = router.query.tab
+    if (t && ['roulette','ai','browse','categories'].includes(t)) {
+      setActiveTab(t)
+      sessionStorage.setItem('samseong-tab', t)
+    }
+  }, [router.query.tab])
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
