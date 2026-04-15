@@ -439,8 +439,9 @@ export default function Layout({ children, title, description, canonical, jsonLd
     return () => window.removeEventListener('token-used', handler)
   }, [])
 
-  // 사이드 광고 push
+  // 사이드 광고 push (1300px 이상일 때만 — display:none 상태에서 push하면 iframe 미생성)
   useEffect(() => {
+    if (window.innerWidth < 1300) return
     try {
       const ads = document.querySelectorAll('.side-ad ins.adsbygoogle')
       ads.forEach(ins => {
