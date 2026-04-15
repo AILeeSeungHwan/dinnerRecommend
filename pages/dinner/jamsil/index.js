@@ -2271,7 +2271,7 @@ function BrowseTab() {
                 <div className="card-addr">📍 {r.addr}</div>
               </div>
             </Link>
-            {(i + 1) % 9 === 0 && (
+            {(i + 1) % 3 === 0 && (
               <div style={{ gridColumn:'1 / -1' }}>
                 <AdUnit slot="9138210374" format="auto" />
               </div>
@@ -2407,7 +2407,7 @@ export default function SamseongPage() {
                       </div>
                     </Link>
                     <button
-                      onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} setPendingCat(cat); switchTab('ai') }}
+                      onClick={()=>{ setPendingCat(cat); switchTab('ai') }}
                       style={{
                         width:'100%', padding:'10px',
                         borderTop:'1px solid var(--border)',

@@ -657,22 +657,18 @@ export default function PostPage({ meta, sections, related }) {
                 })
               }
 
-              // h2 있을 때: h2 2개마다 1개 인라인 광고 (제한 없음)
-              let h2Count = 0
+              // h2 있을 때: h2마다 1개 인라인 광고 (제한 없음)
               return sections.map((section, idx) => {
                 // 기존 포스트 파일의 ad 섹션은 스킵 (렌더러가 자동 처리)
                 if (section.type === 'ad') return null
                 const el = renderSection(section, idx, sections, related)
                 if (section.type === 'h2') {
-                  h2Count++
-                  if (h2Count % 2 === 0) {
-                    return (
-                      <div key={'h2-ad-' + idx}>
-                        {el}
-                        <InArticleAdSection />
-                      </div>
-                    )
-                  }
+                  return (
+                    <div key={'h2-ad-' + idx}>
+                      {el}
+                      <InArticleAdSection />
+                    </div>
+                  )
                 }
                 return el
               })

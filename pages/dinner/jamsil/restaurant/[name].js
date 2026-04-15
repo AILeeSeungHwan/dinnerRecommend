@@ -531,6 +531,33 @@ export default function RestaurantPage({ restaurant: r, similar }) {
       {/* 본문 */}
       <article style={{ maxWidth:760, margin:'0 auto', padding:'28px 16px 60px' }}>
 
+
+        {/* CTA 배너 — 지역 AI 추천 유도 */}
+        <a href="/dinner/jamsil?tab=roulette" style={ textDecoration:'none', display:'block', marginBottom:20 }>
+          <div style={
+            background:'linear-gradient(135deg, #FF6B35 0%, #FF8C42 50%, #FFB347 100%)',
+            borderRadius:16, padding:'18px 20px',
+            boxShadow:'0 4px 20px rgba(255,107,53,.35)',
+            display:'flex', alignItems:'center', gap:14,
+            cursor:'pointer',
+          }>
+            <div style={ fontSize:'2rem', flexShrink:0 }>🎯</div>
+            <div style={ flex:1 }>
+              <div style={ color:'#fff', fontWeight:900, fontSize:'1rem', marginBottom:4, lineHeight:1.3 }>
+                잠실역 뭐 먹을지 아직 못 정하셨나요?
+              </div>
+              <div style={ color:'rgba(255,255,255,.85)', fontSize:'.8rem', marginBottom:10 }>
+                롯데월드·석촌호수·방이 맛집 AI 추천 — 날씨·기분·예산에 맞게 AI가 바로 골라드려요
+              </div>
+              <span style={
+                display:'inline-block', background:'#fff',
+                color:'#FF6B35', fontWeight:800, fontSize:'.82rem',
+                padding:'6px 16px', borderRadius:20,
+                boxShadow:'0 2px 8px rgba(0,0,0,.15)',
+              }>✨ 무료 AI 추천 받기 →</span>
+            </div>
+          </div>
+        </a>
         {/* 상단 광고 2개 (한 줄) */}
         <div style={{ display:'flex', gap:10, marginBottom:20 }}>
           <div style={{ flex:1, minWidth:0 }}><AdUnit slot="9138210374" format="auto" /></div>

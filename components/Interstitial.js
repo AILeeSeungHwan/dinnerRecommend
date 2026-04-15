@@ -2,8 +2,10 @@ import { useEffect, useRef, useState } from 'react'
 
 const KEY_LINK = 'interstitial_link_last'   // 링크 클릭 쿨다운 (1분)
 const KEY_AUTO = 'interstitial_auto_last'   // 자동 노출 쿨다운 (5분)
+const KEY_BTN  = 'interstitial_btn_last'    // 버튼(룰렛/AI/탭) 쿨다운 (1분)
 const COOLDOWN_LINK = 1 * 60 * 1000        // 1분
 const COOLDOWN_AUTO = 5 * 60 * 1000        // 5분
+const COOLDOWN_BTN  = 1 * 60 * 1000        // 1분
 const AUTO_SHOW_DELAY = 60 * 1000          // 1분 후 자동 노출
 const AUTO_CLOSE_SEC = 5                   // 5초 카운트다운 (이후 수동 닫기만 가능)
 
@@ -42,13 +44,13 @@ export default function Interstitial() {
     }, 1000)
   }
 
-  // window.__showInterstitial 전역 노출 (탭 버튼 등 비링크 클릭에서 호출)
+  // window.__showInterstitial 전역 노출 (탭/룰렛/AI 버튼에서 호출, KEY_BTN 별도 쿨다운)
   useEffect(() => {
     window.__showInterstitial = () => {
-      const last = parseInt(sessionStorage.getItem(KEY_LINK) || '0', 10)
+      const last = parseInt(sessionStorage.getItem(KEY_BTN) || '0', 10)
       const now = Date.now()
-      if (now - last < COOLDOWN_LINK) return
-      sessionStorage.setItem(KEY_LINK, now)
+      if (now - last < COOLDOWN_BTN) return
+      sessionStorage.setItem(KEY_BTN, now)
       pendingHref.current = null
       pendingBlank.current = false
       openAd()
