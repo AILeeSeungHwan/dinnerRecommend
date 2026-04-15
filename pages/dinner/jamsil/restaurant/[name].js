@@ -564,7 +564,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
 
         {/* 기본 정보 표 */}
-                <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>📋 기본 정보</h2>
         <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
           <tbody>

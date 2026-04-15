@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import AdUnit from './AdUnit'
 
 /**
  * MultiplexAd — 데스크톱: autorelaxed 멀티플렉스 / 모바일: 일반 auto AdUnit
@@ -23,20 +22,11 @@ export default function MultiplexAd({ style = {}, className = '' }) {
     } catch (e) {}
   }, [mobile])
 
-  // SSR / 초기 렌더: hydration mismatch 방지용 빈 div
-  if (mobile === null) return <div style={{ margin: '32px 0', minHeight: 0 }} />
+  // SSR / 초기 렌더: hydration mismatch 방지
+  if (mobile === null) return null
 
-  // 모바일: 일반 auto 광고
-  if (mobile) {
-    return (
-      <AdUnit
-        slot="9138210374"
-        format="auto"
-        style={{ margin: '32px 0', ...style }}
-        className={className}
-      />
-    )
-  }
+  // 모바일: 멀티플렉스 미노출 (페이지 세로 늘어남 방지)
+  if (mobile) return null
 
   // 데스크톱: 멀티플렉스
   return (
