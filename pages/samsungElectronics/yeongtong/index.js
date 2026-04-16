@@ -2166,13 +2166,17 @@ const usageCnt = getUsageCount()
 
 // ── 전체 목록 탭 ─────────────────────────────────────────────
 function BrowseTab() {
-  const [search,s]       = useState('')
-  const [activeCat,ac]   = useState('전체')
+  const [search,s]        = useState('')
+  const [activeCat,ac]    = useState('전체')
+  const [limit, setLimit] = useState(24)
   const allCats = ['전체','고기구이','국밥','이자카야','일식','중식','양식','치킨','야장','족발보쌈','해산물','분식','한식']
   const filtered = restaurants.filter(r => {
     return (activeCat==='전체'||r.cat?.includes(activeCat)) &&
       (!search||r.name.includes(search)||r.type.includes(search)||r.tags?.some(t=>t.includes(search)))
   })
+  // 필터 변경 시 limit 초기화
+  useEffect(() => { setLimit(24) }, [activeCat, search])
+  const visible = filtered.slice(0, limit)
   return (
     <div>
       <div style={{ display:'flex',gap:8,marginBottom:14 }}>
@@ -2187,16 +2191,16 @@ function BrowseTab() {
         ))}
       </div>
       <div className="restaurant-grid">
-        {filtered.map((r,i)=>(
+        {visible.map((r,i)=>(
           <React.Fragment key={i}>
             <Link href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`}>
               <div className="restaurant-card">
                 <div className="card-name">{r.e} {r.name}</div>
-              <div className="card-meta">
-                <span className="tag">{r.type}</span>
-                <span className="tag rating">⭐{r.rt}</span>
-                {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
-              </div>
+                <div className="card-meta">
+                  <span className="tag">{r.type}</span>
+                  <span className="tag rating">⭐{r.rt}</span>
+                  {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
+                </div>
                 <div className="card-addr">📍 {r.addr}</div>
               </div>
             </Link>
@@ -2208,6 +2212,12 @@ function BrowseTab() {
           </React.Fragment>
         ))}
       </div>
+      {filtered.length > limit && (
+        <button onClick={() => setLimit(l => l + 24)}
+          style={{ display:'block',width:'100%',marginTop:16,padding:'12px',borderRadius:10,background:'var(--surface)',border:'1px solid var(--border)',color:'var(--text)',fontSize:'.88rem',cursor:'pointer',fontWeight:600 }}>
+          더 보기 ({limit} / {filtered.length})
+        </button>
+      )}
     </div>
   )
 }

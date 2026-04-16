@@ -649,17 +649,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </ul>
           </>
         )}
-
-        {/* 중간 광고 */}
-        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
-
-        {/* 메뉴&가격 이후 광고 (h2 2개 후) */}
-        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:24 }} />
-
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🌤️ 이런 날씨에 특히 추천해요</h2>
             {matchedWx.map((wx, i) => (
               <div key={i} style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'14px 16px', marginBottom:10, display:'flex', gap:12, alignItems:'flex-start' }}>
@@ -673,7 +665,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 기분별 추천 */}
         {matchedMoods.length > 0 && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>😊 이런 기분일 때 추천</h2>
             <ul style={ulstyle}>
               {matchedMoods.map(({ mood, copy }, i) => (
