@@ -65,6 +65,7 @@ ${all.map(p => `  <url><loc>${BASE}${p.url}</loc><lastmod>${today}</lastmod><pri
 </urlset>`
 
   res.setHeader('Content-Type', 'text/xml')
+  res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=43200')
   res.write(xml)
   res.end()
   return { props: {} }

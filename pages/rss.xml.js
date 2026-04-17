@@ -80,6 +80,7 @@ export async function getServerSideProps({ res }) {
 </rss>`
 
   res.setHeader('Content-Type', 'application/rss+xml; charset=utf-8')
+  res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=43200')
   res.write(xml)
   res.end()
   return { props: {} }

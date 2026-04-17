@@ -8,7 +8,7 @@ import restaurants from '../../../data/pangyo'
 export async function getStaticPaths() {
   return {
     paths: restaurants.map(r => ({ params: { name: encodeURIComponent(r.name) } })),
-    fallback: 'blocking'
+    fallback: false
   }
 }
 
