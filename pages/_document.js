@@ -48,8 +48,7 @@ export default function Document() {
         `}} />
         <meta name="google-adsense-platform-account" content="ca-pub-8640254349508671" />
         <style dangerouslySetInnerHTML={{ __html: `
-          /* 모바일 앵커/오버레이 자동광고 제거 (수동 배치 auto 광고는 제외) */
-          ins.adsbygoogle[data-anchor-status],
+          /* 오버레이·자동배치 광고만 제거 (앵커 하단 광고는 유지 — viewability 높아 RPM 기여) */
           div[id^="google_ads_iframe"][style*="fixed"],
           div[id^="google_ads_iframe"][style*="sticky"],
           .google-auto-placed { display: none !important; height: 0 !important; overflow: hidden !important; }

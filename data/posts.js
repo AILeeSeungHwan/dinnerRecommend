@@ -19,5 +19,10 @@ const posts = [
   { id:18, slug:'yeongtong-meat-best-2026', title:'영통역 고기 맛집 추천 5곳 | 한우·삼겹살·곱창 가격 비교', description:'영통역 고기 맛집 5곳 가격·평점 비교', category:'meat', region:'yeongtong', date:'2026-03-30', tags:['영통','고기','한우','곱창'], thumbnail:null },
   { id:19, slug:'mangpo-team-dinner-2026', title:'망포역 회식 장소 추천 5곳 | 고기·양꼬치·국밥 단체석 비교', description:'망포역 회식 장소 5곳 단체석·가격 비교', category:'group', region:'mangpo', date:'2026-03-30', tags:['망포','회식','고기','단체석'], thumbnail:null },
   { id:20, slug:'yeongtonggu-lunch-guide-2026', title:'영통구청 점심 맛집 추천 5곳 | 매탄동 카테고리별 가이드', description:'영통구청 매탄동 점심 맛집 5곳 카테고리별 비교', category:'lunch', region:'yeongtongGu', date:'2026-03-30', tags:['영통구청','점심','매탄동','카테고리'], thumbnail:null },
+  { id:21, slug:'samsung-team-dinner-2026', title:'삼성역 회식 장소 추천 2026 | 코엑스 단체석·주차·예산별 비교', description:'삼성역·선릉역 회식 장소 5곳 단체석·주차·예산별 비교', category:'group', region:'samseong', date:'2026-04-18', tags:['삼성역','회식','단체석','코엑스'], thumbnail:null },
+  { id:22, slug:'pangyo-entertainment-dinner-2026', title:'판교 접대 레스토랑 추천 5곳 | 비즈니스 식사 완벽 가이드 2026', description:'판교 테크노밸리 비즈니스 접대 레스토랑 5곳 예산·스타일 비교', category:'group', region:'pangyo', date:'2026-04-18', tags:['판교','접대','비즈니스','레스토랑'], thumbnail:null },
+  { id:23, slug:'jamsil-date-course-complete-2026', title:'잠실 데이트 코스 완벽 가이드 2026 | 석촌호수·뷰맛집 식당 추천', description:'잠실 데이트 코스 — 저녁 식사부터 2차 뷰맛집까지 완벽 가이드', category:'date', region:'jamsil', date:'2026-04-18', tags:['잠실','데이트','석촌호수','코스'], thumbnail:null },
+  { id:24, slug:'samsung-after-party-bar-2026', title:'삼성역 회식 2차 술집 추천 5곳 | 코엑스 이자카야·바 가이드', description:'삼성역 회식 1차 후 2차 술집·바 5곳 상황별 가이드', category:'izakaya', region:'samseong', date:'2026-04-18', tags:['삼성역','2차','술집','이자카야'], thumbnail:null },
+  { id:25, slug:'yeongtong-date-restaurant-2026', title:'영통역 데이트 맛집 추천 5곳 | 뷰맛집·분위기 레스토랑 가이드', description:'영통역·망포 데이트 맛집 5곳 분위기·가성비·주차 비교', category:'date', region:'yeongtong', date:'2026-04-18', tags:['영통','데이트','뷰맛집','레스토랑'], thumbnail:null },
 ]
 export default posts
