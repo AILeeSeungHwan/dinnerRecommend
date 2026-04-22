@@ -170,7 +170,7 @@ function MenuRouletteTab() {
         </div>
       </div>
       <div style={{ textAlign:'center', marginBottom:24 }}>
-        <button onClick={()=>{ window.__showInterstitial?.(); spin() }} disabled={spinning} style={{ padding:'14px 40px', borderRadius:14, background: spinning ? 'var(--surface2)' : 'linear-gradient(135deg, var(--primary), var(--accent))', color: spinning ? 'var(--muted)' : '#fff', fontSize:'1rem', fontWeight:800, border:'none', cursor: spinning ? 'not-allowed' : 'pointer', boxShadow: spinning ? 'none' : '0 4px 20px rgba(255,107,53,.3)', transition:'all .2s' }}>
+        <button onClick={()=>{; spin() }} disabled={spinning} style={{ padding:'14px 40px', borderRadius:14, background: spinning ? 'var(--surface2)' : 'linear-gradient(135deg, var(--primary), var(--accent))', color: spinning ? 'var(--muted)' : '#fff', fontSize:'1rem', fontWeight:800, border:'none', cursor: spinning ? 'not-allowed' : 'pointer', boxShadow: spinning ? 'none' : '0 4px 20px rgba(255,107,53,.3)', transition:'all .2s' }}>
           {spinning ? '돌리는 중...' : result ? '🎰 다시 돌리기' : '🎰 룰렛 돌리기'}
         </button>
       </div>
@@ -1857,7 +1857,7 @@ const usageCnt = getUsageCount()
 
 
         <div style={{ display:'flex',gap:8 }}>
-          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} window.__showInterstitial?.(); handleRecommendClick() }} disabled={loading||dicing} style={{
+          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return}; handleRecommendClick() }} disabled={loading||dicing} style={{
             flex:1,padding:'13px',borderRadius:10,background:'var(--primary)',
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
@@ -2230,7 +2230,7 @@ export default function SamseongPage() {
     return 'roulette'
   })
   const [pendingCat, setPendingCat] = useState(null)
-  const switchTab = (tab) => { window.__showInterstitial?.(); setActiveTab(tab); sessionStorage.setItem('yeongtong-tab', tab) }
+  const switchTab = (tab) => {; setActiveTab(tab); sessionStorage.setItem('yeongtong-tab', tab) }
   useEffect(() => {
     const t = router.query.tab
     if (t && ['roulette','ai','browse','categories'].includes(t)) {

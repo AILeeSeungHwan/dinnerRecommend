@@ -239,7 +239,7 @@ function MenuRouletteTab() {
 
       {/* 돌리기 버튼 */}
       <div style={{ textAlign:'center', marginBottom:24 }}>
-        <button onClick={()=>{ window.__showInterstitial?.(); spin() }} disabled={spinning}
+        <button onClick={()=>{; spin() }} disabled={spinning}
           style={{
             padding:'14px 40px', borderRadius:14,
             background: spinning ? 'var(--surface2)' : 'linear-gradient(135deg, var(--primary), var(--accent))',
@@ -2019,7 +2019,7 @@ const usageCnt = getUsageCount()
 
 
         <div style={{ display:'flex',gap:8 }}>
-          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return} window.__showInterstitial?.(); handleRecommendClick() }} disabled={loading||dicing} style={{
+          <button onClick={()=>{ if(pickedIdx!==null){setShowAlreadyPicked(true);return}; handleRecommendClick() }} disabled={loading||dicing} style={{
             flex:1,padding:'13px',borderRadius:10,background:'var(--primary)',
             color:'#fff',border:'none',fontSize:'.95rem',fontWeight:700,
             cursor:(loading||dicing)?'not-allowed':'pointer',opacity:(loading||dicing)?0.7:1,
@@ -2416,7 +2416,7 @@ export default function SamseongPage() {
     return 'roulette'
   })
   const [pendingCat, setPendingCat] = useState(null)
-  const switchTab = (tab) => { window.__showInterstitial?.(); setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
+  const switchTab = (tab) => {; setActiveTab(tab); sessionStorage.setItem('samseong-tab', tab) }
   useEffect(() => {
     const t = router.query.tab
     if (t && ['roulette','ai','browse','categories'].includes(t)) {
