@@ -600,6 +600,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
 
         {/* 방문자 키워드 뱃지 */}
+        {r.keywords?.length > 0 && (<>
         <h2 style={h2style}>🏷️ 방문자 키워드</h2><div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>{r.keywords.map((kw, i) => (<span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>{kw}</span>))}</div></>)}
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
 
