@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Layout from '../../components/Layout'
 import AdUnit from '../../components/AdUnit'
-import MultiplexAd from '../../components/MultiplexAd'
 import restaurants from '../../data/suji'
 import posts from '../../data/posts'
 
@@ -69,12 +68,14 @@ const ROULETTE_MENUS = [
   { emoji:'🌶️', label:'마라탕·훠궈',   pattern:/마라탕|훠궈/ },
   { emoji:'🍜', label:'쌀국수·베트남',  pattern:/베트남|쌀국수|아시안|인도|태국|동남아/ },
   { emoji:'🫔', label:'타코·멕시칸',   pattern:/멕시코|남미/ },
-  { emoji:'🍚', label:'백반·한정식',   pattern:/백반|가정식|한정식|한식뷔페|백숙|삼계탕|한식·코스|한식·백반|보리밥|쌈밥|^한식$|퓨전한식|한식주점/ },
+  { emoji:'🍚', label:'백반·한정식',   pattern:/백반|가정식|한정식|한식뷔페|백숙|삼계탕|한식·코스|한식·백반|보리밥|쌈밥|한식|퓨전한식|한식주점/ },
   { emoji:'🍢', label:'분식',          pattern:/분식/ },
   { emoji:'🍛', label:'덮밥·도시락',   pattern:/덮밥|도시락|컵밥/ },
   { emoji:'🥪', label:'샌드위치·브런치', pattern:/샌드위치|브런치/ },
   { emoji:'🍺', label:'이자카야·술집', pattern:/이자카야|술집|야장|포차|호프|위스키|와인바|크래프트|라이브바|스포츠|수제맥주|펍|주점/ },
   { emoji:'🍿', label:'뷔페',          pattern:/뷔페/ },
+  { emoji:'☕', label:'카페·디저트', pattern:/카페|디저트|빵|베이커리|케이크|와플|마카롱/ },
+  { emoji:'🍜', label:'국수·해물',   pattern:/국수|해물|생선|매운탕|조개|아귀|전복|굴|주꾸미|장어|오리/ },
 ]
 
 const WHEEL_COLORS = [
@@ -96,7 +97,10 @@ function MenuRouletteTab() {
   const timerRef = useRef(null)
 
   function getMatching(menu) {
-    return restaurants.filter(r => menu.pattern.test(r.type))
+    return restaurants.filter(r => {
+      const searchText = [r.type, ...(r.tags||[]), ...(r.cat||[])].join(' ')
+      return menu.pattern.test(searchText)
+    })
   }
 
   function spin() {
@@ -2426,7 +2430,6 @@ export default function SamseongPage() {
           <AdUnit slot="9138210374" format="auto" />
         </div>
         <div style={{ marginBottom:32 }}>
-          <MultiplexAd />
         </div>
 
         {/* 최신 맛집 가이드 */}

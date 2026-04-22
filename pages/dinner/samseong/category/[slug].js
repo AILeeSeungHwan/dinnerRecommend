@@ -366,14 +366,30 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
           </>}
 
           {category === 'gukbap' && <>
+            <h3 style={{ fontSize:'1.05rem', fontWeight:700, color:'var(--text)', marginBottom:12 }}>삼성역 국밥 — 직장인 점심의 정답이자 야근 후 해장의 끝판왕</h3>
             <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
-              삼성역 국밥·해장 맛집은 테헤란로 직장인 점심 수요와 밤새 일한 야근자 해장 수요가 모두 모이는 카테고리입니다. 코엑스 주변보다 봉은사로·삼성동 이면도로에 국밥 전문점이 집중되어 있으며, 순대국밥·곰탕·선지해장국·뼈해장국 등 선택지가 다양합니다. 칼국수·수제비를 함께 제공하는 복합 메뉴 식당도 있어 점심 모임에 활용하기 좋습니다.
+              삼성역 국밥집을 고를 때 가장 먼저 생각해야 할 건 "오늘 내가 원하는 국물이 뭔가"입니다. 뽀얀 사골 베이스의 설렁탕을 원하면 <strong>외고집설렁탕</strong>(미슐랭 등재, 리뷰 1,100+)이나 <strong>이남장 삼성점</strong>(소고기국밥 리뷰 1,000+)이 정석입니다. 얼큰하고 칼칼한 해장이 필요하면 <strong>제주은희네해장국</strong>이나 <strong>이화수전통육개장</strong>이 맞습니다. 순대국밥 파라면 <strong>전통백암순대국</strong>(새벽 6시 오픈, 로컬 단골 많음)이나 <strong>담소소사골순대육개장</strong>(소사골 베이스 육개장+순대국 전문)을 추천합니다.
+            </p>
+            <h3 style={{ fontSize:'1.05rem', fontWeight:700, color:'var(--text)', marginBottom:12 }}>왜 이 식당들인가 — 선택 기준</h3>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              <strong>외고집설렁탕</strong>은 삼성역 설렁탕 1위입니다. 미슐랭 빕구르망에 등재된 곳으로, 사골을 오래 우려낸 뽀얀 국물이 특징입니다. 반찬이 많지 않지만 국물 하나로 승부하는 집이라 오히려 깔끔합니다. 점심 피크(12~1시)에는 줄이 길어지니 11시 40분 전에 도착하는 게 좋습니다. <strong>이남장</strong>은 소고기국밥 전문으로 고기가 넉넉하게 들어가는 게 장점입니다. 두 곳 다 1만 원 내외로 해결 가능합니다.
             </p>
             <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
-              1인분 8천~1만 3천 원대로 가성비가 높습니다. 점심 피크 시간(12~13시)에는 줄이 길 수 있으므로 11시 40분 전후로 입장하거나, 1인 카운터석을 갖춘 곳을 선택하면 대기를 줄일 수 있습니다. 24시간 영업 여부는 가게별로 다르므로 늦은 야식·해장 목적이라면 미리 확인하세요.
+              <strong>담소소사골순대육개장</strong>은 4번출구에서 도보 3분 거리에 있어 접근성이 좋고, 소사골로 우려낸 육개장(10,500원)과 순대국(9,800원)을 함께 팔아서 선택지가 넓습니다. 혼밥하기 편한 구조라 점심에 혼자 와도 부담 없습니다. <strong>곰탕LAB</strong>은 미슐랭 출신 셰프가 운영하는 고급 곰탕 콘셉트로, 일반 국밥집과 다른 결의 곰탕을 원할 때 가볼 만합니다.
+            </p>
+            <h3 style={{ fontSize:'1.05rem', fontWeight:700, color:'var(--text)', marginBottom:12 }}>상황별 추천</h3>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              <strong>빠른 점심 혼밥</strong> — 외고집설렁탕, 이남장. 주문 후 3분 내 나옴, 카운터석 있음.<br/>
+              <strong>야근 후 해장</strong> — 24시 본가신의주찹쌀순대(24시간 영업), 전통백암순대국(새벽 6시 오픈).<br/>
+              <strong>얼큰한 국물</strong> — 제주은희네해장국(야채 풍부), 이화수전통육개장(소고기 육개장).<br/>
+              <strong>깔끔한 국물 + 데이트</strong> — 곰탕LAB(고급 곰탕), 일상정원 코엑스점(스키야키·모츠나베).<br/>
+              <strong>가성비 최강</strong> — 삼군김치찌개(김치찌개 9,000원), 김명자굴국밥(굴국밥 1만 원 내외).
+            </p>
+            <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:10 }}>
+              가격대는 대부분 8,000~13,000원 사이입니다. 코엑스 안에서 점심 먹으면 쉽게 1.5만 원을 넘기는데, 국밥집은 만 원 아래로 든든하게 먹을 수 있어 삼성역 직장인들의 실질적인 점심 해결책입니다. 국밥집은 대부분 11시 전후 오픈이라 점심 전 일찍 갈 수 있고, 회전이 빨라 대기가 길어도 10~15분이면 자리가 납니다.
             </p>
             <p style={{ color:'var(--muted)', fontSize:'.88rem', lineHeight:1.8, marginBottom:16 }}>
-              관련 카테고리: <Link href="/dinner/samseong/category/budget" style={{ color:'var(--primary)' }}>삼성역 가성비·혼밥</Link> · <Link href="/dinner/samseong/category/korean" style={{ color:'var(--primary)' }}>삼성역 한식·정식</Link> · <Link href="/dinner/samseong/category/meat" style={{ color:'var(--primary)' }}>삼성역 고기·한우</Link>
+              관련 카테고리: <Link href="/dinner/samseong/category/budget" style={{ color:'var(--primary)' }}>삼성역 가성비·혼밥</Link> · <Link href="/dinner/samseong/category/meat" style={{ color:'var(--primary)' }}>삼성역 고기·한우</Link> · <Link href="/dinner/samseong/category/special" style={{ color:'var(--primary)' }}>삼성역 족발·곱창·보쌈</Link>
             </p>
           </>}
 

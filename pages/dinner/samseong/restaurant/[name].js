@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
-import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/samseong'
 
 export async function getStaticPaths() {
@@ -563,11 +562,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </div>
           </div>
         </a>
-        {/* 상단 광고 2개 (한 줄) */}
-        <div style={{ display:'flex', gap:10, marginBottom:20 }}>
-          <div style={{ flex:1, minWidth:0 }}><AdUnit slot="9138210374" format="auto" /></div>
-          <div style={{ flex:1, minWidth:0 }}><AdUnit slot="9138210374" format="auto" /></div>
-        </div>
+        {/* 상단 광고 */}
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:20 }} />
 
         {/* 기본 정보 표 */}
         <h2 style={h2style}>📋 기본 정보</h2>
@@ -593,9 +589,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </tbody>
         </table>
 
-        {/* 첫번째 h2 이후 멀티플렉스 광고 */}
-        <MultiplexAd style={{ marginBottom:20 }} />
-
         {/* ── 감성 인트로 ── */}
         <div style={{
           background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
@@ -619,7 +612,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 방문자 키워드 뱃지 */}
         {r.keywords?.length > 0 && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🏷️ 방문자 키워드</h2>
             <div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>
               {r.keywords.map((kw, i) => (
@@ -630,7 +622,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 메뉴 & 가격 */}
-                <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
         {r.menuItems?.length > 0 ? (
           <>
@@ -679,7 +671,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 이런 상황에 */}
         {r.scene?.length > 0 && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>💡 이런 상황에 딱입니다</h2>
             <div style={{ display:'flex', flexWrap:'wrap', gap:7, marginBottom:24 }}>
               {r.scene.map((s, i) => (
@@ -694,7 +685,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 방문자 키워드 */}
         {((r.tags?.length > 0) || (r.keywords?.length > 0) || (r.moods?.length > 0)) && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🏷️ 방문자 키워드</h2>
             <p style={pstyle}>실제 방문자들이 자주 언급한 키워드입니다.</p>
             <div style={{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:16 }}>
@@ -722,7 +712,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* 효능 섹션 (유머) */}
         {effect && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🔬 {effect.title}</h2>
             <p style={pstyle}>
               과학적 근거는 없지만, 수많은 직장인의 체감 데이터를 기반으로 정리했습니다. (진지주의)
@@ -736,7 +725,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 위치 & 찾아가는 법 */}
-                <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
         <p style={pstyle}>
           <strong>{r.name}</strong>은 서울 강남구 {r.addr}에 위치한 삼성역 맛집입니다.
@@ -771,13 +759,9 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </div>
         ))}
 
-        {/* FAQ 이후 광고 (h2 2개 후) */}
-        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:24 }} />
-
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
           <>
-                    <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>🍽️ 삼성역 {r.type} 맛집 더 보기</h2>
             <p style={pstyle}>
               <strong>{r.name}</strong>와 비슷한 삼성역 {r.type} 맛집을 더 추천해드립니다.
