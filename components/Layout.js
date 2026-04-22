@@ -755,8 +755,8 @@ export default function Layout({ children, title, description, canonical, jsonLd
       `}</style>
       <div className="layout-with-side-ads">
         {/* 좌측 사이드 광고 */}
-        <aside className="side-ad" style={{ width: 160, flexShrink: 0, position: 'relative' }}>
-          <div style={{ position: 'sticky', top: 80, paddingTop: 24 }}>
+        <aside className="side-ad" style={{ width: 160, flexShrink: 0, alignSelf: 'flex-start', position: 'sticky', top: 80 }}>
+          <div style={{ paddingTop: 24 }}>
             <ins
               className="adsbygoogle"
               style={{ display: 'block', width: 160, height: 600 }}
@@ -770,8 +770,8 @@ export default function Layout({ children, title, description, canonical, jsonLd
         <main style={{ flex: 1, minWidth: 0 }}>{children}</main>
 
         {/* 우측 사이드 광고 */}
-        <aside className="side-ad" style={{ width: 160, flexShrink: 0, position: 'relative' }}>
-          <div style={{ position: 'sticky', top: 80, paddingTop: 24 }}>
+        <aside className="side-ad" style={{ width: 160, flexShrink: 0, alignSelf: 'flex-start', position: 'sticky', top: 80 }}>
+          <div style={{ paddingTop: 24 }}>
             <ins
               className="adsbygoogle"
               style={{ display: 'block', width: 160, height: 600 }}

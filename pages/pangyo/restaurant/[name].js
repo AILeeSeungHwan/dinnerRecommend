@@ -795,9 +795,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </>
         )}
 
-        {/* 하단 광고 */}
-        <AdUnit slot="9138210374" format="auto" style={{ margin: '24px 0' }} />
-
         {/* 하단 네비 */}
         <div style={{ display:'flex', gap:10, flexWrap:'wrap', paddingTop:20, borderTop:'1px solid var(--border)' }}>
           {slug && (
