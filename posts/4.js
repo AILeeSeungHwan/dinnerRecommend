@@ -3,80 +3,110 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: '<p>판교역 주변에서 혼자 점심을 먹으려면 선택지가 의외로 많습니다. 1만 원대 예산으로 든든하게, 눈치 보지 않고 혼밥할 수 있는 곳을 실제 데이터 기반으로 5곳 골랐습니다. 가성비·혼밥가능 태그가 붙은 식당 중 평점 높은 곳을 우선 선정했습니다.</p>',
+      html: "<p>판교역·테크노밸리·백현동 일대에서 가성비 맛집을 찾고 계신가요? 판교 지역 총 902곳 식당 데이터 중 가성비 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 4.8점, 가격대는 12,000원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 1인 가격·양·혼밥 가능 여부을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 상기육개장, 삼미칼국수, 정백선순대 판교역점, 불고기 온소반, 살레르노 판교점.</p>",
     },
     {
       type: 'toc',
     },
     {
-      type: 'ad',
-      slot: '9463227631',
-      format: 'autorelaxed',
-    },
-    {
       type: 'h2',
-      id: 'gukbap-noodle',
-      text: '국밥·국수 — 빠르고 든든한 1인 점심',
+      id: "criteria",
+      text: "선정 기준 — 왜 이 5곳인가",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: '<p><strong>상기육개장</strong> (백현동 560-3) — 평점 4.9 / 리뷰 19건. 혼밥가능·친절·고평점 태그. AM 11:00~PM 4:00 운영. 다찌(카운터) 좌석이 있어 혼자 와도 전혀 부담 없는 구조. 가격대 1만 2천~2만 2천 원. 쌀쌀한 날 뜨끈한 육개장 한 그릇으로 점심을 해결하기 딱 좋은 곳입니다.</p><p><strong>삼미칼국수</strong> (삼평동 678 삼환하이펙스 A동 지하 1층) — 평점 4.5 / 리뷰 240건. 칼국수 단일 메뉴. 가격대 1만 2천~2만 2천 원. 평일 AM 11:00~PM 8:30 운영(주말 휴무). "7,000원 칼국수 메뉴"라는 리뷰에서 확인되는 초저가 옵션. 줄이 길지만 회전이 빠르고, 면과 밥 추가 제공. 혼밥 최적 구조.</p>',
+      html: "<p>판교 지역 902곳 식당 데이터 중 가성비 카테고리에 해당하는 식당을 평점 4.5점 이상, 리뷰 수, 1인 가격·양·혼밥 가능 여부 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
     },
     {
       type: 'h2',
-      id: 'gimbap-snack',
-      text: '분식·김밥 — 가장 빠른 1만원 이하 한 끼',
-      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>정백선순대 판교역점</strong> (삼평동 대왕판교로606번길 58) — 평점 4.9 / 리뷰 22건. 분식·한식 카테고리. 가격대 1만 2천~2만 2천 원. 순대국밥 잡내 없는 뽀얗고 진한 국물로 호평. 포장 가능. 혼밥 분위기.</p>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
-    {
-      type: 'h2',
-      id: 'set-lunch',
-      text: '한식 정식·불고기 — 가성비 세트 점심',
+      id: "상기육개장",
+      text: "상기육개장 — 가성비 점심 추천",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'body',
-      html: '<p><strong>불고기 온소반</strong> (삼환하이펙스 A동 지하 1층) — 평점 4.9 / 리뷰 71건. 가성비·단체가능 태그. 가격대 1만 2천~2만 2천 원. AM 11:00~PM 8:30 운영. 불고기 정식 구성이 알차고 합리적. "가성비 밥집"이라는 평이 다수. 혼밥도 가능한 분위기.</p><p><strong>살레르노 판교점</strong> (판교역로 145) — 평점 4.9 / 리뷰 9건. 가성비·점심추천 태그. AM 11:00~PM 3:00, PM 5:00~9:30 운영. 가격대 1만 2천~2만 2천 원. 혼밥·점심 특선 분위기. 개인 방문자 리뷰 다수.</p>',
+      html: "<p><strong><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></strong> (백현동 560-3)</p><ul><li>평점 4.9점 (리뷰 19건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 4:00</li><li>전화 050-71376-2912</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 19건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #웨이팅맛집 #친절 #혼밥가능</p>",
     },
     {
       type: 'h2',
-      id: 'tips',
-      text: '판교 혼밥 시간대·팁',
-      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+      id: "삼미칼국수",
+      text: "삼미칼국수 — 가성비 점심 추천",
+      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: '<p>판교 점심 러시는 12:00~12:30이 가장 붐빕니다. 혼밥의 경우 11:50 이전 또는 12:30 이후 방문이 대기 없이 빠르게 먹을 수 있는 시간대입니다. 삼미칼국수·불고기 온소반은 삼환하이펙스 지하 1층에 나란히 있어 함께 확인하고 선택하기 편합니다. 상기육개장은 PM 4시에 문을 닫으므로 늦은 점심은 피해야 합니다.</p>',
+      html: "<p><strong><a href=\"/pangyo/restaurant/삼미칼국수\">삼미칼국수</a></strong> (삼평동 678 A 동 지하 1 층 삼환 하이 펙스)</p><ul><li>평점 4.5점 (리뷰 240건)</li><li>가격대 12,000~22,000원</li><li>영업시간 평일 AM 11:00 ~ PM 8:30 / 주말 휴무일</li><li>전화 031-698-3258</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 240건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #국수 #리뷰많음 #웨이팅맛집 #칼국수</p>",
     },
     {
       type: 'h2',
-      id: 'price-compare',
-      text: '5곳 가격·평점 비교',
+      id: "정백선순대-판교역점",
+      text: "정백선순대 판교역점 — 가성비 점심 추천",
+      gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a></strong> (삼평동 대왕판교로606번길 58)</p><ul><li>평점 4.8점 (리뷰 34건)</li><li>가격대 12,000~22,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 34건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #데이트 #분식 #웨이팅맛집 #포장가능</p>",
+    },
+    {
+      type: 'h2',
+      id: "불고기-온소반",
+      text: "불고기 온소반 — 가성비 점심 추천",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'body',
-      html: '<table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0"><thead><tr style="border-bottom:2px solid var(--border)"><th style="padding:8px 6px;text-align:left">맛집</th><th style="padding:8px 6px;text-align:center">가격대</th><th style="padding:8px 6px;text-align:center">평점</th><th style="padding:8px 6px;text-align:center">리뷰수</th><th style="padding:8px 6px;text-align:center">특징</th></tr></thead><tbody><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">상기육개장</td><td style="padding:7px 6px;text-align:center">1.2~2.2만원</td><td style="padding:7px 6px;text-align:center">4.9★</td><td style="padding:7px 6px;text-align:center">19</td><td style="padding:7px 6px">카운터좌석</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">정백선순대 판교역점</td><td style="padding:7px 6px;text-align:center">1.2~2.2만원</td><td style="padding:7px 6px;text-align:center">4.9★</td><td style="padding:7px 6px;text-align:center">22</td><td style="padding:7px 6px">순대국밥</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">불고기 온소반</td><td style="padding:7px 6px;text-align:center">1.2~2.2만원</td><td style="padding:7px 6px;text-align:center">4.9★</td><td style="padding:7px 6px;text-align:center">71</td><td style="padding:7px 6px">불고기 정식</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">살레르노 판교점</td><td style="padding:7px 6px;text-align:center">1.2~2.2만원</td><td style="padding:7px 6px;text-align:center">4.9★</td><td style="padding:7px 6px;text-align:center">9</td><td style="padding:7px 6px">한식 정식</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">삼미칼국수</td><td style="padding:7px 6px;text-align:center">1.2~2.2만원</td><td style="padding:7px 6px;text-align:center">4.5★</td><td style="padding:7px 6px;text-align:center">240</td><td style="padding:7px 6px">칼국수 단일</td></tr></tbody></table>',
+      html: "<p><strong><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></strong> (삼환하이펙스 A동 불고기온소반 지하 1층)</p><ul><li>평점 4.9점 (리뷰 72건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 8:30</li><li>전화 050-71405-4548</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 72건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #고평점 #구이 #단체가능 #웨이팅맛집</p>",
+    },
+    {
+      type: 'h2',
+      id: "살레르노-판교점",
+      text: "살레르노 판교점 — 가성비 점심 추천",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></strong> (판교역로 145)</p><ul><li>평점 4.9점 (리뷰 9건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 3:00, PM 5:00~9:30</li><li>전화 031-706-8459</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 9건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #데이트 #리뷰많음 #웨이팅맛집 #점심추천</p>",
+    },
+    {
+      type: 'h2',
+      id: "compare",
+      text: "판교 가성비 맛집 한눈에 비교",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">상기육개장</td><td style=\"padding:7px 6px;text-align:center\">4.9점</td><td style=\"padding:7px 6px;text-align:center\">19</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">고평점·웨이팅맛집·친절</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">삼미칼국수</td><td style=\"padding:7px 6px;text-align:center\">4.5점</td><td style=\"padding:7px 6px;text-align:center\">240</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">고평점·국수·리뷰많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">정백선순대 판교역점</td><td style=\"padding:7px 6px;text-align:center\">4.8점</td><td style=\"padding:7px 6px;text-align:center\">34</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">고평점·데이트·분식</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">불고기 온소반</td><td style=\"padding:7px 6px;text-align:center\">4.9점</td><td style=\"padding:7px 6px;text-align:center\">72</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비·고기·고평점</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">살레르노 판교점</td><td style=\"padding:7px 6px;text-align:center\">4.9점</td><td style=\"padding:7px 6px;text-align:center\">9</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비·고평점·데이트</td></tr></tbody></table>",
+    },
+    {
+      type: 'h2',
+      id: "by-situation",
+      text: "상황별 이 식당을 추천합니다",
+      gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
+    },
+    {
+      type: 'body',
+      html: "<ul><li><strong>가성비 우선:</strong> 불고기 온소반, 살레르노 판교점 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 불고기 온소반 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 상기육개장 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 상기육개장 (평점 4.9점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 삼미칼국수 (리뷰 240건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+    },
+    {
+      type: 'h2',
+      id: "tips",
+      text: "방문 전 꼭 확인할 점",
+      gradientStyle: { from: '#FFD700', to: '#FF6B35' },
+    },
+    {
+      type: 'body',
+      html: "<ul><li>상기육개장, 삼미칼국수 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.</li><li>가성비 맛집일수록 점심 피크 웨이팅이 길 수 있습니다. 11:30~11:50 사이 방문이 최적입니다.</li></ul>",
     },
     {
       type: 'cta',
-      href: '/pangyo',
-      text: '판교 전체 맛집 보기 →',
+      href: "/pangyo/category/budget",
+      text: "판교 가성비 맛집 전체 보기 →",
     },
     {
       type: 'ending',
-      html: '<p>판교 혼밥 맛집은 삼환하이펙스 지하와 백현동 방향에 주로 몰려 있습니다. 빠른 식사를 원한다면 삼미칼국수나 정백선순대, 좀 더 든든한 한식이 필요하다면 상기육개장이나 불고기 온소반을 선택해 보세요. 1만 원대 예산으로 평점 4.5 이상 식당을 충분히 만날 수 있는 지역입니다. 관련 글도 함께 확인해 보세요.</p><ul><li><a href="/posts/pangyo-lunch-meat-guide-2026">판교역 점심 고기 맛집 7선</a></li><li><a href="/posts/samsung-lunch-guide-2026">삼성역 점심 카테고리별 총정리</a></li><li><a href="/posts/jamsil-team-dinner-2026">잠실 회식 장소 추천 2026</a></li><li><a href="/posts/samsung-izakaya-best-2026">삼성역 이자카야 추천 7곳</a></li></ul>',
-    },
+      html: "<p>이 글에서 소개한 판교 가성비 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/posts/pangyo-team-dinner-2026\">판교역 회식 장소 추천 2026</a></li><li><a href=\"/posts/pangyo-date-restaurant-2026\">판교 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/pangyo-chinese-food-2026\">판교역 중식 맛집 추천 5곳</a></li><li><a href=\"/pangyo\">판교 전체 맛집 보기</a></li></ul>",
+    }
   ],
 }
 

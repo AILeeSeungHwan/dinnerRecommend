@@ -1,0 +1,215 @@
+{
+  "id": 17,
+  "slug": "pangyo-chinese-food-2026",
+  "title": "판교역 중식 맛집 추천 5곳 | 짜장·짬뽕·마라탕 가격 비교",
+  "description": "판교 중식 맛집 5곳 가격·평점 비교",
+  "category": "chinese",
+  "region": "pangyo",
+  "date": "2026-05-07",
+  "tags": [
+    "판교",
+    "중식",
+    "짜장",
+    "마라탕"
+  ],
+  "restaurants": [
+    {
+      "name": "팔복 판교",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 삼평동 684 판교엠타워 1층 팔복",
+      "hours": "",
+      "tel": "0507-1393-3722",
+      "priceRange": "",
+      "rating": 4.9,
+      "reviewCount": 378,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1092070966/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "판교맛집 왕징양다리양꼬치 판교점",
+      "type": "중식",
+      "addr": "대왕판교로606번길 10 알파리움1단지 타워 1동 2층 205,206호",
+      "hours": "AM 11:00 ~ PM 11:00",
+      "tel": "",
+      "priceRange": "12000~22000",
+      "rating": 4.9,
+      "reviewCount": 35,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "단체가능",
+        "데이트",
+        "예약필수",
+        "웨이팅맛집",
+        "인스타감성",
+        "중식",
+        "친절",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스",
+        "회식"
+      ],
+      "scene": [
+        "단체",
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥟"
+    },
+    {
+      "name": "심양 판교점",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 삼평동 656 112호",
+      "hours": "15:00에 영업 시작",
+      "tel": "07-1491-9291",
+      "priceRange": "12000~43000",
+      "rating": 5,
+      "reviewCount": 1,
+      "blogCount": 145,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "生양등심꼬치 250g",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "오리지날양꼬치 200g",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "모듬꼬치",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "가지튀김볶음",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "꿔바로우",
+          "price": 24000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "마라장룡 마라상궈마라탕",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 삼평동 670",
+      "hours": "",
+      "tel": "02-1116-1111",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 2,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1483558027/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "춘리마라탕 야탑점",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 야탑동 366-3 2층 204호",
+      "hours": "01:00에 영업 종료",
+      "tel": "07-1470-9063",
+      "priceRange": "2900~29900",
+      "rating": 5,
+      "reviewCount": 1,
+      "blogCount": 17,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "대한민국 대표 마라탕(1인분)",
+          "price": 10900,
+          "description": ""
+        },
+        {
+          "name": "대한민국 대표 마라탕(2~3인분)",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "불맛 일품 마라샹궈(1인분)",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "불맛 일품 마라샹궈(2~3인분)",
+          "price": 29900,
+          "description": ""
+        },
+        {
+          "name": "꿔바로우(미니(5pc,소스따로불가))",
+          "price": 6900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1634565144/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 902
+}

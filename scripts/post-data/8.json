@@ -1,0 +1,290 @@
+{
+  "id": 8,
+  "slug": "samsung-date-restaurant-2026",
+  "title": "삼성역 데이트 레스토랑 추천 5곳 | 코엑스 분위기 맛집",
+  "description": "삼성역·코엑스 데이트 분위기 레스토랑 5곳 비교",
+  "category": "date",
+  "region": "samseong",
+  "date": "2026-05-07",
+  "tags": [
+    "삼성역",
+    "데이트",
+    "레스토랑",
+    "코엑스"
+  ],
+  "restaurants": [
+    {
+      "name": "해화장",
+      "type": "횟집·해산물",
+      "addr": "테헤란로 81길 47 1층",
+      "hours": "02:00",
+      "tel": "07-1376-7872",
+      "priceRange": "23000~38000",
+      "rating": 4.9,
+      "reviewCount": 47,
+      "blogCount": 283,
+      "tags": [
+        "신선회",
+        "어선인테리어",
+        "코르키지",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하할 일 있음",
+        "회식"
+      ],
+      "scene": [
+        "데이트",
+        "특별한 날",
+        "신선한 회"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "[봄, 바다향 터지는] 봄멍게",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "[봄,바다향 터지는] 돌멍게",
+          "price": 38000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🐟"
+    },
+    {
+      "name": "일상정원 코엑스점",
+      "type": "일식·전골",
+      "addr": "봉은사로 524 오크우드호텔 코엑스별관",
+      "hours": "21:30",
+      "tel": "07-1485-8070",
+      "priceRange": "6000~20900",
+      "rating": 4.8,
+      "reviewCount": 706,
+      "blogCount": 1127,
+      "tags": [
+        "스키야키",
+        "모츠나베",
+        "전골",
+        "혼밥가능",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "기분 좋음",
+        "피곤함"
+      ],
+      "scene": [
+        "데이트",
+        "따뜻한 전골",
+        "비 오는 날"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "구름 스키야키(관서식)",
+          "price": 21400,
+          "description": ""
+        },
+        {
+          "name": "미소 샤브샤브(관동식)",
+          "price": 18400,
+          "description": ""
+        },
+        {
+          "name": "NEW, 사케마구로동",
+          "price": 20900,
+          "description": ""
+        },
+        {
+          "name": "NEW, 지라시스시",
+          "price": 25400,
+          "description": ""
+        },
+        {
+          "name": "NEW, 규나베 서로인 한우 1++",
+          "price": 32400,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1169891232",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🫕"
+    },
+    {
+      "name": "솔트랑 스테이크 삼성",
+      "type": "스테이크하우스",
+      "addr": "테헤란로 610 지하 1층",
+      "hours": "11:30 AM–9:30 PM",
+      "tel": "02-6012-7429",
+      "priceRange": "8500~23000",
+      "rating": 5,
+      "reviewCount": 184,
+      "blogCount": 369,
+      "tags": [
+        "스테이크",
+        "소금스테이크",
+        "특별한날",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "축하할 일 있음",
+        "데이트"
+      ],
+      "scene": [
+        "특별한 날",
+        "데이트 스테이크",
+        "기념일"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "T-bone (100g당)",
+          "price": 19800,
+          "description": ""
+        },
+        {
+          "name": "솔트허브크런치 토마호크(100g당)",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "쿠스쿠스 타볼레",
+          "price": 9900,
+          "description": ""
+        },
+        {
+          "name": "해산물 황태 알리오올리오",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "두바이 아이스크림",
+          "price": 8500,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "모도우 삼성",
+      "type": "한식·코스",
+      "addr": "테헤란로 87길 35",
+      "hours": "11:30 AM–3 PM, 5–10 PM",
+      "tel": "",
+      "priceRange": "9000~15000",
+      "rating": 4.6,
+      "reviewCount": 154,
+      "blogCount": 0,
+      "tags": [
+        "프라이빗룸",
+        "코스요리",
+        "고급한식"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하할 일 있음",
+        "기분 좋음"
+      ],
+      "scene": [
+        "특별한 날",
+        "데이트",
+        "고급 한식"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🪷"
+    },
+    {
+      "name": "논두렁오리주물럭 선릉직영점",
+      "type": "한식",
+      "addr": "대치동 895-9 1층",
+      "hours": "10:00",
+      "tel": "",
+      "priceRange": "8000~58000",
+      "rating": 5,
+      "reviewCount": 485,
+      "blogCount": 1256,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "단체가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식"
+      ],
+      "scene": [
+        "직장인 점심",
+        "팀 회식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "대패 주물럭 한판(2~3인)",
+          "price": 36000,
+          "description": ""
+        },
+        {
+          "name": "대패 주물럭 한판 반(4인)",
+          "price": 48000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 859
+}

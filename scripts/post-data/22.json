@@ -1,0 +1,260 @@
+{
+  "id": 22,
+  "slug": "pangyo-entertainment-dinner-2026",
+  "title": "판교 접대 레스토랑 추천 5곳 | 비즈니스 식사 완벽 가이드 2026",
+  "description": "판교 테크노밸리 비즈니스 접대 레스토랑 5곳 예산·스타일 비교",
+  "category": "group",
+  "region": "pangyo",
+  "date": "2026-05-07",
+  "tags": [
+    "판교",
+    "접대",
+    "비즈니스",
+    "레스토랑"
+  ],
+  "restaurants": [
+    {
+      "name": "스시소라 판교점",
+      "type": "일식",
+      "addr": "경기도 성남시 분당구 삼평동 740 지하1층 비101호",
+      "hours": "17:00에 영업 시작",
+      "tel": "031-702-3200",
+      "priceRange": "50000~100000",
+      "rating": 5,
+      "reviewCount": 1,
+      "blogCount": 105,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "런치)오마카세",
+          "price": 50000,
+          "description": ""
+        },
+        {
+          "name": "디너) 오마카세",
+          "price": 100000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2059627757/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "꿰다 판교아브뉴프랑점",
+      "type": "일식",
+      "addr": "경기도 성남시 분당구 삼평동 740 판교 호반 써밋 플레이스 1층 143호",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1410-4775",
+      "priceRange": "75000~75000",
+      "rating": 4.9,
+      "reviewCount": 244,
+      "blogCount": 625,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "(런치) 봄과 장 코스",
+          "price": 75000,
+          "description": ""
+        },
+        {
+          "name": "(디너) 봄과 장 코스",
+          "price": 75000,
+          "description": ""
+        },
+        {
+          "name": "감자 냉수프",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "보리 샐러드",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "찐 전복과 가지",
+          "price": 0,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1064111104/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "우화",
+      "type": "고기구이",
+      "addr": "동판교로177번길 25",
+      "hours": "PM 5:30~10:00",
+      "tel": "031-707-4775",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 120,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "데이트",
+        "예약필수",
+        "웨이팅맛집",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "바차 판교점",
+      "type": "술집",
+      "addr": "경기도 성남시 분당구 삼평동 656 101호",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1476-7668",
+      "priceRange": "22000~35000",
+      "rating": 5,
+      "reviewCount": 128,
+      "blogCount": 289,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "바차바다찜(M/L)",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "해물레드감바스",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "로치새우",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "수비드항정수육&부추무침",
+          "price": 27000,
+          "description": ""
+        },
+        {
+          "name": "어니언순살치킨",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1422775069/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "심양 판교점",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 삼평동 656 112호",
+      "hours": "15:00에 영업 시작",
+      "tel": "07-1491-9291",
+      "priceRange": "12000~43000",
+      "rating": 5,
+      "reviewCount": 1,
+      "blogCount": 145,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "生양등심꼬치 250g",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "오리지날양꼬치 200g",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "모듬꼬치",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "가지튀김볶음",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "꿔바로우",
+          "price": 24000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 902
+}

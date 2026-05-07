@@ -1,0 +1,200 @@
+{
+  "id": 25,
+  "slug": "yeongtong-date-restaurant-2026",
+  "title": "영통역 데이트 맛집 추천 5곳 | 뷰맛집·분위기 레스토랑 가이드",
+  "description": "영통역·망포 데이트 맛집 5곳 분위기·가성비·주차 비교",
+  "category": "date",
+  "region": "yeongtong",
+  "date": "2026-05-07",
+  "tags": [
+    "영통",
+    "데이트",
+    "뷰맛집",
+    "레스토랑"
+  ],
+  "restaurants": [
+    {
+      "name": "천애부히쇼우 망포 본점",
+      "type": "일식",
+      "addr": "경기도 수원시 영통구 망포동 570-5 103호",
+      "hours": "10:30에 영업 시작",
+      "tel": "07-1384-4538",
+      "priceRange": "1100~26000",
+      "rating": 5,
+      "reviewCount": 8,
+      "blogCount": 247,
+      "tags": [
+        "혼밥가능",
+        "주차가능",
+        "리뷰많음",
+        "서비스좋음",
+        "뷰맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "스테이크덮밥",
+          "price": 13500,
+          "description": ""
+        },
+        {
+          "name": "미소우동",
+          "price": 11500,
+          "description": ""
+        },
+        {
+          "name": "대창덮밥",
+          "price": 12500,
+          "description": ""
+        },
+        {
+          "name": "가라아게냉우동",
+          "price": 11500,
+          "description": ""
+        },
+        {
+          "name": "가라아게덮밥",
+          "price": 12000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1731985891/home",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": ""
+    },
+    {
+      "name": "오무란",
+      "type": "일식",
+      "addr": "경기도 수원시 영통구 망포동 41-51 1층 107호",
+      "hours": "",
+      "tel": "0507-1376-8217",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 7,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2090743201/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "샤브향 수원매탄점",
+      "type": "일식",
+      "addr": "경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층",
+      "hours": "",
+      "tel": "031-213-4592",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 33,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/38230012/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "위노잉커피",
+      "type": "카페",
+      "addr": "경기도 수원시 영통구 영통동 980-3 1층 E동 133호",
+      "hours": "08:00에 영업 시작",
+      "tel": "07-2093-2627",
+      "priceRange": "100~6000",
+      "rating": 5,
+      "reviewCount": 5,
+      "blogCount": 221,
+      "tags": [
+        "가성비",
+        "주차가능",
+        "데이트",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "[패스오더전용] 100원 아메리카노",
+          "price": 100,
+          "description": ""
+        },
+        {
+          "name": "아메리카노(I/H)",
+          "price": 3000,
+          "description": ""
+        },
+        {
+          "name": "카푸치노(Only Hot)",
+          "price": 4000,
+          "description": ""
+        },
+        {
+          "name": "카페라떼(I/H)",
+          "price": 4000,
+          "description": ""
+        },
+        {
+          "name": "바닐라라떼(I/H)",
+          "price": 5000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1067050744/home",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": ""
+    },
+    {
+      "name": "이차선술집",
+      "type": "술집",
+      "addr": "경기도 수원시 영통구 영통동 974-7 2층",
+      "hours": "",
+      "tel": "0507-1358-6491",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 5,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1200485504/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 679
+}

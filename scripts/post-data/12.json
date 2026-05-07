@@ -1,0 +1,272 @@
+{
+  "id": 12,
+  "slug": "samsung-chinese-food-2026",
+  "title": "삼성역 중식 맛집 추천 5곳 | 코엑스 짜장·짬뽕·딤섬",
+  "description": "삼성역 중식 맛집 5곳 가격·분위기 비교",
+  "category": "chinese",
+  "region": "samseong",
+  "date": "2026-05-07",
+  "tags": [
+    "삼성역",
+    "중식",
+    "짜장",
+    "딤섬"
+  ],
+  "restaurants": [
+    {
+      "name": "무탄 코엑스",
+      "type": "중식·퓨전",
+      "addr": "영동대로 513 코엑스몰 B1",
+      "hours": "11 AM–9:30 PM",
+      "tel": "07-1397-0364",
+      "priceRange": "10000~18000",
+      "rating": 4.9,
+      "reviewCount": 7774,
+      "blogCount": 3811,
+      "tags": [
+        "자장면",
+        "짬뽕",
+        "어향동고",
+        "코엑스핫플",
+        "혼밥가능",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "회식",
+        "데이트",
+        "혼밥"
+      ],
+      "scene": [
+        "코엑스 식사",
+        "중식",
+        "회식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥡"
+    },
+    {
+      "name": "천미미 삼성점",
+      "type": "중식·요리",
+      "addr": "삼성로 534",
+      "hours": "11 AM–3 PM, 5–9:30 PM",
+      "tel": "07-1328-5340",
+      "priceRange": "13000~88000",
+      "rating": 4.7,
+      "reviewCount": 71,
+      "blogCount": 1639,
+      "tags": [
+        "어향동고",
+        "탕수육",
+        "가족모임",
+        "점심추천",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "축하할 일 있음",
+        "데이트"
+      ],
+      "scene": [
+        "회식",
+        "특별한 날 중식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "어향동고",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "전가복(스페셜)",
+          "price": 88000,
+          "description": ""
+        },
+        {
+          "name": "통낙지 쟁반짜장",
+          "price": 28000,
+          "description": ""
+        },
+        {
+          "name": "미미짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "삼선짬뽕",
+          "price": 14000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1764168880",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🦐"
+    },
+    {
+      "name": "하이딜라오 코엑스",
+      "type": "중식·훠궈",
+      "addr": "테헤란로 87길 58 지하2층",
+      "hours": "22:00",
+      "tel": "07-2085-1273",
+      "priceRange": "4300~55000",
+      "rating": 4.2,
+      "reviewCount": 59,
+      "blogCount": 198,
+      "tags": [
+        "훠궈",
+        "핫팟",
+        "24시간",
+        "코엑스",
+        "단체",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "축하할 일 있음",
+        "기분 좋음"
+      ],
+      "scene": [
+        "회식",
+        "훠궈",
+        "단체 식사"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "누누 딸기레어 케이크 (시즌마감)",
+          "price": 8500,
+          "description": ""
+        },
+        {
+          "name": "NUNU COFFEE (BEST)",
+          "price": 6800,
+          "description": "고요한 달콤함이 머무는 수제 바닐라 푸딩"
+        },
+        {
+          "name": "에그포테이토 브리오슈",
+          "price": 4800,
+          "description": "따뜻한 브리오슈 안에 머문 에그와 포테이토의 여유"
+        },
+        {
+          "name": "마틸다 라즈베리 홀케이크 (예약주문)",
+          "price": 35000,
+          "description": "마틸다 라즈베리 홀케이크 입니다. 1호사이즈"
+        },
+        {
+          "name": "바스크치즈 홀케이크 (예약주문)",
+          "price": 55000,
+          "description": "포장 디자인 변경 가능합니다 3호사이즈"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1997557444",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍲"
+    },
+    {
+      "name": "이오복순대국 대치은마점",
+      "type": "순대,순댓국",
+      "addr": "대치동 316 은마종합상가 지하1층 B블럭-10호",
+      "hours": "10:00",
+      "tel": "",
+      "priceRange": "11000",
+      "rating": 5,
+      "reviewCount": 9,
+      "blogCount": 121,
+      "tags": [
+        "가성비",
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음"
+      ],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "NEW 순칼 (순대국 칼국수)",
+          "price": 11000,
+          "description": "대한민국 최초 순칼!! 순대국과 칼국수의 만남"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2022139367",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    },
+    {
+      "name": "일품양평해장국 강남대치점",
+      "type": "해장국",
+      "addr": "대치동 903-12 지상1층",
+      "hours": "07:30",
+      "tel": "",
+      "priceRange": "9000~38000",
+      "rating": 5,
+      "reviewCount": 2,
+      "blogCount": 79,
+      "tags": [
+        "점심추천",
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함"
+      ],
+      "scene": [
+        "직장인 점심"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "순대내장탕",
+          "price": 9000,
+          "description": "사골육수와 내장모둠이 만나 환상적인 얼큰한 맛!"
+        },
+        {
+          "name": "",
+          "price": 38000,
+          "description": "(中)  (大)"
+        },
+        {
+          "name": "",
+          "price": 35000,
+          "description": "(中)  (大)"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1135011106",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 859
+}

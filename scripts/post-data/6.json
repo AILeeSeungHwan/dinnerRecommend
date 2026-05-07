@@ -1,0 +1,195 @@
+{
+  "id": 6,
+  "slug": "jamsil-japanese-sushi-2026",
+  "title": "잠실 일식·스시 맛집 추천 5선 | 2026 평점·가격 비교",
+  "description": "잠실 오마카세부터 회전초밥까지 일식 맛집 5곳 비교",
+  "category": "japanese",
+  "region": "jamsil",
+  "date": "2026-05-07",
+  "tags": [
+    "잠실",
+    "일식",
+    "스시",
+    "오마카세"
+  ],
+  "restaurants": [
+    {
+      "name": "오사이초밥 잠실",
+      "type": "스시오마카세",
+      "addr": "송리단길",
+      "hours": "11:30~22:00",
+      "tel": "",
+      "priceRange": "19000~35000",
+      "rating": 4.4,
+      "reviewCount": 11,
+      "blogCount": 0,
+      "tags": [
+        "오마카세",
+        "스시",
+        "점심오마카세",
+        "가성비오마카세",
+        "송리단길",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "혼밥",
+        "축하"
+      ],
+      "scene": [
+        "점심",
+        "데이트",
+        "특별한날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": "🍣"
+    },
+    {
+      "name": "김태완스시",
+      "type": "스시·오마카세",
+      "addr": "송리단길",
+      "hours": "11:30~21:30",
+      "tel": "",
+      "priceRange": "25000~60000",
+      "rating": 4.1,
+      "reviewCount": 229,
+      "blogCount": 0,
+      "tags": [
+        "스시",
+        "오마카세",
+        "가성비오마카세",
+        "송리단길",
+        "데이트",
+        "예약추천"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하",
+        "혼밥"
+      ],
+      "scene": [
+        "데이트",
+        "특별한날",
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": "🍣"
+    },
+    {
+      "name": "압구정뽀글이",
+      "type": "한식",
+      "addr": "서울특별시 송파구 신천동 7 장미아파트비상가 2동 B1-38호, 43호",
+      "hours": "",
+      "tel": "0507-1477-3660",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 11471,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1088293580/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "청담동순도리 석촌호수점",
+      "type": "한식",
+      "addr": "서울특별시 송파구 석촌동 2-5 1층 청담동순도리 석촌호수점",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-417-1788",
+      "priceRange": "11000~3600056000",
+      "rating": 5,
+      "reviewCount": 162,
+      "blogCount": 482,
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "한우대창 곱도리탕",
+          "price": 3600056000,
+          "description": ""
+        },
+        {
+          "name": "즉석수제 고추튀김",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "순대국밥",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "육개장",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "즉석수제 해물파전",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1391416666/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "쾌세라",
+      "type": "양식",
+      "addr": "서울특별시 송파구 삼전동 26-18 1층 102호, 103호",
+      "hours": "",
+      "tel": "0507-1442-8094",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 127,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1861792642/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 1149
+}
