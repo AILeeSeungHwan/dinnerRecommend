@@ -12,7 +12,14 @@ from datetime import date
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE, 'scripts', 'post-data')
+IMG_MAPPING_FILE = os.path.join(BASE, 'scripts', 'post-images.json')
 TODAY = date.today().strftime('%Y-%m-%d')
+
+# ── 이미지 매핑 로드 ───────────────────────────────────────────
+img_mapping = {}
+if os.path.exists(IMG_MAPPING_FILE):
+    with open(IMG_MAPPING_FILE, 'r', encoding='utf-8') as f:
+        img_mapping = json.load(f)
 
 # ── 그라디언트 스타일 풀 ────────────────────────────────────────
 GRADIENTS = [
@@ -609,7 +616,8 @@ for post_data in all_posts_meta:
     })
     sections.append({'type': 'body', 'html': criteria_html})
 
-    # 4. 각 식당별 h2 + body
+    # 4. 각 식당별 h2 + body + image
+    post_images = img_mapping.get(str(pid), {}).get('restaurants', {})
     for i, r in enumerate(restaurants):
         h2_title = make_h2_title(r, category)
         h2_id = safe_id(r['name'])
@@ -626,6 +634,16 @@ for post_data in all_posts_meta:
             'type': 'body',
             'html': body_html,
         })
+
+        # 이미지 삽입 (최대 2장)
+        r_images = post_images.get(r['name'], [])
+        for img_idx, img_path in enumerate(r_images[:2]):
+            sections.append({
+                'type': 'image',
+                'src': img_path,
+                'alt': f'{r["name"]} 음식 사진 {img_idx + 1}',
+                'caption': f'{r["name"]}',
+            })
 
     # 4. 비교표
     if len(restaurants) >= 2:
@@ -703,6 +721,12 @@ for post_data in all_posts_meta:
                 f"    {{\n      type: 'cta',\n      href: {json.dumps(s['href'], ensure_ascii=False)},\n"
                 f"      text: {json.dumps(s['text'], ensure_ascii=False)},\n    }}"
             )
+        elif s['type'] == 'image':
+            js_sections.append(
+                f"    {{\n      type: 'image',\n      src: {json.dumps(s['src'], ensure_ascii=False)},\n"
+                f"      alt: {json.dumps(s['alt'], ensure_ascii=False)},\n"
+                f"      caption: {json.dumps(s['caption'], ensure_ascii=False)},\n    }}"
+            )
         elif s['type'] == 'ending':
             js_sections.append(f"    {{\n      type: 'ending',\n      html: {json.dumps(s['html'], ensure_ascii=False)},\n    }}")
 
@@ -726,14 +750,31 @@ for post_data in all_posts_meta:
 
     print(f'  Post {pid:2d} ({slug[:35]:35s}): {len(restaurants)}개 식당 | {char_count:,}자')
 
-# ── data/posts.js 날짜 업데이트 ──────────────────────────────────
+# ── data/posts.js 날짜 + 썸네일 업데이트 ──────────────────────────
 print(f'\n날짜 업데이트: date → {TODAY}')
-# 모든 date 필드를 오늘 날짜로 업데이트
 updated_posts_text = re.sub(
     r"date:'[0-9]{4}-[0-9]{2}-[0-9]{2}'",
     f"date:'{TODAY}'",
     posts_js_text
 )
+
+# 썸네일 경로 삽입/업데이트
+thumb_count = 0
+for pid_str, pimg in img_mapping.items():
+    thumb = pimg.get('thumb', '')
+    if not thumb:
+        continue
+    # thumbnail:null 또는 thumbnail:'...' 교체
+    pat_null = re.compile(rf"(id:{pid_str},.*?)thumbnail:null", re.DOTALL)
+    pat_str = re.compile(rf"(id:{pid_str},.*?)thumbnail:'[^']*'", re.DOTALL)
+    if pat_null.search(updated_posts_text):
+        updated_posts_text = pat_null.sub(rf"\g<1>thumbnail:'{thumb}'", updated_posts_text)
+        thumb_count += 1
+    elif pat_str.search(updated_posts_text):
+        updated_posts_text = pat_str.sub(rf"\g<1>thumbnail:'{thumb}'", updated_posts_text)
+        thumb_count += 1
+print(f'썸네일 업데이트: {thumb_count}개 포스트')
+
 with open(posts_file, 'w', encoding='utf-8') as f:
     f.write(updated_posts_text)
 

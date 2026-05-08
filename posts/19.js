@@ -29,6 +29,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a></strong> (덕영대로1556번길 16 168,169)</p><ul><li>평점 5점 (리뷰 16건)</li><li>가격대 10,000~20,000원</li><li>영업시간 평일 5:00 PM~10:00 / 주말 11:00 AM~9:30 PM</li><li>전화 010-9022-0783</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 16건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #가족 #고기 #고평점 #구이 #단체가능</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/19/십년한우실비집-수원망포점-1.jpg",
+      alt: "십년한우실비집 수원망포점 음식 사진 1",
+      caption: "십년한우실비집 수원망포점",
+    },
+    {
       type: 'h2',
       id: "영포화로-본점",
       text: "영포화로 본점 — 단체석 보유 회식 맛집",
@@ -37,6 +43,18 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a></strong> (수원시 덕영대로1556번길 16 KR 디지털엠파이어빌딩 1층 113호)</p><ul><li>평점 4.5점 (리뷰 212건)</li><li>가격대 12,000~20,000원</li><li>영업시간 12:00 PM~10:00</li><li>전화 031-203-9233</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 212건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #리뷰많음 #회식</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/19/영포화로-본점-1.jpg",
+      alt: "영포화로 본점 음식 사진 1",
+      caption: "영포화로 본점",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/19/영포화로-본점-2.jpg",
+      alt: "영포화로 본점 음식 사진 2",
+      caption: "영포화로 본점",
     },
     {
       type: 'h2',
@@ -49,6 +67,18 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a></strong> (수원시 영통로200번길 89 1층)</p><ul><li>평점 4.5점 (리뷰 110건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:30 AM~3:00 PM, 4:00 PM~11:00</li><li>전화 050-71365-3050</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 110건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고기 #고평점 #구이 #단체가능 #점심추천</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/19/갈비꽃망포점-1.jpg",
+      alt: "갈비꽃망포점 음식 사진 1",
+      caption: "갈비꽃망포점",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/19/갈비꽃망포점-2.jpg",
+      alt: "갈비꽃망포점 음식 사진 2",
+      caption: "갈비꽃망포점",
+    },
+    {
       type: 'h2',
       id: "빽돈-망포점",
       text: "빽돈 망포점 — 회식 추천 식당",
@@ -59,6 +89,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a></strong> (경기도 수원시 영통구 망포동 342 1층)</p><ul><li>평점 4.7점 (리뷰 9건)</li><li>전화 0507-1384-0343</li></ul><p>리뷰 9건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/19/빽돈-망포점-1.jpg",
+      alt: "빽돈 망포점 음식 사진 1",
+      caption: "빽돈 망포점",
+    },
+    {
       type: 'h2',
       id: "한마음정육식당-영통점",
       text: "한마음정육식당 영통점 — 단체석 보유 회식 맛집",
@@ -67,6 +103,18 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></strong> (영통동 봉영로1482번길 7-1)</p><ul><li>평점 4.5점 (리뷰 84건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-3166</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 84건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #고평점 #구이 #단체가능 #친절</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/19/한마음정육식당-영통점-1.jpg",
+      alt: "한마음정육식당 영통점 음식 사진 1",
+      caption: "한마음정육식당 영통점",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/19/한마음정육식당-영통점-2.jpg",
+      alt: "한마음정육식당 영통점 음식 사진 2",
+      caption: "한마음정육식당 영통점",
     },
     {
       type: 'h2',

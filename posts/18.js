@@ -29,6 +29,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a></strong> (영통동 1044-6)</p><ul><li>평점 4.8점 (리뷰 6건)</li><li>가격대 10,000~20,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 국내산 한우를 사용합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다. 숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #웨이팅맛집 #한우</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/18/청우회관-1.jpg",
+      alt: "청우회관 음식 사진 1",
+      caption: "청우회관",
+    },
+    {
       type: 'h2',
       id: "윤가곰탕",
       text: "윤가곰탕 — 고기구이·국밥 전문",
@@ -37,6 +43,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\">윤가곰탕</a></strong> (매영로345번길 7)</p><ul><li>평점 4.5점 (리뷰 346건)</li><li>가격대 12,000~20,000원</li><li>영업시간 11:00 AM~9:00 PM</li><li>전화 031-202-2211</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 346건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다. 숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고기 #고평점 #구이 #국물요리 #국밥</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/18/윤가곰탕-1.jpg",
+      alt: "윤가곰탕 음식 사진 1",
+      caption: "윤가곰탕",
     },
     {
       type: 'h2',
@@ -49,6 +61,18 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a></strong> (영통동 1040-8번지 1층)</p><ul><li>평점 4.5점 (리뷰 122건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-206-0906</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 122건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #웨이팅맛집 #치킨</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/18/김래하닭갈비-1.jpg",
+      alt: "김래하닭갈비 음식 사진 1",
+      caption: "김래하닭갈비",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/18/김래하닭갈비-2.jpg",
+      alt: "김래하닭갈비 음식 사진 2",
+      caption: "김래하닭갈비",
+    },
+    {
       type: 'h2',
       id: "장수돌곱창",
       text: "장수돌곱창 — 고기구이·곱창 전문",
@@ -59,6 +83,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\">장수돌곱창</a></strong> (영통동 1036-4)</p><ul><li>평점 4.3점 (리뷰 227건)</li><li>가격대 12,000~20,000원</li><li>영업시간 4:00 PM~10:00</li><li>전화 031-205-1126</li></ul><p>직원 서비스가 친절하다는 리뷰가 많습니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 227건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #곱창 #구이 #단체가능 #리뷰많음 #예약제</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/18/장수돌곱창-1.jpg",
+      alt: "장수돌곱창 음식 사진 1",
+      caption: "장수돌곱창",
+    },
+    {
       type: 'h2',
       id: "통영숯불장어",
       text: "통영숯불장어 — 고기구이·일식 전문",
@@ -67,6 +97,18 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\">통영숯불장어</a></strong> (영통동 1040-1)</p><ul><li>평점 4.3점 (리뷰 106건)</li><li>가격대 10,000~20,000원</li><li>영업시간 4:30 PM~12:00 AM</li><li>전화 031-205-5022</li></ul><p>직원 서비스가 친절하다는 리뷰가 많습니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 106건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #구이 #단체가능 #일식 #친절 #회식</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/18/통영숯불장어-1.jpg",
+      alt: "통영숯불장어 음식 사진 1",
+      caption: "통영숯불장어",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/18/통영숯불장어-2.jpg",
+      alt: "통영숯불장어 음식 사진 2",
+      caption: "통영숯불장어",
     },
     {
       type: 'h2',

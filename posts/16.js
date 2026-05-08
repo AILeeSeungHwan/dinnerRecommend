@@ -29,6 +29,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a></strong> (서울특별시 송파구 송파동 58-15 A동 201호)</p><ul><li>평점 5점 (리뷰 138건 · 블로그 759건)</li><li>가격대 11,000~38,000원</li><li>영업시간 11:30에 영업 시작</li><li>전화 07-1349-7846</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 프라하 꼴레뇨 38,000원 / 고구마 맛탕 단호박 스프 11,000원 / 닭 다리살 잣 바질 크림 리조또 22,000원 / 와인 / 채끝 등심 스테이크 37,000원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 138건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #주차가능 #데이트 #서비스좋음</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/16/라코즈-1.jpg",
+      alt: "라코즈 음식 사진 1",
+      caption: "라코즈",
+    },
+    {
       type: 'h2',
       id: "조조모모",
       text: "조조모모 — 평점 5점 프리미엄 레스토랑",
@@ -37,6 +43,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></strong> (서울특별시 송파구 방이동 64-5 B1층)</p><ul><li>평점 5점 (리뷰 256건 · 블로그 845건)</li><li>가격대 17,000~29,000원</li><li>영업시간 17:00에 영업 시작</li><li>전화 070-8800-0229</li><li>예약 가능</li></ul><p><strong>대표 메뉴:</strong> 시그니처 돼지갈비 수육 29,000원 / 크림 떡볶이와 감태 가리비찜 27,000원 / 고추장 돼지찌개 25,000원 / 물 닭갈비 25,000원 / 가리비 어묵탕 23,000원</p><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 256건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #데이트 #웨이팅맛집</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/16/조조모모-1.jpg",
+      alt: "조조모모 음식 사진 1",
+      caption: "조조모모",
     },
     {
       type: 'h2',
@@ -49,6 +61,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a></strong> (서울특별시 송파구 삼전동 26-18 1층 102호, 103호)</p><ul><li>평점 5점 (리뷰 127건)</li><li>전화 0507-1442-8094</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 127건이 축적된 검증된 맛집입니다.</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/16/쾌세라-1.jpg",
+      alt: "쾌세라 음식 사진 1",
+      caption: "쾌세라",
+    },
+    {
       type: 'h2',
       id: "솔직한우-방이점",
       text: "솔직한우 방이점 — 평점 5점 프리미엄 레스토랑",
@@ -59,6 +77,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></strong> (서울특별시 송파구 방이동 70 1층, 2층, 지하1층)</p><ul><li>평점 5점 (리뷰 85건 · 블로그 321건)</li><li>가격대 9,900~130,000원</li><li>영업시간 11:00에 영업 시작</li><li>전화 02-2039-9475</li></ul><p><strong>대표 메뉴:</strong> (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원 / 솔직한우 1+ 한근세트(600g) 65,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 85건이 축적된 검증된 맛집입니다. 코스 기준 인당 0~13만원대로 특별한 날 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #단체가능 #데이트 #깔끔한곳 #서비스좋음</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/16/솔직한우-방이점-1.jpg",
+      alt: "솔직한우 방이점 음식 사진 1",
+      caption: "솔직한우 방이점",
+    },
+    {
       type: 'h2',
       id: "보틀벙커-비스트로-bottle-bunker-bistro",
       text: "보틀벙커 비스트로 Bottle Bunker Bistro — 평점 5점 프리미엄 레스토랑",
@@ -67,6 +91,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a></strong> (서울특별시 송파구 잠실동 40-1 롯데마트 1층 보틀벙커 비스트로)</p><ul><li>평점 5점 (리뷰 35건)</li><li>가격대 10,000~39,000원</li><li>전화 02-2143-1389</li></ul><p><strong>대표 메뉴:</strong> 무화과 모짜렐라 샐러드 19,000원 / BBB 봉골레 파스타 24,000원 / 피스타치오 크림 파케리 파스타 25,000원 / BBB 아롱사태 라자냐 26,000원 / 토시살 스테이크 39,000원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 35건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#서비스좋음</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/16/보틀벙커-비스트로-Bottle-Bunker-Bistro-1.jpg",
+      alt: "보틀벙커 비스트로 Bottle Bunker Bistro 음식 사진 1",
+      caption: "보틀벙커 비스트로 Bottle Bunker Bistro",
     },
     {
       type: 'h2',

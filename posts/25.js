@@ -29,6 +29,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a></strong> (경기도 수원시 영통구 망포동 570-5 103호)</p><ul><li>평점 5점 (리뷰 8건 · 블로그 247건)</li><li>가격대 1,100~26,000원</li><li>영업시간 10:30에 영업 시작</li><li>전화 07-1384-4538</li><li>주차 가능</li></ul><p><strong>대표 메뉴:</strong> 스테이크덮밥 13,500원 / 미소우동 11,500원 / 대창덮밥 12,500원 / 가라아게냉우동 11,500원 / 가라아게덮밥 12,000원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 8건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#혼밥가능 #주차가능 #리뷰많음 #서비스좋음 #뷰맛집</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/25/천애부히쇼우-망포-본점-1.jpg",
+      alt: "천애부히쇼우 망포 본점 음식 사진 1",
+      caption: "천애부히쇼우 망포 본점",
+    },
+    {
       type: 'h2',
       id: "오무란",
       text: "오무란 — 평점 5점 프리미엄 레스토랑",
@@ -37,6 +43,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a></strong> (경기도 수원시 영통구 망포동 41-51 1층 107호)</p><ul><li>평점 5점 (리뷰 7건)</li><li>전화 0507-1376-8217</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 7건이 축적된 검증된 맛집입니다.</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/25/오무란-1.jpg",
+      alt: "오무란 음식 사진 1",
+      caption: "오무란",
     },
     {
       type: 'h2',
@@ -49,6 +61,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></strong> (경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층)</p><ul><li>평점 5점 (리뷰 33건)</li><li>전화 031-213-4592</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 33건이 축적된 검증된 맛집입니다.</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/25/샤브향-수원매탄점-1.jpg",
+      alt: "샤브향 수원매탄점 음식 사진 1",
+      caption: "샤브향 수원매탄점",
+    },
+    {
       type: 'h2',
       id: "위노잉커피",
       text: "위노잉커피 — 평점 5점 프리미엄 레스토랑",
@@ -59,6 +77,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a></strong> (경기도 수원시 영통구 영통동 980-3 1층 E동 133호)</p><ul><li>평점 5점 (리뷰 5건 · 블로그 221건)</li><li>가격대 100~6,000원</li><li>영업시간 08:00에 영업 시작</li><li>전화 07-2093-2627</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> [패스오더전용] 100원 아메리카노 100원 / 아메리카노(I/H) 3,000원 / 카푸치노(Only Hot) 4,000원 / 카페라떼(I/H) 4,000원 / 바닐라라떼(I/H) 5,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 5건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #주차가능 #데이트 #깔끔한곳 #서비스좋음</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/25/위노잉커피-1.jpg",
+      alt: "위노잉커피 음식 사진 1",
+      caption: "위노잉커피",
+    },
+    {
       type: 'h2',
       id: "이차선술집",
       text: "이차선술집 — 평점 5점 프리미엄 레스토랑",
@@ -67,6 +91,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a></strong> (경기도 수원시 영통구 영통동 974-7 2층)</p><ul><li>평점 5점 (리뷰 5건)</li><li>전화 0507-1358-6491</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 5건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/25/이차선술집-1.jpg",
+      alt: "이차선술집 음식 사진 1",
+      caption: "이차선술집",
     },
     {
       type: 'h2',

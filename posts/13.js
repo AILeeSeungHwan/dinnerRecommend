@@ -49,6 +49,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a></strong> (매영로247번길 1)</p><ul><li>평점 4.3점 (리뷰 260건)</li><li>가격대 12,000~20,000원</li><li>영업시간 4:00 PM~10:00</li><li>전화 031-287-7688</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 260건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #구이 #단체가능 #리뷰많음 #뷰맛집</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/13/금강산화로구이-1.jpg",
+      alt: "금강산화로구이 음식 사진 1",
+      caption: "금강산화로구이",
+    },
+    {
       type: 'h2',
       id: "양심소-매탄점",
       text: "양심소 매탄점 — 단체석 보유 회식 맛집",
@@ -57,6 +63,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a></strong> (매탄동 408-1)</p><ul><li>평점 4.4점 (리뷰 80건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~10:30 PM</li><li>전화 010-4562-5972</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 국내산 한우를 사용합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 80건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #구이 #단체가능 #점심추천 #주차가능 #친절</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/13/양심소-매탄점-1.jpg",
+      alt: "양심소 매탄점 음식 사진 1",
+      caption: "양심소 매탄점",
     },
     {
       type: 'h2',
@@ -79,6 +91,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a></strong> (하동 554 번지)</p><ul><li>평점 4.4점 (리뷰 36건)</li><li>가격대 8,000~12,000원</li><li>영업시간 평일 11:00 AM~7:30 PM / 주말 휴무일</li><li>전화 031-8002-3442</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 36건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #단체가능 #무한리필 #뷔페 #회식</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/13/용갈이뷔페-1.jpg",
+      alt: "용갈이뷔페 음식 사진 1",
+      caption: "용갈이뷔페",
+    },
+    {
       type: 'h2',
       id: "기막힌족발-본점",
       text: "기막힌족발 본점 — 단체석 보유 회식 맛집",
@@ -89,6 +107,12 @@ const post = {
       html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a></strong> (매탄3동 신원로250번길 2)</p><ul><li>평점 4.5점 (리뷰 130건)</li><li>가격대 10,000~20,000원</li><li>영업시간 4:30 PM~11:00</li><li>전화 031-216-1888</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 130건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #단체가능 #족발 #회식</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/13/기막힌족발-본점-1.jpg",
+      alt: "기막힌족발 본점 음식 사진 1",
+      caption: "기막힌족발 본점",
+    },
+    {
       type: 'h2',
       id: "강산",
       text: "강산 — 단체석 보유 회식 맛집",
@@ -97,6 +121,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/강산\">강산</a></strong> (이매2동 판교로 442)</p><ul><li>평점 4.2점 (리뷰 55건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 10:30</li><li>전화 031-706-1889</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 55건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고기 #구이 #노포감성 #단체가능 #점심추천</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/13/강산-1.jpg",
+      alt: "강산 음식 사진 1",
+      caption: "강산",
     },
     {
       type: 'h2',

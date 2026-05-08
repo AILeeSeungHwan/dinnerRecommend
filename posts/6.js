@@ -29,6 +29,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a></strong> (송리단길)</p><ul><li>평점 4.4점 (리뷰 11건)</li><li>가격대 19,000~35,000원</li><li>영업시간 11:30~22:00</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 11건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 셰프가 엄선한 식재료로 코스를 구성하며, 제철 재료에 따라 메뉴가 달라질 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#오마카세 #스시 #점심오마카세 #가성비오마카세 #송리단길 #데이트</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/6/오사이초밥-잠실-1.jpg",
+      alt: "오사이초밥 잠실 음식 사진 1",
+      caption: "오사이초밥 잠실",
+    },
+    {
       type: 'h2',
       id: "김태완스시",
       text: "김태완스시 — 프리미엄 오마카세",
@@ -37,6 +43,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a></strong> (송리단길)</p><ul><li>평점 4.1점 (리뷰 229건)</li><li>가격대 25,000~60,000원</li><li>영업시간 11:30~21:30</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 229건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 셰프가 엄선한 식재료로 코스를 구성하며, 제철 재료에 따라 메뉴가 달라질 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#스시 #오마카세 #가성비오마카세 #송리단길 #데이트 #예약추천</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/6/김태완스시-1.jpg",
+      alt: "김태완스시 음식 사진 1",
+      caption: "김태완스시",
     },
     {
       type: 'h2',
@@ -49,6 +61,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\">압구정뽀글이</a></strong> (서울특별시 송파구 신천동 7 장미아파트비상가 2동 B1-38호, 43호)</p><ul><li>평점 5점 (리뷰 11471건)</li><li>전화 0507-1477-3660</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 11471건이 축적된 검증된 맛집입니다.</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/6/압구정뽀글이-1.jpg",
+      alt: "압구정뽀글이 음식 사진 1",
+      caption: "압구정뽀글이",
+    },
+    {
       type: 'h2',
       id: "청담동순도리-석촌호수점",
       text: "청담동순도리 석촌호수점 — 프리미엄 오마카세",
@@ -59,6 +77,12 @@ const post = {
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\">청담동순도리 석촌호수점</a></strong> (서울특별시 송파구 석촌동 2-5 1층 청담동순도리 석촌호수점)</p><ul><li>평점 5점 (리뷰 162건 · 블로그 482건)</li><li>가격대 11,000~3,600,056,000원</li><li>영업시간 11:00에 영업 시작</li><li>전화 02-417-1788</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 한우대창 곱도리탕 3,600,056,000원 / 즉석수제 고추튀김 13,000원 / 순대국밥 11,000원 / 육개장 13,000원 / 즉석수제 해물파전 18,000원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 162건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#주차가능 #리뷰많음 #깔끔한곳 #서비스좋음</p>",
     },
     {
+      type: 'image',
+      src: "/images/posts/6/청담동순도리-석촌호수점-1.jpg",
+      alt: "청담동순도리 석촌호수점 음식 사진 1",
+      caption: "청담동순도리 석촌호수점",
+    },
+    {
       type: 'h2',
       id: "쾌세라",
       text: "쾌세라 — 가성비 일식",
@@ -67,6 +91,12 @@ const post = {
     {
       type: 'body',
       html: "<p><strong><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a></strong> (서울특별시 송파구 삼전동 26-18 1층 102호, 103호)</p><ul><li>평점 5점 (리뷰 127건)</li><li>전화 0507-1442-8094</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 127건이 축적된 검증된 맛집입니다.</p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/6/쾌세라-1.jpg",
+      alt: "쾌세라 음식 사진 1",
+      caption: "쾌세라",
     },
     {
       type: 'h2',
