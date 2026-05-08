@@ -1,0 +1,320 @@
+{
+  "id": 21,
+  "slug": "samsung-team-dinner-2026",
+  "title": "삼성역 회식 장소 추천 2026 | 코엑스 단체석·주차·예산별 비교",
+  "description": "삼성역·선릉역 회식 장소 5곳 단체석·주차·예산별 비교",
+  "category": "group",
+  "region": "samseong",
+  "date": "2026-05-07",
+  "tags": [
+    "삼성역",
+    "회식",
+    "단체석",
+    "코엑스"
+  ],
+  "restaurants": [
+    {
+      "name": "논두렁오리주물럭 선릉직영점",
+      "type": "한식",
+      "addr": "대치동 895-9 1층",
+      "hours": "10:00",
+      "tel": "",
+      "priceRange": "8000~58000",
+      "rating": 5,
+      "reviewCount": 485,
+      "blogCount": 1256,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "단체가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식"
+      ],
+      "scene": [
+        "직장인 점심",
+        "팀 회식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "대패 주물럭 한판(2~3인)",
+          "price": 36000,
+          "description": ""
+        },
+        {
+          "name": "대패 주물럭 한판 반(4인)",
+          "price": 48000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    },
+    {
+      "name": "솔트랑 스테이크 삼성",
+      "type": "스테이크하우스",
+      "addr": "테헤란로 610 지하 1층",
+      "hours": "11:30 AM–9:30 PM",
+      "tel": "02-6012-7429",
+      "priceRange": "8500~23000",
+      "rating": 5,
+      "reviewCount": 184,
+      "blogCount": 369,
+      "tags": [
+        "스테이크",
+        "소금스테이크",
+        "특별한날",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "축하할 일 있음",
+        "데이트"
+      ],
+      "scene": [
+        "특별한 날",
+        "데이트 스테이크",
+        "기념일"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "T-bone (100g당)",
+          "price": 19800,
+          "description": ""
+        },
+        {
+          "name": "솔트허브크런치 토마호크(100g당)",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "쿠스쿠스 타볼레",
+          "price": 9900,
+          "description": ""
+        },
+        {
+          "name": "해산물 황태 알리오올리오",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "두바이 아이스크림",
+          "price": 8500,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "몰튼스 더 스테이크하우스",
+      "type": "양식",
+      "addr": "삼성동 159 웨스틴 파르나스 호텔 2층 몰튼스 더 스테이크하우스",
+      "hours": "11:30",
+      "tel": "",
+      "priceRange": "36000~350000",
+      "rating": 5,
+      "reviewCount": 21,
+      "blogCount": 33,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "직장인 점심",
+        "저녁 식사",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "프라임등급 안심 스테이크",
+          "price": 99000,
+          "description": ""
+        },
+        {
+          "name": "Lunch Course",
+          "price": 110000,
+          "description": "런치 이용시 주문 가능한 런치 전용 코스 메뉴입니다."
+        },
+        {
+          "name": "American Course",
+          "price": 250000,
+          "description": "룸이용시 진행가능한 아메리칸 코스 메뉴 입니다."
+        },
+        {
+          "name": "Oriental Course",
+          "price": 280000,
+          "description": "룸 이용시 진행 가능한 오리엔탈 코스 메뉴 입니다."
+        },
+        {
+          "name": "Premium Course",
+          "price": 350000,
+          "description": "룸 이용시 진행 가능한 프리미엄 코스 메뉴 입니다."
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2008882116",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍝"
+    },
+    {
+      "name": "회초리씨푸드 대치점",
+      "type": "해물,생선요리",
+      "addr": "대치동 959-12 1층",
+      "hours": "11:30",
+      "tel": "",
+      "priceRange": "9900~55000",
+      "rating": 5,
+      "reviewCount": 237,
+      "blogCount": 55,
+      "tags": [
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "저녁 식사",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "회초리디너A코스",
+          "price": 35000,
+          "description": "회초리디너A코스"
+        },
+        {
+          "name": "회초리디너B코스",
+          "price": 55000,
+          "description": "회초리디너B코스"
+        },
+        {
+          "name": "점심)회초리 정식 (2인이상)",
+          "price": 30000,
+          "description": "탕+제철회+초밥+파스타&돈까스+모찌리도후"
+        },
+        {
+          "name": "\"점심\"백합파스타",
+          "price": 9900,
+          "description": ""
+        },
+        {
+          "name": "\"점심\"씨푸드 크림 파스타",
+          "price": 12900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2056639342",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    },
+    {
+      "name": "블룸",
+      "type": "술집",
+      "addr": "삼성동 153-6 지하 1층 블룸",
+      "hours": "03:00",
+      "tel": "",
+      "priceRange": "18000~25000",
+      "rating": 5,
+      "reviewCount": 6,
+      "blogCount": 36,
+      "tags": [
+        "단체가능",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "가볍게 술",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "진토닉",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "세이지 버터 파스타",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "페퍼로니 피자",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "시그니처 피자",
+          "price": 25000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2006296464",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 859
+}

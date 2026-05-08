@@ -3,115 +3,110 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: '<p>잠실·방이동에서 국밥·해장국을 찾는다면 방이 먹자골목이 핵심입니다. 2026년 3월 기준 실제 운영 데이터를 바탕으로 잠실 국밥·해장국·순대국 맛집 5곳을 가격·평점·특징 기준으로 비교했습니다. 아침 해장부터 저녁 국밥 한 끼까지, 상황별로 어디를 가야 할지 한눈에 확인해 보세요.</p>',
+      html: "<p>잠실·송리단길·석촌호수 일대에서 국밥·해장 맛집을 찾고 계신가요? 잠실 지역 총 1149곳 식당 데이터 중 국밥·해장 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 5.0점, 가격대는 2,800원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 국물·가격·해장 효과·24시 여부을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 화목, 푸짐회, 1990 아구찜 방이본점, 솔직한우 방이점, 미친양꼬치 잠실점.</p>",
     },
     {
       type: 'toc',
     },
     {
-      type: 'ad',
-      slot: '9463227631',
-      format: 'autorelaxed',
-    },
-    {
       type: 'h2',
-      id: 'myeongdong-pork',
-      text: '① 명동돼지국밥 — 부산식 돼지국밥 방이동 대표',
+      id: "criteria",
+      text: "선정 기준 — 왜 이 5곳인가",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: '<p><strong>명동돼지국밥</strong> (방이동 먹자골목) — 평점 4.3 / 리뷰 890건. 돼지국밥·부산식·해장·가성비·혼밥가능 태그. 가격대 9천~1만 4천 원. 운영시간 09:00~22:00. 부산식 돼지국밥으로 진한 국물과 순대가 듬뿍 들어 있어 해장 및 든든한 한 끼로 인기입니다. 리뷰 890건으로 잠실 국밥 카테고리 중 리뷰가 가장 많습니다. 1인 방문도 편리합니다.</p>',
+      html: "<p>잠실 지역 1149곳 식당 데이터 중 국밥·해장 카테고리에 해당하는 식당을 평점 5점 이상, 리뷰 수, 국물·가격·해장 효과·24시 여부 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
     },
     {
       type: 'h2',
-      id: 'hwamok-sundae',
-      text: '② 화목순대국 — 아침 7시부터 운영하는 해장 전문점',
-      gradientStyle: { from: '#FFD700', to: '#FF6B35' },
+      id: "화목",
+      text: "화목 — 든든한 국밥 한 그릇",
+      gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'body',
-      html: '<p><strong>화목순대국</strong> (방이동 먹자골목) — 평점 4.2 / 리뷰 720건. 순대국밥·해장·아침가능·가성비·혼밥가능 태그. 가격대 9천~1만 3천 원. 운영시간 07:00~22:00. 뚝배기 국물이 진하기로 유명하며 아침 일찍부터 운영해 야근 후 해장이나 이른 아침 식사 모두 가능합니다. 가격대 1만 3천 원 이하로 부담 없이 즐길 수 있습니다.</p>',
+      html: "<p><strong><a href=\"/dinner/jamsil/restaurant/화목\">화목</a></strong> (대치동 316 은마 종합상가 지하1층 a블럭 36호)</p><ul><li>평점 5점 (리뷰 1건 · 블로그 64건)</li><li>가격대 18,000원</li><li>영업시간 11:00</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 최상급 숙성 연어만 사용합니다! 18,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 1건이 축적된 검증된 맛집입니다. 뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#주차가능 #데이트 #리뷰많음</p>",
     },
     {
       type: 'h2',
-      id: 'jamsil-yukkal',
-      text: '③ 잠실 육칼국수 — 얼큰한 육개장·칼국수 점심 특선',
-      gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>잠실 육칼국수</strong> (잠실로 211) — 평점 4.2 / 리뷰 476건. 육개장·칼국수·혼밥가능·점심특선·해장 태그. 가격대 9천~1만 4천 원. 운영시간 AM 11~PM 9 (일 휴무). 육개장 1만 1천 원, 칼국수 1만 원으로 1만 원대 이하 점심 해결이 가능합니다. 칼칼하고 얼큰한 국물이 특징이며 점심 시간대 회전이 빨라 빠른 식사에 적합합니다.</p>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
-    {
-      type: 'h2',
-      id: 'baekam-sundae',
-      text: '④ 백암왕순대 방이점 — 토종순대 국밥 아침 해장',
-      gradientStyle: { from: '#667EEA', to: '#764BA2' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>백암왕순대 방이점</strong> (방이동 먹자골목) — 평점 4.1 / 리뷰 670건. 토종순대·순대국밥·가성비·해장·아침가능 태그. 가격대 9천~1만 5천 원. 운영시간 08:00~22:00. 백암식 토종순대로 만든 순대국밥이 시그니처입니다. 아침 8시부터 문을 열어 전날 음주 후 해장이나 이른 아침 식사로 이용하기 좋습니다.</p>',
-    },
-    {
-      type: 'h2',
-      id: 'namdareun-gamjatang',
-      text: '⑤ 남다른감자탕 방이점 — 감자탕·해장국 방이동 터줏대감',
+      id: "푸짐회",
+      text: "푸짐회 — 든든한 국밥 한 그릇",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: '<p><strong>남다른감자탕 방이점</strong> (방이동 110-12) — 평점 4.1 / 리뷰 870건. 감자탕·해장·방이동·점심·가성비 태그. 가격대 1만~3만 5천 원. 운영시간 10:10~21:50. 감자탕과 해장국을 함께 운영하는 곳으로 혼자 먹는 단품 해장국부터 여럿이 먹는 감자탕 냄비까지 선택 폭이 넓습니다. 리뷰 870건으로 방이동 국밥·해장국 카테고리 내 검증된 맛집입니다.</p>',
+      html: "<p><strong><a href=\"/dinner/jamsil/restaurant/푸짐회\">푸짐회</a></strong> (서울특별시 송파구 잠실동 204-12 1층 1호 푸짐회)</p><ul><li>평점 5점 (리뷰 106건 · 블로그 43건)</li><li>가격대 2,800~40,000원</li><li>영업시간 16:00에 영업 시작</li><li>전화 07-1433-8524</li><li>예약 가능</li></ul><p><strong>대표 메뉴:</strong> 소주 맥주2800원 2,800원 / 모듬회 40,000원 / 매운탕 15,000원 / 매운탕 추가시 사리(무료)</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 106건이 축적된 검증된 맛집입니다. 뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #서비스좋음</p>",
     },
     {
       type: 'h2',
-      id: 'compare-table',
-      text: '5곳 국밥·해장국 — 가격·평점 한눈에 비교',
-      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+      id: "1990-아구찜-방이본점",
+      text: "1990 아구찜 방이본점 — 든든한 국밥 한 그릇",
+      gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'body',
-      html: '<table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0"><thead><tr style="border-bottom:2px solid var(--border)"><th style="padding:8px 6px;text-align:left">맛집</th><th style="padding:8px 6px;text-align:center">종류</th><th style="padding:8px 6px;text-align:center">가격대</th><th style="padding:8px 6px;text-align:center">평점</th><th style="padding:8px 6px;text-align:center">리뷰수</th></tr></thead><tbody><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">명동돼지국밥</td><td style="padding:7px 6px;text-align:center">돼지국밥</td><td style="padding:7px 6px;text-align:center">9천~1.4만원</td><td style="padding:7px 6px;text-align:center">4.3★</td><td style="padding:7px 6px;text-align:center">890</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">화목순대국</td><td style="padding:7px 6px;text-align:center">순대국밥</td><td style="padding:7px 6px;text-align:center">9천~1.3만원</td><td style="padding:7px 6px;text-align:center">4.2★</td><td style="padding:7px 6px;text-align:center">720</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">잠실 육칼국수</td><td style="padding:7px 6px;text-align:center">육개장·칼국수</td><td style="padding:7px 6px;text-align:center">9천~1.4만원</td><td style="padding:7px 6px;text-align:center">4.2★</td><td style="padding:7px 6px;text-align:center">476</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">백암왕순대 방이점</td><td style="padding:7px 6px;text-align:center">순대국밥</td><td style="padding:7px 6px;text-align:center">9천~1.5만원</td><td style="padding:7px 6px;text-align:center">4.1★</td><td style="padding:7px 6px;text-align:center">670</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">남다른감자탕 방이점</td><td style="padding:7px 6px;text-align:center">감자탕·해장국</td><td style="padding:7px 6px;text-align:center">1~3.5만원</td><td style="padding:7px 6px;text-align:center">4.1★</td><td style="padding:7px 6px;text-align:center">870</td></tr></tbody></table>',
+      html: "<p><strong><a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\">1990 아구찜 방이본점</a></strong> (서울특별시 송파구 방이동 105 2층 1990아구찜 방이본점)</p><ul><li>평점 5점 (리뷰 100건 · 블로그 268건)</li><li>가격대 24,000~55,000원</li><li>전화 07-1462-2140</li><li>예약 가능</li></ul><p><strong>대표 메뉴:</strong> 살많은 아구찜(1인) 24,000원 / 살많은 아구찜(소 (2~3인)) 35,000원 / 살많은 아구찜(중 (3~4인)) 45,000원 / 살많은 아구찜(대 (4~5인)) 55,000원 / 아구찜 스폐셜(소 (2~3인)) 40,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 100건이 축적된 검증된 맛집입니다. 뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #서비스좋음</p>",
     },
     {
       type: 'h2',
-      id: 'situation-table',
-      text: '상황별 추천 요약',
-      gradientStyle: { from: '#FF6B6B', to: '#764BA2' },
-    },
-    {
-      type: 'body',
-      html: '<table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0"><thead><tr style="border-bottom:2px solid var(--border)"><th style="padding:8px 6px;text-align:left">상황</th><th style="padding:8px 6px;text-align:left">추천 장소</th><th style="padding:8px 6px;text-align:left">이유</th></tr></thead><tbody><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">이른 아침 해장</td><td style="padding:7px 6px">화목순대국</td><td style="padding:7px 6px">AM 7시 오픈·진한 뚝배기 국물</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">부산식 돼지국밥</td><td style="padding:7px 6px">명동돼지국밥</td><td style="padding:7px 6px">4.3점·리뷰 890건·가장 검증된 곳</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">빠른 점심</td><td style="padding:7px 6px">잠실 육칼국수</td><td style="padding:7px 6px">점심특선·얼큰한 육개장·회전 빠름</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">토종순대 국밥</td><td style="padding:7px 6px">백암왕순대 방이점</td><td style="padding:7px 6px">AM 8시 오픈·백암식 토종순대 시그니처</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">여럿이 감자탕</td><td style="padding:7px 6px">남다른감자탕 방이점</td><td style="padding:7px 6px">단품~냄비 선택 가능·가성비·점심 운영</td></tr></tbody></table>',
-    },
-    {
-      type: 'h2',
-      id: 'checklist',
-      text: '방문 전 반드시 확인할 것',
+      id: "솔직한우-방이점",
+      text: "솔직한우 방이점 — 든든한 국밥 한 그릇",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'body',
-      html: '<ul><li><strong>운영시간</strong> — 잠실 육칼국수는 일요일 휴무입니다. 주말 방문 시 다른 곳을 선택하세요. 화목순대국·백암왕순대 방이점은 AM 7~8시부터 운영해 해장에 적합합니다.</li><li><strong>혼밥 가능 여부</strong> — 남다른감자탕 방이점의 감자탕 냄비는 2인 이상 주문이 필요할 수 있습니다. 혼자 방문 시 단품 해장국을 선택하세요.</li><li><strong>웨이팅</strong> — 방이 먹자골목은 점심·저녁 피크 시간에 줄이 생깁니다. 12시 이전 또는 12시 30분 이후 방문이 유리합니다.</li><li><strong>주차</strong> — 방이 먹자골목은 주차 공간이 협소합니다. 5호선 방이역 도보 이용을 권장합니다.</li><li><strong>양 조절</strong> — 국밥류는 대부분 단일 사이즈로 제공됩니다. 밥 추가·공기밥 별도 주문 여부를 미리 확인하세요.</li></ul>',
+      html: "<p><strong><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></strong> (서울특별시 송파구 방이동 70 1층, 2층, 지하1층)</p><ul><li>평점 5점 (리뷰 85건 · 블로그 321건)</li><li>가격대 9,900~130,000원</li><li>영업시간 11:00에 영업 시작</li><li>전화 02-2039-9475</li></ul><p><strong>대표 메뉴:</strong> (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원 / 솔직한우 1+ 한근세트(600g) 65,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 85건이 축적된 검증된 맛집입니다. 뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #단체가능 #데이트 #깔끔한곳 #서비스좋음</p>",
+    },
+    {
+      type: 'h2',
+      id: "미친양꼬치-잠실점",
+      text: "미친양꼬치 잠실점 — 든든한 국밥 한 그릇",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\">미친양꼬치 잠실점</a></strong> (방이동 먹자골목)</p><ul><li>평점 5점 (리뷰 51건)</li><li>가격대 18,000~25,000원</li><li>영업시간 17:00~24:00</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 51건이 축적된 검증된 맛집입니다. 뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#양꼬치무한리필 #마라탕 #단체가능 #가성비</p>",
+    },
+    {
+      type: 'h2',
+      id: "compare",
+      text: "잠실 국밥·해장 맛집 한눈에 비교",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">화목</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">1</td><td style=\"padding:7px 6px;text-align:center\">18,000원</td><td style=\"padding:7px 6px\">주차가능·데이트·리뷰많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">푸짐회</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">106</td><td style=\"padding:7px 6px;text-align:center\">2,800~40,000원</td><td style=\"padding:7px 6px\">가성비·서비스좋음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">1990 아구찜 방이본점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">100</td><td style=\"padding:7px 6px;text-align:center\">24,000~55,000원</td><td style=\"padding:7px 6px\">가성비·서비스좋음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">솔직한우 방이점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">85</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가성비·단체가능·데이트</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">미친양꼬치 잠실점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">51</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">양꼬치무한리필·마라탕·단체가능</td></tr></tbody></table>",
+    },
+    {
+      type: 'h2',
+      id: "by-situation",
+      text: "상황별 이 식당을 추천합니다",
+      gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
+    },
+    {
+      type: 'body',
+      html: "<ul><li><strong>가성비 우선:</strong> 푸짐회, 1990 아구찜 방이본점 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>분위기 중시:</strong> 화목 — 데이트나 특별한 날에 추천합니다.</li><li><strong>단체·회식:</strong> 솔직한우 방이점, 미친양꼬치 잠실점 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>평점 최고:</strong> 화목 (평점 5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 푸짐회 (리뷰 106건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+    },
+    {
+      type: 'h2',
+      id: "tips",
+      text: "방문 전 꼭 확인할 점",
+      gradientStyle: { from: '#FFD700', to: '#FF6B35' },
+    },
+    {
+      type: 'body',
+      html: "<ul><li>화목, 푸짐회은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>주차 가능: 화목.</li><li>푸짐회, 1990 아구찜 방이본점 등은 별도 주차장이 없으므로 대중교통 이용을 권장합니다.</li></ul>",
     },
     {
       type: 'cta',
-      href: '/dinner/jamsil/category/gukbap',
-      text: '잠실 국밥·해장국 전체 보기 →',
+      href: "/dinner/jamsil/category/gukbap",
+      text: "잠실 국밥·해장 맛집 전체 보기 →",
     },
     {
       type: 'ending',
-      html: '<p>잠실·방이동 국밥은 방이 먹자골목에 집중돼 있습니다. 아침 이른 해장이라면 화목순대국·백암왕순대 방이점, 평점이 가장 높은 한 곳만 선택한다면 명동돼지국밥, 점심 빠른 식사라면 잠실 육칼국수를 추천합니다. 2026년 3월 기준 데이터로 운영 상황이 변경될 수 있으니 방문 전 확인하세요.</p><ul><li><a href="/posts/pangyo-team-dinner-2026">판교역 회식 장소 추천 2026</a></li><li><a href="/posts/mangpo-budget-lunch-2026">망포역 가성비 점심 맛집 5선</a></li><li><a href="/posts/samsung-lunch-guide-2026">삼성역 점심 카테고리별 총정리</a></li><li><a href="/posts/pangyo-lunch-meat-guide-2026">판교역 점심 고기 맛집 7선</a></li></ul>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
+      html: "<p>이 글에서 소개한 잠실 국밥·해장 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/jamsil-japanese-sushi-2026\">잠실 일식·스시 맛집 추천 5선</a></li><li><a href=\"/posts/jamsil-date-restaurant-2026\">잠실 데이트 맛집 추천 5곳</a></li><li><a href=\"/posts/jamsil-date-course-complete-2026\">잠실 데이트 코스 완벽 가이드 2026</a></li><li><a href=\"/dinner/jamsil\">잠실 전체 맛집 보기</a></li></ul>",
+    }
   ],
 }
 

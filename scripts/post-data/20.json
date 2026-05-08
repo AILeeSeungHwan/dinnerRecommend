@@ -1,0 +1,170 @@
+{
+  "id": 20,
+  "slug": "yeongtonggu-lunch-guide-2026",
+  "title": "영통구청 점심 맛집 추천 5곳 | 매탄동 카테고리별 가이드",
+  "description": "영통구청 매탄동 점심 맛집 5곳 카테고리별 비교",
+  "category": "lunch",
+  "region": "yeongtongGu",
+  "date": "2026-05-07",
+  "tags": [
+    "영통구청",
+    "점심",
+    "매탄동",
+    "카테고리"
+  ],
+  "restaurants": [
+    {
+      "name": "탄향1965 매탄점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 매탄동 1263-4 108~109호",
+      "hours": "",
+      "tel": "",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 33,
+      "blogCount": 0,
+      "tags": [
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2062246734/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "샤브향 수원매탄점",
+      "type": "일식",
+      "addr": "경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층",
+      "hours": "",
+      "tel": "031-213-4592",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 33,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/38230012/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "양화돼교",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 매탄동 1265-4 2층 202호",
+      "hours": "15:00에 영업 시작",
+      "tel": "07-1433-1663",
+      "priceRange": "15000~90000",
+      "rating": 5,
+      "reviewCount": 22,
+      "blogCount": 192,
+      "tags": [
+        "가성비",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "깔끔한곳"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "한우등심 압도적 가성비 600g",
+          "price": 79000,
+          "description": ""
+        },
+        {
+          "name": "일미리꽃삼",
+          "price": 16000,
+          "description": ""
+        },
+        {
+          "name": "제주 흑 오겹살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "제주 흑 목살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "한돈 명품냉삼",
+          "price": 15000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1289322460/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "오월의꽃수저",
+      "type": "양식",
+      "addr": "경기도 수원시 영통구 신동 921-2 1층",
+      "hours": "",
+      "tel": "031-204-1001",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 22,
+      "blogCount": 0,
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2064392403/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "미가쌀국수 수원인계본점",
+      "type": "아시안",
+      "addr": "경기도 수원시 팔달구 인계동 1120 111호",
+      "hours": "",
+      "tel": "0507-1419-0747",
+      "priceRange": "",
+      "rating": 5,
+      "reviewCount": 9,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1684252429/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 548
+}

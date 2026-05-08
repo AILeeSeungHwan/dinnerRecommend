@@ -1,0 +1,332 @@
+{
+  "id": 13,
+  "slug": "yeongtonggu-team-dinner-2026",
+  "title": "영통구청 회식 장소 추천 2026 | 매탄동 단체석·룸 비교",
+  "description": "영통구청·매탄동 회식 장소 7곳 비교",
+  "category": "group",
+  "region": "yeongtongGu",
+  "date": "2026-05-07",
+  "tags": [
+    "영통구청",
+    "회식",
+    "매탄동",
+    "단체석"
+  ],
+  "restaurants": [
+    {
+      "name": "또또지짐이",
+      "type": "야장·이자카야",
+      "addr": "매탄3동 신원로250번길 10 KR",
+      "hours": "4:00 PM~12:00 AM",
+      "tel": "031-216-1232",
+      "priceRange": "12000~20000",
+      "rating": 4.5,
+      "reviewCount": 294,
+      "blogCount": 0,
+      "tags": [
+        "SNS맛집",
+        "고평점",
+        "단체가능",
+        "리뷰많음",
+        "안주",
+        "야장",
+        "예약필수",
+        "이자카야",
+        "포차감성",
+        "하이볼",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "심야 밥",
+        "야장에 맥주",
+        "퇴근 후 한잔"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🍶"
+    },
+    {
+      "name": "서재명가부대찌개",
+      "type": "고기구이·국밥",
+      "addr": "삼성로168번길 17",
+      "hours": "10:30 AM~10:00 PM",
+      "tel": "031-214-0811",
+      "priceRange": "12000~20000",
+      "rating": 4.3,
+      "reviewCount": 277,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "구이",
+        "국물요리",
+        "국밥",
+        "단체가능",
+        "리뷰많음",
+        "예약필수",
+        "웨이팅맛집",
+        "점심추천",
+        "주차가능",
+        "해장",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "피곤함",
+        "허전함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "해장",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥩"
+    },
+    {
+      "name": "금강산화로구이",
+      "type": "고기구이",
+      "addr": "매영로247번길 1",
+      "hours": "4:00 PM~10:00",
+      "tel": "031-287-7688",
+      "priceRange": "12000~20000",
+      "rating": 4.3,
+      "reviewCount": 260,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "고기",
+        "구이",
+        "단체가능",
+        "리뷰많음",
+        "뷰맛집",
+        "재방문율높음",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥩"
+    },
+    {
+      "name": "양심소 매탄점",
+      "type": "고기구이",
+      "addr": "매탄동 408-1",
+      "hours": "11:00 AM~10:30 PM",
+      "tel": "010-4562-5972",
+      "priceRange": "10000~20000",
+      "rating": 4.4,
+      "reviewCount": 80,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "구이",
+        "단체가능",
+        "점심추천",
+        "주차가능",
+        "친절",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "심야 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥩"
+    },
+    {
+      "name": "낙지의품격",
+      "type": "일식·해산물",
+      "addr": "매영로248번길 36-12",
+      "hours": "영업시간 확인 필요",
+      "tel": "",
+      "priceRange": "10000~20000",
+      "rating": 4.6,
+      "reviewCount": 7,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "단체가능",
+        "예약필수",
+        "웨이팅맛집",
+        "일식",
+        "주차가능",
+        "해산물",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "허전함",
+        "회식"
+      ],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🦪"
+    },
+    {
+      "name": "용갈이뷔페",
+      "type": "뷔페",
+      "addr": "하동 554 번지",
+      "hours": "평일 11:00 AM~7:30 PM / 주말 휴무일",
+      "tel": "031-8002-3442",
+      "priceRange": "8000~12000",
+      "rating": 4.4,
+      "reviewCount": 36,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "단체가능",
+        "무한리필",
+        "뷔페",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "심야 밥",
+        "특별한 날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🍽️"
+    },
+    {
+      "name": "기막힌족발 본점",
+      "type": "족발보쌈",
+      "addr": "매탄3동 신원로250번길 2",
+      "hours": "4:30 PM~11:00",
+      "tel": "031-216-1888",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 130,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "단체가능",
+        "족발",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "허전함",
+        "회식"
+      ],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🍖"
+    },
+    {
+      "name": "강산",
+      "type": "고기구이",
+      "addr": "이매2동 판교로 442",
+      "hours": "AM 11:00 ~ PM 10:30",
+      "tel": "031-706-1889",
+      "priceRange": "12000~22000",
+      "rating": 4.2,
+      "reviewCount": 55,
+      "blogCount": 0,
+      "tags": [
+        "가족",
+        "고기",
+        "구이",
+        "노포감성",
+        "단체가능",
+        "점심추천",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 548
+}

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
-import MultiplexAd from '../../components/MultiplexAd'
 import PageTracker from '../../components/PageTracker'
 import posts from '../../data/posts'
 
@@ -435,6 +434,13 @@ export default function PostPage({ meta, sections, related }) {
   const pageUrl = `${BASE_URL}/posts/${meta.slug}`
   const region = REGION_MAP[meta.region] || REGION_MAP.pangyo
 
+  // 본문 텍스트 길이 계산 (HTML 태그 제거)
+  const textContent = sections
+    .filter(s => s.html)
+    .map(s => s.html.replace(/<[^>]+>/g, ''))
+    .join(' ')
+  const wordCount = textContent.length
+
   const jsonLdArticle = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -442,6 +448,9 @@ export default function PostPage({ meta, sections, related }) {
     description: meta.description,
     datePublished: meta.date,
     dateModified: meta.date,
+    wordCount,
+    articleSection: meta.category || '맛집 가이드',
+    inLanguage: 'ko-KR',
     author: {
       '@type': 'Organization',
       name: '오늘뭐먹지',
@@ -631,25 +640,15 @@ export default function PostPage({ meta, sections, related }) {
             (() => {
               const hasH2 = sections.some(s => s.type === 'h2')
 
-              // h2 없을 때: 1/3, 2/3 지점에 광고 각 1개
+              // h2 없을 때: 중간 1곳에만 광고 (상단2 + 중간1 = 총3)
               if (!hasH2) {
                 const filtered = sections.filter(s => s.type !== 'ad')
-                const total = filtered.length
-                const pt1 = Math.floor(total / 3)
-                const pt2 = Math.floor((total * 2) / 3)
+                const mid = Math.floor(filtered.length / 2)
                 return filtered.map((section, idx) => {
                   const el = renderSection(section, idx, sections, related)
-                  if (idx === pt1) {
+                  if (idx === mid) {
                     return (
-                      <div key={'no-h2-ad1-' + idx}>
-                        {el}
-                        <InArticleAdSection />
-                      </div>
-                    )
-                  }
-                  if (idx === pt2) {
-                    return (
-                      <div key={'no-h2-ad2-' + idx}>
+                      <div key={'mid-ad-' + idx}>
                         {el}
                         <InArticleAdSection />
                       </div>
@@ -659,18 +658,21 @@ export default function PostPage({ meta, sections, related }) {
                 })
               }
 
-              // h2 있을 때: h2마다 1개 인라인 광고 (제한 없음)
+              // h2 있을 때: 2번째 h2에만 광고 1개 (상단2 + 중간1 = 총3)
+              let h2Count = 0
               return sections.map((section, idx) => {
-                // 기존 포스트 파일의 ad 섹션은 스킵 (렌더러가 자동 처리)
                 if (section.type === 'ad') return null
                 const el = renderSection(section, idx, sections, related)
                 if (section.type === 'h2') {
-                  return (
-                    <div key={'h2-ad-' + idx}>
-                      {el}
-                      <InArticleAdSection />
-                    </div>
-                  )
+                  h2Count++
+                  if (h2Count === 2) {
+                    return (
+                      <div key={'h2-ad-' + idx}>
+                        <InArticleAdSection />
+                        {el}
+                      </div>
+                    )
+                  }
                 }
                 return el
               })
@@ -700,8 +702,6 @@ export default function PostPage({ meta, sections, related }) {
             </Link>
           </div>
 
-          {/* 멀티플렉스 광고 */}
-          <MultiplexAd />
         </article>
       </main>
     </Layout>

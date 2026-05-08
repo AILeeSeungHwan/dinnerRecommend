@@ -1,0 +1,275 @@
+{
+  "id": 15,
+  "slug": "samsung-meat-best-2026",
+  "title": "삼성역 고기 맛집 추천 5곳 | 한우·삼겹살·갈비 가격 비교",
+  "description": "삼성역 한우·삼겹살·갈비 고기 맛집 5곳 비교",
+  "category": "meat",
+  "region": "samseong",
+  "date": "2026-05-07",
+  "tags": [
+    "삼성역",
+    "고기",
+    "한우",
+    "삼겹살"
+  ],
+  "restaurants": [
+    {
+      "name": "제주덕구 삼성점",
+      "type": "돼지고기구이",
+      "addr": "삼성동 153-11 1층",
+      "hours": "주소서울 강남구 삼성로100길 23-9 1층9삼성중앙역 5번 출구에서 497m미터",
+      "tel": "",
+      "priceRange": "80000",
+      "rating": 5,
+      "reviewCount": 15,
+      "blogCount": 29,
+      "tags": [
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "삼성동고기집 오목세트(3~4인)",
+          "price": 80000,
+          "description": "오겹400g+목살400g+알깨밥+멜조림"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1532958694",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "김치옥 대치점",
+      "type": "육류,고기요리",
+      "addr": "대치동 976-8 지상1층 5, 6, 7호",
+      "hours": "11:00",
+      "tel": "",
+      "priceRange": "5000~10000",
+      "rating": 4.9,
+      "reviewCount": 155,
+      "blogCount": 305,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트"
+      ],
+      "scene": [
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "제육볶음 300g",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "치츠폭탄계란말이",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "맛보기 계란말이",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "구이류 주문 시 주문 가능",
+          "price": 7000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1239506231",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "이치류 선릉점",
+      "type": "육류,고기요리",
+      "addr": "대치동 906-7 1층",
+      "hours": "12:00",
+      "tel": "",
+      "priceRange": "20000",
+      "rating": 4.9,
+      "reviewCount": 113,
+      "blogCount": 696,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "750 ml 이하 기준",
+          "price": 20000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1254292631",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "영동가든",
+      "type": "육류,고기요리",
+      "addr": "삼성동 162-15 1층 102호",
+      "hours": "11:00",
+      "tel": "",
+      "priceRange": "9000~15000",
+      "rating": 4.9,
+      "reviewCount": 49,
+      "blogCount": 1443,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "저녁 식사",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "(점심특선) 남도식 애호박국밥",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "(점심특선) 맑은돼지곰탕",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "(점심특선) 한우 육회비빔밥",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "(점심특선)설악칡냉면",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "(점심특선) 냉제육",
+          "price": 9000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1591469976",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "연송",
+      "type": "육류,고기요리",
+      "addr": "삼성동 149-31 지상1,2층",
+      "hours": "주소서울 강남구 봉은사로84길 34 지상1,2층9삼성중앙역 5번 출구에서 365m미터",
+      "tel": "",
+      "priceRange": "2500~17000",
+      "rating": 5,
+      "reviewCount": 3,
+      "blogCount": 7,
+      "tags": [
+        "혼밥가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "혼밥"
+      ],
+      "scene": [
+        "저녁 식사",
+        "팀 회식",
+        "데이트",
+        "혼밥"
+      ],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "통가브리살",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "++삼겹살",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "두툼목살",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "벌집껍데기",
+          "price": 6000,
+          "description": "벌집껍데기 특유의 식감과 콩가루의 환상적인 조합!"
+        },
+        {
+          "name": "시골된장찌개",
+          "price": 7000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2090317783",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 859
+}

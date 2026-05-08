@@ -1,0 +1,363 @@
+{
+  "id": 2,
+  "slug": "samsung-izakaya-best-2026",
+  "title": "삼성역 이자카야 추천 7곳 | 코엑스 근처 술집 가이드",
+  "description": "삼성역 이자카야, 포차, 하이볼 바 7곳 비교",
+  "category": "izakaya",
+  "region": "samseong",
+  "date": "2026-05-07",
+  "tags": [
+    "삼성역",
+    "이자카야",
+    "술집",
+    "코엑스"
+  ],
+  "restaurants": [
+    {
+      "name": "ASOBOY",
+      "type": "라이브바·야장",
+      "addr": "봉은사로 504 지하 1층",
+      "hours": "19:00",
+      "tel": "07-1306-4967",
+      "priceRange": "5000~9000",
+      "rating": 4.5,
+      "reviewCount": 109,
+      "blogCount": 58,
+      "tags": [
+        "라이브음악",
+        "야장",
+        "생맥주",
+        "분위기최고",
+        "가성비",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "회식",
+        "스트레스 받음"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "음악 들으며 한잔",
+        "라이브바"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "맥주",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "양주",
+          "price": 8500,
+          "description": ""
+        },
+        {
+          "name": "칵테일",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "안주",
+          "price": 7000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/34616235",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🎸"
+    },
+    {
+      "name": "미주이자카야",
+      "type": "이자카야·프라이빗룸",
+      "addr": "대치동 944-24",
+      "hours": "PM 5–AM 3 (일 휴무)",
+      "tel": "",
+      "priceRange": "25000~40000",
+      "rating": 4.9,
+      "reviewCount": 8,
+      "blogCount": 0,
+      "tags": [
+        "프라이빗룸",
+        "이자카야",
+        "블루투스스피커"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "이자카야 프라이빗룸",
+        "소그룹 술자리"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🏮"
+    },
+    {
+      "name": "야키토리 수다",
+      "type": "이자카야·야키토리",
+      "addr": "테헤란로 87길 53",
+      "hours": "02:00",
+      "tel": "07-1300-3584",
+      "priceRange": "11000~35000",
+      "rating": 4.7,
+      "reviewCount": 50,
+      "blogCount": 977,
+      "tags": [
+        "야키토리",
+        "하이볼",
+        "이자카야",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "기분 좋음",
+        "스트레스 받음"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "이자카야",
+        "야키토리에 하이볼"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "모듬꼬치 5종",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "모듬 오뎅",
+          "price": 21000,
+          "description": ""
+        },
+        {
+          "name": "우니단새우",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "나고야 날개튀김",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "치킨 난반",
+          "price": 16000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1285864260",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍢"
+    },
+    {
+      "name": "란주쿠 삼성점",
+      "type": "이자카야",
+      "addr": "봉은사로 82길 31",
+      "hours": "17:30",
+      "tel": "07-1357-3844",
+      "priceRange": "7000~65000",
+      "rating": 4,
+      "reviewCount": 206,
+      "blogCount": 609,
+      "tags": [
+        "이자카야",
+        "사케소믈리에",
+        "코르키지없음",
+        "가성비",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하할 일 있음",
+        "회식"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "이자카야",
+        "사케"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "한우1++ 특상 채끝살",
+          "price": 65000,
+          "description": ""
+        },
+        {
+          "name": "와라야키 로 살짝 익혀 드립니다",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "가장좋은 제주갈치 로 만들어요",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "초당옥수수 카키아게",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "해산물모즈쿠",
+          "price": 25000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1468555838",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍾"
+    },
+    {
+      "name": "못난이포차",
+      "type": "야장·포차",
+      "addr": "삼성1동 152-23",
+      "hours": "03:00",
+      "tel": "02-3452-3660",
+      "priceRange": "15000~20000",
+      "rating": 3.6,
+      "reviewCount": 77,
+      "blogCount": 22,
+      "tags": [
+        "포차감성",
+        "야장",
+        "안주",
+        "고기"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "회식"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "포차 분위기",
+        "친구랑 가볍게"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "부추전",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "골뱅이",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "파전",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "동태전",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "두부김치",
+          "price": 15000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/20082746",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🏮"
+    },
+    {
+      "name": "철수포차",
+      "type": "야장·포차·이자카야",
+      "addr": "선릉로 112길 31",
+      "hours": "PM 5–AM 5 (일 휴무)",
+      "tel": "07-1363-1466",
+      "priceRange": "24000~32000",
+      "rating": 3.8,
+      "reviewCount": 52,
+      "blogCount": 27,
+      "tags": [
+        "야장",
+        "막걸리",
+        "생맥주",
+        "포차감성"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "회식"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "가볍게 술",
+        "포차"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "차돌숙주볶음",
+          "price": 24000,
+          "description": "차돌박이와 숙주나물을 푸짐하게 즐기세요*연출사진아님*"
+        },
+        {
+          "name": "김치전",
+          "price": 26000,
+          "description": "가브리살과 채소를 매콤하게 볶은요리"
+        },
+        {
+          "name": "오징어숙회",
+          "price": 32000,
+          "description": "국내산 선동오징어와 미나리황태무침의 상큼한 조화"
+        },
+        {
+          "name": "차돌숙주볶음",
+          "price": 24000,
+          "description": "바삭함 고소함의 끝판왕입니다 *연출사진아님*"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1363169933",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍻"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 859
+}

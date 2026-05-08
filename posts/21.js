@@ -3,115 +3,110 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: '<p>삼성역·선릉역 주변에서 팀 회식 장소를 찾는다면 이 글 하나로 해결됩니다. 단체석·룸 확보 여부, 주차, 예산대별로 2026년 실제 운영 데이터를 기반으로 정리했습니다. 5인 소규모부터 20인 대규모 회식까지, 상황별 최적 장소를 바로 확인하세요.</p>',
+      html: "<p>삼성역·코엑스·선릉역 일대에서 회식·단체 맛집을 찾고 계신가요? 삼성역 지역 총 859곳 식당 데이터 중 회식·단체 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 5.0점, 가격대는 8,000원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 룸·단체석·인당 예산·주차을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 논두렁오리주물럭 선릉직영점, 솔트랑 스테이크 삼성, 몰튼스 더 스테이크하우스, 회초리씨푸드 대치점, 블룸.</p>",
     },
     {
       type: 'toc',
     },
     {
-      type: 'ad',
-      slot: '9463227631',
-      format: 'autorelaxed',
-    },
-    {
       type: 'h2',
-      id: 'nondureong',
-      text: '① 논두렁오리주물럭 선릉직영점 — 단체가능·주차·점심추천',
-      gradientStyle: { from: '#11998e', to: '#38ef7d' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>논두렁오리주물럭 선릉직영점</strong> — 평점 5.0 / 리뷰 485건. 삼성역·선릉 권역에서 리뷰 수 최상위권. 오리주물럭 전문으로 단체가능·주차가능 태그를 갖춰 팀 회식에 실용적입니다. 운영시간 점심~저녁. 점심 회식 장소로도 활용도가 높습니다. 직영점이라 음식 퀄리티가 안정적이며, 넓은 매장 구성으로 소규모~중규모 단체 모두 가능합니다.</p>',
-    },
-    {
-      type: 'h2',
-      id: 'salt-steak',
-      text: '② 솔트랑 스테이크 삼성 — 품격 있는 회식·접대 스테이크',
-      gradientStyle: { from: '#f7971e', to: '#ffd200' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>솔트랑 스테이크 삼성</strong> — 평점 5.0 / 리뷰 184건. 소금스테이크·특별한날·데이트·주차가능 태그. 삼성역 프리미엄 스테이크 하우스로 접대 자리나 팀장급 회식에 적합합니다. 주차 가능하며 분위기가 고급스러워 외부 손님 모시는 자리에 추천합니다. 인당 3~5만원대로 프리미엄 회식 예산에 맞습니다.</p>',
-    },
-    {
-      type: 'h2',
-      id: 'mortons',
-      text: '③ 몰튼스 더 스테이크하우스 — 코엑스 고급 접대',
-      gradientStyle: { from: '#667EEA', to: '#764BA2' },
-    },
-    {
-      type: 'body',
-      html: '<p><strong>몰튼스 더 스테이크하우스</strong> — 평점 5.0 / 리뷰 21건. 코엑스 인터컨티넨탈 내 위치한 파인다이닝급 스테이크하우스. 데이트·주차가능·점심추천 태그. 해외 바이어 접대나 임원급 회식에 가장 격식 있는 선택지입니다. 주차는 코엑스 주차장 이용 가능. 예약 필수이며 드레스코드를 가볍게 챙기는 것을 권장합니다.</p>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
-    {
-      type: 'h2',
-      id: 'hoechoissipu',
-      text: '④ 회초리씨푸드 대치점 — 해물 단체석·예약 가능',
+      id: "criteria",
+      text: "선정 기준 — 왜 이 5곳인가",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: '<p><strong>회초리씨푸드 대치점</strong> — 평점 5.0 / 리뷰 237건. 주차가능·단체가능·데이트·웨이팅맛집 태그. 해물·생선요리 전문으로 차별화된 메뉴가 필요한 회식에 추천합니다. 리뷰 수가 많아 검증된 맛집이며, 단체석이 마련되어 있습니다. 웨이팅이 있을 수 있으니 예약 후 방문 권장합니다.</p>',
+      html: "<p>삼성역 지역 859곳 식당 데이터 중 회식·단체 카테고리에 해당하는 식당을 평점 5점 이상, 리뷰 수, 룸·단체석·인당 예산·주차 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
     },
     {
       type: 'h2',
-      id: 'bloom-bar',
-      text: '⑤ 블룸 — 회식 2차 분위기 바',
-      gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
+      id: "논두렁오리주물럭-선릉직영점",
+      text: "논두렁오리주물럭 선릉직영점 — 단체석 보유 회식 맛집",
+      gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'body',
-      html: '<p><strong>블룸</strong> — 평점 5.0. 단체가능·주차가능·데이트 태그의 분위기 술집. 회식 1차 후 자리를 옮겨 편하게 마무리하기 좋은 장소입니다. 삼성역 인근 위치로 접근성이 좋으며, 단체 인원도 수용 가능합니다.</p>',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a></strong> (대치동 895-9 1층)</p><ul><li>평점 5점 (리뷰 485건 · 블로그 1256건)</li><li>가격대 8,000~58,000원</li><li>영업시간 10:00</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 양념 오리 주물럭(2인~3인) 58,000원 / 양념 오리 주물럭(2인~3인) 58,000원 / 양념 오리 주물럭(2인~3인) 58,000원 / 대패 주물럭 한판(2~3인) 36,000원 / 대패 주물럭 한판 반(4인) 48,000원</p><p>단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 485건이 축적된 검증된 맛집입니다. 인당 5만원대로 회식 예산 계획 시 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #점심추천 #주차가능 #단체가능</p>",
     },
     {
       type: 'h2',
-      id: 'compare-table',
-      text: '삼성역 회식 장소 5곳 — 예산·상황별 비교표',
+      id: "솔트랑-스테이크-삼성",
+      text: "솔트랑 스테이크 삼성 — 회식 추천 식당",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: '<table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0"><thead><tr style="border-bottom:2px solid var(--border)"><th style="padding:8px 6px;text-align:left">식당</th><th style="padding:8px 6px;text-align:center">평점</th><th style="padding:8px 6px;text-align:center">가격대</th><th style="padding:8px 6px;text-align:center">주차</th><th style="padding:8px 6px;text-align:center">적합 상황</th></tr></thead><tbody><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">논두렁오리주물럭</td><td style="padding:7px 6px;text-align:center">5.0★</td><td style="padding:7px 6px;text-align:center">1~2만원대</td><td style="padding:7px 6px;text-align:center">가능</td><td style="padding:7px 6px">팀 점심·저녁 회식</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">솔트랑 스테이크</td><td style="padding:7px 6px;text-align:center">5.0★</td><td style="padding:7px 6px;text-align:center">3~5만원대</td><td style="padding:7px 6px;text-align:center">가능</td><td style="padding:7px 6px">팀장급·접대 회식</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">몰튼스</td><td style="padding:7px 6px;text-align:center">5.0★</td><td style="padding:7px 6px;text-align:center">6만원+</td><td style="padding:7px 6px;text-align:center">코엑스</td><td style="padding:7px 6px">임원·해외바이어 접대</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">회초리씨푸드</td><td style="padding:7px 6px;text-align:center">5.0★</td><td style="padding:7px 6px;text-align:center">2~3만원대</td><td style="padding:7px 6px;text-align:center">가능</td><td style="padding:7px 6px">특별 메뉴 회식</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">블룸</td><td style="padding:7px 6px;text-align:center">5.0★</td><td style="padding:7px 6px;text-align:center">2만원대</td><td style="padding:7px 6px;text-align:center">가능</td><td style="padding:7px 6px">회식 2차 술자리</td></tr></tbody></table>',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></strong> (테헤란로 610 지하 1층)</p><ul><li>평점 5점 (리뷰 184건 · 블로그 369건)</li><li>가격대 8,500~23,000원</li><li>영업시간 11:30 AM–9:30 PM</li><li>전화 02-6012-7429</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원 / 두바이 아이스크림 8,500원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 184건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#스테이크 #소금스테이크 #특별한날 #주차가능 #데이트 #리뷰많음</p>",
     },
     {
       type: 'h2',
-      id: 'situation',
-      text: '상황별 추천 — 어디 갈지 바로 결정하기',
-      gradientStyle: { from: '#FF6B6B', to: '#764BA2' },
+      id: "몰튼스-더-스테이크하우스",
+      text: "몰튼스 더 스테이크하우스 — 회식 추천 식당",
+      gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'body',
-      html: '<ul><li><strong>10명 이상 단체 점심 회식</strong> → 논두렁오리주물럭. 리뷰 485건 검증, 주차 가능, 가성비.</li><li><strong>외부 손님 접대·파트너사 미팅 식사</strong> → 몰튼스 더 스테이크하우스. 파인다이닝 급, 코엑스 주차.</li><li><strong>팀장급 소규모 프리미엄 회식</strong> → 솔트랑 스테이크. 분위기·맛·주차 모두 충족.</li><li><strong>색다른 메뉴로 회식</strong> → 회초리씨푸드. 해물 전문, 단체 가능.</li><li><strong>회식 마무리 2차</strong> → 블룸. 단체 가능, 분위기 바.</li></ul>',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/몰튼스 더 스테이크하우스\">몰튼스 더 스테이크하우스</a></strong> (삼성동 159 웨스틴 파르나스 호텔 2층 몰튼스 더 스테이크하우스)</p><ul><li>평점 5점 (리뷰 21건 · 블로그 33건)</li><li>가격대 36,000~350,000원</li><li>영업시간 11:30</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 프라임등급 안심 스테이크 99,000원 / Lunch Course 110,000원 / American Course 250,000원 / Oriental Course 280,000원 / Premium Course 350,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 21건이 축적된 검증된 맛집입니다. 인당 35만원대로 회식 예산 계획 시 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#점심추천 #주차가능 #데이트</p>",
     },
     {
       type: 'h2',
-      id: 'tips',
-      text: '삼성역 회식 예약 시 반드시 체크할 것',
+      id: "회초리씨푸드-대치점",
+      text: "회초리씨푸드 대치점 — 단체석 보유 회식 맛집",
+      gradientStyle: { from: '#667EEA', to: '#764BA2' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a></strong> (대치동 959-12 1층)</p><ul><li>평점 5점 (리뷰 237건 · 블로그 55건)</li><li>가격대 9,900~55,000원</li><li>영업시간 11:30</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 회초리디너A코스 35,000원 / 회초리디너B코스 55,000원 / 점심)회초리 정식 (2인이상) 30,000원 / \"점심\"백합파스타 9,900원 / \"점심\"씨푸드 크림 파스타 12,900원</p><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 237건이 축적된 검증된 맛집입니다. 인당 5만원대로 회식 예산 계획 시 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#주차가능 #단체가능 #데이트 #웨이팅맛집</p>",
+    },
+    {
+      type: 'h2',
+      id: "블룸",
+      text: "블룸 — 단체석 보유 회식 맛집",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></strong> (삼성동 153-6 지하 1층 블룸)</p><ul><li>평점 5점 (리뷰 6건 · 블로그 36건)</li><li>가격대 18,000~25,000원</li><li>영업시간 03:00</li><li>주차 가능</li></ul><p><strong>대표 메뉴:</strong> 진토닉 18,000원 / 세이지 버터 파스타 25,000원 / 페퍼로니 피자 25,000원 / 시그니처 피자 25,000원</p><p>단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#단체가능 #주차가능 #데이트</p>",
+    },
+    {
+      type: 'h2',
+      id: "compare",
+      text: "삼성역 회식·단체 맛집 한눈에 비교",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">논두렁오리주물럭 선릉직영점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">485</td><td style=\"padding:7px 6px;text-align:center\">8,000~58,000원</td><td style=\"padding:7px 6px\">리뷰많음·점심추천·주차가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">솔트랑 스테이크 삼성</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">184</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크·소금스테이크·특별한날</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">몰튼스 더 스테이크하우스</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">21</td><td style=\"padding:7px 6px;text-align:center\">36,000~350,000원</td><td style=\"padding:7px 6px\">점심추천·주차가능·데이트</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">회초리씨푸드 대치점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">237</td><td style=\"padding:7px 6px;text-align:center\">9,900~55,000원</td><td style=\"padding:7px 6px\">주차가능·단체가능·데이트</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">블룸</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">6</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">단체가능·주차가능·데이트</td></tr></tbody></table>",
+    },
+    {
+      type: 'h2',
+      id: "by-situation",
+      text: "상황별 이 식당을 추천합니다",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
       type: 'body',
-      html: '<ul><li><strong>예약 시점</strong> — 삼성역 권역은 기업 밀집 지역이라 금요일 저녁 자리는 월요일에 이미 마감되는 경우가 많습니다. 최소 3~4일 전 예약하세요.</li><li><strong>주차</strong> — 몰튼스는 코엑스 주차장(3시간 무료 조건 확인), 나머지는 자체 주차 또는 인근 공영주차장 활용.</li><li><strong>인원 확정</strong> — 회식 인원이 유동적이면 예약 시 최대 인원 기준으로 잡아두는 것이 안전합니다.</li><li><strong>결제 방식</strong> — 법인카드 사용 가능 여부를 예약 시 미리 확인하세요.</li></ul>',
+      html: "<ul><li><strong>분위기 중시:</strong> 솔트랑 스테이크 삼성, 몰튼스 더 스테이크하우스 — 데이트나 특별한 날에 추천합니다.</li><li><strong>평점 최고:</strong> 논두렁오리주물럭 선릉직영점 (평점 5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 논두렁오리주물럭 선릉직영점 (리뷰 485건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+    },
+    {
+      type: 'h2',
+      id: "tips",
+      text: "방문 전 꼭 확인할 점",
+      gradientStyle: { from: '#FFD700', to: '#FF6B35' },
+    },
+    {
+      type: 'body',
+      html: "<ul><li>회초리씨푸드 대치점 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.</li><li>논두렁오리주물럭 선릉직영점, 솔트랑 스테이크 삼성은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>주차 가능: 논두렁오리주물럭 선릉직영점, 솔트랑 스테이크 삼성, 몰튼스 더 스테이크하우스.</li><li>회식 장소는 인원 확정 후 최소 2~3일 전 예약이 필수입니다. 룸이 필요한 경우 일주일 전 예약을 권장합니다.</li></ul>",
     },
     {
       type: 'cta',
-      href: '/dinner/samseong',
-      text: '삼성역 AI 맞춤 회식 장소 추천 받기 →',
+      href: "/dinner/samseong/category/group",
+      text: "삼성역 회식·단체 맛집 전체 보기 →",
     },
     {
       type: 'ending',
-      html: '<p>삼성역 회식은 예산과 인원에 따라 선택지가 확연히 달라집니다. 팀 예산이 넉넉하다면 몰튼스·솔트랑, 가성비를 중시한다면 논두렁오리주물럭이 최선입니다. 예약은 최소 3일 전에 확보하는 것이 핵심입니다.</p><ul><li><a href="/posts/samsung-izakaya-best-2026">삼성역 이자카야 추천 7곳</a></li><li><a href="/posts/samsung-date-restaurant-2026">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href="/posts/samsung-lunch-guide-2026">삼성역 점심 카테고리별 추천</a></li><li><a href="/posts/jamsil-team-dinner-2026">잠실 회식 장소 추천 2026</a></li></ul>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
+      html: "<p>이 글에서 소개한 삼성역 회식·단체 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
+    }
   ],
 }
 

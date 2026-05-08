@@ -1,0 +1,245 @@
+{
+  "id": 11,
+  "slug": "jamsil-gukbap-best-2026",
+  "title": "잠실 국밥·해장국 맛집 추천 5선 | 2026 가격 비교",
+  "description": "잠실 국밥·해장국 맛집 5곳 가격·평점 비교",
+  "category": "gukbap",
+  "region": "jamsil",
+  "date": "2026-05-07",
+  "tags": [
+    "잠실",
+    "국밥",
+    "해장국",
+    "가성비"
+  ],
+  "restaurants": [
+    {
+      "name": "화목",
+      "type": "덮밥",
+      "addr": "대치동 316 은마 종합상가 지하1층 a블럭 36호",
+      "hours": "11:00",
+      "tel": "",
+      "priceRange": "18000",
+      "rating": 5,
+      "reviewCount": 1,
+      "blogCount": 64,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트"
+      ],
+      "scene": [
+        "저녁 식사",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "최상급 숙성 연어만 사용합니다!",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1246845274",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍣"
+    },
+    {
+      "name": "푸짐회",
+      "type": "한식",
+      "addr": "서울특별시 송파구 잠실동 204-12 1층 1호 푸짐회",
+      "hours": "16:00에 영업 시작",
+      "tel": "07-1433-8524",
+      "priceRange": "2800~40000",
+      "rating": 5,
+      "reviewCount": 106,
+      "blogCount": 43,
+      "tags": [
+        "가성비",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "소주 맥주2800원",
+          "price": 2800,
+          "description": ""
+        },
+        {
+          "name": "모듬회",
+          "price": 40000,
+          "description": ""
+        },
+        {
+          "name": "매운탕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "매운탕 추가시 사리(무료)",
+          "price": 0,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1698230815/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "1990 아구찜 방이본점",
+      "type": "한식",
+      "addr": "서울특별시 송파구 방이동 105 2층 1990아구찜 방이본점",
+      "hours": "",
+      "tel": "07-1462-2140",
+      "priceRange": "24000~55000",
+      "rating": 5,
+      "reviewCount": 100,
+      "blogCount": 268,
+      "tags": [
+        "가성비",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "살많은 아구찜(1인)",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "살많은 아구찜(소 (2~3인))",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "살많은 아구찜(중 (3~4인))",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "살많은 아구찜(대 (4~5인))",
+          "price": 55000,
+          "description": ""
+        },
+        {
+          "name": "아구찜 스폐셜(소 (2~3인))",
+          "price": 40000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1763908159/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "솔직한우 방이점",
+      "type": "한식",
+      "addr": "서울특별시 송파구 방이동 70 1층, 2층, 지하1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-2039-9475",
+      "priceRange": "9900~130000",
+      "rating": 5,
+      "reviewCount": 85,
+      "blogCount": 321,
+      "tags": [
+        "가성비",
+        "단체가능",
+        "데이트",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "(런치메뉴) 한우 고기 곰탕",
+          "price": 9900,
+          "description": ""
+        },
+        {
+          "name": "(런치 메뉴)한우 육회 비빕밥",
+          "price": 9900,
+          "description": ""
+        },
+        {
+          "name": "(런치 메뉴)한우 얼갈이 양지국밥",
+          "price": 12900,
+          "description": ""
+        },
+        {
+          "name": "(런치 메뉴)한우 육회 비빔 냉면",
+          "price": 11900,
+          "description": ""
+        },
+        {
+          "name": "솔직한우 1+ 한근세트(600g)",
+          "price": 65000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2050520891/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "미친양꼬치 잠실점",
+      "type": "양꼬치·중식",
+      "addr": "방이동 먹자골목",
+      "hours": "17:00~24:00",
+      "tel": "",
+      "priceRange": "18000~25000",
+      "rating": 5,
+      "reviewCount": 51,
+      "blogCount": 0,
+      "tags": [
+        "양꼬치무한리필",
+        "마라탕",
+        "단체가능",
+        "가성비"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "혼밥"
+      ],
+      "scene": [
+        "회식",
+        "야근 후"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": "🍢"
+    }
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 1149
+}

@@ -3,95 +3,110 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: '<p>삼성역·선릉역 회식 1차를 마치고 2차 자리를 찾는다면 이 글을 보세요. 코엑스 인근 이자카야부터 분위기 있는 바까지, 삼성역에서 걸어갈 수 있는 2차 술집 5곳을 선별했습니다. 인원·예산·분위기별로 바로 선택할 수 있도록 정리했습니다.</p>',
+      html: "<p>삼성역·코엑스·선릉역 일대에서 이자카야·술집 맛집을 찾고 계신가요? 삼성역 지역 총 859곳 식당 데이터 중 이자카야·술집 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 5.0점, 가격대는 8,500원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 주류 구성·안주·분위기·영업시간을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 호랑, 블룸, 회초리씨푸드 대치점, 솔트랑 스테이크 삼성, 바오로흑염소 선릉점.</p>",
     },
     {
       type: 'toc',
     },
     {
-      type: 'ad',
-      slot: '9463227631',
-      format: 'autorelaxed',
-    },
-    {
       type: 'h2',
-      id: 'horang',
-      text: '① 호랑 — 삼성역 단체 2차 분위기 바',
-      gradientStyle: { from: '#FA709A', to: '#fee140' },
+      id: "criteria",
+      text: "선정 기준 — 왜 이 5곳인가",
+      gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: '<p><strong>호랑</strong> — 평점 5.0. 리뷰많음·주차가능·단체가능·데이트 태그. 삼성역 권역에서 회식 2차로 자주 선택되는 분위기 술집입니다. 단체가 가능하며 주차도 됩니다. 분위기가 좋아 회식 자리를 분위기 있게 마무리하기에 적합합니다.</p>',
+      html: "<p>삼성역 지역 859곳 식당 데이터 중 이자카야·술집 카테고리에 해당하는 식당을 평점 5점 이상, 리뷰 수, 주류 구성·안주·분위기·영업시간 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
     },
     {
       type: 'h2',
-      id: 'bloom',
-      text: '② 블룸 — 조용한 분위기의 프리미엄 바',
-      gradientStyle: { from: '#11998e', to: '#38ef7d' },
+      id: "호랑",
+      text: "호랑 — 분위기 좋은 술자리",
+      gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'body',
-      html: '<p><strong>블룸</strong> — 평점 5.0. 단체가능·주차가능·데이트 태그. 삼성역에서 조용하고 세련된 분위기로 회식 마무리를 하고 싶을 때 선택하는 바입니다. 팀장급 소규모 2차 자리에 특히 잘 맞으며, 칵테일·와인 등 음료 선택지가 다양합니다.</p>',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></strong> (대치동 891-34 지상2층)</p><ul><li>평점 5점 (리뷰 3건 · 블로그 1305건)</li><li>가격대 30,000~48,000원</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 우니단새우 48,000원 / 오마카세초밥 32,000원 / 우니단새우 48,000원 / 연어사시미(20ps) 30,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 3건이 축적된 검증된 맛집입니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #주차가능 #단체가능 #데이트</p>",
     },
     {
       type: 'h2',
-      id: 'samsung-izakaya-2nd',
-      text: '③ 삼성역 이자카야 2차 — 코엑스 근처 선택지',
+      id: "블룸",
+      text: "블룸 — 분위기 좋은 술자리",
+      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></strong> (삼성동 153-6 지하 1층 블룸)</p><ul><li>평점 5점 (리뷰 6건 · 블로그 36건)</li><li>가격대 18,000~25,000원</li><li>영업시간 03:00</li><li>주차 가능</li></ul><p><strong>대표 메뉴:</strong> 진토닉 18,000원 / 세이지 버터 파스타 25,000원 / 페퍼로니 피자 25,000원 / 시그니처 피자 25,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#단체가능 #주차가능 #데이트</p>",
+    },
+    {
+      type: 'h2',
+      id: "회초리씨푸드-대치점",
+      text: "회초리씨푸드 대치점 — 분위기 좋은 술자리",
+      gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a></strong> (대치동 959-12 1층)</p><ul><li>평점 5점 (리뷰 237건 · 블로그 55건)</li><li>가격대 9,900~55,000원</li><li>영업시간 11:30</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 회초리디너A코스 35,000원 / 회초리디너B코스 55,000원 / 점심)회초리 정식 (2인이상) 30,000원 / \"점심\"백합파스타 9,900원 / \"점심\"씨푸드 크림 파스타 12,900원</p><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 237건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#주차가능 #단체가능 #데이트 #웨이팅맛집</p>",
+    },
+    {
+      type: 'h2',
+      id: "솔트랑-스테이크-삼성",
+      text: "솔트랑 스테이크 삼성 — 분위기 좋은 술자리",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'body',
-      html: '<p>삼성역·코엑스 인근에는 이자카야 형태의 2차 술집이 밀집해 있습니다. 하이볼·생맥주를 곁들인 안주 위주 자리를 원한다면 코엑스몰 지하 또는 삼성역 2번·5번출구 인근 골목을 탐색하세요. 대부분 AM 1~2시까지 운영해 늦은 회식에도 부담 없습니다. 세부 선택은 <a href="/posts/samsung-izakaya-best-2026">삼성역 이자카야 추천 7곳</a> 포스트를 참고하세요.</p>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></strong> (테헤란로 610 지하 1층)</p><ul><li>평점 5점 (리뷰 184건 · 블로그 369건)</li><li>가격대 8,500~23,000원</li><li>영업시간 11:30 AM–9:30 PM</li><li>전화 02-6012-7429</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원 / 두바이 아이스크림 8,500원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 184건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#스테이크 #소금스테이크 #특별한날 #주차가능 #데이트 #리뷰많음</p>",
     },
     {
       type: 'h2',
-      id: 'coex-bar',
-      text: '④ 코엑스 인터컨티넨탈 바 — 고급 2차',
+      id: "바오로흑염소-선릉점",
+      text: "바오로흑염소 선릉점 — 분위기 좋은 술자리",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'body',
-      html: '<p>예산이 넉넉한 접대성 2차 자리라면 코엑스 인터컨티넨탈 호텔 내 바를 활용하는 것도 방법입니다. 호텔 바 특성상 조용하고 격식 있는 분위기에서 외부 손님을 모시기 좋습니다. 1인당 3~5만원 예산으로 칵테일·위스키 등을 즐길 수 있으며, 주차는 코엑스 주차장을 이용합니다.</p>',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\">바오로흑염소 선릉점</a></strong> (역삼동 697-11 2층)</p><ul><li>평점 5점 (리뷰 111건 · 블로그 513건)</li><li>가격대 20,000~70,000원</li><li>영업시간 10:00</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 수육(1人) 45,000원 / 바오로흑염소의 대표메뉴 흑염소갈비 49,000원 / 전골(1人) 40,000원 / 흑염소 버섯불고기전골 30,000원 / 수육+무침+튀김+전골 70,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 111건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #혼밥가능 #점심추천 #주차가능 #데이트</p>",
     },
     {
       type: 'h2',
-      id: 'tips-2nd',
-      text: '삼성역 2차 술자리 성공 팁',
+      id: "compare",
+      text: "삼성역 이자카야·술집 맛집 한눈에 비교",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'body',
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">호랑</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">3</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">리뷰많음·주차가능·단체가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">블룸</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">6</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">단체가능·주차가능·데이트</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">회초리씨푸드 대치점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">237</td><td style=\"padding:7px 6px;text-align:center\">9,900~55,000원</td><td style=\"padding:7px 6px\">주차가능·단체가능·데이트</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">솔트랑 스테이크 삼성</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">184</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크·소금스테이크·특별한날</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">바오로흑염소 선릉점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">111</td><td style=\"padding:7px 6px;text-align:center\">20,000~70,000원</td><td style=\"padding:7px 6px\">리뷰많음·혼밥가능·점심추천</td></tr></tbody></table>",
+    },
+    {
+      type: 'h2',
+      id: "by-situation",
+      text: "상황별 이 식당을 추천합니다",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
       type: 'body',
-      html: '<ul><li><strong>시간대 확인</strong> — 금요일 저녁은 삼성역 2차 자리도 포화 상태. 1차 시작 전 2차 장소를 미리 예약하는 것이 안전합니다.</li><li><strong>인원 조율</strong> — 20인 이상 대규모 2차는 코엑스몰 내 대형 술집이 적합합니다. 소규모(5~8인)라면 골목 이자카야나 바가 더 만족스럽습니다.</li><li><strong>예산 설정</strong> — 2차 평균 예산은 1인 2~3만원. 접대 2차라면 호텔 바 기준 1인 4~6만원을 준비하세요.</li><li><strong>귀가 교통</strong> — 삼성역·선릉역·코엑스는 심야 택시 수요가 높으니 2차 마무리 전 대리운전 또는 택시를 미리 잡아두세요.</li></ul>',
+      html: "<ul><li><strong>분위기 중시:</strong> 호랑, 블룸 — 데이트나 특별한 날에 추천합니다.</li><li><strong>단체·회식:</strong> 호랑, 블룸 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 바오로흑염소 선릉점 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 호랑 (평점 5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 회초리씨푸드 대치점 (리뷰 237건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
     },
     {
       type: 'h2',
-      id: 'situation-2nd',
-      text: '상황별 삼성역 2차 추천 요약',
-      gradientStyle: { from: '#FF6B6B', to: '#764BA2' },
+      id: "tips",
+      text: "방문 전 꼭 확인할 점",
+      gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
       type: 'body',
-      html: '<table style="width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0"><thead><tr style="border-bottom:2px solid var(--border)"><th style="padding:8px 6px;text-align:left">상황</th><th style="padding:8px 6px;text-align:left">추천</th><th style="padding:8px 6px;text-align:left">예산</th></tr></thead><tbody><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">팀 전체 신나는 2차</td><td style="padding:7px 6px">호랑 (단체가능·분위기)</td><td style="padding:7px 6px">1~2만원/인</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">팀장급 조용한 마무리</td><td style="padding:7px 6px">블룸 (프리미엄 바)</td><td style="padding:7px 6px">2~3만원/인</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">하이볼·안주 편한 자리</td><td style="padding:7px 6px">코엑스 인근 이자카야</td><td style="padding:7px 6px">1.5~2만원/인</td></tr><tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">접대 품격 있는 마무리</td><td style="padding:7px 6px">인터컨티넨탈 호텔 바</td><td style="padding:7px 6px">3~5만원/인</td></tr></tbody></table>',
+      html: "<ul><li>회초리씨푸드 대치점 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.</li><li>호랑, 회초리씨푸드 대치점은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>주차 가능: 호랑, 블룸, 회초리씨푸드 대치점.</li></ul>",
     },
     {
       type: 'cta',
-      href: '/dinner/samseong',
-      text: '삼성역 AI 맞춤 추천 받기 →',
+      href: "/dinner/samseong/category/izakaya",
+      text: "삼성역 이자카야·술집 맛집 전체 보기 →",
     },
     {
       type: 'ending',
-      html: '<p>삼성역 2차 술자리는 1차 분위기와 인원에 따라 전략이 달라집니다. 미리 예약해두면 1차 끝나고 바로 이동할 수 있어 분위기가 끊기지 않습니다. 2차 장소는 1차 시작 전에 확보하는 것이 가장 현명합니다.</p><ul><li><a href="/posts/samsung-izakaya-best-2026">삼성역 이자카야 추천 7곳</a></li><li><a href="/posts/samsung-team-dinner-2026">삼성역 회식 장소 추천 2026</a></li><li><a href="/posts/samsung-date-restaurant-2026">삼성역 데이트 레스토랑 추천</a></li><li><a href="/posts/jamsil-team-dinner-2026">잠실 회식 장소 추천 2026</a></li></ul>',
-    },
-    {
-      type: 'ad',
-      slot: '6297515693',
-      format: 'auto',
-    },
+      html: "<p>이 글에서 소개한 삼성역 이자카야·술집 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
+    }
   ],
 }
 
