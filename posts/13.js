@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>영통구청·매탄동 일대에서 회식·단체 맛집을 찾고 계신가요? 영통구청 지역 총 548곳 식당 데이터 중 회식·단체 8곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 4.4점, 가격대는 8,000원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 룸·단체석·인당 예산·주차을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 또또지짐이, 서재명가부대찌개, 금강산화로구이, 양심소 매탄점, 낙지의품격.</p>",
+      html: "<p>영통구청·매탄동 근처에서 회식·단체 괜찮은 데가 어딘지 찾아봤다. 8곳 추려서 가격이랑 메뉴까지 정리해둔다.</p><p>평균 평점 4.4점. 가격대는 8,000원부터 시작하며, 2026년 5월 기준이고, 룸·단체석·인당 예산·주차을 위주로 비교했다.</p><p>소개 순서: 또또지짐이, 서재명가부대찌개, 금강산화로구이, 양심소 매탄점, 낙지의품격.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>영통구청 지역 548곳 식당 데이터 중 회식·단체 카테고리에 해당하는 식당을 평점 4.2점 이상, 리뷰 수, 룸·단체석·인당 예산·주차 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
+      html: "<p>영통구청 전체 548곳에서 회식·단체 카테고리 식당을 추렸다. 평점 4.2점 이상, 룸·단체석·인당 예산·주차 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
     },
     {
       type: 'h2',
@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a></strong> (매탄3동 신원로250번길 10 KR)</p><ul><li>평점 4.5점 (리뷰 294건)</li><li>가격대 12,000~20,000원</li><li>영업시간 4:00 PM~12:00 AM</li><li>전화 031-216-1232</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 방문 전 예약을 권장합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 294건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#SNS맛집 #고평점 #단체가능 #리뷰많음 #안주 #야장</p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a>.</p><p>주차는 안 되니 대중교통 추천. 예약 가능. 단체석 가능.</p><p>리뷰 294건에 평점 4.5점이면 안정적인 편.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\" style=\"color:var(--primary)\">→ 또또지짐이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -36,7 +36,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\">서재명가부대찌개</a></strong> (삼성로168번길 17)</p><ul><li>평점 4.3점 (리뷰 277건)</li><li>가격대 12,000~20,000원</li><li>영업시간 10:30 AM~10:00 PM</li><li>전화 031-214-0811</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 방문 전 예약을 권장합니다.</p><p>리뷰 277건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #구이 #국물요리 #국밥 #단체가능 #리뷰많음</p>",
+      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳. <a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\">서재명가부대찌개</a>.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 된다. 예약 가능. 단체석 가능.</p><p>리뷰 277건 정도 쌓여 있어서 어느 정도 검증은 된 곳.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\" style=\"color:var(--primary)\">→ 서재명가부대찌개 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -52,7 +52,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a></strong> (매영로247번길 1)</p><ul><li>평점 4.3점 (리뷰 260건)</li><li>가격대 12,000~20,000원</li><li>영업시간 4:00 PM~10:00</li><li>전화 031-287-7688</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 260건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #구이 #단체가능 #리뷰많음 #뷰맛집</p>",
+      html: "<p>12천원대부터 시작하는 <a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a>. 점심 가격으로는 무난한 선.</p><p>주차는 안 되니 대중교통 추천. 단체석 가능.</p><p>리뷰 260건 정도 쌓여 있어서 어느 정도 검증은 된 곳.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\" style=\"color:var(--primary)\">→ 금강산화로구이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -68,7 +68,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a></strong> (매탄동 408-1)</p><ul><li>평점 4.4점 (리뷰 80건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~10:30 PM</li><li>전화 010-4562-5972</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 국내산 한우를 사용합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 80건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #구이 #단체가능 #점심추천 #주차가능 #친절</p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a>. 고기구이 전문이고 평점 4.4점(리뷰 80건).</p><p>가격대 10,000~20,000원.</p><p>단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -78,7 +78,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\">낙지의품격</a></strong> (매영로248번길 36-12)</p><ul><li>평점 4.6점 (리뷰 7건)</li><li>가격대 10,000~20,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 방문 전 예약을 권장합니다.</p><p>리뷰 7건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #단체가능 #예약필수 #웨이팅맛집 #일식 #주차가능</p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\">낙지의품격</a>. 일식·해산물 전문이고 평점 4.6점(리뷰 7건).</p><p>가격대 10,000~20,000원.</p><p>점심엔 웨이팅이 좀 있다. 단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -94,7 +94,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a></strong> (하동 554 번지)</p><ul><li>평점 4.4점 (리뷰 36건)</li><li>가격대 8,000~12,000원</li><li>영업시간 평일 11:00 AM~7:30 PM / 주말 휴무일</li><li>전화 031-8002-3442</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 36건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #단체가능 #무한리필 #뷔페 #회식</p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a>. 뷔페 전문이고 평점 4.4점(리뷰 36건).</p><p>가격대 8,000~12,000원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -110,7 +110,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a></strong> (매탄3동 신원로250번길 2)</p><ul><li>평점 4.5점 (리뷰 130건)</li><li>가격대 10,000~20,000원</li><li>영업시간 4:30 PM~11:00</li><li>전화 031-216-1888</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 130건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #단체가능 #족발 #회식</p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a>. 족발보쌈 전문이고 평점 4.5점(리뷰 130건).</p><p>가격대 10,000~20,000원.</p><p>단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -126,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/강산\">강산</a></strong> (이매2동 판교로 442)</p><ul><li>평점 4.2점 (리뷰 55건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 10:30</li><li>전화 031-706-1889</li></ul><p>단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 55건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고기 #구이 #노포감성 #단체가능 #점심추천</p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/강산\">강산</a>. 고기구이 전문이고 평점 4.2점(리뷰 55건).</p><p>가격대 12,000~22,000원.</p><p>단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/강산\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -136,7 +136,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">또또지짐이</td><td style=\"padding:7px 6px;text-align:center\">4.5점</td><td style=\"padding:7px 6px;text-align:center\">294</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">SNS맛집·고평점·단체가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">서재명가부대찌개</td><td style=\"padding:7px 6px;text-align:center\">4.3점</td><td style=\"padding:7px 6px;text-align:center\">277</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">고기·구이·국물요리</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">금강산화로구이</td><td style=\"padding:7px 6px;text-align:center\">4.3점</td><td style=\"padding:7px 6px;text-align:center\">260</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">가성비·고기·구이</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양심소 매탄점</td><td style=\"padding:7px 6px;text-align:center\">4.4점</td><td style=\"padding:7px 6px;text-align:center\">80</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">고기·구이·단체가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">낙지의품격</td><td style=\"padding:7px 6px;text-align:center\">4.6점</td><td style=\"padding:7px 6px;text-align:center\">7</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">고평점·단체가능·예약필수</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">용갈이뷔페</td><td style=\"padding:7px 6px;text-align:center\">4.4점</td><td style=\"padding:7px 6px;text-align:center\">36</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가성비·단체가능·무한리필</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">기막힌족발 본점</td><td style=\"padding:7px 6px;text-align:center\">4.5점</td><td style=\"padding:7px 6px;text-align:center\">130</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">고평점·단체가능·족발</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">강산</td><td style=\"padding:7px 6px;text-align:center\">4.2점</td><td style=\"padding:7px 6px;text-align:center\">55</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가족·고기·구이</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">294건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\">서재명가부대찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">277건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">260건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">80건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\">낙지의품격</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">36건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">130건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/강산\">강산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">55건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -156,7 +156,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>서재명가부대찌개, 낙지의품격 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.</li><li>또또지짐이, 서재명가부대찌개은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>회식 장소는 인원 확정 후 최소 2~3일 전 예약이 필수입니다. 룸이 필요한 경우 일주일 전 예약을 권장합니다.</li></ul>",
+      html: "<ul><li>서재명가부대찌개, 낙지의품격은 점심 피크(12시~12시 반)에 줄이 좀 있다. 11시 50분 전에 가는 게 낫다.</li><li>또또지짐이, 서재명가부대찌개은 예약하고 가는 게 좋다. 주말 저녁은 특히.</li><li>회식은 인원 확정 후 2~3일 전 예약 필수. 룸 필요하면 일주일 전.</li></ul>",
     },
     {
       type: 'cta',
@@ -165,7 +165,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>이 글에서 소개한 영통구청 회식·단체 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/yeongtonggu-lunch-guide-2026\">영통구청 점심 맛집 추천 5곳</a></li><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/pangyo-team-dinner-2026\">판교역 회식 장소 추천 2026</a></li><li><a href=\"/posts/mangpo-team-dinner-2026\">망포역 회식 장소 추천 5곳</a></li><li><a href=\"/samsungElectronics/yeongtongGu\">영통구청 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/yeongtonggu-lunch-guide-2026\">영통구청 점심 맛집 추천 5곳</a></li><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/pangyo-team-dinner-2026\">판교역 회식 장소 추천 2026</a></li><li><a href=\"/posts/mangpo-team-dinner-2026\">망포역 회식 장소 추천 5곳</a></li><li><a href=\"/samsungElectronics/yeongtongGu\">영통구청 전체 맛집 보기</a></li></ul>",
     }
   ],
 }

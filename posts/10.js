@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>망포역·삼성전자 일대에서 가성비 맛집을 찾고 계신가요? 망포 지역 총 345곳 식당 데이터 중 가성비 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 4.5점, 가격대는 8,000원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 1인 가격·양·혼밥 가능 여부을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 서천교동짬뽕, 한마음정육식당 영통점, 청담칼국수, 생고기김치찌개, 행복한김밥.</p>",
+      html: "<p>망포역·삼성전자 근처에서 가성비 괜찮은 데가 어딘지 찾아봤다. 5곳 추려서 가격이랑 메뉴까지 정리해둔다.</p><p>평균 평점 4.5점. 가격대는 8,000원부터 시작하며, 2026년 5월 기준이고, 1인 가격·양·혼밥 가능 여부을 위주로 비교했다.</p><p>소개 순서: 서천교동짬뽕, 한마음정육식당 영통점, 청담칼국수, 생고기김치찌개, 행복한김밥.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>망포 지역 345곳 식당 데이터 중 가성비 카테고리에 해당하는 식당을 평점 4.3점 이상, 리뷰 수, 1인 가격·양·혼밥 가능 여부 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
+      html: "<p>망포 전체 345곳에서 가성비 카테고리 식당을 추렸다. 평점 4.3점 이상, 1인 가격·양·혼밥 가능 여부 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></strong> (봉영로1482번길 35 102호)</p><ul><li>평점 4.6점 (리뷰 26건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-5123</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 26건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #국수 #단체가능 #심야영업 #웨이팅맛집</p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a>. 중식·칼국수 전문이고 평점 4.6점(리뷰 26건).</p><p>가격대 10,000~20,000원.</p><p>가성비가 괜찮다는 평이 많다. 점심엔 웨이팅이 좀 있다. 단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></strong> (영통동 봉영로1482번길 7-1)</p><ul><li>평점 4.5점 (리뷰 84건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-3166</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 84건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #고평점 #구이 #단체가능 #친절</p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a>.</p><p>리뷰 84건에 평점 4.5점이면 안정적인 편. 만원 이하 메뉴가 있어서 부담이 적다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\" style=\"color:var(--primary)\">→ 한마음정육식당 영통점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a></strong> (청명남로 6-1)</p><ul><li>평점 4.4점 (리뷰 144건)</li><li>가격대 8,000~12,000원</li><li>영업시간 10:40 AM~9:30 PM</li><li>전화 031-232-6692</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>리뷰 144건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #국수 #칼국수 #혼밥가능</p>",
+      html: "<p>만원 이하로 한 끼 해결할 수 있는 <a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a>.</p><p>혼밥하기 편한 구조.</p><p>리뷰 144건 정도 쌓여 있어서 어느 정도 검증은 된 곳. 만원 이하 메뉴가 있어서 부담이 적다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\" style=\"color:var(--primary)\">→ 청담칼국수 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a></strong> (신원로 177)</p><ul><li>평점 4.5점 (리뷰 29건)</li><li>가격대 10,000~20,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 29건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #국물요리 #국밥 #단체가능</p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a>. 고기구이·국밥 전문이고 평점 4.5점(리뷰 29건).</p><p>가격대 10,000~20,000원.</p><p>단체석이나 룸이 있다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></strong> (기흥구 서천동 286-3번지 101호 용인시 경기도 KR)</p><ul><li>평점 4.3점 (리뷰 60건)</li><li>가격대 10,000~20,000원</li><li>영업시간 6:00 AM~8:00 PM</li><li>전화 031-206-5008</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>리뷰 60건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#분식 #가성비 #점심추천</p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a>. 분식 전문이고 평점 4.3점(리뷰 60건).</p><p>가격대 10,000~20,000원.</p><p>가성비가 괜찮다는 평이 많다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -112,7 +112,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">서천교동짬뽕</td><td style=\"padding:7px 6px;text-align:center\">4.6점</td><td style=\"padding:7px 6px;text-align:center\">26</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가성비·고평점·국수</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">한마음정육식당 영통점</td><td style=\"padding:7px 6px;text-align:center\">4.5점</td><td style=\"padding:7px 6px;text-align:center\">84</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가성비·고기·고평점</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">청담칼국수</td><td style=\"padding:7px 6px;text-align:center\">4.4점</td><td style=\"padding:7px 6px;text-align:center\">144</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가성비·국수·칼국수</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">생고기김치찌개</td><td style=\"padding:7px 6px;text-align:center\">4.5점</td><td style=\"padding:7px 6px;text-align:center\">29</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">고기·고평점·구이</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">행복한김밥</td><td style=\"padding:7px 6px;text-align:center\">4.3점</td><td style=\"padding:7px 6px;text-align:center\">60</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">분식·가성비·점심추천</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">26건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">84건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">144건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">29건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">60건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -132,7 +132,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>서천교동짬뽕 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.</li><li>가성비 맛집일수록 점심 피크 웨이팅이 길 수 있습니다. 11:30~11:50 사이 방문이 최적입니다.</li></ul>",
+      html: "<ul><li>서천교동짬뽕은 점심 피크(12시~12시 반)에 줄이 좀 있다. 11시 50분 전에 가는 게 낫다.</li><li>가성비 좋은 곳일수록 점심 웨이팅이 길다. 11시 반~50분 사이가 타이밍.</li></ul>",
     },
     {
       type: 'cta',
@@ -141,7 +141,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>이 글에서 소개한 망포 가성비 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/mangpo-team-dinner-2026\">망포역 회식 장소 추천 5곳</a></li><li><a href=\"/posts/pangyo-honbap-budget-2026\">판교역 혼밥 맛집 1만원대 추천</a></li><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/samsungElectronics/mangpo\">망포 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/mangpo-team-dinner-2026\">망포역 회식 장소 추천 5곳</a></li><li><a href=\"/posts/pangyo-honbap-budget-2026\">판교역 혼밥 맛집 1만원대 추천</a></li><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/samsungElectronics/mangpo\">망포 전체 맛집 보기</a></li></ul>",
     }
   ],
 }

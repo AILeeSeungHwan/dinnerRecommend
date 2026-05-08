@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>삼성역·코엑스·선릉역 일대에서 중식 맛집을 찾고 계신가요? 삼성역 지역 총 859곳 식당 데이터 중 중식 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 4.8점, 가격대는 4,300원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 대표 메뉴·가격·양·단체 가능을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스, 이오복순대국 대치은마점, 일품양평해장국 강남대치점.</p>",
+      html: "<p>삼성역에서 중식 먹을 데 찾느라 고생한 적 있다면, 이 글 하나로 정리된다. 총 859곳 중 중식 5곳을 골라서 비교했다.</p><p>평균 평점 4.8점. 가격대는 4,300원부터 시작하며, 2026년 5월 기준이고, 대표 메뉴·가격·양·단체 가능을 위주로 비교했다.</p><p>소개 순서: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스, 이오복순대국 대치은마점, 일품양평해장국 강남대치점.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>삼성역 지역 859곳 식당 데이터 중 중식 카테고리에 해당하는 식당을 평점 4.2점 이상, 리뷰 수, 대표 메뉴·가격·양·단체 가능 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
+      html: "<p>삼성역 전체 859곳에서 중식 카테고리 식당을 추렸다. 평점 4.2점 이상, 대표 메뉴·가격·양·단체 가능 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></strong> (영동대로 513 코엑스몰 B1)</p><ul><li>평점 4.9점 (리뷰 7774건 · 블로그 3811건)</li><li>가격대 10,000~18,000원</li><li>영업시간 11 AM–9:30 PM</li><li>전화 07-1397-0364</li><li>주차 가능 · 예약 가능</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 7774건이 축적된 검증된 맛집입니다. 대부분의 메뉴가 2인 이상 나눠 먹기 좋은 구성으로, 단체 방문 시 다양하게 주문할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#자장면 #짬뽕 #어향동고 #코엑스핫플 #혼밥가능 #주차가능</p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a>.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 7774건. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/dinner/samseong/restaurant/무탄 코엑스\" style=\"color:var(--primary)\">→ 무탄 코엑스 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></strong> (삼성로 534)</p><ul><li>평점 4.7점 (리뷰 71건 · 블로그 1639건)</li><li>가격대 13,000~88,000원</li><li>영업시간 11 AM–3 PM, 5–9:30 PM</li><li>전화 07-1328-5340</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 어향동고 45,000원 / 전가복(스페셜) 88,000원 / 통낙지 쟁반짜장 28,000원 / 미미짬뽕 13,000원 / 삼선짬뽕 14,000원</p><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 71건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다. 대부분의 메뉴가 2인 이상 나눠 먹기 좋은 구성으로, 단체 방문 시 다양하게 주문할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#어향동고 #탕수육 #가족모임 #점심추천 #주차가능 #데이트</p>",
+      html: "<p>어향동고(45,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a>. 전가복(스페셜), 통낙지 쟁반짜장 같은 메뉴도 있다.</p><p>그 외에 미미짬뽕, 삼선짬뽕도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰 71건에 평점 4.7점이면 안정적인 편. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\" style=\"color:var(--primary)\">→ 천미미 삼성점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></strong> (테헤란로 87길 58 지하2층)</p><ul><li>평점 4.2점 (리뷰 59건 · 블로그 198건)</li><li>가격대 4,300~55,000원</li><li>영업시간 22:00</li><li>전화 07-2085-1273</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 누누 딸기레어 케이크 (시즌마감) 8,500원 / NUNU COFFEE (BEST) 6,800원 / 에그포테이토 브리오슈 4,800원 / 마틸다 라즈베리 홀케이크 (예약주문) 35,000원 / 바스크치즈 홀케이크 (예약주문) 55,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 59건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 대부분의 메뉴가 2인 이상 나눠 먹기 좋은 구성으로, 단체 방문 시 다양하게 주문할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#훠궈 #핫팟 #24시간 #코엑스 #단체 #주차가능</p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a>. 중식·훠궈 전문이고 평점 4.2점(리뷰 59건).</p><p>메뉴: 누누 딸기레어 케이크 (시즌마감) 8,500원 / NUNU COFFEE (BEST) 6,800원 / 에그포테이토 브리오슈 4,800원 / 마틸다 라즈베리 홀케이크 (예약주문) 35,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a></strong> (대치동 316 은마종합상가 지하1층 B블럭-10호)</p><ul><li>평점 5점 (리뷰 9건 · 블로그 121건)</li><li>가격대 11,000원</li><li>영업시간 10:00</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> NEW 순칼 (순대국 칼국수) 11,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 9건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #주차가능</p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a>. 순대 전문이고 평점 5점(리뷰 9건).</p><p>메뉴: NEW 순칼 (순대국 칼국수) 11,000원.</p><p>가성비가 괜찮다는 평이 많다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a></strong> (대치동 903-12 지상1층)</p><ul><li>평점 5점 (리뷰 2건 · 블로그 79건)</li><li>가격대 9,000~38,000원</li><li>영업시간 07:30</li><li>주차 가능</li></ul><p><strong>대표 메뉴:</strong> 순대내장탕 9,000원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 2건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#점심추천 #주차가능</p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a>. 해장국 전문이고 평점 5점(리뷰 2건).</p><p>메뉴: 순대내장탕 9,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">무탄 코엑스</td><td style=\"padding:7px 6px;text-align:center\">4.9점</td><td style=\"padding:7px 6px;text-align:center\">7774</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">자장면·짬뽕·어향동고</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">천미미 삼성점</td><td style=\"padding:7px 6px;text-align:center\">4.7점</td><td style=\"padding:7px 6px;text-align:center\">71</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">어향동고·탕수육·가족모임</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">하이딜라오 코엑스</td><td style=\"padding:7px 6px;text-align:center\">4.2점</td><td style=\"padding:7px 6px;text-align:center\">59</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">훠궈·핫팟·24시간</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">이오복순대국 대치은마점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">9</td><td style=\"padding:7px 6px;text-align:center\">11,000원</td><td style=\"padding:7px 6px\">가성비·주차가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">일품양평해장국 강남대치점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">2</td><td style=\"padding:7px 6px;text-align:center\">9,000~38,000원</td><td style=\"padding:7px 6px\">점심추천·주차가능</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">71건</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">중식·요리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">11,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">9,000~38,000원</td><td style=\"padding:7px 6px\">해장국 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -126,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>무탄 코엑스, 천미미 삼성점은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>주차 가능: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스.</li></ul>",
+      html: "<ul><li>무탄 코엑스, 천미미 삼성점은 예약하고 가는 게 좋다. 주말 저녁은 특히.</li><li>주차 되는 곳: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스.</li></ul>",
     },
     {
       type: 'cta',
@@ -135,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>이 글에서 소개한 삼성역 중식 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
     }
   ],
 }

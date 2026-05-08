@@ -109,25 +109,25 @@ def generate_tag_sentences(r, category):
     moods = set(r.get('moods', []))
 
     if '가성비' in tags:
-        sentences.append('가격 대비 만족도가 높다는 평가를 받고 있습니다.')
+        sentences.append('가성비 좋다는 평이 많다.')
     if '웨이팅맛집' in tags:
-        sentences.append('점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다.')
+        sentences.append('점심엔 좀 기다릴 수 있다.')
     if '단체가능' in tags and category in ('group', 'lunch'):
-        sentences.append('단체 예약이 가능해 팀 식사에도 적합합니다.')
+        sentences.append('단체 예약 된다.')
     if '룸있음' in tags:
-        sentences.append('별도 룸이 있어 프라이빗한 식사가 가능합니다.')
+        sentences.append('룸이 따로 있다.')
     if '예약필수' in tags:
-        sentences.append('방문 전 예약을 권장합니다.')
+        sentences.append('예약하고 가는 게 낫다.')
     if '한우' in tags:
-        sentences.append('국내산 한우를 사용합니다.')
+        sentences.append('한우 쓴다.')
     if '인스타감성' in tags and category == 'date':
-        sentences.append('인테리어가 감각적이어서 사진 찍기 좋은 공간입니다.')
+        sentences.append('인테리어 괜찮아서 사진 찍기 좋다.')
     if '친절' in tags:
-        sentences.append('직원 서비스가 친절하다는 리뷰가 많습니다.')
+        sentences.append('서비스가 친절하다는 후기가 꽤 있다.')
     if '데이트' in moods and category != 'date':
-        sentences.append('분위기가 좋아 데이트 장소로도 추천됩니다.')
+        sentences.append('분위기도 괜찮아서 데이트도 가능.')
     if '회식' in moods and category != 'group':
-        sentences.append('소규모 회식 장소로도 활용 가능합니다.')
+        sentences.append('소규모 회식으로도 쓸 만하다.')
 
     return ' '.join(sentences[:3])  # 최대 3문장
 
@@ -146,11 +146,11 @@ def generate_context_paragraph(r, category):
 
     # 평점 기반 문장
     if rating >= 4.8:
-        parts.append(f'평점 {rating}점으로 해당 지역에서 최상위권에 속하며, 리뷰 {cnt}건이 축적된 검증된 맛집입니다.')
+        parts.append(f'평점 {rating}점이면 이 동네에서 상위권이다. 리뷰 {cnt}건.')
     elif rating >= 4.5:
-        parts.append(f'리뷰 {cnt}건 기준 평점 {rating}점으로 안정적인 평가를 받고 있습니다.')
-    elif cnt > 0:
-        parts.append(f'리뷰 {cnt}건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.')
+        parts.append(f'리뷰 {cnt}건에 평점 {rating}점이면 안정적인 편.')
+    elif cnt >= 50:
+        parts.append(f'리뷰 {cnt}건 정도 쌓여 있어서 어느 정도 검증은 된 곳.')
 
     # 가격대 기반 문장
     if price and '~' in price:
@@ -158,141 +158,255 @@ def generate_context_paragraph(r, category):
             lo, hi = price.split('~')
             lo_val, hi_val = int(lo), int(hi)
             if category == 'budget' and lo_val <= 10000:
-                parts.append(f'1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.')
+                parts.append(f'만원 이하 메뉴가 있어서 부담이 적다.')
             elif category == 'group' and hi_val >= 30000:
-                parts.append(f'인당 {hi_val//10000}만원대로 회식 예산 계획 시 참고하시기 바랍니다.')
+                parts.append(f'인당 {hi_val//10000}만원대 예산이면 된다.')
             elif category == 'date' and hi_val >= 50000:
-                parts.append(f'코스 기준 인당 {lo_val//10000}~{hi_val//10000}만원대로 특별한 날 식사에 적합합니다.')
+                parts.append(f'코스 기준 인당 {lo_val//10000}~{hi_val//10000}만원대. 특별한 날에 맞는 가격.')
             elif category == 'lunch' and lo_val <= 15000:
-                parts.append(f'점심 기준 {lo_val//1000:,}천원대부터 이용 가능해 직장인 점심으로 적합합니다.')
+                parts.append(f'점심 {lo_val//1000}천원대부터 가능해서 직장인 점심으로 괜찮다.')
         except:
             pass
 
     # 영업시간 기반 문장
     if hours:
-        if 'AM' in hours and '11' in hours.split('~')[0] if '~' in hours else '':
-            parts.append('점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.')
         if '브레이크' in hours or 'break' in hours.lower():
-            parts.append('브레이크 타임이 있으므로 방문 시간을 확인하고 가시기 바랍니다.')
+            parts.append('브레이크 타임이 있으니 시간 확인하고 가는 게 좋다.')
 
     # 카테고리 특화 문장
     if category == 'meat':
         if '구이' in rtype or '고기' in rtype:
-            parts.append('숯불 또는 가스 불판에 직접 구워 먹는 스타일로, 신선한 고기를 바로 즐길 수 있습니다.')
+            parts.append('직접 구워 먹는 스타일.')
     elif category == 'izakaya':
         if '이자카야' in rtype or '술집' in rtype:
-            parts.append('다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.')
+            parts.append('안주 종류가 다양해서 가볍게 한잔하기 좋다.')
     elif category == 'chinese':
         if '중식' in rtype or '중국' in rtype:
-            parts.append('대부분의 메뉴가 2인 이상 나눠 먹기 좋은 구성으로, 단체 방문 시 다양하게 주문할 수 있습니다.')
+            parts.append('2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.')
     elif category == 'gukbap':
-        parts.append('뜨끈한 국물 요리로 해장이나 든든한 한 끼 식사에 적합합니다.')
+        parts.append('국물이 뜨끈해서 해장이나 든든한 한 끼로 괜찮다.')
     elif category == 'japanese':
         if '오마카세' in ' '.join(tags) or '스시' in rtype:
-            parts.append('셰프가 엄선한 식재료로 코스를 구성하며, 제철 재료에 따라 메뉴가 달라질 수 있습니다.')
+            parts.append('제철 재료에 따라 메뉴가 달라질 수 있다.')
 
     return ' '.join(parts[:3])
 
-# ── 식당 본문 HTML 생성 ──────────────────────────────────────────
-def generate_restaurant_body(r, region_path, category):
-    """하나의 식당에 대한 상세 본문 HTML 생성"""
+# ── 앵글 선택 (식당마다 다른 관점) ──────────────────────────────
+import random
+random.seed(42)  # 재현성 보장
+
+ANGLES = ['menu', 'mood', 'price', 'location', 'review']
+
+def pick_angle(r, idx, category):
+    """식당 인덱스와 특성에 따라 서술 앵글 선택"""
+    tags = set(r.get('tags', []))
+    # 데이터 특성에 따라 앵글 우선 결정
+    if r.get('menuItems') and len(r['menuItems']) >= 3:
+        preferred = 'menu'
+    elif '인스타감성' in tags or '데이트' in set(r.get('moods', [])):
+        preferred = 'mood'
+    elif '가성비' in tags:
+        preferred = 'price'
+    else:
+        preferred = ANGLES[idx % len(ANGLES)]
+    return preferred
+
+# ── 식당 본문 HTML 생성 (자연스러운 톤) ──────────────────────────
+def generate_restaurant_body_main(r, region_path, category, angle):
+    """주요 식당 (상세 서술) — 2~3개"""
     name = r['name']
     link = f'{region_path}/restaurant/{name}'
     parts = []
 
-    # 식당명 + 주소
-    addr_text = f' ({r["addr"]})' if r.get('addr') else ''
-    parts.append(f'<p><strong><a href="{link}">{esc(name)}</a></strong>{esc(addr_text)}</p>')
+    # 도입 — 앵글에 따라 다르게
+    rating = r.get('rating', 0)
+    cnt = r.get('reviewCount', 0)
+    rtype = (r.get('type', '') or '').split(',')[0]
+    price = r.get('priceRange', '')
+    tags = set(r.get('tags', []))
+    menus = r.get('menuItems', [])
 
-    # 핵심 정보 리스트
-    info_items = []
-    if r.get('rating'):
-        review_text = f'리뷰 {r["reviewCount"]}건'
-        if r.get('blogCount', 0) > 0:
-            review_text += f' · 블로그 {r["blogCount"]}건'
-        info_items.append(f'평점 {r["rating"]}점 ({review_text})')
-    if r.get('priceRange'):
-        info_items.append(f'가격대 {fmt_price(r["priceRange"])}')
-    if r.get('hours'):
-        hours_text = r['hours']
-        # 주소 데이터가 섞인 경우 정리
-        if '주소' in hours_text or '출구' in hours_text or '미터' in hours_text:
-            # 시간 패턴만 추출 시도
-            time_match = re.search(r'(?:AM|PM|오전|오후)?\s*\d{1,2}:\d{2}', hours_text)
-            if time_match:
-                hours_text = hours_text[:hours_text.index('주소')] if '주소' in hours_text else hours_text
+    if angle == 'menu' and menus:
+        top_menu = menus[0]
+        mname = top_menu.get('name', '')
+        mprice = fmt_menu_price(top_menu.get('price'))
+        opener = f'{mname}'
+        if mprice:
+            opener += f'({mprice})'
+        opener += f'이 대표 메뉴인 <a href="{link}">{esc(name)}</a>.'
+        if len(menus) >= 2:
+            others = ', '.join(m.get('name','') for m in menus[1:3] if m.get('name'))
+            opener += f' {others} 같은 메뉴도 있다.'
+        parts.append(f'<p>{opener}</p>')
+    elif angle == 'mood':
+        mood_words = []
+        if '인스타감성' in tags: mood_words.append('인테리어가 깔끔하고')
+        if '데이트' in set(r.get('moods', [])): mood_words.append('분위기가 좋아서')
+        if '조용한' in tags: mood_words.append('조용한 편이라')
+        mood_desc = ' '.join(mood_words) if mood_words else '공간이 괜찮은 편이라'
+        parts.append(f'<p>{mood_desc} 눈에 들어오는 곳. <a href="{link}">{esc(name)}</a>.</p>')
+    elif angle == 'price' and price:
+        try:
+            lo = int(price.split('~')[0])
+            if lo <= 10000:
+                parts.append(f'<p>만원 이하로 한 끼 해결할 수 있는 <a href="{link}">{esc(name)}</a>.</p>')
+            elif lo <= 15000:
+                parts.append(f'<p>{lo//1000}천원대부터 시작하는 <a href="{link}">{esc(name)}</a>. 점심 가격으로는 무난한 선.</p>')
             else:
-                hours_text = ''
-        if hours_text.strip():
-            info_items.append(f'영업시간 {hours_text.strip()}')
-    if r.get('tel'):
-        info_items.append(f'전화 {r["tel"]}')
+                parts.append(f'<p>인당 {lo//10000}만원대 이상, 좀 쓰더라도 제대로 먹고 싶을 때 가는 <a href="{link}">{esc(name)}</a>.</p>')
+        except:
+            parts.append(f'<p><a href="{link}">{esc(name)}</a>. {rtype} 전문.</p>')
+    elif angle == 'review' and cnt > 0:
+        if cnt >= 500:
+            parts.append(f'<p>리뷰 {cnt}건이면 이 동네에서 꽤 유명한 축. <a href="{link}">{esc(name)}</a>.</p>')
+        elif cnt >= 100:
+            parts.append(f'<p>리뷰 {cnt}건 정도 쌓인 <a href="{link}">{esc(name)}</a>. 평점 {rating}점.</p>')
+        else:
+            parts.append(f'<p><a href="{link}">{esc(name)}</a>. 아직 리뷰가 많진 않지만 평점 {rating}점으로 나쁘지 않다.</p>')
+    else:
+        parts.append(f'<p><a href="{link}">{esc(name)}</a>. {rtype} 전문이고, 평점 {rating}점.</p>')
 
-    # 편의시설
-    facilities = []
-    if r.get('parking'):
-        facilities.append('주차 가능')
-    if r.get('reservation'):
-        facilities.append('예약 가능')
-    if facilities:
-        info_items.append(' · '.join(facilities))
-
-    if info_items:
-        li_html = ''.join(f'<li>{esc(item)}</li>' for item in info_items)
-        parts.append(f'<ul>{li_html}</ul>')
-
-    # 메뉴 정보 (있는 경우)
-    menu_items = r.get('menuItems', [])
-    if menu_items:
-        menu_parts = []
-        for mi in menu_items[:5]:
+    # 메뉴 상세 (주요 식당은 메뉴를 서술형으로)
+    if menus and angle != 'menu':
+        menu_strs = []
+        for mi in menus[:4]:
             mname = mi.get('name', '')
             mprice = fmt_menu_price(mi.get('price'))
             if mname and mprice:
-                menu_parts.append(f'{esc(mname)} {mprice}')
+                menu_strs.append(f'{esc(mname)} {mprice}')
             elif mname:
-                menu_parts.append(esc(mname))
-        if menu_parts:
-            parts.append(f'<p><strong>대표 메뉴:</strong> {" / ".join(menu_parts)}</p>')
+                menu_strs.append(esc(mname))
+        if menu_strs:
+            parts.append(f'<p>메뉴는 {", ".join(menu_strs[:3])} 정도가 주력이고, {"가격대는 괜찮은 편" if price and int(price.split("~")[0]) <= 15000 else "가격은 메뉴에 따라 차이가 있다"}.</p>')
+    elif menus and angle == 'menu' and len(menus) >= 4:
+        # 이미 위에서 언급했으므로 추가 메뉴만 (중복 제거)
+        mentioned = set(m.get('name','') for m in menus[:3])
+        extra_menus = [m.get('name','') for m in menus[3:6] if m.get('name') and m.get('name') not in mentioned]
+        if extra_menus:
+            parts.append(f'<p>그 외에 {", ".join(extra_menus)}도 있다.</p>')
 
-    # 태그 기반 설명
-    tag_text = generate_tag_sentences(r, category)
-    if tag_text:
-        parts.append(f'<p>{esc(tag_text)}</p>')
+    # 태그/특징 — 자연스럽게 서술
+    tag_parts = []
+    if '웨이팅맛집' in tags:
+        tag_parts.append('점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다')
+    if '주차가능' in tags or r.get('parking'):
+        tag_parts.append('주차는 된다')
+    elif not r.get('parking') and category in ('group', 'date'):
+        tag_parts.append('주차는 안 되니 대중교통 추천')
+    if '예약필수' in tags or r.get('reservation'):
+        tag_parts.append('예약 가능')
+    if '혼밥가능' in tags and category == 'budget':
+        tag_parts.append('혼밥하기 편한 구조')
+    if '룸있음' in tags and category == 'group':
+        tag_parts.append('룸이 따로 있어서 회식에 괜찮다')
+    if '단체가능' in tags and category == 'group':
+        tag_parts.append('단체석 가능')
 
-    # 카테고리 맥락 추가 문장 (콘텐츠 두께 보강)
+    if tag_parts:
+        parts.append(f'<p>{". ".join(tag_parts)}.</p>')
+
+    # 맥락 문장
     extra = generate_context_paragraph(r, category)
     if extra:
         parts.append(f'<p>{esc(extra)}</p>')
 
-    # 키워드 태그 표시
-    keywords = r.get('keywords', []) or r.get('tags', [])
-    if keywords:
-        kw_display = keywords[:6]
-        parts.append(f'<p style="color:var(--text-secondary);font-size:.85rem">#{" #".join(esc(k) for k in kw_display)}</p>')
+    # 상세 페이지 링크
+    parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ {esc(name)} 상세 정보 보기</a></p>')
 
     return ''.join(parts)
 
-# ── 비교표 HTML 생성 ─────────────────────────────────────────────
-def generate_comparison_table(restaurants, category):
-    """식당 비교 테이블 HTML"""
+
+def generate_restaurant_body_sub(r, region_path, category):
+    """보조 식당 (간결하지만 정보는 충분히) — 나머지"""
+    name = r['name']
+    link = f'{region_path}/restaurant/{name}'
+    parts = []
+
+    rating = r.get('rating', 0)
+    cnt = r.get('reviewCount', 0)
+    rtype = (r.get('type', '') or '').split(',')[0]
+    menus = r.get('menuItems', [])
+    tags = set(r.get('tags', []))
+    price = r.get('priceRange', '')
+
+    # 도입 2~3문장
+    opener = f'<a href="{link}">{esc(name)}</a>.'
+    if rtype:
+        opener += f' {rtype} 전문이고'
+    if rating > 0 and cnt > 0:
+        opener += f' 평점 {rating}점(리뷰 {cnt}건).'
+    elif rating > 0:
+        opener += f' 평점 {rating}점.'
+
+    parts.append(f'<p>{opener}</p>')
+
+    # 메뉴 + 가격
+    if menus:
+        top_menus = []
+        for mi in menus[:4]:
+            mname = mi.get('name', '')
+            mprice = fmt_menu_price(mi.get('price'))
+            if mname and mprice:
+                top_menus.append(f'{esc(mname)} {mprice}')
+            elif mname:
+                top_menus.append(esc(mname))
+        if top_menus:
+            parts.append(f'<p>메뉴: {" / ".join(top_menus)}.</p>')
+    elif price:
+        parts.append(f'<p>가격대 {fmt_price(price)}.</p>')
+
+    # 특징 서술형
+    feat_parts = []
+    if '가성비' in tags: feat_parts.append('가성비가 괜찮다는 평이 많다')
+    if '웨이팅맛집' in tags: feat_parts.append('점심엔 웨이팅이 좀 있다')
+    if '혼밥가능' in tags: feat_parts.append('혼밥 가능')
+    if '단체가능' in tags or '룸있음' in tags: feat_parts.append('단체석이나 룸이 있다')
+    if r.get('parking'): feat_parts.append('주차도 된다')
+    if feat_parts:
+        parts.append(f'<p>{". ".join(feat_parts)}.</p>')
+
+    # 상세 링크
+    parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ 상세 보기</a></p>')
+
+    return ''.join(parts)
+
+
+def generate_restaurant_body(r, region_path, category, is_main=True, angle='menu'):
+    """식당 본문 — 주요/보조 분기"""
+    if is_main:
+        return generate_restaurant_body_main(r, region_path, category, angle)
+    else:
+        return generate_restaurant_body_sub(r, region_path, category)
+
+# ── 비교표 HTML 생성 (핵심 정보 통합) ─────────────────────────────
+def generate_comparison_table(restaurants, category, region_path=''):
+    """식당 비교 테이블 — 평점/리뷰/가격/특징 + 링크"""
     ths = '<th style="padding:8px 6px;text-align:left">식당</th>'
     ths += '<th style="padding:8px 6px;text-align:center">평점</th>'
-    ths += '<th style="padding:8px 6px;text-align:center">리뷰수</th>'
+    ths += '<th style="padding:8px 6px;text-align:center">리뷰</th>'
     ths += '<th style="padding:8px 6px;text-align:center">가격대</th>'
-    ths += '<th style="padding:8px 6px;text-align:left">특징</th>'
+    ths += '<th style="padding:8px 6px;text-align:left">한줄평</th>'
 
     rows = []
     for r in restaurants:
-        tags_short = r.get('tags', [])[:3]
-        feature = '·'.join(tags_short) if tags_short else r.get('type', '')
+        tags = r.get('tags', [])
+        # 한줄평 — 태그 나열이 아니라 한 문장으로
+        if '가성비' in tags: oneliner = '가격 대비 양 많음'
+        elif '웨이팅맛집' in tags: oneliner = '줄 서서 먹는 맛'
+        elif '인스타감성' in tags: oneliner = '분위기 좋음'
+        elif '단체가능' in tags: oneliner = '단체석·회식 가능'
+        elif '혼밥가능' in tags: oneliner = '혼밥 편한 곳'
+        else:
+            rtype = (r.get('type', '') or '').split(',')[0]
+            oneliner = f'{rtype} 전문' if rtype else '-'
         price_display = fmt_price(r.get('priceRange', ''))
+        name_link = f'<a href="{region_path}/restaurant/{r["name"]}">{esc(r["name"])}</a>' if region_path else esc(r["name"])
         row = f'<tr style="border-bottom:1px solid var(--border)">'
-        row += f'<td style="padding:7px 6px">{esc(r["name"])}</td>'
-        row += f'<td style="padding:7px 6px;text-align:center">{r.get("rating", "-")}점</td>'
-        row += f'<td style="padding:7px 6px;text-align:center">{r.get("reviewCount", "-")}</td>'
+        row += f'<td style="padding:7px 6px">{name_link}</td>'
+        row += f'<td style="padding:7px 6px;text-align:center">{r.get("rating", "-")}</td>'
+        row += f'<td style="padding:7px 6px;text-align:center">{r.get("reviewCount", "-")}건</td>'
         row += f'<td style="padding:7px 6px;text-align:center">{esc(price_display)}</td>'
-        row += f'<td style="padding:7px 6px">{esc(feature)}</td>'
+        row += f'<td style="padding:7px 6px">{esc(oneliner)}</td>'
         row += '</tr>'
         rows.append(row)
 
@@ -316,36 +430,36 @@ def generate_tips(post_data):
     waiting_rests = [r['name'] for r in restaurants if '웨이팅맛집' in r.get('tags', [])]
     if waiting_rests:
         names = ', '.join(waiting_rests[:2])
-        tips.append(f'{names} 등은 점심 피크(12:00~12:30)에 웨이팅이 있습니다. 11:50 이전 도착을 권장합니다.')
+        tips.append(f'{names}은 점심 피크(12시~12시 반)에 줄이 좀 있다. 11시 50분 전에 가는 게 낫다.')
 
     # 예약 관련
     reservation_rests = [r['name'] for r in restaurants if '예약필수' in r.get('tags', []) or r.get('reservation')]
     if reservation_rests:
         names = ', '.join(reservation_rests[:2])
-        tips.append(f'{names}은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.')
+        tips.append(f'{names}은 예약하고 가는 게 좋다. 주말 저녁은 특히.')
 
     # 주차 관련
     parking_rests = [r['name'] for r in restaurants if r.get('parking')]
     no_parking = [r['name'] for r in restaurants if not r.get('parking')]
     if parking_rests:
-        tips.append(f'주차 가능: {", ".join(parking_rests[:3])}.')
+        tips.append(f'주차 되는 곳: {", ".join(parking_rests[:3])}.')
     if no_parking and len(no_parking) < len(restaurants):
-        tips.append(f'{", ".join(no_parking[:2])} 등은 별도 주차장이 없으므로 대중교통 이용을 권장합니다.')
+        tips.append(f'{", ".join(no_parking[:2])} 등은 주차장이 없다. 대중교통이 편하다.')
 
     # 카테고리별 팁
     if category == 'meat':
-        tips.append('고기집은 환기 시설 확인이 중요합니다. 냄새가 걱정된다면 점심 직후보다 늦은 점심(1시 이후)에 방문하면 회전이 빠릅니다.')
+        tips.append('고기집은 환기 상태 확인. 냄새 신경 쓰인다면 1시 넘어서 가면 회전이 빠르다.')
     elif category == 'date':
-        tips.append('데이트 식사는 예약이 기본입니다. 특히 금·토요일 저녁은 최소 3일 전 예약을 권장합니다.')
+        tips.append('데이트면 예약은 기본이다. 금토 저녁은 3일 전에는 잡아야 한다.')
     elif category == 'group':
-        tips.append('회식 장소는 인원 확정 후 최소 2~3일 전 예약이 필수입니다. 룸이 필요한 경우 일주일 전 예약을 권장합니다.')
+        tips.append('회식은 인원 확정 후 2~3일 전 예약 필수. 룸 필요하면 일주일 전.')
     elif category == 'budget':
-        tips.append('가성비 맛집일수록 점심 피크 웨이팅이 길 수 있습니다. 11:30~11:50 사이 방문이 최적입니다.')
+        tips.append('가성비 좋은 곳일수록 점심 웨이팅이 길다. 11시 반~50분 사이가 타이밍.')
     elif category == 'lunch':
-        tips.append('점심 메뉴는 저녁보다 가격이 낮은 경우가 많습니다. 런치 세트가 있는지 미리 확인하면 더 합리적으로 이용할 수 있습니다.')
+        tips.append('점심 메뉴가 저녁보다 싼 경우가 많다. 런치 세트 있는지 미리 확인.')
 
     if not tips:
-        tips.append('방문 전 영업시간과 휴무일을 반드시 확인하세요. 특히 명절 전후에는 임시 휴무가 있을 수 있습니다.')
+        tips.append('방문 전 영업시간이랑 휴무일 확인. 명절 전후에 임시 휴무하는 곳이 꽤 있다.')
 
     return '<ul>' + ''.join(f'<li>{esc(t)}</li>' for t in tips) + '</ul>'
 
@@ -502,20 +616,33 @@ def generate_intro(post_data):
     cat_text = f' {cat_label}' if cat_label else ''
     cat_focus = CATEGORY_ANGLES.get(post_data.get('category', ''), {}).get('focus', '')
 
-    intro_p1 = (
-        f'{area} 일대에서{cat_text} 맛집을 찾고 계신가요? '
-        f'{rname} 지역 총 {total}곳 식당 데이터 중{cat_text} {n}곳을 '
-        f'평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.'
-    )
+    # 인트로 변형 — 포스트 id 기반으로 톤 변경
+    pid = post_data['id']
+    variant = pid % 3
+
+    if variant == 0:
+        intro_p1 = (
+            f'{rname}에서{cat_text} 먹을 데 찾느라 고생한 적 있다면, 이 글 하나로 정리된다. '
+            f'총 {total}곳 중{cat_text} {n}곳을 골라서 비교했다.'
+        )
+    elif variant == 1:
+        intro_p1 = (
+            f'{area} 근처에서{cat_text} 괜찮은 데가 어딘지 찾아봤다. '
+            f'{n}곳 추려서 가격이랑 메뉴까지 정리해둔다.'
+        )
+    else:
+        intro_p1 = (
+            f'{rname}{cat_text} 맛집, 검색하면 너무 많이 나온다. '
+            f'{total}곳 데이터에서 실제로 갈 만한 {n}곳만 뽑았다.'
+        )
+
     intro_p2 = (
-        f'평균 평점 {avg_rt}점,{price_range_text} '
-        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준 실제 운영 데이터입니다. '
-        f'{cat_focus}을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.'
+        f'평균 평점 {avg_rt}점.{price_range_text} '
+        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준이고, {cat_focus}을 위주로 비교했다.'
     )
 
-    # 식당명 미리보기
     rest_names = [r['name'] for r in rests[:5]]
-    intro_p3 = f'이 글에서 소개하는 식당: {", ".join(rest_names)}.'
+    intro_p3 = f'소개 순서: {", ".join(rest_names)}.'
 
     return f'<p>{esc(intro_p1)}</p><p>{esc(intro_p2)}</p><p>{esc(intro_p3)}</p>'
 
@@ -528,10 +655,9 @@ def generate_ending(post_data, related_posts):
     cat_label = CATEGORY_ANGLES.get(post_data.get('category', ''), {}).get('label', '')
 
     closing = (
-        f'이 글에서 소개한 {rname}{" " + cat_label if cat_label else ""} 맛집 정보는 '
-        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준 데이터입니다. '
-        f'영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. '
-        f'아래 관련 글도 함께 참고해 보세요.'
+        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준 정보다. '
+        f'영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. '
+        f'아래 글도 참고.'
     )
 
     links = []
@@ -604,10 +730,9 @@ for post_data in all_posts_meta:
     ratings_list = [r['rating'] for r in restaurants if r.get('rating')]
     min_rt = min(ratings_list) if ratings_list else 0
     criteria_html = (
-        f'<p>{rname} 지역 {total_region}곳 식당 데이터 중 {cat_label} 카테고리에 해당하는 식당을 '
-        f'평점 {min_rt}점 이상, 리뷰 수, {cat_focus} 등을 기준으로 선별했습니다. '
-        f'모든 정보는 {TODAY[:4]}년 {int(TODAY[5:7])}월 기준 실제 운영 데이터이며, '
-        f'폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>'
+        f'<p>{rname} 전체 {total_region}곳에서 {cat_label} 카테고리 식당을 추렸다. '
+        f'평점 {min_rt}점 이상, {cat_focus} 기준. '
+        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>'
     )
     sections.append({
         'type': 'h2', 'id': 'criteria',
@@ -616,9 +741,17 @@ for post_data in all_posts_meta:
     })
     sections.append({'type': 'body', 'html': criteria_html})
 
-    # 4. 각 식당별 h2 + image + body + image
+    # 4. 주요/보조 식당 분류 (평점+리뷰수 기준 상위 2~3개가 주요)
     post_images = img_mapping.get(str(pid), {}).get('restaurants', {})
+    scored = [(i, r, r.get('rating', 0) * 100 + min(r.get('reviewCount', 0), 500))
+              for i, r in enumerate(restaurants)]
+    scored.sort(key=lambda x: x[2], reverse=True)
+    main_count = min(3, max(2, len(restaurants) // 2))
+    main_indices = set(x[0] for x in scored[:main_count])
+
     for i, r in enumerate(restaurants):
+        is_main = i in main_indices
+        angle = pick_angle(r, i, category)
         h2_title = make_h2_title(r, category)
         h2_id = safe_id(r['name'])
         r_images = post_images.get(r['name'], [])
@@ -630,7 +763,7 @@ for post_data in all_posts_meta:
             'gradientStyle': GRADIENTS[(i + 1) % len(GRADIENTS)],
         })
 
-        # 첫 번째 이미지: h2 바로 아래 (대표 사진)
+        # 첫 번째 이미지: h2 바로 아래
         if len(r_images) >= 1:
             sections.append({
                 'type': 'image',
@@ -639,14 +772,17 @@ for post_data in all_posts_meta:
                 'caption': f'{r["name"]}',
             })
 
-        body_html = generate_restaurant_body(r, REGION_INFO.get(post_data['region'], {}).get('path', ''), category)
+        body_html = generate_restaurant_body(
+            r, REGION_INFO.get(post_data['region'], {}).get('path', ''),
+            category, is_main=is_main, angle=angle
+        )
         sections.append({
             'type': 'body',
             'html': body_html,
         })
 
-        # 두 번째 이미지: 본문 뒤 (음식/매장 사진)
-        if len(r_images) >= 2:
+        # 두 번째 이미지: 주요 식당만 본문 뒤에 추가
+        if is_main and len(r_images) >= 2:
             sections.append({
                 'type': 'image',
                 'src': r_images[1],
@@ -664,7 +800,7 @@ for post_data in all_posts_meta:
         })
         sections.append({
             'type': 'body',
-            'html': generate_comparison_table(restaurants, category),
+            'html': generate_comparison_table(restaurants, category, REGION_INFO.get(post_data['region'], {}).get('path', '')),
         })
 
     # 5. 상황별 추천 섹션

@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>삼성역·코엑스·선릉역 일대에서 데이트 맛집을 찾고 계신가요? 삼성역 지역 총 859곳 식당 데이터 중 데이트 5곳을 평점·가격·메뉴·영업시간까지 꼼꼼하게 비교했습니다.</p><p>평균 평점 4.9점, 가격대는 6,000원부터 시작하며, 2026년 5월 기준 실제 운영 데이터입니다. 분위기·코스 구성·예약 여부·뷰을(를) 중심으로 비교했으니 상황에 맞는 식당을 바로 골라보세요.</p><p>이 글에서 소개하는 식당: 해화장, 일상정원 코엑스점, 솔트랑 스테이크 삼성, 모도우 삼성, 논두렁오리주물럭 선릉직영점.</p>",
+      html: "<p>삼성역 데이트 맛집, 검색하면 너무 많이 나온다. 859곳 데이터에서 실제로 갈 만한 5곳만 뽑았다.</p><p>평균 평점 4.9점. 가격대는 6,000원부터 시작하며, 2026년 5월 기준이고, 분위기·코스 구성·예약 여부·뷰을 위주로 비교했다.</p><p>소개 순서: 해화장, 일상정원 코엑스점, 솔트랑 스테이크 삼성, 모도우 삼성, 논두렁오리주물럭 선릉직영점.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>삼성역 지역 859곳 식당 데이터 중 데이트 카테고리에 해당하는 식당을 평점 4.6점 이상, 리뷰 수, 분위기·코스 구성·예약 여부·뷰 등을 기준으로 선별했습니다. 모든 정보는 2026년 5월 기준 실제 운영 데이터이며, 폐업·휴무·가격 변동이 있을 수 있으므로 방문 전 확인을 권장합니다.</p>",
+      html: "<p>삼성역 전체 859곳에서 데이트 카테고리 식당을 추렸다. 평점 4.6점 이상, 분위기·코스 구성·예약 여부·뷰 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a></strong> (테헤란로 81길 47 1층)</p><ul><li>평점 4.9점 (리뷰 47건 · 블로그 283건)</li><li>가격대 23,000~38,000원</li><li>영업시간 02:00</li><li>전화 07-1376-7872</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> [봄, 바다향 터지는] 봄멍게 23,000원 / [봄,바다향 터지는] 돌멍게 38,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 47건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#신선회 #어선인테리어 #코르키지 #주차가능 #데이트</p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a>. 횟집·해산물 전문이고 평점 4.9점(리뷰 47건).</p><p>메뉴: [봄, 바다향 터지는] 봄멍게 23,000원 / [봄,바다향 터지는] 돌멍게 38,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/해화장\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a></strong> (봉은사로 524 오크우드호텔 코엑스별관)</p><ul><li>평점 4.8점 (리뷰 706건 · 블로그 1127건)</li><li>가격대 6,000~20,900원</li><li>영업시간 21:30</li><li>전화 07-1485-8070</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 구름 스키야키(관서식) 21,400원 / 미소 샤브샤브(관동식) 18,400원 / NEW, 사케마구로동 20,900원 / NEW, 지라시스시 25,400원 / NEW, 규나베 서로인 한우 1++ 32,400원</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 706건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#스키야키 #모츠나베 #전골 #혼밥가능 #주차가능 #데이트</p>",
+      html: "<p>구름 스키야키(관서식)(21,400원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a>. 미소 샤브샤브(관동식), NEW, 사케마구로동 같은 메뉴도 있다.</p><p>그 외에 NEW, 지라시스시, NEW, 규나베 서로인 한우 1++도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.8점이면 이 동네에서 상위권이다. 리뷰 706건.</p><p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\" style=\"color:var(--primary)\">→ 일상정원 코엑스점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></strong> (테헤란로 610 지하 1층)</p><ul><li>평점 5점 (리뷰 184건 · 블로그 369건)</li><li>가격대 8,500~23,000원</li><li>영업시간 11:30 AM–9:30 PM</li><li>전화 02-6012-7429</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원 / 두바이 아이스크림 8,500원</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 184건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#스테이크 #소금스테이크 #특별한날 #주차가능 #데이트 #리뷰많음</p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 스테이크하우스 전문이고 평점 5점(리뷰 184건).</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,13 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/모도우 삼성\">모도우 삼성</a></strong> (테헤란로 87길 35)</p><ul><li>평점 4.6점 (리뷰 154건)</li><li>가격대 9,000~15,000원</li><li>영업시간 11:30 AM–3 PM, 5–10 PM</li></ul><p>리뷰 154건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#프라이빗룸 #코스요리 #고급한식</p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/8/모도우-삼성-2.jpg",
-      alt: "모도우 삼성 음식 사진",
-      caption: "모도우 삼성 메뉴",
+      html: "<p><a href=\"/dinner/samseong/restaurant/모도우 삼성\">모도우 삼성</a>. 한식·코스 전문이고 평점 4.6점(리뷰 154건).</p><p>가격대 9,000~15,000원.</p><p><a href=\"/dinner/samseong/restaurant/모도우 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a></strong> (대치동 895-9 1층)</p><ul><li>평점 5점 (리뷰 485건 · 블로그 1256건)</li><li>가격대 8,000~58,000원</li><li>영업시간 10:00</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 양념 오리 주물럭(2인~3인) 58,000원 / 양념 오리 주물럭(2인~3인) 58,000원 / 양념 오리 주물럭(2인~3인) 58,000원 / 대패 주물럭 한판(2~3인) 36,000원 / 대패 주물럭 한판 반(4인) 48,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 485건이 축적된 검증된 맛집입니다. 코스 기준 인당 0~5만원대로 특별한 날 식사에 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음 #점심추천 #주차가능 #단체가능</p>",
+      html: "<p>양념 오리 주물럭(2인~3인)(58,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a>. 양념 오리 주물럭(2인~3인), 양념 오리 주물럭(2인~3인) 같은 메뉴도 있다.</p><p>그 외에 대패 주물럭 한판(2~3인), 대패 주물럭 한판 반(4인)도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 485건. 코스 기준 인당 0~5만원대. 특별한 날에 맞는 가격.</p><p><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\" style=\"color:var(--primary)\">→ 논두렁오리주물럭 선릉직영점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -112,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰수</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">특징</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">해화장</td><td style=\"padding:7px 6px;text-align:center\">4.9점</td><td style=\"padding:7px 6px;text-align:center\">47</td><td style=\"padding:7px 6px;text-align:center\">23,000~38,000원</td><td style=\"padding:7px 6px\">신선회·어선인테리어·코르키지</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">일상정원 코엑스점</td><td style=\"padding:7px 6px;text-align:center\">4.8점</td><td style=\"padding:7px 6px;text-align:center\">706</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,900원</td><td style=\"padding:7px 6px\">스키야키·모츠나베·전골</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">솔트랑 스테이크 삼성</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">184</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크·소금스테이크·특별한날</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">모도우 삼성</td><td style=\"padding:7px 6px;text-align:center\">4.6점</td><td style=\"padding:7px 6px;text-align:center\">154</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">프라이빗룸·코스요리·고급한식</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">논두렁오리주물럭 선릉직영점</td><td style=\"padding:7px 6px;text-align:center\">5점</td><td style=\"padding:7px 6px;text-align:center\">485</td><td style=\"padding:7px 6px;text-align:center\">8,000~58,000원</td><td style=\"padding:7px 6px\">리뷰많음·점심추천·주차가능</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">47건</td><td style=\"padding:7px 6px;text-align:center\">23,000~38,000원</td><td style=\"padding:7px 6px\">횟집·해산물 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">706건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,900원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">184건</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크하우스 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/모도우 삼성\">모도우 삼성</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">154건</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">한식·코스 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">485건</td><td style=\"padding:7px 6px;text-align:center\">8,000~58,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -132,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>해화장, 일상정원 코엑스점은(는) 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기할 수 있습니다.</li><li>주차 가능: 해화장, 일상정원 코엑스점, 솔트랑 스테이크 삼성.</li><li>모도우 삼성 등은 별도 주차장이 없으므로 대중교통 이용을 권장합니다.</li><li>데이트 식사는 예약이 기본입니다. 특히 금·토요일 저녁은 최소 3일 전 예약을 권장합니다.</li></ul>",
+      html: "<ul><li>해화장, 일상정원 코엑스점은 예약하고 가는 게 좋다. 주말 저녁은 특히.</li><li>주차 되는 곳: 해화장, 일상정원 코엑스점, 솔트랑 스테이크 삼성.</li><li>모도우 삼성 등은 주차장이 없다. 대중교통이 편하다.</li><li>데이트면 예약은 기본이다. 금토 저녁은 3일 전에는 잡아야 한다.</li></ul>",
     },
     {
       type: 'cta',
@@ -141,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>이 글에서 소개한 삼성역 데이트 맛집 정보는 2026년 5월 기준 데이터입니다. 영업시간·메뉴·가격은 변동될 수 있으니 방문 전 확인을 권장합니다. 아래 관련 글도 함께 참고해 보세요.</p><ul><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/samsung-izakaya-best-2026\">삼성역 이자카야 추천 7곳</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
     }
   ],
 }
