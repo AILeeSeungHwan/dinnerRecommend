@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../components/Layout'
 import AdUnit from '../../../components/AdUnit'
+import PageTracker from '../../../components/PageTracker'
 import restaurants from '../../../data/pangyo'
 
 export async function getStaticPaths() {
@@ -471,6 +472,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   return (
     <Layout title={`${r.name} | 판교 ${r.type}`} description={metaDesc} canonical={pageUrl}>
+      <PageTracker slug={`pangyo-restaurant-${encodeURIComponent(r.name)}`} title={`${r.name} | 판교 ${r.type}`} />
       <Head>
         <meta name="keywords" content={`${r.name}, 판교 ${r.type}, 강남 ${r.type}, ${r.tags?.join(', ')}`} />
         <meta property="og:title" content={`${r.name} — 판교 ${r.type} 맛집`} />

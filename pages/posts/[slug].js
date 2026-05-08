@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
 import MultiplexAd from '../../components/MultiplexAd'
+import PageTracker from '../../components/PageTracker'
 import posts from '../../data/posts'
 
 // ── AdSense 광고 섹션 ────────────────────────────────────────────
@@ -494,6 +495,7 @@ export default function PostPage({ meta, sections, related }) {
       description={meta.description}
       canonical={pageUrl}
     >
+      <PageTracker slug={meta.slug} title={meta.title} />
       <Head>
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`${meta.title} | 오늘뭐먹지`} />
