@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>스테이크덮밥(13,500원)이 대표 메뉴인 <a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a>. 미소우동, 대창덮밥 같은 메뉴도 있다.</p><p>그 외에 가라아게냉우동, 가라아게덮밥도 있다.</p><p>주차는 된다.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 2026건.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\" style=\"color:var(--primary)\">→ 천애부히쇼우 망포 본점 상세 정보 보기</a></p>",
+      html: "<p>스테이크덮밥(13,500원)이 대표 메뉴인 <a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a>. 미소우동, 대창덮밥 같은 메뉴도 있다.</p><p>그 외에 가라아게냉우동, 가라아게덮밥도 있다.</p><p>주차는 된다.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 2026건.</p><p>재방문 의사가 있다는 리뷰가 많다. 뷰가 좋아서 분위기가 난다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\" style=\"color:var(--primary)\">→ 천애부히쇼우 망포 본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a>. 일식 전문이고 평점 5점(리뷰 133건).</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a>. 일식 전문이고 평점 5점(리뷰 133건).</p><p>뷰가 좋아서 분위기가 난다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 일식 전문이고 평점 5점(리뷰 33건).</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 일식 전문이고 평점 5점(리뷰 33건).</p><p>뷰가 좋아서 분위기가 난다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a>. 카페 전문이고 평점 5점(리뷰 236건).</p><p>메뉴: [패스오더전용] 100원 아메리카노 100원 / 아메리카노(I/H) 3,000원 / 카푸치노(Only Hot) 4,000원 / 카페라떼(I/H) 4,000원.</p><p>가성비가 괜찮다는 평이 많다. 주차도 된다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a>. 카페 전문이고 평점 5점(리뷰 236건).</p><p>메뉴: [패스오더전용] 100원 아메리카노 100원 / 아메리카노(I/H) 3,000원 / 카푸치노(Only Hot) 4,000원 / 카페라떼(I/H) 4,000원.</p><p>가성비가 괜찮다는 평이 많다. 주차도 된다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>리뷰 968건이면 이 동네에서 꽤 유명한 축. <a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a>.</p><p>주차는 안 되니 대중교통 추천.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 968건.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\" style=\"color:var(--primary)\">→ 이차선술집 상세 정보 보기</a></p>",
+      html: "<p>리뷰 968건이면 이 동네에서 꽤 유명한 축. <a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a>.</p><p>주차는 안 되니 대중교통 추천.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 968건.</p><p>맛에 대한 만족도가 높은 편이다. 안주 퀄리티가 괜찮다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\" style=\"color:var(--primary)\">→ 이차선술집 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',

@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a>. 횟집·해산물 전문이고 평점 4.9점(리뷰 47건).</p><p>메뉴: [봄, 바다향 터지는] 봄멍게 23,000원 / [봄,바다향 터지는] 돌멍게 38,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/해화장\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a>. 횟집·해산물 전문이고 평점 4.9점(리뷰 47건).</p><p>메뉴: [봄, 바다향 터지는] 봄멍게 23,000원 / [봄,바다향 터지는] 돌멍게 38,000원.</p><p>주차도 된다.</p><p>인기 많아서 웨이팅이 좀 있는 편이다.</p><p><a href=\"/dinner/samseong/restaurant/해화장\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>구름 스키야키(관서식)(21,400원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a>. 미소 샤브샤브(관동식), NEW, 사케마구로동 같은 메뉴도 있다.</p><p>그 외에 NEW, 지라시스시, NEW, 규나베 서로인 한우 1++도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.8점이면 이 동네에서 상위권이다. 리뷰 706건.</p><p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\" style=\"color:var(--primary)\">→ 일상정원 코엑스점 상세 정보 보기</a></p>",
+      html: "<p>구름 스키야키(관서식)(21,400원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a>. 미소 샤브샤브(관동식), NEW, 사케마구로동 같은 메뉴도 있다.</p><p>그 외에 NEW, 지라시스시, NEW, 규나베 서로인 한우 1++도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.8점이면 이 동네에서 상위권이다. 리뷰 706건.</p><p>재방문 의사가 있다는 리뷰가 많다. 재료가 신선하다.</p><p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\" style=\"color:var(--primary)\">→ 일상정원 코엑스점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 스테이크하우스 전문이고 평점 5점(리뷰 184건).</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 스테이크하우스 전문이고 평점 5점(리뷰 184건).</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>양념 오리 주물럭(2인~3인)(58,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a>. 양념 오리 주물럭(2인~3인), 양념 오리 주물럭(2인~3인) 같은 메뉴도 있다.</p><p>그 외에 대패 주물럭 한판(2~3인), 대패 주물럭 한판 반(4인)도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 485건. 코스 기준 인당 0~5만원대. 특별한 날에 맞는 가격.</p><p><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\" style=\"color:var(--primary)\">→ 논두렁오리주물럭 선릉직영점 상세 정보 보기</a></p>",
+      html: "<p>양념 오리 주물럭(2인~3인)(58,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a>. 양념 오리 주물럭(2인~3인), 양념 오리 주물럭(2인~3인) 같은 메뉴도 있다.</p><p>그 외에 대패 주물럭 한판(2~3인), 대패 주물럭 한판 반(4인)도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 485건. 코스 기준 인당 0~5만원대. 특별한 날에 맞는 가격.</p><p>맛에 대한 만족도가 높은 편이다. 주차가 편하다는 의견이 있다.</p><p><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\" style=\"color:var(--primary)\">→ 논두렁오리주물럭 선릉직영점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',

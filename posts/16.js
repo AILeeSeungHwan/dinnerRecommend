@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>프라하 꼴레뇨(38,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>. 고구마 맛탕 단호박 스프, 닭 다리살 잣 바질 크림 리조또 같은 메뉴도 있다.</p><p>그 외에 와인, 채끝 등심 스테이크도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 138건.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
+      html: "<p>프라하 꼴레뇨(38,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>. 고구마 맛탕 단호박 스프, 닭 다리살 잣 바질 크림 리조또 같은 메뉴도 있다.</p><p>그 외에 와인, 채끝 등심 스테이크도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 138건.</p><p>재방문 의사가 있다는 리뷰가 많다. 재료가 신선하다.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>시그니처 돼지갈비 수육(29,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개 같은 메뉴도 있다.</p><p>그 외에 물 닭갈비, 가리비 어묵탕도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 256건.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
+      html: "<p>시그니처 돼지갈비 수육(29,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개 같은 메뉴도 있다.</p><p>그 외에 물 닭갈비, 가리비 어묵탕도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 256건.</p><p>분위기가 좋아서 식사 자리로 괜찮다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식 전문이고 평점 5점(리뷰 85건).</p><p>메뉴: (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식 전문이고 평점 5점(리뷰 85건).</p><p>메뉴: (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a>. 양식 전문이고 평점 5점(리뷰 35건).</p><p>메뉴: 무화과 모짜렐라 샐러드 19,000원 / BBB 봉골레 파스타 24,000원 / 피스타치오 크림 파케리 파스타 25,000원 / BBB 아롱사태 라자냐 26,000원.</p><p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a>. 양식 전문이고 평점 5점(리뷰 35건).</p><p>메뉴: 무화과 모짜렐라 샐러드 19,000원 / BBB 봉골레 파스타 24,000원 / 피스타치오 크림 파케리 파스타 25,000원 / BBB 아롱사태 라자냐 26,000원.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

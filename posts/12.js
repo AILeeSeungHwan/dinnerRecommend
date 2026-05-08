@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a>.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 7774건. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/dinner/samseong/restaurant/무탄 코엑스\" style=\"color:var(--primary)\">→ 무탄 코엑스 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a>.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 7774건. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p>양이 많아서 배부르게 먹을 수 있다. 인기 많아서 웨이팅이 좀 있는 편이다.</p><p><a href=\"/dinner/samseong/restaurant/무탄 코엑스\" style=\"color:var(--primary)\">→ 무탄 코엑스 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a>. 중식·요리 전문이고 평점 4.7점(리뷰 71건).</p><p>메뉴: 어향동고 45,000원 / 전가복(스페셜) 88,000원 / 통낙지 쟁반짜장 28,000원 / 미미짬뽕 13,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a>. 중식·요리 전문이고 평점 4.7점(리뷰 71건).</p><p>메뉴: 어향동고 45,000원 / 전가복(스페셜) 88,000원 / 통낙지 쟁반짜장 28,000원 / 미미짬뽕 13,000원.</p><p>주차도 된다.</p><p>재료가 신선하다.</p><p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a>. 중식·훠궈 전문이고 평점 4.2점(리뷰 59건).</p><p>메뉴: 누누 딸기레어 케이크 (시즌마감) 8,500원 / NUNU COFFEE (BEST) 6,800원 / 에그포테이토 브리오슈 4,800원 / 마틸다 라즈베리 홀케이크 (예약주문) 35,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a>. 중식·훠궈 전문이고 평점 4.2점(리뷰 59건).</p><p>메뉴: 누누 딸기레어 케이크 (시즌마감) 8,500원 / NUNU COFFEE (BEST) 6,800원 / 에그포테이토 브리오슈 4,800원 / 마틸다 라즈베리 홀케이크 (예약주문) 35,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>11천원대부터 시작하는 <a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a>. 점심 가격으로는 무난한 선.</p><p>메뉴는 NEW 순칼 (순대국 칼국수) 11,000원 정도가 주력이고, 가격대는 괜찮은 편.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 530건.</p><p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\" style=\"color:var(--primary)\">→ 이오복순대국 대치은마점 상세 정보 보기</a></p>",
+      html: "<p>11천원대부터 시작하는 <a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a>. 점심 가격으로는 무난한 선.</p><p>메뉴는 NEW 순칼 (순대국 칼국수) 11,000원 정도가 주력이고, 가격대는 괜찮은 편.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 530건.</p><p>뷰가 좋아서 분위기가 난다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\" style=\"color:var(--primary)\">→ 이오복순대국 대치은마점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a>. 해장국 전문이고 평점 4.3점(리뷰 133건).</p><p>메뉴: 순대내장탕 9,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a>. 해장국 전문이고 평점 4.3점(리뷰 133건).</p><p>메뉴: 순대내장탕 9,000원.</p><p>주차도 된다.</p><p>국물이 진하다는 평이 많다.</p><p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

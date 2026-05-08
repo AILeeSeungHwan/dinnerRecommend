@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>. 한식 전문이고 평점 5점(리뷰 22건).</p><p>메뉴: 한우등심 압도적 가성비 600g 79,000원 / 일미리꽃삼 16,000원 / 제주 흑 오겹살 18,000원 / 제주 흑 목살 18,000원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>. 한식 전문이고 평점 5점(리뷰 22건).</p><p>메뉴: 한우등심 압도적 가성비 600g 79,000원 / 일미리꽃삼 16,000원 / 제주 흑 오겹살 18,000원 / 제주 흑 목살 18,000원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다. 주차도 된다.</p><p>고기가 부드워서 만족도가 높다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

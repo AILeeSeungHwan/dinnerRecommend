@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>양념 오리 주물럭(2인~3인)(58,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a>. 양념 오리 주물럭(2인~3인), 양념 오리 주물럭(2인~3인) 같은 메뉴도 있다.</p><p>그 외에 대패 주물럭 한판(2~3인), 대패 주물럭 한판 반(4인)도 있다.</p><p>주차는 된다. 예약 가능. 단체석 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 485건. 인당 5만원대 예산이면 된다.</p><p><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\" style=\"color:var(--primary)\">→ 논두렁오리주물럭 선릉직영점 상세 정보 보기</a></p>",
+      html: "<p>양념 오리 주물럭(2인~3인)(58,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\">논두렁오리주물럭 선릉직영점</a>. 양념 오리 주물럭(2인~3인), 양념 오리 주물럭(2인~3인) 같은 메뉴도 있다.</p><p>그 외에 대패 주물럭 한판(2~3인), 대패 주물럭 한판 반(4인)도 있다.</p><p>주차는 된다. 예약 가능. 단체석 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 485건. 인당 5만원대 예산이면 된다.</p><p>맛에 대한 만족도가 높은 편이다. 주차가 편하다는 의견이 있다.</p><p><a href=\"/dinner/samseong/restaurant/논두렁오리주물럭 선릉직영점\" style=\"color:var(--primary)\">→ 논두렁오리주물럭 선릉직영점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 스테이크하우스 전문이고 평점 5점(리뷰 184건).</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 스테이크하우스 전문이고 평점 5점(리뷰 184건).</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/몰튼스 더 스테이크하우스\">몰튼스 더 스테이크하우스</a>. 양식 전문이고 평점 5점(리뷰 21건).</p><p>메뉴: 프라임등급 안심 스테이크 99,000원 / Lunch Course 110,000원 / American Course 250,000원 / Oriental Course 280,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/몰튼스 더 스테이크하우스\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/몰튼스 더 스테이크하우스\">몰튼스 더 스테이크하우스</a>. 양식 전문이고 평점 5점(리뷰 21건).</p><p>메뉴: 프라임등급 안심 스테이크 99,000원 / Lunch Course 110,000원 / American Course 250,000원 / Oriental Course 280,000원.</p><p>주차도 된다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/몰튼스 더 스테이크하우스\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>회초리디너A코스(35,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a>. 회초리디너B코스, 점심)회초리 정식 (2인이상) 같은 메뉴도 있다.</p><p>그 외에 \"점심\"백합파스타, \"점심\"씨푸드 크림 파스타도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 된다. 예약 가능. 단체석 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 237건. 인당 5만원대 예산이면 된다.</p><p><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\" style=\"color:var(--primary)\">→ 회초리씨푸드 대치점 상세 정보 보기</a></p>",
+      html: "<p>회초리디너A코스(35,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a>. 회초리디너B코스, 점심)회초리 정식 (2인이상) 같은 메뉴도 있다.</p><p>그 외에 \"점심\"백합파스타, \"점심\"씨푸드 크림 파스타도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 된다. 예약 가능. 단체석 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 237건. 인당 5만원대 예산이면 된다.</p><p>재료가 신선하다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\" style=\"color:var(--primary)\">→ 회초리씨푸드 대치점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>. 술집 전문이고 평점 5점(리뷰 78건).</p><p>메뉴: 진토닉 18,000원 / 세이지 버터 파스타 25,000원 / 페퍼로니 피자 25,000원 / 시그니처 피자 25,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>. 술집 전문이고 평점 5점(리뷰 78건).</p><p>메뉴: 진토닉 18,000원 / 세이지 버터 파스타 25,000원 / 페퍼로니 피자 25,000원 / 시그니처 피자 25,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

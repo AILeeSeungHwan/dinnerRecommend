@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a>. 돼지고기구이 전문이고 평점 5점(리뷰 15건).</p><p>메뉴: 삼성동고기집 오목세트(3~4인) 80,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a>. 돼지고기구이 전문이고 평점 5점(리뷰 15건).</p><p>메뉴: 삼성동고기집 오목세트(3~4인) 80,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p>재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>제육볶음 300g(10,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a>. 치츠폭탄계란말이, 맛보기 계란말이 같은 메뉴도 있다.</p><p>그 외에 구이류 주문 시 주문 가능도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 155건. 직접 구워 먹는 스타일.</p><p><a href=\"/dinner/samseong/restaurant/김치옥 대치점\" style=\"color:var(--primary)\">→ 김치옥 대치점 상세 정보 보기</a></p>",
+      html: "<p>제육볶음 300g(10,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a>. 치츠폭탄계란말이, 맛보기 계란말이 같은 메뉴도 있다.</p><p>그 외에 구이류 주문 시 주문 가능도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 155건. 직접 구워 먹는 스타일.</p><p>재방문 의사가 있다는 리뷰가 많다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/김치옥 대치점\" style=\"color:var(--primary)\">→ 김치옥 대치점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/dinner/samseong/restaurant/이치류 선릉점\">이치류 선릉점</a>.</p><p>메뉴는 750 ml 이하 기준 20,000원 정도가 주력이고, 가격은 메뉴에 따라 차이가 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 113건. 직접 구워 먹는 스타일.</p><p><a href=\"/dinner/samseong/restaurant/이치류 선릉점\" style=\"color:var(--primary)\">→ 이치류 선릉점 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳. <a href=\"/dinner/samseong/restaurant/이치류 선릉점\">이치류 선릉점</a>.</p><p>메뉴는 750 ml 이하 기준 20,000원 정도가 주력이고, 가격은 메뉴에 따라 차이가 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 113건. 직접 구워 먹는 스타일.</p><p>재방문 의사가 있다는 리뷰가 많다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/이치류 선릉점\" style=\"color:var(--primary)\">→ 이치류 선릉점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a>. 육류 전문이고 평점 4.9점(리뷰 49건).</p><p>메뉴: (점심특선) 남도식 애호박국밥 11,000원 / (점심특선) 맑은돼지곰탕 10,000원 / (점심특선) 한우 육회비빔밥 15,000원 / (점심특선)설악칡냉면 9,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/영동가든\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a>. 육류 전문이고 평점 4.9점(리뷰 49건).</p><p>메뉴: (점심특선) 남도식 애호박국밥 11,000원 / (점심특선) 맑은돼지곰탕 10,000원 / (점심특선) 한우 육회비빔밥 15,000원 / (점심특선)설악칡냉면 9,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p>주차가 편하다는 의견이 있다.</p><p><a href=\"/dinner/samseong/restaurant/영동가든\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/연송\">연송</a>. 육류 전문이고 평점 5점(리뷰 66건).</p><p>메뉴: 통가브리살 17,000원 / ++삼겹살 17,000원 / 두툼목살 17,000원 / 벌집껍데기 6,000원.</p><p>혼밥 가능. 단체석이나 룸이 있다.</p><p><a href=\"/dinner/samseong/restaurant/연송\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/연송\">연송</a>. 육류 전문이고 평점 5점(리뷰 66건).</p><p>메뉴: 통가브리살 17,000원 / ++삼겹살 17,000원 / 두툼목살 17,000원 / 벌집껍데기 6,000원.</p><p>혼밥 가능. 단체석이나 룸이 있다.</p><p>뷰가 좋아서 분위기가 난다.</p><p><a href=\"/dinner/samseong/restaurant/연송\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

@@ -21,6 +21,28 @@ if os.path.exists(IMG_MAPPING_FILE):
     with open(IMG_MAPPING_FILE, 'r', encoding='utf-8') as f:
         img_mapping = json.load(f)
 
+# ── data/*.js에서 rv(리뷰) 데이터 로드 ────────────────────────────
+RV_MAP = {}  # region → name → [review texts]
+REGIONS_ALL = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji']
+for _region in REGIONS_ALL:
+    _data_file = os.path.join(BASE, 'data', f'{_region}.js')
+    if not os.path.exists(_data_file):
+        continue
+    with open(_data_file, 'r', encoding='utf-8') as _f:
+        _text = _f.read()
+    # 각 식당의 name과 rv를 추출
+    _matches = re.findall(r'"name":\s*"([^"]+)".*?"rv":\s*\[(.*?)\]', _text, re.DOTALL)
+    _region_rv = {}
+    for _name, _rv_content in _matches:
+        _rv_content = _rv_content.strip()
+        if not _rv_content or 'ERR_' in _rv_content:
+            continue
+        _reviews = re.findall(r'"(.*?)"', _rv_content)
+        _reviews = [r for r in _reviews if len(r) > 15]
+        if _reviews:
+            _region_rv[_name] = _reviews
+    RV_MAP[_region] = _region_rv
+
 # ── 그라디언트 스타일 풀 ────────────────────────────────────────
 GRADIENTS = [
     { 'from': '#FF6B6B', 'to': '#4ECDC4' },
@@ -100,6 +122,73 @@ def esc(text):
 def js_str(text):
     """JS 문자열 안전하게 — 작은따옴표 이스케이프"""
     return text.replace('\\', '\\\\').replace("'", "\\'").replace('\n', '\\n')
+
+# ── rv(리뷰) 기반 인사이트 추출 ──────────────────────────────────
+# 패턴 → 자연어 문장 매핑 (리뷰에서 추출한 키워드를 사람이 쓴 듯한 문장으로 변환)
+REVIEW_PATTERNS = [
+    # (regex pattern, output sentence, priority)
+    (r'국물[이가]?\s*(진하|깊|시원|얼큰|뜨끈|걸쭉)', '국물이 {0}다는 평이 많다.', 10),
+    (r'(고기|肉)[이가]?\s*(부드|연하|두꺼|신선)', '고기가 {0}워서 만족도가 높다.', 10),
+    (r'양[이가]?\s*(많|푸짐|넉넉|실하)', '양이 {0}아서 배부르게 먹을 수 있다.', 9),
+    (r'(가성비|가격대비|가격 대비).{0,10}(좋|괜찮|최고|짱)', '가성비가 좋다는 리뷰가 많다.', 9),
+    (r'(분위기|인테리어)[이가]?\s*(좋|깔끔|예쁘|멋지|고급|모던)', '분위기가 {0}아서 식사 자리로 괜찮다.', 8),
+    (r'(직원|사장님|서비스)[이가]?\s*(친절|좋|따뜻|웃)', '직원이 친절하다는 후기가 꽤 있다.', 7),
+    (r'(웨이팅|줄|대기).{0,10}(길|많|있|30분)', '인기 많아서 웨이팅이 좀 있는 편이다.', 7),
+    (r'(혼밥|혼자|1인).{0,10}(가능|편|좋|OK)', '혼밥하기에도 부담 없는 분위기다.', 6),
+    (r'(주차|파킹).{0,10}(편|넓|가능|있)', '주차가 편하다는 의견이 있다.', 5),
+    (r'(런치|점심).{0,10}(세트|메뉴|특선)', '점심 세트 메뉴가 따로 있다.', 6),
+    (r'(깔끔|청결|위생)', '매장이 깔끔하다.', 5),
+    (r'(넓|쾌적|좌석).{0,5}(넓|많|충분)', '좌석이 넓어서 편하게 먹을 수 있다.', 5),
+    (r'(재방문|또 올|또 가|또 갈|다시 올|단골)', '재방문 의사가 있다는 리뷰가 많다.', 8),
+    (r'(맛있|존맛|JMT|미침|미쳤|레전드)', '맛에 대한 만족도가 높은 편이다.', 6),
+    (r'(디저트|후식)[이가]?\s*(맛|괜)', '디저트도 괜찮다는 평이 있다.', 4),
+    (r'(뷰|전망|야경|통유리)', '뷰가 좋아서 분위기가 난다.', 7),
+    (r'(코스|오마카세).{0,10}(괜찮|좋|훌륭|만족)', '코스 구성에 대한 만족도가 높다.', 8),
+    (r'(소주|맥주|와인|사케).{0,10}(다양|많|괜찮)', '주류 선택지가 다양하다.', 5),
+    (r'(안주|사이드).{0,10}(맛|괜찮|좋)', '안주 퀄리티가 괜찮다.', 6),
+    (r'(화장실|세면).{0,10}(깨끗|깔끔)', None, 0),  # 무시
+    (r'(매운|매콤|얼큰).{0,5}(맛|좋|괜)', '매콤한 맛이 괜찮다는 후기가 있다.', 5),
+    (r'(신선|활어|당일)', '재료가 신선하다.', 7),
+    (r'(회식|단체|모임).{0,10}(좋|괜찮|추천)', '회식이나 단체 모임 장소로 추천하는 리뷰가 있다.', 6),
+    (r'(데이트|커플|연인).{0,10}(좋|괜찮|추천)', '데이트 장소로 추천하는 리뷰가 있다.', 6),
+]
+
+def extract_review_insights(name, region, category, max_sentences=2):
+    """rv 리뷰에서 구체적 인사이트 추출 → 자연어 문장으로 변환"""
+    reviews = RV_MAP.get(region, {}).get(name, [])
+    if not reviews:
+        return ''
+
+    # 전체 리뷰 텍스트 합치기
+    combined = ' '.join(reviews[:5])  # 최대 5개 리뷰만 분석
+
+    found = []
+    seen_sentences = set()
+    for pattern, sentence_template, priority in REVIEW_PATTERNS:
+        if sentence_template is None:
+            continue
+        match = re.search(pattern, combined)
+        if match:
+            # {0} 자리에 캡처 그룹 값 삽입
+            groups = match.groups()
+            # 매칭된 키워드로 문장 생성
+            try:
+                # 마지막 캡처 그룹(형용사/동사)만 사용
+                keyword = groups[-1] if groups else ''
+                sentence = sentence_template.format(keyword)
+            except:
+                sentence = sentence_template
+            if sentence not in seen_sentences:
+                found.append((priority, sentence))
+                seen_sentences.add(sentence)
+
+    if not found:
+        return ''
+
+    # 우선순위 정렬 후 상위 N개
+    found.sort(key=lambda x: x[0], reverse=True)
+    sentences = [s for _, s in found[:max_sentences]]
+    return ' '.join(sentences)
 
 # ── 태그 기반 자연어 문장 생성 ───────────────────────────────────
 def generate_tag_sentences(r, category):
@@ -212,7 +301,7 @@ def pick_angle(r, idx, category):
     return preferred
 
 # ── 식당 본문 HTML 생성 (자연스러운 톤) ──────────────────────────
-def generate_restaurant_body_main(r, region_path, category, angle):
+def generate_restaurant_body_main(r, region_path, category, angle, region=''):
     """주요 식당 (상세 서술) — 2~3개"""
     name = r['name']
     link = f'{region_path}/restaurant/{name}'
@@ -310,13 +399,18 @@ def generate_restaurant_body_main(r, region_path, category, angle):
     if extra:
         parts.append(f'<p>{esc(extra)}</p>')
 
+    # rv 리뷰 기반 인사이트 (주요 식당에만 적용)
+    rv_insight = extract_review_insights(name, region, category, max_sentences=2)
+    if rv_insight:
+        parts.append(f'<p>{esc(rv_insight)}</p>')
+
     # 상세 페이지 링크
     parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ {esc(name)} 상세 정보 보기</a></p>')
 
     return ''.join(parts)
 
 
-def generate_restaurant_body_sub(r, region_path, category):
+def generate_restaurant_body_sub(r, region_path, category, region=''):
     """보조 식당 (간결하지만 정보는 충분히) — 나머지"""
     name = r['name']
     link = f'{region_path}/restaurant/{name}'
@@ -365,18 +459,23 @@ def generate_restaurant_body_sub(r, region_path, category):
     if feat_parts:
         parts.append(f'<p>{". ".join(feat_parts)}.</p>')
 
+    # rv 리뷰 기반 인사이트 (보조 식당은 1문장만)
+    rv_insight = extract_review_insights(name, region, category, max_sentences=1)
+    if rv_insight:
+        parts.append(f'<p>{esc(rv_insight)}</p>')
+
     # 상세 링크
     parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ 상세 보기</a></p>')
 
     return ''.join(parts)
 
 
-def generate_restaurant_body(r, region_path, category, is_main=True, angle='menu'):
+def generate_restaurant_body(r, region_path, category, is_main=True, angle='menu', region=''):
     """식당 본문 — 주요/보조 분기"""
     if is_main:
-        return generate_restaurant_body_main(r, region_path, category, angle)
+        return generate_restaurant_body_main(r, region_path, category, angle, region=region)
     else:
-        return generate_restaurant_body_sub(r, region_path, category)
+        return generate_restaurant_body_sub(r, region_path, category, region=region)
 
 # ── 비교표 HTML 생성 (핵심 정보 통합) ─────────────────────────────
 def generate_comparison_table(restaurants, category, region_path=''):
@@ -774,7 +873,7 @@ for post_data in all_posts_meta:
 
         body_html = generate_restaurant_body(
             r, REGION_INFO.get(post_data['region'], {}).get('path', ''),
-            category, is_main=is_main, angle=angle
+            category, is_main=is_main, angle=angle, region=post_data['region']
         )
         sections.append({
             'type': 'body',
