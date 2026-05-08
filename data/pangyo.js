@@ -29,6 +29,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1191691905/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서울베이글-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -121,6 +122,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1868385730/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/예술작품을-빚다-비즐돈까스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -214,6 +216,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1422775069/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/바차-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -246,6 +249,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1839034963/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우상-화로구이-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -288,6 +292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2042360789/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한신우동-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -658,6 +663,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227769577/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/후쿠오카라멘데파토-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -690,6 +696,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2089633189/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/엄니도시락한식뷔페-판교아이스퀘어점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -747,6 +754,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1219297399/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하루초밥-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -779,6 +787,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1540029547/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아이가사-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -811,6 +820,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1853332087/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/프랭크버거-분당아름마을점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -845,6 +855,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1676185530/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/포건곤감리-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -877,6 +888,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1899169728/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/상아김밥-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -909,6 +921,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2002594093/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이소정카츠-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1060,6 +1073,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2091409888/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/느루집-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1092,6 +1106,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1440803175/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/동그리-솥뚜껑-삼겹살-유스페이스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1124,6 +1139,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1172506512/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/츠키야-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1189,6 +1205,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2034609334/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/엘까르니따스-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1222,6 +1239,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1714928078/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/인생아구찜-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1254,6 +1272,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2034575410/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해정미-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1287,6 +1306,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011027752/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼평상회-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1321,6 +1341,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1273846511/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/숯불뼈구이-핫뼈감자탕-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1353,6 +1374,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1207262616/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/진부엉이꼬마김밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1447,6 +1469,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2041432252/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/은성한우곱창-서현본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1538,6 +1561,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1896569861/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/초밥앤탕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1627,6 +1651,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1670403343/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/율-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1716,6 +1741,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1446131882/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/석관동떡볶이-NC백화점-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -1808,6 +1834,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1559613992/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/노바-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1949,6 +1976,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2041771774/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/명숙이네소곱창-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1981,6 +2009,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1924940901/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미도냉삼-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2068,6 +2097,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059627757/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스시소라-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -2159,6 +2189,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/심양-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -2193,6 +2224,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1525063878/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/팜플래닛-판교테크원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2227,6 +2259,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1201341224/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/올라포케-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2259,6 +2292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1253437805/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해리포차-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2292,6 +2326,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2078623371/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/유강순대국-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2326,6 +2361,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1712781397/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/귀한족발-분당서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2358,6 +2394,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345768112/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/정직유부-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2390,6 +2427,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2077868918/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/포시애틀-분당서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2422,6 +2460,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2013820053/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/후토루-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2454,6 +2493,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38238589/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한끼의정석-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2546,6 +2586,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2068385967/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/안주일체-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2604,6 +2645,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1128801111/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/탕화쿵푸마라탕-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -2697,6 +2739,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1634565144/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/춘리마라탕-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -2789,6 +2832,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1699539318/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현칼국수보쌈-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2879,6 +2923,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37213637/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/애비로드샌드위치-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2972,6 +3017,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1772691699/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/포크포크-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -3062,6 +3108,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1861683783/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/호미스피자-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3151,6 +3198,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1496921649/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/부추삼겹살-서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3186,6 +3234,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1016513873/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/플링크-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3220,6 +3269,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1092070966/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/팔복-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3252,6 +3302,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1815626500/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야키토리잔잔-판교직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3468,6 +3519,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1064111104/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/꿰다-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3567,6 +3619,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1773305408/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/크레스타운-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3660,6 +3713,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1910738742/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/손에손잡고-판교직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3870,6 +3924,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1921242347/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/Sov-무국적술집-서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3904,6 +3959,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2048961685/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/프레퍼스다이어트푸드-분당서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3937,6 +3993,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011348310/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스테드패스트-커피앤웍스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4090,6 +4147,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1563286456/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/1992덮밥-짜글이-판교파미어스몰점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4246,6 +4304,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1873196958/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교왕징양다리양꼬치식당-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4335,6 +4394,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1178059229/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/리듬앤버거-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4703,6 +4763,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1068088828/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/까치화방-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4798,6 +4859,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1098545038/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우화-판교아브뉴프랑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5237,6 +5299,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1763454627/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/화화돈-야탑역점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5332,6 +5395,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345987853/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/호랑이굴-서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5428,6 +5492,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38275298/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마당쇠곱창-분당서현본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5699,6 +5764,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2077582528/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼형제김밥-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5791,6 +5857,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1665033813/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/피제리아살레르노-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5881,6 +5948,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2081498376/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오니기리동아리-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6036,6 +6104,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1939462462/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오장동흥남집-아브뉴프랑판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6069,6 +6138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1827775863/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/정육식당-한우사랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6153,6 +6223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1927405941/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/연희시오-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6185,6 +6256,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2030772228/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/수국정-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6278,6 +6350,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011833130/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/양은이네-분당서현역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6441,6 +6514,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35905799/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/루프일레븐-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6475,6 +6549,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1662821391/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/규카츠정-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6508,6 +6583,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1474923577/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아티산마티니-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6765,6 +6841,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1551742227/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교면학-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6969,6 +7046,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37186449/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/감성쪽갈비-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7060,6 +7138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1572882787/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/죠죠-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7092,6 +7171,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1664765639/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/신전떡볶이-삼평점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7124,6 +7204,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35482992/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/브루클린-피자-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7156,6 +7237,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1056046285/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/토브나인-판교-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7245,6 +7327,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1309961192/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/헤비스테이크-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7401,6 +7484,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1963421764/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/곡하노이-베트남-정통-레스토랑-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -7434,6 +7518,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37855133/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/잼앤브레드-BREAKFAST-BAR-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7467,6 +7552,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1212415532/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/잼앤브레드-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7556,6 +7642,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018433769/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/생선회관-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7589,6 +7676,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1351669111/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/근성순대-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7622,6 +7710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1827270076/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/알레그리아-판교테크원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7698,6 +7787,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1994519567/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/양육점-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -7844,6 +7934,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1090380891/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/울림카페-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7876,6 +7967,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1375254271/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야미카츠-파미어스몰-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7969,6 +8061,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2096299282/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/윈썸커피-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8001,6 +8094,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1546099712/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/칠리로29-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8232,6 +8326,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21844981/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/MS생감자치킨-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8276,6 +8371,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1332625345/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/찰리스버거-야탑-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8590,6 +8686,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1105115941/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해가옥-프리미엄-족발-보쌈-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8623,6 +8720,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1754853506/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아름족발칼국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8842,6 +8940,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31032631/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/알레그리아-판교테크노밸리점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -9469,6 +9568,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1470051700/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현양갈비양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9733,6 +9833,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1212127056/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/라운지목화-동판교관-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9825,6 +9926,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1211744208/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/인더비엣-야탑직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10104,6 +10206,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1756985687/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/람부뜨리-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -10224,6 +10327,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1532919204/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교역힐스테이트점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10477,6 +10581,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1102164767/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/타이팔칠-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10624,6 +10729,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/953179000/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하이포크-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10833,6 +10939,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1882806162/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마미떡-본점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10865,6 +10972,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000106291/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/르메콩-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10897,6 +11005,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1725827839/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/클로이샌드위치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10981,6 +11090,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2037978964/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샤브카덴-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11015,6 +11125,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1359043298/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/Poke-all-day-포케-샐러드-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11047,6 +11158,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1172469980/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마레아-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11139,6 +11251,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2077223760/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/태양의토마토라멘-분당수내역점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -11206,6 +11319,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1902885204/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/투썸플레이스-판교봇들마을점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -11300,6 +11414,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059110121/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/석암생소금구이-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11393,6 +11508,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2002675467/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/덕분-현대백화점-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11485,6 +11601,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1645827858/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/생마차-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11517,6 +11634,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1987732639/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/BK버거-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11551,6 +11669,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1063113651/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샐러드카페-파라-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11583,6 +11702,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2038071285/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/압구정샌드위치-판교아브뉴프랑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11615,6 +11735,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1778934332/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샤브로21-서현-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11647,6 +11768,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1795620038/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/수요리식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11679,6 +11801,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1978611044/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/신제주해장국-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11711,6 +11834,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32811869/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/두툼해-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11743,6 +11867,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1258718518/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/청록미나리식당-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11836,6 +11961,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1374139896/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현참복-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11868,6 +11994,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1831027281/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/지직-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11900,6 +12027,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37197704/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/김당-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11994,6 +12122,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2032128912/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼삼오-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12026,6 +12155,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1957049231/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서보-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12118,6 +12248,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38701520/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/니고라멘-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -12271,6 +12402,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1188030508/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/돼지맨숀-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12359,6 +12491,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1013295267/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/파파라구-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12452,6 +12585,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1940089651/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/소담촌-야탑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12485,6 +12619,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35307583/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/왕창족발-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12560,6 +12695,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36513874/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/데조로의집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12771,6 +12907,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1421888471/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미분당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12860,6 +12997,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21889352/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/방유당-그레이츠판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12955,6 +13093,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37700789/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/니뽕내뽕-분당서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13225,6 +13364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1720700920/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/그래비티-조선-서울-판교-앤디쉬-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13260,6 +13400,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1771914795/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/올덴브라운-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13404,6 +13545,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1933177351/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/브루클린더버거조인트-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13438,6 +13580,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/569481406/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/몬안쌀국수점심특선-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13472,6 +13615,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1978442785/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오스테리아-워모잡-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13560,6 +13704,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1433499273/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/백금당-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13770,6 +13915,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1325392813/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/원조부안집-판교직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13861,6 +14007,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1107073531/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼청동샤브-판교아이스퀘어점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14008,6 +14155,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1925602631/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/일품마라탕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -14434,6 +14582,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1629916429/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/문어상회-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14523,6 +14672,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1826119049/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하루-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14662,6 +14812,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1004226822/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/정치킨-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14869,6 +15020,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1079754309/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미미판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15119,6 +15271,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1562973671/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/꾸이한끼-분당서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15443,6 +15596,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1174510941/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/그램-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15475,6 +15629,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1056467678/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/위스크-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15507,6 +15662,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1187143647/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/자연횟집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15711,6 +15867,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1128691064/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이모네칼국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15919,6 +16076,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21149144/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/방아깐-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16075,6 +16233,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18423168/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/원두막한식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16110,6 +16269,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1017006923/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/참다운-정육식당-분당판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16432,6 +16592,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1746231153/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/제이스팟-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -16464,6 +16625,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31508282/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼족-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16496,6 +16658,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31487795/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/장비빔국수와굴국밥보쌈-분당서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16531,6 +16694,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1639001821/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오픈커피-판교본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16736,6 +16900,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1015203800/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/투썸플레이스-판교알파돔점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16939,6 +17104,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1457551180/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/신라마라탕-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17031,6 +17197,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38279784/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/어바웃풍미-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17063,6 +17230,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13370346/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/뻘낙지한마당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17150,6 +17318,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36112281/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/두둑26-판교직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17251,6 +17420,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1066802902/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/루아참치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17509,6 +17679,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1619668740/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/SAAP-판교테크원-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17606,6 +17777,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1745816958/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/조이포-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17638,6 +17810,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36974903/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오징어날다-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17796,6 +17969,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/260155128/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/통통곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17881,6 +18055,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37168960/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/헬로피쉬-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17914,6 +18089,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1994277418/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미더스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18001,6 +18177,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1809383214/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샐러디아-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18094,6 +18271,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1083405900/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샐러디-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -18129,6 +18307,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1405687754/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카페-악토버-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18161,6 +18340,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1944794455/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마마스포-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18309,6 +18489,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1495413009/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/명품보쌈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18401,6 +18582,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32594068/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/치킨89-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18710,6 +18892,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1281208507/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/돈화당-서현본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18803,6 +18986,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1536383479/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현-해성아구찜-해물찜-분당본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18835,6 +19019,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1144174049/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/업투유-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18868,6 +19053,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1168553145/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한촌설렁탕-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18900,6 +19086,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1581795199/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/화화돈-판교파미어스몰점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18962,6 +19149,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1582733403/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스시이야시-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18994,6 +19182,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1302480095/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/수작-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19083,6 +19272,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1312560135/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/노모어피자-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19238,6 +19428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36689319/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교브릿지타워점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19387,6 +19578,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1187765223/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교아비뉴프랑R점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -19419,6 +19611,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1240672350/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/도라무통-즉석떡볶이-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19454,6 +19647,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20601232/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/나로도-치킨-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19602,6 +19796,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1675484132/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카페온더데스크-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19684,6 +19879,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1207864986/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/텍사스로드하우스-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19716,6 +19912,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1067572738/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/솔밭삼겹살-해장국-서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19816,6 +20013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1190100413/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오리지널팬케이크하우스-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19849,6 +20047,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1138495370/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교알파돔타워점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19881,6 +20080,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1278636881/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마츠카게-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19916,6 +20116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36967184/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현순대-분당본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20162,6 +20363,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33606166/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서호돈가스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20257,6 +20459,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2014693744/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교육담-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20356,6 +20559,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38309897/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/빈티지1988-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20448,6 +20652,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1743498809/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마포갈비집-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20482,6 +20687,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1270378270/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/제주은희네해장국-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20711,6 +20917,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36976458/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/고대생막창-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20889,6 +21096,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1697990588/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스미노카리-서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21142,6 +21350,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19420474/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/소통한우곱창-서현본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21238,6 +21447,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13575019/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/리빙오사카-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21270,6 +21480,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36271550/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/포하임-서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21482,6 +21693,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088388211/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교장어사랑-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21633,6 +21845,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37296786/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/The-november-라운지-판교디테라스점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21666,6 +21879,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1620381545/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교유스페이스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21761,6 +21975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1686936846/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/라화방-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21795,6 +22010,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1807798408/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교집-서판교직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21827,6 +22043,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1494664120/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/패티바이번-판교알파돔타워점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22218,6 +22435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33418383/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/영심이네-본점2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22362,6 +22580,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2096816085/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한성막횟집-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -22449,6 +22668,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1376376661/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/콜렉티보-판교테크원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22533,6 +22753,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2022293880/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/임아로이-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22624,6 +22845,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1309868310/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교돈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22656,6 +22878,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1603429250/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/문막집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22796,6 +23019,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1398333799/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/뚜레쥬르-카페판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22829,6 +23053,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33510845/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서울전통육개장-판교하이펙스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22861,6 +23086,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123825678/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/델리커리-판교파미어스몰점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22893,6 +23119,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1740068270/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이든활어-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23092,6 +23319,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1406138887/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/커리146-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23252,6 +23480,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1930765180/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이치노야-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -23401,6 +23630,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36620164/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/긴자-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23434,6 +23664,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35418009/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교역로점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23487,6 +23718,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37203517/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/신승반점-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23582,6 +23814,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12054078/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/화수목-샤브샤브-스키야키-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -23675,6 +23908,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1972890168/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/수하담-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24157,6 +24391,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13447183/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/너와집-백합-샤브샤브-백현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -24227,6 +24462,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1881241356/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/유치회관-야탑직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24260,6 +24496,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33148373/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/커피미학-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24347,6 +24584,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1646261537/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우영관-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24438,6 +24676,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1236041799/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/GTS버거-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24470,6 +24709,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1261877961/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/텐버거-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24503,6 +24743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1715109468/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/파주옥곰탕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24596,6 +24837,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13269176/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우리밀명동칼국수-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -25201,6 +25443,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38473564/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/영국식-커리-인디테이블-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25399,6 +25642,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21016887/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/Thai-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25431,6 +25675,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2090685363/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/차엔-프리미엄-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25463,6 +25708,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1153831976/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/차엔-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25497,6 +25743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1213688594/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/라화방-마라탕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25651,6 +25898,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1804346886/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미성양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25854,6 +26102,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1768131486/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/화란-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -25942,6 +26191,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/226185221/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/일상화식-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26153,6 +26403,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1805021832/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현170-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -26403,6 +26654,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1959721433/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/탄탄면공방-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26498,6 +26750,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1021091205/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/담솥-판교아브뉴프랑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26533,6 +26786,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36667282/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/참착한족발-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26566,6 +26820,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1460822017/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아티제-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26663,6 +26918,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1832603999/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/기욤-판교-아브뉴프랑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26697,6 +26953,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1095485680/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/크래킹커피-판교백현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26844,6 +27101,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1118979854/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/블루보틀-판교-카페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26934,6 +27192,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1948630584/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카츠쇼신-판교아브뉴프랑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27150,6 +27409,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1219583666/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카페하이웨스트-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27182,6 +27442,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1206680968/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/구우트-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27277,6 +27538,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1611056641/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미분당-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -27309,6 +27571,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1288737397/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야키토리-화련-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27452,6 +27715,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2013586609/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/여의도미나리삼겹-판교직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -27484,6 +27748,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2084165385/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/깐깐-AK플라자-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27561,6 +27826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2046208515/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/자연별곡-NC-야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -27654,6 +27920,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1223115402/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/팔당원조칼제비-서현점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -27699,6 +27966,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/940338661/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/쉐이크쉑-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27733,6 +28001,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13108546/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/유타로-서현직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27829,6 +28098,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19420542/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/최고집손짬뽕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27923,6 +28193,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20212081/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/긴자-백현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28061,6 +28332,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32407998/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/청계산수타짬뽕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28178,6 +28450,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38419329/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/코트야드-메리어트-서울-판교-모모카페-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -28212,6 +28485,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11700652/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/탈리-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28305,6 +28579,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2098667179/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/청담보리가-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -28391,6 +28666,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37546659/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서울멸치쌈밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28423,6 +28699,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1048597622/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더카라-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28471,6 +28748,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1076860588/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우나기강-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -28505,6 +28783,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1650413371/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/짬뽕지존-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28711,6 +28990,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1642600514/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/갈현동떡볶이-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28743,6 +29023,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18478906/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/차슈멘연구소-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28834,6 +29115,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/871897832/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하누소-The-Hill-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -28866,6 +29148,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1410853356/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카페마마스-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29004,6 +29287,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/230460800/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/명랑핫도그-분당이매점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29094,6 +29378,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37197501/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/js가든-현대백화점-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -29346,6 +29631,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1108269823/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/푸에르코-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29506,6 +29792,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1516275490/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아티제-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29708,6 +29995,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1298497997/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본죽-비빔밥-분당서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -29803,6 +30091,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37198252/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/h541-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29891,6 +30180,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731761983/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아웃백스테이크하우스-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29983,6 +30273,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2091068981/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/양촌리돈가스-판교하이펙스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30126,6 +30417,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1654443384/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/양하오양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30383,6 +30675,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37801273/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본죽-비빔밥cafe-분당제생병원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30480,6 +30773,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1753312355/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/랩오브파리바게뜨-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30513,6 +30807,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1954991159/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/라바게트-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30634,6 +30929,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1165814919/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/속초오징어어시장-수내점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -30721,6 +31017,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1030759612/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/얌샘김밥-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30809,6 +31106,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1109604642/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/돈까스에-미친-김밥-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -30898,6 +31196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/687535580/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/메이크어케이크-아브뉴프랑판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30991,6 +31290,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1475210661/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더블트리-바이-힐튼-서울-판교-데메테르-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31076,6 +31376,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1152946557/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삐삣버거-파미어스몰점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31176,6 +31477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1082016564/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/막창막장-판교유스페이스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31270,6 +31572,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1443162664/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/엠오엠-판교본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31355,6 +31658,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731877789/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/배스킨라빈스-판교카카오-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31510,6 +31814,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1528163517/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/히노아지-판교파미어스몰점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31772,6 +32077,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1253685993/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야끼니꾸-쿄우-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -31804,6 +32110,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1082379072/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야끼니꾸-오-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31836,6 +32143,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1752912666/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/퍼틴-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32044,6 +32352,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1625345591/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/슈퍼타이-그레이츠판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32299,6 +32608,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1061763165/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/섬맛의공방-제주이야기-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -32331,6 +32641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1777167474/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/홍호아-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32364,6 +32675,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1209564820/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/명가보쌈-비빔국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32457,6 +32769,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1413401470/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더블트리-바이-힐튼-서울-판교-카페-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -32490,6 +32803,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1693830915/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/압구정제주집-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32524,6 +32838,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1647590630/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한식주점-카리-서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32556,6 +32871,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1510602843/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이삭토스트-판교봇들마을점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32650,6 +32966,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31503915/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/춘천본점닭갈비-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -32682,6 +32999,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37203514/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서울만두-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32715,6 +33033,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2020150209/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/로스옥-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32748,6 +33067,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2051147752/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/돈몽-판교직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32780,6 +33100,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1197912539/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/팔딱수산-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32812,6 +33133,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1837278467/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교의하루일과-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32845,6 +33167,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345379282/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/고향옥얼큰순대국-삼평점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32877,6 +33200,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1880930916/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/아시안퀴진-똠-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32910,6 +33234,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1183926225/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/멜버-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33001,6 +33326,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1180414430/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오마뎅-판교백현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33033,6 +33359,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37484196/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오마뎅-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33067,6 +33394,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36432657/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/족발팩토리-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33099,6 +33427,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511864306/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/디엣테이블-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33132,6 +33461,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1071378351/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/쌀베베-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33165,6 +33495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1158507813/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/델리스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33257,6 +33588,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497736880/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/방이옥-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -33289,6 +33621,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1180671387/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/탄-롯데백화점-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33493,6 +33826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1932196982/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/다이닝원-분당점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -33585,6 +33919,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18338474/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/홍루원-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -33747,6 +34082,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20669199/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스타벅스-판교H스퀘어점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33832,6 +34168,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38501632/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/양재정육식당-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33926,6 +34263,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1374709669/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/차차식당-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34136,6 +34474,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33487969/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스시혼-아브뉴프랑-판교본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -34168,6 +34507,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37576885/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/맥도날드-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34200,6 +34540,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1867012609/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/봉피양-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34510,6 +34851,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20662391/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/내뜨락-한정식-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -34542,6 +34884,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1671693879/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/다원-중국요리전문점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34663,6 +35006,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37413579/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/두끼-분당서현점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -34993,6 +35337,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35228395/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/방짜-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -35038,6 +35383,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1041716183/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/모쿠모쿠-NC야탑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -35124,6 +35470,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37853353/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/청년다방-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35273,6 +35620,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1419442638/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/일도씨닭갈비-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35426,6 +35774,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1052555272/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/부성초밥-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -35627,6 +35976,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/989058786/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해도락-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35713,6 +36063,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38781254/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마왕족발-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35747,6 +36098,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1796267139/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해미옥-판교본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35839,6 +36191,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1287529277/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/매머드커피-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35936,6 +36289,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1968592256/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더이탈리안클럽-판교테크원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36136,6 +36490,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1602580777/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이황식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36221,6 +36576,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1316809012/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마라집-분당아름마을점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36824,6 +37180,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1708448765/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/명백집-분당점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36859,6 +37216,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11855302/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/감미옥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37177,6 +37535,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/525057397/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/동청담-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -37266,6 +37625,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1948518379/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/산골면옥-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -37303,6 +37663,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20810647/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/일미닭갈비파전-분당서현역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37424,6 +37785,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36200344/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/투썸플레이스-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37569,6 +37931,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1015298493/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/풍류-더-블랙-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37656,6 +38019,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36097661/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/The부자꼬리-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38029,6 +38393,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38780163/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/최고야전국5대짬뽕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -38289,6 +38654,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1303984471/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/BBQ치킨-판교테크노밸리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38439,6 +38805,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1692415958/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/배키욘방-야끼니꾸-오-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -38643,6 +39010,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1500534413/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오봉집-서현역점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -39014,6 +39382,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1583494794/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/타르틴베이커리-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39165,6 +39534,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1961826928/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/깐부치킨-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39257,6 +39627,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1107448783/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/옥소반-분당서현점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -39527,6 +39898,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1839706812/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하즈벤-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39673,6 +40045,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1293370334/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/멘츠루-서현점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -39705,6 +40078,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35742756/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/떡볶이창고-백현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39848,6 +40222,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13350127/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/애슐리퀸즈-NC-야탑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -39935,6 +40310,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35209429/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/됐소-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40345,6 +40721,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1697419071/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/사쿠라테이엔-판교2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40446,6 +40823,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33956900/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하코야-판교우림W시티점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -40647,6 +41025,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1048530390/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본죽-비빔밥cafe-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41070,6 +41449,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37111763/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/게이트나인무드-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41102,6 +41482,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1847386878/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/그래비티-조선-서울-판교-제로비티-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41532,6 +41913,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37197515/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/모모야-프리미엄-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41669,6 +42051,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1152105461/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/듬박이찌개-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -41733,6 +42116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1127230354/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/유브유부-판교테크원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41765,6 +42149,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1620963045/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오봉집-판교유스페이스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41858,6 +42243,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1677367180/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본가광양불고기-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -42086,6 +42472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/753434328/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/돈돈정-판교아브뉴프랑점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -42120,6 +42507,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35581373/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/홍대칼국수와족발-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42294,6 +42682,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21845006/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/안동국시소호정-T-VALLEY점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -42379,6 +42768,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19225684/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/싸릿골-해장국-감자탕-삼겹살-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42519,6 +42909,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2027530595/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/서현가한식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42827,6 +43218,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1602581916/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/근돼국밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43269,6 +43661,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1363985812/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/쿠시노아-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43359,6 +43752,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20311312/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/락앤웍-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43451,6 +43845,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36977975/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/영심이떡볶이-김밥판교2호점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -43925,6 +44320,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018891884/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/야마모토야-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43957,6 +44353,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1577319352/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/보일링키친-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44050,6 +44447,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088631005/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼해진미동해왕코다리-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -44083,6 +44481,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1650002318/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한강로칼국수-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44176,6 +44575,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1102309510/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/벤탄빌라-분당야탑점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -44575,6 +44975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2015964625/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/춘리마라탕-서현점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -44713,6 +45114,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30934077/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/김떡순-동판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44796,6 +45198,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1509063821/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/리치앤-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -44889,6 +45292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11716711/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/해물폭탄-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -44925,6 +45329,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34582866/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/삼대곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44957,6 +45362,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/279056593/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/기름짜는김밥집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44989,6 +45395,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33124222/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/고봉민김밥인-분당판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45021,6 +45428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36636444/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/고봉민김밥인-분당삼평점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45053,6 +45461,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1910608412/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카소미야-서판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45085,6 +45494,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1851971451/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더라멘워-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45119,6 +45529,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38325627/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/일류-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45211,6 +45622,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/195691892/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/달빛어시장-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45243,6 +45655,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/57241613/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/혼키라멘-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45275,6 +45688,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2009433119/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우루루-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45365,6 +45779,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082417447/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/유방녕-현대백화점-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -45459,6 +45874,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1133096736/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/페이딤-판교점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45491,6 +45907,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1576755556/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/버거옥-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45523,6 +45940,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1690238430/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/취화당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45615,6 +46033,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1312199062/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/대감집-판교본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45648,6 +46067,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2000259284/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/꺼꾸잽이-초장집-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45680,6 +46100,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1196171495/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마라장룡-삼평점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45712,6 +46133,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1547020748/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/대가국밥쟁이-라스트리트점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45745,6 +46167,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1403002587/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본가-할매순대국-서현점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45777,6 +46200,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38752863/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/키친박스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45863,6 +46287,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1934188515/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/맞닿음-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -45895,6 +46320,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1667443269/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/헤이준쌀국수-판교알파돔점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45927,6 +46353,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1099392792/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/푸드빅-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45959,6 +46386,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1673607487/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/효카츠-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46049,6 +46477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1307339542/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/담북김밥-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -46093,6 +46522,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37842009/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/동해회포차-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -46187,6 +46617,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1327909908/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/오레노카츠-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -46219,6 +46650,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1247353465/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/갈현떡볶이-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46251,6 +46683,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1544855274/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/왕푸징훠궈-마라탕-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46283,6 +46716,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1127173646/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우리할매떡볶이-야탑점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46315,6 +46749,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1910100063/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/나베모노-현대백화점-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46387,6 +46822,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37203494/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/본가스시-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46474,6 +46910,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30894012/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/굽네치킨-동판교점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -46507,6 +46944,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1009553145/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/강창구찹쌀진순대-판교테크원-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46539,6 +46977,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2052764286/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/스쿨푸드-판교-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46631,6 +47070,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1818964272/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/우물집-현대백화점-판교점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -46667,6 +47107,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1398997099/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/훅트포케-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46756,6 +47197,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1206779800/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/국밥장인-야탑역점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -46847,6 +47289,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1050260559/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/엘핀-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46880,6 +47323,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1881618371/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/마케집-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46912,6 +47356,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1017781595/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교술상-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47005,6 +47450,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1047276893/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/미스터리샌드위치-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -47037,6 +47483,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1083894477/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/라홍방마라탕-서현역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47069,6 +47516,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1001395953/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/카도-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47103,6 +47551,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1534561820/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/통큰곱창-분당판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47158,6 +47607,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2080129534/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/메가MGC커피-판교역로점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47191,6 +47641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1500574152/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/더베이글마켓-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47223,6 +47674,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596023803/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/샤브촌by계백집-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47285,6 +47737,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2028087660/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/맘키스포카치아-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47331,6 +47784,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2055980105/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/비니투스-판교-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -47363,6 +47817,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1454815736/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/동대문엽기떡볶이-동판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47418,6 +47873,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1157997948/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/건강밥상-현대백화점-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47450,6 +47906,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2019659267/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/엄기스테이크하우스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47482,6 +47939,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2023501517/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/레드175-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47516,6 +47974,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1020082100/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/하이라이트키친-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47548,6 +48007,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1799724332/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이가네떡볶이-현대백화점판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47640,6 +48100,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1993833048/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/뜰에봄-와플-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -47673,6 +48134,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082542403/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/이도곰탕-판교직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47705,6 +48167,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2000157006/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/시먼당-파미어스몰-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47738,6 +48201,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38229019/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/치킨마루-백현화랑초교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47770,6 +48234,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064842836/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/낚시꾼김춘복의도시어부-판교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47802,6 +48267,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1067391204/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/판교옥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47834,6 +48300,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1128796253/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/그랑샌드-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47866,6 +48333,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1627731371/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/밥이랑커피랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47898,6 +48366,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1073903416/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/토마토김밥-판교역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47930,6 +48399,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064454932/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/pangyo/한상-1.jpg",
     "parking": false,
     "reservation": false
   }

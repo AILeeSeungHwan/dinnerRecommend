@@ -31,6 +31,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2062246734/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/탄향1965-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -63,6 +64,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38230012/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/샤브향-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -156,6 +158,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1289322460/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/양화돼교-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -188,6 +191,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064392403/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오월의꽃수저-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -220,6 +224,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117990870/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오젬므-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -254,6 +259,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1684252429/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미가쌀국수-수원인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -299,6 +305,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1202051056/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/선영고기사랑-수원본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -331,6 +338,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2090743201/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오무란-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -363,6 +371,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2068787184/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/태백상회-인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -395,6 +404,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2024865649/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/사천양양훠궈-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -427,6 +437,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082546625/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/태능감자탕-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -459,6 +470,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1776078096/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/뺑띠에-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -493,6 +505,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1200485504/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이차선술집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -528,6 +541,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21691183/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/송가네쭈꾸미-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -560,6 +574,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1479355246/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/호니도니-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -592,6 +607,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424308981/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/도쿠리-동동-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -685,6 +701,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1898576497/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/혼둘-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -717,6 +734,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2013794740/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/윌리스피자앤파스타-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -749,6 +767,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/78231087/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/모두의만족-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -781,6 +800,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1205074933/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/장미빵집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -813,6 +833,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018331827/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미토메-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -845,6 +866,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1899154516/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미나네-꼬치-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -877,6 +899,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1848608443/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/진심의짬뽕-매탄직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -909,6 +932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1958048855/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/지성이네양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -941,6 +965,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2056169928/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/슈퍼크리스피-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -973,6 +998,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1683348803/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/인계해장-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1005,6 +1031,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1695560298/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포레스트오늘숲-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1037,6 +1064,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424626174/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/바우네나주곰탕-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1069,6 +1097,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/664078370/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/자갈치양곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1101,6 +1130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1896298169/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/작은술집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1133,6 +1163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059395646/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/슈퍼크리스피-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1165,6 +1196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1413384466/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/다복향마라탕-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1197,6 +1229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1867503708/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/정직회-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1310,6 +1343,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1722006696/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/두껍집-수원영통점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1401,6 +1435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1374664945/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맛동동화로-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -1492,6 +1527,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1223138137/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/3층집-매탄본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1575,6 +1611,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497790641/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/태장식당-매탄-직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1666,6 +1703,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017287260/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/야타이홋삐-영통구청본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -1698,6 +1736,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1146915665/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/헝그리스패로-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1730,6 +1769,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1532308841/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/백돈-영통매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1762,6 +1802,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1314780764/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/인생참치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1794,6 +1835,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/865620401/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/회뜨는집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1826,6 +1868,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1897050626/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/울금향-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1858,6 +1901,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011476153/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/하하마라탕양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1890,6 +1934,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1913443929/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마라섬-마라탕-딤섬-수원망포본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1922,6 +1967,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2087966073/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/양복점-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1954,6 +2000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1823007553/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/사우스코리아버거-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1986,6 +2033,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/117580531/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/개더링-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2018,6 +2066,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1493101269/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이프카페-2F카페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2050,6 +2099,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1956700618/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/빽다방-수원매탄위브점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2082,6 +2132,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1811785480/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/도담골-백암순대-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2114,6 +2165,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1150175543/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/돈통마늘보쌈-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2146,6 +2198,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716496855/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/골목대장-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2210,6 +2263,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005171231/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원만두-영통매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2242,6 +2296,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1766992813/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포레스트오늘숲-수원영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2274,6 +2329,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1758830996/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/큐슈울트라아멘-수원영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2306,6 +2362,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005056720/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/페이보-신동-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2338,6 +2395,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117348903/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/카페222-신동카페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2370,6 +2428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1006472119/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/비전푸드한중식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2402,6 +2461,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2089811112/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/초밥판다-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2434,6 +2494,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2052890559/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마초스테이크-수원직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2582,6 +2643,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2091663587/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/중앙즉석닭발-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2614,6 +2676,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1746087586/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/언양닭칼국수-수원-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2648,6 +2711,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1144192928/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/청록미나리식당-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2680,6 +2744,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1440346727/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/두둑168-신동-직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2714,6 +2779,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1400080936/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어푸어푸-수원판타지움점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2746,6 +2812,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1574086767/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/소담촌-롯데마트-수원권선점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2791,6 +2858,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1658878760/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쿠시카츠-와가마마-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2823,6 +2891,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1869566602/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/대박이네ep-1-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2908,6 +2977,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1031425392/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/반미로그-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2942,6 +3012,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1652147451/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/진원소우-수원원천점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2976,6 +3047,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1822054166/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/정초손만두-인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3058,6 +3130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1069450520/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/가마치통닭-수원망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3090,6 +3163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1129951934/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김성민커피-공동관-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3122,6 +3196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1202404030/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쌀통닭-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3261,6 +3336,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1958524867/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/타이소울-수원영통본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3293,6 +3369,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1169212103/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/탕화쿵푸마라탕-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3327,6 +3404,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1741325657/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/야키토리잔잔-인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3405,6 +3483,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37234717/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/곤지암할매소머리국밥-원천점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3437,6 +3516,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1063784733/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/탑스키친-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3469,6 +3549,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1581027033/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/투어클락-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3560,6 +3641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1645550712/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/제줏간-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3592,6 +3674,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1269507366/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/그린포유-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3624,6 +3707,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1679543447/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/귀한족발-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3658,6 +3742,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1845252818/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/빽돈-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3745,6 +3830,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2065290231/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/박만배아리랑보쌈-수원매탄점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3838,6 +3924,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1764502166/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/육끝-영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3870,6 +3957,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2037202677/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/요시야-야키니쿠-영통망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3902,6 +3990,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1671040223/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/신동곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3934,6 +4023,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1565919549/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이가네-양갈비-양꼬치-영통3호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3966,6 +4056,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1191137254/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쓰촨쿵푸-양꼬치-훠궈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4057,6 +4148,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1428113819/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/나다오족발-수원본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -4149,6 +4241,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/991085580/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/간사이등심-3층-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4226,6 +4319,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1447588115/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/실비바-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -4258,6 +4352,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1796107401/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/순돌이초밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4290,6 +4385,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1187424038/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/소주행-소가주는행복-육류식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4322,6 +4418,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2037323036/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/하나비라멘-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4354,6 +4451,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596707366/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/또그린-그릭요거트-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4386,6 +4484,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1298008628/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미해피-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4418,6 +4517,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1474132459/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/윤스돈까스-파스타-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4452,6 +4552,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255937775/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/윤돈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4486,6 +4587,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274642038/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/라루치아-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4520,6 +4622,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1367329589/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/명백집-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4552,6 +4655,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1204871528/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/한가네수원대박고깃집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4641,6 +4745,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34491013/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이삭토스트-수원매탄4지구점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4673,6 +4778,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1622292345/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/설로인-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4747,6 +4853,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1402188076/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/카페플러그인-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4840,6 +4947,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064542748/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/한상숯불갈비-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4872,6 +4980,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1775312210/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/안녕돼지국밥-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4904,6 +5013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1054901205/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쿄와동-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4991,6 +5101,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1952318613/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김성민커피-브라운-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5023,6 +5134,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1143242256/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/언니네식탁-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5055,6 +5167,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018460727/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/메가MGC커피-매현초교삼거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5193,6 +5306,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1143587205/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맛카츠-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5225,6 +5339,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497165316/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/더맛있는족발보쌈-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5317,6 +5432,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1940190680/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/영포화로-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5349,6 +5465,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1877094596/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/전티마이베트남쌀국수-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5383,6 +5500,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1546181429/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/트라토리아-베이커리-카페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5415,6 +5533,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37396091/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/감동튀김-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5449,6 +5568,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1315056034/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쿠로이시로-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5528,6 +5648,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1205626834/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이토-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5620,6 +5741,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2004169911/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원숯불포갈비-영통점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5652,6 +5774,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1222073866/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/갈비꽃-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5684,6 +5807,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1405608319/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/줘마양꼬치-영통15호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5716,6 +5840,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1959121023/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/흑카츠-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5750,6 +5875,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1177651839/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/국보회관-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5815,6 +5941,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1573785197/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/지리산생고기-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5849,6 +5976,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1958213530/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오늘도마순대국-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5881,6 +6009,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2071290496/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/더해주-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5913,6 +6042,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1917911303/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/담꾹-수원매탄위브점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5945,6 +6075,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1474848022/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오로라회센타-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6094,6 +6225,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1175185595/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동대문수제갈비-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6161,6 +6293,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1377711069/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/문정냉삼-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6252,6 +6385,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1686629560/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/강소식당-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6329,6 +6463,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1730211041/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/카페어닷-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6361,6 +6496,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1017668670/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/더-이터리-포포인츠-바이-쉐라톤-수원-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6395,6 +6531,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884867771/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오마카세-스시이찌-수원신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6476,6 +6613,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20499027/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/매드후라이치킨-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6508,6 +6646,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19854276/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/교토참치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6540,6 +6679,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1954827143/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/친구뷔페식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6574,6 +6714,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1862797178/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/설램-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6667,6 +6808,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1907385306/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/덴포-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6759,6 +6901,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1867312761/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이자카야-춘-나혜석거리점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6791,6 +6934,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1644122260/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/저팔계마라탕-마라샹궈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6823,6 +6967,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1429900328/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/곱분이곱창-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6855,6 +7000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1009168388/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포박-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6889,6 +7035,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1903067640/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/핵밥-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6950,6 +7097,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1188125010/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/윤희와망고-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6982,6 +7130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035935693/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/봉앤슈-베이커리-케이크-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7014,6 +7163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1154929193/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/웨이컬리-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7046,6 +7196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1609781870/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/공간상점-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7078,6 +7229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1473972692/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/옛장터설렁탕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7110,6 +7262,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1653327254/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/짱이네-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7142,6 +7295,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1386874361/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/도깨비김밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7228,6 +7382,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18197616/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/매온당-인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7260,6 +7415,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1388802295/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/두둑한샤브칼국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7344,6 +7500,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1788449079/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/퓨전한식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7376,6 +7533,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2014299196/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/연제네-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7410,6 +7568,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1279159511/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/통영돌문어보쌈-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7484,6 +7643,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19212851/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/민속왕순대-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7518,6 +7678,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1485638970/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/멜트어웨이-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7552,6 +7713,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35812352/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/삼학도회수산-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7586,6 +7748,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1269776772/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/달구운바람-돼지갈비-영통망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7618,6 +7781,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21636278/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/통통족발-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7693,6 +7857,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1562809784/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마일리버거-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7778,6 +7943,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19859337/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/안씨네쭈꾸미-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7810,6 +7976,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18231875/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/에트르-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7844,6 +8011,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1044614755/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/운멜로-4호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7876,6 +8044,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1182882671/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원참치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7940,6 +8109,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1261553175/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/차칸곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7974,6 +8144,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1329189432/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포크너-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8008,6 +8179,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1865407867/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/더티래빗-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8084,6 +8256,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117559774/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/제일짬뽕-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8116,6 +8289,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1776624565/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원천동수제버거-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8150,6 +8324,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216066235/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/아장아장-아빠가만든전복장-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8182,6 +8357,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1653700335/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/등촌샤브칼국수-수원신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8262,6 +8438,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1493959618/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원-왕가리-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8294,6 +8471,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1068711518/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/샤브채-수원직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8326,6 +8504,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1779866132/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/정가네-망포직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8360,6 +8539,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1463378198/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/정가네-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8451,6 +8631,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1904819375/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/매탄동-솥뚜껑삼겹살-1165-2-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8483,6 +8664,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1909208585/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/스시선율-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8515,6 +8697,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424835754/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/뭄뭄-수원신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8610,6 +8793,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1222946819/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/도야짬뽕-영통구청점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -8642,6 +8826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1268502032/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어서오시게-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8748,6 +8933,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1548904434/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/복방글-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -8828,6 +9014,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1258821325/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/우트볼하우스-신동본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8860,6 +9047,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13555300/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/두만강양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8892,6 +9080,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1467491392/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어해랑왕코다리-영통구청직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8926,6 +9115,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36090522/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/우판등심-수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8960,6 +9150,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30941919/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/금화루-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9086,6 +9277,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38486808/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/구이몽-매탄본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9118,6 +9310,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2016704479/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/얼룩말식당-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9150,6 +9343,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1267230261/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/다원맛집한식부페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9182,6 +9376,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36987255/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/발해양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9420,6 +9615,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1949529360/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원조강뚝꼬치구이전문점-수원인계동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9499,6 +9695,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36821931/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/용인전통순대국-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9531,6 +9728,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18196496/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/빨간벽돌-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9563,6 +9761,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1660305026/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/제주은희네해장국-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9645,6 +9844,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20744831/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/순우리곱창-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9725,6 +9925,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2055152789/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/청우-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9757,6 +9958,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2069712667/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/식구-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9789,6 +9991,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21365661/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/청하생고기-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9821,6 +10024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1144118427/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/카페-온즈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9912,6 +10116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1341363400/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/흑돈상회-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -9991,6 +10196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11637979/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/삿뽀로참치전문점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10023,6 +10229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38676758/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/스시선-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10055,6 +10262,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/956687717/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/잇다-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10087,6 +10295,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36988229/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/떡볶이하우스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10168,6 +10377,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1295652178/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/GTS버거-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10300,6 +10510,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21289989/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/폼프리츠-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10367,6 +10578,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1047482330/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/노브랜드버거-수원영통구청점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10399,6 +10611,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1662850274/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/깐부치킨-신동까페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10483,6 +10696,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37307752/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/우리가사랑하는동네-매탄지점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10515,6 +10729,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34330784/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원덕털보대구왕뽈찜아구찜-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10547,6 +10762,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1603880672/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/잇츠베이글-수원신동카페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10579,6 +10795,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1835771863/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/킴킴-신동카페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10749,6 +10966,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37484701/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/한명숙피자-수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10781,6 +10999,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1965842922/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김대원수제돈까스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10815,6 +11034,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1685196377/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/베이콜로지-빵학개론-수원-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10849,6 +11069,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1196398020/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/돔-DOME-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10940,6 +11161,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1894520557/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/야수각-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11074,6 +11296,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1763980273/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/사케바-란-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11106,6 +11329,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1102367062/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/서오릉피자-매탄인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11140,6 +11364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1978072018/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/못난이세꼬시회-쭈꾸미-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11267,6 +11492,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1761486260/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마라영웅-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11358,6 +11584,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262098083/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/철길부산집-영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11390,6 +11617,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1287948840/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/스타벅스-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11422,6 +11650,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1649510619/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/메가MGC커피-매탄권선역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11454,6 +11683,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1720211299/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/테네스-더-포레스트-신동-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11488,6 +11718,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32290219/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/하얀풍차제과점-망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11520,6 +11751,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1426598130/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/해든호텔-하이엔드-더-플레이트-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11552,6 +11784,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18260694/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/갯벌스타일-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11586,6 +11819,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37801441/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/히말라야-정원-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11762,6 +11996,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/908744102/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고반식당-수원영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11794,6 +12029,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18238680/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/선운산민물장어-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11828,6 +12064,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1633349278/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/타이테라스-신동카페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11901,6 +12138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18231316/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/진미회관-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12039,6 +12277,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1504639077/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쿠시카츠쿠마-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12073,6 +12312,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1066033820/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고반식당-망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12109,6 +12349,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18230188/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/소곱친구-매탄본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12141,6 +12382,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18256017/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/야미참치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12173,6 +12415,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1534650169/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/써브웨이-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12256,6 +12499,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1874792470/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오늘초밥-인계본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12347,6 +12591,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18090568/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/머내돌판삼겹살-권선점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12379,6 +12624,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1010006957/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/투썸플레이스-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12510,6 +12756,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1582417595/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/간사이등심-2층-퀸즈-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12542,6 +12789,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1577106251/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/일품수원회뜨락-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12574,6 +12822,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12043839/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/보드람치킨-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12606,6 +12855,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1046929704/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/잔칫상한식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12638,6 +12888,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1375854633/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/파파시아-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12718,6 +12969,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160736179/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/루이스버거-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12803,6 +13055,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1647497313/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오징어나라-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12867,6 +13120,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18230670/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/BHC치킨-매탄행복점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12901,6 +13155,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1279538864/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/스시노칸도-영통판타지움점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13052,6 +13307,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38338442/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/서가네황소곱창-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13183,6 +13439,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884861003/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/라루치아-2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13215,6 +13472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1192067574/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/병천순대-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13249,6 +13507,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19878532/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/유치회관-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13281,6 +13540,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18260799/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/신선설농탕-수원영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13313,6 +13573,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/99400657/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원천설농탕-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13402,6 +13663,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19404993/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/노대감감자탕매탄본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13551,6 +13813,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18280708/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/대머리칼국수-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13583,6 +13846,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031688377/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/대새닭-수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13617,6 +13881,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37842432/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마초-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13704,6 +13969,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38556015/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/육풍당당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13796,6 +14062,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1876652597/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/온미관-수원-영통-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13828,6 +14095,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1294351409/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/남문통닭-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13860,6 +14128,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/42343568/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맘스터치-수원매탄2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13892,6 +14161,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13098097/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/참곱소-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13968,6 +14238,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19211718/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/파리바게뜨-매탄위브점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14002,6 +14273,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1960441487/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이층고깃집-수원영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14034,6 +14306,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36909296/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맘스터치-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14108,6 +14381,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1601602028/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/첸나이-만나-인도레스토랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14243,6 +14517,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18238542/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/파리바게뜨-매탄성일점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14275,6 +14550,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1460236510/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/메가MGC커피-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14350,6 +14626,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19137212/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김영숙칼국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14382,6 +14659,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1115057708/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/하남돼지집-수원삼성점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14446,6 +14724,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36843782/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/누리면옥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14575,6 +14854,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1559716577/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/최가네낙지한마당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14607,6 +14887,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11690287/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/파리바게뜨-수원신매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14694,6 +14975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1747116831/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/돼통령-매탄점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -14726,6 +15008,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1017981580/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어펙트커피-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14758,6 +15041,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13454929/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이도현-스테이크-하우스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14835,6 +15119,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320473224/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동태랑낙지랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14915,6 +15200,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1527822261/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/물고기선수촌-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15082,6 +15368,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117468443/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/육회바른연어-매탄삼성중앙점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15114,6 +15401,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1554088061/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/담소소사골순대육개장-매탄삼성2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15148,6 +15436,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2013620719/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/육개장터-매탄삼성점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15180,6 +15469,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35861675/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맥도날드-수원망포DT점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15212,6 +15502,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34754720/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/대박횟집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15296,6 +15587,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1371687974/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/버거킹-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15328,6 +15620,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35178602/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/홍익돈까스-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15410,6 +15703,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18090589/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/온수골이호낙지-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15492,6 +15786,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731970344/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/박은자맛사랑-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15524,6 +15819,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1287842748/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동래집-나혜석점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15687,6 +15983,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1267778817/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마라섬-마라탕-딤섬-인계-직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15719,6 +16016,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1782270225/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/탕화쿵푸마라탕-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15751,6 +16049,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1996752893/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/부함식당-수원망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15835,6 +16134,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1027857220/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/일품양평해장국-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15869,6 +16169,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1055523001/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/666버거-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15901,6 +16202,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1330184805/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/컴포즈커피-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15935,6 +16237,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1724575462/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/기장새벽산꼼장어-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15969,6 +16272,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35117452/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/벽적골황소곱창-망포본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16001,6 +16305,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085227721/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/밀회관-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16033,6 +16338,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/798345938/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고가김밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16115,6 +16421,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37362475/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/데일리테이블-신동카페거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16147,6 +16454,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12823584/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/항아리보쌈-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16179,6 +16487,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1075661497/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어른김밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16214,6 +16523,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1579320803/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/브런치빈-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16246,6 +16556,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2047606750/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/브랑슈-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16278,6 +16589,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1156080807/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/삼도숙성회-수원삼성점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16310,6 +16622,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1385813402/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이츠모라멘-수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16342,6 +16655,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255476345/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마구로훈-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16374,6 +16688,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1185202888/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/양고을-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16406,6 +16721,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1739196774/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/명동만두전골샤브-수원신동본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16438,6 +16754,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1176824493/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/강남모밀무이-수원직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16472,6 +16789,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1037327039/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/구들짱황소곱창-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16504,6 +16822,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1539577417/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/최고당돈가스-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16594,6 +16913,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1155246505/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/식껍-영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -16626,6 +16946,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123298549/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고도-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16658,6 +16979,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2014136285/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오늘통닭-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16690,6 +17012,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1173590340/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/리틀꼬마김밥-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16722,6 +17045,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1166529807/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/소박한식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16754,6 +17078,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1077047564/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동북훠궈양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16786,6 +17111,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117067620/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고봉민김밥인-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16818,6 +17144,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1407375029/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김셰프의집밥-한식뷔페-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16850,6 +17177,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1145164616/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/만선항-조개집-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16939,6 +17267,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2001612561/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원육칼밥-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -16971,6 +17300,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000483669/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/신사동인동-영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17003,6 +17333,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1228596287/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/해운대패-수원1호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17035,6 +17366,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1321262202/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/규민초밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17099,6 +17431,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1847939686/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이솔당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17179,6 +17512,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1592638605/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/어사출또-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17256,6 +17590,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33741088/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포메인-수원삼성디지털시티점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17333,6 +17668,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20715218/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/광명수산-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17509,6 +17845,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1986713294/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/명륜진사갈비-수원영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17541,6 +17878,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31895537/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/빛나는바다-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17648,6 +17986,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1473553939/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/공차-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17680,6 +18019,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21172296/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미소야-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17712,6 +18052,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32103569/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/캐슬차이나국일반점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17744,6 +18085,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18292502/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/홍보성-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17776,6 +18118,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1232660287/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/보배반점-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17808,6 +18151,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37525837/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/신전떡볶이-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17840,6 +18184,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1396691384/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/귀한족발-수원망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17972,6 +18317,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35540762/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/애슐리퀸즈-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18006,6 +18352,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18277606/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/서울24시감자탕해장국-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18118,6 +18465,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33068382/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/구들짱황소곱창-인계동본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18212,6 +18560,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2099449593/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/슈고-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18244,6 +18593,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1969699904/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/치요-망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18388,6 +18738,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/629338269/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이자카야-잔잔-나혜석본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18464,6 +18815,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1234300571/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/멘츠루-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18547,6 +18899,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1725502201/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원닭발-계발구역-나혜석거리본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18579,6 +18932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2063674812/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/자담치킨-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18643,6 +18997,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1834431033/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/팔팔정육식당-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18675,6 +19030,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1279480021/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/훈성-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18707,6 +19063,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1861077116/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/까몬-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18739,6 +19096,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12989230/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/본죽-수원매탄영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18771,6 +19129,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1426781702/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/분짜하노이-수원본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18803,6 +19162,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31689985/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/포메인-망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18835,6 +19195,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1769532727/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/도화-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18899,6 +19260,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13420313/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/행화촌-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18931,6 +19293,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1810863210/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/연화담-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18965,6 +19328,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19214160/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/삼학도-광교점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19110,6 +19474,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1243109905/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/맘스터치-수원시청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19142,6 +19507,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1542277620/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/합-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19272,6 +19638,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085363825/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/Mahlzeit-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19306,6 +19673,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1125162957/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/애슐리퀸즈-뉴코아-동수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19382,6 +19750,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31989904/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/롯데리아-동수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19554,6 +19923,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716347471/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고로치-통닭-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19586,6 +19956,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36628969/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/회사랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19669,6 +20040,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1779997427/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/대포집-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19701,6 +20073,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1357006383/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/메가MGC커피-수원매탄초사거리점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19733,6 +20106,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1790151145/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/메가MGC커피-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19765,6 +20139,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1792968772/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/김윤이감자탕-뼈숯불구이-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19797,6 +20172,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1607919750/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/역전우동0410-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19923,6 +20299,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21172289/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미소야-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19955,6 +20332,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21135642/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/BBQ치킨-신매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19989,6 +20367,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37495010/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/고베규카츠-수원인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20064,6 +20443,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1031261625/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/원할머니보쌈족발-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20096,6 +20476,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32891167/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/빠네비노-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20128,6 +20509,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1886315639/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/상화돈까스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20160,6 +20542,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37037693/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동대문엽기떡볶이-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20192,6 +20575,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1874618330/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/가마치통닭-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20224,6 +20608,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1902184977/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동백연화-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20256,6 +20641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1532969082/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/스시하루-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20288,6 +20674,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38490777/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/날으는-수제돈까스-스시-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20320,6 +20707,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1151366194/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/1키로탕수육-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20352,6 +20740,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029751096/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/아돼삼-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20386,6 +20775,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1599622341/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/면식당-망포역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20418,6 +20808,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1833291288/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/사카나-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20450,6 +20841,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2046259658/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/와플대학-수원영통구청-캠퍼스-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20482,6 +20874,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18231528/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미뜨레피자-수원매탄본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20514,6 +20907,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1361749180/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/회뜨는-수산-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20548,6 +20942,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1955552544/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/애월-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20580,6 +20975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33691971/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/피자알볼로-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20612,6 +21008,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1382846379/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/마라천하-샤브샤브훠궈-무한리필-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20644,6 +21041,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2019729616/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/덤브치킨-수원-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20676,6 +21074,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38483655/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쥬씨-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20708,6 +21107,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255862802/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/HUIHUIJ-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20740,6 +21140,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1144747681/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/오구피자-매탄3동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20831,6 +21232,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227687954/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/영스케-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20863,6 +21265,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1309342328/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미친피자-인계매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20895,6 +21298,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18291217/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동해바다-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20927,6 +21331,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082739314/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/팔도만족-인계점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20959,6 +21364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1512085123/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/시각-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20991,6 +21397,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1139271042/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/동해물과아구찜-매탄본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21023,6 +21430,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18234903/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/등촌샤브칼국수-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21087,6 +21495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1565286499/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/회가대표-초밥24-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21119,6 +21528,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1638064711/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/농탁-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21151,6 +21561,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2023380474/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/왕의국밥-수원영통본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21183,6 +21594,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2073439485/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/미분당-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21256,6 +21668,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1110674098/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/쏘시지요-영통구청점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -21288,6 +21701,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123813475/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/밥앤스낵-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21320,6 +21734,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1872616551/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/강다짐-삼각김밥-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21410,6 +21825,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1263635267/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/시선-수원영통구청점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -21503,6 +21919,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031343602/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/수원왕갈비통닭-영통구청점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21535,6 +21952,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1349938318/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/갑진이네-한우곱창-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21567,6 +21985,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1501292925/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/본죽-비빔밥-수원시청역점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21599,6 +22018,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1920146852/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/본죽-비빔밥-매탄공원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21631,6 +22051,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2140434058/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/초록온담-김사장-수원본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21663,6 +22084,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1340256639/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/돈곰-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21695,6 +22117,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37057239/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/바르다김선생-영통구청점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21727,6 +22150,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2044461480/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/밤절-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21759,6 +22183,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1790488035/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/본죽-비빔밥-수원영통벽적골점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21791,6 +22216,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1380777454/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/냉삼포차-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21879,6 +22305,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2097904816/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/이모카야-구름전-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -21911,6 +22338,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1384786288/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/망포골목집-매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22009,6 +22437,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1804165063/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/본죽-비빔밥-영통아이파크캐슬점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22041,6 +22470,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1680346893/home",
     "updatedAt": "2026-03-18",
+    "imageUrl": "/images/restaurants/yeongtongGu/뽀글떡-즉석떡볶이-1.jpg",
     "parking": false,
     "reservation": false
   }

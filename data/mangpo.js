@@ -132,6 +132,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064392403/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오월의꽃수저-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -179,6 +180,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511279042/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/더만족한식당-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -325,6 +327,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117990870/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오젬므-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -381,6 +384,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2090743201/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오무란-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -471,6 +475,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1880314473/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오늘의커피-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -561,6 +566,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1001246778/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/하이하이디-신동카페거리점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -653,6 +659,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1479355246/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/호니도니-망포점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -743,6 +750,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1002278593/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/버거플리-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -778,6 +786,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1741365727/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/할매솥뚜껑삼겹살-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -870,6 +879,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/78231087/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/모두의만족-매탄점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -960,6 +970,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1205074933/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/장미빵집-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1027,6 +1038,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059395646/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/슈퍼크리스피-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1062,6 +1074,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1087269169/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/카페수복-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1152,6 +1165,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2084200781/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/9292양꼬치-12호점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -1243,6 +1257,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2026432599/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/산더미-미성돼지국밥-수원시청점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -1315,6 +1330,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088299587/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/파도수산-곡반정동점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1407,6 +1423,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1890135549/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/신세계양꼬치마라탕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1457,6 +1474,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018331827/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/미토메-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -1496,6 +1514,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255380075/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/상구네솥뚜껑삼겹살-착한국수-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1587,6 +1606,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039557595/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/우마이야-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1676,6 +1696,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2079366553/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/디탈리아-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1716,6 +1737,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36286222/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/루하커피-수원영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1808,6 +1830,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117348903/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/카페222-신동카페거리점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -1895,6 +1918,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1168242083/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/가장맛있는족발-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1985,6 +2009,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1655236817/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/멜로우다이닝-곡반정동본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2077,6 +2102,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088607033/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/안동평화곱창-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2162,6 +2188,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1102755370/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/이삭토스트-경기-수원영통아이파크캐슬점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2252,6 +2279,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1047391877/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/베트남쌀국수-하노이반점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2342,6 +2370,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1146915665/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/헝그리스패로-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2432,6 +2461,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011476153/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/하하마라탕양꼬치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2519,6 +2549,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1150175543/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/돈통마늘보쌈-수원매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2608,6 +2639,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716496855/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/골목대장-본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2670,6 +2702,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005171231/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/수원만두-영통매탄점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2705,6 +2738,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1701106568/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/키츠-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2896,6 +2930,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1574086767/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소담촌-롯데마트-수원권선점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2987,6 +3022,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1811812357/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/리프패럿-영통점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -3032,6 +3068,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1658878760/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/쿠시카츠-와가마마-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3079,6 +3116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1365600158/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/아부지하면돼지-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3169,6 +3207,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1995013402/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/달토끼비스트로-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -3597,6 +3636,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1671040223/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/신동곱창-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3641,6 +3681,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596707366/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/또그린-그릭요거트-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3722,6 +3763,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255937775/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/윤돈-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -3794,6 +3836,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274642038/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/라루치아-본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3886,6 +3929,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1764123330/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/띠뿌아쌀국수-수원본점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -3949,6 +3993,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1367329589/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/명백집-본점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4297,6 +4342,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1054901205/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/쿄와동-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -4374,6 +4420,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1285873777/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/88청춘왕십리곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4468,6 +4515,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1247941459/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/제주할망돈가-망포본점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -4551,6 +4599,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1020371113/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/벌교추어탕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4738,6 +4787,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1018296190/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/완미족발-곡반정점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4784,6 +4834,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1436548595/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/동백연화-곡반정점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4859,6 +4910,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37396091/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/감동튀김-매탄점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -5074,6 +5126,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1573785197/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/지리산생고기-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5189,6 +5242,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1951748608/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/키즈카페-베베미뇽-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5278,6 +5332,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1598027827/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/버거-106-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5427,6 +5482,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1175185595/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/동대문수제갈비-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -5662,6 +5718,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2056840959/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/고상한덮밥-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5732,6 +5789,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1730211041/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/카페어닷-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5833,6 +5891,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884867771/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오마카세-스시이찌-수원신동점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -5891,6 +5950,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1588796615/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/제니스브런치-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6019,6 +6079,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1405109689/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/미소야-수원망포힐스점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6162,6 +6223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1954827143/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/친구뷔페식당-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6252,6 +6314,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160913545/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/잭바츠-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6343,6 +6406,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1104270647/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/짬뽕일도-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6434,6 +6498,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1919227837/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/라라베이커리-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6526,6 +6591,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1609781870/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/공간상점-신동점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6617,6 +6683,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1550970127/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/키키김밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6704,6 +6771,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1344725313/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/애플꼬마김밥-수원망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6794,6 +6862,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1972686876/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/진부엉이꼬마김밥-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6991,6 +7060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/67458921/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/골목집-망포본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -7188,6 +7258,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19212851/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/민속왕순대-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7278,6 +7349,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18086526/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/신신강원도수산-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -7363,6 +7435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1165327961/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/카페굿데이-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -7455,6 +7528,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35812352/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/삼학도회수산-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7590,6 +7664,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1562809784/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/마일리버거-신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7686,6 +7761,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/571520022/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/빨강쭈꾸미-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7868,6 +7944,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216066235/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/아장아장-아빠가만든전복장-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7939,6 +8016,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1653700335/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/등촌샤브칼국수-수원신동점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8050,6 +8128,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1550266134/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/파리바게뜨-영통아이파크캐슬-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8189,6 +8268,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1068711518/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/샤브채-수원직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8279,6 +8359,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1493959618/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/수원-왕가리-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8414,6 +8495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1904819375/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/매탄동-솥뚜껑삼겹살-1165-2-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8600,6 +8682,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424835754/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/뭄뭄-수원신동점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8744,6 +8827,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1042819747/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/퍼깜띤-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8836,6 +8920,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1258821325/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/우트볼하우스-신동본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8907,6 +8992,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1269943699/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/판차이짬뽕-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8942,6 +9028,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1171842723/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/아싸곱창-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9076,6 +9163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18290263/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/유로빵-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9164,6 +9252,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2069712667/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/식구-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9346,6 +9435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11761284/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/미소야-수원권선점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9476,6 +9566,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1725571575/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/유쾌한-회-세꼬시-신동직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9606,6 +9697,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1336107234/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소문난삼겹살-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9739,6 +9831,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1835771863/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/킴킴-신동카페거리점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9831,6 +9924,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345903392/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/보쌈1979-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9961,6 +10055,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37484701/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/한명숙피자-수원점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10049,6 +10144,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1196398020/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/돔-DOME-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10182,6 +10278,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1894520557/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/야수각-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10367,6 +10464,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1761486260/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/마라영웅-신동점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10458,6 +10556,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1720211299/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/테네스-더-포레스트-신동-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -10510,6 +10609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1649510619/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/메가MGC커피-매탄권선역점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10601,6 +10701,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37336568/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/스타벅스-수원망포DT점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10728,6 +10829,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18278376/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/봉화칼국수-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10958,6 +11060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1633349278/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/타이테라스-신동카페거리점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -11082,6 +11185,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18090568/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/머내돌판삼겹살-권선점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11226,6 +11330,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1770252245/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/성원각-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11616,6 +11721,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123951602/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/오마뎅-반정아이파크캐슬점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11709,6 +11815,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160736179/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/루이스버거-신동점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -11904,6 +12011,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1124089778/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/망포참숯뒷고기-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11995,6 +12103,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1759367638/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/글빛커피-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12130,6 +12239,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884861003/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/라루치아-2호점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12268,6 +12378,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30820508/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/홍익돈까스-망포점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -12389,6 +12500,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1625308923/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/송파아구찜-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12611,6 +12723,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1559080868/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/조개조개칼국수-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12732,6 +12845,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1205594755/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/누크-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -12882,6 +12996,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1222386087/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소담화로-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13088,6 +13203,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1569255610/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/뚜레쥬르-망포역플래티넘점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13274,6 +13390,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262874028/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/본죽-비빔밥-수원권선롯데마트점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -13352,6 +13469,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320473224/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/동태랑낙지랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13437,6 +13555,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1500645916/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/얌샘김밥-수원망포포레스퀘어점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13528,6 +13647,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1477220900/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/탑데판철판코스요리-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13620,6 +13740,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1415321222/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/망치수산-수원농수산물도매시장점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13712,6 +13833,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1649370754/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/믿음수산-수원농수산물도매시장점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13780,6 +13902,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1911197556/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/대명수산-수원농수산물도매시장점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13852,6 +13975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35861675/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/맥도날드-수원망포DT점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13890,6 +14014,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1181842478/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/대성한식뷔페-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -14521,6 +14646,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1937039522/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/정철황소곱창-곡반정점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -14715,6 +14841,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37362475/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/데일리테이블-신동카페거리점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -14951,6 +15078,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1739196774/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/명동만두전골샤브-수원신동본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15085,6 +15213,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12869641/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/코바코-신영통망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15163,6 +15292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1670097232/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/조선왕뼈해장국-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15242,6 +15372,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1647867911/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/화이트리에-망포점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -15297,6 +15428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1407375029/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/김셰프의집밥-한식뷔페-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -15352,6 +15484,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2078298254/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/진-소머리국밥-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -15477,6 +15610,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1321262202/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/규민초밥-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15568,6 +15702,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1289603188/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소정횟집-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -15652,6 +15787,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1920231764/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/하루엔소쿠-수원라퍼스트점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15798,6 +15934,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37060368/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/이화수전통육개장-영통신동점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15991,6 +16128,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1592638605/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/어사출또-망포점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -16286,6 +16424,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1159240671/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/수원칼국수-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -16569,6 +16708,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19360996/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/팔복가마솥족발-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16772,6 +16912,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18277606/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/서울24시감자탕해장국-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16864,6 +17005,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2007695849/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/한판회-수원망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17053,6 +17195,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21730256/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소문난대구왕뽈찜해물아구찜-권선직영점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17279,6 +17422,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2068274546/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/소주물-수원망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17778,6 +17922,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12886594/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/교촌치킨-신영통1호점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -17911,6 +18056,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085363825/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/Mahlzeit-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18002,6 +18148,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1996589942/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/마라탕푸마라탕-곡반정점본점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -18090,6 +18237,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1774351027/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/누구나홀딱반한닭-영통아이파크캐슬점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -18182,6 +18330,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2060426675/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/짬짬미-본점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18323,6 +18472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1652457357/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/하카타식당-곡반정동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18458,6 +18608,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36628969/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/회사랑-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -18589,6 +18740,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1826439184/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/BBQ치킨-수원신동점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18674,6 +18826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1058358770/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/BBQ치킨-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18965,6 +19118,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1259468697/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/일랑-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19148,6 +19302,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1741084271/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/키요미카레-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19240,6 +19395,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1661895314/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/짬뽕관-수원영통점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19329,6 +19485,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1850730924/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/회사고싶은날-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19424,6 +19581,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029751096/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/아돼삼-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19515,6 +19673,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36459188/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/호식이두마리치킨-신영통점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19655,6 +19814,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1833291288/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/사카나-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19760,6 +19920,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1504098064/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/메가MGC커피-망포포레스퀘어점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19869,6 +20030,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2061494598/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/KFC-수원망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19954,6 +20116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1285315529/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/달떡볶이-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20041,6 +20204,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1482683542/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/파리바게뜨-영통힐스테이트점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20076,6 +20240,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2073439485/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/미분당-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20163,6 +20328,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731282649/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/김가네-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20255,6 +20421,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1316724095/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/와요쇼쿠-신동본점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20345,6 +20512,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1030300995/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/카페더리움-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20433,6 +20601,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1930502119/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/땡큐꼬마김밥-망포점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20505,6 +20674,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1903944967/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/서가네원조감자탕-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20596,6 +20766,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039378475/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/양은이네-수원권선동점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20634,6 +20805,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1859662219/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/컴포즈커피-영통아이파크캐슬점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20726,6 +20898,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2083745812/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/양은이네-수원곡반정점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20771,6 +20944,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1113922256/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/그리너트리-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20861,6 +21035,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1360567397/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/쿠미오-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20915,6 +21090,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1934338605/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/파인탕수육-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21006,6 +21182,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1965782928/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/금복상회-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21096,6 +21273,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1804165063/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/본죽-비빔밥-영통아이파크캐슬점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21187,6 +21365,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2045796163/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/병아리김밥-수원망포영통푸르지오점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21278,6 +21457,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227687954/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/영스케-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21369,6 +21549,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1728662157/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/그놈포차-수원곡반정점-1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -21456,6 +21637,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1112677796/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/피자마루-수원망포점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21549,6 +21731,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2020016089/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/정남옥순대국-권선인계점-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21637,6 +21820,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1092491695/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/날쌘카페-매탄권선점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21729,6 +21913,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1512085123/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/시각-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21818,6 +22003,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262214960/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/노모어피자-망포점-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21989,6 +22175,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1340256639/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/돈곰-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22081,6 +22268,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1772853894/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/51번가-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -22168,6 +22356,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1563722647/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/BBQ치킨-망포곡반점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22259,6 +22448,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1093956988/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/베이커리-사월-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -22345,6 +22535,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1957440481/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/한끼한줄-매탄직영점-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22412,6 +22603,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1036097404/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/착한뚝배기-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22502,6 +22694,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029633763/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/서해바다-1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -22771,6 +22964,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2060242741/home",
     "updatedAt": "2026-03-17",
+    "imageUrl": "/images/restaurants/mangpo/볶덕방-1.jpg",
     "parking": false,
     "reservation": false
   }

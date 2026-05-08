@@ -23,7 +23,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [] }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -526,6 +526,22 @@ export default function RestaurantPage({ restaurant: r, similar }) {
           </div>
         </div>
       </section>
+
+      
+      {/* 식당 대표 이미지 */}
+      {r.imageUrl && (
+        <section style={{ borderBottom:'1px solid var(--border)', padding:'0' }}>
+          <div style={{ maxWidth:760, margin:'0 auto' }}>
+            <img
+              src={r.imageUrl}
+              alt={`${r.name} 대표 사진`}
+              loading="lazy"
+              style={{ width:'100%', maxHeight:400, objectFit:'cover', display:'block' }}
+              onError={(e) => { e.target.style.display = 'none' }}
+            />
+          </div>
+        </section>
+      )}
 
       {/* 본문 */}
       <article style={{ maxWidth:760, margin:'0 auto', padding:'28px 16px 60px' }}>
