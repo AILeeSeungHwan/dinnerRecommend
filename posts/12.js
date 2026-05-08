@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>삼성역에서 중식 먹을 데 찾느라 고생한 적 있다면, 이 글 하나로 정리된다. 총 859곳 중 중식 5곳을 골라서 비교했다.</p><p>평균 평점 4.8점. 가격대는 4,300원부터 시작하며, 2026년 5월 기준이고, 대표 메뉴·가격·양·단체 가능을 위주로 비교했다.</p><p>소개 순서: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스, 이오복순대국 대치은마점, 일품양평해장국 강남대치점.</p>",
+      html: "<p>삼성역에서 중식 먹을 데 찾느라 고생한 적 있다면, 이 글 하나로 정리된다. 총 859곳 중 중식 5곳을 골라서 비교했다.</p><p>평균 평점 4.6점. 가격대는 4,300원부터 시작하며, 2026년 5월 기준이고, 대표 메뉴·가격·양·단체 가능을 위주로 비교했다.</p><p>소개 순서: 무탄 코엑스, 천미미 삼성점, 하이딜라오 코엑스, 이오복순대국 대치은마점, 일품양평해장국 강남대치점.</p>",
     },
     {
       type: 'toc',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>어향동고(45,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a>. 전가복(스페셜), 통낙지 쟁반짜장 같은 메뉴도 있다.</p><p>그 외에 미미짬뽕, 삼선짬뽕도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰 71건에 평점 4.7점이면 안정적인 편. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\" style=\"color:var(--primary)\">→ 천미미 삼성점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a>. 중식·요리 전문이고 평점 4.7점(리뷰 71건).</p><p>메뉴: 어향동고 45,000원 / 전가복(스페셜) 88,000원 / 통낙지 쟁반짜장 28,000원 / 미미짬뽕 13,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/천미미 삼성점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a>. 순대 전문이고 평점 5점(리뷰 9건).</p><p>메뉴: NEW 순칼 (순대국 칼국수) 11,000원.</p><p>가성비가 괜찮다는 평이 많다. 주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p>11천원대부터 시작하는 <a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a>. 점심 가격으로는 무난한 선.</p><p>메뉴는 NEW 순칼 (순대국 칼국수) 11,000원 정도가 주력이고, 가격대는 괜찮은 편.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 530건.</p><p><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\" style=\"color:var(--primary)\">→ 이오복순대국 대치은마점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a>. 해장국 전문이고 평점 5점(리뷰 2건).</p><p>메뉴: 순대내장탕 9,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a>. 해장국 전문이고 평점 4.3점(리뷰 133건).</p><p>메뉴: 순대내장탕 9,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">71건</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">중식·요리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">11,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">9,000~38,000원</td><td style=\"padding:7px 6px\">해장국 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">71건</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">중식·요리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이오복순대국 대치은마점\">이오복순대국 대치은마점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">530건</td><td style=\"padding:7px 6px;text-align:center\">11,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일품양평해장국 강남대치점\">일품양평해장국 강남대치점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">133건</td><td style=\"padding:7px 6px;text-align:center\">9,000~38,000원</td><td style=\"padding:7px 6px\">해장국 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

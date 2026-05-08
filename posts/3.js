@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a>. 고기구이·삼겹살 전문이고 평점 2.5점(리뷰 2건).</p><p>가격대 17,000~28,000원.</p><p>점심엔 웨이팅이 좀 있다.</p><p><a href=\"/dinner/jamsil/restaurant/방이옥\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a>. 고기구이·삼겹살 전문이고, 평점 2.5점.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천.</p><p>리뷰 3298건 정도 쌓여 있어서 어느 정도 검증은 된 곳.</p><p><a href=\"/dinner/jamsil/restaurant/방이옥\" style=\"color:var(--primary)\">→ 방이옥 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>1인분 180g(28,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a>. 1인분 200g, 1인분 150g 같은 메뉴도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>리뷰 104건 정도 쌓여 있어서 어느 정도 검증은 된 곳. 인당 3만원대 예산이면 된다.</p><p><a href=\"/dinner/jamsil/restaurant/황소곱창\" style=\"color:var(--primary)\">→ 황소곱창 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a>. 곱창 전문이고</p><p>메뉴: 1인분 180g 28,000원 / 1인분 200g 28,000원 / 1인분 150g 30,000원 / 1인분 150g 28,000원.</p><p>점심엔 웨이팅이 좀 있다.</p><p><a href=\"/dinner/jamsil/restaurant/황소곱창\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">104건</td><td style=\"padding:7px 6px;text-align:center\">4,000~30,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">24건</td><td style=\"padding:7px 6px;text-align:center\">3,000~64,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~110,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">3298건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">611건</td><td style=\"padding:7px 6px;text-align:center\">4,000~30,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">24건</td><td style=\"padding:7px 6px;text-align:center\">3,000~64,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~110,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -116,7 +116,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li><strong>가성비 우선:</strong> 요즈음 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>평점 최고:</strong> 조조모모 (평점 5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 조조모모 (리뷰 256건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+      html: "<ul><li><strong>가성비 우선:</strong> 요즈음 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>평점 최고:</strong> 조조모모 (평점 5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 방이옥 (리뷰 3298건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
     },
     {
       type: 'h2',

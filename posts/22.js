@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a>. 일식 전문이고 평점 5점(리뷰 1건).</p><p>메뉴: 런치)오마카세 50,000원 / 디너) 오마카세 100,000원.</p><p>주차도 된다.</p><p><a href=\"/pangyo/restaurant/스시소라 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a>. 일식 전문이고 평점 5점(리뷰 90건).</p><p>메뉴: 런치)오마카세 50,000원 / 디너) 오마카세 100,000원.</p><p>주차도 된다.</p><p><a href=\"/pangyo/restaurant/스시소라 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>바차바다찜(M/L)(35,000원)이 대표 메뉴인 <a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a>. 해물레드감바스, 로치새우 같은 메뉴도 있다.</p><p>그 외에 수비드항정수육&부추무침, 어니언순살치킨도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 128건. 인당 3만원대 예산이면 된다.</p><p><a href=\"/pangyo/restaurant/바차 판교점\" style=\"color:var(--primary)\">→ 바차 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a>. 술집 전문이고 평점 5점(리뷰 128건).</p><p>메뉴: 바차바다찜(M/L) 35,000원 / 해물레드감바스 25,000원 / 로치새우 25,000원 / 수비드항정수육&amp;부추무침 27,000원.</p><p>주차도 된다.</p><p><a href=\"/pangyo/restaurant/바차 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 중식 전문이고 평점 5점(리뷰 1건).</p><p>메뉴: 生양등심꼬치 250g 23,000원 / 오리지날양꼬치 200g 18,000원 / 모듬꼬치 43,000원 / 가지튀김볶음 22,000원.</p><p>주차도 된다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p>生양등심꼬치 250g(23,000원)이 대표 메뉴인 <a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 오리지날양꼬치 200g, 모듬꼬치 같은 메뉴도 있다.</p><p>그 외에 가지튀김볶음, 꿔바로우도 있다.</p><p>주차는 된다.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 197건. 인당 4만원대 예산이면 된다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 심양 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">1건</td><td style=\"padding:7px 6px;text-align:center\">50,000~100,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">128건</td><td style=\"padding:7px 6px;text-align:center\">22,000~35,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">1건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">90건</td><td style=\"padding:7px 6px;text-align:center\">50,000~100,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">128건</td><td style=\"padding:7px 6px;text-align:center\">22,000~35,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">197건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
