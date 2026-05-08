@@ -25,14 +25,14 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a></strong> (영통동 1044-6)</p><ul><li>평점 4.8점 (리뷰 6건)</li><li>가격대 10,000~20,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 국내산 한우를 사용합니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #웨이팅맛집 #한우</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/7/청우회관-1.jpg",
-      alt: "청우회관 음식 사진 1",
+      alt: "청우회관 대표 사진",
       caption: "청우회관",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a></strong> (영통동 1044-6)</p><ul><li>평점 4.8점 (리뷰 6건)</li><li>가격대 10,000~20,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 국내산 한우를 사용합니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #웨이팅맛집 #한우</p>",
     },
     {
       type: 'h2',
@@ -41,14 +41,14 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/이수국밥\">이수국밥</a></strong> (청명남로50번길 13-1)</p><ul><li>평점 4.6점 (리뷰 59건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~9:00 PM</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 59건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고평점 #국물요리 #국밥 #해장</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/7/이수국밥-1.jpg",
-      alt: "이수국밥 음식 사진 1",
+      alt: "이수국밥 대표 사진",
       caption: "이수국밥",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/이수국밥\">이수국밥</a></strong> (청명남로50번길 13-1)</p><ul><li>평점 4.6점 (리뷰 59건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~9:00 PM</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 59건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고평점 #국물요리 #국밥 #해장</p>",
     },
     {
       type: 'h2',
@@ -57,14 +57,14 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/돈부리인생\">돈부리인생</a></strong> (영통동 번지 102호 992-8 KR)</p><ul><li>평점 4.7점 (리뷰 25건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:30 AM~9:00 PM</li><li>전화 031-206-3533</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 25건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #웨이팅맛집 #일식</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/7/돈부리인생-1.jpg",
-      alt: "돈부리인생 음식 사진 1",
+      alt: "돈부리인생 대표 사진",
       caption: "돈부리인생",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/돈부리인생\">돈부리인생</a></strong> (영통동 번지 102호 992-8 KR)</p><ul><li>평점 4.7점 (리뷰 25건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:30 AM~9:00 PM</li><li>전화 031-206-3533</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 25건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #웨이팅맛집 #일식</p>",
     },
     {
       type: 'h2',
@@ -73,20 +73,20 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "/images/posts/7/화붐-신간짬뽕-본점-1.jpg",
+      alt: "화붐 신간짬뽕 본점 대표 사진",
+      caption: "화붐 신간짬뽕 본점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/화붐 신간짬뽕 본점\">화붐 신간짬뽕 본점</a></strong> (수원시 영통동 1036-16 1층)</p><ul><li>평점 4.5점 (리뷰 123건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~9:00 PM</li><li>전화 070-4038-0959</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>리뷰 123건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #국수 #단체가능 #웨이팅맛집 #중식</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/7/화붐-신간짬뽕-본점-1.jpg",
-      alt: "화붐 신간짬뽕 본점 음식 사진 1",
-      caption: "화붐 신간짬뽕 본점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/7/화붐-신간짬뽕-본점-2.jpg",
-      alt: "화붐 신간짬뽕 본점 음식 사진 2",
-      caption: "화붐 신간짬뽕 본점",
+      alt: "화붐 신간짬뽕 본점 음식 사진",
+      caption: "화붐 신간짬뽕 본점 메뉴",
     },
     {
       type: 'h2',
@@ -95,14 +95,14 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/피자펍\">피자펍</a></strong> (영통동 990-22)</p><ul><li>평점 4.6점 (리뷰 5건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~10:00 PM</li><li>전화 031-206-8558</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 5건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #양식 #파스타</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/7/피자펍-1.jpg",
-      alt: "피자펍 음식 사진 1",
+      alt: "피자펍 대표 사진",
       caption: "피자펍",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/피자펍\">피자펍</a></strong> (영통동 990-22)</p><ul><li>평점 4.6점 (리뷰 5건)</li><li>가격대 10,000~20,000원</li><li>영업시간 11:00 AM~10:00 PM</li><li>전화 031-206-8558</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 5건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #양식 #파스타</p>",
     },
     {
       type: 'h2',
@@ -111,20 +111,20 @@ const post = {
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
+      type: 'image',
+      src: "/images/posts/7/김래하닭갈비-1.jpg",
+      alt: "김래하닭갈비 대표 사진",
+      caption: "김래하닭갈비",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a></strong> (영통동 1040-8번지 1층)</p><ul><li>평점 4.5점 (리뷰 122건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-206-0906</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 단체 예약이 가능해 팀 식사에도 적합합니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 122건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 점심 기준 10천원대부터 이용 가능해 직장인 점심으로 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고기 #고평점 #구이 #단체가능 #웨이팅맛집 #치킨</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/7/김래하닭갈비-1.jpg",
-      alt: "김래하닭갈비 음식 사진 1",
-      caption: "김래하닭갈비",
-    },
-    {
-      type: 'image',
       src: "/images/posts/7/김래하닭갈비-2.jpg",
-      alt: "김래하닭갈비 음식 사진 2",
-      caption: "김래하닭갈비",
+      alt: "김래하닭갈비 음식 사진",
+      caption: "김래하닭갈비 메뉴",
     },
     {
       type: 'h2',

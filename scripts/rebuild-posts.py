@@ -616,11 +616,12 @@ for post_data in all_posts_meta:
     })
     sections.append({'type': 'body', 'html': criteria_html})
 
-    # 4. 각 식당별 h2 + body + image
+    # 4. 각 식당별 h2 + image + body + image
     post_images = img_mapping.get(str(pid), {}).get('restaurants', {})
     for i, r in enumerate(restaurants):
         h2_title = make_h2_title(r, category)
         h2_id = safe_id(r['name'])
+        r_images = post_images.get(r['name'], [])
 
         sections.append({
             'type': 'h2',
@@ -629,20 +630,28 @@ for post_data in all_posts_meta:
             'gradientStyle': GRADIENTS[(i + 1) % len(GRADIENTS)],
         })
 
+        # 첫 번째 이미지: h2 바로 아래 (대표 사진)
+        if len(r_images) >= 1:
+            sections.append({
+                'type': 'image',
+                'src': r_images[0],
+                'alt': f'{r["name"]} 대표 사진',
+                'caption': f'{r["name"]}',
+            })
+
         body_html = generate_restaurant_body(r, REGION_INFO.get(post_data['region'], {}).get('path', ''), category)
         sections.append({
             'type': 'body',
             'html': body_html,
         })
 
-        # 이미지 삽입 (최대 2장)
-        r_images = post_images.get(r['name'], [])
-        for img_idx, img_path in enumerate(r_images[:2]):
+        # 두 번째 이미지: 본문 뒤 (음식/매장 사진)
+        if len(r_images) >= 2:
             sections.append({
                 'type': 'image',
-                'src': img_path,
-                'alt': f'{r["name"]} 음식 사진 {img_idx + 1}',
-                'caption': f'{r["name"]}',
+                'src': r_images[1],
+                'alt': f'{r["name"]} 음식 사진',
+                'caption': f'{r["name"]} 메뉴',
             })
 
     # 4. 비교표

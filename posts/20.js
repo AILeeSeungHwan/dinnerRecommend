@@ -25,14 +25,14 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></strong> (경기도 수원시 영통구 매탄동 1263-4 108~109호)</p><ul><li>평점 5점 (리뷰 33건)</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 33건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#서비스좋음</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/20/탄향1965-매탄점-1.jpg",
-      alt: "탄향1965 매탄점 음식 사진 1",
+      alt: "탄향1965 매탄점 대표 사진",
       caption: "탄향1965 매탄점",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></strong> (경기도 수원시 영통구 매탄동 1263-4 108~109호)</p><ul><li>평점 5점 (리뷰 33건)</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 33건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#서비스좋음</p>",
     },
     {
       type: 'h2',
@@ -41,14 +41,14 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></strong> (경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층)</p><ul><li>평점 5점 (리뷰 33건)</li><li>전화 031-213-4592</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 33건이 축적된 검증된 맛집입니다.</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/20/샤브향-수원매탄점-1.jpg",
-      alt: "샤브향 수원매탄점 음식 사진 1",
+      alt: "샤브향 수원매탄점 대표 사진",
       caption: "샤브향 수원매탄점",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></strong> (경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층)</p><ul><li>평점 5점 (리뷰 33건)</li><li>전화 031-213-4592</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 33건이 축적된 검증된 맛집입니다.</p>",
     },
     {
       type: 'h2',
@@ -57,14 +57,14 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></strong> (경기도 수원시 영통구 매탄동 1265-4 2층 202호)</p><ul><li>평점 5점 (리뷰 22건 · 블로그 192건)</li><li>가격대 15,000~90,000원</li><li>영업시간 15:00에 영업 시작</li><li>전화 07-1433-1663</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 한우등심 압도적 가성비 600g 79,000원 / 일미리꽃삼 16,000원 / 제주 흑 오겹살 18,000원 / 제주 흑 목살 18,000원 / 한돈 명품냉삼 15,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 22건이 축적된 검증된 맛집입니다. 점심 기준 15천원대부터 이용 가능해 직장인 점심으로 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #주차가능 #단체가능 #데이트 #깔끔한곳</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/20/양화돼교-1.jpg",
-      alt: "양화돼교 음식 사진 1",
+      alt: "양화돼교 대표 사진",
       caption: "양화돼교",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></strong> (경기도 수원시 영통구 매탄동 1265-4 2층 202호)</p><ul><li>평점 5점 (리뷰 22건 · 블로그 192건)</li><li>가격대 15,000~90,000원</li><li>영업시간 15:00에 영업 시작</li><li>전화 07-1433-1663</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 한우등심 압도적 가성비 600g 79,000원 / 일미리꽃삼 16,000원 / 제주 흑 오겹살 18,000원 / 제주 흑 목살 18,000원 / 한돈 명품냉삼 15,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 단체 예약이 가능해 팀 식사에도 적합합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 22건이 축적된 검증된 맛집입니다. 점심 기준 15천원대부터 이용 가능해 직장인 점심으로 적합합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #주차가능 #단체가능 #데이트 #깔끔한곳</p>",
     },
     {
       type: 'h2',
@@ -73,14 +73,14 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></strong> (경기도 수원시 영통구 신동 921-2 1층)</p><ul><li>평점 5점 (리뷰 22건)</li><li>전화 031-204-1001</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 22건이 축적된 검증된 맛집입니다.</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/20/오월의꽃수저-1.jpg",
-      alt: "오월의꽃수저 음식 사진 1",
+      alt: "오월의꽃수저 대표 사진",
       caption: "오월의꽃수저",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></strong> (경기도 수원시 영통구 신동 921-2 1층)</p><ul><li>평점 5점 (리뷰 22건)</li><li>전화 031-204-1001</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 22건이 축적된 검증된 맛집입니다.</p>",
     },
     {
       type: 'h2',
@@ -89,14 +89,14 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/미가쌀국수 수원인계본점\">미가쌀국수 수원인계본점</a></strong> (경기도 수원시 팔달구 인계동 1120 111호)</p><ul><li>평점 5점 (리뷰 9건)</li><li>전화 0507-1419-0747</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 9건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/20/미가쌀국수-수원인계본점-1.jpg",
-      alt: "미가쌀국수 수원인계본점 음식 사진 1",
+      alt: "미가쌀국수 수원인계본점 대표 사진",
       caption: "미가쌀국수 수원인계본점",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/yeongtongGu/restaurant/미가쌀국수 수원인계본점\">미가쌀국수 수원인계본점</a></strong> (경기도 수원시 팔달구 인계동 1120 111호)</p><ul><li>평점 5점 (리뷰 9건)</li><li>전화 0507-1419-0747</li></ul><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 9건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#리뷰많음</p>",
     },
     {
       type: 'h2',

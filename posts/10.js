@@ -25,14 +25,14 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></strong> (봉영로1482번길 35 102호)</p><ul><li>평점 4.6점 (리뷰 26건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-5123</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 26건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #국수 #단체가능 #심야영업 #웨이팅맛집</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/10/서천교동짬뽕-1.jpg",
-      alt: "서천교동짬뽕 음식 사진 1",
+      alt: "서천교동짬뽕 대표 사진",
       caption: "서천교동짬뽕",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></strong> (봉영로1482번길 35 102호)</p><ul><li>평점 4.6점 (리뷰 26건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-5123</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 26건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #국수 #단체가능 #심야영업 #웨이팅맛집</p>",
     },
     {
       type: 'h2',
@@ -41,20 +41,20 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "/images/posts/10/한마음정육식당-영통점-1.jpg",
+      alt: "한마음정육식당 영통점 대표 사진",
+      caption: "한마음정육식당 영통점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></strong> (영통동 봉영로1482번길 7-1)</p><ul><li>평점 4.5점 (리뷰 84건)</li><li>가격대 10,000~20,000원</li><li>영업시간 휴무일</li><li>전화 031-202-3166</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 분위기가 좋아 데이트 장소로도 추천됩니다.</p><p>리뷰 84건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #고평점 #구이 #단체가능 #친절</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/10/한마음정육식당-영통점-1.jpg",
-      alt: "한마음정육식당 영통점 음식 사진 1",
-      caption: "한마음정육식당 영통점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/10/한마음정육식당-영통점-2.jpg",
-      alt: "한마음정육식당 영통점 음식 사진 2",
-      caption: "한마음정육식당 영통점",
+      alt: "한마음정육식당 영통점 음식 사진",
+      caption: "한마음정육식당 영통점 메뉴",
     },
     {
       type: 'h2',
@@ -63,20 +63,20 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
+      type: 'image',
+      src: "/images/posts/10/청담칼국수-1.jpg",
+      alt: "청담칼국수 대표 사진",
+      caption: "청담칼국수",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a></strong> (청명남로 6-1)</p><ul><li>평점 4.4점 (리뷰 144건)</li><li>가격대 8,000~12,000원</li><li>영업시간 10:40 AM~9:30 PM</li><li>전화 031-232-6692</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>리뷰 144건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #국수 #칼국수 #혼밥가능</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/10/청담칼국수-1.jpg",
-      alt: "청담칼국수 음식 사진 1",
-      caption: "청담칼국수",
-    },
-    {
-      type: 'image',
       src: "/images/posts/10/청담칼국수-2.jpg",
-      alt: "청담칼국수 음식 사진 2",
-      caption: "청담칼국수",
+      alt: "청담칼국수 음식 사진",
+      caption: "청담칼국수 메뉴",
     },
     {
       type: 'h2',
@@ -95,14 +95,14 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></strong> (기흥구 서천동 286-3번지 101호 용인시 경기도 KR)</p><ul><li>평점 4.3점 (리뷰 60건)</li><li>가격대 10,000~20,000원</li><li>영업시간 6:00 AM~8:00 PM</li><li>전화 031-206-5008</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>리뷰 60건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#분식 #가성비 #점심추천</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/10/행복한김밥-1.jpg",
-      alt: "행복한김밥 음식 사진 1",
+      alt: "행복한김밥 대표 사진",
       caption: "행복한김밥",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></strong> (기흥구 서천동 286-3번지 101호 용인시 경기도 KR)</p><ul><li>평점 4.3점 (리뷰 60건)</li><li>가격대 10,000~20,000원</li><li>영업시간 6:00 AM~8:00 PM</li><li>전화 031-206-5008</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다.</p><p>리뷰 60건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 1만원 이하 메뉴가 있어 부담 없이 이용할 수 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#분식 #가성비 #점심추천</p>",
     },
     {
       type: 'h2',

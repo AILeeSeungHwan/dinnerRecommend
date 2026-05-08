@@ -25,20 +25,20 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "/images/posts/14/이치규-아브뉴프랑-판교점-1.jpg",
+      alt: "이치규 아브뉴프랑 판교점 대표 사진",
+      caption: "이치규 아브뉴프랑 판교점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/이치규 아브뉴프랑 판교점\">이치규 아브뉴프랑 판교점</a></strong> (동판교로177번길 25 판교 아브뉴프랑 2층 220호)</p><ul><li>평점 5점 (리뷰 509건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:30 ~ PM 3:00, PM 5:00~10:00</li><li>전화 031-607-7090</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다.</p><p>평점 5점으로 해당 지역에서 최상위권에 속하며, 리뷰 509건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가족 #고평점 #리뷰많음 #웨이팅맛집 #일식</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/14/이치규-아브뉴프랑-판교점-1.jpg",
-      alt: "이치규 아브뉴프랑 판교점 음식 사진 1",
-      caption: "이치규 아브뉴프랑 판교점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/14/이치규-아브뉴프랑-판교점-2.jpg",
-      alt: "이치규 아브뉴프랑 판교점 음식 사진 2",
-      caption: "이치규 아브뉴프랑 판교점",
+      alt: "이치규 아브뉴프랑 판교점 음식 사진",
+      caption: "이치규 아브뉴프랑 판교점 메뉴",
     },
     {
       type: 'h2',
@@ -47,14 +47,14 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></strong> (동판교로177번길 25 143호)</p><ul><li>평점 4.9점 (리뷰 244건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:30 ~ PM 9:30</li><li>전화 031-701-4775</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 인테리어가 감각적이어서 사진 찍기 좋은 공간입니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 244건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #단체가능 #데이트 #리뷰많음 #예약제</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/14/꿰다-1.jpg",
-      alt: "꿰다 음식 사진 1",
+      alt: "꿰다 대표 사진",
       caption: "꿰다",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></strong> (동판교로177번길 25 143호)</p><ul><li>평점 4.9점 (리뷰 244건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:30 ~ PM 9:30</li><li>전화 031-701-4775</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 인테리어가 감각적이어서 사진 찍기 좋은 공간입니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 244건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #단체가능 #데이트 #리뷰많음 #예약제</p>",
     },
     {
       type: 'h2',
@@ -63,20 +63,20 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
+      type: 'image',
+      src: "/images/posts/14/잭슨피자-판교점-1.jpg",
+      alt: "잭슨피자 판교점 대표 사진",
+      caption: "잭슨피자 판교점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></strong> (동판교로177번길 25 1층 149호)</p><ul><li>평점 4.9점 (리뷰 7건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 10:00</li><li>전화 031-706-0717</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 7건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #양식 #웨이팅맛집 #파스타</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/14/잭슨피자-판교점-1.jpg",
-      alt: "잭슨피자 판교점 음식 사진 1",
-      caption: "잭슨피자 판교점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/14/잭슨피자-판교점-2.jpg",
-      alt: "잭슨피자 판교점 음식 사진 2",
-      caption: "잭슨피자 판교점",
+      alt: "잭슨피자 판교점 음식 사진",
+      caption: "잭슨피자 판교점 메뉴",
     },
     {
       type: 'h2',
@@ -85,20 +85,20 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "/images/posts/14/오마카세-스시이찌-판교점-1.jpg",
+      alt: "오마카세 스시이찌 판교점 대표 사진",
+      caption: "오마카세 스시이찌 판교점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\">오마카세 스시이찌 판교점</a></strong> (삼평동 659)</p><ul><li>평점 4.8점 (리뷰 6건)</li><li>가격대 12,000~22,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 6건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #예약제 #오마카세 #웨이팅맛집 #일식</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/14/오마카세-스시이찌-판교점-1.jpg",
-      alt: "오마카세 스시이찌 판교점 음식 사진 1",
-      caption: "오마카세 스시이찌 판교점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/14/오마카세-스시이찌-판교점-2.jpg",
-      alt: "오마카세 스시이찌 판교점 음식 사진 2",
-      caption: "오마카세 스시이찌 판교점",
+      alt: "오마카세 스시이찌 판교점 음식 사진",
+      caption: "오마카세 스시이찌 판교점 메뉴",
     },
     {
       type: 'h2',
@@ -107,20 +107,20 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
+      type: 'image',
+      src: "/images/posts/14/야키토리-야키준-1.jpg",
+      alt: "야키토리 야키준 대표 사진",
+      caption: "야키토리 야키준",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></strong> (삼평동 646)</p><ul><li>평점 4.6점 (리뷰 19건)</li><li>가격대 12,000~22,000원</li><li>영업시간 PM 6:30 ~ AM 12:00</li><li>전화 050-71339-6447</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 직원 서비스가 친절하다는 리뷰가 많습니다.</p><p>리뷰 19건 기준 평점 4.6점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #단체가능 #데이트 #안주 #야장</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/14/야키토리-야키준-1.jpg",
-      alt: "야키토리 야키준 음식 사진 1",
-      caption: "야키토리 야키준",
-    },
-    {
-      type: 'image',
       src: "/images/posts/14/야키토리-야키준-2.jpg",
-      alt: "야키토리 야키준 음식 사진 2",
-      caption: "야키토리 야키준",
+      alt: "야키토리 야키준 음식 사진",
+      caption: "야키토리 야키준 메뉴",
     },
     {
       type: 'h2',

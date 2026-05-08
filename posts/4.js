@@ -25,20 +25,20 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "/images/posts/4/상기육개장-1.jpg",
+      alt: "상기육개장 대표 사진",
+      caption: "상기육개장",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></strong> (백현동 560-3)</p><ul><li>평점 4.9점 (리뷰 19건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 4:00</li><li>전화 050-71376-2912</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 직원 서비스가 친절하다는 리뷰가 많습니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 19건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #웨이팅맛집 #친절 #혼밥가능</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/4/상기육개장-1.jpg",
-      alt: "상기육개장 음식 사진 1",
-      caption: "상기육개장",
-    },
-    {
-      type: 'image',
       src: "/images/posts/4/상기육개장-2.jpg",
-      alt: "상기육개장 음식 사진 2",
-      caption: "상기육개장",
+      alt: "상기육개장 음식 사진",
+      caption: "상기육개장 메뉴",
     },
     {
       type: 'h2',
@@ -57,20 +57,20 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
+      type: 'image',
+      src: "/images/posts/4/정백선순대-판교역점-1.jpg",
+      alt: "정백선순대 판교역점 대표 사진",
+      caption: "정백선순대 판교역점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a></strong> (삼평동 대왕판교로606번길 58)</p><ul><li>평점 4.8점 (리뷰 34건)</li><li>가격대 12,000~22,000원</li><li>영업시간 영업시간 확인 필요</li></ul><p>점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.8점으로 해당 지역에서 최상위권에 속하며, 리뷰 34건이 축적된 검증된 맛집입니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#고평점 #데이트 #분식 #웨이팅맛집 #포장가능</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/4/정백선순대-판교역점-1.jpg",
-      alt: "정백선순대 판교역점 음식 사진 1",
-      caption: "정백선순대 판교역점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/4/정백선순대-판교역점-2.jpg",
-      alt: "정백선순대 판교역점 음식 사진 2",
-      caption: "정백선순대 판교역점",
+      alt: "정백선순대 판교역점 음식 사진",
+      caption: "정백선순대 판교역점 메뉴",
     },
     {
       type: 'h2',
@@ -79,20 +79,20 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "/images/posts/4/불고기-온소반-1.jpg",
+      alt: "불고기 온소반 대표 사진",
+      caption: "불고기 온소반",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></strong> (삼환하이펙스 A동 불고기온소반 지하 1층)</p><ul><li>평점 4.9점 (리뷰 72건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 8:30</li><li>전화 050-71405-4548</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 72건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고기 #고평점 #구이 #단체가능 #웨이팅맛집</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/4/불고기-온소반-1.jpg",
-      alt: "불고기 온소반 음식 사진 1",
-      caption: "불고기 온소반",
-    },
-    {
-      type: 'image',
       src: "/images/posts/4/불고기-온소반-2.jpg",
-      alt: "불고기 온소반 음식 사진 2",
-      caption: "불고기 온소반",
+      alt: "불고기 온소반 음식 사진",
+      caption: "불고기 온소반 메뉴",
     },
     {
       type: 'h2',
@@ -101,20 +101,20 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
+      type: 'image',
+      src: "/images/posts/4/살레르노-판교점-1.jpg",
+      alt: "살레르노 판교점 대표 사진",
+      caption: "살레르노 판교점",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></strong> (판교역로 145)</p><ul><li>평점 4.9점 (리뷰 9건)</li><li>가격대 12,000~22,000원</li><li>영업시간 AM 11:00 ~ PM 3:00, PM 5:00~9:30</li><li>전화 031-706-8459</li></ul><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 점심시간에는 웨이팅이 있을 수 있어 일찍 방문하는 것을 권장합니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 9건이 축적된 검증된 맛집입니다. 점심 영업을 하며, 방문 전 정확한 영업시간을 확인하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#가성비 #고평점 #데이트 #리뷰많음 #웨이팅맛집 #점심추천</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/4/살레르노-판교점-1.jpg",
-      alt: "살레르노 판교점 음식 사진 1",
-      caption: "살레르노 판교점",
-    },
-    {
-      type: 'image',
       src: "/images/posts/4/살레르노-판교점-2.jpg",
-      alt: "살레르노 판교점 음식 사진 2",
-      caption: "살레르노 판교점",
+      alt: "살레르노 판교점 음식 사진",
+      caption: "살레르노 판교점 메뉴",
     },
     {
       type: 'h2',

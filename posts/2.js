@@ -25,14 +25,14 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></strong> (봉은사로 504 지하 1층)</p><ul><li>평점 4.5점 (리뷰 109건 · 블로그 58건)</li><li>가격대 5,000~9,000원</li><li>영업시간 19:00</li><li>전화 07-1306-4967</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 맥주 5,000원 / 양주 8,500원 / 칵테일 9,000원 / 안주 7,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 109건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#라이브음악 #야장 #생맥주 #분위기최고 #가성비 #주차가능</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/2/ASOBOY-1.jpg",
-      alt: "ASOBOY 음식 사진 1",
+      alt: "ASOBOY 대표 사진",
       caption: "ASOBOY",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></strong> (봉은사로 504 지하 1층)</p><ul><li>평점 4.5점 (리뷰 109건 · 블로그 58건)</li><li>가격대 5,000~9,000원</li><li>영업시간 19:00</li><li>전화 07-1306-4967</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 맥주 5,000원 / 양주 8,500원 / 칵테일 9,000원 / 안주 7,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 109건 기준 평점 4.5점으로 안정적인 평가를 받고 있습니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#라이브음악 #야장 #생맥주 #분위기최고 #가성비 #주차가능</p>",
     },
     {
       type: 'h2',
@@ -41,20 +41,20 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "/images/posts/2/미주이자카야-1.jpg",
+      alt: "미주이자카야 대표 사진",
+      caption: "미주이자카야",
+    },
+    {
       type: 'body',
       html: "<p><strong><a href=\"/dinner/samseong/restaurant/미주이자카야\">미주이자카야</a></strong> (대치동 944-24)</p><ul><li>평점 4.9점 (리뷰 8건)</li><li>가격대 25,000~40,000원</li><li>영업시간 PM 5–AM 3 (일 휴무)</li></ul><p>분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>평점 4.9점으로 해당 지역에서 최상위권에 속하며, 리뷰 8건이 축적된 검증된 맛집입니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#프라이빗룸 #이자카야 #블루투스스피커</p>",
     },
     {
       type: 'image',
-      src: "/images/posts/2/미주이자카야-1.jpg",
-      alt: "미주이자카야 음식 사진 1",
-      caption: "미주이자카야",
-    },
-    {
-      type: 'image',
       src: "/images/posts/2/미주이자카야-2.jpg",
-      alt: "미주이자카야 음식 사진 2",
-      caption: "미주이자카야",
+      alt: "미주이자카야 음식 사진",
+      caption: "미주이자카야 메뉴",
     },
     {
       type: 'h2',
@@ -63,14 +63,14 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></strong> (테헤란로 87길 53)</p><ul><li>평점 4.7점 (리뷰 50건 · 블로그 977건)</li><li>가격대 11,000~35,000원</li><li>영업시간 02:00</li><li>전화 07-1300-3584</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 모듬꼬치 5종 18,000원 / 모듬 오뎅 21,000원 / 우니단새우 35,000원 / 나고야 날개튀김 14,000원 / 치킨 난반 16,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 50건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#야키토리 #하이볼 #이자카야 #주차가능 #데이트 #리뷰많음</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/2/야키토리-수다-1.jpg",
-      alt: "야키토리 수다 음식 사진 1",
+      alt: "야키토리 수다 대표 사진",
       caption: "야키토리 수다",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></strong> (테헤란로 87길 53)</p><ul><li>평점 4.7점 (리뷰 50건 · 블로그 977건)</li><li>가격대 11,000~35,000원</li><li>영업시간 02:00</li><li>전화 07-1300-3584</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 모듬꼬치 5종 18,000원 / 모듬 오뎅 21,000원 / 우니단새우 35,000원 / 나고야 날개튀김 14,000원 / 치킨 난반 16,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 50건 기준 평점 4.7점으로 안정적인 평가를 받고 있습니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#야키토리 #하이볼 #이자카야 #주차가능 #데이트 #리뷰많음</p>",
     },
     {
       type: 'h2',
@@ -79,14 +79,14 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></strong> (봉은사로 82길 31)</p><ul><li>평점 4점 (리뷰 206건 · 블로그 609건)</li><li>가격대 7,000~65,000원</li><li>영업시간 17:30</li><li>전화 07-1357-3844</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 한우1++ 특상 채끝살 65,000원 / 와라야키 로 살짝 익혀 드립니다 18,000원 / 가장좋은 제주갈치 로 만들어요 35,000원 / 초당옥수수 카키아게 15,000원 / 해산물모즈쿠 25,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 206건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#이자카야 #사케소믈리에 #코르키지없음 #가성비 #주차가능 #데이트</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/2/란주쿠-삼성점-1.jpg",
-      alt: "란주쿠 삼성점 음식 사진 1",
+      alt: "란주쿠 삼성점 대표 사진",
       caption: "란주쿠 삼성점",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></strong> (봉은사로 82길 31)</p><ul><li>평점 4점 (리뷰 206건 · 블로그 609건)</li><li>가격대 7,000~65,000원</li><li>영업시간 17:30</li><li>전화 07-1357-3844</li><li>주차 가능 · 예약 가능</li></ul><p><strong>대표 메뉴:</strong> 한우1++ 특상 채끝살 65,000원 / 와라야키 로 살짝 익혀 드립니다 18,000원 / 가장좋은 제주갈치 로 만들어요 35,000원 / 초당옥수수 카키아게 15,000원 / 해산물모즈쿠 25,000원</p><p>가격 대비 만족도가 높다는 평가를 받고 있습니다. 분위기가 좋아 데이트 장소로도 추천됩니다. 소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 206건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#이자카야 #사케소믈리에 #코르키지없음 #가성비 #주차가능 #데이트</p>",
     },
     {
       type: 'h2',
@@ -95,14 +95,14 @@ const post = {
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></strong> (삼성1동 152-23)</p><ul><li>평점 3.6점 (리뷰 77건 · 블로그 22건)</li><li>가격대 15,000~20,000원</li><li>영업시간 03:00</li><li>전화 02-3452-3660</li></ul><p><strong>대표 메뉴:</strong> 부추전 15,000원 / 골뱅이 18,000원 / 파전 18,000원 / 동태전 20,000원 / 두부김치 15,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 77건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#포차감성 #야장 #안주 #고기</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/2/못난이포차-1.jpg",
-      alt: "못난이포차 음식 사진 1",
+      alt: "못난이포차 대표 사진",
       caption: "못난이포차",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></strong> (삼성1동 152-23)</p><ul><li>평점 3.6점 (리뷰 77건 · 블로그 22건)</li><li>가격대 15,000~20,000원</li><li>영업시간 03:00</li><li>전화 02-3452-3660</li></ul><p><strong>대표 메뉴:</strong> 부추전 15,000원 / 골뱅이 18,000원 / 파전 18,000원 / 동태전 20,000원 / 두부김치 15,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 77건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#포차감성 #야장 #안주 #고기</p>",
     },
     {
       type: 'h2',
@@ -111,14 +111,14 @@ const post = {
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
-      type: 'body',
-      html: "<p><strong><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></strong> (선릉로 112길 31)</p><ul><li>평점 3.8점 (리뷰 52건 · 블로그 27건)</li><li>가격대 24,000~32,000원</li><li>영업시간 PM 5–AM 5 (일 휴무)</li><li>전화 07-1363-1466</li></ul><p><strong>대표 메뉴:</strong> 차돌숙주볶음 24,000원 / 김치전 26,000원 / 오징어숙회 32,000원 / 차돌숙주볶음 24,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 52건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#야장 #막걸리 #생맥주 #포차감성</p>",
-    },
-    {
       type: 'image',
       src: "/images/posts/2/철수포차-1.jpg",
-      alt: "철수포차 음식 사진 1",
+      alt: "철수포차 대표 사진",
       caption: "철수포차",
+    },
+    {
+      type: 'body',
+      html: "<p><strong><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></strong> (선릉로 112길 31)</p><ul><li>평점 3.8점 (리뷰 52건 · 블로그 27건)</li><li>가격대 24,000~32,000원</li><li>영업시간 PM 5–AM 5 (일 휴무)</li><li>전화 07-1363-1466</li></ul><p><strong>대표 메뉴:</strong> 차돌숙주볶음 24,000원 / 김치전 26,000원 / 오징어숙회 32,000원 / 차돌숙주볶음 24,000원</p><p>소규모 회식 장소로도 활용 가능합니다.</p><p>리뷰 52건이 등록된 식당으로, 방문자 평가를 참고하시기 바랍니다. 다양한 안주와 주류를 갖추고 있어 가벼운 한잔부터 본격 회식 2차까지 활용 가능합니다.</p><p style=\"color:var(--text-secondary);font-size:.85rem\">#야장 #막걸리 #생맥주 #포차감성</p>",
     },
     {
       type: 'h2',
