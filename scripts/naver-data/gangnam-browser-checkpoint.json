@@ -4124,6 +4124,455 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/13159767",
       "imageUrl": "https://ldb-phinf.pstatic.net/20260318_93/1773825557043YNDT8_JPEG/IMG_6117.jpeg"
+    },
+    {
+      "naverPlaceId": "1594423995",
+      "name": "하우마라탕",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 2545,
+      "addr": "서울특별시 강남구 역삼동 818-7 2층",
+      "hours": "",
+      "tel": "0507-1327-1341",
+      "lat": 37.4997698,
+      "lng": 127.0292507,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1594423995",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251223_132/1766470087865H2h0g_JPEG/4682.jpg"
+    },
+    {
+      "naverPlaceId": "1382405932",
+      "name": "중경마라탕 강남2호점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 446,
+      "addr": "서울특별시 강남구 역삼동 827-23 2층",
+      "hours": "",
+      "tel": "02-538-5839",
+      "lat": 37.4954957,
+      "lng": 127.0314525,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1382405932",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190513_296/1557746907477pctxF_JPEG/uZ4-mMpgpaDhwym73tw1e2cF.jpg"
+    },
+    {
+      "naverPlaceId": "1099956877",
+      "name": "마유유 마라탕 강남역점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 538,
+      "addr": "서울특별시 강남구 역삼동 635-13 2층",
+      "hours": "",
+      "tel": "0507-1378-7825",
+      "lat": 37.4998298,
+      "lng": 127.0294742,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1099956877",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250717_154/1752724303332BBeTy_JPEG/IMG_7290.jpeg"
+    },
+    {
+      "naverPlaceId": "1143142089",
+      "name": "중경마라탕 3호점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 256,
+      "addr": "서울특별시 서초구 서초동 1317-11 2층",
+      "hours": "",
+      "tel": "0507-1448-5988",
+      "lat": 37.4985845,
+      "lng": 127.0262223,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1143142089",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220818_38/1660798745571jtO74_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2022-08-18_%BF%C0%C8%C4_1.58.38.png"
+    },
+    {
+      "naverPlaceId": "1761717994",
+      "name": "중경마라탕 강남역점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 878,
+      "addr": "서울특별시 강남구 역삼동 619-17",
+      "hours": "",
+      "tel": "0507-1339-5988",
+      "lat": 37.5012801,
+      "lng": 127.0270186,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1761717994",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20181207_26/1544174464452qOc2S_PNG/rJAyTalMXqRhs7TpvtR4DZ_y.png"
+    },
+    {
+      "naverPlaceId": "2096374065",
+      "name": "라와마라탕 강남직영점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 190,
+      "addr": "서울특별시 강남구 역삼동 830-1 2층",
+      "hours": "",
+      "tel": "0507-1441-8907",
+      "lat": 37.4952357,
+      "lng": 127.0313408,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2096374065",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250729_63/1753756591563SNMH1_JPEG/JPG_6.jpg"
+    },
+    {
+      "naverPlaceId": "1182362483",
+      "name": "무한미니훠궈&볶음요리",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 969,
+      "addr": "서울특별시 강남구 역삼동 817-3 . 지상3층(, 제이엠빌딩)",
+      "hours": "",
+      "tel": "0507-1411-9922",
+      "lat": 37.5003798,
+      "lng": 127.0278499,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1182362483",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221023_129/1666508552842UgnVO_JPEG/9CA3C505-0898-4A47-B866-D4F86E427179.jpeg"
+    },
+    {
+      "naverPlaceId": "1293972833",
+      "name": "정상마라 강남본점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 160,
+      "addr": "서울특별시 서초구 서초동 1329-9 1층 103호",
+      "hours": "",
+      "tel": "0507-1349-8103",
+      "lat": 37.493068,
+      "lng": 127.0292752,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1293972833",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241026_68/1729944086879ha7Lp_JPEG/IMG_8649.jpeg"
+    },
+    {
+      "naverPlaceId": "1012200424",
+      "name": "춘리마라탕 강남점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 182,
+      "addr": "서울특별시 강남구 역삼동 814-6 CGV 3층",
+      "hours": "",
+      "tel": "02-555-6388",
+      "lat": 37.501513,
+      "lng": 127.0263451,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1012200424",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210126_36/1611671198257YB5J1_JPEG/6LYlLdCBmTt_b9aRx8SttHEA.jpg"
+    },
+    {
+      "naverPlaceId": "38314432",
+      "name": "하이디라오 서초점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 3985,
+      "addr": "서울특별시 서초구 서초동 1303-37 2층 하이디라오 훠궈",
+      "hours": "",
+      "tel": "0507-1350-8260",
+      "lat": 37.5025793,
+      "lng": 127.0248509,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38314432",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20231025_15/1698211713629glQAU_PNG/-3cWUS6vZ-8NvglUNWekEzpW.png"
+    },
+    {
+      "naverPlaceId": "1852243031",
+      "name": "탕화쿵푸마라탕 본점 강남직영점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 114,
+      "addr": "서울특별시 강남구 역삼동 814-6 2층 202호, 203호, 204호",
+      "hours": "",
+      "tel": "02-553-6668",
+      "lat": 37.5016424,
+      "lng": 127.0263372,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1852243031",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250225_174/1740449748394REgco_PNG/%B8%DE%C0%CE%B7%CE%B0%ED.png"
+    },
+    {
+      "naverPlaceId": "1932943201",
+      "name": "라홍방마라탕 강남직영점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 161,
+      "addr": "서울특별시 강남구 역삼동 619-2",
+      "hours": "",
+      "tel": "0507-1378-1413",
+      "lat": 37.5023098,
+      "lng": 127.0273182,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1932943201",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250716_171/1752633259441sEU7R_JPEG/KOREAN_MALATANG_LAHONGBANG_%B6%F3%C8%AB%B9%E6.jpg"
+    },
+    {
+      "naverPlaceId": "1318404955",
+      "name": "마라공방 강남역점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "마라탕"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 398,
+      "addr": "서울특별시 강남구 역삼동 826-3 2층",
+      "hours": "",
+      "tel": "0507-1387-5859",
+      "lat": 37.4964463,
+      "lng": 127.0292152,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1318404955",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230911_171/1694398208532HS0HT_PNG/%BB%E7%C1%F8_%B8%B6%B6%F3%B0%F8%B9%E6_%B7%CE%B0%ED.png"
+    },
+    {
+      "naverPlaceId": "991858885",
+      "name": "무한숯불양꼬치훠궈&뷔페",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "양꼬치"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 1277,
+      "addr": "서울특별시 강남구 역삼동 813-16 지상2층 ()",
+      "hours": "",
+      "tel": "02-508-6799",
+      "lat": 37.5022432,
+      "lng": 127.0266119,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/991858885",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230713_264/1689231182054dCwwo_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2023-07-13_%BF%C0%C8%C4_3.49.39.png"
+    },
+    {
+      "naverPlaceId": "1037655034",
+      "name": "라장양갈비양꼬치 무한리필",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "양꼬치"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 1521,
+      "addr": "서울특별시 강남구 역삼동 619-30 지상3층",
+      "hours": "",
+      "tel": "0507-1345-6758",
+      "lat": 37.500863,
+      "lng": 127.0277196,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1037655034",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231226_201/1703558043886LdPbH_JPEG/KakaoTalk_20231226_110025920.jpg"
     }
   ],
   "completedQueries": [
@@ -4139,7 +4588,8 @@
     "강남역 일식",
     "강남역 스시",
     "강남역 초밥",
-    "강남역 중식"
+    "강남역 중식",
+    "강남역 마라탕"
   ],
-  "timestamp": "2026-05-09T12:53:49.130Z"
+  "timestamp": "2026-05-09T12:54:49.304Z"
 }
