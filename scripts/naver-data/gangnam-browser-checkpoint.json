@@ -10675,6 +10675,331 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/37541584",
       "imageUrl": "https://ldb-phinf.pstatic.net/20160211_222/14551673535746gvts_JPEG/176161543932549_0.jpeg"
+    },
+    {
+      "naverPlaceId": "38275897",
+      "name": "어메이징타이 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 262,
+      "addr": "서울특별시 서초구 서초동 1308-16 207호",
+      "hours": "",
+      "tel": "0507-1465-7379",
+      "lat": 37.500437,
+      "lng": 127.0247292,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38275897",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241130_1/1732965461291sPPj6_PNG/AMAZING_THAI.png"
+    },
+    {
+      "naverPlaceId": "2020550345",
+      "name": "무삥과팟타이 역삼점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 18,
+      "addr": "서울특별시 강남구 역삼동 825-20 지하1층 B123호",
+      "hours": "",
+      "tel": "0507-1456-5624",
+      "lat": 37.4976709,
+      "lng": 127.029341,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2020550345",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250708_41/1751947630035lF57j_JPEG/KakaoTalk_20250707_193936922.jpg"
+    },
+    {
+      "naverPlaceId": "2062733250",
+      "name": "싸바이디 타이 라오 스트릿푸드",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 9,
+      "addr": "서울특별시 서초구 서초동 1337-14 이즈타워 1층 113호",
+      "hours": "",
+      "tel": "0507-1486-3044",
+      "lat": 37.4922157,
+      "lng": 127.0292084,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2062733250",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260116_89/1768531629876haPo1_PNG/1.png"
+    },
+    {
+      "naverPlaceId": "698443667",
+      "name": "타이하우스 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 0,
+      "addr": "서울특별시 서초구 서초동 1303-10 서초한일유앤아이주상복합",
+      "hours": "",
+      "tel": "02-3482-2220",
+      "lat": 37.5032282,
+      "lng": 127.0235783,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/698443667",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1063243957",
+      "name": "타이홀릭",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 13,
+      "addr": "서울특별시 강남구 역삼동 646-4 지하 1층",
+      "hours": "",
+      "tel": "070-7755-5228",
+      "lat": 37.5007274,
+      "lng": 127.0341628,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1063243957",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230905_277/16938845221447xvXd_JPEG/%B7%CE%B0%ED.jpg"
+    },
+    {
+      "naverPlaceId": "1554979214",
+      "name": "쁘라텟타이",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 283,
+      "addr": "서울특별시 강남구 역삼동 644-24",
+      "hours": "",
+      "tel": "",
+      "lat": 37.5010857,
+      "lng": 127.0343585,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1554979214",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210629_121/1624936585940uhGn9_PNG/ikDBpWTvEDJdpfs-1DgTG3BT.png"
+    },
+    {
+      "naverPlaceId": "33685119",
+      "name": "반피차이",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 1231,
+      "addr": "서울특별시 강남구 논현동 145-12 1층",
+      "hours": "",
+      "tel": "0507-1322-1962",
+      "lat": 37.5093669,
+      "lng": 127.0245393,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/33685119",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250419_98/174505165698374Yos_PNG/1000014539.png"
+    },
+    {
+      "naverPlaceId": "1925656389",
+      "name": "피넘타이",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 111,
+      "addr": "서울특별시 서초구 서초동 1359-46 1F",
+      "hours": "",
+      "tel": "0507-1382-7983",
+      "lat": 37.4866183,
+      "lng": 127.0309682,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1925656389",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220726_81/1658827259252cLLCH_JPEG/1.jpg"
+    },
+    {
+      "naverPlaceId": "1523807831",
+      "name": "타이패밀리 교대점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 148,
+      "addr": "서울특별시 서초구 서초동 1628-10 102호",
+      "hours": "",
+      "tel": "02-588-8960",
+      "lat": 37.4894409,
+      "lng": 127.0185717,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1523807831",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251103_57/176216472697091dPD_JPEG/KakaoTalk_20251025_110433101.jpg"
+    },
+    {
+      "naverPlaceId": "1064257414",
+      "name": "레몬그라스 타이",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 1233,
+      "addr": "서울특별시 서초구 서초동 1442-9 태담 1층",
+      "hours": "",
+      "tel": "02-522-3029",
+      "lat": 37.4854094,
+      "lng": 127.0213358,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1064257414",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260225_153/177198501527499SSC_JPEG/%C0%A7%BB%FD%B5%EE%B1%DE_%C0%FA%BF%EB%B7%AE.jpg"
+    },
+    {
+      "naverPlaceId": "368880338",
+      "name": "쿤쏨차이",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "태국음식"
+      ],
+      "cat": [
+        "아시안"
+      ],
+      "rt": 0,
+      "cnt": 644,
+      "addr": "서울특별시 서초구 서초동 1698-7 1층 KUNSOMCHAI",
+      "hours": "",
+      "tel": "02-596-6411",
+      "lat": 37.4961875,
+      "lng": 127.0144013,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/368880338",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260118_246/1768731583111lh4GM_JPEG/1000055576.jpg"
     }
   ],
   "completedQueries": [
@@ -10707,7 +11032,8 @@
     "강남역 보쌈",
     "강남역 분식",
     "강남역 떡볶이",
-    "강남역 베트남"
+    "강남역 베트남",
+    "강남역 태국"
   ],
-  "timestamp": "2026-05-09T13:10:54.130Z"
+  "timestamp": "2026-05-09T13:11:55.047Z"
 }
