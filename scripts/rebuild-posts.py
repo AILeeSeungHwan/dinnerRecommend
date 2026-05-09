@@ -262,30 +262,34 @@ def generate_context_paragraph(r, category):
 
     parts = []
 
-    # 평점 기반 문장 — 변형 적용
-    seed = hash(name) % 100
-    if rating >= 4.8:
-        rating_variants = [
-            f'평점 {rating}점이면 이 동네에서 상위권에 해당합니다. 리뷰 {cnt}건이 쌓여 있어 신뢰도도 높은 편입니다.',
-            f'리뷰 {cnt}건에 평점 {rating}점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.',
-            f'{rating}점짜리 식당은 흔하지 않습니다. 리뷰도 {cnt}건이나 되어 검증된 맛집이라 하겠습니다.',
-            f'평점 {rating}점에 리뷰 {cnt}건이면 이 근처에서 손에 꼽히는 곳입니다.',
-        ]
+    # 평점 기반 문장 — 사실 위주로, 단정형 표현은 제거
+    seed = abs(hash(name)) % 100
+    if rating > 0 and cnt > 0:
+        # 단정 표현("흔하지 않다", "손에 꼽히는") 제거 — 사실만 적기
+        if cnt >= 1000:
+            rating_variants = [
+                f'평점 {rating}점, 리뷰 {cnt:,}건. 이 동네에서 자주 언급되는 곳 중 하나입니다.',
+                f'리뷰 {cnt:,}건이 쌓일 만큼 방문자가 많은 곳이며, 평점은 {rating}점입니다.',
+                f'{cnt:,}건 리뷰에 {rating}점이라는 점에서 인지도가 높은 편입니다.',
+            ]
+        elif rating >= 4.5:
+            rating_variants = [
+                f'평점 {rating}점, 리뷰 {cnt}건으로 안정적인 평가를 받고 있습니다.',
+                f'리뷰 {cnt}건에 {rating}점이면 꾸준히 무난한 편입니다.',
+                f'{rating}점·리뷰 {cnt}건. 방문자 평이 비교적 일관되게 좋은 편입니다.',
+            ]
+        elif rating >= 4.0:
+            rating_variants = [
+                f'평점 {rating}점, 리뷰 {cnt}건. 큰 호불호 없이 이용되는 편입니다.',
+                f'리뷰 {cnt}건에 {rating}점 정도로 무난한 평가가 쌓여 있습니다.',
+                f'{cnt}건 리뷰에 {rating}점이면 동네 단골 식당 정도로 보면 됩니다.',
+            ]
+        else:
+            rating_variants = [
+                f'리뷰 {cnt}건이 쌓여 있는 편입니다. 평점은 {rating}점입니다.',
+                f'{cnt}건 정도의 리뷰가 있고, 평점은 {rating}점 수준입니다.',
+            ]
         parts.append(rating_variants[seed % len(rating_variants)])
-    elif rating >= 4.5:
-        rating_variants = [
-            f'리뷰 {cnt}건에 평점 {rating}점이면 안정적인 편입니다. 꾸준히 좋은 평가를 받고 있는 곳입니다.',
-            f'평점 {rating}점, 리뷰 {cnt}건으로 나쁘지 않은 수치를 보이고 있습니다.',
-            f'{cnt}건 리뷰에 {rating}점이면 충분히 검증된 곳이라 하겠습니다.',
-        ]
-        parts.append(rating_variants[seed % len(rating_variants)])
-    elif cnt >= 50:
-        cnt_variants = [
-            f'리뷰 {cnt}건 정도 쌓여 있어서 어느 정도 검증이 된 곳입니다.',
-            f'리뷰가 {cnt}건이니 한 번쯤 방문해보실 만합니다.',
-            f'{cnt}건 리뷰가 있으면 동네에서 나름 알려진 편입니다.',
-        ]
-        parts.append(cnt_variants[seed % len(cnt_variants)])
 
     # 가격대 기반 문장
     if price and '~' in price:
@@ -757,55 +761,111 @@ def find_related_posts(current_id, current_region, current_category, all_posts_m
     return related[:4]
 
 # ── h2 타이틀 생성 ──────────────────────────────────────────────
+def _signature_menu(r):
+    """식당의 대표 메뉴 1개를 반환. 가격이 있으면 가격까지."""
+    menus = r.get('menuItems') or []
+    for m in menus:
+        mname = (m.get('name') or '').strip()
+        if not mname or len(mname) > 25:
+            continue
+        # 광고성 메뉴명 거르기
+        if any(skip in mname for skip in ['추가', '사리', '무료', '!', '사용합니다']):
+            continue
+        mprice = m.get('price')
+        if mprice and int(mprice) >= 1000:
+            return mname, int(mprice)
+        return mname, None
+    return None, None
+
 def make_h2_title(r, category):
-    """식당에 대한 h2 제목 생성 — '식당명 — 한줄 핵심'"""
+    """식당별 차별점을 반영한 h2 제목.
+    같은 카테고리라도 식당마다 다른 패턴이 나오도록 4~5가지 후보 중 선택."""
     name = r['name']
-    tags = r.get('tags', [])
-    rtype = r.get('type', '')
+    tags = set(r.get('tags', []) or [])
+    moods = set(r.get('moods', []) or [])
+    rtype = (r.get('type', '') or '').split(',')[0].strip()
+    rating = r.get('rating', 0) or 0
+    cnt = r.get('reviewCount', 0) or 0
+    price = r.get('priceRange', '') or ''
+    sig_name, sig_price = _signature_menu(r)
+    seed = abs(hash(name)) % 100
 
-    # 카테고리/태그 기반 한줄 핵심
+    # 후보 suffix 모으기 (있는 것 중 골라쓰기)
+    candidates = []
+
+    # ① 시그니처 메뉴 + 가격 (실데이터가 가장 강한 차별점)
+    if sig_name and sig_price:
+        candidates.append(f'시그니처 {sig_name} {sig_price:,}원')
+    elif sig_name:
+        candidates.append(f'대표 메뉴 {sig_name}')
+
+    # ② 리뷰가 압도적이면 리뷰 강점
+    if cnt >= 1000:
+        candidates.append(f'리뷰 {cnt:,}건이 쌓인 곳')
+    elif cnt >= 500:
+        candidates.append(f'리뷰 {cnt}건 검증 맛집')
+
+    # ③ 가격 강점 (저가/고가)
+    if price and '~' in price:
+        try:
+            lo = int(price.split('~')[0])
+            hi = int(price.split('~')[-1])
+            if category == 'budget' and lo <= 10000:
+                candidates.append(f'{lo//1000}천원대 가성비 한 끼')
+            elif category in ('date', 'group') and hi >= 50000:
+                candidates.append(f'인당 {hi//10000}만원대 코스')
+            elif category == 'lunch' and lo <= 12000:
+                candidates.append(f'점심 {lo//1000}천원대부터')
+        except ValueError:
+            pass
+
+    # ④ 평점이 매우 높고 리뷰도 충분
+    if rating >= 4.7 and cnt >= 100:
+        candidates.append(f'평점 {rating}·리뷰 {cnt}건')
+
+    # ⑤ 태그 기반 — 카테고리별로 가장 강한 태그 매핑
+    tag_suffix = None
     if category == 'date':
-        if '인스타감성' in tags:
-            suffix = '감각적인 분위기의 데이트 맛집'
-        elif r.get('rating', 0) >= 4.8:
-            suffix = f'평점 {r["rating"]}점 프리미엄 레스토랑'
-        else:
-            suffix = '분위기 좋은 데이트 추천'
+        if '뷰맛집' in tags: tag_suffix = '뷰가 보이는 자리'
+        elif '인스타감성' in tags: tag_suffix = '인테리어 감각적인 곳'
+        elif '룸있음' in tags: tag_suffix = '프라이빗한 룸 운영'
     elif category == 'meat':
-        if '한우' in tags:
-            suffix = '한우 전문 구이집'
-        elif '가성비' in tags:
-            suffix = '가성비 고기 맛집'
-        else:
-            clean_type = rtype.split(',')[0] if ',' in rtype else rtype
-            suffix = f'{clean_type} 전문' if clean_type else '고기 전문'
+        if '한우' in tags: tag_suffix = '한우 전문 구이'
+        elif '가성비' in tags: tag_suffix = '가성비 고기집'
+        elif '웨이팅맛집' in tags: tag_suffix = '웨이팅 잡히는 고기집'
     elif category == 'group':
-        if '룸있음' in tags:
-            suffix = '룸 완비 회식 장소'
-        elif '단체가능' in tags:
-            suffix = '단체석 보유 회식 맛집'
-        else:
-            suffix = '회식 추천 식당'
+        if '룸있음' in tags: tag_suffix = '룸 완비 회식 장소'
+        elif '단체가능' in tags: tag_suffix = '단체석 운영 회식 식당'
     elif category == 'budget':
-        suffix = '가성비 점심 추천'
+        if '혼밥가능' in tags: tag_suffix = '혼밥 가능한 가성비 식당'
+        elif '가성비' in tags: tag_suffix = '가성비 한 끼'
     elif category == 'izakaya':
-        suffix = '분위기 좋은 술자리'
+        if '심야영업' in tags: tag_suffix = '심야까지 여는 술집'
+        elif '데이트' in moods: tag_suffix = '분위기 잡히는 술자리'
     elif category == 'chinese':
-        clean_type = rtype.split(',')[0] if ',' in rtype else rtype
-        suffix = f'{clean_type} 맛집' if clean_type else '중식 맛집'
+        if '마라' in (rtype or ''): tag_suffix = '마라 전문'
+        elif '딤섬' in (rtype or ''): tag_suffix = '딤섬 전문'
     elif category == 'gukbap':
-        suffix = '든든한 국밥 한 그릇'
+        if '24시영업' in tags or '심야영업' in tags: tag_suffix = '늦은 시간까지 여는 해장 맛집'
+        elif '가성비' in tags: tag_suffix = '가성비 국밥집'
     elif category == 'japanese':
-        if r.get('priceRange', '').split('~')[-1:] and int(r.get('priceRange', '0~0').split('~')[-1] or 0) > 50000:
-            suffix = '프리미엄 오마카세'
-        else:
-            suffix = '가성비 일식'
-    elif category == 'lunch':
-        suffix = f'{rtype} 대표 맛집'
-    else:
-        clean_type = rtype.split(',')[0] if ',' in rtype else rtype
-        suffix = clean_type or '추천 맛집'
+        if '오마카세' in (rtype or '') or '오마카세' in tags: tag_suffix = '오마카세 코스 운영'
+        elif '스시' in (rtype or ''): tag_suffix = '스시 전문점'
+    if tag_suffix:
+        candidates.append(tag_suffix)
 
+    # ⑥ 마지막 fallback — 타입을 그대로 (단, 너무 일반적이면 카테고리 라벨로)
+    if rtype and rtype not in ('한식', '양식'):
+        candidates.append(f'{rtype} 전문점')
+    elif category == 'gukbap':
+        candidates.append('해장·국밥 한 그릇')
+    elif category == 'lunch':
+        candidates.append(f'{rtype} 점심 식당' if rtype else '점심 식당')
+    else:
+        candidates.append(f'{rtype} 전문점' if rtype else '추천 맛집')
+
+    # seed로 후보 중 하나 선택 — 같은 카테고리 안에서도 식당마다 다른 suffix
+    suffix = candidates[seed % len(candidates)]
     return f'{name} — {suffix}'
 
 # ── 인트로 생성 ─────────────────────────────────────────────────
