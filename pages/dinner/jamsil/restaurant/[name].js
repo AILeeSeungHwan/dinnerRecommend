@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '' }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -426,7 +426,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
     "name": r.name,
     "description": metaDesc,
     "url": pageUrl,
-    ...(r.imageUrl ? { "image": r.imageUrl } : {}),
+    ...(r.imageUrl ? { "image": r.imageUrl2 ? [r.imageUrl, r.imageUrl2] : r.imageUrl } : {}),
     ...(r.tel ? { "telephone": r.tel } : {}),
     "servesCuisine": r.type,
     "address": { "@type":"PostalAddress", "streetAddress":r.addr !== 'South Korea' ? r.addr : '', "addressLocality":"서울특별시 송파구", "addressCountry":"KR" },
@@ -529,22 +529,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </div>
       </section>
 
-      
-      {/* 식당 대표 이미지 */}
-      {r.imageUrl && (
-        <section style={{ borderBottom:'1px solid var(--border)', padding:'0' }}>
-          <div style={{ maxWidth:760, margin:'0 auto' }}>
-            <img
-              src={r.imageUrl}
-              alt={`${r.name} 대표 사진`}
-              loading="lazy"
-              style={{ width:'100%', maxHeight:400, objectFit:'cover', display:'block' }}
-              onError={(e) => { e.target.style.display = 'none' }}
-            />
-          </div>
-        </section>
-      )}
-
       {/* 본문 */}
       <article style={{ maxWidth:760, margin:'0 auto', padding:'28px 16px 60px' }}>
 
@@ -621,6 +605,35 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {r.keywords?.length > 0 && (<>
         <h2 style={h2style}>🏷️ 방문자 키워드</h2><div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>{r.keywords.map((kw, i) => (<span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>{kw}</span>))}</div></>)}
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
+
+
+        {/* 식당 이미지 갤러리 */}
+        {(r.imageUrl || r.imageUrl2) && (
+          <div style={{ display:'flex', gap:8, marginBottom:24, overflow:'hidden', borderRadius:12 }}>
+            {r.imageUrl && (
+              <div style={{ flex:1, minWidth:0 }}>
+                <img
+                  src={r.imageUrl}
+                  alt={`${r.name} 대표 사진`}
+                  loading="lazy"
+                  style={{ width:'100%', height:220, objectFit:'cover', display:'block', borderRadius: r.imageUrl2 ? '12px 0 0 12px' : 12 }}
+                  onError={(e) => { e.target.parentElement.style.display = 'none' }}
+                />
+              </div>
+            )}
+            {r.imageUrl2 && (
+              <div style={{ flex:1, minWidth:0 }}>
+                <img
+                  src={r.imageUrl2}
+                  alt={`${r.name} 음식 사진`}
+                  loading="lazy"
+                  style={{ width:'100%', height:220, objectFit:'cover', display:'block', borderRadius: r.imageUrl ? '0 12px 12px 0' : 12 }}
+                  onError={(e) => { e.target.parentElement.style.display = 'none' }}
+                />
+              </div>
+            )}
+          </div>
+        )}
 
         {/* 메뉴 & 가격 */}
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
