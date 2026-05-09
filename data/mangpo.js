@@ -133,6 +133,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2064392403/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20251124_185/1763927254261Iqr71_JPEG/1000061824.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251124_98/1763927254210JXRzv_JPEG/1000061897.jpg",
     "parking": true,
     "reservation": true
   },
