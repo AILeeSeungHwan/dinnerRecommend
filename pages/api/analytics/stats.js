@@ -1,4 +1,11 @@
-import { createServerClient } from '../../../lib/supabase'
+import { createClient } from '@supabase/supabase-js'
+
+function getHealthClient() {
+  const url = process.env.HEALTH_SUPABASE_URL
+  const key = process.env.HEALTH_SUPABASE_SERVICE_KEY
+  if (!url || !key) return null
+  return createClient(url, key, { auth: { persistSession: false } })
+}
 
 function kstDate(isoStr) {
   return new Date(new Date(isoStr).getTime() + 9 * 3600000).toISOString().slice(0, 10)
@@ -9,8 +16,8 @@ const SEARCH_SOURCES = ['google', 'naver', 'daum', 'bing', 'zum', 'yahoo']
 export default async function handler(req, res) {
   if (req.method !== 'GET') return res.status(405).end()
 
-  const supabase = createServerClient()
-  if (!supabase) return res.status(500).json({ error: 'Supabase not configured' })
+  const supabase = getHealthClient()
+  if (!supabase) return res.status(500).json({ error: 'HEALTH_SUPABASE_URL / HEALTH_SUPABASE_SERVICE_KEY not configured' })
 
   const { from, to } = req.query
   const fromDate = from || new Date(Date.now() + 9 * 3600000 - 7 * 86400000).toISOString().slice(0, 10)
@@ -21,10 +28,11 @@ export default async function handler(req, res) {
   const toUTC   = toDate   + 'T23:59:59+09:00'
 
   const { data: rows, error } = await supabase
-    .from('pageviews')
-    .select('slug, title, source, keyword, created_at')
-    .gte('created_at', fromUTC)
-    .lte('created_at', toUTC)
+    .from('pageview_events')
+    .select('slug, title, source, keyword, created_at, device')
+    .eq('site', 'dinner')
+    .gte('date', fromDate)
+    .lte('date', toDate)
     .order('created_at', { ascending: false })
     .limit(10000)
 
