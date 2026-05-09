@@ -5,9 +5,289 @@
   "description": "강남역 치킨·야장 가이드",
   "category": "chicken",
   "region": "gangnam",
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "tags": [],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "82올리언즈 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 817-38 1층",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1353-5076",
+      "priceRange": "12000~32000",
+      "rating": 0,
+      "reviewCount": 3430,
+      "blogCount": 3653,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "올리언즈 라자냐",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "올리언즈 스테이크",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "name": "몬테크리스토",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "볼케이노 맥앤치즈",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "홈메이드 뇨끼&치즈 퐁듀",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1481312779",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260416_298/177633289478262kDI_JPEG/KakaoTalk_20260416_184749717.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "플랫나인",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-15 5층",
+      "hours": "",
+      "tel": "07-1389-9630",
+      "priceRange": "19000~69000",
+      "rating": 0,
+      "reviewCount": 4665,
+      "blogCount": 3094,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "점심추천",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "시그니처 코스",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "클래식 코스",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "런치 파스타 코스",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "Signature Cocktail",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "NonAlcohol Signature",
+          "price": 19000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1793702349",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260422_115/17768353879592xAfj_JPEG/DSC_0519-93.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "고베규카츠 서울 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 617-3 예촌빌딩",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1443-4620",
+      "priceRange": "1500~22000",
+      "rating": 0,
+      "reviewCount": 13775,
+      "blogCount": 6479,
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "가성비"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "규카츠 정식",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "리얼치즈카츠정식",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "커리크림우동",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "불닭크림볶음면",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "새우 삼겹 덮밥",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/254171411",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230329_68/1680084687137vl5A5_JPEG/KakaoTalk_20230329_174932601_02.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "미나리밭오리사냥 강남역점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 817-19 1층",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1357-8489",
+      "priceRange": "6000~65000",
+      "rating": 0,
+      "reviewCount": 5880,
+      "blogCount": 959,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "웨이팅맛집",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "생 오리주물럭(중)",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "생 오리주물럭(대)",
+          "price": 56000,
+          "description": ""
+        },
+        {
+          "name": "생 오리로스 사냥(중)",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "name": "생 오리로스 사냥(대)",
+          "price": 54000,
+          "description": ""
+        },
+        {
+          "name": "오리생로스+오리주물럭",
+          "price": 65000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1660575874",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231224_249/1703391199395IDnHb_JPEG/132801E9-74D9-49AE-B9A6-FB55F8133324.jpeg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "팔도밀방 강남본점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 818-13 2층",
+      "hours": "",
+      "tel": "07-1369-8518",
+      "priceRange": "9000~62000",
+      "rating": 0,
+      "reviewCount": 1124,
+      "blogCount": 1678,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "팔도 수육전골 한상",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "치즈가득 목뼈살찜",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "name": "팔도해장수육전골",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "진미 한우 뭉티기(중)",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "팔도1987돈까스",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1281140539",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250804_26/1754238241957l23YU_JPEG/DSC_6609_-_%BA%B9%BB%E7%BA%BB.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 285
 }

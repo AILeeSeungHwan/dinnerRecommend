@@ -1,382 +1,272 @@
 {
   "id": 31,
-  "slug": "gangnam-chinese-best-2026",
-  "title": "강남역 중식 맛집 추천 7곳 | 2026",
-  "description": "강남역 중식 맛집 가이드 — 짬뽕, 탕수육, 마라탕",
-  "category": "chinese",
+  "slug": "gangnam-japanese-best-2026",
+  "title": "강남역 일식·스시 추천 7곳 | 2026",
+  "description": "강남역 일식·스시·오마카세 가이드",
+  "category": "japanese",
   "region": "gangnam",
-  "date": "2026-05-09",
-  "tags": [
-    "강남역",
-    "중식",
-    "맛집"
-  ],
-  "categoryStats": {},
-  "regionTotalRestaurants": 285,
+  "date": "2026-05-10",
+  "tags": [],
   "restaurants": [
     {
-      "name": "하우마라탕",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 818-7 2층",
-      "hours": "11:00에 영업 시작",
-      "tel": "07-1327-1341",
-      "priceRange": "4000~35000",
+      "name": "고베규카츠 서울 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 617-3 예촌빌딩",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1443-4620",
+      "priceRange": "1500~22000",
       "rating": 0,
-      "reviewCount": 9144,
-      "blogCount": 2546,
+      "reviewCount": 13775,
+      "blogCount": 6479,
       "tags": [
         "리뷰많음",
         "혼밥가능",
-        "가성비",
-        "점심추천",
-        "예약필수"
+        "가성비"
       ],
+      "keywords": [],
       "moods": [],
-      "menuItems": [
-        {
-          "name": "마라탕",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "마라샹궈",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "꿔바로우 (소)",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "계란볶음밥",
-          "price": 7000,
-          "description": ""
-        },
-        {
-          "name": "마라룽샤",
-          "price": 35000,
-          "description": ""
-        },
-        {
-          "name": "연유꽃빵튀김(4ps)",
-          "price": 4000,
-          "description": ""
-        }
-      ],
+      "scene": [],
       "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "중경마라탕 강남2호점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 827-23 2층",
-      "hours": "",
-      "tel": "02-538-5839",
-      "priceRange": "11000~29000",
-      "rating": 0,
-      "reviewCount": 2238,
-      "blogCount": 446,
-      "tags": [
-        "혼밥가능",
-        "주차가능",
-        "단체가능",
-        "리뷰많음"
-      ],
-      "moods": [],
+      "reservation": false,
       "menuItems": [
         {
-          "name": "[]강남일등[] 사골육수 정통 마라탕(550g(고기미포함))",
-          "price": 11000,
+          "name": "규카츠 정식",
+          "price": 19000,
           "description": ""
         },
         {
-          "name": "[]강남일등[] 사골육수 정통 마라탕(750g(고기미포함))",
-          "price": 15400,
-          "description": ""
-        },
-        {
-          "name": "[]강남일등[] 사골육수 정통 마라탕(950g(고기미포함))",
-          "price": 19800,
-          "description": ""
-        },
-        {
-          "name": "[]강남일등[] 사골육수 정통 마라탕(1150g(고기미포함))",
-          "price": 24200,
-          "description": ""
-        },
-        {
-          "name": "[]강남일등[] 사골육수 정통 마라탕(1350g(고기미포함))",
-          "price": 28600,
-          "description": ""
-        },
-        {
-          "name": "(중경7주년)수제 꿔바로우(8개)",
-          "price": 12400,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": false
-    },
-    {
-      "name": "마유유 마라탕 강남역점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 635-13 2층",
-      "hours": "",
-      "tel": "07-1378-7825",
-      "priceRange": "2400~50500",
-      "rating": 0,
-      "reviewCount": 3073,
-      "blogCount": 538,
-      "tags": [
-        "리뷰많음",
-        "점심추천",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "마라탕 셀프바 100g",
-          "price": 2400,
-          "description": ""
-        },
-        {
-          "name": "마라샹궈 셀프바 100g",
-          "price": 3500,
-          "description": ""
-        },
-        {
-          "name": "소고기 마라탕 & 공기밥",
-          "price": 9800,
-          "description": ""
-        },
-        {
-          "name": "소고기 마라샹궈 & 공기밥",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "든든 1인 마라탕 세트",
-          "price": 14900,
-          "description": ""
-        },
-        {
-          "name": "든든 1인 마라샹궈 세트",
-          "price": 15900,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "중경마라탕 강남역점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 619-17",
-      "hours": "",
-      "tel": "0507-1339-5988",
-      "priceRange": "2200~35000",
-      "rating": 0,
-      "reviewCount": 878,
-      "blogCount": 0,
-      "tags": [
-        "리뷰많음",
-        "혼밥가능",
-        "가성비",
-        "점심추천"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "마라탕 100G",
-          "price": 2200,
-          "description": ""
-        },
-        {
-          "name": "마라샹궈 100G",
-          "price": 3500,
-          "description": ""
-        },
-        {
-          "name": "꿔바로우 소",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "꿔바로우 대",
+          "name": "리얼치즈카츠정식",
           "price": 22000,
           "description": ""
         },
         {
-          "name": "마라쇼룽샤",
-          "price": 35000,
+          "name": "커리크림우동",
+          "price": 15000,
           "description": ""
         },
         {
-          "name": "마파두부",
+          "name": "불닭크림볶음면",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "새우 삼겹 덮밥",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/254171411",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230329_68/1680084687137vl5A5_JPEG/KakaoTalk_20230329_174932601_02.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "쿄코코 신논현점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 616-19 지하1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-558-2252",
+      "priceRange": "9000~32000",
+      "rating": 0,
+      "reviewCount": 11673,
+      "blogCount": 2071,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "(초강력추천)부타동",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "시오토리 라멘",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "푸와푸와 라이스",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "쿄코코스테이크 (400g)",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "name": "(현지보다 맛있는)아부라소바",
           "price": 14000,
           "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/1581701475",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250424_168/1745504530966hTNsA_JPEG/KakaoTalk_20250424_141442044_01.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
-      "name": "라와마라탕 강남직영점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 830-1 2층",
-      "hours": "10:00에 영업 시작",
-      "tel": "07-1441-8907",
-      "priceRange": "1000~17000",
+      "name": "용가회전훠궈 강남점",
+      "type": "일식",
+      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
+      "hours": "",
+      "tel": "07-1362-3181",
+      "priceRange": "18900~22900",
       "rating": 0,
-      "reviewCount": 546,
-      "blogCount": 190,
+      "reviewCount": 4810,
+      "blogCount": 1994,
       "tags": [
-        "가성비",
-        "점심추천",
-        "주차가능",
         "리뷰많음",
-        "예약필수"
+        "혼밥가능",
+        "웨이팅맛집"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "마라탕",
-          "price": 2400,
+          "name": "평일점심 (~15:00)",
+          "price": 18900,
           "description": ""
         },
         {
-          "name": "마라샹궈",
-          "price": 3500,
+          "name": "평일 저녁 (15:00~)",
+          "price": 22900,
           "description": ""
         },
         {
-          "name": "마라반",
-          "price": 2800,
+          "name": "주말 및 공휴일",
+          "price": 22900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241211_240/1733890320076MTwS8_JPEG/KakaoTalk_20241210_160849467_03.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "오제제 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 826-14",
+      "hours": "11:00에 영업 시작",
+      "tel": "070-8691-4659",
+      "priceRange": "12000~44000",
+      "rating": 0,
+      "reviewCount": 753,
+      "blogCount": 1442,
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "A세트:안심,등심 돈카츠, 자루우동",
+          "price": 42000,
           "description": ""
         },
         {
-          "name": "찹쌀꿔바로우(미니)",
-          "price": 10500,
+          "name": "B세트 : 안심,등심 + 새우튀김2개",
+          "price": 44000,
           "description": ""
         },
         {
-          "name": "마라새우(중)",
+          "name": "안심 돈카츠 (히레)",
           "price": 17000,
           "description": ""
         },
         {
-          "name": "프리미엄 마라탕",
-          "price": 3300,
+          "name": "안심 돈카츠 + 새우튀김",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "등심 돈카츠 (로스)",
+          "price": 16000,
           "description": ""
         }
       ],
-      "parking": true,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/1274621934",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230201_221/1675216382918uTnkd_JPEG/%BF%C0%C1%A6%C1%A6_%B7%CE%B0%ED.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
-      "name": "춘리마라탕 강남점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 814-6 CGV 3층",
-      "hours": "",
-      "tel": "02-555-6388",
-      "priceRange": "1500~23900",
+      "name": "강남 돼지상회 무한리필",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-561-8891",
+      "priceRange": "17900~23900",
       "rating": 0,
-      "reviewCount": 7088,
-      "blogCount": 182,
+      "reviewCount": 3865,
+      "blogCount": 1206,
       "tags": [
-        "혼밥가능",
-        "주차가능",
         "리뷰많음",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "대한민국 대표 마라탕(1인분(기본 구성 재료 변경불가))",
-          "price": 10900,
-          "description": ""
-        },
-        {
-          "name": "대한민국 대표 마라탕(2~3인분(기본 구성 재료 변경불가))",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "셀프 마라탕(+++ 기본 소고기 100g +++)",
-          "price": 2900,
-          "description": ""
-        },
-        {
-          "name": "셀프 마라탕(+++ 기본 양고기 100g +++)",
-          "price": 2900,
-          "description": ""
-        },
-        {
-          "name": "셀프 마라탕(할인)기본 숙주 100g +++)",
-          "price": 1500,
-          "description": ""
-        },
-        {
-          "name": "[SET]대표 마라탕+꿔바로우~핵이득(베스트 메뉴를 한 번에)",
-          "price": 16900,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
-    {
-      "name": "탕화쿵푸마라탕 본점 강남직영점",
-      "type": "중식",
-      "addr": "서울특별시 강남구 역삼동 814-6 2층 202호, 203호, 204호",
-      "hours": "11:30에 영업 시작",
-      "tel": "02-553-6668",
-      "priceRange": "11900~34900",
-      "rating": 0,
-      "reviewCount": 2625,
-      "blogCount": 113,
-      "tags": [
         "가성비",
-        "리뷰많음",
+        "단체가능",
+        "데이트",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "[브랜드No.1] 셀프마라탕(소(1인분)530g)",
-          "price": 11900,
+          "name": "A 돼지모듬 무한리필",
+          "price": 17900,
           "description": ""
         },
         {
-          "name": "[브랜드No.1] 셀프마라탕(중(1~2인분)840g)",
-          "price": 16900,
+          "name": "B 돼지모듬+간장순살치킨 무한리필",
+          "price": 19900,
           "description": ""
         },
         {
-          "name": "[브랜드No.1] 셀프마라탕(대(2인분)1160g)",
+          "name": "F 풀코스 무한리필",
           "price": 23900,
           "description": ""
-        },
-        {
-          "name": "[브랜드No.1] 셀프마라탕(특대(3인분)1680g)",
-          "price": 34900,
-          "description": ""
-        },
-        {
-          "name": "[강남No.1] 셀프마라샹궈 (공기밥 1개 제공)(소 (1~2인분))",
-          "price": 15900,
-          "description": ""
-        },
-        {
-          "name": "토마토마라탕",
-          "price": 12900,
-          "description": ""
         }
       ],
-      "parking": false,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/37653872",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190506_285/1557122644765sJerg_JPEG/csUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     }
-  ]
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285
 }

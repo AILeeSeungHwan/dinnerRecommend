@@ -506,7 +506,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
               { href:'/dinner/jamsil',                label:'잠실역',  emoji:'🎡',  live:true },
               { href:'/samsungElectronics', label:'삼전',    emoji:'🏢', live:true },
               { href:'/pangyo',                       label:'판교',    emoji:'💻', live:true },
-              { href:null, label:'강남역', emoji:'🏙️', live:false },
+              { href:'/dinner/gangnam',               label:'강남역',  emoji:'🌆', live:true },
               { href:null, label:'역삼역', emoji:'💼', live:false },
             ].map(s => {
               const isActive = s.href && router.asPath.startsWith(s.href)
@@ -545,6 +545,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
                 { href:'/dinner/jamsil',                 short:'잠실' },
                 { href:'/samsungElectronics',  short:'삼전' },
                 { href:'/pangyo',                        short:'판교' },
+                { href:'/dinner/gangnam',                short:'강남' },
               ]
               const current = stations.find(s => path.startsWith(s.href))
               return (
@@ -577,7 +578,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
                     { href:'/dinner/jamsil',                 label:'잠실역',   emoji:'🎡',  live:true,  desc:'롯데월드·석촌호수·방이' },
                     { href:'/samsungElectronics',  label:'삼성전자', emoji:'🏢', live:true,  desc:'영통·망포·영통구청' },
                     { href:'/pangyo',                        label:'판교',     emoji:'💻', live:true,  desc:'테크노밸리·현대백화점' },
-                    { href:null, label:'강남역', emoji:'🏙️', live:false, desc:'' },
+                    { href:'/dinner/gangnam',                label:'강남역',   emoji:'🌆', live:true,  desc:'강남역·신논현·먹자골목' },
                     { href:null, label:'역삼역', emoji:'💼', live:false, desc:'' },
                   ].map((s, i) => {
                     const isActive = s.href && router.asPath.startsWith(s.href)

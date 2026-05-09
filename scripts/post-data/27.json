@@ -1,284 +1,13 @@
 {
   "id": 27,
-  "slug": "gangnam-date-best-2026",
-  "title": "강남역 데이트 레스토랑 추천 7곳 | 2026",
-  "description": "강남역 분위기 좋은 데이트 맛집 가이드",
-  "category": "date",
+  "slug": "gangnam-izakaya-best-2026",
+  "title": "강남역 이자카야·술집 추천 7곳 | 2026",
+  "description": "강남역 분위기 좋은 이자카야·술집 가이드",
+  "category": "izakaya",
   "region": "gangnam",
-  "date": "2026-05-09",
-  "tags": [
-    "강남역",
-    "데이트",
-    "맛집"
-  ],
-  "categoryStats": {},
-  "regionTotalRestaurants": 285,
+  "date": "2026-05-10",
+  "tags": [],
   "restaurants": [
-    {
-      "name": "82올리언즈 강남점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 817-38 1층",
-      "hours": "11:30에 영업 시작",
-      "tel": "07-1353-5076",
-      "priceRange": "12000~32000",
-      "rating": 0,
-      "reviewCount": 3430,
-      "blogCount": 3653,
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "데이트",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "올리언즈 라자냐",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "올리언즈 스테이크",
-          "price": 32000,
-          "description": ""
-        },
-        {
-          "name": "몬테크리스토",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "볼케이노 맥앤치즈",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "홈메이드 뇨끼&치즈 퐁듀",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "페페로니 토마토 파스타",
-          "price": 18000,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
-    {
-      "name": "플랫나인",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-15 5층",
-      "hours": "",
-      "tel": "07-1389-9630",
-      "priceRange": "19000~69000",
-      "rating": 0,
-      "reviewCount": 4665,
-      "blogCount": 3094,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "점심추천",
-        "데이트",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "시그니처 코스",
-          "price": 59000,
-          "description": ""
-        },
-        {
-          "name": "클래식 코스",
-          "price": 39000,
-          "description": ""
-        },
-        {
-          "name": "런치 파스타 코스",
-          "price": 29000,
-          "description": ""
-        },
-        {
-          "name": "Signature Cocktail",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "NonAlcohol Signature",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "Wine",
-          "price": 0,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "빨간의자집 강남역점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 817-28 1층 빨간의자집 강남역점",
-      "hours": "11:00에 영업 시작",
-      "tel": "07-1376-5351",
-      "priceRange": "4000~18000",
-      "rating": 0,
-      "reviewCount": 5657,
-      "blogCount": 1168,
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "단체가능",
-        "데이트",
-        "웨이팅맛집",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "트리플민트(시그니처)",
-          "price": 4000,
-          "description": ""
-        },
-        {
-          "name": "통 돼지 바베큐 150g",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "[점심특선] 쌈밥 - 직화 석쇠불고기",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "[점심특선] 쌈밥 - 제육 두루치기",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "김치볶음밥",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "매콤비빔국수",
-          "price": 8000,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
-    {
-      "name": "쿄코코 신논현점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 616-19 지하1층",
-      "hours": "11:00에 영업 시작",
-      "tel": "02-558-2252",
-      "priceRange": "9000~32000",
-      "rating": 0,
-      "reviewCount": 11673,
-      "blogCount": 2071,
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "데이트",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "(초강력추천)부타동",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "시오토리 라멘",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "푸와푸와 라이스",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "쿄코코스테이크 (400g)",
-          "price": 32000,
-          "description": ""
-        },
-        {
-          "name": "(현지보다 맛있는)아부라소바",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "명란마제소바",
-          "price": 14000,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
-    {
-      "name": "진구곱창 강남역본점",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-23 1층 진구곱창",
-      "hours": "03:00에 영업 종료",
-      "tel": "07-1390-3309",
-      "priceRange": "5500~45000",
-      "rating": 0,
-      "reviewCount": 6938,
-      "blogCount": 2324,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "주차가능",
-        "데이트",
-        "웨이팅맛집",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "네이버예약 계란찜 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "무료주차 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "콜키지무료 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "구워주는 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "한우곱창모둠 소금구이",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "한우곱창모둠 양념구이",
-          "price": 23000,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
     {
       "name": "밤별 포차 라운지 강남역본점",
       "type": "이자카야",
@@ -295,7 +24,11 @@
         "데이트",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
       "menuItems": [
         {
           "name": "타코와사비",
@@ -321,66 +54,242 @@
           "name": "즉석떡볶이",
           "price": 23500,
           "description": ""
-        },
-        {
-          "name": "숯불불닭",
-          "price": 23500,
-          "description": ""
         }
       ],
-      "parking": false,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/1047144456",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241021_64/1729506099399PeLoW_JPEG/213.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
-      "name": "꼬끼오 장작구이",
-      "type": "고기구이",
-      "addr": "서울특별시 강남구 역삼동 827-46 1, 2층",
+      "name": "스시산원 반주헌",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 825-20 센트럴푸르지오시티 지하2층 224호",
       "hours": "",
-      "tel": "07-1321-9010",
-      "priceRange": "17000~28000",
+      "tel": "07-1389-0565",
+      "priceRange": "24000~75000",
       "rating": 0,
-      "reviewCount": 1098,
-      "blogCount": 710,
+      "reviewCount": 1961,
+      "blogCount": 699,
       "tags": [
         "리뷰많음",
-        "가성비",
+        "주차가능",
+        "단체가능",
         "데이트"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "한방누룽지통닭",
-          "price": 19900,
+          "name": "[런치] 온우동+스시5종",
+          "price": 24000,
           "description": ""
         },
         {
-          "name": "코리아바베큐통닭",
+          "name": "[런치] 오마카세스시",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 반주헌류 스페셜 카이센동",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 사케동정식",
           "price": 26000,
           "description": ""
         },
         {
-          "name": "통통마늘통닭",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "콘치즈통닭",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "한방누룽지통닭 포장",
-          "price": 17500,
-          "description": ""
-        },
-        {
-          "name": "골뱅이소면",
-          "price": 28000,
+          "name": "[런치] 반주헌류 명품 루이비동",
+          "price": 60000,
           "description": ""
         }
       ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1219317289",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241201_78/1733041403976GTUxs_JPEG/GJF06445.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "이자카야 오레노유메 강남역점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 831-29 2층-3층",
+      "hours": "",
+      "tel": "07-1336-1241",
+      "priceRange": "22000~100000",
+      "rating": 0,
+      "reviewCount": 1050,
+      "blogCount": 266,
+      "tags": [
+        "가성비",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "아보카도연어육회",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "고등어 봉초밥",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "[BEST]숙성회세트(소)",
+          "price": 95000,
+          "description": ""
+        },
+        {
+          "name": "[인기메뉴] 모둠꼬치구이 12p",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "[특별 메뉴] 오레노 다랑어 스페셜",
+          "price": 100000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1374424022",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260227_13/17721739343040kRok_JPEG/IMG_7156.jpeg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "오뎅오색 강남역점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-26 1층 105, 106호",
+      "hours": "",
+      "tel": "02-591-8880",
+      "priceRange": "9900~28500",
+      "rating": 0,
+      "reviewCount": 2152,
+      "blogCount": 366,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "스지 오뎅탕",
+          "price": 28500,
+          "description": ""
+        },
+        {
+          "name": "오뎅 세트(순한맛)",
+          "price": 19500,
+          "description": ""
+        },
+        {
+          "name": "오뎅 세트(얼큰한 맛)",
+          "price": 19500,
+          "description": ""
+        },
+        {
+          "name": "일본오뎅 모리아와세(모둠세트)",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "마라오뎅탕",
+          "price": 23000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1678227191",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250712_112/1752246302399AGfkG_JPEG/SOON2578.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "이자카야 고코 강남신논현점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 810-5 반석빌딩 2층 이자카야고코",
+      "hours": "",
+      "tel": "07-1461-9192",
+      "priceRange": "6000~42000",
+      "rating": 0,
+      "reviewCount": 2114,
+      "blogCount": 1203,
+      "tags": [
+        "리뷰많음",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
       "parking": false,
-      "reservation": false
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "고코 숙성 사시미",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "name": "대광어 시오삼합",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "고코 7종 야키토리",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "후쿠오카식 미즈타키",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "왕 후토마끼",
+          "price": 30000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2147325250",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250709_114/1752072650944kfCai_JPEG/KakaoTalk_20250709_233928108.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     }
-  ]
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285
 }

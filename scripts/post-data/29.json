@@ -1,380 +1,284 @@
 {
   "id": 29,
-  "slug": "gangnam-budget-best-2026",
-  "title": "강남역 가성비 맛집 추천 7곳 | 2026 혼밥·점심",
-  "description": "강남역 가성비 좋은 혼밥·점심 맛집 가이드",
-  "category": "budget",
+  "slug": "gangnam-chinese-best-2026",
+  "title": "강남역 중식 맛집 추천 7곳 | 2026",
+  "description": "강남역 중식 맛집 가이드 — 짬뽕, 탕수육, 마라탕",
+  "category": "chinese",
   "region": "gangnam",
-  "date": "2026-05-09",
-  "tags": [
-    "강남역",
-    "가성비·혼밥",
-    "맛집"
-  ],
-  "categoryStats": {},
-  "regionTotalRestaurants": 285,
+  "date": "2026-05-10",
+  "tags": [],
   "restaurants": [
     {
-      "name": "플랫나인",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-15 5층",
+      "name": "용가회전훠궈 강남점",
+      "type": "일식",
+      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
       "hours": "",
-      "tel": "07-1389-9630",
-      "priceRange": "19000~69000",
+      "tel": "07-1362-3181",
+      "priceRange": "18900~22900",
       "rating": 0,
-      "reviewCount": 4665,
-      "blogCount": 3094,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "점심추천",
-        "데이트",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "시그니처 코스",
-          "price": 59000,
-          "description": ""
-        },
-        {
-          "name": "클래식 코스",
-          "price": 39000,
-          "description": ""
-        },
-        {
-          "name": "런치 파스타 코스",
-          "price": 29000,
-          "description": ""
-        },
-        {
-          "name": "Signature Cocktail",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "NonAlcohol Signature",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "Wine",
-          "price": 0,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "고베규카츠 서울 강남점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 617-3 예촌빌딩",
-      "hours": "11:30에 영업 시작",
-      "tel": "07-1443-4620",
-      "priceRange": "1500~22000",
-      "rating": 0,
-      "reviewCount": 13775,
-      "blogCount": 6479,
+      "reviewCount": 4810,
+      "blogCount": 1994,
       "tags": [
         "리뷰많음",
         "혼밥가능",
-        "가성비"
+        "웨이팅맛집"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "규카츠 정식",
-          "price": 19000,
+          "name": "평일점심 (~15:00)",
+          "price": 18900,
           "description": ""
         },
         {
-          "name": "리얼치즈카츠정식",
-          "price": 22000,
+          "name": "평일 저녁 (15:00~)",
+          "price": 22900,
           "description": ""
         },
         {
-          "name": "커리크림우동",
-          "price": 15000,
+          "name": "주말 및 공휴일",
+          "price": 22900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241211_240/1733890320076MTwS8_JPEG/KakaoTalk_20241210_160849467_03.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "무궁화반점 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 819-10 1층",
+      "hours": "",
+      "tel": "02-557-5227",
+      "priceRange": "8500~25000",
+      "rating": 0,
+      "reviewCount": 3829,
+      "blogCount": 485,
+      "tags": [
+        "혼밥가능",
+        "가성비",
+        "점심추천",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "무궁화 짬뽕",
+          "price": 12000,
           "description": ""
         },
         {
-          "name": "불닭크림볶음면",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "새우 삼겹 덮밥",
+          "name": "소고기 직화 짬뽕",
           "price": 13000,
           "description": ""
         },
         {
-          "name": "우삼겹덮밥",
+          "name": "순두부 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "수제비 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "청양고추 짬뽕",
           "price": 13000,
           "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/1365889228",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260407_71/17755676043756AUb6_JPEG/1.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
-      "name": "미나리밭오리사냥 강남역점",
+      "name": "아방궁",
       "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 817-19 1층",
-      "hours": "11:30에 영업 시작",
-      "tel": "07-1357-8489",
-      "priceRange": "6000~65000",
+      "addr": "서울특별시 강남구 역삼동 831-32 2층",
+      "hours": "",
+      "tel": "07-1402-0794",
+      "priceRange": "9000~13000",
       "rating": 0,
-      "reviewCount": 5880,
-      "blogCount": 959,
+      "reviewCount": 1428,
+      "blogCount": 631,
+      "tags": [
+        "리뷰많음",
+        "단체가능",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "강남짜장",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "간짜장",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "옛날볶음밥",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "강남짬뽕",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "삼선볶음밥",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/35553533",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250819_219/1755588732666aOeDu_JPEG/2.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "차슈밍",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 818-8",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-3473-8812",
+      "priceRange": "8000~13000",
+      "rating": 0,
+      "reviewCount": 1204,
+      "blogCount": 956,
       "tags": [
         "리뷰많음",
         "점심추천",
-        "웨이팅맛집",
+        "단체가능",
+        "데이트",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "생 오리주물럭(중)",
-          "price": 45000,
+          "name": "짜장면",
+          "price": 8000,
           "description": ""
         },
         {
-          "name": "생 오리주물럭(대)",
-          "price": 56000,
+          "name": "짬뽕",
+          "price": 9000,
           "description": ""
         },
         {
-          "name": "생 오리로스 사냥(중)",
-          "price": 42000,
+          "name": "간짜장",
+          "price": 9000,
           "description": ""
         },
         {
-          "name": "생 오리로스 사냥(대)",
-          "price": 54000,
+          "name": "삼선간짜장",
+          "price": 11000,
           "description": ""
         },
         {
-          "name": "오리생로스+오리주물럭",
-          "price": 65000,
-          "description": ""
-        },
-        {
-          "name": "대패 오리사냥 600g",
-          "price": 36000,
+          "name": "매운삼선간짜장",
+          "price": 11000,
           "description": ""
         }
       ],
-      "parking": false,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/18400193",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231212_251/1702364937336DKh2w_JPEG/P20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
-      "name": "팔도밀방 강남본점",
+      "name": "삼성각",
       "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 818-13 2층",
-      "hours": "",
-      "tel": "07-1369-8518",
-      "priceRange": "9000~62000",
+      "addr": "서울특별시 서초구 서초동 1330-18 현대기림오피텔",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-598-7779",
+      "priceRange": "9000~45000",
       "rating": 0,
-      "reviewCount": 1124,
-      "blogCount": 1678,
+      "reviewCount": 872,
+      "blogCount": 840,
       "tags": [
         "리뷰많음",
-        "가성비",
+        "점심추천",
+        "주차가능",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "팔도 수육전골 한상",
-          "price": 59000,
+          "name": "삼선짬뽕",
+          "price": 14000,
           "description": ""
         },
         {
-          "name": "치즈가득 목뼈살찜",
-          "price": 42000,
+          "name": "차돌짬뽕",
+          "price": 14000,
           "description": ""
         },
         {
-          "name": "팔도해장수육전골",
-          "price": 29000,
-          "description": ""
-        },
-        {
-          "name": "진미 한우 뭉티기(중)",
+          "name": "등심탕수육((2~3인))",
           "price": 30000,
           "description": ""
         },
         {
-          "name": "팔도1987돈까스",
-          "price": 11000,
+          "name": "등심탕수육((3~4인))",
+          "price": 45000,
           "description": ""
         },
         {
-          "name": "사골고기칼국수 (흑임자면)",
-          "price": 11000,
+          "name": "짜장면",
+          "price": 9000,
           "description": ""
         }
       ],
-      "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "정희 강남역점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 813-12 지상1층",
-      "hours": "11:00에 영업 시작",
-      "tel": "07-1320-5536",
-      "priceRange": "10900~39900",
-      "rating": 0,
-      "reviewCount": 797,
-      "blogCount": 95,
-      "tags": [
-        "점심추천",
-        "리뷰많음"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "정희한상 플래터",
-          "price": 39900,
-          "description": ""
-        },
-        {
-          "name": "정희 삼합",
-          "price": 19900,
-          "description": ""
-        },
-        {
-          "name": "고사리 크림 수제비",
-          "price": 13900,
-          "description": ""
-        },
-        {
-          "name": "새우감자전",
-          "price": 17900,
-          "description": ""
-        },
-        {
-          "name": "강된장 케일 쌈밥",
-          "price": 10900,
-          "description": ""
-        },
-        {
-          "name": "소고기 지짐밥",
-          "price": 13900,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": false
-    },
-    {
-      "name": "진구곱창 강남역본점",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-23 1층 진구곱창",
-      "hours": "03:00에 영업 종료",
-      "tel": "07-1390-3309",
-      "priceRange": "5500~45000",
-      "rating": 0,
-      "reviewCount": 6938,
-      "blogCount": 2324,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "주차가능",
-        "데이트",
-        "웨이팅맛집",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "네이버예약 계란찜 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "무료주차 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "콜키지무료 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "구워주는 서비스",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "한우곱창모둠 소금구이",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "한우곱창모둠 양념구이",
-          "price": 23000,
-          "description": ""
-        }
-      ],
-      "parking": true,
-      "reservation": true
-    },
-    {
-      "name": "꼬끼오 장작구이",
-      "type": "고기구이",
-      "addr": "서울특별시 강남구 역삼동 827-46 1, 2층",
-      "hours": "",
-      "tel": "07-1321-9010",
-      "priceRange": "17000~28000",
-      "rating": 0,
-      "reviewCount": 1098,
-      "blogCount": 710,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "데이트"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "한방누룽지통닭",
-          "price": 19900,
-          "description": ""
-        },
-        {
-          "name": "코리아바베큐통닭",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "통통마늘통닭",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "콘치즈통닭",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "한방누룽지통닭 포장",
-          "price": 17500,
-          "description": ""
-        },
-        {
-          "name": "골뱅이소면",
-          "price": 28000,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/18312433",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191107_227/1573106191534dgp5j_JPEG/1qV3X5JWH37LgLqR7OT-KryU.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     }
-  ]
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285
 }

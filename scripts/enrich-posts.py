@@ -19,6 +19,8 @@ REGIONS = {
     'yeongtong':{'file': 'yeongtong.js','name': '영통',   'path': '/samsungElectronics/yeongtong'},
     'mangpo':   {'file': 'mangpo.js',   'name': '망포',   'path': '/samsungElectronics/mangpo'},
     'yeongtongGu':{'file':'yeongtongGu.js','name':'영통구청','path':'/samsungElectronics/yeongtongGu'},
+    'suji':     {'file':'suji.js',     'name':'수지',   'path':'/suji'},
+    'gangnam':  {'file':'gangnam.js',  'name':'강남역', 'path':'/dinner/gangnam'},
 }
 
 def load_restaurants(filename):
@@ -250,7 +252,7 @@ def extract_restaurant_data(name):
 output_dir = os.path.join(BASE, 'scripts', 'post-data')
 os.makedirs(output_dir, exist_ok=True)
 
-SKIP_GANGNAM = {26, 27, 28, 29, 30, 31, 32, 33}  # 강남역 — 별도 작업중, 건드리지 않음
+SKIP_GANGNAM = set()  # 강남 작업 정상화 — enrich 정상 처리
 
 for meta in POSTS_META:
     post_id = meta['id']

@@ -5,14 +5,8 @@
   "description": "강남역 고기집 가이드 — 삼겹살, 한우, 갈비 가격 비교",
   "category": "meat",
   "region": "gangnam",
-  "date": "2026-05-09",
-  "tags": [
-    "강남역",
-    "고기",
-    "맛집"
-  ],
-  "categoryStats": {},
-  "regionTotalRestaurants": 285,
+  "date": "2026-05-10",
+  "tags": [],
   "restaurants": [
     {
       "name": "꼬끼오 장작구이",
@@ -29,7 +23,11 @@
         "가성비",
         "데이트"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
           "name": "한방누룽지통닭",
@@ -55,15 +53,15 @@
           "name": "한방누룽지통닭 포장",
           "price": 17500,
           "description": ""
-        },
-        {
-          "name": "골뱅이소면",
-          "price": 28000,
-          "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/1553521994",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240426_242/1714124019043NbMkY_JPEG/IMG_7198.jpeg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "고기꾼김춘배 강남점",
@@ -82,7 +80,11 @@
         "데이트",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
           "name": "한우 꾸리살 육회 200g",
@@ -108,15 +110,15 @@
           "name": "반반냉면",
           "price": 8000,
           "description": ""
-        },
-        {
-          "name": "한우 특상우설(120g)",
-          "price": 34000,
-          "description": ""
         }
       ],
-      "parking": true,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/37837518",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251223_12/1766465054437g40JH_JPEG/%BD%E6%B3%D7%C0%CF.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "까사생갈비",
@@ -135,7 +137,11 @@
         "데이트",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
           "name": "프리미엄 숙성 생갈비",
@@ -161,15 +167,15 @@
           "name": "돼지모듬 세트[신논현역맛집대표메뉴]",
           "price": 89000,
           "description": ""
-        },
-        {
-          "name": "소꽃갈비&돼지생갈비세트[강남역소고기]",
-          "price": 109000,
-          "description": ""
         }
       ],
-      "parking": true,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/593588180",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20210706_274/1625562793688SfwWj_JPEG/U4RTD0d4QYMco5KkpBHLMdG9.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "전설의우대갈비 강남직영점",
@@ -186,7 +192,11 @@
         "주차가능",
         "예약필수"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
           "name": "전설우대갈비(1대) 370g",
@@ -214,8 +224,13 @@
           "description": ""
         }
       ],
-      "parking": true,
-      "reservation": true
+      "naverUrl": "https://map.naver.com/v5/entry/place/1060344271",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250224_95/1740380218515lq6OR_PNG/%B8%DE%C0%CE1.png",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "라장양갈비양꼬치 무한리필",
@@ -233,7 +248,11 @@
         "단체가능",
         "웨이팅맛집"
       ],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
           "name": "양꼬치 무한리필",
@@ -259,15 +278,15 @@
           "name": "생양갈비(숄더랙)",
           "price": 24000,
           "description": ""
-        },
-        {
-          "name": "꿔바로우",
-          "price": 18000,
-          "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/1037655034",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231226_201/1703558043886LdPbH_JPEG/KakaoTalk_20231226_110025920.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "엄순녀뼈구이순대국 강남역점",
@@ -280,7 +299,11 @@
       "reviewCount": 475,
       "blogCount": 0,
       "tags": [],
+      "keywords": [],
       "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
           "name": "숯불뼈구이세트(2인이상주문)",
@@ -306,15 +329,15 @@
           "name": "우거지감자탕(소/중/대)",
           "price": 34000,
           "description": ""
-        },
-        {
-          "name": "순대국정식",
-          "price": 13000,
-          "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "naverUrl": "https://map.naver.com/v5/entry/place/2083281149",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251119_74/1763538704899okiVv_PNG/%C4%A1%C1%EE%BB%C0%B1%B8%C0%CC%B1%D9%C1%A2.png",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     },
     {
       "name": "칼맞은삼겹살 강남본점",
@@ -327,10 +350,21 @@
       "reviewCount": 469,
       "blogCount": 0,
       "tags": [],
+      "keywords": [],
       "moods": [],
-      "menuItems": [],
+      "scene": [],
       "parking": false,
-      "reservation": false
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/702447560",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220913_192/1663056263581LQk4y_JPEG/image.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
     }
-  ]
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285
 }

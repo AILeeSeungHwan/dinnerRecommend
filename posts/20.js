@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a>.</p><p>5점·리뷰 33건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"color:var(--primary)\">→ 탄향1965 매탄점 상세 정보 보기</a></p>",
+      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a>.</p><p>평점 5점, 리뷰 33건으로 안정적인 평가를 받고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"color:var(--primary)\">→ 탄향1965 매탄점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 일식 전문점입니다. 5점에 리뷰 33건이 쌓여 있습니다.</p><p>평점 5점, 리뷰 33건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 샤브향 수원매탄점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 평점 5점, 리뷰 33건 정도 있습니다.</p><p>평점 5점, 리뷰 33건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 샤브향 수원매탄점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>. 한식 전문점으로, 평점 5점에 리뷰 22건을 기록하고 있습니다.</p><p>한우등심 압도적 가성비 600g 79,000원이 가장 인기 있는 메뉴이며, 일미리꽃삼 16,000원, 제주 흑 오겹살 18,000원도 추천드립니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>5점·리뷰 22건. 방문자 평이 비교적 일관되게 좋은 편입니다. 점심 한 끼 15천원이면 부담 없이 드실 수 있습니다.</p><p>고기가 부드워서 만족도가 높습니다. 육질에 대한 긍정적인 리뷰가 다수 확인되었습니다. 가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·양·맛 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"color:var(--primary)\">→ 양화돼교 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>. 한식 전문점입니다. 5점에 리뷰 22건이 쌓여 있습니다.</p><p>대표 메뉴는 한우등심 압도적 가성비 600g 79,000원, 일미리꽃삼 16,000원, 제주 흑 오겹살 18,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 22건에 5점이면 꾸준히 무난한 편입니다. 15천원대면 점심값으로 무난한 선입니다.</p><p>고기가 부드워서 만족도가 높습니다. 육질에 대한 긍정적인 리뷰가 다수 확인되었습니다. 가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·양·맛 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"color:var(--primary)\">→ 양화돼교 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a>. 양식 전문점으로, 평점 5점에 리뷰 22건을 기록하고 있습니다.</p><p>평점 5점, 리뷰 22건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\" style=\"color:var(--primary)\">→ 오월의꽃수저 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a>. 양식 전문점입니다. 5점에 리뷰 22건이 쌓여 있습니다.</p><p>리뷰 22건에 5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\" style=\"color:var(--primary)\">→ 오월의꽃수저 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">1245건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">22건</td><td style=\"padding:7px 6px;text-align:center\">15,000~90,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">22건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">1245건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">22건</td><td style=\"padding:7px 6px;text-align:center\">15,000~90,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">22건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "정희-판교아브뉴프랑점",
-      text: "정희 판교아브뉴프랑점 — 평점 4.8·리뷰 644건",
+      text: "정희 판교아브뉴프랑점 — 한식 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>. 한식 전문점으로, 평점 4.8점을 기록하고 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 644건에 4.8점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 정희 판교아브뉴프랑점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>. 한식 전문점으로, 평점 4.8점을 기록하고 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>4.8점·리뷰 644건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 정희 판교아브뉴프랑점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "꿰다",
-      text: "꿰다 — 해산물·일식 전문점",
+      text: "꿰다 — 평점 4.9·리뷰 244건",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>해산물·일식 하면 <a href=\"/pangyo/restaurant/꿰다\">꿰다</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>4.9점·리뷰 244건. 방문자 평이 비교적 일관되게 좋은 편입니다. 인테리어가 사진 찍기 좋게 꾸며져 있어 SNS에 자주 올라오는 곳입니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/꿰다\">꿰다</a>. 평점 4.9점, 리뷰 244건 정도 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.9점, 리뷰 244건으로 안정적인 평가를 받고 있습니다. 인테리어가 사진 찍기 좋게 꾸며져 있어 SNS에 자주 올라오는 곳입니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>. 양식·이탈리안 전문점으로, 평점 4.9점에 리뷰 7건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>4.9점·리뷰 7건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>. 양식·이탈리안 전문점으로, 평점 4.9점에 리뷰 7건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>평점 4.9점, 리뷰 7건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>. 이자카야·일식 전문점입니다. 4.6점에 리뷰 19건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 19건에 4.6점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>. 평점 4.6점, 리뷰 19건 정도 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.6점, 리뷰 19건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">644건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">479건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">644건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">479건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useRouter } from 'next/router'
 
 // ── 통합 쿨다운 (모든 트리거 공유) ──────────────────────────────────────
 // 탭·링크·룰렛·AI 어느 경로든 전면광고 노출 후 2분이 지나야 다시 노출
@@ -21,6 +22,7 @@ const recordShow = () => {
 }
 
 export default function Interstitial() {
+  const router = useRouter()
   const [visible, setVisible]   = useState(false)
   const [seconds, setSeconds]   = useState(AUTO_CLOSE_SEC)
   const timerRef    = useRef(null)
@@ -125,18 +127,32 @@ export default function Interstitial() {
   // ── 닫기 ─────────────────────────────────────────────────────────────────
   const closeAd = () => {
     clearInterval(timerRef.current)
+    // ref를 먼저 로컬로 복사 (setVisible/unmount 후에도 보장)
+    const href    = pendingHref.current
+    const isBlank = pendingBlank.current
+    pendingHref.current  = null
+    pendingBlank.current = false
     setVisible(false)
-    if (pendingHref.current) {
-      const href    = pendingHref.current
-      const isBlank = pendingBlank.current
-      pendingHref.current  = null
-      pendingBlank.current = false
-      if (isBlank) {
-        window.open(href, '_blank', 'noopener,noreferrer')
-      } else {
+    if (!href) return
+
+    if (isBlank) {
+      window.open(href, '_blank', 'noopener,noreferrer')
+      return
+    }
+    // 외부 URL은 location.href, 내부 SPA 경로는 router.push
+    const isExternal = /^https?:\/\//i.test(href)
+    // setVisible(false) 후 React unmount/cleanup이 끝난 다음 라우팅 시도
+    setTimeout(() => {
+      try {
+        if (isExternal) {
+          window.location.href = href
+        } else {
+          router.push(href).catch(() => { window.location.href = href })
+        }
+      } catch {
         window.location.href = href
       }
-    }
+    }, 50)
   }
 
   if (!visible) return null
