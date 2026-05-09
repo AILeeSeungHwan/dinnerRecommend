@@ -148,8 +148,9 @@ except json.JSONDecodeError as e:
 print(f"\n총 {len(POSTS_META)}개 포스트 메타 로드")
 
 # ── 3. 포스트 본문에서 식당명 추출 ────────────────────────────────
-def extract_restaurant_names(post_id):
-    """posts/{id}.js에서 <strong>식당명</strong> 패턴 추출"""
+def extract_restaurant_names(post_id, region_key=None):
+    """posts/{id}.js에서 식당명 추출.
+    region_key가 주어지면 그 지역에서만 매칭. 없으면 전 지역 fallback."""
     fpath = os.path.join(BASE, 'posts', f'{post_id}.js')
     if not os.path.exists(fpath):
         return []
@@ -159,29 +160,50 @@ def extract_restaurant_names(post_id):
     names = re.findall(r'<strong>([^<]+)</strong>', text)
     # 패턴2: <strong><a href="...">식당명</a></strong>
     names += re.findall(r'<strong><a[^>]*>([^<]+)</a></strong>', text)
-    # 패턴3: h2 text에서 식당명 추출 (예: "고기구이 — 청우회관")
-    h2_texts = re.findall(r"text:\s*'([^']*)'", text)
+    # 패턴3: <a href="/dinner/{region}/restaurant/식당명">
+    names += re.findall(r'/restaurant/([^"\']+)', text)
+    # 패턴4: h2 text의 "식당명 — suffix"
+    h2_texts = re.findall(r"text:\s*['\"]([^'\"]*)['\"]", text)
     for h2 in h2_texts:
-        if '—' in h2:
-            after_dash = h2.split('—')[-1].strip()
-            names.append(after_dash)
-        elif '–' in h2:
-            after_dash = h2.split('–')[-1].strip()
-            names.append(after_dash)
-    # 필터: 실제 식당명인지 확인 (NAME_INDEX에 있거나 부분일치)
+        for sep in ['—', '–', ' - ']:
+            if sep in h2:
+                before = h2.split(sep)[0].strip()
+                if before and not any(skip in before for skip in ['선정 기준', '한눈에', '상황별', '방문 전', '맛집']):
+                    names.append(before)
+                break
+    # 패턴5: caption 식당명
+    captions = re.findall(r"caption:\s*['\"]([^'\"]+)['\"]", text)
+    names += captions
+
+    region_idx = NAME_INDEX_BY_REGION.get(region_key, {}) if region_key else {}
+
     matched = []
-    for name in names:
-        name = name.strip()
-        if name in NAME_INDEX:
-            matched.append(name)
-        else:
-            # 부분 매칭 시도 (예: "논두렁오리주물럭 선릉직영점" → "논두렁오리주물럭")
-            for full_name in NAME_INDEX:
-                if len(name) >= 2 and (name in full_name or full_name in name):
-                    if full_name not in [m for m in matched]:
-                        matched.append(full_name)
-                    break
-    return list(dict.fromkeys(matched))  # 순서 유지 중복 제거
+    seen = set()
+    for raw in names:
+        name = raw.strip()
+        if not name or name in seen:
+            continue
+        # 1순위: 동일 지역 정확 매칭
+        if region_key and name in region_idx:
+            if name not in seen:
+                matched.append(name); seen.add(name)
+            continue
+        # 2순위: 동일 지역 부분 매칭 (엄격 — 길이 비율 50% 이상)
+        if region_key:
+            best = None
+            for full_name in region_idx:
+                if len(name) >= 3 and (name in full_name or full_name in name):
+                    short, long = (name, full_name) if len(name) <= len(full_name) else (full_name, name)
+                    if len(short) / max(len(long), 1) >= 0.5:
+                        best = full_name
+                        break
+            if best and best not in seen:
+                matched.append(best); seen.add(best)
+                continue
+        # 3순위: 전 지역에서 정확 매칭만 (부분 매칭은 region 외에서 안전하지 않음)
+        if name in NAME_INDEX and name not in seen:
+            matched.append(name); seen.add(name)
+    return matched
 
 # ── 4. 식당별 데이터 추출 ─────────────────────────────────────────
 def extract_restaurant_data(name):
