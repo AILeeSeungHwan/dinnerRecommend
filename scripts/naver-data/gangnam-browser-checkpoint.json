@@ -5520,6 +5520,188 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/38226262",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250326_197/1742963879239oard9_JPEG/KakaoTalk_Photo_2025-03-26-13-36-59-8.jpeg"
+    },
+    {
+      "naverPlaceId": "1850791145",
+      "name": "헤비스테이크 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1893,
+      "addr": "서울특별시 강남구 역삼동 826-29 역삼우정에쉐르 1층 103호",
+      "hours": "",
+      "tel": "02-557-3309",
+      "lat": 37.4963474,
+      "lng": 127.030284,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1850791145",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250523_85/1747958692962vjQBR_JPEG/10.jpg"
+    },
+    {
+      "naverPlaceId": "1687684396",
+      "name": "트라가 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스페인음식"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 15683,
+      "addr": "서울특별시 서초구 서초동 1321-9 2층 201호 트라가",
+      "hours": "",
+      "tel": "0507-1313-3523",
+      "lat": 37.4956249,
+      "lng": 127.025689,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1687684396",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241209_207/1733706603292dP2Lv_JPEG/15_%C7%D6%B8%F0%C0%BD%C4%C6_%281%29.jpg"
+    },
+    {
+      "naverPlaceId": "1427134948",
+      "name": "미도인 강남",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 4459,
+      "addr": "서울특별시 강남구 역삼동 619-3 지상 1층",
+      "hours": "",
+      "tel": "0507-1441-2065",
+      "lat": 37.5021186,
+      "lng": 127.0271668,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1427134948",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241104_131/1730693923826zsEjq_PNG/%B0%AD%B3%B2%B8%C0%C1%FD%B0%AD%B3%B2%BF%AA%B8%C0%C1%FD%BD%C5%B3%ED%C7%F6%B8%C0%C1%FD%BD%C5%B3%ED%C7%F6%BF%AA%B8%C0%C1%FD%B0%AD%B3%B2%BD%BA%C5%D7%C0%CC%C5%A9%B0%AD%B3%B2%B5%A4%B9%E4%B0%AD%B3%B2%C6%C4%BD%BA%C5%B8%B0%AD%B3%B2%B6%F3%B8%E0%B0%AD%B3%B2%BC%FA%C1%FD%BD%C5%B3%ED%C7%F6%BC%FA%C1%FD%B0%AD%B3%B2%B5%A5%C0%CC%C6%AE%B0%AD%B3%B2%C8%A5%B9%E4_%281%29.png"
+    },
+    {
+      "naverPlaceId": "1520026369",
+      "name": "본인브라질",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스테이크,립"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 223,
+      "addr": "서울특별시 강남구 역삼동 810-9 2층",
+      "hours": "",
+      "tel": "0507-1412-0136",
+      "lat": 37.5030117,
+      "lng": 127.0263691,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1520026369",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241230_213/1735486315321iyqd7_JPEG/20241223_175253.jpg"
+    },
+    {
+      "naverPlaceId": "1217686295",
+      "name": "헬로 브라질",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스테이크,립"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 865,
+      "addr": "서울특별시 강남구 역삼동 817-2 지상 3층",
+      "hours": "",
+      "tel": "0507-1364-8732",
+      "lat": 37.5006249,
+      "lng": 127.0277083,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1217686295",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20230502_57/1682996644675blC0l_JPEG/KakaoTalk_20230424_185118050.jpg"
+    },
+    {
+      "naverPlaceId": "2033826646",
+      "name": "봉스테이크",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스테이크,립"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 107,
+      "addr": "서울특별시 강남구 역삼동 817-12 1층",
+      "hours": "",
+      "tel": "0507-1467-2156",
+      "lat": 37.4999216,
+      "lng": 127.0279838,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2033826646",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20260502_30/1777648147710nY0E7_PNG/image.png"
     }
   ],
   "completedQueries": [
@@ -5539,7 +5721,8 @@
     "강남역 마라탕",
     "강남역 짬뽕",
     "강남역 양식",
-    "강남역 파스타"
+    "강남역 파스타",
+    "강남역 스테이크"
   ],
-  "timestamp": "2026-05-09T12:57:49.397Z"
+  "timestamp": "2026-05-09T12:58:48.824Z"
 }
