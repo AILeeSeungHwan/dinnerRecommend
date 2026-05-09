@@ -27,9 +27,10 @@ HEADERS = {
 REGION_DISPLAY = {
     'samseong': '삼성역', 'jamsil': '잠실', 'pangyo': '판교',
     'yeongtong': '영통', 'mangpo': '망포', 'yeongtongGu': '영통구청', 'suji': '수지',
+    'gangnam': '강남역',
 }
 
-ALL_REGIONS = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji']
+ALL_REGIONS = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji', 'gangnam']
 REGIONS = [args.region] if args.region else ALL_REGIONS
 
 session = requests.Session()

@@ -23,7 +23,7 @@ if os.path.exists(IMG_MAPPING_FILE):
 
 # ── data/*.js에서 rv(리뷰) 데이터 로드 ────────────────────────────
 RV_MAP = {}  # region → name → [review texts]
-REGIONS_ALL = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji']
+REGIONS_ALL = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji', 'gangnam']
 for _region in REGIONS_ALL:
     _data_file = os.path.join(BASE, 'data', f'{_region}.js')
     if not os.path.exists(_data_file):
@@ -65,6 +65,7 @@ REGION_INFO = {
     'yeongtong':{'name': '영통',   'path': '/samsungElectronics/yeongtong', 'area': '영통역·삼성전자'},
     'mangpo':   {'name': '망포',   'path': '/samsungElectronics/mangpo',    'area': '망포역·삼성전자'},
     'yeongtongGu':{'name':'영통구청','path':'/samsungElectronics/yeongtongGu','area':'영통구청·매탄동'},
+    'gangnam':  {'name': '강남역', 'path': '/dinner/gangnam', 'area': '강남역·역삼역·신논현역'},
 }
 
 # ── 카테고리별 콘텐츠 앵글 ───────────────────────────────────────

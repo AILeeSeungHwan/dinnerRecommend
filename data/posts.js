@@ -24,5 +24,8 @@ const posts = [
   { id:23, slug:'jamsil-date-course-complete-2026', title:'잠실 데이트 코스 완벽 가이드 2026 | 석촌호수·뷰맛집 식당 추천', description:'잠실 데이트 코스 — 저녁 식사부터 2차 뷰맛집까지 완벽 가이드', category:'date', region:'jamsil', date:'2026-05-09', tags:['잠실','데이트','석촌호수','코스'], thumbnail:'/images/posts/23/thumb.jpg' },
   { id:24, slug:'samsung-after-party-bar-2026', title:'삼성역 회식 2차 술집 추천 5곳 | 코엑스 이자카야·바 가이드', description:'삼성역 회식 1차 후 2차 술집·바 5곳 상황별 가이드', category:'izakaya', region:'samseong', date:'2026-05-09', tags:['삼성역','2차','술집','이자카야'], thumbnail:'/images/posts/24/thumb.jpg' },
   { id:25, slug:'yeongtong-date-restaurant-2026', title:'영통역 데이트 맛집 추천 5곳 | 뷰맛집·분위기 레스토랑 가이드', description:'영통역·망포 데이트 맛집 5곳 분위기·가성비·주차 비교', category:'date', region:'yeongtong', date:'2026-05-09', tags:['영통','데이트','뷰맛집','레스토랑'], thumbnail:'/images/posts/25/thumb.jpg' },
+  {id:26,slug:'gangnam-meat-best-2026',title:'강남역 고기 맛집 추천 7곳 | 2026 가격·평점 비교',description:'강남역 고기집 가이드 — 삼겹살, 한우, 갈비 가격 비교',region:'gangnam',category:'meat',date:'2026-05-09',thumbnail:'/images/posts/1/thumb.jpg'},
+  {id:27,slug:'gangnam-izakaya-best-2026',title:'강남역 이자카야·술집 추천 7곳 | 2026',description:'강남역 분위기 좋은 이자카야·술집 가이드',region:'gangnam',category:'izakaya',date:'2026-05-09',thumbnail:'/images/posts/2/thumb.jpg'},
+  {id:28,slug:'gangnam-japanese-best-2026',title:'강남역 일식·스시 추천 6곳 | 2026',description:'강남역 일식·스시·오마카세 가이드',region:'gangnam',category:'japanese',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'}
 ]
 export default posts

@@ -62,6 +62,14 @@ const REGIONS = {
     bounds: { latMin: 37.305, latMax: 37.345, lngMin: 127.055, lngMax: 127.115 },
     searchKeywords: ['수지구청역', '동천역', '수지', '풍덕천동', '성복동', '동천동', '현대그린푸드', '신봉동'],
   },
+  gangnam: {
+    label: '강남역',
+    dataFile: 'data/gangnam.js',
+    center: { lat: 37.4979, lng: 127.0276 },
+    radius: 2.0,
+    bounds: { latMin: 37.483, latMax: 37.515, lngMin: 127.010, lngMax: 127.050 },
+    searchKeywords: ['강남역', '강남', '역삼역', '신논현역', '강남대로', '서초동', '역삼동', '논현동', '강남구'],
+  },
 }
 
 // 카테고리 검색어 (지역 키워드와 조합)

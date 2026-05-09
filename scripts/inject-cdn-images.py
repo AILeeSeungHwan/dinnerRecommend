@@ -10,7 +10,7 @@ import json, os, re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NAVER_DATA_DIR = os.path.join(BASE, 'scripts', 'naver-data')
-REGIONS = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji']
+REGIONS = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji', 'gangnam']
 
 for region in REGIONS:
     browser_file = os.path.join(NAVER_DATA_DIR, f'{region}-browser.json')
