@@ -9878,6 +9878,240 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1880480084",
       "imageUrl": "https://ldb-phinf.pstatic.net/20241106_60/1730873552553ghTTx_JPEG/IMG_2712.jpeg"
+    },
+    {
+      "naverPlaceId": "1802518152",
+      "name": "샤브지오 강남역점",
+      "type": "일식",
+      "categories": [
+        "일식",
+        "샤브샤브"
+      ],
+      "cat": [
+        "일식"
+      ],
+      "rt": 0,
+      "cnt": 1026,
+      "addr": "서울특별시 서초구 서초동 1317-20 아라타워 214-1호~219-1호",
+      "hours": "",
+      "tel": "0507-1436-9315",
+      "lat": 37.4980499,
+      "lng": 127.0264971,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1802518152",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241207_95/1733564380371zXNY0_JPEG/%B7%B1%C4%A1.jpg"
+    },
+    {
+      "naverPlaceId": "1384682944",
+      "name": "마리김밥",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "종합분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 98,
+      "addr": "서울특별시 강남구 역삼동 858",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4981646,
+      "lng": 127.0283079,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1384682944",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190103_146/1546520443036KgJ5C_JPEG/dqpJ-xrM5Ozq_u1L6DPQYtvP.jpg"
+    },
+    {
+      "naverPlaceId": "1757879526",
+      "name": "일월분식",
+      "type": "분식",
+      "categories": [
+        "분식",
+        "종합분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 18,
+      "addr": "서울특별시 강남구 역삼동 858",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4981646,
+      "lng": 127.0283079,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1757879526",
+      "imageUrl": ""
+    },
+    {
+      "naverPlaceId": "1122059411",
+      "name": "주나수산",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "생선회"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 469,
+      "addr": "서울특별시 서초구 서초동 1308-4 1층",
+      "hours": "",
+      "tel": "0507-1386-9742",
+      "lat": 37.5016504,
+      "lng": 127.0249251,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1122059411",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240830_179/1724980484193b1pbT_JPEG/PBA_0002.jpg"
+    },
+    {
+      "naverPlaceId": "1166770600",
+      "name": "진심왕돈까스 역삼점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 294,
+      "addr": "서울특별시 강남구 역삼동 824-27 지희빌딩 지상 1층",
+      "hours": "",
+      "tel": "02-561-3788",
+      "lat": 37.4977703,
+      "lng": 127.0314426,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1166770600",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241217_47/1734396863122U7LN4_PNG/KakaoTalk_20240911_114617502_15.png"
+    },
+    {
+      "naverPlaceId": "1556969875",
+      "name": "강다짐 삼각김밥 강남역지하상가점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 95,
+      "addr": "서울특별시 강남구 역삼동 858 강남역 지하상가 E-44호",
+      "hours": "",
+      "tel": "02-508-2423",
+      "lat": 37.4985274,
+      "lng": 127.0273572,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1556969875",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250521_236/1747805761044iiaVz_JPEG/KakaoTalk_20250521_143536559.jpg"
+    },
+    {
+      "naverPlaceId": "35452370",
+      "name": "고봉민김밥인 강남아르누보씨티점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "분식"
+      ],
+      "cat": [
+        "분식"
+      ],
+      "rt": 0,
+      "cnt": 58,
+      "addr": "서울특별시 서초구 서초동 1330-4 아르누보씨티2",
+      "hours": "",
+      "tel": "02-585-3690",
+      "lat": 37.4934675,
+      "lng": 127.0279734,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/35452370",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220214_87/16448042313851HqxD_PNG/%C0%DA%BB%EA_1.png"
+    },
+    {
+      "naverPlaceId": "1667009028",
+      "name": "안녕숯불 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 89,
+      "addr": "서울특별시 강남구 역삼동 827-9 1층",
+      "hours": "",
+      "tel": "0507-1380-4377",
+      "lat": 37.4964242,
+      "lng": 127.030532,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1667009028",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250710_156/1752128797170NmK9q_JPEG/%B0%AD%B3%B2%B0%ED%B5%EE%BE%EE%C5%B0%BF%C0%BD%BA%C5%A9%BF%EB.jpg"
     }
   ],
   "completedQueries": [
@@ -9908,7 +10142,8 @@
     "강남역 족발",
     "강남역 곱창",
     "강남역 보쌈",
-    "강남역 분식"
+    "강남역 분식",
+    "강남역 떡볶이"
   ],
-  "timestamp": "2026-05-09T13:08:54.365Z"
+  "timestamp": "2026-05-09T13:09:54.429Z"
 }
