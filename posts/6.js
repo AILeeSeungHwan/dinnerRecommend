@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>. 스시·오마카세 전문이고 평점 4.1점(리뷰 229건).</p><p>가격대 25,000~60,000원.</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>. 스시·오마카세. 4.1점에 리뷰 229건.</p><p>가격대 25,000~60,000원.</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\">압구정뽀글이</a>. 한식 전문이고, 평점 5점.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 11471건.</p><p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\" style=\"color:var(--primary)\">→ 압구정뽀글이 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\">압구정뽀글이</a>. 한식 전문이고, 평점 5점.</p><p>리뷰 11471건에 평점 5점. 꽤 높은 축에 속한다.</p><p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\" style=\"color:var(--primary)\">→ 압구정뽀글이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>한우대창 곱도리탕(3,600,056,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\">청담동순도리 석촌호수점</a>. 즉석수제 고추튀김, 순대국밥 같은 메뉴도 있다.</p><p>그 외에 육개장, 즉석수제 해물파전도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 162건.</p><p>재료가 신선하다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\" style=\"color:var(--primary)\">→ 청담동순도리 석촌호수점 상세 정보 보기</a></p>",
+      html: "<p>한우대창 곱도리탕 3,600,056,000원. <a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\">청담동순도리 석촌호수점</a>의 간판 메뉴다. 즉석수제 고추튀김, 순대국밥 같은 메뉴도 있다.</p><p>그 외에 육개장, 즉석수제 해물파전도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5. 리뷰 162건이면 이 근처에서 손에 꼽힌다.</p><p>재료가 신선하다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\" style=\"color:var(--primary)\">→ 청담동순도리 석촌호수점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>. 양식 전문이고 평점 5점(리뷰 127건).</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>. 양식. 5점에 리뷰 127건.</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',

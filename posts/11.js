@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/화목\">화목</a>. 덮밥 전문이고</p><p>메뉴: 최상급 숙성 연어만 사용합니다! 18,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/jamsil/restaurant/화목\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/화목\">화목</a>.</p><p>메뉴: 최상급 숙성 연어만 사용합니다! 18,000원.</p><p>주차도 된다.</p><p><a href=\"/dinner/jamsil/restaurant/화목\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>소주 맥주2800원(2,800원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/푸짐회\">푸짐회</a>. 모듬회, 매운탕 같은 메뉴도 있다.</p><p>그 외에 매운탕 추가시 사리(무료)도 있다.</p><p>예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 106건. 국물이 뜨끈해서 해장이나 든든한 한 끼로 괜찮다.</p><p>가성비가 좋다는 리뷰가 많다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/푸짐회\" style=\"color:var(--primary)\">→ 푸짐회 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/푸짐회\">푸짐회</a>. 여기 오면 보통 소주 맥주2800원 시킨다. 2,800원. 모듬회, 매운탕 같은 메뉴도 있다.</p><p>그 외에 매운탕 추가시 사리(무료)도 있다.</p><p>예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 106건. 국물이 뜨끈해서 해장이나 든든한 한 끼로 괜찮다.</p><p>가성비가 좋다는 리뷰가 많다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/푸짐회\" style=\"color:var(--primary)\">→ 푸짐회 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>살많은 아구찜(1인)(24,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\">1990 아구찜 방이본점</a>. 살많은 아구찜(소 (2~3인)), 살많은 아구찜(중 (3~4인)) 같은 메뉴도 있다.</p><p>그 외에 살많은 아구찜(대 (4~5인)), 아구찜 스폐셜(소 (2~3인))도 있다.</p><p>예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 100건. 국물이 뜨끈해서 해장이나 든든한 한 끼로 괜찮다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\" style=\"color:var(--primary)\">→ 1990 아구찜 방이본점 상세 정보 보기</a></p>",
+      html: "<p>살많은 아구찜(1인) 24,000원. <a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\">1990 아구찜 방이본점</a>의 간판 메뉴다. 살많은 아구찜(소 (2~3인)), 살많은 아구찜(중 (3~4인))도 많이 시킨다.</p><p>그 외에 살많은 아구찜(대 (4~5인)), 아구찜 스폐셜(소 (2~3인))도 있다.</p><p>예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 100건. 국물이 뜨끈해서 해장이나 든든한 한 끼로 괜찮다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\" style=\"color:var(--primary)\">→ 1990 아구찜 방이본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식 전문이고 평점 5점(리뷰 85건).</p><p>메뉴: (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식. 5점에 리뷰 85건.</p><p>메뉴: (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\">미친양꼬치 잠실점</a>. 양꼬치·중식 전문이고 평점 5점(리뷰 51건).</p><p>가격대 18,000~25,000원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\">미친양꼬치 잠실점</a>. 양꼬치·중식. 5점에 리뷰 51건.</p><p>가격대 18,000~25,000원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/화목\">화목</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">18,000원</td><td style=\"padding:7px 6px\">덮밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/푸짐회\">푸짐회</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">106건</td><td style=\"padding:7px 6px;text-align:center\">2,800~40,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\">1990 아구찜 방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">100건</td><td style=\"padding:7px 6px;text-align:center\">24,000~55,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\">미친양꼬치 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">51건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/화목\">화목</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">18,000원</td><td style=\"padding:7px 6px\">덮밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/푸짐회\">푸짐회</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">106건</td><td style=\"padding:7px 6px;text-align:center\">2,800~40,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/1990 아구찜 방이본점\">1990 아구찜 방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">100건</td><td style=\"padding:7px 6px;text-align:center\">24,000~55,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미친양꼬치 잠실점\">미친양꼬치 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">51건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

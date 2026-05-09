@@ -190,6 +190,34 @@ def extract_review_insights(name, region, category, max_sentences=2):
     sentences = [s for _, s in found[:max_sentences]]
     return ' '.join(sentences)
 
+# ── 문장 변형 시스템 (인간적 톤) ──────────────────────────────────
+# 동일 의미를 다양한 어미/문체로 표현
+def vary_sentence(text, seed_val):
+    """문장 끝을 seed에 따라 변형 — 같은 포스트 내에서도 문체가 달라지도록"""
+    v = seed_val % 5
+
+    # 단정형 → 다양한 어미로
+    replacements = [
+        # (원래, [변형1, 변형2, 변형3, 변형4, 변형5])
+        ('괜찮다.', ['괜찮다.', '괜찮은 편.', '나쁘지 않다.', '무난하다.', '괜찮은 편이다.']),
+        ('좋다.', ['좋다.', '괜찮다.', '추천할 만하다.', '나름 좋은 편.', '좋은 편이다.']),
+        ('있다.', ['있다.', '있는 편이다.', '있다고 보면 된다.', '있으니 참고.', '있다.']),
+        ('편이다.', ['편이다.', '편.', '편이라고.', '축이다.', '쪽이다.']),
+        ('된다.', ['된다.', '된다고.', '가능하다.', '가능.', '됨.']),
+    ]
+
+    for old, variants in replacements:
+        if text.endswith(old):
+            text = text[:-len(old)] + variants[v]
+            break
+
+    return text
+
+def vary_connector(seed_val):
+    """문장 연결 시 다양한 접속부사 반환"""
+    connectors = ['', '', '참고로 ', '그리고 ', '덧붙이면 ', '근데 ', '']
+    return connectors[seed_val % len(connectors)]
+
 # ── 태그 기반 자연어 문장 생성 ───────────────────────────────────
 def generate_tag_sentences(r, category):
     """식당 데이터의 tags/moods를 자연어 문장으로 변환"""
@@ -233,13 +261,30 @@ def generate_context_paragraph(r, category):
 
     parts = []
 
-    # 평점 기반 문장
+    # 평점 기반 문장 — 변형 적용
+    seed = hash(name) % 100
     if rating >= 4.8:
-        parts.append(f'평점 {rating}점이면 이 동네에서 상위권이다. 리뷰 {cnt}건.')
+        rating_variants = [
+            f'평점 {rating}점이면 이 동네에서 상위권이다. 리뷰 {cnt}건.',
+            f'리뷰 {cnt}건에 평점 {rating}점. 꽤 높은 축에 속한다.',
+            f'{rating}점짜리 식당이 흔하진 않다. 리뷰도 {cnt}건.',
+            f'평점 {rating}. 리뷰 {cnt}건이면 이 근처에서 손에 꼽힌다.',
+        ]
+        parts.append(rating_variants[seed % len(rating_variants)])
     elif rating >= 4.5:
-        parts.append(f'리뷰 {cnt}건에 평점 {rating}점이면 안정적인 편.')
+        rating_variants = [
+            f'리뷰 {cnt}건에 평점 {rating}점이면 안정적인 편.',
+            f'평점 {rating}점, 리뷰 {cnt}건. 나쁘지 않은 수치.',
+            f'{cnt}건 리뷰에 {rating}점이면 무난하게 검증된 곳.',
+        ]
+        parts.append(rating_variants[seed % len(rating_variants)])
     elif cnt >= 50:
-        parts.append(f'리뷰 {cnt}건 정도 쌓여 있어서 어느 정도 검증은 된 곳.')
+        cnt_variants = [
+            f'리뷰 {cnt}건 정도 쌓여 있어서 어느 정도 검증은 된 곳.',
+            f'리뷰가 {cnt}건이니 한 번쯤 가볼 만하다.',
+            f'{cnt}건 리뷰면 동네에서 나름 알려진 편.',
+        ]
+        parts.append(cnt_variants[seed % len(cnt_variants)])
 
     # 가격대 기반 문장
     if price and '~' in price:
@@ -247,13 +292,25 @@ def generate_context_paragraph(r, category):
             lo, hi = price.split('~')
             lo_val, hi_val = int(lo), int(hi)
             if category == 'budget' and lo_val <= 10000:
-                parts.append(f'만원 이하 메뉴가 있어서 부담이 적다.')
+                v = [f'만원 이하 메뉴가 있어서 부담이 적다.',
+                     f'만원 안쪽으로 해결 가능.',
+                     f'{lo_val//1000}천원대부터 있으니 가볍게 한 끼 하기 좋다.']
+                parts.append(v[seed % len(v)])
             elif category == 'group' and hi_val >= 30000:
-                parts.append(f'인당 {hi_val//10000}만원대 예산이면 된다.')
+                v = [f'인당 {hi_val//10000}만원대 예산이면 된다.',
+                     f'인당 {hi_val//10000}만원 선. 회식비로 적당한 수준.',
+                     f'예산은 인당 {hi_val//10000}만원 잡으면 넉넉하다.']
+                parts.append(v[seed % len(v)])
             elif category == 'date' and hi_val >= 50000:
-                parts.append(f'코스 기준 인당 {lo_val//10000}~{hi_val//10000}만원대. 특별한 날에 맞는 가격.')
+                v = [f'코스 기준 인당 {lo_val//10000}~{hi_val//10000}만원대. 특별한 날에 맞는 가격.',
+                     f'인당 {lo_val//10000}~{hi_val//10000}만원 선. 데이트 치고 괜찮은 가격대.',
+                     f'가격은 인당 {hi_val//10000}만원 정도 보면 된다. 기념일이면 아깝지 않을 듯.']
+                parts.append(v[seed % len(v)])
             elif category == 'lunch' and lo_val <= 15000:
-                parts.append(f'점심 {lo_val//1000}천원대부터 가능해서 직장인 점심으로 괜찮다.')
+                v = [f'점심 {lo_val//1000}천원대부터 가능해서 직장인 점심으로 괜찮다.',
+                     f'{lo_val//1000}천원대면 점심값으로 무난한 선.',
+                     f'점심 한 끼 {lo_val//1000}천원이면 부담 없다.']
+                parts.append(v[seed % len(v)])
         except:
             pass
 
@@ -319,13 +376,24 @@ def generate_restaurant_body_main(r, region_path, category, angle, region=''):
         top_menu = menus[0]
         mname = top_menu.get('name', '')
         mprice = fmt_menu_price(top_menu.get('price'))
-        opener = f'{mname}'
-        if mprice:
-            opener += f'({mprice})'
-        opener += f'이 대표 메뉴인 <a href="{link}">{esc(name)}</a>.'
+        seed = hash(name) % 10
+        if seed < 3:
+            opener = f'{mname}'
+            if mprice: opener += f'({mprice})'
+            opener += f'이 대표 메뉴인 <a href="{link}">{esc(name)}</a>.'
+        elif seed < 6:
+            opener = f'<a href="{link}">{esc(name)}</a>에서 가장 많이 나가는 건 {mname}'
+            if mprice: opener += f'({mprice})'
+            opener += '.'
+        elif seed < 8:
+            opener = f'<a href="{link}">{esc(name)}</a>. 여기 오면 보통 {mname} 시킨다.'
+            if mprice: opener += f' {mprice}.'
+        else:
+            opener = f'{mname}' + (f' {mprice}' if mprice else '') + f'. <a href="{link}">{esc(name)}</a>의 간판 메뉴다.'
         if len(menus) >= 2:
             others = ', '.join(m.get('name','') for m in menus[1:3] if m.get('name'))
-            opener += f' {others} 같은 메뉴도 있다.'
+            suffixes = [f' {others} 같은 메뉴도 있다.', f' 그 외 {others}도 괜찮다.', f' {others}도 많이 시킨다.']
+            opener += suffixes[seed % len(suffixes)]
         parts.append(f'<p>{opener}</p>')
     elif angle == 'mood':
         mood_words = []
@@ -423,18 +491,29 @@ def generate_restaurant_body_sub(r, region_path, category, region=''):
     tags = set(r.get('tags', []))
     price = r.get('priceRange', '')
 
-    # 도입 2~3문장
-    opener = f'<a href="{link}">{esc(name)}</a>.'
-    if rtype:
-        opener += f' {rtype} 전문이고'
-    if rating > 0 and cnt > 0:
-        opener += f' 평점 {rating}점(리뷰 {cnt}건).'
-    elif rating > 0:
-        opener += f' 평점 {rating}점.'
+    # 도입 — seed 기반 변형
+    seed = hash(name) % 10
+    if seed < 3:
+        opener = f'<a href="{link}">{esc(name)}</a>.'
+        if rtype: opener += f' {rtype} 전문이고'
+        if rating > 0 and cnt > 0: opener += f' 평점 {rating}점(리뷰 {cnt}건).'
+        elif rating > 0: opener += f' 평점 {rating}점.'
+    elif seed < 6:
+        opener = f'<a href="{link}">{esc(name)}</a>.'
+        if rtype: opener += f' {rtype}.'
+        if rating > 0 and cnt > 0: opener += f' {rating}점에 리뷰 {cnt}건.'
+    elif seed < 8:
+        if rtype and rating > 0:
+            opener = f'{rtype} 하면 <a href="{link}">{esc(name)}</a>도 빠지지 않는다. {rating}점.'
+        else:
+            opener = f'<a href="{link}">{esc(name)}</a>. 평점 {rating}점.'
+    else:
+        opener = f'<a href="{link}">{esc(name)}</a>.'
+        if rating > 0: opener += f' 평점 {rating}점, 리뷰 {cnt}건 정도 있다.'
 
     parts.append(f'<p>{opener}</p>')
 
-    # 메뉴 + 가격
+    # 메뉴 + 가격 — 변형
     if menus:
         top_menus = []
         for mi in menus[:4]:
@@ -445,7 +524,12 @@ def generate_restaurant_body_sub(r, region_path, category, region=''):
             elif mname:
                 top_menus.append(esc(mname))
         if top_menus:
-            parts.append(f'<p>메뉴: {" / ".join(top_menus)}.</p>')
+            menu_formats = [
+                f'<p>메뉴: {" / ".join(top_menus)}.</p>',
+                f'<p>대표 메뉴는 {", ".join(top_menus[:3])}.</p>',
+                f'<p>{top_menus[0]}이 간판이고, {", ".join(top_menus[1:3])}도 있다.</p>' if len(top_menus) >= 2 else f'<p>메뉴: {top_menus[0]}.</p>',
+            ]
+            parts.append(menu_formats[seed % len(menu_formats)])
     elif price:
         parts.append(f'<p>가격대 {fmt_price(price)}.</p>')
 
@@ -489,12 +573,27 @@ def generate_comparison_table(restaurants, category, region_path=''):
     rows = []
     for r in restaurants:
         tags = r.get('tags', [])
-        # 한줄평 — 태그 나열이 아니라 한 문장으로
-        if '가성비' in tags: oneliner = '가격 대비 양 많음'
-        elif '웨이팅맛집' in tags: oneliner = '줄 서서 먹는 맛'
-        elif '인스타감성' in tags: oneliner = '분위기 좋음'
-        elif '단체가능' in tags: oneliner = '단체석·회식 가능'
-        elif '혼밥가능' in tags: oneliner = '혼밥 편한 곳'
+        seed = hash(r['name']) % 5
+        # 한줄평 — rv 리뷰 기반 or 태그 기반
+        rv_region = category  # placeholder
+        rv_reviews = RV_MAP.get(region_path.split('/')[1] if '/' in region_path else '', {}).get(r['name'], [])
+        # rv에서 짧은 인상 추출
+        rv_oneliner = ''
+        if rv_reviews:
+            combined = ' '.join(rv_reviews[:3])
+            if '맛있' in combined: rv_oneliner = '맛 보장'
+            elif '가성비' in combined: rv_oneliner = '가성비 인정'
+            elif '분위기' in combined: rv_oneliner = '분위기 좋음'
+            elif '친절' in combined: rv_oneliner = '서비스 좋음'
+            elif '재방문' in combined: rv_oneliner = '재방문 의사 높음'
+
+        if rv_oneliner and seed < 3:
+            oneliner = rv_oneliner
+        elif '가성비' in tags: oneliner = ['가격 대비 양 많음', '가성비 괜찮음', '합리적인 가격'][seed % 3]
+        elif '웨이팅맛집' in tags: oneliner = ['줄 서서 먹는 맛', '웨이팅 각오', '인기 많음'][seed % 3]
+        elif '인스타감성' in tags: oneliner = ['분위기 좋음', '인테리어 깔끔', '사진 찍기 좋음'][seed % 3]
+        elif '단체가능' in tags: oneliner = ['단체석·회식 가능', '회식 추천', '룸 있음'][seed % 3]
+        elif '혼밥가능' in tags: oneliner = ['혼밥 편한 곳', '1인 식사 OK', '혼밥 추천'][seed % 3]
         else:
             rtype = (r.get('type', '') or '').split(',')[0]
             oneliner = f'{rtype} 전문' if rtype else '-'

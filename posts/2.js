@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>맥주(5,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a>. 양주, 칵테일 같은 메뉴도 있다.</p><p>그 외에 안주도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰 109건에 평점 4.5점이면 안정적인 편.</p><p>재방문 의사가 있다는 리뷰가 많다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/ASOBOY\" style=\"color:var(--primary)\">→ ASOBOY 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a>. 여기 오면 보통 맥주 시킨다. 5,000원. 그 외 양주, 칵테일도 괜찮다.</p><p>그 외에 안주도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 4.5점, 리뷰 109건. 나쁘지 않은 수치.</p><p>재방문 의사가 있다는 리뷰가 많다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/ASOBOY\" style=\"color:var(--primary)\">→ ASOBOY 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a>. 이자카야·야키토리 전문이고 평점 4.7점(리뷰 50건).</p><p>메뉴: 모듬꼬치 5종 18,000원 / 모듬 오뎅 21,000원 / 우니단새우 35,000원 / 나고야 날개튀김 14,000원.</p><p>주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/야키토리 수다\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a>. 이자카야·야키토리. 4.7점에 리뷰 50건.</p><p>메뉴: 모듬꼬치 5종 18,000원 / 모듬 오뎅 21,000원 / 우니단새우 35,000원 / 나고야 날개튀김 14,000원.</p><p>주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/야키토리 수다\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>한우1++ 특상 채끝살(65,000원)이 대표 메뉴인 <a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a>. 와라야키 로 살짝 익혀 드립니다, 가장좋은 제주갈치 로 만들어요 같은 메뉴도 있다.</p><p>그 외에 초당옥수수 카키아게, 해산물모즈쿠도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰 206건 정도 쌓여 있어서 어느 정도 검증은 된 곳. 안주 종류가 다양해서 가볍게 한잔하기 좋다.</p><p>가성비가 좋다는 리뷰가 많다. 분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\" style=\"color:var(--primary)\">→ 란주쿠 삼성점 상세 정보 보기</a></p>",
+      html: "<p>한우1++ 특상 채끝살 65,000원. <a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a>의 간판 메뉴다. 와라야키 로 살짝 익혀 드립니다, 가장좋은 제주갈치 로 만들어요도 많이 시킨다.</p><p>그 외에 초당옥수수 카키아게, 해산물모즈쿠도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰가 206건이니 한 번쯤 가볼 만하다. 안주 종류가 다양해서 가볍게 한잔하기 좋다.</p><p>가성비가 좋다는 리뷰가 많다. 분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\" style=\"color:var(--primary)\">→ 란주쿠 삼성점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a>. 야장·포차 전문이고 평점 3.6점(리뷰 77건).</p><p>메뉴: 부추전 15,000원 / 골뱅이 18,000원 / 파전 18,000원 / 동태전 20,000원.</p><p><a href=\"/dinner/samseong/restaurant/못난이포차\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a>. 야장·포차. 3.6점에 리뷰 77건.</p><p>부추전 15,000원이 간판이고, 골뱅이 18,000원, 파전 18,000원도 있다.</p><p><a href=\"/dinner/samseong/restaurant/못난이포차\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -118,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a>. 야장·포차·이자카야 전문이고 평점 3.8점(리뷰 52건).</p><p>메뉴: 차돌숙주볶음 24,000원 / 김치전 26,000원 / 오징어숙회 32,000원 / 차돌숙주볶음 24,000원.</p><p>재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/samseong/restaurant/철수포차\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p>야장·포차·이자카야 하면 <a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a>도 빠지지 않는다. 3.8점.</p><p>메뉴: 차돌숙주볶음 24,000원 / 김치전 26,000원 / 오징어숙회 32,000원 / 차돌숙주볶음 24,000원.</p><p>재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/samseong/restaurant/철수포차\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -128,7 +128,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">109건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/미주이자카야\">미주이자카야</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">752건</td><td style=\"padding:7px 6px;text-align:center\">25,000~40,000원</td><td style=\"padding:7px 6px\">이자카야·프라이빗룸 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">50건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">206건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.6</td><td style=\"padding:7px 6px;text-align:center\">77건</td><td style=\"padding:7px 6px;text-align:center\">15,000~20,000원</td><td style=\"padding:7px 6px\">야장·포차 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">52건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">109건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/미주이자카야\">미주이자카야</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">752건</td><td style=\"padding:7px 6px;text-align:center\">25,000~40,000원</td><td style=\"padding:7px 6px\">이자카야·프라이빗룸 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">50건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">206건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.6</td><td style=\"padding:7px 6px;text-align:center\">77건</td><td style=\"padding:7px 6px;text-align:center\">15,000~20,000원</td><td style=\"padding:7px 6px\">야장·포차 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">52건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a>. 중식 전문이고, 평점 4.9점.</p><p>평점 4.9점이면 이 동네에서 상위권이다. 리뷰 378건. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/pangyo/restaurant/팔복 판교\" style=\"color:var(--primary)\">→ 팔복 판교 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a>. 중식 전문이고, 평점 4.9점.</p><p>4.9점짜리 식당이 흔하진 않다. 리뷰도 378건. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p><a href=\"/pangyo/restaurant/팔복 판교\" style=\"color:var(--primary)\">→ 팔복 판교 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>. 중식 전문이고 평점 4.9점(리뷰 35건).</p><p>가격대 12,000~22,000원.</p><p>점심엔 웨이팅이 좀 있다. 단체석이나 룸이 있다.</p><p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>. 중식. 4.9점에 리뷰 35건.</p><p>가격대 12,000~22,000원.</p><p>점심엔 웨이팅이 좀 있다. 단체석이나 룸이 있다.</p><p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 중식 전문이고 평점 5점(리뷰 197건).</p><p>메뉴: 生양등심꼬치 250g 23,000원 / 오리지날양꼬치 200g 18,000원 / 모듬꼬치 43,000원 / 가지튀김볶음 22,000원.</p><p>주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 중식 전문이고 평점 5점(리뷰 197건).</p><p>生양등심꼬치 250g 23,000원이 간판이고, 오리지날양꼬치 200g 18,000원, 모듬꼬치 43,000원도 있다.</p><p>주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -68,7 +68,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a>. 중식 전문이고 평점 5점(리뷰 2건).</p><p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a>. 중식. 5점에 리뷰 2건.</p><p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -84,7 +84,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>대한민국 대표 마라탕(1인분)(10,900원)이 대표 메뉴인 <a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a>. 대한민국 대표 마라탕(2~3인분), 불맛 일품 마라샹궈(1인분) 같은 메뉴도 있다.</p><p>그 외에 불맛 일품 마라샹궈(2~3인분), 꿔바로우(미니(5pc,소스따로불가))도 있다.</p><p>주차는 된다.</p><p>리뷰 565건 정도 쌓여 있어서 어느 정도 검증은 된 곳. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p>맛에 대한 만족도가 높은 편이다. 매장이 깔끔하다.</p><p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\" style=\"color:var(--primary)\">→ 춘리마라탕 야탑점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a>에서 가장 많이 나가는 건 대한민국 대표 마라탕(1인분)(10,900원). 대한민국 대표 마라탕(2~3인분), 불맛 일품 마라샹궈(1인분) 같은 메뉴도 있다.</p><p>그 외에 불맛 일품 마라샹궈(2~3인분), 꿔바로우(미니(5pc,소스따로불가))도 있다.</p><p>주차는 된다.</p><p>리뷰 565건 정도 쌓여 있어서 어느 정도 검증은 된 곳. 2인 이상이면 여러 메뉴 시켜서 나눠 먹기 좋은 구성.</p><p>맛에 대한 만족도가 높은 편이다. 매장이 깔끔하다.</p><p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\" style=\"color:var(--primary)\">→ 춘리마라탕 야탑점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -94,7 +94,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">197건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">565건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">197건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">565건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a>. 곱창 전문이고</p><p>메뉴: 1인분 180g 28,000원 / 1인분 200g 28,000원 / 1인분 150g 30,000원 / 1인분 150g 28,000원.</p><p>점심엔 웨이팅이 좀 있다.</p><p><a href=\"/dinner/jamsil/restaurant/황소곱창\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a>. 곱창 전문이고</p><p>대표 메뉴는 1인분 180g 28,000원, 1인분 200g 28,000원, 1인분 150g 30,000원.</p><p>점심엔 웨이팅이 좀 있다.</p><p><a href=\"/dinner/jamsil/restaurant/황소곱창\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>시그니처 돼지갈비 수육(29,000원)이 대표 메뉴인 <a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개 같은 메뉴도 있다.</p><p>그 외에 물 닭갈비, 가리비 어묵탕도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>평점 5점이면 이 동네에서 상위권이다. 리뷰 256건.</p><p>분위기가 좋아서 식사 자리로 괜찮다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 여기 오면 보통 시그니처 돼지갈비 수육 시킨다. 29,000원. 그 외 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개도 괜찮다.</p><p>그 외에 물 닭갈비, 가리비 어묵탕도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>리뷰 256건에 평점 5점. 꽤 높은 축에 속한다.</p><p>분위기가 좋아서 식사 자리로 괜찮다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a>. 술집 전문이고 평점 5점(리뷰 24건).</p><p>메뉴: 소주 3000원 할인이벤트 3,000원 / 광어&amp;연어회(32미이상/3~4인용) 64,000원 / 1도씨 숙성광어사시미/22미이상 제공 40,000원 / 다시마에 눌린 연어사시미(25미이상) 35,000원.</p><p>가성비가 괜찮다는 평이 많다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/요즈음\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a>. 술집 전문이고 평점 5점(리뷰 24건).</p><p>소주 3000원 할인이벤트 3,000원이 간판이고, 광어&amp;연어회(32미이상/3~4인용) 64,000원, 1도씨 숙성광어사시미/22미이상 제공 40,000원도 있다.</p><p>가성비가 괜찮다는 평이 많다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/요즈음\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a>. 술집 전문이고 평점 5점(리뷰 19건).</p><p>메뉴: 새벽가락시장 야키토리 6종 추천 세트 27,000원 / 새벽가락시장 사시미모리아와세 42,000원 / 미슐랭셰프 토마토해산물나베 37,000원 / 원시구이2종 킹타이거새우1+생선1 30,000원.</p><p>주차도 된다.</p><p>재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a>. 술집 전문이고 평점 5점(리뷰 19건).</p><p>대표 메뉴는 새벽가락시장 야키토리 6종 추천 세트 27,000원, 새벽가락시장 사시미모리아와세 42,000원, 미슐랭셰프 토마토해산물나베 37,000원.</p><p>주차도 된다.</p><p>재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">3298건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">611건</td><td style=\"padding:7px 6px;text-align:center\">4,000~30,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">24건</td><td style=\"padding:7px 6px;text-align:center\">3,000~64,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~110,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">3298건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/황소곱창\">황소곱창</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">611건</td><td style=\"padding:7px 6px;text-align:center\">4,000~30,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/요즈음\">요즈음</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">24건</td><td style=\"padding:7px 6px;text-align:center\">3,000~64,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/이자카야 대물 잠실방이본점\">이자카야 대물 잠실방이본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~110,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
