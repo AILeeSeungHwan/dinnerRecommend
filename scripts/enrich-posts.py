@@ -238,6 +238,8 @@ def extract_restaurant_data(name):
         'reservation': r.get('reservation', False),
         'menuItems': menu_items,
         'naverUrl': r.get('naverUrl', ''),
+        'imageUrl': r.get('imageUrl', '') or '',
+        'imageUrl2': r.get('imageUrl2', '') or '',
         'region': r.get('_region', ''),
         'regionName': r.get('_regionName', ''),
         'regionPath': r.get('_regionPath', ''),
@@ -248,7 +250,7 @@ def extract_restaurant_data(name):
 output_dir = os.path.join(BASE, 'scripts', 'post-data')
 os.makedirs(output_dir, exist_ok=True)
 
-SKIP_GANGNAM = {26, 27, 28}  # 강남역 — 별도 작업중, 건드리지 않음
+SKIP_GANGNAM = {26, 27, 28, 29, 30, 31, 32, 33}  # 강남역 — 별도 작업중, 건드리지 않음
 
 for meta in POSTS_META:
     post_id = meta['id']

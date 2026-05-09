@@ -658,14 +658,18 @@ export default function PostPage({ meta, sections, related }) {
                 })
               }
 
-              // h2 있을 때: 2번째 h2에만 광고 1개 (상단2 + 중간1 = 총3)
+              // h2 있을 때: 모든 h2 앞에 광고, 단 마지막 2개 h2(예: 상황별·방문 전)는 광고 X
+              const totalH2 = sections.filter(s => s.type === 'h2').length
+              const skipFromIndex = totalH2 - 2  // 0-indexed: skipFromIndex 이후의 h2는 광고 X
               let h2Count = 0
               return sections.map((section, idx) => {
                 if (section.type === 'ad') return null
                 const el = renderSection(section, idx, sections, related)
                 if (section.type === 'h2') {
+                  const currentH2 = h2Count
                   h2Count++
-                  if (h2Count === 2) {
+                  // 첫 h2는 상단 광고와 너무 가깝지 않게 광고 생략, 마지막 2개도 생략
+                  if (currentH2 > 0 && currentH2 < skipFromIndex) {
                     return (
                       <div key={'h2-ad-' + idx}>
                         <InArticleAdSection />
