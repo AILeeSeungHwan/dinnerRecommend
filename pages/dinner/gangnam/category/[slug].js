@@ -338,7 +338,7 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
                     </div>
               </div>
             </Link>
-            {(i + 1) % 9 === 0 && (
+            {(i + 1) % 6 === 0 && (
               <div style={{ gridColumn:'1 / -1' }}>
                 <AdUnit slot="9138210374" format="auto" />
               </div>

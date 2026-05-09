@@ -280,7 +280,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                   <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
                 </div>
               </Link>
-              {(i + 1) % 9 === 0 && (
+              {(i + 1) % 6 === 0 && (
                 <div style={{ gridColumn:'1 / -1' }}>
                   <AdUnit slot="9138210374" format="auto" />
                 </div>

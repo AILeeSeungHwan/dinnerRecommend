@@ -722,6 +722,8 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 위치 & 찾아가는 법 */}
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
+
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
         <p style={pstyle}>
           <strong>{r.name}</strong>은 서울 송파구 {r.addr}에 위치한 잠실 맛집입니다.
