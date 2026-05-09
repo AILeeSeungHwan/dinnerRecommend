@@ -82,7 +82,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/논두렁오리주물럭-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -174,7 +174,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/회초리씨푸드-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -352,7 +352,7 @@ const restaurants = [
         "description": "흑염소 살코기를 고소하고 따뜻하게 버무려먹는 무침"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/바오로흑염소-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_166/1771476930186xEjwL_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%B9%AE%BB%E7%C1%F8.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -480,7 +480,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/엘에이도그-부리또-코엑스삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240820_70/1724098997684vaJCU_JPEG/IMG_0021.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -516,7 +516,7 @@ const restaurants = [
     "naverPlaceId": "1346166654",
     "naverUrl": "https://map.naver.com/v5/entry/place/1346166654",
     "naverBlogCnt": 157,
-    "imageUrl": "/images/restaurants/samseong/선릉-닭곰탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251215_202/1765785751578uBeF7_JPEG/GJF03207.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -605,7 +605,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/몰튼스-더-스테이크하우스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_36/17718558944705tPyK_JPEG/KakaoTalk_20260223_230533042.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -657,7 +657,7 @@ const restaurants = [
         "description": "오겹400g+목살400g+알깨밥+멜조림"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/제주덕구-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241023_56/1729609504004LqALY_JPEG/KakaoTalk_20220313_134737929_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -702,7 +702,7 @@ const restaurants = [
     "naverPlaceId": "2057112419",
     "naverUrl": "https://map.naver.com/v5/entry/place/2057112419",
     "naverBlogCnt": 178,
-    "imageUrl": "/images/restaurants/samseong/만목-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260105_269/1767602305230MYF99_JPEG/KakaoTalk_20260105_172400605_03.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -751,7 +751,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/맛나무-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260228_133/1772238084107hLE4u_JPEG/1000073531.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -795,7 +795,7 @@ const restaurants = [
     "naverPlaceId": "1518676629",
     "naverUrl": "https://map.naver.com/v5/entry/place/1518676629",
     "naverBlogCnt": 95,
-    "imageUrl": "/images/restaurants/samseong/오케이파스타-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_278/177302504393777UUx_PNG/%BA%A3%C0%CC%C4%C1%BD%AC%B8%B2%C7%C1_%B8%C5%C4%DE%C5%A9%B8%B2%C6%C4%BD%BA%C5%B8_%B7%B9%BD%BA%C5%E4%B6%FB%B9%F6%C0%FC.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -847,7 +847,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/보글지글-부대찌개-닭볶음탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251113_140/1763026292517LEbRa_JPEG/1000018844.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -895,7 +895,7 @@ const restaurants = [
         "description": "대한민국 최초 순칼!! 순대국과 칼국수의 만남"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이오복순대국-대치은마점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_215/1758783073049PzeT7_JPEG/KakaoTalk_20250924_212307170_16.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -964,7 +964,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/블룸-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1138,7 +1138,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포카코-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240814_278/1723624903575juTd4_JPEG/%C6%F7%C4%AB%C4%A1%BE%C6_%C4%C6.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1191,7 +1191,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/10월19일-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260222_39/1771747836966gDHRw_JPEG/7558C545-DABD-40CE-A5A2-2C8A3329A148.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1374,7 +1374,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미당뭉티기-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250317_290/1742186953346hs5fl_JPEG/KakaoTalk_20250317_134813982_04.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -1459,7 +1459,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/돈부리칸-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_64/1765466652726utiUg_PNG/1765466639878.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -1548,7 +1548,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/연송-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250808_146/1754638854609XQeSt_PNG/IMG_5843.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1615,7 +1615,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/호랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -1697,7 +1697,7 @@ const restaurants = [
         "description": "짭짤한 쇼지특제소스를 사용하여 철판에 구운 소고기 덮밥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/쇼지-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250805_297/1754385045067tpQPR_PNG/KakaoTalk_20250729_103222592_01.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1727,7 +1727,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2092244336",
     "naverUrl": "https://map.naver.com/v5/entry/place/2092244336",
-    "imageUrl": "/images/restaurants/samseong/도쿄-멘친테이-혼포-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_227/1757296328149bp7GF_JPEG/%AB%ED%AB%B4%A1%A1%AB%E9%AB%B9%AB%BF%AB%E9%AB%A4%AB%BA%AA%DF_2.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06205"
   },
@@ -1804,7 +1804,7 @@ const restaurants = [
         "description": "카레, 밥, 돈카츠, 소우동, 샐러드, 연유치즈떡"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백소정-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -1842,7 +1842,7 @@ const restaurants = [
     "naverPlaceId": "1457776595",
     "naverUrl": "https://map.naver.com/v5/entry/place/1457776595",
     "naverBlogCnt": 2,
-    "imageUrl": "/images/restaurants/samseong/빠들담-닭갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240128_142/1706380419689eDQIw_JPEG/27.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -1928,7 +1928,7 @@ const restaurants = [
         "description": "카피콜라 햄과 꾸덕한 체다치즈와 함께 곁들어진 감자튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고래사냥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250623_184/1750659575168jElBV_JPEG/%B0%F1%B9%F0%C0%CC%BB%EF%C7%D5%2B%C7%D1%B8%C6%BB%FD%B8%C6%C1%D6.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2065,7 +2065,7 @@ const restaurants = [
         "description": "(中)  (大)"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일품양평해장국-강남대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250922_293/1758524852319lcFaA_JPEG/1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -2147,7 +2147,7 @@ const restaurants = [
         "description": "신선한 굴을 바삭하게 튀겨낸 바삭촉촉 굴튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/택이네조개전골-서울삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250705_179/1751646845416F8Euw_JPEG/KakaoTalk_20250705_012900062_01.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2233,7 +2233,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/언더라인-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250821_143/17557784592085UEMd_JPEG/KakaoTalk_Photo_2025-08-21-21-14-02.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -2290,7 +2290,7 @@ const restaurants = [
         "description": "시작이 다른 하루! 신선하고 맛있고 든든한 뷔페!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/유리앤-아레테-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260105_44/1767566472098AJxHC_JPEG/KakaoTalk_20250908_071716458.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2349,7 +2349,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/등촌샤브칼국수-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240306_82/17096841109577DM1D_JPEG/Screenshot_20240220_065553_Gallery.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2431,7 +2431,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/은하수면옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251011_204/1760155833089aynWo_JPEG/_DSC3959.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2506,7 +2506,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한솔냉면-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_291/1743756865431PuptR_JPEG/200625_059_%C7%D1%BC%D6%B3%C3%B8%E9_%BA%EA%B7%A3%B5%E5%C4%C6_008.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2585,7 +2585,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/넘버원양꼬치-강남-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250410_208/1744258634786hVOG5_JPEG/2045.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2640,7 +2640,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시하쿠샤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221217_228/1671263292810GKVTj_JPEG/1000001082.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2729,7 +2729,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/로이든-바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260206_133/17703619580374r9di_JPEG/KakaoTalk_20260130_221033873_19.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -2773,7 +2773,7 @@ const restaurants = [
     "naverPlaceId": "1671732165",
     "naverUrl": "https://map.naver.com/v5/entry/place/1671732165",
     "naverBlogCnt": 75,
-    "imageUrl": "/images/restaurants/samseong/신라스테이-삼성-바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230622_200/1687394363965zljTd_JPEG/3.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2834,7 +2834,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/만선호프-을지로직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230228_256/1677576523215dXX5W_JPEG/E25DBAC0-327E-47EC-96BB-305A46CB4531.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2877,7 +2877,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마라토끼-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_292/17714775689705eWS9_JPEG/EDAEB308-A34D-4A30-BEF1-6C299CE8C12B.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2958,7 +2958,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대도파곱창-낙곱새-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_275/17346753358776zElR_JPEG/KakaoTalk_20241218_174655650_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -2992,7 +2992,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2083212381",
     "naverUrl": "https://map.naver.com/v5/entry/place/2083212381",
-    "imageUrl": "/images/restaurants/samseong/류창희국수-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250424_261/1745475369514PouCt_JPEG/%B5%FB%B6%E6_%BC%F6%C1%A6%BA%F1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3075,7 +3075,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미카제-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_192/1747785589495zUKYt_JPEG/1000006086.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -3158,7 +3158,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카츠선명-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251108_224/176257447156028MCK_JPEG/1000028821.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3237,7 +3237,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/죠샌드위치-대치사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220428_212/1651107016362sIV2K_JPEG/1611197379728.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -3284,7 +3284,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/에그파일즈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241026_92/17299520574598GMMa_JPEG/IMG_2026.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -3347,7 +3347,7 @@ const restaurants = [
         "description": "1인당 천원씩 할인과 햄을 15% 더 드립니다"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/끓임-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250121_17/1737466811786LrWHn_JPEG/%B9%CC%B3%AA%B8%AE_%BA%CE%B4%EB%C2%EE%B0%B3_%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3429,7 +3429,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/유가네닭갈비-한티역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231023_280/1698050201078PtXaF_PNG/230907_%C0%AF%B0%A1%B3%D7-%B7%CE%B0%ED_NEW.png",
     "updatedAt": "2026-03-16",
     "zip": "06206"
   },
@@ -3512,7 +3512,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼월애쭈꾸미-콩나물국밥-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251218_247/1766065694924qFMGj_JPEG/098765.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -3581,7 +3581,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/호우양꼬치-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210114_178/1610571532462zjFkz_PNG/fORzEMAkFRqiveVO-tYd_PTg.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -3630,7 +3630,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/화목-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_19/1764229418175km1S1_JPEG/KakaoTalk_20251127_163932634.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3716,7 +3716,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/로코하우스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_34/1740056062015rvIty_JPEG/KakaoTalk_20250220_194400073_07.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3795,7 +3795,7 @@ const restaurants = [
         "description": "탄단지 샐러디 세트 + 카사바칩 + 코크제로"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/샐러디-봉은사역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -3875,7 +3875,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/1703-참한집-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_196/17604332292932ypby_GIF/IMG_1576_2.gif",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -3912,7 +3912,7 @@ const restaurants = [
     "naverPlaceId": "1933189554",
     "naverUrl": "https://map.naver.com/v5/entry/place/1933189554",
     "naverBlogCnt": 31,
-    "imageUrl": "/images/restaurants/samseong/샐러디아-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250421_41/1745203871250vwEWt_JPEG/%BB%F8%B7%AF%B5%F0%BE%C6-%C7%C3%B7%B9%C0%CC%BD%BA-%B7%CE%B0%ED.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3986,7 +3986,7 @@ const restaurants = [
         "description": "99%자연치즈 90모짜렐라10고다치즈 블루치즈 아몬드"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/펠리스산쵸-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220830_213/16617878703504HOL8_JPEG/Screenshot_20220830-004414_Instagram.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -4101,7 +4101,7 @@ const restaurants = [
         "description": "매운맛을 원하는 모든 고객님들을 위해 준비했습니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/솥내음-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241119_154/1732017976177Al1KO_JPEG/078A6103.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4348,7 +4348,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더타코부스-NYC-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260108_158/1767842447825Mk8I5_JPEG/ny%C6%C4%C8%F7%C5%B8%C5%B8%BF%F6_%BA%ED%B7%A2%B6%C7%B6%EC%BE%C6.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -4456,7 +4456,7 @@ const restaurants = [
         "description": "부들부들한 돼지 등뼈찜과 고추 라임 소스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소이연남-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241004_28/1728021010413WpWYU_JPEG/1728020975508.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -4543,7 +4543,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우도옥-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4632,7 +4632,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/서울깍두기-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250703_26/1751508509076GsCB3_JPEG/1%C7%D1%BF%EC%BB%E7%B0%F1%BC%B3%B7%B7%C5%C1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -4729,7 +4729,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/돌산등대집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250912_218/1757656136205gJJvi_JPEG/%B4%DC%C3%BC%C8%B8%BD%C4_%B0%AB%B1%E8%C4%A1%B5%EE%B0%A5%BA%F1%C2%F2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -4794,7 +4794,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이치규-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250331_164/1743395243012mf7FG_JPEG/IMG_9622.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -4858,7 +4858,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김치옥-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250721_277/1753086319638xt6nA_JPEG/%B9%CE%BB%FD%C8%B8%BA%B9-%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -4920,7 +4920,7 @@ const restaurants = [
         "description": "다진소고기에 계란을 더해 부들부들함이 매력적"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/솥내음-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240520_106/17161718330024VobC_JPEG/KakaoTalk_20240208_141256217_08.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4973,7 +4973,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이치류-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250916_255/17579892262695BN6C_GIF/%C0%CC%C4%A1%B7%F9_%BC%B1%B8%AA%C1%A1_gif.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5029,7 +5029,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시이안앤-선릉역점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260205_144/1770257731550X8WHW_JPEG/DSC02806.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5119,7 +5119,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/텟어텟-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221117_157/1668694096419kRrim_JPEG/11219BEB-5A50-424F-B398-0333F293D4F5.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -5266,7 +5266,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉도원-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240327_188/17115430236214euQU_JPEG/IMG_7682.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5448,7 +5448,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/영동가든-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240908_299/1725762684124TMFWL_JPEG/KakaoTalk_Photo_2024-09-08-11-31-13.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5604,7 +5604,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/서래쭈꾸미-청담역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_16/1762268461474kSp21_GIF/%C0%CC%B9%CC%C1%F6.gif",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -5661,7 +5661,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성대주옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250602_194/1748837437001rsw9u_JPEG/KakaoTalk_20250531_235604013.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -5798,7 +5798,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/솥내음-강남-역삼-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260205_259/1770277152514K0iT2_JPEG/078A6109.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -5880,7 +5880,7 @@ const restaurants = [
         "description": "기분 전환이 필요한 날, 향긋한 유자 주전자 막걸리!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/손에손잡고-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250701_3/1751365273463uUsJY_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -5940,7 +5940,7 @@ const restaurants = [
         "description": "진한 육수에 통새우 완탕이 들어간 별미쌀국수"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/벳남미식-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_52/1747976878658Q4cBi_PNG/%C6%F7%C0%E5%BD%BA%C6%BC%C4%BF_%BF%F8%C7%FC_6cm.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -6018,7 +6018,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김치공장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_111/17479975069684paDF_JPEG/1000011057.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6186,7 +6186,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/롤드-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240510_204/1715341928586MsFKu_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001_%282%29.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -6228,7 +6228,7 @@ const restaurants = [
     "naverPlaceId": "2055869936",
     "naverUrl": "https://map.naver.com/v5/entry/place/2055869936",
     "naverBlogCnt": 24,
-    "imageUrl": "/images/restaurants/samseong/부리또리-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251113_7/1763019027694Nik3M_JPEG/1000016794.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -6454,7 +6454,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더이탈리안클럽-현대백화점무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_170/1766129948282Hj4Fi_JPEG/KakaoTalk_20251218_174732884.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6539,7 +6539,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백압관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250411_277/1744359904683p1Czr_JPEG/KakaoTalk_20250409_125542270_09.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6598,7 +6598,7 @@ const restaurants = [
         "description": "진하게 우린 된장 육수에 따끈한 밥을 말아낸 메뉴"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/순정갈비-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251116_237/1763294710201aeMrh_JPEG/KakaoTalk_20251115_080056575_03.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6667,7 +6667,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/연몽-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260130_92/1769753854534mXFFk_JPEG/IMG_9121.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6727,7 +6727,7 @@ const restaurants = [
         "description": "모두가 사랑하는 바삭한 포테이토 칩과 프렌치 어니언 딥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/피제리아호키포키-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250718_222/1752815785187PP0lX_PNG/%BB%EF%BC%BA%C1%A1_%BD%E6%B3%D7%C0%CF.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6811,7 +6811,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/커리146-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231127_250/170106862168438wEt_JPEG/1.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -6967,7 +6967,7 @@ const restaurants = [
         "description": "제철모둠사시미中+토마토치즈샐러드+치킨가라아게+스지오뎅탕"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이자카야-미주-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_18/1768573133842kxban_JPEG/IMG_4157.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -7056,7 +7056,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미노센-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230707_255/16887210426270Xm6H_JPEG/20230704_211749.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -7138,7 +7138,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/빠완-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_173/1772097486204O0vTb_JPEG/01KJCKQXJ6M31XWK4JSZ5MMP86.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -7179,7 +7179,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1627178297",
     "naverUrl": "https://map.naver.com/v5/entry/place/1627178297",
-    "imageUrl": "/images/restaurants/samseong/징기스칸-슌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240323_5/1711200869373VPkNi_JPEG/IMG_6569.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -7264,7 +7264,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/로꼬타코-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220721_77/1658404935510KAOaS_JPEG/20220715_010657.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -7453,7 +7453,7 @@ const restaurants = [
         "description": "전복, 우니, 다섯가지 찬, 한우 들깨미역국"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고설우-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250619_60/1750329512901a8XLb_JPEG/KakaoTalk_Photo_2025-06-19-19-38-01_003.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7831,7 +7831,7 @@ const restaurants = [
         "description": "치즈가왕창 들어간 시그니처 계란말이튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/원조해장촌-뼈구이한판-감자탕-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250927_274/1758946186672XjunD_JPEG/1000008708.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -8001,7 +8001,7 @@ const restaurants = [
         "description": "새콤달콤 한우수육 무침입니다. 안주로 추천드립니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/화설-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_72/17725324351079dxeo_JPEG/%B5%C5%C1%F6%B8%F0%B5%D2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -8088,7 +8088,7 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/생활맥주-삼성코엑스-2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230425_218/16824043572687u5rD_JPEG/%B8%C6%C1%D6%C2%A7_2.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8137,7 +8137,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉도담-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241026_206/1729937965838oaQ3k_JPEG/IMG_7077.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8251,7 +8251,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/냉동고집-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_135/1772687780383TNJPz_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8338,7 +8338,7 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/생활맥주-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230707_293/1688694641748aMBRt_JPEG/%BB%EF%BC%BA%BF%AA%C1%A12.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8378,7 +8378,7 @@ const restaurants = [
     "naverPlaceId": "1403529244",
     "naverUrl": "https://map.naver.com/v5/entry/place/1403529244",
     "naverBlogCnt": 322,
-    "imageUrl": "/images/restaurants/samseong/알렉산더-커피-스튜디오-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240326_207/1711455135938MPj6E_JPEG/IMG_7213.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8463,7 +8463,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소소헌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240903_99/17253391596852dkbt_JPEG/%BC%D2%BC%D2%C7%E5_%C0%D4%B1%B8_%C0%FC%B0%E6.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -8562,7 +8562,7 @@ const restaurants = [
     "naverPlaceId": "1335951464",
     "naverUrl": "https://map.naver.com/v5/entry/place/1335951464",
     "naverBlogCnt": 124,
-    "imageUrl": "/images/restaurants/samseong/진미언양불고기-삼성동-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250221_182/1740145904050SFaD3_PNG/%C1%F8%B9%CC%BE%F0%BE%E7%BA%D2%B0%ED%B1%E2_%B7%CE%B0%ED.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8779,7 +8779,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/앰버더피자룸-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240912_79/1726106454687vunEB_PNG/IMG_7784.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -8859,7 +8859,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉계타-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240509_153/1715248505292Roh6N_JPEG/KakaoTalk_20240509_181029473.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -8895,7 +8895,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1453579006",
     "naverUrl": "https://map.naver.com/v5/entry/place/1453579006",
-    "imageUrl": "/images/restaurants/samseong/지직-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230102_240/1672641102470tIKIX_JPEG/%C1%F6%C1%F7_%BF%DC%BA%CE.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -8931,7 +8931,7 @@ const restaurants = [
     "naverPlaceId": "1784539680",
     "naverUrl": "https://map.naver.com/v5/entry/place/1784539680",
     "naverBlogCnt": 35,
-    "imageUrl": "/images/restaurants/samseong/엘리스와인-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230419_194/1681903466831DOSKF_JPEG/KakaoTalk_20230419_202249370.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9000,7 +9000,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시사카바-산원-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250708_29/1751956651611nimnu_JPEG/%BB%E7%C4%AB%B9%D9%BB%EA%BF%F8%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9087,7 +9087,7 @@ const restaurants = [
         "description": "겉바속촉 소금빵 베이스에 명란 크림이 들어간 소금빵"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/커피진심베이커리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260107_262/17677545880834i9bQ_JPEG/IMG_3567.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -9133,7 +9133,7 @@ const restaurants = [
         "description": "쉐프가 엄선한 스시,식사,디저트 포함 12가지"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시이찌-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_38/1761128512396yxHBC_JPEG/IMG_5137.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9174,7 +9174,7 @@ const restaurants = [
     "naverPlaceId": "1134695743",
     "naverUrl": "https://map.naver.com/v5/entry/place/1134695743",
     "naverBlogCnt": 378,
-    "imageUrl": "/images/restaurants/samseong/도담-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_261/17587231934434eHPS_PNG/23689.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9296,7 +9296,7 @@ const restaurants = [
         "description": "토마토소스, 모짜렐라, 콜비잭, 그라나파다노"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/은마상가-피자느반-대치동학원가-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240915_149/1726363715996rlAbx_PNG/1000007820.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -9372,7 +9372,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉구스밥버거-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200804_257/1596544322825C8pFk_JPEG/YgWel5KffEt9YkqMWdTeMVJM.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -9460,7 +9460,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/강남밭-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250813_207/1755085581336BnnxJ_JPEG/20250514_195836.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -9542,7 +9542,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아트몬스터-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_71/1747807531152h89h7_JPEG/1000043814.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -9625,7 +9625,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/정삼이네수제비김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250307_178/1741314395287kNfGX_JPEG/1000001765.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -9707,7 +9707,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오-예술김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251223_210/17664603016896eGo1_PNG/074A5608-2D00-4F1C-808A-7C2E17BCEA83.PNG",
     "updatedAt": "2026-03-16"
   },
   {
@@ -9782,7 +9782,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김미영앤드집밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191201_243/1575193248124IxeNX_JPEG/5J58sj9ZcXW0FwCsDdas6ljC.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -9837,7 +9837,7 @@ const restaurants = [
         "description": "-루이보스 바닐라 티 -쿨 허벌 티 -그린 루바브 티"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/커피바-힘-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230208_30/1675853328240YNDWo_JPEG/123.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -10027,7 +10027,7 @@ const restaurants = [
         "description": "햄치즈순두부찌개1+솥밥1+생선구이 기본찬"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/북창동순두부-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240927_295/1727394916908BIlgP_JPEG/1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -10120,7 +10120,7 @@ const restaurants = [
         "description": "부드럽게 삶아내어 구수한 육향이 일품인 아롱사태 수육"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동화고옥-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_193/1749526755766rSanQ_JPEG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6_%282%29.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -10150,7 +10150,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1462219242",
     "naverUrl": "https://map.naver.com/v5/entry/place/1462219242",
-    "imageUrl": "/images/restaurants/samseong/하나샤부정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240309_143/170995868626396Pqf_JPEG/IMG_6687.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -10468,7 +10468,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미미동-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250929_106/17590716563350X5p2_JPEG/DFI00281.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10521,7 +10521,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미태리-선릉포스코점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260114_87/17683511706783DsAL_JPEG/1.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -10706,7 +10706,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/야키도리-수다-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230424_299/1682343656758pI44W_JPEG/DSC00382-min.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10786,7 +10786,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봄카츠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251112_155/1762875389642qqFuR_JPEG/SE-1a0b6e74-7d07-4e19-b359-8207c8494e39.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06199"
@@ -10860,7 +10860,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼계옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241222_109/1734878747290kXzrT_JPEG/IMG_7088.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10982,7 +10982,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사이드에이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190419_159/1555657105464TGS6h_JPEG/TRZK5zS8d6A2wrqdfqjI9ZJY.jpeg.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -11026,7 +11026,7 @@ const restaurants = [
     "naverPlaceId": "2008975356",
     "naverUrl": "https://map.naver.com/v5/entry/place/2008975356",
     "naverBlogCnt": 9,
-    "imageUrl": "/images/restaurants/samseong/카소미야-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251028_129/1761640538298ImC3o_JPEG/%C0%FC%B8%DE%B4%BA2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -11102,7 +11102,7 @@ const restaurants = [
         "description": "산뜻하면서 깔끔한 맛이 입안을 감싸는 한우 육회"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우곱집-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251017_35/1760675584718xtsne_GIF/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4__%284%29.gif",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -11180,7 +11180,7 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/생활맥주-삼성휘문점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240620_56/1718862813167lpvP7_JPEG/%B8%C6%C1%D6%BF%CD%B8%DE%B4%BA.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -11214,7 +11214,7 @@ const restaurants = [
     "naverPlaceId": "1712241323",
     "naverUrl": "https://map.naver.com/v5/entry/place/1712241323",
     "naverBlogCnt": 146,
-    "imageUrl": "/images/restaurants/samseong/멘츠루-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240925_173/17272393139004pCPL_PNG/1.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11290,7 +11290,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/에이알커피-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250417_128/1744869517085hQCdo_JPEG/ar_coffee_005.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -11366,7 +11366,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/새벽밤바다-강남본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240214_242/170787919269632GmV_JPEG/DSC_0159-min.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11434,7 +11434,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/성균관-사시미-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240825_244/1724563843345oELxG_JPEG/1000005571.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11514,7 +11514,7 @@ const restaurants = [
         "description": "벌꿀향과 싱그러운 청향을 동시에 느낄 수 있는 백차"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/앤써-서울-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_159/1771842483679HcOTx_PNG/1000043914.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -11573,7 +11573,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페-더하리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240208_234/1707395349033URY8S_JPEG/IMG_3180.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06177"
@@ -11617,7 +11617,7 @@ const restaurants = [
     "naverPlaceId": "1684290818",
     "naverUrl": "https://map.naver.com/v5/entry/place/1684290818",
     "naverBlogCnt": 612,
-    "imageUrl": "/images/restaurants/samseong/국민한우집-삼성역본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251018_246/1760784820300G5djW_GIF/%B4%EB%B9%AE%BB%E7%C1%F8gif.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11681,7 +11681,7 @@ const restaurants = [
         "description": "참나물의 향긋한 향과 쫄깃 탱글한 도토리묵의 조화"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉이밥-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250909_107/1757381934145NBDet_GIF/%B8%DE%B4%BA%B8%F0%C0%BD_%C2%A9%282%29.gif",
     "updatedAt": "2026-03-16",
     "zip": "06207"
   },
@@ -11734,7 +11734,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시호-삼성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240617_297/1718614478199d8Xi4_JPEG/IMG_7305.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -11815,7 +11815,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한정선-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250806_196/1754456516287sewjo_JPEG/9%B1%B8%BC%BC%C6%AE%28%C0%DB%C0%BA%C0%CC%B9%CC%C1%F6%29.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -11870,7 +11870,7 @@ const restaurants = [
         "description": "바삭고소 먹태! 마요소스 콕 시원한 맥주와 찰떡궁합!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이가든-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250617_26/1750165885635Wyibj_JPEG/1000020977.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12036,7 +12036,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/무월식탁-코엑스-파르나스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_227/1763953905344f9cHN_PNG/%B9%AB%BF%F9%BD%C4%C5%B9_%C0%CF%C7%B0%BC%BC%C6%AE.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -12179,7 +12179,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우노-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250508_148/17466963187044HED6_JPEG/Screenshot_20250508_182404_Gallery.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12279,7 +12279,7 @@ const restaurants = [
     "naverPlaceId": "707597914",
     "naverUrl": "https://map.naver.com/v5/entry/place/707597914",
     "naverBlogCnt": 649,
-    "imageUrl": "/images/restaurants/samseong/칠랑고-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181115_112/1542211993114OHQaD_JPEG/aSY5BNCX_AKzLHdzxuSDQLZx.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12382,7 +12382,7 @@ const restaurants = [
         "description": "바삭\"한 감자전 속에 꼬소한 치즈가 듬-뿍"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/광화문석갈비-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251208_88/1765161158691F1UEo_PNG/Frame_46.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -12457,7 +12457,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/라스키친-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_71/1757324257620G9pxS_JPEG/1000015256.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -12504,7 +12504,7 @@ const restaurants = [
     "naverPlaceId": "1235425429",
     "naverUrl": "https://map.naver.com/v5/entry/place/1235425429",
     "naverBlogCnt": 838,
-    "imageUrl": "/images/restaurants/samseong/르뱅룰즈-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_270/17720948366824RNPJ_JPEG/%C6%F7%C4%AB%C4%A1%BE%C6%C7%C1%B7%CE%B8%F0%BC%C7_%C0%CE%BD%BA%B0%A1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -12594,7 +12594,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/북앤레스트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200811_215/1597138898342c1FTj_JPEG/pLOGhjPAI5IVzSQq3poJzHes.jpeg.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -12641,7 +12641,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시욘즈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260104_56/1767529920831TXkKn_JPEG/KakaoTalk_20260104_212833690.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -12671,7 +12671,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1099997412",
     "naverUrl": "https://map.naver.com/v5/entry/place/1099997412",
-    "imageUrl": "/images/restaurants/samseong/커리인-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211118_290/1637222275169rc9jP_JPEG/20211102_164445.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -12711,7 +12711,7 @@ const restaurants = [
     "naverPlaceId": "1131370514",
     "naverUrl": "https://map.naver.com/v5/entry/place/1131370514",
     "naverBlogCnt": 130,
-    "imageUrl": "/images/restaurants/samseong/타코잇-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241016_171/1729058045352vpTfJ_JPEG/KakaoTalk_20241016_145109846_01.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -12769,7 +12769,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시아오마츠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220530_188/1653893989114jxVa8_JPEG/20220413_175051.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12847,7 +12847,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/머무를-정-세이로무시-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_182/1772539360176iXiq2_JPEG/%C6%ED%B9%E9_%BD%C5%B8%DE%B4%BA1_%286%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12923,7 +12923,7 @@ const restaurants = [
         "description": "바사한 오징어튀김과 고추튀김을 한번에!!!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/세계관-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231208_244/1702037893494lS4Y6_JPEG/%B8%DE%C0%CE%C4%C6_03.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13003,7 +13003,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/냉삼식당-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251025_255/1761360258458Hy4Iz_JPEG/1000040248.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06198"
   },
@@ -13067,7 +13067,7 @@ const restaurants = [
         "description": "한우 소고기 다져서 경단을 만들어 빵가루에 튀긴 요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/지칸-삼성1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_283/1772170514278Bu1Sj_JPEG/IMG_2203.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -13109,7 +13109,7 @@ const restaurants = [
     "naverPlaceId": "1828004443",
     "naverUrl": "https://map.naver.com/v5/entry/place/1828004443",
     "naverBlogCnt": 160,
-    "imageUrl": "/images/restaurants/samseong/배산임수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220824_4/1661341055161naggB_JPEG/C1FF9BCE-0299-4D17-8501-1D253912D72C.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13196,7 +13196,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/빨강우산-부대찌개-선릉역-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251102_273/1762090698574GGnrH_JPEG/1000017787.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -13341,7 +13341,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명품-칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240711_60/1720702312663MxTpM_JPEG/%B4%DF%B5%B5%B8%AE%C5%C1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -13419,7 +13419,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/여포집-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241203_228/1733220112263y6084_JPEG/20241203_142755_011.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -13584,7 +13584,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후토시-대치본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231221_262/1703139359102l2L6M_JPEG/397116255_18379745083064910_1061088444725233807_n.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -13658,7 +13658,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이가네양꼬치-선릉역직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250904_115/17569146067508NoXT_JPEG/c795e8dd3ec6614bc825b1706a6c484f.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13739,7 +13739,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이가네양꼬치-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250907_22/17572139476342Ki01_JPEG/temp_1757213491952.-1543658339.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -13800,7 +13800,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/산호골-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190312_34/1552377637725r2vYv_PNG/9RFytC0iRS5d0kNIta806yie.PNG.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -13877,7 +13877,7 @@ const restaurants = [
         "description": "생과일 100%로 만든 더치앤빈의 생과일 주스!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더치앤빈-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260101_103/1767243392532zM1Vo_JPEG/IMG_2711.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -13999,7 +13999,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백년가-삼성중앙역본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240803_166/1722665816479LI76W_JPEG/%B9%E9%B3%E2%B0%A1_31.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -14042,7 +14042,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/브라이언스커피-포스코사거리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_124/176905821702932iBS_JPEG/20251220_075545.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -14125,7 +14125,7 @@ const restaurants = [
         "description": "다들 아는 그 맛, 그러나 아는 맛이 가장 무섭다"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후토루-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241223_230/1734928185460VFbhP_PNG/%BA%B8%C1%A4%C8%C4%C5%E4%B7%E7_%BB%EF%BC%BA%C1%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%B8%DE%C0%CE-2.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14540,7 +14540,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한가람식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220214_35/1644839383763tlxmt_JPEG/CYMERA_20220209_140452.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14571,7 +14571,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "2059890908",
     "naverUrl": "https://map.naver.com/v5/entry/place/2059890908",
-    "imageUrl": "/images/restaurants/samseong/롸카두들-내쉬빌-핫치킨-포스코센터점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251104_288/17622441594327Uhtt_PNG/%C5%AC%B7%A1%BD%C4.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -14715,7 +14715,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포스톤즈-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220801_26/1659343683936GHRR0_PNG/1BAE5554.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -14809,7 +14809,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/플랜튜드-스타필드코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240911_14/172602049802084nog_JPEG/%C7%C3%B7%A3%C6%A9%B5%E5_%C7%C1%B7%CE%B8%F0%BC%C7_%C0%CC%B9%CC%C1%F6.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -14904,7 +14904,7 @@ const restaurants = [
         "description": "전복이 통째로 들어간 아삭하고 시원한 배추김치"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김인복의광평-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241023_5/17296553170344k9nT_JPEG/KakaoTalk_20241023_103836583.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15267,7 +15267,7 @@ const restaurants = [
         "description": "로스(등심)까스+샐러드+주먹밥+장군(매콤)우동(小)"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/정원돈까스-포스코-대치학원가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220317_201/1647528638923FzvcA_JPEG/%B4%F1%C2%AF%B5%B7%B1%EE%BD%BA_55.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -15355,7 +15355,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/속이-꽉찬-만두-99-9-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190522_190/1558484843854gvxEY_JPEG/oMUT_w6debbTz_sT-N2epYtC.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -15574,7 +15574,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/전우소고기해장국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201206_145/1607246304767UU9Aw_JPEG/XS2oszPoPhnrZcnz8achGbl7.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -15617,7 +15617,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/밥스키친-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220420_230/16504533202821473o_JPEG/Resized_20220420_195032_%281%29.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -15698,7 +15698,7 @@ const restaurants = [
         "description": "간장에 재운 부드러운 메로를 담백하게 구워 낸 요리."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/키친바락-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_48/1719909445794xBvj6_JPEG/0606_%B9%D9%B6%F4171.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -15776,7 +15776,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이가네양꼬치-대치점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250907_250/1757242217585YH3ER_JPEG/KakaoTalk_20250905_202414690.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -15859,7 +15859,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/428-레스토랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250903_18/1756862128659WyR49_PNG/undefined_A_halved_Beef_Wellin.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15942,7 +15942,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/무쇠김치삼겹-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250702_297/1751424918924KBPub_JPEG/%B9%AB%BC%E8%B1%E8%C4%A1_%BB%EF%BC%BA_%B9%CC%B3%AA%B8%AE.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -16070,7 +16070,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/클로리스-삼성중앙역점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230614_30/1686719376245JnoG0_JPEG/image.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -16135,7 +16135,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시류-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240906_34/1725590760911E4ptQ_JPEG/Screenshot_20240905-102240_CatchTable.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -16222,7 +16222,7 @@ const restaurants = [
         "description": "사골육수에 대창, 야채를 우려낸 후쿠오카식 전골요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/야키토리-잔잔-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_277/1758798942783AClgY_GIF/%BC%B1%B8%AA%C1%A1.gif",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -16302,7 +16302,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고씨떡볶이-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181008_57/1538986496037fzxlJ_JPEG/NJWdBUYZFKUmUwbiKUSxFBS8.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -16348,7 +16348,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/비마이게스트-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241217_288/1734417127857y3s1O_JPEG/56559DEA-DBDB-4FE4-8037-67EE84EB75D4.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06175"
@@ -16394,7 +16394,7 @@ const restaurants = [
     "naverPlaceId": "1015667321",
     "naverUrl": "https://map.naver.com/v5/entry/place/1015667321",
     "naverBlogCnt": 312,
-    "imageUrl": "/images/restaurants/samseong/이가초밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210729_291/1627543430584vW6Cy_PNG/xqITDr3QUTFr-Q41VCArBBqN.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -16589,7 +16589,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시도손-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240306_168/1709725514782VdAV3_JPEG/KakaoTalk_20240306_170045878_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16661,7 +16661,7 @@ const restaurants = [
         "description": "부드럽고 달콤한 수제 바닐라 크림이 올려진 아인슈페너"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/윈스커피-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_52/1771550071878MI5he_JPEG/KakaoTalk_20260220_100112490.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -16727,7 +16727,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/수미돈-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230320_282/1679286861298IurTw_JPEG/KakaoTalk_20230320_133346582_03.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16792,7 +16792,7 @@ const restaurants = [
         "description": "국내산 돼지목심 샤브세트 메뉴. 야채 리필가능."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/샤블랑157-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210523_215/1621754859110RJpDU_JPEG/xKOOHIXyzL-Bj6STfJXUlDPF.jpeg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16882,7 +16882,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼송빵집-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231101_127/1698824538517DAax7_PNG/2023_%C5%EB%BF%C1_-_%BA%B9%BB%E7%BA%BB.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -16961,7 +16961,7 @@ const restaurants = [
     "naverPlaceId": "1936878162",
     "naverUrl": "https://map.naver.com/v5/entry/place/1936878162",
     "naverBlogCnt": 376,
-    "imageUrl": "/images/restaurants/samseong/진담옥-감자탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241129_26/1732877844664rv6cI_JPEG/DSC08451.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -17105,7 +17105,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1490969080",
     "naverUrl": "https://map.naver.com/v5/entry/place/1490969080",
-    "imageUrl": "/images/restaurants/samseong/요리가-있는-술집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190104_263/1546598549133TXx4I_JPEG/Er7knhGGvcybZV3xSsdLfUuX.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -17189,7 +17189,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/남노명가-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_21/17673285816545CwEU_JPEG/180886235903212_2045472623.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17273,7 +17273,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/정통마라탕마포마라회관-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251216_11/1765892573081MEPxT_JPEG/KakaoTalk_20251216_100829799.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -17349,7 +17349,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/퀴즈노스-대치사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240912_44/1726122954220KqbU5_PNG/%B4%D9%BF%EE%B7%CE%B5%E5.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -17433,7 +17433,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오미마리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210825_154/1629871519628MHIw8_JPEG/sSH07p5kYGT3LELJVeqAytKg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -17522,7 +17522,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/슬로우캘리-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250528_275/1748419443652QnleQ_PNG/01.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17597,7 +17597,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/육지로-간-고래-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250619_99/1750312630542jQRRs_PNG/4.PNG",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -17629,7 +17629,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2080620111",
     "naverUrl": "https://map.naver.com/v5/entry/place/2080620111",
-    "imageUrl": "/images/restaurants/samseong/오카동-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_236/1760430540765vkXtJ_JPEG/IMG_9157.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17726,7 +17726,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/강남연가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_190/1772752853213UjcHt_PNG/MBC%B5%F5%BC%B6%BC%D2%B0%B3.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -17813,7 +17813,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/뉴스타하이볼-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_254/1764143695395hr9yj_JPEG/KakaoTalk_20240310_225314750_13.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -17902,7 +17902,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉해장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250929_42/1759106669295RzevH_JPEG/%B7%CE%B0%ED_1080-01.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -18060,7 +18060,7 @@ const restaurants = [
         "description": "한우투플러스 등심 갈비살 차돌박이 700그램"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/장독대-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240225_295/17088519829876MJQK_JPEG/1641194448801.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06283"
@@ -18148,7 +18148,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/영심이와SECOND-bar-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180220_54/1519127544044P5tBA_JPEG/c6tG5K3VZN8taFqshcD88VCb.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -18235,7 +18235,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/체인엔터라운지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250401_221/1743473679985Lr8k0_JPEG/KakaoTalk_20250328_010343652_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18273,7 +18273,7 @@ const restaurants = [
     "naverPlaceId": "37402263",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402263",
     "naverBlogCnt": 40,
-    "imageUrl": "/images/restaurants/samseong/오크바-오크우드-프리미어-코엑스-센터-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230915_208/1694766630023NxaUG_JPEG/230421_OPCC_0005_%BA%B9%BB%E7.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -18351,7 +18351,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/비야게레로-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231212_132/1702380704227GSMJS_JPEG/Screenshot_20231212_203139_KakaoTalk.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -18388,7 +18388,7 @@ const restaurants = [
     "naverPlaceId": "2049992802",
     "naverUrl": "https://map.naver.com/v5/entry/place/2049992802",
     "naverBlogCnt": 59,
-    "imageUrl": "/images/restaurants/samseong/타코레아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250723_285/17532730313815LvMg_JPEG/IMG_3332.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -18461,7 +18461,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/테라로사-포스코센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180406_281/1522999750979nBQie_JPEG/SJglMNIovCOSk4LQDzWdAcUU.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -18529,7 +18529,7 @@ const restaurants = [
         "description": "김돈이 본점의 공기밥 당일에 지은 밥으로 제공해드립니다"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김돈이-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250825_90/1756104455572fdnWl_JPEG/%B8%DE%C0%CE_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -18589,7 +18589,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/진대감-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_52/1762316485080s9FGy_JPEG/KakaoTalk_20220812_141914780_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18711,7 +18711,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파크-하얏트-서울-코너스톤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_3/1773389157858xtRp2_JPEG/Park_Hyatt_Seoul_-_May_2025_91.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18791,7 +18791,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/튀김아저씨-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220805_237/1659698345915HFQpr_JPEG/Screenshot_20220804-172703_Instagram.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06284"
   },
@@ -18870,7 +18870,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오동도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220516_262/1652632197181Yj752_JPEG/43C61145-5100-4928-A812-ACFFA25D73BB.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18953,7 +18953,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고메램-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250320_127/1742451781453v3rGd_JPEG/%B0%ED%B8%DE%B7%A5_%B4%EB%B9%AE%BB%E7%C1%F8_1%B9%F8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19032,7 +19032,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/풍년집-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190120_184/1547962858164kz1ju_JPEG/b__hOsE2UGDByRIiYhKXVfdo.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -19128,7 +19128,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/몰트바배럴-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160303_264/1456941908791gkNRl_JPEG/176253433527693_0.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -19210,7 +19210,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대치정육식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_190/1765336822732HNl1r_JPEG/9759.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06201"
@@ -19296,7 +19296,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/팔팔감자탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_27/1719912633536xljO8_JPEG/20240702_182952.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19383,7 +19383,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이대성의진면목-본점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260210_74/1770718200332HAXV3_JPEG/KakaoTalk_20260210_185516062.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -19501,7 +19501,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/안식-레스토랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250122_165/1737520742838EbCpC_JPEG/%B8%DE%B4%BA%B8%F0%C0%BD%C4%C6_2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -19587,7 +19587,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/황소곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230905_30/169384951173529Qyx_JPEG/IMG_3578.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -19629,7 +19629,7 @@ const restaurants = [
     "naverPlaceId": "1081922758",
     "naverUrl": "https://map.naver.com/v5/entry/place/1081922758",
     "naverBlogCnt": 679,
-    "imageUrl": "/images/restaurants/samseong/37-5-시그니처-청담점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251216_266/17658734268173EJBL_PNG/%C3%BB%B4%E3.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19717,7 +19717,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청담나인-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_27/1772695976401EuOkA_JPEG/26.3_%C8%AD%C0%CC%C6%AE%B5%A5%C0%CC_%C4%B3%C4%A1%C5%D7%C0%CC%BA%ED%BF%EB_%BD%BA%C6%E4%BC%C8%B8%DE%B4%BA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19849,7 +19849,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멘야미코-청담역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210407_284/16177831836936J4cm_JPEG/9bcmeAgNQPI8ZlaLtsuZcFTz.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -19891,7 +19891,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/WHISKY-TheA-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210404_135/1617524337987jxi8N_JPEG/v1WHFf1ZCEtXf_DthHDxrKrV.jpeg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19983,7 +19983,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/배가무-닭볶음탕-대치본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240722_289/1721627113604DErXK_PNG/6.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -20064,7 +20064,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/나의가야-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_178/1563874807423FGNfn_JPEG/mWEe8yZpLD_TKljrTLV0viMX.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20140,7 +20140,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김이정-숯불구이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231221_33/1703128163447Tf4SG_JPEG/KakaoTalk_20231220_174348198_04.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -20285,7 +20285,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/메콩타이-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220503_93/1651568971295YCzqq_JPEG/%C5%E8%BE%E4%B2%E1ZH5A8937.JPG",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -20331,7 +20331,7 @@ const restaurants = [
     "naverPlaceId": "1079820562",
     "naverUrl": "https://map.naver.com/v5/entry/place/1079820562",
     "naverBlogCnt": 1092,
-    "imageUrl": "/images/restaurants/samseong/파파야리프-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231117_228/1700149738310W8UAi_JPEG/%C6%C4%C6%C4%BE%DF%B8%AE%C7%C1_%BB%E7%C0%CE.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -20469,7 +20469,7 @@ const restaurants = [
         "description": "유명한 노르웨이산 고등어입니다!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/가거도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200428_300/1588042887640rPgX9_PNG/Ha1Xs3EkRMNpxdrIs3CZLbDP.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -20548,7 +20548,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백반감자탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190729_143/1564364750334lOiJC_JPEG/7Cjhz7SwdFrEsRC9bQkH48IC.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -20586,7 +20586,7 @@ const restaurants = [
     "naverPlaceId": "1194619995",
     "naverUrl": "https://map.naver.com/v5/entry/place/1194619995",
     "naverBlogCnt": 198,
-    "imageUrl": "/images/restaurants/samseong/옐로트렁크-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211010_85/1633832347443GCMGW_JPEG/HPfz-fsVAbt3U0nB3U_i9Z5I.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -20661,7 +20661,7 @@ const restaurants = [
         "description": "포떠서 뼈를 제거한 돼지꼬리. 별미중 별미"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/식껍-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210527_59/1622095979942L0Yme_JPEG/WFmJN1tamobAqpDWVnTzqnMn.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20744,7 +20744,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페인더무드-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210906_275/1630924360425JeU6C_JPEG/TMmCbfsri9gMFpMh7VHkTYKf.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -20829,7 +20829,7 @@ const restaurants = [
         "description": "곱창 기름으로 볶아 고소함이 살아있는 인기 마무리 메뉴"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/형제곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260308_50/1772902116987KW82C_PNG/IMG_7271.PNG",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -20965,7 +20965,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/에덴스벨리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_12/1762304649670xOY8U_JPEG/%C4%C5%C4%C9%C0%CC%C5%A9_%C0%FC%C3%BC_%BB%E7%C1%F8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -21158,7 +21158,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/제주부엌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210402_177/1617340873116kcMLa_JPEG/GqSnhZ9ZIy14DgqQDh2Ed0As.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -21391,7 +21391,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/서해쭈꾸미-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190809_201/1565347908724rTNqk_JPEG/6Qtp3avrar5PS-jepy6RHh_9.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -21461,7 +21461,7 @@ const restaurants = [
         "description": "진한 베르가못향을 느낄 수 있는 향긋한 홍차"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/베카프리미엄델리샵-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210310_103/1615366920661YfWCf_JPEG/ezWWQBs46BhwWdMnPDWVQ59y.jpeg.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -21556,7 +21556,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후토루-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250115_254/1736926366778RBDck_JPEG/KakaoTalk_20250114_162916757.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -21668,7 +21668,7 @@ const restaurants = [
     "naverPlaceId": "2080746556",
     "naverUrl": "https://map.naver.com/v5/entry/place/2080746556",
     "naverBlogCnt": 106,
-    "imageUrl": "/images/restaurants/samseong/포텐-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_112/1770972730221YAGAq_JPEG/11765.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -21739,7 +21739,7 @@ const restaurants = [
         "description": "맛깔나게 삶아낸 수육을 한입 크기로 썰어서 내어드립니다"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/풍성옥-강남본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250820_292/1755690455651bGP19_PNG/%B4%EB%C4%A1%B5%BF%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD_%C7%B3%BC%BA%BF%C1%B0%AD%B3%B2%BA%BB%C1%A1_%C2%F0%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%C1%A1%BD%C9_%BC%B1%B8%AA%BF%AA%C1%A1%BD%C9_%B4%EB%C4%A1%B5%BF%C8%B8.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -21822,7 +21822,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/극강은마-대치본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251008_275/1759927177533fdPmT_JPEG/1000010593.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -21972,7 +21972,7 @@ const restaurants = [
         "description": "바삭한 껍질 속에 육즙이 가득한 튀김만두"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/치바오-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250624_9/1750736779912pjkJc_JPEG/%BD%BD%B1%E2%B7%CE%BF%EE_%B8%AE%BA%E4_%BB%FD%C8%B0_%C0%CC%BA%A5%C6%AE_%B5%B5%BD%C9%B0%F8%C7%D7%C1%A1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22049,7 +22049,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스윗버튼-스타필드-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251015_78/17604991672846DiqC_JPEG/KakaoTalk_20251015_122940022_03.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -22127,7 +22127,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김피라-스타필드-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241010_165/1728520361573CvhTD_JPEG/240812_%B8%DE%B4%BA%C3%D4%BF%B5_%BC%D6%C6%AE%BE%D8%BD%B4%B0%A12151.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -22231,7 +22231,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사라베스-현대백화점무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200417_267/1587085418218JbmjB_JPEG/Y7gWSBWdT9qXGNz4C7bSHKjS.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22292,7 +22292,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/편장군족발-현대백화점무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220322_180/1647910030234rwu7W_JPEG/%C6%ED%C0%E5%B1%BA%C3%D6%C1%BE%B7%CE%B0%ED.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22405,7 +22405,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/건강밥상-현대백화점무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_229/17437513079830Y69w_JPEG/200625_045_%B0%C7%B0%AD%B9%E4%BB%F3_%BA%EA%B7%A3%B5%E5%C4%C6_002.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22440,7 +22440,7 @@ const restaurants = [
     "naverPlaceId": "1896076569",
     "naverUrl": "https://map.naver.com/v5/entry/place/1896076569",
     "naverBlogCnt": 76,
-    "imageUrl": "/images/restaurants/samseong/에키노마에-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_130/1758786629928X6rsd_JPEG/%BB%E7%C1%F8.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22498,7 +22498,7 @@ const restaurants = [
         "description": "신선한 나물과 야채, 돼지고기가 들어간 건강한 찐만두"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/서관면옥-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_252/1772750107815cFins_JPEG/%BC%B1%C1%D6%C8%C4%B8%E9_%BC%AD%B0%FC%B8%E9%BB%F3_%C0%FA%B3%E1%BB%F3.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -22687,7 +22687,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/탐라도야지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220307_217/1646630874993FbbY7_JPEG/KakaoTalk_20220307_142452683.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -22875,7 +22875,7 @@ const restaurants = [
         "description": "모짜렐라 치즈를 더해 부드러운 맛이 일품인 키마카레"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/부타이-1막-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220414_66/1649924060607weHEK_JPEG/%B7%CE%B0%ED_%BA%CE%C5%B8%C0%CC_1.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -22957,7 +22957,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/보름쇠-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240215_123/1707966514094MLhly_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF1-1_%B5%E5%B6%F3%C0%CC%BF%A1%C0%CC%C2%A1_%C4%C1%BC%C1_%C1%A4%B8%E9.JPG",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -23009,7 +23009,7 @@ const restaurants = [
         "description": "황태만상의 비법소스에 구운 황태구이 1마리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/황태만상-선릉포스코직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_152/1766216806151j86ND_JPEG/%C8%B2%C5%C2%B8%B8%BB%F3_%C1%A4%BD%C4.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -23156,7 +23156,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/몰타참치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231104_234/16990829760613GJLA_JPEG/KakaoTalk_20231103_215640171.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -23228,7 +23228,7 @@ const restaurants = [
         "description": "점심코스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그란구스또-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_220/1758075499193RP5Re_JPEG/1000018839.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -23371,7 +23371,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/성북동청국장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_42/1441030247465Ci6mQ_JPEG/146477525145910_0.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23642,7 +23642,7 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/생활맥주-삼성코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230316_137/1678936470601IOIu3_JPEG/220914_%B8%DE%B4%BA%BB%E7%C1%F8_%28133%29.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -23998,7 +23998,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/해봉정육-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240212_163/1707726230136hl0t0_JPEG/2023-11-20_13_09_42.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24050,7 +24050,7 @@ const restaurants = [
         "description": "한우 테이스팅 코스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파크-하얏트-서울-더-팀버-하우스-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260106_60/17676849893208JDek_JPEG/%B4%F5_%C6%C0%B9%F6_%C7%CF%BF%EC%BD%BA_%C7%D1%BF%EC_%BF%C0%BC%C7_%C5%D7%C0%CC%BD%BA%C6%C3_%C4%DA%BD%BA_%282%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24209,7 +24209,7 @@ const restaurants = [
         "description": "밀가루가 안 들어간 흘러내리는 스페인 치즈케이크"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멜팅샵-치즈룸-파르나스몰-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_242/1698213585327PKc8e_JPEG/%C6%C42.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -24296,7 +24296,7 @@ const restaurants = [
         "description": "*저녁, 주말 및 공휴일 이용 불가합니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일품진진수라-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250627_242/1751010209567zF4Ug_JPEG/img_sub1-1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24350,7 +24350,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/투썸플레이스-포스코사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220811_104/1660213543359bTxVF_JPEG/39A0D79B-AD7D-494B-847A-D09E4E57B656.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24453,7 +24453,7 @@ const restaurants = [
     "naverPlaceId": "421637529",
     "naverUrl": "https://map.naver.com/v5/entry/place/421637529",
     "naverBlogCnt": 414,
-    "imageUrl": "/images/restaurants/samseong/센도수산-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240519_264/17160840840563fld6_JPEG/IMG_1142.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24529,7 +24529,7 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스타벅스-봉은사로선정릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -24683,7 +24683,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/원조강뚝꼬치구이전문점-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260119_106/1768781987849XKkDv_JPEG/%BF%BE%B3%AF%B8%C0%BE%E7%B2%BF%C4%A1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -24759,7 +24759,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/야키니쿠-규-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_50/1771572195760JXSzK_JPEG/%C1%A1%C6%F7%C0%CC%C0%FC%BE%C8%B3%BB001.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -24842,7 +24842,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/송강제면소-강남삼성-직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_66/1763974503363U4KYw_PNG/%B4%CF%B2%D9%BF%EC%B5%BF_%B3%D7%BA%F1%B9%F6%BF%EB.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -24925,7 +24925,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/군선생-포스코사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250918_292/1758181561084k3XD9_JPEG/%B1%BA%BC%B1%BB%FD-%BF%AC%C3%E201.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -24975,7 +24975,7 @@ const restaurants = [
         "description": "수제 딤섬을 일요일 점심, 코스요리로 만나보세요."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그랜드-인터컨티넨탈-서울-파르나스-웨이루-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171024_152/1508828980065lN26B_JPEG/NcbM0B_r6Jb6pc6MQpkdsvUF.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25021,7 +25021,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오더에스프레소-베이커리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240606_300/1717657684281fk0pf_JPEG/IMG_4168.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -25185,7 +25185,7 @@ const restaurants = [
         "description": "볶은 제철버섯&야채, 데미글라스, 치미츄리 소스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아메리칸테이블-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251207_170/17650859015765kCTH_JPEG/20251103_%BE%C6%B8%DE%B8%AE%C4%AD_%C5%D7%C0%CC%BA%ED56789_%C0%FC%C3%BC_%B8%DE%B4%BA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25230,7 +25230,7 @@ const restaurants = [
     "naverPlaceId": "173304440",
     "naverUrl": "https://map.naver.com/v5/entry/place/173304440",
     "naverBlogCnt": 71,
-    "imageUrl": "/images/restaurants/samseong/아담스애플-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170628_115/1498635140674GpYYG_JPEG/186578566239506_0.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25369,7 +25369,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/전가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191108_191/1573194292824SR4AW_JPEG/bogTAMuaPxeNr8En-KBvlPWx.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06206"
   },
@@ -25571,7 +25571,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멍텅구리꼼장어막창-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240708_242/1720415629196btHbA_JPEG/20240510_203842.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25636,7 +25636,7 @@ const restaurants = [
         "description": "다크 쵸코렛 파우더와 얼음, 저지방 우유의 블렌드"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/커피빈-도심공항타워점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251021_126/1761007702683tNS6x_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02_%281%29.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -25714,7 +25714,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명품-청운러우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251206_4/1764997792217Rwe91_JPEG/1000034573.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -25888,7 +25888,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청춘닭볶이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_10/1441036661630V30uh_JPEG/146570637172338_1.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -25970,7 +25970,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/어머니족발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190724_140/1563958072022zfPeD_JPEG/B06r5XoPGtkxK5k-__EAhQg5.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -26051,7 +26051,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이화옥-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260128_103/1769574888782HfJDQ_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001%285%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -26137,7 +26137,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/타임즈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250325_162/1742910952148FNr8q_JPEG/1000000042.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26183,7 +26183,7 @@ const restaurants = [
         "description": "랍스터+프리미엄 무제한 코스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/노야-스타필드-코엑스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_96/17681815356029vBAm_JPEG/%C7%C1%B8%AE%B9%CC%BE%F6_34500_1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -26267,7 +26267,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/피어커피-코엑스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230329_288/1680100141300sTuEq_JPEG/2D4860F4-1C6A-4B33-A4F6-7A2CEEFFE18E.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -26321,7 +26321,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/조인바이트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241031_188/1730379427489Yjgxt_JPEG/1000023740.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -26371,7 +26371,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/부대찌개대사관-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_261/1739414376415o8hzt_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_5.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -26455,7 +26455,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/원조을지로골뱅이-코엑스-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250306_97/1741226162809ulD2H_JPEG/IMG_7955.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26538,7 +26538,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/길포차-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250729_152/1753783465658g3aNA_JPEG/IMG_8294.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -26621,7 +26621,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/막끌리네-삼성코엑스본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201209_240/1607502999753HokaU_JPEG/yIsB8N8d88RZqyt41Im9LOsm.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -26660,7 +26660,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1758869498",
     "naverUrl": "https://map.naver.com/v5/entry/place/1758869498",
-    "imageUrl": "/images/restaurants/samseong/긴자료코-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240529_47/1716965573385QTCe5_JPEG/1716965380669.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06203"
   },
@@ -26741,7 +26741,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더맛있는족발보쌈-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250414_106/1744606376095Nnw3p_JPEG/%C6%F7%C0%E5_%C7%D2%C0%CE_5000%BF%F8_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -26809,7 +26809,7 @@ const restaurants = [
         "description": "속이 꽉찬 만두 4개, 대표적인 코지라멘 튀김메뉴"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/코지라멘-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260312_43/1773308241482tR5mT_JPEG/photo_2026-03-12_18-37-03.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -26891,7 +26891,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/Poke-all-day-포케-샐러드-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -26960,7 +26960,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/온밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240628_8/17195672215089JcgC_JPEG/%B8%DE%C0%CE_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27153,7 +27153,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우밀가-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240305_81/1709632777464yfFF8_JPEG/%BF%EC%B9%D0%B0%A1-%B0%A3%C6%C7%C1%A6%C0%DB%BF%EB-%C3%D6%C1%BE%28%BD%C3%BE%C8%C8%AE%C0%CE%BF%EB%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -27232,7 +27232,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미아리-우동집-대치동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_252/1698227651250Hwpg0_JPEG/KakaoTalk_20231023_192814324_12.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06201"
   },
@@ -27316,7 +27316,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소표국수한티점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240103_60/1704292725413RdNBe_JPEG/1000020990.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06206"
@@ -27404,7 +27404,7 @@ const restaurants = [
         "description": "진간장 베이스로 만든 트러플소스를 곁들인 광어 세비체"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/지칸-삼성2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_76/1772170577118B3hJU_JPEG/IMG_2203.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -27486,7 +27486,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/속초오징어어시장-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231019_165/1697699435150TidWU_JPEG/IMG_7792.JPG",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27552,7 +27552,7 @@ const restaurants = [
         "description": "계란과 소프트크랩을 타이식 커리와 함께 볶은 요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/반포식스-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230717_48/1689580247518OdYCP_JPEG/%B9%DD%C6%F7%BD%C4%BD%BA_%B4%EB%C4%A1%C1%A1_%BF%DC%B0%FC.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06190"
@@ -27640,7 +27640,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신선설농탕-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241126_22/1732600532755PnFe5_JPEG/1000012611.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06209"
@@ -27720,7 +27720,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페쎄미-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240305_54/17096439055523eSoX_JPEG/KakaoTalk_20220308_120603074.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -27754,7 +27754,7 @@ const restaurants = [
     "naverPlaceId": "779599925",
     "naverUrl": "https://map.naver.com/v5/entry/place/779599925",
     "naverBlogCnt": 11,
-    "imageUrl": "/images/restaurants/samseong/강남집밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190101_202/15462724460315P4tV_JPEG/u7zh9lmBvlLYFfGpNqEnAB3v.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -27830,7 +27830,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/부뚜막-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230208_102/1675853554801SKG1R_JPEG/D748DA55-0A19-4CB3-A22B-EF80A34560DD.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -27893,7 +27893,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/홍수계찜닭-포스코센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230705_166/1688530390678hceBN_JPEG/KakaoTalk_20230704_120944302_02.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -27972,7 +27972,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/남도감자탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180914_97/1536890410403O5lRY_JPEG/M-M9Bq7fm_6H7Wv6CzT2aTlj.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06193"
   },
@@ -28048,7 +28048,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한국인의-솥밥-숯불한우-도야지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191030_236/15724093448156HY1h_JPEG/1uR3WE0tU5B4qDV4fo3wqMeY.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -28187,7 +28187,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/보노보노-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240816_82/1723773175633mpazq_PNG/%C0%CC%BF%EB%BE%C8%B3%BB.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -28246,7 +28246,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/뽕나무쟁이-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161209_112/14812144599157O5dV_JPEG/177159415759626_0.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -28374,7 +28374,7 @@ const restaurants = [
     "naverPlaceId": "1137601966",
     "naverUrl": "https://map.naver.com/v5/entry/place/1137601966",
     "naverBlogCnt": 674,
-    "imageUrl": "/images/restaurants/samseong/아웃백스테이크하우스-코엑스스타필드점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251110_196/1762743040106wlsM8_JPEG/251030_%BE%C6%BF%F4%B9%E9_11%BF%F9_%BD%C5%B8%DE%B4%BA_DID_%C0%CC%B9%CC%C1%F6-02%281920-1080%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -28433,7 +28433,7 @@ const restaurants = [
         "description": "찰진 부위로 고소하고 깔끔한 맛입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오발탄-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240109_272/1704786874935OS413_JPEG/FSFT0216-%C6%ED%C1%FD.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -28536,7 +28536,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/모도우-The-ROOM-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250722_218/17531741850053kRmv_JPEG/DSC_30911.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -28826,7 +28826,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더라운드-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191026_189/1572083292709AaHz5_JPEG/G8CvO_aOEy9A4R_Y-ZmKiQ3a.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -28907,7 +28907,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/잇쇼우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220726_188/1658764602799ufzhS_JPEG/3A998CEB-EB2E-4B7D-AF7D-1F272DB29884.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -28944,7 +28944,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "18456248",
     "naverUrl": "https://map.naver.com/v5/entry/place/18456248",
-    "imageUrl": "/images/restaurants/samseong/루나아시아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_56/1440993290568pKgh8_JPEG/SUBMIT_1358232570418_18456248.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -29117,7 +29117,7 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스타벅스-삼성역섬유센터R점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "updatedAt": "2026-03-16",
     "zip": "06169"
   },
@@ -29291,7 +29291,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백세주마을-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161130_163/1480483718243aEE8J_JPEG/177080545857288_0.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -29350,7 +29350,7 @@ const restaurants = [
         "description": "직접 눌러 구워서 구수한 누룽지와 오낙젓갈"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명인등심-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240404_146/1712229923394JHl6e_JPEG/ok_%B8%ED%C0%CE%B5%EE%BD%C9_DSC00543_%BF%AC%B1%E2%C1%D9%C0%D3-%C0%A5%BB%E7%C0%CC%C1%EE.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -29432,7 +29432,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/의령전원-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230318_222/1679138414045iAWfL_JPEG/20230311_170310.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -29513,7 +29513,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소호정-대치점-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/20141027_161/sosobang_1414403232131OFjPd_JPEG/10.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -29604,7 +29604,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미쓰양꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200210_240/1581313550561XGf2R_JPEG/-oyBlz16gT34UnnrZYEHgERL.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -29797,7 +29797,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/어방참치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250318_195/1742289084752FsuGg_JPEG/20250318_164647.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -29968,7 +29968,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일일향-삼성11호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231124_12/1700815962407XsvDD_JPEG/%B7%EB%B4%DC%C3%BC%BC%AE.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -30039,7 +30039,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/르푸도레-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260211_155/17707908623537WhoG_JPEG/%C1%A6%B8%F1_%BE%F8%B4%C2_%B5%F0%C0%DA%C0%CE_%281%29.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -30221,7 +30221,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "36648833",
     "naverUrl": "https://map.naver.com/v5/entry/place/36648833",
-    "imageUrl": "/images/restaurants/samseong/알로이타이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150903_115/1441266103434ljooy_JPEG/SUBMIT_1441266050796_36648833.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -30291,7 +30291,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청담수-청담역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220411_231/1649613512248S9BmO_JPEG/1D65DF65-82C5-4E71-ABFE-79A5687FEA7D.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -30382,7 +30382,7 @@ const restaurants = [
         "description": "푸짐하고 부드러운 살과 진한 일품 육수의 만남"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/연타발-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250731_77/1753940547698ua95F_JPEG/KakaoTalk_20250731_123449792_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30470,7 +30470,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청자골-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251023_58/1761223864266Cr9mQ_GIF/%C3%BB%C0%DA%B0%F1_GIF.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30559,7 +30559,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/목삼정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_18/17655357155599CaDT_JPEG/%BA%B8%C1%A4%BA%BB-22_%C0%FA%BF%EB%B7%AE.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30748,7 +30748,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/호미곶막회물회-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240109_212/17048090820953w6cu_JPEG/1000000805.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30825,7 +30825,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도스타코스-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171226_14/15142762248231gn5D_JPEG/PJyiOErTTr8ToMIofob9ET_r.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -31002,7 +31002,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/바우한우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240207_254/1707279343873tyKNu_JPEG/DSC09538.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -31099,7 +31099,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/벨지움재즈카페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180317_188/152127303822772esl_JPEG/FPTjeHGCZsFgo_qMnySBXai1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31151,7 +31151,7 @@ const restaurants = [
         "description": "바토스 또띠아, 까르네 아사다(소고기), 양파, 고수"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/바토스-파르나스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200907_226/1599464430529iPGY5_JPEG/5Iykq0GNnrWLwjnj-YIs0vUS.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31218,7 +31218,7 @@ const restaurants = [
         "description": "고소한 황태와 개운한 국물, 속 편안한 해장 한 그릇!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신사골감자탕-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211210_32/1639125256087JwayC_JPEG/KakaoTalk_20211209_173226292.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31295,7 +31295,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241204_35/17333046041413vSu2_JPEG/IMG_0153.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31378,7 +31378,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스템커피-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260202_155/1770008492806ItiTG_JPEG/%B5%CE%C2%CB%C4%ED%BC%BC%C6%AE_%B3%D7%C0%CC%B9%F6.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31454,7 +31454,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/쿠시일오이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180730_276/1532895361462WWCmr_JPEG/hEgKZEYZk3xXFH9bO8coXUn_.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -31496,7 +31496,7 @@ const restaurants = [
     "naverPlaceId": "1147977307",
     "naverUrl": "https://map.naver.com/v5/entry/place/1147977307",
     "naverBlogCnt": 1529,
-    "imageUrl": "/images/restaurants/samseong/크랩52-샤브52-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230614_124/1686714067565nOjRr_JPEG/%C5%A9%B7%A652_%BF%C2%B6%F3%C0%CE%28%B3%D7%C0%CC%B9%F6%29_%B8%C5%C0%E5%BB%E7%C1%F8.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31556,7 +31556,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청담스포피아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_156/1441033456878lEnVt_JPEG/11737706_0.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -31714,7 +31714,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성동치킨-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211011_104/16339362129563UI9t_JPEG/lfjUlOJu-s5viDt9v3YHYR0X.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31792,7 +31792,7 @@ const restaurants = [
         "description": "중국식 물냉면입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/항방양꼬치-한티점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191104_102/1572869037989qp5Dy_JPEG/VWs7H1RLHlN8fdaqe6EEOA5V.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -31983,7 +31983,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/무삥과팟타이-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221004_24/1664879897686C31eq_JPEG/20221004_175622.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -32099,7 +32099,7 @@ const restaurants = [
         "description": "사골 육수에 정성껏 빚은 고기만두를 담은 따뜻한 만둣국"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선비칼국수-삼성대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251119_124/1763542344350b9g9K_JPEG/%C0%FC%C3%BC%BB%E7%C1%F8.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06175"
   },
@@ -32156,7 +32156,7 @@ const restaurants = [
         "description": "첫 입은 부드럽고 씹을수록 쫄깃하고 단백한 맛이 일품"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오발탄-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200508_54/15888989851893COvE_PNG/GYMiggSn-Lmj5Olk8eIbaaBz.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32218,7 +32218,7 @@ const restaurants = [
         "description": "부드럽고 연한 맛과 특유의 풍미가 일품인 부위"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미랑-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251120_217/1763626216247Q3fch_JPEG/%B8%B1%BD%BA1_%C7%D1%BB%F3%C2%F7%B8%B2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32271,7 +32271,7 @@ const restaurants = [
         "description": "랍스타가 포함된 경복궁 블랙만의 대표 코스 입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/경복궁-블랙-오크우드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200810_286/1597047819494wMc2v_JPEG/IdbrmMTVMpDG-i-aiGInQihz.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32324,7 +32324,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/뮤직아날로그-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250812_23/1754999574541PhIOl_JPEG/IMG_3030.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32510,7 +32510,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/하이디라오-COEX점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240127_57/1706338311527NqO2C_PNG/-3cWUS6vZ-8NvglUNWekEzpW.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -32586,7 +32586,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/훈이자카야-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_117/1764916778640kXtqb_JPEG/%BB%E7%BD%C3%B9%CC2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32841,7 +32841,7 @@ const restaurants = [
         "description": "1++ 한우를 이용한 관서풍 스키야키세트입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/민규-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250614_240/17498905462862XuUR_JPEG/KakaoTalk_20250614_173129959.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32923,7 +32923,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/세광양대창-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200406_141/1586145105409bVBt3_JPEG/3mbsCbxwWJmKi0ELwtPSY6hX.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -33148,7 +33148,7 @@ const restaurants = [
         "description": "Seafood Oil Spaghetti Pasta"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이비티-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211117_151/1637119536775cgYMm_JPEG/ChadPark%28wavefilm%29_ebt_coex_040.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33209,7 +33209,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도레도레-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231023_296/1698058730615hIOlx_JPEG/CF01DA61-C0BE-4F8C-B07F-B35A3190C5B2.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33297,7 +33297,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/트라가-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250503_251/1746257286749hsOz0_JPEG/%C6%AE%B6%F3%B0%A1_%C7%C1%B8%AE%B9%CC%BE%F6%BC%BC%C6%AE_%287%29%B4%BA%BA%FC%BF%A1%BE%DF%C8%A6%B1%D7%B7%B9%C0%CE.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33330,7 +33330,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1212435493",
     "naverUrl": "https://map.naver.com/v5/entry/place/1212435493",
-    "imageUrl": "/images/restaurants/samseong/바나프레소-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230730_162/1690724918139ipwHx_JPEG/1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -33411,7 +33411,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/보돌미역-강남포스코점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220825_218/1661396418495c8Kn9_JPEG/%C6%F7%BD%BA%C4%DA%C1%A1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -33498,7 +33498,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191113_104/1573639643568XWw9J_JPEG/kcXgGH7ltH2d2iBxarYxtAek.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -33580,7 +33580,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/숙성회장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240914_10/1726301822225dbLSB_JPEG/%C1%A1%BD%C903.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -33751,7 +33751,7 @@ const restaurants = [
         "description": "깔끔하면서도 고소한 향이 특징인 리옹의 밀크티"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페드리옹-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220805_274/1659675363981PLKHb_JPEG/Screenshot_20220804-181327_Instagram.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -33901,7 +33901,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신왕우육면-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221027_193/1666825616113bePAk_JPEG/CL5A3051.JPG",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -33989,7 +33989,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/온새미로-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_21/1566973001497IIaLt_JPEG/TQJszUoStsqoHKXUloJGL64h.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -34060,7 +34060,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1054117245",
     "naverUrl": "https://map.naver.com/v5/entry/place/1054117245",
-    "imageUrl": "/images/restaurants/samseong/아그라-롯데백화점-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210219_194/16137263953861dzvm_JPEG/zr4Y3TNgEW14f_wzUtHObZvE.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06207"
   },
@@ -34211,7 +34211,7 @@ const restaurants = [
         "description": "바싹한 반죽과 낙지, 새우가 넘치는 가성비 좋은 파전"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/최순옥명품국밥-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_174/1753380093272qSVY4_JPEG/IMG_8372.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -34319,7 +34319,7 @@ const restaurants = [
     "naverPlaceId": "1165953436",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165953436",
     "naverBlogCnt": 78,
-    "imageUrl": "/images/restaurants/samseong/평창집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240314_285/17103772606694v6eA_JPEG/IMG_3872.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -34401,7 +34401,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이가네양꼬치-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250906_272/1757114980726hybjU_JPEG/1757114708742.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -34444,7 +34444,7 @@ const restaurants = [
     "naverPlaceId": "1924966894",
     "naverUrl": "https://map.naver.com/v5/entry/place/1924966894",
     "naverBlogCnt": 65,
-    "imageUrl": "/images/restaurants/samseong/이비스스타일앰배서더강남-프레쉬365다이닝-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171128_120/15118523450117kjRG_JPEG/_365___2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -34481,7 +34481,7 @@ const restaurants = [
     "naverPlaceId": "37402216",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402216",
     "naverBlogCnt": 33,
-    "imageUrl": "/images/restaurants/samseong/이비스-스타일-앰배서더-강남-르바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180221_271/1519208834673khLk0_PNG/%B8%A3%B9%D91.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -34563,7 +34563,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/능라도-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_75/1760452109427ta9uI_JPEG/TSC_2001re.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -34647,7 +34647,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/반룡산-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250203_84/17385620055422AiWr_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-02-03_%BF%C0%C8%C4_2.52.57.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -34746,7 +34746,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아야진생태찌개-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_71/1441030980969ndCW9_JPEG/96476566844639_0.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -34790,7 +34790,7 @@ const restaurants = [
     "naverPlaceId": "13116182",
     "naverUrl": "https://map.naver.com/v5/entry/place/13116182",
     "naverBlogCnt": 2399,
-    "imageUrl": "/images/restaurants/samseong/수담-한정식-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251121_205/1763693771973f8Rq1_PNG/%B4%EB%C5%EB%B7%C9%BB%F3_%BC%F6%BB%F3.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -34921,7 +34921,7 @@ const restaurants = [
         "description": "루꼴라, 프로슈토(하몽)와 토마토 소스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더플레이스-스타필드-코엑스점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20241210_76/17338320826412Jald_JPEG/240829_CJfood7381b.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35006,7 +35006,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/테라로사-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200614_131/1592134925460HGwIw_JPEG/Zg9eKaRO64nT4a-Om9R-Z_5Q.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -35043,7 +35043,7 @@ const restaurants = [
     "naverPlaceId": "1508030844",
     "naverUrl": "https://map.naver.com/v5/entry/place/1508030844",
     "naverBlogCnt": 2300,
-    "imageUrl": "/images/restaurants/samseong/바이킹스워프-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230210_1/16760202289608O7Tq_JPEG/%B6%F3%C0%CC%BA%EA_%BE%BE%C7%AA%B5%E5%C1%B8_%B5%F0%C5%D7%C0%CF.JPG",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35092,7 +35092,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/금수복국-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210419_78/1618800708650dSHLb_JPEG/L7j4OXuSUvOERSBL3l5PFUE5.jpeg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35128,7 +35128,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1894081090",
     "naverUrl": "https://map.naver.com/v5/entry/place/1894081090",
-    "imageUrl": "/images/restaurants/samseong/몽중헌-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181228_167/15459665692028aVBO_JPEG/DFH_1XCB7L_S_vLyCoufJhKt.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06187"
   },
@@ -35190,7 +35190,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/산월수제비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_109/14409944433466aJ8A_JPEG/11885058_0.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -35447,7 +35447,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소연-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171129_254/1511962075504xeha1_JPEG/20161118_110619.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35534,7 +35534,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/경평면옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180417_22/1523945118616VtsfU_JPEG/BSOLUoFwjdkT2U6zaRwwBS6s.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35618,7 +35618,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오스카-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181004_294/1538579284156lezBn_JPEG/rJzOeEqs6hykOwmAMUN1JcSw.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -35693,7 +35693,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파리크라상-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240621_69/1718937182870lSP7t_JPEG/PCK%BB%EF%BC%BA%BF%AA%C1%A1.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06181"
   },
@@ -35872,7 +35872,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아선재-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201220_47/1608395646227TRf2v_JPEG/HO__8434.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -35965,7 +35965,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김태완스시-대치본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250827_229/1756263376701oGqp3_JPEG/6.%BF%C0%B8%B6%C4%AB%BC%BC.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06206"
@@ -36031,7 +36031,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/웨스틴-서울-파르나스-더-로그-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_73/1772068456699OdOFp_JPEG/250914-westin_parnas_265.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36114,7 +36114,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/웨스틴-서울-파르나스-온-테이블-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_4/1772068412550rYPyT_JPEG/250905-westin_parnas_245_R01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36168,7 +36168,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카토멘-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_256/1768195114866PjCDF_JPEG/syr1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -36252,7 +36252,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/베이비기네스-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160724_190/14693705862362fpiv_JPEG/176674635964285_0.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -36306,7 +36306,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/불백아찌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240111_239/17049802895353DWiy_JPEG/%B4%DC%C3%BC%C4%C6_04.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36468,7 +36468,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신-차이홍-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250419_95/1745028430808OQ8gD_JPEG/%C4%C1%BC%C1_%286%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -36598,7 +36598,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김명자굴국밥-삼성3호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_37/1563872036166uS1CR_JPEG/QBIAZgmzKVzlnIinxxD_Dsmf.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -36630,7 +36630,7 @@ const restaurants = [
     "naverPlaceId": "13149894",
     "naverUrl": "https://map.naver.com/v5/entry/place/13149894",
     "naverBlogCnt": 81,
-    "imageUrl": "/images/restaurants/samseong/두꺼비정육점식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_86/1440994476656T21l5_JPEG/106470458547144_0.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -36717,7 +36717,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/교대이층집-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190415_138/1555316085424AjRkF_JPEG/1UPSnHpcGh3TJDYG0IJtG3wg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36794,7 +36794,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/향호면옥강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_129/1441061988785MUbmD_JPEG/SUBMIT_1321640135531_20717567.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -36877,7 +36877,7 @@ const restaurants = [
         "description": "(양념 한마리 포장: 치킨무1+캔콜라1)"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마미치킨-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180111_39/1515614066101w5hFq_JPEG/GlQtzwrxtuObwImpBZKPJgba.JPG.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -36953,7 +36953,7 @@ const restaurants = [
         "description": "부드러운 소고기입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/불이아-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190831_238/1567252445884YqhKn_JPEG/0sSOC2xttoF_0lhd6ZsWY7ix.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -37128,7 +37128,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/경성양꼬치-청담점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_163/1441014828235gJjLy_JPEG/SUBMIT_1372121278773_19774059.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -37190,7 +37190,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/바른-닭칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230214_184/1676353585156lPt9m_JPEG/20230204_170154.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06284"
   },
@@ -37375,7 +37375,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/웰컴투순대국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240901_166/1725154606155UDMSg_JPEG/IMG_9557.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -37417,7 +37417,7 @@ const restaurants = [
     "naverPlaceId": "1000937514",
     "naverUrl": "https://map.naver.com/v5/entry/place/1000937514",
     "naverBlogCnt": 260,
-    "imageUrl": "/images/restaurants/samseong/부엉이식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230529_166/1685337306397fdL4f_JPEG/IMG_8677.JPG",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -37500,7 +37500,7 @@ const restaurants = [
         "description": "탄단지 샐러디 세트 + 카사바칩 + 코크제로"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/샐러디-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -37572,7 +37572,7 @@ const restaurants = [
         "description": "다크 쵸코렛 파우더와 얼음, 저지방 우유의 블렌드"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/커피빈-삼성봉은사로점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251021_76/1761020348415yMi9A_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -37612,7 +37612,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포차일공-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240413_284/1712979648306TxpYj_JPEG/20240403_171232.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -37740,7 +37740,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1456551335",
     "naverUrl": "https://map.naver.com/v5/entry/place/1456551335",
-    "imageUrl": "/images/restaurants/samseong/시마스시-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251121_97/1763714449786N2rdb_JPEG/DSC05390_1000x1000.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -37861,7 +37861,7 @@ const restaurants = [
     "naverPlaceId": "11857856",
     "naverUrl": "https://map.naver.com/v5/entry/place/11857856",
     "naverBlogCnt": 91,
-    "imageUrl": "/images/restaurants/samseong/지호한방삼계탕-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151021_237/1445409982386bi9sr_JPEG/166971557639735_0.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -37919,7 +37919,7 @@ const restaurants = [
         "description": "바삭하게 튀겨 낸 닭봉을 허니소스에 텀블링한 에피타이져"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/반포식스-포스코사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_176/17727838175094AVY8_PNG/%B9%DD%C6%F7%BD%C4%BD%BA_%C0%CC%B9%CC%C1%F63_2.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38190,7 +38190,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/정참치-선릉역본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241205_300/17334102531862aUb4_JPEG/KakaoTalk_20241202_200913893_02.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -38278,7 +38278,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/제일양-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200330_130/15855412098158PRB0_JPEG/ifMzl5iAP1dRAW8t0WEIwo9x.jpeg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38353,7 +38353,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선향정-샤브샤브-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200814_7/1597391419307mCdwX_JPEG/w7TBaeB6un5cFBmbpSUOGOrw.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -38568,7 +38568,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더라멘워-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250804_250/1754275183448n5ewp_JPEG/fdfsdf.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -38645,7 +38645,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한성양꼬치-선릉1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_246/1740014759529xmwy9_PNG/11.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -38724,7 +38724,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/부탄츄-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230427_39/1682589390033VDDh3_JPEG/20230330_120726.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -38801,7 +38801,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한성양꼬치-선릉2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200622_279/1592793846821SQI6v_JPEG/IMG_8221.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -38925,7 +38925,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청담동마녀김밥-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181023_110/1540271368168dQc8r_JPEG/BfEMEo-DGRnjdynhmESGkcJX.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -39085,7 +39085,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/싸움의고수-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240530_110/1717052900605pml5S_JPEG/%B8%DE%B4%BA_04-1.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -39247,7 +39247,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그때그집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200413_149/1586746245522PAbkk_JPEG/PDBEKsJxY4A4SDXqn_VxWorZ.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -39377,7 +39377,7 @@ const restaurants = [
         "description": "목포명가 식사 판매 1위 메뉴! 건강한 매운맛의 진수!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/목포명가-봉은사역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_65/1772198332566XagIi_JPEG/1-1-1._%BA%BD_%B5%B5%B4%D9%B8%AE%BE%A6%B1%B9.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -39447,7 +39447,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/노이-봉은사-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221218_226/16713714165118Fe5U_JPEG/69860865-EC60-4CE4-9864-5070EB03EF8E.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39555,7 +39555,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/태국의밤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221118_111/1668756395589zCKpz_JPEG/KakaoTalk_20221118_162605015.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -39773,7 +39773,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/자이온-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250731_6/1753946021269rfwEp_JPEG/YC_09930_%281%29.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06282"
@@ -39843,7 +39843,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/먹보소갈비살-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250620_173/1750405572104gPczN_JPEG/KakaoTalk_20250620_142442331_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -39909,7 +39909,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동호숯불바베큐호프-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200502_50/1588378666303cpwVF_JPEG/sJsu4ObUghLwMYVIJQFKMMpP.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -39977,7 +39977,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/타코치바스코-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231109_64/1699512702708GFrbt_PNG/IMG_9363.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -40070,7 +40070,7 @@ const restaurants = [
     "naverPlaceId": "35928370",
     "naverUrl": "https://map.naver.com/v5/entry/place/35928370",
     "naverBlogCnt": 1264,
-    "imageUrl": "/images/restaurants/samseong/온더보더-코엑스도심공항점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_18/1771834540378kJrAy_JPEG/%B0%A1%B7%CE_5.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40148,7 +40148,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/케르반-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240311_75/1710120570649cf2qd_JPEG/%BC%BC%C6%AE%B8%DE%B4%BA%C0%CC%B9%CC%C1%F6.JPG",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40199,7 +40199,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/팀호완-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_193/1768546531384cGPjI_JPEG/Profile_PrimaryGreen.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40328,7 +40328,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신동궁-감자탕-뼈숯불구이-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191114_112/1573722983875g6mdb_JPEG/07qJTL5AVFJJyYJY7Ag6js5I.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -40406,7 +40406,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉감자탕뼈숯불구이-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_216/1766387754719slYf9_JPEG/20251222_153925.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40530,7 +40530,7 @@ const restaurants = [
     "naverPlaceId": "1512800005",
     "naverUrl": "https://map.naver.com/v5/entry/place/1512800005",
     "naverBlogCnt": 688,
-    "imageUrl": "/images/restaurants/samseong/노브랜드버거-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251130_40/1764499374601XOn8B_PNG/NBB-2.0-%BF%A5%BA%ED%B7%B3-%C3%D6%C1%BE%28yellow%29.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -40582,7 +40582,7 @@ const restaurants = [
         "description": "대게살을 버섯과 죽순 등 각종 야채와 볶아낸 요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/시추안하우스-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_15/1773391326659uJdD6_JPEG/%BD%C3%C3%DF%BE%C8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40710,7 +40710,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청국장과보리밥-청담점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160121_285/1453353513556LXKRp_PNG/176071544852207_1.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -40797,7 +40797,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/문배동-육칼-삼성동직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_26/1563871717870gVyWV_JPEG/6S274SVx3qJLRUNCg4l5oUZQ.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -40875,7 +40875,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/홍운장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190818_28/1566110351936alQHD_JPEG/fcovEbHUgqX36zZWRqSyG9d8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -40962,7 +40962,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미사리밀빛초계국수-삼성코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220621_255/1655769704292oLjmQ_JPEG/20220620_105747.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41144,7 +41144,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/진대감-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250626_198/1750912551870oTVzy_JPEG/KakaoTalk_20250626_133322763_09.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -41233,7 +41233,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/난포-코엑스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_47/17661341168106KXVH_JPEG/1000083184.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41316,7 +41316,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한방정통삼계탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200630_105/15935234605824KqVD_JPEG/EKlCEbS7ywufRh_uygb9zZFN.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41392,7 +41392,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/목포명가-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_165/1772657386908BEYda_PNG/1000093794.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41478,7 +41478,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/르사이공-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190829_136/1567042794009vCDuw_JPEG/WF135L45_Yfj3PqUir5V0BHj.JPG.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41540,7 +41540,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페마마스-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220912_77/1662984686626KPemc_PNG/1373661E-6A00-42EF-9407-7119A191C400.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41732,7 +41732,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고든램지-스트리트-버거-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250113_267/1736743384379QmK6g_JPEG/ogr.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41780,7 +41780,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210320_271/1616215232094OFcp1_JPEG/d8oHTeGYYobJbfcpwUqKTEDT.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -41965,7 +41965,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아오끼-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_61/1441057104630QW6KS_JPEG/106270638735051_0.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -42054,7 +42054,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/르브런쉭-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_256/1727049420447HJLlB_JPEG/1555727919214.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -42139,7 +42139,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/초원족발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240405_33/1712318534894EW8rx_PNG/1000015716.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -42233,7 +42233,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사또족발-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241203_53/17332098608016tl2s_JPEG/DSC_0830.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -42485,7 +42485,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/양심장어-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_189/1761103354548KbBLY_JPEG/%B3%D7%C0%CC%B9%F6_1%B9%F8_%BB%E7%C1%F8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -42568,7 +42568,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/지미스-타코-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170721_207/1500604284636a2VHV_JPEG/186671516144_0.JPG",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06201"
@@ -42655,7 +42655,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더제이제이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231003_265/1696323290590grIJt_JPEG/20230927_201959.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -42831,7 +42831,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동촌-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_13/1440995283682tnL55_JPEG/156155408461088_0.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -42878,7 +42878,7 @@ const restaurants = [
         "description": "고추장소스로 매콤하고 진한맛을 느낄수 있습니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오늘은닭-삼성코엑스본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220706_285/1657073770233lOidF_JPEG/B0C79AA4-3608-4619-A064-F4794CA401D7.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -42959,7 +42959,7 @@ const restaurants = [
         "description": "고소한 들깨의 풍미를 더한 부드러운 수제비입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/밀밭-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240930_12/1727659197478hWMzK_JPEG/KakaoTalk_20240928_120438128_04.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -43000,7 +43000,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/석기정돌솥부대찌개-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191112_191/1573557377054CFIYM_JPEG/qp5fAX_l3btyndsuYemcyMlx.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -43087,7 +43087,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/남부-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240507_90/1715092632400e1MYv_JPEG/%B3%B2%BA%CE%C7%D1%C6%C7_600g.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -43164,7 +43164,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대파-양곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_4/1441041412681enTx7_JPEG/SUBMIT_1279700430254_13465296.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -43194,7 +43194,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "35386954",
     "naverUrl": "https://map.naver.com/v5/entry/place/35386954",
-    "imageUrl": "/images/restaurants/samseong/호아빈-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160817_4/1471397537333hJD7d_JPEG/176767506237128_0.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -43261,7 +43261,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미러칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191128_246/1574943900328Dgmz9_JPEG/tTlFsmHSwbdetHHQFVkkBcWb.jpeg.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -43341,7 +43341,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/드코닝-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200426_19/1587905088681gQVpd_JPEG/OTmb41_p8NSbr9e3Or4pNFmZ.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -43430,7 +43430,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/담미온-삼성중앙역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210817_109/1629172174029lOd5P_JPEG/LJlDq1regLfgOvqQVj95kYac.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -43617,7 +43617,7 @@ const restaurants = [
     "naverPlaceId": "1973586065",
     "naverUrl": "https://map.naver.com/v5/entry/place/1973586065",
     "naverBlogCnt": 43,
-    "imageUrl": "/images/restaurants/samseong/삼백플러스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200924_75/1600936961720DRwTc_JPEG/FA2Iv-Me_AA40rNgz9nULqsV.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -43697,7 +43697,7 @@ const restaurants = [
         "description": "수제로제소스, 면150g, 떡갈비4족, 버섯, 브로콜리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/애니홀-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240729_80/17222170869526TJmC_JPEG/KakaoTalk_20240729_103726770.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -43781,7 +43781,7 @@ const restaurants = [
         "description": "중식풍으로 튀긴 면 위에 소스를 부어먹는 요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/노메-이자카야-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230623_80/1687488531008tXGlj_JPEG/20230623_113556_3.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -43860,7 +43860,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이천가든-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200406_38/1586131554870UrgtL_JPEG/tLTqZ7lWwNXv9gvtnzF-K8IJ.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -44020,7 +44020,7 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스타벅스-코엑스아셈타워점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -44097,7 +44097,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/솔솥-선릉-삼성-포스코센터점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20240626_257/1719371722735oFtSU_JPEG/DSC02630.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -44335,7 +44335,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/상록수-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220725_45/1658756721534ctUvp_JPEG/KakaoTalk_20220719_185726851_13.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -44482,7 +44482,7 @@ const restaurants = [
     "naverPlaceId": "1375943999",
     "naverUrl": "https://map.naver.com/v5/entry/place/1375943999",
     "naverBlogCnt": 1310,
-    "imageUrl": "/images/restaurants/samseong/이복희해장-선릉본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250712_289/1752282922043RVBy1_JPEG/%C4%C1%BC%C1_%289%29.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06193"
   },
@@ -44560,7 +44560,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/핫쵸-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250225_300/1740472175658j2kfH_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF%BA%EA%B7%A3%B5%E5%B4%EB%C7%A5%C0%CC%B9%CC%C1%F61.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -44646,7 +44646,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선주가-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260225_45/1771984129225zE0Gv_PNG/%BC%B1%C1%D6%B0%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%C0%CC%B9%CC%C1%F6.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -44728,7 +44728,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성동뼈다귀집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240103_114/1704263091312mVMFc_JPEG/%C0%D4%B1%B8%BB%E7%C1%F8.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45015,7 +45015,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2089671853",
     "naverUrl": "https://map.naver.com/v5/entry/place/2089671853",
-    "imageUrl": "/images/restaurants/samseong/호앙비엣-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_77/1766397583111V1gb5_JPEG/00.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45084,7 +45084,7 @@ const restaurants = [
         "description": "담백하고 깊은 맛이 특징으로 속이 시원해지는 쌀국수"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/비욘드비엣남-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241118_73/1731870612605aVWzx_JPEG/3472591261098476388_20241117153220381.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45167,7 +45167,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/덴키카츠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240707_200/1720337860572t048g_JPEG/%C8%F7%B7%B9_%2B_%C4%A1%C1%EE_%C4%DE%BA%B8_02.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -45242,7 +45242,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉구스밥버거-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191025_95/15719789582833DLDw_JPEG/p5yeWLanmrdz10MZp_pquPpH.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06279"
@@ -45294,7 +45294,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉돈까스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230613_215/1686653205152KJfPn_JPEG/KakaoTalk_20230613_194324048_04.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45367,7 +45367,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김뚜껑-부대찌개-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250330_237/1743314996024TRTMD_PNG/1000011617.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -45453,7 +45453,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더타코부스-한티역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_270/1753420856977oAhvL_JPEG/1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45504,7 +45504,7 @@ const restaurants = [
         "description": "고급 식재료인 낙지,전복을 함께 내어드리는 짬뽕입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/페이홍러우-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250813_4/1755049470714NRLLT_JPEG/111111.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -45596,7 +45596,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/밀밭사이로칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180726_265/1532569486050t3MwL_JPEG/h3B2NdVNvaPBoW6QH0B-Mjpf.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45638,7 +45638,7 @@ const restaurants = [
     "naverPlaceId": "1084124759",
     "naverUrl": "https://map.naver.com/v5/entry/place/1084124759",
     "naverBlogCnt": 43,
-    "imageUrl": "/images/restaurants/samseong/카페자몽-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251029_268/1761717135466lCdvA_PNG/1.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45791,7 +45791,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/헐레벌떡-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240210_110/1707559644669laqUF_PNG/KakaoTalk_20240121_123335854.png",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -45831,7 +45831,7 @@ const restaurants = [
     "naverPlaceId": "1884410621",
     "naverUrl": "https://map.naver.com/v5/entry/place/1884410621",
     "naverBlogCnt": 4,
-    "imageUrl": "/images/restaurants/samseong/행복들깨수제비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250106_21/1736160053735ucSIw_JPEG/1000017670.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -45954,7 +45954,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/야키니쿠-스미비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_238/1762159560118LKX3h_GIF/KakaoTalk_20251103_103301765_10.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -45996,7 +45996,7 @@ const restaurants = [
     "naverPlaceId": "1978615049",
     "naverUrl": "https://map.naver.com/v5/entry/place/1978615049",
     "naverBlogCnt": 69,
-    "imageUrl": "/images/restaurants/samseong/카마도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240930_242/1727686820558sh6R9_JPEG/IMG_1501.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -46087,7 +46087,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/선릉고깃집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211222_165/1640167215809P3AUN_JPEG/20211207_185511.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -46177,7 +46177,7 @@ const restaurants = [
         "description": "쫄깃한 결에 고소함이 터져요~ 샤브샤브의 정석✨"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봄담아-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251217_86/1765953879372G767T_JPEG/KakaoTalk_20250829_124346667.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -46258,7 +46258,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마라공방-포스코센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230330_108/1680174846087wxFLq_JPEG/D2885C32-BA0E-499B-9A5D-6E84DE03EC77.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -46342,7 +46342,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후라이드참잘하는집-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_46/1760575874693SAyGd_JPEG/%C6%AE%B7%AF%C7%C3_%C1%A4%BB%E7%B0%A2.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -46422,7 +46422,7 @@ const restaurants = [
         "description": "오징어, 보리새우 및 부추로 붙인 해물부추전"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멸콩국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260128_107/1769561303726WwcP2_JPEG/IMG_9364.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -46500,7 +46500,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/면요리연구소-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_112/1743756584617PrTDF_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-002.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -46582,7 +46582,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/월매네주막-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190725_122/1564044926930hK2P9_JPEG/LZIEPuspZGKkmMYul0RUApDl.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06181"
   },
@@ -46671,7 +46671,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/수하동-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220415_18/1649994292416hrPa4_JPEG/image.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -46762,7 +46762,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/피양콩할마니-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171129_96/1511951681037wRBmc_JPEG/image.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -46887,7 +46887,7 @@ const restaurants = [
     "naverPlaceId": "36166442",
     "naverUrl": "https://map.naver.com/v5/entry/place/36166442",
     "naverBlogCnt": 169,
-    "imageUrl": "/images/restaurants/samseong/KFC-코엑스MALL-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_199/1548569787971QJ9hX_JPEG/1dp25nBOjpDBNxOAOht00irJ.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -46919,7 +46919,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "507653831",
     "naverUrl": "https://map.naver.com/v5/entry/place/507653831",
-    "imageUrl": "/images/restaurants/samseong/명가원설농탕-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190903_243/1567505243090wCTkt_JPEG/014D9ECC-5179-4C04-A65C-0D23179FA635.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -47236,7 +47236,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/범호국수-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251207_61/1765098220224ahx7L_JPEG/IMG_2796.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -47311,7 +47311,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한가네숯불닭갈비-역삼점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240826_133/1724638666545i7j0i_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF_19-05-090091.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -47401,7 +47401,7 @@ const restaurants = [
         "description": "강도다리 사시미와 모둠회가 어우러진 스페셜 코스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/해담채-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240627_168/1719465152000yIpWL_JPEG/%C7%D8%B4%E3%C3%A4%BD%BA%C6%E4%BC%C8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -47478,7 +47478,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/토말실비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_214/1769081030563kHpAz_JPEG/KakaoTalk_20260121_003420755_10.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -47575,7 +47575,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/하이보-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_233/1749538483596hnBQJ_JPEG/1000005268.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -47664,7 +47664,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/서래향-삼성대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250718_263/1752813606386oGfXc_JPEG/1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -47744,7 +47744,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사이드쇼-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_23/1770627649474XDUFt_JPEG/%C4%DA%BF%A2%BD%BA_%BB%EF%BC%BA%BF%AA_%C1%EF%BC%AE%B6%B1%BA%BA%C0%CC_%BB%E7%C0%CC%B5%E5%BC%EE_%2814%29.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -47826,7 +47826,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/호신각-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_40/1772606487279Ixgvr_JPEG/KakaoTalk_20250911_124452879_02.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -47914,7 +47914,7 @@ const restaurants = [
         "description": "190g/1인분(2인분 부터 주문가능)"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/판동면옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180502_48/1525239302549jhypH_JPEG/oBpX4IfEd9pBblZ7JBmfBr9u.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48096,7 +48096,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/쭈불앤쭈불-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191111_243/1573454246537APkgX_PNG/2sDAF0vnb1w7zhPZFmy8c15T.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -48238,7 +48238,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "13161114",
     "naverUrl": "https://map.naver.com/v5/entry/place/13161114",
-    "imageUrl": "/images/restaurants/samseong/영덕횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180221_151/1519198407372TAUJP_PNG/SAyIE1RrpsHQxWJRPQxoRmGg.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48329,7 +48329,7 @@ const restaurants = [
         "description": "업진살이라고도 불리는 고소함의 최고부위"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/배꼽집-코엑스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240113_113/1705081859633tR3Sk_JPEG/1704896844522.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -48502,7 +48502,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/용수사-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251021_214/17610258635662Udjk_JPEG/KakaoTalk_20251017_143546682.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -48587,7 +48587,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/돈꼬레-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_198/1757308110097Ad798_JPEG/1000011832.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -48769,7 +48769,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사조회참치-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_93/1764222375479vzX7j_JPEG/KakaoTalk_20251125_143819642.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -48843,7 +48843,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/미성양꼬치-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161020_42/1476947095401qlaUV_JPEG/176970563474434_0.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48922,7 +48922,7 @@ const restaurants = [
         "description": "마르게리따에 블랙/그린올리브, 할라피뇨를 버무린 토핑"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스폰티니-PUB-삼성중앙점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220212_68/1644635862174V1ciN_JPEG/202002180522-%BA%B9%BB%E7.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49002,7 +49002,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/문어앤치킨-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200327_25/1585307046236iDvnN_JPEG/MlvGfwPOGpi80RO-HDRKetC_.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49088,7 +49088,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도마다리-감자탕-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230915_154/1694749278387NaUrQ_JPEG/KakaoTalk_20230915_123732610_04.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -49242,7 +49242,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/족발야시장-무청감자탕-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_255/1770100296333VyELe_JPEG/9.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06193"
@@ -49306,7 +49306,7 @@ const restaurants = [
         "description": "멕시칸 스타일 돼지고기와 함께 먹는 나초"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/쿠차라-코엑스몰오크우드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200506_164/1588752483180vAlTs_JPEG/oirAR2wimep2nL165BdeUkE8.JPG.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49349,7 +49349,7 @@ const restaurants = [
     "naverPlaceId": "1047937294",
     "naverUrl": "https://map.naver.com/v5/entry/place/1047937294",
     "naverBlogCnt": 745,
-    "imageUrl": "/images/restaurants/samseong/호호식당-스타필드코엑스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_8/1770628857261Ujqqd_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2026-02-09_171420.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -49521,7 +49521,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아리랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230127_89/1674813174311SIuSB_JPEG/BD9F11EE-317C-444A-AD4E-8C2C0DF6A297.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -49607,7 +49607,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/전주순대국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220323_268/1648010649067dH9Rr_JPEG/20220323_134235.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -49685,7 +49685,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/정일면-삼성점-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250804_26/1754317238134DoF6P_JPEG/IMG_6278.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49762,7 +49762,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성-족발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231220_199/1703058801520mqdUa_JPEG/1000000602.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -49798,7 +49798,7 @@ const restaurants = [
     "naverPlaceId": "1186783820",
     "naverUrl": "https://map.naver.com/v5/entry/place/1186783820",
     "naverBlogCnt": 9,
-    "imageUrl": "/images/restaurants/samseong/종로김밥-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250307_47/17413372378170HV0x_JPEG/1000016483.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -49844,7 +49844,7 @@ const restaurants = [
         "description": "진한 갈릭 소스와 담백한 포테이토의 달콤한 만남"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파파존스-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_59/1767310761740N05zQ_JPEG/250102-%C6%C4%C6%C4%C1%B8%BD%BA-%BA%B8%B5%B5%C0%DA%B7%E1-%C0%CC%B9%CC%C1%F62.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -49926,7 +49926,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우면관-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221128_273/1669593401671rECsq_JPEG/%C4%DA%BF%A2%BD%BA%B8%C5%C0%E5%BB%E7%C1%F8.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50096,7 +50096,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/금복당-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190514_25/1557817442686xNpnt_JPEG/svm7Mcd0uAdaXy5CnNfxcblZ.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50184,7 +50184,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/베르체-도심공항터미널점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231116_240/17001143104024EsYf_JPEG/1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50343,7 +50343,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/방배김밥-삼성섬유센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190920_94/1568944423518FF1kX_JPEG/RnDOjfQNPRm4ern8sRIuuXvx.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06169"
@@ -50429,7 +50429,7 @@ const restaurants = [
         "description": "오렌지 / 말차 / 초코 3가지 메뉴가 있습니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/누누커피-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240323_185/1711171877894vsblI_PNG/20230204_171641.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50529,7 +50529,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동래복국-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20231012_263/1697096289568nKhla_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%C5%A9%B1%E2%C1%B6%C1%A4.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -50679,7 +50679,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/60년전통신촌황소곱창-선릉직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200212_282/1581487705716iSv8a_JPEG/yzsWTybhrbNanK0bCLYPO3pd.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -50800,7 +50800,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/249광양불고기-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151104_153/1446637500465I3gf8_JPEG/166971557675059_0.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50887,7 +50887,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오징어세상-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_81/1767330538952jUlhR_JPEG/KakaoTalk_20260102_140738168_25.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -50990,7 +50990,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/르까프골프연습장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240321_72/1710988741410Sei2F_JPEG/lg_c14817895649514_20150428_%B0%F1%C7%C1%C0%E5%C0%FC%B0%E62.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06187"
   },
@@ -51060,7 +51060,7 @@ const restaurants = [
         "description": "담백하고 쫄깃한 식감의 반건조 조미 노가리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/비어팩토리-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221031_168/16672253332989Gpp9_JPEG/1620464130981.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51122,7 +51122,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/친친-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191204_25/1575445253143YGOsE_JPEG/Am1JBsS0zzbngaViBAw7mqqb.jpeg.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51201,7 +51201,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/리칭본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171130_108/1511975597925urOvj_JPEG/image.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51280,7 +51280,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/귀신반점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230414_32/1681469166155pK5zt_JPEG/1681451452928.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -51358,7 +51358,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/티엔티엔티엔-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_18/171930947232156PSd_JPEG/IMG_0377.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51583,7 +51583,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/흑도야지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250226_219/1740573758923Yp3El_PNG/7.PNG",
     "updatedAt": "2026-03-16"
   },
   {
@@ -51666,7 +51666,7 @@ const restaurants = [
         "description": "코스 1인 가격입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/화수사-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191022_167/1571735360639rzJgN_JPEG/LUZRMBGkqkog3n8b8SN3uv3L.JPG.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51756,7 +51756,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한우뜸-포스코센터선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240411_140/1712802012030gYBCa_JPEG/IMG_20200528_212921_353.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -52032,7 +52032,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/딸부자네불백-역삼점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_30/1441114860137dxgMr_JPEG/SUBMIT_1361946902273_30982229.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -52115,7 +52115,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/담소소사골순대육개장-삼성1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190708_48/1562567911032XYvbJ_JPEG/axRp_tRb9oXCVy7RIofrjYlB.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -52200,7 +52200,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일품두부-삼성동본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190806_204/1565082919801oH8KM_JPEG/UOAWP3D0hIeXGqa3XOSBijrd.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -52539,7 +52539,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성한방삼계탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_86/1440994586149A1inI_JPEG/106470458636355_0.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -52654,7 +52654,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이향-삼성동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190924_124/1569321972276U4RhB_JPEG/JlxSS4k3hfk5_MuKGPys5zyh.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -52735,7 +52735,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/힘난다버거-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230510_91/1683708236286BeHuN_PNG/1._HIMNANDA_BURGER_LOGO_%28%B3%D7%C0%CC%B9%F6%29.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -52888,7 +52888,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/종로면옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230627_87/1687799736690dl31d_JPEG/2765E4AD-1578-4356-A7E0-074C55FAC985.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -52972,7 +52972,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/라멘호토리-강남점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240227_240/17089897473631LOKH_JPEG/IMG_4826.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -53140,7 +53140,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/모모-베이글-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241018_206/1729180157494Gi5g8_JPEG/KakaoTalk_20241018_003045664.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -53210,7 +53210,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사쿠카츠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260208_212/1770534302030q2NNI_JPEG/IMG_4428.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -53282,7 +53282,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아그라-스타필드-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250321_49/1742523480016oDgRn_JPEG/%BE%C6%B1%D7%B6%F3%C4%DA%BF%A2%BD%BA.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53361,7 +53361,7 @@ const restaurants = [
         "description": "얼얼한 마라와 부드러운 크림의 조합이 매력적인 짬뽕"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/니뽕내뽕-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_162/1719303781204yLY6d_JPEG/0.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53623,7 +53623,7 @@ const restaurants = [
         "description": "설렁탕집 김치로 맛을 낸 새콤바삭한 김치전"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한촌설렁탕-선릉역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_65/1773034229115sAoAe_PNG/%C1%A4%B5%BF%BF%F8_%C6%F7%C5%E4%C4%AB%B5%E5_%C6%BC%BF%C0%B4%F5.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -53877,7 +53877,7 @@ const restaurants = [
         "description": "찰진 대광어의 쫀득한맛! 매운탕도 함께 즐길수 있습니다"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/청춘포차-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230524_289/1684919539092qWK6z_JPEG/Screenshot_20230523_012421_NAVER.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -54288,7 +54288,7 @@ const restaurants = [
         "description": "꼬치 어묵과 유부주머니가 곁들어진 개운한 국물 우동"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사보텐-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230712_263/1689142506872oPywy_JPEG/KakaoTalk_20230704_130932979_01.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54370,7 +54370,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소울마켓-베이커리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230616_247/1686900330614RBwYJ_JPEG/KakaoTalk_20230616_141526352_06.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -54437,7 +54437,7 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스타벅스-코엑스별마당점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -54513,7 +54513,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/천미향-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210510_48/1620615976377VBVN1_JPEG/h_5hVw9OF6qLTIxSwgLWRIdc.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54578,7 +54578,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/핫스토리-부대찌개-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190112_179/1547271094228cWICg_JPEG/1_%2815%29.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -54706,7 +54706,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1069096253",
     "naverUrl": "https://map.naver.com/v5/entry/place/1069096253",
-    "imageUrl": "/images/restaurants/samseong/사이공본가-포스코점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200710_290/1594309462517WOsVs_JPEG/Qxhtxq8Up2tA0o6xHTZ3xvcM.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -54736,7 +54736,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1221397577",
     "naverUrl": "https://map.naver.com/v5/entry/place/1221397577",
-    "imageUrl": "/images/restaurants/samseong/사이공본가-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230406_118/1680744289907kLNHc_JPEG/KakaoTalk_20230403_203320108.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -54769,7 +54769,7 @@ const restaurants = [
     "naverPlaceId": "1647490620",
     "naverUrl": "https://map.naver.com/v5/entry/place/1647490620",
     "naverBlogCnt": 351,
-    "imageUrl": "/images/restaurants/samseong/샤브촌by계백집-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220828_178/1661655503343w02I9_JPEG/1661654810594.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54798,7 +54798,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1165904418",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165904418",
-    "imageUrl": "/images/restaurants/samseong/키와미-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191203_239/1575362383562xRv2Y_JPEG/k8zf0Tq5ICWvWR1XUSzMpKp2.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -54965,7 +54965,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성분식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_174/1739415928137sL3FL_PNG/%BB%EF%BC%BA%BA%D0%BD%C4_%C0%CE%BD%BA%C5%B82-05.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -55039,7 +55039,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신라양꼬치-삼성동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_226/1441043638093oBU7M_JPEG/SUBMIT_1375245672566_32960233.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -55353,7 +55353,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/순두부열전-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220823_44/1661253511480NpzIa_JPEG/DF61649C-24A9-49B4-AF19-969678EDD0F7.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -55664,7 +55664,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/육곱식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191225_179/1577254293622cSy3i_JPEG/4T8a33QemHqnLLXDnE9-6_dK.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -55828,7 +55828,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/와인웍스-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200914_255/1600053341482jMuVn_JPEG/PKv72Vi_BbXdXocCShUSQRMf.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -55881,7 +55881,7 @@ const restaurants = [
         "description": "매콤한 낙지볶음 요리에 가장 잘 어울리는 담백한 계란찜"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/예가낙지마을-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250318_261/1742276825952behFs_JPEG/KakaoTalk_20170327_214112356.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -55928,7 +55928,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/브라이언스커피-현대백화점-무역센터-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221102_167/1667344640867svmVm_JPEG/i2-espresso-extraction.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56006,7 +56006,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/만리장성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240419_135/1713515346660PMTfe_JPEG/image.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56081,7 +56081,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/운봉-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200612_4/15919324514890i1wj_JPEG/yHM9qCeHMCkMjZdCqbkPHg0s.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -56116,7 +56116,7 @@ const restaurants = [
     "naverPlaceId": "35051091",
     "naverUrl": "https://map.naver.com/v5/entry/place/35051091",
     "naverBlogCnt": 160,
-    "imageUrl": "/images/restaurants/samseong/가득드림-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_247/1548586734849PsoDM_JPEG/1os_Xqi2yZXG45_8Cjg_adIZ.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56155,7 +56155,7 @@ const restaurants = [
     "naverPlaceId": "37370801",
     "naverUrl": "https://map.naver.com/v5/entry/place/37370801",
     "naverBlogCnt": 14,
-    "imageUrl": "/images/restaurants/samseong/삼성족발-삼성본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161207_284/1481090703011cht6e_JPEG/2.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56252,7 +56252,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1791996012",
     "naverUrl": "https://map.naver.com/v5/entry/place/1791996012",
-    "imageUrl": "/images/restaurants/samseong/삼청당-강남포스코점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230918_296/1694994818836jAFzB_JPEG/KakaoTalk_Photo_2023-09-18-08-47-20.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -56621,7 +56621,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/까발로비안코-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221101_217/1667292992230ChRNG_JPEG/20221101_174828.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -56696,7 +56696,7 @@ const restaurants = [
         "description": "참치와 고소한 마요가 어우러진 부드러운 김밥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김밥킹-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251204_129/1764835182198IAJ57_JPEG/%B1%E8%B9%E4%B8%C0%C1%FD3.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -56776,7 +56776,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/안동찜닭-해물떡찜-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_300/1548586363937GsicT_JPEG/E_jhh23RZEf3AcpjT1-V94II.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56957,7 +56957,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오비어밤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250903_132/17568373831370eKHQ_JPEG/1000012476.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -57014,7 +57014,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/강남교자-스타필드코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230724_286/1690158122576AWIjv_JPEG/%C4%DA%BF%A2%BD%BA.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57087,7 +57087,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/셰프의국수N육개장-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_181/1548586514565x3Ii2_JPEG/zweZIRT_B_vAPjxFfFEhNNqL.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57260,7 +57260,7 @@ const restaurants = [
         "description": "카라돈코츠라멘세트"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/히노아지-포스코센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241202_167/1733105286312pSPP3_JPEG/%C3%E2%B0%ED%C6%D0%B5%E51.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -57415,7 +57415,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/푸드카페김밥천국-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_49/15638591732100a5AR_JPEG/03yZMYQ_LyU4nm5OhAfDJaCw.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -57501,7 +57501,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/토노야-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240229_72/17092032630244mK6j_JPEG/KakaoTalk_20240222_140933361_09.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -57580,7 +57580,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/전주집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200630_223/1593518862656jm4wv_JPEG/C3pJQvbvcs3zMwspoL7yvgzZ.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57654,7 +57654,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오마뎅-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_204/1767342266360h1v9t_JPEG/KakaoTalk_20260102_172120013.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06279"
   },
@@ -57771,7 +57771,7 @@ const restaurants = [
     "naverPlaceId": "1104547594",
     "naverUrl": "https://map.naver.com/v5/entry/place/1104547594",
     "naverBlogCnt": 498,
-    "imageUrl": "/images/restaurants/samseong/족발신선생-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251020_264/1760920485602PalSh_JPEG/KakaoTalk_20251020_093034416.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -57857,7 +57857,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/순두부와-삼겹살-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220717_105/1658059662240cdT8B_JPEG/20220714_195203_HDR.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -57932,7 +57932,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "33879160",
     "naverUrl": "https://map.naver.com/v5/entry/place/33879160",
-    "imageUrl": "/images/restaurants/samseong/흑백홍-코엑스몰점-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/20150331_47/dicamaster_14277921265684BLk9_JPEG/DSC02528.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58012,7 +58012,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/제주오전복-스타필드-코엑스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240514_219/1715645741243YCQuh_JPEG/%BF%C0%C0%FC%BA%B9%B8%C5%C0%E5%BB%E7%C1%F83.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58041,7 +58041,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "34807308",
     "naverUrl": "https://map.naver.com/v5/entry/place/34807308",
-    "imageUrl": "/images/restaurants/samseong/소노야-코엑스몰점-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/20150824_293/momjisook2_1440406300703oTdBE_JPEG/20150719_152951.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58080,7 +58080,7 @@ const restaurants = [
         "description": "새우가 들어가 더욱 맛난 닭갈비입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/영희네-닭갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201210_73/1607600012207QadoY_JPEG/-5QpO90yWBPMlgxpa5IMJkbz.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58158,7 +58158,7 @@ const restaurants = [
         "description": "달콤 쌉사름한 달고나와 우유가 잘 어우러진 음료"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/매머드익스프레스-봉은사로-선정릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210725_247/1627214710504ODKjv_JPEG/N606WlZPi6E-wXq0CE9i636h.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58274,7 +58274,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도모다찌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191223_82/1577078716198OyaPu_JPEG/SDaQjfw_5AgU3DuIdlzf7-Af.JPG.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58354,7 +58354,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/반하는보쌈-코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170428_18/1493364735435v5xRq_JPEG/186378566232951_0.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -58403,7 +58403,7 @@ const restaurants = [
         "description": "베이컨잼 특제 레시피가 들어간 스페셜 싸이버거!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/맘스터치-대치사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230829_137/1693282401170BAq7o_PNG/%B7%CE%B0%ED_%C1%A4%B9%E6%C7%FC.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -58435,7 +58435,7 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1468136580",
     "naverUrl": "https://map.naver.com/v5/entry/place/1468136580",
-    "imageUrl": "/images/restaurants/samseong/맘스터치-피자앤치킨-대치사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240709_175/1720466969898TQ6Sc_JPEG/1718944238306.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -58481,7 +58481,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포베이-도심공항점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_267/14410313172388qWr6_JPEG/157060513362653_0.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58533,7 +58533,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마이위스키테이블-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200806_80/15966810788797Cr1t_JPEG/IagWe9i1OxNoTyEaOzrny3sQ.jpeg.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -58616,7 +58616,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/반반족-강남대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240519_238/1716092064821FDnVl_JPEG/20240518_155005.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -58685,7 +58685,7 @@ const restaurants = [
         "description": "1인세트"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/쇼군-스타필드코엑스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180702_141/1530494838006Pzae4_JPEG/dLB7IOLW2Ds6Da4blLkJpQ04.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58847,7 +58847,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/디오엠삼성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231113_206/1699868947962cR1RL_JPEG/20231022_221105.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -58920,7 +58920,7 @@ const restaurants = [
         "description": "깻잎제육볶음, 계란후라이, 튀김&전, 4가지 한식반찬"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/본도시락-대치은마점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_222/1772469337621UF8C8_PNG/do-messenger_screenshot.png",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -58992,7 +58992,7 @@ const restaurants = [
         "description": "최상급 투뿔 한우 꽃갈비살! 입안 가득 퍼지는 풍미"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/소곱삼-강남-삼성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_3/1765359430812kTod7_PNG/KakaoTalk_20251210_183644701.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59070,7 +59070,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/편백집-파르나스몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_61/17198854646338solA_JPEG/%B8%F0%B5%EB%C6%ED%B9%E9%C2%F2_%BF%AC%C3%E21.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -59158,7 +59158,7 @@ const restaurants = [
         "description": "청양새우부추전 마당주세트"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대치동마당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_208/1765510400882L8nFL_JPEG/KakaoTalk_20251212_123111437.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -59246,7 +59246,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한사발포차-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_221/17730659009468S6zi_PNG/1000002935.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -59329,7 +59329,7 @@ const restaurants = [
         "description": "태박막장과 한우차돌박이로 끌인 구수한 막장찌개!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/곰살이네-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_298/1770874155658jA9o0_PNG/1.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -59414,7 +59414,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/프레시부리또-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250919_241/17582760093828MJcJ_JPEG/250717_%C7%C1%B7%B9%BD%C3%BA%CE%B8%AE%B6%C7130647.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -59459,7 +59459,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/비마이게스트-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_217/1734698749144lYJfz_JPEG/E190E950-70B9-4F5D-B272-8B8CF0EECEE4.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -59534,7 +59534,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신마라명가마라탕-마라샹궈-강남대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220629_124/1656492344681NkH0H_JPEG/KakaoTalk_20220629_112139490_04.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06199"
   },
@@ -59594,7 +59594,7 @@ const restaurants = [
         "description": "맑은버크셔곰탕에 고기를 더욱더 두둑히 드려요!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/온니담-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250629_295/1751180186331ptT59_JPEG/KakaoTalk_20250617_100745139_01.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59685,7 +59685,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명인대동양평해장국-삼성직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250607_91/1749269988937Uc6VG_PNG/%C7%C3%B7%B9%C0%CC%BD%BA%BF%EB.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -59766,7 +59766,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카페아모제-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240715_212/1721006317086cVkJW_JPEG/%C4%AB%C6%E4%BE%C6%B8%F0%C1%A6_%B7%CE%B0%ED_%B0%A1%B7%CE%C7%FC.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -59842,7 +59842,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/힘내라정육식당-선릉점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_9/1763978688541ntJBc_JPEG/1000005277.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -59878,7 +59878,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "33879148",
     "naverUrl": "https://map.naver.com/v5/entry/place/33879148",
-    "imageUrl": "/images/restaurants/samseong/동경-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180122_297/1516619581052Rj7hS_JPEG/Z18IaaFUGGfU_0E50ZxChaoz.jpeg.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -59918,7 +59918,7 @@ const restaurants = [
     "naverPlaceId": "1788643965",
     "naverUrl": "https://map.naver.com/v5/entry/place/1788643965",
     "naverBlogCnt": 31,
-    "imageUrl": "/images/restaurants/samseong/안주가-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250102_74/1735807533670vrfXi_PNG/0.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59987,7 +59987,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사이로-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240424_103/1713952498099WpKN6_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2024-04-24_%BF%C0%C8%C4_6.54.36.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -60057,7 +60057,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일리있는-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230921_85/16952227320173rkmm_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -60138,7 +60138,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이모네뭉티기-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220915_263/1663218244064G3Scg_JPEG/KakaoTalk_20220915_140320799_05.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60176,7 +60176,7 @@ const restaurants = [
     "naverPlaceId": "1003292616",
     "naverUrl": "https://map.naver.com/v5/entry/place/1003292616",
     "naverBlogCnt": 19,
-    "imageUrl": "/images/restaurants/samseong/오페라빈-대치점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250110_46/1736505561300q9xEg_JPEG/IMG_7575.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -60275,7 +60275,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/복드림-복국-콩나물국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251218_220/1766050489031ro6UC_JPEG/4%BE%F3%C5%AB%C4%E1%B3%AA%B9%B0%B1%B9%B9%E4.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -60406,7 +60406,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/온기-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250612_121/1749699150906YKGjO_PNG/%B7%CE%B0%ED%C0%DA%BB%EA_5%B7%CE%B0%ED.2.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60461,7 +60461,7 @@ const restaurants = [
         "description": "바삭고소 먹태! 마요소스 콕 시원한 맥주와 찰떡궁합!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멕시칸치킨-대치2점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250724_214/1753362488560LCzV7_JPEG/1000022876.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -60540,7 +60540,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포란-삼성점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250717_183/1752738877719fXBCM_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%281%29.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -60584,7 +60584,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사시미랑초밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240117_70/17054929076206uu9D_JPEG/IMG_8039.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -60668,7 +60668,7 @@ const restaurants = [
         "description": "다진 참치, 가리비, 관자위에 낫또폭탄"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/리브-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250227_158/17405859890548AjPg_JPEG/IMG_4343.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60774,7 +60774,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/빌라파이브-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_204/1762772002671T5EbH_JPEG/23236.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -60828,7 +60828,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/시가플레이스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251204_156/1764840899145T1QNN_JPEG/KakaoTalk_20251130_161518350.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60874,7 +60874,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멜츠버거-삼성역-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_222/1768177077172cHC4f_JPEG/%B4%F5%BA%ED%C4%A1%C1%EE%B9%F6%B0%C5.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -60941,7 +60941,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/윤식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231004_137/1696346801204vKyRQ_JPEG/KakaoTalk_20231004_000605758.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -61031,7 +61031,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/기네스72-삼성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250621_231/1750514294877GlgVP_JPEG/2GM02299.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -61082,7 +61082,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/하이엔드-위스키-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250706_149/1751806501848zW44Y_JPEG/KakaoTalk_20250702_110013343_06.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"

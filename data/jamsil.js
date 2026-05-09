@@ -29,7 +29,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1088293580/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/압구정뽀글이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251123_292/1763899052502s6b6C_PNG/23245.jpg.png",
     "parking": false,
     "reservation": false
   },
@@ -121,7 +121,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1120365671/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/조조모모-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260208_236/1770544415821H2QT8_PNG/02._ORANGE_%281%29.png",
     "parking": false,
     "reservation": true
   },
@@ -215,7 +215,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1391416666/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청담동순도리-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241217_218/1734401142011GtB0e_JPEG/MasiLAb_0613_CS_078-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -308,7 +308,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1830186563/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라코즈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250317_11/17422008508243nJMI_JPEG/%B2%C3%B7%B9%B4%A2.jpg",
     "parking": true,
     "reservation": true
   },
@@ -341,7 +341,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1861792642/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쾌세라-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250528_228/1748440533218pjGEL_JPEG/IMG_1523.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -391,7 +391,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/193743580/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서커스래빗-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260211_61/1770807884613jxWrf_JPEG/%B5%CE%B9%D9%C0%CC%C4%C9%C0%CC%C5%A9_%C6%ED%C1%FD.JPEG",
     "parking": true,
     "reservation": true
   },
@@ -424,7 +424,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/819859102/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포드림-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250617_121/17501501318170j3PU_JPEG/20240922_102903.jpg",
     "parking": false,
     "reservation": false
   },
@@ -485,7 +485,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1698230815/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/푸짐회-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260206_294/1770362514340jvfTV_JPEG/1000003305.jpg",
     "parking": false,
     "reservation": true
   },
@@ -576,7 +576,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1763908159/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/1990-아구찜-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241104_231/1730691984086O97sM_JPEG/20241023_185142_%BC%F6%C1%A4.jpg",
     "parking": false,
     "reservation": true
   },
@@ -671,7 +671,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2050520891/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/솔직한우-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260126_15/1769405953020zDhVI_JPEG/IMG_5318_%BA%B9%BB%E7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -705,7 +705,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1253075470/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도삼숯불구이-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_181/1768205359716WKloO_JPEG/KakaoTalk_Image_2026-01-12-14-39-15_003.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -738,7 +738,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1919489892/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숙성촌-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250730_275/1753842590900S7swX_JPEG/20.jpg",
     "parking": false,
     "reservation": false
   },
@@ -772,7 +772,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2042287110/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/무궁화정육식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251206_168/1764984732117F0MmS_JPEG/%C3%F8%B8%E9.jpg",
     "parking": false,
     "reservation": false
   },
@@ -895,7 +895,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2047465656/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보틀벙커-비스트로-Bottle-Bunker-Bistro-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251222_191/1766373788074ckSMD_JPEG/image.jpg",
     "parking": false,
     "reservation": false
   },
@@ -990,7 +990,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1326472043/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뼈고다-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250729_63/1753780894897YpjqJ_JPEG/KakaoTalk_20250724_122642267_14.jpg",
     "parking": false,
     "reservation": true
   },
@@ -1026,7 +1026,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1396547893/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈순장-잠실새내-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240401_48/1711969883840Jog7v_JPEG/IMG_0644.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -1121,7 +1121,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1228230970/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈담-잠실새내본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250901_163/1756658704341NuoWh_JPEG/IMG_5033.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -1214,7 +1214,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1971624893/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/요즈음-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251004_261/17595793075407S4yT_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5-7.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -1305,7 +1305,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2066006888/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청아식당-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250909_178/17573893166430PoTY_JPEG/KakaoTalk_20250909_105937373_07.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1338,7 +1338,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1033536218/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오일리버거-잠실석촌호수직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251229_184/1766999957785X77WR_JPEG/%C0%CC%B8%A7_%BE%F8%B4%C2_%C3%D4%BF%B50579.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1432,7 +1432,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1174474392/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올더웨이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250328_236/1743140486425dH7AU_JPEG/KakaoTalk_20250327_162925929.jpg",
     "parking": true,
     "reservation": false
   },
@@ -1524,7 +1524,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1858665180/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이자카야-대물-잠실방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250618_182/17502275096788aovO_PNG/003.png",
     "parking": true,
     "reservation": true
   },
@@ -1617,7 +1617,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2057456118/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/묵힘-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251202_71/1764645871502sEo1J_JPEG/1000029561.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1685,7 +1685,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1327340073/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실한우정육식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250327_8/1743058313694Ds5Xz_PNG/%C0%E1%BD%C7.png",
     "parking": false,
     "reservation": false
   },
@@ -1778,7 +1778,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1368701983/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오니샐러드-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20240419_18/1713507113769JFrKn_PNG/%BF%C0%B4%CF%BB%F8%B7%AF%B5%E5_%B7%CE%B0%ED.png",
     "parking": true,
     "reservation": false
   },
@@ -1872,7 +1872,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2045902149/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연정민-소금구이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_55/17720442459809A5wK_JPEG/KakaoTalk_20260226_032240528_13.jpg",
     "parking": true,
     "reservation": true
   },
@@ -1907,7 +1907,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1513288596/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/래빗캐슬-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251208_267/1765127104808gUaRV_JPEG/IMG_2313.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -2000,7 +2000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1732629349/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/js가든-시그니처-잠실-에비뉴엘점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250116_157/1737004346426OiVGB_PNG/%BA%B8%B5%B5%C0%DA%B7%E11.png",
     "parking": true,
     "reservation": true
   },
@@ -2035,7 +2035,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2062033175/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꿀때기곱창-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250801_57/1754017957693VMmca_JPEG/CSJ_0098.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2132,7 +2132,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1501810705/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/호랑이굴-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250910_267/17574899068933nbmQ_GIF/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6_%C1%D9%C0%CE.gif",
     "parking": true,
     "reservation": true
   },
@@ -2165,7 +2165,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2075861072/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시-스이신-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251203_51/1764738799077V2dwq_JPEG/1000021548.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2199,7 +2199,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1374013475/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라라스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220801_45/1659336186375kCuMG_JPEG/20220730_163756_HDR2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2234,7 +2234,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1783800607/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/Poke-all-day-포케-샐러드-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2326,7 +2326,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596583134/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오하이요-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240724_28/1721809537142o4Y3y_JPEG/%C0%E1%BD%C7%BB%F5%B3%BB%28%B4%EB%B9%AE%BB%E7%C1%F8%29.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2380,7 +2380,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2055604245/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아이마미따-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251209_15/1765261854625BfaHt_JPEG/1000010777.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2414,7 +2414,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1745055564/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/갤러리덴-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240804_56/1722759343749fMMFh_JPEG/KakaoTalk_20240731_100317231_11.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2447,7 +2447,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1554718429/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모미지-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241022_202/1729605102134PgQ7T_JPEG/1000018953.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2483,7 +2483,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1035823824/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서호생갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_66/1739423372441sk1ua_JPEG/KakaoTalk_20250213_140907148.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2529,6 +2529,7 @@ const restaurants = [
     "hours": "11:30에 영업 시작",
     "tel": "07-1369-5264",
     "priceRange": "7000~32000",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231114_33/1699957706590OuJAF_JPEG/1699879728501.jpg",
     "lat": 37.5137172,
     "lng": 127.1079636,
     "cat": [
@@ -2701,7 +2702,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1768750474/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/세이야-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251023_203/1761213640954uxH8k_JPEG/1000019825.jpg",
     "parking": false,
     "reservation": true
   },
@@ -2734,7 +2735,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2046078410/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청불천막집포차-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250703_136/1751532458108z42km_JPEG/KM200055.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -2830,7 +2831,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1567835208/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더반베이크샵-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250118_192/1737206697314sEzBf_JPEG/1000017427.jpg",
     "parking": true,
     "reservation": true
   },
@@ -2863,7 +2864,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2087686875/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청춘종합어시장-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250508_6/1746682120950xXfR1_JPEG/1.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -2897,7 +2898,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1288440440/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동신상회-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230913_13/1694585494624EPAuB_JPEG/KakaoTalk_20230913_150918927.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2930,7 +2931,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1259994559/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도마카세-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240920_250/1726803224149A380d_JPEG/KakaoTalk_20240916_130657828_20.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2964,7 +2965,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1599907260/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/영오이칠-초콜릿-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250212_274/1739290021706EsjCO_JPEG/KakaoTalk_20250205_155145160_06.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3014,7 +3015,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1626845186/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/죠렌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250113_112/17367715823951ak5o_JPEG/1000000034.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3108,7 +3109,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1154645971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/배고픈-돼지-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231117_123/1700208842008Rgkis_JPEG/1700207335214.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3198,7 +3199,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1401466538/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쿠킹주방-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240810_234/1723300447693SJd3v_JPEG/1000023312.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3231,7 +3232,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1137458000/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시-이백-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250926_132/1758871470233BJWlR_JPEG/image.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3327,7 +3328,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2053738903/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/픽베이크-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_172/1762740684065FBp6N_PNG/%B8%C5%C0%E5_%C0%FC%B0%E6.png",
     "parking": true,
     "reservation": false
   },
@@ -3362,7 +3363,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029394587/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대강-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250710_160/1752133499405esYLM_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_%C0%CC%B9%CC%C1%F6_%287%29-2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3397,7 +3398,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1506795911/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/깃뽀-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260224_206/1771915215836QnlqV_JPEG/KakaoTalk_20260224_153855640.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3430,7 +3431,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/77757303/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김반장과-부산어묵-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170623_165/1498191060685TUV9v_JPEG/186572565555042_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -3523,7 +3524,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2024981111/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청년감자탕-순대국-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250912_100/1757644922944mjLKI_GIF/KakaoTalk_20250912_111309636.gif",
     "parking": true,
     "reservation": true
   },
@@ -3615,7 +3616,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1132607482/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/해오름-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210412_161/1618225974850KUkPm_JPEG/X3Eu1DdcSGGwcaVFnlLQc4AU.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3708,7 +3709,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1633887465/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/긴밀-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240927_259/17274258370874b6Yz_JPEG/KakaoTalk_20240927_172418712_01.jpg",
     "parking": true,
     "reservation": true
   },
@@ -3742,7 +3743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1706065718/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/200도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231221_290/1703158734659RAm0P_JPEG/KakaoTalk_20231218_150605794.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3836,7 +3837,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1747040796/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육회바른연어-잠실신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250707_184/1751870851002uuCht_JPEG/DSC07830.jpg",
     "parking": false,
     "reservation": true
   },
@@ -3869,7 +3870,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2047320661/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서아진-루프탑-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260221_92/1771606116575KFO7i_JPEG/6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3903,7 +3904,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1765243964/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/리사르커피-장미점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250123_254/1737611936193NIce2_JPEG/Untitled-7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -3975,7 +3976,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1561535298/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소뭉집-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241012_195/1728744136653SVCSg_PNG/20240801_125441.png",
     "parking": false,
     "reservation": false
   },
@@ -4012,7 +4013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2009412696/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/후발대-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250830_148/1756527484270RlKXl_JPEG/IMG_5811.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -4105,7 +4106,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1637934463/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쿠시노아-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250419_27/1745045581811QTlyU_JPEG/560B94CC-D031-40C6-9577-00CFF109C525.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -4138,7 +4139,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2003399448/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/불마차-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_110/1764247140301v5vSF_JPEG/KakaoTalk_20251127_213417982_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4232,7 +4233,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1787592283/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/감상-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240627_190/1719458846195P7yky_JPEG/KakaoTalk_20240624_151721733.jpg",
     "parking": false,
     "reservation": true
   },
@@ -4265,7 +4266,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1835313345/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍대쌀국수-롯데마트잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220624_50/1656041806565m8HWo_JPEG/KakaoTalk_20220519_134816839.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4330,7 +4331,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1014129077/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쿠시노아-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241007_268/1728294573118GYTCt_JPEG/1000026187.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4424,7 +4425,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039793302/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한나낙지마당-잠실동-직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_275/1758694863953MuFSi_JPEG/%B1%D7%B8%B22.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4458,7 +4459,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1048487565/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/다온닭강정-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250421_294/1745240905539568nc_JPEG/1000014933.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4492,7 +4493,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1075784609/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옹뜌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250529_96/1748524259032mS6rN_JPEG/IMG_3968.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -4618,7 +4619,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1348782426/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/슬며시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231031_78/1698735079664Qi3Tn_JPEG/KakaoTalk_20231031_154756999.jpg",
     "parking": false,
     "reservation": false
   },
@@ -4709,7 +4710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1236185934/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실동-101호-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250227_298/1740628831238IW4ep_JPEG/IMG_1410.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -4797,7 +4798,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1299463294/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-송파나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": true,
     "reservation": true
   },
@@ -4831,7 +4832,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1005047063/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롤인잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250225_103/17404707601822TTVG_JPEG/E7A9A36A-17CF-47BF-B0FE-EF405697A13E.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -4926,7 +4927,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2001883808/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라스트춘선-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260110_112/17680307112774rFJQ_JPEG/IMG_9062.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -5021,7 +5022,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1937521359/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이소한우전문-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_97/1760622922278AypB3_JPEG/IMG_0168.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -5115,7 +5116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1635844145/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/산고-스시바-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250418_293/1744974015892uy9bJ_JPEG/IMG_8811.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -5210,7 +5211,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1055757580/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태산양꼬치-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250322_142/1742647017413L3p4r_JPEG/8a5b46052cffe0823509835f867d9fea.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -5304,7 +5305,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2045064971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/제주삼대국수-잠실장미직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251118_118/1763458143007XFuhD_PNG/u6454829653_httpss.mj.runjKY6jJuuyb4_realistic_food_photograp_505f83fe-e80b-4c9f.png",
     "parking": true,
     "reservation": true
   },
@@ -5401,7 +5402,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1908305973/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가마솥순대국밥-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240129_85/1706489197805O4Bbh_PNG/%B0%A1%B8%B6%BC%DC%BC%F8%B4%EB%B1%B9%B9%E4_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA_%B0%F8%C5%EB_%C0%CC%B9%CC%C1%F6.png",
     "parking": true,
     "reservation": false
   },
@@ -5495,7 +5496,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2089313487/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/달래해장-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250623_141/1750672781710BIIGK_JPEG/KakaoTalk_20250623_161732787.jpg",
     "parking": true,
     "reservation": true
   },
@@ -5529,7 +5530,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31837291/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/황귀엄나무닭곰탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181225_18/1545703531870lJnHv_JPEG/FBrVfJafrI7UjDKYN2aJs6M-.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5563,7 +5564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1502066868/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우리한우곰탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220604_195/1654317980139yiLQf_JPEG/20220520_145546.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5596,7 +5597,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1171085370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더히어로-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230610_158/1686367515374iBrLd_JPEG/%B8%AE%C4%DA%C5%B8%BB%F8%B7%AF%B5%E5%289.900%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5631,7 +5632,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2032959458/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도래집-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250630_200/1751279785246BHaF7_JPEG/1DSC06635.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5664,7 +5665,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1609538658/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보부선부대보쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200109_279/15785355542958dMnn_JPEG/qXBX54zxiBQq4lndz3K7RoPx.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5697,7 +5698,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1063239691/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연안부두-횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_99/1757325509699UEreW_JPEG/1000003161.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5730,7 +5731,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1631507261/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/털보네-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250324_253/1742788462217pDVKL_JPEG/IMG_0009.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -5763,7 +5764,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1378183593/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/테루카츠-홈플러스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240206_253/17071815927168Efpi_JPEG/%C5%D7%B7%E7%C4%AB%C3%F7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5796,7 +5797,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1082202757/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명가한식뷔페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220706_194/1657073622923zjUfj_JPEG/1657073582771.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5831,7 +5832,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1103219194/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/EU피자-파스타-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250721_231/1753084196864tsi5Q_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001_%288%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5864,7 +5865,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1610533865/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/88샤브-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230808_136/1691478666376gOhGl_JPEG/1691478449136.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5899,7 +5900,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1860700340/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/벌스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240612_196/1718201601590VPa2z_JPEG/KakaoTalk_20240612_204836843_18.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5932,7 +5933,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2087255714/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한사발포차-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250826_68/1756214781785bTPiq_JPEG/%C2%DE%B2%D9%B9%CC%28%C7%D1%BB%E7%B9%DF%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -5965,7 +5966,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/961846141/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/무한리필-홍태관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240323_123/1711147722085gzbp1_JPEG/IMG_1315.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -5999,7 +6000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1444840907/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/족발미녀-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240507_264/1715010296661UjkMK_JPEG/1000000028.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6077,7 +6078,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1088302356/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/수아영-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_239/1771573019807vgHPx_JPEG/20260122_155533.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6114,7 +6115,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1574112512/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/티제이버거앤파스타-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200307_91/158357538228547FA8_JPEG/VIQuN00ZMKHJDVdXmldAy2c6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6162,7 +6163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1680299894/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/집밥한끼-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_19/1747957974451OXqty_JPEG/KakaoTalk_20250523_084741991.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6251,7 +6252,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1197741420/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/그린앤베리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250616_87/17500386277236dKYI_JPEG/IMG_6626.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -6286,7 +6287,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1467846544/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/새러데이-런치클럽-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231018_158/1697615970460QKpwv_JPEG/KakaoTalk_20231018_165637471.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6380,7 +6381,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1256733339/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/열정국밥-송파잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250904_267/1756952551162qyuAi_JPEG/BEST%C1%A4%BD%C4_%BF%AD%C1%A4%C7%D4%B9%DA%C1%A4%BD%C41.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6472,7 +6473,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1639167379/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/원할머니보쌈족발-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_186/17684389417787fCWB_JPEG/KakaoTalk_20260109_141341768.jpg",
     "parking": false,
     "reservation": true
   },
@@ -6564,7 +6565,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216991317/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부엉이산장-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240619_249/17187721190408TVcQ_JPEG/KakaoTalk_Photo_2023-08-31-16-21-32_001.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -6654,7 +6655,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1004286518/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/배달의쌀국수-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190320_125/1553049344372hG767_PNG/-vXR5EEam8iIPhv7EGXvzQk_.png",
     "parking": true,
     "reservation": false
   },
@@ -6700,7 +6701,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2075517323/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카츠원-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250823_281/1755958198240BQB6z_JPEG/1755958161600.jpg",
     "parking": false,
     "reservation": false
   },
@@ -6791,7 +6792,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35431418/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가츠몽-잠실리센츠점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190903_158/1567506275063dwbn3_JPEG/zzIneQ9tHiMBf_7gqPbERVrY.jpg",
     "parking": true,
     "reservation": false
   },
@@ -6885,7 +6886,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2077944748/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/현풍할매외손자집곰탕잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_179/1771559805042EgfNf_JPEG/%B8%DE%C0%CE_2.jpg",
     "parking": true,
     "reservation": true
   },
@@ -6979,7 +6980,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1110365147/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/프레퍼스-다이어트-푸드-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260120_12/17688750258671VsBk_JPEG/%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7012,7 +7013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2066998075/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/역대짬뽕-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251027_88/1761573748572r2NDw_JPEG/1000080260.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7045,7 +7046,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1159070022/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더리피코너-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250426_204/1745631419001Awf5H_JPEG/%BD%C9%BF%EC%BF%EB_%B4%F5%B8%AE%C7%C7%C4%DA%B3%CA_06.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7137,7 +7138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1659144950/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스트링빈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231125_216/1700909478943JS7Tc_JPEG/%BD%BA%C6%AE%B8%B5%BA%F3_%BF%DC%B0%FC.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7228,7 +7229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017197372/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팻보이버거-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251215_55/1765793157677gjJ1n_JPEG/IMG_2372.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -7324,7 +7325,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035178248/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/힘내라정육식당-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_50/1770604199846oWPMM_PNG/DSC_2890.png",
     "parking": true,
     "reservation": true
   },
@@ -7371,7 +7372,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1382178156/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라뷔-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250626_206/1750903277453ULTAD_JPEG/KakaoTalk_20250526_195146665_08.jpg",
     "parking": true,
     "reservation": true
   },
@@ -7464,7 +7465,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1839438130/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오르베-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250111_68/1736592334614atzpN_JPEG/KakaoTalk_20250111_194451994_03.jpg",
     "parking": false,
     "reservation": true
   },
@@ -7510,7 +7511,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1093713755/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가츠몽-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_60/1740025303133W0oro_JPEG/1740025280199.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7585,7 +7586,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035113206/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/최순옥-명품국밥-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251230_227/17670761838735HY7u_PNG/KakaoTalk_20251218_093904146_01.png",
     "parking": true,
     "reservation": true
   },
@@ -7676,7 +7677,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/308761202/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신당동즉석떡볶이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230502_185/1683034766867fvEuw_JPEG/Screenshot_20230502_223236_NAVER.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7709,7 +7710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1325420148/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이자카야-하치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_220/1734675433415cMHdu_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7742,7 +7743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1844004725/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더나루-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220605_260/16543556424605M13t_JPEG/Screenshot_20220225-234210_Samsung_Internet.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7775,7 +7776,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37275160/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올레김밥-잠실나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240221_10/1708499779240ze8Ln_JPEG/1708499760076.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7808,7 +7809,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1584875629/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/문뜩-한잔-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231013_13/1697163321687R23Ai_JPEG/temp_file.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7841,7 +7842,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1895325185/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올쿡24-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230127_51/1674808015368Kw9pj_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -7935,7 +7936,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1112863263/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/지강한식당-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260123_106/1769156782757aUw3N_JPEG/KakaoTalk_20260123_172040601_%281%29.jpg",
     "parking": true,
     "reservation": false
   },
@@ -7968,7 +7969,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2098844043/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/분지로-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250526_91/1748221494259E3zf3_JPEG/%BA%D0%C1%F6%B7%CE125%283%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8001,7 +8002,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1677490611/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아사히-스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190425_16/1556162832426BP1o7_JPEG/gW0wSUkQONVWbtklhCcQQlYF.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8094,7 +8095,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1469118484/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마차이-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230518_29/1684399791769AlnTr_JPEG/KakaoTalk_20230517_194037244_07.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8189,7 +8190,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1340232662/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/채선당-자연한가득-롯데월드-몽촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260215_14/17711227250673yYxd_JPEG/%BB%F3%C2%F7%B8%B21.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8222,7 +8223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1853575550/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/채선당-샤브보트-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200515_276/1589548416217pjjrW_JPEG/XFioIGgzqPhzSoU7Nn8GNSDD.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8257,7 +8258,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031835315/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아는곱창-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_62/1758724335251pEIbI_JPEG/KakaoTalk_20250924_170323374_05.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8293,7 +8294,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1322051334/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더치즈샵-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241120_242/1732080183710TkLvQ_PNG/1-%B8%DE%B4%BA.png",
     "parking": false,
     "reservation": false
   },
@@ -8385,7 +8386,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1383179358/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소복재-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231120_50/1700470548894Ur3m2_JPEG/KakaoTalk_20231120_135955496_01.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8421,7 +8422,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1195914554/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/석촌칼국수보리밥-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_21/1758778106243xHQfl_JPEG/KakaoTalk_Photo_2025-09-25-14-28-15.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -8458,7 +8459,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1332369198/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리잔잔-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_85/1764162071724HQBdD_JPEG/%C0%DC%C0%E5%B9%E6%C0%CC%C1%A1.jpg",
     "parking": false,
     "reservation": true
   },
@@ -8530,7 +8531,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1135140277/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/전설의우대갈비-잠실석촌호수직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250224_169/1740380238496TNPEY_PNG/%B8%DE%C0%CE1.png",
     "parking": true,
     "reservation": true
   },
@@ -8627,7 +8628,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1513013326/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍교집-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250613_218/1749751677272wLB2B_JPEG/%C0%CC%B8%A7_%BE%F8%B4%C2_%C3%D4%BF%B50168_1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -8660,7 +8661,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2036475639/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쇼미더크랩-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251121_125/17637004427484wBIE_JPEG/main.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -8755,7 +8756,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1138672724/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/VGG-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230619_25/1687155955784VQtXn_JPEG/KakaoTalk_20230618_111253905_05.jpg",
     "parking": true,
     "reservation": false
   },
@@ -8848,7 +8849,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320576695/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/프레디버거-삼전점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251119_220/1763540987545O1Ius_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -8942,7 +8943,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1167662433/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실그릴샐러드-더데일리쥬스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250603_171/1748951820494aoxa3_JPEG/%BB%F8%B7%AF%B5%E5_compressed.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9038,7 +9039,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1148955093/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보승회관-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260123_145/1769154385927a35zM_PNG/01.png",
     "parking": true,
     "reservation": true
   },
@@ -9129,7 +9130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1246571742/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/메이플버거-DT-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250707_206/1751857562709dA7OR_PNG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-008_%281%29.png",
     "parking": true,
     "reservation": true
   },
@@ -9222,7 +9223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2001963635/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/산카이-이자카야-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250813_119/1755049028154Nfr3M_PNG/%C0%CF%B0%FD%C6%ED%C1%FD_%BB%EA%C4%AB%C0%CC%BF%AC%C3%E2%BC%A6.png",
     "parking": true,
     "reservation": true
   },
@@ -9258,7 +9259,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1869950526/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숯불성화-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241108_101/1731074079016lkMKW_JPEG/IMG_1670.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9292,7 +9293,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2010745298/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/솔직한우-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260119_154/1768803512365I9Dod_JPEG/%C0%E1%BD%C7_%C7%FD%C5%C3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9327,7 +9328,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1211958247/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송리단양조장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250403_123/1743674112255EypTE_JPEG/IMG_0524.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9420,7 +9421,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1001285567/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마츠미-석촌호수본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_253/1757336499360mfQcT_GIF/KakaoTalk_20250908_215256578-ezgif.com-video-to-gif-converter.gif",
     "parking": true,
     "reservation": false
   },
@@ -9516,7 +9517,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2078516394/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방이수산-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250811_174/1754904963948Icf0p_JPEG/%B2%D9%B9%CC%B1%E2IMG_032180.jpg",
     "parking": true,
     "reservation": true
   },
@@ -9549,7 +9550,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1106924560/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실첫집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240513_257/1715574373056TCGvd_JPEG/%C0%E1%BD%C7%C3%B9%C1%FD_31.jpg",
     "parking": false,
     "reservation": false
   },
@@ -9640,7 +9641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1688388919/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/루티드-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220627_135/1656290202082aRIg6_JPEG/IMG_8287.JPEG",
     "parking": true,
     "reservation": false
   },
@@ -9732,7 +9733,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005495639/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/손에손잡고-방이직영점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251107_140/1762496800287H9gxt_JPEG/%BF%DC%BA%CE_%2830%29.jpg",
     "parking": false,
     "reservation": true
   },
@@ -9767,7 +9768,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2056386256/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미포집-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250604_222/1749008743042E8TrB_JPEG/%B9%CC%C6%F7%C1%FD_%C0%E1%BD%C7_%B7%D4%B5%A5%BF%F9%B5%E5%B8%F4%C1%A1_%BD%E6%B3%D7%C0%CF.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9860,7 +9861,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1088278185/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청기와타운-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_284/1747766083329sSpNJ_GIF/IMG_6412.gif",
     "parking": true,
     "reservation": true
   },
@@ -9895,7 +9896,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2098556759/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르베지왕-롯데잠실공간-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250708_109/1751980165312bCWr5_JPEG/%B8%A3%BA%A3%C1%F6%BF%D5%B3%EB%B6%FB%B9%E8%B0%E6.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9928,7 +9929,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1025777007/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소담히-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250425_27/1745570072497Xr0LE_JPEG/IMG_7068.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9961,7 +9962,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1671309392/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부엉이산장-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230714_68/1689314344751OnFbu_JPEG/7.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -9999,7 +10000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1239981129/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우곱집-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_279/1760601785595EMXdV_GIF/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4__%284%29.gif",
     "parking": false,
     "reservation": false
   },
@@ -10032,7 +10033,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082482418/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옥돈-클라식-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260131_134/1769861270117B8TYV_PNG/%C0%E1%BD%C7%BB%F5%B3%BB%B0%ED%B1%E2%C1%FD.png",
     "parking": false,
     "reservation": false
   },
@@ -10123,7 +10124,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2084219562/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일월의밤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260123_278/1769151625918aNVB0_JPEG/2.jpg",
     "parking": false,
     "reservation": true
   },
@@ -10158,7 +10159,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37016390/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부산양곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_98/1739375277737inRyW_JPEG/1000002020.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10193,7 +10194,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1894243038/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마미떡-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241211_58/1733851262938zHJSf_JPEG/IMG_0084.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -10286,7 +10287,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1055352746/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올드페리도넛-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260201_17/1769910603702x6SBi_JPEG/1000031881.jpg",
     "parking": true,
     "reservation": false
   },
@@ -10373,7 +10374,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1862020423/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/폴스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241128_278/17327702744033U441_JPEG/KakaoTalk_20241101_135231087.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10444,7 +10445,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1835820584/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/원조부산화로양곱창-송파구청-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191026_76/1572022454956ScToR_JPEG/TmKjb39jC2XMPn49V3EFX1IR.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10478,7 +10479,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2034393654/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진원소우-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_125/1768207876369Aj09o_JPEG/19.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10512,7 +10513,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2003363857/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파스쿠찌-잠실삼전점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250528_74/1748410757034OuxcN_JPEG/KakaoTalk_20250528_143819609.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10593,7 +10594,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2020577809/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실대왕소곱창구이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_180/1771472029926NLwL3_JPEG/%B4%EB%BF%D5%B0%F6%C3%A2_%BB%E7%C1%F8_4.jpg",
     "parking": true,
     "reservation": true
   },
@@ -10687,7 +10688,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2048902458/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/키타이-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_89/1770644146315Ld38C_PNG/%C0%BD%BD%C4_%B4%DC%C3%BC02.png",
     "parking": true,
     "reservation": true
   },
@@ -10720,7 +10721,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2025647966/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파송-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_266/1773387069712X0KVn_JPEG/IMG_3860.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10813,7 +10814,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1684619726/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쌤쌤쌤-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_50/1766161768572W72NH_PNG/%C8%E6%B9%E9%BF%E4%B8%AE%BB%E7_%B1%E8%C8%C62.png",
     "parking": false,
     "reservation": false
   },
@@ -10907,7 +10908,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37755810/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/정순함박-잠실-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210320_128/1616206313086TrAsJ_JPEG/zZsCX4r09GgNLaix8HQBDLbs.jpg",
     "parking": false,
     "reservation": false
   },
@@ -10943,7 +10944,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37915192/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미강식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240929_180/1727601632208Hb967_JPEG/KakaoTalk_20240926_111012187_24.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11036,7 +11037,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1300514919/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마싯내-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190313_185/1552466985988s7DbI_JPEG/v-M75gWt_p4gWH97Fk5NCi5B.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11115,7 +11116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1164884247/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진성한우곱창-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180324_284/1521861825526a011O_JPEG/97KmMvl1HibFiKkDo31fE7xR.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11150,7 +11151,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1793554062/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어물전-청-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210908_1/1631103432857qF02w_PNG/RyCm1roCutx6VGNCLNUJrmlb.png",
     "parking": false,
     "reservation": false
   },
@@ -11187,7 +11188,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33626334/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만족오향족발-잠실신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240708_158/1720417368671QQtR7_JPEG/KakaoTalk_20240706_162307950_03.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11224,7 +11225,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1233171176/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태양곱창-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240507_165/1715045703856atO8n_JPEG/DSC04159.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11319,7 +11320,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1145238754/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동화고옥-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_23/1749526446891ylQkV_JPEG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6_%282%29.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11413,7 +11414,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2095432454/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우주횟집-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_139/1760591267629ky19r_JPEG/KakaoTalk_20251016_135654270_15.jpg",
     "parking": true,
     "reservation": false
   },
@@ -11448,7 +11449,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1074304746/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오레노라멘-잠실롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250909_220/1757390667905NUELC_JPEG/1000017839.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11536,7 +11537,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2058758915/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/코코로라멘-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250914_177/1757849575586VNqs4_JPEG/IMG_1444.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -11571,7 +11572,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1855782935/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송파한우정육식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250326_161/17429998329275BQoJ_PNG/%BE%C6%B6%F3-%BF%B5%BE%F7%C1%BE%B7%E1-002_%281%29.png",
     "parking": false,
     "reservation": false
   },
@@ -11676,7 +11677,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216047261/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/케이준서울-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20220916_74/1663319669490sy7yq_JPEG/IMG_3708.jpg",
     "parking": false,
     "reservation": true
   },
@@ -11771,7 +11772,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1840164866/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마이서울바이츠-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230829_292/1693242453602m2Rto_JPEG/image.jpg",
     "parking": true,
     "reservation": true
   },
@@ -11864,7 +11865,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1228268834/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/깃뽀-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260224_262/1771915266206x2dNM_JPEG/KakaoTalk_20260224_153855640.jpg",
     "parking": false,
     "reservation": true
   },
@@ -11897,7 +11898,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1726747508/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/히비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240709_182/1720522906191IO09I_JPEG/1000024884.jpg",
     "parking": false,
     "reservation": false
   },
@@ -11989,7 +11990,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1854943551/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키톤탄탄-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240701_254/1719811168328fF4mu_JPEG/KM_00325.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -12022,7 +12023,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1555180646/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미스타교자-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241021_150/1729475775445SYFWs_JPEG/M4_09041.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12116,7 +12117,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1900980735/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/조개진-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241028_93/1730093149123EXQTh_JPEG/IMG_7871.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -12206,7 +12207,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1812989988/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어론피자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230310_256/1678413712218CwW23_JPEG/0CBBFADA-DA77-4DC1-BC00-2E4F5B1825AC.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -12299,7 +12300,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320770417/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/하나레-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241016_9/1729059548431ppEE4_JPEG/%C7%CF%B3%AA%B7%B9%C1%A4%B8%E91.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12332,7 +12333,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1464158211/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대패감성-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241208_124/1733594077648Wau8G_JPEG/IMG_0660.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -12366,7 +12367,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1316341063/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/윙집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241123_171/1732347706645YgmvV_JPEG/DSC03751.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12459,7 +12460,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1378682368/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/콤마-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_20/1772705244160vt1YL_PNG/IMG_4517.png",
     "parking": false,
     "reservation": true
   },
@@ -12552,7 +12553,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1498910914/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/콘피에르-셀렉션-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250618_199/1750225209541zLjun_JPEG/%28dot_kim%29_confier_interior_%28preview%29_-58.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12586,7 +12587,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1094973742/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아쿠아디파르마-옐로우-카페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240118_98/1705566862993B1z2C_JPEG/%C4%AB%C6%E4%A4%C4.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12620,7 +12621,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2009816333/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/테라로사-잠실한강공원점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250827_221/1756258171006IEBiG_JPEG/%C0%E1%BD%C7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12653,7 +12654,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1253576459/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나물비빔밥-북엇국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240214_93/1707895220692UTdcT_JPEG/KakaoTalk_20240214_161741291.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12688,7 +12689,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1097231422/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화덕돌곱창-잠실직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_122/1727073790489JgFci_JPEG/%B0%F6%C3%A2_%C7%D1%BB%F3%C2%F7%B8%B2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12725,7 +12726,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1836030094/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/담가화로구이-잠실1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250424_130/1745475576826Y8TVN_PNG/KakaoTalk_20250424_151405778.png",
     "parking": false,
     "reservation": false
   },
@@ -12820,7 +12821,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2071135070/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도야지공방-잠실새내-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260316_195/1773649292512LREir_JPEG/1000010737.jpg",
     "parking": true,
     "reservation": false
   },
@@ -12913,7 +12914,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1505337247/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이오공곰탕-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251106_119/1762413886554MTeQG_JPEG/KakaoTalk_20251029_180721310_01.jpg",
     "parking": true,
     "reservation": true
   },
@@ -12946,7 +12947,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1962974951/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스카이라운지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251118_61/1763430648538c3nsB_JPEG/25.10.%B0%E6%C1%F6.IC_%BD%BA%C4%AB%C0%CC%B6%F3%BF%EE%C1%F6_%BD%C5%B8%DE%B4%BA_POP_%B4%EB%C1%F6_1_4.jpg",
     "parking": false,
     "reservation": false
   },
@@ -12980,7 +12981,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1590764140/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더베이크-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191209_234/15758601201562oJ04_PNG/XtLhlWfjcUzIhVwyikbh7WQM.png",
     "parking": false,
     "reservation": false
   },
@@ -13075,7 +13076,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1824352254/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페드로잉-석촌호수점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250508_297/17466909275825iCDB_PNG/%C4%AB%C6%E4%B5%E5%B7%CE%C0%D7_%BC%AE%C3%CC%C8%A3%BC%F6%C1%A11_%BC%F6%C1%A4.png",
     "parking": false,
     "reservation": false
   },
@@ -13108,7 +13109,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2000751714/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잇츠월드-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_53/1765519528833WA5Nh_PNG/%C0%D5%C3%F7%BF%F9%B5%E5_%B7%CE%B0%ED%28R%29-02.png",
     "parking": false,
     "reservation": false
   },
@@ -13144,7 +13145,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1502966107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/맨들러-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240526_73/17167318152135537O_JPEG/IMG_1872.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -13177,7 +13178,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1588827398/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이치고-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240130_49/1706546482880TYYMA_JPEG/KakaoTalk_20240130_013802943.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13270,7 +13271,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1162471108/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/선호커피-바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250203_57/1738572615095raqm9_PNG/%BC%B1%C8%A3%C4%BF%C7%C7-%B7%CE%B0%ED-%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.png",
     "parking": true,
     "reservation": false
   },
@@ -13363,7 +13364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18466600/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고바우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160401_249/1459491134690yHRzL_JPEG/176351554234604_0.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -13455,7 +13456,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32892073/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라디오헤드펍-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250905_186/1757017138173bneyq_JPEG/20250830_224019-e3.jpg",
     "parking": false,
     "reservation": true
   },
@@ -13574,7 +13575,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1062694460/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/정띠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231027_126/1698410530366do1KQ_JPEG/IMG_20231011_141046_639.jpg",
     "parking": false,
     "reservation": true
   },
@@ -13668,7 +13669,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1524009099/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우리한돈-방이본관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250210_235/1739154295654RpuNq_PNG/004.png",
     "parking": false,
     "reservation": true
   },
@@ -13762,7 +13763,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1154812370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/금우도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231019_12/1697720577451Gx2il_JPEG/DSC00107.jpg",
     "parking": true,
     "reservation": true
   },
@@ -13798,7 +13799,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1149678083/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/SOS커피-브런치-석촌역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260210_48/1770653743735mP9c8_PNG/Gemini_Generated_Image_jnu740jnu740jnu7.png",
     "parking": false,
     "reservation": false
   },
@@ -13833,7 +13834,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1775875627/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/덴푸라감춘-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231215_294/1702623661415GqEH6_JPEG/KakaoTalk_20231215_160011069_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13923,7 +13924,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1090166203/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리진-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240104_277/1704371179782SqkuJ_JPEG/1704175519480.jpg",
     "parking": false,
     "reservation": true
   },
@@ -13956,7 +13957,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1703543110/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방콕언니-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210323_38/1616489582899txHyd_JPEG/WJpCoUwPWIhhh_znkzKVb9D8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14023,7 +14024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1771421303/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피크닉그린-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251001_117/1759283732240QEPwt_JPEG/1000023998.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14056,7 +14057,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13157340/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_244/1440998112893KC0IP_JPEG/106568517644716_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14144,7 +14145,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1599915192/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/그릴210버거-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221102_88/16673921471174Xc9h_JPEG/%BF%C0%C1%F6%B9%F6%B0%C5_%C0%DB%B0%D4.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14178,7 +14179,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1655159955/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페콤피-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250627_53/1750951912280b8k97_JPEG/IMG_1743.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -14214,7 +14215,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2074950772/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라콘차-롯데백화점-에비뉴엘-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251202_266/1764666093557BaiqQ_JPEG/KakaoTalk_20251202_152020542_03.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14247,7 +14248,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497394578/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/세븐패티버거-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250120_56/1737341458164pvewm_JPEG/%B8%C5%C0%E5_%BD%C4%BB%E7_%284%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14282,7 +14283,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1440313611/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/까사피에스타-송파본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251029_145/1761738845621q6Sa0_PNG/Artboard_1.png",
     "parking": false,
     "reservation": false
   },
@@ -14316,7 +14317,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1062407007/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동래정-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230620_67/1687264098126Bmg74_JPEG/IMG_1813.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -14411,7 +14412,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1555012849/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숙수돈가-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250813_14/1755048237818pqBTg_JPEG/KakaoTalk_20250812_205634647_07.jpg",
     "parking": true,
     "reservation": true
   },
@@ -14444,7 +14445,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1971805379/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한식뷔페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221215_104/1671078611949NYh9T_JPEG/%B0%A3%C6%C7%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14479,7 +14480,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1586598778/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대홍샤브샤브-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260202_274/1770035354276nX0zT_JPEG/IMG_2709.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -14573,7 +14574,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1184959941/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미미램양꼬치-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241229_300/1735481063156u7hEk_JPEG/%C5%A9%B1%E2%BA%AF%C8%AFDSC09618.JPG",
     "parking": true,
     "reservation": true
   },
@@ -14606,7 +14607,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1203306393/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/취향마라-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230518_245/1684397177575jYsgh_JPEG/dd.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14640,7 +14641,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2022697427/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/박만배아리랑보쌈-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250922_282/1758521269858Ix3MX_JPEG/1_394.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14676,7 +14677,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1938060093/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페아일랜드-베이커리-잠실1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250914_284/1757851785990wETMa_JPEG/CHOI8329%C5%A9%B1%E2%BA%AF%C8%AF_1280-1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14709,7 +14710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1828740636/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도산-김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251123_120/17638820462137qiW9_JPEG/1000025065.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14751,7 +14752,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160119977/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/치킨박사-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/MjAyNTAyMTdfMTM1/MDAxNzM5Nzc4NzU2NjA5.p1c7bYyv4qi8jdHhpOtJ_v9woW4NuZmHsExoTKID8-gg.M3BLpWrp_O4v6jaycAf2akkbUPCp2K8fqpeK42l9Io8g.JPEG/KakaoTalk_20250215_021548387_20.jpg#1059x1340",
     "parking": false,
     "reservation": false
   },
@@ -14804,7 +14805,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1146273513/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/건강한곰탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221215_232/1671056192167VY5Y6_JPEG/%B0%C7%B0%F5_%BE%C8%B3%BB%B9%AE.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14892,7 +14893,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1650977192/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오토김밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230918_282/1694967626242n2jQ8_JPEG/1693454284599.jpg",
     "parking": false,
     "reservation": false
   },
@@ -14986,7 +14987,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1764373486/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부케도르-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251006_161/1759722254268IKoTx_JPEG/265ADBED-09D1-4259-A713-BB09BF51DE5E.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -15081,7 +15082,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2082336370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/Poke-all-day-포케-샐러드-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15114,7 +15115,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1989629188/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동자매마라탕-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220901_118/16619607480507qKda_JPEG/6F38043B-5519-41C4-8CDA-506C69CA1167.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -15186,7 +15187,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1674981767/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한나식빵-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230414_105/1681432618218PbBQh_JPEG/KakaoTalk_20230414_093630817.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15220,7 +15221,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20132986/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/페리카나-장미점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220714_8/1657780146530NDow6_JPEG/2022_%B9%DD%B9%DD%C4%A1%C5%B2_400_X_400.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15287,7 +15288,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2049547323/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페아일랜드-베이커리-잠실2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260207_281/1770466908480hu8QA_JPEG/1000095979.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15320,7 +15321,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1209976364/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꿈의김밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260128_299/1769564453763tT3cx_JPEG/temp_1769430279952.-1314781329_page-0001.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15355,7 +15356,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1779761206/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스카이가든-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20241120_34/1732086209628ohW5A_JPEG/image.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15445,7 +15446,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1467068196/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/곱창과순댓국의만남-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240112_119/1705025775705nYK0e_JPEG/%BF%DC%B0%FC.jpg",
     "parking": false,
     "reservation": true
   },
@@ -15539,7 +15540,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1779981653/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/몽촌-닭갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230824_2/1692882181703zm8yY_JPEG/1000004558.jpg",
     "parking": true,
     "reservation": false
   },
@@ -15633,7 +15634,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1278544659/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/노티드-잠실롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260119_223/1768811424414y9mmt_JPEG/KakaoTalk_20260119_160757814_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15736,7 +15737,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1465188805/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/세이류-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190827_186/1566891175721K7gEr_JPEG/ZNRamdP-Tb1bXpK6W4XTQhbg.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15822,7 +15823,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1443336997/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명서식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200416_86/1587031950128JE91h_PNG/ItdAwXI6t_cuJoaTzwylK2wA.PNG.png",
     "parking": false,
     "reservation": false
   },
@@ -15875,7 +15876,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34191267/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/기꾸참치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240816_199/1723788569210AqX4I_JPEG/KakaoTalk_20240801_181901873_05.jpg",
     "parking": true,
     "reservation": true
   },
@@ -15940,7 +15941,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1550301597/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/앙떼띠-커피로스터리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221201_298/1669854214105cYYhy_JPEG/KakaoTalk_Photo_2022-12-01-09-20-17.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -16034,7 +16035,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1288601848/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/룰루베이글-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250112_26/17366657168586AjLL_JPEG/IMG_2439.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -16067,7 +16068,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34402706/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시부야돈까스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221008_245/1665224929616UsPfa_JPEG/20221007_081508.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16122,7 +16123,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34354951/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/호시아이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221205_108/1670226201747gBGOr_PNG/20221205_162254.png",
     "parking": false,
     "reservation": false
   },
@@ -16245,7 +16246,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1616116728/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/국민통닭-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220731_182/1659223469024nebnK_JPEG/%B9%DD%C0%FC%B7%CE%B0%ED_2022_0730.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16278,7 +16279,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1925663430/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/울랄라횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200129_295/1580277838900axsQp_JPEG/EZWeL6_IBBzF8D_Rr6OAiaej.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16314,7 +16315,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1520825852/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시스스시-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230804_196/1691124926011U9cDX_JPEG/09E65F7D-78A7-423D-B1D2-5526154F803E.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -16406,7 +16407,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1854600598/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이카리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251027_279/1761494107636GYG9h_JPEG/20250625_185321.jpg",
     "parking": false,
     "reservation": true
   },
@@ -16497,7 +16498,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1456149336/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오리진-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230603_88/1685790787028CVLqw_JPEG/IMG_8562.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -16533,7 +16534,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1220610665/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르브리에-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251217_149/17659270658302gyF6_JPEG/70912682-67E7-48F5-B936-7E5B8CD72021.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -16601,7 +16602,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36525771/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/하얀스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240505_113/1714900979632tD5mG_JPEG/KakaoTalk_Photo_2020-11-10-12-24-36-68_%BA%B9%BB%E7%BA%BB.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -16637,7 +16638,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2073616411/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르뵈프-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260114_99/17683835429116WXVy_JPEG/KakaoTalk_20260114_180131994.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16670,7 +16671,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1673753843/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/멜팅소울-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250317_277/1742180512838glRt8_JPEG/%B8%E1%C6%C3%BC%D2%BF%EF_%B8%DE%C0%CE%C0%CC%B9%CC%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -16766,7 +16767,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1663735458/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방배소곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210616_116/1623828751499pFVMo_JPEG/3_rLik6-hlksvkkteS7sVxPz.jpg",
     "parking": true,
     "reservation": true
   },
@@ -16802,7 +16803,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1082506013/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신선계-춘천숯불닭갈비-잠실새내본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251114_248/17630540481418WMXM_JPEG/%C0%E1%BD%C7%BB%F5%B3%BB%B4%DF%B0%A5%BA%F1.JPG",
     "parking": false,
     "reservation": false
   },
@@ -16851,7 +16852,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716704076/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모타운-서울-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240106_119/1704504725188m46Hn_JPEG/%B7%CE%B0%ED.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -16977,7 +16978,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1572944657/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바다약방-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241127_218/1732687812256cOTGk_JPEG/KakaoTalk_20241127_150726036_02.jpg",
     "parking": true,
     "reservation": false
   },
@@ -17046,7 +17047,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1169388840/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모토이시-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240830_190/1725009820961BUpJN_PNG/%B8%F0%B5%EB_2.png",
     "parking": false,
     "reservation": false
   },
@@ -17141,7 +17142,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1263680560/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유정아-솥뚜껑오겹살-잠실직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240620_263/1718859441143Tsf5h_JPEG/1000005355.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17174,7 +17175,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1398263023/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미분당-잠실학원가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230310_266/1678411270628Ftixl_JPEG/%C2%F7%B5%B9%BE%E7%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17266,7 +17267,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596073273/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/생마차-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_281/1772764497183M4h6j_JPEG/260224_%C0%E1%BD%C7%2C%B0%A1%B6%F4%2C%B9%E6%C0%CC.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17359,7 +17360,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1484543186/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진전복삼계탕-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231228_42/1703748669814PY3Gx_JPEG/186.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17455,7 +17456,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1993372144/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육회바른연어-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251208_47/17651837417257pgKW_JPEG/251124_%BD%C5%B8%DE%B4%BA%28%B5%A4%B9%E43%C1%BE%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17549,7 +17550,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1173808281/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/헬키푸키-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240708_213/1720423054753KIXC0_JPEG/%B9%E8%B9%CE_%BF%AC%C3%E205.jpg",
     "parking": true,
     "reservation": true
   },
@@ -17582,7 +17583,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1110878099/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이디앤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241219_278/1734598632401MAvTl_JPEG/KakaoTalk_20241219_174833035.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17615,7 +17616,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1661870107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한강-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190506_267/1557096322807fIvKH_JPEG/lPgQab67cHz8XIx7njR6HWz7.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17729,7 +17730,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1713900848/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오레노라멘송파-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190429_30/1556514984717bftLW_JPEG/I2oyFa9FcP_-BX4F7Zk454ex.jpg",
     "parking": true,
     "reservation": false
   },
@@ -17818,7 +17819,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/269219040/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마노디셰프-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241130_234/1732949155356PtgEU_JPEG/IMG_0607.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -17910,7 +17911,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18843957/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토마루해물칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241122_174/1732262412344s6Bmi_JPEG/KakaoTalk_20241122_165809288_04.jpg",
     "parking": false,
     "reservation": false
   },
@@ -17988,7 +17989,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1908437349/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커넥트투-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20241114_16/17315594595921JSpy_JPEG/0L3A9039.jpg",
     "parking": false,
     "reservation": true
   },
@@ -18080,7 +18081,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1708493630/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피자네버슬립스-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241008_104/17283642641258npjG_JPEG/IMG_0078.jpg",
     "parking": true,
     "reservation": false
   },
@@ -18114,7 +18115,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13526130/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우리정육점식당-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/1002055@1x.png?version=20&mapping=marker-186",
     "parking": false,
     "reservation": false
   },
@@ -18187,7 +18188,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1986455004/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/해목-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_153/1768212341604vFmA5_JPEG/KakaoTalk_20260112_184354270_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18282,7 +18283,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1386091839/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/양양집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251209_220/1765288030552hxgXK_JPEG/24%BD%C3%B0%A3_%B8%B8%C3%EB%BA%CE%C5%CD_%C7%D8_%281%29.jpg",
     "parking": true,
     "reservation": true
   },
@@ -18363,7 +18364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1839678120/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방이돈가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231109_280/1699505887883xwEjs_JPEG/%B9%E6%C0%CC%B5%B7%B0%A1%B8%DE%C0%CE.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -18426,7 +18427,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1573404124/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/간이횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230622_105/1687394111784IJqMw_JPEG/IMG_3015.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -18516,7 +18517,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1140020913/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/함평육회-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250415_151/1744715718925Uwed4_JPEG/KakaoTalk_20250415_183936947_14.jpg",
     "parking": false,
     "reservation": true
   },
@@ -18605,7 +18606,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1691023601/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/러반로제-레스토랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260204_103/1770214856341gg2pf_JPEG/KakaoTalk_Photo_2026-02-04-22-40-51_001.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -18668,7 +18669,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1354552398/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한방삼계탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210511_23/1620719513810RQIQh_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%283%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18726,7 +18727,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511323554/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아타타카이-라멘-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180511_256/1526013547384PgLFU_JPEG/iZHVVVZntRNwU6VTlbkgKf_k.jpg",
     "parking": false,
     "reservation": false
   },
@@ -18837,7 +18838,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1787513622/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/인딕슬로우-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250205_30/1738751397851ubtIy_JPEG/IMG_5770.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -18970,7 +18971,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1573694859/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/형제애-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_48/1770105522755Qj8jc_JPEG/1000021532.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19004,7 +19005,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1260669621/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꿀꿀농장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_11/1768467369306wPqzv_JPEG/DSC06569.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19037,7 +19038,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1944550362/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/온수반-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240211_21/1707579843862dUKQN_JPEG/Screenshot_20210927-013142_Instagram.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19129,7 +19130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/227901719/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/골목길그집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170630_254/1498810928606CDT5b_JPEG/image.JPEG",
     "parking": false,
     "reservation": false
   },
@@ -19222,7 +19223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/988762118/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나루모듬전-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200530_107/1590813728519Gf4jK_JPEG/ug8DJuoOL-Z7Rjk9A6aso3Vq.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19256,7 +19257,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1677206837/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시오하요-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231007_173/1696636152858yAYpH_JPEG/temp_file.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19293,7 +19294,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1355125031/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/초대창-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200327_276/158529550525908R1V_JPEG/0KZBJ3sXBtYFOoEwuNNdEH-m.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19383,7 +19384,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1263035580/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소피텔-앰배서더-서울-미오-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20240531_64/1717147686145Erufv_PNG/%C4%B8%C3%B3.PNG",
     "parking": true,
     "reservation": false
   },
@@ -19416,7 +19417,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31669567/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더팬런던테이블-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191205_229/1575539539859ASive_JPEG/nBJTPgGcLALh31Gb0UGcfoN9.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19512,7 +19513,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160275656/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시이세이-롯데백화점-에비뉴엘-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231013_243/1697165072212YLtpS_JPEG/DSC07382.JPG",
     "parking": true,
     "reservation": true
   },
@@ -19608,7 +19609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1918885726/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/88조개-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20240708_57/1720417703386B6eMI_JPEG/DSC09515.jpg",
     "parking": true,
     "reservation": true
   },
@@ -19660,7 +19661,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1286683936/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/담소스키야키-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_62/1768542939516wGj3l_PNG/IMG_7087.png",
     "parking": false,
     "reservation": false
   },
@@ -19693,7 +19694,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1536383888/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/번쩍피자-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241002_84/1727860509118nBX3B_JPEG/1.%B8%DE%C0%CE-%C7%C7%C0%DA%B4%C2_%BC%BC%C6%AE%B4%D9_L.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19768,7 +19769,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1052226880/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보니스피자펍-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211010_120/1633840931752AzmN6_JPEG/BJ8Yv4ZZOrrHVMZHnSsaSFTt.jpg",
     "parking": true,
     "reservation": false
   },
@@ -19803,7 +19804,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1777524454/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/박복순쭈꾸미-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260208_10/1770540942267hFkGX_JPEG/1000020366.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19838,7 +19839,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1891297928/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뜻한바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191114_14/1573729136946jYmcX_JPEG/U3Fanw4rJpc_OSzCcjJgAol3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -19931,7 +19932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1234401080/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/그늘-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250319_248/1742373680963jBo45_JPEG/SE-20BF49E4-5175-4D4E-9041-92FF31313F41.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20023,7 +20024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1291730205/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꿉당-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221226_290/1672021930000Bz8nL_JPEG/1.%C0%D4%B1%B8.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20059,7 +20060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1339377662/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/정담옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241118_213/1731938638945BETHH_JPEG/SE-9c43c39f-9fdf-40e3-ad71-cea5fcd0559f.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20092,7 +20093,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1810910382/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동일문-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201025_16/1603598437492xOBqr_JPEG/9RREjRkzn8vO4s-STXlBn9OJ.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20185,7 +20186,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1886135045/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/기투커피로스터스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220816_134/1660631434716Js2Xk_JPEG/1B3719EE-EA38-4050-97DD-25A35D49C5CF.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -20278,7 +20279,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1079272971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리-로만-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250709_134/1752064064565yPV49_JPEG/KakaoTalk_20250709_212455293.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20311,7 +20312,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1248283660/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리-로만-잠실새내-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250709_217/17520639788208HeIL_JPEG/KakaoTalk_20250709_212306442.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20404,7 +20405,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1635415432/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우주-샐러드-샌드위치-cafe-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241227_61/1735262890146ac6wN_JPEG/%BF%EC%C1%D6-%BB%F8%B7%AF%B5%E5%BB%F7%B5%E5%C0%A7%C4%A1-cafe-%B0%ED%B0%B4%BF%EB.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20437,7 +20438,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12072249/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천한식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230412_289/1681303384495r0H0f_JPEG/E8F96C46-19FE-4295-9984-F2E85AC845F7.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -20471,7 +20472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1976004653/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서울아산병원-신관지하카페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240920_40/1726806278303W4olS_PNG/%B9%E8%B3%CA.png",
     "parking": false,
     "reservation": false
   },
@@ -20528,7 +20529,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1745144740/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나니요리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251203_273/1764766440818ok2pi_JPEG/1000018749.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20563,7 +20564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1168700955/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/인생2막창-대구숯불막창-방이동-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240510_202/1715352296155490o7_JPEG/1705594577063.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20598,7 +20599,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1923702493/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/앨리나인-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251106_98/1762439219007tgDR1_JPEG/KakaoTalk_20251106_232513676.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20666,7 +20667,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2052229613/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태산회전훠궈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251207_129/1765064332809pq36f_JPEG/IMG_5687.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -20702,7 +20703,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1783850971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/사생활-파스타-브런치카페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221028_156/16669440537082S1Gh_JPEG/%C1%A6%B8%F1_%BE%F8%C0%BD-1-%BA%B9%B1%B8%B5%CA-%BA%B9%B1%B8%B5%CA-%BA%B9%B1%B8%B5%CA.psd_0012_%B7%B9%C0%CC%BE%EE_19.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20797,7 +20798,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1232678696/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실백정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250123_8/1737607896898RUzJ2_JPEG/1000029091.jpg",
     "parking": true,
     "reservation": true
   },
@@ -20885,7 +20886,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1726536739/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/표현식당-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220628_292/1656412593579feEFb_JPEG/%B8%DE%C0%CE.jpg",
     "parking": false,
     "reservation": true
   },
@@ -20951,7 +20952,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117571107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/후발대-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230813_56/1691923361306eVccb_JPEG/2EF6B62F-6D39-44F6-ADD0-37AB2BAE2F86.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -21042,7 +21043,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1682661986/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오카-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241122_81/17322662785808cBqw_JPEG/IMG_3502.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -21136,7 +21137,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1701146005/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/로스로스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250517_186/1747449879741eNv3j_JPEG/KakaoTalk_20250517_114229803.jpg",
     "parking": false,
     "reservation": true
   },
@@ -21171,7 +21172,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1631831259/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미도인-송리단길-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241105_91/1730784262731vOWep_JPEG/%BC%DB%B8%AE%B4%DC%B1%E6%B8%C0%C1%FD%BC%AE%C3%CC%C8%A3%BC%F6%B8%C0%C1%FD%BC%DB%C6%C4%B8%C0%C1%FD%BC%DB%B8%AE%B4%DC%B1%E6%C6%C4%BD%BA%C5%B8%BC%DB%C6%C4%B3%AA%B7%E7%BF%AA%B8%C0%C1%FD%BC%DB%B8%AE%B4%DC%B1%E6%B5%A5%C0%CC%C6%AE%BC%AE%C3%CC%C8%A3%BC%F6%B5%A5%C0%CC%C6%AE%BC%DB%B8%AE%B4%DC%B1%E6%C1%A1%BD%C9%BC%DB%B8%AE%B4%DC%B1%E6%B0%A1%BC%BA%BA%F1_%281%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21265,7 +21266,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1368994421/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/노을길-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240125_132/1706176200138SKNwa_JPEG/%B1%A4%B0%ED%BF%EB-%C0%CC%B9%CC%C1%F6.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21363,7 +21364,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1536051441/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/코티지-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250306_220/17412684233688WXU2_JPEG/7.%B8%C5%C0%E5%B3%BB%BA%CE.jpg",
     "parking": true,
     "reservation": true
   },
@@ -21398,7 +21399,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1081768431/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대디스테이블-송리단길-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241031_208/17303389273087fhK7_JPEG/KakaoTalk_20241031_103049874_05.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21431,7 +21432,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1885191240/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/천년맛두부-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250304_210/1741094445572ETvqG_JPEG/IMG_8890.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -21565,7 +21566,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2145826585/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/안목-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260210_140/17707097542254DHJh_JPEG/%B5%C5%C1%F6%B1%B9%B9%E4_%BE%C8%B8%F1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21657,7 +21658,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1448170219/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꼬따-송파나루역-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_90/1762156402375fMbcJ_PNG/IMG_5876.png",
     "parking": false,
     "reservation": true
   },
@@ -21690,7 +21691,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31824986/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고래즉석떡볶이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230911_229/1694395258625vAl1I_JPEG/20230911_101931.jpg",
     "parking": false,
     "reservation": false
   },
@@ -21780,7 +21781,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1110343229/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/베스트케밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240803_158/1722646918935pEuRJ_JPEG/%BA%A3%BD%BA%C6%AE%C4%C9%B9%E4_1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -21873,7 +21874,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1418972641/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/순천옥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220630_51/1656585912412Sk0Qw_JPEG/24175F88-DB52-4D61-9181-D7939A97A26C.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -21967,7 +21968,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1938606985/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/목탄장-롯데백화점에비뉴엘잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240108_131/1704685962135NYftR_JPEG/%B8%F1%C5%BA%C0%E5%BF%A1%BA%F1%B4%BA%BF%A4-%C1%F7%BB%E7%B0%A2%C7%FC%B7%CE%B0%ED.jpg",
     "parking": true,
     "reservation": true
   },
@@ -22000,7 +22001,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1249778554/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브로21-삼전-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241221_91/1734762971694OujG2_JPEG/1734762662204.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22033,7 +22034,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1036587501/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토오코-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240829_35/17249212595003CCwn_JPEG/DSC_2515.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22094,7 +22095,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059817462/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/지미존스-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260311_90/17732069652692NOIR_JPEG/%28%C1%F6%B9%CC%C1%B8%BD%BA%29_%C5%B0%BA%F1%C1%D6%BE%F3_KV1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22135,7 +22136,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1436673139/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/강남교자-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250120_48/1737377872286m30KT_JPEG/IMG_8572.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -22228,7 +22229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1991217877/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우이락-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241113_42/1731463905117NDvHx_JPEG/1714608033580.jpg",
     "parking": true,
     "reservation": false
   },
@@ -22319,7 +22320,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1267545483/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이삭토스트-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240429_10/1714362212485GnOUa_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22413,7 +22414,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2058716227/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/양복점-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_292/1768536520712luSFW_JPEG/KakaoTalk_Photo_2026-01-16-13-08-19_001.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -22507,7 +22508,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2004739147/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르글라스-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250714_202/1752500613667aSaOH_JPEG/ZS_00121_copy.jpg",
     "parking": true,
     "reservation": true
   },
@@ -22603,7 +22604,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1519690631/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/투뿔한우천국-2호직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_51/1773372497216MwvgV_JPEG/IMG_4384.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -22638,7 +22639,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1218872524/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/촉디-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_41/1734689674496S4zJD_JPEG/IMG_2135.JPG",
     "parking": false,
     "reservation": false
   },
@@ -22671,7 +22672,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1816820179/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포옹남-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250127_277/1737987584340FoI7N_JPEG/1737601589823-2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22705,7 +22706,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1689814523/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시타네-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231204_197/1701667827368QMgJ3_PNG/temp_file.png",
     "parking": false,
     "reservation": false
   },
@@ -22740,7 +22741,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1463608577/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신비주막-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231128_24/1701161740545cB4LV_JPEG/KakaoTalk_20231128_175421946.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22817,7 +22818,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1197694674/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마라사부마라탕-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240411_201/1712832911582RVvFc_JPEG/dd5d0a1d0f365ec36c79bebae2747f6b.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -22865,7 +22866,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1155150572/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/크림베이글-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250511_300/17468942921130NCSt_JPEG/%C0%E1%BD%C7%C1%A1_%BF%DC%BA%CE1.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -22900,7 +22901,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1730988098/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/구구족-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240127_38/1706331862466TULGP_JPEG/1000015449.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22935,7 +22936,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2076701545/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피자페이스오프-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250514_237/1747226273731HYywP_JPEG/KakaoTalk_20250514_210727632_06.jpg",
     "parking": false,
     "reservation": false
   },
@@ -22970,7 +22971,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1103177049/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브앤-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250407_145/1744001996953511nO_PNG/20250407_135514.png",
     "parking": false,
     "reservation": false
   },
@@ -23004,7 +23005,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2002540814/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/등촌샤브칼국수-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251015_266/1760515320754lrC2J_JPEG/1000029475.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23037,7 +23038,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1558418274/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브테이블-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240822_86/1724302587538OE9vx_JPEG/KakaoTalk_20240822_135554299.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23070,7 +23071,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1703843732/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숯토리-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_211/1773369757834K5C3B_PNG/%BA%BD%B2%C9%B4%EB%B9%AE-1.png",
     "parking": false,
     "reservation": false
   },
@@ -23103,7 +23104,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1245961188/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유키토리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250401_137/1743507922478AkodA_JPEG/IMG_8800.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -23137,7 +23138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1065301076/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옛날통닭호프-잠실동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_110/1772135636148XYVTH_PNG/%C0%FC%C3%BC_%C5%D7%C0%CC%BA%ED.png",
     "parking": false,
     "reservation": false
   },
@@ -23172,7 +23173,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1183181639/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동천곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220527_249/1653655990508m630l_JPEG/7FD5ECA7-46CA-462F-A08A-0B4144C03627.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -23265,7 +23266,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1430409595/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올드몬트베이글-잠실파크리오점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250118_2/1737139974408ugag8_JPEG/IMG_4436.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -23358,7 +23359,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1834410904/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/조선육회-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230616_67/1686896280875yqfcn_JPEG/20211103_170151.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23421,7 +23422,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2094456735/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/센도-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260202_46/1770019026785dMQgP_JPEG/IMG_5727.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -23454,7 +23455,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716367716/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/후또로마또로-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230403_263/1680512113464j5NeE_JPEG/IMG_3227.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -23487,7 +23488,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1927431894/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오호이박스-홈플러스-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241212_107/1734007435728Y1eWS_PNG/artner_%BF%C0%C8%A3%C0%CC20.png",
     "parking": false,
     "reservation": false
   },
@@ -23520,7 +23521,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1265528152/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/흥부네-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200325_152/1585102887377GgOWB_JPEG/TvNjhS5qJX5KeUjzaBcBbjvb.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23608,7 +23609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1499367276/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도톤보리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171220_9/1513712341773P335v_JPEG/k8YNEtBaj3pk1moGSyfHRLZd.JPG.jpg",
     "parking": false,
     "reservation": true
   },
@@ -23700,7 +23701,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2058873638/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연낙-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_64/1772086001281kQMdK_JPEG/HTS00694_-_%BA%B9%BB%E7%BA%BB.jpg",
     "parking": true,
     "reservation": false
   },
@@ -23733,7 +23734,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38226716/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포베이-롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170719_4/15004450528939KSOO_JPEG/image.JPEG",
     "parking": false,
     "reservation": false
   },
@@ -23798,7 +23799,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1639444229/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/버거베어-롯데월드-어드벤처점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220722_131/1658472085452fND0G_JPEG/%B4%BA%C6%AE%B7%CE_%BF%C0%B8%AE%C1%F8%B9%F6%B0%C5_%BC%BC%C6%AE.jpg",
     "parking": false,
     "reservation": false
   },
@@ -23928,7 +23929,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1289070154/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아쿠아가든카페-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221110_47/1668066017797LiEqk_JPEG/DSC08120.jpg",
     "parking": true,
     "reservation": false
   },
@@ -24009,7 +24010,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1126238702/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육화식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250916_205/1758018227577BMrCw_GIF/%BF%F2%C2%A9.gif",
     "parking": false,
     "reservation": true
   },
@@ -24092,7 +24093,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2013042957/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/상보sea숙성회-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250716_226/1752652700714gQEpx_JPEG/1000006733.jpg",
     "parking": true,
     "reservation": true
   },
@@ -24186,7 +24187,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36901292/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청국장과보리밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_21/1762158843951524Fx_GIF/KakaoTalk_20251103_103301765.gif",
     "parking": true,
     "reservation": true
   },
@@ -24221,7 +24222,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1667891146/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/코이라멘-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231019_52/1697725326495Dw9Fk_JPEG/IMG_20231011_232508_300.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24257,7 +24258,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1066163540/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마초야-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241121_178/1732145503912kXW2d_JPEG/1000016685.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24329,7 +24330,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12908411/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/알라딘의양고기-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190129_278/1548750860968gGC74_JPEG/TpwP3p00N-4N0uxDCmng1vjQ.jpg",
     "parking": true,
     "reservation": true
   },
@@ -24425,7 +24426,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20029520/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/교촌치킨-방이2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231017_262/1697551938170Up8sR_JPEG/KakaoTalk_20231012_193533546.jpg",
     "parking": true,
     "reservation": true
   },
@@ -24491,7 +24492,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33996684/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/임뻬라또-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151215_119/1450146266219sSCSe_PNG/167165515445188_0.png",
     "parking": true,
     "reservation": true
   },
@@ -24579,7 +24580,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37278222/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/키친오브인디아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210224_138/1614160357181SY9TW_JPEG/2q2f--yQda7AddUOYEa-yLH7.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24649,7 +24650,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1308392571/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/크래프트아일랜드-잠실점-별관2호-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250325_201/1742838065707UHLR3_JPEG/%C0%E1%BD%C7%C1%A1_%BA%B0%B0%FC2%C8%A3%BA%A3%C0%CC%C4%BF%B8%AE%C4%AB%C6%E4%28%BF%DC%B0%FC%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24703,7 +24704,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18456560/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데호텔-월드-도림-더-칸톤-테이블-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230616_76/1686888437651aGzkQ_PNG/image.PNG",
     "parking": true,
     "reservation": true
   },
@@ -24795,7 +24796,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33299572/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/하얼빈-양꼬치-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180724_176/1532420934900EzNNn_JPEG/2qdAg_uounHYJAeMsf4rKN1J.jpeg.jpg",
     "parking": true,
     "reservation": true
   },
@@ -24828,7 +24829,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20644275/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈푸짐감자탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251019_245/1760802012157yRA54_JPEG/1758081635707.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24861,7 +24862,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1122099445/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/손오향-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260201_290/1769948385523yk6Yz_JPEG/KakaoTalk_20260201_211141534.jpg",
     "parking": false,
     "reservation": false
   },
@@ -24896,7 +24897,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1045955111/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진가와-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241014_113/17288936023595smRm_JPEG/5B3A0794.JPG",
     "parking": false,
     "reservation": false
   },
@@ -24963,7 +24964,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19878374/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장수식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250724_250/1753340515644RrbHH_JPEG/202507241559458y2scqj3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25058,7 +25059,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13157155/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/조박사토종순대국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250526_150/1748251539548mMPDc_JPEG/20250526_180735.jpg",
     "parking": true,
     "reservation": false
   },
@@ -25153,7 +25154,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1996916360/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한뭉티기-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250701_259/17513313190676IMgE_JPEG/IMG_1836.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -25188,7 +25189,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1546654146/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팔각동-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240511_185/1715437228471dHh4v_JPEG/IMG_1588.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -25280,7 +25281,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1076870225/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/경미양꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171223_154/1513963371082s4gi3_JPEG/TJQurwMl3CCfaLSabPaV2U4J.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25357,7 +25358,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1297926005/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명조커피앤베이커리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210330_10/1617072049211rk85g_JPEG/tqAJIbl099TabruAp4tM74zj.jpeg.jpg",
     "parking": true,
     "reservation": true
   },
@@ -25435,7 +25436,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2034525177/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이가네양꼬치-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250904_295/1756915394373ubd8K_JPEG/IMG_9422.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -25531,7 +25532,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1799615738/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화반-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250314_214/1741914630681ibIGz_JPEG/DSC01855.jpg",
     "parking": true,
     "reservation": true
   },
@@ -25565,7 +25566,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32805928/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/해주찹쌀순대-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_22/1441039154804STwEG_JPEG/SUBMIT_1373510627567_32805928.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25599,7 +25600,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11850315/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/알루메-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151208_173/144956881322553nOL_JPEG/SUBMIT_1445742663979_11850315.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25771,7 +25772,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1165436888/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한남대교-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210811_284/16286535922695E13N_JPEG/Y-JIvi2yyi5eky6MhwI-3ekh.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25806,7 +25807,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37107524/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모퉁이직화구이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230325_50/1679746108201A7TFy_JPEG/094BDDF3-6A9B-4699-84C9-0149ACC1CAEE.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -25842,7 +25843,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1905864689/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/트레스드-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_252/1765344778399GhSrv_JPEG/KakaoTalk_20250818_165816393_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -25936,7 +25937,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38277340/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천샤브칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200410_16/1586503203305muTVB_JPEG/e0OnFT4CQcue0jJBfIIPDalf.jpg",
     "parking": false,
     "reservation": true
   },
@@ -25985,7 +25986,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33956604/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천마라샹궈-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/20150613_274/mini_mangoya_1434122627434CiIsa_JPEG/%C8%CC%B1%C5_%B8%C0%C1%FD4.jpg",
     "parking": true,
     "reservation": false
   },
@@ -26020,7 +26021,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1179257938/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대홍집-잠실새내본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230603_149/16857812871201j8Te_JPEG/IMG_20230529_172808_484.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26055,7 +26056,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1896562967/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방이-광안리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260312_217/1773308947524LC8VD_PNG/1000157627.png",
     "parking": false,
     "reservation": false
   },
@@ -26128,7 +26129,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1921662729/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육장정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230412_226/1681254387147xcHiN_JPEG/IMG_0479.JPG",
     "parking": false,
     "reservation": false
   },
@@ -26226,7 +26227,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1561733552/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육전국밥-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240306_204/1709732479592o9byM_JPEG/KakaoTalk_20240306_201646907.jpg",
     "parking": true,
     "reservation": true
   },
@@ -26269,7 +26270,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36620521/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오월식육점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240814_2/1723604212076wMTSk_JPEG/1000005024.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26359,7 +26360,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/911325558/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명랑핫도그-잠실신천역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230912_177/1694483641035g26zG_JPEG/%B8%ED%B6%FB%C7%D6%B5%B5%B1%D7_%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": true
   },
@@ -26392,7 +26393,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37269202/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/월간우주-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_127/17653772490233NFOX_JPEG/IMG_2358.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -26481,7 +26482,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1802127013/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/교차점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240419_292/1713513759122o3thS_JPEG/1713483258478.jpg",
     "parking": true,
     "reservation": false
   },
@@ -26514,7 +26515,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1387312281/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/참맛돼지국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230113_205/16735727909425R8Y7_JPEG/1673572531460.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26549,7 +26550,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1973334226/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/복면옥-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251029_142/1761738584493y6rxh_JPEG/KakaoTalk_20250911_114158495_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26643,7 +26644,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2033725326/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/선주가-방이먹자골목점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260302_64/1772437717246OxpIz_JPEG/%BC%B1%C1%D6%B0%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%C0%CC%B9%CC%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26676,7 +26677,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1124861233/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라미아파밀리아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240608_52/1717824973387fIyzM_JPEG/IMG_7137.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -26804,7 +26805,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37766543/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/봉봉샌드위치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230617_260/1686985840072N1hL0_JPEG/Screenshot_20230530_104007__.jpg",
     "parking": true,
     "reservation": true
   },
@@ -26862,7 +26863,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1097590028/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도이티-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230705_28/1688543425539PuPMJ_JPEG/866C5090-396B-444B-B144-4EDE80AABFCB.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -26899,7 +26900,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30839891/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도깨비마을-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_76/1760602556395faFSq_JPEG/KakaoTalk_20251013_183814768.jpg",
     "parking": false,
     "reservation": false
   },
@@ -26934,7 +26935,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424825658/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/추엌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251031_16/1761872369230VTQPu_JPEG/20241122_183311.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27025,7 +27026,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34806890/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김자순-수제돈가스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151005_132/1444040080412wfmHU_JPEG/166955594457223_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27113,7 +27114,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1391128184/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/끌-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230905_60/1693919716845KmhMM_JPEG/KakaoTalk_20230905_194019159_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27146,7 +27147,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1560084869/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/다이키-잠실새내본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250516_263/1747330142517bbwRP_JPEG/R0000580.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27240,7 +27241,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1848604397/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/투뿔-한우천국-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260201_227/1769914218667UMKcV_JPEG/IMG_4385.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -27331,7 +27332,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33674873/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍코너-신천-새마을시장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210302_129/1614671943044MuXV1_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD.png",
     "parking": false,
     "reservation": false
   },
@@ -27403,7 +27404,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2000711861/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신라제면-잠실-롯데몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250910_169/17574873355886pSBs_JPEG/%C0%E1%BD%C7_%BD%C5%B6%F3%C1%A6%B8%E9_%B8%C5%C0%E5.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27497,7 +27498,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1148336718/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도스타코스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260130_46/1769776510801enBVa_PNG/%BD%C5%B8%DE%B4%BA_%BA%F1%BA%F1%B5%E5_%C5%B0%C4%A3_%C6%CB%BE%C6%C6%AE.png",
     "parking": false,
     "reservation": true
   },
@@ -27566,7 +27567,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1450034567/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/민-스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220818_122/1660780448001jnrhM_JPEG/20220818_065019.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27599,7 +27600,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1351154062/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/물고기자리-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250331_296/1743351583746WQzhS_JPEG/1000035351.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27692,7 +27693,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1955624572/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/똣똣카페-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220413_64/1649831428204DFjsH_JPEG/33409CD8-6919-4D07-BC90-81CB0558AB25.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -27774,7 +27775,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/697875909/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가보자식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230916_227/1694858256277m91el_JPEG/1694858218979.jpg",
     "parking": false,
     "reservation": false
   },
@@ -27866,7 +27867,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1655694887/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/버거그랩-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190526_283/1558870941201Hsa1G_JPEG/_5FKuOsQQn91jiNsmwesHmz_.jpg",
     "parking": false,
     "reservation": true
   },
@@ -27942,7 +27943,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1867458154/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도요스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240502_183/1714633261089DETtJ_JPEG/KakaoTalk_20240502_155942212.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28036,7 +28037,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1420700131/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/헤세드-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240112_125/1705046402092ty3EG_JPEG/IMG_6019%BC%F6%C1%A4.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -28131,7 +28132,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1480118526/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/을찌로국물떡볶이-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240331_231/1711847150133wM0nX_JPEG/%BA%D0%BD%C4%C7%D1%C6%C7.jpg",
     "parking": true,
     "reservation": true
   },
@@ -28185,7 +28186,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1663430815/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시소라그린-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240909_55/17258425745380kHsg_JPEG/KakaoTalk_20240909_093459171.jpg",
     "parking": true,
     "reservation": false
   },
@@ -28272,7 +28273,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38230428/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피자마루-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_294/1769058198876C5Gdn_JPEG/%C6%F7%BD%BA%C5%CD_down.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28308,7 +28309,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1818935986/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오마카세-오사이초밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230305_240/1678009232581j2FeW_JPEG/1C1ACA55-A083-4FEC-B7A8-F58E3974869A.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -28402,7 +28403,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320453727/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포뚜옌달랏-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240428_146/1714280677951zInWG_PNG/IMG_6355.png",
     "parking": true,
     "reservation": true
   },
@@ -28495,7 +28496,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1402558758/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마싯소-방이본점-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/220053@1x.png?version=20&mapping=marker-186",
     "parking": true,
     "reservation": true
   },
@@ -28583,7 +28584,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37615255/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/THE맛있는곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240216_55/1708048075612Ra1EL_JPEG/1000003373.jpg",
     "parking": false,
     "reservation": true
   },
@@ -28619,7 +28620,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1548116373/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카사데타코-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250127_3/1737947059738ipNec_JPEG/IMG_3646.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -28712,7 +28713,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1258112645/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/다이닝갈비-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250124_289/1737647177382hj8EE_JPEG/KakaoTalk_20250124_000517744.jpg",
     "parking": true,
     "reservation": true
   },
@@ -28798,7 +28799,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38530808/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오마뎅-리센츠점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_204/1767342266360h1v9t_JPEG/KakaoTalk_20260102_172120013.jpg",
     "parking": false,
     "reservation": false
   },
@@ -28863,7 +28864,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017595612/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포브라더스-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250716_273/1752623086876BjyN1_JPEG/IMG_7786.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -28896,7 +28897,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1917905929/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우츄진-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260315_5/1773543973941DkBF2_JPEG/%B8%F0%C0%DA%C0%CC%C5%A9HTS02388.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29012,7 +29013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1820428152/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/제주은희네해장국-잠실직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171030_230/1509327850597bbmVA_JPEG/hUeKwKJG7R1T_-A5NPO39iax.jpg",
     "parking": true,
     "reservation": false
   },
@@ -29079,7 +29080,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/754615951/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시그니엘-서울-STAY-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170613_194/1497344903194GAkee_JPEG/20170605182148236_1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -29112,7 +29113,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32473269/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/비사벌전주콩나물국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220917_132/1663385617917Fyn0j_JPEG/20220901_061924.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29147,7 +29148,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1214154710/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진지아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251111_234/1762858666454oVApU_JPEG/IMG_6764.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -29182,7 +29183,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1940384192/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/브루클린더버거조인트-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191224_56/1577114324589eKpct_JPEG/O73D30CKo0S-8tOjt5fuH_9k.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29256,7 +29257,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13158870/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/수가성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_213/1440998929552WpblA_JPEG/106570416730482_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29350,7 +29351,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34309097/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/골드참치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250513_155/17471472457786PMWJ_JPEG/1000047446.jpg",
     "parking": true,
     "reservation": true
   },
@@ -29383,7 +29384,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262928772/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/중화일상-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200812_237/1597198893463Lw7Ov_JPEG/Smo2_NMO7kXKh-ULiEfy-Kxd.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29475,7 +29476,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18855971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뉴질랜드스토리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220916_56/1663309387982xFDWH_JPEG/Screenshot_20220915-211025_KakaoMap.jpg",
     "parking": false,
     "reservation": true
   },
@@ -29567,7 +29568,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1226790037/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오리지널팬케이크하우스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_131/177269816252028Y2c_JPEG/%C0%CE%BD%BA%C5%B8%B1%D7%B7%A5.jpg",
     "parking": true,
     "reservation": false
   },
@@ -29660,7 +29661,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1435121070/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈블랑-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240823_218/1724399745436Mhl3T_PNG/%C8%AD%B8%E9_%C4%B8%C3%B3_2024-08-23_165530.png",
     "parking": true,
     "reservation": true
   },
@@ -29696,7 +29697,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37532299/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부농정육식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240628_95/1719576655497LKHOn_PNG/20240628_211032.png",
     "parking": false,
     "reservation": false
   },
@@ -29789,7 +29790,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2027293661/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연남토마-롯데캐슬-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_132/1770961406504b2HBy_JPEG/%BF%AC%B3%B2%C5%E4%B8%B6_%C0%E1%BD%C7%C1%A1_%BF%C0%C7%C2%C6%F7%BD%BA%C5%CD_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29846,7 +29847,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511983823/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고인돌돈까스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191027_165/1572157828353Imkdm_JPEG/T7vMDJRLS-w93L7k5oRLweKq.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29941,7 +29942,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1225119915/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-빌리지-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -29976,7 +29977,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1988394792/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모던샤브하우스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250121_156/1737435421937nbK7x_JPEG/201130_msh_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30009,7 +30010,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32625379/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태민양꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231228_156/1703697442945NPJ55_JPEG/1703697425656.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30100,7 +30101,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1193634872/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스타벅스-몽촌토성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "parking": false,
     "reservation": false
   },
@@ -30184,7 +30185,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37402165/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데호텔월드-더-라운지-앤-바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_263/1771554707392zj1tf_PNG/%BD%BD%B6%F3%C0%CC%B5%E51.PNG",
     "parking": true,
     "reservation": true
   },
@@ -30219,7 +30220,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1778077197/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피제리아라고-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190401_41/15540871132362RDne_JPEG/4ufisa7oZPiQl0lUKQ3H-bX3.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30310,7 +30311,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13468778/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/멸치집-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_25/14410420317085th8U_JPEG/SUBMIT_1280154831475_13468778.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30400,7 +30401,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18485636/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대현굴국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240603_3/1717353698191bImy2_JPEG/IMG_7884.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -30493,7 +30494,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1512714556/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/생생아구-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241003_223/1727924372944Is1HE_JPEG/1000002594.jpg",
     "parking": true,
     "reservation": true
   },
@@ -30526,7 +30527,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38274764/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/차고버거-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231218_204/1702872023607hjL6x_JPEG/D902FA01-4630-4D77-B203-0F45A3C4ACBD.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -30561,7 +30562,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1781644370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쭈꾸미도사-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220629_65/1656466010401sfLYg_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30595,7 +30596,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34159578/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피바이-로스터스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211101_225/1635739875692rghSO_JPEG/77PF-To89ACQKrk0C3wpByzx.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30668,7 +30669,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1588330899/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명륜진사갈비-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_208/1768440962359bJ0py_JPEG/%B8%ED%B7%FB%C1%F8%BB%E7%B0%A5%BA%F1_%B0%A5%BA%F1_%B0%ED%B1%E2_%B8%C0%C1%FD_%B9%AB%C7%D1%B8%AE%C7%CA_%B0%A1%BC%BA%BA%F1_%C1%D6%C7%F6%BF%B5_260113.jpg",
     "parking": true,
     "reservation": true
   },
@@ -30732,7 +30733,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1881514513/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/츠쿠모-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_216/1765375261211jPBuY_JPEG/IMG_1623.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -30803,7 +30804,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37687978/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/벼락가우리-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250926_128/1758886563797pzwIa_JPEG/%BA%AD%B6%F4_5.jpg",
     "parking": false,
     "reservation": true
   },
@@ -30837,7 +30838,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35365972/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도니족발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_17/1440995794540tvRSm_JPEG/SUBMIT_1407222604772_35365972.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30929,7 +30930,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1072373722/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더-이탈리안-클럽-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_23/17661202728441J9Rv_JPEG/%A4%B7.jpg",
     "parking": true,
     "reservation": true
   },
@@ -30963,7 +30964,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1785379059/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아티제-잠실타워730점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200425_228/1587819154001nMvd0_JPEG/SZOxdpvO_cBIk_Kg6pB5x0sL.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -30996,7 +30997,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11711647/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/불타는삼겹살-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240216_219/1708090305511tAQ5i_JPEG/Screenshot_20240216_223022_NAVER.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31091,7 +31092,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1519709604/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고쿠텐-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210416_231/16185188298905v946_JPEG/1a2m7EQT4lUdZEzs5KG2yvzH.jpg",
     "parking": true,
     "reservation": false
   },
@@ -31271,7 +31272,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1087076424/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/성화마라탕-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220927_125/16642592525083YF8Q_JPEG/F0C7C772-27E7-4A74-ACD8-EECE2BA54120.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -31368,7 +31369,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1475048474/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오마이양대창-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241126_191/1732586736134b9xxi_JPEG/20241124_180747.jpg",
     "parking": true,
     "reservation": true
   },
@@ -31401,7 +31402,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1164572167/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/세인양꼬치-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180511_168/15260020328929VWpB_JPEG/c7aZLYBB_3KAc_bo5X_9r_-F.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31434,7 +31435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/973944612/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/불타니한우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190926_161/15694887880297xTgJ_JPEG/vJP15RsBolIWlhK8a86LwfsK.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31467,7 +31468,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/121519031/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/핑퐁-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net//20170810_217/1502319032943TyhYW_JPEG/IMG_2441.JPG",
     "parking": false,
     "reservation": false
   },
@@ -31524,7 +31525,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1915543888/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/광화문등심-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201023_77/1603413722159iqVyp_JPEG/tLyz1reZ937sHWCpmlSZzuSt.jpg",
     "parking": true,
     "reservation": true
   },
@@ -31561,7 +31562,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30949106/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실황소곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250808_52/17546127853032vyo4_JPEG/1000026262.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31651,7 +31652,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/47817121/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/천수-횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161214_152/1481697757686xeLwl_JPEG/177164557256902_0.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -31684,7 +31685,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1286997931/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쯔린-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220621_41/1655795481465u9Wsx_JPEG/1645433780144.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31758,7 +31759,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1055615600/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팔진향-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240516_27/1715819686965BmB4a_JPEG/%C6%C8%C1%F8%C7%E2_%C7%D1%B9%AE%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -31891,7 +31892,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1828700834/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시호-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250516_174/1747403174149v4cB0_JPEG/20250313_195643.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -31926,7 +31927,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1265989651/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/사사노하-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240117_183/1705481087267mlnxp_JPEG/%BB%E7%BB%E7%B3%EB%C7%CF_%BF%DC%B0%FC.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32007,7 +32008,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37794813/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야나기스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190903_296/156750607406314nN9_JPEG/knFZ4OaIf0SgEBJg9FIz2xnR.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32042,7 +32043,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36886211/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천돼지-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_52/17198940576321LVNm_PNG/20240628_153510.png",
     "parking": false,
     "reservation": false
   },
@@ -32079,7 +32080,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1045459528/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/제일곱창-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220716_64/1657983005499X224m_JPEG/20220714-115314-013.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32115,7 +32116,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1540091901/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팻어케이크-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241113_116/1731469203746SMvC6_JPEG/IMG_6247.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -32192,7 +32193,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1866846193/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시우미-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230520_62/1684565701001Ep88i_JPEG/1684565648905.jpg",
     "parking": true,
     "reservation": true
   },
@@ -32228,7 +32229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1350004103/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페시나몬-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221202_100/166995588890808ujB_JPEG/%C8%AD%B8%E9_%C4%B8%C3%B3_2022-12-02_133119.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32263,7 +32264,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1787712602/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/퀸즈가든-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220504_127/1651633057439Y5USj_PNG/KakaoTalk_20220502_182039952.png",
     "parking": false,
     "reservation": false
   },
@@ -32297,7 +32298,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35402963/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장충동한방족발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_295/1440998186505l3kGY_JPEG/156671566225561_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -32331,7 +32332,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1178480743/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/곤트란쉐리에-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210123_159/1611390420325kCQ0k_JPEG/LqSOtiI-xDoaTIPNIc2dmnQY.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32365,7 +32366,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1745889638/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청-치킨-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220922_143/1663842669067RhSJr_JPEG/6DB38674-715E-432C-A8F2-5BD306F29387.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -32494,7 +32495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31786647/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/봉평메밀촌-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170227_271/1488167004887dt7VF_JPEG/1488007624989.jpg",
     "parking": true,
     "reservation": true
   },
@@ -32527,7 +32528,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1482472655/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옥인피자-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210723_245/1627023720273il1yy_JPEG/aAqfjaYzZ7waq_qmbBqxFjje.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32561,7 +32562,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1115912554/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/안재식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250911_135/1757575194194f2tKF_GIF/%BE%C8%C0%E7%BD%C4%B4%E7_gif.gif",
     "parking": false,
     "reservation": false
   },
@@ -32656,7 +32657,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000587739/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/킴스델리마켓-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_151/1764230038225y56Wt_JPEG/%C5%B4%BD%BA%B5%A8%B8%AE%B8%B6%C4%CF_%C5%A9%B7%B9%C0%CC%C1%F6%B5%FE%B1%E2%B5%CE%B9%D9%C0%CC_13900.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -32747,7 +32748,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36275797/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/박대박-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180831_63/1535680392387EmA2Y_JPEG/OjBKkGM5XkkwY5wF2mG6yTcl.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32781,7 +32782,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13376687/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한솥도시락-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250430_188/1745996348711AwNEN_JPEG/%B7%CE%B0%ED_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32814,7 +32815,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1805676909/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/퍼틴롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200218_243/1581998623920m8Ipr_JPEG/cDw9bzeDrAAflV3f-PnX1gM8.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32847,7 +32848,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1349533702/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/하오미앤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_86/1758777799825u55aK_PNG/%C0%FC%B4%DC%C1%F61%BE%C8.png",
     "parking": false,
     "reservation": false
   },
@@ -32880,7 +32881,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1462031204/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/6떡갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240417_275/1713341193036hIWOx_JPEG/KakaoTalk_20240417_170544521.jpg",
     "parking": false,
     "reservation": false
   },
@@ -32970,7 +32971,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33666791/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동대문엽기떡볶이-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_83/1771479103438Pr53Y_PNG/%BF%B1%B1%E2%B6%B1%BA%BA%C0%CC_%B4%EB%C7%A5_%C0%CC%B9%CC%C1%F6.png",
     "parking": false,
     "reservation": false
   },
@@ -33065,7 +33066,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2040338336/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마루가메-우동-잠실롯데월드몰-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_63/1758097587063BtDmt_JPEG/2000_4.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33101,7 +33102,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1077450120/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/몽가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231018_195/1697622115238wfMTY_JPEG/%B8%F9%C5%D7%C5%D7%C5%D7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33195,7 +33196,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1342072748/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/완도산회-송파별관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251211_234/1765419385183J7Dyj_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-12-11_111353.png",
     "parking": false,
     "reservation": false
   },
@@ -33228,7 +33229,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1186188093/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파도집-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240123_210/1706015972811JyOm7_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33261,7 +33262,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1380390857/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쇼땅쟈-마라탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211019_107/1634571915136GqRqR_JPEG/T7F5fxp_ppxrkGJz5SoDaB7t.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33353,7 +33354,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262430232/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/주신당-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240409_173/1712626657412E8XEt_JPEG/1000016967.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33425,7 +33426,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1604419723/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연주방-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240228_182/1709107517973jaxWH_PNG/%B8%DE%C0%CE.png",
     "parking": false,
     "reservation": false
   },
@@ -33461,7 +33462,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1800831323/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오쿠쿠베이커리-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_38/1771548578109LoIES_JPEG/IMG_6869.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -33494,7 +33495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274741104/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/짐승덮밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251209_164/17652076648695mUa8_JPEG/%C5%E4%B8%B6%C5%E4%B8%DE%B9%D0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33530,7 +33531,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1907537128/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/밀빛-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_42/1772597002212ksi5y_JPEG/KakaoTalk_20260304_104048815_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33563,7 +33564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1666456114/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/치엔-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181126_60/1543193879751z8C9C_JPEG/Iya-pJm7tZRaKCoq84xonBH_.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33657,7 +33658,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1757572734/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라홍방마라탕-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_40/17394561519545nWvV_JPEG/IMG_7320.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -33692,7 +33693,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1344421276/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/백소정-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33728,7 +33729,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1217477030/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/멜티도나-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230731_51/1690781398066t9atb_JPEG/%C5%A9%B1%E2%BA%AF%C8%AFDSC_6720.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33761,7 +33762,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1118591580/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/훈지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240504_211/1714757710554dICNT_JPEG/IMG_9873.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -33794,7 +33795,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33864403/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뽕식이네김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180922_61/1537604492037JujGw_JPEG/lKR4NeMDN7ahfJ3DhYriaoY1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33889,7 +33890,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1640602780/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미태리-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250326_73/1742915717680SWE26_JPEG/1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -33922,7 +33923,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1037776799/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시선-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260311_188/1773231693060pi4kx_JPEG/KakaoTalk_20260306_224035077_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -33958,7 +33959,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38507365/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시선-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240829_71/1724903251377GWedh_JPEG/B5F2AD55-8A4E-400D-978E-028E2CAAC4FF.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -33991,7 +33992,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1753238133/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잊힐리야-잠실새내-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240907_262/1725689658191NBOMk_JPEG/1723183478298.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34083,7 +34084,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1241562419/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/향촌로타리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_297/1768539563885XATP5_JPEG/%BE%C8%B3%BB%B9%AE%B1%B8.jpg",
     "parking": false,
     "reservation": true
   },
@@ -34117,7 +34118,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1973139350/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/의정부실비부대볶음-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181114_242/154219050502246vPE_JPEG/Ve2RDSmNiCuYtHteDMm8iWty.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34152,7 +34153,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1968600738/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더맛있는족발보쌈-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201210_15/1607606427951NHsrT_JPEG/12121212.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34217,7 +34218,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1311972136/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/정원다이닝-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250527_121/17483203971838uigN_JPEG/IMG_0553.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -34340,7 +34341,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2045147898/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연화리해녀촌-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250929_219/1759125091634bRMSk_PNG/KakaoTalk_Snapshot_20250924_174248.png",
     "parking": false,
     "reservation": false
   },
@@ -34416,7 +34417,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35823506/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바이킹스워프-잠실-헤리티지점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210715_74/1626325226980mUIEK_JPEG/IVvkjo3WXbgJ9V8B-D7NrtSE.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34504,7 +34505,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18484667/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본가설렁탕-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/MjAyMjA1MTVfMTc0/MDAxNjUyNTk4NjU5NDc4.dXjmD5hwna9gk_x_tZMWIakdQQ5R-8ZYHvy5aAju7ecg._0EgO_M6WPSKo50dzEyXXYgVxsQ8dNMhxj2h3h3ItiMg.JPEG.misterfm/20220513%A3%DF123011.jpg#900x1200",
     "parking": false,
     "reservation": false
   },
@@ -34596,7 +34597,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1358422271/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실설렁탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_252/17394455592429amat_JPEG/1000005902.jpg",
     "parking": true,
     "reservation": true
   },
@@ -34725,7 +34726,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1267493146/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고든램지버거-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250113_67/1736743328842lciwr_JPEG/1966.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34760,7 +34761,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31825064/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/몽중헌-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230206_165/1675646176660QIHzx_PNG/%B9%E6%C0%CC%C1%A1_20%C3%FE_%C8%A6%BB%E7%C1%F8_%C0%FA%BF%EB%B7%AE.png",
     "parking": false,
     "reservation": false
   },
@@ -34823,7 +34824,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18570290/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/전주콩나물국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231213_235/1702459128396c3BfC_JPEG/IMG_1265.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -34858,7 +34859,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20623734/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/할머니포장마차멸치국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180105_14/151511238729310pLO_JPEG/Rw-Y24HQ9nv0s0FF2Lwu_Xuf.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34891,7 +34892,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1025968597/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우동명가-기리야마-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221112_36/1668218905347yWo9d_JPEG/KakaoTalk_20221112_110710003.jpg",
     "parking": false,
     "reservation": false
   },
@@ -34966,7 +34967,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11679241/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/늘푸른목장-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_144/1772508995246ROHwo_JPEG/DSC04485.jpg",
     "parking": true,
     "reservation": false
   },
@@ -35076,7 +35077,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11726468/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데호텔-월드-라세느-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250124_245/1737724720871TWx52_JPEG/Resized_20250106_world_12372_thumb_1600_1737713436445.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -35113,7 +35114,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1062855533/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청와옥-석촌호수직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250919_129/1758267970088M5Q1w_GIF/%C3%BB%BF%CD%BF%C1._gif.gif",
     "parking": false,
     "reservation": false
   },
@@ -35186,7 +35187,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37879472/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/흥부골숯불돼지왕갈비-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160523_236/1463930777339pMXE3_JPEG/176473405634597_13.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -35222,7 +35223,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1180736872/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/등촌샤브칼국수-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241019_25/1729349187566kxJsP_JPEG/IMG_8338.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35256,7 +35257,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18565199/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진미옥설렁탕-본점-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/220696@1x.png?version=20&mapping=marker-186",
     "parking": false,
     "reservation": false
   },
@@ -35327,7 +35328,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38591218/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시래마루-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201111_29/1605097580454nea7O_JPEG/f9IwN8015kx-NzO0Hs6vsbfQ.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35458,7 +35459,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1389606191/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20181211_41/1544537237883WEqjs_JPEG/vZUW9lkPj9VS_n9ltd0MeJiL.JPG.jpg",
     "parking": true,
     "reservation": true
   },
@@ -35548,7 +35549,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1636164848/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서두산딤섬-2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200306_68/1583461522396QHwfs_JPEG/KUa1dhCLnQlYpJNRrFyrv0KK.jpg",
     "parking": false,
     "reservation": true
   },
@@ -35581,7 +35582,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1305954476/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/양바오-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250618_273/1750220780463TwiBn_JPEG/1000045199.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35616,7 +35617,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32975423/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/현차이나-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241121_171/1732150362678siVwj_JPEG/1000010638.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35709,7 +35710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18570247/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/와인에빠진저팔계-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200219_225/1582119597039ML73k_JPEG/tSI8KzIV8i2TGGpAfSpEXay-.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35742,7 +35743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1490048464/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김경자원조손칼국수-보쌈-직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240916_26/1726491325978hKyLu_JPEG/%B3%BB%BA%CE_%283%29.JPG",
     "parking": false,
     "reservation": false
   },
@@ -35867,7 +35868,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1959602723/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/젠젠-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250824_183/1755964736114AYNpb_JPEG/IMG_5777.JPG",
     "parking": false,
     "reservation": false
   },
@@ -35901,7 +35902,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1377836409/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피빈-잠실향군타워점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251021_45/1761004241415uBr7V_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -35936,7 +35937,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1256370127/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/온량-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251117_180/17633640876394mFbN_JPEG/001.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36031,7 +36032,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1883778270/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/MIP-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240722_14/1721626799235dlKDS_JPEG/KakaoTalk_20240722_143917522.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36064,7 +36065,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11835859/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동북양꼬치-신천본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20151020_250/1445308370862HXDPB_JPEG/166970516269069_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36137,7 +36138,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18465169/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/민들레-식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241006_48/1728219618106Vhk4f_JPEG/20230724_195028.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36230,7 +36231,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1519322418/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스타벅스-송파KT점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "parking": false,
     "reservation": false
   },
@@ -36297,7 +36298,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37620188/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가일-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220819_286/1660891606268KIBan_JPEG/%BF%AC%BE%EE%C8%B8_01.jpg",
     "parking": true,
     "reservation": true
   },
@@ -36330,7 +36331,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37797221/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연어식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200317_280/1584448016834eTevf_JPEG/o2osE0pvCHM8km6UrKfSigNW.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36418,7 +36419,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37393473/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/맘스터치-잠실1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230829_137/1693282401170BAq7o_PNG/%B7%CE%B0%ED_%C1%A4%B9%E6%C7%FC.png",
     "parking": false,
     "reservation": false
   },
@@ -36493,7 +36494,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1924779962/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소피텔-앰배서더-서울-페메종-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_1/1773361235415osy1D_PNG/%C6%C8%B7%B9%C6%AE-X-%C6%E4%B8%DE%C1%BE-%BF%B9%BE%E0%C0%CC%B9%CC%C1%F6.png",
     "parking": true,
     "reservation": true
   },
@@ -36582,7 +36583,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1373324210/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/디라이프스타일키친-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210813_87/1628819965466Ap78i_JPEG/ihPKWJfaAprq4mMovB7oUsOU.jpg",
     "parking": true,
     "reservation": false
   },
@@ -36676,7 +36677,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1907181273/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페페퍼-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251113_222/1763018071743EWggs_JPEG/6DEC9AB2-9425-470C-80EE-1F9D219E69EB.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -36709,7 +36710,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21052324/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/환희분식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_188/1441073698716N8aId_JPEG/136067506077194_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36742,7 +36743,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2078225563/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파이랭-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260205_128/17702830090050NX2D_JPEG/7090.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36834,7 +36835,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/894282932/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오린지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_99/17587888245430dtzR_JPEG/%B8%DE%B4%BA%C6%C7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36868,7 +36869,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35831895/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/엔제리너스-롯데월드몰F1점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200305_47/15833859909432D3CI_JPEG/5Oez3wiuZIKRlMHfE6sRzIiT.jpg",
     "parking": false,
     "reservation": false
   },
@@ -36903,7 +36904,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36860205/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오징어선수촌-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240106_293/1704531258778U19bb_JPEG/%BF%C0%C2%A1%BE%EE%BC%B1%BC%F6%C3%CC_%C7%C3%B7%B9%C0%CC%BD%BA_%BB%E7%C1%F8.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -36972,7 +36973,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11712511/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/드럼통참숯석쇠구이-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251219_7/17661542315109BKyo_JPEG/image.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37007,7 +37008,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33436307/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장수소곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260316_234/17736545722973XN0O_JPEG/KakaoTalk_20260316_184715577_03.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37042,7 +37043,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1782385096/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/레몬그라스-타이-잠실송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250717_8/1752743612282K6s7g_JPEG/KakaoTalk_20250717_113838479_17.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37104,7 +37105,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11876776/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천양꼬치-신천본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161220_121/1482219025663Uubku_JPEG/177170566044877_0.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -37197,7 +37198,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1061594867/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피제리아다븟-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240830_79/1725022564079SQfcn_JPEG/1000001914.jpg",
     "parking": true,
     "reservation": true
   },
@@ -37290,7 +37291,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1308985384/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/메밀집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221223_6/1671805474455u45x0_JPEG/IMG_1220.JPG",
     "parking": false,
     "reservation": false
   },
@@ -37324,7 +37325,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2036151151/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/1-치킨-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_47/1749562969706p38xh_JPEG/IMG_9223.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -37420,7 +37421,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2080328345/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/브루브루-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250701_169/1751362003233HHRSA_JPEG/KakaoTalk_20250701_181218847_01.jpg",
     "parking": true,
     "reservation": false
   },
@@ -37455,7 +37456,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1692634084/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/백석-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211029_277/1635482764346R0q9j_JPEG/GAO4fetmoxT7ziTX3aYEQ7bw.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37503,7 +37504,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1123582298/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쉐이크쉑-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240326_111/1711430626968ayoYr_PNG/logo.png",
     "parking": true,
     "reservation": false
   },
@@ -37576,7 +37577,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1617550586/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한신북어국-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250331_180/1743407103971oKSLS_JPEG/%C7%D1%BD%C5%BA%CF%BE%EE%B1%B9_%BA%F1%BA%F6%B1%B9%BC%F6%28%B7%CE%B0%ED%C6%F7%C7%D4%29.jpg",
     "parking": true,
     "reservation": true
   },
@@ -37670,7 +37671,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1199983223/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/빽돈-잠실-방이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221102_84/1667368258930O1Qpd_JPEG/1667322242808-1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -37704,7 +37705,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1097164323/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쿠차라-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220503_32/1651562816969C2jmA_PNG/%BF%DC%BA%CE%BB%E7%C1%F8.PNG",
     "parking": false,
     "reservation": false
   },
@@ -37738,7 +37739,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1604678790/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토시래-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210830_238/1630304212510z0WSW_JPEG/Z6idmGKv2xIB8stVShkFzXv0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37771,7 +37772,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34818256/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데리아-롯데백잠실광장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_185/1727052511572Vxuh6_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -37839,7 +37840,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1390330587/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/연탄부락-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_255/1768190525572QTcGL_PNG/001.png",
     "parking": false,
     "reservation": false
   },
@@ -37932,7 +37933,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1540351814/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오봉집-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250617_120/17501283994336DmQ2_JPEG/1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -38024,7 +38025,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2079963074/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올루올루-잠실삼전역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_36/1762746162604nTp2R_JPEG/%BF%C3%B7%E7_%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%C7%A5%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38059,7 +38060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1538215694/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/금금-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240223_293/1708654232216JhAWp_JPEG/IMG_4996.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -38092,7 +38093,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1840859063/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/퍼틴-롯데백화점-잠실점-캐슬플라자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200208_242/1581150015147DsjlU_JPEG/fABriuBNb2NVKtQt4sIHx5Fm.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38126,7 +38127,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1698965209/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청년고기장수-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240620_142/1718872171796dIItS_JPEG/KakaoTalk_20240620_165909729.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38254,7 +38255,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35373058/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청화초밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171205_49/1512469239786X18y3_JPEG/hjWU58E_XvC9AumxsPAK4xUs.jpg",
     "parking": false,
     "reservation": true
   },
@@ -38290,7 +38291,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1294739076/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옥봉갈비-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220326_280/1648266516401okrHg_JPEG/%B3%D7%C0%CC%B9%F64.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38382,7 +38383,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/191511961/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일미양다리꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250921_283/1758440771534S7xJF_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%283%29.jpg",
     "parking": true,
     "reservation": true
   },
@@ -38417,7 +38418,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1551666654/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/필앳홈스테이크하우스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_168/1770953269885gj8RL_JPEG/1111.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38471,7 +38472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1159180795/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/키친205-롯데월드몰점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260306_153/1772790634927vwODc_JPEG/image.jpg",
     "parking": false,
     "reservation": true
   },
@@ -38504,7 +38505,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1135325690/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240205_65/1707118823173lz1ys_JPEG/KakaoTalk_20230728_152056744_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38537,7 +38538,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13157342/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/싱싱활어횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_215/1762173527656V1evf_JPEG/IMG_6291.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -38572,7 +38573,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1024716440/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팡즈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231122_113/17006185810209R9Xs_JPEG/IMG_5278.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -38608,7 +38609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1276578677/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신천집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240716_124/17210981850903oaLD_JPEG/DSC09151.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38643,7 +38644,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1181680366/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/제리브라운-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_5/1766217409859G9e4j_JPEG/IMG_7144.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -38710,7 +38711,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1180081365/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/큰기와집-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250705_261/1751644570202moCe7_PNG/%C5%AB%B1%E2%BF%CD%C1%FD_%B8%ED%C7%B0_%C7%D1%BD%C4_%C0%FC%B9%AE.png",
     "parking": false,
     "reservation": false
   },
@@ -38743,7 +38744,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2075838695/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브로21-잠실새내-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_183/1760578967116zjjxS_JPEG/%BB%FE%BA%EA%B7%CE21_%BF%C0%C7%C2%BF%B9%C1%A4%C0%CC%B9%CC%C1%F61.jpg",
     "parking": false,
     "reservation": false
   },
@@ -38837,7 +38838,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1601305954/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옥소반-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250918_255/1758165149095A7i66_GIF/%BF%C1%BC%D2%B9%DD_%B8%B6%B0%EE.gif",
     "parking": true,
     "reservation": true
   },
@@ -38931,7 +38932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1341545365/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤오롱바오-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240408_246/1712543819984QX0S2_JPEG/2G3A0531.jpg",
     "parking": true,
     "reservation": true
   },
@@ -38965,7 +38966,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1434042712/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소피텔-앰배서더-서울-쟈뎅-디베르-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260203_106/1770106006975cTWG3_JPEG/260122_SAS_0008_Fin.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39059,7 +39060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1845584897/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/트라가-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250503_150/174625765741347iGm_JPEG/%C6%AE%B6%F3%B0%A1_%C7%C1%B8%AE%B9%CC%BE%F6%BC%BC%C6%AE_%287%29%B4%BA%BA%FC%BF%A1%BE%DF%C8%A6%B1%D7%B7%B9%C0%CE.jpg",
     "parking": true,
     "reservation": true
   },
@@ -39094,7 +39095,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1041643501/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/투파인드피터-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230329_154/1680095029689dVNAD_JPEG/IMG_9066.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -39186,7 +39187,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2089702382/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/최순옥명품국밥-잠실삼전점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250627_293/1751008543435ykVHk_PNG/%B7%CE%B0%ED_3.png",
     "parking": false,
     "reservation": false
   },
@@ -39220,7 +39221,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18469545/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/설악추어탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200405_156/1586052840313EMCip_JPEG/BlQWnSR6PHmR5df4JjPw61Pb.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39315,7 +39316,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2036474390/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/굽돌집-잠실방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250718_131/1752815659497sDEYb_JPEG/YCS_4498-Recovered.jpg",
     "parking": true,
     "reservation": true
   },
@@ -39348,7 +39349,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2016452134/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태양의토마토라멘-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250801_133/1754034130837XjBa9_PNG/%BB%E7%C1%F8.png",
     "parking": false,
     "reservation": false
   },
@@ -39381,7 +39382,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1026315450/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태풍수산-1997-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_235/1770124024513EKMWw_PNG/NAVER_%B0%CB%BB%F6_%B4%EB%C7%A5_%C0%CC%B9%CC%C1%F6_2602.png",
     "parking": false,
     "reservation": false
   },
@@ -39474,7 +39475,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1158171716/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잇쇼니라멘-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241219_135/1734604270388RVNsE_JPEG/IMG_0076.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -39563,7 +39564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1024767330/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/메가MGC커피-잠실나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220726_13/1658818045890I9Yhp_JPEG/%B8%DE%B0%A1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -39597,7 +39598,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1022913299/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/블리스라운드-롯데백화점-잠실점-캐슬플라자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250411_257/1744363493116g8J6X_JPEG/KakaoTalk_20250411_182424940_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39631,7 +39632,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1467994044/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/베이프치킨-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260120_112/17688776465277WCvg_JPEG/%BA%A3%C0%CC%C7%C1%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -39723,7 +39724,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2086967762/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/경몽루-제타플렉스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250710_57/1752135928693cOn5T_PNG/%BA%EA%B7%A3%B5%E5%B7%CE%B0%ED.png",
     "parking": false,
     "reservation": true
   },
@@ -39816,7 +39817,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031240393/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/춘천100-순메밀막국수-냉면-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260311_252/1773213984534wfyrm_JPEG/1000015232.jpg",
     "parking": true,
     "reservation": true
   },
@@ -39940,7 +39941,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36714351/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/퍼프룸-치즈룸-월드타워-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_183/1772782911038OsClg_JPEG/%C6%DB%C7%C1%B7%EB_%C4%A1%C1%EE%B7%EB_%B8%C5%C0%E5%BF%C0%C7%C2_%C0%FC.jpg",
     "parking": true,
     "reservation": true
   },
@@ -40027,7 +40028,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/354677343/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청년감자탕-송파-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250903_120/1756870661062kkatC_JPEG/KakaoTalk_20250903_095526336.jpg",
     "parking": true,
     "reservation": false
   },
@@ -40062,7 +40063,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35021883/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/담은갈비-송파잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_133/1762155579507CCtSR_PNG/KakaoTalk_20251030_171412635-down-side.png",
     "parking": false,
     "reservation": false
   },
@@ -40096,7 +40097,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33239228/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스타벅스-잠실푸르지오월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "parking": false,
     "reservation": false
   },
@@ -40165,7 +40166,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35135795/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/투썸플레이스-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190128_299/15486647591807Q5qu_JPEG/0CSPkzK8suZmCkyj-VgTWjpn.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40287,7 +40288,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000593004/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/투썸플레이스-송파구청사거리점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220828_5/1661661411515deqvt_JPEG/20220827_111052829.jpg",
     "parking": true,
     "reservation": false
   },
@@ -40356,7 +40357,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1307296869/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이춘복참치-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251001_51/1759307336726LnTOB_JPEG/%C1%A6%B8%F1_%BE%F8%C0%BD-1_0002_%B7%B9%C0%CC%BE%EE_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40392,7 +40393,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35044419/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진대감-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_13/1762317214929w1ADS_JPEG/KakaoTalk_20220812_141914780_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40468,7 +40469,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1025868859/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시윤-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250710_159/17521116221412xCRk_JPEG/IMG_3494.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -40545,7 +40546,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1998866671/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어양-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191211_162/1576038938207h65kL_JPEG/Nw-L48Zw1Kc22mjC4L4djDKR.jpg",
     "parking": true,
     "reservation": true
   },
@@ -40578,7 +40579,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1937611120/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/써브웨이-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200103_82/1578043664049aVIC6_JPEG/oSo1QnUl87teoesK_lCcVLN0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40627,7 +40628,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33102180/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토도로끼-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200108_138/1578486925632T1xU9_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD.png",
     "parking": true,
     "reservation": true
   },
@@ -40722,7 +40723,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35831847/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서래냉면-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211108_258/1636369944275le0Gy_JPEG/bAIO9s-yeV5k-Zq4GqV2pVv_.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40778,7 +40779,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13111324/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오징어세상-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_85/1440987901272NelfH_JPEG/106472563755763_0.jpg",
     "parking": true,
     "reservation": false
   },
@@ -40811,7 +40812,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1703056455/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데리아-잠실롯데월드몰B1점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_185/1727052511572Vxuh6_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40848,7 +40849,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1560376466/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/딤딤섬-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220427_18/165101961595554XhE_JPEG/%B5%F5%B5%F5%BC%B6_%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -40921,7 +40922,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37297090/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미성양꼬치-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241021_273/1729496599186cLoxc_JPEG/IMG_1420.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -41012,7 +41013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1685536622/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미성양꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_46/1766396093984tO420_JPEG/KakaoTalk_20251215_133644406_06.jpg",
     "parking": true,
     "reservation": true
   },
@@ -41084,7 +41085,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1209804756/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모스버거-홈플러스잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190319_148/1552986192478xzB87_PNG/9wBsjD9dhiLRd1lVN2VpM46y.png",
     "parking": false,
     "reservation": false
   },
@@ -41173,7 +41174,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35431801/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/써브웨이-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200103_82/1578043664049aVIC6_JPEG/oSo1QnUl87teoesK_lCcVLN0.jpg",
     "parking": true,
     "reservation": false
   },
@@ -41306,7 +41307,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13480434/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아궁이왕돌구이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240130_198/1706550650853Sws2p_JPEG/%BE%EE%BC%AD%BF%CD_%C7%D1%B1%B9_%B0%A1%B0%D4_%C0%CC%B9%CC%C1%F6.jpg",
     "parking": true,
     "reservation": false
   },
@@ -41389,7 +41390,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11782606/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/심포니오브차이나-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_143/1441038399521jJxhB_JPEG/11782606_3.jpg",
     "parking": true,
     "reservation": false
   },
@@ -41484,7 +41485,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34268627/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/등촌샤브칼국수-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251231_46/1767162206427RHBob_JPEG/1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -41517,7 +41518,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1883134228/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/곤드레-솥밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220728_223/1658974304976QnYY1_JPEG/KakaoTalk_20220728_110402763.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41608,7 +41609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38275548/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/봉평메밀막국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210119_223/16110455317053s8wc_JPEG/%BA%C0%C6%F2%B8%B7%B1%B9%BC%F6_210113.jpg",
     "parking": true,
     "reservation": false
   },
@@ -41642,7 +41643,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1558899782/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/공씨네족발보쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180420_195/1524209170046KR27f_JPEG/89kces40SBtmSCEEUcnKtBPc.jpg",
     "parking": false,
     "reservation": false
   },
@@ -41748,7 +41749,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/723732357/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/강구미주구리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20161205_109/14809120434154zQei_JPEG/177151567277687_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -41840,7 +41841,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/559535513/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피빈-몽촌토성역점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251020_33/1760954660619Om1Df_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42023,7 +42024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36948683/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피빈-신천역점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251020_121/1760942038302JteCc_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6_%B4%EB%C1%F6_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42112,7 +42113,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38232466/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/봉피양-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180705_78/1530770280953kKUjN_JPEG/EjmCpW5nTVszvp-s02t-1IHy.jpg",
     "parking": true,
     "reservation": false
   },
@@ -42145,7 +42146,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35372422/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/블랙디쉬-잠실-본점-차이나스토리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211105_200/1636086073469cmE7I_JPEG/qKLVmsgpf97rKo2g_Jh3UM7y.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42215,7 +42216,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1171417065/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/금수복국-잠실소피텔점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_242/1761108293779WDCGD_PNG/%BA%B9%B0%EF%C0%CC.png",
     "parking": true,
     "reservation": true
   },
@@ -42289,7 +42290,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2046151793/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/노랑통닭-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220331_42/1648729985144oqtg2_JPEG/%BF%E4%B1%E2%BF%E4_%BD%E6%B3%D7%C0%CF_%C3%D6%C1%BE_400x400.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42346,7 +42347,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1236440767/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/광화문갈비-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201026_84/1603695948280izEOB_JPEG/fE_BPhWmUNAinU655LT90axL.jpg",
     "parking": true,
     "reservation": true
   },
@@ -42438,7 +42439,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1237824591/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모던눌랑-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_34/1773390917084BCGoa_JPEG/%C0%E1%BD%C7_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42472,7 +42473,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1046575028/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마호가니-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231022_264/16979202219970XNDK_JPEG/2F13B2DB-53BA-4138-A82B-0E949FD4E157.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -42566,7 +42567,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1615187782/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만주-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231218_289/17028894292255mRfw_JPEG/1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -42599,7 +42600,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36317270/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어멍서울분식-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190110_87/1547120074153qPkT4_JPEG/eCGa9S0Y74zusLoVO13TK5qQ.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42632,7 +42633,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1017451157/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/안동집한우관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240919_70/1726716344147T2rni_JPEG/6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42667,7 +42668,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1556801747/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/촙촙-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210119_258/1611044759190mznHY_JPEG/BB-9xsw1039G9knmjxBDgC3W.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42761,7 +42762,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13430645/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/코코로-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240627_287/1719486796782x7Fkm_JPEG/20240309_230607.jpg",
     "parking": true,
     "reservation": true
   },
@@ -42829,7 +42830,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/153281472/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/위커파크-이스트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240604_243/1717480288194bKKAi_JPEG/IMG_8537.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -42865,7 +42866,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1817449209/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/위커파크-웨스트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250114_285/1736828103101IkleY_JPEG/IMG_5297.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -42905,7 +42906,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1346347523/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/DK동키치킨-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220831_196/1661945597531qIbpj_JPEG/20220830_110509659.jpg",
     "parking": false,
     "reservation": false
   },
@@ -42940,7 +42941,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1182075042/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/완미족발-서울방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231011_266/1697005949815TLaHX_PNG/%BD%C5%B1%D4_%B7%CE%B0%ED.png",
     "parking": false,
     "reservation": false
   },
@@ -42988,7 +42989,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1348814588/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/석촌활어회-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231119_66/1700369725690izA4w_JPEG/018992BD-1906-4551-AA34-1B87743504B8.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -43023,7 +43024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1936937511/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/입분식가정집-송파본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240603_170/1717419786858m9tka_PNG/1000009575.png",
     "parking": false,
     "reservation": false
   },
@@ -43111,7 +43112,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13158912/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샹하이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_28/144099895889766eCs_JPEG/106574425871167_0.jpg",
     "parking": true,
     "reservation": false
   },
@@ -43144,7 +43145,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38277186/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데월드-저자거리-주막-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200405_238/1586065354155YeMvB_JPEG/%BF%D5%B0%A5%BA%F1%C5%C1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43235,7 +43236,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35326458/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대박쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260302_2/1772443562955DzdeP_JPEG/1000026265.jpg",
     "parking": false,
     "reservation": true
   },
@@ -43328,7 +43329,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2003448101/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르봉마리아쥬-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_81/1765324695738EnhVd_JPEG/1000025413.jpg",
     "parking": true,
     "reservation": false
   },
@@ -43364,7 +43365,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37225164/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/르봉마리아쥬-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240522_186/1716347031596pmpQC_JPEG/KakaoTalk_20240522_120127678.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43397,7 +43398,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1046616410/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/무진장포차-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190721_3/1563712991303B3OXi_JPEG/HagAL79ZZAH_z4VGR8-11_ZI.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43430,7 +43431,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1259782563/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토우지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250429_225/1745889247831HD8Vw_JPEG/1000003512.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43486,7 +43487,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13579414/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/엔제리너스-잠실샤롯데점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190926_294/1569454219453QhNW1_JPEG/cQaulVH6Eehj4DLR0LVa2cNT.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43519,7 +43520,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1111948157/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/츠키젠-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230602_11/1685639110147IGNeD_JPEG/DD894948-6624-494A-891B-85229AE93BF9.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -43609,7 +43610,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1482380176/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서민국수-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230921_144/1695265057881oASiI_JPEG/20211111_215025.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43642,7 +43643,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1611066676/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카츠젠-잠실월드타워점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220824_101/1661331189272wN2Gm_JPEG/20220824_173441.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43675,7 +43676,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31992223/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화심-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250401_300/1743499670895fxIxo_JPEG/IMG_5301.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -43805,7 +43806,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1936513211/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/윤국밥-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240626_250/1719398585564B8G3n_JPEG/1000012705.jpg",
     "parking": true,
     "reservation": false
   },
@@ -43898,7 +43899,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19809192/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/곱이랑창이랑-방이시장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190512_12/1557655256464xYa2z_JPEG/VHfWi_1EW3vxQL_l5TlSiY97.jpg",
     "parking": false,
     "reservation": false
   },
@@ -43931,7 +43932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32799968/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/피자스쿨-잠실본동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191208_12/1575811760651PXdSY_JPEG/HCOWjvHF4Q-gBKNTA1FFMn4M.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44024,7 +44025,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1397338327/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/꼼포차-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_109/1770605337563153g9_JPEG/1000008557.jpg",
     "parking": true,
     "reservation": true
   },
@@ -44057,7 +44058,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1310838857/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어부바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210419_234/1618761660583u4OgM_JPEG/5n-IfiK9t6EVwTbM7eabxDxg.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44126,7 +44127,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1202932923/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바다회상-잠실점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230503_121/1683096560148zTyUp_JPEG/%B9%D9%B4%D9%C8%B8%BB%F3_%B7%CE%B0%ED1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44199,7 +44200,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1246467868/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나루스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240704_20/1720069687208hytJR_JPEG/65E4716D-9379-49CC-A28A-84A7FD1F72E8.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -44291,7 +44292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1517162799/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/용용선생-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220624_99/1656049618177jCdYW_JPEG/1656049458729-0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44325,7 +44326,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37426852/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한모네소문난순대집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_198/1770080587979O7XRz_JPEG/1770080531671.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44358,7 +44359,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1592346372/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토스카노-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251206_238/1765032781909deC3P_JPEG/%C5%E4%BD%BA%C4%AB%B3%EB5677.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44451,7 +44452,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1509927370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/롯데리아-몽촌토성역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_185/1727052511572Vxuh6_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44487,7 +44488,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1777416152/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/임금돼지-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231022_130/1697978615996oJqyA_JPEG/IMG_5884.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -44579,7 +44580,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1105142257/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장미시장국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250205_144/1738745312373FRuj3_JPEG/1000000328.jpg",
     "parking": true,
     "reservation": false
   },
@@ -44671,7 +44672,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1406575173/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/백소정-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44706,7 +44707,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1087310810/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/옥소반-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250918_137/1758165555496iPSOa_GIF/%BF%C1%BC%D2%B9%DD_%B8%B6%B0%EE.gif",
     "parking": false,
     "reservation": false
   },
@@ -44739,7 +44740,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1370108605/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보통의숲-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230119_184/1674124487993rJ1bt_JPEG/BDBEE0FE-67FF-4ED3-B74C-93F3BA5D2EC6.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -44775,7 +44776,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1011357885/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일월애오사카-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241108_200/1731039465018tTsfS_PNG/KakaoTalk_20241106_174041135.png",
     "parking": false,
     "reservation": false
   },
@@ -44870,7 +44871,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1480566026/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/횡성한우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_233/1747980880339vEDoN_JPEG/08012200_%282%29.JPG",
     "parking": true,
     "reservation": true
   },
@@ -44942,7 +44943,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20630935/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/풍년뼈다귀해장국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200703_111/1593762963357RtG5C_JPEG/P2A5uxMw5PGyxCSga_7kIx1O.jpg",
     "parking": false,
     "reservation": false
   },
@@ -44976,7 +44977,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33331829/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스타벅스-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
     "parking": false,
     "reservation": false
   },
@@ -45104,7 +45105,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11735866/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부부횟집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_118/1441032953898u5gNl_JPEG/11735866_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45182,7 +45183,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35831833/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/갓덴스시-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250611_89/17496190295875MM5G_PNG/01.%B0%AB%B5%A7%BD%BA%BD%C3.png",
     "parking": false,
     "reservation": false
   },
@@ -45241,7 +45242,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1121612230/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/문어세상해천탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230330_294/1680150724503KTIOO_JPEG/1680068376996.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45311,7 +45312,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/50036955/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페마마스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220912_231/1662984750464PN32z_PNG/C8EAAEDC-58FE-4EFC-A94F-2D33D620DEB5.png",
     "parking": true,
     "reservation": false
   },
@@ -45397,7 +45398,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/158570785/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송추가마골-인어반-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240624_38/1719218376052quPKX_JPEG/%C8%AD%B8%E9_%C4%B8%C3%B3_2024-05-29_103728.jpg",
     "parking": true,
     "reservation": false
   },
@@ -45476,7 +45477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35743048/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/매드포갈릭-롯데시네마월드타워점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241108_166/17310233954087uBR4_JPEG/%B3%D7%C0%CC%B9%F6-%B8%C5%C0%E5%BA%B0_%B7%CE%B0%ED.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45566,7 +45567,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1972244870/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/딜라이트호텔-Cafe-Bolzan-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170911_76/1505100343238dX0Ld_JPEG/0yuu9eX5KLlPNG6kNGblrDP8.jpg",
     "parking": true,
     "reservation": false
   },
@@ -45601,7 +45602,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1822330079/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/브럭시-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220601_253/1654062490808yEHAW_JPEG/%B8%DE%C0%CE%B8%DE%B4%BA%C6%C7_7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45696,7 +45697,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13158918/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실장어와-한우-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240812_204/1723444271046OKTtu_JPEG/KakaoTalk_20240810_180817073_14.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45787,7 +45788,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36033778/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아티제-올림픽공원점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_251/1441037189106gHlHq_JPEG/SUBMIT_1431675676843_36033778.jpg",
     "parking": false,
     "reservation": false
   },
@@ -45880,7 +45881,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13500234/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/부산회집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180309_171/1520583769850a4XXm_JPEG/bMhEwJrZIXOPHnfVxd9YWvsR.jpg",
     "parking": true,
     "reservation": true
   },
@@ -45972,7 +45973,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31111261/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/작살치킨-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240609_274/17179372315465FPPc_JPEG/%B8%DE%C0%CE_01.jpg",
     "parking": false,
     "reservation": true
   },
@@ -46065,7 +46066,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33535211/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/안동집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201026_228/1603680129090d3v7j_JPEG/geMCIG5wB26AP5fXzwB951OF.jpg",
     "parking": true,
     "reservation": true
   },
@@ -46101,7 +46102,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36543159/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/문어천하-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241008_235/1728326807946bjrdL_JPEG/1000000407.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46134,7 +46135,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20108180/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/수-보리밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240416_259/1713273021026s1aMg_JPEG/KakaoTalk_20240416_170947076.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46167,7 +46168,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38728901/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김명자국밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220831_103/1661935707110bhvlJ_JPEG/20220831_174340.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46202,7 +46203,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1323917236/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이공족발-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241205_40/17333655564634uRd5_JPEG/%BA%B8%C1%A4%BA%BB.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46282,7 +46283,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1463400620/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화담-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200522_63/1590121450989ytHKD_JPEG/QO3PdVV2nzDE-4XQ7Q5kNj2d.jpg",
     "parking": true,
     "reservation": true
   },
@@ -46315,7 +46316,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13455779/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포차이-1.jpg",
+    "imageUrl": "http://blogfiles.naver.net/20150328_39/dh_daine_1427524911429CH4nd_JPEG/IMG_3759.JPG",
     "parking": false,
     "reservation": false
   },
@@ -46408,7 +46409,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1957174762/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/해담-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251120_161/1763623546943Yx9b6_JPEG/KakaoTalk_20251117_165226147.jpg",
     "parking": true,
     "reservation": true
   },
@@ -46443,7 +46444,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1533487189/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동경산책-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250707_127/1751868483896jAFq9_JPEG/1000016187.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46478,7 +46479,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1448362929/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/후라토식당-잠실직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230103_187/16727120010453tXnG_PNG/%BD%E6%B3%D7%C0%CF_1%B9%F8%C2%B0_%B4%EB%C7%A5%BB%E7%C1%F8.png",
     "parking": false,
     "reservation": false
   },
@@ -46567,7 +46568,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1343372107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어니언스-석촌호수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250930_158/175924343101472zRu_GIF/%B0%A1%C1%F6%B5%A4%B9%E4_%BF%F2%C2%A9.gif",
     "parking": true,
     "reservation": false
   },
@@ -46657,7 +46658,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262667113/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/치마오-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200703_6/1593775440971dh0Bv_JPEG/tsiUTdwtZ9k-S49Oi4-_Q5Kq.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46690,7 +46691,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32874107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/공룡떡볶이-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_278/1441041973034kKrM2_JPEG/SUBMIT_1374651789240_32874107.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46725,7 +46726,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716710999/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송리단취향-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250331_190/1743403215940rxeMA_JPEG/IMG_9793.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -46818,7 +46819,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2021941156/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/다이닝-랑만-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260125_293/1769336440061GNgNB_JPEG/IMG_1803.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -46911,7 +46912,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1186356107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/캐롤스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231006_20/1696556192999g6trl_JPEG/23-09-140130_down.jpg",
     "parking": true,
     "reservation": true
   },
@@ -46944,7 +46945,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1617553311/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/죽변항-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251013_147/17603330642572sV2g_JPEG/KakaoTalk_20251013_142323873.jpg",
     "parking": false,
     "reservation": false
   },
@@ -46977,7 +46978,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1802711905/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오매가매-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190528_95/1559031157051la8jf_JPEG/R0iViOJfNmwWtms8YfJoOquo.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47011,7 +47012,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11489380/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/배스킨라빈스-잠실나루역-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250724_5/17533180775798X8cB_JPEG/%B3%D7%C0%CC%B9%F6_%B9%E8%BD%BA%C5%B2%B6%F3%BA%F3%BD%BA_%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47103,7 +47104,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11781866/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도미노피자-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_210/1762738608227eU63V_PNG/%B5%B5%B9%CC%B3%EB_%B7%CE%B0%ED%28%BD%C5%29_%C0%FC%B1%B9%B4%DC%C0%A7_%B8%C5%C0%E5_1024x1024.png",
     "parking": false,
     "reservation": false
   },
@@ -47196,7 +47197,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36424665/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마카나이-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241201_111/1733041277754lXMg3_JPEG/InShot_20241128_092808389.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47230,7 +47231,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884092314/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/어바웃-프로젝트라운지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201016_251/1602841403868lJ06e_JPEG/QffMeHtmcoJXtJUuek1zxAOM.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47323,7 +47324,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1022495098/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진본가족발보쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191219_161/1576738437828WxPs7_JPEG/Ytj1phe9D38Vk-m5dbet3d6A.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47391,7 +47392,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/567242317/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/버터핑거팬케익스-잠실롯데점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170605_230/1496643142763xzubA_JPEG/186555554242.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47487,7 +47488,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13571483/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/원조왕십리곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_196/1441057017310TMGFK_JPEG/SUBMIT_1432698151582_13571483.jpg",
     "parking": false,
     "reservation": true
   },
@@ -47552,7 +47553,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/617253782/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/콘타이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170428_111/1493347725406Pzcpt_JPEG/186377534577707_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -47585,7 +47586,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1192332896/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파인카츠-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250622_154/17506002766510cwcJ_JPEG/20241219_214535.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47679,7 +47680,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1309601328/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라장양갈비-양꼬치-무한리필-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_276/1719293952612Y6A3j_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47712,7 +47713,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2047079099/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/호락호락-방이동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_164/1764318643647FzdFU_PNG/20251128_172003.png",
     "parking": false,
     "reservation": false
   },
@@ -47791,7 +47792,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1665211911/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만리장성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210408_109/1617878134327AnLFO_JPEG/ZPxl7NE4ctjn10CFGYkCOQO5.jpeg.jpg",
     "parking": true,
     "reservation": true
   },
@@ -47825,7 +47826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2000713003/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍콩완탕면-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_25/1762760552527dece6_JPEG/%C0%FC%C3%BC_%BA%B9%BB%E7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47858,7 +47859,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38520844/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/댓짱돈까스-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230304_153/1677932912064wEp40_JPEG/1669716409088.jpg",
     "parking": false,
     "reservation": false
   },
@@ -47951,7 +47952,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1005163127/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라화쿵부-롯데마트-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190705_266/1562312792002EMqbt_PNG/o-lvwPp6wDzq2s6KjHRs4uEW.png",
     "parking": true,
     "reservation": false
   },
@@ -47984,7 +47985,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1113148779/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진작-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210511_226/1620708124885t5AAC_JPEG/0_kf20xM-iqNKsZ8hQcrzQr8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48017,7 +48018,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1925298314/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/탕화쿵푸마라탕-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250306_92/1741230992437ka5JV_PNG/%B3%D7%C0%CC%B9%F61.png",
     "parking": false,
     "reservation": false
   },
@@ -48051,7 +48052,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1844917582/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/병천가마솥순대국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240921_219/1726887661207YQFMc_JPEG/IMG_8355.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -48116,7 +48117,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1450745729/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/골든타이키친-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250526_105/1748259181843YraCG_JPEG/8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48208,7 +48209,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1475617687/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/치맥킹-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250204_35/1738646795314pIXmU_PNG/%C0%E1%BD%C7%BB%F5%B3%BB%C1%A1_%BF%DC%BA%CE.png",
     "parking": true,
     "reservation": true
   },
@@ -48284,7 +48285,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1538545834/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마린보이코다리1번가-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250919_228/1758251327806HeNtx_JPEG/1.20250909_173019.jpg",
     "parking": true,
     "reservation": true
   },
@@ -48378,7 +48379,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1147538980/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/비스트로-방이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240731_240/1722410133653D1eNm_JPEG/WY_02383.jpg",
     "parking": true,
     "reservation": true
   },
@@ -48411,7 +48412,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088763773/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/강호의도리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251007_7/1759848510146Msl23_JPEG/IMG_1960.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -48535,7 +48536,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1094086663/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/프랭크버거-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_133/1772704993949BJc5V_JPEG/%B3%D7%C0%CC%B9%F6%B8%DE%C0%CE.jpg",
     "parking": false,
     "reservation": true
   },
@@ -48612,7 +48613,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1024500255/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송봉칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250418_44/1744985064050qivia_JPEG/1744984683653.jpg",
     "parking": true,
     "reservation": false
   },
@@ -48647,7 +48648,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1063240910/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올떡-잠실롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240819_203/1724053981557NGgSb_JPEG/P1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48680,7 +48681,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1124035059/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포시애틀-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230327_45/1679905321150efmR6_JPEG/%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48714,7 +48715,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1159462283/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아틀리에폰드-베이크앤모어-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240910_167/1725946410982WneiK_JPEG/DSC04236.JPG",
     "parking": false,
     "reservation": false
   },
@@ -48747,7 +48748,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1941753661/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포시애틀-잠실새내리센츠점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230407_137/1680862589593T9d4M_JPEG/IMG_0235.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48811,7 +48812,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2085024247/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우스블랑-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260204_37/1770170349092VJp3k_JPEG/IMG_5907.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -48845,7 +48846,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1749434719/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/비터솔트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250502_243/1746153524507EnmpC_JPEG/IMG_8520.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48880,7 +48881,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38781009/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모던파머스-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20221216_72/1671171696458sv8hV_JPEG/image.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48914,7 +48915,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1099771133/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/범포구-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250928_63/175903888873326fUT_JPEG/1000070462.jpg",
     "parking": false,
     "reservation": false
   },
@@ -48977,7 +48978,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1386639295/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/비밀베이커리-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_100/1765510879676yd19U_JPEG/KakaoTalk_20251117_104732209_10.jpg",
     "parking": false,
     "reservation": true
   },
@@ -49011,7 +49012,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1672030558/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뽕족-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230821_222/1692574058068bFHH1_JPEG/%BB%CD%C1%B7-%C0%E1%BD%C7%B9%E6%C0%CC%C1%A1_%C0%FC%B0%E6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49044,7 +49045,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1474983224/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장미분식-잠실장미상가-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_245/1758693864527E00X9_JPEG/KakaoTalk_20250924_110321210_09.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49109,7 +49110,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1023907056/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방배김밥-잠실장미상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240722_141/1721636787638UUeUh_JPEG/%C1%A4%B8%E9%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49142,7 +49143,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2092551805/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/렌위치-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250501_157/1746094512764hbipv_JPEG/KakaoTalk_20250426_124903612.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49232,7 +49233,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1912391659/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/땡초우동인포차-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230710_30/1688988372755oYKRQ_JPEG/20230710_202426.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49265,7 +49266,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1066400477/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뉴코-노래타운-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_51/1753407453599t4yA0_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%B9%AB%C1%A6%C7%D1.png",
     "parking": false,
     "reservation": false
   },
@@ -49298,7 +49299,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1965451688/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/썬앤문-SUN-MOON-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230524_173/1684923156114nGDlD_JPEG/KakaoTalk_20230524_190450170.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49387,7 +49388,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1071609603/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샐러디-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
     "parking": false,
     "reservation": true
   },
@@ -49481,7 +49482,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035811326/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-방이스타점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": true,
     "reservation": false
   },
@@ -49524,7 +49525,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1307044588/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장수본가해장국-송파나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240907_219/1725642067641Pa1TJ_JPEG/1725640731794.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49612,7 +49613,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1115202955/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/맛있는할매집떡볶이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231107_50/1699339463963kciYV_JPEG/20231107_140330.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49662,7 +49663,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085323777/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샐러바웃-송파본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230416_130/1681651307833drwCg_JPEG/AD6FE704-62F8-4A8E-9FA5-0F84782BBEAA.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -49695,7 +49696,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33352248/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/맥도날드-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200425_229/15878219499142TvkI_JPEG/qHttnG4O1RvK_m_Rw8S3beGy.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -49788,7 +49789,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35751325/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/빌즈-잠실-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171129_25/1511965330252chHTz_JPEG/bills_Jamsil_main.jpg",
     "parking": true,
     "reservation": false
   },
@@ -49879,7 +49880,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21021672/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/삼백집-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_78/1441071703231l03uz_JPEG/136252425068176_0.jpg",
     "parking": true,
     "reservation": true
   },
@@ -49927,7 +49928,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38249183/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈까스의집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220715_140/16578856397547Y4Fq_JPEG/D7BA4F36-ABAB-4635-921C-771FA113738F.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -50008,7 +50009,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30890556/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/돈까스집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240505_253/1714888263290YlJBl_JPEG/1714888159674.jpg",
     "parking": false,
     "reservation": false
   },
@@ -50043,7 +50044,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1890094432/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/Jbout-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190721_12/1563704615289rtPSI_JPEG/BbxTVCFq5V8j_zUVrHPO6as3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -50172,7 +50173,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18876538/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피빈-방이점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251020_274/1760949690087FRcHS_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -50248,7 +50249,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/869326688/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/레스쁘아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170119_133/1484801753321kfy6r_JPEG/186067545077657_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -50281,7 +50282,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/322404145/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/두끼-홈플러스잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_138/1698233854065JgGul_PNG/%B4%EB%C7%A51.png",
     "parking": false,
     "reservation": false
   },
@@ -50324,7 +50325,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1746171656/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키니쿠소설-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240429_135/1714382685313Q4mQQ_JPEG/IMG_0435.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -50418,7 +50419,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1339832450/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/난랑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221226_250/1672044970043VWYMD_JPEG/20221222_161039503.jpg",
     "parking": true,
     "reservation": true
   },
@@ -50506,7 +50507,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33409307/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/깐부치킨-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_105/1441058384629KyBAi_PNG/146965553125732_0.png",
     "parking": false,
     "reservation": false
   },
@@ -50539,7 +50540,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36665638/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/삿뽀로-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250414_195/1744608405459GoJcQ_PNG/%28%BB%F1%BB%C7%B7%CEW%29%BD%E6%B3%D7%C0%CF_%B7%B9%C0%CC%BE%C6%BF%F43_%B7%CE%B0%ED%B4%DC%B5%B6%C7%FC.png",
     "parking": false,
     "reservation": false
   },
@@ -50573,7 +50574,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37993575/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나레초밥-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200803_55/15964139717208zsXh_JPEG/Nke0VDvp3AkzFfbJOvatVvbW.jpg",
     "parking": false,
     "reservation": false
   },
@@ -50610,7 +50611,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21207353/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대갈곱창-막창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211108_169/1636359288714q6pyi_JPEG/C6DXVA_zjkt2kY3vG98hS5WT.jpg",
     "parking": false,
     "reservation": false
   },
@@ -50680,7 +50681,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33354922/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/반포식스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_147/1772784214328YAKxM_PNG/%B9%DD%C6%F7%BD%C4%BD%BA_%C0%CC%B9%CC%C1%F63_2.png",
     "parking": false,
     "reservation": false
   },
@@ -50773,7 +50774,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18529355/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/치킨뱅이-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_297/1440994017066xfbcE_JPEG/SUBMIT_1385125757492_18529355.jpg",
     "parking": true,
     "reservation": true
   },
@@ -50807,7 +50808,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031948756/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/닭튜브-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251216_184/1765843974307baJbL_PNG/1000027441.png",
     "parking": false,
     "reservation": false
   },
@@ -50877,7 +50878,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1582944365/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/호석촌-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251223_249/1766461068214U61lG_PNG/%B8%DE%B4%BA-%C8%A3%BC%AE%C3%CC%C1%A4%BD%C4.png",
     "parking": false,
     "reservation": false
   },
@@ -50910,7 +50911,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1609621909/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이태리어부-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260126_82/1769385654343Gw7WH_PNG/1000046849.png",
     "parking": false,
     "reservation": false
   },
@@ -51002,7 +51003,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36033781/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/현순자-용대리코다리찜-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211101_77/16357322634699sqzv_JPEG/46WEqa3H2XOCK0TDcfBZimS8.jpg",
     "parking": true,
     "reservation": true
   },
@@ -51036,7 +51037,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13401985/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유원설렁탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net//20160701_93/1467341923773U8Odg_JPEG/1467341894820.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51069,7 +51070,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000142406/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시애-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250817_34/1755356429209htqGu_JPEG/1000017652.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51164,7 +51165,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/945953846/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일월고기-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230213_81/1676257797001esQPi_JPEG/DSC00184.JPG",
     "parking": true,
     "reservation": true
   },
@@ -51257,7 +51258,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13153481/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오륜명동칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_82/1440996137528SytGl_JPEG/106558443258920_0.jpg",
     "parking": true,
     "reservation": false
   },
@@ -51291,7 +51292,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11855786/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한국교자-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_128/1441057022756kR7Kt_GIF/11855786_0.gif",
     "parking": false,
     "reservation": false
   },
@@ -51361,7 +51362,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1552805331/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/칸다소바-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251230_149/1767084009336GNLz4_JPEG/%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51452,7 +51453,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/185870586/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만다복-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170131_75/1485829088463M5g3g_PNG/186081514828.png",
     "parking": false,
     "reservation": false
   },
@@ -51542,7 +51543,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1319444264/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바르다김선생-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180514_107/1526279778335XG5hi_JPEG/HQJ4NtG9eLYWJQXBqEndipN0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51577,7 +51578,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37624945/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아그라-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20171130_13/1511973828418r2KtJ_JPEG/156969575633177_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -51671,7 +51672,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1170051063/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/코바치-잠실-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240610_224/1717948675466DytAg_JPEG/%C4%DA%B9%D9%C3%F7_%BF%AC%C3%E2%C4%C6_02.jpg",
     "parking": true,
     "reservation": false
   },
@@ -51704,7 +51705,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20623708/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/서울김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211019_168/1634635539055KhuXl_JPEG/_DSC0072.JPG",
     "parking": false,
     "reservation": false
   },
@@ -51737,7 +51738,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21021526/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이삭토스트-롯데백화점-잠실점-캐슬플라자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240429_10/1714362212485GnOUa_JPEG/1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51825,7 +51826,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1137973143/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브올데이-서울잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260225_191/1771985517285XAJM2_JPEG/KakaoTalk_20260225_111025218.jpg",
     "parking": false,
     "reservation": false
   },
@@ -51885,7 +51886,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1523657441/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/소피텔-앰배서더-서울-레스파스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220105_111/1641342973688PmAQR_JPEG/%C8%A3%C5%DA_%BC%D2%C0%E5%BF%EBSofitel_Ambassador_Seoul_L%27Espace_01_-_Copy.jpg",
     "parking": true,
     "reservation": true
   },
@@ -51920,7 +51921,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1375921573/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/콘타이-송파-KT점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260117_139/1768660960142nJqsw_JPEG/temp_1764347228305.669881561.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -52015,7 +52016,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1068436912/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샐러디-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
     "parking": false,
     "reservation": true
   },
@@ -52050,7 +52051,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1207475613/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오봉집-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231214_261/1702551793155Vq5wi_JPEG/KakaoTalk_20231214_192759845.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52142,7 +52143,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1063479759/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/헤이로쿠스시-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240717_158/17211901650694I8Tq_JPEG/%C7%EC%C0%CC%B7%CE%C4%ED_%C0%CC%B9%CC%C1%F6%C4%C603.jpg",
     "parking": true,
     "reservation": false
   },
@@ -52175,7 +52176,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1953952846/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/KFC-잠실롯데월드-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240719_39/172138002661259Rma_PNG/KFC_Brand_image.png",
     "parking": false,
     "reservation": false
   },
@@ -52208,7 +52209,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38224445/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카츠젠-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170928_272/1506581139675knNre_JPEG/a9dhduILCdI6oExmaiL1blQT.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52299,7 +52300,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1044395718/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보배반점-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210805_69/1628140689344bpEdi_JPEG/5ZA-xzD15e3i5oze1rKaJt8d.jpg",
     "parking": true,
     "reservation": true
   },
@@ -52334,7 +52335,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1838459987/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포템템-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240510_104/17153277625674g42v_JPEG/KakaoTalk_20240316_110230884_29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52368,7 +52369,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1691849156/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/COFFEE-MIMI-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221024_126/166655777102447wQj_JPEG/20210421_085532.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52402,7 +52403,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21791358/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/다미해물탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_184/1441101780933KDJp3_JPEG/SUBMIT_1350788153056_21791358.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52437,7 +52438,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1413098466/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유정소곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250120_296/1737334385507Gu88d_JPEG/KakaoTalk_20250120_094755090_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52517,7 +52518,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31368531/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/애슐리퀸즈-잠실롯데캐슬점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260315_72/1773574849301lAkMF_JPEG/26_02_%BE%D6%BD%B6%B8%AE_%B5%FE%B1%E2%BD%C3%C1%F0_%BD%BA%C5%D7%C0%CC%C5%A9_%B3%D7%C0%CC%B9%F6_%BF%B9%BE%E0%BB%F3%C7%B0_%C0%CC%B9%CC%C1%F6_1200-750.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52552,7 +52553,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19769266/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/산들해-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_88/1441014416021pIWk7_JPEG/156155413745062_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52623,7 +52624,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11807364/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/맥도날드-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200811_30/1597133836468xKqrQ_JPEG/hcXSI7PVXsbzPdsJgOplh32p.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52658,7 +52659,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1022922462/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/송쉐프-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20180614_244/1528945491325hyd1h_JPEG/4KoWzahMCg1DvsVNW2jq5NrO.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52736,7 +52737,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1562143331/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일일향-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260121_32/1768972385872odp9c_JPEG/DSC_1174-00.jpg",
     "parking": true,
     "reservation": true
   },
@@ -52769,7 +52770,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1841860509/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장안정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200414_12/1586875720725lpnfu_JPEG/e7ACDVGFg-tlkvRO9cPkjvj2.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52804,7 +52805,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35853877/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아그라-롯데-잠실에비뉴엘점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_82/17600832006130NpIT_JPEG/C2_%C3%A2%B0%A12%C0%CE_%BE%DF%B0%E6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -52934,7 +52935,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18857823/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/참설농탕-송파본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250428_293/1745818989521Cbd56_JPEG/1000046649.jpg",
     "parking": true,
     "reservation": true
   },
@@ -53012,7 +53013,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35831848/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/수하동-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250827_283/1756259655487vptz3_JPEG/20250827_104527.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53104,7 +53105,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33223936/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오징어청춘-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260217_291/1771316951701EamDW_JPEG/104B21AA-C354-4DD3-ACF1-C07C4835316C.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -53138,7 +53139,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13431828/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장원보쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231208_165/1702038121831Xn0k7_PNG/BB306FE1-7B60-4739-A134-B95957ED51EE.png",
     "parking": false,
     "reservation": false
   },
@@ -53172,7 +53173,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2027347728/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/남도보쌈짚-잠실직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_3/1770860585182Q4PRt_JPEG/%A4%A1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53207,7 +53208,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12037387/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시준-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230316_50/1678925624943ba155_JPEG/IMG_0188.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53240,7 +53241,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30999847/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/곽만근갈비탕-삼전점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250906_170/1757153263509gzQcb_JPEG/78965.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53275,7 +53276,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35831834/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/강가-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200630_131/1593489713462cMDyw_JPEG/DNxQd2r25q-uMeJRS9BkKapW.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53308,7 +53309,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1616740500/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나리식당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191212_119/15761462688337VSB8_JPEG/vOclksAqTI4vwG363yObTOGm.JPG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -53343,7 +53344,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36033782/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/원할머니국수보쌈-제2롯데월드몰직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250901_185/175670231646084RAY_PNG/%BA%B8%BD%D3%C0%C7_%BF%F8%C1%B6CF_%C0%CC%B9%CC%C1%F6-1.png",
     "parking": false,
     "reservation": false
   },
@@ -53432,7 +53433,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37724860/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고봉민김밥인-잠실신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220214_87/16448042313851HqxD_PNG/%C0%DA%BB%EA_1.png",
     "parking": false,
     "reservation": false
   },
@@ -53520,7 +53521,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1584016812/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만옥-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240308_91/1709874907342jsPn0_PNG/IMG_3923.png",
     "parking": true,
     "reservation": false
   },
@@ -53595,7 +53596,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1739251695/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/세상의모든아침-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200722_249/1595382455262n4k8S_JPEG/U1vdpA9igl8PG07lr1eeRhz-.jpg",
     "parking": true,
     "reservation": true
   },
@@ -53689,7 +53690,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33127119/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/조개창고-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221115_31/1668491510672jnu8s_JPEG/%C1%B6%B0%B3%C3%A2%B0%ED_%B9%E8%B3%CA.jpg",
     "parking": true,
     "reservation": true
   },
@@ -53852,7 +53853,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12977823/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-삼전동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_41/1767308760985DnoWz_JPEG/2512_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_12%BF%F9_%C8%AB%BA%B8%B9%B0_12%BF%F9_%C8%AB%BA%B8%B9%B0_2.jpg",
     "parking": true,
     "reservation": false
   },
@@ -53943,7 +53944,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216337766/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미소야-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251211_78/1765432526857QgdxY_PNG/out_20251120_%C6%F7%BD%BA%C5%CD_%BF%EC%B5%BF%BA%BA%C0%CC_%C3%D6%C1%BE_%BC%F6%C1%A4-02.png",
     "parking": false,
     "reservation": false
   },
@@ -54036,7 +54037,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11761020/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김가네-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231017_279/1697539926156cg04m_JPEG/%B1%E8%B0%A1%B3%D7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54069,7 +54070,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36625974/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/초가집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241127_294/1732673637716BEUBp_JPEG/%C3%CA%B0%A1%C1%FD_CI-01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54162,7 +54163,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1222198399/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/로얄테라스가든-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231115_243/1700030252805HytRu_JPEG/%C5%D7%B6%F3%BD%BA3.jpg",
     "parking": true,
     "reservation": true
   },
@@ -54249,7 +54250,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36711070/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/삼우정-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250402_6/1743580211182zqsdD_JPEG/1699785744651.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54343,7 +54344,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1620105313/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/춘리마라탕-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231130_180/17013240980402lQwX_JPEG/WeChat_Image_20210126223116.jpg",
     "parking": true,
     "reservation": false
   },
@@ -54378,7 +54379,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1393802812/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/팔당족발-닭발-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_156/1772697633018730xU_JPEG/001.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54413,7 +54414,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1816711702/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/남해물고기-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260101_174/176724613610875Swa_PNG/%B9%E8%B0%E6%BB%E7%C1%F8.PNG",
     "parking": false,
     "reservation": false
   },
@@ -54520,7 +54521,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1901443399/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/찌마기-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231102_25/1698917296965TdD5i_JPEG/1698914719599.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54555,7 +54556,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1807635175/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오아시스-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230508_299/1683538809002RzBsN_JPEG/KakaoTalk_20230428_201341284.jpg",
     "parking": false,
     "reservation": false
   },
@@ -54632,7 +54633,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1818019597/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/차알-잠실730타워점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241207_213/1733535634464WWDAV_JPEG/IMG_7772.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -54665,7 +54666,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1125887654/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브로21-송리단점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_192/1698170951012XBAHs_JPEG/IMG_1231.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -54748,7 +54749,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37842485/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/전왕족발보쌈-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160502_170/1462173688725Y2kP7_JPEG/176452565147897_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -54841,7 +54842,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1288692458/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커스텀커피-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230903_194/16937464069985u8Ej_JPEG/5E6D093E-5ADE-479E-8433-EA3680631220.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -54874,7 +54875,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085029354/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/퀴즈노스-서울아산병원점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240912_44/1726122954220KqbU5_PNG/%B4%D9%BF%EE%B7%CE%B5%E5.png",
     "parking": false,
     "reservation": false
   },
@@ -54964,7 +54965,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1074927058/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/교촌치킨-잠실2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231024_26/1698111172771WfGIi_JPEG/%B1%B3%C3%CC%C4%A1%C5%B2_%BD%C5%B1%D4_BI_%BE%C6%C0%CC%C4%DC%28%B3%D7%C0%CC%B9%F6%29_%BA%B9%BB%E7.jpg",
     "parking": true,
     "reservation": false
   },
@@ -55058,7 +55059,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20083693/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김영희동태찜-코다리냉면-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170601_165/1496298275941cxNfC_JPEG/1.jpg",
     "parking": true,
     "reservation": true
   },
@@ -55092,7 +55093,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13575256/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/전주설렁탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241210_208/1733818773111O7lFT_JPEG/%C0%FC%C1%D6%BC%B3%B7%B7%C5%C1_5.jpg",
     "parking": false,
     "reservation": false
   },
@@ -55161,7 +55162,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1838666523/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍콩반점0410-송파구청점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241204_78/1733291690710YBoFm_PNG/KakaoTalk_20241204_143552883.png",
     "parking": false,
     "reservation": false
   },
@@ -55194,7 +55195,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20618918/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/무교낙지해물탕-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/220053@1x.png?version=20&mapping=marker-186",
     "parking": false,
     "reservation": false
   },
@@ -55264,7 +55265,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1575031733/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/할아버지-돈까스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220208_211/1644305239180cBV6T_JPEG/20220203_114856.jpg",
     "parking": false,
     "reservation": false
   },
@@ -55360,7 +55361,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36417107/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/강남면옥-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251028_219/1761626440097MyrqK_JPEG/%B0%AD%B3%B2%B8%E9%BF%C1_-198.jpg",
     "parking": true,
     "reservation": true
   },
@@ -55394,7 +55395,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33907393/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BHC치킨-잠실푸르지오점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251125_210/1764053393427gCJWn_JPEG/%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": false,
     "reservation": false
   },
@@ -55427,7 +55428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13157297/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/감탄떡볶이-잠실나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231113_32/1699863924548zIUae_PNG/%B0%A8%C5%BA%B6%B1%BA%BA%C0%CC_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA_%B0%F8%C5%EB_%BA%EA%B7%A3%B5%E5_%B7%CE%B0%ED.png",
     "parking": false,
     "reservation": false
   },
@@ -55519,7 +55520,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31499348/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파리바게뜨-잠실파크리오점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250206_124/1738828661683vCp08_JPEG/IMG_3184.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -55608,7 +55609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12977641/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-방이시장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_41/1767308760985DnoWz_JPEG/2512_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_12%BF%F9_%C8%AB%BA%B8%B9%B0_12%BF%F9_%C8%AB%BA%B8%B9%B0_2.jpg",
     "parking": true,
     "reservation": false
   },
@@ -55687,7 +55688,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1907572291/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/원조명성곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251001_275/1759297949703nXdU8_JPEG/1000011930.jpg",
     "parking": false,
     "reservation": false
   },
@@ -55724,7 +55725,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1334029929/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진곱창-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230602_251/1685689278556TD5O1_JPEG/K-20230602-152609.jpg",
     "parking": false,
     "reservation": false
   },
@@ -55757,7 +55758,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1317519010/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/남경-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250515_89/1747289958855FU789_PNG/%B3%B2%B0%E6.png",
     "parking": false,
     "reservation": false
   },
@@ -55850,7 +55851,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13157334/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야래향-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_156/1440998107140e5rwO_JPEG/106568517643484_0.jpg",
     "parking": true,
     "reservation": false
   },
@@ -55939,7 +55940,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1965915723/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동대문엽기떡볶이-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_83/1771479103438Pr53Y_PNG/%BF%B1%B1%E2%B6%B1%BA%BA%C0%CC_%B4%EB%C7%A5_%C0%CC%B9%CC%C1%F6.png",
     "parking": false,
     "reservation": true
   },
@@ -56031,7 +56032,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1435557668/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BHC치킨-송파구청점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251125_210/1764053393427gCJWn_JPEG/%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56064,7 +56065,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2061601043/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유담들밥-다온재-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250916_242/1758004363461kby3k_JPEG/DSC00554.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56097,7 +56098,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1878474942/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나미-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250515_193/1747290039533Ubwra_PNG/%B3%AA%B9%CC.png",
     "parking": false,
     "reservation": false
   },
@@ -56132,7 +56133,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1825782992/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/헬로우낙곱새-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240507_177/1715067357758uPawo_JPEG/KakaoTalk_20240502_165144278_19.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56193,7 +56194,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1105104962/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/효탄신참치-2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190820_121/1566289056381ULp2R_PNG/yaz7Ic4rNy7KwynE-CfrWKXi.PNG.png",
     "parking": true,
     "reservation": false
   },
@@ -56226,7 +56227,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2072449943/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보승회관-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260121_2/1768984438371BRoQm_PNG/01.png",
     "parking": false,
     "reservation": false
   },
@@ -56261,7 +56262,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1627625590/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/간코-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230829_125/16932983038783Uf0P_JPEG/355x355_%C4%A1%C1%EE%B5%B7%C4%AB%C3%F7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56295,7 +56296,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1825414129/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아티제-잠실롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240501_192/1714543305173qggli_JPEG/KakaoTalk_20240501_150051117.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56329,7 +56330,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1139655033/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뚜레쥬르-잠실트리지움점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250813_266/17550484266608gyBG_JPEG/%B6%D1%B7%B9%C1%EA%B8%A3_%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56379,7 +56380,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1673198883/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/잠실새내-스시화-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211212_107/1639300442833ivOiO_JPEG/IMG_20211205_154330_475.jpg",
     "parking": false,
     "reservation": true
   },
@@ -56476,7 +56477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1889276551/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청선-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250227_248/1740644884128bjgRw_JPEG/%A4%BB.jpg",
     "parking": true,
     "reservation": true
   },
@@ -56511,7 +56512,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1462559823/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샐러디-잠실스타파크점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
     "parking": false,
     "reservation": false
   },
@@ -56607,7 +56608,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1872102464/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신류-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251209_56/1765260931973XjlyB_PNG/KakaoTalk_20251208_163622828.png",
     "parking": true,
     "reservation": true
   },
@@ -56699,7 +56700,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1492545113/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오스테리아-라고-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240228_22/1709126465814lLXU7_JPEG/IMG_4112.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -56732,7 +56733,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1669270521/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/도원반점-석촌호수점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250325_244/17428710491153nI7h_JPEG/%C0%E1%BD%C73.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56798,7 +56799,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005807547/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/후다PHO베트남쌀국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260101_251/1767266177035GIfth_JPEG/1000009529.jpg",
     "parking": false,
     "reservation": false
   },
@@ -56924,7 +56925,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1934231220/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/Chai797-잠실롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191224_253/1577167535847l0cHM_JPEG/ELDRSIvod_vuDO0Bi3thv8dV.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57017,7 +57018,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1189967828/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/123라운지-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231207_114/1701944258972YoQ5T_JPEG/231117_1232383.jpg",
     "parking": true,
     "reservation": true
   },
@@ -57108,7 +57109,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12978351/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_41/1767308760985DnoWz_JPEG/2512_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_12%BF%F9_%C8%AB%BA%B8%B9%B0_12%BF%F9_%C8%AB%BA%B8%B9%B0_2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57141,7 +57142,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33078096/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한우리-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230921_4/1695283994443IU21T_JPEG/3.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57175,7 +57176,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19512511/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-잠실파크리오점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210314_215/1615720637581SK9D9_PNG/lmZnLWNuUe9oeg2Z2SRHBvUg.png",
     "parking": false,
     "reservation": false
   },
@@ -57216,7 +57217,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497970824/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명성왕족발-새마을시장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190822_104/1566405440773YNCTg_JPEG/S27Mj7kB52C1oUbbWBmIZV_Y.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57249,7 +57250,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1374184650/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한우리-잠실-에비뉴엘점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190903_95/1567495660131lIo06_JPEG/27LfHba3KheptBigOj5wMzi7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57321,7 +57322,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13050941/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/새마을순대국-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250102_256/17358143904291beWz_JPEG/1000024171.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57387,7 +57388,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1107874727/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/청년다방-롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250424_244/1745461038813RriIb_JPEG/%B8%B6%B4%C3%C6%FE%B4%DF_%B8%DE%B4%BA%B8%F0%C0%BD%C4%C6.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57427,7 +57428,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2141936807/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/테디뵈르하우스-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_110/17661622193672nm4w_PNG/%C8%E6%B9%E9%BF%E4%B8%AE%BB%E7_%B1%E8%C8%C62.png",
     "parking": false,
     "reservation": false
   },
@@ -57519,7 +57520,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1914664300/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/진지한국밥-잠실롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240620_24/1718838908200WHBSP_JPEG/IMG_2253.jpeg",
     "parking": true,
     "reservation": false
   },
@@ -57552,7 +57553,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1800924861/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/유미분김밥-잠실-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230830_189/169337327658772i5v_JPEG/1%B9%F8_%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57585,7 +57586,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1414762014/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마스타하이볼-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241120_183/1732099496425H3v7a_JPEG/KakaoTalk_20241115_175233655_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57618,7 +57619,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1341933193/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뭉치김밥-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241203_129/1733217383814OR0yA_JPEG/1000016187.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57651,7 +57652,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1169786497/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오뎅매니아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250808_269/1754620907833z0AAw_JPEG/DCB3277A-05C7-4FF3-A23A-CB7B86533114.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -57745,7 +57746,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1569423756/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이날-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251101_22/1761968607983jmYuf_JPEG/1000013599.jpg",
     "parking": false,
     "reservation": true
   },
@@ -57778,7 +57779,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1884712526/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/칼누들바-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_202/1764248387980ktyex_JPEG/1000012526.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57867,7 +57868,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/749357302/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/Chai797-롯데백화점-잠실점-캐슬플라자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_256/1773367629165VxcwD_JPEG/%C6%BC%BF%C0%B4%F5%B7%D1%B8%B5%C0%CC%B9%CC%C1%F6-JUCD-%C2%F7%C0%CC%C1%F8%B9%CC-100.jpg",
     "parking": true,
     "reservation": true
   },
@@ -57950,7 +57951,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11710618/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/모꼬지에-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240925_126/17272584124002YE5o_JPEG/1000040883.jpg",
     "parking": false,
     "reservation": false
   },
@@ -57983,7 +57984,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38724706/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/명가교동짬뽕-신천역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191229_64/1577603475928h0FhM_JPEG/LLjtzAnz9wtr7EAEgQgkEfrn.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58016,7 +58017,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12941097/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/일월성-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200819_244/1597837012912AtHcp_JPEG/IHYgafCUvNoAD0VG9fe80nvp.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58049,7 +58050,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37061094/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/칼라분식-루프탑-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250712_145/1752289560718CpV0X_JPEG/2.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58082,7 +58083,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37918202/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오렌지분식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20160526_226/1464253124680RPDPw_JPEG/176476578864539_0.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -58179,7 +58180,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1067891546/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/댄싱홍콩-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220824_212/1661316825060mVILE_JPEG/%B8%C5%C0%E5%BB%E7%C1%F8.JPG",
     "parking": true,
     "reservation": false
   },
@@ -58266,7 +58267,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2072464404/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/딘타이펑-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250708_96/1751956627841jPYbw_JPEG/%BB%FE%BF%C0%B7%D5%B9%D9%BF%C0%283%29.jpg",
     "parking": true,
     "reservation": false
   },
@@ -58358,7 +58359,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1022053382/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시아지-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240312_225/1710209366572tuzHK_JPEG/A7305566.JPG",
     "parking": false,
     "reservation": true
   },
@@ -58418,7 +58419,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1164753764/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/중화요리린-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200102_267/1577951844375m4S9f_JPEG/UIzUBoUpRgoZqP2W1M7Yuspl.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58452,7 +58453,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38522280/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카페-베즐리-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230713_168/1689222169654HEjl5_JPEG/%BB%FD%B0%FA%C0%CF_%C1%D6%BD%BA.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58485,7 +58486,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1100964157/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/고래주방-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240425_119/1714025713774nrYnw_JPEG/KakaoTalk_20240417_100412054.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58518,7 +58519,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2036908275/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/멘츠루-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_134/1770647994078eL6AH_JPEG/1_-_%BA%B9%BB%E7%BA%BB.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58552,7 +58553,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1902191709/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/커피인류-잠실나루점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240310_55/1710064725246hmcku_JPEG/Screenshot_20240310_185600_Karrot.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58588,7 +58589,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1872202250/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한유정-잠실방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240731_100/1722373526482Abp37_JPEG/GJF02781.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58621,7 +58622,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36358174/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/새마을포차-방이본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_29/1768461666476ozjCL_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA004.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58703,7 +58704,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34699181/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/깻잎닭강정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220823_186/1661239435322NGovG_JPEG/_d_%285%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58738,7 +58739,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1131189509/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/사이드쇼-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241113_140/1731480006150KVEqt_JPEG/%BB%E7%C0%CC%B5%E5%BC%EE_%B7%CE%B0%ED_432x432.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58769,7 +58770,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262201464/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/호떡매니아-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240317_93/1710641578834Ywjku_JPEG/1000001142.jpg",
     "parking": false,
     "reservation": false
   },
@@ -58861,7 +58862,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1644843964/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토나리우동-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240305_250/17096323359001BneO_JPEG/IMG_347727%BC%F6%C1%A4.JPG",
     "parking": false,
     "reservation": false
   },
@@ -58952,7 +58953,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1648436721/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오끼-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231127_183/1701014356614uT2By_JPEG/IMG_7315.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -59018,7 +59019,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320652714/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/엠비뉴-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220505_84/1651720307926hjvah_JPEG/%BF%A5%BA%F1%B4%BA_%C4%AB%C6%E4.jpg",
     "parking": true,
     "reservation": false
   },
@@ -59051,7 +59052,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1888326536/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화천닭발-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20200326_55/15852081517140gpct_JPEG/4R-FS9aay9B6m_o0z8l3dWvm.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59135,7 +59136,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1676700042/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/을밀대-롯데백화점잠실점-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/220645@1x.png?version=20&mapping=marker-186",
     "parking": false,
     "reservation": false
   },
@@ -59227,7 +59228,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1704019022/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/간코-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211004_203/1633349807289d7yDg_JPEG/lwrUyuy-kXqGvkQppkVNZeF9.jpg",
     "parking": true,
     "reservation": true
   },
@@ -59260,7 +59261,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262887882/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보영만두-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211109_10/1636420360171skpI4_JPEG/n8ngO0uz78fk5iMwRusAcZ9o.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59354,7 +59355,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262158855/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시이안앤-송리단길점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_67/176550992571321M1v_JPEG/5.jpg",
     "parking": true,
     "reservation": false
   },
@@ -59436,7 +59437,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1247951200/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마르르-롯데월드몰-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240113_124/1705144533536EX8mT_JPEG/%B8%B6%B8%A3%B8%A3_1.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59530,7 +59531,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1548268513/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마스타하이볼-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240605_205/1717576235119eanLr_JPEG/KakaoTalk_20240510_130948042_05.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59563,7 +59564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37658567/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/죠스떡볶이-월드타워롯데마트점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_189/1766102521655zLQzM_PNG/%C1%D2%BD%BA%B6%B1%BA%BA%C0%CC_%B8%C5%C0%E5%C0%CC%B9%CC%C1%F6.png",
     "parking": false,
     "reservation": false
   },
@@ -59596,7 +59597,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085345487/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/매드포갈릭-롯데캐슬-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241108_166/17310233954087uBR4_JPEG/%B3%D7%C0%CC%B9%F6-%B8%C5%C0%E5%BA%B0_%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59631,7 +59632,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1032992751/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/설온-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240228_205/1709096090884gjXnO_JPEG/re_M4_08838_%BA%B9%BB%E7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59724,7 +59725,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2085916295/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/더타코부스-잠실스타점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_270/1753420856977oAhvL_JPEG/1.jpg",
     "parking": true,
     "reservation": false
   },
@@ -59759,7 +59760,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1601414973/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뽀빠이분식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191010_272/1570676730534x7To7_JPEG/OHz_3NtV3AdAV0gxuOKfV86U.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59792,7 +59793,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1939383250/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/뉴서울분식-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230912_262/1694507946099RhbgT_JPEG/KakaoTalk_20230901_154953667.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59827,7 +59828,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1080469865/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만석장-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250526_114/1748222546058iIa6N_JPEG/KakaoTalk_20250526_101854870.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59862,7 +59863,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1261089789/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/가장맛있는족발-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250218_166/1739868497133DThCd_JPEG/KakaoTalk_20250218_173135869.jpg",
     "parking": false,
     "reservation": false
   },
@@ -59957,7 +59958,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1151172532/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/슬로우어스-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240723_175/1721715066833bu0EW_JPEG/%BD%BD%B7%CE%BF%EC%BE%EE%BD%BA_%C7%C3%B7%B9%C0%CC%BD%BA11.jpg",
     "parking": true,
     "reservation": true
   },
@@ -59992,7 +59993,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1232626508/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/땀땀-롯데백화점-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230912_89/1694508521979unftJ_PNG/1694508510013.png",
     "parking": false,
     "reservation": false
   },
@@ -60025,7 +60026,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731806901/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/푸드코트-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250515_230/1747290099095WhGjw_PNG/%C7%AA%B5%E5.png",
     "parking": false,
     "reservation": false
   },
@@ -60058,7 +60059,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1203994543/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바이완-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240806_98/1722921255879QXgAn_JPEG/KakaoTalk_20240805_181227349.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60091,7 +60092,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017373651/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/니시카사이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251013_28/176036069081207t73_JPEG/IMG_2240.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -60124,7 +60125,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1052057222/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아도겐-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20201126_275/16063641410299CMSu_JPEG/6KfTq4m0RXYQ2SsoKdPjHxs7.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60207,7 +60208,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1451979669/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이타마에스시-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250417_3/1744855961685wEGLF_JPEG/KakaoTalk_20250417_111214507.jpg",
     "parking": false,
     "reservation": true
   },
@@ -60243,7 +60244,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/733299747/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/편백집-잠실롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20170703_193/1499064140775ggVfO_JPEG/186653557240.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60337,7 +60338,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1461115091/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숙성시대-롯데월드몰점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240902_101/1725256512621PvtOA_JPEG/eovy.JPG",
     "parking": false,
     "reservation": true
   },
@@ -60430,7 +60431,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1722606767/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/홍콩반점0410-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241204_78/1733291690710YBoFm_PNG/KakaoTalk_20241204_143552883.png",
     "parking": false,
     "reservation": false
   },
@@ -60466,7 +60467,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1922984739/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/순대고집-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241015_296/1729001819423PkK8W_PNG/IMG_9057.png",
     "parking": false,
     "reservation": false
   },
@@ -60499,7 +60500,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1829811853/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/수다주막-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230913_55/1694588712791PzhCo_JPEG/15.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60532,7 +60533,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1174650270/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/장옥정-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250217_255/1739779691987mNTND_JPEG/KakaoTalk_20250216_113020791.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60565,7 +60566,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1167901809/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오한수-우육면가-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210723_225/1627018273625ODywc_JPEG/_Q1JEWI8LFk_j2jOhOOaGccD.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60599,7 +60600,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1473008640/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/할리스-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210302_125/161464487124061agC_JPEG/K15utTFWXeuNEny1JMXiV57W.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60691,7 +60692,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1104523786/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/우리할매떡볶이-잠실점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230322_209/16794727667290CREf_JPEG/IMG_3809.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -60728,7 +60729,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088807467/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/메가MGC커피-송파구청점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251201_67/1764589238677Bf1VC_JPEG/KakaoTalk_20251201_204013985_02.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60817,7 +60818,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38522514/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오마뎅-엘스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_204/1767342266360h1v9t_JPEG/KakaoTalk_20260102_172120013.jpg",
     "parking": false,
     "reservation": false
   },
@@ -60908,7 +60909,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1710442597/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/버거킹-송파나루역점-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20200723_152/1595505733113245uD_PNG/image.png",
     "parking": false,
     "reservation": false
   },
@@ -61000,7 +61001,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13192584/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": false,
     "reservation": true
   },
@@ -61034,7 +61035,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1601139603/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/컴포즈커피-잠실나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230106_53/1672972146380LWfxj_JPEG/KakaoTalk_20230106_112557948.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61124,7 +61125,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1567369397/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-비빔밥-잠실푸르지오점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_144/1758115922758VfxON_JPEG/2509_%BA%F1%BA%F6%B9%E4%B8%AE%B4%BA%BE%F3__%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE_%C7%C3%B7%B9%C0%CC%BD%BA_%B3%AB%B1%E8%B3%AB%BA%F6.jpg",
     "parking": true,
     "reservation": false
   },
@@ -61159,7 +61160,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1854867302/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/싸움의고수-석촌점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240812_58/1723425269669dy9NQ_JPEG/KakaoTalk_20240812_101325561_03.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61252,7 +61253,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1574765463/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미타우동-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230828_201/1693199324832cnvVc_JPEG/1000008587.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61300,7 +61301,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1125320344/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/경복궁개성손만두-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241126_6/1732596494155CwDhQ_JPEG/1000017444.jpg",
     "parking": true,
     "reservation": true
   },
@@ -61334,7 +61335,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1387370581/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/몬스터삼겹살-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20221129_59/1669728934377E3XXx_JPEG/20221121_151329.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61367,7 +61368,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1975167593/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/미분당-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231123_56/1700716875812lQDM1_JPEG/%C2%F7%B5%B9%BE%E7%C1%F6%C8%FB%C1%D9.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61458,7 +61459,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1760462104/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/삼전역-2번부두-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230118_231/1674029864817drzLD_JPEG/KakaoTalk_20230118_171152437.jpg",
     "parking": false,
     "reservation": true
   },
@@ -61524,7 +61525,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38522203/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/상하이꽁시면관-1.jpg",
+    "imageUrl": "https://map.pstatic.net/resource/api/v2/image/maps/selected-marker/220861@1x.png?version=20&mapping=marker-186",
     "parking": false,
     "reservation": false
   },
@@ -61558,7 +61559,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274636337/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한와담소반-롯데백화점-잠실점-캐슬플라자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250604_146/1749028704076y0vgz_JPEG/1000013728.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61591,7 +61592,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227622905/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/춘리마라탕-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220703_111/16568206195935wpmn_JPEG/WeChat_Image_20210126232507.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61729,7 +61730,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1128400338/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/육참-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20230921_32/1695282368982do8qS_JPEG/2_%C0%B0%B0%B3%C0%E5_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -61822,7 +61823,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1883082957/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/보배반점-롯데월드-아이스가든점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240509_17/1715213732840CPUBj_JPEG/KakaoTalk_20240508_221536339.jpg",
     "parking": true,
     "reservation": true
   },
@@ -61909,7 +61910,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1819621952/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마라공방-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240112_194/1705026367881hnosP_PNG/%BB%E7%C1%F8_%B8%B6%B6%F3%B0%F8%B9%E6_%B7%CE%B0%ED.png",
     "parking": true,
     "reservation": false
   },
@@ -61990,7 +61991,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1857982459/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마라공방-롯데월드점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230530_245/1685415526618jhNGM_JPEG/%BB%E7%C1%F8_%B8%B6%B6%F3%B0%F8%B9%E6_%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": true
   },
@@ -62116,7 +62117,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1032877632/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/석촌집-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260307_266/1772884484054Cdoxl_PNG/1772883063595.png",
     "parking": true,
     "reservation": true
   },
@@ -62209,7 +62210,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1215216975/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/시선-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241024_287/172974583159150U5I_JPEG/1111.jpg",
     "parking": true,
     "reservation": true
   },
@@ -62269,7 +62270,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1302818391/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/KFC-잠실새내-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240719_39/172138002661259Rma_PNG/KFC_Brand_image.png",
     "parking": false,
     "reservation": false
   },
@@ -62310,7 +62311,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2035051185/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/석촌회뜨는중-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250930_24/1759195506272SptcN_PNG/KakaoTalk_20250930_003709308_03.png",
     "parking": true,
     "reservation": false
   },
@@ -62343,7 +62344,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13160545/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/만리장-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_225/14409997815643lJcG_JPEG/106568517644224_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -62464,7 +62465,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1634826962/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/태정각-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220319_74/1647671473577YHcBH_JPEG/istockphoto-913931820-612x612.jpg",
     "parking": false,
     "reservation": true
   },
@@ -62556,7 +62557,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1620903206/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/7번방-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250918_148/175819000766370FSy_GIF/7%B9%F8%B9%E6_%B9%E6%C0%CC%C1%A1.gif",
     "parking": false,
     "reservation": true
   },
@@ -62651,7 +62652,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1295120981/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/상무초밥-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260225_135/1771994258976F3pAg_JPEG/9977.jpg",
     "parking": false,
     "reservation": false
   },
@@ -62686,7 +62687,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1028901806/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라뜰리에-르지우-월드타워점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251106_49/1762412844453s38fS_JPEG/IMG_9093.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -62780,7 +62781,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1247085253/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대취-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250413_26/1744480236469sn5y7_JPEG/1000010110.jpg",
     "parking": true,
     "reservation": true
   },
@@ -62873,7 +62874,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1166775201/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/이자카야-우규-방이동점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240530_163/1717051867858aQqrs_PNG/1.png",
     "parking": false,
     "reservation": true
   },
@@ -62967,7 +62968,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1236147363/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/얼큰본가-연품뼈해장국-24시-본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250916_96/1758012078307dtJUd_JPEG/%C0%CC%BF%B5%C0%DA.jpg",
     "parking": true,
     "reservation": true
   },
@@ -63062,7 +63063,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1096961409/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/철판오사카야-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250119_71/1737295458279IFBAM_JPEG/20250119_230352.jpg",
     "parking": true,
     "reservation": true
   },
@@ -63154,7 +63155,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1997245537/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/감성요리점-메끼야-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260205_226/1770287661330dM80p_PNG/1000004341.png",
     "parking": true,
     "reservation": true
   },
@@ -63245,7 +63246,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31729758/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/올레김밥-잠실새내역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230210_124/1676033128565IdTKX_JPEG/%BB%E7%BA%BB_-%B8%EA%C3%DF%B1%E8%B9%E4.jpg",
     "parking": true,
     "reservation": true
   },
@@ -63280,7 +63281,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059929108/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/초온-서울-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251015_246/1760498993369zhP2c_JPEG/IMG_3930.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -63372,7 +63373,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1985836313/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/땅스부대찌개-잠실새마을시장점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_268/1768530442044mKu9U_JPEG/%B3%B2%BB%F3%C0%CF.jpg",
     "parking": false,
     "reservation": false
   },
@@ -63465,7 +63466,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1497387884/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/압구정수산시장-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251031_15/1761920927288zXjW1_JPEG/IMG_5318.jpeg",
     "parking": false,
     "reservation": true
   },
@@ -63555,7 +63556,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1866142117/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/타운-샌드위치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251201_97/1764516864431IzAum_PNG/%C5%B8%BF%EE%BB%F7%B5%E5%C0%A7%C4%A1_%C6%F7%BD%BA%C5%CD.png",
     "parking": false,
     "reservation": true
   },
@@ -63588,7 +63589,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/31277811/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/플로리샌드위치-잠실본점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241219_287/1734608592336noy4C_JPEG/1734608581889.jpg",
     "parking": false,
     "reservation": false
   },
@@ -63621,7 +63622,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1830163153/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/매주가-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241117_35/1731851438310PEGpa_JPEG/%B8%C5%C1%D6%B0%A1-%B9%F6%BC%B8%C0%FC%B0%F1.JPG",
     "parking": false,
     "reservation": false
   },
@@ -63662,7 +63663,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1792394895/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오징어잡는남자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251118_123/1763441817418JaAGD_PNG/20251118_132612.png",
     "parking": true,
     "reservation": true
   },
@@ -63754,7 +63755,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1932096363/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-비빔밥-잠실역지하상가점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_144/1758115922758VfxON_JPEG/2509_%BA%F1%BA%F6%B9%E4%B8%AE%B4%BA%BE%F3__%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE_%C7%C3%B7%B9%C0%CC%BD%BA_%B3%AB%B1%E8%B3%AB%BA%F6.jpg",
     "parking": true,
     "reservation": true
   },
@@ -63841,7 +63842,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1282684982/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/샤브탕과-월남말이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230720_270/1689836033111JHCox_JPEG/KakaoTalk_20230719_173621566_18.jpg",
     "parking": false,
     "reservation": false
   },
@@ -63874,7 +63875,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2053650533/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/한남동감자탕-잠실새내-직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_127/1764145277442ToLxi_PNG/%B0%A8%C0%DA%C5%C1.png",
     "parking": false,
     "reservation": false
   },
@@ -63966,7 +63967,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2031555294/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/덕클-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260127_78/1769520366722Lg639_JPEG/IMG_8633.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -64056,7 +64057,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2030561938/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/독도회센터-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260119_3/1768801723058xAKGl_JPEG/DSC07699.jpg",
     "parking": false,
     "reservation": false
   },
@@ -64142,7 +64143,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20098753/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-송파삼전점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": false,
     "reservation": true
   },
@@ -64233,7 +64234,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424727434/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/사태1983-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20240502_145/1714617026846SwhpC_JPEG/%C0%FC%C3%BC.jpg",
     "parking": false,
     "reservation": false
   },
@@ -64267,7 +64268,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1888970619/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/숙성회136-방이직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260225_190/1771996422395Vu5m6_JPEG/%BA%BD%C3%B6_%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA_%281%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -64356,7 +64357,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13094621/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/BBQ치킨-잠실엘스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
     "parking": true,
     "reservation": true
   },
@@ -64389,7 +64390,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1669505136/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/손자네-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_138/1764907153653mDmtq_JPEG/%B4%DF%BA%BA%C0%BD%C5%C1-9%283%29.jpg",
     "parking": false,
     "reservation": false
   },
@@ -64485,7 +64486,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088654749/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/마루미베이글-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260103_125/1767414598172Nqijq_JPEG/KakaoTalk_20260103_132708373_04.jpg",
     "parking": true,
     "reservation": false
   },
@@ -64577,7 +64578,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2058933606/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오막하세-방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260204_37/1770196226783l7fJy_JPEG/1%29_%C1%A4%BB%E7%B0%A2%C7%FC_%BA%B8%C1%A4%28%BC%F6%C1%A4%29.jpg",
     "parking": false,
     "reservation": true
   },
@@ -64668,7 +64669,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1468559328/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/바샌25-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230901_61/1693528193443vvWrW_JPEG/1000002154.jpg",
     "parking": true,
     "reservation": true
   },
@@ -64754,7 +64755,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017690997/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/대홍소양꼬치-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250611_115/1749638979123vYI40_JPEG/IMG_0448.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -64847,7 +64848,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2095603629/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/방배김밥-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_278/1764294578046xDjbf_JPEG/%C0%E1%BD%C7%BB%F5%B3%BB.jpg",
     "parking": false,
     "reservation": false
   },
@@ -64938,7 +64939,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227755339/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리-나루토-방이-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_256/1747977740976PuCru_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-05-23_142205.png",
     "parking": false,
     "reservation": true
   },
@@ -64972,7 +64973,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2017294176/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화목집-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260111_225/1768057295133v2e9D_JPEG/1000042813.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65006,7 +65007,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1076101206/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/화이트리에-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241117_279/17318043865781KWAE_JPEG/%C0%E1%BD%C7%BB%F5%B3%BB%C1%A1_%C1%A4%B8%E9.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65039,7 +65040,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36631006/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/신전떡볶이-잠실2호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220901_48/1662011632389dWFfR_JPEG/20220901_063717.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65072,7 +65073,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2052864976/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/스시-미타-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250828_197/1756309089607USqJO_PNG/Screenshot_2025-08-28_at_12.35.36_AM.png",
     "parking": false,
     "reservation": false
   },
@@ -65164,7 +65165,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1285402821/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/아나바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241026_257/1729914478469Ak6nF_JPEG/IMG_8396.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -65197,7 +65198,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1575110299/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/베트남취향-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251229_294/1766935358650a8x1q_JPEG/IMG_5968.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -65285,7 +65286,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1139168311/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/본죽-비빔밥-잠실레이크팰리스점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260316_141/17736696490818nhX5_JPEG/2603_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%C3%C0%CC%B5%C8%C0%E5%BA%D2%B0%ED%B1%E2%BA%F1%BA%F6%B9%E4.jpg",
     "parking": false,
     "reservation": true
   },
@@ -65377,7 +65378,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1125529935/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/채프터눈-샐러드-포케-샌드-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20241031_90/1730375532667Hmlbi_JPEG/%C0%FC%B0%E6%BB%E7%C1%F8_%C5%D7%B5%CE%B8%AE_%C1%A4%B8%AE.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65410,7 +65411,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1161388914/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/나나미-이자카야-잠실방이점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260311_288/1773223570313XelwN_JPEG/%B8%F0%B4%CF%C5%CD%C0%CC%B9%CC%C1%F65.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65443,7 +65444,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2002231465/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/토리오-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250617_82/17501384372753vBuv_JPEG/KakaoTalk_20250617_140347667.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65476,7 +65477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1168742971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/야키토리-켄젠-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250831_13/1756623272264L5O5Y_PNG/B0136CB7-A938-411B-9491-28DDFD81A55E.png",
     "parking": false,
     "reservation": false
   },
@@ -65570,7 +65571,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2024273822/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/김가네-송파나루역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231017_279/1697539926156cg04m_JPEG/%B1%E8%B0%A1%B3%D7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65603,7 +65604,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1857830256/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/포키도키-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20191023_230/157181992677982wsk_JPEG/A8MUrGvR5s5NhBAPcUn4W-qn.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65660,7 +65661,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1953096533/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/상주-1.jpg",
+    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250829_188/1756434943327cCBw8_JPEG/KakaoTalk_20250815_150618229_03.jpg",
     "parking": false,
     "reservation": true
   },
@@ -65693,7 +65694,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039649396/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/식물원김밥-잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251204_42/1764840521785GcKkR_JPEG/%BD%C4%B9%B0%BF%F8%B1%E8%B9%E4_%B7%CE%B0%ED.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65726,7 +65727,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1000490572/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/동대문엽기떡볶이-잠실역점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_83/1771479103438Pr53Y_PNG/%BF%B1%B1%E2%B6%B1%BA%BA%C0%CC_%B4%EB%C7%A5_%C0%CC%B9%CC%C1%F6.png",
     "parking": false,
     "reservation": false
   },
@@ -65759,7 +65760,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2076785804/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/면24-석촌직영점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250628_273/1751102657989ubphi_JPEG/IMG_1746.JPG",
     "parking": false,
     "reservation": false
   },
@@ -65794,7 +65795,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2079849142/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/페어룸-혼술바-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260310_155/17731369239402sqdI_JPEG/KakaoTalk_20260310_190100002_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65860,7 +65861,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2066265239/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/thisispasta-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250902_7/17568080250090pRCJ_JPEG/%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA%B4%EB%C7%A5%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65893,7 +65894,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13158532/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/전주콩나루콩나물국밥-잠실1호점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_214/1440998728676v07wr_JPEG/106570416729963_0.jpg",
     "parking": false,
     "reservation": false
   },
@@ -65927,7 +65928,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1637685976/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/텐퍼센트커피-잠실신천점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220221_258/164540920841712hYx_JPEG/99CA5975-C2BB-454A-9565-9D91AE83797E.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -65974,7 +65975,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1737313025/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/천미마라탕-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250119_104/1737278799477Dc329_JPEG/0fc3070638c01b57e55fa47cc509f124.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -66059,7 +66060,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1608184934/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/쉐프의차돌집-송파점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250708_229/1751955994682oi6ay_JPEG/1000023588.jpg",
     "parking": false,
     "reservation": true
   },
@@ -66125,7 +66126,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2028195394/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/카공족-잠실새내점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250823_292/1755929269070o8SJH_PNG/1.png",
     "parking": false,
     "reservation": false
   },
@@ -66158,7 +66159,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1110338367/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/라치오파스타-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230515_235/1684137790310XnMnP_JPEG/%B8%DE%C0%CE_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -66191,7 +66192,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059716974/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/오랭관-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260120_18/17689198935670HNVk_JPEG/%BF%C0%B7%A9%B0%FC_4794.jpg",
     "parking": false,
     "reservation": false
   },
@@ -66225,7 +66226,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11689938/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/파리바게뜨-잠실장미점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220413_17/1649840462804tETI7_PNG/image.png",
     "parking": false,
     "reservation": false
   },
@@ -66350,7 +66351,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2032584769/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/막곱당-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_155/1772626821712kykSp_JPEG/IMG_3268.jpeg",
     "parking": true,
     "reservation": true
   },
@@ -66383,7 +66384,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1356624476/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/선피자-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20190701_198/1561967104095qXhv3_JPEG/jFwEgC6IzSZwf7I6Qt1fCKUG.jpg",
     "parking": false,
     "reservation": false
   },
@@ -66416,7 +66417,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1681954007/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/좋은날한우-홈플러스잠실점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250119_144/1737261031446sHXry_JPEG/%C7%D1%BF%EC%C5%C1_%BF%F8%BA%BB.jpg",
     "parking": false,
     "reservation": false
   },
@@ -66450,7 +66451,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2081051986/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/깐부치킨-잠실월드마크점-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_22/1768467732337EQtDO_PNG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6_%B7%CE%B0%ED.png",
     "parking": false,
     "reservation": false
   },
@@ -66483,7 +66484,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1084141117/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "/images/restaurants/jamsil/현대칼국수-1.jpg",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210120_238/1611148535489rfQcp_JPEG/PsKTkvs4cZj7P5PmGe7aPEO3.jpeg.jpg",
     "parking": false,
     "reservation": false
   }
