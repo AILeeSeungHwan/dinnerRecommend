@@ -787,6 +787,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1741365727/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20241125_86/1732504693755dlNlD_PNG/111.PNG",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20241125_161/1732504685428l7FrW_PNG/1111.PNG",
     "parking": false,
     "reservation": false
   },
@@ -1075,6 +1076,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1087269169/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20210616_44/1623854227006YSTcu_JPEG/iMxvyzKwyb1E0_JP-_iqA_uV.jpeg.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20210616_25/16238275646802l8Se_JPEG/u6M8Y1KisaLGToc5CjTw-UyZ.jpeg.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1515,6 +1517,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255380075/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20251201_196/1764552119985KHa3Q_JPEG/1000000434.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260211_289/1770745770131T3gvf_JPEG/1000000454.jpg",
     "parking": false,
     "reservation": false
   },
@@ -1738,6 +1741,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36286222/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20260115_289/1768455926887iDfB5_JPEG/47f378d5-b1dc-46a2-a961-0d6a331e3ae4-1_all_13671.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260328_156/1774667255042kGedc_JPEG/KakaoTalk_20260325_181058175.jpg",
     "parking": false,
     "reservation": false
   },
@@ -2739,6 +2743,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1701106568/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250923_284/17586255709232485T_JPEG/KakaoTalk_Photo_2025-09-23-20-04-49_015.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250923_89/1758625615978AO03m_JPEG/KakaoTalk_Photo_2025-09-23-20-04-20_028.jpeg",
     "parking": false,
     "reservation": false
   },
@@ -4421,6 +4426,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1285873777/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240705_18/1720176685033EqV9b_JPEG/%B0%F6%C3%A2.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240705_260/1720177234435KO5RG_JPEG/%B0%A3%C6%C7.jpg",
     "parking": false,
     "reservation": false
   },
@@ -13204,6 +13210,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1569255610/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250813_266/17550484266608gyBG_JPEG/%B6%D1%B7%B9%C1%EA%B8%A3_%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6.jpg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA4MjJfMTQy/MDAxNzU1ODQ0NDkzMTA2.I1GqpOzKw6oSlJwwByseDer2VgiGbsPFyefeQ3ZWXQQg.dY07z887onRXdzzOk9nhf4_RAdmxx7uabmJK8gF2aj0g.JPEG/20250822_150551.jpg.jpg?type=w278_sharpen",
     "parking": false,
     "reservation": false
   },
@@ -13470,6 +13477,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1320473224/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20190404_260/15543444471692Sq9g_PNG/Oxcod2j1Z6DIAi9rcEs5KNKZ.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240306_278/1709707801346vTuAD_JPEG/KakaoTalk_20240306_154826760_01.jpg",
     "parking": false,
     "reservation": false
   },
@@ -15293,6 +15301,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1670097232/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250220_20/1740025852128OK5J7_JPEG/IMG_0785.jpeg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTExMjFfNDIg/MDAxNzYzNzIyNTg2OTA4.Azt95PaNvwk33V8Wz6HyMst3X8JCneYiS1sRMCMo3vAg.G7QBv2cBDPZu5uN5tXA60RPM4wD6XabtljSTAKxzYvAg.JPEG/20251121_192120.jpg.jpg?type=w278_sharpen",
     "parking": false,
     "reservation": false
   },
@@ -18057,6 +18066,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1085363825/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20220106_222/1641439618670nqJQo_JPEG/IMG_20220104_191605_820.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20220106_199/1641439618670jT3xI_JPEG/IMG_20220104_191605_900.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20241,6 +20251,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2073439485/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250508_58/1746681692157YM4mC_JPEG/IMG_0872.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250424_90/17454671527442lkDh_JPEG/0%B8%F0%C0%BD%BB%E7%C1%F8.jpg",
     "parking": false,
     "reservation": false
   },
@@ -20806,6 +20817,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1859662219/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230713_22/1689219869756XDDOn_JPEG/KakaoTalk_Moim_79DPRwwu4JnfmkO1b1zsp2fAaTMxL1.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20230713_292/1689219869904JD7Hj_JPEG/KakaoTalk_Moim_79DPRwwu4JnfmkO1b1zsp2fAaTQFyD.jpg",
     "parking": false,
     "reservation": false
   },

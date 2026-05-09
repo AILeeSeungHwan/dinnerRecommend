@@ -517,6 +517,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1346166654",
     "naverBlogCnt": 157,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251215_202/1765785751578uBeF7_JPEG/GJF03207.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260421_235/1776764226399bIzYq_JPEG/photo_2026-04-21_18-35-31.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -703,6 +704,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/2057112419",
     "naverBlogCnt": 178,
     "imageUrl": "https://ldb-phinf.pstatic.net/20260105_269/1767602305230MYF99_JPEG/KakaoTalk_20260105_172400605_03.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260105_90/1767602319565CCf6P_JPEG/KakaoTalk_20260105_172411440_16.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -796,6 +798,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1518676629",
     "naverBlogCnt": 95,
     "imageUrl": "https://ldb-phinf.pstatic.net/20260309_278/177302504393777UUx_PNG/%BA%A3%C0%CC%C4%C1%BD%AC%B8%B2%C7%C1_%B8%C5%C4%DE%C5%A9%B8%B2%C6%C4%BD%BA%C5%B8_%B7%B9%BD%BA%C5%E4%B6%FB%B9%F6%C0%FC.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260309_116/1773024827021qedA9_PNG/KakaoTalk_20260307_103125551_01.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -1728,6 +1731,7 @@ const restaurants = [
     "naverPlaceId": "2092244336",
     "naverUrl": "https://map.naver.com/v5/entry/place/2092244336",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250908_227/1757296328149bp7GF_JPEG/%AB%ED%AB%B4%A1%A1%AB%E9%AB%B9%AB%BF%AB%E9%AB%A4%AB%BA%AA%DF_2.jpeg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAyMTNfMTgx/MDAxNzcwOTc3MzczNjc5.EnZxVZklWVVArGq4-8dzNeZf54MBniCaOmtxh7dhBDQg.so5GXA-vkrWvMgMifn2ktcnEqeXQZrz32ZkFdaJSgZAg.JPEG/032A84A8-E8A0-4838-BBEC-1BFC5FFC9E8E.jpeg?type=w278_sharpen",
     "updatedAt": "2026-03-16",
     "zip": "06205"
   },
@@ -1843,6 +1847,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1457776595",
     "naverBlogCnt": 2,
     "imageUrl": "https://ldb-phinf.pstatic.net/20240128_142/1706380419689eDQIw_JPEG/27.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240128_103/1706380398519d8RYl_JPEG/1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -2774,6 +2779,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1671732165",
     "naverBlogCnt": 75,
     "imageUrl": "https://ldb-phinf.pstatic.net/20230622_200/1687394363965zljTd_JPEG/3.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20230622_195/1687394360396PyUBJ_JPEG/2.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2993,6 +2999,7 @@ const restaurants = [
     "naverPlaceId": "2083212381",
     "naverUrl": "https://map.naver.com/v5/entry/place/2083212381",
     "imageUrl": "https://ldb-phinf.pstatic.net/20250424_261/1745475369514PouCt_JPEG/%B5%FB%B6%E6_%BC%F6%C1%A6%BA%F1.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250424_96/1745475630327TV12a_JPEG/%C7%CF%BC%BA%BF%EE_%C4%E1%B1%B9%BC%F6_%C4%B8%C3%C4.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3913,6 +3920,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1933189554",
     "naverBlogCnt": 31,
     "imageUrl": "https://ldb-phinf.pstatic.net/20250421_41/1745203871250vwEWt_JPEG/%BB%F8%B7%AF%B5%F0%BE%C6-%C7%C3%B7%B9%C0%CC%BD%BA-%B7%CE%B0%ED.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20220805_44/1659681505210zkWqQ_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_%BB%EF%BC%BA%C1%A1.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -6229,6 +6237,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/2055869936",
     "naverBlogCnt": 24,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251113_7/1763019027694Nik3M_JPEG/1000016794.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251105_67/1762323434493mfg66_JPEG/1000016644.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -7180,6 +7189,7 @@ const restaurants = [
     "naverPlaceId": "1627178297",
     "naverUrl": "https://map.naver.com/v5/entry/place/1627178297",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240323_5/1711200869373VPkNi_JPEG/IMG_6569.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240417_4/1713363162147uXh8o_JPEG/IMG_7930.jpeg",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -8379,6 +8389,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1403529244",
     "naverBlogCnt": 322,
     "imageUrl": "https://ldb-phinf.pstatic.net/20240326_207/1711455135938MPj6E_JPEG/IMG_7213.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240204_211/1707023443936ImJ1h_JPEG/576DDC51-DCC7-45E3-9CE6-7EF706821177.jpeg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8563,6 +8574,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1335951464",
     "naverBlogCnt": 124,
     "imageUrl": "https://naverbooking-phinf.pstatic.net/20250221_182/1740145904050SFaD3_PNG/%C1%F8%B9%CC%BE%F0%BE%E7%BA%D2%B0%ED%B1%E2_%B7%CE%B0%ED.png",
+    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20250221_88/17401459041990Pvj7_JPEG/%BE%F0%BE%E7%BA%D2%B0%ED%B1%E2.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8896,6 +8908,7 @@ const restaurants = [
     "naverPlaceId": "1453579006",
     "naverUrl": "https://map.naver.com/v5/entry/place/1453579006",
     "imageUrl": "https://ldb-phinf.pstatic.net/20230102_240/1672641102470tIKIX_JPEG/%C1%F6%C1%F7_%BF%DC%BA%CE.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240117_119/1705475805884X93ig_JPEG/78.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -9175,6 +9188,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1134695743",
     "naverBlogCnt": 378,
     "imageUrl": "https://ldb-phinf.pstatic.net/20250924_261/17587231934434eHPS_PNG/23689.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260113_283/17683149907395wblV_JPEG/30905.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -11027,6 +11041,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/2008975356",
     "naverBlogCnt": 9,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251028_129/1761640538298ImC3o_JPEG/%C0%FC%B8%DE%B4%BA2.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251028_29/1761640551382j4pQr_JPEG/%C0%FC%B8%DE%B4%BA1.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -11215,6 +11230,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1712241323",
     "naverBlogCnt": 146,
     "imageUrl": "https://ldb-phinf.pstatic.net/20240925_173/17272393139004pCPL_PNG/1.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240925_207/1727239590433OVIPJ_JPEG/2323123.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11618,6 +11634,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1684290818",
     "naverBlogCnt": 612,
     "imageUrl": "https://ldb-phinf.pstatic.net/20251018_246/1760784820300G5djW_GIF/%B4%EB%B9%AE%BB%E7%C1%F8gif.gif",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",

@@ -15564,6 +15564,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1945588342/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20240116_146/1705387820895kDtxq_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2024-01-16_154359.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240116_266/1705388573148oskQz_JPEG/KakaoTalk_20240116_160035766.jpg",
     "parking": true,
     "reservation": false
   },
@@ -19470,6 +19471,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1767802567/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://ldb-phinf.pstatic.net/20251024_237/1761267477994s0SHM_JPEG/P20250926_135651710_45D0C052-7008-4684-8755-11FDEE5C1ABB.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251024_239/1761267458300efA4O_JPEG/DSC07545.jpg",
     "parking": false,
     "reservation": false
   },
