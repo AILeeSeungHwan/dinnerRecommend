@@ -571,10 +571,20 @@ def generate_restaurant_body_main(r, region_path, category, angle, region=''):
     if extra:
         parts.append(f'<p>{esc(extra)}</p>')
 
-    # rv 리뷰 기반 인사이트 (주요 식당 — 3문장까지)
-    rv_insight = extract_review_insights(name, region, category, max_sentences=3)
+    # rv 리뷰 기반 인사이트 (주요 식당 — 2문장)
+    rv_insight = extract_review_insights(name, region, category, max_sentences=2)
     if rv_insight:
         parts.append(f'<p>{esc(rv_insight)}</p>')
+
+    # rv 짧은 인용 (실제 리뷰 한 줄 요약)
+    rv_quote = extract_review_quote(name, region)
+    if rv_quote:
+        parts.append(f'<p>{esc(rv_quote)}</p>')
+
+    # rv 키워드 카운트 요약
+    rv_summary = extract_review_summary(name, region)
+    if rv_summary:
+        parts.append(f'<p>{esc(rv_summary)}</p>')
 
     # 상세 페이지 링크
     parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ {esc(name)} 상세 정보 보기</a></p>')
@@ -661,6 +671,11 @@ def generate_restaurant_body_sub(r, region_path, category, region=''):
     rv_insight = extract_review_insights(name, region, category, max_sentences=2)
     if rv_insight:
         parts.append(f'<p>{esc(rv_insight)}</p>')
+
+    # rv 키워드 요약 (보조 식당은 quote 생략, summary만)
+    rv_summary = extract_review_summary(name, region)
+    if rv_summary:
+        parts.append(f'<p>{esc(rv_summary)}</p>')
 
     # 상세 링크
     parts.append(f'<p><a href="{link}" style="color:var(--primary)">→ {esc(name)} 상세 정보 보기</a></p>')
@@ -1067,9 +1082,16 @@ for fname in sorted(os.listdir(DATA_DIR)):
 
 all_posts_meta.sort(key=lambda x: x['id'])
 
+SKIP_POST_IDS = {26, 27, 28}  # 강남역 — 별도 작업중, 건드리지 않음
+
 for post_data in all_posts_meta:
     pid = post_data['id']
     slug = post_data['slug']
+
+    if pid in SKIP_POST_IDS:
+        print(f'  SKIP {pid} ({slug}): 강남역 별도 작업')
+        continue
+
     restaurants = post_data.get('restaurants', [])
     category = post_data.get('category', '')
 
