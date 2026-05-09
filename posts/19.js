@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a>. 평점 5점, 리뷰 16건 정도 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 16건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\" style=\"color:var(--primary)\">→ 십년한우실비집 수원망포점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a>. 고기구이 전문점으로, 평점 5점에 리뷰 16건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 16건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\" style=\"color:var(--primary)\">→ 십년한우실비집 수원망포점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a>. 평점 4.5점, 리뷰 110건 정도 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.5점, 리뷰 110건으로 나쁘지 않은 수치를 보이고 있습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\" style=\"color:var(--primary)\">→ 갈비꽃망포점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a>. 고기구이 전문점으로, 평점 4.5점에 리뷰 110건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.5점, 리뷰 110건으로 나쁘지 않은 수치를 보이고 있습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\" style=\"color:var(--primary)\">→ 갈비꽃망포점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a>. 한식 전문점으로, 평점 4.7점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>2819건 리뷰에 4.7점이면 충분히 검증된 곳이라 하겠습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\" style=\"color:var(--primary)\">→ 빽돈 망포점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a>. 한식 전문점으로, 평점 4.7점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 2819건에 평점 4.7점이면 안정적인 편입니다. 꾸준히 좋은 평가를 받고 있는 곳입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\" style=\"color:var(--primary)\">→ 빽돈 망포점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a>. 고기구이 전문점으로, 평점 4.5점에 리뷰 84건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>84건 리뷰에 4.5점이면 충분히 검증된 곳이라 하겠습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\" style=\"color:var(--primary)\">→ 한마음정육식당 영통점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a>. 고기구이 전문점입니다. 4.5점에 리뷰 84건이 쌓여 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>84건 리뷰에 4.5점이면 충분히 검증된 곳이라 하겠습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\" style=\"color:var(--primary)\">→ 한마음정육식당 영통점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -112,7 +112,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">16건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">212건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">110건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">2819건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">84건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">16건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">212건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">110건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">2819건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">84건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>중식·칼국수 하면 <a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a>도 빠지지 않습니다. 평점 4.6점입니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>26건 리뷰에 4.6점이면 충분히 검증된 곳이라 하겠습니다. 10천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\" style=\"color:var(--primary)\">→ 서천교동짬뽕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a>. 중식·칼국수 전문점으로, 평점 4.6점에 리뷰 26건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 26건에 평점 4.6점이면 안정적인 편입니다. 꾸준히 좋은 평가를 받고 있는 곳입니다. 만원 이하 메뉴가 있어서 부담이 적습니다. 가볍게 한 끼 해결하시기에 좋은 가격대입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\" style=\"color:var(--primary)\">→ 서천교동짬뽕 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>만원 이하로 한 끼 해결하실 수 있는 <a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a>입니다. 가격 부담 없이 편하게 방문하실 수 있습니다.</p><p>혼밥하시기에도 편한 구조입니다.</p><p>144건 리뷰가 있으면 동네에서 나름 알려진 편입니다. 8천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\" style=\"color:var(--primary)\">→ 청담칼국수 상세 정보 보기</a></p>",
+      html: "<p>만원 이하로 한 끼 해결하실 수 있는 <a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a>입니다. 가격 부담 없이 편하게 방문하실 수 있습니다.</p><p>혼밥하시기에도 편한 구조입니다.</p><p>리뷰가 144건이니 한 번쯤 방문해보실 만합니다. 만원 안쪽으로 해결 가능하십니다. 부담 없이 방문하실 수 있는 가격입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\" style=\"color:var(--primary)\">→ 청담칼국수 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a>. 고기구이·국밥 전문점으로, 평점 4.5점에 리뷰 29건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.5점, 리뷰 29건으로 나쁘지 않은 수치를 보이고 있습니다. 만원 안쪽으로 해결 가능하십니다. 부담 없이 방문하실 수 있는 가격입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\" style=\"color:var(--primary)\">→ 생고기김치찌개 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a>. 고기구이·국밥 전문점입니다. 4.5점에 리뷰 29건이 쌓여 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>29건 리뷰에 4.5점이면 충분히 검증된 곳이라 하겠습니다. 10천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\" style=\"color:var(--primary)\">→ 생고기김치찌개 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분식 하면 <a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a>도 빠지지 않습니다. 평점 4.3점입니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다.</p><p>리뷰 60건 정도 쌓여 있어서 어느 정도 검증이 된 곳입니다. 만원 이하 메뉴가 있어서 부담이 적습니다. 가볍게 한 끼 해결하시기에 좋은 가격대입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\" style=\"color:var(--primary)\">→ 행복한김밥 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a>. 분식 전문점으로, 평점 4.3점에 리뷰 60건을 기록하고 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>가성비가 좋다는 평이 많습니다.</p><p>리뷰 60건 정도 쌓여 있어서 어느 정도 검증이 된 곳입니다. 만원 이하 메뉴가 있어서 부담이 적습니다. 가볍게 한 끼 해결하시기에 좋은 가격대입니다.</p><p><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\" style=\"color:var(--primary)\">→ 행복한김밥 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -112,7 +112,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">26건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">84건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">144건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">29건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">60건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/서천교동짬뽕\">서천교동짬뽕</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">26건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">84건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/청담칼국수\">청담칼국수</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">144건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/생고기김치찌개\">생고기김치찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">29건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/행복한김밥\">행복한김밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">60건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

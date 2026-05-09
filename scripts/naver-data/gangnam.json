@@ -1,0 +1,9 @@
+{
+  "region": "gangnam",
+  "label": "강남역",
+  "crawledAt": "2026-05-09T12:38:52.867Z",
+  "searchResults": [],
+  "details": [],
+  "matchedCount": 0,
+  "warning": "API 응답 없음 — Puppeteer 방식으로 전환 필요"
+}

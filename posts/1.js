@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>4.9점짜리 식당은 흔하지 않습니다. 리뷰도 113건이나 되어 검증된 맛집이라 하겠습니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/늘푸른 생선구이\" style=\"color:var(--primary)\">→ 늘푸른 생선구이 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>평점 4.9점에 리뷰 113건이면 이 근처에서 손에 꼽히는 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/늘푸른 생선구이\" style=\"color:var(--primary)\">→ 늘푸른 생선구이 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -54,7 +54,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>고기구이 하면 <a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 72건에 평점 4.9점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"color:var(--primary)\">→ 불고기 온소반 상세 정보 보기</a></p>",
+      html: "<p>고기구이 하면 <a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.9점에 리뷰 72건이면 이 근처에서 손에 꼽히는 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"color:var(--primary)\">→ 불고기 온소반 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>. 고기구이 전문점입니다. 4.8점에 리뷰 120건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>리뷰 120건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary)\">→ 우화 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>. 고기구이 전문점으로, 평점 4.8점에 리뷰 120건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>평점 4.8점이면 이 동네에서 상위권에 해당합니다. 리뷰 120건이 쌓여 있어 신뢰도도 높은 편입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary)\">→ 우화 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/진스키야키\">진스키야키</a>. 고기구이 전문점입니다. 4.8점에 리뷰 118건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>리뷰 118건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/진스키야키\" style=\"color:var(--primary)\">→ 진스키야키 상세 정보 보기</a></p>",
+      html: "<p>고기구이 하면 <a href=\"/pangyo/restaurant/진스키야키\">진스키야키</a>도 빠지지 않습니다. 평점 4.8점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>평점 4.8점에 리뷰 118건이면 이 근처에서 손에 꼽히는 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/진스키야키\" style=\"color:var(--primary)\">→ 진스키야키 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>12천원대부터 시작하는 <a href=\"/pangyo/restaurant/순우가\">순우가</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>평점 4.6점, 리뷰 159건으로 나쁘지 않은 수치를 보이고 있습니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/순우가\" style=\"color:var(--primary)\">→ 순우가 상세 정보 보기</a></p>",
+      html: "<p>12천원대부터 시작하는 <a href=\"/pangyo/restaurant/순우가\">순우가</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>159건 리뷰에 4.6점이면 충분히 검증된 곳이라 하겠습니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/순우가\" style=\"color:var(--primary)\">→ 순우가 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -118,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/이치류 판교점\">이치류 판교점</a>. 고기구이 전문점으로, 평점 4.8점에 리뷰 9건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.8점이면 이 동네에서 상위권에 해당합니다. 리뷰 9건이 쌓여 있어 신뢰도도 높은 편입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/이치류 판교점\" style=\"color:var(--primary)\">→ 이치류 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/이치류 판교점\">이치류 판교점</a>. 고기구이 전문점으로, 평점 4.8점에 리뷰 9건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 9건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다. 직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.</p><p><a href=\"/pangyo/restaurant/이치류 판교점\" style=\"color:var(--primary)\">→ 이치류 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -150,7 +150,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">113건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/진스키야키\">진스키야키</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">118건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/순우가\">순우가</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">159건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/이치류 판교점\">이치류 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/남영동양문 판교점\">남영동양문 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">649건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">113건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/진스키야키\">진스키야키</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">118건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/순우가\">순우가</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">159건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/이치류 판교점\">이치류 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/남영동양문 판교점\">남영동양문 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">649건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',

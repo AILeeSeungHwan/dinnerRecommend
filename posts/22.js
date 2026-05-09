@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a>. 평점 5점, 리뷰 90건 정도 있습니다.</p><p>메뉴를 살펴보면, 런치)오마카세 50,000원 / 디너) 오마카세 100,000원 등이 있습니다.</p><p>주차도 가능합니다.</p><p>평점 5점에 리뷰 90건이면 이 근처에서 손에 꼽히는 곳입니다. 인당 10만원 선으로, 회식비로 적당한 수준입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/pangyo/restaurant/스시소라 판교점\" style=\"color:var(--primary)\">→ 스시소라 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a>. 평점 5점, 리뷰 90건 정도 있습니다.</p><p>런치)오마카세 50,000원이 가장 인기 있는 메뉴이며, 디너) 오마카세 100,000원도 추천드립니다.</p><p>주차도 가능합니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 90건이 쌓여 있어 신뢰도도 높은 편입니다. 예산은 인당 10만원 정도 잡으시면 넉넉합니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/pangyo/restaurant/스시소라 판교점\" style=\"color:var(--primary)\">→ 스시소라 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a>에서 가장 많이 나가는 메뉴는 (런치) 봄과 장 코스입니다. 가격은 75,000원입니다. 그 외에도 (디너) 봄과 장 코스, 감자 냉수프를 많이 찾으십니다.</p><p>그 외에 보리 샐러드, 찐 전복과 가지도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다. 단체석이 마련되어 있습니다.</p><p>평점 4.9점이면 이 동네에서 상위권에 해당합니다. 리뷰 244건이 쌓여 있어 신뢰도도 높은 편입니다. 인당 7만원 선으로, 회식비로 적당한 수준입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 꿰다 판교아브뉴프랑점 상세 정보 보기</a></p>",
+      html: "<p>(런치) 봄과 장 코스 75,000원. <a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a>의 대표 메뉴입니다. (디너) 봄과 장 코스, 감자 냉수프도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 보리 샐러드, 찐 전복과 가지도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다. 단체석이 마련되어 있습니다.</p><p>평점 4.9점이면 이 동네에서 상위권에 해당합니다. 리뷰 244건이 쌓여 있어 신뢰도도 높은 편입니다. 예산은 인당 7만원 정도 잡으시면 넉넉합니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 꿰다 판교아브뉴프랑점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>. 고기구이 전문점입니다. 4.8점에 리뷰 120건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>리뷰 120건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary)\">→ 우화 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>. 고기구이 전문점으로, 평점 4.8점에 리뷰 120건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>평점 4.8점이면 이 동네에서 상위권에 해당합니다. 리뷰 120건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary)\">→ 우화 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a>. 평점 5점, 리뷰 128건 정도 있습니다.</p><p>메뉴를 살펴보면, 바차바다찜(M/L) 35,000원 / 해물레드감바스 25,000원 / 로치새우 25,000원 / 수비드항정수육&amp;부추무침 27,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 128건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다. 인당 3만원 선으로, 회식비로 적당한 수준입니다.</p><p>양이 많아서 배부르게 드실 수 있습니다. 남성분들도 충분히 만족할 수 있는 양입니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p><a href=\"/pangyo/restaurant/바차 판교점\" style=\"color:var(--primary)\">→ 바차 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a>. 술집 전문점으로, 평점 5점에 리뷰 128건을 기록하고 있습니다.</p><p>메뉴를 살펴보면, 바차바다찜(M/L) 35,000원 / 해물레드감바스 25,000원 / 로치새우 25,000원 / 수비드항정수육&amp;부추무침 27,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 128건이 쌓여 있어 신뢰도도 높은 편입니다. 인당 3만원대 예산이면 충분합니다. 회식비로 적당한 수준이라 하겠습니다.</p><p>양이 많아서 배부르게 드실 수 있습니다. 남성분들도 충분히 만족할 수 있는 양입니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p><a href=\"/pangyo/restaurant/바차 판교점\" style=\"color:var(--primary)\">→ 바차 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>을 방문하시면 生양등심꼬치 250g을 추천드립니다. 23,000원에 드실 수 있습니다. 그 외에도 오리지날양꼬치 200g, 모듬꼬치를 많이 찾으십니다.</p><p>그 외에 가지튀김볶음(22,000원), 꿔바로우(24,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>평점 5점에 리뷰 197건이면 이 근처에서 손에 꼽히는 곳입니다. 예산은 인당 4만원 정도 잡으시면 넉넉합니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 심양 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>에서 가장 많이 나가는 메뉴는 生양등심꼬치 250g입니다. 가격은 23,000원입니다. 그 외에도 오리지날양꼬치 200g, 모듬꼬치를 많이 찾으십니다.</p><p>그 외에 가지튀김볶음(22,000원), 꿔바로우(24,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>5점짜리 식당은 흔하지 않습니다. 리뷰도 197건이나 되어 검증된 맛집이라 하겠습니다. 인당 4만원 선으로, 회식비로 적당한 수준입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 심양 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">90건</td><td style=\"padding:7px 6px;text-align:center\">50,000~100,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">128건</td><td style=\"padding:7px 6px;text-align:center\">22,000~35,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">197건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시소라 판교점\">스시소라 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">90건</td><td style=\"padding:7px 6px;text-align:center\">50,000~100,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">120건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/바차 판교점\">바차 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">128건</td><td style=\"padding:7px 6px;text-align:center\">22,000~35,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">197건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

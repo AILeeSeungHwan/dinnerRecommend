@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a>. 스시오마카세 전문점입니다. 4.4점에 리뷰 11건이 쌓여 있습니다.</p><p>가격대는 19,000~35,000원입니다.</p><p>제철 재료에 따라 메뉴가 달라질 수 있으니 참고하시기 바랍니다.</p><p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\" style=\"color:var(--primary)\">→ 오사이초밥 잠실 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a>. 평점 4.4점, 리뷰 11건 정도 있습니다.</p><p>가격대는 19,000~35,000원입니다.</p><p>제철 재료에 따라 메뉴가 달라질 수 있으니 참고하시기 바랍니다.</p><p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\" style=\"color:var(--primary)\">→ 오사이초밥 잠실 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>. 스시·오마카세 전문점입니다. 4.1점에 리뷰 229건이 쌓여 있습니다.</p><p>가격대는 25,000~60,000원입니다.</p><p>리뷰 229건 정도 쌓여 있어서 어느 정도 검증이 된 곳입니다. 제철 재료에 따라 메뉴가 달라질 수 있으니 참고하시기 바랍니다.</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary)\">→ 김태완스시 상세 정보 보기</a></p>",
+      html: "<p>스시·오마카세 하면 <a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>도 빠지지 않습니다. 평점 4.1점입니다.</p><p>가격대는 25,000~60,000원입니다.</p><p>리뷰가 229건이니 한 번쯤 방문해보실 만합니다. 제철 재료에 따라 메뉴가 달라질 수 있으니 참고하시기 바랍니다.</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary)\">→ 김태완스시 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\">압구정뽀글이</a>. 한식 전문점으로, 평점 5점을 기록하고 있습니다.</p><p>5점짜리 식당은 흔하지 않습니다. 리뷰도 11471건이나 되어 검증된 맛집이라 하겠습니다.</p><p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\" style=\"color:var(--primary)\">→ 압구정뽀글이 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\">압구정뽀글이</a>. 한식 전문점으로, 평점 5점을 기록하고 있습니다.</p><p>리뷰 11471건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/dinner/jamsil/restaurant/압구정뽀글이\" style=\"color:var(--primary)\">→ 압구정뽀글이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\">청담동순도리 석촌호수점</a>에서 가장 많이 나가는 메뉴는 한우대창 곱도리탕입니다. 가격은 3,600,056,000원입니다. 즉석수제 고추튀김, 순대국밥도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 육개장(13,000원), 즉석수제 해물파전(18,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>평점 5점에 리뷰 162건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 주차가 편하다는 의견이 있습니다. 차량으로 방문하시는 분들에게 유리한 조건입니다.</p><p><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\" style=\"color:var(--primary)\">→ 청담동순도리 석촌호수점 상세 정보 보기</a></p>",
+      html: "<p>한우대창 곱도리탕 3,600,056,000원. <a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\">청담동순도리 석촌호수점</a>의 간판 메뉴입니다. 즉석수제 고추튀김, 순대국밥 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 육개장(13,000원), 즉석수제 해물파전(18,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 162건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 주차가 편하다는 의견이 있습니다. 차량으로 방문하시는 분들에게 유리한 조건입니다.</p><p><a href=\"/dinner/jamsil/restaurant/청담동순도리 석촌호수점\" style=\"color:var(--primary)\">→ 청담동순도리 석촌호수점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>양식 하면 <a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>리뷰 127건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 쾌세라 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>. 양식 전문점입니다. 5점에 리뷰 127건이 쌓여 있습니다.</p><p>평점 5점에 리뷰 127건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 쾌세라 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',

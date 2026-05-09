@@ -54,7 +54,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>해산물·일식 하면 <a href=\"/pangyo/restaurant/꿰다\">꿰다</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>4.9점짜리 식당은 흔하지 않습니다. 리뷰도 244건이나 되어 검증된 맛집이라 하겠습니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
+      html: "<p>해산물·일식 하면 <a href=\"/pangyo/restaurant/꿰다\">꿰다</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 244건에 평점 4.9점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>양식·이탈리안 하면 <a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>평점 4.9점에 리뷰 481건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>. 양식·이탈리안 전문점으로, 평점 4.9점에 리뷰 481건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>4.9점짜리 식당은 흔하지 않습니다. 리뷰도 481건이나 되어 검증된 맛집이라 하겠습니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\">오마카세 스시이찌 판교점</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 1370건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\" style=\"color:var(--primary)\">→ 오마카세 스시이찌 판교점 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\">오마카세 스시이찌 판교점</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>평점 4.8점에 리뷰 1370건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\" style=\"color:var(--primary)\">→ 오마카세 스시이찌 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -108,7 +108,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>. 이자카야·일식 전문점입니다. 4.6점에 리뷰 19건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>19건 리뷰에 4.6점이면 충분히 검증된 곳이라 하겠습니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>. 이자카야·일식 전문점입니다. 4.6점에 리뷰 19건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 19건에 평점 4.6점이면 안정적인 편입니다. 꾸준히 좋은 평가를 받고 있는 곳입니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -118,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/이치규 아브뉴프랑 판교점\">이치규 아브뉴프랑 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">509건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">481건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\">오마카세 스시이찌 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">1370건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/이치규 아브뉴프랑 판교점\">이치규 아브뉴프랑 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">509건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">481건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/오마카세 스시이찌 판교점\">오마카세 스시이찌 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">1370건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
