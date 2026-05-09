@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>판교역·테크노밸리·백현동 근처에서 가성비 괜찮은 곳을 찾고 계시는 분들을 위해 준비하였습니다. 5곳을 추려서 가격과 메뉴까지 상세하게 정리하였습니다.</p><p>평균 평점 4.8점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 1인 가격·양·혼밥 가능 여부을 위주로 비교하였습니다.</p><p>소개 순서: 상기육개장, 삼미칼국수, 정백선순대 판교역점, 불고기 온소반, 살레르노 판교점.</p>",
+      html: "<p>판교역·테크노밸리·백현동 근처에서 가성비 괜찮은 곳을 찾고 계시는 분들을 위해 준비하였습니다. 5곳을 추려서 가격과 메뉴까지 상세하게 정리하였습니다.</p><p>평균 평점 4.8점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 1인 가격·양·혼밥 가능 여부을 위주로 비교하였습니다.</p><p>소개 순서: 삼미칼국수, 불고기 온소반, 정백선순대 판교역점, 상기육개장, 살레르노 판교점.</p>",
     },
     {
       type: 'toc',
@@ -20,34 +20,40 @@ const post = {
     },
     {
       type: 'h2',
-      id: "상기육개장",
-      text: "상기육개장 — 가성비 점심 추천",
+      id: "삼미칼국수",
+      text: "삼미칼국수 — 칼국수 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'image',
-      src: "/images/posts/4/상기육개장-1.jpg",
-      alt: "상기육개장 대표 사진",
-      caption: "상기육개장",
-    },
-    {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a>. 한식 전문점입니다. 4.9점에 리뷰 19건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 혼밥하시기에도 편한 구조입니다.</p><p>평점 4.9점에 리뷰 19건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/pangyo/restaurant/상기육개장\" style=\"color:var(--primary)\">→ 상기육개장 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/삼미칼국수\">삼미칼국수</a>. 칼국수 전문점으로, 평점 4.5점을 기록하고 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>리뷰 240건에 4.5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/삼미칼국수\" style=\"color:var(--primary)\">→ 삼미칼국수 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
-      id: "삼미칼국수",
-      text: "삼미칼국수 — 가성비 점심 추천",
+      id: "불고기-온소반",
+      text: "불고기 온소반 — 가성비 한 끼",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "/images/posts/4/불고기-온소반-1.jpg",
+      alt: "불고기 온소반 대표 사진",
+      caption: "불고기 온소반",
+    },
+    {
       type: 'body',
-      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/삼미칼국수\">삼미칼국수</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>240건 리뷰에 4.5점이면 충분히 검증된 곳이라 하겠습니다.</p><p><a href=\"/pangyo/restaurant/삼미칼국수\" style=\"color:var(--primary)\">→ 삼미칼국수 상세 정보 보기</a></p>",
+      html: "<p>12천원대부터 시작하는 <a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>4.9점·리뷰 72건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"color:var(--primary)\">→ 불고기 온소반 상세 정보 보기</a></p>",
+    },
+    {
+      type: 'image',
+      src: "/images/posts/4/불고기-온소반-2.jpg",
+      alt: "불고기 온소반 음식 사진",
+      caption: "불고기 온소반 메뉴",
     },
     {
       type: 'h2',
       id: "정백선순대-판교역점",
-      text: "정백선순대 판교역점 — 가성비 점심 추천",
+      text: "정백선순대 판교역점 — 분식 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -58,28 +64,28 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a>. 분식 전문점으로, 평점 4.8점에 리뷰 34건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>리뷰 34건에 평점 4.8점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/pangyo/restaurant/정백선순대 판교역점\" style=\"color:var(--primary)\">→ 정백선순대 판교역점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a>. 분식 전문점으로, 평점 4.8점에 리뷰 34건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>4.8점·리뷰 34건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/정백선순대 판교역점\" style=\"color:var(--primary)\">→ 정백선순대 판교역점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
-      id: "불고기-온소반",
-      text: "불고기 온소반 — 가성비 점심 추천",
+      id: "상기육개장",
+      text: "상기육개장 — 혼밥 가능한 가성비 식당",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "/images/posts/4/불고기-온소반-1.jpg",
-      alt: "불고기 온소반 대표 사진",
-      caption: "불고기 온소반",
+      src: "/images/posts/4/상기육개장-1.jpg",
+      alt: "상기육개장 대표 사진",
+      caption: "상기육개장",
     },
     {
       type: 'body',
-      html: "<p>고기구이 하면 <a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.9점에 리뷰 72건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"color:var(--primary)\">→ 불고기 온소반 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a>. 한식 전문점입니다. 4.9점에 리뷰 19건이 쌓여 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 혼밥하시기에도 편한 구조입니다.</p><p>평점 4.9점, 리뷰 19건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/pangyo/restaurant/상기육개장\" style=\"color:var(--primary)\">→ 상기육개장 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "살레르노-판교점",
-      text: "살레르노 판교점 — 가성비 점심 추천",
+      text: "살레르노 판교점 — 한식 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -90,13 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>12천원대부터 시작하는 <a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>평점 4.9점에 리뷰 4461건이면 이 근처에서 손에 꼽히는 곳입니다.</p><p><a href=\"/pangyo/restaurant/살레르노 판교점\" style=\"color:var(--primary)\">→ 살레르노 판교점 상세 정보 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/4/살레르노-판교점-2.jpg",
-      alt: "살레르노 판교점 음식 사진",
-      caption: "살레르노 판교점 메뉴",
+      html: "<p>한식 하면 <a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a>도 빠지지 않습니다. 평점 4.9점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>리뷰 9건에 4.9점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/살레르노 판교점\" style=\"color:var(--primary)\">→ 살레르노 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼미칼국수\">삼미칼국수</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">240건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">34건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">4461건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼미칼국수\">삼미칼국수</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">240건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정백선순대 판교역점\">정백선순대 판교역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">34건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -116,7 +116,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li><strong>가성비 우선:</strong> 불고기 온소반, 살레르노 판교점 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 불고기 온소반 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 상기육개장 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 상기육개장 (평점 4.9점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 살레르노 판교점 (리뷰 4461건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+      html: "<ul><li><strong>가성비 우선:</strong> 불고기 온소반, 살레르노 판교점 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 불고기 온소반 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 상기육개장 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 불고기 온소반 (평점 4.9점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 삼미칼국수 (리뷰 240건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
     },
     {
       type: 'h2',
@@ -126,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>상기육개장, 삼미칼국수은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>가성비가 좋은 곳일수록 점심 웨이팅이 길어지는 경향이 있습니다. 11시 30분~50분 사이에 방문하시면 대기 시간을 줄이실 수 있습니다.</li></ul>",
+      html: "<ul><li>삼미칼국수, 불고기 온소반은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>가성비가 좋은 곳일수록 점심 웨이팅이 길어지는 경향이 있습니다. 11시 30분~50분 사이에 방문하시면 대기 시간을 줄이실 수 있습니다.</li></ul>",
     },
     {
       type: 'cta',

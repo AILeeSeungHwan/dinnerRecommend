@@ -289,7 +289,7 @@ export default function Home() {
                 </div>
                 <p style={{ fontSize:'.78rem', color:'var(--muted)', margin:0, lineHeight:1.5 }}>{p.description}</p>
                 <div style={{ display:'flex', gap:6, marginTop:8, flexWrap:'wrap' }}>
-                  {p.tags.slice(0,3).map(t => (
+                  {(p.tags || []).slice(0,3).map(t => (
                     <span key={t} style={{ fontSize:'.65rem', padding:'2px 8px', borderRadius:100, background:'rgba(99,102,241,.1)', border:'1px solid rgba(99,102,241,.25)', color:'#818cf8' }}>{t}</span>
                   ))}
                 </div>

@@ -460,7 +460,7 @@ def generate_restaurant_body_main(r, region_path, category, angle, region=''):
     rtype = (r.get('type', '') or '').split(',')[0]
     price = r.get('priceRange', '')
     tags = set(r.get('tags', []))
-    menus = r.get('menuItems', [])
+    menus = filter_menu_items(r.get('menuItems', []))
 
     if angle == 'menu' and menus:
         top_menu = menus[0]
@@ -601,7 +601,7 @@ def generate_restaurant_body_sub(r, region_path, category, region=''):
     rating = r.get('rating', 0)
     cnt = r.get('reviewCount', 0)
     rtype = (r.get('type', '') or '').split(',')[0]
-    menus = r.get('menuItems', [])
+    menus = filter_menu_items(r.get('menuItems', []))
     tags = set(r.get('tags', []))
     price = r.get('priceRange', '')
 
@@ -861,25 +861,43 @@ def find_related_posts(current_id, current_region, current_category, all_posts_m
     return related[:4]
 
 # ── h2 타이틀 생성 ──────────────────────────────────────────────
+def _is_valid_menu(mname):
+    """메뉴명이 광고/옵션이 아닌 실제 메뉴인지 판별."""
+    if not mname or len(mname) > 22:
+        return False
+    skip_kw = ['추가', '사리', '무료', '!', '사용합니다', 'ml', '기준', '인분',
+               '옵션', '선택', '소(', '중(', '대(', '런치', '디너', '기본 제공',
+               '서비스', '오픈', '주문', 'g)', 'g 기준']
+    if any(skip in mname for skip in skip_kw):
+        return False
+    if mname.startswith('(') or mname.startswith('['):
+        return False
+    return True
+
+def filter_menu_items(menus, limit=None):
+    """메뉴 리스트에서 실제 메뉴만 필터링."""
+    valid = []
+    for m in (menus or []):
+        mname = (m.get('name') or '').strip()
+        if _is_valid_menu(mname):
+            valid.append(m)
+            if limit and len(valid) >= limit:
+                break
+    return valid
+
 def _signature_menu(r):
     """식당의 대표 메뉴 1개를 반환. 가격이 있으면 가격까지."""
-    menus = r.get('menuItems') or []
-    for m in menus:
+    for m in filter_menu_items(r.get('menuItems') or []):
         mname = (m.get('name') or '').strip()
-        if not mname or len(mname) > 25:
-            continue
-        # 광고성 메뉴명 거르기
-        if any(skip in mname for skip in ['추가', '사리', '무료', '!', '사용합니다']):
-            continue
         mprice = m.get('price')
         if mprice and int(mprice) >= 1000:
             return mname, int(mprice)
-        return mname, None
+        if mprice is None or mprice == 0:
+            continue
     return None, None
 
-def make_h2_title(r, category):
-    """식당별 차별점을 반영한 h2 제목.
-    같은 카테고리라도 식당마다 다른 패턴이 나오도록 4~5가지 후보 중 선택."""
+def _h2_candidates(r, category):
+    """식당별 h2 suffix 후보 리스트 (우선순위 순)."""
     name = r['name']
     tags = set(r.get('tags', []) or [])
     moods = set(r.get('moods', []) or [])
@@ -964,9 +982,24 @@ def make_h2_title(r, category):
     else:
         candidates.append(f'{rtype} 전문점' if rtype else '추천 맛집')
 
-    # seed로 후보 중 하나 선택 — 같은 카테고리 안에서도 식당마다 다른 suffix
-    suffix = candidates[seed % len(candidates)]
-    return f'{name} — {suffix}'
+    return candidates, seed
+
+def make_h2_title(r, category, used_suffixes=None):
+    """식당별 차별점을 반영한 h2 제목.
+    used_suffixes에 이미 등장한 suffix를 넘기면 중복을 피해 다음 후보를 선택."""
+    name = r['name']
+    candidates, seed = _h2_candidates(r, category)
+    used = used_suffixes if used_suffixes is not None else set()
+    # seed로 시작점 결정 후 used 회피
+    n = len(candidates)
+    pick = candidates[seed % n]
+    if pick in used:
+        for offset in range(1, n):
+            alt = candidates[(seed + offset) % n]
+            if alt not in used:
+                pick = alt
+                break
+    return f'{name} — {pick}', pick
 
 # ── 인트로 생성 ─────────────────────────────────────────────────
 def generate_intro(post_data):
@@ -1082,14 +1115,14 @@ for fname in sorted(os.listdir(DATA_DIR)):
 
 all_posts_meta.sort(key=lambda x: x['id'])
 
-SKIP_POST_IDS = {26, 27, 28}  # 강남역 — 별도 작업중, 건드리지 않음
+SKIP_POST_IDS = set()  # 없음
 
 for post_data in all_posts_meta:
     pid = post_data['id']
     slug = post_data['slug']
 
     if pid in SKIP_POST_IDS:
-        print(f'  SKIP {pid} ({slug}): 강남역 별도 작업')
+        print(f'  SKIP {pid} ({slug}): 별도 작업')
         continue
 
     restaurants = post_data.get('restaurants', [])
@@ -1139,10 +1172,12 @@ for post_data in all_posts_meta:
     main_count = min(3, max(2, len(restaurants) // 2))
     main_indices = set(x[0] for x in scored[:main_count])
 
+    used_suffixes = set()
     for i, r in enumerate(restaurants):
         is_main = i in main_indices
         angle = pick_angle(r, i, category)
-        h2_title = make_h2_title(r, category)
+        h2_title, h2_suffix = make_h2_title(r, category, used_suffixes=used_suffixes)
+        used_suffixes.add(h2_suffix)
         h2_id = safe_id(r['name'])
         r_images = post_images.get(r['name'], [])
 

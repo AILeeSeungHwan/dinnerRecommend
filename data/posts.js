@@ -26,6 +26,11 @@ const posts = [
   { id:25, slug:'yeongtong-date-restaurant-2026', title:'영통역 데이트 맛집 추천 5곳 | 뷰맛집·분위기 레스토랑 가이드', description:'영통역·망포 데이트 맛집 5곳 분위기·가성비·주차 비교', category:'date', region:'yeongtong', date:'2026-05-09', tags:['영통','데이트','뷰맛집','레스토랑'], thumbnail:'/images/posts/25/thumb.jpg' },
   {id:26,slug:'gangnam-meat-best-2026',title:'강남역 고기 맛집 추천 7곳 | 2026 가격·평점 비교',description:'강남역 고기집 가이드 — 삼겹살, 한우, 갈비 가격 비교',region:'gangnam',category:'meat',date:'2026-05-09',thumbnail:'/images/posts/1/thumb.jpg'},
   {id:27,slug:'gangnam-izakaya-best-2026',title:'강남역 이자카야·술집 추천 7곳 | 2026',description:'강남역 분위기 좋은 이자카야·술집 가이드',region:'gangnam',category:'izakaya',date:'2026-05-09',thumbnail:'/images/posts/2/thumb.jpg'},
-  {id:28,slug:'gangnam-japanese-best-2026',title:'강남역 일식·스시 추천 6곳 | 2026',description:'강남역 일식·스시·오마카세 가이드',region:'gangnam',category:'japanese',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'}
+  {id:28,slug:'gangnam-japanese-best-2026',title:'강남역 일식·스시 추천 6곳 | 2026',description:'강남역 일식·스시·오마카세 가이드',region:'gangnam',category:'japanese',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'},
+  {id:29,slug:'gangnam-chinese-best-2026',title:'강남역 중식 맛집 추천 7곳 | 2026',description:'강남역 중식 맛집 가이드 — 짬뽕, 탕수육, 마라탕',region:'gangnam',category:'chinese',date:'2026-05-09',thumbnail:'/images/posts/1/thumb.jpg'},
+  {id:30,slug:'gangnam-gukbap-best-2026',title:'강남역 국밥·해장 맛집 추천 7곳 | 2026',description:'강남역 국밥·해장 맛집 가이드',region:'gangnam',category:'gukbap',date:'2026-05-09',thumbnail:'/images/posts/2/thumb.jpg'},
+  {id:31,slug:'gangnam-japanese-best-2026',title:'강남역 일식·스시 추천 7곳 | 2026',description:'강남역 일식·스시·오마카세 가이드',region:'gangnam',category:'japanese',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'},
+  {id:32,slug:'gangnam-western-best-2026',title:'강남역 양식·파스타 맛집 추천 4곳 | 2026',description:'강남역 양식·파스타·스테이크 가이드',region:'gangnam',category:'western',date:'2026-05-09',thumbnail:'/images/posts/4/thumb.jpg'},
+  {id:33,slug:'gangnam-chicken-best-2026',title:'강남역 치킨·야장 추천 3곳 | 2026',description:'강남역 치킨·야장 가이드',region:'gangnam',category:'chicken',date:'2026-05-09',thumbnail:'/images/posts/5/thumb.jpg'}
 ]
 export default posts

@@ -1,9 +1,9 @@
 const post = {
-  id: 27,
+  id: 32,
   sections: [
     {
       type: 'intro',
-      html: "<p>강남역에서 데이트 식당을 찾고 계신다면, 이 글 하나로 정리해 드리겠습니다. 총 268곳 중 데이트 4곳을 엄선하여 비교하였습니다.</p><p>평균 평점 0점입니다. 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 도치피자 강남, 퍼그피자하우스 강남점, 헤비스테이크 강남역점, 봉스테이크.</p>",
+      html: "<p>강남역 맛집을 검색하면 너무 많은 결과가 나옵니다. 268곳의 데이터에서 실제로 방문할 만한 4곳만 선별하였습니다.</p><p>평균 평점 0점입니다. 2026년 5월 기준이며, 을 위주로 비교하였습니다.</p><p>소개 순서: 도치피자 강남, 퍼그피자하우스 강남점, 헤비스테이크 강남역점, 봉스테이크.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>강남역 전체 268곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 0점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>강남역 전체 268곳에서  카테고리에 해당하는 식당을 선별하였습니다. 평점 0점 이상,  기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/도치피자 강남\">도치피자 강남</a>. 양식 전문점으로, 평점 0점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p><a href=\"/dinner/gangnam/restaurant/도치피자 강남\" style=\"color:var(--primary)\">→ 도치피자 강남 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/도치피자 강남\">도치피자 강남</a>. 양식 전문점으로, 평점 0점을 기록하고 있습니다.</p><p><a href=\"/dinner/gangnam/restaurant/도치피자 강남\" style=\"color:var(--primary)\">→ 도치피자 강남 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -36,7 +36,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/dinner/gangnam/restaurant/퍼그피자하우스 강남점\">퍼그피자하우스 강남점</a>.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p><a href=\"/dinner/gangnam/restaurant/퍼그피자하우스 강남점\" style=\"color:var(--primary)\">→ 퍼그피자하우스 강남점 상세 정보 보기</a></p>",
+      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/dinner/gangnam/restaurant/퍼그피자하우스 강남점\">퍼그피자하우스 강남점</a>.</p><p><a href=\"/dinner/gangnam/restaurant/퍼그피자하우스 강남점\" style=\"color:var(--primary)\">→ 퍼그피자하우스 강남점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -61,7 +61,7 @@ const post = {
     {
       type: 'h2',
       id: "compare",
-      text: "강남역 데이트 맛집 한눈에 비교",
+      text: "강남역  맛집 한눈에 비교",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -86,16 +86,16 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>데이트를 계획하신다면 예약은 필수입니다. 금요일·토요일 저녁은 최소 3일 전에 예약하시기 바랍니다.</li></ul>",
+      html: "<ul><li>방문 전에 영업시간과 휴무일을 반드시 확인하시기 바랍니다. 명절 전후에 임시 휴무하는 곳이 꽤 있습니다.</li></ul>",
     },
     {
       type: 'cta',
-      href: "/dinner/gangnam/category/date",
-      text: "강남역 데이트 맛집 전체 보기 →",
+      href: "/dinner/gangnam/category/western",
+      text: "강남역  맛집 전체 보기 →",
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/gangnam-meat-best-2026\">강남역 고기 맛집 추천 7곳</a></li><li><a href=\"/posts/gangnam-izakaya-best-2026\">강남역 이자카야·술집 추천 7곳</a></li><li><a href=\"/posts/gangnam-chinese-best-2026\">강남역 중식 맛집 추천 7곳</a></li><li><a href=\"/posts/gangnam-gukbap-best-2026\">강남역 국밥·해장 맛집 추천 7곳</a></li><li><a href=\"/dinner/gangnam\">강남역 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/gangnam-meat-best-2026\">강남역 고기 맛집 추천 7곳</a></li><li><a href=\"/posts/gangnam-date-best-2026\">강남역 데이트 레스토랑 추천 4곳</a></li><li><a href=\"/posts/gangnam-izakaya-best-2026\">강남역 이자카야·술집 추천 7곳</a></li><li><a href=\"/posts/gangnam-chinese-best-2026\">강남역 중식 맛집 추천 7곳</a></li><li><a href=\"/dinner/gangnam\">강남역 전체 맛집 보기</a></li></ul>",
     }
   ],
 }
