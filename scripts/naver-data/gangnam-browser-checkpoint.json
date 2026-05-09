@@ -6482,6 +6482,305 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/2027676512",
       "imageUrl": "https://ldb-phinf.pstatic.net/20260507_89/1778114541813fhn66_JPEG/1.jpg"
+    },
+    {
+      "naverPlaceId": "450731592",
+      "name": "비어룸",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1320,
+      "addr": "서울특별시 강남구 역삼동 817-37",
+      "hours": "",
+      "tel": "0507-1429-5956",
+      "lat": 37.5008976,
+      "lng": 127.0284742,
+      "priceRange": "",
+      "tags": [
+        "단체가능",
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/450731592",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250320_299/1742453935812DcRkC_JPEG/IMG_0886.jpeg"
+    },
+    {
+      "naverPlaceId": "1257167808",
+      "name": "레이지요거트 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "카페,디저트"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 718,
+      "addr": "서울특별시 강남구 역삼동 831-45 105호",
+      "hours": "",
+      "tel": "0507-2093-4711",
+      "lat": 37.4935928,
+      "lng": 127.0309673,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1257167808",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220102_161/1641112714408FLzmX_JPEG/KakaoTalk_Photo_2022-01-02-17-38-27.jpeg"
+    },
+    {
+      "naverPlaceId": "2069338846",
+      "name": "원파디랩",
+      "type": "브런치카페",
+      "categories": [
+        "브런치카페"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 73,
+      "addr": "서울특별시 강남구 역삼동 831-11 1층 107호",
+      "hours": "",
+      "tel": "0507-1481-1596",
+      "lat": 37.4933971,
+      "lng": 127.0305933,
+      "priceRange": "",
+      "tags": [
+        "점심추천"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2069338846",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251209_225/1765257496669c9WmE_PNG/%B8%DE%C0%CE%BB%E7%C1%F8.png"
+    },
+    {
+      "naverPlaceId": "1805687150",
+      "name": "베네티",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 454,
+      "addr": "서울특별시 강남구 역삼동 810-18 3층",
+      "hours": "",
+      "tel": "0507-1352-9539",
+      "lat": 37.503801,
+      "lng": 127.0260985,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1805687150",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241010_2/1728547221312k77Eg_JPEG/%BA%A3%B3%D7%C6%BC.jpg"
+    },
+    {
+      "naverPlaceId": "2055143889",
+      "name": "사운즈오브애플 강남점",
+      "type": "브런치카페",
+      "categories": [
+        "브런치카페"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 51,
+      "addr": "서울특별시 강남구 역삼동 823-41 1층 사운즈오브애플",
+      "hours": "",
+      "tel": "070-8877-7276",
+      "lat": 37.4984107,
+      "lng": 127.0325247,
+      "priceRange": "",
+      "tags": [
+        "점심추천"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2055143889",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250724_136/1753342783125wGsAy_JPEG/_DSF6839.jpg"
+    },
+    {
+      "naverPlaceId": "1547703165",
+      "name": "마룬브레드",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 202,
+      "addr": "서울특별시 강남구 역삼동 825-20 지하1층 B122호",
+      "hours": "",
+      "tel": "0507-1458-4016",
+      "lat": 37.4976709,
+      "lng": 127.029341,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1547703165",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240619_135/1718771128448HgHu2_JPEG/ttt.jpg"
+    },
+    {
+      "naverPlaceId": "1237308732",
+      "name": "파리크라상 강남역점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 126,
+      "addr": "서울특별시 서초구 서초동 1328-10 1층",
+      "hours": "",
+      "tel": "02-583-2646",
+      "lat": 37.4951265,
+      "lng": 127.0286015,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1237308732",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251208_145/1765167313938MYzWv_JPEG/KakaoTalk_20251208_131427343_02.jpg"
+    },
+    {
+      "naverPlaceId": "1992203822",
+      "name": "팡뮤제 베이커리 강남본점",
+      "type": "카페,디저트",
+      "categories": [
+        "카페,디저트",
+        "베이커리"
+      ],
+      "cat": [
+        "카페"
+      ],
+      "rt": 0,
+      "cnt": 1511,
+      "addr": "서울특별시 강남구 역삼동 827-64 1층",
+      "hours": "",
+      "tel": "0507-1476-8318",
+      "lat": 37.496307,
+      "lng": 127.0321763,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1992203822",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240101_264/1704113136861OX5ov_JPEG/1000066083.jpg"
+    },
+    {
+      "naverPlaceId": "2049989352",
+      "name": "더타코부스 강남역점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "멕시코,남미음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 284,
+      "addr": "서울특별시 강남구 역삼동 826-37 쌍용플래티넘밸류 1층 101호",
+      "hours": "",
+      "tel": "0507-1429-0971",
+      "lat": 37.4955949,
+      "lng": 127.0306992,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2049989352",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250725_270/1753420856977oAhvL_JPEG/1.jpg"
+    },
+    {
+      "naverPlaceId": "1705439631",
+      "name": "닥터로빈 서초점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 464,
+      "addr": "서울특별시 서초구 서초동 1320-10 B1 103호",
+      "hours": "",
+      "tel": "0507-1335-3101",
+      "lat": 37.4966324,
+      "lng": 127.0269076,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1705439631",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260323_100/1774223854293T6BrC_PNG/Rectangle_83.png"
     }
   ],
   "completedQueries": [
@@ -6504,7 +6803,8 @@
     "강남역 파스타",
     "강남역 스테이크",
     "강남역 치킨",
-    "강남역 카페"
+    "강남역 카페",
+    "강남역 브런치"
   ],
-  "timestamp": "2026-05-09T13:00:49.683Z"
+  "timestamp": "2026-05-09T13:01:49.959Z"
 }

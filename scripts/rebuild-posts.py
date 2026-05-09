@@ -1286,20 +1286,34 @@ for post_data in all_posts_meta:
     print(f'  Post {pid:2d} ({slug[:35]:35s}): {len(restaurants)}개 식당 | {char_count:,}자')
 
 # ── data/posts.js 날짜 + 썸네일 업데이트 ──────────────────────────
-print(f'\n날짜 업데이트: date → {TODAY}')
-updated_posts_text = re.sub(
-    r"date:'[0-9]{4}-[0-9]{2}-[0-9]{2}'",
-    f"date:'{TODAY}'",
-    posts_js_text
-)
+print(f'\n날짜 업데이트: date → {TODAY} (강남 {sorted(SKIP_POST_IDS)} 제외)')
+# 라인 단위로 처리해서 SKIP 포스트 라인은 손대지 않음
+def _is_skip_line(line):
+    for skip_id in SKIP_POST_IDS:
+        if re.search(rf'\bid\s*:\s*{skip_id}\b', line):
+            return True
+    return False
 
-# 썸네일 경로 삽입/업데이트
+new_lines = []
+for line in posts_js_text.split('\n'):
+    if _is_skip_line(line):
+        new_lines.append(line)
+    else:
+        new_lines.append(re.sub(
+            r"date:'[0-9]{4}-[0-9]{2}-[0-9]{2}'",
+            f"date:'{TODAY}'",
+            line,
+        ))
+updated_posts_text = '\n'.join(new_lines)
+
+# 썸네일 경로 삽입/업데이트 — SKIP_POST_IDS는 건드리지 않음
 thumb_count = 0
 for pid_str, pimg in img_mapping.items():
+    if int(pid_str) in SKIP_POST_IDS:
+        continue
     thumb = pimg.get('thumb', '')
     if not thumb:
         continue
-    # thumbnail:null 또는 thumbnail:'...' 교체
     pat_null = re.compile(rf"(id:{pid_str},.*?)thumbnail:null", re.DOTALL)
     pat_str = re.compile(rf"(id:{pid_str},.*?)thumbnail:'[^']*'", re.DOTALL)
     if pat_null.search(updated_posts_text):
