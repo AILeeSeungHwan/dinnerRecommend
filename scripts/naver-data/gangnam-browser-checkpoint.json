@@ -4573,6 +4573,99 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1037655034",
       "imageUrl": "https://ldb-phinf.pstatic.net/20231226_201/1703558043886LdPbH_JPEG/KakaoTalk_20231226_110025920.jpg"
+    },
+    {
+      "naverPlaceId": "1139820659",
+      "name": "노크 강남본점",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "요리주점"
+      ],
+      "cat": [
+        "야장"
+      ],
+      "rt": 0,
+      "cnt": 528,
+      "addr": "서울특별시 서초구 서초동 1307-29 2층 노크 강남본점",
+      "hours": "",
+      "tel": "0507-1396-8894",
+      "lat": 37.5003605,
+      "lng": 127.0254863,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1139820659",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251007_206/1759783527886MhxD9_GIF/%C2%F0%B0%AD%B3%B2%BF%F2%C2%A9.gif"
+    },
+    {
+      "naverPlaceId": "1147696021",
+      "name": "토라 강남점",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "이자카야"
+      ],
+      "cat": [
+        "이자카야"
+      ],
+      "rt": 0,
+      "cnt": 1724,
+      "addr": "서울특별시 서초구 서초동 1308-10 202호",
+      "hours": "",
+      "tel": "0507-1380-2958",
+      "lat": 37.5009917,
+      "lng": 127.0251242,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1147696021",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240703_271/1719935791680xnVFm_JPEG/KakaoTalk_20240703_005222148_21.jpg"
+    },
+    {
+      "naverPlaceId": "605076050",
+      "name": "메이탄 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 693,
+      "addr": "서울특별시 서초구 서초동 1309-1 오피스텔 210호",
+      "hours": "",
+      "tel": "02-535-6686",
+      "lat": 37.5020976,
+      "lng": 127.0239304,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/605076050",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260120_80/1768889695830T82fA_JPEG/004%B5%BF%C6%C4%C0%B0.jpg"
     }
   ],
   "completedQueries": [
@@ -4589,7 +4682,8 @@
     "강남역 스시",
     "강남역 초밥",
     "강남역 중식",
-    "강남역 마라탕"
+    "강남역 마라탕",
+    "강남역 짬뽕"
   ],
-  "timestamp": "2026-05-09T12:54:49.304Z"
+  "timestamp": "2026-05-09T12:55:49.111Z"
 }
