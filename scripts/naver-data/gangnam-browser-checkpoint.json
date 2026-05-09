@@ -3549,6 +3549,581 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1777288696",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250624_298/1750756266692PF2Gq_JPEG/KakaoTalk_20250611_132218773.jpg"
+    },
+    {
+      "naverPlaceId": "35553533",
+      "name": "아방궁",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 631,
+      "addr": "서울특별시 강남구 역삼동 831-32 2층",
+      "hours": "",
+      "tel": "0507-1402-0794",
+      "lat": 37.4944692,
+      "lng": 127.0305983,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/35553533",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250819_219/1755588732666aOeDu_JPEG/2.jpg"
+    },
+    {
+      "naverPlaceId": "18400193",
+      "name": "차슈밍",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 955,
+      "addr": "서울특별시 강남구 역삼동 818-8",
+      "hours": "",
+      "tel": "02-3473-8812",
+      "lat": 37.4996727,
+      "lng": 127.0289394,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18400193",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231212_251/1702364937336DKh2w_JPEG/P20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg"
+    },
+    {
+      "naverPlaceId": "18312433",
+      "name": "삼성각",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 840,
+      "addr": "서울특별시 서초구 서초동 1330-18 현대기림오피텔",
+      "hours": "",
+      "tel": "02-598-7779",
+      "lat": 37.4940826,
+      "lng": 127.0282327,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18312433",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191107_227/1573106191534dgp5j_JPEG/1qV3X5JWH37LgLqR7OT-KryU.jpg"
+    },
+    {
+      "naverPlaceId": "1812494362",
+      "name": "남소관 우육도삭면",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 2660,
+      "addr": "서울특별시 강남구 역삼동 820-1 1층 2층 남소관 우육도삭면",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4996761,
+      "lng": 127.0275762,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1812494362",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260320_294/1773981461158pehgc_PNG/20260318_152206.png"
+    },
+    {
+      "naverPlaceId": "13149692",
+      "name": "초선과여포",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 893,
+      "addr": "서울특별시 서초구 서초동 1330-16 2층 201호",
+      "hours": "",
+      "tel": "02-525-9890",
+      "lat": 37.4938971,
+      "lng": 127.0285054,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/13149692",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250519_14/1747652315213AzjCm_JPEG/08.jpg"
+    },
+    {
+      "naverPlaceId": "1604806023",
+      "name": "따롱이훠궈 강남점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 3394,
+      "addr": "서울특별시 서초구 서초동 1316-29 2층",
+      "hours": "",
+      "tel": "0507-1444-7850",
+      "lat": 37.4983148,
+      "lng": 127.0252316,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1604806023",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240417_215/1713321232386koDg0_JPEG/KakaoTalk_20240417_113115097_02.jpg"
+    },
+    {
+      "naverPlaceId": "1991865352",
+      "name": "봉게짬뽕",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 2413,
+      "addr": "서울특별시 강남구 역삼동 616-2 지하1층1호 봉게짬뽕",
+      "hours": "",
+      "tel": "0507-1466-1740",
+      "lat": 37.5035771,
+      "lng": 127.0272641,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1991865352",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20201013_209/1602581373567aqMgc_JPEG/tl5_adAQzPEsr3k5ybZMecKL.jpg"
+    },
+    {
+      "naverPlaceId": "2059741949",
+      "name": "차이룸 강남점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 159,
+      "addr": "서울특별시 강남구 역삼동 826 지하1층",
+      "hours": "",
+      "tel": "0507-1399-0374",
+      "lat": 37.4962533,
+      "lng": 127.0288473,
+      "priceRange": "",
+      "tags": [
+        "단체가능"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2059741949",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260427_187/1777261455621nyvvr_PNG/ChatGPT_Image_2026%B3%E2_4%BF%F9_27%C0%CF_%BF%C0%C8%C4_12_41_43.png"
+    },
+    {
+      "naverPlaceId": "1965610785",
+      "name": "카이 강남역점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 155,
+      "addr": "서울특별시 강남구 역삼동 823-14 1층",
+      "hours": "",
+      "tel": "02-563-0999",
+      "lat": 37.4975353,
+      "lng": 127.0321058,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1965610785",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250325_293/1742853550986HxAzL_JPEG/%BA%BD2%C0%CE%BC%BC%C6%AE-.jpg"
+    },
+    {
+      "naverPlaceId": "2063291106",
+      "name": "현화림 서초본점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 130,
+      "addr": "서울특별시 서초구 서초동 1330 1층 103호",
+      "hours": "",
+      "tel": "0507-1379-5256",
+      "lat": 37.4940036,
+      "lng": 127.0277507,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2063291106",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250916_97/1757984853807Bc0So_JPEG/%C7%F6%C8%AD%B8%B22.jpg"
+    },
+    {
+      "naverPlaceId": "1409279105",
+      "name": "강남반점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 419,
+      "addr": "서울특별시 서초구 서초동 1309-5 대원빌딩 2층 강남반점",
+      "hours": "",
+      "tel": "02-532-7133",
+      "lat": 37.5016579,
+      "lng": 127.0240706,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1409279105",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260324_145/1774316315670QD3li_JPEG/KakaoTalk_20260324_000533839_03.jpg"
+    },
+    {
+      "naverPlaceId": "1815603026",
+      "name": "보배반점 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 1053,
+      "addr": "서울특별시 강남구 역삼동 818-10 1층",
+      "hours": "",
+      "tel": "0507-1367-7818",
+      "lat": 37.4996359,
+      "lng": 127.0288043,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1815603026",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241023_1/1729669513187SeoSw_JPEG/KakaoTalk_20241021_144543337_12.jpg"
+    },
+    {
+      "naverPlaceId": "1912721792",
+      "name": "훠궈나라 강남점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 1271,
+      "addr": "서울특별시 강남구 역삼동 813-8 2층",
+      "hours": "",
+      "tel": "02-554-7701",
+      "lat": 37.5023778,
+      "lng": 127.0265765,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1912721792",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191002_202/1570000859311VSQh0_PNG/74V7hhyA6kkTvxZuXzkysrVa.PNG.png"
+    },
+    {
+      "naverPlaceId": "1636112653",
+      "name": "중식당표량",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 374,
+      "addr": "서울특별시 서초구 서초동 1322-12 2층 중식당표량",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4953495,
+      "lng": 127.0248019,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1636112653",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230315_133/16788549433491KAod_JPEG/%B0%C7%B9%B0%C0%FC%B8%E9.jpg"
+    },
+    {
+      "naverPlaceId": "2140446489",
+      "name": "2018심양양꼬치 강남점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 86,
+      "addr": "서울특별시 강남구 역삼동 817-21 2층 2018심양양꼬치 강남점",
+      "hours": "",
+      "tel": "",
+      "lat": 37.5000961,
+      "lng": 127.0284608,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2140446489",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251201_104/1764564666626lEeqa_JPEG/DSC04393.JPG"
+    },
+    {
+      "naverPlaceId": "1109024709",
+      "name": "반티엔야오 카오위 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 1330,
+      "addr": "서울특별시 서초구 서초동 1317-31 세계빌딩 1층",
+      "hours": "",
+      "tel": "0507-1475-6673",
+      "lat": 37.4984583,
+      "lng": 127.0256435,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1109024709",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221022_24/1666382897123zPgGe_JPEG/%B0%AD%B3%B2%C1%A1_%BF%DC%BA%CE_%BB%E7%C1%F8_%A4%D1_1.jpg"
+    },
+    {
+      "naverPlaceId": "37604496",
+      "name": "일일향 강남역3호점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 600,
+      "addr": "서울특별시 서초구 서초동 1327-1 홍우빌딩3층",
+      "hours": "",
+      "tel": "0507-1351-8133",
+      "lat": 37.4958085,
+      "lng": 127.027513,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37604496",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250327_250/1743063767944zzkuu_JPEG/%C0%CF%C0%CF%C7%E2.jpg"
+    },
+    {
+      "naverPlaceId": "2011999664",
+      "name": "국빈",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 14,
+      "addr": "서울특별시 강남구 역삼동 827-4 지상2층",
+      "hours": "",
+      "tel": "02-555-8883",
+      "lat": 37.496707,
+      "lng": 127.0304396,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2011999664",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260326_161/1774528828561wicrx_PNG/%B1%B9%BA%F3%B8%DE%C0%CE.png"
+    },
+    {
+      "naverPlaceId": "13159767",
+      "name": "리샨 삼성타운점",
+      "type": "중식",
+      "categories": [
+        "중식",
+        "중식당"
+      ],
+      "cat": [
+        "중식"
+      ],
+      "rt": 0,
+      "cnt": 235,
+      "addr": "서울특별시 서초구 서초동 1320-10 삼성전자 서초사옥 지하1층 B107호",
+      "hours": "",
+      "tel": "02-587-6700",
+      "lat": 37.4964231,
+      "lng": 127.0267387,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/13159767",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260318_93/1773825557043YNDT8_JPEG/IMG_6117.jpeg"
     }
   ],
   "completedQueries": [
@@ -3563,7 +4138,8 @@
     "강남역 포차",
     "강남역 일식",
     "강남역 스시",
-    "강남역 초밥"
+    "강남역 초밥",
+    "강남역 중식"
   ],
-  "timestamp": "2026-05-09T12:52:49.535Z"
+  "timestamp": "2026-05-09T12:53:49.130Z"
 }
