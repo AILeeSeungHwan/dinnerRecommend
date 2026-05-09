@@ -58,65 +58,117 @@
       "emoji": "🥡"
     },
     {
-      "name": "논두렁오리주물럭 선릉직영점",
+      "name": "솥내음 스타필드 코엑스몰점",
       "type": "한식",
-      "addr": "대치동 895-9 1층",
-      "hours": "10:00",
+      "addr": "삼성동 159 지하1층 O-107호 라운지",
+      "hours": "10:30",
       "tel": "",
-      "priceRange": "8000~58000",
-      "rating": 5,
-      "reviewCount": 485,
-      "blogCount": 1256,
+      "priceRange": "15900",
+      "rating": 4.9,
+      "reviewCount": 4967,
+      "blogCount": 1160,
       "tags": [
         "리뷰많음",
+        "혼밥가능",
         "점심추천",
         "주차가능",
-        "단체가능"
+        "데이트",
+        "웨이팅맛집"
       ],
       "keywords": [],
       "moods": [
-        "회식"
+        "데이트",
+        "혼밥"
       ],
       "scene": [
         "직장인 점심",
-        "팀 회식"
+        "가볍게 술",
+        "데이트",
+        "혼밥"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "대패 주물럭 한판(2~3인)",
-          "price": 36000,
-          "description": ""
-        },
-        {
-          "name": "대패 주물럭 한판 반(4인)",
-          "price": 48000,
-          "description": ""
+          "name": "신메뉴 불쭈꾸미 솥밥",
+          "price": 15900,
+          "description": "매운맛을 원하는 모든 고객님들을 위해 준비했습니다."
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1066276781",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241119_154/1732017976177Al1KO_JPEG/078A6103.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20241119_111/1732018265838x2rI4_JPEG/KakaoTalk_20241112_135402325_02.jpg",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🍚"
+    },
+    {
+      "name": "멘쇼쿠 코엑스점",
+      "type": "일식·라멘",
+      "addr": "테헤란로 87길 36 도심공항타워",
+      "hours": "11 AM–9 PM",
+      "tel": "07-1408-7226",
+      "priceRange": "13000~17500",
+      "rating": 4.9,
+      "reviewCount": 2655,
+      "blogCount": 227,
+      "tags": [
+        "라멘",
+        "흑마늘오일",
+        "혼밥",
+        "혼밥가능",
+        "점심추천",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "혼밥",
+        "피곤함",
+        "허전함"
+      ],
+      "scene": [
+        "혼자 밥",
+        "라멘",
+        "따뜻한 국물"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "풀 토핑 라멘",
+          "price": 17500,
+          "description": ""
+        },
+        {
+          "name": "백라멘",
+          "price": 13500,
+          "description": ""
+        },
+        {
+          "name": "홍라멘",
+          "price": 13500,
+          "description": ""
+        },
+        {
+          "name": "쇼유라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "시오라멘",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1524681011",
+      "imageUrl": "/images/restaurants/samseong/멘쇼쿠-코엑스점-1.jpg",
+      "imageUrl2": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍜"
     },
     {
       "name": "일상정원 코엑스점",
@@ -184,72 +236,6 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🫕"
-    },
-    {
-      "name": "솔트랑 스테이크 삼성",
-      "type": "스테이크하우스",
-      "addr": "테헤란로 610 지하 1층",
-      "hours": "11:30 AM–9:30 PM",
-      "tel": "02-6012-7429",
-      "priceRange": "8500~23000",
-      "rating": 5,
-      "reviewCount": 184,
-      "blogCount": 369,
-      "tags": [
-        "스테이크",
-        "소금스테이크",
-        "특별한날",
-        "주차가능",
-        "데이트",
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "축하할 일 있음",
-        "데이트"
-      ],
-      "scene": [
-        "특별한 날",
-        "데이트 스테이크",
-        "기념일"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "T-bone (100g당)",
-          "price": 19800,
-          "description": ""
-        },
-        {
-          "name": "솔트허브크런치 토마호크(100g당)",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "쿠스쿠스 타볼레",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "해산물 황태 알리오올리오",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "두바이 아이스크림",
-          "price": 8500,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
-      "imageUrl": "/images/restaurants/samseong/솔트랑-스테이크-삼성-1.jpg",
-      "imageUrl2": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
     },
     {
       "name": "해화장",

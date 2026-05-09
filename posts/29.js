@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "플랫나인",
-      text: "플랫나인 — 한식 전문점",
+      text: "플랫나인 — 리뷰 4,665건이 쌓인 곳",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -31,57 +31,57 @@ const post = {
     {
       type: 'h2',
       id: "고베규카츠-서울-강남점",
-      text: "고베규카츠 서울 강남점 — 시그니처 규카츠 정식 19,000원",
+      text: "고베규카츠 서울 강남점 — 혼밥 가능한 가성비 식당",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a>에서 가장 많이 나가는 메뉴는 규카츠 정식입니다. 가격은 19,000원입니다. 그 외에도 리얼치즈카츠정식, 커리크림우동를 많이 찾으십니다.</p><p>그 외에 불닭크림볶음면(15,000원), 새우 삼겹 덮밥(13,000원), 우삼겹덮밥(13,000원)도 있습니다.</p><p>혼밥하시기에도 편한 구조입니다.</p><p>만원 안쪽으로 해결 가능하십니다. 부담 없이 방문하실 수 있는 가격입니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 혼밥하기에도 부담 없는 분위기입니다. 1인 좌석이 마련되어 있어 혼자 오시는 분들도 편하게 이용하실 수 있습니다.</p><p>한 방문자는 \"규카츠는 느끼하지 않고 구워도 부드러워서 맛있었습니다\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·가성비 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\" style=\"color:var(--primary)\">→ 고베규카츠 서울 강남점 상세 정보 보기</a></p>",
+      html: "<p>규카츠 정식 19,000원. <a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a>의 간판 메뉴입니다. 리얼치즈카츠정식, 커리크림우동도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 불닭크림볶음면(15,000원), 새우 삼겹 덮밥(13,000원), 우삼겹덮밥(13,000원)도 있습니다.</p><p>혼밥하시기에도 편한 구조입니다.</p><p>만원 이하 메뉴가 있어서 부담이 적습니다. 가볍게 한 끼 해결하시기에 좋은 가격대입니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 혼밥하기에도 부담 없는 분위기입니다. 1인 좌석이 마련되어 있어 혼자 오시는 분들도 편하게 이용하실 수 있습니다.</p><p>한 방문자는 \"규카츠는 느끼하지 않고 구워도 부드러워서 맛있었습니다\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·가성비 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\" style=\"color:var(--primary)\">→ 고베규카츠 서울 강남점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "미나리밭오리사냥-강남역점",
-      text: "미나리밭오리사냥 강남역점 — 6천원대 가성비 한 끼",
+      text: "미나리밭오리사냥 강남역점 — 리뷰 5,880건이 쌓인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\">미나리밭오리사냥 강남역점</a>을 방문하시면 생 오리주물럭(중)을 추천드립니다. 45,000원에 드실 수 있습니다. 생 오리주물럭(대), 생 오리로스 사냥(중) 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 생 오리로스 사냥(대)(54,000원), 오리생로스+오리주물럭(65,000원), 대패 오리사냥 600g(36,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 예약이 가능합니다.</p><p>6천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p>고기가 신선워서 만족도가 높습니다. 육질에 대한 긍정적인 리뷰가 다수 확인되었습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>한 방문자는 \"로스 주물럭 둘다 매력있고 아주 맛있었어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·재방문 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\" style=\"color:var(--primary)\">→ 미나리밭오리사냥 강남역점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\">미나리밭오리사냥 강남역점</a>에서 가장 많이 나가는 메뉴는 생 오리주물럭(중)입니다. 가격은 45,000원입니다. 생 오리주물럭(대), 생 오리로스 사냥(중) 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 생 오리로스 사냥(대)(54,000원), 오리생로스+오리주물럭(65,000원), 대패 오리사냥 600g(36,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 예약이 가능합니다.</p><p>만원 안쪽으로 해결 가능하십니다. 부담 없이 방문하실 수 있는 가격입니다.</p><p>고기가 신선워서 만족도가 높습니다. 육질에 대한 긍정적인 리뷰가 다수 확인되었습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>한 방문자는 \"로스 주물럭 둘다 매력있고 아주 맛있었어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·재방문 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\" style=\"color:var(--primary)\">→ 미나리밭오리사냥 강남역점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "팔도밀방-강남본점",
-      text: "팔도밀방 강남본점 — 시그니처 팔도 수육전골 한상 59,000원",
+      text: "팔도밀방 강남본점 — 9천원대 가성비 한 끼",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\">팔도밀방 강남본점</a>. 한식 전문점으로,</p><p>대표 메뉴는 팔도 수육전골 한상 59,000원, 치즈가득 목뼈살찜 42,000원, 팔도해장수육전골 29,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 예약이 가능합니다.</p><p>만원 안쪽으로 해결 가능하십니다. 부담 없이 방문하실 수 있는 가격입니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·재방문·재료 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\" style=\"color:var(--primary)\">→ 팔도밀방 강남본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\">팔도밀방 강남본점</a>. 평점 0점을 유지하고 있는 곳입니다.</p><p>대표 메뉴는 팔도 수육전골 한상 59,000원, 치즈가득 목뼈살찜 42,000원, 팔도해장수육전골 29,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 예약이 가능합니다.</p><p>9천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·재방문·재료 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\" style=\"color:var(--primary)\">→ 팔도밀방 강남본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "정희-강남역점",
-      text: "정희 강남역점 — 시그니처 정희한상 플래터 39,900원",
+      text: "정희 강남역점 — 리뷰 797건 검증 맛집",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/정희 강남역점\">정희 강남역점</a>. 한식 전문점입니다.</p><p>메뉴를 살펴보면, 정희한상 플래터 39,900원 / 정희 삼합 19,900원 / 새우감자전 17,900원 / 강된장 케일 쌈밥 10,900원 등이 있습니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·국물 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/정희 강남역점\" style=\"color:var(--primary)\">→ 정희 강남역점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/정희 강남역점\">정희 강남역점</a>. 한식 전문점으로,</p><p>대표 메뉴는 정희한상 플래터 39,900원, 정희 삼합 19,900원, 새우감자전 17,900원입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·국물 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/정희 강남역점\" style=\"color:var(--primary)\">→ 정희 강남역점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "진구곱창-강남역본점",
-      text: "진구곱창 강남역본점 — 리뷰 6,938건이 쌓인 곳",
+      text: "진구곱창 강남역본점 — 시그니처 한우곱창모둠 소금구이 23,000원",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a>. 평점 0점을 유지하고 있는 곳입니다.</p><p>메뉴를 살펴보면, 한우곱창모둠 소금구이 23,000원 / 한우곱창모둠 양념구이 23,000원 등이 있습니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>만원 이하 메뉴가 있어서 부담이 적습니다. 가볍게 한 끼 해결하시기에 좋은 가격대입니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\" style=\"color:var(--primary)\">→ 진구곱창 강남역본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a>. 한식 전문점으로,</p><p>메뉴를 살펴보면, 한우곱창모둠 소금구이 23,000원 / 한우곱창모둠 양념구이 23,000원 등이 있습니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>5천원대부터 메뉴가 있으니 가볍게 한 끼 하시기에 좋습니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\" style=\"color:var(--primary)\">→ 진구곱창 강남역본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "꼬끼오-장작구이",
-      text: "꼬끼오 장작구이 — 시그니처 한방누룽지통닭 19,900원",
+      text: "꼬끼오 장작구이 — 가성비 한 끼",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4665건</td><td style=\"padding:7px 6px;text-align:center\">19,000~69,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">13775건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\">미나리밭오리사냥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5880건</td><td style=\"padding:7px 6px;text-align:center\">6,000~65,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\">팔도밀방 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1124건</td><td style=\"padding:7px 6px;text-align:center\">9,000~62,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/정희 강남역점\">정희 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">797건</td><td style=\"padding:7px 6px;text-align:center\">10,900~39,900원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">6938건</td><td style=\"padding:7px 6px;text-align:center\">5,500~45,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1098건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4665건</td><td style=\"padding:7px 6px;text-align:center\">19,000~69,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">13775건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/미나리밭오리사냥 강남역점\">미나리밭오리사냥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5880건</td><td style=\"padding:7px 6px;text-align:center\">6,000~65,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/팔도밀방 강남본점\">팔도밀방 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1124건</td><td style=\"padding:7px 6px;text-align:center\">9,000~62,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/정희 강남역점\">정희 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">797건</td><td style=\"padding:7px 6px;text-align:center\">10,900~39,900원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">6938건</td><td style=\"padding:7px 6px;text-align:center\">5,500~45,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1098건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -101,87 +101,92 @@
       "emoji": "🐷"
     },
     {
-      "name": "논두렁오리주물럭 선릉직영점",
+      "name": "그랜드 키친",
       "type": "한식",
-      "addr": "대치동 895-9 1층",
-      "hours": "10:00",
-      "tel": "",
-      "priceRange": "8000~58000",
-      "rating": 5,
-      "reviewCount": 485,
-      "blogCount": 1256,
+      "addr": "테헤란로 521 그랜드 인터컨티넨탈 서울 파르나스 1층",
+      "hours": "18:00",
+      "tel": "02-559-7575",
+      "priceRange": "42500~198000",
+      "rating": 4.5,
+      "reviewCount": 1272,
+      "blogCount": 2259,
       "tags": [
         "리뷰많음",
+        "고평점",
+        "SNS맛집",
+        "웨이팅맛집",
+        "단체가능",
         "점심추천",
-        "주차가능",
-        "단체가능"
+        "주차가능"
       ],
       "keywords": [],
       "moods": [
-        "회식"
+        "데이트",
+        "축하할 일 있음",
+        "기분 좋음"
       ],
       "scene": [
-        "직장인 점심",
-        "팀 회식"
+        "심야 밥",
+        "아침식사",
+        "웨이팅 맛집"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "대패 주물럭 한판(2~3인)",
-          "price": 36000,
+          "name": "아침(성인)",
+          "price": 85000,
           "description": ""
         },
         {
-          "name": "대패 주물럭 한판 반(4인)",
-          "price": 48000,
+          "name": "아침(어린이)",
+          "price": 42500,
+          "description": ""
+        },
+        {
+          "name": "주중-점심(성인)",
+          "price": 173000,
+          "description": ""
+        },
+        {
+          "name": "주중-점심(어린이)",
+          "price": 86500,
+          "description": ""
+        },
+        {
+          "name": "주중-저녁(성인)",
+          "price": 198000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
+      "naverUrl": "https://map.naver.com/p/entry/place/34584853",
+      "imageUrl": "/images/restaurants/samseong/그랜드-키친-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
+      "emoji": "🍱"
     },
     {
-      "name": "회초리씨푸드 대치점",
-      "type": "해물,생선요리",
-      "addr": "대치동 959-12 1층",
-      "hours": "11:30",
+      "name": "김돈이 선릉본점",
+      "type": "돼지고기구이",
+      "addr": "삼성동 140-29 1층",
+      "hours": "10:30",
       "tel": "",
-      "priceRange": "9900~55000",
-      "rating": 5,
-      "reviewCount": 237,
-      "blogCount": 55,
+      "priceRange": "2000~11000",
+      "rating": 4.4,
+      "reviewCount": 836,
+      "blogCount": 1562,
       "tags": [
+        "리뷰많음",
         "주차가능",
         "단체가능",
-        "데이트",
-        "웨이팅맛집"
+        "데이트"
       ],
       "keywords": [],
       "moods": [
         "데이트",
-        "회식",
-        "기분 좋음"
+        "회식"
       ],
       "scene": [
         "저녁 식사",
@@ -192,38 +197,33 @@
       "reservation": true,
       "menuItems": [
         {
-          "name": "회초리디너A코스",
-          "price": 35000,
-          "description": "회초리디너A코스"
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "맛도 양도 일품인 매콤한 김돈이의 오징어 볶음"
         },
         {
-          "name": "회초리디너B코스",
-          "price": 55000,
-          "description": "회초리디너B코스"
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "된장찌개와 계란말이 조합은 언제나 진리"
         },
         {
-          "name": "점심)회초리 정식 (2인이상)",
-          "price": 30000,
-          "description": "탕+제철회+초밥+파스타&돈까스+모찌리도후"
+          "name": "",
+          "price": 8000,
+          "description": "고기집에서 빠질 수 없는 물냉면과 비빔냉면"
         },
         {
-          "name": "\"점심\"백합파스타",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "\"점심\"씨푸드 크림 파스타",
-          "price": 12900,
-          "description": ""
+          "name": "",
+          "price": 2000,
+          "description": "김돈이 본점의 공기밥 당일에 지은 밥으로 제공해드립니다"
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/2056639342",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20251205_248/1764911534995I6Qyo_PNG/20251205_112613.png",
+      "naverUrl": "https://map.naver.com/v5/entry/place/19578744",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250825_90/1756104455572fdnWl_JPEG/%B8%DE%C0%CE_01.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
+      "emoji": "🥩"
     },
     {
       "name": "블룸",

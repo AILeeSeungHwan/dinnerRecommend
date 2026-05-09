@@ -14,45 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "이치규 아브뉴프랑 판교점",
-      "type": "일식",
-      "addr": "동판교로177번길 25 판교 아브뉴프랑 2층 220호",
-      "hours": "AM 11:30 ~ PM 3:00, PM 5:00~10:00",
-      "tel": "031-607-7090",
-      "priceRange": "12000~22000",
-      "rating": 5,
-      "reviewCount": 509,
-      "blogCount": 0,
-      "tags": [
-        "가족",
-        "고평점",
-        "리뷰많음",
-        "웨이팅맛집",
-        "일식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "축하"
-      ],
-      "scene": [
-        "기념일",
-        "접대",
-        "특별한날"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍣"
-    },
-    {
       "name": "정희 판교아브뉴프랑점",
       "type": "한식",
       "addr": "동판교로177번길 25 1층 150호",
@@ -86,6 +47,33 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": "🍱"
+    },
+    {
+      "name": "플링크 판교",
+      "type": "카페",
+      "addr": "경기도 성남시 분당구 백현동 532 1층 12호",
+      "hours": "",
+      "tel": "0507-1428-7222",
+      "priceRange": "",
+      "rating": 4.9,
+      "reviewCount": 479,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1016513873/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260110_238/1768044515819mI9Qe_JPEG/KakaoTalk_20260110_202702660_04.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20260110_22/1768044511399ECU7w_JPEG/KakaoTalk_20260110_202702660_02.jpg",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
     },
     {
       "name": "꿰다",

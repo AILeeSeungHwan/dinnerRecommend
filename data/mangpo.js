@@ -3083,7 +3083,7 @@ const restaurants = [
     "type": "한식",
     "e": "",
     "rt": 4.8,
-    "cnt": 60,
+    "cnt": 0,
     "addr": "경기도 수원시 영통구 망포동 296-12 아부지하면돼지",
     "hours": "10:00에 영업 시작",
     "tel": "07-1313-0683",
@@ -3313,7 +3313,7 @@ const restaurants = [
     "type": "분식",
     "e": "🥢",
     "rt": 4.7,
-    "cnt": 63,
+    "cnt": 0,
     "addr": "수원시 영통2동",
     "hours": "평일 12:00 PM~9:00 / 주말 휴무일",
     "tel": "031-205-0159",
@@ -4970,7 +4970,7 @@ const restaurants = [
     "type": "고기구이",
     "e": "🥩",
     "rt": 4.5,
-    "cnt": 110,
+    "cnt": 0,
     "addr": "수원시 영통로200번길 89 1층",
     "hours": "11:30 AM~3:00 PM, 4:00 PM~11:00",
     "tel": "050-71365-3050",
@@ -5024,7 +5024,7 @@ const restaurants = [
     "type": "고기구이",
     "e": "🥩",
     "rt": 4.5,
-    "cnt": 84,
+    "cnt": 0,
     "addr": "영통동 봉영로1482번길 7-1",
     "hours": "휴무일",
     "tel": "031-202-3166",
@@ -7404,7 +7404,7 @@ const restaurants = [
     "type": "카페",
     "e": "",
     "rt": 4.4,
-    "cnt": 110,
+    "cnt": 0,
     "addr": "경기도 수원시 영통구 망포동 8-12 1층",
     "hours": "10:00에 영업 시작",
     "tel": "07-1469-9601",
@@ -7451,7 +7451,7 @@ const restaurants = [
     "type": "한식",
     "e": "",
     "rt": 4.4,
-    "cnt": 110,
+    "cnt": 0,
     "addr": "경기도 수원시 팔달구 인계동 1134-12",
     "hours": "15:00에 영업 시작",
     "tel": "07-1445-5979",
@@ -7587,7 +7587,7 @@ const restaurants = [
     "type": "패스트푸드",
     "e": "",
     "rt": 4.4,
-    "cnt": 88,
+    "cnt": 0,
     "addr": "경기도 수원시 영통구 신동 933",
     "hours": "",
     "tel": "031-205-6539",
@@ -9319,7 +9319,7 @@ const restaurants = [
     "type": "분식",
     "e": "🥢",
     "rt": 4.3,
-    "cnt": 60,
+    "cnt": 0,
     "addr": "기흥구 서천동 286-3번지 101호 용인시 경기도 KR",
     "hours": "6:00 AM~8:00 PM",
     "tel": "031-206-5008",
@@ -10484,7 +10484,7 @@ const restaurants = [
     "addr": "경기도 수원시 영통구 신동 933-9 3층",
     "hours": "11:30에 영업 시작",
     "tel": "07-1309-0494",
-    "priceRange": "17900~4900129000",
+    "priceRange": "",
     "lat": 37.2470078,
     "lng": 127.0436435,
     "cat": [
@@ -10531,7 +10531,7 @@ const restaurants = [
       },
       {
         "menuName": "와인 (글래스 와인 ~ 프리미엄와인)",
-        "price": 4900129000,
+        "price": 0,
         "description": ""
       },
       {
@@ -11447,7 +11447,7 @@ const restaurants = [
     "type": "고기구이·곱창",
     "e": "🥩",
     "rt": 4.2,
-    "cnt": 60,
+    "cnt": 0,
     "addr": "영통동 985-6",
     "hours": "12:00 PM~11:30",
     "tel": "031-202-9254",
@@ -13220,7 +13220,7 @@ const restaurants = [
     "type": "한식",
     "e": "🍱",
     "rt": 4.1,
-    "cnt": 71,
+    "cnt": 0,
     "addr": "매탄3동 540-4",
     "hours": "11:30 AM~10:00 PM",
     "tel": "031-217-6388",
@@ -13263,7 +13263,7 @@ const restaurants = [
     "type": "칼국수·해산물",
     "e": "🦪",
     "rt": 4.1,
-    "cnt": 63,
+    "cnt": 0,
     "addr": "영통1동 1001-8",
     "hours": "11:00 AM~9:30 PM",
     "tel": "",
@@ -13318,7 +13318,7 @@ const restaurants = [
     "type": "기타",
     "e": "",
     "rt": 4.1,
-    "cnt": 63,
+    "cnt": 0,
     "addr": "경기도 수원시 권선구 권선동 1296-7 114-1호 본죽&비빔밥",
     "hours": "09:00에 영업 시작",
     "tel": "031-239-8080",
@@ -13665,7 +13665,7 @@ const restaurants = [
     "type": "한식",
     "e": "",
     "rt": 4,
-    "cnt": 3985,
+    "cnt": 0,
     "addr": "경기도 수원시 권선구 권선동 1369",
     "hours": "08:00에 영업 시작",
     "tel": "",
@@ -13758,11 +13758,11 @@ const restaurants = [
     "type": "한식",
     "e": "",
     "rt": 4,
-    "cnt": 3985,
+    "cnt": 0,
     "addr": "경기도 수원시 권선구 권선동 1369 수원농수산물시장",
     "hours": "09:00에 영업 시작",
     "tel": "07-1440-2138",
-    "priceRange": "97000~62000110000",
+    "priceRange": "",
     "lat": 37.2549,
     "lng": 127.030404,
     "cat": [
@@ -13790,22 +13790,22 @@ const restaurants = [
     "menuItems": [
       {
         "menuName": "믿음활모둠회 (소(2인), 중(3인), 대(4인))",
-        "price": 5200092000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "활고등어참돔회 (소(2인), 중(2~3인))",
-        "price": 5500075000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "광어도다리세꼬시회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 5000090000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "광우회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 5200095000,
+        "price": 0,
         "description": ""
       },
       {
@@ -13815,27 +13815,27 @@ const restaurants = [
       },
       {
         "menuName": "우럭도다리세꼬시회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 57000105000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "참돔광어회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 5000090000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "참광연회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 4500085000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "참광우회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 57000105000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "우럭참돔회 (소(2인), 중(2~3인), 대(3~4인))",
-        "price": 62000110000,
+        "price": 0,
         "description": ""
       }
     ],
@@ -13851,11 +13851,11 @@ const restaurants = [
     "type": "기타",
     "e": "",
     "rt": 4,
-    "cnt": 3985,
+    "cnt": 0,
     "addr": "경기도 수원시 권선구 권선동 1369 수원수산시장 수산동 002번",
     "hours": "07:30에 영업 시작",
     "tel": "07-1336-5018",
-    "priceRange": "2000025000~252000294000",
+    "priceRange": "",
     "lat": 37.2549,
     "lng": 127.030404,
     "cat": [
@@ -13884,27 +13884,27 @@ const restaurants = [
     "menuItems": [
       {
         "menuName": "A급러시아산대게(마리) (800g~2.8kg)",
-        "price": 52000294000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "A급 러시아 레드 킹크랩(마리) (1.2kg~2.4kg)",
-        "price": 90000240000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "A급 러시아 블루 킹크랩(마리) (2.4kg~2.8kg)",
-        "price": 252000294000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "A급 캐나다산 랍스터(마리) (800g~1.2kg)",
-        "price": 6000090000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "추가 해물 모둠 (냉동흰다리새우(소), 가리비(중), 참소라(대))",
-        "price": 2000025000,
+        "price": 0,
         "description": ""
       }
     ],
@@ -14447,7 +14447,7 @@ const restaurants = [
     "type": "한식",
     "e": "🍱",
     "rt": 4,
-    "cnt": 71,
+    "cnt": 0,
     "addr": "매영로345번길 7 2층 204호",
     "hours": "11:00 AM~9:00 PM",
     "tel": "",
@@ -16443,7 +16443,7 @@ const restaurants = [
     "type": "한식",
     "e": "🍱",
     "rt": 3.9,
-    "cnt": 88,
+    "cnt": 0,
     "addr": "덕영대로1555번길 13",
     "hours": "휴무일",
     "tel": "031-206-8114",
@@ -16486,7 +16486,7 @@ const restaurants = [
     "type": "한식",
     "e": "🍱",
     "rt": 3.9,
-    "cnt": 84,
+    "cnt": 0,
     "addr": "영통동 971-1",
     "hours": "10:00 AM~9:30 PM",
     "tel": "031-205-6288",
@@ -17256,7 +17256,7 @@ const restaurants = [
     "type": "보양식",
     "e": "🍲",
     "rt": 3.8,
-    "cnt": 71,
+    "cnt": 0,
     "addr": "영통동 1009-1",
     "hours": "영업시간 확인 필요",
     "tel": "031-203-8533",
@@ -18539,7 +18539,7 @@ const restaurants = [
     "addr": "경기도 수원시 권선구 권선동 1293-8",
     "hours": "15:00에 영업 시작",
     "tel": "031-223-6565",
-    "priceRange": "55000~7500095000",
+    "priceRange": "",
     "lat": 37.2512801,
     "lng": 127.036297,
     "cat": [
@@ -18572,22 +18572,22 @@ const restaurants = [
       },
       {
         "menuName": "광어",
-        "price": 4500065000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "우럭",
-        "price": 5700067000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "광어+우럭",
-        "price": 4700067000,
+        "price": 0,
         "description": ""
       },
       {
         "menuName": "모듬회",
-        "price": 4700067000,
+        "price": 0,
         "description": ""
       },
       {
@@ -18597,7 +18597,7 @@ const restaurants = [
       },
       {
         "menuName": "참돔",
-        "price": 6000075000,
+        "price": 0,
         "description": ""
       },
       {
@@ -18612,7 +18612,7 @@ const restaurants = [
       },
       {
         "menuName": "모둠회+해물+매운탕",
-        "price": 7500095000,
+        "price": 0,
         "description": ""
       }
     ],
@@ -22116,7 +22116,7 @@ const restaurants = [
     "type": "분식",
     "e": "",
     "rt": 0,
-    "cnt": 88,
+    "cnt": 0,
     "addr": "경기도 수원시 영통구 망포동 223-9 1층",
     "hours": "10:00에 영업 시작",
     "tel": "031-205-9284",
@@ -22150,7 +22150,7 @@ const restaurants = [
     "type": "한식",
     "e": "",
     "rt": 0,
-    "cnt": 84,
+    "cnt": 0,
     "addr": "경기도 수원시 영통구 신동 486 101동 104호",
     "hours": "10:00에 영업 시작",
     "tel": "07-1370-3029",

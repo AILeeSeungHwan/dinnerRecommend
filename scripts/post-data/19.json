@@ -54,90 +54,6 @@
       "emoji": "🥩"
     },
     {
-      "name": "갈비꽃망포점",
-      "type": "고기구이",
-      "addr": "수원시 영통로200번길 89 1층",
-      "hours": "11:30 AM~3:00 PM, 4:00 PM~11:00",
-      "tel": "050-71365-3050",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 110,
-      "blogCount": 0,
-      "tags": [
-        "가족",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "점심추천",
-        "주차가능",
-        "친절",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "한마음정육식당 영통점",
-      "type": "고기구이",
-      "addr": "영통동 봉영로1482번길 7-1",
-      "hours": "휴무일",
-      "tel": "031-202-3166",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 84,
-      "blogCount": 0,
-      "tags": [
-        "가성비",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "친절",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥩"
-    },
-    {
       "name": "십년한우실비집 수원망포점",
       "type": "고기구이",
       "addr": "덕영대로1556번길 16 168,169",
@@ -209,6 +125,90 @@
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",
       "emoji": ""
+    },
+    {
+      "name": "갈비꽃망포점",
+      "type": "고기구이",
+      "addr": "수원시 영통로200번길 89 1층",
+      "hours": "11:30 AM~3:00 PM, 4:00 PM~11:00",
+      "tel": "050-71365-3050",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "가족",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "점심추천",
+        "주차가능",
+        "친절",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "한마음정육식당 영통점",
+      "type": "고기구이",
+      "addr": "영통동 봉영로1482번길 7-1",
+      "hours": "휴무일",
+      "tel": "031-202-3166",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "친절",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥩"
     }
   ],
   "categoryStats": {},

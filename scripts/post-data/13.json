@@ -14,52 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "또또지짐이",
-      "type": "야장·이자카야",
-      "addr": "매탄3동 신원로250번길 10 KR",
-      "hours": "4:00 PM~12:00 AM",
-      "tel": "031-216-1232",
-      "priceRange": "12000~20000",
-      "rating": 4.5,
-      "reviewCount": 294,
-      "blogCount": 0,
-      "tags": [
-        "SNS맛집",
-        "고평점",
-        "단체가능",
-        "리뷰많음",
-        "안주",
-        "야장",
-        "예약필수",
-        "이자카야",
-        "포차감성",
-        "하이볼",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "심야 밥",
-        "야장에 맥주",
-        "퇴근 후 한잔"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": "🍶"
-    },
-    {
       "name": "서재명가부대찌개",
       "type": "고기구이·국밥",
       "addr": "삼성로168번길 17",
@@ -302,6 +256,52 @@
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",
       "emoji": "🦪"
+    },
+    {
+      "name": "또또지짐이",
+      "type": "야장·이자카야",
+      "addr": "매탄3동 신원로250번길 10 KR",
+      "hours": "4:00 PM~12:00 AM",
+      "tel": "031-216-1232",
+      "priceRange": "12000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "SNS맛집",
+        "고평점",
+        "단체가능",
+        "리뷰많음",
+        "안주",
+        "야장",
+        "예약필수",
+        "이자카야",
+        "포차감성",
+        "하이볼",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "심야 밥",
+        "야장에 맥주",
+        "퇴근 후 한잔"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🍶"
     }
   ],
   "categoryStats": {},

@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "곱창과순댓국의만남",
-      text: "곱창과순댓국의만남 — 가성비 국밥집",
+      text: "곱창과순댓국의만남 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a>에서 가장 많이 나가는 메뉴는 소곱창전골입니다. 가격은 25,000원입니다. 그 외에도 모듬구이, 막창를 많이 찾으십니다.</p><p>그 외에 대창(22,000원), 곱창(22,000원)도 있습니다.</p><p>예약이 가능합니다.</p><p>1,461건 리뷰에 4.6점이라는 점에서 인지도가 높은 편입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다.</p><p>한 방문자는 \"직접 구워주시고, 친절하세요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·국물·가성비 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\" style=\"color:var(--primary)\">→ 곱창과순댓국의만남 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a>에서 가장 많이 나가는 메뉴는 소곱창전골입니다. 가격은 25,000원입니다. 모듬구이, 막창도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 대창(22,000원), 곱창(22,000원)도 있습니다.</p><p>예약이 가능합니다.</p><p>1,461건 리뷰에 4.6점이라는 점에서 인지도가 높은 편입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다.</p><p>한 방문자는 \"직접 구워주시고, 친절하세요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·국물·가성비 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\" style=\"color:var(--primary)\">→ 곱창과순댓국의만남 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a>에서 가장 많이 나가는 메뉴는 해장국입니다. 가격은 12,000원입니다. 내장탕, 한치물회도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 양무침(16,000원), 돔베모둠(38,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>평점 4.3점, 리뷰 784건. 큰 호불호 없이 이용되는 편입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재료 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\" style=\"color:var(--primary)\">→ 제주은희네해장국 잠실직영점 상세 정보 보기</a></p>",
+      html: "<p>해장국 12,000원. <a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a>의 간판 메뉴입니다. 내장탕, 한치물회도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 양무침(16,000원), 돔베모둠(38,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>784건 리뷰에 4.3점이면 동네 단골 식당 정도로 보면 됩니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재료 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\" style=\"color:var(--primary)\">→ 제주은희네해장국 잠실직영점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,12 +64,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a>. 평점 4.3점, 리뷰 632건 정도 있습니다.</p><p>리뷰 632건에 4.3점 정도로 무난한 평가가 쌓여 있습니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\" style=\"color:var(--primary)\">→ 비사벌전주콩나물국밥 상세 정보 보기</a></p>",
+      html: "<p>한식 하면 <a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a>도 빠지지 않습니다. 평점 4.3점입니다.</p><p>리뷰 632건에 4.3점 정도로 무난한 평가가 쌓여 있습니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\" style=\"color:var(--primary)\">→ 비사벌전주콩나물국밥 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "본가설렁탕",
-      text: "본가설렁탕 — 해장·국밥 한 그릇",
+      text: "본가설렁탕 — 시그니처 설렁탕 15,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -80,12 +80,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a>. 평점 4.2점, 리뷰 1711건 정도 있습니다.</p><p>설렁탕 15,000원이 가장 인기 있는 메뉴이며, 본가탕 17,000원, 해장국 15,000원도 추천드립니다.</p><p>1,711건 리뷰에 4.2점이라는 점에서 인지도가 높은 편입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 국물·양·맛 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/본가설렁탕\" style=\"color:var(--primary)\">→ 본가설렁탕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a>. 한식 전문점으로, 평점 4.2점에 리뷰 1711건을 기록하고 있습니다.</p><p>대표 메뉴는 설렁탕 15,000원, 본가탕 17,000원, 해장국 15,000원입니다.</p><p>1,711건 리뷰에 4.2점이라는 점에서 인지도가 높은 편입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 국물·양·맛 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/본가설렁탕\" style=\"color:var(--primary)\">→ 본가설렁탕 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "잠실설렁탕",
-      text: "잠실설렁탕 — 리뷰 1,711건이 쌓인 곳",
+      text: "잠실설렁탕 — 시그니처 진국설렁탕 12,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a>. 한식 전문점입니다. 4.2점에 리뷰 1711건이 쌓여 있습니다.</p><p>메뉴를 살펴보면, 진국설렁탕 12,000원 / 오늘밥상 10,000원 / 왕만두(고기 4개) 8,000원 / 홍어라면 7,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 1,711건이 쌓일 만큼 방문자가 많은 곳이며, 평점은 4.2점입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>국물이 진하다는 평이 많습니다. 특히 추운 날씨에 방문하시면 만족도가 높을 것으로 보입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\" style=\"color:var(--primary)\">→ 잠실설렁탕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a>. 한식 전문점입니다. 4.2점에 리뷰 1711건이 쌓여 있습니다.</p><p>대표 메뉴는 진국설렁탕 12,000원, 오늘밥상 10,000원, 왕만두(고기 4개) 8,000원입니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>평점 4.2점, 리뷰 1,711건. 이 동네에서 자주 언급되는 곳 중 하나입니다. 국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.</p><p>국물이 진하다는 평이 많습니다. 특히 추운 날씨에 방문하시면 만족도가 높을 것으로 보입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\" style=\"color:var(--primary)\">→ 잠실설렁탕 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">1461건</td><td style=\"padding:7px 6px;text-align:center\">12,000~25,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">632건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~99,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">7,000~100,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">1461건</td><td style=\"padding:7px 6px;text-align:center\">12,000~25,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">632건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~99,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">7,000~100,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -60,129 +60,6 @@
       "emoji": "🏮"
     },
     {
-      "name": "순우가",
-      "type": "고기구이",
-      "addr": "대왕판교로645번길 36",
-      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
-      "tel": "031-606-8516",
-      "priceRange": "12000~22000",
-      "rating": 4.6,
-      "reviewCount": 159,
-      "blogCount": 0,
-      "tags": [
-        "가성비",
-        "가족",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "룸있음",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "늘푸른 생선구이",
-      "type": "고기구이",
-      "addr": "판교역로 145 알파리움 2동 102호,103호",
-      "hours": "AM 11:00 ~ PM 10:00",
-      "tel": "070-8835-4777",
-      "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 113,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "데이트",
-        "웨이팅맛집",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "우화",
-      "type": "고기구이",
-      "addr": "동판교로177번길 25",
-      "hours": "PM 5:30~10:00",
-      "tel": "031-707-4775",
-      "priceRange": "12000~22000",
-      "rating": 4.8,
-      "reviewCount": 120,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "데이트",
-        "예약필수",
-        "웨이팅맛집",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
       "name": "불고기 온소반",
       "type": "고기구이",
       "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
@@ -262,6 +139,129 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": "🥟"
+    },
+    {
+      "name": "늘푸른 생선구이",
+      "type": "고기구이",
+      "addr": "판교역로 145 알파리움 2동 102호,103호",
+      "hours": "AM 11:00 ~ PM 10:00",
+      "tel": "070-8835-4777",
+      "priceRange": "12000~22000",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "데이트",
+        "웨이팅맛집",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "우화",
+      "type": "고기구이",
+      "addr": "동판교로177번길 25",
+      "hours": "PM 5:30~10:00",
+      "tel": "031-707-4775",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "데이트",
+        "예약필수",
+        "웨이팅맛집",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "순우가",
+      "type": "고기구이",
+      "addr": "대왕판교로645번길 36",
+      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
+      "tel": "031-606-8516",
+      "priceRange": "12000~22000",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "가족",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "룸있음",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
     }
   ],
   "categoryStats": {},

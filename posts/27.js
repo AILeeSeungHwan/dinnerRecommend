@@ -31,12 +31,12 @@ const post = {
     {
       type: 'h2',
       id: "플랫나인",
-      text: "플랫나인 — 시그니처 시그니처 코스 59,000원",
+      text: "플랫나인 — 리뷰 4,665건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a>에서 가장 많이 나가는 메뉴는 시그니처 코스입니다. 가격은 59,000원입니다. 클래식 코스, Signature Cocktail 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 NonAlcohol Signature(19,000원), Wine도 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 예약이 가능합니다.</p><p>코스 기준 인당 1~6만원대입니다. 특별한 날에 어울리는 가격대라 하겠습니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 코스 구성에 대한 만족도가 높습니다. 코스별로 완성도가 뛰어나다는 평가를 받고 있습니다.</p><p>한 방문자는 \"친구 생일이라 다녀왔는데 분위기도 너무 좋고 주말 점심때도 재즈공연 있어서 넘 좋았어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·서비스·맛 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/플랫나인\" style=\"color:var(--primary)\">→ 플랫나인 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a>에서 가장 많이 나가는 메뉴는 시그니처 코스입니다. 가격은 59,000원입니다. 클래식 코스, Signature Cocktail 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 NonAlcohol Signature(19,000원), Wine도 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 예약이 가능합니다.</p><p>인당 1~6만원 선입니다. 데이트 코스로 적합한 가격대입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 코스 구성에 대한 만족도가 높습니다. 코스별로 완성도가 뛰어나다는 평가를 받고 있습니다.</p><p>한 방문자는 \"친구 생일이라 다녀왔는데 분위기도 너무 좋고 주말 점심때도 재즈공연 있어서 넘 좋았어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·서비스·맛 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/플랫나인\" style=\"color:var(--primary)\">→ 플랫나인 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -46,7 +46,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a>을 방문하시면 트리플민트(시그니처)을 추천드립니다. 4,000원에 드실 수 있습니다. 통 돼지 바베큐 150g, 김치볶음밥 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 매콤비빔국수(8,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다. 예약이 가능합니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>한 방문자는 \"퇴근 후 가볍게 맥주 한잔 하기 딱 좋은 분위기였어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\" style=\"color:var(--primary)\">→ 빨간의자집 강남역점 상세 정보 보기</a></p>",
+      html: "<p>트리플민트(시그니처) 4,000원. <a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a>의 대표 메뉴입니다. 통 돼지 바베큐 150g, 김치볶음밥도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 매콤비빔국수(8,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다. 예약이 가능합니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>한 방문자는 \"퇴근 후 가볍게 맥주 한잔 하기 딱 좋은 분위기였어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\" style=\"color:var(--primary)\">→ 빨간의자집 강남역점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -56,7 +56,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a>.</p><p>메뉴를 살펴보면, 시오토리 라멘 14,000원 / 푸와푸와 라이스 9,000원 / 명란마제소바 14,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>국물이 진하다는 평이 많습니다. 특히 추운 날씨에 방문하시면 만족도가 높을 것으로 보입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\" style=\"color:var(--primary)\">→ 쿄코코 신논현점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a>. 평점 0점을 유지하고 있는 곳입니다.</p><p>메뉴를 살펴보면, 시오토리 라멘 14,000원 / 푸와푸와 라이스 9,000원 / 명란마제소바 14,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>국물이 진하다는 평이 많습니다. 특히 추운 날씨에 방문하시면 만족도가 높을 것으로 보입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\" style=\"color:var(--primary)\">→ 쿄코코 신논현점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -66,17 +66,17 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a>. 평점 0점을 유지하고 있는 곳입니다.</p><p>메뉴를 살펴보면, 한우곱창모둠 소금구이 23,000원 / 한우곱창모둠 양념구이 23,000원 등이 있습니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\" style=\"color:var(--primary)\">→ 진구곱창 강남역본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a>. 한식 전문점으로,</p><p>메뉴를 살펴보면, 한우곱창모둠 소금구이 23,000원 / 한우곱창모둠 양념구이 23,000원 등이 있습니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\" style=\"color:var(--primary)\">→ 진구곱창 강남역본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "밤별-포차-라운지-강남역본점",
-      text: "밤별 포차 라운지 강남역본점 — 이자카야 전문점",
+      text: "밤별 포차 라운지 강남역본점 — 리뷰 1,237건이 쌓인 곳",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a>. 이자카야 전문점으로,</p><p>타코와사비 21,000원이 가장 인기 있는 메뉴이며, 피쉬앤칩스 21,500원, 오뎅탕 23,000원도 추천드립니다.</p><p>단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·재방문 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\" style=\"color:var(--primary)\">→ 밤별 포차 라운지 강남역본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a>. 평점 0점을 유지하고 있는 곳입니다.</p><p>대표 메뉴는 타코와사비 21,000원, 피쉬앤칩스 21,500원, 오뎅탕 23,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·재방문 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\" style=\"color:var(--primary)\">→ 밤별 포차 라운지 강남역본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/82올리언즈 강남점\">82올리언즈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3430건</td><td style=\"padding:7px 6px;text-align:center\">12,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4665건</td><td style=\"padding:7px 6px;text-align:center\">19,000~69,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5657건</td><td style=\"padding:7px 6px;text-align:center\">4,000~18,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">11673건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">6938건</td><td style=\"padding:7px 6px;text-align:center\">5,500~45,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1098건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/82올리언즈 강남점\">82올리언즈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3430건</td><td style=\"padding:7px 6px;text-align:center\">12,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/플랫나인\">플랫나인</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4665건</td><td style=\"padding:7px 6px;text-align:center\">19,000~69,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5657건</td><td style=\"padding:7px 6px;text-align:center\">4,000~18,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">11673건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/진구곱창 강남역본점\">진구곱창 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">6938건</td><td style=\"padding:7px 6px;text-align:center\">5,500~45,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1098건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
     },
     {
       type: 'h2',

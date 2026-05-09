@@ -171,68 +171,47 @@
       "emoji": "🍚"
     },
     {
-      "name": "바오로흑염소 선릉점",
-      "type": "한식",
-      "addr": "역삼동 697-11 2층",
-      "hours": "10:00",
-      "tel": "",
-      "priceRange": "20000~70000",
-      "rating": 5,
-      "reviewCount": 111,
-      "blogCount": 513,
+      "name": "개성집",
+      "type": "족발·보쌈",
+      "addr": "South Korea",
+      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 8:00",
+      "tel": "02-562-9455",
+      "priceRange": "10000~20000",
+      "rating": 4.9,
+      "reviewCount": 2655,
+      "blogCount": 59,
       "tags": [
-        "리뷰많음",
-        "혼밥가능",
         "점심추천",
-        "주차가능",
-        "데이트"
+        "가성비",
+        "한식",
+        "주차가능"
       ],
       "keywords": [],
       "moods": [
-        "데이트",
-        "혼밥"
+        "회식",
+        "데이트"
       ],
       "scene": [
-        "직장인 점심",
-        "데이트",
-        "혼밥"
+        "회식 2차",
+        "야식",
+        "든든하게"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "수육(1人)",
-          "price": 45000,
-          "description": "특수부위인 배받이살과 목살로 몸보신하세요"
-        },
-        {
-          "name": "바오로흑염소의 대표메뉴 흑염소갈비",
-          "price": 49000,
-          "description": ""
-        },
-        {
-          "name": "전골(1人)",
-          "price": 40000,
-          "description": "특수부위를 진한육수에 맛있게 끓여먹는 전골"
-        },
-        {
-          "name": "흑염소 버섯불고기전골",
-          "price": 30000,
-          "description": "다양한 버섯과 채소로 인기만점 영양가득 흑염소불고기"
-        },
-        {
-          "name": "수육+무침+튀김+전골",
-          "price": 70000,
-          "description": ""
+          "name": "삼겹살",
+          "price": 14000,
+          "description": "국내산 삼겹살입니다."
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1869427228",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260219_166/1771476930186xEjwL_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%B9%AE%BB%E7%C1%F8.png",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20260310_194/1773133436979ObrkM_JPEG/%BC%F6%C0%B0_%BB%E7%C1%F8.jpg",
+      "naverUrl": "https://map.naver.com/p/entry/place/1638730946",
+      "imageUrl": "/images/restaurants/samseong/개성집-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
+      "emoji": "🐷"
     },
     {
       "name": "수림복국 선릉 삼성 별관",
@@ -242,7 +221,7 @@
       "tel": "",
       "priceRange": "",
       "rating": 5,
-      "reviewCount": 94,
+      "reviewCount": 0,
       "blogCount": 298,
       "tags": [
         "점심추천",

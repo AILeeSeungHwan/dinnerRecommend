@@ -61,91 +61,6 @@
       "emoji": "🥟"
     },
     {
-      "name": "김래하닭갈비",
-      "type": "고기구이·치킨",
-      "addr": "영통동 1040-8번지 1층",
-      "hours": "휴무일",
-      "tel": "031-206-0906",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 122,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "치킨",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "치맥",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🥩"
-    },
-    {
-      "name": "이수국밥",
-      "type": "국밥",
-      "addr": "청명남로50번길 13-1",
-      "hours": "11:00 AM~9:00 PM",
-      "tel": "",
-      "priceRange": "10000~20000",
-      "rating": 4.6,
-      "reviewCount": 59,
-      "blogCount": 0,
-      "tags": [
-        "가족",
-        "고평점",
-        "국물요리",
-        "국밥",
-        "해장"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "피곤함",
-        "허전함",
-        "혼밥"
-      ],
-      "scene": [
-        "심야 밥",
-        "해장",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🥣"
-    },
-    {
       "name": "돈부리인생",
       "type": "일식",
       "addr": "영통동 번지 102호 992-8 KR",
@@ -257,6 +172,91 @@
       "regionName": "영통",
       "regionPath": "/samsungElectronics/yeongtong",
       "emoji": "🍝"
+    },
+    {
+      "name": "이수국밥",
+      "type": "국밥",
+      "addr": "청명남로50번길 13-1",
+      "hours": "11:00 AM~9:00 PM",
+      "tel": "",
+      "priceRange": "10000~20000",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "가족",
+        "고평점",
+        "국물요리",
+        "국밥",
+        "해장"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "피곤함",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "심야 밥",
+        "해장",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥣"
+    },
+    {
+      "name": "김래하닭갈비",
+      "type": "고기구이·치킨",
+      "addr": "영통동 1040-8번지 1층",
+      "hours": "휴무일",
+      "tel": "031-206-0906",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "웨이팅맛집",
+        "치킨",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "치맥",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥩"
     }
   ],
   "categoryStats": {},

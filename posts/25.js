@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 일식 전문점으로, 평점 5점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 33건에 5점이면 꾸준히 무난한 편입니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·재료·분위기 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 샤브향 수원매탄점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>. 일식 전문점으로, 평점 5점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>평점 5점, 리뷰 33건으로 안정적인 평가를 받고 있습니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·재료·분위기 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary)\">→ 샤브향 수원매탄점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -43,7 +43,7 @@ const post = {
     {
       type: 'h2',
       id: "천애부히쇼우-망포-본점",
-      text: "천애부히쇼우 망포 본점 — 뷰가 보이는 자리",
+      text: "천애부히쇼우 망포 본점 — 시그니처 스테이크덮밥 13,500원",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -54,7 +54,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>스테이크덮밥 13,500원. <a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a>의 간판 메뉴입니다. 미소우동, 대창덮밥도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 가라아게냉우동(11,500원), 가라아게덮밥(12,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>리뷰 8건에 5점이면 꾸준히 무난한 편입니다. 창가 자리는 예약이 빨리 마감되는 편이니 미리 잡아두시는 것을 권합니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다.</p><p>한 방문자는 \"국물은 진한 맛이 났고 돈까스는 두껍게 썰어서 베어 먹으니 튀김옷 바삭했습니다\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·재방문 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\" style=\"color:var(--primary)\">→ 천애부히쇼우 망포 본점 상세 정보 보기</a></p>",
+      html: "<p>스테이크덮밥 13,500원. <a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a>의 대표 메뉴입니다. 미소우동, 대창덮밥 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 가라아게냉우동(11,500원), 가라아게덮밥(12,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>5점·리뷰 8건. 방문자 평이 비교적 일관되게 좋은 편입니다. 창가 자리는 예약이 빨리 마감되는 편이니 미리 잡아두시는 것을 권합니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다.</p><p>한 방문자는 \"국물은 진한 맛이 났고 돈까스는 두껍게 썰어서 베어 먹으니 튀김옷 바삭했습니다\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·재방문 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\" style=\"color:var(--primary)\">→ 천애부히쇼우 망포 본점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -76,7 +76,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a>. 일식 전문점으로, 평점 5점에 리뷰 7건을 기록하고 있습니다.</p><p>평점 5점, 리뷰 7건으로 안정적인 평가를 받고 있습니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\" style=\"color:var(--primary)\">→ 오무란 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a>. 일식 전문점입니다. 5점에 리뷰 7건이 쌓여 있습니다.</p><p>평점 5점, 리뷰 7건으로 안정적인 평가를 받고 있습니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\" style=\"color:var(--primary)\">→ 오무란 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -92,7 +92,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a>. 카페 전문점으로, 평점 5점에 리뷰 5건을 기록하고 있습니다.</p><p>아메리카노(I/H) 3,000원이 가장 인기 있는 메뉴이며, 카푸치노(Only Hot) 4,000원, 카페라떼(I/H) 4,000원도 추천드립니다.</p><p>가성비가 좋다는 평이 많습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>평점 5점, 리뷰 5건으로 안정적인 평가를 받고 있습니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\" style=\"color:var(--primary)\">→ 위노잉커피 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a>. 카페 전문점으로, 평점 5점에 리뷰 5건을 기록하고 있습니다.</p><p>메뉴를 살펴보면, 아메리카노(I/H) 3,000원 / 카푸치노(Only Hot) 4,000원 / 카페라떼(I/H) 4,000원 / 바닐라라떼(I/H) 5,000원 등이 있습니다.</p><p>가성비가 좋다는 평이 많습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 5건에 5점이면 꾸준히 무난한 편입니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\" style=\"color:var(--primary)\">→ 위노잉커피 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -108,7 +108,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>술집 하면 <a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>5점·리뷰 5건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 안주 퀄리티가 괜찮습니다. 메인 메뉴 외에도 사이드 메뉴의 완성도가 높다는 평입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·국물 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\" style=\"color:var(--primary)\">→ 이차선술집 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a>. 술집 전문점입니다. 5점에 리뷰 5건이 쌓여 있습니다.</p><p>리뷰 5건에 5점이면 꾸준히 무난한 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 안주 퀄리티가 괜찮습니다. 메인 메뉴 외에도 사이드 메뉴의 완성도가 높다는 평입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·국물 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\" style=\"color:var(--primary)\">→ 이차선술집 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -118,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">8건</td><td style=\"padding:7px 6px;text-align:center\">1,100~26,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">100~6,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">8건</td><td style=\"padding:7px 6px;text-align:center\">1,100~26,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/위노잉커피\">위노잉커피</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">100~6,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/이차선술집\">이차선술집</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

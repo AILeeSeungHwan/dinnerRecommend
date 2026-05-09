@@ -59,64 +59,6 @@
       "emoji": "🦪"
     },
     {
-      "name": "삼삼오 판교점",
-      "type": "한식",
-      "addr": "경기도 성남시 분당구 삼평동 684 1층 107호",
-      "hours": "16:00에 영업 시작",
-      "tel": "07-1356-3370",
-      "priceRange": "9000~25000",
-      "rating": 4.4,
-      "reviewCount": 14915,
-      "blogCount": 16,
-      "tags": [
-        "점심추천",
-        "주차가능",
-        "단체가능",
-        "데이트",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "미나리 냉삼(180mg)",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "오징어 불고기 추가",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "미나리 오삼철판 (런치)",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "미나리 제육우동철판(런치)",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "미나리 오징어초무침",
-          "price": 18000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2032128912/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20251023_54/17612303171510rJ6F_JPEG/1000015106.jpg",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": ""
-    },
-    {
       "name": "꿰다 판교아브뉴프랑점",
       "type": "일식",
       "addr": "경기도 성남시 분당구 삼평동 740 판교 호반 써밋 플레이스 1층 143호",
@@ -174,48 +116,6 @@
       "emoji": ""
     },
     {
-      "name": "우화",
-      "type": "고기구이",
-      "addr": "동판교로177번길 25",
-      "hours": "PM 5:30~10:00",
-      "tel": "031-707-4775",
-      "priceRange": "12000~22000",
-      "rating": 4.8,
-      "reviewCount": 120,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "데이트",
-        "예약필수",
-        "웨이팅맛집",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
       "name": "심양 판교점",
       "type": "중식",
       "addr": "경기도 성남시 분당구 삼평동 656 112호",
@@ -265,6 +165,106 @@
       "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250622_136/17505660891702rdqk_JPEG/%C1%A4%C0%DA%C1%A1_%BF%DC%B0%FC2.jpg",
       "imageUrl2": "https://ldb-phinf.pstatic.net/20250622_180/1750566089513fVojC_JPEG/%C1%A4%C0%DA%C1%A1_%B3%BB%B0%FC1.jpg",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "우화",
+      "type": "고기구이",
+      "addr": "동판교로177번길 25",
+      "hours": "PM 5:30~10:00",
+      "tel": "031-707-4775",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "데이트",
+        "예약필수",
+        "웨이팅맛집",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "삼삼오 판교점",
+      "type": "한식",
+      "addr": "경기도 성남시 분당구 삼평동 684 1층 107호",
+      "hours": "16:00에 영업 시작",
+      "tel": "07-1356-3370",
+      "priceRange": "9000~25000",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "blogCount": 16,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "미나리 냉삼(180mg)",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "오징어 불고기 추가",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "미나리 오삼철판 (런치)",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "미나리 제육우동철판(런치)",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "미나리 오징어초무침",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2032128912/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251023_54/17612303171510rJ6F_JPEG/1000015106.jpg",
+      "imageUrl2": "",
       "region": "pangyo",
       "regionName": "판교",
       "regionPath": "/pangyo",

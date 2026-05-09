@@ -51,83 +51,6 @@
       "emoji": "🍜"
     },
     {
-      "name": "한마음정육식당 영통점",
-      "type": "고기구이",
-      "addr": "영통동 봉영로1482번길 7-1",
-      "hours": "휴무일",
-      "tel": "031-202-3166",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 84,
-      "blogCount": 0,
-      "tags": [
-        "가성비",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "친절",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "행복한김밥",
-      "type": "분식",
-      "addr": "기흥구 서천동 286-3번지 101호 용인시 경기도 KR",
-      "hours": "6:00 AM~8:00 PM",
-      "tel": "031-206-5008",
-      "priceRange": "10000~20000",
-      "rating": 4.3,
-      "reviewCount": 60,
-      "blogCount": 0,
-      "tags": [
-        "분식",
-        "가성비",
-        "점심추천"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "혼밥"
-      ],
-      "scene": [
-        "아침 식사",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥢"
-    },
-    {
       "name": "서천교동짬뽕",
       "type": "중식·칼국수",
       "addr": "봉영로1482번길 35 102호",
@@ -219,6 +142,83 @@
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",
       "emoji": "🥩"
+    },
+    {
+      "name": "한마음정육식당 영통점",
+      "type": "고기구이",
+      "addr": "영통동 봉영로1482번길 7-1",
+      "hours": "휴무일",
+      "tel": "031-202-3166",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "친절",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "행복한김밥",
+      "type": "분식",
+      "addr": "기흥구 서천동 286-3번지 101호 용인시 경기도 KR",
+      "hours": "6:00 AM~8:00 PM",
+      "tel": "031-206-5008",
+      "priceRange": "10000~20000",
+      "rating": 4.3,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "분식",
+        "가성비",
+        "점심추천"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "아침 식사",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥢"
     }
   ],
   "categoryStats": {},

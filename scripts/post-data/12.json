@@ -58,64 +58,6 @@
       "emoji": "🥡"
     },
     {
-      "name": "치바오 스타필드 코엑스몰점",
-      "type": "중식당",
-      "addr": "삼성동 159 B1층 치바오",
-      "hours": "10:30",
-      "tel": "",
-      "priceRange": "9000~23900",
-      "rating": 4.3,
-      "reviewCount": 24503,
-      "blogCount": 57,
-      "tags": [
-        "점심추천",
-        "리뷰많음",
-        "웨이팅맛집"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [
-        "직장인 점심",
-        "저녁 식사"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "유니짜장",
-          "price": 9000,
-          "description": "곱게 다진 고기를 넣어 부드럽고 진한 맛의 짜장면"
-        },
-        {
-          "name": "차돌짬뽕",
-          "price": 13900,
-          "description": "부드러운 차돌박이와 해물이 어우러진 얼큰한 짬뽕"
-        },
-        {
-          "name": "탕수육",
-          "price": 23900,
-          "description": "달콤새콤소스를 더한 겉바속촉 돼지고기 튀김"
-        },
-        {
-          "name": "해물짬뽕",
-          "price": 15900,
-          "description": "다양한 해산물이 가득 들어간 얼큰한 짬뽕"
-        },
-        {
-          "name": "오리지날 탄탄면",
-          "price": 10900,
-          "description": "탱글한 새우를 듬뿍 넣어 볶아낸 고소한 볶음밥"
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1827285939",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250624_9/1750736779912pjkJc_JPEG/%BD%BD%B1%E2%B7%CE%BF%EE_%B8%AE%BA%E4_%BB%FD%C8%B0_%C0%CC%BA%A5%C6%AE_%B5%B5%BD%C9%B0%F8%C7%D7%C1%A1.jpg",
-      "imageUrl2": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🍜"
-    },
-    {
       "name": "더라운드 삼성점",
       "type": "중식당",
       "addr": "삼성동 78 삼안빌딩 1층",
@@ -184,7 +126,7 @@
       "tel": "07-1328-5340",
       "priceRange": "13000~88000",
       "rating": 4.7,
-      "reviewCount": 71,
+      "reviewCount": 0,
       "blogCount": 1639,
       "tags": [
         "어향동고",
@@ -243,6 +185,64 @@
       "emoji": "🦐"
     },
     {
+      "name": "치바오 스타필드 코엑스몰점",
+      "type": "중식당",
+      "addr": "삼성동 159 B1층 치바오",
+      "hours": "10:30",
+      "tel": "",
+      "priceRange": "9000~23900",
+      "rating": 4.3,
+      "reviewCount": 0,
+      "blogCount": 57,
+      "tags": [
+        "점심추천",
+        "리뷰많음",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "직장인 점심",
+        "저녁 식사"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "유니짜장",
+          "price": 9000,
+          "description": "곱게 다진 고기를 넣어 부드럽고 진한 맛의 짜장면"
+        },
+        {
+          "name": "차돌짬뽕",
+          "price": 13900,
+          "description": "부드러운 차돌박이와 해물이 어우러진 얼큰한 짬뽕"
+        },
+        {
+          "name": "탕수육",
+          "price": 23900,
+          "description": "달콤새콤소스를 더한 겉바속촉 돼지고기 튀김"
+        },
+        {
+          "name": "해물짬뽕",
+          "price": 15900,
+          "description": "다양한 해산물이 가득 들어간 얼큰한 짬뽕"
+        },
+        {
+          "name": "오리지날 탄탄면",
+          "price": 10900,
+          "description": "탱글한 새우를 듬뿍 넣어 볶아낸 고소한 볶음밥"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1827285939",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250624_9/1750736779912pjkJc_JPEG/%BD%BD%B1%E2%B7%CE%BF%EE_%B8%AE%BA%E4_%BB%FD%C8%B0_%C0%CC%BA%A5%C6%AE_%B5%B5%BD%C9%B0%F8%C7%D7%C1%A1.jpg",
+      "imageUrl2": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍜"
+    },
+    {
       "name": "하이딜라오 코엑스",
       "type": "중식·훠궈",
       "addr": "테헤란로 87길 58 지하2층",
@@ -250,7 +250,7 @@
       "tel": "07-2085-1273",
       "priceRange": "4300~55000",
       "rating": 4.2,
-      "reviewCount": 59,
+      "reviewCount": 0,
       "blogCount": 198,
       "tags": [
         "훠궈",

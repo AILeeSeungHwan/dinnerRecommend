@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "김치옥-대치점",
-      text: "김치옥 대치점 — 시그니처 제육볶음 300g 10,000원",
+      text: "김치옥 대치점 — 평점 4.9·리뷰 155건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>제육볶음 300g 10,000원. <a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a>의 간판 메뉴입니다. 치츠폭탄계란말이, 맛보기 계란말이도 함께 주문하시는 분들이 많습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>평점 4.9점, 리뷰 155건으로 안정적인 평가를 받고 있습니다. 직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"고기도 맛있게 구워주시고 야채들도 많아서 곁들여 먹기 좋아요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·재방문 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/김치옥 대치점\" style=\"color:var(--primary)\">→ 김치옥 대치점 상세 정보 보기</a></p>",
+      html: "<p>제육볶음 300g 10,000원. <a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a>의 대표 메뉴입니다. 치츠폭탄계란말이, 맛보기 계란말이 같은 메뉴도 인기가 좋습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>리뷰 155건에 4.9점이면 꾸준히 무난한 편입니다. 굽기 옵션이 따로 안내되어 있어 미디엄·웰던 등 취향대로 요청하실 수 있습니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"고기도 맛있게 구워주시고 야채들도 많아서 곁들여 먹기 좋아요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·재방문 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/김치옥 대치점\" style=\"color:var(--primary)\">→ 김치옥 대치점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -43,7 +43,7 @@ const post = {
     {
       type: 'h2',
       id: "이치류-선릉점",
-      text: "이치류 선릉점 — 평점 4.9·리뷰 113건",
+      text: "이치류 선릉점 — 육류 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -76,12 +76,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a>. 평점 4.9점, 리뷰 49건 정도 있습니다.</p><p>가격대는 9,000~15,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>평점 4.9점, 리뷰 49건으로 안정적인 평가를 받고 있습니다. 직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.</p><p>주차가 편하다는 의견이 있습니다. 차량으로 방문하시는 분들에게 유리한 조건입니다.</p><p>방문 후기에서 자주 언급되는 부분은 주차·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/영동가든\" style=\"color:var(--primary)\">→ 영동가든 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a>. 육류 전문점입니다. 4.9점에 리뷰 49건이 쌓여 있습니다.</p><p>가격대는 9,000~15,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>4.9점·리뷰 49건. 방문자 평이 비교적 일관되게 좋은 편입니다. 환기 시설이 잘 되어 있는 편이지만, 옷에 냄새가 신경 쓰이시면 갈아입을 옷을 챙기시는 것도 방법입니다.</p><p>주차가 편하다는 의견이 있습니다. 차량으로 방문하시는 분들에게 유리한 조건입니다.</p><p>방문 후기에서 자주 언급되는 부분은 주차·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/영동가든\" style=\"color:var(--primary)\">→ 영동가든 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "제주덕구-삼성점",
-      text: "제주덕구 삼성점 — 돼지고기구이 전문점",
+      text: "제주덕구 삼성점 — 시그니처 삼성동고기집 오목세트(3~4인) 80,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -92,7 +92,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a>. 돼지고기구이 전문점입니다. 5점에 리뷰 15건이 쌓여 있습니다.</p><p>대표 메뉴는 삼성동고기집 오목세트(3~4인) 80,000원입니다.</p><p>오겹400g+목살400g+알깨밥+멜조림</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>5점·리뷰 15건. 방문자 평이 비교적 일관되게 좋은 편입니다. 환기 시설이 잘 되어 있는 편이지만, 옷에 냄새가 신경 쓰이시면 갈아입을 옷을 챙기시는 것도 방법입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\" style=\"color:var(--primary)\">→ 제주덕구 삼성점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a>. 돼지고기구이 전문점입니다. 5점에 리뷰 15건이 쌓여 있습니다.</p><p>대표 메뉴는 삼성동고기집 오목세트(3~4인) 80,000원입니다.</p><p>오겹400g+목살400g+알깨밥+멜조림</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 15건에 5점이면 꾸준히 무난한 편입니다. 굽기 옵션이 따로 안내되어 있어 미디엄·웰던 등 취향대로 요청하실 수 있습니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\" style=\"color:var(--primary)\">→ 제주덕구 삼성점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -108,7 +108,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/연송\">연송</a>. 평점 5점, 리뷰 3건 정도 있습니다.</p><p>메뉴를 살펴보면, 통가브리살 17,000원 / ++삼겹살 17,000원 / 두툼목살 17,000원 / 벌집껍데기 6,000원 등이 있습니다.</p><p>혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>평점 5점, 리뷰 3건으로 안정적인 평가를 받고 있습니다. 직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/연송\" style=\"color:var(--primary)\">→ 연송 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/연송\">연송</a>. 육류 전문점으로, 평점 5점에 리뷰 3건을 기록하고 있습니다.</p><p>대표 메뉴는 통가브리살 17,000원, ++삼겹살 17,000원, 두툼목살 17,000원입니다.</p><p>혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>5점·리뷰 3건. 방문자 평이 비교적 일관되게 좋은 편입니다. 환기 시설이 잘 되어 있는 편이지만, 옷에 냄새가 신경 쓰이시면 갈아입을 옷을 챙기시는 것도 방법입니다.</p><p>뷰가 좋아서 분위기가 납니다. 창가 자리를 예약하시면 더 좋은 경험을 하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/연송\" style=\"color:var(--primary)\">→ 연송 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -118,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">155건</td><td style=\"padding:7px 6px;text-align:center\">5,000~10,000원</td><td style=\"padding:7px 6px\">육류 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이치류 선릉점\">이치류 선릉점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">113건</td><td style=\"padding:7px 6px;text-align:center\">20,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">49건</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">15건</td><td style=\"padding:7px 6px;text-align:center\">80,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/연송\">연송</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">2,500~17,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/김치옥 대치점\">김치옥 대치점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">155건</td><td style=\"padding:7px 6px;text-align:center\">5,000~10,000원</td><td style=\"padding:7px 6px\">육류 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이치류 선릉점\">이치류 선릉점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">113건</td><td style=\"padding:7px 6px;text-align:center\">20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">49건</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">15건</td><td style=\"padding:7px 6px;text-align:center\">80,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/연송\">연송</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">2,500~17,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
     },
     {
       type: 'h2',
