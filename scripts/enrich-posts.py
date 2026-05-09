@@ -59,10 +59,68 @@ for region_key, rinfo in REGIONS.items():
     print(f"  {rinfo['name']}: {len(rests)}개 식당 로드")
 
 # 이름으로 빠르게 검색할 수 있는 인덱스
+# 지역별 인덱스 — 같은 이름이 다른 지역에 있을 때 region 기준으로 정확히 잡기 위함
+NAME_INDEX_BY_REGION = {}
+for region_key, rests in ALL_RESTAURANTS.items():
+    NAME_INDEX_BY_REGION[region_key] = {r['name']: r for r in rests}
+
+# 전 지역 통합 인덱스 (마지막 등록 우선) — fallback 용
 NAME_INDEX = {}
 for region_key, rests in ALL_RESTAURANTS.items():
     for r in rests:
         NAME_INDEX[r['name']] = r
+
+def find_in_region(name, region_key):
+    """식당명을 특정 지역에서 우선 찾기. 없으면 None."""
+    region_idx = NAME_INDEX_BY_REGION.get(region_key, {})
+    if name in region_idx:
+        return region_idx[name]
+    # 정확한 부분일치 (지역 한정) — 한쪽이 다른쪽을 포함하고 길이 차이가 30% 이내
+    for full_name, r in region_idx.items():
+        if len(name) >= 3 and (name in full_name or full_name in name):
+            short, long = (name, full_name) if len(name) <= len(full_name) else (full_name, name)
+            if len(short) / max(len(long), 1) >= 0.5:
+                return r
+    return None
+
+# ── 카테고리 키워드 정의 (검증·보충 양쪽에서 사용) ─────────────────
+CAT_KEYWORDS = {
+    'meat':     ['고기', '구이', '삼겹', '갈비', '한우', '소고기', '돼지', '곱창', '막창', '오겹'],
+    'date':     ['데이트', '분위기', '레스토랑', '와인', '이탈리안', '파스타', '스테이크', '비스트로', '뷰'],
+    'group':    ['단체', '회식', '룸', '삼겹', '고기', '구이', '갈비', '양꼬치', '코스'],
+    'lunch':    ['점심', '런치', '백반', '정식', '한식', '중식', '일식', '양식', '국수', '돈까스'],
+    'budget':   ['가성비', '혼밥', '1인', '저렴', '백반', '국밥', '분식', '국수', '덮밥', '김밥'],
+    'izakaya':  ['이자카야', '술집', '바', '포차', '하이볼', '사케', '맥주', '와인바', '꼬치'],
+    'chinese':  ['중식', '중국', '짜장', '짬뽕', '마라', '딤섬', '양꼬치', '훠궈', '탕수육'],
+    'gukbap':   ['국밥', '해장', '순대', '설렁탕', '곰탕', '뚝배기', '내장탕', '갈비탕', '육개장', '추어탕'],
+    'japanese': ['일식', '스시', '초밥', '오마카세', '라멘', '돈까스', '규동', '돈부리', '우동', '소바', '사시미'],
+}
+
+def category_match(r, category):
+    """식당이 특정 카테고리에 속하는지 검증.
+    cat 필드 우선 → tags → type 순으로 검사."""
+    if not category:
+        return True
+    keywords = CAT_KEYWORDS.get(category, [category])
+    # 1순위: cat 필드 (정확 매칭)
+    cat_field = r.get('cat')
+    if isinstance(cat_field, list) and category in cat_field:
+        return True
+    if isinstance(cat_field, str) and category in cat_field:
+        return True
+    # 2순위: type/tags에서 키워드 검색
+    search_text = ' '.join([
+        r.get('type', '') or '',
+        ' '.join(r.get('tags', []) or []),
+        ' '.join(r.get('cat', []) if isinstance(r.get('cat'), list) else []),
+    ])
+    return any(kw in search_text for kw in keywords)
+
+def is_quality(r):
+    """포스트에 노출할 만한 품질의 식당인지 (평점·리뷰 둘 다 0이면 제외)."""
+    rt = r.get('rt', 0) or 0
+    cnt = r.get('cnt', 0) or 0
+    return rt > 0 or cnt > 0
 
 # ── 2. 포스트 메타데이터 로드 ─────────────────────────────────────
 posts_file = os.path.join(BASE, 'data', 'posts.js')

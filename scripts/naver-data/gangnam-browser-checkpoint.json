@@ -4666,6 +4666,589 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/605076050",
       "imageUrl": "https://ldb-phinf.pstatic.net/20260120_80/1768889695830T82fA_JPEG/004%B5%BF%C6%C4%C0%B0.jpg"
+    },
+    {
+      "naverPlaceId": "661051254",
+      "name": "어거스트힐 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 5023,
+      "addr": "서울특별시 강남구 역삼동 616-18",
+      "hours": "",
+      "tel": "0507-1478-8013",
+      "lat": 37.5033562,
+      "lng": 127.0276421,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/661051254",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250521_200/1747813712066CKaAU_JPEG/T%BA%BB-700.jpg"
+    },
+    {
+      "naverPlaceId": "1007886570",
+      "name": "후추포인트",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 4753,
+      "addr": "서울특별시 강남구 역삼동 812-3 1층",
+      "hours": "",
+      "tel": "02-565-1540",
+      "lat": 37.5030803,
+      "lng": 127.0273065,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1007886570",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231006_26/16965713505793lmMx_JPEG/%C8%C4%C3%DF%C6%F7%C0%CE%C6%AE_%C3%CA%B4%E7.jpeg"
+    },
+    {
+      "naverPlaceId": "1498934506",
+      "name": "라브리크 서울",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 2598,
+      "addr": "서울특별시 강남구 역삼동 619-10 라브리크",
+      "hours": "",
+      "tel": "0507-1388-9203",
+      "lat": 37.5024248,
+      "lng": 127.02801,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1498934506",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250926_27/1758877418417RdiHh_GIF/%B6%F3%BA%EA%B8%AE%C5%A9_%C6%C4%C0%CE%BF%B9%C7%C3_%C7%B3.gif"
+    },
+    {
+      "naverPlaceId": "1818558157",
+      "name": "브리비트 강남역",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1301,
+      "addr": "서울특별시 강남구 역삼동 617-4 1층",
+      "hours": "",
+      "tel": "0507-1351-9197",
+      "lat": 37.5030789,
+      "lng": 127.027776,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1818558157",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250822_260/1755850685608k3Noj_JPEG/KakaoTalk_20240324_214311862_03.jpg"
+    },
+    {
+      "naverPlaceId": "1559452716",
+      "name": "녘",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1722,
+      "addr": "서울특별시 강남구 역삼동 813-3 2층",
+      "hours": "",
+      "tel": "0507-1317-6148",
+      "lat": 37.5028034,
+      "lng": 127.0266171,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1559452716",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240517_272/1715932985633EtROf_JPEG/KakaoTalk_20240509_152446280_02.jpg"
+    },
+    {
+      "naverPlaceId": "1232903482",
+      "name": "더미뇽 서울",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1383,
+      "addr": "서울특별시 강남구 역삼동 812-14",
+      "hours": "",
+      "tel": "0507-1310-6991",
+      "lat": 37.5027186,
+      "lng": 127.0274601,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1232903482",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240801_232/1722520028777xhYBh_JPEG/IMG_8845.jpeg"
+    },
+    {
+      "naverPlaceId": "1483096423",
+      "name": "을지다락 강남역",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 5865,
+      "addr": "서울특별시 강남구 역삼동 818-6 2층",
+      "hours": "",
+      "tel": "0507-1343-9474",
+      "lat": 37.4999202,
+      "lng": 127.0287954,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1483096423",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240805_42/1722865488733ACQi0_JPEG/KakaoTalk_20240717_114454847.jpg"
+    },
+    {
+      "naverPlaceId": "2092502028",
+      "name": "알렉스루카",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 84,
+      "addr": "서울특별시 강남구 역삼동 831-11 지하1층 B01호",
+      "hours": "",
+      "tel": "0507-1402-8327",
+      "lat": 37.4934672,
+      "lng": 127.0304902,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2092502028",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260129_82/1769661512675YmDnD_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA018.jpg"
+    },
+    {
+      "naverPlaceId": "619857852",
+      "name": "바라던바",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 476,
+      "addr": "서울특별시 강남구 역삼동 830-19 2층",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4944178,
+      "lng": 127.0321785,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/619857852",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260402_115/1775141046548boppz_JPEG/KakaoTalk_20260401_224932573_19.jpg"
+    },
+    {
+      "naverPlaceId": "2090947933",
+      "name": "코지하우스 강남역본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 180,
+      "addr": "서울특별시 강남구 역삼동 819 2층",
+      "hours": "",
+      "tel": "0507-1435-6683",
+      "lat": 37.4991963,
+      "lng": 127.0282272,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2090947933",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251231_163/1767154076960tPa2P_JPEG/KakaoTalk_20251230_143031375.jpg"
+    },
+    {
+      "naverPlaceId": "2052415847",
+      "name": "모아 강남",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 883,
+      "addr": "서울특별시 강남구 역삼동 817-27 지상1층",
+      "hours": "",
+      "tel": "0507-1399-2028",
+      "lat": 37.5007098,
+      "lng": 127.0288142,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2052415847",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260423_255/17769338830764Dfct_JPEG/KM200226.jpeg"
+    },
+    {
+      "naverPlaceId": "36250128",
+      "name": "마초쉐프 강남본점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 6440,
+      "addr": "서울특별시 강남구 역삼동 616-14 1층",
+      "hours": "",
+      "tel": "0507-1392-8886",
+      "lat": 37.5034081,
+      "lng": 127.0278735,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/36250128",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260507_75/1778150728334JXlIU_JPEG/%BE%C6%C6%AE%BA%B8%B5%E5_1.jpg"
+    },
+    {
+      "naverPlaceId": "1158647110",
+      "name": "더몰트하우스 강남역점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 618,
+      "addr": "서울특별시 서초구 서초동 1316-29 1층",
+      "hours": "",
+      "tel": "02-534-5818",
+      "lat": 37.4983148,
+      "lng": 127.0252316,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1158647110",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251020_21/1760952156398s0ugC_GIF/IMG_8439-ezgif.com-video-to-gif-converter_%281%29.gif"
+    },
+    {
+      "naverPlaceId": "21607745",
+      "name": "바비레드 강남본점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 6169,
+      "addr": "서울특별시 강남구 역삼동 618-18 바비레드",
+      "hours": "",
+      "tel": "0507-1405-1516",
+      "lat": 37.5026625,
+      "lng": 127.0278787,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/21607745",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20250708_13/1751908300190e8qp5_JPEG/57%B4%DC%C3%BC%C4%C6.jpg"
+    },
+    {
+      "naverPlaceId": "20123101",
+      "name": "아실라",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 973,
+      "addr": "서울특별시 강남구 역삼동 817-35 파빌리온 지하1층",
+      "hours": "",
+      "tel": "02-508-4665",
+      "lat": 37.5006873,
+      "lng": 127.0279983,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/20123101",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240506_103/1714965608585U2mvY_JPEG/IMG_5221.jpeg"
+    },
+    {
+      "naverPlaceId": "1094851432",
+      "name": "낙원타코 강남역점",
+      "type": "양식",
+      "categories": [
+        "양식",
+        "멕시코,남미음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 5439,
+      "addr": "서울특별시 서초구 서초동 1316-28 2층",
+      "hours": "",
+      "tel": "02-595-1540",
+      "lat": 37.4981634,
+      "lng": 127.0253638,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1094851432",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260209_233/1770632849922mdpNK_JPEG/1000086016.jpg"
+    },
+    {
+      "naverPlaceId": "1443081237",
+      "name": "치스타리에 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1790,
+      "addr": "서울특별시 강남구 역삼동 810-9 지하1층 치스타리에 강남역점",
+      "hours": "",
+      "tel": "0507-1416-3420",
+      "lat": 37.5030117,
+      "lng": 127.0263691,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1443081237",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241013_154/1728746245795z7k8m_JPEG/%BD%AC%B8%B2%C7%C1_%C6%E4%C6%DB%B7%CE%B4%CF_%B7%CE%C1%A6_%C4%A1%BD%BA%C5%B8.JPG"
+    },
+    {
+      "naverPlaceId": "33562781",
+      "name": "로리스 더 프라임 립",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스테이크,립"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1670,
+      "addr": "서울특별시 서초구 서초동 1317-23 GT TOWER 3층",
+      "hours": "",
+      "tel": "0507-1402-2800",
+      "lat": 37.4982546,
+      "lng": 127.0260065,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/33562781",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251110_142/1762756330436jKMvd_JPEG/Canon-1285-scaled.jpg"
+    },
+    {
+      "naverPlaceId": "20472120",
+      "name": "도치피자 강남",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "피자"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 2075,
+      "addr": "서울특별시 강남구 역삼동 620-17 1층",
+      "hours": "",
+      "tel": "0507-1402-8001",
+      "lat": 37.501007,
+      "lng": 127.028891,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/20472120",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221222_250/1671693176859efKsM_JPEG/%C4%AB%C7%C1%B8%AE%C3%DD%BB%E7.jpg"
     }
   ],
   "completedQueries": [
@@ -4683,7 +5266,8 @@
     "강남역 초밥",
     "강남역 중식",
     "강남역 마라탕",
-    "강남역 짬뽕"
+    "강남역 짬뽕",
+    "강남역 양식"
   ],
-  "timestamp": "2026-05-09T12:55:49.111Z"
+  "timestamp": "2026-05-09T12:56:49.892Z"
 }
