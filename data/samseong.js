@@ -83,6 +83,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -175,6 +176,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251205_248/1764911534995I6Qyo_PNG/20251205_112613.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -353,6 +355,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260219_166/1771476930186xEjwL_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%B9%AE%BB%E7%C1%F8.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260310_194/1773133436979ObrkM_JPEG/%BC%F6%C0%B0_%BB%E7%C1%F8.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -481,6 +484,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240820_70/1724098997684vaJCU_JPEG/IMG_0021.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240901_225/1725192478225BWF1i_JPEG/IMG_0106.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -607,6 +611,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260223_36/17718558944705tPyK_JPEG/KakaoTalk_20260223_230533042.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260223_166/1771842940873Ksb5g_PNG/EV_DID_07.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -659,6 +664,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241023_56/1729609504004LqALY_JPEG/KakaoTalk_20220313_134737929_01.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260401_182/1774974933099jS9cJ_JPEG/1000056248.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -754,6 +760,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260228_133/1772238084107hLE4u_JPEG/1000073531.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260228_213/1772238083940x3jzU_JPEG/1000073530.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -851,6 +858,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251113_140/1763026292517LEbRa_JPEG/1000018844.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251113_27/1763022813854Rsl7S_JPEG/1000018785.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -899,6 +907,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250925_215/1758783073049PzeT7_JPEG/KakaoTalk_20250924_212307170_16.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250924_228/1758717307417lXHjL_JPEG/KakaoTalk_20250917_213845007.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -968,6 +977,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251112_159/1762891506353ql33z_JPEG/DSC_6610.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1142,6 +1152,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240814_278/1723624903575juTd4_JPEG/%C6%F7%C4%AB%C4%A1%BE%C6_%C4%C6.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240814_141/1723624909450IqQ6V_JPEG/%C4%BF%C7%C7.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1195,6 +1206,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260222_39/1771747836966gDHRw_JPEG/7558C545-DABD-40CE-A5A2-2C8A3329A148.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260408_244/1775631286132B5yOK_JPEG/58754CD6-34AE-4A2F-B441-46E712265042.jpeg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1378,6 +1390,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250317_290/1742186953346hs5fl_JPEG/KakaoTalk_20250317_134813982_04.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250323_145/1742730901538lX8N5_JPEG/KakaoTalk_20241105_151047498_23.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -1463,6 +1476,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251212_64/1765466652726utiUg_PNG/1765466639878.png",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MDhfMjA3/MDAxNzc1NjM2ODkxMjEz.LgJoUFmHlDix7_X9j7fvpVADkwevt4Y-EEn0DFeqyu8g.85cPjTFIllV54TqtF5AqYWqJP2gV5p05-wqHzrLcu7Yg.JPEG/52164D3C-B69D-45A2-A8C5-8D89E47D3FDF.jpeg?type=w278_sharpen",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -1552,6 +1566,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250808_146/1754638854609XQeSt_PNG/IMG_5843.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260406_122/1775480660730meoXa_JPEG/IMG_6304.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1619,6 +1634,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_218/1766050250160hq5RS_JPEG/%BC%B1%B8%AA.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -1701,6 +1717,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250805_297/1754385045067tpQPR_PNG/KakaoTalk_20250729_103222592_01.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260408_295/1775623612009NSUUg_JPEG/Frame_1430105767.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1809,6 +1826,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260430_54/177751257014982H7E_JPEG/%BA%EA%B7%A3%B5%E5%C0%CC%B9%CC%C1%F6%C4%C6_%B3%C3%BC%D2%B9%D9.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -1934,6 +1952,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250623_184/1750659575168jElBV_JPEG/%B0%F1%B9%F0%C0%CC%BB%EF%C7%D5%2B%C7%D1%B8%C6%BB%FD%B8%C6%C1%D6.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20230823_298/1692778056173WfOAP_JPEG/20230821_205130.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2071,6 +2090,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250922_293/1758524852319lcFaA_JPEG/1.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_171/17585248531060UGl9_JPEG/2.JPG",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -2153,6 +2173,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250705_179/1751646845416F8Euw_JPEG/KakaoTalk_20250705_012900062_01.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250705_97/175164684948859JdE_JPEG/T.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2239,6 +2260,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250821_143/17557784592085UEMd_JPEG/KakaoTalk_Photo_2025-08-21-21-14-02.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260309_299/1772985002980DNUFH_PNG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-002_%2812%29.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -2296,6 +2318,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260105_44/1767566472098AJxHC_JPEG/KakaoTalk_20250908_071716458.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260424_134/17769839440978C4CG_JPEG/KakaoTalk_20260424_073655789_02_-_%BA%B9%BB%E7%BA%BB.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2355,6 +2378,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20240306_82/17096841109577DM1D_JPEG/Screenshot_20240220_065553_Gallery.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240306_21/1709684111089809kM_JPEG/Screenshot_20240124_025612_NAVER.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2437,6 +2461,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251011_204/1760155833089aynWo_JPEG/_DSC3959.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250226_260/1740550688717Qgwgu_JPEG/KakaoTalk_20250224_172357975.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2512,6 +2537,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250404_291/1743756865431PuptR_JPEG/200625_059_%C7%D1%BC%D6%B3%C3%B8%E9_%BA%EA%B7%A3%B5%E5%C4%C6_008.jpg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzAxMTNfMTIg/MDAxNjczNTkwNDg2Nzc3.Opd0_yfMNd5wFdtllawnZ5HgjfkO_RHhgHJj3koqPbcg.Jxyn4mjbWmDsnJzOOe4n9uN5gUKGfOS5ar5YDNZz0T0g.JPEG/20230112_140512.jpg?type=w278_sharpen",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2591,6 +2617,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250410_208/1744258634786hVOG5_JPEG/2045.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250306_67/1741262071119wwivK_JPEG/2034.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2646,6 +2673,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20221217_228/1671263292810GKVTj_JPEG/1000001082.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20211111_143/1636622322528jLAPt_JPEG/20211111_180754.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2735,6 +2763,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260206_133/17703619580374r9di_JPEG/KakaoTalk_20260130_221033873_19.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20260206_97/1770361958432r03du_JPEG/KakaoTalk_20260130_221033873_27.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -2841,6 +2870,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20230228_256/1677576523215dXX5W_JPEG/E25DBAC0-327E-47EC-96BB-305A46CB4531.jpeg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA2MjJfNSAg/MDAxNzUwNTk5NTgzMjYz.dXoOOOHRzi12wpuXOkza9g9JHxRDgoqRtP82F07roxkg.2EWLqF7twzkRZQ_WBRbDwqEH3dtdVHa3ql0E3aT0--Ag.JPEG/20250616_194355.jpg.jpg?type=w278_sharpen",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2884,6 +2914,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260219_292/17714775689705eWS9_JPEG/EDAEB308-A34D-4A30-BEF1-6C299CE8C12B.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20240807_171/1722988361136wh3BT_JPEG/%B8%B6%B6%F3%BC%A7%B1%C5_%B8%DE%B4%BA.JPG",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2965,6 +2996,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241220_275/17346753358776zElR_JPEG/KakaoTalk_20241218_174655650_01.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250728_136/1753709389440fDQpm_JPEG/KakaoTalk_Photo_2025-07-28-22-17-40_001.jpeg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3083,6 +3115,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250521_192/1747785589495zUKYt_JPEG/1000006086.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250521_298/1747785591186dhXxS_JPEG/1000006082.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -3166,6 +3199,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251108_224/176257447156028MCK_JPEG/1000028821.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251108_68/17625744554380r166_JPEG/1000028820.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3245,6 +3279,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220428_212/1651107016362sIV2K_JPEG/1611197379728.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20220428_220/1651107016361ITML5_JPEG/1611197383047.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -3292,6 +3327,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241026_92/17299520574598GMMa_JPEG/IMG_2026.jpeg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250914_259/1757860381218v592c_JPEG/IMG_3377.jpeg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -3355,6 +3391,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250121_17/1737466811786LrWHn_JPEG/%B9%CC%B3%AA%B8%AE_%BA%CE%B4%EB%C2%EE%B0%B3_%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250122_144/1737534456440gVEpO_JPEG/%C7%DC%B5%EB%BB%D2_%BA%CE%B4%EB%C2%EE%B0%B3_3.jpg",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3437,6 +3474,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20231023_280/1698050201078PtXaF_PNG/230907_%C0%AF%B0%A1%B3%D7-%B7%CE%B0%ED_NEW.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250929_1/1759119065466ykQbp_JPEG/01._%C3%BB%BE%E7%BF%CD%B8%A3%B8%A3%B4%DF%B0%A5%BA%F1.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06206"
   },
@@ -3520,6 +3558,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251218_247/1766065694924qFMGj_JPEG/098765.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_79/1766065737598pVIdR_JPEG/%C1%F7%C8%AD%C2%DE%B2%D9%B9%CC%C1%A4%BD%C4.jpg",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -3589,6 +3628,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20210114_178/1610571532462zjFkz_PNG/fORzEMAkFRqiveVO-tYd_PTg.png",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20210114_145/1610571855681XL1wO_JPEG/vTYK7NUn-P3FDHbpeHSycCgc.jpg",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -3638,6 +3678,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251127_19/1764229418175km1S1_JPEG/KakaoTalk_20251127_163932634.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250310_3/1741586188011HLiJV_JPEG/KakaoTalk_20250310_145315972.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3724,6 +3765,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20250220_34/1740056062015rvIty_JPEG/KakaoTalk_20250220_194400073_07.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250220_248/1740055983220R2j1y_JPEG/KakaoTalk_20250220_194400073_05.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3883,6 +3925,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20251014_196/17604332292932ypby_GIF/IMG_1576_2.gif",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20251014_151/1760433229285HT6Bo_GIF/IMG_1583_2.gif",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -3995,6 +4038,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20220830_213/16617878703504HOL8_JPEG/Screenshot_20220830-004414_Instagram.jpg",
+    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTZfMjgx/MDAxNzYwNjI0MTcwMzk4.l3__sCVsnOX7S7HsMM2awhNiEJucrB2UgEARCB4UKswg.L1PWul5t9kSKORn5BLqhGbHauFkvkVFy5DQf_R37yzkg.JPEG/90840475-501D-4BF7-9E0D-BF827BBCEC98.jpeg?type=w278_sharpen",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -4110,6 +4154,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20241119_154/1732017976177Al1KO_JPEG/078A6103.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20241119_111/1732018265838x2rI4_JPEG/KakaoTalk_20241112_135402325_02.jpg",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4357,6 +4402,7 @@ const restaurants = [
       }
     ],
     "imageUrl": "https://ldb-phinf.pstatic.net/20260108_158/1767842447825Mk8I5_JPEG/ny%C6%C4%C8%F7%C5%B8%C5%B8%BF%F6_%BA%ED%B7%A2%B6%C7%B6%EC%BE%C6.jpg",
+    "imageUrl2": "https://ldb-phinf.pstatic.net/20250725_53/1753421312309GR3HY_JPEG/1.jpg",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
