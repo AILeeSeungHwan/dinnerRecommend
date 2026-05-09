@@ -12,24 +12,86 @@
         "양식"
       ],
       "rt": 0,
-      "cnt": 3651,
+      "cnt": 3430,
       "addr": "서울특별시 강남구 역삼동 817-38 1층",
-      "hours": "",
-      "tel": "0507-1353-5076",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1353-5076",
       "lat": 37.500872,
       "lng": 127.0287379,
-      "priceRange": "",
+      "priceRange": "12000~32000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "주차가능",
+        "데이트"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "미국 다이너 감성 분위기가 매력적이었고 음식도 전체적으로 맛있었어요. 인기 많은 메뉴답게 몬테크리스토나 라자냐처럼 특색 있는 메뉴가 좋았고, 데이트나 친구랑 방문하기 괜찮은 강남 맛집이었어요",
+        "고구마 뇨끼 치즈 퐁듀 시켰는데 쫀득하고 바삭한 느낌이라 좋더라구요 치즈 양도 많이 줘서 듬뿍 찍어 먹을 수 있어요 초코 쉐이크도 궁금해서 시켜봤는데 맛있었어요 첫 방문이었는데 분위기가 넘 좋아요 미국 여행온 기분도 나고 사진도 예쁘게 잘나와요",
+        "특색이 있는 맛이고, 가격도 합리적이라고 생각합니다. 코울슬로와 맥앤치즈는 기본으로 시키고 드시고 싶은거 시키면 될거 같아요. 매운 소스가 있다고는 하지만 초등학생들이 먹는데 무리 없었습니다.",
+        "생각했던 메뉴가 시즌 종료인지 사라져서, 대표메뉴들로 시켰는데 너무너무 맛있었습니다 😊 대표인 이유가 있었던 맛! 같이간 친구도 맛있다고 하네요매장이 힙하고 귀여워서,  친구들이랑 함께 가기 좋은곳 같아요",
+        "몬테크리스토 샌드위치와 치킨커리 도리아를 먹어보았습니다.샌드위치는 딸기쨈이랑 먹으니 단짠단짠 밸런스있게 맛있었고치킨커리도리아는 진심 도리아급입니다 너무 맛있어요!약간 느끼하면 페페론치노 찹찹 뿌려먹으면 딱 맞아요!추천드립니다일요일 12시쯤 갔는데 대기는 안했고, 맛있어서 다음에 또 방문하겠습니다!더보기"
+      ],
+      "menuItems": [
+        {
+          "menuName": "올리언즈 라자냐",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "menuName": "올리언즈 스테이크",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "menuName": "몬테크리스토",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "menuName": "볼케이노 맥앤치즈",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "menuName": "홈메이드 뇨끼&치즈 퐁듀",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "menuName": "페페로니 토마토 파스타",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "menuName": "씨푸드 오일 파스타",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "menuName": "빠네 크림 파스타",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "menuName": "오이스터 필라프",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "menuName": "치킨 커리 도리아",
+          "price": 18000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1481312779",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260416_298/177633289478262kDI_JPEG/KakaoTalk_20260416_184749717.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260416_298/177633289478262kDI_JPEG/KakaoTalk_20260416_184749717.jpg",
+      "naverBlogCnt": 3653,
+      "parking": true,
+      "reservation": true
     },
     {
       "naverPlaceId": "2047756006",
@@ -43,22 +105,83 @@
         "중식"
       ],
       "rt": 0,
-      "cnt": 58,
+      "cnt": 133,
       "addr": "서울특별시 서초구 서초동 1307-18 5층, 6층",
-      "hours": "",
-      "tel": "0507-1342-8433",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1342-8433",
       "lat": 37.5002678,
       "lng": 127.0253489,
-      "priceRange": "",
-      "tags": [],
+      "priceRange": "18900~22900",
+      "tags": [
+        "혼밥가능",
+        "웨이팅맛집"
+      ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "훠궈무한리필 / 중식웍요리무한리필 / 음료수무한리필 / 소스무한리필 / 과일무한리필 / 디저트무한리필훠궈먹어로왔는데 매뉴구성에 놀랐어요 강남한복판에 이런 알뜰한가격에 품질좋은 중식샤부샤부가 있다는것에 놀랐습니다.대표니께서 직장인의마음을 헤아려 신선한식재료로제공급되고 셀프바에서는 요리와 소스대정리하는 직원이 채비되어 빈틈없이 따끗한 요리로채워져있었음.",
+        "회전식 훠궈라 혼밥하기에도 좋을 것 같고 재료가 다양해서 골라 먹는 재미가 있네요. 무엇보다 중국 현지 느낌 물씬 나는 요리들이 무한리필이라니... 꿔바로우랑 계란토마토볶음 꼭 드셔보세요! 소스 가이드도 친절하게 적혀 있어서 초보자분들도 맛있게 드실 수 있을 것 같아요. 사장님도 친절하시고 매장이 깨끗해서 기분 좋게 식사하고 왔습니다. 번창하세요!🩷🩷\ud83e",
+        "육수가 정말 진하고 재료들이 신선해서 좋았어요! 홍탕은 적당히 얼얼하고 백탕은 깊은 맛이 나서 무한정 들어갑니다. 소스 종류도 다양해서 취향껏 만들어 먹는 재미가 있네요. 매장도 넓고 쾌적해서 조만간 또 방문할 예정입니다. 훠궈 좋아하신다면 강추해요!",
+        "저녁시간대에 웨이팅이 심하지 않고, 토핑 가짓수도 다양해서 골라 먹는 맛이 있었어요! 음료도 냉장고에서 무료로 꺼내먹을 수 있고, 과일이랑 간식도 다양하게 있어서 좋았어요🐽 여기 새벽 세시까지 한다고 해서 야근해도 편하게 올 수 있으니까 너무 좋은 거 같아요ㅋㅋ큐ㅠㅠ 강남 근처 맛집들은 밤되면 다 닫더라구요ㅜㅜ",
+        "혼밥해야해서 이용했는데 정말 대만족하고 나왔습니다. 청초 마라탕이라는게 잇길래 방문했어요. 청초는 마라탕에서 매운맛이 빠지고 개운한 맛만 있으면서 백탕 같지도 않아요. 꼭 먹어보시길 추천합니다.사실 코가 심하게 막힌 상황이라, 향을 거의 느낄수 없는데도 맛잇다는게 느껴질정도였어요. 토마토 계란 볶음이랑 꿔바로우까지 정말 맛있습니다.일단 매니저 같은 분들을 "
+      ],
+      "menuItems": [
+        {
+          "menuName": "마라홍탕 (평일 11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "청초마라탕 (평일 11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "버섯탕 (평일11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "홍쏸탕 (평일 11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "토마토탕 (평일11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "똠양꿍탕 (평일 11시~15시까지)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "menuName": "마라홍탕 (평일 15시~/공휴일)",
+          "price": 22900,
+          "description": ""
+        },
+        {
+          "menuName": "청초마라탕 (평일 15시~/공휴일)",
+          "price": 22900,
+          "description": ""
+        },
+        {
+          "menuName": "버섯탕 (평일 15시~/공휴일)",
+          "price": 22900,
+          "description": ""
+        },
+        {
+          "menuName": "홍쏸탕 (평일 15시~/공휴일)",
+          "price": 22900,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/2047756006",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260417_78/1776395452864rCfWe_JPEG/0415_00401.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260417_78/1776395452864rCfWe_JPEG/0415_00401.jpg",
+      "naverBlogCnt": 58
     },
     {
       "naverPlaceId": "1793702349",
@@ -72,24 +195,86 @@
         "야장"
       ],
       "rt": 0,
-      "cnt": 3094,
+      "cnt": 4665,
       "addr": "서울특별시 서초구 서초동 1308-15 5층",
       "hours": "",
-      "tel": "0507-1389-9630",
+      "tel": "07-1389-9630",
       "lat": 37.5005009,
       "lng": 127.0249641,
-      "priceRange": "",
+      "priceRange": "19000~69000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "가성비",
+        "점심추천",
+        "데이트"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "친구 생일이라 다녀왔는데 분위기도 너무 좋고 주말 점심때도 재즈공연 있어서 넘 좋았어요!!! 직원분들도 넘 친절하시고 클래식코스 음식 하나하나 다 맛있고 가격도 넘 비싸지않은거같아서 단품보단 코스가 좋은거같아요!!! 넘 즐거운 시간이었습니당👍🏻👍🏻",
+        "오랜만에 만나는 친구와의 약속이라 좀 특별한 장소를 찾아보다 플랫나인에 오게 되었어요. 6시반 예약하니 식사하고 이야기나눌 시간도 충분하고 이어서 자리 옮길 필요없이 좋은 음악 들으며 즐길 수 있어 더 특별한 시간이 되었네요.재즈바라 음식에 기대가 크지 않았는데 생각보다 코스메뉴가 정말 맛있고 좋았어요. 특히 봉골레파스타가 아주 굿! 분위기도 좋고, 음식도",
+        "재즈클럽을 자주 다니는데 여긴 음식도 맛있다고 들어서 방문했어요. 화이트라구파스타랑 흑돼지 안심스테이크, 청포도 부라타치즈 먹었는데 전부 다 웬만한 고급 레스토랑보다 훌륭해요! 공연은 말할 것도 없구요 너무 분위기 좋고 영원히 앉아있고 싶을 정도예요🖤",
+        "분위기 좋고 편하게 마시기 좋은 재즈바젊은 청년들도, 연륜있는 분들도 즐기는 분위기가 좋습니다재즈가 기대보다 더 훌륭한 연주였습니다놀라움과 즐거움을 멈추지 않고 느끼는, 대극장에서 느껴지는 감동 그 이상이었어요직원분들이 조금 바쁜 분위기가 없지 않아 있지만 다듬어나가면 좋은 장소가 될거라 생각해요칵테일 도수를 낮출 수 없는게 조금 아쉽네요2시간의 공연 잘 ",
+        "서울 재즈바 중에서 음악, 음식, 분위기 셋 다 챙길 수 있는 곳은 플랫나인이 거의 유일한 것 같아요! 보컬·콘트라베이스·색소폰 라이브가 테이블 바로 앞에서 펼쳐지는데 몰입감이 진짜 장난 아니고! 화이트 라구 파스타랑 수비드 살치살 스테이크는 호텔 레스토랑이랑 비교해도 전혀 안 밀려요! 2인 78,000원에 이 퀄리티면 가성비는 말할 것도 없고, 코스 주문"
+      ],
+      "menuItems": [
+        {
+          "menuName": "시그니처 코스",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "menuName": "클래식 코스",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "menuName": "런치 파스타 코스",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "menuName": "Signature Cocktail",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "menuName": "NonAlcohol Signature",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "menuName": "Wine",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "menuName": "한우 1++ 채끝 스테이크",
+          "price": 69000,
+          "description": ""
+        },
+        {
+          "menuName": "제주 흑돼지 안심 스테이크",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "menuName": "화이트 라구 파스타",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "menuName": "프렌치 봉골레 오 뵈르",
+          "price": 19000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1793702349",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260422_115/17768353879592xAfj_JPEG/DSC_0519-93.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260422_115/17768353879592xAfj_JPEG/DSC_0519-93.jpg",
+      "naverBlogCnt": 3094,
+      "reservation": true
     },
     {
       "naverPlaceId": "254171411",
@@ -103,24 +288,84 @@
         "일식"
       ],
       "rt": 0,
-      "cnt": 6476,
+      "cnt": 13775,
       "addr": "서울특별시 강남구 역삼동 617-3 예촌빌딩",
-      "hours": "",
-      "tel": "0507-1443-4620",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1443-4620",
       "lat": 37.5028871,
       "lng": 127.0275872,
-      "priceRange": "",
+      "priceRange": "1500~22000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "혼밥가능",
+        "가성비"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "강남권 규카츠 취급 영업소 중 가장 기본찬 및 소스가 잘 나옵니다. 다만 기본찬들의 간이 좀 쌘 편입니다. 음료를 계속 마시게 되는데요. 생맥주나 하이볼이 있으면 벌컥벌컥 잘 마시게 될 것 같습니다. 버터를 잘짝 녹인 돌판위에 소고기 한조각을 올려놓고 지글지글 구워지면 바로 뒷면도 똑같이. 측면보다 조금 더 어둡게 구워지면 바로 소금 조금에 와사비 살짝올리",
+        "규카츠가 너무 맛있어오! 불이 금방 꺼지는 곳도 있는데 꽤나 오래 가서 계속 따뜻하게 먹기 좋았어요ㅎㅎ 가성비도 좋고 크림우동도 맛있구 너무 친절하세요ㅎㅎㅎㅎ 치즈볼도 일반 치즈볼처럼 느끼하지 않고 담백해서 맛나요💖 담번에도 규카츠 먹으려면 여기로 오려규요!!! 🥰",
+        "오사카에서 먹던 부드러운 규카츠가 생각나는 맛이에요 ㅎㅎㅎ 입에서 살살 녹아요!! 셋트메뉴로 불닭면 같이 시켰는데 규카츠와의 궁합이 환상입니다. 순식간에 흡입했어요 ㅎㅎㅎ 넘 맛있어서 부채살도 더 추가했어요 ㅎㅎ 배터지는 행복한 주말입니다! 강남역 1등 맛집 인정이요❤️❤️❤️",
+        "혼자 나들이 나왔다가 규카츠 먹고싶어서 찾아왔는데요 메뉴 구성 알차고 혼밥하기 좋네요! 내가 원하는 만큼 익혀서 먹을수 있는것도 재밌어요~ㅋㅋ버터랑 와사비 같이 구워서 먹으니까 맛있네요^^ 다음에 또 방문할 예정!!더보기",
+        "세트 3번 먹었어요!규카츠는 느끼하지 않고 구워도 부드러워서 맛있었습니다.커리크림?우동은 느끼하지 않고 고소해서 규카츠랑 잘 어울렸고, 다시계란은 밥에 비벼 먹어도 맛있습니다ㅋㅋ든든하고 맛있게 먹기 좋아서 만족! 👍더보기"
+      ],
+      "menuItems": [
+        {
+          "menuName": "규카츠 정식",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "menuName": "리얼치즈카츠정식",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "menuName": "커리크림우동",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "menuName": "불닭크림볶음면",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "menuName": "새우 삼겹 덮밥",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "menuName": "우삼겹덮밥",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "menuName": "치킨마요덮밥",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "menuName": "다시계란",
+          "price": 1500,
+          "description": ""
+        },
+        {
+          "menuName": "멜팅치즈볼",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "menuName": "가라아게",
+          "price": 5000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/254171411",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20230329_68/1680084687137vl5A5_JPEG/KakaoTalk_20230329_174932601_02.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230329_68/1680084687137vl5A5_JPEG/KakaoTalk_20230329_174932601_02.jpg",
+      "naverBlogCnt": 6479
     },
     {
       "naverPlaceId": "1660575874",
@@ -134,24 +379,85 @@
         "한식"
       ],
       "rt": 0,
-      "cnt": 958,
+      "cnt": 5880,
       "addr": "서울특별시 강남구 역삼동 817-19 1층",
-      "hours": "",
-      "tel": "0507-1357-8489",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1357-8489",
       "lat": 37.5003294,
       "lng": 127.0281201,
-      "priceRange": "",
+      "priceRange": "6000~65000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "점심추천",
+        "웨이팅맛집"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "강남 11번 출구 근방에 있는 미나리밭오리사냥 강남약점 방문했어요🐥고기가 신선하고 매장이 깔끔해서 방문하기 좋은 것 같아요🥰콘치즈랑 미나리 조합이 오리랑 딱이에요🫶평일 점심에는 묵사발 서비스로 받을 수 있고, 네이버 리뷰 이벤트에 받을 수 있는게 많으니 꼭 참여하시기 바래요😉더보기",
+        "오리고기가 먹고싶었는데 마침 강남역오리고기집이 생겼길래 와봤어요!! ✨✨ 양도 많고 둘이서 중짜 먹으니까 아주 양도 넉넉하고 좋더라구요 기존에 가던 집 있었는데 앞으로 오리고기먹고싶을땐 여기로 오려구요!",
+        "반반메뉴 있는거 젤 마음에 들어요단호박, 떡, 감자, 버섯 등 알차게 들어가있어요가게 이름에 맞게 미나리 엄청 푸짐하고 신선해요향긋한 미나리가 너무나 잘 어울려요우동사리는 선택이 아닌 필수에요웨이팅 한거 기억도 못할정도로 맛있고 보끔밥에도 계란후라이까지 주다니ㅜㅜㅜㅜㅜㅜ청결하고 친절하고 만족스러운 식사였어요 다음에 재방문 의사 1000000% 있음!!!!!",
+        "강남역에서 제대로 된 오리고기 맛집을 찾았네요. 미나리 양도 정말 푸짐하고 오리고기랑 같이 구워 먹으니 향긋함이 입안 가득 퍼져서 느끼할 틈이 없어요! 고기도 잡내 없이 쫄깃하고 김치랑 버섯까지 같이 구우니 조합이 완벽합니다. 건강하고 든든한 한 끼로 최고예요. 재방문 의사 200%입니다!",
+        "오리고기를 이렇게 먹을수 있어서 좋았어요! 로스 주물럭 둘다 매력있고 아주 맛있었어요! 냄새도 안나고 추천!! 그리고 볶음밥이 보리밥이라 색다르게 맛있었어요!추천!!🙃🙃"
+      ],
+      "menuItems": [
+        {
+          "menuName": "생 오리주물럭(중)",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "menuName": "생 오리주물럭(대)",
+          "price": 56000,
+          "description": ""
+        },
+        {
+          "menuName": "생 오리로스 사냥(중)",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "menuName": "생 오리로스 사냥(대)",
+          "price": 54000,
+          "description": ""
+        },
+        {
+          "menuName": "오리생로스+오리주물럭",
+          "price": 65000,
+          "description": ""
+        },
+        {
+          "menuName": "대패 오리사냥 600g",
+          "price": 36000,
+          "description": ""
+        },
+        {
+          "menuName": "대패 반반사냥600g",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "menuName": "대패 반반사냥(대)800g",
+          "price": 48000,
+          "description": ""
+        },
+        {
+          "menuName": "수제비 오리뼈탕",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "menuName": "명란 오차즈케",
+          "price": 6000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1660575874",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20231224_249/1703391199395IDnHb_JPEG/132801E9-74D9-49AE-B9A6-FB55F8133324.jpeg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231224_249/1703391199395IDnHb_JPEG/132801E9-74D9-49AE-B9A6-FB55F8133324.jpeg",
+      "naverBlogCnt": 959,
+      "reservation": true
     },
     {
       "naverPlaceId": "1281140539",
@@ -165,24 +471,84 @@
         "한식"
       ],
       "rt": 0,
-      "cnt": 1678,
+      "cnt": 1124,
       "addr": "서울특별시 강남구 역삼동 818-13 2층",
       "hours": "",
-      "tel": "0507-1369-8518",
+      "tel": "07-1369-8518",
       "lat": 37.4995178,
       "lng": 127.02829,
-      "priceRange": "",
+      "priceRange": "9000~62000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "가성비"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "와 대박 강남 한복판에 이렇게 가성비 좋은 곳이 있다니!!!친구랑 청계산 등산하고 막걸리 한 잔하러 찾아간 곳야채수육찜 2인 세트 먹었는데 양 진짜 많아요미역들깨칼국수 너무 맛있게 잘 먹었어요더보기",
+        "강남에 아이들과 나들이왔다가 먹으러 왔는데너무 맛있어요~ 경양식 돈까스도 넘 맛있어서 애들이 뚝딱했고 육회 비빔밥 양도 많고 야채구성도 좋아서 비볐을때 궁합이 좋았어요~ 감자전도 애들과 어른입맛에도 딱입니다!! 👍",
+        "완전 맛집입니당!!!!일단 접근성 너무너무 좋아요 강남역 11번 출구에서 도보 5분컷그리고 음식도 진짜 최고입니다. 팔도 음식을 다 경험할수 있어서 최고…다음에 또 올게요더보기",
+        "강남 뒷골목쪽2층에있어요.  강남역맛집이예요음식도정갈하고 푸짐해요생각보다양도많고밥도무제한이네요셀프반찬도맛있어요!!더보기",
+        "강남역 한식 찾아보다가 칼국수랑 육회비빔밥이 맛있어보여서 왔어요!! 다양한 칼국수랑 신선한 비빔밥 맛있게 즐길수 있어서 좋았어요!! 다음에는 다른칼국수랑 돈까스도 먹어보고싶어요!"
+      ],
+      "menuItems": [
+        {
+          "menuName": "팔도 수육전골 한상",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "menuName": "치즈가득 목뼈살찜",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "menuName": "팔도해장수육전골",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "menuName": "진미 한우 뭉티기(중)",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "menuName": "팔도1987돈까스",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "menuName": "사골고기칼국수 (흑임자면)",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "menuName": "얼큰이칼국수 (흑임자면)",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "menuName": "철판 목뼈살찜",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "menuName": "팔도 목뼈살찜 한상",
+          "price": 62000,
+          "description": ""
+        },
+        {
+          "menuName": "얼큰사골칼국수 (흑임자면)",
+          "price": 11500,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1281140539",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250804_26/1754238241957l23YU_JPEG/DSC_6609_-_%BA%B9%BB%E7%BA%BB.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250804_26/1754238241957l23YU_JPEG/DSC_6609_-_%BA%B9%BB%E7%BA%BB.jpg",
+      "naverBlogCnt": 1678,
+      "reservation": true
     },
     {
       "naverPlaceId": "2056004665",
@@ -196,22 +562,83 @@
         "한식"
       ],
       "rt": 0,
-      "cnt": 93,
+      "cnt": 797,
       "addr": "서울특별시 강남구 역삼동 813-12 지상1층",
-      "hours": "",
-      "tel": "0507-1320-5536",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1320-5536",
       "lat": 37.5022171,
       "lng": 127.0270063,
-      "priceRange": "",
-      "tags": [],
+      "priceRange": "10900~39900",
+      "tags": [
+        "점심추천",
+        "리뷰많음"
+      ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "정희 라는 매혹적인 네이밍이 다가와서 퇴근하고 바로 부리나케왔는데 가격도 좋고 메뉴도 신속한 속도로 등장하여 한국인의 빨리빨리에 플레이팅에 사진찍기 딱좋게 색감 해상도 알아서 올라있는 컬러초이스. 실화인가요. 강남역입니다만, 메뉴당 만원초반대, 토요일 저녁 안주가격 이거맞나요? 오늘은 남자친구와 왔으나 묵은지회말이 한입하자마자 얼마전에 회전초밥집도 스쳐가면",
+        "어머니와 평일 낮에 방문했습니다.브레이크 타임이 없어서 편리했고, 새로 오픈해서 매장이 깨끗깔끔합니다. 케일쌈밥은 한입 크기로 짜지않아 먹기좋았고, 새우감자전은 바삭바삭 식감과 맛이 좋습니다.봉골레칼국수는 진한 육수가 일품이나 조금 짭짤합니다.새우감자전과 같이드시면 간이 잘 맞아요. ^^강남역에도 정희매장이 생겨서 너무 좋습니다. 이색적인 퓨전한식을 드시고",
+        "전체적으로 짜지 않아서 너무 좋아요! 가격대비 양도 적당하고 매콤 들기름 메밀면도 많이 맵지 않고 적당히 매콤해서 점심에 먹기도 좋은것 같고 고사리 크림 수제비는 어중간한 파스타 맛집보다 낫네요~ 고소하고 크리미한게 입에 맞아서 싹싹 다 먹었어요",
+        "처음 방문해본 정희 식당퓨젼 한식이여요. 깻잎 고등어 지짐밥은 향긋한 깻잎 페스토 맛있고, 고등어도 안비려요. 봉골레 칼국수는 파스타 중간 맛으로 조금 이국적인 맛이에요 .생각보다 두 메뉴 모두 맛있어요.더보기",
+        "여기 와보고 싶어서 회사에서 버스타고 직장동료와 점심시간에 방문했어요!진짜 너무너무 맛있었고 4명에서 먹기에 양도 딱 적당했습니다! ㅎㅎ정말 모든 메뉴가 다 너무 맛있었어용잘 먹었습니다🙇‍♀️🫶🏼더보기"
+      ],
+      "menuItems": [
+        {
+          "menuName": "정희한상 플래터",
+          "price": 39900,
+          "description": ""
+        },
+        {
+          "menuName": "정희 삼합",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "menuName": "고사리 크림 수제비",
+          "price": 13900,
+          "description": ""
+        },
+        {
+          "menuName": "새우감자전",
+          "price": 17900,
+          "description": ""
+        },
+        {
+          "menuName": "강된장 케일 쌈밥",
+          "price": 10900,
+          "description": ""
+        },
+        {
+          "menuName": "소고기 지짐밥",
+          "price": 13900,
+          "description": ""
+        },
+        {
+          "menuName": "깻잎 고등어 지짐밥",
+          "price": 13900,
+          "description": ""
+        },
+        {
+          "menuName": "감태 타르타르",
+          "price": 11900,
+          "description": ""
+        },
+        {
+          "menuName": "묵은지 회말이",
+          "price": 12900,
+          "description": ""
+        },
+        {
+          "menuName": "봉골레 칼국수",
+          "price": 12900,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/2056004665",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260213_101/1770971886675PaKB0_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2026-01-20_163001.png"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260213_101/1770971886675PaKB0_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2026-01-20_163001.png",
+      "naverBlogCnt": 95
     },
     {
       "naverPlaceId": "1114913849",
@@ -225,24 +652,88 @@
         "고기구이"
       ],
       "rt": 0,
-      "cnt": 1165,
+      "cnt": 5657,
       "addr": "서울특별시 강남구 역삼동 817-28 1층 빨간의자집 강남역점",
-      "hours": "",
-      "tel": "0507-1376-5351",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1376-5351",
       "lat": 37.5005788,
       "lng": 127.028463,
-      "priceRange": "",
+      "priceRange": "4000~18000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "웨이팅맛집"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "강남역에서 모임 장소 찾다가 방문한 빨간의자집 강남역점 🍖🦞 진짜 최근에 다녀온 곳 중 가장 만족했던 맛집이에요 😊 일단 매장이 엄청 넓고 쾌적해서 단체모임이나 청첩장 모임 장소로 딱 좋겠더라구요. 강남역 근처에서 이렇게 규모 큰 곳 찾기 쉽지 않은데 분위기도 시끌벅적하면서 활기 있어서 너무 좋았어요 ✨저희는 랍스터 플래터랑 통돼지 바베큐 주문했는데,",
+        "강남에서 언덕을 조금 올라가면 보이는 널찍한 공간, 빨간의자집을 다녀왔습니다.퇴근 후 가볍게 맥주 한잔 하기 딱 좋은 분위기였어요.고기는 초벌되어 나와서 바로 먹기 좋게 잘라주시고, 전체적으로 템포가 편해서 좋았습니다.7시쯤 되니 웨이팅이 생길 정도로 인기 있는 곳이더라고요.단체석도 넉넉해서 모임 장소로도 괜찮아 보였고, 특히 일본 맥주를 생맥주로 즐길 수",
+        "강남역 한복판에서 캠핑 온 듯한 힐링 공간을 발견한거같아요!ㅎㅎ😆💕 특히 매장이 넓고 깔끔하고 분위기도 좋아서 청첩장 모임이나 회식 장소로 진짜 최고인 듯해요! 훈연 바베큐를 숯불에 직접 구워 먹는데 풍미가 진짜 미쳤더라구요..😋 소스와 양념도 너무 맛있고, 쌈 채소도 엄청 신선해서 고기랑 조합이 대박이었어요. 떡, 옥수수 등 야무지게 구워 먹고 마무",
+        "빨간의자집 강남역점에서 바베큐 한판 먹었는데 고기 양부터 장난아니네요ㅋㅋㅋ 넘 맛있게 먹었어요사장님도 완전 친절하시고 가게 넓고 좌석 많아서 단체 모임이나 청첩장 모임하기 좋을 거 같아요맛있게 잘 먹고 갑니다~!",
+        "빨간의자집 강남역점에 다녀왔어요.고기 메뉴는 물론해산물까지 함께 즐길 수 있어서입맛대로 골라 먹기 좋았던 곳이에요.쌈채소도 종류별로 준비되어 있어고기랑 곁들여 먹기 좋았고,전체적으로 메뉴 구성이 다양해서 만족스러웠어요.강남역 근처에서단체모임이나 회식 장소 찾는 분들께추천하기 좋은 고기집이었어요.더보기"
+      ],
+      "menuItems": [
+        {
+          "menuName": "트리플민트(시그니처)",
+          "price": 4000,
+          "description": ""
+        },
+        {
+          "menuName": "통 돼지 바베큐 150g",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "menuName": "[점심특선] 쌈밥 - 직화 석쇠불고기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "menuName": "[점심특선] 쌈밥 - 제육 두루치기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "menuName": "김치볶음밥",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "menuName": "매콤비빔국수",
+          "price": 8000,
+          "description": ""
+        },
+        {
+          "menuName": "블루레몬",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "menuName": "자몽허니",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "menuName": "유자민트",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "menuName": "파파야",
+          "price": 5000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1114913849",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260409_141/1775726235071VXWK9_PNG/Gemini_Generated_Image_34p7kx34p7kx34p7.png"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260409_141/1775726235071VXWK9_PNG/Gemini_Generated_Image_34p7kx34p7kx34p7.png",
+      "naverBlogCnt": 1168,
+      "parking": true,
+      "reservation": true
     },
     {
       "naverPlaceId": "1581701475",
@@ -256,24 +747,86 @@
         "일식"
       ],
       "rt": 0,
-      "cnt": 2071,
+      "cnt": 11673,
       "addr": "서울특별시 강남구 역삼동 616-19 지하1층",
-      "hours": "",
+      "hours": "11:00에 영업 시작",
       "tel": "02-558-2252",
       "lat": 37.503281,
       "lng": 127.0274037,
-      "priceRange": "",
+      "priceRange": "9000~32000",
       "tags": [
-        "리뷰많음"
+        "리뷰많음",
+        "주차가능",
+        "데이트"
       ],
       "moods": [],
       "scene": [],
       "wx": [],
-      "rv": [],
-      "menuItems": [],
+      "rv": [
+        "일 때문에 4시간 가량 버스타고 서울 와서 뭘 먹을까 고민하다 발길 가는데로 온 쿄코코 신논현점. 야키토리동의 숯불향과 적당한 후추 간이 혀를 때리는게 정말 맛있네요. 이제 서울 올 일이 자주 있는데 쿄코코 신논현점도 자주 올거 같아요.",
+        "오늘 신논현역 맛집 데이트 방문했는데 인테리어도 일본풍 감성에 직원분들도 친절하시고 음식도 넘 맛있었어요!특히 라멘 중 시오토리 라멘 별 기대없이 시켰는대 국물이 진하고 깔끔하고 맵기가 딱 적당해서 넘 좋았어요🧡부타동도 대표 메뉴답게 고기와 소스가 절묘한 조합으로 든든하게 잘 먹었습니다!!☺️",
+        "신논현역 맛집으로 쿄코코 유명하대서 남자친구랑 데이트로 방문해봤어요! 시간이 조금 일러 바로 입장했는데 분위기도 너무 좋고 라멘도 맛있어서 너무 만족스러웠습니다다음에도 방문할 것 같아요 👐더보기",
+        "신논현 맛집으로 유명한 쿄코코 다녀왔어요 🍽️분위기부터 깔끔하고 아늑해서 데이트나 친구랑 오기 딱 좋은 곳이에요. 음식은 전체적으로 정성이 느껴지고 플레이팅도 예뻐서 사진 찍기 좋았어요 📸",
+        "근처 맛집 찾아 처음 오게 되었는데 기대 이상의 맛집이었어요!!❤️‍🔥 그동안 강남 오면서 왜 여기를 이제야 왔는지!! 강남 맛집이예요:)라멘 육수도 진하고 야키토리 토핑도 촉촉하고 간이 진짜 잘 되어있어요! 잘먹었습니당☺️"
+      ],
+      "menuItems": [
+        {
+          "menuName": "(초강력추천)부타동",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "시오토리 라멘",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "푸와푸와 라이스",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "menuName": "쿄코코스테이크 (400g)",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "menuName": "(현지보다 맛있는)아부라소바",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "명란마제소바",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "푸와푸와 - 오야꼬동",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "시오토리 국밥",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "menuName": "(이가 시리는)냉소바",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "menuName": "점보 부타동",
+          "price": 18000,
+          "description": ""
+        }
+      ],
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1581701475",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250424_168/1745504530966hTNsA_JPEG/KakaoTalk_20250424_141442044_01.jpg"
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250424_168/1745504530966hTNsA_JPEG/KakaoTalk_20250424_141442044_01.jpg",
+      "naverBlogCnt": 2071,
+      "parking": true,
+      "reservation": true
     },
     {
       "naverPlaceId": "2051450000",
@@ -8597,724 +9150,6 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1384765205",
       "imageUrl": "https://ldb-phinf.pstatic.net/20241002_103/1727850751263e7tA3_JPEG/%BE%F6%C3%BB%B3%AD%C7%D1%BB%F3%28%B9%DD%B9%DD%29.JPG"
-    },
-    {
-      "naverPlaceId": "985516513",
-      "name": "강남 곱",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 2452,
-      "addr": "서울특별시 강남구 역삼동 830-31",
-      "hours": "",
-      "tel": "0507-1343-7592",
-      "lat": 37.4943405,
-      "lng": 127.0315033,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/985516513",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20230807_41/1691393632266Ilv4c_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%287%29.jpg"
-    },
-    {
-      "naverPlaceId": "2003259752",
-      "name": "다미곱창 강남본점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 508,
-      "addr": "서울특별시 강남구 역삼동 619-17 1층",
-      "hours": "",
-      "tel": "0507-1303-1671",
-      "lat": 37.5012338,
-      "lng": 127.0270495,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/2003259752",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260214_229/1771060335965EaztL_PNG/KakaoTalk_20260211_175650717_01.png"
-    },
-    {
-      "naverPlaceId": "1017596309",
-      "name": "60년전통신촌황소곱창 강남역직영점",
-      "type": "육류,고기요리",
-      "categories": [
-        "육류,고기요리",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "고기구이"
-      ],
-      "rt": 0,
-      "cnt": 2471,
-      "addr": "서울특별시 강남구 역삼동 619-5 스타빌딩 지상1층",
-      "hours": "",
-      "tel": "0507-1303-2640",
-      "lat": 37.5018424,
-      "lng": 127.0271689,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1017596309",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20211023_83/1634915226218XBv6H_JPEG/uULoC16sDzzSGaTc-lc-EUvJ.jpg"
-    },
-    {
-      "naverPlaceId": "32874531",
-      "name": "정분네중앙곱창 강남본점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 173,
-      "addr": "서울특별시 서초구 서초동 1308-12 정분네왕십리중앙곱창 강남본점",
-      "hours": "",
-      "tel": "0507-1302-2349",
-      "lat": 37.5008337,
-      "lng": 127.0253533,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/32874531",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20220829_244/1661716473611V0MNl_PNG/4D953BAF-0016-4F61-97A7-483A429E8A1A.png"
-    },
-    {
-      "naverPlaceId": "1190582130",
-      "name": "자갈치양곱창",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 146,
-      "addr": "서울특별시 강남구 역삼동 831-34 2층",
-      "hours": "",
-      "tel": "0507-1325-5171",
-      "lat": 37.494551,
-      "lng": 127.0308878,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1190582130",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20231204_108/17016200915983lwCq_JPEG/scaled_Resized_20230924_164349.jpg"
-    },
-    {
-      "naverPlaceId": "1737483835",
-      "name": "세광양대창 강남역중앙점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "곱창,막창,양"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 686,
-      "addr": "서울특별시 강남구 역삼동 819-1 1층",
-      "hours": "",
-      "tel": "02-555-5717",
-      "lat": 37.4993443,
-      "lng": 127.0286037,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1737483835",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20200226_172/1582682039360mPWWp_JPEG/fN62PZ_x36vKW8ycXkQxE9eN.jpg"
-    },
-    {
-      "naverPlaceId": "1921988824",
-      "name": "리파인 강남역점",
-      "type": "술집",
-      "categories": [
-        "술집",
-        "요리주점"
-      ],
-      "cat": [
-        "야장"
-      ],
-      "rt": 0,
-      "cnt": 242,
-      "addr": "서울특별시 강남구 역삼동 619-15 3층",
-      "hours": "",
-      "tel": "0507-1476-6605",
-      "lat": 37.5016418,
-      "lng": 127.0268898,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1921988824",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250418_12/1744958732540tA0Vk_JPEG/IMG_1334.JPG"
-    },
-    {
-      "naverPlaceId": "1044215725",
-      "name": "부엉이산장 강남점",
-      "type": "술집",
-      "categories": [
-        "술집",
-        "요리주점"
-      ],
-      "cat": [
-        "야장"
-      ],
-      "rt": 0,
-      "cnt": 1374,
-      "addr": "서울특별시 강남구 역삼동 817-29 1층",
-      "hours": "",
-      "tel": "0507-1312-9901",
-      "lat": 37.500496,
-      "lng": 127.0282687,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1044215725",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20240125_111/1706159471570AI6En_PNG/%BD%BA%B8%B6%C6%AE_5.png"
-    },
-    {
-      "naverPlaceId": "1353298155",
-      "name": "부엉이산장 강남지오다노점",
-      "type": "술집",
-      "categories": [
-        "술집",
-        "요리주점"
-      ],
-      "cat": [
-        "야장"
-      ],
-      "rt": 0,
-      "cnt": 261,
-      "addr": "서울특별시 서초구 서초동 1307-18 1층",
-      "hours": "",
-      "tel": "",
-      "lat": 37.5003145,
-      "lng": 127.0252803,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1353298155",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20230412_120/1681275510179En7Q2_JPEG/KakaoTalk_Photo_2023-04-11-13-54-34.jpeg"
-    },
-    {
-      "naverPlaceId": "38261837",
-      "name": "무월식탁",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 2249,
-      "addr": "서울특별시 강남구 역삼동 812-15 1층 무월식탁",
-      "hours": "",
-      "tel": "0507-1405-9280",
-      "lat": 37.5025758,
-      "lng": 127.0273296,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/38261837",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20251124_39/1763954008163KPAB8_PNG/%B9%AB%BF%F9%BD%C4%C5%B9_%C0%CF%C7%B0%BC%BC%C6%AE.png"
-    },
-    {
-      "naverPlaceId": "34807654",
-      "name": "서진식당",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 275,
-      "addr": "서울특별시 강남구 역삼동 824-25 지하115호",
-      "hours": "",
-      "tel": "02-553-9576",
-      "lat": 37.4975461,
-      "lng": 127.0310934,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/34807654",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20150901_232/1441111252331STXWS_JPEG/156374596151146_0.jpeg"
-    },
-    {
-      "naverPlaceId": "11856990",
-      "name": "노랑저고리 한정식",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "한정식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 1137,
-      "addr": "서울특별시 서초구 서초동 1316-29 타임빌딩 5층",
-      "hours": "",
-      "tel": "0507-1354-5300",
-      "lat": 37.498308,
-      "lng": 127.0252161,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/11856990",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260209_231/1770601983145v03LS_JPEG/25_%C1%D6%BE%C8%BB%F3%28%C0%FC%C3%BC%29_01.jpg"
-    },
-    {
-      "naverPlaceId": "1447948679",
-      "name": "강남막국수&보쌈",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 28,
-      "addr": "서울특별시 강남구 역삼동 824-13 지상1층 105호",
-      "hours": "",
-      "tel": "0507-1457-1138",
-      "lat": 37.4975204,
-      "lng": 127.0300808,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1447948679",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250516_18/1747384674706nE6iY_JPEG/KakaoTalk_20250516_171500668.jpg"
-    },
-    {
-      "naverPlaceId": "1862044122",
-      "name": "오봉집 강남역점",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 584,
-      "addr": "서울특별시 강남구 역삼동 827-24 2층",
-      "hours": "",
-      "tel": "0507-1388-7201",
-      "lat": 37.4955463,
-      "lng": 127.0316741,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1862044122",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20221209_59/1670558146712msbef_JPEG/KakaoTalk_20221205_105141305_01.jpg"
-    },
-    {
-      "naverPlaceId": "1501849678",
-      "name": "철공소보쌈",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 527,
-      "addr": "서울특별시 강남구 역삼동 831-3 2층",
-      "hours": "",
-      "tel": "0507-1315-2129",
-      "lat": 37.4947339,
-      "lng": 127.0301817,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1501849678",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20260425_283/1777085162547LSsRe_JPEG/Screenshot_20260425_114448_Gallery.jpg"
-    },
-    {
-      "naverPlaceId": "1866127719",
-      "name": "게새장터",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 132,
-      "addr": "서울특별시 강남구 역삼동 824-25 대우디오빌플러스 지하1층 107호",
-      "hours": "",
-      "tel": "0507-1344-8455",
-      "lat": 37.497426,
-      "lng": 127.0312034,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1866127719",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20230526_218/1685086667564odtYM_JPEG/%A4%A4%A4%A4%A4%A4%A4%A4%A4%A4.jpg"
-    },
-    {
-      "naverPlaceId": "1192810727",
-      "name": "전주식당",
-      "type": "음식점",
-      "categories": [
-        "음식점",
-        "한식"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 75,
-      "addr": "서울특별시 강남구 역삼동 818-7",
-      "hours": "",
-      "tel": "02-555-1853",
-      "lat": 37.4997542,
-      "lng": 127.0292528,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1192810727",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20200130_65/1580369769199hubCR_JPEG/kIiG5Ybkuh2g5Z00sbprvKNH.jpg"
-    },
-    {
-      "naverPlaceId": "1486575735",
-      "name": "청류벽",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "막국수"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 1438,
-      "addr": "서울특별시 서초구 서초동 1327-29 1층 청류벽",
-      "hours": "",
-      "tel": "02-2055-1191",
-      "lat": 37.4948691,
-      "lng": 127.0274078,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1486575735",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20190215_2/1550188952641p4L94_JPEG/C63QJIbAl3PbC6fNtB3VqNp_.jpg"
-    },
-    {
-      "naverPlaceId": "1957331294",
-      "name": "송탄부대찌개와보쌈 강남역점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "찌개,전골"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 145,
-      "addr": "서울특별시 서초구 서초동 1327-12 1층 송탄부대찌개",
-      "hours": "",
-      "tel": "0507-1427-6443",
-      "lat": 37.4948387,
-      "lng": 127.0278416,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1957331294",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250521_197/17478115500822pLH3_JPEG/IMG_8658.jpg"
-    },
-    {
-      "naverPlaceId": "20919870",
-      "name": "명동칼국수",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "칼국수,만두"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 116,
-      "addr": "서울특별시 강남구 역삼동 827-45",
-      "hours": "",
-      "tel": "",
-      "lat": 37.4970582,
-      "lng": 127.0311224,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/20919870",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20191019_237/15714655611690ODvH_JPEG/NDl_GEzPr4_J_JBn6eZkzyTT.jpg"
-    },
-    {
-      "naverPlaceId": "1309687316",
-      "name": "사람사는이야기 강남점",
-      "type": "술집",
-      "categories": [
-        "술집",
-        "요리주점"
-      ],
-      "cat": [
-        "야장"
-      ],
-      "rt": 0,
-      "cnt": 386,
-      "addr": "서울특별시 서초구 서초동 1308-16 1층 102호~109호",
-      "hours": "",
-      "tel": "02-591-0442",
-      "lat": 37.5004072,
-      "lng": 127.0247403,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1309687316",
-      "imageUrl": "https://naverbooking-phinf.pstatic.net/20260317_130/17737577378452AbBo_JPEG/image.jpg"
-    },
-    {
-      "naverPlaceId": "1120168397",
-      "name": "창대조개칼국수 강남역본점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "칼국수,만두"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 406,
-      "addr": "서울특별시 서초구 서초동 1327-13 강남지웰타워 2층 202호 창대조개칼국수",
-      "hours": "",
-      "tel": "02-586-3336",
-      "lat": 37.4947633,
-      "lng": 127.0281744,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1120168397",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20251027_145/17615503174829oYKF_PNG/%BC%D2%C1%D6%C0%CC%BA%A5%C6%AE.png"
-    },
-    {
-      "naverPlaceId": "1236412447",
-      "name": "강남고기집 한판도 역삼본점",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "육류,고기요리"
-      ],
-      "cat": [
-        "고기구이"
-      ],
-      "rt": 0,
-      "cnt": 2595,
-      "addr": "서울특별시 강남구 역삼동 823-42 그랑프리빌딩 1층",
-      "hours": "",
-      "tel": "0507-1382-3959",
-      "lat": 37.4984964,
-      "lng": 127.032574,
-      "priceRange": "",
-      "tags": [
-        "리뷰많음"
-      ],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1236412447",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250924_161/1758662834267oQKSJ_GIF/IMG_1848.gif"
-    },
-    {
-      "naverPlaceId": "18320174",
-      "name": "김명자굴국밥",
-      "type": "한식",
-      "categories": [
-        "한식",
-        "굴요리"
-      ],
-      "cat": [
-        "한식"
-      ],
-      "rt": 0,
-      "cnt": 267,
-      "addr": "서울특별시 서초구 서초동 1327-10 1층",
-      "hours": "",
-      "tel": "02-597-6007",
-      "lat": 37.4951168,
-      "lng": 127.0280148,
-      "priceRange": "",
-      "tags": [],
-      "moods": [],
-      "scene": [],
-      "wx": [],
-      "rv": [],
-      "menuItems": [],
-      "keywords": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/18320174",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20200302_178/1583134960591WNG8u_JPEG/GafruhDS6tRxISaxeLggg2NM.JPG.jpg"
     }
   ],
   "completedQueries": [
@@ -9342,9 +9177,7 @@
     "강남역 국밥",
     "강남역 해장",
     "강남역 설렁탕",
-    "강남역 족발",
-    "강남역 곱창",
-    "강남역 보쌈"
+    "강남역 족발"
   ],
-  "timestamp": "2026-05-09T13:07:53.444Z"
+  "timestamp": "2026-05-09T13:08:18.102Z"
 }
