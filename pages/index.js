@@ -8,6 +8,7 @@ import mangpoData from '../data/mangpo'
 import yeongtongGuData from '../data/yeongtongGu'
 import pangyoData from '../data/pangyo'
 import sujiData from '../data/suji'
+import gangnamData from '../data/gangnam'
 import posts from '../data/posts'
 
 const stations = [
@@ -34,7 +35,7 @@ const stations = [
   {
     slug:'gangnam', name:'강남역', emoji:'🌆',
     desc:'강남역·신논현·먹자골목',
-    count:null, ready:false,
+    count: gangnamData.length, ready:true,
   },
 ]
 
