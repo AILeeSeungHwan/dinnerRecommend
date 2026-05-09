@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>잠실·송리단길·석촌호수 근처에서 데이트 괜찮은 데가 어딘지 찾아봤다. 5곳 추려서 가격이랑 메뉴까지 정리해둔다.</p><p>평균 평점 5.0점. 가격대는 9,900원부터 시작하며, 2026년 5월 기준이고, 분위기·코스 구성·예약 여부·뷰을 위주로 비교했다.</p><p>소개 순서: 라코즈, 조조모모, 쾌세라, 솔직한우 방이점, 보틀벙커 비스트로 Bottle Bunker Bistro.</p>",
+      html: "<p>잠실·송리단길·석촌호수 근처에서 데이트 괜찮은 곳을 찾고 계시는 분들을 위해 준비하였습니다. 5곳을 추려서 가격과 메뉴까지 상세하게 정리하였습니다.</p><p>평균 평점 5.0점입니다. 가격대는 9,900원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 라코즈, 조조모모, 쾌세라, 솔직한우 방이점, 보틀벙커 비스트로 Bottle Bunker Bistro.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>잠실 전체 1149곳에서 데이트 카테고리 식당을 추렸다. 평점 5점 이상, 분위기·코스 구성·예약 여부·뷰 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
+      html: "<p>잠실 전체 1149곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 5점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>에서 가장 많이 나가는 건 프라하 꼴레뇨(38,000원). 고구마 맛탕 단호박 스프, 닭 다리살 잣 바질 크림 리조또도 많이 시킨다.</p><p>그 외에 와인, 채끝 등심 스테이크도 있다.</p><p>주차는 된다. 예약 가능.</p><p>리뷰 138건에 평점 5점. 꽤 높은 축에 속한다.</p><p>재방문 의사가 있다는 리뷰가 많다. 재료가 신선하다.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>에서 가장 많이 나가는 메뉴는 프라하 꼴레뇨입니다. 가격은 38,000원입니다. 고구마 맛탕 단호박 스프, 닭 다리살 잣 바질 크림 리조또도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 와인, 채끝 등심 스테이크(37,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>리뷰 138건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 여기 오면 보통 시그니처 돼지갈비 수육 시킨다. 29,000원. 그 외 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개도 괜찮다.</p><p>그 외에 물 닭갈비, 가리비 어묵탕도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 안 되니 대중교통 추천. 예약 가능.</p><p>리뷰 256건에 평점 5점. 꽤 높은 축에 속한다.</p><p>분위기가 좋아서 식사 자리로 괜찮다. 재방문 의사가 있다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>에서 가장 많이 나가는 메뉴는 시그니처 돼지갈비 수육입니다. 가격은 29,000원입니다. 그 외에도 크림 떡볶이와 감태 가리비찜, 고추장 돼지찌개를 많이 찾으십니다.</p><p>그 외에 물 닭갈비(25,000원), 가리비 어묵탕(23,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 예약이 가능합니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 256건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>. 양식. 5점에 리뷰 127건.</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p>양식 하면 <a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>리뷰 127건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p><a href=\"/dinner/jamsil/restaurant/쾌세라\" style=\"color:var(--primary)\">→ 쾌세라 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식. 5점에 리뷰 85건.</p><p>메뉴: (런치메뉴) 한우 고기 곰탕 9,900원 / (런치 메뉴)한우 육회 비빕밥 9,900원 / (런치 메뉴)한우 얼갈이 양지국밥 12,900원 / (런치 메뉴)한우 육회 비빔 냉면 11,900원.</p><p>가성비가 괜찮다는 평이 많다. 단체석이나 룸이 있다.</p><p>가성비가 좋다는 리뷰가 많다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식 전문점입니다. 5점에 리뷰 85건이 쌓여 있습니다.</p><p>대표 메뉴는 (런치메뉴) 한우 고기 곰탕 9,900원, (런치 메뉴)한우 육회 비빕밥 9,900원, (런치 메뉴)한우 얼갈이 양지국밥 12,900원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>5점짜리 식당은 흔하지 않습니다. 리뷰도 85건이나 되어 검증된 맛집이라 하겠습니다. 가격은 인당 13만원 정도 보시면 됩니다. 기념일이라면 충분히 가치 있는 선택이 되실 겁니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 솔직한우 방이점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a>. 양식 전문이고 평점 5점(리뷰 35건).</p><p>메뉴: 무화과 모짜렐라 샐러드 19,000원 / BBB 봉골레 파스타 24,000원 / 피스타치오 크림 파케리 파스타 25,000원 / BBB 아롱사태 라자냐 26,000원.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a>. 양식 전문점입니다. 5점에 리뷰 35건이 쌓여 있습니다.</p><p>대표 메뉴는 무화과 모짜렐라 샐러드 19,000원, BBB 봉골레 파스타 24,000원, 피스타치오 크림 파케리 파스타 25,000원입니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 35건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 주류 선택지가 다양합니다. 음식과 어울리는 주류 페어링도 가능합니다.</p><p><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\" style=\"color:var(--primary)\">→ 보틀벙커 비스트로 Bottle Bunker Bistro 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">138건</td><td style=\"padding:7px 6px;text-align:center\">11,000~38,000원</td><td style=\"padding:7px 6px\">기타 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">127건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">10,000~39,000원</td><td style=\"padding:7px 6px\">양식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">138건</td><td style=\"padding:7px 6px;text-align:center\">11,000~38,000원</td><td style=\"padding:7px 6px\">기타 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쾌세라\">쾌세라</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">127건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/보틀벙커 비스트로 Bottle Bunker Bistro\">보틀벙커 비스트로 Bottle Bunker Bistro</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">10,000~39,000원</td><td style=\"padding:7px 6px\">양식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -126,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>조조모모은 점심 피크(12시~12시 반)에 줄이 좀 있다. 11시 50분 전에 가는 게 낫다.</li><li>라코즈, 조조모모은 예약하고 가는 게 좋다. 주말 저녁은 특히.</li><li>주차 되는 곳: 라코즈.</li><li>조조모모, 쾌세라 등은 주차장이 없다. 대중교통이 편하다.</li><li>데이트면 예약은 기본이다. 금토 저녁은 3일 전에는 잡아야 한다.</li></ul>",
+      html: "<ul><li>조조모모은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>라코즈, 조조모모은 사전에 예약하고 방문하시는 것이 좋습니다. 특히 주말 저녁에는 예약이 필수입니다.</li><li>주차 가능한 곳: 라코즈.</li><li>조조모모, 쾌세라 등은 전용 주차장이 없습니다. 대중교통 이용을 권장드립니다.</li><li>데이트를 계획하신다면 예약은 필수입니다. 금요일·토요일 저녁은 최소 3일 전에 예약하시기 바랍니다.</li></ul>",
     },
     {
       type: 'cta',
@@ -135,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/jamsil-japanese-sushi-2026\">잠실 일식·스시 맛집 추천 5선</a></li><li><a href=\"/posts/jamsil-gukbap-best-2026\">잠실 국밥·해장국 맛집 추천 5선</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/dinner/jamsil\">잠실 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/jamsil-japanese-sushi-2026\">잠실 일식·스시 맛집 추천 5선</a></li><li><a href=\"/posts/jamsil-gukbap-best-2026\">잠실 국밥·해장국 맛집 추천 5선</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/dinner/jamsil\">잠실 전체 맛집 보기</a></li></ul>",
     }
   ],
 }

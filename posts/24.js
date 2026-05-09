@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>삼성역에서 이자카야·술집 먹을 데 찾느라 고생한 적 있다면, 이 글 하나로 정리된다. 총 859곳 중 이자카야·술집 5곳을 골라서 비교했다.</p><p>평균 평점 5.0점. 가격대는 8,500원부터 시작하며, 2026년 5월 기준이고, 주류 구성·안주·분위기·영업시간을 위주로 비교했다.</p><p>소개 순서: 호랑, 블룸, 회초리씨푸드 대치점, 솔트랑 스테이크 삼성, 바오로흑염소 선릉점.</p>",
+      html: "<p>삼성역에서 이자카야·술집 식당을 찾고 계신다면, 이 글 하나로 정리해 드리겠습니다. 총 859곳 중 이자카야·술집 5곳을 엄선하여 비교하였습니다.</p><p>평균 평점 5.0점입니다. 가격대는 8,500원부터 시작하며, 2026년 5월 기준이며, 주류 구성·안주·분위기·영업시간을 위주로 비교하였습니다.</p><p>소개 순서: 호랑, 블룸, 회초리씨푸드 대치점, 솔트랑 스테이크 삼성, 바오로흑염소 선릉점.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>삼성역 전체 859곳에서 이자카야·술집 카테고리 식당을 추렸다. 평점 5점 이상, 주류 구성·안주·분위기·영업시간 기준. 2026년 5월 데이터 기준이라 폐업이나 가격 변동은 방문 전 확인하는 게 좋다.</p>",
+      html: "<p>삼성역 전체 859곳에서 이자카야·술집 카테고리에 해당하는 식당을 선별하였습니다. 평점 5점 이상, 주류 구성·안주·분위기·영업시간 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a>에서 가장 많이 나가는 건 우니단새우(48,000원). 오마카세초밥, 우니단새우도 많이 시킨다.</p><p>그 외에 연어사시미(20ps)도 있다.</p><p>주차는 된다. 예약 가능.</p><p>평점 5. 리뷰 943건이면 이 근처에서 손에 꼽힌다. 안주 종류가 다양해서 가볍게 한잔하기 좋다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/호랑\" style=\"color:var(--primary)\">→ 호랑 상세 정보 보기</a></p>",
+      html: "<p>우니단새우 48,000원. <a href=\"/dinner/samseong/restaurant/호랑\">호랑</a>의 대표 메뉴입니다. 오마카세초밥, 우니단새우 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 연어사시미(20ps)(30,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>평점 5점에 리뷰 943건이면 이 근처에서 손에 꼽히는 곳입니다. 안주 종류가 다양해서 가볍게 한잔하시기에 좋습니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/dinner/samseong/restaurant/호랑\" style=\"color:var(--primary)\">→ 호랑 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>. 평점 5점, 리뷰 78건 정도 있다.</p><p>메뉴: 진토닉 18,000원 / 세이지 버터 파스타 25,000원 / 페퍼로니 피자 25,000원 / 시그니처 피자 25,000원.</p><p>단체석이나 룸이 있다. 주차도 된다.</p><p>분위기가 좋아서 식사 자리로 괜찮다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>. 평점 5점, 리뷰 78건 정도 있습니다.</p><p>진토닉 18,000원이 가장 인기 있는 메뉴이며, 세이지 버터 파스타 25,000원, 페퍼로니 피자 25,000원도 추천드립니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다.</p><p>5점짜리 식당은 흔하지 않습니다. 리뷰도 78건이나 되어 검증된 맛집이라 하겠습니다. 안주 종류가 다양해서 가볍게 한잔하시기에 좋습니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 블룸 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>회초리디너A코스 35,000원. <a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a>의 간판 메뉴다. 회초리디너B코스, 점심)회초리 정식 (2인이상) 같은 메뉴도 있다.</p><p>그 외에 \"점심\"백합파스타, \"점심\"씨푸드 크림 파스타도 있다.</p><p>점심시간 웨이팅이 좀 있는 편이니 일찍 가는 게 낫다. 주차는 된다. 예약 가능.</p><p>평점 5. 리뷰 237건이면 이 근처에서 손에 꼽힌다.</p><p>재료가 신선하다. 맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\" style=\"color:var(--primary)\">→ 회초리씨푸드 대치점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a>에서 가장 많이 나가는 메뉴는 회초리디너A코스입니다. 가격은 35,000원입니다. 회초리디너A코스. 회초리디너B코스, 점심)회초리 정식 (2인이상) 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 \"점심\"백합파스타(9,900원), \"점심\"씨푸드 크림 파스타(12,900원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다. 예약이 가능합니다.</p><p>리뷰 237건에 평점 5점을 유지하고 있습니다. 꽤 높은 수치로, 방문자 만족도가 우수한 곳입니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\" style=\"color:var(--primary)\">→ 회초리씨푸드 대치점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>. 평점 5점, 리뷰 184건 정도 있다.</p><p>메뉴: T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원.</p><p>주차도 된다.</p><p>맛에 대한 만족도가 높은 편이다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p>스테이크하우스 하면 <a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>메뉴를 살펴보면, T-bone (100g당) 19,800원 / 솔트허브크런치 토마호크(100g당) 23,000원 / 쿠스쿠스 타볼레 9,900원 / 해산물 황태 알리오올리오 16,900원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>평점 5점이면 이 동네에서 상위권에 해당합니다. 리뷰 184건이 쌓여 있어 신뢰도도 높은 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 안주 퀄리티가 괜찮습니다. 메인 메뉴 외에도 사이드 메뉴의 완성도가 높다는 평입니다.</p><p><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\" style=\"color:var(--primary)\">→ 솔트랑 스테이크 삼성 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\">바오로흑염소 선릉점</a>. 한식 전문이고 평점 5점(리뷰 111건).</p><p>대표 메뉴는 수육(1人) 45,000원, 바오로흑염소의 대표메뉴 흑염소갈비 49,000원, 전골(1人) 40,000원.</p><p>혼밥 가능. 주차도 된다.</p><p>재료가 신선하다.</p><p><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\" style=\"color:var(--primary)\">→ 상세 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\">바오로흑염소 선릉점</a>. 한식 전문점입니다. 5점에 리뷰 111건이 쌓여 있습니다.</p><p>대표 메뉴는 수육(1人) 45,000원, 바오로흑염소의 대표메뉴 흑염소갈비 49,000원, 전골(1人) 40,000원입니다.</p><p>특수부위인 배받이살과 목살로 몸보신하세요</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>5점짜리 식당은 흔하지 않습니다. 리뷰도 111건이나 되어 검증된 맛집이라 하겠습니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\" style=\"color:var(--primary)\">→ 바오로흑염소 선릉점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">943건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">78건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">237건</td><td style=\"padding:7px 6px;text-align:center\">9,900~55,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">184건</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크하우스 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\">바오로흑염소 선릉점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">20,000~70,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">943건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">78건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/회초리씨푸드 대치점\">회초리씨푸드 대치점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">237건</td><td style=\"padding:7px 6px;text-align:center\">9,900~55,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/솔트랑 스테이크 삼성\">솔트랑 스테이크 삼성</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">184건</td><td style=\"padding:7px 6px;text-align:center\">8,500~23,000원</td><td style=\"padding:7px 6px\">스테이크하우스 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/바오로흑염소 선릉점\">바오로흑염소 선릉점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">20,000~70,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -126,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>회초리씨푸드 대치점은 점심 피크(12시~12시 반)에 줄이 좀 있다. 11시 50분 전에 가는 게 낫다.</li><li>호랑, 회초리씨푸드 대치점은 예약하고 가는 게 좋다. 주말 저녁은 특히.</li><li>주차 되는 곳: 호랑, 블룸, 회초리씨푸드 대치점.</li></ul>",
+      html: "<ul><li>회초리씨푸드 대치점은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>호랑, 회초리씨푸드 대치점은 사전에 예약하고 방문하시는 것이 좋습니다. 특히 주말 저녁에는 예약이 필수입니다.</li><li>주차 가능한 곳: 호랑, 블룸, 회초리씨푸드 대치점.</li></ul>",
     },
     {
       type: 'cta',
@@ -135,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보다. 영업시간이나 가격은 바뀔 수 있으니 방문 전에 한 번 확인하는 게 좋다. 아래 글도 참고.</p><ul><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/samsung-date-restaurant-2026\">삼성역 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/samsung-chinese-food-2026\">삼성역 중식 맛집 추천 5곳</a></li><li><a href=\"/posts/samsung-meat-best-2026\">삼성역 고기 맛집 추천 5곳</a></li><li><a href=\"/dinner/samseong\">삼성역 전체 맛집 보기</a></li></ul>",
     }
   ],
 }
