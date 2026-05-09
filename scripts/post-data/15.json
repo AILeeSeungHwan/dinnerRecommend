@@ -5,7 +5,7 @@
   "description": "삼성역 한우·삼겹살·갈비 고기 맛집 5곳 비교",
   "category": "meat",
   "region": "samseong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "삼성역",
     "고기",
@@ -13,46 +13,6 @@
     "삼겹살"
   ],
   "restaurants": [
-    {
-      "name": "제주덕구 삼성점",
-      "type": "돼지고기구이",
-      "addr": "삼성동 153-11 1층",
-      "hours": "주소서울 강남구 삼성로100길 23-9 1층9삼성중앙역 5번 출구에서 497m미터",
-      "tel": "",
-      "priceRange": "80000",
-      "rating": 5,
-      "reviewCount": 15,
-      "blogCount": 29,
-      "tags": [
-        "주차가능",
-        "단체가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트",
-        "회식",
-        "기분 좋음"
-      ],
-      "scene": [
-        "팀 회식",
-        "데이트"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "삼성동고기집 오목세트(3~4인)",
-          "price": 80000,
-          "description": "오겹400g+목살400g+알깨밥+멜조림"
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1532958694",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
-    },
     {
       "name": "김치옥 대치점",
       "type": "육류,고기요리",
@@ -208,6 +168,46 @@
       "emoji": "🥩"
     },
     {
+      "name": "제주덕구 삼성점",
+      "type": "돼지고기구이",
+      "addr": "삼성동 153-11 1층",
+      "hours": "주소서울 강남구 삼성로100길 23-9 1층9삼성중앙역 5번 출구에서 497m미터",
+      "tel": "",
+      "priceRange": "80000",
+      "rating": 5,
+      "reviewCount": 15,
+      "blogCount": 29,
+      "tags": [
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "삼성동고기집 오목세트(3~4인)",
+          "price": 80000,
+          "description": "오겹400g+목살400g+알깨밥+멜조림"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1532958694",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
       "name": "연송",
       "type": "육류,고기요리",
       "addr": "삼성동 149-31 지상1,2층",
@@ -215,7 +215,7 @@
       "tel": "",
       "priceRange": "2500~17000",
       "rating": 5,
-      "reviewCount": 66,
+      "reviewCount": 3,
       "blogCount": 7,
       "tags": [
         "혼밥가능",

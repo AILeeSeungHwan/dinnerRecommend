@@ -5,7 +5,7 @@
   "description": "망포역 회식 장소 5곳 단체석·가격 비교",
   "category": "group",
   "region": "mangpo",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "망포",
     "회식",
@@ -13,50 +13,6 @@
     "단체석"
   ],
   "restaurants": [
-    {
-      "name": "십년한우실비집 수원망포점",
-      "type": "고기구이",
-      "addr": "덕영대로1556번길 16 168,169",
-      "hours": "평일 5:00 PM~10:00 / 주말 11:00 AM~9:30 PM",
-      "tel": "010-9022-0783",
-      "priceRange": "10000~20000",
-      "rating": 5,
-      "reviewCount": 16,
-      "blogCount": 0,
-      "tags": [
-        "가성비",
-        "가족",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "점심추천",
-        "주차가능",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "심야 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥩"
-    },
     {
       "name": "영포화로 본점",
       "type": "고기구이",
@@ -137,31 +93,6 @@
       "emoji": "🥩"
     },
     {
-      "name": "빽돈 망포점",
-      "type": "한식",
-      "addr": "경기도 수원시 영통구 망포동 342 1층",
-      "hours": "",
-      "tel": "0507-1384-0343",
-      "priceRange": "",
-      "rating": 4.7,
-      "reviewCount": 2819,
-      "blogCount": 0,
-      "tags": [
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1845252818/home",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
       "name": "한마음정육식당 영통점",
       "type": "고기구이",
       "addr": "영통동 봉영로1482번길 7-1",
@@ -199,6 +130,75 @@
       "regionName": "망포",
       "regionPath": "/samsungElectronics/mangpo",
       "emoji": "🥩"
+    },
+    {
+      "name": "십년한우실비집 수원망포점",
+      "type": "고기구이",
+      "addr": "덕영대로1556번길 16 168,169",
+      "hours": "평일 5:00 PM~10:00 / 주말 11:00 AM~9:30 PM",
+      "tel": "010-9022-0783",
+      "priceRange": "10000~20000",
+      "rating": 5,
+      "reviewCount": 16,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "가족",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "웨이팅맛집",
+        "점심추천",
+        "주차가능",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "심야 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "빽돈 망포점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 망포동 342 1층",
+      "hours": "",
+      "tel": "0507-1384-0343",
+      "priceRange": "",
+      "rating": 4.7,
+      "reviewCount": 9,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1845252818/home",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
     }
   ],
   "categoryStats": {},

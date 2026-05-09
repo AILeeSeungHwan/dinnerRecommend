@@ -5,7 +5,7 @@
   "description": "영통역 카테고리별 대표 점심 맛집 총정리",
   "category": "lunch",
   "region": "yeongtong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "영통",
     "점심",
@@ -14,14 +14,59 @@
   ],
   "restaurants": [
     {
-      "name": "청우회관",
-      "type": "고기구이",
-      "addr": "영통동 1044-6",
-      "hours": "영업시간 확인 필요",
-      "tel": "",
+      "name": "화붐 신간짬뽕 본점",
+      "type": "중식·칼국수",
+      "addr": "수원시 영통동 1036-16 1층",
+      "hours": "11:00 AM~9:00 PM",
+      "tel": "070-4038-0959",
       "priceRange": "10000~20000",
-      "rating": 4.8,
-      "reviewCount": 35,
+      "rating": 4.5,
+      "reviewCount": 123,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "고평점",
+        "국수",
+        "단체가능",
+        "웨이팅맛집",
+        "중식",
+        "칼국수",
+        "포장가능",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "마라탕",
+        "심야 밥",
+        "짬뽕",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥟"
+    },
+    {
+      "name": "김래하닭갈비",
+      "type": "고기구이·치킨",
+      "addr": "영통동 1040-8번지 1층",
+      "hours": "휴무일",
+      "tel": "031-206-0906",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 122,
       "blogCount": 0,
       "tags": [
         "고기",
@@ -29,7 +74,7 @@
         "구이",
         "단체가능",
         "웨이팅맛집",
-        "한우",
+        "치킨",
         "회식"
       ],
       "keywords": [],
@@ -38,10 +83,13 @@
         "데이트",
         "스트레스 받음",
         "허전함",
+        "혼밥",
         "회식"
       ],
       "scene": [
-        "고기 구이"
+        "고기 구이",
+        "치맥",
+        "혼자 밥"
       ],
       "parking": false,
       "reservation": false,
@@ -126,24 +174,22 @@
       "emoji": "🍣"
     },
     {
-      "name": "화붐 신간짬뽕 본점",
-      "type": "중식·칼국수",
-      "addr": "수원시 영통동 1036-16 1층",
-      "hours": "11:00 AM~9:00 PM",
-      "tel": "070-4038-0959",
+      "name": "청우회관",
+      "type": "고기구이",
+      "addr": "영통동 1044-6",
+      "hours": "영업시간 확인 필요",
+      "tel": "",
       "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 123,
+      "rating": 4.8,
+      "reviewCount": 6,
       "blogCount": 0,
       "tags": [
-        "가성비",
+        "고기",
         "고평점",
-        "국수",
+        "구이",
         "단체가능",
         "웨이팅맛집",
-        "중식",
-        "칼국수",
-        "포장가능",
+        "한우",
         "회식"
       ],
       "keywords": [],
@@ -151,15 +197,11 @@
         "기분 좋음",
         "데이트",
         "스트레스 받음",
-        "피곤함",
-        "혼밥",
+        "허전함",
         "회식"
       ],
       "scene": [
-        "마라탕",
-        "심야 밥",
-        "짬뽕",
-        "혼자 밥"
+        "고기 구이"
       ],
       "parking": false,
       "reservation": false,
@@ -168,7 +210,7 @@
       "region": "yeongtong",
       "regionName": "영통",
       "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🥟"
+      "emoji": "🥩"
     },
     {
       "name": "피자펍",
@@ -203,48 +245,6 @@
       "regionName": "영통",
       "regionPath": "/samsungElectronics/yeongtong",
       "emoji": "🍝"
-    },
-    {
-      "name": "김래하닭갈비",
-      "type": "고기구이·치킨",
-      "addr": "영통동 1040-8번지 1층",
-      "hours": "휴무일",
-      "tel": "031-206-0906",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 122,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "치킨",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "치맥",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🥩"
     }
   ],
   "categoryStats": {},

@@ -5,7 +5,7 @@
   "description": "삼성역 회식 1차 후 2차 술집·바 5곳 상황별 가이드",
   "category": "izakaya",
   "region": "samseong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "삼성역",
     "2차",
@@ -14,60 +14,152 @@
   ],
   "restaurants": [
     {
-      "name": "호랑",
-      "type": "술집",
-      "addr": "대치동 891-34 지상2층",
-      "hours": "주소서울 강남구 선릉로90길 62 지상2층2수인분당선릉역 1번 출구에서 422m미터",
-      "tel": "",
-      "priceRange": "30000~48000",
-      "rating": 5,
-      "reviewCount": 943,
-      "blogCount": 1305,
+      "name": "더 피자 스탠드",
+      "type": "피자·스포츠바",
+      "addr": "삼성로 81길 39 1층",
+      "hours": "11:30 AM–3 PM, 5 PM–자정",
+      "tel": "07-1462-1038",
+      "priceRange": "12000~24000",
+      "rating": 4.8,
+      "reviewCount": 776,
+      "blogCount": 505,
       "tags": [
-        "리뷰많음",
+        "피자",
+        "생맥주",
+        "스포츠바",
+        "야장",
+        "혼밥가능",
         "주차가능",
-        "단체가능",
-        "데이트"
+        "데이트",
+        "리뷰많음"
       ],
       "keywords": [],
       "moods": [
-        "데이트",
-        "회식"
+        "회식",
+        "기분 좋음",
+        "스트레스 받음"
       ],
       "scene": [
-        "가볍게 술",
-        "팀 회식",
-        "데이트"
+        "야장에 맥주",
+        "스포츠바",
+        "피자에 맥주"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "우니단새우",
-          "price": 48000,
+          "name": "TPS's FAVORITE(S)",
+          "price": 21000,
           "description": ""
         },
         {
-          "name": "오마카세초밥",
-          "price": 32000,
+          "name": "COMBINATION PIZZA(S)",
+          "price": 20000,
           "description": ""
         },
         {
-          "name": "우니단새우",
-          "price": 48000,
+          "name": "GARLIC WHITE PIZZA(L)",
+          "price": 39000,
           "description": ""
         },
         {
-          "name": "연어사시미(20ps)",
-          "price": 30000,
+          "name": "TPS's CLUB PIZZA(L)",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "SPINACH SALAD",
+          "price": 18000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1618253187",
+      "naverUrl": "https://map.naver.com/p/entry/place/1911951171",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🏮"
+      "emoji": "🍺"
+    },
+    {
+      "name": "오크바 오크우드 프리미어 코엑스 센터",
+      "type": "술집",
+      "addr": "삼성동 159 오크우드 프리미어 코엑스 센터 5층",
+      "hours": "18:00",
+      "tel": "",
+      "priceRange": "",
+      "rating": 4.4,
+      "reviewCount": 2120,
+      "blogCount": 40,
+      "tags": [
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "가볍게 술"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37402263",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    },
+    {
+      "name": "잇쇼우",
+      "type": "우동,소바",
+      "addr": "삼성동 140-3 대림아크로텔 109호",
+      "hours": "11:00",
+      "tel": "",
+      "priceRange": "12000~15000",
+      "rating": 4.2,
+      "reviewCount": 552,
+      "blogCount": 547,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "직장인 점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "잇쇼우 스페셜 A Set",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "잇쇼우 스페셜 B Set",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "잇쇼우 스페셜 C Set",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "잇쇼우정식",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "붓가케정식",
+          "price": 14000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/106592706",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍣"
     },
     {
       "name": "블룸",
@@ -77,7 +169,7 @@
       "tel": "",
       "priceRange": "18000~25000",
       "rating": 5,
-      "reviewCount": 78,
+      "reviewCount": 6,
       "blogCount": 36,
       "tags": [
         "단체가능",
@@ -125,29 +217,28 @@
       "emoji": "🍺"
     },
     {
-      "name": "회초리씨푸드 대치점",
-      "type": "해물,생선요리",
-      "addr": "대치동 959-12 1층",
-      "hours": "11:30",
+      "name": "호랑",
+      "type": "술집",
+      "addr": "대치동 891-34 지상2층",
+      "hours": "주소서울 강남구 선릉로90길 62 지상2층2수인분당선릉역 1번 출구에서 422m미터",
       "tel": "",
-      "priceRange": "9900~55000",
+      "priceRange": "30000~48000",
       "rating": 5,
-      "reviewCount": 237,
-      "blogCount": 55,
+      "reviewCount": 3,
+      "blogCount": 1305,
       "tags": [
+        "리뷰많음",
         "주차가능",
         "단체가능",
-        "데이트",
-        "웨이팅맛집"
+        "데이트"
       ],
       "keywords": [],
       "moods": [
         "데이트",
-        "회식",
-        "기분 좋음"
+        "회식"
       ],
       "scene": [
-        "저녁 식사",
+        "가볍게 술",
         "팀 회식",
         "데이트"
       ],
@@ -155,162 +246,31 @@
       "reservation": true,
       "menuItems": [
         {
-          "name": "회초리디너A코스",
-          "price": 35000,
-          "description": "회초리디너A코스"
+          "name": "우니단새우",
+          "price": 48000,
+          "description": ""
         },
         {
-          "name": "회초리디너B코스",
-          "price": 55000,
-          "description": "회초리디너B코스"
+          "name": "오마카세초밥",
+          "price": 32000,
+          "description": ""
         },
         {
-          "name": "점심)회초리 정식 (2인이상)",
+          "name": "우니단새우",
+          "price": 48000,
+          "description": ""
+        },
+        {
+          "name": "연어사시미(20ps)",
           "price": 30000,
-          "description": "탕+제철회+초밥+파스타&돈까스+모찌리도후"
-        },
-        {
-          "name": "\"점심\"백합파스타",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "\"점심\"씨푸드 크림 파스타",
-          "price": 12900,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/2056639342",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1618253187",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
-    },
-    {
-      "name": "솔트랑 스테이크 삼성",
-      "type": "스테이크하우스",
-      "addr": "테헤란로 610 지하 1층",
-      "hours": "11:30 AM–9:30 PM",
-      "tel": "02-6012-7429",
-      "priceRange": "8500~23000",
-      "rating": 5,
-      "reviewCount": 184,
-      "blogCount": 369,
-      "tags": [
-        "스테이크",
-        "소금스테이크",
-        "특별한날",
-        "주차가능",
-        "데이트",
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "축하할 일 있음",
-        "데이트"
-      ],
-      "scene": [
-        "특별한 날",
-        "데이트 스테이크",
-        "기념일"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "T-bone (100g당)",
-          "price": 19800,
-          "description": ""
-        },
-        {
-          "name": "솔트허브크런치 토마호크(100g당)",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "쿠스쿠스 타볼레",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "해산물 황태 알리오올리오",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "두바이 아이스크림",
-          "price": 8500,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
-    },
-    {
-      "name": "바오로흑염소 선릉점",
-      "type": "한식",
-      "addr": "역삼동 697-11 2층",
-      "hours": "10:00",
-      "tel": "",
-      "priceRange": "20000~70000",
-      "rating": 5,
-      "reviewCount": 111,
-      "blogCount": 513,
-      "tags": [
-        "리뷰많음",
-        "혼밥가능",
-        "점심추천",
-        "주차가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트",
-        "혼밥"
-      ],
-      "scene": [
-        "직장인 점심",
-        "데이트",
-        "혼밥"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "수육(1人)",
-          "price": 45000,
-          "description": "특수부위인 배받이살과 목살로 몸보신하세요"
-        },
-        {
-          "name": "바오로흑염소의 대표메뉴 흑염소갈비",
-          "price": 49000,
-          "description": ""
-        },
-        {
-          "name": "전골(1人)",
-          "price": 40000,
-          "description": "특수부위를 진한육수에 맛있게 끓여먹는 전골"
-        },
-        {
-          "name": "흑염소 버섯불고기전골",
-          "price": 30000,
-          "description": "다양한 버섯과 채소로 인기만점 영양가득 흑염소불고기"
-        },
-        {
-          "name": "수육+무침+튀김+전골",
-          "price": 70000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1869427228",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
+      "emoji": "🏮"
     }
   ],
   "categoryStats": {},

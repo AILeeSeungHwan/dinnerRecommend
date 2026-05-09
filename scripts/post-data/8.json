@@ -5,7 +5,7 @@
   "description": "삼성역·코엑스 데이트 분위기 레스토랑 5곳 비교",
   "category": "date",
   "region": "samseong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "삼성역",
     "데이트",
@@ -14,52 +14,105 @@
   ],
   "restaurants": [
     {
-      "name": "해화장",
-      "type": "횟집·해산물",
-      "addr": "테헤란로 81길 47 1층",
-      "hours": "02:00",
-      "tel": "07-1376-7872",
-      "priceRange": "23000~38000",
+      "name": "무탄 코엑스",
+      "type": "중식·퓨전",
+      "addr": "영동대로 513 코엑스몰 B1",
+      "hours": "11 AM–9:30 PM",
+      "tel": "07-1397-0364",
+      "priceRange": "10000~18000",
       "rating": 4.9,
-      "reviewCount": 47,
-      "blogCount": 283,
+      "reviewCount": 7774,
+      "blogCount": 3811,
       "tags": [
-        "신선회",
-        "어선인테리어",
-        "코르키지",
+        "자장면",
+        "짬뽕",
+        "어향동고",
+        "코엑스핫플",
+        "혼밥가능",
         "주차가능",
-        "데이트"
+        "단체가능",
+        "데이트",
+        "리뷰많음"
       ],
       "keywords": [],
       "moods": [
+        "기분 좋음",
+        "회식",
         "데이트",
-        "축하할 일 있음",
+        "혼밥"
+      ],
+      "scene": [
+        "코엑스 식사",
+        "중식",
+        "회식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥡"
+    },
+    {
+      "name": "논두렁오리주물럭 선릉직영점",
+      "type": "한식",
+      "addr": "대치동 895-9 1층",
+      "hours": "10:00",
+      "tel": "",
+      "priceRange": "8000~58000",
+      "rating": 5,
+      "reviewCount": 485,
+      "blogCount": 1256,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "단체가능"
+      ],
+      "keywords": [],
+      "moods": [
         "회식"
       ],
       "scene": [
-        "데이트",
-        "특별한 날",
-        "신선한 회"
+        "직장인 점심",
+        "팀 회식"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "[봄, 바다향 터지는] 봄멍게",
-          "price": 23000,
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "양념 오리 주물럭(2인~3인)",
+          "price": 58000,
+          "description": "한마리(2~3인)  (고기800g+야채)"
+        },
+        {
+          "name": "대패 주물럭 한판(2~3인)",
+          "price": 36000,
           "description": ""
         },
         {
-          "name": "[봄,바다향 터지는] 돌멍게",
-          "price": 38000,
+          "name": "대패 주물럭 한판 반(4인)",
+          "price": 48000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🐟"
+      "emoji": "🍚"
     },
     {
       "name": "일상정원 코엑스점",
@@ -191,98 +244,52 @@
       "emoji": "🥩"
     },
     {
-      "name": "모도우 삼성",
-      "type": "한식·코스",
-      "addr": "테헤란로 87길 35",
-      "hours": "11:30 AM–3 PM, 5–10 PM",
-      "tel": "",
-      "priceRange": "9000~15000",
-      "rating": 4.6,
-      "reviewCount": 154,
-      "blogCount": 0,
+      "name": "해화장",
+      "type": "횟집·해산물",
+      "addr": "테헤란로 81길 47 1층",
+      "hours": "02:00",
+      "tel": "07-1376-7872",
+      "priceRange": "23000~38000",
+      "rating": 4.9,
+      "reviewCount": 47,
+      "blogCount": 283,
       "tags": [
-        "프라이빗룸",
-        "코스요리",
-        "고급한식"
+        "신선회",
+        "어선인테리어",
+        "코르키지",
+        "주차가능",
+        "데이트"
       ],
       "keywords": [],
       "moods": [
         "데이트",
         "축하할 일 있음",
-        "기분 좋음"
-      ],
-      "scene": [
-        "특별한 날",
-        "데이트",
-        "고급 한식"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🪷"
-    },
-    {
-      "name": "논두렁오리주물럭 선릉직영점",
-      "type": "한식",
-      "addr": "대치동 895-9 1층",
-      "hours": "10:00",
-      "tel": "",
-      "priceRange": "8000~58000",
-      "rating": 5,
-      "reviewCount": 485,
-      "blogCount": 1256,
-      "tags": [
-        "리뷰많음",
-        "점심추천",
-        "주차가능",
-        "단체가능"
-      ],
-      "keywords": [],
-      "moods": [
         "회식"
       ],
       "scene": [
-        "직장인 점심",
-        "팀 회식"
+        "데이트",
+        "특별한 날",
+        "신선한 회"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "양념 오리 주물럭(2인~3인)",
-          "price": 58000,
-          "description": "한마리(2~3인)  (고기800g+야채)"
-        },
-        {
-          "name": "대패 주물럭 한판(2~3인)",
-          "price": 36000,
+          "name": "[봄, 바다향 터지는] 봄멍게",
+          "price": 23000,
           "description": ""
         },
         {
-          "name": "대패 주물럭 한판 반(4인)",
-          "price": 48000,
+          "name": "[봄,바다향 터지는] 돌멍게",
+          "price": 38000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
+      "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
+      "emoji": "🐟"
     }
   ],
   "categoryStats": {},

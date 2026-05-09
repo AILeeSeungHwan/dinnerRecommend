@@ -5,7 +5,7 @@
   "description": "영통구청 매탄동 점심 맛집 5곳 카테고리별 비교",
   "category": "lunch",
   "region": "yeongtongGu",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "영통구청",
     "점심",
@@ -13,6 +13,46 @@
     "카테고리"
   ],
   "restaurants": [
+    {
+      "name": "방일해장국 영통점",
+      "type": "국밥",
+      "addr": "신동 261-1",
+      "hours": "7:00 AM~9:00 PM",
+      "tel": "031-204-6222",
+      "priceRange": "12000~20000",
+      "rating": 4.4,
+      "reviewCount": 1245,
+      "blogCount": 0,
+      "tags": [
+        "국물요리",
+        "국밥",
+        "리뷰많음",
+        "심야영업",
+        "웨이팅맛집",
+        "점심추천",
+        "해장"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "피곤함",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "아침 식사",
+        "해장",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥣"
+    },
     {
       "name": "탄향1965 매탄점",
       "type": "한식",
@@ -134,31 +174,6 @@
       "reservation": false,
       "menuItems": [],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/2064392403/home",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
-      "name": "미가쌀국수 수원인계본점",
-      "type": "아시안",
-      "addr": "경기도 수원시 팔달구 인계동 1120 111호",
-      "hours": "",
-      "tel": "0507-1419-0747",
-      "priceRange": "",
-      "rating": 4.4,
-      "reviewCount": 9,
-      "blogCount": 0,
-      "tags": [
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1684252429/home",
       "region": "yeongtongGu",
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",

@@ -5,7 +5,7 @@
   "description": "판교 1인식 가능 가성비 식당 5곳",
   "category": "budget",
   "region": "pangyo",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "판교",
     "혼밥",
@@ -13,40 +13,6 @@
     "점심"
   ],
   "restaurants": [
-    {
-      "name": "상기육개장",
-      "type": "한식",
-      "addr": "백현동 560-3",
-      "hours": "AM 11:00 ~ PM 4:00",
-      "tel": "050-71376-2912",
-      "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 19,
-      "blogCount": 0,
-      "tags": [
-        "고평점",
-        "웨이팅맛집",
-        "친절",
-        "혼밥가능"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍱"
-    },
     {
       "name": "삼미칼국수",
       "type": "칼국수",
@@ -81,41 +47,6 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": "🍜"
-    },
-    {
-      "name": "정백선순대 판교역점",
-      "type": "분식",
-      "addr": "삼평동 대왕판교로606번길 58",
-      "hours": "영업시간 확인 필요",
-      "tel": "",
-      "priceRange": "12000~22000",
-      "rating": 4.8,
-      "reviewCount": 34,
-      "blogCount": 0,
-      "tags": [
-        "고평점",
-        "데이트",
-        "분식",
-        "웨이팅맛집",
-        "포장가능"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥢"
     },
     {
       "name": "불고기 온소반",
@@ -155,6 +86,75 @@
       "emoji": "🥩"
     },
     {
+      "name": "정백선순대 판교역점",
+      "type": "분식",
+      "addr": "삼평동 대왕판교로606번길 58",
+      "hours": "영업시간 확인 필요",
+      "tel": "",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 34,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "데이트",
+        "분식",
+        "웨이팅맛집",
+        "포장가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥢"
+    },
+    {
+      "name": "상기육개장",
+      "type": "한식",
+      "addr": "백현동 560-3",
+      "hours": "AM 11:00 ~ PM 4:00",
+      "tel": "050-71376-2912",
+      "priceRange": "12000~22000",
+      "rating": 4.9,
+      "reviewCount": 19,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "웨이팅맛집",
+        "친절",
+        "혼밥가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍱"
+    },
+    {
       "name": "살레르노 판교점",
       "type": "한식",
       "addr": "판교역로 145",
@@ -162,7 +162,7 @@
       "tel": "031-706-8459",
       "priceRange": "12000~22000",
       "rating": 4.9,
-      "reviewCount": 4461,
+      "reviewCount": 9,
       "blogCount": 0,
       "tags": [
         "가성비",

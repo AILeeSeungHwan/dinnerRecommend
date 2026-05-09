@@ -5,7 +5,7 @@
   "description": "판교 테크노밸리 직장인을 위한 점심 고기 맛집 가이드",
   "category": "meat",
   "region": "pangyo",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "판교",
     "점심",
@@ -13,6 +13,45 @@
     "가성비"
   ],
   "restaurants": [
+    {
+      "name": "순우가",
+      "type": "고기구이",
+      "addr": "대왕판교로645번길 36",
+      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
+      "tel": "031-606-8516",
+      "priceRange": "12000~22000",
+      "rating": 4.6,
+      "reviewCount": 159,
+      "blogCount": 0,
+      "tags": [
+        "가성비",
+        "가족",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "룸있음",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
     {
       "name": "늘푸른 생선구이",
       "type": "고기구이",
@@ -37,43 +76,6 @@
         "기분 좋음",
         "허전함",
         "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "불고기 온소반",
-      "type": "고기구이",
-      "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
-      "hours": "AM 11:00 ~ PM 8:30",
-      "tel": "050-71405-4548",
-      "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 72,
-      "blogCount": 0,
-      "tags": [
-        "가성비",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
         "회식"
       ],
       "scene": [
@@ -172,24 +174,22 @@
       "emoji": "🥩"
     },
     {
-      "name": "순우가",
+      "name": "불고기 온소반",
       "type": "고기구이",
-      "addr": "대왕판교로645번길 36",
-      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
-      "tel": "031-606-8516",
+      "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
+      "hours": "AM 11:00 ~ PM 8:30",
+      "tel": "050-71405-4548",
       "priceRange": "12000~22000",
-      "rating": 4.6,
-      "reviewCount": 159,
+      "rating": 4.9,
+      "reviewCount": 72,
       "blogCount": 0,
       "tags": [
         "가성비",
-        "가족",
         "고기",
         "고평점",
         "구이",
         "단체가능",
-        "룸있음",
-        "한우",
+        "웨이팅맛집",
         "회식"
       ],
       "keywords": [],
@@ -257,7 +257,7 @@
       "tel": "031-724-2959",
       "priceRange": "12000~22000",
       "rating": 4.6,
-      "reviewCount": 649,
+      "reviewCount": 9,
       "blogCount": 0,
       "tags": [
         "고기",

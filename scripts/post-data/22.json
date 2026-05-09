@@ -5,7 +5,7 @@
   "description": "판교 테크노밸리 비즈니스 접대 레스토랑 5곳 예산·스타일 비교",
   "category": "group",
   "region": "pangyo",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "판교",
     "접대",
@@ -14,38 +14,99 @@
   ],
   "restaurants": [
     {
-      "name": "스시소라 판교점",
-      "type": "일식",
-      "addr": "경기도 성남시 분당구 삼평동 740 지하1층 비101호",
-      "hours": "17:00에 영업 시작",
-      "tel": "031-702-3200",
-      "priceRange": "50000~100000",
-      "rating": 5,
-      "reviewCount": 90,
-      "blogCount": 105,
+      "name": "스시혼",
+      "type": "해산물·일식",
+      "addr": "삼평동 740",
+      "hours": "AM 11:00 ~ PM 10:00",
+      "tel": "031-701-0923",
+      "priceRange": "12000~22000",
+      "rating": 4.5,
+      "reviewCount": 646,
+      "blogCount": 0,
+      "tags": [
+        "가족",
+        "단체가능",
+        "리뷰많음",
+        "예약제",
+        "오마카세",
+        "일식",
+        "점심추천",
+        "코스요리",
+        "해산물",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "축하",
+        "회식"
+      ],
+      "scene": [
+        "기념일",
+        "접대",
+        "특별한날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🦪"
+    },
+    {
+      "name": "삼삼오 판교점",
+      "type": "한식",
+      "addr": "경기도 성남시 분당구 삼평동 684 1층 107호",
+      "hours": "16:00에 영업 시작",
+      "tel": "07-1356-3370",
+      "priceRange": "9000~25000",
+      "rating": 4.4,
+      "reviewCount": 14915,
+      "blogCount": 16,
       "tags": [
         "점심추천",
         "주차가능",
-        "데이트"
+        "단체가능",
+        "데이트",
+        "깔끔한곳",
+        "서비스좋음"
       ],
       "keywords": [],
       "moods": [],
       "scene": [],
       "parking": true,
-      "reservation": false,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "런치)오마카세",
-          "price": 50000,
+          "name": "미나리 냉삼(180mg)",
+          "price": 14000,
           "description": ""
         },
         {
-          "name": "디너) 오마카세",
-          "price": 100000,
+          "name": "오징어 불고기 추가",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "미나리 오삼철판 (런치)",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "미나리 제육우동철판(런치)",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "미나리 오징어초무침",
+          "price": 18000,
           "description": ""
         }
       ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2059627757/home",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2032128912/home",
       "region": "pangyo",
       "regionName": "판교",
       "regionPath": "/pangyo",
@@ -147,61 +208,6 @@
       "emoji": "🥩"
     },
     {
-      "name": "바차 판교점",
-      "type": "술집",
-      "addr": "경기도 성남시 분당구 삼평동 656 101호",
-      "hours": "17:00에 영업 시작",
-      "tel": "07-1476-7668",
-      "priceRange": "22000~35000",
-      "rating": 5,
-      "reviewCount": 128,
-      "blogCount": 289,
-      "tags": [
-        "주차가능",
-        "데이트",
-        "리뷰많음",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "바차바다찜(M/L)",
-          "price": 35000,
-          "description": ""
-        },
-        {
-          "name": "해물레드감바스",
-          "price": 25000,
-          "description": ""
-        },
-        {
-          "name": "로치새우",
-          "price": 25000,
-          "description": ""
-        },
-        {
-          "name": "수비드항정수육&부추무침",
-          "price": 27000,
-          "description": ""
-        },
-        {
-          "name": "어니언순살치킨",
-          "price": 22000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1422775069/home",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": ""
-    },
-    {
       "name": "심양 판교점",
       "type": "중식",
       "addr": "경기도 성남시 분당구 삼평동 656 112호",
@@ -209,7 +215,7 @@
       "tel": "07-1491-9291",
       "priceRange": "12000~43000",
       "rating": 5,
-      "reviewCount": 197,
+      "reviewCount": 1,
       "blogCount": 145,
       "tags": [
         "주차가능",

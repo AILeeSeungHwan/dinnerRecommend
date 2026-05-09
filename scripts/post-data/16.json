@@ -5,7 +5,7 @@
   "description": "잠실 석촌호수·방이동 데이트 맛집 5곳 비교",
   "category": "date",
   "region": "jamsil",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "잠실",
     "데이트",
@@ -14,15 +14,70 @@
   ],
   "restaurants": [
     {
-      "name": "라코즈",
-      "type": "기타",
-      "addr": "서울특별시 송파구 송파동 58-15 A동 201호",
-      "hours": "11:30에 영업 시작",
-      "tel": "07-1349-7846",
-      "priceRange": "11000~38000",
-      "rating": 5,
-      "reviewCount": 138,
-      "blogCount": 759,
+      "name": "지강한식당 잠실점",
+      "type": "한식",
+      "addr": "서울특별시 송파구 신천동 29-1 지하1층 104호",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1349-4963",
+      "priceRange": "3500~22000",
+      "rating": 4.9,
+      "reviewCount": 1520,
+      "blogCount": 2102,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "깔끔한곳"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "투움바 치즈닭갈비",
+          "price": 16500,
+          "description": ""
+        },
+        {
+          "name": "투움바 낙지 치즈닭갈비",
+          "price": 19500,
+          "description": ""
+        },
+        {
+          "name": "치즈 닭갈비",
+          "price": 16000,
+          "description": ""
+        },
+        {
+          "name": "낙지 치즈닭갈비",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "낙지 닭갈비",
+          "price": 17000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1112863263/home",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "마차이 방이점",
+      "type": "중식",
+      "addr": "서울특별시 송파구 방이동 105-4 1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1432-2553",
+      "priceRange": "7000~20000",
+      "rating": 4.9,
+      "reviewCount": 495,
+      "blogCount": 948,
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -33,35 +88,35 @@
       "moods": [],
       "scene": [],
       "parking": true,
-      "reservation": true,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "프라하 꼴레뇨",
-          "price": 38000,
+          "name": "미나리 쭈꾸미짬뽕",
+          "price": 15000,
           "description": ""
         },
         {
-          "name": "고구마 맛탕 단호박 스프",
+          "name": "고기 짬뽕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "비빔짬짜면",
           "price": 11000,
           "description": ""
         },
         {
-          "name": "닭 다리살 잣 바질 크림 리조또",
-          "price": 22000,
+          "name": "중화비빔밥",
+          "price": 10000,
           "description": ""
         },
         {
-          "name": "와인",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "채끝 등심 스테이크",
-          "price": 37000,
+          "name": "야끼우동",
+          "price": 10000,
           "description": ""
         }
       ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1830186563/home",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1469118484/home",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
@@ -121,23 +176,54 @@
       "emoji": ""
     },
     {
-      "name": "쾌세라",
-      "type": "양식",
-      "addr": "서울특별시 송파구 삼전동 26-18 1층 102호, 103호",
-      "hours": "",
-      "tel": "0507-1442-8094",
-      "priceRange": "",
+      "name": "라코즈",
+      "type": "기타",
+      "addr": "서울특별시 송파구 송파동 58-15 A동 201호",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1349-7846",
+      "priceRange": "11000~38000",
       "rating": 5,
-      "reviewCount": 127,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 138,
+      "blogCount": 759,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "서비스좋음"
+      ],
       "keywords": [],
       "moods": [],
       "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1861792642/home",
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "프라하 꼴레뇨",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "고구마 맛탕 단호박 스프",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "닭 다리살 잣 바질 크림 리조또",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "와인",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "채끝 등심 스테이크",
+          "price": 37000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1830186563/home",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
@@ -193,57 +279,6 @@
         }
       ],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/2050520891/home",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "보틀벙커 비스트로 Bottle Bunker Bistro",
-      "type": "양식",
-      "addr": "서울특별시 송파구 잠실동 40-1 롯데마트 1층 보틀벙커 비스트로",
-      "hours": "",
-      "tel": "02-2143-1389",
-      "priceRange": "10000~39000",
-      "rating": 5,
-      "reviewCount": 35,
-      "blogCount": 0,
-      "tags": [
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "무화과 모짜렐라 샐러드",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "BBB 봉골레 파스타",
-          "price": 24000,
-          "description": ""
-        },
-        {
-          "name": "피스타치오 크림 파케리 파스타",
-          "price": 25000,
-          "description": ""
-        },
-        {
-          "name": "BBB 아롱사태 라자냐",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "토시살 스테이크",
-          "price": 39000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2047465656/home",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

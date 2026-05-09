@@ -248,64 +248,86 @@ def extract_restaurant_data(name):
 output_dir = os.path.join(BASE, 'scripts', 'post-data')
 os.makedirs(output_dir, exist_ok=True)
 
+SKIP_GANGNAM = {26, 27, 28}  # 강남역 — 별도 작업중, 건드리지 않음
+
 for meta in POSTS_META:
     post_id = meta['id']
+    if post_id in SKIP_GANGNAM:
+        print(f"  Post {post_id}: SKIP (강남역 별도 작업)")
+        continue
     slug = meta['slug']
     region = meta['region']
+    category = meta.get('category', '')
+    region_rests = ALL_RESTAURANTS.get(region, [])
 
-    # 식당명 추출
-    names = extract_restaurant_names(post_id)
+    # 식당명 추출 — 지역 한정으로
+    names = extract_restaurant_names(post_id, region_key=region)
 
-    # 식당 데이터 추출
+    # 식당 데이터 추출 + 검증 (region 일치 + 카테고리 매칭 + 평점/리뷰 있음)
     restaurants = []
     matched_names = set()
     for name in names:
-        data = extract_restaurant_data(name)
+        r_raw = find_in_region(name, region)
+        if not r_raw:
+            continue
+        # region 검증
+        if r_raw.get('_region') != region:
+            continue
+        # 평점/리뷰 둘 다 0이면 제외 (정보 부족)
+        if not is_quality(r_raw):
+            continue
+        # 카테고리 검증 — 매칭 안 되면 제외
+        if category and not category_match(r_raw, category):
+            continue
+        data = extract_restaurant_data(r_raw['name'])
         if data:
             restaurants.append(data)
             matched_names.add(data['name'])
 
     # 매칭 부족 시 같은 지역·카테고리에서 보충 (최소 5개 목표)
-    region_rests = ALL_RESTAURANTS.get(region, [])
-    if len(restaurants) < 5 and category and region_rests:
-        # 카테고리 매칭 시도: cat 필드 또는 tags/type에서 카테고리 키워드 검색
-        CAT_KEYWORDS = {
-            'meat': ['고기', '구이', '삼겹', '갈비', '한우', '소고기', '돼지'],
-            'date': ['데이트', '분위기', '레스토랑', '와인', '이탈리안', '파스타', '스테이크'],
-            'group': ['단체', '회식', '룸', '삼겹', '고기', '구이', '갈비', '양꼬치'],
-            'lunch': ['점심', '런치', '백반', '정식', '한식', '중식', '일식', '양식'],
-            'budget': ['가성비', '혼밥', '1인', '저렴', '백반', '국밥', '분식'],
-            'izakaya': ['이자카야', '술집', '바', '포차', '하이볼', '사케', '맥주'],
-            'chinese': ['중식', '중국', '짜장', '짬뽕', '마라', '딤섬', '양꼬치'],
-            'gukbap': ['국밥', '해장', '순대', '설렁탕', '곰탕', '뚝배기'],
-            'japanese': ['일식', '스시', '초밥', '오마카세', '라멘', '돈까스', '규동'],
-        }
-        keywords = CAT_KEYWORDS.get(category, [category])
-        candidates = []
-        for r in region_rests:
-            if r['name'] in matched_names:
-                continue
-            search_text = ' '.join([
-                r.get('type', ''),
-                ' '.join(r.get('tags', [])),
-                ' '.join(r.get('cat', [])),
-            ])
-            if any(kw in search_text for kw in keywords):
-                candidates.append(r)
-        # 평점순 정렬 → 상위 보충
-        candidates.sort(key=lambda x: (x.get('rt', 0), x.get('cnt', 0)), reverse=True)
+    target_count = 5
+    if len(restaurants) < target_count and category and region_rests:
+        candidates = [
+            r for r in region_rests
+            if r['name'] not in matched_names
+            and is_quality(r)
+            and category_match(r, category)
+        ]
+        # 평점·리뷰 가중치 정렬
+        candidates.sort(
+            key=lambda x: (x.get('rt', 0) or 0) * 100 + min(x.get('cnt', 0) or 0, 500),
+            reverse=True,
+        )
         for r in candidates:
-            if len(restaurants) >= 5:
+            if len(restaurants) >= target_count:
                 break
             data = extract_restaurant_data(r['name'])
             if data:
                 restaurants.append(data)
                 matched_names.add(data['name'])
-        if len(restaurants) > len(names):
-            print(f"    → 보충: {len(names)}→{len(restaurants)}개 (카테고리 '{category}' 기반)")
+        # 카테고리 키워드로 못 찾으면 평점 높은 순으로 마지막 보충
+        if len(restaurants) < target_count:
+            extras = [
+                r for r in region_rests
+                if r['name'] not in matched_names and is_quality(r)
+            ]
+            extras.sort(
+                key=lambda x: (x.get('rt', 0) or 0) * 100 + min(x.get('cnt', 0) or 0, 500),
+                reverse=True,
+            )
+            for r in extras:
+                if len(restaurants) >= target_count:
+                    break
+                data = extract_restaurant_data(r['name'])
+                if data:
+                    restaurants.append(data)
+                    matched_names.add(data['name'])
 
-    # 지역 전체 통계 (해당 지역)
-    category = meta.get('category', '')
+    # 평점·리뷰 점수순 재정렬 (포스트 순서를 quality 우선으로)
+    restaurants.sort(
+        key=lambda x: (x.get('rating', 0) or 0) * 100 + min(x.get('reviewCount', 0) or 0, 500),
+        reverse=True,
+    )
 
     # 카테고리별 통계
     cat_stats = {}

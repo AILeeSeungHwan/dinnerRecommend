@@ -5249,6 +5249,277 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/20472120",
       "imageUrl": "https://ldb-phinf.pstatic.net/20221222_250/1671693176859efKsM_JPEG/%C4%AB%C7%C1%B8%AE%C3%DD%BB%E7.jpg"
+    },
+    {
+      "naverPlaceId": "254053959",
+      "name": "나폴리회관 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "피자"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 7127,
+      "addr": "서울특별시 강남구 역삼동 635-10 1층 나폴리회관",
+      "hours": "",
+      "tel": "0507-1380-5067",
+      "lat": 37.5002033,
+      "lng": 127.0289916,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/254053959",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20171201_130/1512077160045QAw6H_JPEG/KakaoTalk_20170815_143826958.jpg"
+    },
+    {
+      "naverPlaceId": "1074002248",
+      "name": "구구당 강남본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "퓨전음식"
+      ],
+      "cat": [
+        "기타"
+      ],
+      "rt": 0,
+      "cnt": 7579,
+      "addr": "서울특별시 강남구 역삼동 617-6 구구당 강남본점",
+      "hours": "",
+      "tel": "0507-1362-1979",
+      "lat": 37.5032847,
+      "lng": 127.0278795,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1074002248",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20231031_198/1698739483059cED4U_JPEG/KakaoTalk_20231031_165847322_01.jpg"
+    },
+    {
+      "naverPlaceId": "1449414851",
+      "name": "노리타",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "이탈리아음식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 307,
+      "addr": "서울특별시 강남구 역삼동 815-4 3층 2-301호",
+      "hours": "",
+      "tel": "0507-1429-7783",
+      "lat": 37.5008145,
+      "lng": 127.026849,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1449414851",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250313_188/1741841892360eo0sm_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg"
+    },
+    {
+      "naverPlaceId": "2039776126",
+      "name": "퍼그피자하우스 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "피자"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 278,
+      "addr": "서울특별시 강남구 역삼동 812-13 지상 1층",
+      "hours": "",
+      "tel": "0507-1498-7007",
+      "lat": 37.5028747,
+      "lng": 127.0274254,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2039776126",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260309_60/1773041549791LllnD_PNG/%B3%D7%C0%CC%B9%F61.png"
+    },
+    {
+      "naverPlaceId": "31413936",
+      "name": "고에몬 강남점",
+      "type": "이탈리아음식",
+      "categories": [
+        "이탈리아음식",
+        "스파게티,파스타전문"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 3351,
+      "addr": "서울특별시 서초구 서초동 1317-13 서초빌딩 1층",
+      "hours": "",
+      "tel": "02-534-8036",
+      "lat": 37.4984576,
+      "lng": 127.0264551,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/31413936",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20160121_34/1453345572129kkI5q_JPEG/176071523630600_0.jpg"
+    },
+    {
+      "naverPlaceId": "1242730767",
+      "name": "비욘더 강남",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 322,
+      "addr": "서울특별시 강남구 역삼동 830-50 지하1층",
+      "hours": "",
+      "tel": "0507-1488-8866",
+      "lat": 37.4944593,
+      "lng": 127.0330116,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1242730767",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250320_220/17424715373131rann_PNG/%BA%F1%BF%E6%B4%F5%B0%AD%B3%B2_%28%BE%D0%C3%E0%BB%E7%C0%CC%C1%EE%29-24.png"
+    },
+    {
+      "naverPlaceId": "30955062",
+      "name": "더플라잉팬 레드",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 1348,
+      "addr": "서울특별시 서초구 서초동 1317-23 지티타워 지하1층",
+      "hours": "",
+      "tel": "02-590-2488",
+      "lat": 37.4981017,
+      "lng": 127.0258448,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/30955062",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220614_25/1655176207066HO0qW_JPEG/7FFD4D7F-67A5-4410-B66D-CEF6EF4C243D.jpeg"
+    },
+    {
+      "naverPlaceId": "1490343223",
+      "name": "하이웨이서울 강남 신논현점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "양식"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 743,
+      "addr": "서울특별시 강남구 역삼동 812-15 2층",
+      "hours": "",
+      "tel": "0507-1360-9280",
+      "lat": 37.5025975,
+      "lng": 127.0273635,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1490343223",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251220_229/1766209198409vlq55_JPEG/IMG_3199.jpeg"
+    },
+    {
+      "naverPlaceId": "38226262",
+      "name": "스터번",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "스테이크,립"
+      ],
+      "cat": [
+        "양식"
+      ],
+      "rt": 0,
+      "cnt": 390,
+      "addr": "서울특별시 강남구 역삼동 649-4 한덕빌딩 1층",
+      "hours": "",
+      "tel": "0507-1427-8100",
+      "lat": 37.499873,
+      "lng": 127.0304806,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38226262",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250326_197/1742963879239oard9_JPEG/KakaoTalk_Photo_2025-03-26-13-36-59-8.jpeg"
     }
   ],
   "completedQueries": [
@@ -5267,7 +5538,8 @@
     "강남역 중식",
     "강남역 마라탕",
     "강남역 짬뽕",
-    "강남역 양식"
+    "강남역 양식",
+    "강남역 파스타"
   ],
-  "timestamp": "2026-05-09T12:56:49.892Z"
+  "timestamp": "2026-05-09T12:57:49.397Z"
 }

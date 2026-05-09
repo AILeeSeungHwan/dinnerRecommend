@@ -5,7 +5,7 @@
   "description": "삼성역 카테고리별 대표 맛집 총정리",
   "category": "lunch",
   "region": "samseong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "삼성역",
     "점심",
@@ -121,68 +121,48 @@
       "emoji": "🥡"
     },
     {
-      "name": "솔트랑 스테이크 삼성",
-      "type": "스테이크하우스",
-      "addr": "테헤란로 610 지하 1층",
-      "hours": "11:30 AM–9:30 PM",
-      "tel": "02-6012-7429",
-      "priceRange": "8500~23000",
-      "rating": 5,
-      "reviewCount": 184,
-      "blogCount": 369,
+      "name": "솥내음 스타필드 코엑스몰점",
+      "type": "한식",
+      "addr": "삼성동 159 지하1층 O-107호 라운지",
+      "hours": "10:30",
+      "tel": "",
+      "priceRange": "15900",
+      "rating": 4.9,
+      "reviewCount": 4967,
+      "blogCount": 1160,
       "tags": [
-        "스테이크",
-        "소금스테이크",
-        "특별한날",
+        "리뷰많음",
+        "혼밥가능",
+        "점심추천",
         "주차가능",
         "데이트",
-        "리뷰많음"
+        "웨이팅맛집"
       ],
       "keywords": [],
       "moods": [
-        "기분 좋음",
-        "축하할 일 있음",
-        "데이트"
+        "데이트",
+        "혼밥"
       ],
       "scene": [
-        "특별한 날",
-        "데이트 스테이크",
-        "기념일"
+        "직장인 점심",
+        "가볍게 술",
+        "데이트",
+        "혼밥"
       ],
       "parking": true,
       "reservation": true,
       "menuItems": [
         {
-          "name": "T-bone (100g당)",
-          "price": 19800,
-          "description": ""
-        },
-        {
-          "name": "솔트허브크런치 토마호크(100g당)",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "쿠스쿠스 타볼레",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "해산물 황태 알리오올리오",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "두바이 아이스크림",
-          "price": 8500,
-          "description": ""
+          "name": "신메뉴 불쭈꾸미 솥밥",
+          "price": 15900,
+          "description": "매운맛을 원하는 모든 고객님들을 위해 준비했습니다."
         }
       ],
-      "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1066276781",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
+      "emoji": "🍚"
     },
     {
       "name": "바오로흑염소 선릉점",

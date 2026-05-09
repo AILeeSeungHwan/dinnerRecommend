@@ -5,7 +5,7 @@
   "description": "삼성역 중식 맛집 5곳 가격·분위기 비교",
   "category": "chinese",
   "region": "samseong",
-  "date": "2026-05-07",
+  "date": "2026-05-09",
   "tags": [
     "삼성역",
     "중식",
@@ -54,6 +54,121 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🥡"
+    },
+    {
+      "name": "치바오 스타필드 코엑스몰점",
+      "type": "중식당",
+      "addr": "삼성동 159 B1층 치바오",
+      "hours": "10:30",
+      "tel": "",
+      "priceRange": "9000~23900",
+      "rating": 4.3,
+      "reviewCount": 24503,
+      "blogCount": 57,
+      "tags": [
+        "점심추천",
+        "리뷰많음",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "직장인 점심",
+        "저녁 식사"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "유니짜장",
+          "price": 9000,
+          "description": "곱게 다진 고기를 넣어 부드럽고 진한 맛의 짜장면"
+        },
+        {
+          "name": "차돌짬뽕",
+          "price": 13900,
+          "description": "부드러운 차돌박이와 해물이 어우러진 얼큰한 짬뽕"
+        },
+        {
+          "name": "탕수육",
+          "price": 23900,
+          "description": "달콤새콤소스를 더한 겉바속촉 돼지고기 튀김"
+        },
+        {
+          "name": "해물짬뽕",
+          "price": 15900,
+          "description": "다양한 해산물이 가득 들어간 얼큰한 짬뽕"
+        },
+        {
+          "name": "오리지날 탄탄면",
+          "price": 10900,
+          "description": "탱글한 새우를 듬뿍 넣어 볶아낸 고소한 볶음밥"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1827285939",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍜"
+    },
+    {
+      "name": "더라운드 삼성점",
+      "type": "중식당",
+      "addr": "삼성동 78 삼안빌딩 1층",
+      "hours": "12:00",
+      "tel": "",
+      "priceRange": "55000~190000",
+      "rating": 4.2,
+      "reviewCount": 606,
+      "blogCount": 374,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "직장인 점심",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "Luncheon N set",
+          "price": 55000,
+          "description": ""
+        },
+        {
+          "name": "Luncheon A set",
+          "price": 66000,
+          "description": ""
+        },
+        {
+          "name": "Luncheon L set",
+          "price": 88000,
+          "description": ""
+        },
+        {
+          "name": "Dinner T set",
+          "price": 130000,
+          "description": ""
+        },
+        {
+          "name": "Dinner F set",
+          "price": 160000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1790104492",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍜"
     },
     {
       "name": "천미미 삼성점",
@@ -185,86 +300,6 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🍲"
-    },
-    {
-      "name": "이오복순대국 대치은마점",
-      "type": "순대,순댓국",
-      "addr": "대치동 316 은마종합상가 지하1층 B블럭-10호",
-      "hours": "10:00",
-      "tel": "",
-      "priceRange": "11000",
-      "rating": 5,
-      "reviewCount": 530,
-      "blogCount": 121,
-      "tags": [
-        "가성비",
-        "주차가능"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음"
-      ],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "NEW 순칼 (순대국 칼국수)",
-          "price": 11000,
-          "description": "대한민국 최초 순칼!! 순대국과 칼국수의 만남"
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/2022139367",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
-    },
-    {
-      "name": "일품양평해장국 강남대치점",
-      "type": "해장국",
-      "addr": "대치동 903-12 지상1층",
-      "hours": "07:30",
-      "tel": "",
-      "priceRange": "9000~38000",
-      "rating": 4.3,
-      "reviewCount": 133,
-      "blogCount": 79,
-      "tags": [
-        "점심추천",
-        "주차가능"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함"
-      ],
-      "scene": [
-        "직장인 점심"
-      ],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "순대내장탕",
-          "price": 9000,
-          "description": "사골육수와 내장모둠이 만나 환상적인 얼큰한 맛!"
-        },
-        {
-          "name": "",
-          "price": 38000,
-          "description": "(中)  (大)"
-        },
-        {
-          "name": "",
-          "price": 35000,
-          "description": "(中)  (大)"
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1135011106",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🍚"
     }
   ],
   "categoryStats": {},
