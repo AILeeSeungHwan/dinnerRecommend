@@ -5702,6 +5702,184 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/2033826646",
       "imageUrl": "https://naverbooking-phinf.pstatic.net/20260502_30/1777648147710nY0E7_PNG/image.png"
+    },
+    {
+      "naverPlaceId": "1829829092",
+      "name": "도른계 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 1518,
+      "addr": "서울특별시 강남구 역삼동 818-1 1층 102호",
+      "hours": "",
+      "tel": "0507-1351-5063",
+      "lat": 37.4998129,
+      "lng": 127.02814,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1829829092",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240405_112/171230289071529Qa4_JPEG/P20240403_114627975_DFA3C3C2-A78F-45BB-8B0E-897A944C8DD9.jpg"
+    },
+    {
+      "naverPlaceId": "34097852",
+      "name": "놀란치킨 강남역본점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 374,
+      "addr": "서울특별시 서초구 서초동 1327-29 1층",
+      "hours": "",
+      "tel": "02-521-5092",
+      "lat": 37.4951182,
+      "lng": 127.0274495,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/34097852",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20150901_230/1441081947787V9Gxd_JPEG/156067593620581_0.jpeg"
+    },
+    {
+      "naverPlaceId": "18784091",
+      "name": "꼬끼꼬끼치킨호프",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 287,
+      "addr": "서울특별시 강남구 역삼동 858-16",
+      "hours": "",
+      "tel": "02-565-5687",
+      "lat": 37.4968377,
+      "lng": 127.0302995,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18784091",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200616_276/1592305910169xujmL_JPEG/_9PUf2pjO8TFUxc3WfX_7Xcz.jpg"
+    },
+    {
+      "naverPlaceId": "11708043",
+      "name": "악바리",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "요리주점"
+      ],
+      "cat": [
+        "야장"
+      ],
+      "rt": 0,
+      "cnt": 779,
+      "addr": "서울특별시 서초구 서초동 1308-6 대동빌딩 1층",
+      "hours": "",
+      "tel": "02-3482-3080",
+      "lat": 37.5012503,
+      "lng": 127.0251018,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/11708043",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200609_153/1591705387607VoXIs_JPEG/Bv_GbOn_N7oZd7xMdhK2L1VP.jpeg.jpg"
+    },
+    {
+      "naverPlaceId": "1716687922",
+      "name": "당신이선택한인생치킨 강남점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "치킨,닭강정"
+      ],
+      "cat": [
+        "치킨"
+      ],
+      "rt": 0,
+      "cnt": 66,
+      "addr": "서울특별시 서초구 서초동 1327-34 2층 208호",
+      "hours": "",
+      "tel": "02-582-7982",
+      "lat": 37.4943933,
+      "lng": 127.0277115,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1716687922",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240130_270/1706580548010DzyIO_JPEG/9.9.jpg"
+    },
+    {
+      "naverPlaceId": "31353172",
+      "name": "월매네주막",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "요리주점"
+      ],
+      "cat": [
+        "야장"
+      ],
+      "rt": 0,
+      "cnt": 138,
+      "addr": "서울특별시 서초구 서초동 1305-3 지하1층",
+      "hours": "",
+      "tel": "02-537-6684",
+      "lat": 37.5012843,
+      "lng": 127.0254811,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/31353172",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20150831_79/1440992192119nImhD_JPEG/137157513463110_0.jpeg"
     }
   ],
   "completedQueries": [
@@ -5722,7 +5900,8 @@
     "강남역 짬뽕",
     "강남역 양식",
     "강남역 파스타",
-    "강남역 스테이크"
+    "강남역 스테이크",
+    "강남역 치킨"
   ],
-  "timestamp": "2026-05-09T12:58:48.824Z"
+  "timestamp": "2026-05-09T12:59:49.972Z"
 }

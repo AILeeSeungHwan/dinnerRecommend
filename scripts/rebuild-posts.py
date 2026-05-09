@@ -324,21 +324,49 @@ def generate_context_paragraph(r, category):
         if '브레이크' in hours or 'break' in hours.lower():
             parts.append('브레이크 타임이 있으니 방문 전 영업시간을 확인하시는 것이 좋겠습니다.')
 
-    # 카테고리 특화 문장
-    if category == 'meat':
-        if '구이' in rtype or '고기' in rtype:
-            parts.append('직접 구워 드시는 스타일입니다. 불 조절은 직원분이 도와주시는 경우가 많습니다.')
-    elif category == 'izakaya':
-        if '이자카야' in rtype or '술집' in rtype:
-            parts.append('안주 종류가 다양해서 가볍게 한잔하시기에 좋습니다.')
+    # 카테고리 특화 문장 — 식당별 차이가 드러나도록 seed 분기
+    cat_variants = []
+    if category == 'meat' and ('구이' in rtype or '고기' in rtype):
+        cat_variants = [
+            '직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.',
+            '굽기 옵션이 따로 안내되어 있어 미디엄·웰던 등 취향대로 요청하실 수 있습니다.',
+            '환기 시설이 잘 되어 있는 편이지만, 옷에 냄새가 신경 쓰이시면 갈아입을 옷을 챙기시는 것도 방법입니다.',
+        ]
+    elif category == 'izakaya' and ('이자카야' in rtype or '술집' in rtype or '바' in rtype):
+        cat_variants = [
+            '안주 구성이 다양한 편이라 한두 명이 가볍게 한잔하시기에 적당합니다.',
+            '주류 페어링을 직원분께 물어보시면 추천을 받으실 수 있는 곳입니다.',
+            '예약 없이 들어가시면 자리가 없을 수 있으니 평일 8시 이후에 들리시는 것도 방법입니다.',
+        ]
     elif category == 'chinese':
-        if '중식' in rtype or '중국' in rtype:
-            parts.append('2인 이상이시면 여러 메뉴를 시켜서 나눠 드시기 좋은 구성입니다.')
+        cat_variants = [
+            '2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.',
+            '점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.',
+        ]
     elif category == 'gukbap':
-        parts.append('국물이 뜨끈해서 해장이나 든든한 한 끼로 좋습니다.')
+        # gukbap이라고 매번 같은 멘트 추가 X — 메뉴/태그별로 다양화
+        if any(k in (rtype or '') + ' '.join(tags) for k in ('순대', '순댓국')):
+            cat_variants = ['순댓국이 메인이라 진하게 끓여낸 국물 맛이 특징입니다.', '순대가 같이 나오는 메뉴 구성이 일반적입니다.']
+        elif any(k in (rtype or '') + ' '.join(tags) for k in ('설렁', '곰탕')):
+            cat_variants = ['설렁탕·곰탕은 깊이 끓여낸 사골 베이스가 특징입니다.', '국물이 많이 진한 편이라 호불호가 갈리기도 합니다.']
+        elif '해장' in (rtype or '') + ' '.join(tags):
+            cat_variants = ['해장용으로 자주 찾는 메뉴 구성이며, 국물 농도는 진한 편입니다.']
+        else:
+            cat_variants = ['국물 베이스가 진한 편이라 단품 한 그릇으로도 충분히 든든합니다.']
     elif category == 'japanese':
-        if '오마카세' in ' '.join(tags) or '스시' in rtype:
-            parts.append('제철 재료에 따라 메뉴가 달라질 수 있으니 참고하시기 바랍니다.')
+        if '오마카세' in ' '.join(tags) or '오마카세' in (rtype or ''):
+            cat_variants = ['오마카세 코스는 제철 재료에 따라 메뉴 구성이 달라집니다. 예약 시 알레르기 여부를 미리 알리시는 편이 안전합니다.']
+        elif '스시' in (rtype or ''):
+            cat_variants = ['스시 단품 위주로 주문이 가능하며, 카운터 자리가 인기 있는 편입니다.']
+        elif '라멘' in (rtype or ''):
+            cat_variants = ['국물 농도가 진한 편으로, 가벼운 시오·쇼유 라멘은 따로 옵션이 있을 때가 있습니다.']
+    elif category == 'date':
+        if '뷰맛집' in tags or '뷰' in (rtype or ''):
+            cat_variants = ['창가 자리는 예약이 빨리 마감되는 편이니 미리 잡아두시는 것을 권합니다.']
+        elif '인스타감성' in tags:
+            cat_variants = ['인테리어가 사진 찍기 좋게 꾸며져 있어 SNS에 자주 올라오는 곳입니다.']
+    if cat_variants:
+        parts.append(cat_variants[seed % len(cat_variants)])
 
     return ' '.join(parts[:3])
 
