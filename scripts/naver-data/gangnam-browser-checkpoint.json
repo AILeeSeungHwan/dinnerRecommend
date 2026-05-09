@@ -8868,6 +8868,453 @@
       "keywords": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/1353298155",
       "imageUrl": "https://ldb-phinf.pstatic.net/20230412_120/1681275510179En7Q2_JPEG/KakaoTalk_Photo_2023-04-11-13-54-34.jpeg"
+    },
+    {
+      "naverPlaceId": "38261837",
+      "name": "무월식탁",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 2249,
+      "addr": "서울특별시 강남구 역삼동 812-15 1층 무월식탁",
+      "hours": "",
+      "tel": "0507-1405-9280",
+      "lat": 37.5025758,
+      "lng": 127.0273296,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/38261837",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251124_39/1763954008163KPAB8_PNG/%B9%AB%BF%F9%BD%C4%C5%B9_%C0%CF%C7%B0%BC%BC%C6%AE.png"
+    },
+    {
+      "naverPlaceId": "34807654",
+      "name": "서진식당",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 275,
+      "addr": "서울특별시 강남구 역삼동 824-25 지하115호",
+      "hours": "",
+      "tel": "02-553-9576",
+      "lat": 37.4975461,
+      "lng": 127.0310934,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/34807654",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20150901_232/1441111252331STXWS_JPEG/156374596151146_0.jpeg"
+    },
+    {
+      "naverPlaceId": "11856990",
+      "name": "노랑저고리 한정식",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "한정식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1137,
+      "addr": "서울특별시 서초구 서초동 1316-29 타임빌딩 5층",
+      "hours": "",
+      "tel": "0507-1354-5300",
+      "lat": 37.498308,
+      "lng": 127.0252161,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/11856990",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260209_231/1770601983145v03LS_JPEG/25_%C1%D6%BE%C8%BB%F3%28%C0%FC%C3%BC%29_01.jpg"
+    },
+    {
+      "naverPlaceId": "1447948679",
+      "name": "강남막국수&보쌈",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 28,
+      "addr": "서울특별시 강남구 역삼동 824-13 지상1층 105호",
+      "hours": "",
+      "tel": "0507-1457-1138",
+      "lat": 37.4975204,
+      "lng": 127.0300808,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1447948679",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250516_18/1747384674706nE6iY_JPEG/KakaoTalk_20250516_171500668.jpg"
+    },
+    {
+      "naverPlaceId": "1862044122",
+      "name": "오봉집 강남역점",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 584,
+      "addr": "서울특별시 강남구 역삼동 827-24 2층",
+      "hours": "",
+      "tel": "0507-1388-7201",
+      "lat": 37.4955463,
+      "lng": 127.0316741,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1862044122",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221209_59/1670558146712msbef_JPEG/KakaoTalk_20221205_105141305_01.jpg"
+    },
+    {
+      "naverPlaceId": "1501849678",
+      "name": "철공소보쌈",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 527,
+      "addr": "서울특별시 강남구 역삼동 831-3 2층",
+      "hours": "",
+      "tel": "0507-1315-2129",
+      "lat": 37.4947339,
+      "lng": 127.0301817,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1501849678",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260425_283/1777085162547LSsRe_JPEG/Screenshot_20260425_114448_Gallery.jpg"
+    },
+    {
+      "naverPlaceId": "1866127719",
+      "name": "게새장터",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 132,
+      "addr": "서울특별시 강남구 역삼동 824-25 대우디오빌플러스 지하1층 107호",
+      "hours": "",
+      "tel": "0507-1344-8455",
+      "lat": 37.497426,
+      "lng": 127.0312034,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1866127719",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230526_218/1685086667564odtYM_JPEG/%A4%A4%A4%A4%A4%A4%A4%A4%A4%A4.jpg"
+    },
+    {
+      "naverPlaceId": "1192810727",
+      "name": "전주식당",
+      "type": "음식점",
+      "categories": [
+        "음식점",
+        "한식"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 75,
+      "addr": "서울특별시 강남구 역삼동 818-7",
+      "hours": "",
+      "tel": "02-555-1853",
+      "lat": 37.4997542,
+      "lng": 127.0292528,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1192810727",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200130_65/1580369769199hubCR_JPEG/kIiG5Ybkuh2g5Z00sbprvKNH.jpg"
+    },
+    {
+      "naverPlaceId": "1486575735",
+      "name": "청류벽",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "막국수"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 1438,
+      "addr": "서울특별시 서초구 서초동 1327-29 1층 청류벽",
+      "hours": "",
+      "tel": "02-2055-1191",
+      "lat": 37.4948691,
+      "lng": 127.0274078,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1486575735",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190215_2/1550188952641p4L94_JPEG/C63QJIbAl3PbC6fNtB3VqNp_.jpg"
+    },
+    {
+      "naverPlaceId": "1957331294",
+      "name": "송탄부대찌개와보쌈 강남역점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "찌개,전골"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 145,
+      "addr": "서울특별시 서초구 서초동 1327-12 1층 송탄부대찌개",
+      "hours": "",
+      "tel": "0507-1427-6443",
+      "lat": 37.4948387,
+      "lng": 127.0278416,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1957331294",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250521_197/17478115500822pLH3_JPEG/IMG_8658.jpg"
+    },
+    {
+      "naverPlaceId": "20919870",
+      "name": "명동칼국수",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 116,
+      "addr": "서울특별시 강남구 역삼동 827-45",
+      "hours": "",
+      "tel": "",
+      "lat": 37.4970582,
+      "lng": 127.0311224,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/20919870",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191019_237/15714655611690ODvH_JPEG/NDl_GEzPr4_J_JBn6eZkzyTT.jpg"
+    },
+    {
+      "naverPlaceId": "1309687316",
+      "name": "사람사는이야기 강남점",
+      "type": "술집",
+      "categories": [
+        "술집",
+        "요리주점"
+      ],
+      "cat": [
+        "야장"
+      ],
+      "rt": 0,
+      "cnt": 386,
+      "addr": "서울특별시 서초구 서초동 1308-16 1층 102호~109호",
+      "hours": "",
+      "tel": "02-591-0442",
+      "lat": 37.5004072,
+      "lng": 127.0247403,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1309687316",
+      "imageUrl": "https://naverbooking-phinf.pstatic.net/20260317_130/17737577378452AbBo_JPEG/image.jpg"
+    },
+    {
+      "naverPlaceId": "1120168397",
+      "name": "창대조개칼국수 강남역본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "칼국수,만두"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 406,
+      "addr": "서울특별시 서초구 서초동 1327-13 강남지웰타워 2층 202호 창대조개칼국수",
+      "hours": "",
+      "tel": "02-586-3336",
+      "lat": 37.4947633,
+      "lng": 127.0281744,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1120168397",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251027_145/17615503174829oYKF_PNG/%BC%D2%C1%D6%C0%CC%BA%A5%C6%AE.png"
+    },
+    {
+      "naverPlaceId": "1236412447",
+      "name": "강남고기집 한판도 역삼본점",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "육류,고기요리"
+      ],
+      "cat": [
+        "고기구이"
+      ],
+      "rt": 0,
+      "cnt": 2595,
+      "addr": "서울특별시 강남구 역삼동 823-42 그랑프리빌딩 1층",
+      "hours": "",
+      "tel": "0507-1382-3959",
+      "lat": 37.4984964,
+      "lng": 127.032574,
+      "priceRange": "",
+      "tags": [
+        "리뷰많음"
+      ],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1236412447",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250924_161/1758662834267oQKSJ_GIF/IMG_1848.gif"
+    },
+    {
+      "naverPlaceId": "18320174",
+      "name": "김명자굴국밥",
+      "type": "한식",
+      "categories": [
+        "한식",
+        "굴요리"
+      ],
+      "cat": [
+        "한식"
+      ],
+      "rt": 0,
+      "cnt": 267,
+      "addr": "서울특별시 서초구 서초동 1327-10 1층",
+      "hours": "",
+      "tel": "02-597-6007",
+      "lat": 37.4951168,
+      "lng": 127.0280148,
+      "priceRange": "",
+      "tags": [],
+      "moods": [],
+      "scene": [],
+      "wx": [],
+      "rv": [],
+      "menuItems": [],
+      "keywords": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/18320174",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200302_178/1583134960591WNG8u_JPEG/GafruhDS6tRxISaxeLggg2NM.JPG.jpg"
     }
   ],
   "completedQueries": [
@@ -8896,7 +9343,8 @@
     "강남역 해장",
     "강남역 설렁탕",
     "강남역 족발",
-    "강남역 곱창"
+    "강남역 곱창",
+    "강남역 보쌈"
   ],
-  "timestamp": "2026-05-09T13:06:52.896Z"
+  "timestamp": "2026-05-09T13:07:53.444Z"
 }
