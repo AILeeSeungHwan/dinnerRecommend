@@ -191,6 +191,63 @@ def extract_review_insights(name, region, category, max_sentences=2):
     sentences = [s for _, s in found[:max_sentences]]
     return ' '.join(sentences)
 
+# ── rv 키워드 카운트 기반 요약 ──────────────────────────────────
+REVIEW_KEYWORDS = {
+    '맛': ['맛있', '존맛', 'JMT', '미친맛', '레전드', '대박', '최고'],
+    '가성비': ['가성비', '가격대비', '가격 대비', '저렴', '싸요'],
+    '양': ['양많', '푸짐', '넉넉', '실하'],
+    '국물': ['국물', '진한', '시원한', '얼큰', '뜨끈'],
+    '재료': ['신선', '활어', '당일', '재료'],
+    '분위기': ['분위기', '인테리어', '깔끔', '예쁘'],
+    '서비스': ['친절', '서비스', '직원', '사장님'],
+    '재방문': ['재방문', '또 올', '또 갈', '다시 올', '단골'],
+    '웨이팅': ['웨이팅', '대기', '줄'],
+    '주차': ['주차', '파킹'],
+}
+
+def extract_review_summary(name, region, max_keywords=3):
+    """rv 리뷰에서 자주 언급된 키워드 카운트 기반 요약문 생성.
+    예: '방문자들이 자주 언급한 점: 가성비·양·서비스'"""
+    reviews = RV_MAP.get(region, {}).get(name, [])
+    if not reviews:
+        return ''
+    combined = ' '.join(reviews)
+    counts = []
+    for label, keywords in REVIEW_KEYWORDS.items():
+        c = sum(combined.count(kw) for kw in keywords)
+        if c > 0:
+            counts.append((c, label))
+    if not counts:
+        return ''
+    counts.sort(reverse=True)
+    top = [label for _, label in counts[:max_keywords]]
+    if not top:
+        return ''
+    return f'방문 후기에서 자주 언급되는 부분은 {"·".join(top)} 쪽입니다.'
+
+# ── rv에서 짧은 인용문 추출 ──────────────────────────────────────
+def extract_review_quote(name, region):
+    """리뷰 중 짧고 인상적인 한 줄을 찾아 인용형 요약으로 변환.
+    리뷰 원문 그대로가 아닌 약간 다듬은 형태로 반환."""
+    reviews = RV_MAP.get(region, {}).get(name, [])
+    if not reviews:
+        return ''
+    # 한 문장이 짧고(15~50자) 핵심 키워드가 들어간 것 우선
+    keywords_priority = ['가성비', '맛있', '신선', '진한', '깔끔', '친절', '재방문', '푸짐', '분위기']
+    for r in reviews[:8]:
+        # 문장 단위 분리
+        for sent in re.split(r'[.!?。]\s*', r):
+            sent = sent.strip().strip('"\'')
+            if not (15 <= len(sent) <= 50):
+                continue
+            if any(kw in sent for kw in keywords_priority):
+                # 너무 단정형이면 다듬어서 반환
+                cleaned = re.sub(r'[ㅋㅎ]+', '', sent).strip()
+                if cleaned and not cleaned.endswith(('다', '요', '음', '함')):
+                    cleaned += '다는 평'
+                return f'한 방문자는 "{cleaned}"고 적어두었습니다.'
+    return ''
+
 # ── 문장 변형 시스템 (인간적 톤) ──────────────────────────────────
 # 동일 의미를 다양한 어미/문체로 표현
 def vary_sentence(text, seed_val):
