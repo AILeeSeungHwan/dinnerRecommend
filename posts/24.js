@@ -21,12 +21,18 @@ const post = {
     {
       type: 'h2',
       id: "더-피자-스탠드",
-      text: "더 피자 스탠드 — 리뷰 776건 검증 맛집",
+      text: "더 피자 스탠드 — 평점 4.8·리뷰 776건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "/images/restaurants/samseong/더-피자-스탠드-1.jpg",
+      alt: "더 피자 스탠드 대표 사진",
+      caption: "더 피자 스탠드",
+    },
+    {
       type: 'body',
-      html: "<p>TPS's FAVORITE(S) 21,000원. <a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a>의 간판 메뉴입니다. 그 외에도 COMBINATION PIZZA(S), GARLIC WHITE PIZZA(L)를 많이 찾으십니다.</p><p>그 외에 TPS&#39;s CLUB PIZZA(L)(39,000원), SPINACH SALAD(18,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>리뷰 776건에 4.8점이면 꾸준히 무난한 편입니다. 주류 페어링을 직원분께 물어보시면 추천을 받으실 수 있는 곳입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>한 방문자는 \"오리지널 새콤해서 계속 먹을 수 있어요 ,, 쵝오분위기 좋고 직원분들도 너무 친절하세요😻다는 평\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\" style=\"color:var(--primary)\">→ 더 피자 스탠드 상세 정보 보기</a></p>",
+      html: "<p>TPS's FAVORITE(S) 21,000원. <a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a>의 간판 메뉴입니다. COMBINATION PIZZA(S), GARLIC WHITE PIZZA(L) 같은 메뉴도 인기가 좋습니다.</p><p>그 외에 TPS&#39;s CLUB PIZZA(L)(39,000원), SPINACH SALAD(18,000원)도 있습니다.</p><p>주차가 가능합니다. 예약이 가능합니다.</p><p>4.8점·리뷰 776건. 방문자 평이 비교적 일관되게 좋은 편입니다. 예약 없이 들어가시면 자리가 없을 수 있으니 평일 8시 이후에 들리시는 것도 방법입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>한 방문자는 \"오리지널 새콤해서 계속 먹을 수 있어요 ,, 쵝오분위기 좋고 직원분들도 너무 친절하세요😻다는 평\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\" style=\"color:var(--primary)\">→ 더 피자 스탠드 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -35,50 +41,62 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20230915_208/1694766630023NxaUG_JPEG/230421_OPCC_0005_%BA%B9%BB%E7.jpg",
+      alt: "오크바 오크우드 프리미어 코엑스 센터 대표 사진",
+      caption: "오크바 오크우드 프리미어 코엑스 센터",
+    },
+    {
       type: 'body',
       html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a>.</p><p>주차가 가능합니다.</p><p>리뷰 2,120건이 쌓일 만큼 방문자가 많은 곳이며, 평점은 4.4점입니다. 주류 페어링을 직원분께 물어보시면 추천을 받으실 수 있는 곳입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"서울 코엑스쪽으로 여행오면서 잡은 숙소,조식으로 먹었는데 맛있었어요 👍다는 평\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\" style=\"color:var(--primary)\">→ 오크바 오크우드 프리미어 코엑스 센터 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "잇쇼우",
-      text: "잇쇼우 — 우동 전문점",
+      text: "잇쇼우 — 시그니처 잇쇼우 스페셜 A Set 15,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20220726_188/1658764602799ufzhS_JPEG/3A998CEB-EB2E-4B7D-AF7D-1F272DB29884.jpeg",
+      alt: "잇쇼우 대표 사진",
+      caption: "잇쇼우",
+    },
+    {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a>. 우동 전문점으로, 평점 4.2점에 리뷰 552건을 기록하고 있습니다.</p><p>잇쇼우 스페셜 A Set 15,000원이 가장 인기 있는 메뉴이며, 잇쇼우 스페셜 B Set 15,000원, 잇쇼우 스페셜 C Set 15,000원도 추천드립니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>552건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다. 예약 없이 들어가시면 자리가 없을 수 있으니 평일 8시 이후에 들리시는 것도 방법입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/잇쇼우\" style=\"color:var(--primary)\">→ 잇쇼우 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a>. 우동 전문점으로, 평점 4.2점에 리뷰 552건을 기록하고 있습니다.</p><p>메뉴를 살펴보면, 잇쇼우 스페셜 A Set 15,000원 / 잇쇼우 스페셜 B Set 15,000원 / 잇쇼우 스페셜 C Set 15,000원 / 잇쇼우정식 14,000원 등이 있습니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>평점 4.2점, 리뷰 552건. 큰 호불호 없이 이용되는 편입니다. 안주 구성이 다양한 편이라 한두 명이 가볍게 한잔하시기에 적당합니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/잇쇼우\" style=\"color:var(--primary)\">→ 잇쇼우 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "블룸",
-      text: "블룸 — 술집 전문점",
+      text: "블룸 — 분위기 잡히는 술자리",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "/images/posts/24/블룸-1.jpg",
+      src: "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
       alt: "블룸 대표 사진",
       caption: "블룸",
     },
     {
       type: 'body',
-      html: "<p>술집 하면 <a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>대표 메뉴는 진토닉 18,000원, 세이지 버터 파스타 25,000원, 페퍼로니 피자 25,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다.</p><p>5점·리뷰 6건. 방문자 평이 비교적 일관되게 좋은 편입니다. 예약 없이 들어가시면 자리가 없을 수 있으니 평일 8시 이후에 들리시는 것도 방법입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 블룸 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a>. 술집 전문점입니다. 5점에 리뷰 6건이 쌓여 있습니다.</p><p>대표 메뉴는 진토닉 18,000원, 세이지 버터 파스타 25,000원, 페퍼로니 피자 25,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다.</p><p>리뷰 6건에 5점이면 꾸준히 무난한 편입니다. 주류 페어링을 직원분께 물어보시면 추천을 받으실 수 있는 곳입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/블룸\" style=\"color:var(--primary)\">→ 블룸 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "호랑",
-      text: "호랑 — 분위기 잡히는 술자리",
+      text: "호랑 — 시그니처 우니단새우 48,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'image',
-      src: "/images/posts/24/호랑-1.jpg",
+      src: "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
       alt: "호랑 대표 사진",
       caption: "호랑",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a>. 평점 5점, 리뷰 3건 정도 있습니다.</p><p>메뉴를 살펴보면, 우니단새우 48,000원 / 오마카세초밥 32,000원 / 우니단새우 48,000원 / 연어사시미(20ps) 30,000원 등이 있습니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 3건에 5점이면 꾸준히 무난한 편입니다. 주류 페어링을 직원분께 물어보시면 추천을 받으실 수 있는 곳입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·국물 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/호랑\" style=\"color:var(--primary)\">→ 호랑 상세 정보 보기</a></p>",
+      html: "<p>술집 하면 <a href=\"/dinner/samseong/restaurant/호랑\">호랑</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>대표 메뉴는 우니단새우 48,000원, 오마카세초밥 32,000원, 우니단새우 48,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>평점 5점, 리뷰 3건으로 안정적인 평가를 받고 있습니다. 안주 구성이 다양한 편이라 한두 명이 가볍게 한잔하시기에 적당합니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·국물 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/호랑\" style=\"color:var(--primary)\">→ 호랑 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -88,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">552건</td><td style=\"padding:7px 6px;text-align:center\">12,000~15,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">552건</td><td style=\"padding:7px 6px;text-align:center\">12,000~15,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

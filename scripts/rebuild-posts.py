@@ -1115,7 +1115,7 @@ for fname in sorted(os.listdir(DATA_DIR)):
 
 all_posts_meta.sort(key=lambda x: x['id'])
 
-SKIP_POST_IDS = set()  # 없음
+SKIP_POST_IDS = set()  # 전부 rebuild
 
 for post_data in all_posts_meta:
     pid = post_data['id']
@@ -1179,7 +1179,16 @@ for post_data in all_posts_meta:
         h2_title, h2_suffix = make_h2_title(r, category, used_suffixes=used_suffixes)
         used_suffixes.add(h2_suffix)
         h2_id = safe_id(r['name'])
-        r_images = post_images.get(r['name'], [])
+        # 이미지 우선순위: 식당 데이터의 imageUrl/imageUrl2 → post-images.json 폴백
+        r_images = []
+        for _key in ('imageUrl', 'imageUrl2'):
+            _u = (r.get(_key) or '').strip()
+            if _u:
+                r_images.append(_u)
+        # post-images.json에 추가 이미지가 있으면 폴백/보강
+        for _u in post_images.get(r['name'], []):
+            if _u and _u not in r_images:
+                r_images.append(_u)
 
         sections.append({
             'type': 'h2',
@@ -1188,8 +1197,8 @@ for post_data in all_posts_meta:
             'gradientStyle': GRADIENTS[(i + 1) % len(GRADIENTS)],
         })
 
-        # 첫 번째 이미지: h2 바로 아래
-        if len(r_images) >= 1:
+        # 첫 번째 이미지: h2 바로 아래 — 항상 1개 표시
+        if r_images:
             sections.append({
                 'type': 'image',
                 'src': r_images[0],

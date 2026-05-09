@@ -50,6 +50,8 @@
       "reservation": true,
       "menuItems": [],
       "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "imageUrl": "/images/restaurants/samseong/무탄-코엑스-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -91,6 +93,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1638730946",
+      "imageUrl": "/images/restaurants/samseong/개성집-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -150,6 +154,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -212,6 +218,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/2056639342",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20251205_248/1764911534995I6Qyo_PNG/20251205_112613.png",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -267,6 +275,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/2006296464",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20251112_159/1762891506353ql33z_JPEG/DSC_6610.jpg",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

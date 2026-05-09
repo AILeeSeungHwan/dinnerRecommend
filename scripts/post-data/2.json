@@ -73,6 +73,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1468555838",
+      "imageUrl": "/images/restaurants/samseong/란주쿠-삼성점-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -134,6 +136,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/34616235",
+      "imageUrl": "/images/restaurants/samseong/ASOBOY-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -198,6 +202,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1285864260",
+      "imageUrl": "/images/restaurants/samseong/야키토리-수다-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -233,6 +239,8 @@
       "reservation": false,
       "menuItems": [],
       "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -295,6 +303,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/20082746",
+      "imageUrl": "/images/restaurants/samseong/못난이포차-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -352,6 +362,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1363169933",
+      "imageUrl": "/images/restaurants/samseong/철수포차-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

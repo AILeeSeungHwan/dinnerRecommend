@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a>.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 예약이 가능합니다. 단체석이 마련되어 있습니다.</p><p>4.5점·리뷰 294건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\" style=\"color:var(--primary)\">→ 또또지짐이 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a>.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 예약이 가능합니다. 단체석이 마련되어 있습니다.</p><p>리뷰 294건에 4.5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\" style=\"color:var(--primary)\">→ 또또지짐이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -52,7 +52,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>12천원대부터 시작하는 <a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 단체석이 마련되어 있습니다.</p><p>리뷰 260건에 4.3점 정도로 무난한 평가가 쌓여 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\" style=\"color:var(--primary)\">→ 금강산화로구이 상세 정보 보기</a></p>",
+      html: "<p>12천원대부터 시작하는 <a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a>입니다. 점심 가격으로는 무난한 선이라 하겠습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다. 단체석이 마련되어 있습니다.</p><p>260건 리뷰에 4.3점이면 동네 단골 식당 정도로 보면 됩니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\" style=\"color:var(--primary)\">→ 금강산화로구이 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -68,7 +68,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>족발보쌈 하면 <a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a>도 빠지지 않습니다. 평점 4.5점입니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.5점, 리뷰 130건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\" style=\"color:var(--primary)\">→ 기막힌족발 본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a>. 족발보쌈 전문점입니다. 4.5점에 리뷰 130건이 쌓여 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 130건에 4.5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\" style=\"color:var(--primary)\">→ 기막힌족발 본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -84,7 +84,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a>. 고기구이 전문점입니다. 4.4점에 리뷰 80건이 쌓여 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>80건 리뷰에 4.4점이면 동네 단골 식당 정도로 보면 됩니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\" style=\"color:var(--primary)\">→ 양심소 매탄점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a>. 평점 4.4점, 리뷰 80건 정도 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 80건에 4.4점 정도로 무난한 평가가 쌓여 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\" style=\"color:var(--primary)\">→ 양심소 매탄점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -100,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a>. 뷔페 전문점입니다. 4.4점에 리뷰 36건이 쌓여 있습니다.</p><p>가격대는 8,000~12,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.4점, 리뷰 36건. 큰 호불호 없이 이용되는 편입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\" style=\"color:var(--primary)\">→ 용갈이뷔페 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a>. 뷔페 전문점입니다. 4.4점에 리뷰 36건이 쌓여 있습니다.</p><p>가격대는 8,000~12,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 36건에 4.4점 정도로 무난한 평가가 쌓여 있습니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\" style=\"color:var(--primary)\">→ 용갈이뷔페 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -120,7 +120,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">294건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\">서재명가부대찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">277건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">260건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">130건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">80건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">36건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\">낙지의품격</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/또또지짐이\">또또지짐이</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">294건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/서재명가부대찌개\">서재명가부대찌개</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">277건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/금강산화로구이\">금강산화로구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">260건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/기막힌족발 본점\">기막힌족발 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">130건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양심소 매탄점\">양심소 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">80건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/용갈이뷔페\">용갈이뷔페</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">36건</td><td style=\"padding:7px 6px;text-align:center\">8,000~12,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/낙지의품격\">낙지의품격</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
     },
     {
       type: 'h2',

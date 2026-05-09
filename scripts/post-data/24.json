@@ -74,6 +74,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1911951171",
+      "imageUrl": "/images/restaurants/samseong/더-피자-스탠드-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -101,6 +103,8 @@
       "reservation": false,
       "menuItems": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/37402263",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20230915_208/1694766630023NxaUG_JPEG/230421_OPCC_0005_%BA%B9%BB%E7.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -156,6 +160,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/106592706",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220726_188/1658764602799ufzhS_JPEG/3A998CEB-EB2E-4B7D-AF7D-1F272DB29884.jpeg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -211,6 +217,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/2006296464",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20251112_159/1762891506353ql33z_JPEG/DSC_6610.jpg",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -267,6 +275,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1618253187",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_218/1766050250160hq5RS_JPEG/%BC%B1%B8%AA.jpg",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

@@ -21,18 +21,30 @@ const post = {
     {
       type: 'h2',
       id: "미강식당",
-      text: "미강식당 — 한식 전문점",
+      text: "미강식당 — 평점 4.8·리뷰 909건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20240929_180/1727601632208Hb967_JPEG/KakaoTalk_20240926_111012187_24.jpg",
+      alt: "미강식당 대표 사진",
+      caption: "미강식당",
+    },
+    {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a>. 한식 전문점으로, 평점 4.8점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>4.8점·리뷰 909건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/dinner/jamsil/restaurant/미강식당\" style=\"color:var(--primary)\">→ 미강식당 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a>. 한식 전문점으로, 평점 4.8점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 909건에 4.8점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/dinner/jamsil/restaurant/미강식당\" style=\"color:var(--primary)\">→ 미강식당 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "육화식당",
-      text: "육화식당 — 리뷰 500건 검증 맛집",
+      text: "육화식당 — 한식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+    },
+    {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20250916_205/1758018227577BMrCw_GIF/%BF%F2%C2%A9.gif",
+      alt: "육화식당 대표 사진",
+      caption: "육화식당",
     },
     {
       type: 'body',
@@ -45,8 +57,14 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20260303_144/1772508995246ROHwo_JPEG/DSC04485.jpg",
+      alt: "늘푸른목장 잠실본점 대표 사진",
+      caption: "늘푸른목장 잠실본점",
+    },
+    {
       type: 'body',
-      html: "<p>한식 하면 <a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a>도 빠지지 않습니다. 평점 4.2점입니다.</p><p>메뉴를 살펴보면, 평양냉면(물/비빔) 12,000원 / 된장밥 10,000원 / 된장찌개 8,000원 등이 있습니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다.</p><p>753건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다. 예산은 인당 3만원 정도 잡으시면 넉넉합니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\" style=\"color:var(--primary)\">→ 늘푸른목장 잠실본점 상세 정보 보기</a></p>",
+      html: "<p>한식 하면 <a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a>도 빠지지 않습니다. 평점 4.2점입니다.</p><p>대표 메뉴는 평양냉면(물/비빔) 12,000원, 된장밥 10,000원, 된장찌개 8,000원입니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다.</p><p>753건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다. 예산은 인당 3만원 정도 잡으시면 넉넉합니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\" style=\"color:var(--primary)\">→ 늘푸른목장 잠실본점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -55,8 +73,14 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20250919_129/1758267970088M5Q1w_GIF/%C3%BB%BF%CD%BF%C1._gif.gif",
+      alt: "청와옥 석촌호수직영점 대표 사진",
+      caption: "청와옥 석촌호수직영점",
+    },
+    {
       type: 'body',
-      html: "<p>고기 하면 <a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a>도 빠지지 않습니다. 평점 4.2점입니다.</p><p>평점 4.2점, 리뷰 626건. 큰 호불호 없이 이용되는 편입니다.</p><p><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\" style=\"color:var(--primary)\">→ 청와옥 석촌호수직영점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a>. 고기 전문점으로, 평점 4.2점에 리뷰 626건을 기록하고 있습니다.</p><p>리뷰 626건에 4.2점 정도로 무난한 평가가 쌓여 있습니다.</p><p><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\" style=\"color:var(--primary)\">→ 청와옥 석촌호수직영점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -72,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a>. 평점 2.5점, 리뷰 2건 정도 있습니다.</p><p>가격대는 17,000~28,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>2건 정도의 리뷰가 있고, 평점은 2.5점 수준입니다.</p><p><a href=\"/dinner/jamsil/restaurant/방이옥\" style=\"color:var(--primary)\">→ 방이옥 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a>. 평점 2.5점, 리뷰 2건 정도 있습니다.</p><p>가격대는 17,000~28,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>리뷰 2건이 쌓여 있는 편입니다. 평점은 2.5점입니다.</p><p><a href=\"/dinner/jamsil/restaurant/방이옥\" style=\"color:var(--primary)\">→ 방이옥 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -82,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">909건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">500건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">753건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">626건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">909건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">500건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">753건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">626건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
     },
     {
       type: 'h2',

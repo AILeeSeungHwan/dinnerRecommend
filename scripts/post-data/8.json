@@ -50,6 +50,8 @@
       "reservation": true,
       "menuItems": [],
       "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "imageUrl": "/images/restaurants/samseong/무탄-코엑스-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -109,6 +111,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1089192231",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -174,6 +178,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1169891232",
+      "imageUrl": "/images/restaurants/samseong/일상정원-코엑스점-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -238,6 +244,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/2094659018",
+      "imageUrl": "/images/restaurants/samseong/솔트랑-스테이크-삼성-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -286,6 +294,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
+      "imageUrl": "/images/restaurants/samseong/해화장-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

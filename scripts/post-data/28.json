@@ -1,130 +1,375 @@
 {
   "id": 28,
-  "slug": "gangnam-izakaya-best-2026",
-  "title": "강남역 이자카야·술집 추천 7곳 | 2026",
-  "description": "강남역 분위기 좋은 이자카야·술집 가이드",
-  "category": "izakaya",
+  "slug": "gangnam-team-dinner-best-2026",
+  "title": "강남역 회식 장소 추천 7곳 | 2026 룸·단체석 비교",
+  "description": "강남역 회식 장소 가이드 — 룸, 단체석, 예산별 비교",
+  "category": "group",
   "region": "gangnam",
   "date": "2026-05-09",
   "tags": [
     "강남역",
-    "이자카야·술집",
+    "회식·단체",
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
+    {
+      "name": "빨간의자집 강남역점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 817-28 1층 빨간의자집 강남역점",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1376-5351",
+      "priceRange": "4000~18000",
+      "rating": 0,
+      "reviewCount": 5657,
+      "blogCount": 1168,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "웨이팅맛집",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "트리플민트(시그니처)",
+          "price": 4000,
+          "description": ""
+        },
+        {
+          "name": "통 돼지 바베큐 150g",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "[점심특선] 쌈밥 - 직화 석쇠불고기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "[점심특선] 쌈밥 - 제육 두루치기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "김치볶음밥",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "매콤비빔국수",
+          "price": 8000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
     {
       "name": "밤별 포차 라운지 강남역본점",
       "type": "이자카야",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1350-0024",
-      "priceRange": "",
+      "addr": "서울특별시 강남구 역삼동 813-9 지층, 1층, 2층, 3층",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1350-0024",
+      "priceRange": "21000~24500",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1237,
+      "blogCount": 1752,
+      "tags": [
+        "리뷰많음",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "타코와사비",
+          "price": 21000,
+          "description": ""
+        },
+        {
+          "name": "피쉬앤칩스",
+          "price": 21500,
+          "description": ""
+        },
+        {
+          "name": "오뎅탕",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "닭똥집 소금구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "즉석떡볶이",
+          "price": 23500,
+          "description": ""
+        },
+        {
+          "name": "숯불불닭",
+          "price": 23500,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "이자카야 신조",
-      "type": "이자카야",
-      "addr": "",
+      "name": "조양관한정식 강남본점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1327-29 지하1층 조양관",
       "hours": "",
-      "tel": "0507-1326-0210",
-      "priceRange": "",
+      "tel": "07-1445-8182",
+      "priceRange": "39000~230000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1012,
+      "blogCount": 2544,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "고급한정식조양관대표메뉴※관※코스",
+          "price": 90000,
+          "description": ""
+        },
+        {
+          "name": "[평일점심]※고※강남역점심맛집",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "강남역맛집※조※코스",
+          "price": 54000,
+          "description": ""
+        },
+        {
+          "name": "부모님생신추천※서프라이즈 생일상※",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "강남상견례전문※상견례 웰컴 키트※",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "90년전통헤리티지HIT※양※코스",
+          "price": 69000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "이자카야 오레노유메 강남역점",
-      "type": "이자카야",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1336-1241",
-      "priceRange": "",
+      "name": "고기꾼김춘배 강남점",
+      "type": "고기구이",
+      "addr": "서울특별시 강남구 역삼동 619-5 3층, 4층",
+      "hours": "22:30에 영업 종료",
+      "tel": "07-1342-5659",
+      "priceRange": "8000~34000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 5021,
+      "blogCount": 2001,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "한우 꾸리살 육회 200g",
+          "price": 28000,
+          "description": ""
+        },
+        {
+          "name": "국내산生 오겹살 150g",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "국내산生목살 180g",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "Prime 본갈비살 150g",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "반반냉면",
+          "price": 8000,
+          "description": ""
+        },
+        {
+          "name": "한우 특상우설(120g)",
+          "price": 34000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "이자카야 미주 강남2호점",
-      "type": "이자카야",
-      "addr": "",
+      "name": "반갑다 하대포",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 831-40 1층",
       "hours": "",
-      "tel": "0507-1418-7057",
-      "priceRange": "",
+      "tel": "07-1317-6823",
+      "priceRange": "18000~35000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1139,
+      "blogCount": 734,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "특수부위 모듬(2인분)",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "숙성삼겹살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "숙성통목살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "황제살(이베리코)",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "가로막살(이베리코)",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "천겹살(이베리코)",
+          "price": 18000,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "이자카야열 강남점",
-      "type": "이자카야",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1366-7710",
-      "priceRange": "",
+      "name": "강남 돼지상회 무한리필",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-561-8891",
+      "priceRange": "17900~23900",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 3865,
+      "blogCount": 1206,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "A 돼지모듬 무한리필",
+          "price": 17900,
+          "description": ""
+        },
+        {
+          "name": "B 돼지모듬+간장순살치킨 무한리필",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "F 풀코스 무한리필",
+          "price": 23900,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "이자카야 고코 강남신논현점",
-      "type": "이자카야",
-      "addr": "",
+      "name": "까사생갈비",
+      "type": "고기구이",
+      "addr": "서울특별시 강남구 역삼동 810-7 2층 까사생갈비",
       "hours": "",
-      "tel": "0507-1461-9192",
-      "priceRange": "",
+      "tel": "07-1384-5705",
+      "priceRange": "5000~109000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 5989,
+      "blogCount": 1556,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
-    },
-    {
-      "name": "이자카야나무 서초점",
-      "type": "이자카야",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1361-0545",
-      "priceRange": "",
-      "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
-      "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "프리미엄 숙성 생갈비",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "이베리코 베요타 목살",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "숙성 삼겹살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "황제 소 꽃갈비",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "돼지모듬 세트[신논현역맛집대표메뉴]",
+          "price": 89000,
+          "description": ""
+        },
+        {
+          "name": "소꽃갈비&돼지생갈비세트[강남역소고기]",
+          "price": 109000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     }
   ]
 }

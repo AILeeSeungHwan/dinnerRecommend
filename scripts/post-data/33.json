@@ -1,66 +1,323 @@
 {
   "id": 33,
-  "slug": "gangnam-chicken-best-2026",
-  "title": "강남역 치킨·야장 추천 3곳 | 2026",
-  "description": "강남역 치킨·야장 가이드",
-  "category": "chicken",
+  "slug": "gangnam-japanese-best-2026",
+  "title": "강남역 일식·스시 추천 7곳 | 2026",
+  "description": "강남역 일식·스시·오마카세 가이드",
+  "category": "japanese",
   "region": "gangnam",
   "date": "2026-05-09",
   "tags": [
     "강남역",
-    "치킨·야장",
+    "일식·스시",
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
     {
-      "name": "놀란치킨 강남역본점",
-      "type": "치킨",
-      "addr": "",
+      "name": "용가회전훠궈 강남점",
+      "type": "일식",
+      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
       "hours": "",
-      "tel": "02-521-5092",
+      "tel": "07-1362-3181",
+      "priceRange": "18900~22900",
+      "rating": 0,
+      "reviewCount": 4810,
+      "blogCount": 1994,
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "웨이팅맛집"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "평일점심 (~15:00)",
+          "price": 18900,
+          "description": ""
+        },
+        {
+          "name": "평일 저녁 (15:00~)",
+          "price": 22900,
+          "description": ""
+        },
+        {
+          "name": "주말 및 공휴일",
+          "price": 22900,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "강남 돼지상회 무한리필",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-561-8891",
+      "priceRange": "17900~23900",
+      "rating": 0,
+      "reviewCount": 3865,
+      "blogCount": 1206,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "A 돼지모듬 무한리필",
+          "price": 17900,
+          "description": ""
+        },
+        {
+          "name": "B 돼지모듬+간장순살치킨 무한리필",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "F 풀코스 무한리필",
+          "price": 23900,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": true
+    },
+    {
+      "name": "스시산원 반주헌",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 825-20 센트럴푸르지오시티 지하2층 224호",
+      "hours": "",
+      "tel": "07-1389-0565",
+      "priceRange": "24000~75000",
+      "rating": 0,
+      "reviewCount": 1961,
+      "blogCount": 699,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "[런치] 온우동+스시5종",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 오마카세스시",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 반주헌류 스페셜 카이센동",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 사케동정식",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 반주헌류 명품 루이비동",
+          "price": 60000,
+          "description": ""
+        },
+        {
+          "name": "[디너] 숙성사시미 2인",
+          "price": 50000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": false
+    },
+    {
+      "name": "수지상회 강남1호점",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 820-2 2층",
+      "hours": "",
+      "tel": "0507-1366-6974",
       "priceRange": "",
       "rating": 0,
-      "reviewCount": 0,
+      "reviewCount": 2430,
       "blogCount": 0,
-      "tags": [],
+      "tags": [
+        "리뷰많음",
+        "데이트"
+      ],
       "moods": [],
       "menuItems": [],
       "parking": false,
       "reservation": false
     },
     {
-      "name": "꼬끼꼬끼치킨호프",
-      "type": "치킨",
-      "addr": "",
+      "name": "복국오마카세 아카사카일식",
+      "type": "일식",
+      "addr": "서울특별시 서초구 서초동 1327 서초타운트라팰리스 지하1층",
       "hours": "",
-      "tel": "02-565-5687",
-      "priceRange": "",
+      "tel": "07-1385-1386",
+      "priceRange": "16000~150000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 804,
+      "blogCount": 1149,
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "복국오마카세(룸×/예약×/당일입장)",
+          "price": 16000,
+          "description": ""
+        },
+        {
+          "name": "프리미어정식 (런치메뉴)",
+          "price": 50000,
+          "description": ""
+        },
+        {
+          "name": "아카사카 진코스(1인)",
+          "price": 70000,
+          "description": ""
+        },
+        {
+          "name": "곽문영셰프 시그니처오마카세코스(추천)",
+          "price": 100000,
+          "description": ""
+        },
+        {
+          "name": "콜키지 프리 이벤트(무제한)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "곽문영 셰프정식 (런치메뉴)",
+          "price": 70000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "올바른스시 강남역점",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 813-11 1층",
+      "hours": "",
+      "tel": "0507-1431-4080",
+      "priceRange": "10000~35000",
+      "rating": 0,
+      "reviewCount": 833,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "가성비",
+        "점심추천",
+        "데이트"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "스페셜초밥(12p)",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "vip초밥(14p)",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "혼마구로초밥(10ps)",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "수제안심카츠",
+          "price": 11500,
+          "description": ""
+        },
+        {
+          "name": "점심특선(라멘정식)",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "점심특선(우동정식)",
+          "price": 10000,
+          "description": ""
+        }
+      ],
       "parking": false,
       "reservation": false
     },
     {
-      "name": "당신이선택한인생치킨 강남점",
-      "type": "치킨",
-      "addr": "",
-      "hours": "",
-      "tel": "02-582-7982",
-      "priceRange": "",
+      "name": "고메스시",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 817-10 2층 고메스시",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1367-3167",
+      "priceRange": "6000~60000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1750,
+      "blogCount": 837,
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "점심추천",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "고메스페셜초밥세트(12ps)",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "고메초밥세트(12ps)",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "모듬초밥세트(10ps)",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "런치초밥세트(10ps)",
+          "price": 9500,
+          "description": ""
+        },
+        {
+          "name": "연어광어사시미",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "참치사시미",
+          "price": 45000,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     }
   ]
 }

@@ -1,130 +1,372 @@
 {
   "id": 30,
-  "slug": "gangnam-gukbap-best-2026",
-  "title": "강남역 국밥·해장 맛집 추천 7곳 | 2026",
-  "description": "강남역 국밥·해장 맛집 가이드",
-  "category": "gukbap",
+  "slug": "gangnam-izakaya-best-2026",
+  "title": "강남역 이자카야·술집 추천 7곳 | 2026",
+  "description": "강남역 분위기 좋은 이자카야·술집 가이드",
+  "category": "izakaya",
   "region": "gangnam",
   "date": "2026-05-09",
   "tags": [
     "강남역",
-    "국밥·해장",
+    "이자카야·술집",
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
     {
-      "name": "강남진해장",
-      "type": "국밥",
-      "addr": "",
-      "hours": "",
-      "tel": "02-557-2662",
-      "priceRange": "",
+      "name": "밤별 포차 라운지 강남역본점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 813-9 지층, 1층, 2층, 3층",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1350-0024",
+      "priceRange": "21000~24500",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1237,
+      "blogCount": 1752,
+      "tags": [
+        "리뷰많음",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "타코와사비",
+          "price": 21000,
+          "description": ""
+        },
+        {
+          "name": "피쉬앤칩스",
+          "price": 21500,
+          "description": ""
+        },
+        {
+          "name": "오뎅탕",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "닭똥집 소금구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "즉석떡볶이",
+          "price": 23500,
+          "description": ""
+        },
+        {
+          "name": "숯불불닭",
+          "price": 23500,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "국밥쟁이 강남역점",
-      "type": "국밥",
-      "addr": "",
+      "name": "이자카야 오레노유메 강남역점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 831-29 2층-3층",
       "hours": "",
-      "tel": "0507-1416-9292",
-      "priceRange": "",
+      "tel": "07-1336-1241",
+      "priceRange": "22000~100000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1050,
+      "blogCount": 266,
+      "tags": [
+        "가성비",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "아보카도연어육회",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "고등어 봉초밥",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "[BEST]숙성회세트(소)",
+          "price": 95000,
+          "description": ""
+        },
+        {
+          "name": "[인기메뉴] 모둠꼬치구이 12p",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "[특별 메뉴] 오레노 다랑어 스페셜",
+          "price": 100000,
+          "description": ""
+        },
+        {
+          "name": "[100%수제양념] 매콤해물치즈떡볶이",
+          "price": 26000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "국밥생각 강남역점",
-      "type": "국밥",
-      "addr": "",
+      "name": "이자카야 고코 강남신논현점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 810-5 반석빌딩 2층 이자카야고코",
       "hours": "",
-      "tel": "02-563-9990",
-      "priceRange": "",
+      "tel": "07-1461-9192",
+      "priceRange": "6000~42000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 2114,
+      "blogCount": 1203,
+      "tags": [
+        "리뷰많음",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "고코 숙성 사시미",
+          "price": 42000,
+          "description": ""
+        },
+        {
+          "name": "대광어 시오삼합",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "고코 7종 야키토리",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "후쿠오카식 미즈타키",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "왕 후토마끼",
+          "price": 30000,
+          "description": ""
+        },
+        {
+          "name": "스피니치 파스타",
+          "price": 21000,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "육전국밥 강남역점",
-      "type": "국밥",
-      "addr": "",
+      "name": "이자카야나무 서초점",
+      "type": "이자카야",
+      "addr": "서울특별시 서초구 서초동 1307-11 지하1층~지상4층",
       "hours": "",
-      "tel": "02-558-2275",
-      "priceRange": "",
+      "tel": "07-1361-0545",
+      "priceRange": "16000~169900",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 4118,
+      "blogCount": 977,
+      "tags": [
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "바지락반전무침",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "바지락술찜",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "도다리회",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "커플세트",
+          "price": 59900,
+          "description": ""
+        },
+        {
+          "name": "나무세트",
+          "price": 89900,
+          "description": ""
+        },
+        {
+          "name": "나무한상",
+          "price": 169900,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "나주곰탕 강남역본점",
-      "type": "국밥",
-      "addr": "",
+      "name": "이자카야나무 강남역CGV점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 814-5 2층",
       "hours": "",
-      "tel": "02-567-6035",
-      "priceRange": "",
+      "tel": "07-1436-6787",
+      "priceRange": "16000~169900",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1510,
+      "blogCount": 239,
+      "tags": [
+        "단체가능",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "(봄)바지락 반전무침",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "(봄)바지락술찜",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "(봄)도다리회",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "커플세트",
+          "price": 59900,
+          "description": ""
+        },
+        {
+          "name": "나무 세트",
+          "price": 89900,
+          "description": ""
+        },
+        {
+          "name": "나무 한상",
+          "price": 169900,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "제주은희네해장국 강남역점",
-      "type": "국밥",
-      "addr": "",
-      "hours": "",
-      "tel": "02-558-8868",
-      "priceRange": "",
+      "name": "이자카야나무 강남역2호점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 831-3 지하1층 이자카야나무 강남역2호점",
+      "hours": "05:00에 영업 종료",
+      "tel": "07-1380-6787",
+      "priceRange": "16000~169900",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1435,
+      "blogCount": 388,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "바지락 반전무침",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "바지락 술찜",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "도다리회",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "커플세트",
+          "price": 59900,
+          "description": ""
+        },
+        {
+          "name": "나무세트",
+          "price": 89900,
+          "description": ""
+        },
+        {
+          "name": "나무한상",
+          "price": 169900,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "두성전주콩나물국밥 강남역점",
-      "type": "국밥",
-      "addr": "",
-      "hours": "",
-      "tel": "02-569-0630",
-      "priceRange": "",
+      "name": "갓포 이케맨이자카야",
+      "type": "이자카야",
+      "addr": "서울특별시 서초구 서초동 1330-13 3층",
+      "hours": "01:00에 영업 종료",
+      "tel": "02-3473-5630",
+      "priceRange": "23000~28000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 782,
+      "blogCount": 453,
+      "tags": [
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "명란버터구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "뚝배기오뎅나베",
+          "price": 28000,
+          "description": ""
+        },
+        {
+          "name": "오꼬노미야끼",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "치킨가라아게",
+          "price": 25000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     }
   ]
 }

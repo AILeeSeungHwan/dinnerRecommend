@@ -12,113 +12,319 @@
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
     {
       "name": "꼬끼오 장작구이",
       "type": "고기구이",
-      "addr": "",
+      "addr": "서울특별시 강남구 역삼동 827-46 1, 2층",
       "hours": "",
-      "tel": "0507-1321-9010",
-      "priceRange": "",
+      "tel": "07-1321-9010",
+      "priceRange": "17000~28000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 1098,
+      "blogCount": 710,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "데이트"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "한방누룽지통닭",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "코리아바베큐통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "통통마늘통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "콘치즈통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "한방누룽지통닭 포장",
+          "price": 17500,
+          "description": ""
+        },
+        {
+          "name": "골뱅이소면",
+          "price": 28000,
+          "description": ""
+        }
+      ],
       "parking": false,
       "reservation": false
     },
     {
       "name": "고기꾼김춘배 강남점",
       "type": "고기구이",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1342-5659",
-      "priceRange": "",
+      "addr": "서울특별시 강남구 역삼동 619-5 3층, 4층",
+      "hours": "22:30에 영업 종료",
+      "tel": "07-1342-5659",
+      "priceRange": "8000~34000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 5021,
+      "blogCount": 2001,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "한우 꾸리살 육회 200g",
+          "price": 28000,
+          "description": ""
+        },
+        {
+          "name": "국내산生 오겹살 150g",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "국내산生목살 180g",
+          "price": 17000,
+          "description": ""
+        },
+        {
+          "name": "Prime 본갈비살 150g",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "반반냉면",
+          "price": 8000,
+          "description": ""
+        },
+        {
+          "name": "한우 특상우설(120g)",
+          "price": 34000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
       "name": "까사생갈비",
       "type": "고기구이",
-      "addr": "",
+      "addr": "서울특별시 강남구 역삼동 810-7 2층 까사생갈비",
       "hours": "",
-      "tel": "0507-1384-5705",
-      "priceRange": "",
+      "tel": "07-1384-5705",
+      "priceRange": "5000~109000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 5989,
+      "blogCount": 1556,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "프리미엄 숙성 생갈비",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "이베리코 베요타 목살",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "숙성 삼겹살",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "황제 소 꽃갈비",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "돼지모듬 세트[신논현역맛집대표메뉴]",
+          "price": 89000,
+          "description": ""
+        },
+        {
+          "name": "소꽃갈비&돼지생갈비세트[강남역소고기]",
+          "price": 109000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
       "name": "전설의우대갈비 강남직영점",
       "type": "고기구이",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1420-9050",
-      "priceRange": "",
+      "addr": "서울특별시 강남구 역삼동 819 3층 1호",
+      "hours": "11:10에 영업 시작",
+      "tel": "07-1420-9050",
+      "priceRange": "22000~39000",
       "rating": 0,
-      "reviewCount": 0,
+      "reviewCount": 4958,
+      "blogCount": 1163,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "전설우대갈비(1대) 370g",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "[평일] 소갈비살 정식 [Lunch]",
+          "price": 28000,
+          "description": ""
+        },
+        {
+          "name": "전설소갈비살 160g",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "전설소막창 200g",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "전설삼겹살 200g",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "라장양갈비양꼬치 무한리필",
+      "type": "고기구이",
+      "addr": "서울특별시 강남구 역삼동 619-30 지상3층",
+      "hours": "23:30에 영업 종료",
+      "tel": "07-1345-6758",
+      "priceRange": "15000~27900",
+      "rating": 0,
+      "reviewCount": 1835,
+      "blogCount": 1521,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "웨이팅맛집"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "양꼬치 무한리필",
+          "price": 23900,
+          "description": ""
+        },
+        {
+          "name": "양어깨등심+양꼬치+식사류 (무한리필)",
+          "price": 25900,
+          "description": ""
+        },
+        {
+          "name": "양갈비+양꼬치+요리1개+식사 무한리필",
+          "price": 27900,
+          "description": ""
+        },
+        {
+          "name": "양꼬치",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "생양갈비(숄더랙)",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "꿔바로우",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "엄순녀뼈구이순대국 강남역점",
+      "type": "고기구이",
+      "addr": "서울특별시 강남구 역삼동 817-5 지상 1층, 2층",
+      "hours": "",
+      "tel": "02-6448-6110",
+      "priceRange": "10000~34000",
+      "rating": 0,
+      "reviewCount": 475,
       "blogCount": 0,
       "tags": [],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "숯불뼈구이세트(2인이상주문)",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "치즈뼈구이세트(2인이상주문)",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "돼지한마리 얼큰해장순대국",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "로제뼈구이세트(2인이상주문)",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "우거지감자탕(소/중/대)",
+          "price": 34000,
+          "description": ""
+        },
+        {
+          "name": "순대국정식",
+          "price": 13000,
+          "description": ""
+        }
+      ],
       "parking": false,
       "reservation": false
     },
     {
       "name": "칼맞은삼겹살 강남본점",
       "type": "고기구이",
-      "addr": "",
+      "addr": "서울특별시 서초구 서초동 1308-14 1층 칼맞은삼겹살",
       "hours": "",
       "tel": "02-533-7732",
       "priceRange": "",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
-      "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
-    },
-    {
-      "name": "두배고기 강남역본점",
-      "type": "고기구이",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1442-0707",
-      "priceRange": "",
-      "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
-      "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
-    },
-    {
-      "name": "풍년참숯갈비 강남점",
-      "type": "고기구이",
-      "addr": "",
-      "hours": "",
-      "tel": "02-566-6630",
-      "priceRange": "",
-      "rating": 0,
-      "reviewCount": 0,
+      "reviewCount": 469,
       "blogCount": 0,
       "tags": [],
       "moods": [],

@@ -139,34 +139,43 @@ for r in restaurants:
         lo, hi = min(prices), max(prices)
         price_range = f'{int(lo)}~{int(hi)}'
 
+    # 태그: 기존 태그 + 추출 태그 병합
+    existing_tags = r.get('tags', []) or []
+    new_tags = extract_tags(r)
+    all_tags = list(dict.fromkeys(existing_tags + new_tags))  # 중복 제거, 순서 유지
+
     entry = {
         'name': name,
         'type': classify_type(r),
         'e': '',
-        'rt': r.get('rating', r.get('visitorRating', 0)) or 0,
-        'cnt': r.get('reviewCount', r.get('visitorReviewCount', 0)) or 0,
-        'addr': r.get('address', r.get('roadAddress', '')),
-        'hours': r.get('businessHours', r.get('hours', '')),
-        'tel': r.get('phone', r.get('tel', '')),
-        'priceRange': price_range,
+        'rt': r.get('rt', r.get('rating', r.get('visitorRating', 0))) or 0,
+        'cnt': r.get('cnt', r.get('reviewCount', r.get('visitorReviewCount', 0))) or 0,
+        'addr': r.get('addr', r.get('address', r.get('roadAddress', ''))),
+        'hours': r.get('hours', r.get('businessHours', '')),
+        'tel': r.get('tel', r.get('phone', '')),
+        'priceRange': price_range or r.get('priceRange', ''),
         'lat': lat,
         'lng': lng,
-        'cat': [],
-        'tags': extract_tags(r),
-        'moods': [],
-        'wx': [],
-        'scene': [],
-        'rv': [],
-        'naverPlaceId': str(r.get('id', r.get('naverPlaceId', ''))),
-        'naverBlogCnt': r.get('blogReviewCount', 0) or 0,
+        'cat': r.get('cat', []) or [],
+        'tags': all_tags,
+        'moods': r.get('moods', []) or [],
+        'wx': r.get('wx', []) or [],
+        'scene': r.get('scene', []) or [],
+        'rv': r.get('rv', []) or [],
+        'naverPlaceId': str(r.get('naverPlaceId', r.get('id', ''))),
+        'naverBlogCnt': r.get('naverBlogCnt', r.get('blogReviewCount', 0)) or 0,
         'menuItems': menu_items,
-        'keywords': [],
+        'keywords': r.get('keywords', []) or [],
         'naverUrl': r.get('naverUrl', ''),
         'imageUrl': r.get('imageUrl', r.get('thumUrl', '')),
         'parking': bool(r.get('parking')),
         'reservation': bool(r.get('reservation')),
         'updatedAt': '2026-05-09',
     }
+
+    # rv 서로게이트 문자 제거
+    if entry.get('rv'):
+        entry['rv'] = [rv.encode('utf-8', 'ignore').decode('utf-8') for rv in entry['rv']]
 
     converted.append(entry)
 

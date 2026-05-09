@@ -31,6 +31,10 @@ const posts = [
   {id:30,slug:'gangnam-gukbap-best-2026',title:'강남역 국밥·해장 맛집 추천 7곳 | 2026',description:'강남역 국밥·해장 맛집 가이드',region:'gangnam',category:'gukbap',date:'2026-05-09',thumbnail:'/images/posts/2/thumb.jpg'},
   {id:31,slug:'gangnam-japanese-best-2026',title:'강남역 일식·스시 추천 7곳 | 2026',description:'강남역 일식·스시·오마카세 가이드',region:'gangnam',category:'japanese',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'},
   {id:32,slug:'gangnam-western-best-2026',title:'강남역 양식·파스타 맛집 추천 4곳 | 2026',description:'강남역 양식·파스타·스테이크 가이드',region:'gangnam',category:'western',date:'2026-05-09',thumbnail:'/images/posts/4/thumb.jpg'},
-  {id:33,slug:'gangnam-chicken-best-2026',title:'강남역 치킨·야장 추천 3곳 | 2026',description:'강남역 치킨·야장 가이드',region:'gangnam',category:'chicken',date:'2026-05-09',thumbnail:'/images/posts/5/thumb.jpg'}
+  {id:33,slug:'gangnam-chicken-best-2026',title:'강남역 치킨·야장 추천 3곳 | 2026',description:'강남역 치킨·야장 가이드',region:'gangnam',category:'chicken',date:'2026-05-09',thumbnail:'/images/posts/5/thumb.jpg'},
+  {id:34,slug:'gangnam-special-best-2026',title:'강남역 족발·곱창 맛집 추천 7곳 | 2026',description:'강남역 족발·곱창·보쌈 가이드',region:'gangnam',category:'special',date:'2026-05-09',thumbnail:'/images/posts/1/thumb.jpg'},
+  {id:35,slug:'gangnam-western-best-2026',title:'강남역 양식·파스타 맛집 추천 4곳 | 2026',description:'강남역 양식·파스타·스테이크 가이드',region:'gangnam',category:'western',date:'2026-05-09',thumbnail:'/images/posts/1/thumb.jpg'},
+  {id:36,slug:'gangnam-chicken-best-2026',title:'강남역 치킨·야장 추천 3곳 | 2026',description:'강남역 치킨·야장 가이드',region:'gangnam',category:'chicken',date:'2026-05-09',thumbnail:'/images/posts/2/thumb.jpg'},
+  {id:37,slug:'gangnam-special-best-2026',title:'강남역 족발·곱창 맛집 추천 7곳 | 2026',description:'강남역 족발·곱창·보쌈 가이드',region:'gangnam',category:'special',date:'2026-05-09',thumbnail:'/images/posts/3/thumb.jpg'}
 ]
 export default posts

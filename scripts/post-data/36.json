@@ -1,0 +1,103 @@
+{
+  "id": 36,
+  "slug": "gangnam-chicken-best-2026",
+  "title": "강남역 치킨·야장 추천 3곳 | 2026",
+  "description": "강남역 치킨·야장 가이드",
+  "category": "chicken",
+  "region": "gangnam",
+  "date": "2026-05-09",
+  "tags": [
+    "강남역",
+    "치킨·야장",
+    "맛집"
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285,
+  "restaurants": [
+    {
+      "name": "놀란치킨 강남역본점",
+      "type": "치킨",
+      "addr": "서울특별시 서초구 서초동 1327-29 1층",
+      "hours": "02:00에 영업 종료",
+      "tel": "02-521-5092",
+      "priceRange": "",
+      "rating": 0,
+      "reviewCount": 524,
+      "blogCount": 374,
+      "tags": [
+        "리뷰많음",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [],
+      "parking": false,
+      "reservation": true
+    },
+    {
+      "name": "꼬끼꼬끼치킨호프",
+      "type": "치킨",
+      "addr": "서울특별시 강남구 역삼동 858-16",
+      "hours": "",
+      "tel": "02-565-5687",
+      "priceRange": "",
+      "rating": 0,
+      "reviewCount": 287,
+      "blogCount": 0,
+      "tags": [],
+      "moods": [],
+      "menuItems": [],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "당신이선택한인생치킨 강남점",
+      "type": "치킨",
+      "addr": "서울특별시 서초구 서초동 1327-34 2층 208호",
+      "hours": "",
+      "tel": "02-582-7982",
+      "priceRange": "19900~22900",
+      "rating": 0,
+      "reviewCount": 60,
+      "blogCount": 66,
+      "tags": [
+        "주차가능",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "당선인 후라이드",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "핫후라이드치킨",
+          "price": 20900,
+          "description": ""
+        },
+        {
+          "name": "메가 빅 후라이드 치킨",
+          "price": 21900,
+          "description": ""
+        },
+        {
+          "name": "메가 핫 후라이드(12호)",
+          "price": 22900,
+          "description": ""
+        },
+        {
+          "name": "당선인달콤닭강정(기본(600g))",
+          "price": 20900,
+          "description": ""
+        },
+        {
+          "name": "당선인 후라이드",
+          "price": 19900,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    }
+  ]
+}

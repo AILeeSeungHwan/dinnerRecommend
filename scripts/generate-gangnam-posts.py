@@ -22,26 +22,16 @@ data_file = os.path.join(BASE, 'data', 'gangnam.js')
 with open(data_file, 'r', encoding='utf-8') as f:
     text = f.read()
 
-# JSON 추출
+# JSON 추출 — 줄 단위 파싱 (menuItems 중첩 {} 안전)
 restaurants = []
-for m in re.finditer(r'\{[^{}]*"name":\s*"([^"]+)"[^{}]*\}', text):
-    block = m.group()
-    try:
-        r = json.loads(block)
-        restaurants.append(r)
-    except:
-        pass
-
-if not restaurants:
-    # 줄 단위 파싱
-    for line in text.split('\n'):
-        line = line.strip().rstrip(',')
-        if line.startswith('{') and '"name"' in line:
-            try:
-                r = json.loads(line)
-                restaurants.append(r)
-            except:
-                pass
+for line in text.split('\n'):
+    line = line.strip().rstrip(',')
+    if line.startswith('{') and '"name"' in line:
+        try:
+            r = json.loads(line)
+            restaurants.append(r)
+        except:
+            pass
 
 print(f'강남역 식당 데이터: {len(restaurants)}개')
 if len(restaurants) < 5:

@@ -50,6 +50,8 @@
       "reservation": true,
       "menuItems": [],
       "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "imageUrl": "/images/restaurants/samseong/무탄-코엑스-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -106,6 +108,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1827285939",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250624_9/1750736779912pjkJc_JPEG/%BD%BD%B1%E2%B7%CE%BF%EE_%B8%AE%BA%E4_%BB%FD%C8%B0_%C0%CC%BA%A5%C6%AE_%B5%B5%BD%C9%B0%F8%C7%D7%C1%A1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -165,6 +169,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1790104492",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20191026_189/1572083292709AaHz5_JPEG/G8CvO_aOEy9A4R_Y-ZmKiQ3a.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -229,6 +235,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1764168880",
+      "imageUrl": "/images/restaurants/samseong/천미미-삼성점-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
@@ -296,6 +304,8 @@
         }
       ],
       "naverUrl": "https://map.naver.com/p/entry/place/1997557444",
+      "imageUrl": "/images/restaurants/samseong/하이딜라오-코엑스-1.jpg",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

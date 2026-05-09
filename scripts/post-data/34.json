@@ -1,14 +1,14 @@
 {
-  "id": 29,
-  "slug": "gangnam-budget-best-2026",
-  "title": "강남역 가성비 맛집 추천 7곳 | 2026 혼밥·점심",
-  "description": "강남역 가성비 좋은 혼밥·점심 맛집 가이드",
-  "category": "budget",
+  "id": 34,
+  "slug": "gangnam-lunch-best-2026",
+  "title": "강남역 점심 뭐 먹지? 카테고리별 추천 7곳 | 2026",
+  "description": "강남역 직장인 점심 맛집 총정리",
+  "category": "lunch",
   "region": "gangnam",
   "date": "2026-05-09",
   "tags": [
     "강남역",
-    "가성비·혼밥",
+    "점심",
     "맛집"
   ],
   "categoryStats": {},
@@ -68,57 +68,6 @@
       "reservation": true
     },
     {
-      "name": "고베규카츠 서울 강남점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 617-3 예촌빌딩",
-      "hours": "11:30에 영업 시작",
-      "tel": "07-1443-4620",
-      "priceRange": "1500~22000",
-      "rating": 0,
-      "reviewCount": 13775,
-      "blogCount": 6479,
-      "tags": [
-        "리뷰많음",
-        "혼밥가능",
-        "가성비"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "규카츠 정식",
-          "price": 19000,
-          "description": ""
-        },
-        {
-          "name": "리얼치즈카츠정식",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "커리크림우동",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "불닭크림볶음면",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "새우 삼겹 덮밥",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "우삼겹덮밥",
-          "price": 13000,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": false
-    },
-    {
       "name": "미나리밭오리사냥 강남역점",
       "type": "한식",
       "addr": "서울특별시 강남구 역삼동 817-19 1층",
@@ -164,57 +113,6 @@
         {
           "name": "대패 오리사냥 600g",
           "price": 36000,
-          "description": ""
-        }
-      ],
-      "parking": false,
-      "reservation": true
-    },
-    {
-      "name": "팔도밀방 강남본점",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 818-13 2층",
-      "hours": "",
-      "tel": "07-1369-8518",
-      "priceRange": "9000~62000",
-      "rating": 0,
-      "reviewCount": 1124,
-      "blogCount": 1678,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "예약필수"
-      ],
-      "moods": [],
-      "menuItems": [
-        {
-          "name": "팔도 수육전골 한상",
-          "price": 59000,
-          "description": ""
-        },
-        {
-          "name": "치즈가득 목뼈살찜",
-          "price": 42000,
-          "description": ""
-        },
-        {
-          "name": "팔도해장수육전골",
-          "price": 29000,
-          "description": ""
-        },
-        {
-          "name": "진미 한우 뭉티기(중)",
-          "price": 30000,
-          "description": ""
-        },
-        {
-          "name": "팔도1987돈까스",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "사골고기칼국수 (흑임자면)",
-          "price": 11000,
           "description": ""
         }
       ],
@@ -272,53 +170,132 @@
       "reservation": false
     },
     {
-      "name": "진구곱창 강남역본점",
+      "name": "무궁화반점 강남점",
       "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-23 1층 진구곱창",
-      "hours": "03:00에 영업 종료",
-      "tel": "07-1390-3309",
-      "priceRange": "5500~45000",
+      "addr": "서울특별시 강남구 역삼동 819-10 1층",
+      "hours": "",
+      "tel": "02-557-5227",
+      "priceRange": "8500~25000",
       "rating": 0,
-      "reviewCount": 6938,
-      "blogCount": 2324,
+      "reviewCount": 3829,
+      "blogCount": 485,
+      "tags": [
+        "혼밥가능",
+        "가성비",
+        "점심추천",
+        "데이트",
+        "리뷰많음"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "무궁화 짬뽕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "소고기 직화 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "순두부 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "수제비 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "청양고추 짬뽕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "백짬뽕",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "베트남이랑",
+      "type": "아시안",
+      "addr": "서울특별시 서초구 서초동 1317-5 대경빌딩 지하 1층",
+      "hours": "23:00에 영업 종료",
+      "tel": "07-1382-1108",
+      "priceRange": "8000~13000",
+      "rating": 0,
+      "reviewCount": 3067,
+      "blogCount": 1983,
       "tags": [
         "리뷰많음",
         "가성비",
-        "주차가능",
+        "점심추천",
         "데이트",
-        "웨이팅맛집",
         "예약필수"
       ],
       "moods": [],
       "menuItems": [
         {
-          "name": "네이버예약 계란찜 서비스",
-          "price": 0,
+          "name": "곱창쌀국수",
+          "price": 13000,
           "description": ""
         },
         {
-          "name": "무료주차 서비스",
-          "price": 0,
+          "name": "모둠쌀국수",
+          "price": 13000,
           "description": ""
         },
         {
-          "name": "콜키지무료 서비스",
-          "price": 0,
+          "name": "나시고랭",
+          "price": 12000,
           "description": ""
         },
         {
-          "name": "구워주는 서비스",
-          "price": 0,
+          "name": "소고기반미",
+          "price": 8000,
           "description": ""
         },
         {
-          "name": "한우곱창모둠 소금구이",
-          "price": 23000,
+          "name": "분짜",
+          "price": 13000,
           "description": ""
         },
         {
-          "name": "한우곱창모둠 양념구이",
-          "price": 23000,
+          "name": "공심채",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": true
+    },
+    {
+      "name": "봉피양 강남점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1328-11 208호, 209호, 210호",
+      "hours": "11:30에 영업 시작",
+      "tel": "02-587-7018",
+      "priceRange": "36000~36000",
+      "rating": 0,
+      "reviewCount": 685,
+      "blogCount": 161,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "돼지목심本갈비",
+          "price": 36000,
           "description": ""
         }
       ],
@@ -326,55 +303,58 @@
       "reservation": true
     },
     {
-      "name": "꼬끼오 장작구이",
-      "type": "고기구이",
-      "addr": "서울특별시 강남구 역삼동 827-46 1, 2층",
+      "name": "조양관한정식 강남본점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1327-29 지하1층 조양관",
       "hours": "",
-      "tel": "07-1321-9010",
-      "priceRange": "17000~28000",
+      "tel": "07-1445-8182",
+      "priceRange": "39000~230000",
       "rating": 0,
-      "reviewCount": 1098,
-      "blogCount": 710,
+      "reviewCount": 1012,
+      "blogCount": 2544,
       "tags": [
         "리뷰많음",
-        "가성비",
-        "데이트"
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "예약필수"
       ],
       "moods": [],
       "menuItems": [
         {
-          "name": "한방누룽지통닭",
-          "price": 19900,
+          "name": "고급한정식조양관대표메뉴※관※코스",
+          "price": 90000,
           "description": ""
         },
         {
-          "name": "코리아바베큐통닭",
-          "price": 26000,
+          "name": "[평일점심]※고※강남역점심맛집",
+          "price": 39000,
           "description": ""
         },
         {
-          "name": "통통마늘통닭",
-          "price": 26000,
+          "name": "강남역맛집※조※코스",
+          "price": 54000,
           "description": ""
         },
         {
-          "name": "콘치즈통닭",
-          "price": 26000,
+          "name": "부모님생신추천※서프라이즈 생일상※",
+          "price": 0,
           "description": ""
         },
         {
-          "name": "한방누룽지통닭 포장",
-          "price": 17500,
+          "name": "강남상견례전문※상견례 웰컴 키트※",
+          "price": 0,
           "description": ""
         },
         {
-          "name": "골뱅이소면",
-          "price": 28000,
+          "name": "90년전통헤리티지HIT※양※코스",
+          "price": 69000,
           "description": ""
         }
       ],
-      "parking": false,
-      "reservation": false
+      "parking": true,
+      "reservation": true
     }
   ]
 }

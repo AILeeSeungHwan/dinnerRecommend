@@ -1,0 +1,281 @@
+{
+  "id": 37,
+  "slug": "gangnam-special-best-2026",
+  "title": "강남역 족발·곱창 맛집 추천 7곳 | 2026",
+  "description": "강남역 족발·곱창·보쌈 가이드",
+  "category": "special",
+  "region": "gangnam",
+  "date": "2026-05-09",
+  "tags": [
+    "강남역",
+    "족발·곱창",
+    "맛집"
+  ],
+  "categoryStats": {},
+  "regionTotalRestaurants": 285,
+  "restaurants": [
+    {
+      "name": "진구곱창 강남역본점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-23 1층 진구곱창",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1390-3309",
+      "priceRange": "5500~45000",
+      "rating": 0,
+      "reviewCount": 6938,
+      "blogCount": 2324,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "네이버예약 계란찜 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "무료주차 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "콜키지무료 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "구워주는 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "한우곱창모둠 소금구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "한우곱창모둠 양념구이",
+          "price": 23000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "서초동 장수족발&감자탕",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1327 1층 109호",
+      "hours": "24:00에 영업 종료",
+      "tel": "07-1362-2747",
+      "priceRange": "42000~42000",
+      "rating": 0,
+      "reviewCount": 330,
+      "blogCount": 46,
+      "tags": [
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "한방족발 대",
+          "price": 42000,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": true
+    },
+    {
+      "name": "가장맛있는족발 강남1호점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-26 강남역리가스퀘어",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-595-5849",
+      "priceRange": "13000~65000",
+      "rating": 0,
+      "reviewCount": 304,
+      "blogCount": 104,
+      "tags": [
+        "주차가능",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "앞발",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "뒷발",
+          "price": 41000,
+          "description": ""
+        },
+        {
+          "name": "반반족발(일반+불족)",
+          "price": 47000,
+          "description": ""
+        },
+        {
+          "name": "직화불족",
+          "price": 47000,
+          "description": ""
+        },
+        {
+          "name": "냉채족발",
+          "price": 47000,
+          "description": ""
+        },
+        {
+          "name": "보쌈(중)",
+          "price": 41000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "엄청난족발",
+      "type": "한식",
+      "addr": "서울특별시 강남구 논현동 198-8 지상1층 엄청난족발",
+      "hours": "",
+      "tel": "0507-1482-1184",
+      "priceRange": "",
+      "rating": 0,
+      "reviewCount": 205,
+      "blogCount": 0,
+      "tags": [],
+      "moods": [],
+      "menuItems": [],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "감성족발 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 819-1 1층",
+      "hours": "",
+      "tel": "0507-1489-0683",
+      "priceRange": "13000~51000",
+      "rating": 0,
+      "reviewCount": 191,
+      "blogCount": 0,
+      "tags": [
+        "혼밥가능",
+        "가성비",
+        "점심추천",
+        "데이트"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "수비드 반반 족발",
+          "price": 40000,
+          "description": ""
+        },
+        {
+          "name": "고기 막국수",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "보쌈 정식",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "족발 정식",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "수비드 족보 세트",
+          "price": 51000,
+          "description": ""
+        },
+        {
+          "name": "구운족발",
+          "price": 38000,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "강남족발 송희네족발순대국",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 834-45 1층 송희네족발순대국",
+      "hours": "",
+      "tel": "02-508-7992",
+      "priceRange": "",
+      "rating": 0,
+      "reviewCount": 171,
+      "blogCount": 0,
+      "tags": [],
+      "moods": [],
+      "menuItems": [],
+      "parking": false,
+      "reservation": false
+    },
+    {
+      "name": "진배족발 역삼점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 753 1층",
+      "hours": "",
+      "tel": "02-2051-0077",
+      "priceRange": "5000~46000",
+      "rating": 0,
+      "reviewCount": 136,
+      "blogCount": 84,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "족발(앞다리)",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "한방보쌈",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "주먹밥",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "계란찜",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "해파리냉채",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "쟁반국수",
+          "price": 14000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    }
+  ]
+}

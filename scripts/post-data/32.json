@@ -1,82 +1,337 @@
 {
   "id": 32,
-  "slug": "gangnam-western-best-2026",
-  "title": "강남역 양식·파스타 맛집 추천 4곳 | 2026",
-  "description": "강남역 양식·파스타·스테이크 가이드",
-  "category": "western",
+  "slug": "gangnam-gukbap-best-2026",
+  "title": "강남역 국밥·해장 맛집 추천 7곳 | 2026",
+  "description": "강남역 국밥·해장 맛집 가이드",
+  "category": "gukbap",
   "region": "gangnam",
   "date": "2026-05-09",
   "tags": [
     "강남역",
-    "양식·파스타",
+    "국밥·해장",
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
     {
-      "name": "도치피자 강남",
-      "type": "양식",
-      "addr": "",
+      "name": "강남진해장",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 819-4",
       "hours": "",
-      "tel": "0507-1402-8001",
+      "tel": "02-557-2662",
       "priceRange": "",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 2446,
+      "blogCount": 1548,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "예약필수"
+      ],
       "moods": [],
       "menuItems": [],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "육전국밥 강남역점",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 818-11 지상1층",
+      "hours": "24:00에 영업 종료",
+      "tel": "02-558-2275",
+      "priceRange": "10000~17000",
+      "rating": 0,
+      "reviewCount": 564,
+      "blogCount": 69,
+      "tags": [
+        "혼밥가능",
+        "주차가능",
+        "단체가능",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "육전소고기국밥",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "소고기국밥",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "미소곰탕",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "함박곰탕",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "육전물막국수",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "육전비빔막국수",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "제주은희네해장국 강남역점",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 823-4 1층",
+      "hours": "10:00에 영업 시작",
+      "tel": "02-558-8868",
+      "priceRange": "12000~16000",
+      "rating": 0,
+      "reviewCount": 1211,
+      "blogCount": 312,
+      "tags": [
+        "혼밥가능",
+        "리뷰많음"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "해장국",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "내장탕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "돔베고기(소,중,대)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "양무침",
+          "price": 16000,
+          "description": ""
+        }
+      ],
       "parking": false,
       "reservation": false
     },
     {
-      "name": "퍼그피자하우스 강남점",
-      "type": "양식",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1498-7007",
-      "priceRange": "",
+      "name": "곰작골나주곰탕 강남점",
+      "type": "국밥",
+      "addr": "서울특별시 서초구 서초동 1330-20 1층",
+      "hours": "10:00에 영업 시작",
+      "tel": "02-587-0879",
+      "priceRange": "12000~18000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 803,
+      "blogCount": 159,
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "나주곰탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "특곰탕",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "미나리수육곰탕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "순살갈비곰탕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "설렁탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "한우소머리국밥",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "헤비스테이크 강남역점",
-      "type": "스테이크",
-      "addr": "",
+      "name": "칠백한우국밥",
+      "type": "국밥",
+      "addr": "서울특별시 서초구 반포동 747-12 대로변 1층",
       "hours": "",
-      "tel": "02-557-3309",
-      "priceRange": "",
+      "tel": "070-4110-7005",
+      "priceRange": "8000~52000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 859,
+      "blogCount": 201,
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "한우국밥",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "한우설렁탕",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "한우뚝배기불고기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "한우육회비빔밥",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "한우육회",
+          "price": 8000,
+          "description": ""
+        },
+        {
+          "name": "한우수육 大",
+          "price": 52000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "봉스테이크",
-      "type": "스테이크",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1467-2156",
-      "priceRange": "",
+      "name": "이여곰탕 역삼점",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 739-5 영원빌딩 1층",
+      "hours": "10:00에 영업 시작",
+      "tel": "07-1324-2508",
+      "priceRange": "6000~54000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 852,
+      "blogCount": 249,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "곰탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "곰개장",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "살로만",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "곰탕면",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "육회 비빔밥",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "물/비빔 냉면",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "나주곰탕",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 644-19",
+      "hours": "",
+      "tel": "07-1358-2907",
+      "priceRange": "11000~22000",
+      "rating": 0,
+      "reviewCount": 611,
+      "blogCount": 85,
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "나주곰탕",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "얼큰곰탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "곰탕만두국",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "얼큰만두국",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "장터국밥",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "특곰탕",
+          "price": 14000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     }
   ]
 }

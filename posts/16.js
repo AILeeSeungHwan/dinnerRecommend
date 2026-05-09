@@ -25,6 +25,12 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20260123_106/1769156782757aUw3N_JPEG/KakaoTalk_20260123_172040601_%281%29.jpg",
+      alt: "지강한식당 잠실점 대표 사진",
+      caption: "지강한식당 잠실점",
+    },
+    {
       type: 'body',
       html: "<p>투움바 치즈닭갈비 16,500원. <a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a>의 간판 메뉴입니다. 그 외에도 투움바 낙지 치즈닭갈비, 치즈 닭갈비를 많이 찾으십니다.</p><p>그 외에 낙지 치즈닭갈비(19,000원), 낙지 닭갈비(17,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다.</p><p>리뷰 1,520건이 쌓일 만큼 방문자가 많은 곳이며, 평점은 4.9점입니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"반찬도 4종을 주셨는데 모두 맛이 튀지않고 은은하니 너무 맛있더라구다는 평\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·웨이팅 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\" style=\"color:var(--primary)\">→ 지강한식당 잠실점 상세 정보 보기</a></p>",
     },
@@ -35,24 +41,30 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20230518_29/1684399791769AlnTr_JPEG/KakaoTalk_20230517_194037244_07.jpg",
+      alt: "마차이 방이점 대표 사진",
+      caption: "마차이 방이점",
+    },
+    {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a>을 방문하시면 미나리 쭈꾸미짬뽕을 추천드립니다. 15,000원에 드실 수 있습니다. 그 외에도 고기 짬뽕, 비빔짬짜면를 많이 찾으십니다.</p><p>그 외에 중화비빔밥(10,000원), 야끼우동(10,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>평점 4.9점, 리뷰 495건으로 안정적인 평가를 받고 있습니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"중식 맛집 찾아보다가 발견했는데 메뉴 하나하나 다 너무 맛있었어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\" style=\"color:var(--primary)\">→ 마차이 방이점 상세 정보 보기</a></p>",
+      html: "<p>미나리 쭈꾸미짬뽕 15,000원. <a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a>의 대표 메뉴입니다. 고기 짬뽕, 비빔짬짜면도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 중화비빔밥(10,000원), 야끼우동(10,000원)도 있습니다.</p><p>주차가 가능합니다.</p><p>평점 4.9점, 리뷰 495건으로 안정적인 평가를 받고 있습니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"중식 맛집 찾아보다가 발견했는데 메뉴 하나하나 다 너무 맛있었어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\" style=\"color:var(--primary)\">→ 마차이 방이점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "조조모모",
-      text: "조조모모 — 시그니처 시그니처 돼지갈비 수육 29,000원",
+      text: "조조모모 — 평점 5·리뷰 256건",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "/images/posts/16/조조모모-1.jpg",
+      src: "https://ldb-phinf.pstatic.net/20260208_236/1770544415821H2QT8_PNG/02._ORANGE_%281%29.png",
       alt: "조조모모 대표 사진",
       caption: "조조모모",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>. 술집 전문점입니다. 5점에 리뷰 256건이 쌓여 있습니다.</p><p>대표 메뉴는 시그니처 돼지갈비 수육 29,000원, 크림 떡볶이와 감태 가리비찜 27,000원, 고추장 돼지찌개 25,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 예약이 가능합니다.</p><p>평점 5점, 리뷰 256건으로 안정적인 평가를 받고 있습니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재방문 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
+      html: "<p>술집 하면 <a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>대표 메뉴는 시그니처 돼지갈비 수육 29,000원, 크림 떡볶이와 감태 가리비찜 27,000원, 고추장 돼지찌개 25,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 예약이 가능합니다.</p><p>리뷰 256건에 5점이면 꾸준히 무난한 편입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재방문 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/조조모모\" style=\"color:var(--primary)\">→ 조조모모 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -62,29 +74,29 @@ const post = {
     },
     {
       type: 'image',
-      src: "/images/posts/16/라코즈-1.jpg",
+      src: "https://ldb-phinf.pstatic.net/20250317_11/17422008508243nJMI_JPEG/%B2%C3%B7%B9%B4%A2.jpg",
       alt: "라코즈 대표 사진",
       caption: "라코즈",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>. 기타 전문점으로, 평점 5점에 리뷰 138건을 기록하고 있습니다.</p><p>대표 메뉴는 프라하 꼴레뇨 38,000원, 고구마 맛탕 단호박 스프 11,000원, 닭 다리살 잣 바질 크림 리조또 22,000원입니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 138건에 5점이면 꾸준히 무난한 편입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a>. 기타 전문점입니다. 5점에 리뷰 138건이 쌓여 있습니다.</p><p>메뉴를 살펴보면, 프라하 꼴레뇨 38,000원 / 고구마 맛탕 단호박 스프 11,000원 / 닭 다리살 잣 바질 크림 리조또 22,000원 / 와인 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 138건에 5점이면 꾸준히 무난한 편입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/라코즈\" style=\"color:var(--primary)\">→ 라코즈 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
       id: "솔직한우-방이점",
-      text: "솔직한우 방이점 — 한식 전문점",
+      text: "솔직한우 방이점 — 인당 13만원대 코스",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'image',
-      src: "/images/posts/16/솔직한우-방이점-1.jpg",
+      src: "https://ldb-phinf.pstatic.net/20260126_15/1769405953020zDhVI_JPEG/IMG_5318_%BA%B9%BB%E7.jpg",
       alt: "솔직한우 방이점 대표 사진",
       caption: "솔직한우 방이점",
     },
     {
       type: 'body',
-      html: "<p>한식 하면 <a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>도 빠지지 않습니다. 평점 5점입니다.</p><p>가격대는 9,900~130,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 5점, 리뷰 85건으로 안정적인 평가를 받고 있습니다. 코스 기준 인당 0~13만원대입니다. 특별한 날에 어울리는 가격대라 하겠습니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 솔직한우 방이점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>. 한식 전문점입니다. 5점에 리뷰 85건이 쌓여 있습니다.</p><p>가격대는 9,900~130,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>5점·리뷰 85건. 방문자 평이 비교적 일관되게 좋은 편입니다. 가격은 인당 13만원 정도 보시면 됩니다. 기념일이라면 충분히 가치 있는 선택이 되실 겁니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 솔직한우 방이점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -94,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">1520건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">495건</td><td style=\"padding:7px 6px;text-align:center\">7,000~20,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">138건</td><td style=\"padding:7px 6px;text-align:center\">11,000~38,000원</td><td style=\"padding:7px 6px\">기타 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">1520건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">495건</td><td style=\"padding:7px 6px;text-align:center\">7,000~20,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/조조모모\">조조모모</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">256건</td><td style=\"padding:7px 6px;text-align:center\">17,000~29,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/라코즈\">라코즈</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">138건</td><td style=\"padding:7px 6px;text-align:center\">11,000~38,000원</td><td style=\"padding:7px 6px\">기타 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">85건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

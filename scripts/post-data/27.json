@@ -1,7 +1,7 @@
 {
   "id": 27,
   "slug": "gangnam-date-best-2026",
-  "title": "강남역 데이트 레스토랑 추천 4곳 | 2026",
+  "title": "강남역 데이트 레스토랑 추천 7곳 | 2026",
   "description": "강남역 분위기 좋은 데이트 맛집 가이드",
   "category": "date",
   "region": "gangnam",
@@ -12,69 +12,373 @@
     "맛집"
   ],
   "categoryStats": {},
-  "regionTotalRestaurants": 268,
+  "regionTotalRestaurants": 285,
   "restaurants": [
     {
-      "name": "도치피자 강남",
-      "type": "양식",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1402-8001",
-      "priceRange": "",
+      "name": "82올리언즈 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 817-38 1층",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1353-5076",
+      "priceRange": "12000~32000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 3430,
+      "blogCount": 3653,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "올리언즈 라자냐",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "올리언즈 스테이크",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "name": "몬테크리스토",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "볼케이노 맥앤치즈",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "홈메이드 뇨끼&치즈 퐁듀",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "페페로니 토마토 파스타",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "퍼그피자하우스 강남점",
-      "type": "양식",
-      "addr": "",
+      "name": "플랫나인",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-15 5층",
       "hours": "",
-      "tel": "0507-1498-7007",
-      "priceRange": "",
+      "tel": "07-1389-9630",
+      "priceRange": "19000~69000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 4665,
+      "blogCount": 3094,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "점심추천",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "시그니처 코스",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "클래식 코스",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "런치 파스타 코스",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "Signature Cocktail",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "NonAlcohol Signature",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "Wine",
+          "price": 0,
+          "description": ""
+        }
+      ],
       "parking": false,
-      "reservation": false
+      "reservation": true
     },
     {
-      "name": "헤비스테이크 강남역점",
-      "type": "스테이크",
-      "addr": "",
-      "hours": "",
-      "tel": "02-557-3309",
-      "priceRange": "",
+      "name": "빨간의자집 강남역점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 817-28 1층 빨간의자집 강남역점",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1376-5351",
+      "priceRange": "4000~18000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 5657,
+      "blogCount": 1168,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "웨이팅맛집",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
-      "parking": false,
-      "reservation": false
+      "menuItems": [
+        {
+          "name": "트리플민트(시그니처)",
+          "price": 4000,
+          "description": ""
+        },
+        {
+          "name": "통 돼지 바베큐 150g",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "[점심특선] 쌈밥 - 직화 석쇠불고기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "[점심특선] 쌈밥 - 제육 두루치기",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "김치볶음밥",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "매콤비빔국수",
+          "price": 8000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
     },
     {
-      "name": "봉스테이크",
-      "type": "스테이크",
-      "addr": "",
-      "hours": "",
-      "tel": "0507-1467-2156",
-      "priceRange": "",
+      "name": "쿄코코 신논현점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 616-19 지하1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-558-2252",
+      "priceRange": "9000~32000",
       "rating": 0,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [],
+      "reviewCount": 11673,
+      "blogCount": 2071,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트",
+        "예약필수"
+      ],
       "moods": [],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "name": "(초강력추천)부타동",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "시오토리 라멘",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "푸와푸와 라이스",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "쿄코코스테이크 (400g)",
+          "price": 32000,
+          "description": ""
+        },
+        {
+          "name": "(현지보다 맛있는)아부라소바",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "명란마제소바",
+          "price": 14000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "진구곱창 강남역본점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-23 1층 진구곱창",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1390-3309",
+      "priceRange": "5500~45000",
+      "rating": 0,
+      "reviewCount": 6938,
+      "blogCount": 2324,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "네이버예약 계란찜 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "무료주차 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "콜키지무료 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "구워주는 서비스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "한우곱창모둠 소금구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "한우곱창모둠 양념구이",
+          "price": 23000,
+          "description": ""
+        }
+      ],
+      "parking": true,
+      "reservation": true
+    },
+    {
+      "name": "밤별 포차 라운지 강남역본점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 813-9 지층, 1층, 2층, 3층",
+      "hours": "03:00에 영업 종료",
+      "tel": "07-1350-0024",
+      "priceRange": "21000~24500",
+      "rating": 0,
+      "reviewCount": 1237,
+      "blogCount": 1752,
+      "tags": [
+        "리뷰많음",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "타코와사비",
+          "price": 21000,
+          "description": ""
+        },
+        {
+          "name": "피쉬앤칩스",
+          "price": 21500,
+          "description": ""
+        },
+        {
+          "name": "오뎅탕",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "닭똥집 소금구이",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "즉석떡볶이",
+          "price": 23500,
+          "description": ""
+        },
+        {
+          "name": "숯불불닭",
+          "price": 23500,
+          "description": ""
+        }
+      ],
+      "parking": false,
+      "reservation": true
+    },
+    {
+      "name": "꼬끼오 장작구이",
+      "type": "고기구이",
+      "addr": "서울특별시 강남구 역삼동 827-46 1, 2층",
+      "hours": "",
+      "tel": "07-1321-9010",
+      "priceRange": "17000~28000",
+      "rating": 0,
+      "reviewCount": 1098,
+      "blogCount": 710,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "데이트"
+      ],
+      "moods": [],
+      "menuItems": [
+        {
+          "name": "한방누룽지통닭",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "코리아바베큐통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "통통마늘통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "콘치즈통닭",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "한방누룽지통닭 포장",
+          "price": 17500,
+          "description": ""
+        },
+        {
+          "name": "골뱅이소면",
+          "price": 28000,
+          "description": ""
+        }
+      ],
       "parking": false,
       "reservation": false
     }
