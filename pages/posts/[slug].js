@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
-import PageTracker from '../../components/PageTracker'
+// PageTracker 중복 제거 — _app.js에서 전역 트래킹
 import posts from '../../data/posts'
 
 // ── AdSense 광고 섹션 ────────────────────────────────────────────
@@ -504,7 +504,7 @@ export default function PostPage({ meta, sections, related }) {
       description={meta.description}
       canonical={pageUrl}
     >
-      <PageTracker slug={meta.slug} title={meta.title} />
+      {/* 트래킹은 _app.js에서 전역 처리 */}
       <Head>
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`${meta.title} | 오늘뭐먹지`} />

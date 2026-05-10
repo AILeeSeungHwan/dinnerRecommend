@@ -28,10 +28,11 @@ function detectSource(referrer) {
 function trackPageview(slug) {
   try {
     const { source, keyword } = detectSource(document.referrer)
+    const title = (typeof document !== 'undefined' && document.title) || null
     fetch('/api/pageview', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ slug, source, keyword }),
+      body: JSON.stringify({ slug, title, source, keyword }),
     }).catch(() => {})
   } catch {}
 }
