@@ -683,12 +683,172 @@ def generate_restaurant_body_sub(r, region_path, category, region=''):
     return ''.join(parts)
 
 
-def generate_restaurant_body(r, region_path, category, is_main=True, angle='menu', region=''):
-    """식당 본문 — 주요/보조 분기"""
-    if is_main:
-        return generate_restaurant_body_main(r, region_path, category, angle, region=region)
+def generate_restaurant_body(r, region_path, category, is_main=True, angle='menu', region='', avg_lo=0, avg_hi=0):
+    """식당 본문 — 깊이 있는 v2 (일률 멘트 제거, 가격 비교, 사용 시점 제안)."""
+    return generate_body_v2(r, region_path, category, region, is_main=is_main, avg_lo=avg_lo, avg_hi=avg_hi)
+
+
+# ── v2: 깊이 있는 식당 본문 생성 ─────────────────────────────────
+def _price_compare_phrase(lo, hi, avg_lo, avg_hi):
+    """식당 가격대를 카테고리 평균과 비교한 문장 반환."""
+    if not (lo and avg_lo): return ''
+    diff = lo - avg_lo
+    if abs(diff) <= 1500:
+        return f'이 카테고리 평균 시작가({avg_lo:,}원)와 비슷한 수준입니다.'
+    if diff > 0:
+        return f'카테고리 평균 시작가 {avg_lo:,}원과 비교하면 약 {diff:,}원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.'
+    return f'카테고리 평균 시작가 {avg_lo:,}원보다 약 {abs(diff):,}원 저렴해서 가성비를 우선하는 분들에게 어울립니다.'
+
+def _has_jongseong(s):
+    """한국어 마지막 글자에 받침이 있는지."""
+    if not s: return False
+    ch = s.rstrip(')]\'"').strip()[-1] if s.rstrip(')]\'"').strip() else ''
+    if not ch: return False
+    code = ord(ch)
+    if 0xAC00 <= code <= 0xD7A3:
+        return (code - 0xAC00) % 28 != 0
+    # 영문/숫자는 받침 없음으로 간주
+    return False
+
+def _josa(name, with_jong, without_jong):
+    """name의 마지막 글자에 따라 조사 선택."""
+    return with_jong if _has_jongseong(name) else without_jong
+
+def _scene_phrase(r, category):
+    """식당 태그·분위기에 따라 어떤 상황에 어울리는지 한 문단."""
+    tags = set(r.get('tags', []) or [])
+    moods = set(r.get('moods', []) or [])
+    rtype = (r.get('type') or '').split(',')[0]
+    parts = []
+    if '혼밥가능' in tags: parts.append('혼자 빠르게 한 끼 해결하기 좋습니다')
+    if '점심추천' in tags or category == 'lunch': parts.append('점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다')
+    if '단체가능' in tags or '룸있음' in tags: parts.append('단체석·룸이 있어 회식이나 모임 자리로도 가능합니다')
+    if '데이트' in tags or '데이트' in moods: parts.append('분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다')
+    if '예약필수' in tags: parts.append('주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다')
+    if '웨이팅맛집' in tags: parts.append('점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다')
+    if '가성비' in tags: parts.append('가격 대비 양·구성이 합리적이라는 평이 많습니다')
+    if not parts and rtype:
+        parts.append(f'{rtype} 단품 위주로 가볍게 들르기 좋은 곳입니다')
+    return ' '.join(parts)
+
+def _menu_block(r):
+    """메뉴 + 가격을 자연스러운 문장과 표로."""
+    menus = filter_menu_items(r.get('menuItems') or [])
+    if not menus: return ''
+    rows = []
+    for m in menus[:5]:
+        mn = m.get('name','')
+        mp = m.get('price') or 0
+        if not mn: continue
+        price_str = f'{int(mp):,}원' if mp else '가격 별도'
+        rows.append((esc(mn), price_str))
+    if not rows: return ''
+    table = (
+        '<table style="width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0">'
+        '<thead><tr style="border-bottom:2px solid var(--border)">'
+        '<th style="padding:7px 6px;text-align:left">메뉴</th>'
+        '<th style="padding:7px 6px;text-align:right">가격</th></tr></thead><tbody>'
+    )
+    for nm, pr in rows:
+        table += f'<tr style="border-bottom:1px solid var(--border)"><td style="padding:7px 6px">{nm}</td><td style="padding:7px 6px;text-align:right">{pr}</td></tr>'
+    table += '</tbody></table>'
+    return table
+
+def _facility_phrase(r):
+    bits = []
+    if r.get('parking'): bits.append('주차 가능')
+    if r.get('reservation'): bits.append('예약 가능')
+    hours = (r.get('hours') or '').strip()
+    if hours and len(hours) <= 30: bits.append(f'영업시간 {hours}')
+    addr = (r.get('addr') or '')
+    if addr:
+        m = re.search(r'(\S+동|\S+로|\S+길)\s*\S*', addr)
+        if m: bits.append(f'위치 {m.group(0)}')
+    return ' · '.join(bits)
+
+def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, avg_hi=0):
+    name = r['name']
+    link = f'{region_path}/restaurant/{name}'
+    rating = r.get('rating', 0) or 0
+    cnt = r.get('reviewCount', 0) or 0
+    rtype = (r.get('type') or '').split(',')[0]
+    price = (r.get('priceRange') or '').replace(' ', '')
+
+    # 가격 lo/hi
+    lo = hi = 0
+    if '~' in price:
+        try:
+            lo, hi = int(price.split('~')[0]), int(price.split('~')[1])
+        except: pass
+
+    sig_name, sig_price = _signature_menu(r)
+    parts = []
+
+    # ① 도입 — 식당 정체성 + 평점·리뷰
+    name_link = f'<a href="{link}">{esc(name)}</a>'
+    josa_eun = _josa(name, '은', '는')
+    josa_i = _josa(name, '이', '가')
+    intro = name_link + josa_eun
+    if rtype:
+        intro += f' {rtype} 카테고리에 속하는 식당으로'
+    if sig_name and sig_price:
+        sig_josa = _josa(sig_name, '은', '는')
+        intro += f', 대표 메뉴{sig_josa} <strong>{esc(sig_name)} {sig_price:,}원</strong>입니다.'
+    elif sig_name:
+        sig_josa = _josa(sig_name, '이', '가')
+        intro += f', 대표 메뉴로는 {esc(sig_name)}{sig_josa} 자주 언급됩니다.'
     else:
-        return generate_restaurant_body_sub(r, region_path, category, region=region)
+        intro += '입니다.'
+    review_phrase = ''
+    if rating > 0 and cnt > 0:
+        if cnt >= 500:
+            review_phrase = f' 누적 리뷰 {cnt:,}건에 평점 {rating}점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.'
+        elif cnt >= 100:
+            review_phrase = f' 평점 {rating}점에 리뷰 {cnt}건으로 안정적인 평가가 쌓여 있습니다.'
+        else:
+            review_phrase = f' 평점 {rating}점, 리뷰 {cnt}건 수준이라 표본은 작지만 평가가 좋은 편입니다.'
+    parts.append(f'<p>{intro}{review_phrase}</p>')
+
+    # ② 가격 비교 + 가격대
+    if lo and hi:
+        cmp_phrase = _price_compare_phrase(lo, hi, avg_lo, avg_hi)
+        price_phrase = f'1인 기준 가격대는 {lo:,}원에서 {hi:,}원 사이로 형성되어 있습니다.'
+        parts.append(f'<p>{price_phrase} {cmp_phrase}</p>')
+
+    # ③ 메뉴 표 (주요 식당만 풀 메뉴 표시)
+    if is_main:
+        mb = _menu_block(r)
+        if mb:
+            parts.append(f'<p>대표 메뉴와 가격은 다음과 같습니다.</p>{mb}')
+    else:
+        # 보조 식당은 메뉴 2~3개를 한 문장으로
+        menus = filter_menu_items(r.get('menuItems') or [])[:3]
+        if menus:
+            ms = ', '.join(f'{esc(m.get("name",""))} {int(m.get("price") or 0):,}원' if m.get('price') else esc(m.get('name','')) for m in menus)
+            parts.append(f'<p>메뉴는 {ms} 등이 있습니다.</p>')
+
+    # ④ 사용 시점 제안 + 편의시설 (일률 멘트 X)
+    scene = _scene_phrase(r, category)
+    if scene:
+        parts.append(f'<p>{esc(scene)}</p>')
+    fac = _facility_phrase(r)
+    if fac:
+        parts.append(f'<p style="font-size:.85rem;color:var(--muted)">📌 {esc(fac)}</p>')
+
+    # ⑤ 리뷰 키워드 — 카운트 기반 (중복 방지)
+    rv_summary = extract_review_summary(name, region)
+    if rv_summary:
+        parts.append(f'<p>{esc(rv_summary)}</p>')
+    # 짧은 인용 (주요 식당만)
+    if is_main:
+        rv_quote = extract_review_quote(name, region)
+        if rv_quote:
+            parts.append(f'<p style="border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem">{esc(rv_quote)}</p>')
+
+    # ⑥ 상세 페이지 링크
+    parts.append(f'<p><a href="{link}" style="color:var(--primary);font-weight:600">→ {esc(name)} 메뉴·리뷰·위치 자세히 보기</a></p>')
+
+    return ''.join(parts)
 
 # ── 비교표 HTML 생성 (핵심 정보 통합) ─────────────────────────────
 def generate_comparison_table(restaurants, category, region_path=''):
@@ -1117,10 +1277,21 @@ all_posts_meta.sort(key=lambda x: x['id'])
 
 SKIP_POST_IDS = set()  # 전부 rebuild
 
+# argv로 특정 ID만 재생성 (예: python3 scripts/rebuild-posts.py 29 또는 29,30)
+ONLY_IDS = None
+if len(sys.argv) > 1:
+    try:
+        ONLY_IDS = {int(x.strip()) for x in sys.argv[1].split(',')}
+        print(f'  ONLY_IDS 모드: {sorted(ONLY_IDS)}')
+    except ValueError:
+        pass
+
 for post_data in all_posts_meta:
     pid = post_data['id']
     slug = post_data['slug']
 
+    if ONLY_IDS is not None and pid not in ONLY_IDS:
+        continue
     if pid in SKIP_POST_IDS:
         print(f'  SKIP {pid} ({slug}): 별도 작업')
         continue
@@ -1143,7 +1314,7 @@ for post_data in all_posts_meta:
     # 2. toc
     sections.append({'type': 'toc'})
 
-    # 3. 선정 기준 섹션
+    # 3. 선정 기준 섹션 — 데이터 기반 + SEO 키워드 자연 포함
     rinfo = REGION_INFO.get(post_data['region'], {})
     rname = rinfo.get('name', '')
     cat_label = CATEGORY_ANGLES.get(category, {}).get('label', '')
@@ -1151,18 +1322,41 @@ for post_data in all_posts_meta:
     total_region = post_data.get('regionTotalRestaurants', 0)
 
     ratings_list = [r['rating'] for r in restaurants if r.get('rating')]
+    review_list  = [r.get('reviewCount', 0) or 0 for r in restaurants]
+    avg_rt = round(sum(ratings_list) / len(ratings_list), 1) if ratings_list else 0
     min_rt = min(ratings_list) if ratings_list else 0
+    total_reviews = sum(review_list)
+    # 가격 통계 (lo·hi 평균)
+    los, his = [], []
+    for r in restaurants:
+        pr = (r.get('priceRange') or '').replace(' ', '')
+        if '~' in pr:
+            try:
+                lo, hi = pr.split('~')
+                los.append(int(lo)); his.append(int(hi))
+            except: pass
+    avg_lo = (sum(los) // len(los)) if los else 0
+    avg_hi = (sum(his) // len(his)) if his else 0
+    price_text = ''
+    if avg_lo and avg_hi:
+        price_text = f'1인 {avg_lo:,}원~{avg_hi:,}원 사이가 일반적이며, '
+
     criteria_html = (
-        f'<p>{rname} 전체 {total_region}곳에서 {cat_label} 카테고리에 해당하는 식당을 선별하였습니다. '
-        f'평점 {min_rt}점 이상, {cat_focus} 기준으로 비교하였습니다. '
-        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>'
+        f'<p>{rname} 일대 {cat_label} 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. '
+        f'전체 {total_region}곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 {min_rt}점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 {len(restaurants)}곳을 선별했습니다.</p>'
+        f'<p>이 글에 실린 식당들의 평균 평점은 <strong>{avg_rt}점</strong>이며, 누적 리뷰 수는 약 <strong>{total_reviews:,}건</strong>입니다. '
+        f'{price_text}{cat_focus}을(를) 비교 기준으로 삼았습니다.</p>'
+        f'<p>리뷰·평점 정보는 {TODAY[:4]}년 {int(TODAY[5:7])}월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>'
     )
     sections.append({
         'type': 'h2', 'id': 'criteria',
-        'text': f'선정 기준 — 왜 이 {len(restaurants)}곳인가',
+        'text': f'{rname} {cat_label} 맛집 선정 기준 (평점·리뷰·메뉴)',
         'gradientStyle': GRADIENTS[0],
     })
     sections.append({'type': 'body', 'html': criteria_html})
+    # 카테고리 평균 가격을 본문 함수에 전달하기 위해 post_data에 주입
+    post_data['_avgLo'] = avg_lo
+    post_data['_avgHi'] = avg_hi
 
     # 4. 주요/보조 식당 분류 (평점+리뷰수 기준 상위 2~3개가 주요)
     post_images = img_mapping.get(str(pid), {}).get('restaurants', {})
@@ -1208,7 +1402,8 @@ for post_data in all_posts_meta:
 
         body_html = generate_restaurant_body(
             r, REGION_INFO.get(post_data['region'], {}).get('path', ''),
-            category, is_main=is_main, angle=angle, region=post_data['region']
+            category, is_main=is_main, angle=angle, region=post_data['region'],
+            avg_lo=post_data.get('_avgLo', 0), avg_hi=post_data.get('_avgHi', 0),
         )
         sections.append({
             'type': 'body',
@@ -1226,10 +1421,12 @@ for post_data in all_posts_meta:
 
     # 4. 비교표
     if len(restaurants) >= 2:
+        _rn = REGION_INFO.get(post_data["region"], {}).get("name", "")
+        _cl = CATEGORY_ANGLES.get(category, {}).get("label", "")
         sections.append({
             'type': 'h2',
             'id': 'compare',
-            'text': f'{REGION_INFO.get(post_data["region"], {}).get("name", "")} {CATEGORY_ANGLES.get(category, {}).get("label", "")} 맛집 한눈에 비교',
+            'text': f'{_rn} {_cl} {len(restaurants)}곳 한눈에 비교 (평점·가격대·대표메뉴)',
             'gradientStyle': GRADIENTS[(len(restaurants)) % len(GRADIENTS)],
         })
         sections.append({
@@ -1240,18 +1437,22 @@ for post_data in all_posts_meta:
     # 5. 상황별 추천 섹션
     situation_html = generate_situation_picks(restaurants, category)
     if situation_html:
+        _rn = REGION_INFO.get(post_data["region"], {}).get("name", "")
+        _cl = CATEGORY_ANGLES.get(category, {}).get("label", "")
         sections.append({
             'type': 'h2', 'id': 'by-situation',
-            'text': '상황별 이 식당을 추천합니다',
+            'text': f'상황별 {_rn} {_cl} 추천 (혼밥·점심·접대·모임)',
             'gradientStyle': GRADIENTS[(len(restaurants) + 2) % len(GRADIENTS)],
         })
         sections.append({'type': 'body', 'html': situation_html})
 
     # 6. 실용 팁
+    _rn = REGION_INFO.get(post_data["region"], {}).get("name", "")
+    _cl = CATEGORY_ANGLES.get(category, {}).get("label", "")
     sections.append({
         'type': 'h2',
         'id': 'tips',
-        'text': '방문 전 꼭 확인할 점',
+        'text': f'{_rn} {_cl} 방문 전 체크포인트 (예약·주차·웨이팅)',
         'gradientStyle': GRADIENTS[(len(restaurants) + 1) % len(GRADIENTS)],
     })
     sections.append({
