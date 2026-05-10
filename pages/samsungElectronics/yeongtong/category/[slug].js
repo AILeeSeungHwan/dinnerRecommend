@@ -273,7 +273,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
           ⭐ 평점 순 랭킹
         </h2>
         <div className="restaurant-grid">
-          {sorted.map((r, i) => (
+          {sorted.slice(0, visibleCount).map((r, i) => (
             <React.Fragment key={i}>
               <Link href={`/samsungElectronics/yeongtong/restaurant/${encodeURIComponent(r.name)}`}>
                 <div className="restaurant-card">
@@ -288,15 +288,16 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
                 </div>
                 <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
               </div>
-            </Link>
-            {(i + 1) % 6 === 0 && (
-              <div style={{ gridColumn:'1 / -1' }}>
-                <AdUnit slot="9138210374" format="auto" />
-              </div>
-            )}
-          </React.Fragment>
+            </Link></React.Fragment>
           ))}
         </div>
+        {visibleCount < sorted.length && (
+          <div style={{ display:'flex', justifyContent:'center', margin:'24px 0' }}>
+            <button onClick={() => setVisibleCount(v => v + 12)} style={{ padding:'12px 28px', fontSize:'.9rem', fontWeight:700, color:'var(--primary)', background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, cursor:'pointer' }}>
+              식당 더보기 ({sorted.length - visibleCount}곳 남음)
+            </button>
+          </div>
+        )}
 
         <article style={{ marginTop:48, padding:'28px 20px', background:'var(--surface)', borderRadius:14, border:'1px solid var(--border)' }}>
           <h2 style={{ fontSize:'1.1rem', fontWeight:800, marginBottom:16 }}>

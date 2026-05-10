@@ -281,28 +281,25 @@ export default function Home() {
 
         {/* 최신 가이드 */}
         <h2 style={{ fontSize:'.82rem', fontWeight:700, color:'var(--muted)', marginBottom:12, textTransform:'uppercase', letterSpacing:'0.06em' }}>📝 최신 맛집 가이드</h2>
-        <div style={{ display:'flex', flexDirection:'column', gap:10, marginBottom:40 }}>
+        <style>{`
+          .post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 40px; }
+          @media (max-width: 720px) { .post-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; } }
+          @media (max-width: 420px) { .post-grid { grid-template-columns: 1fr; } }
+        `}</style>
+        <div className="post-grid">
           {posts.map(p => (
             <Link key={p.slug} href={`/posts/${p.slug}`} style={{ textDecoration:'none' }}>
-              <div style={{ display:'flex', gap:12, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:12, cursor:'pointer', transition:'border-color .15s' }}>
+              <div style={{ display:'flex', flexDirection:'column', gap:8, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:10, cursor:'pointer', transition:'border-color .15s', height:'100%' }}>
                 <PostThumbnail
                   imageUrl={p.thumbnail}
                   region={p.region === 'gangnam' ? '강남역' : p.region === 'jamsil' ? '잠실' : p.region === 'samseong' ? '삼성역' : p.region === 'pangyo' ? '판교' : p.region === 'yeongtong' ? '영통' : p.region === 'mangpo' ? '망포' : p.region === 'yeongtongGu' ? '영통구청' : p.region === 'suji' ? '수지' : ''}
                   category={p.category}
                   slug={p.slug}
-                  size={96}
+                  size={'100%'}
                 />
-                <div style={{ flex:1, minWidth:0, display:'flex', flexDirection:'column', justifyContent:'center' }}>
-                  <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
-                    <span style={{ fontSize:'.92rem', fontWeight:700, color:'var(--text)', overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{p.title}</span>
-                  </div>
-                  <p style={{ fontSize:'.76rem', color:'var(--muted)', margin:0, lineHeight:1.5, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.description}</p>
-                  <div style={{ display:'flex', gap:6, marginTop:6, flexWrap:'wrap', alignItems:'center' }}>
-                    <span style={{ fontSize:'.66rem', color:'var(--muted)' }}>{p.date}</span>
-                    {(p.tags || []).slice(0,2).map(t => (
-                      <span key={t} style={{ fontSize:'.62rem', padding:'2px 7px', borderRadius:100, background:'rgba(99,102,241,.1)', border:'1px solid rgba(99,102,241,.25)', color:'#818cf8' }}>{t}</span>
-                    ))}
-                  </div>
+                <div style={{ flex:1, minWidth:0, display:'flex', flexDirection:'column', gap:4 }}>
+                  <span style={{ fontSize:'.85rem', fontWeight:700, color:'var(--text)', lineHeight:1.4, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.title}</span>
+                  <span style={{ fontSize:'.66rem', color:'var(--muted)' }}>{p.date}</span>
                 </div>
               </div>
             </Link>

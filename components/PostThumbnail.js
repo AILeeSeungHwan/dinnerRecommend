@@ -1,17 +1,10 @@
 /**
- * PostThumbnail — 포스트 리스트용 정사각형 썸네일
+ * PostThumbnail — 정사각형 썸네일 (이미지 배경 + 텍스트 오버레이)
  *
- * 동작:
- *  - 식당 이미지 1장을 백그라운드(투명도 30%)로 깔고
- *  - 후킹 텍스트를 전방에 그라디언트 컬러로 표시
- *  - slug 해시로 패턴(텍스트·색상) 결정 — 동일 포스트는 항상 같은 썸네일
- *
- * Props:
- *  - imageUrl: 백그라운드 이미지 URL (없으면 컬러 배경만)
- *  - region:   지역명 (강남역, 잠실, 판교 등)
- *  - category: 카테고리 (chinese, meat, izakaya 등)
- *  - slug:     해시 시드용
- *  - size:     선택. px 단위 정사각형 변 길이 (기본 200)
+ * 정책:
+ *  - 배경: 식당 이미지 (full opacity), 컬러 그라디언트 X
+ *  - 위에 어두운 그라디언트 오버레이 (가독성)
+ *  - 텍스트: 좌측 하단 정렬, 흰색 + 노란 강조
  */
 const CATEGORY_LABEL = {
   meat: '고기 맛집', chinese: '중식', izakaya: '이자카야',
@@ -21,42 +14,29 @@ const CATEGORY_LABEL = {
 }
 
 // 후킹 텍스트 패턴 — 12개 (slug 해시로 결정)
+// [헤드라인(작게), 메인(크게), 서브(작게)] 3줄 구조
 const TEXT_PATTERNS = [
-  (region, cat) => [region, `${cat}`, '찾는다면?'],
-  (region, cat) => ['오늘 점심', '뭐 먹지?', `→ ${region} ${cat}`],
-  (region, cat) => [`${region}`, `${cat}`, 'TOP 픽'],
-  (region, cat) => ['직장인 점심', `${region} ${cat}`, 'BEST'],
-  (region, cat) => [`${region}`, `${cat} 가이드`, '2026'],
-  (region, cat) => ['회식 장소', '고민 끝.', `${region} ${cat}`],
-  (region, cat) => ['혼밥 OK', `${region}`, `${cat} 5곳`],
-  (region, cat) => [`${region}`, `${cat}`, '선정 기준'],
-  (region, cat) => ['리뷰 검증', `${region}`, `${cat} 맛집`],
-  (region, cat) => ['실데이터', '기반 추천', `${region} ${cat}`],
-  (region, cat) => [`${region}`, '진짜 맛집', `${cat} 가이드`],
-  (region, cat) => ['놓치면 후회', `${region}`, `${cat} 베스트`],
+  (r, c) => ['오늘 점심', `${r} ${c}`, '뭐 먹지?'],
+  (r, c) => [r, `${c} TOP`, '실데이터 가이드'],
+  (r, c) => ['직장인 추천', `${r} ${c}`, 'BEST 픽'],
+  (r, c) => [`${r} 가이드`, `${c}`, '2026'],
+  (r, c) => ['회식 고민?', `${r} ${c}`, '여기서 끝'],
+  (r, c) => ['혼밥 OK', `${r} ${c}`, '5곳 추천'],
+  (r, c) => [`${r} ${c}`, '선정 기준', '평점·리뷰'],
+  (r, c) => ['리뷰 검증', `${r} ${c}`, '맛집 가이드'],
+  (r, c) => ['데이터 기반', `${r} ${c}`, '진짜 추천'],
+  (r, c) => [r, `${c} BEST`, '놓치지 말 것'],
+  (r, c) => [`${r}에서`, `${c} 한 끼`, '가이드'],
+  (r, c) => ['찐 맛집', `${r} ${c}`, '실리뷰 검증'],
 ]
 
-// 컬러 팔레트 — 12개 그라디언트 (카테고리·해시별 결정)
-const PALETTES = [
-  { from: '#FF6B6B', to: '#4ECDC4', text: '#fff' },
-  { from: '#4facfe', to: '#00f2fe', text: '#0b1320' },
-  { from: '#43e97b', to: '#38f9d7', text: '#0b1320' },
-  { from: '#fa709a', to: '#fee140', text: '#0b1320' },
-  { from: '#667EEA', to: '#764BA2', text: '#fff' },
-  { from: '#f7971e', to: '#ffd200', text: '#0b1320' },
-  { from: '#ff9966', to: '#ff5e62', text: '#fff' },
-  { from: '#a18cd1', to: '#fbc2eb', text: '#0b1320' },
-  { from: '#30cfd0', to: '#330867', text: '#fff' },
-  { from: '#ff758c', to: '#ff7eb3', text: '#fff' },
-  { from: '#13547a', to: '#80d0c7', text: '#fff' },
-  { from: '#ee9ca7', to: '#ffdde1', text: '#0b1320' },
-]
+// 강조 컬러 — slug 해시로 결정 (메인 텍스트용 노란/주황/민트 등)
+const ACCENTS = ['#FFD93D', '#FFA94D', '#FFE066', '#74C0FC', '#63E6BE', '#FF8787', '#B197FC', '#FFC078']
 
-function hash(str) {
+function hash(s) {
   let h = 0
-  for (let i = 0; i < (str || '').length; i++) {
-    h = ((h << 5) - h) + str.charCodeAt(i)
-    h |= 0
+  for (let i = 0; i < (s || '').length; i++) {
+    h = ((h << 5) - h) + s.charCodeAt(i); h |= 0
   }
   return Math.abs(h)
 }
@@ -66,62 +46,66 @@ export default function PostThumbnail({ imageUrl, region, category, slug, size =
   const cat = CATEGORY_LABEL[category] || category || '맛집'
   const reg = region || ''
   const lines = TEXT_PATTERNS[seed % TEXT_PATTERNS.length](reg, cat)
-  const palette = PALETTES[(seed >> 4) % PALETTES.length]
+  const accent = ACCENTS[(seed >> 3) % ACCENTS.length]
+  // size가 '100%'이면 부모 너비에 맞추되 정사각형 유지 (aspectRatio)
+  const isFluid = size === '100%' || size === 'auto'
+  const numSize = isFluid ? 200 : size
+  const fontMain = Math.max(15, Math.round(numSize / 9))
+  const fontSub  = Math.max(11, Math.round(numSize / 16))
 
   return (
     <div
       style={{
         position: 'relative',
-        width: size,
-        height: size,
-        borderRadius: 12,
-        overflow: 'hidden',
-        background: `linear-gradient(135deg, ${palette.from} 0%, ${palette.to} 100%)`,
-        flexShrink: 0,
+        width: isFluid ? '100%' : size,
+        height: isFluid ? 'auto' : size,
+        aspectRatio: isFluid ? '1 / 1' : undefined,
+        borderRadius: 12, overflow: 'hidden', flexShrink: 0,
+        background: '#1a1a22',
       }}
     >
-      {/* 배경 이미지 — 투명도 30% (사용자 요청 70% 투명도 = 30% opacity) */}
       {imageUrl && (
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src={imageUrl}
           alt=""
           loading="lazy"
-          style={{
-            position: 'absolute', inset: 0,
-            width: '100%', height: '100%', objectFit: 'cover',
-            opacity: 0.3,
-          }}
+          style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}
         />
       )}
-      {/* 어두운 그라디언트 오버레이 — 텍스트 가독성 */}
+      {/* 가독성 오버레이 — 하단으로 갈수록 진해짐 */}
       <div
         style={{
-          position: 'absolute', inset: 0,
-          background: `linear-gradient(135deg, ${palette.from}cc 0%, ${palette.to}cc 100%)`,
-          mixBlendMode: 'multiply',
+          position:'absolute', inset:0,
+          background:'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.15) 100%)',
         }}
       />
-      {/* 텍스트 — 정렬 & 줄바꿈 강제 */}
+      {/* 텍스트 — 좌측 정렬, 하단 배치 */}
       <div
         style={{
-          position: 'absolute', inset: 0,
-          display: 'flex', flexDirection: 'column',
-          justifyContent: 'center', alignItems: 'flex-start',
-          padding: '14px 16px',
-          color: palette.text,
-          fontWeight: 900,
-          lineHeight: 1.18,
-          letterSpacing: '-0.02em',
-          fontSize: Math.max(13, Math.round(size / 11)),
-          textShadow: palette.text === '#fff' ? '0 2px 6px rgba(0,0,0,.3)' : '0 2px 4px rgba(255,255,255,.4)',
-          whiteSpace: 'nowrap',
-          overflow: 'hidden',
+          position:'absolute', left:0, right:0, bottom:0,
+          padding:'12px 14px',
+          display:'flex', flexDirection:'column',
+          alignItems:'flex-start', textAlign:'left',
+          gap: 2,
         }}
       >
-        {lines.map((line, i) => (
-          <div key={i} style={{ width: '100%' }}>{line}</div>
-        ))}
+        <div style={{
+          fontSize: fontSub, fontWeight: 600, color:'rgba(255,255,255,0.85)',
+          letterSpacing:'0.02em', lineHeight: 1.2,
+          textShadow:'0 1px 3px rgba(0,0,0,0.5)',
+        }}>{lines[0]}</div>
+        <div style={{
+          fontSize: fontMain, fontWeight: 900, color: accent,
+          letterSpacing:'-0.02em', lineHeight: 1.18,
+          textShadow:'0 2px 6px rgba(0,0,0,0.6)',
+          maxWidth:'100%', wordBreak:'keep-all', overflowWrap:'break-word',
+        }}>{lines[1]}</div>
+        <div style={{
+          fontSize: fontSub, fontWeight: 600, color:'#fff',
+          letterSpacing:'0.02em', lineHeight: 1.2,
+          textShadow:'0 1px 3px rgba(0,0,0,0.5)',
+        }}>{lines[2]}</div>
       </div>
     </div>
   )
