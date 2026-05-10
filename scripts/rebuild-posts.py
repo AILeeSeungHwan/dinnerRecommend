@@ -771,7 +771,14 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
     link = f'{region_path}/restaurant/{name}'
     rating = r.get('rating', 0) or 0
     cnt = r.get('reviewCount', 0) or 0
-    rtype = (r.get('type') or '').split(',')[0]
+    # cat 필드 우선 (정확한 카테고리), type은 폴백
+    cat_field = r.get('cat')
+    cat_val = ''
+    if isinstance(cat_field, list) and cat_field:
+        cat_val = cat_field[0]
+    elif isinstance(cat_field, str):
+        cat_val = cat_field
+    rtype = cat_val or (r.get('type') or '').split(',')[0]
     price = (r.get('priceRange') or '').replace(' ', '')
 
     # 가격 lo/hi
@@ -1551,21 +1558,28 @@ for line in posts_js_text.split('\n'):
         ))
 updated_posts_text = '\n'.join(new_lines)
 
-# 썸네일 경로 삽입/업데이트 — SKIP_POST_IDS는 건드리지 않음
+# 썸네일 — 각 포스트의 첫 식당 imageUrl을 thumbnail로 저장 (PostThumbnail이 사용)
 thumb_count = 0
-for pid_str, pimg in img_mapping.items():
-    if int(pid_str) in SKIP_POST_IDS:
-        continue
-    thumb = pimg.get('thumb', '')
+for post_data in all_posts_meta:
+    pid = post_data['id']
+    if pid in SKIP_POST_IDS: continue
+    rests = post_data.get('restaurants', [])
+    thumb = ''
+    for r in rests:
+        if r.get('imageUrl'):
+            thumb = r['imageUrl']; break
     if not thumb:
-        continue
-    pat_null = re.compile(rf"(id:{pid_str},.*?)thumbnail:null", re.DOTALL)
-    pat_str = re.compile(rf"(id:{pid_str},.*?)thumbnail:'[^']*'", re.DOTALL)
+        # post-images.json 폴백
+        thumb = (img_mapping.get(str(pid), {}) or {}).get('thumb', '')
+    if not thumb: continue
+    safe_thumb = thumb.replace("'", "\\'")
+    pat_null = re.compile(rf"(id:{pid},.*?)thumbnail:null", re.DOTALL)
+    pat_str = re.compile(rf"(id:{pid},.*?)thumbnail:'[^']*'", re.DOTALL)
     if pat_null.search(updated_posts_text):
-        updated_posts_text = pat_null.sub(rf"\g<1>thumbnail:'{thumb}'", updated_posts_text)
+        updated_posts_text = pat_null.sub(rf"\g<1>thumbnail:'{safe_thumb}'", updated_posts_text)
         thumb_count += 1
     elif pat_str.search(updated_posts_text):
-        updated_posts_text = pat_str.sub(rf"\g<1>thumbnail:'{thumb}'", updated_posts_text)
+        updated_posts_text = pat_str.sub(rf"\g<1>thumbnail:'{safe_thumb}'", updated_posts_text)
         thumb_count += 1
 print(f'썸네일 업데이트: {thumb_count}개 포스트')
 

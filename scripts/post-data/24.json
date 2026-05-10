@@ -23,6 +23,11 @@
       "rating": 4.8,
       "reviewCount": 776,
       "blogCount": 505,
+      "cat": [
+        "양식",
+        "버거",
+        "야장"
+      ],
       "tags": [
         "피자",
         "생맥주",
@@ -91,6 +96,9 @@
       "rating": 4.4,
       "reviewCount": 2120,
       "blogCount": 40,
+      "cat": [
+        "야장"
+      ],
       "tags": [
         "주차가능"
       ],
@@ -120,6 +128,9 @@
       "rating": 4.4,
       "reviewCount": 285,
       "blogCount": 547,
+      "cat": [
+        "일식"
+      ],
       "tags": [
         "리뷰많음",
         "점심추천",
@@ -177,6 +188,9 @@
       "rating": 5,
       "reviewCount": 6,
       "blogCount": 36,
+      "cat": [
+        "야장"
+      ],
       "tags": [
         "단체가능",
         "주차가능",
@@ -234,6 +248,9 @@
       "rating": 5,
       "reviewCount": 3,
       "blogCount": 1305,
+      "cat": [
+        "이자카야"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",

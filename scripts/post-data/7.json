@@ -23,6 +23,12 @@
       "rating": 4.5,
       "reviewCount": 123,
       "blogCount": 0,
+      "cat": [
+        "면류",
+        "중식",
+        "칼국수",
+        "회식"
+      ],
       "tags": [
         "가성비",
         "고평점",
@@ -70,6 +76,10 @@
       "rating": 4.6,
       "reviewCount": 5,
       "blogCount": 0,
+      "cat": [
+        "양식",
+        "이탈리안"
+      ],
       "tags": [
         "고평점",
         "양식",
@@ -106,6 +116,11 @@
       "rating": 4.6,
       "reviewCount": 0,
       "blogCount": 0,
+      "cat": [
+        "국물",
+        "국밥",
+        "한식"
+      ],
       "tags": [
         "가족",
         "고평점",
@@ -147,6 +162,12 @@
       "rating": 4.5,
       "reviewCount": 0,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "치킨",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고기",
         "고평점",
@@ -191,6 +212,9 @@
       "rating": 4.1,
       "reviewCount": 14,
       "blogCount": 0,
+      "cat": [
+        "일식"
+      ],
       "tags": [
         "가성비",
         "고평점",
@@ -227,6 +251,11 @@
       "rating": 4.1,
       "reviewCount": 14,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고기",
         "고평점",

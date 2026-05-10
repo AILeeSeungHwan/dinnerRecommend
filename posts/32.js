@@ -11,12 +11,12 @@ const post = {
     {
       type: 'h2',
       id: "criteria",
-      text: "선정 기준 — 왜 이 5곳인가",
+      text: "강남역  맛집 선정 기준 (평점·리뷰·메뉴)",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: "<p>강남역 전체 285곳에서  카테고리에 해당하는 식당을 선별하였습니다. 평점 3.7점 이상,  기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>강남역 일대  식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 285곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 3.7점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.1점</strong>이며, 누적 리뷰 수는 약 <strong>803건</strong>입니다. 1인 10,966원~29,300원 사이가 일반적이며, 을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a>. 한식 전문점으로, 평점 4.2점을 기록하고 있습니다.</p><p>209건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/엄청난족발\" style=\"color:var(--primary)\">→ 엄청난족발 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 209건으로 안정적인 평가가 쌓여 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 논현동 198-8</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/엄청난족발\" style=\"color:var(--primary);font-weight:600\">→ 엄청난족발 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>평일점심 (~15:00) 18,900원. <a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a>의 대표 메뉴입니다. 평일 저녁 (15:00~), 주말 및 공휴일 같은 메뉴도 인기가 좋습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>229건 정도의 리뷰가 있고, 평점은 3.7점 수준입니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다.</p><p>한 방문자는 \"육수도 진하고 재료 신선해서 먹을수록 만족도가 높습니다\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 재료·맛·재방문 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\" style=\"color:var(--primary)\">→ 용가회전훠궈 강남점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>평일점심 (~15:00) 18,900원</strong>입니다. 평점 3.7점에 리뷰 229건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 18,900원에서 22,900원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,966원과 비교하면 약 7,934원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일점심 (~15:00)</td><td style=\"padding:7px 6px;text-align:right\">18,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일 저녁 (15:00~)</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">주말 및 공휴일</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr></tbody></table><p>혼자 빠르게 한 끼 해결하기 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 서초동 1308-5</p><p>방문 후기에서 자주 언급되는 부분은 재료·맛·재방문 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"육수도 진하고 재료 신선해서 먹을수록 만족도가 높습니다\"고 적어두었습니다.</p><p><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\" style=\"color:var(--primary);font-weight:600\">→ 용가회전훠궈 강남점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\">반티엔야오 카오위 강남점</a>. 평점 4.3점, 리뷰 117건 정도 있습니다.</p><p>메뉴를 살펴보면, 마라 카오위(단품) 43,000원 / 칭화지아오 카오위(단품) 43,000원 / 마늘향 카오위(단품) 43,000원 / 쏸차이 카오위(단품) 43,000원 등이 있습니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 117건에 4.3점 정도로 무난한 평가가 쌓여 있습니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 국물·재료·맛 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\" style=\"color:var(--primary)\">→ 반티엔야오 카오위 강남점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\">반티엔야오 카오위 강남점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>마라 카오위(단품) 43,000원</strong>입니다. 평점 4.3점에 리뷰 117건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 3,000원에서 43,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,966원보다 약 7,966원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 마라 카오위(단품) 43,000원, 칭화지아오 카오위(단품) 43,000원, 마늘향 카오위(단품) 43,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 서초동 1317-31</p><p>방문 후기에서 자주 언급되는 부분은 국물·재료·맛 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\" style=\"color:var(--primary);font-weight:600\">→ 반티엔야오 카오위 강남점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>. 국밥 전문점으로, 평점 4.2점에 리뷰 124건을 기록하고 있습니다.</p><p>124건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"color:var(--primary)\">→ 신촌설렁탕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>국밥 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 역삼1동</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"color:var(--primary);font-weight:600\">→ 신촌설렁탕 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -90,12 +90,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a>. 국밥 전문점으로, 평점 4.2점에 리뷰 124건을 기록하고 있습니다.</p><p>나주곰탕 11,000원이 가장 인기 있는 메뉴이며, 얼큰곰탕 12,000원, 곰탕만두국 11,000원도 추천드립니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 124건에 4.2점 정도로 무난한 평가가 쌓여 있습니다.</p><p>재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/나주곰탕\" style=\"color:var(--primary)\">→ 나주곰탕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>나주곰탕 11,000원</strong>입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 11,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,966원)와 비슷한 수준입니다.</p><p>메뉴는 나주곰탕 11,000원, 얼큰곰탕 12,000원, 곰탕만두국 11,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 역삼동 644-19</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/나주곰탕\" style=\"color:var(--primary);font-weight:600\">→ 나주곰탕 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "compare",
-      text: "강남역  맛집 한눈에 비교",
+      text: "강남역  5곳 한눈에 비교 (평점·가격대·대표메뉴)",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -105,7 +105,7 @@ const post = {
     {
       type: 'h2',
       id: "by-situation",
-      text: "상황별 이 식당을 추천합니다",
+      text: "상황별 강남역  추천 (혼밥·점심·접대·모임)",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
@@ -115,7 +115,7 @@ const post = {
     {
       type: 'h2',
       id: "tips",
-      text: "방문 전 꼭 확인할 점",
+      text: "강남역  방문 전 체크포인트 (예약·주차·웨이팅)",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {

@@ -23,6 +23,9 @@
       "rating": 4.9,
       "reviewCount": 7774,
       "blogCount": 3811,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "자장면",
         "짬뽕",
@@ -67,6 +70,9 @@
       "rating": 4.2,
       "reviewCount": 606,
       "blogCount": 374,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "점심추천",
         "주차가능",
@@ -128,6 +134,9 @@
       "rating": 4.4,
       "reviewCount": 122,
       "blogCount": 1639,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "어향동고",
         "탕수육",
@@ -194,6 +203,9 @@
       "rating": 4.3,
       "reviewCount": 0,
       "blogCount": 57,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "점심추천",
         "리뷰많음",
@@ -252,6 +264,10 @@
       "rating": 4.2,
       "reviewCount": 0,
       "blogCount": 198,
+      "cat": [
+        "중식",
+        "훠궈"
+      ],
       "tags": [
         "훠궈",
         "핫팟",

@@ -11,17 +11,17 @@ const post = {
     {
       type: 'h2',
       id: "criteria",
-      text: "선정 기준 — 왜 이 5곳인가",
+      text: "잠실 데이트 맛집 선정 기준 (평점·리뷰·메뉴)",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: "<p>잠실 전체 1149곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.2점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>잠실 일대 데이트 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 1149곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 4.2점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.5점</strong>이며, 누적 리뷰 수는 약 <strong>337건</strong>입니다. 1인 8,980원~49,160원 사이가 일반적이며, 분위기·코스 구성·예약 여부·뷰을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
     },
     {
       type: 'h2',
       id: "지강한식당-잠실점",
-      text: "지강한식당 잠실점 — 한식 전문점",
+      text: "지강한식당 잠실점 — 시그니처 투움바 치즈닭갈비 16,500원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a>에서 가장 많이 나가는 메뉴는 투움바 치즈닭갈비입니다. 가격은 16,500원입니다. 투움바 낙지 치즈닭갈비, 치즈 닭갈비도 함께 주문하시는 분들이 많습니다.</p><p>그 외에 낙지 치즈닭갈비(19,000원), 낙지 닭갈비(17,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다.</p><p>111건 리뷰에 4.2점이면 동네 단골 식당 정도로 보면 됩니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"반찬도 4종을 주셨는데 모두 맛이 튀지않고 은은하니 너무 맛있더라구다는 평\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·웨이팅 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\" style=\"color:var(--primary)\">→ 지강한식당 잠실점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>투움바 치즈닭갈비 16,500원</strong>입니다. 평점 4.2점에 리뷰 111건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 3,500원에서 22,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 8,980원보다 약 5,480원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">투움바 치즈닭갈비</td><td style=\"padding:7px 6px;text-align:right\">16,500원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">투움바 낙지 치즈닭갈비</td><td style=\"padding:7px 6px;text-align:right\">19,500원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">치즈 닭갈비</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">낙지 치즈닭갈비</td><td style=\"padding:7px 6px;text-align:right\">19,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">낙지 닭갈비</td><td style=\"padding:7px 6px;text-align:right\">17,000원</td></tr></tbody></table><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 11:00에 영업 시작 · 위치 신천동 29-1</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·웨이팅 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"반찬도 4종을 주셨는데 모두 맛이 튀지않고 은은하니 너무 맛있더라구다는 평\"고 적어두었습니다.</p><p><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\" style=\"color:var(--primary);font-weight:600\">→ 지강한식당 잠실점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a>을 방문하시면 단호박 뇨끼을 추천드립니다. 23,000원에 드실 수 있습니다. 그 외에도 잠봉 파스타, 미서부 클래식 라자냐를 많이 찾으십니다.</p><p>그 외에 🔥철판 스테이크🔥(46,000원), 딸기 리코타 샐러드(23,000원)도 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 111건에 4.2점 정도로 무난한 평가가 쌓여 있습니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 데이트 장소로 추천하는 리뷰가 있습니다. 조용하고 분위기 있는 공간이 인상적이라는 후기입니다.</p><p>한 방문자는 \"라자냐랑 잠봉뵈르 파스타 먹었는데 둘 다 맛있었어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·웨이팅 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\" style=\"color:var(--primary)\">→ 쌤쌤쌤 롯데월드몰점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>단호박 뇨끼 23,000원</strong>입니다. 평점 4.2점에 리뷰 111건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 11,000원에서 46,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 8,980원과 비교하면 약 2,020원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">단호박 뇨끼</td><td style=\"padding:7px 6px;text-align:right\">23,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">잠봉 파스타</td><td style=\"padding:7px 6px;text-align:right\">26,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">미서부 클래식 라자냐</td><td style=\"padding:7px 6px;text-align:right\">26,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">🔥철판 스테이크🔥</td><td style=\"padding:7px 6px;text-align:right\">46,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">딸기 리코타 샐러드</td><td style=\"padding:7px 6px;text-align:right\">23,000원</td></tr></tbody></table><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 10:30에 영업 시작 · 위치 신천동 29</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·웨이팅 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"라자냐랑 잠봉뵈르 파스타 먹었는데 둘 다 맛있었어요\"고 적어두었습니다.</p><p><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\" style=\"color:var(--primary);font-weight:600\">→ 쌤쌤쌤 롯데월드몰점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -64,12 +64,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\">정순함박 잠실 본점</a>. 양식 전문점으로, 평점 4.2점에 리뷰 111건을 기록하고 있습니다.</p><p>대표 메뉴는 생파슬리버터레몬함박 알리올리오 27,800원, 양송이폭탄함박파스타 26,800원, 매운함박크림파스타 24,000원입니다.</p><p>혼밥하시기에도 편한 구조입니다.</p><p>리뷰 111건에 4.2점 정도로 무난한 평가가 쌓여 있습니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·재료·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\" style=\"color:var(--primary)\">→ 정순함박 잠실 본점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\">정순함박 잠실 본점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>생파슬리버터레몬함박 알리올리오 27,800원</strong>입니다. 평점 4.2점에 리뷰 111건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 13,500원에서 27,800원 사이로 형성되어 있습니다. 카테고리 평균 시작가 8,980원과 비교하면 약 4,520원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴는 생파슬리버터레몬함박 알리올리오 27,800원, 양송이폭탄함박파스타 26,800원, 매운함박크림파스타 24,000원 등이 있습니다.</p><p>혼자 빠르게 한 끼 해결하기 좋습니다 점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 신천동 7</p><p>방문 후기에서 자주 언급되는 부분은 맛·재료·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\" style=\"color:var(--primary);font-weight:600\">→ 정순함박 잠실 본점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "솔직한우-방이점",
-      text: "솔직한우 방이점 — 인당 13만원대 코스",
+      text: "솔직한우 방이점 — 한식 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -80,12 +80,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>한식 하면 <a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>도 빠지지 않습니다. 평점 5.0점입니다.</p><p>가격대는 9,900~130,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>5.0점·리뷰 2건. 방문자 평이 비교적 일관되게 좋은 편입니다. 가격은 인당 13만원 정도 보시면 됩니다. 기념일이라면 충분히 가치 있는 선택이 되실 겁니다.</p><p>가성비가 좋다는 리뷰가 많습니다. 가격 대비 음식 퀄리티가 뛰어나다는 평이 주를 이룹니다. 분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary)\">→ 솔직한우 방이점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 5.0점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 9,900원에서 130,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(8,980원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:00에 영업 시작 · 위치 방이동 70</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\" style=\"color:var(--primary);font-weight:600\">→ 솔직한우 방이점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "마차이-방이점",
-      text: "마차이 방이점 — 중식 전문점",
+      text: "마차이 방이점 — 시그니처 미나리 쭈꾸미짬뽕 15,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -96,22 +96,22 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a>. 중식 전문점입니다. 5.0점에 리뷰 2건이 쌓여 있습니다.</p><p>미나리 쭈꾸미짬뽕 15,000원이 가장 인기 있는 메뉴이며, 고기 짬뽕 15,000원, 비빔짬짜면 11,000원도 추천드립니다.</p><p>주차도 가능합니다.</p><p>5.0점·리뷰 2건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\" style=\"color:var(--primary)\">→ 마차이 방이점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>미나리 쭈꾸미짬뽕 15,000원</strong>입니다. 평점 5.0점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 7,000원에서 20,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 8,980원보다 약 1,980원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 미나리 쭈꾸미짬뽕 15,000원, 고기 짬뽕 15,000원, 비빔짬짜면 11,000원 등이 있습니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 11:00에 영업 시작 · 위치 방이동 105-4</p><p>방문 후기에서 자주 언급되는 부분은 맛·양·서비스 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마차이 방이점\" style=\"color:var(--primary);font-weight:600\">→ 마차이 방이점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "compare",
-      text: "잠실 데이트 맛집 한눈에 비교",
+      text: "잠실 데이트 5곳 한눈에 비교 (평점·가격대·대표메뉴)",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">11,000~46,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\">정순함박 잠실 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">13,500~27,800원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~20,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">11,000~46,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/정순함박 잠실 본점\">정순함박 잠실 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">13,500~27,800원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/솔직한우 방이점\">솔직한우 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">9,900~130,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마차이 방이점\">마차이 방이점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~20,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
       id: "by-situation",
-      text: "상황별 이 식당을 추천합니다",
+      text: "상황별 잠실 데이트 추천 (혼밥·점심·접대·모임)",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
@@ -121,7 +121,7 @@ const post = {
     {
       type: 'h2',
       id: "tips",
-      text: "방문 전 꼭 확인할 점",
+      text: "잠실 데이트 방문 전 체크포인트 (예약·주차·웨이팅)",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {

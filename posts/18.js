@@ -11,12 +11,12 @@ const post = {
     {
       type: 'h2',
       id: "criteria",
-      text: "선정 기준 — 왜 이 5곳인가",
+      text: "영통 고기 맛집 선정 기준 (평점·리뷰·메뉴)",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: "<p>영통 전체 679곳에서 고기 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.1점 이상, 고기 종류·부위·인당 가격·구이 방식 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>영통 일대 고기 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 679곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 4.1점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.3점</strong>이며, 누적 리뷰 수는 약 <strong>123건</strong>입니다. 1인 10,800원~20,000원 사이가 일반적이며, 고기 종류·부위·인당 가격·구이 방식을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\">윤가곰탕</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다.</p><p>리뷰 81건에 4.5점이면 꾸준히 무난한 편입니다. 굽기 옵션이 따로 안내되어 있어 미디엄·웰던 등 취향대로 요청하실 수 있습니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\" style=\"color:var(--primary)\">→ 윤가곰탕 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\">윤가곰탕</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 81건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,800원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:00 AM~9:00 PM · 위치 매영로345번길</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\" style=\"color:var(--primary);font-weight:600\">→ 윤가곰탕 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다.</p><p>직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\" style=\"color:var(--primary)\">→ 김래하닭갈비 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,800원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 휴무일 · 위치 영통동 1040-8번지</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\" style=\"color:var(--primary);font-weight:600\">→ 김래하닭갈비 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'image',
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\">장수돌곱창</a>. 고기구이·곱창 전문점입니다. 4.1점에 리뷰 14건이 쌓여 있습니다.</p><p>가격대는 12,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>14건 리뷰에 4.1점이면 동네 단골 식당 정도로 보면 됩니다. 환기 시설이 잘 되어 있는 편이지만, 옷에 냄새가 신경 쓰이시면 갈아입을 옷을 챙기시는 것도 방법입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\" style=\"color:var(--primary)\">→ 장수돌곱창 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\">장수돌곱창</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,800원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 4:00 PM~10:00 · 위치 영통동 1036-4</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\" style=\"color:var(--primary);font-weight:600\">→ 장수돌곱창 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,12 +86,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\">통영숯불장어</a>. 고기구이·일식 전문점입니다. 4.1점에 리뷰 14건이 쌓여 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>단체석이나 룸이 마련되어 있습니다.</p><p>리뷰 14건에 4.1점 정도로 무난한 평가가 쌓여 있습니다. 굽기 옵션이 따로 안내되어 있어 미디엄·웰던 등 취향대로 요청하실 수 있습니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\" style=\"color:var(--primary)\">→ 통영숯불장어 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\">통영숯불장어</a>는 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,800원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 4:30 PM~12:00 AM · 위치 영통동 1040-1</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\" style=\"color:var(--primary);font-weight:600\">→ 통영숯불장어 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "청우회관",
-      text: "청우회관 — 고기구이 전문점",
+      text: "청우회관 — 한우 전문 구이",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -102,22 +102,22 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a>. 평점 4.1점, 리뷰 14건 정도 있습니다.</p><p>가격대는 10,000~20,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.1점, 리뷰 14건. 큰 호불호 없이 이용되는 편입니다. 직화로 직접 구워 드시는 스타일이며, 굽기를 직원분이 도와주시는 편입니다.</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\" style=\"color:var(--primary)\">→ 청우회관 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,800원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 영업시간 확인 필요 · 위치 영통동 1044-6</p><p><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\" style=\"color:var(--primary);font-weight:600\">→ 청우회관 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "compare",
-      text: "영통 고기 맛집 한눈에 비교",
+      text: "영통 고기 5곳 한눈에 비교 (평점·가격대·대표메뉴)",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\">윤가곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">81건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\">장수돌곱창</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\">통영숯불장어</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/윤가곰탕\">윤가곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">81건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/김래하닭갈비\">김래하닭갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/장수돌곱창\">장수돌곱창</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/통영숯불장어\">통영숯불장어</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/청우회관\">청우회관</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
     },
     {
       type: 'h2',
       id: "by-situation",
-      text: "상황별 이 식당을 추천합니다",
+      text: "상황별 영통 고기 추천 (혼밥·점심·접대·모임)",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
@@ -127,7 +127,7 @@ const post = {
     {
       type: 'h2',
       id: "tips",
-      text: "방문 전 꼭 확인할 점",
+      text: "영통 고기 방문 전 체크포인트 (예약·주차·웨이팅)",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {

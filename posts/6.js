@@ -11,12 +11,12 @@ const post = {
     {
       type: 'h2',
       id: "criteria",
-      text: "선정 기준 — 왜 이 5곳인가",
+      text: "잠실 일식·스시 맛집 선정 기준 (평점·리뷰·메뉴)",
       gradientStyle: { from: '#FF6B6B', to: '#4ECDC4' },
     },
     {
       type: 'body',
-      html: "<p>잠실 전체 1149곳에서 일식·스시 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.1점 이상, 오마카세 등급·예약·코스 가격 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>잠실 일대 일식·스시 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 1149곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 4.1점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.4점</strong>이며, 누적 리뷰 수는 약 <strong>988건</strong>입니다. 1인 18,333원~42,333원 사이가 일반적이며, 오마카세 등급·예약·코스 가격을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a>. 일식 전문점으로, 평점 4.9점을 기록하고 있습니다.</p><p>평점 4.9점, 리뷰 513건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/dinner/jamsil/restaurant/아사히 스시\" style=\"color:var(--primary)\">→ 아사히 스시 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a>는 일식 카테고리에 속하는 식당으로입니다. 누적 리뷰 513건에 평점 4.9점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>일식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 신천동 7</p><p><a href=\"/dinner/jamsil/restaurant/아사히 스시\" style=\"color:var(--primary);font-weight:600\">→ 아사히 스시 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -48,12 +48,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>.</p><p>229건 리뷰에 4.1점이면 동네 단골 식당 정도로 보면 됩니다. 오마카세 코스는 제철 재료에 따라 메뉴 구성이 달라집니다. 예약 시 알레르기 여부를 미리 알리시는 편이 안전합니다.</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary)\">→ 김태완스시 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a>는 일식 카테고리에 속하는 식당으로입니다. 평점 4.1점에 리뷰 229건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 25,000원에서 60,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 18,333원과 비교하면 약 6,667원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:30~21:30 · 위치 송리단길</p><p><a href=\"/dinner/jamsil/restaurant/김태완스시\" style=\"color:var(--primary);font-weight:600\">→ 김태완스시 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "마싯내",
-      text: "마싯내 — 시그니처 마싯내돈가스(2인) 32,000원",
+      text: "마싯내 — 일식 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a>. 일식 전문점으로, 평점 4.3점에 리뷰 124건을 기록하고 있습니다.</p><p>마싯내돈가스(2인) 32,000원이 가장 인기 있는 메뉴이며, 안심돈가스 14,000원, 김치치즈나베 13,000원도 추천드립니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>평점 4.3점, 리뷰 124건. 큰 호불호 없이 이용되는 편입니다.</p><p>고기가 부드워서 만족도가 높습니다. 육질에 대한 긍정적인 리뷰가 다수 확인되었습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·재방문 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마싯내\" style=\"color:var(--primary)\">→ 마싯내 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a>는 일식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>마싯내돈가스(2인) 32,000원</strong>입니다. 평점 4.3점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 11,000원에서 32,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 18,333원보다 약 7,333원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 마싯내돈가스(2인) 32,000원, 안심돈가스 14,000원, 김치치즈나베 13,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:30에 영업 시작 · 위치 석촌동 157-4</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·재방문 쪽입니다.</p><p><a href=\"/dinner/jamsil/restaurant/마싯내\" style=\"color:var(--primary);font-weight:600\">→ 마싯내 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a>. 일식 전문점입니다. 4.2점에 리뷰 111건이 쌓여 있습니다.</p><p>평점 4.2점, 리뷰 111건. 큰 호불호 없이 이용되는 편입니다.</p><p><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\" style=\"color:var(--primary)\">→ 분지로 롯데월드몰점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 111건으로 안정적인 평가가 쌓여 있습니다.</p><p>일식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 신천동 29</p><p><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\" style=\"color:var(--primary);font-weight:600\">→ 분지로 롯데월드몰점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,22 +96,22 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>스시오마카세 하면 <a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a>도 빠지지 않습니다. 평점 4.4점입니다.</p><p>가격대는 19,000~35,000원입니다.</p><p>평점 4.4점, 리뷰 11건. 큰 호불호 없이 이용되는 편입니다. 오마카세 코스는 제철 재료에 따라 메뉴 구성이 달라집니다. 예약 시 알레르기 여부를 미리 알리시는 편이 안전합니다.</p><p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\" style=\"color:var(--primary)\">→ 오사이초밥 잠실 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.4점, 리뷰 11건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 19,000원에서 35,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(18,333원)와 비슷한 수준입니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:30~22:00 · 위치 송리단길</p><p><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\" style=\"color:var(--primary);font-weight:600\">→ 오사이초밥 잠실 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "compare",
-      text: "잠실 일식·스시 맛집 한눈에 비교",
+      text: "잠실 일식·스시 5곳 한눈에 비교 (평점·가격대·대표메뉴)",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">513건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">25,000~60,000원</td><td style=\"padding:7px 6px\">스시·오마카세 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~32,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">11건</td><td style=\"padding:7px 6px;text-align:center\">19,000~35,000원</td><td style=\"padding:7px 6px\">스시오마카세 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">513건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">25,000~60,000원</td><td style=\"padding:7px 6px\">스시·오마카세 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~32,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">11건</td><td style=\"padding:7px 6px;text-align:center\">19,000~35,000원</td><td style=\"padding:7px 6px\">스시오마카세 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
       id: "by-situation",
-      text: "상황별 이 식당을 추천합니다",
+      text: "상황별 잠실 일식·스시 추천 (혼밥·점심·접대·모임)",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
@@ -121,7 +121,7 @@ const post = {
     {
       type: 'h2',
       id: "tips",
-      text: "방문 전 꼭 확인할 점",
+      text: "잠실 일식·스시 방문 전 체크포인트 (예약·주차·웨이팅)",
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {

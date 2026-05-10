@@ -18,6 +18,9 @@
       "rating": 4.2,
       "reviewCount": 209,
       "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -43,6 +46,9 @@
       "rating": 3.7,
       "reviewCount": 229,
       "blogCount": 1994,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "리뷰많음",
         "혼밥가능",
@@ -88,6 +94,9 @@
       "rating": 4.3,
       "reviewCount": 117,
       "blogCount": 1330,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -143,6 +152,9 @@
       "rating": 4.2,
       "reviewCount": 124,
       "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -168,6 +180,9 @@
       "rating": 4.2,
       "reviewCount": 124,
       "blogCount": 85,
+      "cat": [
+        "한식"
+      ],
       "tags": [
         "주차가능",
         "리뷰많음",

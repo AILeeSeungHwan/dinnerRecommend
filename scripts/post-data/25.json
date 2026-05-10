@@ -23,6 +23,10 @@
       "rating": 5,
       "reviewCount": 8,
       "blogCount": 247,
+      "cat": [
+        "일식",
+        "우동소바"
+      ],
       "tags": [
         "혼밥가능",
         "주차가능",
@@ -80,6 +84,10 @@
       "rating": 4.3,
       "reviewCount": 32,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "오므라이스"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -105,6 +113,10 @@
       "rating": 4.2,
       "reviewCount": 18,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "샤브샤브"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -130,6 +142,10 @@
       "rating": 4.1,
       "reviewCount": 14,
       "blogCount": 221,
+      "cat": [
+        "음식점",
+        "카페디저트"
+      ],
       "tags": [
         "가성비",
         "주차가능",
@@ -187,6 +203,10 @@
       "rating": 4.1,
       "reviewCount": 14,
       "blogCount": 0,
+      "cat": [
+        "술집",
+        "요리주점"
+      ],
       "tags": [
         "리뷰많음"
       ],

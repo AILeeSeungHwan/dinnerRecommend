@@ -23,6 +23,10 @@
       "rating": 4.2,
       "reviewCount": 111,
       "blogCount": 2102,
+      "cat": [
+        "음식점",
+        "한식"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -80,6 +84,10 @@
       "rating": 4.2,
       "reviewCount": 111,
       "blogCount": 2432,
+      "cat": [
+        "음식점",
+        "양식"
+      ],
       "tags": [
         "리뷰많음",
         "가성비",
@@ -136,6 +144,11 @@
       "rating": 5,
       "reviewCount": 25,
       "blogCount": 107,
+      "cat": [
+        "한식",
+        "육류",
+        "고기요리"
+      ],
       "tags": [
         "가성비",
         "주차가능",
@@ -193,6 +206,10 @@
       "rating": 5,
       "reviewCount": 13,
       "blogCount": 52,
+      "cat": [
+        "한식",
+        "돼지고기구이"
+      ],
       "tags": [
         "주차가능",
         "데이트",
@@ -250,6 +267,10 @@
       "rating": 5.0,
       "reviewCount": 2,
       "blogCount": 2216,
+      "cat": [
+        "술집",
+        "이자카야"
+      ],
       "tags": [
         "리뷰많음",
         "가성비",

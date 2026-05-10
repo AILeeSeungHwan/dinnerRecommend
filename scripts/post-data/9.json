@@ -23,6 +23,11 @@
       "rating": 4.9,
       "reviewCount": 72,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "가성비",
         "고기",
@@ -62,6 +67,10 @@
       "rating": 4.9,
       "reviewCount": 35,
       "blogCount": 0,
+      "cat": [
+        "중식",
+        "회식"
+      ],
       "tags": [
         "고평점",
         "단체가능",
@@ -104,6 +113,11 @@
       "rating": 4.9,
       "reviewCount": 0,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고기",
         "고평점",
@@ -144,6 +158,11 @@
       "rating": 4.8,
       "reviewCount": 0,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고기",
         "고평점",
@@ -186,6 +205,12 @@
       "rating": 4.5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "야장",
+        "이자카야",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고평점",
         "단체가능",
@@ -232,6 +257,11 @@
       "rating": 4.5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "가성비",
         "가족",

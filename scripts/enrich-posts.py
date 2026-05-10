@@ -232,6 +232,7 @@ def extract_restaurant_data(name):
         'rating': r.get('rt', 0),
         'reviewCount': r.get('cnt', 0),
         'blogCount': r.get('naverBlogCnt', 0),
+        'cat': r.get('cat', []),
         'tags': r.get('tags', []),
         'keywords': r.get('keywords', []),
         'moods': r.get('moods', []),

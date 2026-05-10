@@ -18,6 +18,9 @@
       "rating": 4.9,
       "reviewCount": 22,
       "blogCount": 710,
+      "cat": [
+        "한식"
+      ],
       "tags": [
         "리뷰많음",
         "가성비",
@@ -73,6 +76,9 @@
       "rating": 4.9,
       "reviewCount": 22,
       "blogCount": 2001,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -130,6 +136,9 @@
       "rating": 4.9,
       "reviewCount": 22,
       "blogCount": 1556,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -187,6 +196,9 @@
       "rating": 4.9,
       "reviewCount": 22,
       "blogCount": 1163,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -242,6 +254,9 @@
       "rating": 0,
       "reviewCount": 1835,
       "blogCount": 1521,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "리뷰많음",
         "가성비",
@@ -298,6 +313,9 @@
       "rating": 0,
       "reviewCount": 475,
       "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -349,6 +367,9 @@
       "rating": 3.4,
       "reviewCount": 14,
       "blogCount": 0,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],

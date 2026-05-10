@@ -23,6 +23,10 @@
       "rating": 4.9,
       "reviewCount": 513,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "일식당"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -48,6 +52,9 @@
       "rating": 4.1,
       "reviewCount": 229,
       "blogCount": 0,
+      "cat": [
+        "일식"
+      ],
       "tags": [
         "스시",
         "오마카세",
@@ -88,6 +95,10 @@
       "rating": 4.3,
       "reviewCount": 124,
       "blogCount": 704,
+      "cat": [
+        "일식",
+        "돈가스"
+      ],
       "tags": [
         "리뷰많음",
         "점심추천",
@@ -144,6 +155,10 @@
       "rating": 4.2,
       "reviewCount": 111,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "돈가스"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -169,6 +184,9 @@
       "rating": 4.4,
       "reviewCount": 11,
       "blogCount": 0,
+      "cat": [
+        "일식"
+      ],
       "tags": [
         "오마카세",
         "스시",

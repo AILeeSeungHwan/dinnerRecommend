@@ -23,6 +23,10 @@
       "rating": 4.9,
       "reviewCount": 244,
       "blogCount": 625,
+      "cat": [
+        "일식",
+        "일식당"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -80,6 +84,11 @@
       "rating": 4.8,
       "reviewCount": 0,
       "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "고기",
         "고평점",
@@ -122,6 +131,12 @@
       "rating": 4.0,
       "reviewCount": 5,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "한식",
+        "해산물",
+        "회식"
+      ],
       "tags": [
         "가족",
         "단체가능",
@@ -167,6 +182,10 @@
       "rating": 4.0,
       "reviewCount": 5,
       "blogCount": 145,
+      "cat": [
+        "중식",
+        "양꼬치"
+      ],
       "tags": [
         "주차가능",
         "데이트",
@@ -222,6 +241,10 @@
       "rating": 4.0,
       "reviewCount": 5,
       "blogCount": 16,
+      "cat": [
+        "음식점",
+        "한식"
+      ],
       "tags": [
         "점심추천",
         "주차가능",

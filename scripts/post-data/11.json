@@ -23,6 +23,10 @@
       "rating": 4.3,
       "reviewCount": 784,
       "blogCount": 367,
+      "cat": [
+        "한식",
+        "해장국"
+      ],
       "tags": [
         "주차가능",
         "리뷰많음",
@@ -79,6 +83,10 @@
       "rating": 4.3,
       "reviewCount": 632,
       "blogCount": 0,
+      "cat": [
+        "한식",
+        "국밥"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -104,6 +112,11 @@
       "rating": 4.2,
       "reviewCount": 1711,
       "blogCount": 0,
+      "cat": [
+        "한식",
+        "곰탕",
+        "설렁탕"
+      ],
       "tags": [
         "리뷰많음",
         "깔끔한곳",
@@ -159,6 +172,11 @@
       "rating": 4.2,
       "reviewCount": 1711,
       "blogCount": 19,
+      "cat": [
+        "한식",
+        "곰탕",
+        "설렁탕"
+      ],
       "tags": [
         "주차가능",
         "서비스좋음"
@@ -213,6 +231,11 @@
       "rating": 4.6,
       "reviewCount": 10,
       "blogCount": 148,
+      "cat": [
+        "한식",
+        "순대",
+        "순댓국"
+      ],
       "tags": [
         "가성비",
         "서비스좋음"

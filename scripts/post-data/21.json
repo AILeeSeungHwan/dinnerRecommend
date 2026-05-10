@@ -23,6 +23,9 @@
       "rating": 4.9,
       "reviewCount": 7774,
       "blogCount": 3811,
+      "cat": [
+        "중식"
+      ],
       "tags": [
         "자장면",
         "짬뽕",
@@ -67,6 +70,11 @@
       "rating": 4.9,
       "reviewCount": 2655,
       "blogCount": 59,
+      "cat": [
+        "한식",
+        "해산물",
+        "회식"
+      ],
       "tags": [
         "점심추천",
         "가성비",
@@ -110,6 +118,9 @@
       "rating": 4.5,
       "reviewCount": 1272,
       "blogCount": 2259,
+      "cat": [
+        "한식"
+      ],
       "tags": [
         "리뷰많음",
         "고평점",
@@ -177,6 +188,9 @@
       "rating": 4.4,
       "reviewCount": 836,
       "blogCount": 1562,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -235,6 +249,9 @@
       "rating": 5,
       "reviewCount": 6,
       "blogCount": 36,
+      "cat": [
+        "야장"
+      ],
       "tags": [
         "단체가능",
         "주차가능",

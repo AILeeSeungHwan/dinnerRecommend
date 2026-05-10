@@ -23,6 +23,9 @@
       "rating": 4.4,
       "reviewCount": 285,
       "blogCount": 1443,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -86,6 +89,9 @@
       "rating": 4.4,
       "reviewCount": 285,
       "blogCount": 29,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "주차가능",
         "단체가능",
@@ -128,6 +134,9 @@
       "rating": 5.0,
       "reviewCount": 3,
       "blogCount": 305,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "주차가능",
         "데이트",
@@ -182,6 +191,9 @@
       "rating": 5.0,
       "reviewCount": 3,
       "blogCount": 696,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "리뷰많음",
         "주차가능",
@@ -225,6 +237,9 @@
       "rating": 5,
       "reviewCount": 3,
       "blogCount": 7,
+      "cat": [
+        "고기구이"
+      ],
       "tags": [
         "혼밥가능",
         "단체가능",

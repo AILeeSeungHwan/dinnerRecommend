@@ -23,6 +23,11 @@
       "rating": 4.5,
       "reviewCount": 64,
       "blogCount": 0,
+      "cat": [
+        "카페",
+        "디저트",
+        "베이커리"
+      ],
       "tags": [
         "리뷰많음"
       ],
@@ -50,6 +55,9 @@
       "rating": 4.5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
       "tags": [
         "리뷰많음",
         "고평점",
@@ -85,6 +93,12 @@
       "rating": 4.5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "한식",
+        "해산물",
+        "회식"
+      ],
       "tags": [
         "가성비",
         "고평점",
@@ -133,6 +147,10 @@
       "rating": 4.5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "양식",
+        "이탈리안"
+      ],
       "tags": [
         "고평점",
         "양식",
@@ -171,6 +189,13 @@
       "rating": 4.0,
       "reviewCount": 5,
       "blogCount": 0,
+      "cat": [
+        "야장",
+        "이자카야",
+        "일식",
+        "한식",
+        "회식"
+      ],
       "tags": [
         "가성비",
         "고평점",

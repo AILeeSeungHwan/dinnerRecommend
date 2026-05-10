@@ -23,6 +23,10 @@
       "rating": 4.9,
       "reviewCount": 378,
       "blogCount": 0,
+      "cat": [
+        "중식",
+        "중식당"
+      ],
       "tags": [
         "리뷰많음"
       ],
@@ -50,6 +54,10 @@
       "rating": 4.1,
       "reviewCount": 354,
       "blogCount": 17,
+      "cat": [
+        "중식",
+        "마라탕"
+      ],
       "tags": [
         "점심추천",
         "주차가능",
@@ -107,6 +115,10 @@
       "rating": 4.9,
       "reviewCount": 35,
       "blogCount": 0,
+      "cat": [
+        "중식",
+        "회식"
+      ],
       "tags": [
         "고평점",
         "단체가능",
@@ -149,6 +161,10 @@
       "rating": 5,
       "reviewCount": 2,
       "blogCount": 0,
+      "cat": [
+        "중식",
+        "중식당"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -174,6 +190,10 @@
       "rating": 4.0,
       "reviewCount": 5,
       "blogCount": 145,
+      "cat": [
+        "중식",
+        "양꼬치"
+      ],
       "tags": [
         "주차가능",
         "데이트",

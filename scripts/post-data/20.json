@@ -23,6 +23,10 @@
       "rating": 5,
       "reviewCount": 33,
       "blogCount": 0,
+      "cat": [
+        "한식",
+        "돼지고기구이"
+      ],
       "tags": [
         "서비스좋음"
       ],
@@ -50,6 +54,11 @@
       "rating": 4.7,
       "reviewCount": 6,
       "blogCount": 0,
+      "cat": [
+        "국물",
+        "국밥",
+        "한식"
+      ],
       "tags": [
         "국물요리",
         "국밥",
@@ -92,6 +101,10 @@
       "rating": 4.7,
       "reviewCount": 6,
       "blogCount": 0,
+      "cat": [
+        "음식점",
+        "양식"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -117,6 +130,10 @@
       "rating": 4.2,
       "reviewCount": 18,
       "blogCount": 0,
+      "cat": [
+        "일식",
+        "샤브샤브"
+      ],
       "tags": [],
       "keywords": [],
       "moods": [],
@@ -142,6 +159,10 @@
       "rating": 4.2,
       "reviewCount": 18,
       "blogCount": 192,
+      "cat": [
+        "한식",
+        "육류고기요리"
+      ],
       "tags": [
         "가성비",
         "주차가능",
