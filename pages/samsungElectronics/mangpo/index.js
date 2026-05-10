@@ -6,6 +6,7 @@ import Layout from '../../../components/Layout'
 import AdUnit from '../../../components/AdUnit'
 import restaurants from '../../../data/mangpo'
 import posts from '../../../data/posts'
+import PostThumbnail from '../../../components/PostThumbnail'
 
 const NL_MENU_MAP = [
   {patterns:/야장|포장마차|포차|노천|치킨.*야외/i,                       cats:['야장','치킨','이자카야']},
@@ -2374,12 +2375,13 @@ export default function SamseongPage() {
         {posts.filter(p => p.region === 'mangpo').length > 0 && (
           <section style={{ marginTop:40 }}>
             <h2 style={{ fontSize:'.88rem', fontWeight:700, color:'var(--muted)', marginBottom:12 }}>📝 최신 맛집 가이드</h2>
-            <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:10 }}>
               {posts.filter(p => p.region === 'mangpo').map(p => (
                 <Link key={p.slug} href={`/posts/${p.slug}`} style={{ textDecoration:'none' }}>
-                  <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:'14px 16px', cursor:'pointer' }}>
-                    <div style={{ fontSize:'.88rem', fontWeight:700, color:'var(--text)', marginBottom:4 }}>{p.title}</div>
-                    <p style={{ fontSize:'.76rem', color:'var(--muted)', margin:0 }}>{p.description}</p>
+                  <div style={{ display:'flex', flexDirection:'column', gap:6, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:8, cursor:'pointer', height:'100%' }}>
+                    <PostThumbnail imageUrl={p.thumbnail} region="망포" category={p.category} slug={p.slug} size="100%" />
+                    <div style={{ fontSize:'.78rem', fontWeight:700, color:'var(--text)', lineHeight:1.4, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.title}</div>
+                    <div style={{ fontSize:'.65rem', color:'var(--muted)' }}>{p.date}</div>
                   </div>
                 </Link>
               ))}
