@@ -5,7 +5,7 @@
   "description": "강남역 분위기 좋은 이자카야·술집 가이드",
   "category": "izakaya",
   "region": "gangnam",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [],
   "restaurants": [
     {
@@ -15,8 +15,8 @@
       "hours": "",
       "tel": "07-1389-0565",
       "priceRange": "24000~75000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 699,
       "cat": [
         "이자카야"
@@ -252,8 +252,8 @@
       "hours": "",
       "tel": "02-591-8880",
       "priceRange": "9900~28500",
-      "rating": 3.4,
-      "reviewCount": 14,
+      "rating": 4.8,
+      "reviewCount": 6,
       "blogCount": 366,
       "cat": [
         "이자카야"

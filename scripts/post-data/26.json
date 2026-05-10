@@ -5,7 +5,7 @@
   "description": "강남역 고기집 가이드 — 삼겹살, 한우, 갈비 가격 비교",
   "category": "meat",
   "region": "gangnam",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [],
   "restaurants": [
     {
@@ -15,8 +15,8 @@
       "hours": "",
       "tel": "07-1321-9010",
       "priceRange": "17000~28000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 710,
       "cat": [
         "한식"
@@ -73,8 +73,8 @@
       "hours": "22:30에 영업 종료",
       "tel": "07-1342-5659",
       "priceRange": "8000~34000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 2001,
       "cat": [
         "고기구이"
@@ -133,8 +133,8 @@
       "hours": "",
       "tel": "07-1384-5705",
       "priceRange": "5000~109000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 1556,
       "cat": [
         "고기구이"
@@ -193,8 +193,8 @@
       "hours": "11:10에 영업 시작",
       "tel": "07-1420-9050",
       "priceRange": "22000~39000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 1163,
       "cat": [
         "고기구이"
@@ -251,8 +251,8 @@
       "hours": "23:30에 영업 종료",
       "tel": "07-1345-6758",
       "priceRange": "15000~27900",
-      "rating": 0,
-      "reviewCount": 1835,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 1521,
       "cat": [
         "중식"
@@ -297,6 +297,34 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1037655034",
       "imageUrl": "https://ldb-phinf.pstatic.net/20231226_201/1703558043886LdPbH_JPEG/KakaoTalk_20231226_110025920.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "칼맞은삼겹살 강남본점",
+      "type": "고기구이",
+      "addr": "서울특별시 서초구 서초동 1308-14 1층 칼맞은삼겹살",
+      "hours": "",
+      "tel": "02-533-7732",
+      "priceRange": "",
+      "rating": 4.8,
+      "reviewCount": 6,
+      "blogCount": 0,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/702447560",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20220913_192/1663056263581LQk4y_JPEG/image.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",
@@ -351,34 +379,6 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/2083281149",
       "imageUrl": "https://ldb-phinf.pstatic.net/20251119_74/1763538704899okiVv_PNG/%C4%A1%C1%EE%BB%C0%B1%B8%C0%CC%B1%D9%C1%A2.png",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "칼맞은삼겹살 강남본점",
-      "type": "고기구이",
-      "addr": "서울특별시 서초구 서초동 1308-14 1층 칼맞은삼겹살",
-      "hours": "",
-      "tel": "02-533-7732",
-      "priceRange": "",
-      "rating": 3.4,
-      "reviewCount": 14,
-      "blogCount": 0,
-      "cat": [
-        "고기구이"
-      ],
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://map.naver.com/v5/entry/place/702447560",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20220913_192/1663056263581LQk4y_JPEG/image.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",

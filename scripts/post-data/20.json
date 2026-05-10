@@ -5,7 +5,7 @@
   "description": "영통구청 매탄동 점심 맛집 5곳 카테고리별 비교",
   "category": "lunch",
   "region": "yeongtongGu",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "영통구청",
     "점심",
@@ -51,8 +51,8 @@
       "hours": "7:00 AM~9:00 PM",
       "tel": "031-204-6222",
       "priceRange": "12000~20000",
-      "rating": 4.7,
-      "reviewCount": 6,
+      "rating": 4.2,
+      "reviewCount": 99,
       "blogCount": 0,
       "cat": [
         "국물",
@@ -98,8 +98,8 @@
       "hours": "",
       "tel": "031-204-1001",
       "priceRange": "",
-      "rating": 4.7,
-      "reviewCount": 6,
+      "rating": 4.2,
+      "reviewCount": 99,
       "blogCount": 0,
       "cat": [
         "음식점",
@@ -127,8 +127,8 @@
       "hours": "",
       "tel": "031-213-4592",
       "priceRange": "",
-      "rating": 4.2,
-      "reviewCount": 18,
+      "rating": 4.3,
+      "reviewCount": 9,
       "blogCount": 0,
       "cat": [
         "일식",
@@ -156,8 +156,8 @@
       "hours": "15:00에 영업 시작",
       "tel": "07-1433-1663",
       "priceRange": "15000~90000",
-      "rating": 4.2,
-      "reviewCount": 18,
+      "rating": 4.3,
+      "reviewCount": 9,
       "blogCount": 192,
       "cat": [
         "한식",

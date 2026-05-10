@@ -5,7 +5,7 @@
   "description": "강남역 일식·스시·오마카세 가이드",
   "category": "japanese",
   "region": "gangnam",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [],
   "restaurants": [
     {
@@ -63,8 +63,8 @@
       "hours": "11:30에 영업 시작",
       "tel": "07-1443-4620",
       "priceRange": "1500~22000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 6479,
       "cat": [
         "일식"
@@ -121,8 +121,8 @@
       "hours": "11:00에 영업 시작",
       "tel": "02-558-2252",
       "priceRange": "9000~32000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 2071,
       "cat": [
         "일식"
@@ -180,8 +180,8 @@
       "hours": "11:00에 영업 시작",
       "tel": "070-8691-4659",
       "priceRange": "12000~44000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 1442,
       "cat": [
         "일식"

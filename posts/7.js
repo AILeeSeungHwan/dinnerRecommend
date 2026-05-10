@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "화붐-신간짬뽕-본점",
-      text: "화붐 신간짬뽕 본점 — 점심 10천원대부터",
+      text: "화붐 신간짬뽕 본점 — 중식·칼국수 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -75,7 +75,7 @@ const post = {
     {
       type: 'h2',
       id: "김래하닭갈비",
-      text: "김래하닭갈비 — 고기구이·치킨 전문점",
+      text: "김래하닭갈비 — 점심 10천원대부터",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {

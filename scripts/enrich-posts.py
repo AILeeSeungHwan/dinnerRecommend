@@ -136,7 +136,8 @@ if not posts_match:
 
 posts_arr_text = posts_match.group(1)
 # JS object → JSON: key without quotes
-posts_arr_text = re.sub(r"(\w+)\s*:", r'"\1":', posts_arr_text)
+# key만 매칭 — 앞에 word char나 따옴표가 있으면 매칭 안 함 (URL의 https: 등 보호)
+posts_arr_text = re.sub(r"(?<![\w'\"/:.-])(\w+)\s*:", r'"\1":', posts_arr_text)
 posts_arr_text = re.sub(r"'([^']*)'", r'"\1"', posts_arr_text)
 posts_arr_text = re.sub(r',\s*([}\]])', r'\1', posts_arr_text)
 # null 처리

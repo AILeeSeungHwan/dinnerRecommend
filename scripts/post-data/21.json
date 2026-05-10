@@ -5,7 +5,7 @@
   "description": "삼성역·선릉역 회식 장소 5곳 단체석·주차·예산별 비교",
   "category": "group",
   "region": "samseong",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "삼성역",
     "회식",
@@ -233,7 +233,7 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/19578744",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250825_90/1756104455572fdnWl_JPEG/%B8%DE%C0%CE_01.jpg",
-      "imageUrl2": "",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20240909_220/1725864065438vyQ2z_JPEG/IMG_0063.jpeg",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

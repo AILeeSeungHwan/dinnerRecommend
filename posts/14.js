@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>판교 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.4점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 플링크 판교, 정희 판교아브뉴프랑점, 꿰다, 잭슨피자 판교점, 야키토리 야키준.</p>",
+      html: "<p>판교 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.0점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 플링크 판교, 정희 판교아브뉴프랑점, 꿰다, 잭슨피자 판교점, 야키토리 야키준.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>판교 일대 데이트 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 902곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 4.0점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.4점</strong>이며, 누적 리뷰 수는 약 <strong>75건</strong>입니다. 1인 12,000원~22,000원 사이가 일반적이며, 분위기·코스 구성·예약 여부·뷰을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
+      html: "<p>판교 일대 데이트 식당 가운데 평점·리뷰·메뉴 데이터가 모두 확인된 곳을 추렸습니다. 전체 902곳을 지역·카테고리·평점 기준으로 필터링한 뒤, 평점 4.0점 이상이면서 방문자 리뷰가 일정 수 이상 누적된 5곳을 선별했습니다.</p><p>이 글에 실린 식당들의 평균 평점은 <strong>4.0점</strong>이며, 누적 리뷰 수는 약 <strong>193건</strong>입니다. 1인 12,000원~22,000원 사이가 일반적이며, 분위기·코스 구성·예약 여부·뷰을(를) 비교 기준으로 삼았습니다.</p><p>리뷰·평점 정보는 2026년 5월 기준이며, 영업시간·가격·메뉴 구성은 매장 사정에 따라 달라질 수 있어 방문 전에 한 번 더 확인하시는 편이 좋습니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a>는 카페 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 64건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>카페 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 백현동 532</p><p><a href=\"/pangyo/restaurant/플링크 판교\" style=\"color:var(--primary);font-weight:600\">→ 플링크 판교 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a>는 카페 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 173건으로 안정적인 평가가 쌓여 있습니다.</p><p>카페 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 백현동 532</p><p><a href=\"/pangyo/restaurant/플링크 판교\" style=\"color:var(--primary);font-weight:600\">→ 플링크 판교 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'image',
@@ -48,12 +48,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary);font-weight:600\">→ 정희 판교아브뉴프랑점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary);font-weight:600\">→ 정희 판교아브뉴프랑점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
       id: "꿰다",
-      text: "꿰다 — 해산물·일식 전문점",
+      text: "꿰다 — 인테리어 감각적인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/꿰다\">꿰다</a>는 일식 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:30 ~ PM 9:30 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary);font-weight:600\">→ 꿰다 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/꿰다\">꿰다</a>는 일식 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:30 ~ PM 9:30 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary);font-weight:600\">→ 꿰다 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>은 양식 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary);font-weight:600\">→ 잭슨피자 판교점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>은 양식 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary);font-weight:600\">→ 잭슨피자 판교점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">64건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -116,7 +116,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li><strong>가성비 우선:</strong> 꿰다, 야키토리 야키준 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 꿰다, 야키토리 야키준 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 야키토리 야키준 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 플링크 판교 (평점 4.5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 플링크 판교 (리뷰 64건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+      html: "<ul><li><strong>가성비 우선:</strong> 꿰다, 야키토리 야키준 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 꿰다, 야키토리 야키준 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 야키토리 야키준 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 플링크 판교 (평점 4.2점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 플링크 판교 (리뷰 173건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
     },
     {
       type: 'h2',

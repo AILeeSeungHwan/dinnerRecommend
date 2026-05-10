@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "무탄-코엑스",
-      text: "무탄 코엑스 — 평점 4.9·리뷰 7774건",
+      text: "무탄 코엑스 — 중식·퓨전 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -43,7 +43,7 @@ const post = {
     {
       type: 'h2',
       id: "더라운드-삼성점",
-      text: "더라운드 삼성점 — 중식당 전문점",
+      text: "더라운드 삼성점 — 리뷰 606건 검증 맛집",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -57,9 +57,15 @@ const post = {
       html: "<p><a href=\"/dinner/samseong/restaurant/더라운드 삼성점\">더라운드 삼성점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>Luncheon N set 55,000원</strong>입니다. 누적 리뷰 606건에 평점 4.2점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>1인 기준 가격대는 55,000원에서 190,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 18,260원과 비교하면 약 36,740원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Luncheon N set</td><td style=\"padding:7px 6px;text-align:right\">55,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Luncheon A set</td><td style=\"padding:7px 6px;text-align:right\">66,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Luncheon L set</td><td style=\"padding:7px 6px;text-align:right\">88,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Dinner T set</td><td style=\"padding:7px 6px;text-align:right\">130,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Dinner F set</td><td style=\"padding:7px 6px;text-align:right\">160,000원</td></tr></tbody></table><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 12:00 · 위치 삼성동 78</p><p>방문 후기에서 자주 언급되는 부분은 분위기 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"베이징덕 맛집분위기도 좋고 음식 맛도 전부 만족스러움 점심코스 N 으로 가격은 5다는 평\"고 적어두었습니다.</p><p><a href=\"/dinner/samseong/restaurant/더라운드 삼성점\" style=\"color:var(--primary);font-weight:600\">→ 더라운드 삼성점 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
+      type: 'image',
+      src: "https://pup-review-phinf.pstatic.net/MjAyMzA0MTBfMTUx/MDAxNjgxMTE0NDIyNDM1.Wg9HgjTp8vim0GjdB9L_eqW25Jx_SvxIOn-05LKamp8g.QQu2c9tgveoIB8TBR2kfKzMaCBo5Zr4WooKC1YkNUsYg.JPEG/20230407_125425.jpg?type=w278_sharpen",
+      alt: "더라운드 삼성점 음식 사진",
+      caption: "더라운드 삼성점 메뉴",
+    },
+    {
       type: 'h2',
       id: "천미미-삼성점",
-      text: "천미미 삼성점 — 시그니처 어향동고 45,000원",
+      text: "천미미 삼성점 — 중식·요리 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -112,7 +118,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더라운드 삼성점\">더라운드 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">606건</td><td style=\"padding:7px 6px;text-align:center\">55,000~190,000원</td><td style=\"padding:7px 6px\">중식당 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">중식·요리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/치바오 스타필드 코엑스몰점\">치바오 스타필드 코엑스몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">9,000~23,900원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더라운드 삼성점\">더라운드 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">606건</td><td style=\"padding:7px 6px;text-align:center\">55,000~190,000원</td><td style=\"padding:7px 6px\">중식당 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/천미미 삼성점\">천미미 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">13,000~88,000원</td><td style=\"padding:7px 6px\">중식·요리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/치바오 스타필드 코엑스몰점\">치바오 스타필드 코엑스몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">9,000~23,900원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/하이딜라오 코엑스\">하이딜라오 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">4,300~55,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -5,7 +5,7 @@
   "description": "잠실 회식 장소 5~7곳 비교",
   "category": "group",
   "region": "jamsil",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "잠실",
     "회식",
@@ -130,7 +130,7 @@
       "menuItems": [],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/37915192/home",
       "imageUrl": "https://ldb-phinf.pstatic.net/20240929_180/1727601632208Hb967_JPEG/KakaoTalk_20240926_111012187_24.jpg",
-      "imageUrl2": "",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20240327_46/171151605992637igF_PNG/20240327_140709.png",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

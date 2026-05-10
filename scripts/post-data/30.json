@@ -5,7 +5,7 @@
   "description": "강남역 국밥·해장 맛집 가이드",
   "category": "gukbap",
   "region": "gangnam",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [],
   "restaurants": [
     {
@@ -15,8 +15,8 @@
       "hours": "",
       "tel": "02-557-2662",
       "priceRange": "",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 1548,
       "cat": [
         "한식"
@@ -47,8 +47,8 @@
       "hours": "10:00에 영업 시작",
       "tel": "02-558-8868",
       "priceRange": "12000~16000",
-      "rating": 4.9,
-      "reviewCount": 22,
+      "rating": 4.8,
+      "reviewCount": 59,
       "blogCount": 312,
       "cat": [
         "한식"

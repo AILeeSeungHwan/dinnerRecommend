@@ -5,7 +5,7 @@
   "description": "판교 백현동·아브뉴프랑 데이트 레스토랑 5곳",
   "category": "date",
   "region": "pangyo",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "판교",
     "데이트",
@@ -20,8 +20,8 @@
       "hours": "",
       "tel": "0507-1428-7222",
       "priceRange": "",
-      "rating": 4.5,
-      "reviewCount": 64,
+      "rating": 4.2,
+      "reviewCount": 173,
       "blogCount": 0,
       "cat": [
         "카페",
@@ -52,8 +52,8 @@
       "hours": "평일 AM 11:00 ~ PM 3:00, PM 5:00~9:00 / 주말 AM 11:00 ~ PM 9:00",
       "tel": "",
       "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 2,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 0,
       "cat": [
         "한식"
@@ -90,8 +90,8 @@
       "hours": "AM 11:30 ~ PM 9:30",
       "tel": "031-701-4775",
       "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 2,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 0,
       "cat": [
         "일식",
@@ -144,8 +144,8 @@
       "hours": "AM 11:00 ~ PM 10:00",
       "tel": "031-706-0717",
       "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 2,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 0,
       "cat": [
         "양식",

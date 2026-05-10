@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "더-피자-스탠드",
-      text: "더 피자 스탠드 — 시그니처 TPS's FAVORITE(S) 21,000원",
+      text: "더 피자 스탠드 — 피자·스포츠바 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "오크바-오크우드-프리미어-코엑스-센터",
-      text: "오크바 오크우드 프리미어 코엑스 센터 — 술집 전문점",
+      text: "오크바 오크우드 프리미어 코엑스 센터 — 리뷰 2,120건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -51,9 +51,15 @@ const post = {
       html: "<p><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a>는 야장 카테고리에 속하는 식당으로입니다. 누적 리뷰 2,120건에 평점 4.4점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>술집 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 18:00 · 위치 삼성동 159</p><p>방문 후기에서 자주 언급되는 부분은 맛 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"서울 코엑스쪽으로 여행오면서 잡은 숙소,조식으로 먹었는데 맛있었어요 👍다는 평\"고 적어두었습니다.</p><p><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\" style=\"color:var(--primary);font-weight:600\">→ 오크바 오크우드 프리미어 코엑스 센터 메뉴·리뷰·위치 자세히 보기</a></p>",
     },
     {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20230915_73/1694766660210JHUx3_JPEG/230421_OPCC_0003_select_fin_%BA%B9%BB%E7.jpg",
+      alt: "오크바 오크우드 프리미어 코엑스 센터 음식 사진",
+      caption: "오크바 오크우드 프리미어 코엑스 센터 메뉴",
+    },
+    {
       type: 'h2',
       id: "잇쇼우",
-      text: "잇쇼우 — 시그니처 잇쇼우 스페셜 A Set 15,000원",
+      text: "잇쇼우 — 우동 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +75,7 @@ const post = {
     {
       type: 'h2',
       id: "블룸",
-      text: "블룸 — 분위기 잡히는 술자리",
+      text: "블룸 — 시그니처 진토닉 18,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -85,7 +91,7 @@ const post = {
     {
       type: 'h2',
       id: "호랑",
-      text: "호랑 — 시그니처 우니단새우 48,000원",
+      text: "호랑 — 분위기 잡히는 술자리",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -106,7 +112,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">12,000~15,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/잇쇼우\">잇쇼우</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">12,000~15,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/호랑\">호랑</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">30,000~48,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

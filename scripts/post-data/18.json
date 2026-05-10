@@ -5,7 +5,7 @@
   "description": "영통역 고기 맛집 5곳 가격·평점 비교",
   "category": "meat",
   "region": "yeongtong",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "영통",
     "고기",
@@ -14,14 +14,64 @@
   ],
   "restaurants": [
     {
+      "name": "김래하닭갈비",
+      "type": "고기구이·치킨",
+      "addr": "영통동 1040-8번지 1층",
+      "hours": "휴무일",
+      "tel": "031-206-0906",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "치킨",
+        "한식",
+        "회식"
+      ],
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "웨이팅맛집",
+        "치킨",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "치맥",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥩"
+    },
+    {
       "name": "윤가곰탕",
       "type": "고기구이·국밥",
       "addr": "매영로345번길 7",
       "hours": "11:00 AM~9:00 PM",
       "tel": "031-202-2211",
       "priceRange": "12000~20000",
-      "rating": 4.5,
-      "reviewCount": 81,
+      "rating": 4.1,
+      "reviewCount": 14,
       "blogCount": 0,
       "cat": [
         "고기구이",
@@ -61,56 +111,6 @@
         "고기 구이",
         "심야 밥",
         "해장",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🥩"
-    },
-    {
-      "name": "김래하닭갈비",
-      "type": "고기구이·치킨",
-      "addr": "영통동 1040-8번지 1층",
-      "hours": "휴무일",
-      "tel": "031-206-0906",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "치킨",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "치킨",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "치맥",
         "혼자 밥"
       ],
       "parking": false,

@@ -5,7 +5,7 @@
   "description": "판교 테크노밸리 회식 장소 7곳 룸·주차 비교",
   "category": "group",
   "region": "pangyo",
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "tags": [
     "판교",
     "회식",
@@ -254,8 +254,8 @@
       "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
       "tel": "031-606-8516",
       "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 2,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 0,
       "cat": [
         "고기구이",
