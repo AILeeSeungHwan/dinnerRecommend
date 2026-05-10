@@ -2,3 +2,6 @@
 .next/
 node_modules
 public/images/restaurants/
+.env
+.env.local
+.env.*.local
