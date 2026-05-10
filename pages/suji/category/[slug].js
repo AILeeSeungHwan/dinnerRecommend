@@ -122,6 +122,7 @@ function buildCatReason(r, idx) {
 
 export default function CategoryPage({ slug, catInfo, restaurants }) {
   const sorted = [...restaurants].sort((a, b) => b.rt - a.rt)
+  const [visibleCount, setVisibleCount] = useState(12)
   const [dicing, setDicing] = useState(false)
   const [picks, setPicks] = useState(null)
   const [pending, setPending] = useState(null)

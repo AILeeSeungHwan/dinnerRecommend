@@ -216,6 +216,7 @@ function RandomResult({ picks, catName, onRetry }) {
 
 export default function CategoryPage({ category, catInfo, restaurants }) {
   const sortedByRating = [...restaurants].sort((a, b) => b.rt - a.rt)
+  const [visibleCount, setVisibleCount] = useState(12)
   const [dicing, setDicing]     = useState(false)
   const [picks,  setPicks]      = useState(null)
   const [pending, setPending]   = useState(null)
@@ -320,7 +321,7 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
           ⭐ 평점 순 랭킹
         </h2>
         <div className="restaurant-grid">
-          {sortedByRating.map((r, i) => (
+          {sortedByRating.slice(0, visibleCount).map((r, i) => (
             <React.Fragment key={i}>
               <Link href={`/dinner/gangnam/restaurant/${encodeURIComponent(r.name)}`}>
                 <div className="restaurant-card">
