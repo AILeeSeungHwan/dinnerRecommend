@@ -2,7 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 
 function getHealthClient() {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_KEY;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) return null;
   return createClient(url, key, { auth: { persistSession: false } });
 }
@@ -22,7 +22,9 @@ export default async function handler(req, res) {
   if (!supabase)
     return res
       .status(500)
-      .json({ error: "SUPABASE_URL / SUPABASE_SERVICE_KEY not configured" });
+      .json({
+        error: "SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY not configured",
+      });
 
   const { from, to } = req.query;
   const fromDate =

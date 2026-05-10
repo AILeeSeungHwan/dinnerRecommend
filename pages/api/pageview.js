@@ -4,14 +4,14 @@
  *
  * 필요한 Vercel 환경변수 (health 프로젝트와 동일한 Supabase 값 사용):
  *   SUPABASE_URL         = https://xxxxxx.supabase.co
- *   SUPABASE_SERVICE_KEY = eyJ... (service_role key)
+ *   SUPABASE_SERVICE_ROLE_KEY = eyJ... (service_role key)
  */
 import { createClient } from "@supabase/supabase-js";
 import { createHash } from "crypto";
 
 function getHealthClient() {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_KEY;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) return null;
   return createClient(url, key, { auth: { persistSession: false } });
 }
@@ -45,7 +45,7 @@ export default async function handler(req, res) {
   if (!supabase)
     return res.json({
       ok: false,
-      reason: "SUPABASE_URL / SUPABASE_SERVICE_KEY not configured",
+      reason: "SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY not configured",
     });
 
   const { slug, title, source, keyword } = req.body || {};
