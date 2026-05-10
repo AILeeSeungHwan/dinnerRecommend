@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>판교 중식 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 5.0점입니다. 가격대는 2,900원부터 시작하며, 2026년 5월 기준이며, 대표 메뉴·가격·양·단체 가능을 위주로 비교하였습니다.</p><p>소개 순서: 팔복 판교, 판교맛집 왕징양다리양꼬치 판교점, 마라장룡 마라상궈마라탕, 심양 판교점, 춘리마라탕 야탑점.</p>",
+      html: "<p>판교 중식 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.6점입니다. 가격대는 2,900원부터 시작하며, 2026년 5월 기준이며, 대표 메뉴·가격·양·단체 가능을 위주로 비교하였습니다.</p><p>소개 순서: 팔복 판교, 춘리마라탕 야탑점, 판교맛집 왕징양다리양꼬치 판교점, 마라장룡 마라상궈마라탕, 심양 판교점.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>판교 전체 902곳에서 중식 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.9점 이상, 대표 메뉴·가격·양·단체 가능 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>판교 전체 902곳에서 중식 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.0점 이상, 대표 메뉴·가격·양·단체 가능 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a>. 중식 전문점으로, 평점 4.9점을 기록하고 있습니다.</p><p>평점 4.9점, 리뷰 378건으로 안정적인 평가를 받고 있습니다. 점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.</p><p><a href=\"/pangyo/restaurant/팔복 판교\" style=\"color:var(--primary)\">→ 팔복 판교 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a>. 중식 전문점으로, 평점 4.9점을 기록하고 있습니다.</p><p>리뷰 378건에 4.9점이면 꾸준히 무난한 편입니다. 점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.</p><p><a href=\"/pangyo/restaurant/팔복 판교\" style=\"color:var(--primary)\">→ 팔복 판교 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -42,45 +42,9 @@ const post = {
     },
     {
       type: 'h2',
-      id: "판교맛집-왕징양다리양꼬치-판교점",
-      text: "판교맛집 왕징양다리양꼬치 판교점 — 중식 전문점",
-      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'body',
-      html: "<p>인테리어가 깔끔하고 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 예약이 가능합니다.</p><p>4.9점·리뷰 35건. 방문자 평이 비교적 일관되게 좋은 편입니다. 점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.</p><p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"color:var(--primary)\">→ 판교맛집 왕징양다리양꼬치 판교점 상세 정보 보기</a></p>",
-    },
-    {
-      type: 'h2',
-      id: "마라장룡-마라상궈마라탕",
-      text: "마라장룡 마라상궈마라탕 — 중식 전문점",
-      gradientStyle: { from: '#fa709a', to: '#fee140' },
-    },
-    {
-      type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a>. 평점 5점, 리뷰 2건 정도 있습니다.</p><p>5점·리뷰 2건. 방문자 평이 비교적 일관되게 좋은 편입니다. 2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.</p><p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\" style=\"color:var(--primary)\">→ 마라장룡 마라상궈마라탕 상세 정보 보기</a></p>",
-    },
-    {
-      type: 'h2',
-      id: "심양-판교점",
-      text: "심양 판교점 — 시그니처 生양등심꼬치 250g 23,000원",
-      gradientStyle: { from: '#667EEA', to: '#764BA2' },
-    },
-    {
-      type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20250622_136/17505660891702rdqk_JPEG/%C1%A4%C0%DA%C1%A1_%BF%DC%B0%FC2.jpg",
-      alt: "심양 판교점 대표 사진",
-      caption: "심양 판교점",
-    },
-    {
-      type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 중식 전문점입니다. 5점에 리뷰 1건이 쌓여 있습니다.</p><p>대표 메뉴는 生양등심꼬치 250g 23,000원, 오리지날양꼬치 200g 18,000원, 모듬꼬치 43,000원입니다.</p><p>주차도 가능합니다.</p><p>5점·리뷰 1건. 방문자 평이 비교적 일관되게 좋은 편입니다. 2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재방문 쪽입니다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 심양 판교점 상세 정보 보기</a></p>",
-    },
-    {
-      type: 'h2',
       id: "춘리마라탕-야탑점",
       text: "춘리마라탕 야탑점 — 시그니처 꿔바로우(미니(5pc,소스따로불가)) 6,900원",
-      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'image',
@@ -90,7 +54,49 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a>. 중식 전문점입니다. 5점에 리뷰 1건이 쌓여 있습니다.</p><p>대표 메뉴는 꿔바로우(미니(5pc,소스따로불가)) 6,900원입니다.</p><p>주차도 가능합니다.</p><p>리뷰 1건에 5점이면 꾸준히 무난한 편입니다. 점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재료 쪽입니다.</p><p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\" style=\"color:var(--primary)\">→ 춘리마라탕 야탑점 상세 정보 보기</a></p>",
+      html: "<p>꿔바로우(미니(5pc,소스따로불가)) 6,900원. <a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a>의 간판 메뉴입니다.</p><p>주차가 가능합니다.</p><p>354건 리뷰에 4.1점이면 동네 단골 식당 정도로 보면 됩니다. 2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.</p><p>맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다. 매장이 깔끔하게 관리되고 있습니다.</p><p>한 방문자는 \"직원분들도 너무너무 친절하세요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재료 쪽입니다.</p><p><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\" style=\"color:var(--primary)\">→ 춘리마라탕 야탑점 상세 정보 보기</a></p>",
+    },
+    {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20241125_72/1732546316325kexJk_JPEG/IMG_0009.jpeg",
+      alt: "춘리마라탕 야탑점 음식 사진",
+      caption: "춘리마라탕 야탑점 메뉴",
+    },
+    {
+      type: 'h2',
+      id: "판교맛집-왕징양다리양꼬치-판교점",
+      text: "판교맛집 왕징양다리양꼬치 판교점 — 중식 전문점",
+      gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'body',
+      html: "<p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>. 평점 4.9점, 리뷰 35건 정도 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다. 예약이 가능합니다.</p><p>4.9점·리뷰 35건. 방문자 평이 비교적 일관되게 좋은 편입니다. 2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.</p><p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"color:var(--primary)\">→ 판교맛집 왕징양다리양꼬치 판교점 상세 정보 보기</a></p>",
+    },
+    {
+      type: 'h2',
+      id: "마라장룡-마라상궈마라탕",
+      text: "마라장룡 마라상궈마라탕 — 중식 전문점",
+      gradientStyle: { from: '#667EEA', to: '#764BA2' },
+    },
+    {
+      type: 'body',
+      html: "<p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a>. 평점 5점, 리뷰 2건 정도 있습니다.</p><p>5점·리뷰 2건. 방문자 평이 비교적 일관되게 좋은 편입니다. 2~3명이 방문하시면 메인 한 가지에 사이드 한두 개 시키시는 정도가 적당한 양입니다.</p><p><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\" style=\"color:var(--primary)\">→ 마라장룡 마라상궈마라탕 상세 정보 보기</a></p>",
+    },
+    {
+      type: 'h2',
+      id: "심양-판교점",
+      text: "심양 판교점 — 시그니처 生양등심꼬치 250g 23,000원",
+      gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://ldb-phinf.pstatic.net/20250622_136/17505660891702rdqk_JPEG/%C1%A4%C0%DA%C1%A1_%BF%DC%B0%FC2.jpg",
+      alt: "심양 판교점 대표 사진",
+      caption: "심양 판교점",
+    },
+    {
+      type: 'body',
+      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>. 중식 전문점으로, 평점 4.0점에 리뷰 5건을 기록하고 있습니다.</p><p>대표 메뉴는 生양등심꼬치 250g 23,000원, 오리지날양꼬치 200g 18,000원, 모듬꼬치 43,000원입니다.</p><p>주차도 가능합니다.</p><p>리뷰 5건에 4.0점 정도로 무난한 평가가 쌓여 있습니다. 점심에는 식사류 위주, 저녁에는 코스나 단품 위주로 구성이 달라지는 편입니다.</p><p>분위기가 좋아서 식사 자리로 적합합니다. 내부 인테리어에 신경을 많이 쓴 것이 느껴진다는 후기가 있습니다. 재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다.</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재방문 쪽입니다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary)\">→ 심양 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -100,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">1건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">1건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">354건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -120,7 +126,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li>판교맛집 왕징양다리양꼬치 판교점은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>판교맛집 왕징양다리양꼬치 판교점은 사전에 예약하고 방문하시는 것이 좋습니다. 특히 주말 저녁에는 예약이 필수입니다.</li><li>주차 가능한 곳: 심양 판교점, 춘리마라탕 야탑점.</li><li>팔복 판교, 판교맛집 왕징양다리양꼬치 판교점 등은 전용 주차장이 없습니다. 대중교통 이용을 권장드립니다.</li></ul>",
+      html: "<ul><li>판교맛집 왕징양다리양꼬치 판교점은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>판교맛집 왕징양다리양꼬치 판교점은 사전에 예약하고 방문하시는 것이 좋습니다. 특히 주말 저녁에는 예약이 필수입니다.</li><li>주차 가능한 곳: 춘리마라탕 야탑점, 심양 판교점.</li><li>팔복 판교, 판교맛집 왕징양다리양꼬치 판교점 등은 전용 주차장이 없습니다. 대중교통 이용을 권장드립니다.</li></ul>",
     },
     {
       type: 'cta',

@@ -60,8 +60,8 @@
       "hours": "평일 5:00 PM~10:00 / 주말 11:00 AM~9:30 PM",
       "tel": "010-9022-0783",
       "priceRange": "10000~20000",
-      "rating": 5,
-      "reviewCount": 16,
+      "rating": 4.5,
+      "reviewCount": 81,
       "blogCount": 0,
       "tags": [
         "가성비",
@@ -100,33 +100,6 @@
       "emoji": "🥩"
     },
     {
-      "name": "빽돈 망포점",
-      "type": "한식",
-      "addr": "경기도 수원시 영통구 망포동 342 1층",
-      "hours": "",
-      "tel": "0507-1384-0343",
-      "priceRange": "",
-      "rating": 4.7,
-      "reviewCount": 9,
-      "blogCount": 0,
-      "tags": [
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1845252818/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250409_102/1744178498641vas2o_PNG/%C0%FC%C3%BC_%BC%D2%C1%D6%BC%A6.png",
-      "imageUrl2": "",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
       "name": "갈비꽃망포점",
       "type": "고기구이",
       "addr": "수원시 영통로200번길 89 1층",
@@ -134,7 +107,7 @@
       "tel": "050-71365-3050",
       "priceRange": "10000~20000",
       "rating": 4.5,
-      "reviewCount": 0,
+      "reviewCount": 81,
       "blogCount": 0,
       "tags": [
         "가족",
@@ -170,14 +143,41 @@
       "emoji": "🥩"
     },
     {
+      "name": "빽돈 망포점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 망포동 342 1층",
+      "hours": "",
+      "tel": "0507-1384-0343",
+      "priceRange": "",
+      "rating": 4.3,
+      "reviewCount": 32,
+      "blogCount": 0,
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1845252818/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250409_102/1744178498641vas2o_PNG/%C0%FC%C3%BC_%BC%D2%C1%D6%BC%A6.png",
+      "imageUrl2": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
       "name": "한마음정육식당 영통점",
       "type": "고기구이",
       "addr": "영통동 봉영로1482번길 7-1",
       "hours": "휴무일",
       "tel": "031-202-3166",
       "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 0,
+      "rating": 4.1,
+      "reviewCount": 14,
       "blogCount": 0,
       "tags": [
         "가성비",

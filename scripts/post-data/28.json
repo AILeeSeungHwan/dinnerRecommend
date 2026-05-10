@@ -9,46 +9,44 @@
   "tags": [],
   "restaurants": [
     {
-      "name": "강남 돼지상회 무한리필",
+      "name": "용가회전훠궈 강남점",
       "type": "일식",
-      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
-      "hours": "23:30에 영업 종료",
-      "tel": "02-561-8891",
-      "priceRange": "17900~23900",
-      "rating": 0,
-      "reviewCount": 3865,
-      "blogCount": 1206,
+      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
+      "hours": "",
+      "tel": "07-1362-3181",
+      "priceRange": "18900~22900",
+      "rating": 3.7,
+      "reviewCount": 229,
+      "blogCount": 1994,
       "tags": [
         "리뷰많음",
-        "가성비",
-        "단체가능",
-        "데이트",
-        "예약필수"
+        "혼밥가능",
+        "웨이팅맛집"
       ],
       "keywords": [],
       "moods": [],
       "scene": [],
       "parking": false,
-      "reservation": true,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "A 돼지모듬 무한리필",
-          "price": 17900,
+          "name": "평일점심 (~15:00)",
+          "price": 18900,
           "description": ""
         },
         {
-          "name": "B 돼지모듬+간장순살치킨 무한리필",
-          "price": 19900,
+          "name": "평일 저녁 (15:00~)",
+          "price": 22900,
           "description": ""
         },
         {
-          "name": "F 풀코스 무한리필",
-          "price": 23900,
+          "name": "주말 및 공휴일",
+          "price": 22900,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/37653872",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20190506_285/1557122644765sJerg_JPEG/csUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241211_240/1733890320076MTwS8_JPEG/KakaoTalk_20241210_160849467_03.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",
@@ -62,8 +60,8 @@
       "hours": "11:30에 영업 시작",
       "tel": "07-1443-4620",
       "priceRange": "1500~22000",
-      "rating": 0,
-      "reviewCount": 13775,
+      "rating": 4.9,
+      "reviewCount": 22,
       "blogCount": 6479,
       "tags": [
         "리뷰많음",
@@ -117,8 +115,8 @@
       "hours": "11:00에 영업 시작",
       "tel": "02-558-2252",
       "priceRange": "9000~32000",
-      "rating": 0,
-      "reviewCount": 11673,
+      "rating": 4.9,
+      "reviewCount": 22,
       "blogCount": 2071,
       "tags": [
         "리뷰많음",
@@ -167,59 +165,14 @@
       "emoji": ""
     },
     {
-      "name": "용가회전훠궈 강남점",
-      "type": "일식",
-      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
-      "hours": "",
-      "tel": "07-1362-3181",
-      "priceRange": "18900~22900",
-      "rating": 0,
-      "reviewCount": 4810,
-      "blogCount": 1994,
-      "tags": [
-        "리뷰많음",
-        "혼밥가능",
-        "웨이팅맛집"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "평일점심 (~15:00)",
-          "price": 18900,
-          "description": ""
-        },
-        {
-          "name": "평일 저녁 (15:00~)",
-          "price": 22900,
-          "description": ""
-        },
-        {
-          "name": "주말 및 공휴일",
-          "price": 22900,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20241211_240/1733890320076MTwS8_JPEG/KakaoTalk_20241210_160849467_03.jpg",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
       "name": "오제제 강남점",
       "type": "한식",
       "addr": "서울특별시 강남구 역삼동 826-14",
       "hours": "11:00에 영업 시작",
       "tel": "070-8691-4659",
       "priceRange": "12000~44000",
-      "rating": 0,
-      "reviewCount": 753,
+      "rating": 4.9,
+      "reviewCount": 22,
       "blogCount": 1442,
       "tags": [
         "리뷰많음",
@@ -260,6 +213,53 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1274621934",
       "imageUrl": "https://ldb-phinf.pstatic.net/20230201_221/1675216382918uTnkd_JPEG/%BF%C0%C1%A6%C1%A6_%B7%CE%B0%ED.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "강남 돼지상회 무한리필",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-561-8891",
+      "priceRange": "17900~23900",
+      "rating": 0,
+      "reviewCount": 3865,
+      "blogCount": 1206,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "A 돼지모듬 무한리필",
+          "price": 17900,
+          "description": ""
+        },
+        {
+          "name": "B 돼지모듬+간장순살치킨 무한리필",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "F 풀코스 무한리필",
+          "price": 23900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37653872",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190506_285/1557122644765sJerg_JPEG/csUz0MR0gu4y2FIVZmcKHs0p.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",

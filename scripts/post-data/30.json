@@ -15,8 +15,8 @@
       "hours": "",
       "tel": "02-557-2662",
       "priceRange": "",
-      "rating": 0,
-      "reviewCount": 2446,
+      "rating": 4.9,
+      "reviewCount": 22,
       "blogCount": 1548,
       "tags": [
         "리뷰많음",
@@ -31,6 +31,55 @@
       "menuItems": [],
       "naverUrl": "https://map.naver.com/v5/entry/place/993043508",
       "imageUrl": "https://ldb-phinf.pstatic.net//20170728_76/1501228361184KPA4Q_JPEG/1501228250629.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "제주은희네해장국 강남역점",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 823-4 1층",
+      "hours": "10:00에 영업 시작",
+      "tel": "02-558-8868",
+      "priceRange": "12000~16000",
+      "rating": 4.9,
+      "reviewCount": 22,
+      "blogCount": 312,
+      "tags": [
+        "혼밥가능",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "해장국",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "내장탕",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "돔베고기(소,중,대)",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "양무침",
+          "price": 16000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1795348155",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20200617_59/1592379205278qWBlm_JPEG/8xjbdKzKn3R-Zo4Q1aG0_joU.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",
@@ -95,118 +144,14 @@
       "emoji": ""
     },
     {
-      "name": "제주은희네해장국 강남역점",
-      "type": "국밥",
-      "addr": "서울특별시 강남구 역삼동 823-4 1층",
-      "hours": "10:00에 영업 시작",
-      "tel": "02-558-8868",
-      "priceRange": "12000~16000",
-      "rating": 0,
-      "reviewCount": 1211,
-      "blogCount": 312,
-      "tags": [
-        "혼밥가능",
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "해장국",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "내장탕",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "돔베고기(소,중,대)",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "양무침",
-          "price": 16000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1795348155",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20200617_59/1592379205278qWBlm_JPEG/8xjbdKzKn3R-Zo4Q1aG0_joU.jpg",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "곰작골나주곰탕 강남점",
-      "type": "국밥",
-      "addr": "서울특별시 서초구 서초동 1330-20 1층",
-      "hours": "10:00에 영업 시작",
-      "tel": "02-587-0879",
-      "priceRange": "12000~18000",
-      "rating": 0,
-      "reviewCount": 803,
-      "blogCount": 159,
-      "tags": [
-        "주차가능",
-        "리뷰많음",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "나주곰탕",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "특곰탕",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "미나리수육곰탕",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "순살갈비곰탕",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "설렁탕",
-          "price": 12000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1132526790",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250530_227/1748576185543jioHH_JPEG/1%B3%AA%C1%D6%B0%F5%C5%C1.jpg",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
       "name": "칠백한우국밥",
       "type": "국밥",
       "addr": "서울특별시 서초구 반포동 747-12 대로변 1층",
       "hours": "",
       "tel": "070-4110-7005",
       "priceRange": "8000~52000",
-      "rating": 0,
-      "reviewCount": 859,
+      "rating": 4.7,
+      "reviewCount": 28,
       "blogCount": 201,
       "tags": [
         "주차가능",
@@ -247,6 +192,61 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1990053180",
       "imageUrl": "https://ldb-phinf.pstatic.net/20210107_295/16099893643630Nk0V_JPEG/z_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "곰작골나주곰탕 강남점",
+      "type": "국밥",
+      "addr": "서울특별시 서초구 서초동 1330-20 1층",
+      "hours": "10:00에 영업 시작",
+      "tel": "02-587-0879",
+      "priceRange": "12000~18000",
+      "rating": 3.4,
+      "reviewCount": 14,
+      "blogCount": 159,
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "나주곰탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "특곰탕",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "미나리수육곰탕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "순살갈비곰탕",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "설렁탕",
+          "price": 12000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1132526790",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250530_227/1748576185543jioHH_JPEG/1%B3%AA%C1%D6%B0%F5%C5%C1.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",

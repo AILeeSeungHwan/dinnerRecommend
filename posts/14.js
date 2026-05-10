@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>판교 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.8점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 정희 판교아브뉴프랑점, 플링크 판교, 꿰다, 잭슨피자 판교점, 야키토리 야키준.</p>",
+      html: "<p>판교 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 902곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.4점입니다. 가격대는 12,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 플링크 판교, 정희 판교아브뉴프랑점, 꿰다, 잭슨피자 판교점, 야키토리 야키준.</p>",
     },
     {
       type: 'toc',
@@ -16,23 +16,13 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>판교 전체 902곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.6점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
-    },
-    {
-      type: 'h2',
-      id: "정희-판교아브뉴프랑점",
-      text: "정희 판교아브뉴프랑점 — 한식 전문점",
-      gradientStyle: { from: '#4facfe', to: '#00f2fe' },
-    },
-    {
-      type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>. 한식 전문점으로, 평점 4.8점을 기록하고 있습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>4.8점·리뷰 644건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 정희 판교아브뉴프랑점 상세 정보 보기</a></p>",
+      html: "<p>판교 전체 902곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.0점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
       id: "플링크-판교",
-      text: "플링크 판교 — 평점 4.9·리뷰 479건",
-      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+      text: "플링크 판교 — 카페 전문점",
+      gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
@@ -42,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a>.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>4.9점·리뷰 479건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/플링크 판교\" style=\"color:var(--primary)\">→ 플링크 판교 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a>. 카페 전문점으로, 평점 4.5점을 기록하고 있습니다.</p><p>주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>리뷰 64건에 4.5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/플링크 판교\" style=\"color:var(--primary)\">→ 플링크 판교 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -52,8 +42,18 @@ const post = {
     },
     {
       type: 'h2',
+      id: "정희-판교아브뉴프랑점",
+      text: "정희 판교아브뉴프랑점 — 한식 전문점",
+      gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+    },
+    {
+      type: 'body',
+      html: "<p>공간이 괜찮은 편이라 눈에 들어오는 곳입니다. <a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a>.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차장이 없으니 대중교통을 이용하시는 것이 편리합니다.</p><p>4.5점·리뷰 2건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\" style=\"color:var(--primary)\">→ 정희 판교아브뉴프랑점 상세 정보 보기</a></p>",
+    },
+    {
+      type: 'h2',
       id: "꿰다",
-      text: "꿰다 — 평점 4.9·리뷰 244건",
+      text: "꿰다 — 인테리어 감각적인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/꿰다\">꿰다</a>. 평점 4.9점, 리뷰 244건 정도 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.9점, 리뷰 244건으로 안정적인 평가를 받고 있습니다. 인테리어가 사진 찍기 좋게 꾸며져 있어 SNS에 자주 올라오는 곳입니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
+      html: "<p>해산물·일식 하면 <a href=\"/pangyo/restaurant/꿰다\">꿰다</a>도 빠지지 않습니다. 평점 4.5점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 점심 시간에는 웨이팅이 있을 수 있습니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.5점, 리뷰 2건으로 안정적인 평가를 받고 있습니다. 인테리어가 사진 찍기 좋게 꾸며져 있어 SNS에 자주 올라오는 곳입니다.</p><p><a href=\"/pangyo/restaurant/꿰다\" style=\"color:var(--primary)\">→ 꿰다 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>. 양식·이탈리안 전문점으로, 평점 4.9점에 리뷰 7건을 기록하고 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>평점 4.9점, 리뷰 7건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
+      html: "<p>양식·이탈리안 하면 <a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a>도 빠지지 않습니다. 평점 4.5점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>점심 시간에는 웨이팅이 있을 수 있습니다.</p><p>리뷰 2건에 4.5점이면 꾸준히 무난한 편입니다.</p><p><a href=\"/pangyo/restaurant/잭슨피자 판교점\" style=\"color:var(--primary)\">→ 잭슨피자 판교점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>. 평점 4.6점, 리뷰 19건 정도 있습니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.6점, 리뷰 19건으로 안정적인 평가를 받고 있습니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
+      html: "<p>이자카야·일식 하면 <a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a>도 빠지지 않습니다. 평점 4.0점입니다.</p><p>가격대는 12,000~22,000원입니다.</p><p>가성비가 좋다는 평이 많습니다. 혼밥하시기에도 편한 구조입니다. 단체석이나 룸이 마련되어 있습니다.</p><p>평점 4.0점, 리뷰 5건. 큰 호불호 없이 이용되는 편입니다.</p><p><a href=\"/pangyo/restaurant/야키토리 야키준\" style=\"color:var(--primary)\">→ 야키토리 야키준 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">644건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">479건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">19건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">64건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/정희 판교아브뉴프랑점\">정희 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다\">꿰다</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/잭슨피자 판교점\">잭슨피자 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/야키토리 야키준\">야키토리 야키준</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -116,7 +116,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<ul><li><strong>가성비 우선:</strong> 꿰다, 야키토리 야키준 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 꿰다, 야키토리 야키준 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 야키토리 야키준 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 플링크 판교 (평점 4.9점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 정희 판교아브뉴프랑점 (리뷰 644건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
+      html: "<ul><li><strong>가성비 우선:</strong> 꿰다, 야키토리 야키준 — 합리적인 가격에 만족스러운 식사가 가능합니다.</li><li><strong>단체·회식:</strong> 꿰다, 야키토리 야키준 — 단체석 또는 룸이 있어 회식에 적합합니다.</li><li><strong>혼밥:</strong> 야키토리 야키준 — 1인 식사가 부담 없는 곳입니다.</li><li><strong>평점 최고:</strong> 플링크 판교 (평점 4.5점) — 방문자 평가가 가장 높습니다.</li><li><strong>리뷰 최다:</strong> 플링크 판교 (리뷰 64건) — 가장 많은 방문자가 검증한 식당입니다.</li></ul>",
     },
     {
       type: 'h2',

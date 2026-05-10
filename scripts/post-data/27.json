@@ -9,6 +9,62 @@
   "tags": [],
   "restaurants": [
     {
+      "name": "스시산원 반주헌",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 825-20 센트럴푸르지오시티 지하2층 224호",
+      "hours": "",
+      "tel": "07-1389-0565",
+      "priceRange": "24000~75000",
+      "rating": 4.9,
+      "reviewCount": 22,
+      "blogCount": 699,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "[런치] 온우동+스시5종",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 오마카세스시",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 반주헌류 스페셜 카이센동",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 사케동정식",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "[런치] 반주헌류 명품 루이비동",
+          "price": 60000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1219317289",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241201_78/1733041403976GTUxs_JPEG/GJF06445.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
       "name": "밤별 포차 라운지 강남역본점",
       "type": "이자카야",
       "addr": "서울특별시 강남구 역삼동 813-9 지층, 1층, 2층, 3층",
@@ -58,62 +114,6 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/1047144456",
       "imageUrl": "https://ldb-phinf.pstatic.net/20241021_64/1729506099399PeLoW_JPEG/213.jpg",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "스시산원 반주헌",
-      "type": "일식",
-      "addr": "서울특별시 강남구 역삼동 825-20 센트럴푸르지오시티 지하2층 224호",
-      "hours": "",
-      "tel": "07-1389-0565",
-      "priceRange": "24000~75000",
-      "rating": 0,
-      "reviewCount": 1961,
-      "blogCount": 699,
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "단체가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "[런치] 온우동+스시5종",
-          "price": 24000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 오마카세스시",
-          "price": 37000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 반주헌류 스페셜 카이센동",
-          "price": 38000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 사케동정식",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 반주헌류 명품 루이비동",
-          "price": 60000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1219317289",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20241201_78/1733041403976GTUxs_JPEG/GJF06445.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",
@@ -179,62 +179,6 @@
       "emoji": ""
     },
     {
-      "name": "오뎅오색 강남역점",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-26 1층 105, 106호",
-      "hours": "",
-      "tel": "02-591-8880",
-      "priceRange": "9900~28500",
-      "rating": 0,
-      "reviewCount": 2152,
-      "blogCount": 366,
-      "tags": [
-        "주차가능",
-        "데이트",
-        "리뷰많음",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "스지 오뎅탕",
-          "price": 28500,
-          "description": ""
-        },
-        {
-          "name": "오뎅 세트(순한맛)",
-          "price": 19500,
-          "description": ""
-        },
-        {
-          "name": "오뎅 세트(얼큰한 맛)",
-          "price": 19500,
-          "description": ""
-        },
-        {
-          "name": "일본오뎅 모리아와세(모둠세트)",
-          "price": 24000,
-          "description": ""
-        },
-        {
-          "name": "마라오뎅탕",
-          "price": 23000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1678227191",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250712_112/1752246302399AGfkG_JPEG/SOON2578.jpg",
-      "imageUrl2": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
       "name": "이자카야 고코 강남신논현점",
       "type": "이자카야",
       "addr": "서울특별시 강남구 역삼동 810-5 반석빌딩 2층 이자카야고코",
@@ -283,6 +227,62 @@
       ],
       "naverUrl": "https://map.naver.com/v5/entry/place/2147325250",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250709_114/1752072650944kfCai_JPEG/KakaoTalk_20250709_233928108.jpg",
+      "imageUrl2": "",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "오뎅오색 강남역점",
+      "type": "한식",
+      "addr": "서울특별시 서초구 서초동 1308-26 1층 105, 106호",
+      "hours": "",
+      "tel": "02-591-8880",
+      "priceRange": "9900~28500",
+      "rating": 3.4,
+      "reviewCount": 14,
+      "blogCount": 366,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "스지 오뎅탕",
+          "price": 28500,
+          "description": ""
+        },
+        {
+          "name": "오뎅 세트(순한맛)",
+          "price": 19500,
+          "description": ""
+        },
+        {
+          "name": "오뎅 세트(얼큰한 맛)",
+          "price": 19500,
+          "description": ""
+        },
+        {
+          "name": "일본오뎅 모리아와세(모둠세트)",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "마라오뎅탕",
+          "price": 23000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1678227191",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250712_112/1752246302399AGfkG_JPEG/SOON2578.jpg",
       "imageUrl2": "",
       "region": "gangnam",
       "regionName": "강남역",

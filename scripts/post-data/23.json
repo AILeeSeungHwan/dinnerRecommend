@@ -20,8 +20,8 @@
       "hours": "11:00에 영업 시작",
       "tel": "07-1349-4963",
       "priceRange": "3500~22000",
-      "rating": 4.9,
-      "reviewCount": 1520,
+      "rating": 4.2,
+      "reviewCount": 111,
       "blogCount": 2102,
       "tags": [
         "리뷰많음",
@@ -77,8 +77,8 @@
       "hours": "10:30에 영업 시작",
       "tel": "07-1433-4540",
       "priceRange": "11000~46000",
-      "rating": 4.8,
-      "reviewCount": 4880,
+      "rating": 4.2,
+      "reviewCount": 111,
       "blogCount": 2432,
       "tags": [
         "리뷰많음",
@@ -184,62 +184,6 @@
       "emoji": ""
     },
     {
-      "name": "요즈음",
-      "type": "술집",
-      "addr": "서울특별시 송파구 방이동 36-7 9층",
-      "hours": "17:00에 영업 시작",
-      "tel": "07-1470-1987",
-      "priceRange": "3000~64000",
-      "rating": 5,
-      "reviewCount": 24,
-      "blogCount": 2216,
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "데이트",
-        "뷰맛집"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "소주 3000원 할인이벤트",
-          "price": 3000,
-          "description": ""
-        },
-        {
-          "name": "광어&연어회(32미이상/3~4인용)",
-          "price": 64000,
-          "description": ""
-        },
-        {
-          "name": "1도씨 숙성광어사시미/22미이상 제공",
-          "price": 40000,
-          "description": ""
-        },
-        {
-          "name": "다시마에 눌린 연어사시미(25미이상)",
-          "price": 35000,
-          "description": ""
-        },
-        {
-          "name": "관동식스키야키전골",
-          "price": 36000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1971624893/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20251004_261/17595793075407S4yT_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5-7.jpeg",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20251231_138/1767158571341OgNRY_PNG/20251231_142213.png",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
       "name": "연정민 소금구이",
       "type": "한식",
       "addr": "서울특별시 송파구 석촌동 18 1층 102호",
@@ -291,6 +235,62 @@
       "naverUrl": "https://pcmap.place.naver.com/restaurant/2045902149/home",
       "imageUrl": "https://ldb-phinf.pstatic.net/20260226_55/17720442459809A5wK_JPEG/KakaoTalk_20260226_032240528_13.jpg",
       "imageUrl2": "https://ldb-phinf.pstatic.net/20260405_43/17753246016120twwH_GIF/%BC%D2%B1%DD%B1%B8%C0%CC-%C7%D1%C6%C7.gif",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "요즈음",
+      "type": "술집",
+      "addr": "서울특별시 송파구 방이동 36-7 9층",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1470-1987",
+      "priceRange": "3000~64000",
+      "rating": 5.0,
+      "reviewCount": 2,
+      "blogCount": 2216,
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "데이트",
+        "뷰맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "소주 3000원 할인이벤트",
+          "price": 3000,
+          "description": ""
+        },
+        {
+          "name": "광어&연어회(32미이상/3~4인용)",
+          "price": 64000,
+          "description": ""
+        },
+        {
+          "name": "1도씨 숙성광어사시미/22미이상 제공",
+          "price": 40000,
+          "description": ""
+        },
+        {
+          "name": "다시마에 눌린 연어사시미(25미이상)",
+          "price": 35000,
+          "description": ""
+        },
+        {
+          "name": "관동식스키야키전골",
+          "price": 36000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1971624893/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251004_261/17595793075407S4yT_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5-7.jpeg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20251231_138/1767158571341OgNRY_PNG/20251231_142213.png",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

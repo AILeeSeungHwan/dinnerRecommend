@@ -41,6 +41,63 @@
       "emoji": ""
     },
     {
+      "name": "춘리마라탕 야탑점",
+      "type": "중식",
+      "addr": "경기도 성남시 분당구 야탑동 366-3 2층 204호",
+      "hours": "01:00에 영업 종료",
+      "tel": "07-1470-9063",
+      "priceRange": "2900~29900",
+      "rating": 4.1,
+      "reviewCount": 354,
+      "blogCount": 17,
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "대한민국 대표 마라탕(1인분)",
+          "price": 10900,
+          "description": ""
+        },
+        {
+          "name": "대한민국 대표 마라탕(2~3인분)",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "불맛 일품 마라샹궈(1인분)",
+          "price": 16900,
+          "description": ""
+        },
+        {
+          "name": "불맛 일품 마라샹궈(2~3인분)",
+          "price": 29900,
+          "description": ""
+        },
+        {
+          "name": "꿔바로우(미니(5pc,소스따로불가))",
+          "price": 6900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1634565144/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20241125_284/1732546316373c1h0W_JPEG/IMG_0008.jpeg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20241125_72/1732546316325kexJk_JPEG/IMG_0009.jpeg",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
       "name": "판교맛집 왕징양다리양꼬치 판교점",
       "type": "중식",
       "addr": "대왕판교로606번길 10 알파리움1단지 타워 1동 2층 205,206호",
@@ -114,8 +171,8 @@
       "hours": "15:00에 영업 시작",
       "tel": "07-1491-9291",
       "priceRange": "12000~43000",
-      "rating": 5,
-      "reviewCount": 1,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 145,
       "tags": [
         "주차가능",
@@ -157,63 +214,6 @@
       "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250622_136/17505660891702rdqk_JPEG/%C1%A4%C0%DA%C1%A1_%BF%DC%B0%FC2.jpg",
       "imageUrl2": "https://ldb-phinf.pstatic.net/20250622_180/1750566089513fVojC_JPEG/%C1%A4%C0%DA%C1%A1_%B3%BB%B0%FC1.jpg",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": ""
-    },
-    {
-      "name": "춘리마라탕 야탑점",
-      "type": "중식",
-      "addr": "경기도 성남시 분당구 야탑동 366-3 2층 204호",
-      "hours": "01:00에 영업 종료",
-      "tel": "07-1470-9063",
-      "priceRange": "2900~29900",
-      "rating": 5,
-      "reviewCount": 1,
-      "blogCount": 17,
-      "tags": [
-        "점심추천",
-        "주차가능",
-        "리뷰많음",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "대한민국 대표 마라탕(1인분)",
-          "price": 10900,
-          "description": ""
-        },
-        {
-          "name": "대한민국 대표 마라탕(2~3인분)",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "불맛 일품 마라샹궈(1인분)",
-          "price": 16900,
-          "description": ""
-        },
-        {
-          "name": "불맛 일품 마라샹궈(2~3인분)",
-          "price": 29900,
-          "description": ""
-        },
-        {
-          "name": "꿔바로우(미니(5pc,소스따로불가))",
-          "price": 6900,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1634565144/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20241125_284/1732546316373c1h0W_JPEG/IMG_0008.jpeg",
-      "imageUrl2": "https://ldb-phinf.pstatic.net/20241125_72/1732546316325kexJk_JPEG/IMG_0009.jpeg",
       "region": "pangyo",
       "regionName": "판교",
       "regionPath": "/pangyo",

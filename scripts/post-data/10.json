@@ -98,6 +98,42 @@
       "emoji": "🥟"
     },
     {
+      "name": "행복한김밥",
+      "type": "분식",
+      "addr": "기흥구 서천동 286-3번지 101호 용인시 경기도 KR",
+      "hours": "6:00 AM~8:00 PM",
+      "tel": "031-206-5008",
+      "priceRange": "10000~20000",
+      "rating": 4.1,
+      "reviewCount": 72,
+      "blogCount": 0,
+      "tags": [
+        "분식",
+        "가성비",
+        "점심추천"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "아침 식사",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🥢"
+    },
+    {
       "name": "생고기김치찌개",
       "type": "고기구이·국밥",
       "addr": "신원로 177",
@@ -150,8 +186,8 @@
       "hours": "휴무일",
       "tel": "031-202-3166",
       "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 0,
+      "rating": 4.1,
+      "reviewCount": 14,
       "blogCount": 0,
       "tags": [
         "가성비",
@@ -183,42 +219,6 @@
       "regionName": "망포",
       "regionPath": "/samsungElectronics/mangpo",
       "emoji": "🥩"
-    },
-    {
-      "name": "행복한김밥",
-      "type": "분식",
-      "addr": "기흥구 서천동 286-3번지 101호 용인시 경기도 KR",
-      "hours": "6:00 AM~8:00 PM",
-      "tel": "031-206-5008",
-      "priceRange": "10000~20000",
-      "rating": 4.3,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [
-        "분식",
-        "가성비",
-        "점심추천"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "혼밥"
-      ],
-      "scene": [
-        "아침 식사",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥢"
     }
   ],
   "categoryStats": {},

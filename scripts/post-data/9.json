@@ -14,52 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "루프일레븐(ROOF 11)",
-      "type": "이자카야",
-      "addr": "판교역로 192번길 16 판교타워 11층",
-      "hours": "PM 6:00 ~ AM 2:00",
-      "tel": "031-8017-1300",
-      "priceRange": "12000~22000",
-      "rating": 4.7,
-      "reviewCount": 382,
-      "blogCount": 0,
-      "tags": [
-        "고평점",
-        "단체가능",
-        "데이트",
-        "리뷰많음",
-        "뷰맛집",
-        "안주",
-        "야장",
-        "웨이팅맛집",
-        "이자카야",
-        "인스타감성",
-        "친절",
-        "포차감성",
-        "하이볼",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "스트레스",
-        "회식"
-      ],
-      "scene": [
-        "퇴근후술"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🏮"
-    },
-    {
       "name": "불고기 온소반",
       "type": "고기구이",
       "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
@@ -223,14 +177,60 @@
       "emoji": "🥩"
     },
     {
+      "name": "루프일레븐(ROOF 11)",
+      "type": "이자카야",
+      "addr": "판교역로 192번길 16 판교타워 11층",
+      "hours": "PM 6:00 ~ AM 2:00",
+      "tel": "031-8017-1300",
+      "priceRange": "12000~22000",
+      "rating": 4.5,
+      "reviewCount": 2,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "단체가능",
+        "데이트",
+        "리뷰많음",
+        "뷰맛집",
+        "안주",
+        "야장",
+        "웨이팅맛집",
+        "이자카야",
+        "인스타감성",
+        "친절",
+        "포차감성",
+        "하이볼",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스",
+        "회식"
+      ],
+      "scene": [
+        "퇴근후술"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🏮"
+    },
+    {
       "name": "순우가",
       "type": "고기구이",
       "addr": "대왕판교로645번길 36",
       "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
       "tel": "031-606-8516",
       "priceRange": "12000~22000",
-      "rating": 4.6,
-      "reviewCount": 0,
+      "rating": 4.5,
+      "reviewCount": 2,
       "blogCount": 0,
       "tags": [
         "가성비",

@@ -14,43 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "삼미칼국수",
-      "type": "칼국수",
-      "addr": "삼평동 678 A 동 지하 1 층 삼환 하이 펙스",
-      "hours": "평일 AM 11:00 ~ PM 8:30 / 주말 휴무일",
-      "tel": "031-698-3258",
-      "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 240,
-      "blogCount": 0,
-      "tags": [
-        "고평점",
-        "국수",
-        "리뷰많음",
-        "웨이팅맛집",
-        "칼국수"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍜"
-    },
-    {
       "name": "불고기 온소반",
       "type": "고기구이",
       "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
@@ -90,51 +53,14 @@
       "emoji": "🥩"
     },
     {
-      "name": "정백선순대 판교역점",
-      "type": "분식",
-      "addr": "삼평동 대왕판교로606번길 58",
-      "hours": "영업시간 확인 필요",
-      "tel": "",
-      "priceRange": "12000~22000",
-      "rating": 4.8,
-      "reviewCount": 34,
-      "blogCount": 0,
-      "tags": [
-        "고평점",
-        "데이트",
-        "분식",
-        "웨이팅맛집",
-        "포장가능"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥢"
-    },
-    {
       "name": "상기육개장",
       "type": "한식",
       "addr": "백현동 560-3",
       "hours": "AM 11:00 ~ PM 4:00",
       "tel": "050-71376-2912",
       "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 19,
+      "rating": 4.5,
+      "reviewCount": 64,
       "blogCount": 0,
       "tags": [
         "고평점",
@@ -169,8 +95,8 @@
       "hours": "AM 11:00 ~ PM 3:00, PM 5:00~9:30",
       "tel": "031-706-8459",
       "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 9,
+      "rating": 4.0,
+      "reviewCount": 65,
       "blogCount": 0,
       "tags": [
         "가성비",
@@ -199,6 +125,80 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": "🍱"
+    },
+    {
+      "name": "삼미칼국수",
+      "type": "칼국수",
+      "addr": "삼평동 678 A 동 지하 1 층 삼환 하이 펙스",
+      "hours": "평일 AM 11:00 ~ PM 8:30 / 주말 휴무일",
+      "tel": "031-698-3258",
+      "priceRange": "12000~22000",
+      "rating": 4.0,
+      "reviewCount": 5,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "국수",
+        "리뷰많음",
+        "웨이팅맛집",
+        "칼국수"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍜"
+    },
+    {
+      "name": "정백선순대 판교역점",
+      "type": "분식",
+      "addr": "삼평동 대왕판교로606번길 58",
+      "hours": "영업시간 확인 필요",
+      "tel": "",
+      "priceRange": "12000~22000",
+      "rating": 4.0,
+      "reviewCount": 5,
+      "blogCount": 0,
+      "tags": [
+        "고평점",
+        "데이트",
+        "분식",
+        "웨이팅맛집",
+        "포장가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥢"
     }
   ],
   "categoryStats": {},

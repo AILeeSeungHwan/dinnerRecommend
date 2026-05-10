@@ -14,73 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "멘쇼쿠 코엑스점",
-      "type": "일식·라멘",
-      "addr": "테헤란로 87길 36 도심공항타워",
-      "hours": "11 AM–9 PM",
-      "tel": "07-1408-7226",
-      "priceRange": "13000~17500",
-      "rating": 4.9,
-      "reviewCount": 2655,
-      "blogCount": 227,
-      "tags": [
-        "라멘",
-        "흑마늘오일",
-        "혼밥",
-        "혼밥가능",
-        "점심추천",
-        "주차가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "혼밥",
-        "피곤함",
-        "허전함"
-      ],
-      "scene": [
-        "혼자 밥",
-        "라멘",
-        "따뜻한 국물"
-      ],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "풀 토핑 라멘",
-          "price": 17500,
-          "description": ""
-        },
-        {
-          "name": "백라멘",
-          "price": 13500,
-          "description": ""
-        },
-        {
-          "name": "홍라멘",
-          "price": 13500,
-          "description": ""
-        },
-        {
-          "name": "쇼유라멘",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "시오라멘",
-          "price": 13000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/p/entry/place/1524681011",
-      "imageUrl": "/images/restaurants/samseong/멘쇼쿠-코엑스점-1.jpg",
-      "imageUrl2": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🍜"
-    },
-    {
       "name": "무탄 코엑스",
       "type": "중식·퓨전",
       "addr": "영동대로 513 코엑스몰 B1",
@@ -212,6 +145,73 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🐷"
+    },
+    {
+      "name": "멘쇼쿠 코엑스점",
+      "type": "일식·라멘",
+      "addr": "테헤란로 87길 36 도심공항타워",
+      "hours": "11 AM–9 PM",
+      "tel": "07-1408-7226",
+      "priceRange": "13000~17500",
+      "rating": 4.4,
+      "reviewCount": 122,
+      "blogCount": 227,
+      "tags": [
+        "라멘",
+        "흑마늘오일",
+        "혼밥",
+        "혼밥가능",
+        "점심추천",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "혼밥",
+        "피곤함",
+        "허전함"
+      ],
+      "scene": [
+        "혼자 밥",
+        "라멘",
+        "따뜻한 국물"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "풀 토핑 라멘",
+          "price": 17500,
+          "description": ""
+        },
+        {
+          "name": "백라멘",
+          "price": 13500,
+          "description": ""
+        },
+        {
+          "name": "홍라멘",
+          "price": 13500,
+          "description": ""
+        },
+        {
+          "name": "쇼유라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "시오라멘",
+          "price": 13000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1524681011",
+      "imageUrl": "/images/restaurants/samseong/멘쇼쿠-코엑스점-1.jpg",
+      "imageUrl2": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍜"
     },
     {
       "name": "수림복국 선릉 삼성 별관",

@@ -14,31 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "분지로 롯데월드몰점",
-      "type": "일식",
-      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 5층",
-      "hours": "",
-      "tel": "02-3213-4581",
-      "priceRange": "",
-      "rating": 4.9,
-      "reviewCount": 747,
-      "blogCount": 0,
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2098844043/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250526_91/1748221494259E3zf3_JPEG/%BA%D0%C1%F6%B7%CE125%283%29.jpg",
-      "imageUrl2": "",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
       "name": "아사히 스시",
       "type": "일식",
       "addr": "서울특별시 송파구 신천동 7 장미종합상가A동 지하",
@@ -64,14 +39,54 @@
       "emoji": ""
     },
     {
+      "name": "김태완스시",
+      "type": "스시·오마카세",
+      "addr": "송리단길",
+      "hours": "11:30~21:30",
+      "tel": "",
+      "priceRange": "25000~60000",
+      "rating": 4.1,
+      "reviewCount": 229,
+      "blogCount": 0,
+      "tags": [
+        "스시",
+        "오마카세",
+        "가성비오마카세",
+        "송리단길",
+        "데이트",
+        "예약추천"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하",
+        "혼밥"
+      ],
+      "scene": [
+        "데이트",
+        "특별한날",
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": "🍣"
+    },
+    {
       "name": "마싯내",
       "type": "일식",
       "addr": "서울특별시 송파구 석촌동 157-4 수정빌딩 102호",
       "hours": "11:30에 영업 시작",
       "tel": "07-1323-3979",
       "priceRange": "11000~32000",
-      "rating": 4.8,
-      "reviewCount": 900,
+      "rating": 4.3,
+      "reviewCount": 124,
       "blogCount": 704,
       "tags": [
         "리뷰많음",
@@ -120,44 +135,29 @@
       "emoji": ""
     },
     {
-      "name": "김태완스시",
-      "type": "스시·오마카세",
-      "addr": "송리단길",
-      "hours": "11:30~21:30",
-      "tel": "",
-      "priceRange": "25000~60000",
-      "rating": 4.1,
-      "reviewCount": 229,
+      "name": "분지로 롯데월드몰점",
+      "type": "일식",
+      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 5층",
+      "hours": "",
+      "tel": "02-3213-4581",
+      "priceRange": "",
+      "rating": 4.2,
+      "reviewCount": 111,
       "blogCount": 0,
-      "tags": [
-        "스시",
-        "오마카세",
-        "가성비오마카세",
-        "송리단길",
-        "데이트",
-        "예약추천"
-      ],
+      "tags": [],
       "keywords": [],
-      "moods": [
-        "데이트",
-        "축하",
-        "혼밥"
-      ],
-      "scene": [
-        "데이트",
-        "특별한날",
-        "점심"
-      ],
+      "moods": [],
+      "scene": [],
       "parking": false,
       "reservation": false,
       "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/2098844043/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250526_91/1748221494259E3zf3_JPEG/%BA%D0%C1%F6%B7%CE125%283%29.jpg",
       "imageUrl2": "",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
-      "emoji": "🍣"
+      "emoji": ""
     },
     {
       "name": "오사이초밥 잠실",

@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>삼성역 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 859곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.9점입니다. 가격대는 6,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 무탄 코엑스, 솥내음 스타필드 코엑스몰점, 멘쇼쿠 코엑스점, 일상정원 코엑스점, 해화장.</p>",
+      html: "<p>삼성역 데이트 맛집을 검색하면 너무 많은 결과가 나옵니다. 859곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.6점입니다. 가격대는 6,000원부터 시작하며, 2026년 5월 기준이며, 분위기·코스 구성·예약 여부·뷰을 위주로 비교하였습니다.</p><p>소개 순서: 무탄 코엑스, 솥내음 스타필드 코엑스몰점, 멘쇼쿠 코엑스점, 일상정원 코엑스점, 해화장.</p>",
     },
     {
       type: 'toc',
@@ -16,7 +16,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>삼성역 전체 859곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.8점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
+      html: "<p>삼성역 전체 859곳에서 데이트 카테고리에 해당하는 식당을 선별하였습니다. 평점 4.4점 이상, 분위기·코스 구성·예약 여부·뷰 기준으로 비교하였습니다. 2026년 5월 데이터 기준이므로, 폐업이나 가격 변동이 있을 수 있으니 방문 전에 반드시 확인하시기 바랍니다.</p>",
     },
     {
       type: 'h2',
@@ -48,7 +48,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\">솥내음 스타필드 코엑스몰점</a>.</p><p>대표 메뉴로는 신메뉴 불쭈꾸미 솥밥 15,900원 등이 있으며, 가격은 메뉴에 따라 차이가 있습니다.</p><p>매운맛을 원하는 모든 고객님들을 위해 준비했습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다. 예약이 가능합니다.</p><p>평점 4.9점, 리뷰 4,967건. 이 동네에서 자주 언급되는 곳 중 하나입니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"솥내음 스타필드 코엑스점 에서 푸짐하게 점심 식사하고 왔어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 웨이팅·양·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\" style=\"color:var(--primary)\">→ 솥내음 스타필드 코엑스몰점 상세 정보 보기</a></p>",
+      html: "<p>분위기가 좋아서 눈에 들어오는 곳입니다. <a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\">솥내음 스타필드 코엑스몰점</a>.</p><p>대표 메뉴로는 신메뉴 불쭈꾸미 솥밥 15,900원 등이 있으며, 가격은 메뉴에 따라 차이가 있습니다.</p><p>매운맛을 원하는 모든 고객님들을 위해 준비했습니다.</p><p>점심시간에는 웨이팅이 있는 편이니 일찍 방문하시는 것을 추천드립니다. 주차가 가능합니다. 예약이 가능합니다.</p><p>리뷰 4,967건이 쌓일 만큼 방문자가 많은 곳이며, 평점은 4.9점입니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>한 방문자는 \"솥내음 스타필드 코엑스점 에서 푸짐하게 점심 식사하고 왔어요\"고 적어두었습니다.</p><p>방문 후기에서 자주 언급되는 부분은 웨이팅·양·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\" style=\"color:var(--primary)\">→ 솥내음 스타필드 코엑스몰점 상세 정보 보기</a></p>",
     },
     {
       type: 'image',
@@ -59,7 +59,7 @@ const post = {
     {
       type: 'h2',
       id: "멘쇼쿠-코엑스점",
-      text: "멘쇼쿠 코엑스점 — 평점 4.9·리뷰 2655건",
+      text: "멘쇼쿠 코엑스점 — 일식·라멘 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -70,7 +70,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\">멘쇼쿠 코엑스점</a>. 일식·라멘 전문점으로, 평점 4.9점에 리뷰 2655건을 기록하고 있습니다.</p><p>풀 토핑 라멘 17,500원이 가장 인기 있는 메뉴이며, 백라멘 13,500원, 홍라멘 13,500원도 추천드립니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다.</p><p>2,655건 리뷰에 4.9점이라는 점에서 인지도가 높은 편입니다.</p><p>혼밥하기에도 부담 없는 분위기입니다. 1인 좌석이 마련되어 있어 혼자 오시는 분들도 편하게 이용하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 국물·분위기·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\" style=\"color:var(--primary)\">→ 멘쇼쿠 코엑스점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\">멘쇼쿠 코엑스점</a>. 일식·라멘 전문점으로, 평점 4.4점에 리뷰 122건을 기록하고 있습니다.</p><p>대표 메뉴는 풀 토핑 라멘 17,500원, 백라멘 13,500원, 홍라멘 13,500원입니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다.</p><p>평점 4.4점, 리뷰 122건. 큰 호불호 없이 이용되는 편입니다.</p><p>혼밥하기에도 부담 없는 분위기입니다. 1인 좌석이 마련되어 있어 혼자 오시는 분들도 편하게 이용하실 수 있습니다. 맛에 대한 만족도가 높은 편입니다. 전반적으로 음식 맛에 대한 긍정적인 평가가 많습니다.</p><p>방문 후기에서 자주 언급되는 부분은 국물·분위기·맛 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\" style=\"color:var(--primary)\">→ 멘쇼쿠 코엑스점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -86,7 +86,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a>. 일식·전골 전문점으로, 평점 4.8점에 리뷰 706건을 기록하고 있습니다.</p><p>대표 메뉴는 구름 스키야키(관서식) 21,400원, 미소 샤브샤브(관동식) 18,400원, NEW, 사케마구로동 20,900원입니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>평점 4.8점, 리뷰 706건으로 안정적인 평가를 받고 있습니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·재료 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\" style=\"color:var(--primary)\">→ 일상정원 코엑스점 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a>. 일식·전골 전문점으로, 평점 4.4점에 리뷰 122건을 기록하고 있습니다.</p><p>대표 메뉴는 구름 스키야키(관서식) 21,400원, 미소 샤브샤브(관동식) 18,400원, NEW, 사케마구로동 20,900원입니다.</p><p>혼밥하시기에도 편한 구조입니다. 주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 122건에 4.4점 정도로 무난한 평가가 쌓여 있습니다.</p><p>재방문 의사가 있다는 리뷰가 많습니다. 한 번 가보시면 단골이 될 가능성이 높은 곳입니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 분위기·맛·재료 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\" style=\"color:var(--primary)\">→ 일상정원 코엑스점 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -102,7 +102,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a>. 횟집·해산물 전문점으로, 평점 4.9점에 리뷰 47건을 기록하고 있습니다.</p><p>가격대는 23,000~38,000원입니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>4.9점·리뷰 47건. 방문자 평이 비교적 일관되게 좋은 편입니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 재료·서비스·주차 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/해화장\" style=\"color:var(--primary)\">→ 해화장 상세 정보 보기</a></p>",
+      html: "<p><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a>. 횟집·해산물 전문점입니다. 4.4점에 리뷰 122건이 쌓여 있습니다.</p><p>가격대는 23,000~38,000원입니다.</p><p>주차도 가능합니다. 예약이 가능합니다.</p><p>리뷰 122건에 4.4점 정도로 무난한 평가가 쌓여 있습니다.</p><p>인기가 많아서 웨이팅이 좀 있는 편입니다. 점심 피크 시간을 피하시면 대기 시간을 줄일 수 있습니다. 재료가 신선합니다. 당일 재료를 사용한다는 점에서 식재료에 대한 신뢰도가 높습니다.</p><p>방문 후기에서 자주 언급되는 부분은 재료·서비스·주차 쪽입니다.</p><p><a href=\"/dinner/samseong/restaurant/해화장\" style=\"color:var(--primary)\">→ 해화장 상세 정보 보기</a></p>",
     },
     {
       type: 'h2',
@@ -112,7 +112,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\">솥내음 스타필드 코엑스몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">4967건</td><td style=\"padding:7px 6px;text-align:center\">15,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\">멘쇼쿠 코엑스점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">2655건</td><td style=\"padding:7px 6px;text-align:center\">13,000~17,500원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">706건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,900원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">47건</td><td style=\"padding:7px 6px;text-align:center\">23,000~38,000원</td><td style=\"padding:7px 6px\">횟집·해산물 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/무탄 코엑스\">무탄 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">7774건</td><td style=\"padding:7px 6px;text-align:center\">10,000~18,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/솥내음 스타필드 코엑스몰점\">솥내음 스타필드 코엑스몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">4967건</td><td style=\"padding:7px 6px;text-align:center\">15,900원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/멘쇼쿠 코엑스점\">멘쇼쿠 코엑스점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">13,000~17,500원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/일상정원 코엑스점\">일상정원 코엑스점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,900원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/해화장\">해화장</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">23,000~38,000원</td><td style=\"padding:7px 6px\">횟집·해산물 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

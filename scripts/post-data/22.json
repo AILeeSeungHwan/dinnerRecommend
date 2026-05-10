@@ -14,51 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "스시혼",
-      "type": "해산물·일식",
-      "addr": "삼평동 740",
-      "hours": "AM 11:00 ~ PM 10:00",
-      "tel": "031-701-0923",
-      "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 646,
-      "blogCount": 0,
-      "tags": [
-        "가족",
-        "단체가능",
-        "리뷰많음",
-        "예약제",
-        "오마카세",
-        "일식",
-        "점심추천",
-        "코스요리",
-        "해산물",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "축하",
-        "회식"
-      ],
-      "scene": [
-        "기념일",
-        "접대",
-        "특별한날"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🦪"
-    },
-    {
       "name": "꿰다 판교아브뉴프랑점",
       "type": "일식",
       "addr": "경기도 성남시 분당구 삼평동 740 판교 호반 써밋 플레이스 1층 143호",
@@ -116,14 +71,101 @@
       "emoji": ""
     },
     {
+      "name": "우화",
+      "type": "고기구이",
+      "addr": "동판교로177번길 25",
+      "hours": "PM 5:30~10:00",
+      "tel": "031-707-4775",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "데이트",
+        "예약필수",
+        "웨이팅맛집",
+        "한우",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "스시혼",
+      "type": "해산물·일식",
+      "addr": "삼평동 740",
+      "hours": "AM 11:00 ~ PM 10:00",
+      "tel": "031-701-0923",
+      "priceRange": "12000~22000",
+      "rating": 4.0,
+      "reviewCount": 5,
+      "blogCount": 0,
+      "tags": [
+        "가족",
+        "단체가능",
+        "리뷰많음",
+        "예약제",
+        "오마카세",
+        "일식",
+        "점심추천",
+        "코스요리",
+        "해산물",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "축하",
+        "회식"
+      ],
+      "scene": [
+        "기념일",
+        "접대",
+        "특별한날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🦪"
+    },
+    {
       "name": "심양 판교점",
       "type": "중식",
       "addr": "경기도 성남시 분당구 삼평동 656 112호",
       "hours": "15:00에 영업 시작",
       "tel": "07-1491-9291",
       "priceRange": "12000~43000",
-      "rating": 5,
-      "reviewCount": 1,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 145,
       "tags": [
         "주차가능",
@@ -171,56 +213,14 @@
       "emoji": ""
     },
     {
-      "name": "우화",
-      "type": "고기구이",
-      "addr": "동판교로177번길 25",
-      "hours": "PM 5:30~10:00",
-      "tel": "031-707-4775",
-      "priceRange": "12000~22000",
-      "rating": 4.8,
-      "reviewCount": 0,
-      "blogCount": 0,
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "데이트",
-        "예약필수",
-        "웨이팅맛집",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
       "name": "삼삼오 판교점",
       "type": "한식",
       "addr": "경기도 성남시 분당구 삼평동 684 1층 107호",
       "hours": "16:00에 영업 시작",
       "tel": "07-1356-3370",
       "priceRange": "9000~25000",
-      "rating": 4.4,
-      "reviewCount": 0,
+      "rating": 4.0,
+      "reviewCount": 5,
       "blogCount": 16,
       "tags": [
         "점심추천",

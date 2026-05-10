@@ -14,111 +14,14 @@
   ],
   "restaurants": [
     {
-      "name": "김치옥 대치점",
-      "type": "육류,고기요리",
-      "addr": "대치동 976-8 지상1층 5, 6, 7호",
-      "hours": "11:00",
-      "tel": "",
-      "priceRange": "5000~10000",
-      "rating": 4.9,
-      "reviewCount": 155,
-      "blogCount": 305,
-      "tags": [
-        "주차가능",
-        "데이트",
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트"
-      ],
-      "scene": [
-        "데이트"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "제육볶음 300g",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "치츠폭탄계란말이",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "맛보기 계란말이",
-          "price": 5000,
-          "description": ""
-        },
-        {
-          "name": "구이류 주문 시 주문 가능",
-          "price": 7000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1239506231",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250721_277/1753086319638xt6nA_JPEG/%B9%CE%BB%FD%C8%B8%BA%B9-%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
-      "imageUrl2": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
-    },
-    {
-      "name": "이치류 선릉점",
-      "type": "육류,고기요리",
-      "addr": "대치동 906-7 1층",
-      "hours": "12:00",
-      "tel": "",
-      "priceRange": "20000",
-      "rating": 4.9,
-      "reviewCount": 113,
-      "blogCount": 696,
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "단체가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트",
-        "회식",
-        "기분 좋음"
-      ],
-      "scene": [
-        "팀 회식",
-        "데이트"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "750 ml 이하 기준",
-          "price": 20000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1254292631",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20250916_255/17579892262695BN6C_GIF/%C0%CC%C4%A1%B7%F9_%BC%B1%B8%AA%C1%A1_gif.gif",
-      "imageUrl2": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🥩"
-    },
-    {
       "name": "영동가든",
       "type": "육류,고기요리",
       "addr": "삼성동 162-15 1층 102호",
       "hours": "11:00",
       "tel": "",
       "priceRange": "9000~15000",
-      "rating": 4.9,
-      "reviewCount": 49,
+      "rating": 4.4,
+      "reviewCount": 285,
       "blogCount": 1443,
       "tags": [
         "리뷰많음",
@@ -180,8 +83,8 @@
       "hours": "주소서울 강남구 삼성로100길 23-9 1층9삼성중앙역 5번 출구에서 497m미터",
       "tel": "",
       "priceRange": "80000",
-      "rating": 5,
-      "reviewCount": 15,
+      "rating": 4.4,
+      "reviewCount": 285,
       "blogCount": 29,
       "tags": [
         "주차가능",
@@ -210,6 +113,103 @@
       "naverUrl": "https://map.naver.com/v5/entry/place/1532958694",
       "imageUrl": "https://ldb-phinf.pstatic.net/20241023_56/1729609504004LqALY_JPEG/KakaoTalk_20220313_134737929_01.jpg",
       "imageUrl2": "https://ldb-phinf.pstatic.net/20260401_182/1774974933099jS9cJ_JPEG/1000056248.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "김치옥 대치점",
+      "type": "육류,고기요리",
+      "addr": "대치동 976-8 지상1층 5, 6, 7호",
+      "hours": "11:00",
+      "tel": "",
+      "priceRange": "5000~10000",
+      "rating": 5.0,
+      "reviewCount": 3,
+      "blogCount": 305,
+      "tags": [
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트"
+      ],
+      "scene": [
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "제육볶음 300g",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "치츠폭탄계란말이",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "맛보기 계란말이",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "구이류 주문 시 주문 가능",
+          "price": 7000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1239506231",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250721_277/1753086319638xt6nA_JPEG/%B9%CE%BB%FD%C8%B8%BA%B9-%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
+      "imageUrl2": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "이치류 선릉점",
+      "type": "육류,고기요리",
+      "addr": "대치동 906-7 1층",
+      "hours": "12:00",
+      "tel": "",
+      "priceRange": "20000",
+      "rating": 5.0,
+      "reviewCount": 3,
+      "blogCount": 696,
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "750 ml 이하 기준",
+          "price": 20000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1254292631",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20250916_255/17579892262695BN6C_GIF/%C0%CC%C4%A1%B7%F9_%BC%B1%B8%AA%C1%A1_gif.gif",
+      "imageUrl2": "",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",

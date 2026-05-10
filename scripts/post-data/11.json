@@ -14,60 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "곱창과순댓국의만남",
-      "type": "한식",
-      "addr": "서울특별시 송파구 잠실동 206-16",
-      "hours": "24:00에 영업 종료",
-      "tel": "02-417-8227",
-      "priceRange": "12000~25000",
-      "rating": 4.6,
-      "reviewCount": 1461,
-      "blogCount": 148,
-      "tags": [
-        "가성비",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "소곱창전골",
-          "price": 25000,
-          "description": ""
-        },
-        {
-          "name": "모듬구이",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "막창",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "대창",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "곱창",
-          "price": 22000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1467068196/home",
-      "imageUrl": "https://ldb-phinf.pstatic.net/20240112_119/1705025775705nYK0e_JPEG/%BF%DC%B0%FC.jpg",
-      "imageUrl2": "",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
       "name": "제주은희네해장국 잠실직영점",
       "type": "한식",
       "addr": "서울특별시 송파구 석촌동 183-7",
@@ -251,6 +197,60 @@
       ],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/1358422271/home",
       "imageUrl": "https://ldb-phinf.pstatic.net/20250213_252/17394455592429amat_JPEG/1000005902.jpg",
+      "imageUrl2": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "곱창과순댓국의만남",
+      "type": "한식",
+      "addr": "서울특별시 송파구 잠실동 206-16",
+      "hours": "24:00에 영업 종료",
+      "tel": "02-417-8227",
+      "priceRange": "12000~25000",
+      "rating": 4.6,
+      "reviewCount": 10,
+      "blogCount": 148,
+      "tags": [
+        "가성비",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "소곱창전골",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "모듬구이",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "막창",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "대창",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "곱창",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1467068196/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20240112_119/1705025775705nYK0e_JPEG/%BF%DC%B0%FC.jpg",
       "imageUrl2": "",
       "region": "jamsil",
       "regionName": "잠실",
