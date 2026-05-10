@@ -404,6 +404,13 @@ export async function getStaticProps({ params }) {
   }
 }
 
+// ── 카테고리 한국어 라벨 ────────────────────────────────────────
+const CATEGORY_LABEL = {
+  meat: '고기', chinese: '중식', izakaya: '이자카야', japanese: '일식·스시',
+  gukbap: '국밥·해장', western: '양식', date: '데이트', group: '회식',
+  lunch: '점심', budget: '가성비', chicken: '치킨·야장', special: '특별 추천',
+}
+
 // ── 지역 매핑 ───────────────────────────────────────────────────
 const REGION_MAP = {
   samseong:    { name: '삼성역',     path: '/dinner/samseong' },
@@ -583,7 +590,7 @@ export default function PostPage({ meta, sections, related }) {
                   letterSpacing: '.04em',
                 }}
               >
-                {meta.category.toUpperCase()}
+                {CATEGORY_LABEL[meta.category] || meta.category}
               </span>
             )}
             <time
@@ -702,7 +709,7 @@ export default function PostPage({ meta, sections, related }) {
               ← {region.name} 맛집 홈
             </Link>
             <Link href={`${region.path}/category/${meta.category || 'meat'}`} className="btn btn-primary">
-              {meta.category ? `${meta.category} 맛집 전체보기` : '맛집 전체보기'}
+              {meta.category ? `${CATEGORY_LABEL[meta.category] || meta.category} 맛집 전체보기` : '맛집 전체보기'}
             </Link>
           </div>
 
