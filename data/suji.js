@@ -28558,9 +28558,9 @@ const restaurants = [
     ],
     "naverPlaceId": "2012391563",
     "naverUrl": "https://map.naver.com/v5/entry/place/2012391563",
-    "menuItems": [],
+    "menuItems": [{"menuName": "버터떡", "price": 1800, "description": "겉은 콰작 속은 쫄깃한 버터떡"}, {"menuName": "민트 초코 샌드", "price": 0, "description": "반민초 분들도 도전 해볼수 있는 민초샌드입니다"}, {"menuName": "후르츠 샌드", "price": 0, "description": "쫀극한 쌀 베이글에 상큼한 네가지 과일(계절마다 변동 있습니다)"}, {"menuName": "블루베리 치즈 샌드", "price": 0, "description": "쫀득한 쌀 베이글에 상큼한 블루베리와 치즈의 조합"}, {"menuName": "피스타치오 카다이프 딸기샌드", "price": 0, "description": "매 주 목요일, 금요일, 토요일 나옵니다 🍓🌿"}, {"menuName": "두바이 초코샌드", "price": 0, "description": "매 주 금요일, 토요일 나옵니다 🍫🌿"}, {"menuName": "초코 바나나 샌드", "price": 0, "description": "쫀득한 쌀 베이글에 모두가 맛볼 수 있는 초코 바나나 샌드"}, {"menuName": "말차 딸기 오레오 샌드", "price": 0, "description": "쫀득한 쌀 베이글에 진한 말차 크림과 달콤한 딸기와 오레오"}, {"menuName": "뽀또치즈 샌드", "price": 0, "description": "쫀득한 쌀 베이글에 수제 황치즈 크럼블이 들어간 뽀또 황치즈"}, {"menuName": "딸기 브라우니 샌드", "price": 0, "description": "쫀득한 쌀 베이글에 상큼한 딸기와 딸기크림 조합에 쫀득 달콤한 브라우니 조합"}, {"menuName": "클럽샌드위치", "price": 7800, "description": ""}, {"menuName": "육쪽 마늘 베이글", "price": 6000, "description": "단짠의 정석"}, {"menuName": "소금버터 베이글", "price": 4400, "description": "매일 아침에 굽는 베이글 중 나오자마자 바로 먹어야하는 소금버터 베이글"}, {"menuName": "초코 베이글", "price": 4300, "description": "베이글과 초코의 조합 내부에는 달콤한 초코 청크"}, {"menuName": "블루베리 베이글", "price": 4200, "description": "입에 넣었을 때 블루베리 향이 가득한 베이글"}],
     "keywords": [],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260330_42/17748580576734lnvf_PNG/29E97842-BC8D-4FF0-A700-51E7B6490870.png",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260330_42/17748580576734lnvf_PNG/29E97842-BC8D-4FF0-A700-51E7B6490870.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20260501_215/1777645173321vV6Tw_JPEG/5757B353-2CDE-4097-87EF-9C25544CC865.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20260407_216/1775488123511aGzO5_JPEG/IMG_2179.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20260423_35/1776926947828zymmz_JPEG/IMG_2727.jpeg",
     "updatedAt": "2026-04-01"
   },
   {

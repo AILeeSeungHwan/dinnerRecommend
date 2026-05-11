@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '' }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -606,22 +606,29 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {r.keywords?.length > 0 && (<>
         <h2 style={h2style}>🏷️ 방문자 키워드</h2><div style={{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:24 }}>{r.keywords.map((kw, i) => (<span key={i} style={{ padding:'5px 12px', borderRadius:100, fontSize:'.78rem', background:'linear-gradient(135deg, rgba(99,102,241,.15), rgba(168,85,247,.15))', border:'1px solid rgba(99,102,241,.3)', color:'#a78bfa' }}>{kw}</span>))}</div></>)}
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
-
-
-        {/* 식당 이미지 갤러리 */}
-        {(r.imageUrl || r.imageUrl2) && (
-          <div style={{ display:'flex', gap:8, marginBottom:24, overflow:'hidden', borderRadius:12 }}>
-            {r.imageUrl && (
-              <div style={{ flex:1, minWidth:0 }}>
-                <img
-                  src={r.imageUrl}
-                  alt={`${r.name} 대표 사진`}
-                  loading="lazy"
-                  style={{ width:'100%', height:220, objectFit:'cover', display:'block', borderRadius: r.imageUrl2 ? '12px 0 0 12px' : 12 }}
-                  onError={(e) => { e.target.parentElement.style.display = 'none' }}
-                />
-              </div>
-            )}
+        {/* 식당 이미지 갤러리 (최대 4장 분배) */}
+        {(() => {
+          const imgs = [r.imageUrl, r.imageUrl2, r.imageUrl3, r.imageUrl4].filter(Boolean)
+          if (!imgs.length) return null
+          const main = imgs[0]
+          const rest = imgs.slice(1, 4)
+          return (
+            <div style={{ display:'grid', gap:8, marginBottom:24, gridTemplateColumns: rest.length === 0 ? '1fr' : rest.length === 1 ? '1fr 1fr' : '2fr 1fr' }}>
+              <img src={main} alt={`${r.name} 대표 사진`} loading="lazy"
+                style={{ width:'100%', height: rest.length ? 320 : 240, objectFit:'cover', borderRadius:12, display:'block' }}
+                onError={(e) => { e.target.style.display = 'none' }} />
+              {rest.length > 0 && (
+                <div style={{ display:'grid', gap:8, gridTemplateRows: `repeat(${rest.length}, 1fr)`, height: 320 }}>
+                  {rest.map((u, idx) => (
+                    <img key={idx} src={u} alt={`${r.name} 사진 ${idx+2}`} loading="lazy"
+                      style={{ width:'100%', height:'100%', objectFit:'cover', borderRadius:12, display:'block', minHeight: 0 }}
+                      onError={(e) => { e.target.style.display = 'none' }} />
+                  ))}
+                </div>
+              )}
+            </div>
+          )
+        })()}
             {r.imageUrl2 && (
               <div style={{ flex:1, minWidth:0 }}>
                 <img

@@ -23,7 +23,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '' }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -612,22 +612,29 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </div>
           </>
         )}
-
-
-        {/* 식당 이미지 갤러리 */}
-        {(r.imageUrl || r.imageUrl2) && (
-          <div style={{ display:'flex', gap:8, marginBottom:24, overflow:'hidden', borderRadius:12 }}>
-            {r.imageUrl && (
-              <div style={{ flex:1, minWidth:0 }}>
-                <img
-                  src={r.imageUrl}
-                  alt={`${r.name} 대표 사진`}
-                  loading="lazy"
-                  style={{ width:'100%', height:220, objectFit:'cover', display:'block', borderRadius: r.imageUrl2 ? '12px 0 0 12px' : 12 }}
-                  onError={(e) => { e.target.parentElement.style.display = 'none' }}
-                />
-              </div>
-            )}
+        {/* 식당 이미지 갤러리 (최대 4장 분배) */}
+        {(() => {
+          const imgs = [r.imageUrl, r.imageUrl2, r.imageUrl3, r.imageUrl4].filter(Boolean)
+          if (!imgs.length) return null
+          const main = imgs[0]
+          const rest = imgs.slice(1, 4)
+          return (
+            <div style={{ display:'grid', gap:8, marginBottom:24, gridTemplateColumns: rest.length === 0 ? '1fr' : rest.length === 1 ? '1fr 1fr' : '2fr 1fr' }}>
+              <img src={main} alt={`${r.name} 대표 사진`} loading="lazy"
+                style={{ width:'100%', height: rest.length ? 320 : 240, objectFit:'cover', borderRadius:12, display:'block' }}
+                onError={(e) => { e.target.style.display = 'none' }} />
+              {rest.length > 0 && (
+                <div style={{ display:'grid', gap:8, gridTemplateRows: `repeat(${rest.length}, 1fr)`, height: 320 }}>
+                  {rest.map((u, idx) => (
+                    <img key={idx} src={u} alt={`${r.name} 사진 ${idx+2}`} loading="lazy"
+                      style={{ width:'100%', height:'100%', objectFit:'cover', borderRadius:12, display:'block', minHeight: 0 }}
+                      onError={(e) => { e.target.style.display = 'none' }} />
+                  ))}
+                </div>
+              )}
+            </div>
+          )
+        })()}
             {r.imageUrl2 && (
               <div style={{ flex:1, minWidth:0 }}>
                 <img
