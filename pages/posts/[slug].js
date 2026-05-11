@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
+import PostThumbnail from '../../components/PostThumbnail'
 // PageTracker 중복 제거 — _app.js에서 전역 트래킹
 import posts from '../../data/posts'
 
@@ -291,23 +292,42 @@ function EndingSection({ html, relatedPosts }) {
   )
 }
 
+const REGION_KO = {
+  samseong:'삼성역', jamsil:'잠실', pangyo:'판교', suji:'수지',
+  gangnam:'강남역', yeongtong:'영통', mangpo:'망포', yeongtongGu:'영통구청',
+}
+
 // ── 섹션 렌더러 ──────────────────────────────────────────────────
-function renderSection(section, idx, allSections, relatedPosts) {
+function renderSection(section, idx, allSections, relatedPosts, meta) {
   switch (section.type) {
     case 'intro':
       return (
-        <div
-          key={idx}
-          className="post-body"
-          style={{
-            padding: 0,
-            maxWidth: 'none',
-            fontSize: '1rem',
-            lineHeight: 1.8,
-            color: 'var(--text)',
-          }}
-          dangerouslySetInnerHTML={{ __html: section.html }}
-        />
+        <div key={idx}>
+          <div
+            className="post-body"
+            style={{
+              padding: 0,
+              maxWidth: 'none',
+              fontSize: '1rem',
+              lineHeight: 1.8,
+              color: 'var(--text)',
+            }}
+            dangerouslySetInnerHTML={{ __html: section.html }}
+          />
+          {meta && (
+            <div style={{ display:'flex', justifyContent:'center', margin:'24px 0' }}>
+              <div style={{ width:'min(420px, 100%)' }}>
+                <PostThumbnail
+                  imageUrl={meta.thumbnail}
+                  region={REGION_KO[meta.region] || ''}
+                  category={meta.category}
+                  slug={meta.slug}
+                  size="100%"
+                />
+              </div>
+            </div>
+          )}
+        </div>
       )
 
     case 'toc':
@@ -652,7 +672,7 @@ export default function PostPage({ meta, sections, related }) {
                 const filtered = sections.filter(s => s.type !== 'ad')
                 const mid = Math.floor(filtered.length / 2)
                 return filtered.map((section, idx) => {
-                  const el = renderSection(section, idx, sections, related)
+                  const el = renderSection(section, idx, sections, related, meta)
                   if (idx === mid) {
                     return (
                       <div key={'mid-ad-' + idx}>
@@ -671,7 +691,7 @@ export default function PostPage({ meta, sections, related }) {
               let h2Count = 0
               return sections.map((section, idx) => {
                 if (section.type === 'ad') return null
-                const el = renderSection(section, idx, sections, related)
+                const el = renderSection(section, idx, sections, related, meta)
                 if (section.type === 'h2') {
                   const currentH2 = h2Count
                   h2Count++

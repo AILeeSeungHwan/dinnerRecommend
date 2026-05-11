@@ -852,8 +852,17 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
         if rv_quote:
             parts.append(f'<p style="border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem">{esc(rv_quote)}</p>')
 
-    # ⑥ 상세 페이지 링크
-    parts.append(f'<p><a href="{link}" style="color:var(--primary);font-weight:600">→ {esc(name)} 메뉴·리뷰·위치 자세히 보기</a></p>')
+    # ⑥ 상세 페이지 — 누르고 싶은 버튼 UI
+    parts.append(
+        f'<div style="margin:18px 0 8px;text-align:center">'
+        f'<a href="{link}" style="display:inline-flex;align-items:center;gap:8px;'
+        f'padding:13px 26px;border-radius:12px;'
+        f'background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);'
+        f'color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;'
+        f'box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s">'
+        f'🍽 {esc(name)} 메뉴·리뷰·위치 보기 →</a>'
+        f'</div>'
+    )
 
     return ''.join(parts)
 
