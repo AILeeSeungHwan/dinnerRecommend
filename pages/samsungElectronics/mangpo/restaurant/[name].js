@@ -629,19 +629,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             </div>
           )
         })()}
-            {r.imageUrl2 && (
-              <div style={{ flex:1, minWidth:0 }}>
-                <img
-                  src={r.imageUrl2}
-                  alt={`${r.name} 음식 사진`}
-                  loading="lazy"
-                  style={{ width:'100%', height:220, objectFit:'cover', display:'block', borderRadius: r.imageUrl ? '0 12px 12px 0' : 12 }}
-                  onError={(e) => { e.target.parentElement.style.display = 'none' }}
-                />
-              </div>
-            )}
-          </div>
-        )}
 
         {/* 메뉴 & 가격 */}
         <h2 style={h2style}>🍽️ 메뉴 & 가격</h2>
