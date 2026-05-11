@@ -1077,7 +1077,12 @@ def _h2_candidates(r, category):
     name = r['name']
     tags = set(r.get('tags', []) or [])
     moods = set(r.get('moods', []) or [])
-    rtype = (r.get('type', '') or '').split(',')[0].strip()
+    # cat 필드 우선 (한식 type이지만 cat=일식 같은 케이스 보정)
+    cat_field = r.get('cat')
+    cat_val = ''
+    if isinstance(cat_field, list) and cat_field: cat_val = cat_field[0]
+    elif isinstance(cat_field, str): cat_val = cat_field
+    rtype = cat_val or (r.get('type', '') or '').split(',')[0].strip()
     rating = r.get('rating', 0) or 0
     cnt = r.get('reviewCount', 0) or 0
     price = r.get('priceRange', '') or ''
@@ -1252,15 +1257,8 @@ def generate_ending(post_data, related_posts):
         f'아래 관련 글도 함께 참고해 주시기 바랍니다.'
     )
 
-    links = []
-    for rp in related_posts:
-        links.append(f'<li><a href="/posts/{rp["slug"]}">{esc(rp["title"].split("|")[0].strip())}</a></li>')
-
-    # 지역 메인 링크
-    if region_path:
-        links.append(f'<li><a href="{region_path}">{esc(rname)} 전체 맛집 보기</a></li>')
-
-    return f'<p>{esc(closing)}</p><ul>{"".join(links)}</ul>'
+    # 관련글 카드는 React EndingSection에서 처리. ending HTML은 마무리 멘트만.
+    return f'<p>{esc(closing)}</p>'
 
 # ── CTA 생성 ────────────────────────────────────────────────────
 def generate_cta(post_data):
@@ -1389,16 +1387,16 @@ for post_data in all_posts_meta:
         h2_title, h2_suffix = make_h2_title(r, category, used_suffixes=used_suffixes)
         used_suffixes.add(h2_suffix)
         h2_id = safe_id(r['name'])
-        # 이미지 우선순위: 식당 데이터의 imageUrl/imageUrl2 → post-images.json 폴백
+        # 이미지 — 최대 4장 (imageUrl/2/3/4 + post-images.json 폴백)
         r_images = []
-        for _key in ('imageUrl', 'imageUrl2'):
+        for _key in ('imageUrl', 'imageUrl2', 'imageUrl3', 'imageUrl4'):
             _u = (r.get(_key) or '').strip()
-            if _u:
+            if _u and _u not in r_images:
                 r_images.append(_u)
-        # post-images.json에 추가 이미지가 있으면 폴백/보강
         for _u in post_images.get(r['name'], []):
             if _u and _u not in r_images:
                 r_images.append(_u)
+        r_images = r_images[:6]
 
         sections.append({
             'type': 'h2',
@@ -1407,11 +1405,12 @@ for post_data in all_posts_meta:
             'gradientStyle': GRADIENTS[(i + 1) % len(GRADIENTS)],
         })
 
-        # 첫 번째 이미지: h2 바로 아래 — 항상 1개 표시
+        # 이미지 캐러셀 — h2 바로 아래 (srcs 배열로 전달)
         if r_images:
             sections.append({
                 'type': 'image',
-                'src': r_images[0],
+                'src': r_images[0],   # 폴백 호환
+                'srcs': r_images,     # 캐러셀용 다중
                 'alt': f'{r["name"]} 대표 사진',
                 'caption': f'{r["name"]}',
             })
@@ -1425,15 +1424,6 @@ for post_data in all_posts_meta:
             'type': 'body',
             'html': body_html,
         })
-
-        # 두 번째 이미지: 주요 식당만 본문 뒤에 추가
-        if is_main and len(r_images) >= 2:
-            sections.append({
-                'type': 'image',
-                'src': r_images[1],
-                'alt': f'{r["name"]} 음식 사진',
-                'caption': f'{r["name"]} 메뉴',
-            })
 
     # 4. 비교표
     if len(restaurants) >= 2:

@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "청와옥-석촌호수직영점",
-      text: "청와옥 석촌호수직영점 — 고기 전문점",
+      text: "청와옥 석촌호수직영점 — 육류 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -85,7 +85,7 @@ const post = {
     {
       type: 'h2',
       id: "방이옥",
-      text: "방이옥 — 고기구이·삼겹살 전문점",
+      text: "방이옥 — 고기구이 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -135,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/jamsil-japanese-sushi-2026\">잠실 일식·스시 맛집 추천 5선</a></li><li><a href=\"/posts/jamsil-gukbap-best-2026\">잠실 국밥·해장국 맛집 추천 5선</a></li><li><a href=\"/posts/jamsil-date-restaurant-2026\">잠실 데이트 맛집 추천 5곳</a></li><li><a href=\"/posts/jamsil-date-course-complete-2026\">잠실 데이트 코스 완벽 가이드 2026</a></li><li><a href=\"/dinner/jamsil\">잠실 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }

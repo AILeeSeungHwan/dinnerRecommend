@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Layout from '../../components/Layout'
 import PostThumbnail from '../../components/PostThumbnail'
+import ImageCarousel from '../../components/ImageCarousel'
 // PageTracker 중복 제거 — _app.js에서 전역 트래킹
 import posts from '../../data/posts'
 
@@ -256,36 +257,24 @@ function EndingSection({ html, relatedPosts }) {
         dangerouslySetInnerHTML={{ __html: html }}
       />
       {relatedPosts && relatedPosts.length > 0 && (
-        <div style={{ marginTop: 20, borderTop: '1px solid var(--border)', paddingTop: 16 }}>
-          <p
-            style={{
-              fontSize: '.75rem',
-              color: 'var(--muted)',
-              fontWeight: 700,
-              marginBottom: 10,
-              letterSpacing: '.06em',
-              textTransform: 'uppercase',
-            }}
-          >
-            관련 글
-          </p>
-          <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 6 }}>
+        <div style={{ marginTop: 24, borderTop: '1px solid var(--border)', paddingTop: 20 }}>
+          <p style={{ fontSize: '.78rem', color: 'var(--muted)', fontWeight: 700, marginBottom: 14, letterSpacing: '.06em', textTransform: 'uppercase' }}>관련 글</p>
+          <div style={{ display:'grid', gridTemplateColumns:'repeat(3, 1fr)', gap:10 }}>
             {relatedPosts.map((p) => (
-              <li key={p.slug}>
-                <Link
-                  href={`/posts/${p.slug}`}
-                  style={{
-                    fontSize: '.88rem',
-                    color: 'var(--primary)',
-                    textDecoration: 'none',
-                    lineHeight: 1.5,
-                  }}
-                >
-                  → {p.title}
-                </Link>
-              </li>
+              <Link key={p.slug} href={`/posts/${p.slug}`} style={{ textDecoration:'none' }}>
+                <div style={{ display:'flex', flexDirection:'column', gap:6, background:'var(--surface2)', border:'1px solid var(--border)', borderRadius:12, padding:8, cursor:'pointer', height:'100%' }}>
+                  <PostThumbnail
+                    imageUrl={p.thumbnail}
+                    region={REGION_KO[p.region] || ''}
+                    category={p.category}
+                    slug={p.slug}
+                    size="100%"
+                  />
+                  <div style={{ fontSize:'.78rem', fontWeight:700, color:'var(--text)', lineHeight:1.4, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.title}</div>
+                </div>
+              </Link>
             ))}
-          </ul>
+          </div>
         </div>
       )}
     </div>
@@ -360,9 +349,9 @@ function renderSection(section, idx, allSections, relatedPosts, meta) {
 
     case 'image':
       return (
-        <ImageSection
+        <ImageCarousel
           key={idx}
-          src={section.src}
+          imgs={section.srcs || [section.src]}
           alt={section.alt}
           caption={section.caption}
         />
@@ -413,7 +402,7 @@ export async function getStaticProps({ params }) {
         (p.category === meta.category || p.region === meta.region)
     )
     .slice(0, 3)
-    .map((p) => ({ slug: p.slug, title: p.title }))
+    .map((p) => ({ slug: p.slug, title: p.title, region: p.region, category: p.category, thumbnail: p.thumbnail, date: p.date }))
 
   return {
     props: {
