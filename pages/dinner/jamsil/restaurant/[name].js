@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
-import PageTracker from '../../../../components/PageTracker'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -472,7 +471,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   return (
     <Layout title={`${r.name} | 잠실 ${r.type}`} description={metaDesc} canonical={pageUrl}>
-      <PageTracker slug={`jamsil-restaurant-${encodeURIComponent(r.name)}`} title={`${r.name} | 잠실 ${r.type}`} />
       <Head>
         <meta name="keywords" content={`${r.name}, 잠실 ${r.type}, 강남 ${r.type}, ${r.tags?.join(', ')}`} />
         <meta property="og:title" content={`${r.name} — 잠실 ${r.type} 맛집`} />

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
-import PageTracker from '../../../../components/PageTracker'
 import restaurants from '../../../../data/yeongtongGu'
 
 export async function getStaticPaths() {
@@ -473,7 +472,6 @@ export default function RestaurantPage({ restaurant: r, similar }) {
 
   return (
     <Layout title={`${r.name} | 영통구청 ${r.type}`} description={metaDesc} canonical={pageUrl}>
-      <PageTracker slug={`yeongtongGu-restaurant-${encodeURIComponent(r.name)}`} title={`${r.name} | 영통구청 ${r.type}`} />
       <Head>
         <meta name="keywords" content={`${r.name}, 영통구청 ${r.type}, 강남 ${r.type}, ${r.tags?.join(', ')}`} />
         <meta property="og:title" content={`${r.name} — 영통구청 ${r.type} 맛집`} />
