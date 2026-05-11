@@ -80,31 +80,34 @@ export default function PostThumbnail({ imageUrl, region, category, slug, size =
           background:'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.15) 100%)',
         }}
       />
-      {/* 텍스트 — 좌측 정렬, 하단 배치 */}
+      {/* 텍스트 — 좌측 정렬, 하단 배치, 영역 내 강제 수용 */}
       <div
         style={{
           position:'absolute', left:0, right:0, bottom:0,
-          padding:'12px 14px',
+          padding:'10px 12px',
           display:'flex', flexDirection:'column',
           alignItems:'flex-start', textAlign:'left',
           gap: 2,
+          maxWidth:'100%', overflow:'hidden',
         }}
       >
         <div style={{
           fontSize: fontSub, fontWeight: 600, color:'rgba(255,255,255,0.85)',
-          letterSpacing:'0.02em', lineHeight: 1.2,
-          textShadow:'0 1px 3px rgba(0,0,0,0.5)',
+          lineHeight: 1.2, textShadow:'0 1px 3px rgba(0,0,0,0.6)',
+          maxWidth:'100%', overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap',
         }}>{lines[0]}</div>
         <div style={{
           fontSize: fontMain, fontWeight: 900, color: accent,
-          letterSpacing:'-0.02em', lineHeight: 1.18,
-          textShadow:'0 2px 6px rgba(0,0,0,0.6)',
-          maxWidth:'100%', wordBreak:'keep-all', overflowWrap:'break-word',
+          letterSpacing:'-0.02em', lineHeight: 1.15,
+          textShadow:'0 2px 6px rgba(0,0,0,0.7)',
+          maxWidth:'100%',
+          wordBreak:'keep-all', overflowWrap:'break-word',
+          display:'-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient:'vertical', overflow:'hidden',
         }}>{lines[1]}</div>
         <div style={{
           fontSize: fontSub, fontWeight: 600, color:'#fff',
-          letterSpacing:'0.02em', lineHeight: 1.2,
-          textShadow:'0 1px 3px rgba(0,0,0,0.5)',
+          lineHeight: 1.2, textShadow:'0 1px 3px rgba(0,0,0,0.6)',
+          maxWidth:'100%', overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap',
         }}>{lines[2]}</div>
       </div>
     </div>
