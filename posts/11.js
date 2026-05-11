@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "잠실설렁탕",
-      text: "잠실설렁탕 — 해장·국밥 한 그릇",
+      text: "잠실설렁탕 — 시그니처 진국설렁탕 12,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {

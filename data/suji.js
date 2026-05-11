@@ -7738,7 +7738,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1441277656",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230727_10/1690434558671Evr3N_PNG/SET1.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20240105_78/1704434970564eacB2_PNG/%B9%B0_%BA%F1%BA%F6%B3%C3%B8%E9_new.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20230727_71/1690434714683ViNn4_PNG/%B0%E8%B6%F5%C2%F21.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20240426_31/1714109845805IsNBT_PNG/%B1%E8%C4%A1%C2%EE%B0%B3.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -8831,7 +8831,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/19866762",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_108/17709810956177GcTt_JPEG/IMG_4040.jpeg", "imageUrl2": "https://ldb-phinf.pstatic.net/20260213_298/17709811187253Ogov_JPEG/IMG_4041.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20251213_250/1765555671677urT3S_PNG/%C4%B8%C3%B3.PNG", "imageUrl4": "https://ldb-phinf.pstatic.net/20241009_8/1728416285093k6lra_JPEG/IMG_7868.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -11674,7 +11674,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/19301985",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250315_20/1742023614134UXPqe_JPEG/1000010066.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20250315_62/1742023758648GRa0y_JPEG/1000010065.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250315_229/1742023861038L5FTB_JPEG/1000010164.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250315_140/17420239483538TXEF_JPEG/1000010165.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -13842,7 +13842,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1728682180",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231101_143/16988095673623Yask_JPEG/1234.JPG", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/eyes20220119222026.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -14493,7 +14493,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/19299708",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20230423_37/1682224019234meRzV_JPEG/2F2D4EB5-AD26-405C-8AC4-7B73A6463E80.jpeg", "imageUrl2": "https://ldb-phinf.pstatic.net/20230423_193/1682223916143bdQbH_JPEG/8803B55B-7471-4260-A684-596D5D52328C.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20230423_137/1682223936761f9QaQ_JPEG/794972F6-830B-403D-986C-E08153BFC405.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20230423_216/1682224002431mmTYM_JPEG/4BE7A073-E813-4658-BA45-A81021A0301F.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -19814,7 +19814,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1627876552",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260414_14/1776129254720sfI1C_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%C7%C1%B7%A9%C5%A9%C4%A1%C5%B2%B9%F6%B0%C5.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20260414_195/1776129703227JHfjA_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%C4%A1%C6%FA%B7%B9%C4%A1%C5%B2%B9%F6%B0%C5.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20260414_181/1776129777217XiWSB_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%BF%C0%B2%BF%B3%EB%B9%CC%BD%AC%B8%B2%C7%C1%B9%F6%B0%C5.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20260414_268/1776135368087pFfta_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%BC%BC%C6%AE_%C7%C1%B7%A9%C5%A9%C4%A1%C5%B2%B9%F6%B0%C5.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -19930,7 +19930,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1349162595",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251111_264/1762858111770uosXm_JPEG/IMG_8375.jpeg", "imageUrl2": "https://ldb-phinf.pstatic.net/20251111_274/1762858240979zS4PH_JPEG/IMG_8375.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20251111_210/1762858373278Konds_JPEG/IMG_8379.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20251111_231/1762858670883Pputl_JPEG/IMG_8382.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -22472,7 +22472,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1313052984",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -23121,7 +23121,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/32874160",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260507_189/1778147161418OMSlj_JPEG/IMG_2473.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20260507_150/1778147062264oIpAT_JPEG/IMG_2881.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250927_180/1758937785332tYngx_JPEG/IMG_3359.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20260115_21/1768489175197O0CT1_PNG/IMG_2885.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -23872,7 +23872,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/692465080",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260326_153/1774524079650YxEBK_PNG/27096.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20260303_178/1772544807444oMyFC_JPEG/26348.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20260409_69/1775730155157VJaV1_PNG/27318.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20260402_12/17751372843473IBiT_PNG/27250.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -24814,7 +24814,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1298881522",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250108_31/1736333120303i7uXv_JPEG/%B8%F0%B5%EB%BB%E7%BD%C3%B9%CC.JPG", "imageUrl2": "https://ldb-phinf.pstatic.net/20250108_176/173633469305036w0k_JPEG/IMG_4912_%281%29.JPG", "imageUrl3": "https://ldb-phinf.pstatic.net/20250108_108/1736333438387XcIYC_JPEG/%B9%E6%BE%EE%BB%E7%BD%C3%B9%CC.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250108_286/1736333467859gG6tt_JPEG/%BF%AC%BE%EE%BB%E7%BD%C3%B9%CC.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -25107,7 +25107,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1474484955",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20220812_18/1660305627805phKGa_JPEG/%C2%CC%B8%E9.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20220812_120/16603058010303LlcV_JPEG/%B1%E8%B9%E4.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20220812_296/1660305816326tdcRF_JPEG/%C2%FC%C4%A1%B1%E8%B9%E4.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20220812_3/16603058345196Ag09_JPEG/%B6%AF%C3%CA%B1%E8%B9%E4.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -25165,7 +25165,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1069465115",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20211125_106/1637838506267D5hpF_JPEG/%B4%EB%C5%EB%B7%C9_%BC%F6%C1%A4%BA%BB.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20211125_256/1637838390949uUSK3_JPEG/KakaoTalk_20211124_150237744_03.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20211125_16/1637838662717tkbtE_JPEG/%BD%CC%B1%DB%C3%CA%B9%E4.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20211125_180/1637838612368NpXUE_JPEG/%B0%A3%B4%DC%C3%CA%B9%E4.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -25281,7 +25281,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1361802997",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250120_162/1737345036973NfuC6_PNG/%B8%B6%B6%F3%C5%C1-%B4%A9%B3%A2.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20250120_139/17373449984717Q4Q4_PNG/%B8%B6%B6%F3%BC%A7%B1%C5-%B4%A9%B3%A2.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20250120_70/1737344929715fIK2L_PNG/%B8%B6%B6%F3%B9%DD-%B4%A9%B3%A2.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20250120_289/1737345093728OKQCD_PNG/%B2%E3%B9%D9%B7%CE%BF%EC-%B4%A9%B3%A2.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -27270,7 +27270,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1904645702",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260403_256/1775182070783czFrb_JPEG/%28%BC%F8%BB%EC%29%BF%EC%B5%B5_%B6%A5%C4%E1_%C4%A1%C5%B2_500x500-06.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20260403_116/1775182152757XTmhP_JPEG/%BF%EC%B5%B5_%B6%A5%C4%E1_%C4%A1%C5%B2_500x500-07.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250417_155/1744864471211rvWe3_JPEG/%B1%E2%C7%C1%C6%BC%C4%DC_%C4%DE%BA%F1-05.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20241017_54/1729124089793ikqzU_PNG/%B0%A5%B8%AF_%C0%CE_%B4%F5_%B5%F6%28%BB%C0%29.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -28499,7 +28499,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/20231440",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260414_14/1776129254720sfI1C_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%C7%C1%B7%A9%C5%A9%C4%A1%C5%B2%B9%F6%B0%C5.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20260414_195/1776129703227JHfjA_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%C4%A1%C6%FA%B7%B9%C4%A1%C5%B2%B9%F6%B0%C5.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20260414_181/1776129777217XiWSB_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%B4%DC%C7%B0_%BF%C0%B2%BF%B3%EB%B9%CC%BD%AC%B8%B2%C7%C1%B9%F6%B0%C5.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20260414_268/1776135368087pFfta_PNG/%B9%E8%B4%DE%C0%C7%B9%CE%C1%B7_%BC%BC%C6%AE_%C7%C1%B7%A9%C5%A9%C4%A1%C5%B2%B9%F6%B0%C5.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -28738,7 +28738,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1866862636",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20231107_160/1699364098422wGdIB_JPEG/BR_%C5%A9%B8%AE%BD%BA%C7%C71385S.jpg", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -28912,7 +28912,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1349487045",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260210_240/1770698526740Tmjji_PNG/KakaoTalk_20260209_091709186.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20260210_118/1770698560662yq5gq_PNG/KakaoTalk_20260205_180735977.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20251119_219/17635500977689wX1v_PNG/KakaoTalk_20241111_132736638_01.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20250505_20/1746409344577QNkn9_JPEG/IMG_4188.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29028,7 +29028,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/37165646",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250526_13/1748241146445ezDwJ_JPEG/01%B0%F1%B9%F0%C0%CC%B3%AB%C1%F6%B9%AB%C4%A7%B0%FA%BC%F6%C0%B0_02.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20250526_50/1748241085187Aomxg_JPEG/03%BC%F6%C1%A6%B0%ED%C3%DF%C6%A2%B1%E8.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250526_280/1748241047341YkJ8g_JPEG/06%B5%BF%B9%E9%BA%B8%BD%D3.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250526_284/1748241007840qTwvT_JPEG/07%B5%BF%B9%E9%BB%EF%C7%D5.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29276,7 +29276,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/36963720",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_293/177257808062525Mfn_JPEG/2._%BC%D2%B9%D9_01.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20260315_210/1773561468337SCKkw_PNG/16731.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20260304_211/1772578128095Lc4oA_JPEG/3._%BF%C2%BC%D2%B9%D9_%BF%EC%B5%BF_01.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20260304_173/1772578190851e3XNu_PNG/%C4%B8%C3%B3.PNG",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29505,7 +29505,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1036322666",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_49/1760580843448baDMG_JPEG/%BE%E7%C6%F2%C7%D8%C0%E5%B1%B92.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20251016_110/1760580770970UUgE9_JPEG/%B3%BB%C0%E5%C5%C1.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20251016_109/1760580752253U39XM_JPEG/%BB%C0%C7%D8%C0%E5%B1%B9.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20251021_95/1761011191791E0uI4_JPEG/%BC%F8%B4%EB%C7%D8%C0%E5%B1%B9%28%C5%AC%29.jpg",
     "updatedAt": "2026-04-01",
     "naverBlogCnt": 1
   },
@@ -29627,7 +29627,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/2080883252",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/couch_and_lamp20220119222025.png",
     "updatedAt": "2026-04-01",
     "naverBlogCnt": 1
   },
@@ -29689,7 +29689,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/37642745",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/meat_cut20220119224257.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjAxMTRfMjY1%2FMDAxNzY4MzU5MzM0ODM2.iUctdJ1zr_Rnylu5ipxOyqKUkkaz-IG0XVCzwIeC2Pwg.Jb6x-uhSkiX5MbiBeGoRaQyHzRX-iTjjhzsVWZV73d8g.JPEG%2F900%25A3%25DF1768359332207.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29747,7 +29747,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1462894379",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29805,7 +29805,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1762099281",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/green_heart20220119222224.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29863,7 +29863,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1859846009",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29921,7 +29921,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/35545341",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20210328_51/1616906029972O7SyI_JPEG/FGaS-qDppf-AaVa1SQv2mxM7.jpeg.jpg", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -29979,7 +29979,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1249469888",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250407_206/1743985057132N2sD9_JPEG/IMG_9855.jpeg", "imageUrl2": "https://ldb-phinf.pstatic.net/20250407_291/1743985032335CSwjL_JPEG/59E70F43-2604-4A85-885B-33EEB934E8F9.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250407_88/1743985032289ILM36_JPEG/E111D183-B2CE-464B-8938-175ED7D53C90.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250712_83/1752295184015Bxx5M_JPEG/IMG_1483.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30153,7 +30153,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1557901171",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30211,7 +30211,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1250376582",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/park_sign20220119222222.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30269,7 +30269,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1664868558",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250210_2/173914967387821zbV_PNG/%BF%AA%C0%FC%B5%B7%B1%EE%BD%BA.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20250715_75/1752570307358RwbBE_PNG/%C1%A6%C0%B0%B5%B7%B1%EE%BD%BA.png", "imageUrl3": "https://ldb-phinf.pstatic.net/20250210_248/1739149688149z1xcO_PNG/%B4%F5%BA%ED%C4%A1%C1%EE%B5%B7%B1%EE%BD%BA.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20250210_152/17391498826595Qkxa_PNG/%C0%AF%B8%B0%B1%E2%B5%B7%B1%EE%BD%BA.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30538,7 +30538,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1464760893",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30654,7 +30654,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1811852443",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20251017_214/1760668341818Tx3Fl_JPEG/1760667017687.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20251017_208/1760668437449gkO35_JPEG/1760667018637.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20251017_89/1760668612346k2N2F_JPEG/Screenshot_20251015_144506_Chrome.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20251017_294/1760668680171C1i7I_PNG/file_00000000cb8062069c44d753d34c0b56.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30712,7 +30712,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1050775310",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ldb-phinf.pstatic.net/20201027_221/16037776862011vTMx_JPEG/f_DhP0pPkNBSw4t81oyfK69L.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20201027_222/1603777727752bEv8G_JPEG/Y2MTJfpVxRLJB9_qTDMXf8io.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20210405_257/1617579821202YCpeE_JPEG/IB8sal6UCvcJcggCUz6OtmjP.jpeg.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -30944,7 +30944,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1162051465",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31122,7 +31122,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1576741325",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/park_sign20220119222222.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/eyes20220119222026.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31180,7 +31180,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1064880755",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31238,7 +31238,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/20581539",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20260127_158/1769503687795znNqV_JPEG/%BB%EC%C4%DA%B1%E2%B5%C5%C1%F6%B1%B9%B9%E4.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20260127_197/1769503785794yzO9q_JPEG/%B8%D3%B8%B4%B0%ED%B1%E2%B5%C5%C1%F6%B1%B9%B9%E4.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20260410_198/17757997265853KIFh_PNG/%B9%E8%B9%CE_%BC%F8%B4%EB_%BB%EC%C4%DA%B1%E2.png", "imageUrl4": "https://ldb-phinf.pstatic.net/20260410_2/1775799737666VkGwR_PNG/%B9%E8%B9%CE_%BC%F8%B4%EB_%B8%D3%B8%B4%B0%ED%B1%E2.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31296,7 +31296,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1505839248",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250227_267/1740630655178dNmtV_JPEG/20250227_132949.jpg", "imageUrl2": "https://ldb-phinf.pstatic.net/20250227_106/1740630705593b2y0c_JPEG/20250227_132949.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250227_44/1740630732734ShRo7_JPEG/20250227_133039_1.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250227_175/1740630773992Q9Hwk_JPEG/20250227_133039_3.jpg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31354,7 +31354,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/66400240",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ldb-phinf.pstatic.net/20250802_291/1754125057409hDJ5T_JPEG/IMG_0453.jpeg", "imageUrl2": "https://ldb-phinf.pstatic.net/20250802_133/1754123318771Fqgmw_JPEG/IMG_0452.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20250802_114/1754122406659FAJfK_JPEG/IMG_1470.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20250802_57/1754122406348qVU4k_JPEG/C070CCD5-98FC-4772-A085-C9FADC300131.jpeg",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31412,7 +31412,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1910322280",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
     "updatedAt": "2026-04-01"
   },
   {
@@ -31470,7 +31470,7 @@ const restaurants = [
     "naverUrl": "https://map.naver.com/v5/entry/place/1885779286",
     "menuItems": [],
     "keywords": [],
-    "imageUrl": "",
+    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png",
     "updatedAt": "2026-04-01"
   },
   {

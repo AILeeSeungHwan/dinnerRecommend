@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "아사히-스시",
-      text: "아사히 스시 — 리뷰 513건 검증 맛집",
+      text: "아사히 스시 — 평점 4.9·리뷰 513건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "김태완스시",
-      text: "김태완스시 — 오마카세 코스 운영",
+      text: "김태완스시 — 스시·오마카세 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
