@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
+import FaqAccordion from '../../../../components/FaqAccordion'
 import restaurants from '../../../../data/jamsil'
 
 export async function getStaticPaths() {
@@ -738,17 +739,12 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         {/* FAQ */}
                 <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
-        {[
+        <FaqAccordion items={[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `서울특별시 송파구 ${r.addr}에 위치합니다. 잠실${r.exit4 ? ' 인근' : ' 인근'}입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다. 메뉴와 구성에 따라 다를 수 있습니다.` : '정확한 가격은 매장에 문의하거나 방문 시 메뉴판을 확인해 주세요.'],
           [`${r.name} 혼밥 가능한가요?`, r.moods?.includes('혼밥') ? '네, 혼밥하기 좋은 분위기입니다. 혼자 방문해도 전혀 어색하지 않아요.' : '매장 좌석 구성에 따라 다르니 방문 전 확인을 권장합니다.'],
-        ].map(([q, a], i) => (
-          <div key={i} style={{ marginBottom:14, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, overflow:'hidden' }}>
-            <div style={{ padding:'12px 16px', fontWeight:700, fontSize:'.88rem', borderBottom:'1px solid var(--border)' }}>Q. {q}</div>
-            <div style={{ padding:'12px 16px', fontSize:'.86rem', color:'var(--muted)', lineHeight:1.7 }}>A. {a}</div>
-          </div>
-        ))}
+        ]} />
 
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
