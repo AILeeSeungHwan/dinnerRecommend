@@ -32,13 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.9점에 리뷰 244건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 75,000원에서 75,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원과 비교하면 약 51,000원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">감자 냉수프</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">보리 샐러드</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">찐 전복과 가지</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr></tbody></table><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 17:00에 영업 시작 · 위치 삼평동 740</p><p>방문 후기에서 자주 언급되는 부분은 분위기·재방문·맛 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"격식있는 분위기라 와인이나 사케 곁들이기도 좋아서 기분낼 때 방문하기 너무 좋네요\"고 적어두었습니다.</p><p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\" style=\"color:var(--primary);font-weight:600\">→ 꿰다 판교아브뉴프랑점 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20260302_110/1772424870487G1KUC_JPEG/8514E5B2-3A8B-4836-8E4F-C3AAD405EBAE.jpg",
-      alt: "꿰다 판교아브뉴프랑점 음식 사진",
-      caption: "꿰다 판교아브뉴프랑점 메뉴",
+      html: "<p><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.9점에 리뷰 244건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 75,000원에서 75,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원과 비교하면 약 51,000원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">감자 냉수프</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">보리 샐러드</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">찐 전복과 가지</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr></tbody></table><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 17:00에 영업 시작 · 위치 삼평동 740</p><p>방문 후기에서 자주 언급되는 부분은 분위기·재방문·맛 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"격식있는 분위기라 와인이나 사케 곁들이기도 좋아서 기분낼 때 방문하기 너무 좋네요\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 꿰다 판교아브뉴프랑점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -54,17 +48,17 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 5:30~10:00 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary);font-weight:600\">→ 우화 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 5:30~10:00 · 위치 동판교로177번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/우화\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 우화 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "스시혼",
-      text: "스시혼 — 해산물·일식 전문점",
+      text: "스시혼 — 일식 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/스시혼\">스시혼</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 삼평동 740</p><p><a href=\"/pangyo/restaurant/스시혼\" style=\"color:var(--primary);font-weight:600\">→ 스시혼 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/스시혼\">스시혼</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 삼평동 740</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/스시혼\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 스시혼 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -74,29 +68,29 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20250622_136/17505660891702rdqk_JPEG/%C1%A4%C0%DA%C1%A1_%BF%DC%B0%FC2.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "심양 판교점 대표 사진",
       caption: "심양 판교점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>生양등심꼬치 250g 23,000원</strong>입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 43,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 生양등심꼬치 250g 23,000원, 오리지날양꼬치 200g 18,000원, 모듬꼬치 43,000원 등이 있습니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 15:00에 영업 시작 · 위치 삼평동 656</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재방문 쪽입니다.</p><p><a href=\"/pangyo/restaurant/심양 판교점\" style=\"color:var(--primary);font-weight:600\">→ 심양 판교점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>生양등심꼬치 250g 23,000원</strong>입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 43,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 12,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 生양등심꼬치 250g 23,000원, 오리지날양꼬치 200g 18,000원, 모듬꼬치 43,000원 등이 있습니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 15:00에 영업 시작 · 위치 삼평동 656</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛·재방문 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/심양 판교점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 심양 판교점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "삼삼오-판교점",
-      text: "삼삼오 판교점 — 한식 전문점",
+      text: "삼삼오 판교점 — 시그니처 미나리 오징어초무침 18,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20251023_54/17612303171510rJ6F_JPEG/1000015106.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "삼삼오 판교점 대표 사진",
       caption: "삼삼오 판교점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>미나리 오징어초무침 18,000원</strong>입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 9,000원에서 25,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 15,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 미나리 오징어초무침 18,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 16:00에 영업 시작 · 위치 삼평동 684</p><p>방문 후기에서 자주 언급되는 부분은 서비스·분위기·맛 쪽입니다.</p><p><a href=\"/pangyo/restaurant/삼삼오 판교점\" style=\"color:var(--primary);font-weight:600\">→ 삼삼오 판교점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a>은 음식점 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>미나리 오징어초무침 18,000원</strong>입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 9,000원에서 25,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 24,000원보다 약 15,000원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 미나리 오징어초무침 18,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 16:00에 영업 시작 · 위치 삼평동 684</p><p>방문 후기에서 자주 언급되는 부분은 서비스·분위기·맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/삼삼오 판교점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 삼삼오 판교점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -106,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시혼\">스시혼</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">9,000~25,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시혼\">스시혼</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">9,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -135,7 +129,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/posts/pangyo-honbap-budget-2026\">판교역 혼밥 맛집 1만원대 추천</a></li><li><a href=\"/posts/pangyo-date-restaurant-2026\">판교 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/pangyo-chinese-food-2026\">판교역 중식 맛집 추천 5곳</a></li><li><a href=\"/pangyo\">판교 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }

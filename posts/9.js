@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "불고기-온소반",
-      text: "불고기 온소반 — 단체석 운영 회식 식당",
+      text: "불고기 온소반 — 고기구이 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,28 +32,22 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.9점, 리뷰 72건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 8:30 · 위치 A동 불고기온소반</p><p><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"color:var(--primary);font-weight:600\">→ 불고기 온소반 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/9/불고기-온소반-2.jpg",
-      alt: "불고기 온소반 음식 사진",
-      caption: "불고기 온소반 메뉴",
+      html: "<p><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.9점, 리뷰 72건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 8:30 · 위치 A동 불고기온소반</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/불고기 온소반\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 불고기 온소반 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "판교맛집-왕징양다리양꼬치-판교점",
-      text: "판교맛집 왕징양다리양꼬치 판교점 — 중식 전문점",
+      text: "판교맛집 왕징양다리양꼬치 판교점 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>은 중식 카테고리에 속하는 식당으로입니다. 평점 4.9점, 리뷰 35건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 11:00 · 위치 대왕판교로606번길</p><p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"color:var(--primary);font-weight:600\">→ 판교맛집 왕징양다리양꼬치 판교점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a>은 중식 카테고리에 속하는 식당으로입니다. 평점 4.9점, 리뷰 35건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 11:00 · 위치 대왕판교로606번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 판교맛집 왕징양다리양꼬치 판교점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "늘푸른-생선구이",
-      text: "늘푸른 생선구이 — 고기구이 전문점",
+      text: "늘푸른 생선구이 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,13 +58,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 판교역로 145</p><p><a href=\"/pangyo/restaurant/늘푸른 생선구이\" style=\"color:var(--primary);font-weight:600\">→ 늘푸른 생선구이 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/9/늘푸른-생선구이-2.jpg",
-      alt: "늘푸른 생선구이 음식 사진",
-      caption: "늘푸른 생선구이 메뉴",
+      html: "<p><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 AM 11:00 ~ PM 10:00 · 위치 판교역로 145</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/늘푸른 생선구이\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 늘푸른 생선구이 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -86,12 +74,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 5:30~10:00 · 위치 동판교로177번길</p><p><a href=\"/pangyo/restaurant/우화\" style=\"color:var(--primary);font-weight:600\">→ 우화 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/우화\">우화</a>는 고기구이 카테고리에 속하는 식당으로입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 5:30~10:00 · 위치 동판교로177번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/우화\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 우화 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "루프일레븐-roof-11",
-      text: "루프일레븐(ROOF 11) — 이자카야 전문점",
+      text: "루프일레븐(ROOF 11) — 야장 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -102,7 +90,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\">루프일레븐(ROOF 11)</a>는 야장 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 6:00 ~ AM 2:00 · 위치 판교역로 192번길</p><p><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\" style=\"color:var(--primary);font-weight:600\">→ 루프일레븐(ROOF 11) 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\">루프일레븐(ROOF 11)</a>는 야장 카테고리에 속하는 식당으로입니다. 평점 4.5점, 리뷰 2건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 PM 6:00 ~ AM 2:00 · 위치 판교역로 192번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 루프일레븐(ROOF 11) 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -118,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/pangyo/restaurant/순우가\">순우가</a>는 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 대왕판교로645번길</p><p><a href=\"/pangyo/restaurant/순우가\" style=\"color:var(--primary);font-weight:600\">→ 순우가 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/pangyo/restaurant/순우가\">순우가</a>는 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.0점, 리뷰 5건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 22,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(12,000원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 대왕판교로645번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/pangyo/restaurant/순우가\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 순우가 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -128,7 +116,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\">루프일레븐(ROOF 11)</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/순우가\">순우가</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/늘푸른 생선구이\">늘푸른 생선구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/루프일레븐(ROOF 11)\">루프일레븐(ROOF 11)</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/순우가\">순우가</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -157,7 +145,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/posts/pangyo-honbap-budget-2026\">판교역 혼밥 맛집 1만원대 추천</a></li><li><a href=\"/posts/pangyo-date-restaurant-2026\">판교 데이트 레스토랑 추천 5곳</a></li><li><a href=\"/posts/pangyo-chinese-food-2026\">판교역 중식 맛집 추천 5곳</a></li><li><a href=\"/pangyo\">판교 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }

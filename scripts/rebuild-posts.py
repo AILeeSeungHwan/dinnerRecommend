@@ -1389,7 +1389,7 @@ for post_data in all_posts_meta:
         h2_id = safe_id(r['name'])
         # 이미지 — 최대 4장 (imageUrl/2/3/4 + post-images.json 폴백)
         r_images = []
-        for _key in ('imageUrl', 'imageUrl2', 'imageUrl3', 'imageUrl4'):
+        for _key in ('imageUrl','imageUrl2','imageUrl3','imageUrl4','imageUrl5','imageUrl6','imageUrl7','imageUrl8'):
             _u = (r.get(_key) or '').strip()
             if _u and _u not in r_images:
                 r_images.append(_u)

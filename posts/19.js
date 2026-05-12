@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "영포화로-본점",
-      text: "영포화로 본점 — 고기구이 전문점",
+      text: "영포화로 본점 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,13 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.5점에 리뷰 212건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 12:00 PM~10:00 · 위치 덕영대로1556번길</p><p><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\" style=\"color:var(--primary);font-weight:600\">→ 영포화로 본점 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/19/영포화로-본점-2.jpg",
-      alt: "영포화로 본점 음식 사진",
-      caption: "영포화로 본점 메뉴",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.5점에 리뷰 212건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 12:00 PM~10:00 · 위치 덕영대로1556번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 영포화로 본점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -48,24 +42,18 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20250409_102/1744178498641vas2o_PNG/%C0%FC%C3%BC_%BC%D2%C1%D6%BC%A6.png",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "빽돈 망포점 대표 사진",
       caption: "빽돈 망포점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.3점, 리뷰 32건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 망포동 342</p><p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\" style=\"color:var(--primary);font-weight:600\">→ 빽돈 망포점 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "/images/posts/19/빽돈-망포점-1.jpg",
-      alt: "빽돈 망포점 음식 사진",
-      caption: "빽돈 망포점 메뉴",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.3점, 리뷰 32건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 망포동 342</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 빽돈 망포점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "십년한우실비집-수원망포점",
-      text: "십년한우실비집 수원망포점 — 단체석 운영 회식 식당",
+      text: "십년한우실비집 수원망포점 — 고기구이 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -76,12 +64,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 덕영대로1556번길</p><p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\" style=\"color:var(--primary);font-weight:600\">→ 십년한우실비집 수원망포점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 덕영대로1556번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 십년한우실비집 수원망포점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "갈비꽃망포점",
-      text: "갈비꽃망포점 — 고기구이 전문점",
+      text: "갈비꽃망포점 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -92,12 +80,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 영통로200번길</p><p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\" style=\"color:var(--primary);font-weight:600\">→ 갈비꽃망포점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 영통로200번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 갈비꽃망포점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "한마음정육식당-영통점",
-      text: "한마음정육식당 영통점 — 고기구이 전문점",
+      text: "한마음정육식당 영통점 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -108,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 휴무일 · 위치 영통동 봉영로1482번길</p><p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\" style=\"color:var(--primary);font-weight:600\">→ 한마음정육식당 영통점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.1점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 10,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 휴무일 · 위치 영통동 봉영로1482번길</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 한마음정육식당 영통점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -118,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">212건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">32건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/영포화로 본점\">영포화로 본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">212건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/빽돈 망포점\">빽돈 망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">32건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/십년한우실비집 수원망포점\">십년한우실비집 수원망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/갈비꽃망포점\">갈비꽃망포점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/mangpo/restaurant/한마음정육식당 영통점\">한마음정육식당 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">10,000~20,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -147,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/mangpo-budget-lunch-2026\">망포역 가성비 점심 맛집 5선</a></li><li><a href=\"/posts/jamsil-team-dinner-2026\">잠실 회식 장소 추천 2026</a></li><li><a href=\"/posts/pangyo-team-dinner-2026\">판교역 회식 장소 추천 2026</a></li><li><a href=\"/posts/yeongtonggu-team-dinner-2026\">영통구청 회식 장소 추천 2026</a></li><li><a href=\"/samsungElectronics/mangpo\">망포 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }

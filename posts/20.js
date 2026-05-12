@@ -26,19 +26,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://naverbooking-phinf.pstatic.net/20260225_197/1772012140825jIWMh_JPEG/image.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "탄향1965 매탄점 대표 사진",
       caption: "탄향1965 매탄점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 5점, 리뷰 33건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 매탄동 1263-4</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"color:var(--primary);font-weight:600\">→ 탄향1965 매탄점 메뉴·리뷰·위치 자세히 보기</a></p>",
-    },
-    {
-      type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20260331_268/1774888534268MJIUR_PNG/1000021717.png",
-      alt: "탄향1965 매탄점 음식 사진",
-      caption: "탄향1965 매탄점 메뉴",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 5점, 리뷰 33건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 매탄동 1263-4</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 탄향1965 매탄점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -48,23 +42,23 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a>은 국물 카테고리에 속하는 식당으로입니다. 평점 4.2점, 리뷰 99건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(13,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 7:00 AM~9:00 PM · 위치 신동 261-1</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\" style=\"color:var(--primary);font-weight:600\">→ 방일해장국 영통점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a>은 국물 카테고리에 속하는 식당으로입니다. 평점 4.2점, 리뷰 99건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 20,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(13,500원)와 비슷한 수준입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 7:00 AM~9:00 PM · 위치 신동 261-1</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 방일해장국 영통점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "오월의꽃수저",
-      text: "오월의꽃수저 — 양식 점심 식당",
+      text: "오월의꽃수저 — 음식점 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20251124_185/1763927254261Iqr71_JPEG/1000061824.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "오월의꽃수저 대표 사진",
       caption: "오월의꽃수저",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a>는 음식점 카테고리에 속하는 식당으로입니다. 평점 4.2점, 리뷰 99건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 신동 921-2</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\" style=\"color:var(--primary);font-weight:600\">→ 오월의꽃수저 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a>는 음식점 카테고리에 속하는 식당으로입니다. 평점 4.2점, 리뷰 99건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 신동 921-2</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 오월의꽃수저 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -74,13 +68,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20250807_75/17545572100857ryAY_JPEG/100%B4%EB_%C7%C1%B7%A3%C2%F7%C0%CC%C1%EE.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "샤브향 수원매탄점 대표 사진",
       caption: "샤브향 수원매탄점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.3점, 리뷰 9건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 매탄동 1267-2</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\" style=\"color:var(--primary);font-weight:600\">→ 샤브향 수원매탄점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a>은 일식 카테고리에 속하는 식당으로입니다. 평점 4.3점, 리뷰 9건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 매탄동 1267-2</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 샤브향 수원매탄점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -90,13 +84,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://naverbooking-phinf.pstatic.net/20240906_48/1725588273886by8hE_JPEG/image.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "양화돼교 대표 사진",
       caption: "양화돼교",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>는 한식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>한우등심 압도적 가성비 600g 79,000원</strong>입니다. 평점 4.3점, 리뷰 9건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 15,000원에서 90,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(13,500원)와 비슷한 수준입니다.</p><p>메뉴는 한우등심 압도적 가성비 600g 79,000원, 일미리꽃삼 16,000원, 제주 흑 오겹살 18,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 15:00에 영업 시작 · 위치 매탄동 1265-4</p><p>방문 후기에서 자주 언급되는 부분은 분위기·양·맛 쪽입니다.</p><p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"color:var(--primary);font-weight:600\">→ 양화돼교 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a>는 한식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>한우등심 압도적 가성비 600g 79,000원</strong>입니다. 평점 4.3점, 리뷰 9건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 15,000원에서 90,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(13,500원)와 비슷한 수준입니다.</p><p>메뉴는 한우등심 압도적 가성비 600g 79,000원, 일미리꽃삼 16,000원, 제주 흑 오겹살 18,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 15:00에 영업 시작 · 위치 매탄동 1265-4</p><p>방문 후기에서 자주 언급되는 부분은 분위기·양·맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 양화돼교 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -106,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">99건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">99건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">15,000~90,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\">탄향1965 매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">33건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/방일해장국 영통점\">방일해장국 영통점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">99건</td><td style=\"padding:7px 6px;text-align:center\">12,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/오월의꽃수저\">오월의꽃수저</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">99건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">양식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/샤브향 수원매탄점\">샤브향 수원매탄점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/양화돼교\">양화돼교</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">9건</td><td style=\"padding:7px 6px;text-align:center\">15,000~90,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',
@@ -135,7 +129,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/yeongtonggu-team-dinner-2026\">영통구청 회식 장소 추천 2026</a></li><li><a href=\"/posts/samsung-lunch-guide-2026\">삼성역 점심 뭐 먹지? 카테고리별 추천 총정리</a></li><li><a href=\"/posts/yeongtong-lunch-guide-2026\">영통역 점심 맛집 카테고리별 추천 총정리</a></li><li><a href=\"/posts/pangyo-lunch-meat-guide-2026\">판교역 점심 고기 맛집 7선</a></li><li><a href=\"/samsungElectronics/yeongtongGu\">영통구청 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }

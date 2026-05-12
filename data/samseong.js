@@ -82,8 +82,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250922_77/1758506333664mCKU9_PNG/1.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_165/1758506333991Ff3iM_PNG/2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -175,8 +175,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_34/1764925380489rfP02_PNG/%C8%B8%C3%CA%B8%AE.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251205_248/1764911534995I6Qyo_PNG/20251205_112613.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -263,7 +263,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/솔트랑-스테이크-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -354,8 +354,8 @@ const restaurants = [
         "description": "흑염소 살코기를 고소하고 따뜻하게 버무려먹는 무침"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_166/1771476930186xEjwL_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%B4%EB%B9%AE%BB%E7%C1%F8.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260310_194/1773133436979ObrkM_JPEG/%BC%F6%C0%B0_%BB%E7%C1%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -398,7 +398,7 @@ const restaurants = [
     "naverPlaceId": "1541470652",
     "naverUrl": "https://map.naver.com/v5/entry/place/1541470652",
     "naverBlogCnt": 298,
-    "imageUrl": "/images/restaurants/samseong/수림복국-선릉-삼성-별관-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -483,8 +483,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240820_70/1724098997684vaJCU_JPEG/IMG_0021.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240901_225/1725192478225BWF1i_JPEG/IMG_0106.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -520,8 +520,8 @@ const restaurants = [
     "naverPlaceId": "1346166654",
     "naverUrl": "https://map.naver.com/v5/entry/place/1346166654",
     "naverBlogCnt": 157,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251215_202/1765785751578uBeF7_JPEG/GJF03207.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260421_235/1776764226399bIzYq_JPEG/photo_2026-04-21_18-35-31.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -610,8 +610,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_36/17718558944705tPyK_JPEG/KakaoTalk_20260223_230533042.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260223_166/1771842940873Ksb5g_PNG/EV_DID_07.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -663,8 +663,8 @@ const restaurants = [
         "description": "오겹400g+목살400g+알깨밥+멜조림"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241023_56/1729609504004LqALY_JPEG/KakaoTalk_20220313_134737929_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260401_182/1774974933099jS9cJ_JPEG/1000056248.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -709,8 +709,8 @@ const restaurants = [
     "naverPlaceId": "2057112419",
     "naverUrl": "https://map.naver.com/v5/entry/place/2057112419",
     "naverBlogCnt": 178,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260105_269/1767602305230MYF99_JPEG/KakaoTalk_20260105_172400605_03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260105_90/1767602319565CCf6P_JPEG/KakaoTalk_20260105_172411440_16.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -759,8 +759,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260228_133/1772238084107hLE4u_JPEG/1000073531.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260228_213/1772238083940x3jzU_JPEG/1000073530.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -804,8 +804,8 @@ const restaurants = [
     "naverPlaceId": "1518676629",
     "naverUrl": "https://map.naver.com/v5/entry/place/1518676629",
     "naverBlogCnt": 95,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_278/177302504393777UUx_PNG/%BA%A3%C0%CC%C4%C1%BD%AC%B8%B2%C7%C1_%B8%C5%C4%DE%C5%A9%B8%B2%C6%C4%BD%BA%C5%B8_%B7%B9%BD%BA%C5%E4%B6%FB%B9%F6%C0%FC.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260309_116/1773024827021qedA9_PNG/KakaoTalk_20260307_103125551_01.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -857,8 +857,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251113_140/1763026292517LEbRa_JPEG/1000018844.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251113_27/1763022813854Rsl7S_JPEG/1000018785.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -906,8 +906,8 @@ const restaurants = [
         "description": "대한민국 최초 순칼!! 순대국과 칼국수의 만남"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_215/1758783073049PzeT7_JPEG/KakaoTalk_20250924_212307170_16.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250924_228/1758717307417lXHjL_JPEG/KakaoTalk_20250917_213845007.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -976,8 +976,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251112_153/1762891506421qHwmy_JPEG/DSC_6637.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251112_159/1762891506353ql33z_JPEG/DSC_6610.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1068,7 +1068,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포카코-Foccaco-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1151,8 +1151,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240814_278/1723624903575juTd4_JPEG/%C6%F7%C4%AB%C4%A1%BE%C6_%C4%C6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240814_141/1723624909450IqQ6V_JPEG/%C4%BF%C7%C7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1205,8 +1205,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260222_39/1771747836966gDHRw_JPEG/7558C545-DABD-40CE-A5A2-2C8A3329A148.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260408_244/1775631286132B5yOK_JPEG/58754CD6-34AE-4A2F-B441-46E712265042.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -1310,7 +1310,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/트레인버거-삼성역-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1389,8 +1389,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250317_290/1742186953346hs5fl_JPEG/KakaoTalk_20250317_134813982_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250323_145/1742730901538lX8N5_JPEG/KakaoTalk_20241105_151047498_23.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -1475,8 +1475,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_64/1765466652726utiUg_PNG/1765466639878.png",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MDhfMjA3/MDAxNzc1NjM2ODkxMjEz.LgJoUFmHlDix7_X9j7fvpVADkwevt4Y-EEn0DFeqyu8g.85cPjTFIllV54TqtF5AqYWqJP2gV5p05-wqHzrLcu7Yg.JPEG/52164D3C-B69D-45A2-A8C5-8D89E47D3FDF.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -1565,8 +1565,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250808_146/1754638854609XQeSt_PNG/IMG_5843.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260406_122/1775480660730meoXa_JPEG/IMG_6304.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1633,8 +1633,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_190/1764900827509ey3EL_PNG/20251205_110133_23.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_218/1766050250160hq5RS_JPEG/%BC%B1%B8%AA.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -1716,8 +1716,8 @@ const restaurants = [
         "description": "짭짤한 쇼지특제소스를 사용하여 철판에 구운 소고기 덮밥"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250805_297/1754385045067tpQPR_PNG/KakaoTalk_20250729_103222592_01.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260408_295/1775623612009NSUUg_JPEG/Frame_1430105767.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -1747,8 +1747,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2092244336",
     "naverUrl": "https://map.naver.com/v5/entry/place/2092244336",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_227/1757296328149bp7GF_JPEG/%AB%ED%AB%B4%A1%A1%AB%E9%AB%B9%AB%BF%AB%E9%AB%A4%AB%BA%AA%DF_2.jpeg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAyMTNfMTgx/MDAxNzcwOTc3MzczNjc5.EnZxVZklWVVArGq4-8dzNeZf54MBniCaOmtxh7dhBDQg.so5GXA-vkrWvMgMifn2ktcnEqeXQZrz32ZkFdaJSgZAg.JPEG/032A84A8-E8A0-4838-BBEC-1BFC5FFC9E8E.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06205"
   },
@@ -1825,8 +1825,8 @@ const restaurants = [
         "description": "카레, 밥, 돈카츠, 소우동, 샐러드, 연유치즈떡"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251128_132/1764297586438BcVUv_JPEG/%C5%B0%B8%B6%C4%AB%B7%B9.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260430_54/177751257014982H7E_JPEG/%BA%EA%B7%A3%B5%E5%C0%CC%B9%CC%C1%F6%C4%C6_%B3%C3%BC%D2%B9%D9.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -1864,8 +1864,8 @@ const restaurants = [
     "naverPlaceId": "1457776595",
     "naverUrl": "https://map.naver.com/v5/entry/place/1457776595",
     "naverBlogCnt": 2,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240128_142/1706380419689eDQIw_JPEG/27.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240128_103/1706380398519d8RYl_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -1951,8 +1951,8 @@ const restaurants = [
         "description": "카피콜라 햄과 꾸덕한 체다치즈와 함께 곁들어진 감자튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250623_184/1750659575168jElBV_JPEG/%B0%F1%B9%F0%C0%CC%BB%EF%C7%D5%2B%C7%D1%B8%C6%BB%FD%B8%C6%C1%D6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230823_298/1692778056173WfOAP_JPEG/20230821_205130.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2031,7 +2031,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/만선호프-삼성동-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2089,8 +2089,8 @@ const restaurants = [
         "description": "(中)  (大)"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250922_293/1758524852319lcFaA_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_171/17585248531060UGl9_JPEG/2.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -2172,8 +2172,8 @@ const restaurants = [
         "description": "신선한 굴을 바삭하게 튀겨낸 바삭촉촉 굴튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250705_179/1751646845416F8Euw_JPEG/KakaoTalk_20250705_012900062_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250705_97/175164684948859JdE_JPEG/T.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2259,8 +2259,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250821_143/17557784592085UEMd_JPEG/KakaoTalk_Photo_2025-08-21-21-14-02.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260309_299/1772985002980DNUFH_PNG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-002_%2812%29.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -2317,8 +2317,8 @@ const restaurants = [
         "description": "시작이 다른 하루! 신선하고 맛있고 든든한 뷔페!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260105_44/1767566472098AJxHC_JPEG/KakaoTalk_20250908_071716458.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260424_134/17769839440978C4CG_JPEG/KakaoTalk_20260424_073655789_02_-_%BA%B9%BB%E7%BA%BB.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2377,8 +2377,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240306_82/17096841109577DM1D_JPEG/Screenshot_20240220_065553_Gallery.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240306_21/1709684111089809kM_JPEG/Screenshot_20240124_025612_NAVER.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2460,8 +2460,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251011_204/1760155833089aynWo_JPEG/_DSC3959.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250226_260/1740550688717Qgwgu_JPEG/KakaoTalk_20250224_172357975.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2536,8 +2536,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_291/1743756865431PuptR_JPEG/200625_059_%C7%D1%BC%D6%B3%C3%B8%E9_%BA%EA%B7%A3%B5%E5%C4%C6_008.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzAxMTNfMTIg/MDAxNjczNTkwNDg2Nzc3.Opd0_yfMNd5wFdtllawnZ5HgjfkO_RHhgHJj3koqPbcg.Jxyn4mjbWmDsnJzOOe4n9uN5gUKGfOS5ar5YDNZz0T0g.JPEG/20230112_140512.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2616,8 +2616,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250410_208/1744258634786hVOG5_JPEG/2045.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250306_67/1741262071119wwivK_JPEG/2034.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -2672,8 +2672,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221217_228/1671263292810GKVTj_JPEG/1000001082.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211111_143/1636622322528jLAPt_JPEG/20211111_180754.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2762,8 +2762,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260206_133/17703619580374r9di_JPEG/KakaoTalk_20260130_221033873_19.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260206_97/1770361958432r03du_JPEG/KakaoTalk_20260130_221033873_27.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -2807,8 +2807,8 @@ const restaurants = [
     "naverPlaceId": "1671732165",
     "naverUrl": "https://map.naver.com/v5/entry/place/1671732165",
     "naverBlogCnt": 75,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230622_200/1687394363965zljTd_JPEG/3.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230622_195/1687394360396PyUBJ_JPEG/2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2869,8 +2869,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230228_256/1677576523215dXX5W_JPEG/E25DBAC0-327E-47EC-96BB-305A46CB4531.jpeg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA2MjJfNSAg/MDAxNzUwNTk5NTgzMjYz.dXoOOOHRzi12wpuXOkza9g9JHxRDgoqRtP82F07roxkg.2EWLqF7twzkRZQ_WBRbDwqEH3dtdVHa3ql0E3aT0--Ag.JPEG/20250616_194355.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -2913,8 +2913,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_292/17714775689705eWS9_JPEG/EDAEB308-A34D-4A30-BEF1-6C299CE8C12B.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240807_171/1722988361136wh3BT_JPEG/%B8%B6%B6%F3%BC%A7%B1%C5_%B8%DE%B4%BA.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -2995,8 +2995,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_275/17346753358776zElR_JPEG/KakaoTalk_20241218_174655650_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250728_136/1753709389440fDQpm_JPEG/KakaoTalk_Photo_2025-07-28-22-17-40_001.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3030,8 +3030,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2083212381",
     "naverUrl": "https://map.naver.com/v5/entry/place/2083212381",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250424_261/1745475369514PouCt_JPEG/%B5%FB%B6%E6_%BC%F6%C1%A6%BA%F1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250424_96/1745475630327TV12a_JPEG/%C7%CF%BC%BA%BF%EE_%C4%E1%B1%B9%BC%F6_%C4%B8%C3%C4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3114,8 +3114,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_192/1747785589495zUKYt_JPEG/1000006086.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250521_298/1747785591186dhXxS_JPEG/1000006082.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -3198,8 +3198,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251108_224/176257447156028MCK_JPEG/1000028821.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251108_68/17625744554380r166_JPEG/1000028820.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3278,8 +3278,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220428_212/1651107016362sIV2K_JPEG/1611197379728.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220428_220/1651107016361ITML5_JPEG/1611197383047.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -3326,8 +3326,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241026_92/17299520574598GMMa_JPEG/IMG_2026.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250914_259/1757860381218v592c_JPEG/IMG_3377.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06203"
@@ -3390,8 +3390,8 @@ const restaurants = [
         "description": "1인당 천원씩 할인과 햄을 15% 더 드립니다"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250121_17/1737466811786LrWHn_JPEG/%B9%CC%B3%AA%B8%AE_%BA%CE%B4%EB%C2%EE%B0%B3_%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250122_144/1737534456440gVEpO_JPEG/%C7%DC%B5%EB%BB%D2_%BA%CE%B4%EB%C2%EE%B0%B3_3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -3473,8 +3473,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231023_280/1698050201078PtXaF_PNG/230907_%C0%AF%B0%A1%B3%D7-%B7%CE%B0%ED_NEW.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250929_1/1759119065466ykQbp_JPEG/01._%C3%BB%BE%E7%BF%CD%B8%A3%B8%A3%B4%DF%B0%A5%BA%F1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06206"
   },
@@ -3557,8 +3557,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251218_247/1766065694924qFMGj_JPEG/098765.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_79/1766065737598pVIdR_JPEG/%C1%F7%C8%AD%C2%DE%B2%D9%B9%CC%C1%A4%BD%C4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -3627,8 +3627,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210114_178/1610571532462zjFkz_PNG/fORzEMAkFRqiveVO-tYd_PTg.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210114_145/1610571855681XL1wO_JPEG/vTYK7NUn-P3FDHbpeHSycCgc.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -3677,8 +3677,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_19/1764229418175km1S1_JPEG/KakaoTalk_20251127_163932634.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250310_3/1741586188011HLiJV_JPEG/KakaoTalk_20250310_145315972.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3764,8 +3764,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_34/1740056062015rvIty_JPEG/KakaoTalk_20250220_194400073_07.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250220_248/1740055983220R2j1y_JPEG/KakaoTalk_20250220_194400073_05.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -3844,7 +3844,7 @@ const restaurants = [
         "description": "탄단지 샐러디 세트 + 카사바칩 + 코크제로"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -3924,8 +3924,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_196/17604332292932ypby_GIF/IMG_1576_2.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251014_151/1760433229285HT6Bo_GIF/IMG_1583_2.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -3962,8 +3962,8 @@ const restaurants = [
     "naverPlaceId": "1933189554",
     "naverUrl": "https://map.naver.com/v5/entry/place/1933189554",
     "naverBlogCnt": 31,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250421_41/1745203871250vwEWt_JPEG/%BB%F8%B7%AF%B5%F0%BE%C6-%C7%C3%B7%B9%C0%CC%BD%BA-%B7%CE%B0%ED.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220805_44/1659681505210zkWqQ_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_%BB%EF%BC%BA%C1%A1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -4037,8 +4037,8 @@ const restaurants = [
         "description": "99%자연치즈 90모짜렐라10고다치즈 블루치즈 아몬드"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220830_213/16617878703504HOL8_JPEG/Screenshot_20220830-004414_Instagram.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTEwMTZfMjgx/MDAxNzYwNjI0MTcwMzk4.l3__sCVsnOX7S7HsMM2awhNiEJucrB2UgEARCB4UKswg.L1PWul5t9kSKORn5BLqhGbHauFkvkVFy5DQf_R37yzkg.JPEG/90840475-501D-4BF7-9E0D-BF827BBCEC98.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -4095,7 +4095,7 @@ const restaurants = [
     "naverPlaceId": "1583057180",
     "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
     "naverBlogCnt": 3811,
-    "imageUrl": "/images/restaurants/samseong/무탄-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4153,8 +4153,8 @@ const restaurants = [
         "description": "매운맛을 원하는 모든 고객님들을 위해 준비했습니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241119_154/1732017976177Al1KO_JPEG/078A6103.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241119_111/1732018265838x2rI4_JPEG/KakaoTalk_20241112_135402325_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4263,7 +4263,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/멘쇼쿠-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -4322,7 +4322,7 @@ const restaurants = [
         "description": "국내산 삼겹살입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/개성집-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4401,8 +4401,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260108_158/1767842447825Mk8I5_JPEG/ny%C6%C4%C8%F7%C5%B8%C5%B8%BF%F6_%BA%ED%B7%A2%B6%C7%B6%EC%BE%C6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250725_53/1753421312309GR3HY_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -4510,8 +4510,8 @@ const restaurants = [
         "description": "부들부들한 돼지 등뼈찜과 고추 라임 소스"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241004_28/1728021010413WpWYU_JPEG/1728020975508.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241004_231/1728020972362JKdkI_JPEG/1728020962086.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -4598,8 +4598,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250918_237/1758180493316pmqV0_GIF/GIF3.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -4688,8 +4688,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250703_26/1751508509076GsCB3_JPEG/1%C7%D1%BF%EC%BB%E7%B0%F1%BC%B3%B7%B7%C5%C1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241007_106/1728259226539TRblQ_JPEG/KakaoTalk_20241007_090011413.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -4786,8 +4786,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250912_218/1757656136205gJJvi_JPEG/%B4%DC%C3%BC%C8%B8%BD%C4_%B0%AB%B1%E8%C4%A1%B5%EE%B0%A5%BA%F1%C2%F2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250912_23/17576561362141Dcgw_JPEG/%C3%BB%C3%B8%C0%E5%B8%F0%C0%D3_%BA%FC%BB%E8%BF%C0%C1%A4%C0%CC%C6%A2%B1%E8%C0%FC2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -4852,8 +4852,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250331_164/1743395243012mf7FG_JPEG/IMG_9622.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250331_190/17433952429981Dov5_JPEG/IMG_0084.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -4917,8 +4917,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250721_277/1753086319638xt6nA_JPEG/%B9%CE%BB%FD%C8%B8%BA%B9-%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260427_143/1777254464501IGEGv_PNG/r.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -4980,8 +4980,8 @@ const restaurants = [
         "description": "다진소고기에 계란을 더해 부들부들함이 매력적"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240520_106/17161718330024VobC_JPEG/KakaoTalk_20240208_141256217_08.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240520_156/1716172820862ixiWi_JPEG/078A9500.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5034,8 +5034,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250916_255/17579892262695BN6C_GIF/%C0%CC%C4%A1%B7%F9_%BC%B1%B8%AA%C1%A1_gif.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260317_27/17737522103679Nez8_JPEG/1111.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5091,8 +5091,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260205_144/1770257731550X8WHW_JPEG/DSC02806.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250812_203/17550026587740MJKQ_JPEG/IMG_3831.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5182,8 +5182,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221117_157/1668694096419kRrim_JPEG/11219BEB-5A50-424F-B398-0333F293D4F5.jpeg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20240305_172/1709617750709oJjsi_JPEG/KakaoTalk_20240305_144457539.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -5279,7 +5279,7 @@ const restaurants = [
         "description": "튀긴두부, 미니 샐러드, 검은깨 소스, 후리가케"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/올라포케-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5330,8 +5330,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240327_188/17115430236214euQU_JPEG/IMG_7682.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240424_95/1713958164169BK1Wj_JPEG/LW2A3629.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -5440,7 +5440,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/요란-이자카야-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5513,8 +5513,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240908_299/1725762684124TMFWL_JPEG/KakaoTalk_Photo_2024-09-08-11-31-13.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260507_234/1778129309784C70yO_PNG/IMG_7439.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5581,7 +5581,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/해화장-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -5670,8 +5670,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_16/1762268461474kSp21_GIF/%C0%CC%B9%CC%C1%F6.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251104_181/1762233233194G6s0F_JPEG/20251031_180722.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -5728,8 +5728,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250602_194/1748837437001rsw9u_JPEG/KakaoTalk_20250531_235604013.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250602_121/1748837457191eTRH5_JPEG/KakaoTalk_20250531_235628449_08.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -5866,8 +5866,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260205_259/1770277152514K0iT2_JPEG/078A6109.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260407_117/1775517171005hlv11_JPEG/1000028592.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -5949,8 +5949,8 @@ const restaurants = [
         "description": "기분 전환이 필요한 날, 향긋한 유자 주전자 막걸리!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250701_3/1751365273463uUsJY_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260330_32/1774844571922n3x8r_PNG/KakaoTalk_20250922_130959071_02.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -6010,8 +6010,8 @@ const restaurants = [
         "description": "진한 육수에 통새우 완탕이 들어간 별미쌀국수"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_52/1747976878658Q4cBi_PNG/%C6%F7%C0%E5%BD%BA%C6%BC%C4%BF_%BF%F8%C7%FC_6cm.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250626_138/1750932403895IBn7G_JPEG/Screenshot_20250626_190418_Gallery.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -6089,7 +6089,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250523_111/17479975069684paDF_JPEG/1000011057.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6179,7 +6179,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/롤드-Rolled-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -6257,8 +6257,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240510_204/1715341928586MsFKu_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001_%282%29.jpg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20250727_154/1753587115366ivvSQ_PNG/%BD%C3%B5%E5%B4%CF.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -6300,8 +6300,8 @@ const restaurants = [
     "naverPlaceId": "2055869936",
     "naverUrl": "https://map.naver.com/v5/entry/place/2055869936",
     "naverBlogCnt": 24,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251113_7/1763019027694Nik3M_JPEG/1000016794.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251105_67/1762323434493mfg66_JPEG/1000016644.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -6527,8 +6527,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_170/1766129948282Hj4Fi_JPEG/KakaoTalk_20251218_174732884.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241119_35/1732025253218vKa9n_PNG/KakaoTalk_20241118_182200323.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6613,8 +6613,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250411_277/1744359904683p1Czr_JPEG/KakaoTalk_20250409_125542270_09.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250411_159/1744359905400ipHP6_JPEG/KakaoTalk_20250409_125542270_10.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6673,8 +6673,8 @@ const restaurants = [
         "description": "진하게 우린 된장 육수에 따끈한 밥을 말아낸 메뉴"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251116_237/1763294710201aeMrh_JPEG/KakaoTalk_20251115_080056575_03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251117_103/1763309205418Y2jPA_JPEG/%B0%CB%BB%F6%B1%A4%B0%ED_%C0%CC%B9%CC%C1%F6_2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6743,8 +6743,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260130_92/1769753854534mXFFk_JPEG/IMG_9121.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231112_103/1699798778067jPO2K_JPEG/KakaoTalk_20231106_122617734_17.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -6804,8 +6804,8 @@ const restaurants = [
         "description": "모두가 사랑하는 바삭한 포테이토 칩과 프렌치 어니언 딥"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250718_222/1752815785187PP0lX_PNG/%BB%EF%BC%BA%C1%A1_%BD%E6%B3%D7%C0%CF.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250718_76/17528157850329mIwC_JPEG/KakaoTalk_20250718_141354081.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -6889,8 +6889,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231127_250/170106862168438wEt_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230921_246/1695272283900u7p1M_JPEG/869D6252-2CB2-4B77-8B2D-01DCF94F7916.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -7136,8 +7136,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230707_255/16887210426270Xm6H_JPEG/20230704_211749.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDA1MTRfMTQg/MDAxNzE1NjgyNDMwMzg0.NhBtytj6G3XQqRtUqPLk1V_3u-Cw9_RS_TVNxO1X1bAg.b74wRuw7ZkxLimXlv6dOf4h0IGMadfQKz2uxVIZiR_Eg.JPEG/6E8BF546-1965-4751-BA2D-ED7D23E1AB23.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -7219,8 +7219,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_173/1772097486204O0vTb_JPEG/01KJCKQXJ6M31XWK4JSZ5MMP86.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230912_111/169452641860231mvH_JPEG/1000004764.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -7261,8 +7261,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1627178297",
     "naverUrl": "https://map.naver.com/v5/entry/place/1627178297",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240323_5/1711200869373VPkNi_JPEG/IMG_6569.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240417_4/1713363162147uXh8o_JPEG/IMG_7930.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -7347,8 +7347,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220721_77/1658404935510KAOaS_JPEG/20220715_010657.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220721_211/1658404978295PzNPW_JPEG/20220719_182235.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -7446,7 +7446,7 @@ const restaurants = [
         "description": "전복, 우니, 다섯가지 찬, 한우 들깨미역국"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고설우-한우오마카세-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7537,8 +7537,8 @@ const restaurants = [
         "description": "전복, 우니, 다섯가지 찬, 한우 들깨미역국"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250619_60/1750329512901a8XLb_JPEG/KakaoTalk_Photo_2025-06-19-19-38-01_003.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250619_118/1750329507726z1SfW_JPEG/KakaoTalk_Photo_2025-06-19-19-37-59_001.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7648,7 +7648,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더-피자-스탠드-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7757,7 +7757,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일상정원-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7822,7 +7822,7 @@ const restaurants = [
         "description": "투뿔한우 + 국내산 + 천연 재료의 대향연!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우와해-선릉본점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -7916,8 +7916,8 @@ const restaurants = [
         "description": "치즈가왕창 들어간 시그니처 계란말이튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250927_274/1758946186672XjunD_JPEG/1000008708.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260303_259/1772549396003eQdbj_PNG/1000011367.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -8029,7 +8029,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동어동락-삼성2호점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8087,8 +8087,8 @@ const restaurants = [
         "description": "새콤달콤 한우수육 무침입니다. 안주로 추천드립니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_72/17725324351079dxeo_JPEG/%B5%C5%C1%F6%B8%F0%B5%D2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241013_269/1728820343597TlMya_JPEG/KakaoTalk_20240111_012601351_23.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -8175,8 +8175,8 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230425_218/16824043572687u5rD_JPEG/%B8%C6%C1%D6%C2%A7_2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230425_214/16824043592337gOKS_JPEG/%B0%F1%BA%F6%B8%E9.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8225,8 +8225,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241026_206/1729937965838oaQ3k_JPEG/IMG_7077.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260326_184/1774510025646wq1iM_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8428,8 +8428,8 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230707_293/1688694641748aMBRt_JPEG/%BB%EF%BC%BA%BF%AA%C1%A12.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230707_192/1688694642749qPYfx_JPEG/230705_%BB%EF%BC%BA%BF%AA%C1%A1_%BF%DC%B0%FC_%2835%29-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8469,8 +8469,8 @@ const restaurants = [
     "naverPlaceId": "1403529244",
     "naverUrl": "https://map.naver.com/v5/entry/place/1403529244",
     "naverBlogCnt": 322,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240326_207/1711455135938MPj6E_JPEG/IMG_7213.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240204_211/1707023443936ImJ1h_JPEG/576DDC51-DCC7-45E3-9CE6-7EF706821177.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -8555,8 +8555,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240903_99/17253391596852dkbt_JPEG/%BC%D2%BC%D2%C7%E5_%C0%D4%B1%B8_%C0%FC%B0%E6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240903_12/1725329525977r1kP0_JPEG/IMG_5649.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -8610,7 +8610,7 @@ const restaurants = [
     "naverPlaceId": "1335951464",
     "naverUrl": "https://map.naver.com/p/entry/place/1335951464",
     "naverBlogCnt": 124,
-    "imageUrl": "/images/restaurants/samseong/진미식당-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8655,8 +8655,8 @@ const restaurants = [
     "naverPlaceId": "1335951464",
     "naverUrl": "https://map.naver.com/v5/entry/place/1335951464",
     "naverBlogCnt": 124,
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250221_182/1740145904050SFaD3_PNG/%C1%F8%B9%CC%BE%F0%BE%E7%BA%D2%B0%ED%B1%E2_%B7%CE%B0%ED.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20250221_88/17401459041990Pvj7_JPEG/%BE%F0%BE%E7%BA%D2%B0%ED%B1%E2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -8873,8 +8873,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240912_79/1726106454687vunEB_PNG/IMG_7784.png",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAxMTVfMTUx/MDAxNzY4NDMyNzk3NDI4.9W_2ZMKOX6W0NfGuP2ZaeusXhSPR7slpkDZZeDu_0O4g.DwxDnL7UPGDTgExjsFS8-Vvb6A0TKQthQIwzSVauJmQg.JPEG/20260114_174701.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -8954,8 +8954,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240509_153/1715248505292Roh6N_JPEG/KakaoTalk_20240509_181029473.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240509_288/1715248505336NMbyz_JPEG/KakaoTalk_20240509_181029473_03.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -8991,8 +8991,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1453579006",
     "naverUrl": "https://map.naver.com/v5/entry/place/1453579006",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230102_240/1672641102470tIKIX_JPEG/%C1%F6%C1%F7_%BF%DC%BA%CE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240117_119/1705475805884X93ig_JPEG/78.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -9028,7 +9028,7 @@ const restaurants = [
     "naverPlaceId": "1784539680",
     "naverUrl": "https://map.naver.com/v5/entry/place/1784539680",
     "naverBlogCnt": 35,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230419_194/1681903466831DOSKF_JPEG/KakaoTalk_20230419_202249370.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9097,8 +9097,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250708_29/1751956651611nimnu_JPEG/%BB%E7%C4%AB%B9%D9%BB%EA%BF%F8%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250708_32/1751956511090O5TPz_JPEG/%BB%E7%C4%AB%B9%D9%BB%EA%BF%F8%BF%DC%BA%CE%C6%C4%BB%E7%B5%E5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9185,8 +9185,8 @@ const restaurants = [
         "description": "겉바속촉 소금빵 베이스에 명란 크림이 들어간 소금빵"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260107_262/17677545880834i9bQ_JPEG/IMG_3567.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260324_4/1774306355949w4MUP_JPEG/IMG_6168.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -9232,8 +9232,8 @@ const restaurants = [
         "description": "쉐프가 엄선한 스시,식사,디저트 포함 12가지"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_38/1761128512396yxHBC_JPEG/IMG_5137.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250404_296/17437568983498aSne_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9274,8 +9274,8 @@ const restaurants = [
     "naverPlaceId": "1134695743",
     "naverUrl": "https://map.naver.com/v5/entry/place/1134695743",
     "naverBlogCnt": 378,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_261/17587231934434eHPS_PNG/23689.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260113_283/17683149907395wblV_JPEG/30905.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -9474,7 +9474,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200804_257/1596544322825C8pFk_JPEG/YgWel5KffEt9YkqMWdTeMVJM.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -9562,8 +9562,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250813_207/1755085581336BnnxJ_JPEG/20250514_195836.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250521_245/1747814791984v2sL3_PNG/1000062524.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -9645,8 +9645,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_71/1747807531152h89h7_JPEG/1000043814.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250521_243/174780753116218tAh_JPEG/1000043813.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -9729,8 +9729,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250307_178/1741314395287kNfGX_JPEG/1000001765.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190503_42/1556850927787LbLbB_JPEG/YRAMgFNXO0rqtyLtLD7So8kt.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -9812,8 +9812,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251223_210/17664603016896eGo1_PNG/074A5608-2D00-4F1C-808A-7C2E17BCEA83.PNG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251223_297/1766460326800AeXDk_PNG/CEAE0B35-11B5-4E00-82DE-87D26558DB61.PNG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -9888,8 +9888,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191201_243/1575193248124IxeNX_JPEG/5J58sj9ZcXW0FwCsDdas6ljC.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200801_281/1596275715685sWqJA_JPEG/C8hQ50Xt8D_GdZ6dWK0fmtRR.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -9944,8 +9944,8 @@ const restaurants = [
         "description": "-루이보스 바닐라 티 -쿨 허벌 티 -그린 루바브 티"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230208_30/1675853328240YNDWo_JPEG/123.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230208_137/1675853628531K6fv2_JPEG/%B6%F3%B6%BC.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -10053,7 +10053,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/오봉집-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -10135,8 +10135,8 @@ const restaurants = [
         "description": "햄치즈순두부찌개1+솥밥1+생선구이 기본찬"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240927_295/1727394916908BIlgP_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240927_169/1727394916815ux35O_JPEG/2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -10229,8 +10229,8 @@ const restaurants = [
         "description": "부드럽게 삶아내어 구수한 육향이 일품인 아롱사태 수육"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_193/1749526755766rSanQ_JPEG/%B4%EB%C7%A5%C0%CC%B9%CC%C1%F6_%282%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250527_260/1748334241209mMoM1_JPEG/%B4%EB%B0%FC%C0%CC%B9%CC%C1%F6_%BA%B9%BB%E71%28%C1%A4%B9%E6%C7%FC%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -10260,7 +10260,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1462219242",
     "naverUrl": "https://map.naver.com/v5/entry/place/1462219242",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240309_143/170995868626396Pqf_JPEG/IMG_6687.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -10325,7 +10325,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/와려-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -10385,7 +10385,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/페리지-이탈리안-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10490,7 +10490,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/천미미-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10578,8 +10578,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250929_106/17590716563350X5p2_JPEG/DFI00281.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250929_108/1759071656144ofs8g_JPEG/2_%C4%AB%C0%CC%BC%BE%B5%BF%28%C6%AF%29_%285%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10632,8 +10632,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260114_87/17683511706783DsAL_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260408_165/17756052631095JAps_JPEG/2%28%BD%BA%C5%D7%C0%CC%C5%A9_%C0%D6%C0%BB_%BD%C3%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -10732,7 +10732,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/야키토리-수다-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10818,8 +10818,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230424_299/1682343656758pI44W_JPEG/DSC00382-min.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230422_163/1682152052487Q8PgL_JPEG/DSC02722.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -10899,8 +10899,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251112_155/1762875389642qqFuR_JPEG/SE-1a0b6e74-7d07-4e19-b359-8207c8494e39.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251112_256/1762875390009c6Dml_JPEG/DSC08659.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06199"
@@ -10974,8 +10974,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241222_109/1734878747290kXzrT_JPEG/IMG_7088.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241222_137/1734878747398A3WYg_JPEG/IMG_7078.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -11142,8 +11142,8 @@ const restaurants = [
     "naverPlaceId": "2008975356",
     "naverUrl": "https://map.naver.com/v5/entry/place/2008975356",
     "naverBlogCnt": 9,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251028_129/1761640538298ImC3o_JPEG/%C0%FC%B8%DE%B4%BA2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251028_29/1761640551382j4pQr_JPEG/%C0%FC%B8%DE%B4%BA1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -11219,8 +11219,8 @@ const restaurants = [
         "description": "산뜻하면서 깔끔한 맛이 입안을 감싸는 한우 육회"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251017_35/1760675584718xtsne_GIF/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4__%284%29.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250307_56/17413488604703ytcv_JPEG/DSC08541.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -11298,8 +11298,8 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240620_56/1718862813167lpvP7_JPEG/%B8%C6%C1%D6%BF%CD%B8%DE%B4%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240620_273/1718862813207lpQiH_JPEG/%B8%C6%C1%D6%C2%A7_2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -11333,8 +11333,8 @@ const restaurants = [
     "naverPlaceId": "1712241323",
     "naverUrl": "https://map.naver.com/v5/entry/place/1712241323",
     "naverBlogCnt": 146,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240925_173/17272393139004pCPL_PNG/1.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240925_207/1727239590433OVIPJ_JPEG/2323123.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11410,8 +11410,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250417_128/1744869517085hQCdo_JPEG/ar_coffee_005.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250418_269/1744983445510MS4SB_JPEG/ar_coffee_008.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -11487,8 +11487,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240214_242/170787919269632GmV_JPEG/DSC_0159-min.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260509_200/1778289161919fkYHv_JPEG/%B9%E3%B9%D9%B4%D9%BB%E7%C1%F82.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11556,8 +11556,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240825_244/1724563843345oELxG_JPEG/1000005571.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250812_203/17550026587740MJKQ_JPEG/IMG_3831.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11637,8 +11637,8 @@ const restaurants = [
         "description": "벌꿀향과 싱그러운 청향을 동시에 느낄 수 있는 백차"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_159/1771842483679HcOTx_PNG/1000043914.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251118_292/1763449650148mIJi6_JPEG/%B7%CE%B0%ED1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -11697,8 +11697,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240208_234/1707395349033URY8S_JPEG/IMG_3180.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240214_184/1707895856645b6Q8t_JPEG/IMG_0116.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06177"
@@ -11742,8 +11742,8 @@ const restaurants = [
     "naverPlaceId": "1684290818",
     "naverUrl": "https://map.naver.com/v5/entry/place/1684290818",
     "naverBlogCnt": 612,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251018_246/1760784820300G5djW_GIF/%B4%EB%B9%AE%BB%E7%C1%F8gif.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -11807,8 +11807,8 @@ const restaurants = [
         "description": "참나물의 향긋한 향과 쫄깃 탱글한 도토리묵의 조화"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250909_107/1757381934145NBDet_GIF/%B8%DE%B4%BA%B8%F0%C0%BD_%C2%A9%282%29.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240711_143/1720678686349ctJOi_PNG/%BA%C0%C0%CC%B9%E4_%BD%C9%BA%BC.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06207"
   },
@@ -11861,8 +11861,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240617_297/1718614478199d8Xi4_JPEG/IMG_7305.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240617_12/1718614477789CariN_JPEG/IMG_7303.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -11943,8 +11943,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250806_196/1754456516287sewjo_JPEG/9%B1%B8%BC%BC%C6%AE%28%C0%DB%C0%BA%C0%CC%B9%CC%C1%F6%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250109_167/1736388676782rgSB6_JPEG/%B5%F0%BD%BA%C7%C3%B7%B9%C0%CC%C4%C6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -11999,8 +11999,8 @@ const restaurants = [
         "description": "바삭고소 먹태! 마요소스 콕 시원한 맥주와 찰떡궁합!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250617_26/1750165885635Wyibj_JPEG/1000020977.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250617_262/17501658773960n3M3_JPEG/1000020978.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12089,7 +12089,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/무월식탁-파르나스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -12166,8 +12166,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_227/1763953905344f9cHN_PNG/%B9%AB%BF%F9%BD%C4%C5%B9_%C0%CF%C7%B0%BC%BC%C6%AE.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250530_253/1748595185321Dkp7D_PNG/%B7%B9%C0%CC%BE%EE_2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -12218,7 +12218,7 @@ const restaurants = [
         "description": "청정 바다에서 갓잡아 급냉한 까치복지리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/수림복국-선릉-삼성-본점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -12310,8 +12310,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250508_148/17466963187044HED6_JPEG/Screenshot_20250508_182404_Gallery.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250213_130/1739377396457RNtGB_JPEG/20250212_175050.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12369,7 +12369,7 @@ const restaurants = [
     "naverPlaceId": "37632921",
     "naverUrl": "https://map.naver.com/p/entry/place/37632921",
     "naverBlogCnt": 252,
-    "imageUrl": "/images/restaurants/samseong/명우돈가-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -12411,8 +12411,8 @@ const restaurants = [
     "naverPlaceId": "707597914",
     "naverUrl": "https://map.naver.com/v5/entry/place/707597914",
     "naverBlogCnt": 649,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20181115_112/1542211993114OHQaD_JPEG/aSY5BNCX_AKzLHdzxuSDQLZx.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260504_161/1777868201079hjqJm_JPEG/%C5%B8%C4%DA_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12591,8 +12591,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_71/1757324257620G9pxS_JPEG/1000015256.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250908_138/1757324257772NBeoG_JPEG/1000015255.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -12639,8 +12639,8 @@ const restaurants = [
     "naverPlaceId": "1235425429",
     "naverUrl": "https://map.naver.com/v5/entry/place/1235425429",
     "naverBlogCnt": 838,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_270/17720948366824RNPJ_JPEG/%C6%F7%C4%AB%C4%A1%BE%C6%C7%C1%B7%CE%B8%F0%BC%C7_%C0%CE%BD%BA%B0%A1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211210_293/163910254164232T0E_JPEG/KakaoTalk_20211209_174403635_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -12730,8 +12730,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200811_215/1597138898342c1FTj_JPEG/pLOGhjPAI5IVzSQq3poJzHes.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200206_167/1580975223530vHzsx_JPEG/ffXw4pIzSvbaBfYit3D_nynO.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -12778,8 +12778,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260104_56/1767529920831TXkKn_JPEG/KakaoTalk_20260104_212833690.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231106_150/16992402426644QE4s_JPEG/IMG_4852.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -12809,8 +12809,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1099997412",
     "naverUrl": "https://map.naver.com/v5/entry/place/1099997412",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211118_290/1637222275169rc9jP_JPEG/20211102_164445.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230823_281/1692737904702VQA42_JPEG/20230822_055417.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -12850,8 +12850,8 @@ const restaurants = [
     "naverPlaceId": "1131370514",
     "naverUrl": "https://map.naver.com/v5/entry/place/1131370514",
     "naverBlogCnt": 130,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241016_171/1729058045352vpTfJ_JPEG/KakaoTalk_20241016_145109846_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260320_57/1773982259628pQnMK_JPEG/%BD%E6%B3%D7%C0%CF.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -12909,8 +12909,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220530_188/1653893989114jxVa8_JPEG/20220413_175051.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220530_13/16538939572527mx2o_JPEG/20220530_111113.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -12988,8 +12988,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_182/1772539360176iXiq2_JPEG/%C6%ED%B9%E9_%BD%C5%B8%DE%B4%BA1_%286%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260508_36/1778209091275H0Fgm_JPEG/IMG_9159.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -13065,8 +13065,8 @@ const restaurants = [
         "description": "바사한 오징어튀김과 고추튀김을 한번에!!!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231208_244/1702037893494lS4Y6_JPEG/%B8%DE%C0%CE%C4%C6_03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231208_25/1702037955485Ldhwf_JPEG/%BE%D5%C4%A1%B8%B6_%C4%C6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13146,8 +13146,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251025_255/1761360258458Hy4Iz_JPEG/1000040248.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240627_141/17194858992779TT0G_JPEG/1000040539.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06198"
   },
@@ -13211,8 +13211,8 @@ const restaurants = [
         "description": "한우 소고기 다져서 경단을 만들어 빵가루에 튀긴 요리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_283/1772170514278Bu1Sj_JPEG/IMG_2203.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260227_31/1772170514029mT0yG_JPEG/IMG_2201.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -13254,8 +13254,8 @@ const restaurants = [
     "naverPlaceId": "1828004443",
     "naverUrl": "https://map.naver.com/v5/entry/place/1828004443",
     "naverBlogCnt": 160,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220824_4/1661341055161naggB_JPEG/C1FF9BCE-0299-4D17-8501-1D253912D72C.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220824_229/1661341117661ezfXP_JPEG/D2E63552-8156-4CBF-98CA-4E489870869B.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13342,8 +13342,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251102_273/1762090698574GGnrH_JPEG/1000017787.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260413_74/1776072959950CGE9O_JPEG/1776072833300.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -13417,7 +13417,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/진밀옥-삼성동-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -13488,8 +13488,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240711_60/1720702312663MxTpM_JPEG/%B4%DF%B5%B5%B8%AE%C5%C1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240711_245/1720702312093pSnIq_JPEG/%C1%A6%C0%B0%BA%BA%C0%BD.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -13567,8 +13567,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241203_228/1733220112263y6084_JPEG/20241203_142755_011.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241203_293/1733220112332Oztls_JPEG/20241203_142921_004.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -13654,7 +13654,7 @@ const restaurants = [
         "description": "여성에게 인기인 달달하고 깔끔한 끝맛이 느껴지는 하이볼"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/다이닝갈비-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13733,8 +13733,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231221_262/1703139359102l2L6M_JPEG/397116255_18379745083064910_1061088444725233807_n.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231221_292/1703139356117rkt9a_JPEG/%C0%D8%B0%ED%C0%D6%BE%EE%B4%D9%C0%CC%B7%B1_%C5%AC%B7%A1%BD%C4%C7%D1_%C3%CA%B9%E4_%C3%CA%B9%E4_%B6%AF%B1%E6%B6%A7_%C6%ED%C7%CF%B0%D4_%B8%D4%C0%BB%BC%F6_%C0%D6%B4%C2_%C3%CA%B9%E4%C1%FD%C0%CC%C0%BA%B8%B6%BB%F3%B0%A1%BF%A1_%BF%C0%C7%C2_%BE%C6%C6%C4%C6%AE%BB%F3%B0%A1%C0%D3%C0%BB_%B0%A8%BE%C8%C0%CF%BA%BB%BD%C4_%B9%DD%C2%F9%B5%B5_%C6%C7%B8%C5%B0%C5%B1%E2%BF%A1_%C0%E5%BE%EE%B5%A4%B9%E4%C0%BA_%C0%CE%B1%D9_.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -13808,8 +13808,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250904_115/17569146067508NoXT_JPEG/c795e8dd3ec6614bc825b1706a6c484f.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230515_58/1684121612319Eq1GF_JPEG/39F893DF-B561-42E9-B438-A012FD1396B5.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -13890,8 +13890,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250907_22/17572139476342Ki01_JPEG/temp_1757213491952.-1543658339.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250907_222/1757213968898dHaqq_JPEG/temp_1757213491956.-1543658339.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -13952,8 +13952,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190312_34/1552377637725r2vYv_PNG/9RFytC0iRS5d0kNIta806yie.PNG.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200730_282/1596108585968CsfJL_JPEG/-jUyrkhQC0jzREYi8MHW2nir.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14030,8 +14030,8 @@ const restaurants = [
         "description": "생과일 100%로 만든 더치앤빈의 생과일 주스!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260101_103/1767243392532zM1Vo_JPEG/IMG_2711.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260101_113/17672433920153kVdi_JPEG/IMG_2709.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -14097,7 +14097,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백년가-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14153,8 +14153,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240803_166/1722665816479LI76W_JPEG/%B9%E9%B3%E2%B0%A1_31.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -14197,8 +14197,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_124/176905821702932iBS_JPEG/20251220_075545.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260122_162/1769058301229iz0rg_JPEG/Image.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -14281,8 +14281,8 @@ const restaurants = [
         "description": "다들 아는 그 맛, 그러나 아는 맛이 가장 무섭다"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241223_230/1734928185460VFbhP_PNG/%BA%B8%C1%A4%C8%C4%C5%E4%B7%E7_%BB%EF%BC%BA%C1%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%B8%DE%C0%CE-2.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250225_237/1740455823125Ozh6c_JPEG/KakaoTalk_20250114_162916757.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14373,7 +14373,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그랜드-인터컨티넨탈-메르카토521-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14437,7 +14437,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/크라이치즈버거-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06173"
@@ -14533,7 +14533,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그랜드-키친-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14617,7 +14617,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그랜드-인터컨티넨탈-그랜드-키친-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14697,8 +14697,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220214_35/1644839383763tlxmt_JPEG/CYMERA_20220209_140452.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzEyMTNfMzEg/MDAxNzAyMzk2MzIwODg2.-qvxyJ1rW-w26k6XtQW8ceU81B-8ikzSlu4WWPdC-cwg.pOpUeIexnm8pBIjMbG1OvLc_vnhmzaawiTgjmR-Q21Ug.JPEG/F30A022A-C79D-48EA-829C-823AA21E9617.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14729,8 +14729,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "2059890908",
     "naverUrl": "https://map.naver.com/v5/entry/place/2059890908",
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251104_288/17622441594327Uhtt_PNG/%C5%AC%B7%A1%BD%C4.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20251104_48/1762244159729IWYWy_PNG/%B1%D7%B7%A3%C6%C4.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -14784,7 +14784,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/기꾸-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -14874,8 +14874,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220801_26/1659343683936GHRR0_PNG/1BAE5554.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211021_32/1634780505140FJArW_JPEG/ZNdMz4tFmfu5QF55NFEHAoQG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -14969,8 +14969,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240911_14/172602049802084nog_JPEG/%C7%C3%B7%A3%C6%A9%B5%E5_%C7%C1%B7%CE%B8%F0%BC%C7_%C0%CC%B9%CC%C1%F6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260406_44/1775459906298nPJXS_PNG/2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -15065,8 +15065,8 @@ const restaurants = [
         "description": "전복이 통째로 들어간 아삭하고 시원한 배추김치"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241023_5/17296553170344k9nT_JPEG/KakaoTalk_20241023_103836583.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241023_209/1729655317033KqDKR_JPEG/KakaoTalk_20241023_103836583_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15134,7 +15134,7 @@ const restaurants = [
         "description": "숙성오징어젓갈베이스로 만들 볶음밥입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/육성급-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15243,7 +15243,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도명골-청국장-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -15344,7 +15344,7 @@ const restaurants = [
         "description": "고소하며 단백해서 특수부위 좋아하시는 분들에게 추천!!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/돈주는남자-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15429,8 +15429,8 @@ const restaurants = [
         "description": "로스(등심)까스+샐러드+주먹밥+장군(매콤)우동(小)"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220317_201/1647528638923FzvcA_JPEG/%B4%F1%C2%AF%B5%B7%B1%EE%BD%BA_55.jpg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20231023_183/1698068488179wJfWR_JPEG/%B4%F1%C2%AF%B5%B7%B1%EE%BD%BA_51.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -15518,8 +15518,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190522_190/1558484843854gvxEY_JPEG/oMUT_w6debbTz_sT-N2epYtC.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTExMjhfMTQz/MDAxNzY0MzM5OTY3NjM3.Rg64MmERXpSR7k1gVO5yBZg6H2N3VTmEI25fK4ajmtkg.PLxyBilfbHVU84fq1DkAobyyWXe0dnN6KPuBU8WoiWcg.JPEG/D784DC50-57F6-450D-A794-90E37BC5F5E8.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -15596,7 +15596,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/갓포아키-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15676,7 +15676,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/ASOBOY-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -15738,8 +15738,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201206_145/1607246304767UU9Aw_JPEG/XS2oszPoPhnrZcnz8achGbl7.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20201123_291/1606101092530UcAl2_JPEG/YrvxI2VpxrNQZy6HYmqFXrvY.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -15782,8 +15782,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220420_230/16504533202821473o_JPEG/Resized_20220420_195032_%281%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220420_95/1650453289239RiDbA_JPEG/Resized_temp_1650452783291.-530758901_67012234565453.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -15864,8 +15864,8 @@ const restaurants = [
         "description": "간장에 재운 부드러운 메로를 담백하게 구워 낸 요리."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_48/1719909445794xBvj6_JPEG/0606_%B9%D9%B6%F4171.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240702_38/17199097174175Pju7_JPEG/%C0%FC%C5%EB%C1%D61.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -15943,8 +15943,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250907_250/1757242217585YH3ER_JPEG/KakaoTalk_20250905_202414690.jpg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20250907_108/1757242217687ApKhY_JPEG/KakaoTalk_20250905_202414690_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -16027,8 +16027,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250903_18/1756862128659WyR49_PNG/undefined_A_halved_Beef_Wellin.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250903_174/17568621304277ffji_JPEG/KakaoTalk_20250902_155221300_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16111,8 +16111,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250702_297/1751424918924KBPub_JPEG/%B9%AB%BC%E8%B1%E8%C4%A1_%BB%EF%BC%BA_%B9%CC%B3%AA%B8%AE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250702_223/1751424881322h6YNi_JPEG/%B9%AB%BC%E8%B1%E8%C4%A1%BB%EF%B0%E3_%BB%EF%BC%BA_%BA%BA%C0%BD%B9%E4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -16306,8 +16306,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240906_34/1725590760911E4ptQ_JPEG/Screenshot_20240905-102240_CatchTable.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240906_267/17255907462829ghtj_JPEG/Screenshot_20240905-102219_CatchTable.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -16394,8 +16394,8 @@ const restaurants = [
         "description": "사골육수에 대창, 야채를 우려낸 후쿠오카식 전골요리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_277/1758798942783AClgY_GIF/%BC%B1%B8%AA%C1%A1.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250609_289/1749475053263WQYxk_JPEG/79.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -16475,8 +16475,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20181008_57/1538986496037fzxlJ_JPEG/NJWdBUYZFKUmUwbiKUSxFBS8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20181008_41/1538986896000qfoEq_JPEG/eQs9Zj7eFejVFaqZLgkf-WWj.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -16522,8 +16522,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241217_288/1734417127857y3s1O_JPEG/56559DEA-DBDB-4FE4-8037-67EE84EB75D4.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241220_217/1734698749144lYJfz_JPEG/E190E950-70B9-4F5D-B272-8B8CF0EECEE4.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06175"
@@ -16569,8 +16569,8 @@ const restaurants = [
     "naverPlaceId": "1015667321",
     "naverUrl": "https://map.naver.com/v5/entry/place/1015667321",
     "naverBlogCnt": 312,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210729_291/1627543430584vW6Cy_PNG/xqITDr3QUTFr-Q41VCArBBqN.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210729_45/1627542093112BwDsu_PNG/KfrQTs_emWSAhr81g-MxXFf_.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -16636,7 +16636,7 @@ const restaurants = [
         "description": "생취나물과 찹쌀 햅쌀로 갓지은 돌솥밥 입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/맛찬들왕소금구이-삼성직영점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16838,8 +16838,8 @@ const restaurants = [
         "description": "부드럽고 달콤한 수제 바닐라 크림이 올려진 아인슈페너"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_52/1771550071878MI5he_JPEG/KakaoTalk_20260220_100112490.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260220_231/1771556019496WbUyC_JPEG/KakaoTalk_20260220_114936541.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -16905,8 +16905,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230320_282/1679286861298IurTw_JPEG/KakaoTalk_20230320_133346582_03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250619_23/1750323086621pP8mG_JPEG/IMG_3870.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -16971,8 +16971,8 @@ const restaurants = [
         "description": "국내산 돼지목심 샤브세트 메뉴. 야채 리필가능."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210523_215/1621754859110RJpDU_JPEG/xKOOHIXyzL-Bj6STfJXUlDPF.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210523_283/1621754885773HsOPe_JPEG/5k7_gHT6tH3i9TANAUg7T5cQ.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -17062,8 +17062,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231101_127/1698824538517DAax7_PNG/2023_%C5%EB%BF%C1_-_%BA%B9%BB%E7%BA%BB.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20201102_214/1604299354434miHhP_JPEG/tY9yP0Rt215vI4-wwEC12EGQ.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17244,7 +17244,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/홍콩다방-파르나스몰-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -17287,8 +17287,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1490969080",
     "naverUrl": "https://map.naver.com/v5/entry/place/1490969080",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190104_263/1546598549133TXx4I_JPEG/Er7knhGGvcybZV3xSsdLfUuX.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -17372,8 +17372,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_21/17673285816545CwEU_JPEG/180886235903212_2045472623.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_58/14411145095456kbAo_JPEG/166756544161469_0.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17457,8 +17457,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251216_11/1765892573081MEPxT_JPEG/KakaoTalk_20251216_100829799.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251216_104/17658925745776YKH8_JPEG/KakaoTalk_20251216_100829799_04.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -17534,8 +17534,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240912_44/1726122954220KqbU5_PNG/%B4%D9%BF%EE%B7%CE%B5%E5.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250528_238/1748406541471mkIQp_PNG/KakaoTalk_20250523_135812541.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -17619,8 +17619,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210825_154/1629871519628MHIw8_JPEG/sSH07p5kYGT3LELJVeqAytKg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210812_256/16287519876360M99s_JPEG/wEN-p4ayoM3SZU4ditCbJxrL.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -17709,8 +17709,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250528_275/1748419443652QnleQ_PNG/01.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240103_255/1704290275338BFSUa_JPEG/%BB%F5%BF%EC.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17785,7 +17785,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250619_99/1750312630542jQRRs_PNG/4.PNG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -17817,8 +17817,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2080620111",
     "naverUrl": "https://map.naver.com/v5/entry/place/2080620111",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_236/1760430540765vkXtJ_JPEG/IMG_9157.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250714_186/1752472829032yf1AS_JPEG/IMG_6302.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -17915,8 +17915,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_190/1772752853213UjcHt_PNG/MBC%B5%F5%BC%B6%BC%D2%B0%B3.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250923_103/1758619310169bOtmo_JPEG/%C8%AB%B9%CC%C3%A2%28%B8%DE%B4%BA%29.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -18003,8 +18003,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_254/1764143695395hr9yj_JPEG/KakaoTalk_20240310_225314750_13.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240314_101/1710345209273rdEE3_JPEG/1000035325.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -18093,8 +18093,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250929_42/1759106669295RzevH_JPEG/%B7%CE%B0%ED_1080-01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230427_39/1682589390033VDDh3_JPEG/20230330_120726.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -18252,8 +18252,8 @@ const restaurants = [
         "description": "한우투플러스 등심 갈비살 차돌박이 700그램"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240225_295/17088519829876MJQK_JPEG/1641194448801.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06283"
@@ -18341,8 +18341,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180220_54/1519127544044P5tBA_JPEG/c6tG5K3VZN8taFqshcD88VCb.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180220_268/1519127667043wqrsR_JPEG/Li49LSopQ0Iyvnov-oJGE2O_.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -18429,8 +18429,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250401_221/1743473679985Lr8k0_JPEG/KakaoTalk_20250328_010343652_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250401_169/1743473680115o3SSo_JPEG/KakaoTalk_20250328_010343652_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18468,8 +18468,8 @@ const restaurants = [
     "naverPlaceId": "37402263",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402263",
     "naverBlogCnt": 40,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230915_208/1694766630023NxaUG_JPEG/230421_OPCC_0005_%BA%B9%BB%E7.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230915_73/1694766660210JHUx3_JPEG/230421_OPCC_0003_select_fin_%BA%B9%BB%E7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -18547,8 +18547,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231212_132/1702380704227GSMJS_JPEG/Screenshot_20231212_203139_KakaoTalk.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240626_286/1719379596569Ynllg_JPEG/1000015528.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -18585,8 +18585,8 @@ const restaurants = [
     "naverPlaceId": "2049992802",
     "naverUrl": "https://map.naver.com/v5/entry/place/2049992802",
     "naverBlogCnt": 59,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250723_285/17532730313815LvMg_JPEG/IMG_3332.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250723_291/1753273031403cMYj9_JPEG/IMG_3329.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -18659,8 +18659,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180406_281/1522999750979nBQie_JPEG/SJglMNIovCOSk4LQDzWdAcUU.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180406_73/1522999751187m0zR0_JPEG/jTMhWmilsUruLioQHjQi1LU0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -18728,8 +18728,8 @@ const restaurants = [
         "description": "김돈이 본점의 공기밥 당일에 지은 밥으로 제공해드립니다"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250825_90/1756104455572fdnWl_JPEG/%B8%DE%C0%CE_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240909_220/1725864065438vyQ2z_JPEG/IMG_0063.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -18789,8 +18789,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_52/1762316485080s9FGy_JPEG/KakaoTalk_20220812_141914780_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250120_216/17373380916300xHm7_JPEG/123.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18842,7 +18842,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1052216848",
     "naverUrl": "https://map.naver.com/p/entry/place/1052216848",
-    "imageUrl": "/images/restaurants/samseong/코너스톤-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -18912,8 +18912,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_3/1773389157858xtRp2_JPEG/Park_Hyatt_Seoul_-_May_2025_91.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240725_246/1721864544316xapWU_JPEG/SELPH-CORNERSTONE-SEAFOOD_FEAST-SEAFOOD_BAR_%287%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -18993,8 +18993,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220805_237/1659698345915HFQpr_JPEG/Screenshot_20220804-172703_Instagram.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAzMjBfMTEz/MDAxNzczOTc5ODMzMDI1.R42iGTIUUZ17ertYyZF2KtCn0ko0dPbJW3_Q7NGlMlkg.iPs1INU1xKmK5AMrnGuo_OWHmKTk1a-sJHDdlF16mxYg.JPEG/20260320_125600.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06284"
   },
@@ -19073,8 +19073,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220516_262/1652632197181Yj752_JPEG/43C61145-5100-4928-A812-ACFFA25D73BB.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251009_110/1760006256146SDJNg_JPEG/%BA%ED%B7%E7%B8%AE%BA%BB%BC%AD%BA%A3%C0%CC_%BB%E7%C1%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -19157,8 +19157,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250320_127/1742451781453v3rGd_JPEG/%B0%ED%B8%DE%B7%A5_%B4%EB%B9%AE%BB%E7%C1%F8_1%B9%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250320_17/1742446189112Tqtfn_JPEG/KakaoTalk_20250320_111832159_10.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19237,8 +19237,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190120_184/1547962858164kz1ju_JPEG/b__hOsE2UGDByRIiYhKXVfdo.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190120_86/1547962865783kJmEA_JPEG/R75zoBpsCz6qTXwQ_Z3D-AgT.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -19417,8 +19417,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_190/1765336822732HNl1r_JPEG/9759.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230518_26/1684338333721QLMcu_JPEG/Screenshot_20230517_210609_YouTube.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06201"
@@ -19504,8 +19504,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_27/1719912633536xljO8_JPEG/20240702_182952.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211125_21/1637831175995pPzBJ_JPEG/IMG_20200329_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19592,8 +19592,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260210_74/1770718200332HAXV3_JPEG/KakaoTalk_20260210_185516062.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220306_84/1646563943919gsU5T_JPEG/KakaoTalk_20220305_215333384.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -19661,7 +19661,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/거제지심도횟집-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06175"
   },
@@ -19711,8 +19711,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250122_165/1737520742838EbCpC_JPEG/%B8%DE%B4%BA%B8%F0%C0%BD%C4%C6_2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250122_264/1737520782206z9LhT_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-01-20_%BF%C0%C8%C4_12.31.25.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -19798,8 +19798,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230905_30/169384951173529Qyx_JPEG/IMG_3578.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230905_19/1693849512632y49PT_JPEG/IMG_2711.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -19841,8 +19841,8 @@ const restaurants = [
     "naverPlaceId": "1081922758",
     "naverUrl": "https://map.naver.com/v5/entry/place/1081922758",
     "naverBlogCnt": 679,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251216_266/17658734268173EJBL_PNG/%C3%BB%B4%E3.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250612_40/17497197372467cQNM_JPEG/169A1776_2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -19930,8 +19930,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_27/1772695976401EuOkA_JPEG/26.3_%C8%AD%C0%CC%C6%AE%B5%A5%C0%CC_%C4%B3%C4%A1%C5%D7%C0%CC%BA%ED%BF%EB_%BD%BA%C6%E4%BC%C8%B8%DE%B4%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251127_230/1764170314004TupLx_JPEG/20251110_%C3%BB%B4%E3%B3%AA%C0%CE2132_small.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -20016,7 +20016,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/숯칼-숯불닭구이칼국수-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20063,8 +20063,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210407_284/16177831836936J4cm_JPEG/9bcmeAgNQPI8ZlaLtsuZcFTz.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210407_192/1617783270239NJLf9_JPEG/QF6T1MkTPANQCrGR5-L20_hj.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20106,8 +20106,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210404_135/1617524337987jxi8N_JPEG/v1WHFf1ZCEtXf_DthHDxrKrV.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210404_220/1617524343760GcmeW_JPEG/bnPxkWIEmO8YIdc76bVZL1yc.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -20199,8 +20199,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240722_289/1721627113604DErXK_PNG/6.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260505_102/1777947224919FcyCL_JPEG/KakaoTalk_20260505_021403993.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -20281,8 +20281,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_178/1563874807423FGNfn_JPEG/mWEe8yZpLD_TKljrTLV0viMX.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAxMjlfMjY5/MDAxNzY5Njc3NDkxODUw.y6h47vXvaYHoEHzHNbbuynQjbiWy9kTaYzEOoxsTK0cg.9TnS-f_-O5OItTNlvgBymN21_2JTOGtEN4w1LjF_ejcg.JPEG/20260126_131349.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20358,8 +20358,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231221_33/1703128163447Tf4SG_JPEG/KakaoTalk_20231220_174348198_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_147/1757485297189aLhi3_JPEG/KakaoTalk_20250910_152028960.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -20440,7 +20440,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "11861437",
     "naverUrl": "https://map.naver.com/v5/entry/place/11861437",
-    "imageUrl": "/images/restaurants/samseong/그랜드-인터컨티넨탈-로비-라운지-바-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20504,8 +20504,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220503_93/1651568971295YCzqq_JPEG/%C5%E8%BE%E4%B2%E1ZH5A8937.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220503_201/1651568971274APSxS_JPEG/ZH5A9033.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -20551,8 +20551,8 @@ const restaurants = [
     "naverPlaceId": "1079820562",
     "naverUrl": "https://map.naver.com/v5/entry/place/1079820562",
     "naverBlogCnt": 1092,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231117_228/1700149738310W8UAi_JPEG/%C6%C4%C6%C4%BE%DF%B8%AE%C7%C1_%BB%E7%C0%CE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231113_51/1699825152026cH2LH_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%284%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -20646,7 +20646,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/모구모구돈부리-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -20690,8 +20690,8 @@ const restaurants = [
         "description": "유명한 노르웨이산 고등어입니다!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200428_300/1588042887640rPgX9_PNG/Ha1Xs3EkRMNpxdrIs3CZLbDP.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260413_233/1776072365577AoD7G_JPEG/21488.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -20770,8 +20770,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190729_143/1564364750334lOiJC_JPEG/7Cjhz7SwdFrEsRC9bQkH48IC.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190911_100/1568188852182r7NUF_JPEG/nCv2puGl6ysBf9piK91Jko9m.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -20809,8 +20809,8 @@ const restaurants = [
     "naverPlaceId": "1194619995",
     "naverUrl": "https://map.naver.com/v5/entry/place/1194619995",
     "naverBlogCnt": 198,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211010_85/1633832347443GCMGW_JPEG/HPfz-fsVAbt3U0nB3U_i9Z5I.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAzMjNfOCAg/MDAxNzc0MjYwNjc2ODA0.XYObB7ryCj_Ot2f-dH0hDyD6kz6793Bqv0T6ci4UDbcg.dl1G5J1xgOBYdFMUSKEMVVZlj2iYbhaKMq4FDD3XpfEg.JPEG/AF640D26-162D-44A9-9F4A-4D1F4516BD69.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -20885,8 +20885,8 @@ const restaurants = [
         "description": "포떠서 뼈를 제거한 돼지꼬리. 별미중 별미"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210527_59/1622095979942L0Yme_JPEG/WFmJN1tamobAqpDWVnTzqnMn.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210527_94/1622096014653bMXpC_JPEG/eGB8FOClLScECnGTiO2itgUV.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -20969,8 +20969,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210906_275/1630924360425JeU6C_JPEG/TMmCbfsri9gMFpMh7VHkTYKf.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210906_183/1630924525948EcfOT_JPEG/k0k1YWRkGGnA21-SOYHhUfJo.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -21055,8 +21055,8 @@ const restaurants = [
         "description": "곱창 기름으로 볶아 고소함이 살아있는 인기 마무리 메뉴"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260308_50/1772902116987KW82C_PNG/IMG_7271.PNG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260308_77/1772902116897oOJSV_JPEG/IMG_7276.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -21133,7 +21133,7 @@ const restaurants = [
         "description": "*어린이: 37개월 이상 ~ 만 12세 이하"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/신라스테이-삼성-카페-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -21192,8 +21192,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_12/1762304649670xOY8U_JPEG/%C4%C5%C4%C9%C0%CC%C5%A9_%C0%FC%C3%BC_%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20240502_264/1714629210055D08Sf_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -21301,7 +21301,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파이어벨-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -21386,8 +21386,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210402_177/1617340873116kcMLa_JPEG/GqSnhZ9ZIy14DgqQDh2Ed0As.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210402_280/1617340889697yPP9y_JPEG/n8I2s4HRGh9_u_ak_uApLY33.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -21492,7 +21492,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/우정소갈비-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -21691,8 +21691,8 @@ const restaurants = [
         "description": "진한 베르가못향을 느낄 수 있는 향긋한 홍차"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210310_103/1615366920661YfWCf_JPEG/ezWWQBs46BhwWdMnPDWVQ59y.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210310_275/1615366933809xA5os_JPEG/bwbecvls5Mp7QPQnnjQaeax3.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -21787,8 +21787,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250115_254/1736926366778RBDck_JPEG/KakaoTalk_20250114_162916757.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250724_234/1753342357167ICydm_JPEG/%C8%C4%C5%E4%B7%E7_%B0%F8%BF%EB.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -21900,8 +21900,8 @@ const restaurants = [
     "naverPlaceId": "2080746556",
     "naverUrl": "https://map.naver.com/v5/entry/place/2080746556",
     "naverBlogCnt": 106,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_112/1770972730221YAGAq_JPEG/11765.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250531_99/1748655375599vfpcb_JPEG/1000054487.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -21972,8 +21972,8 @@ const restaurants = [
         "description": "맛깔나게 삶아낸 수육을 한입 크기로 썰어서 내어드립니다"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250820_292/1755690455651bGP19_PNG/%B4%EB%C4%A1%B5%BF%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD_%C7%B3%BC%BA%BF%C1%B0%AD%B3%B2%BA%BB%C1%A1_%C2%F0%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%C2%F0%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B0%F5%C5%C1_%BC%B1%B8%AA%BF%AA%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%B8%B7%B1%B9%BC%F6_%B4%EB%C4%A1%B5%BF%C1%A1%BD%C9_%BC%B1%B8%AA%BF%AA%C1%A1%BD%C9_%B4%EB%C4%A1%B5%BF%C8%B8.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260510_255/1778370901983Iky6K_JPEG/%C7%B3%BC%BA%BF%C1%B0%AD%B3%B2%BA%BB%C1%A1_%C7%B3%BC%BA%BF%C1_%B4%EB%C4%A1%B5%BF%B8%C0%C1%FD_%BC%B1%B8%AA%BF%AA%B8%C0%C1%FD_%C6%F7%BD%BA%C4%DA%BB%E7%B0%C5%B8%AE%B8%C0%C1%FD_%BB%C0%C2%F2%B8%C0%C1%FD_%B4%EB%C4%A1%BB%E7%B0%C5%B8%AE%B8%C0%C1%FD_%C7%D8%C0%E5%B1%B9%B8%C0%C1%FD_%B0%F5%C5%C1%B8%C0%C1%FD_%B8%B7%B1%B9%BC%F6%B8%C0%C1%FD_%B5%E9%B1%E2%B8%A7%B8%B7%B1%B9%BC%F6%B8%C0%C1%FD_%B4%EB%C4%A1%B5%BF%B0%F5%C5%C1_%BC%B1%B8%AA.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -22056,8 +22056,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251008_275/1759927177533fdPmT_JPEG/1000010593.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251008_41/1759927177376dr6LY_JPEG/1000010609.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -22135,7 +22135,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/크리스피프레시-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -22207,8 +22207,8 @@ const restaurants = [
         "description": "바삭한 껍질 속에 육즙이 가득한 튀김만두"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250624_9/1750736779912pjkJc_JPEG/%BD%BD%B1%E2%B7%CE%BF%EE_%B8%AE%BA%E4_%BB%FD%C8%B0_%C0%CC%BA%A5%C6%AE_%B5%B5%BD%C9%B0%F8%C7%D7%C1%A1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240925_286/1727265533532q5WNt_JPEG/%C4%A1%B9%D9%BF%C0_%BA%EA%B7%A3%B5%E5_%BB%E7%C1%F81.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22285,8 +22285,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251015_78/17604991672846DiqC_JPEG/KakaoTalk_20251015_122940022_03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251015_20/17604992472220CIfj_JPEG/KakaoTalk_20251015_123348866.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -22364,8 +22364,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241010_165/1728520361573CvhTD_JPEG/240812_%B8%DE%B4%BA%C3%D4%BF%B5_%BC%D6%C6%AE%BE%D8%BD%B4%B0%A12151.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTAyMjBfMjMz/MDAxNzQwMDUzNDIyMTkx.wVMuBm1DOx9QDSL7kpnuuN0PravVscBb1SMmtPobbMsg.-91uWC40ClQw7BnS0d0DQPtZXriihKZ1xQnhw5eMp4cg.JPEG/1000072437.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -22469,7 +22469,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200417_267/1587085418218JbmjB_JPEG/Y7gWSBWdT9qXGNz4C7bSHKjS.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22530,8 +22530,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220322_180/1647910030234rwu7W_JPEG/%C6%ED%C0%E5%B1%BA%C3%D6%C1%BE%B7%CE%B0%ED.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjEyMjJfMTAw/MDAxNjcxNzA1ODU2MjMy.uPUcMf8Mh18kIjAseYZ1E6DmDmBjf6JM3dVP6SuE5lsg.aMh2JWko6w6j_UQN4X1Kdciju1UYmHAiC1p8sfGxJCgg.JPEG/0EDC378C-C4A2-4ADB-B691-69F37FC70865.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22644,8 +22644,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_229/17437513079830Y69w_JPEG/200625_045_%B0%C7%B0%AD%B9%E4%BB%F3_%BA%EA%B7%A3%B5%E5%C4%C6_002.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTExMTBfOTcg/MDAxNzYyNzU4NDQwMDky.ixL7kBnl08QOeSY6MCitEumcGLnsTLoKm9dnu_jpfLUg.oQB-Ie1oVVznc3Tu__Ceom6S2MAQYy6J5TPMsBiVFzUg.JPEG/20251106_153414.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22680,8 +22680,8 @@ const restaurants = [
     "naverPlaceId": "1896076569",
     "naverUrl": "https://map.naver.com/v5/entry/place/1896076569",
     "naverBlogCnt": 76,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250925_130/1758786629928X6rsd_JPEG/%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250925_88/1758786624660i0ire_JPEG/%B8%DE%B7%D0%BB%A7_%C4%C1%BC%C1%BC%A6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -22739,8 +22739,8 @@ const restaurants = [
         "description": "신선한 나물과 야채, 돼지고기가 들어간 건강한 찐만두"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_252/1772750107815cFins_JPEG/%BC%B1%C1%D6%C8%C4%B8%E9_%BC%AD%B0%FC%B8%E9%BB%F3_%C0%FA%B3%E1%BB%F3.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260306_269/1772750089558hopPO_JPEG/%BC%AD%B0%FC%B8%E9%BB%F3_%C1%A1%BD%C9%BB%F3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -22844,7 +22844,7 @@ const restaurants = [
         "description": "양고기 패티, 양상추, 양파 슬라이스, 큐민 마요"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/브루클린-더-버거조인트-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -22929,8 +22929,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220307_217/1646630874993FbbY7_JPEG/KakaoTalk_20220307_142452683.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230731_47/1690786117674NOVTk_PNG/IMG_6377.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23001,7 +23001,7 @@ const restaurants = [
         "description": "아이스크림이 올라간 따뜻한 버터 파운드 케이크"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/캘리포니아-피자-키친-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23058,7 +23058,7 @@ const restaurants = [
     "naverPlaceId": "13096864",
     "naverUrl": "https://map.naver.com/p/entry/place/13096864",
     "naverBlogCnt": 1416,
-    "imageUrl": "/images/restaurants/samseong/마노디셰프-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23118,8 +23118,8 @@ const restaurants = [
         "description": "모짜렐라 치즈를 더해 부드러운 맛이 일품인 키마카레"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220414_66/1649924060607weHEK_JPEG/%B7%CE%B0%ED_%BA%CE%C5%B8%C0%CC_1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200418_11/1587198643899U4yOb_JPEG/uUSXAVR8VP60GrJ_55678SZX.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -23201,8 +23201,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240215_123/1707966514094MLhly_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF1-1_%B5%E5%B6%F3%C0%CC%BF%A1%C0%CC%C2%A1_%C4%C1%BC%C1_%C1%A4%B8%E9.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240215_31/1707966514264ICKae_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF1-4_%B0%ED%B1%E2%B1%C1%B1%E2_%BA%D2%BE%F8%C0%CC.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -23254,8 +23254,8 @@ const restaurants = [
         "description": "황태만상의 비법소스에 구운 황태구이 1마리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_152/1766216806151j86ND_JPEG/%C8%B2%C5%C2%B8%B8%BB%F3_%C1%A4%BD%C4.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251220_144/1766216822944OkYRO_JPEG/%C8%B2%C5%C2%B1%B8%C0%CC_%C1%A4%BD%C4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -23313,7 +23313,7 @@ const restaurants = [
     "naverPlaceId": "32389127",
     "naverUrl": "https://map.naver.com/p/entry/place/32389127",
     "naverBlogCnt": 863,
-    "imageUrl": "/images/restaurants/samseong/경천아인-2237-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23402,8 +23402,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231104_234/16990829760613GJLA_JPEG/KakaoTalk_20231103_215640171.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250401_66/1743492574484pyMuB_JPEG/KakaoTalk_20250326_170430102.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -23475,8 +23475,8 @@ const restaurants = [
         "description": "점심코스"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_220/1758075499193RP5Re_JPEG/1000018839.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250917_177/17580754991164vrpM_JPEG/1000018838.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -23535,7 +23535,7 @@ const restaurants = [
     "naverPlaceId": "21844799",
     "naverUrl": "https://map.naver.com/p/entry/place/21844799",
     "naverBlogCnt": 594,
-    "imageUrl": "/images/restaurants/samseong/매드포갈릭-봉은사-아이파크타워-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23619,8 +23619,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_42/1441030247465Ci6mQ_JPEG/146477525145910_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_258/1441030247673ehROz_JPEG/146477525145910_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23703,7 +23703,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아라비카-스타필드-코엑스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -23810,7 +23810,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/수다-삼성1호점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -23891,8 +23891,8 @@ const restaurants = [
         "description": "맛도 영양도 챙긴 만능 안주, 황태구이와 껍질튀김"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230316_137/1678936470601IOIu3_JPEG/220914_%B8%DE%B4%BA%BB%E7%C1%F8_%28133%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230316_166/1678936456104RiUVh_JPEG/%B8%C6%C1%D6%C2%A7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -23994,7 +23994,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/딤딤섬-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -24092,7 +24092,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고운님삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -24163,7 +24163,7 @@ const restaurants = [
         "description": "평일 점심 트레이 세트"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/파크-하얏트-서울-더-라운지-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -24248,8 +24248,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240212_163/1707726230136hl0t0_JPEG/2023-11-20_13_09_42.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240212_13/1707726499602vfRSm_JPEG/KakaoTalk_20240212_172758282.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24301,8 +24301,8 @@ const restaurants = [
         "description": "한우 테이스팅 코스"
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260106_60/17676849893208JDek_JPEG/%B4%F5_%C6%C0%B9%F6_%C7%CF%BF%EC%BD%BA_%C7%D1%BF%EC_%BF%C0%BC%C7_%C5%D7%C0%CC%BD%BA%C6%C3_%C4%DA%BD%BA_%282%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250922_289/17585069507795GIwb_JPEG/TTH_Hanwoo_Tasting_Course_Final_%282%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24386,7 +24386,7 @@ const restaurants = [
         "description": "밀가루가 안 들어간 흘러내리는 스페인 치즈케이크"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/치즈룸-멜팅샵-파르나스몰-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -24461,8 +24461,8 @@ const restaurants = [
         "description": "밀가루가 안 들어간 흘러내리는 스페인 치즈케이크"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_242/1698213585327PKc8e_JPEG/%C6%C42.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231025_278/1698213585980YOnpI_JPEG/%B1%D7%B8%B26.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -24549,8 +24549,8 @@ const restaurants = [
         "description": "*저녁, 주말 및 공휴일 이용 불가합니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250627_242/1751010209567zF4Ug_JPEG/img_sub1-1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250627_224/1751010209537YTTxT_JPEG/thumb-6e70d0a11ae6a7457757bf3ebb7447df_1566982545_7911_1400x933.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24604,8 +24604,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220811_104/1660213543359bTxVF_JPEG/39A0D79B-AD7D-494B-847A-D09E4E57B656.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220811_123/1660213543514QVja4_JPEG/18D32A6D-C96C-4760-8382-3BB6C1517879.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24672,7 +24672,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/풍년집-대치점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -24708,8 +24708,8 @@ const restaurants = [
     "naverPlaceId": "421637529",
     "naverUrl": "https://map.naver.com/v5/entry/place/421637529",
     "naverBlogCnt": 414,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240519_264/17160840840563fld6_JPEG/IMG_1142.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260427_21/1777289489365hXNjP_JPEG/6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -24785,8 +24785,8 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20251219_255/17660876405170dsLa_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -24940,8 +24940,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260119_106/1768781987849XKkDv_JPEG/%BF%BE%B3%AF%B8%C0%BE%E7%B2%BF%C4%A1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260119_138/1768781987869eDdTd_JPEG/%BE%E7%B0%A5%BA%F1%BB%EC.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25017,8 +25017,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260220_50/1771572195760JXSzK_JPEG/%C1%A1%C6%F7%C0%CC%C0%FC%BE%C8%B3%BB001.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260409_282/1775742583530HBHl6_JPEG/18042.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -25101,8 +25101,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_66/1763974503363U4KYw_PNG/%B4%CF%B2%D9%BF%EC%B5%BF_%B3%D7%BA%F1%B9%F6%BF%EB.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250824_248/17559648674355kobF_JPEG/12.%C8%F7%BE%DF%BD%C3%BC%D2%B9%D9_%281%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -25185,8 +25185,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250918_292/1758181561084k3XD9_JPEG/%B1%BA%BC%B1%BB%FD-%BF%AC%C3%E201.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250918_67/1758181561179fYpTe_JPEG/%B1%BA%BC%B1%BB%FD-%BF%AC%C3%E202.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -25236,8 +25236,8 @@ const restaurants = [
         "description": "수제 딤섬을 일요일 점심, 코스요리로 만나보세요."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171024_152/1508828980065lN26B_JPEG/NcbM0B_r6Jb6pc6MQpkdsvUF.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250717_178/1752715161475yoTsL_JPEG/Mid%BF%FE%C0%CC%B7%E7_%281%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25283,8 +25283,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240606_300/1717657684281fk0pf_JPEG/IMG_4168.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240606_99/1717657684257NHN92_JPEG/IMG_4166.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -25370,7 +25370,7 @@ const restaurants = [
         "description": "볶은 제철버섯&야채, 데미글라스, 치미츄리 소스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/American-Table-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25448,8 +25448,8 @@ const restaurants = [
         "description": "볶은 제철버섯&야채, 데미글라스, 치미츄리 소스"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251207_170/17650859015765kCTH_JPEG/20251103_%BE%C6%B8%DE%B8%AE%C4%AD_%C5%D7%C0%CC%BA%ED56789_%C0%FC%C3%BC_%B8%DE%B4%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251207_66/1765086231591nlrg1_JPEG/20251103_%BE%C6%B8%DE%B8%AE%C4%AD_%C5%D7%C0%CC%BA%ED55911.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25494,8 +25494,8 @@ const restaurants = [
     "naverPlaceId": "173304440",
     "naverUrl": "https://map.naver.com/v5/entry/place/173304440",
     "naverBlogCnt": 71,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20170628_115/1498635140674GpYYG_JPEG/186578566239506_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20170628_294/14986351410895P5JJ_JPEG/186578566239506_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25556,7 +25556,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마라차이즈-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -25634,8 +25634,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191108_191/1573194292824SR4AW_JPEG/bogTAMuaPxeNr8En-KBvlPWx.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240625_196/17192892034291hFQ6_JPEG/1718095798549.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06206"
   },
@@ -25739,7 +25739,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한국돈거래소-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25837,8 +25837,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240708_242/1720415629196btHbA_JPEG/20240510_203842.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250520_13/1747742565995flatb_JPEG/15_%BC%D2%B0%A5%BA%F1%BB%EC.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -25903,8 +25903,8 @@ const restaurants = [
         "description": "다크 쵸코렛 파우더와 얼음, 저지방 우유의 블렌드"
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251021_126/1761007702683tNS6x_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02_%281%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241230_64/1735548389778tRuYB_JPEG/1%B9%F8_331.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -25982,8 +25982,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251206_4/1764997792217Rwe91_JPEG/1000034573.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251206_102/17649977923134owe0_JPEG/1000034572.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26090,7 +26090,7 @@ const restaurants = [
         "description": "돼지고기와 신김치를 달달 볶아 따뜻한 두부와 함께"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동인동-갈비찜-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26157,8 +26157,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_10/1441036661630V30uh_JPEG/146570637172338_1.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_235/1441036661450qx6Ix_JPEG/146570637172338_0.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -26240,8 +26240,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190724_140/1563958072022zfPeD_JPEG/B06r5XoPGtkxK5k-__EAhQg5.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190917_117/1568701937810JcbLW_JPEG/qtqlUCJPeDVJixXCb_17gWDR.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -26322,8 +26322,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260128_103/1769574888782HfJDQ_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001%285%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241203_120/1733198622431ugqsq_JPEG/KakaoTalk_20241203_130144300_09.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -26409,8 +26409,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250325_162/1742910952148FNr8q_JPEG/1000000042.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250325_136/1742910955808afKC5_JPEG/1000000049.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26456,8 +26456,8 @@ const restaurants = [
         "description": "랍스터+프리미엄 무제한 코스"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_96/17681815356029vBAm_JPEG/%C7%C1%B8%AE%B9%CC%BE%F6_34500_1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_29/1766055326445t3lbV_JPEG/1000035907.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -26541,8 +26541,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230329_288/1680100141300sTuEq_JPEG/2D4860F4-1C6A-4B33-A4F6-7A2CEEFFE18E.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230329_39/1680100218896Ic7L2_JPEG/14062E42-8BBC-46A6-8CD9-BE1FCAC3C0C3.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -26596,8 +26596,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241031_188/1730379427489Yjgxt_JPEG/1000023740.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241031_292/1730379427381e1pt4_JPEG/1000023741.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -26647,8 +26647,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250213_261/1739414376415o8hzt_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_5.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250213_103/1739414376548NnAGY_JPEG/%C7%C3%B7%B9%C0%CC%BD%BA_6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -26732,8 +26732,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250306_97/1741226162809ulD2H_JPEG/IMG_7955.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250302_140/1740849504639BsE27_JPEG/%B7%EB_4%B0%B3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -26816,8 +26816,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250729_152/1753783465658g3aNA_JPEG/IMG_8294.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250729_73/1753783465800xKSyO_JPEG/IMG_8143.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -26900,8 +26900,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201209_240/1607502999753HokaU_JPEG/yIsB8N8d88RZqyt41Im9LOsm.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20201209_57/1607503009905jvLKj_JPEG/guHQhvYq-j444W5r50Kya9g4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -26940,8 +26940,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1758869498",
     "naverUrl": "https://map.naver.com/v5/entry/place/1758869498",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240529_47/1716965573385QTCe5_JPEG/1716965380669.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240529_238/1716965563699p7Oko_JPEG/1716965380796.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06203"
   },
@@ -27022,8 +27022,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250414_106/1744606376095Nnw3p_JPEG/%C6%F7%C0%E5_%C7%D2%C0%CE_5000%BF%F8_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231207_144/1701930262859Xr7oM_JPEG/KM_00168.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27091,8 +27091,8 @@ const restaurants = [
         "description": "속이 꽉찬 만두 4개, 대표적인 코지라멘 튀김메뉴"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260312_43/1773308241482tR5mT_JPEG/photo_2026-03-12_18-37-03.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260304_293/17726196793736hUeT_JPEG/Screenshot_20260304_192113_Gallery.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -27174,8 +27174,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260219_88/1771484952435HQj9x_JPEG/%B8%F4%C6%BC%C1%EE_%B7%B1%C4%A1%B9%DA%BD%BA%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260121_22/1768961951462NqMYV_JPEG/%B9%EB%B7%B1%BD%BA%B9%DA%BD%BA_%B3%D7%C0%CC%B9%F6_%C7%C3%B7%B9%C0%CC%BD%BA.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27244,8 +27244,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240628_8/17195672215089JcgC_JPEG/%B8%DE%C0%CE_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241209_270/1733718582613rN7P2_JPEG/oreno02.jpg&_type=smart_place",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27353,7 +27353,7 @@ const restaurants = [
         "description": "게살과 야채를 넣어 볶아 담백 고소한 볶음밥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/백가향-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27438,8 +27438,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240305_81/1709632777464yfFF8_JPEG/%BF%EC%B9%D0%B0%A1-%B0%A3%C6%C7%C1%A6%C0%DB%BF%EB-%C3%D6%C1%BE%28%BD%C3%BE%C8%C8%AE%C0%CE%BF%EB%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240305_235/1709632778460w6GKi_JPEG/%BE%C8%B5%BF%B1%B9%BD%C31.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -27518,8 +27518,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231025_252/1698227651250Hwpg0_JPEG/KakaoTalk_20231023_192814324_12.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231025_216/1698227651944NtDHO_JPEG/KakaoTalk_20231023_192814324.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06201"
   },
@@ -27603,8 +27603,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240103_60/1704292725413RdNBe_JPEG/1000020990.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240103_84/1704292725992Cp9Uc_JPEG/1000020954.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06206"
@@ -27692,8 +27692,8 @@ const restaurants = [
         "description": "진간장 베이스로 만든 트러플소스를 곁들인 광어 세비체"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_76/1772170577118B3hJU_JPEG/IMG_2203.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260227_52/1772170576575VGNTT_JPEG/IMG_2201.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -27775,8 +27775,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231019_165/1697699435150TidWU_JPEG/IMG_7792.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231023_263/1698034536427WUX20_JPEG/12.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -27842,8 +27842,8 @@ const restaurants = [
         "description": "계란과 소프트크랩을 타이식 커리와 함께 볶은 요리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230717_48/1689580247518OdYCP_JPEG/%B9%DD%C6%F7%BD%C4%BD%BA_%B4%EB%C4%A1%C1%A1_%BF%DC%B0%FC.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230717_267/168958024760990Cl2_JPEG/%B9%DD%C6%F7%BD%C4%BD%BA_%B4%EB%C4%A1%C1%A1_%B3%BB%B0%FC.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06190"
@@ -27931,8 +27931,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241126_22/1732600532755PnFe5_JPEG/1000012611.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTAxMjNfMTQ1/MDAxNzM3NjI4MTc5NjYw.FGwblWoU7LpyqcrILXXv1qzmO_FEVx3dGKEVhPr6Efgg.obcnHOK2WuPBG7BxZyD9BzNlx004xO90pcXkL2JBdRcg.JPEG/1000034746.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06209"
@@ -28012,8 +28012,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240305_54/17096439055523eSoX_JPEG/KakaoTalk_20220308_120603074.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220123_191/1642938970242evlFA_JPEG/KakaoTalk_20210528_131033484.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -28047,8 +28047,8 @@ const restaurants = [
     "naverPlaceId": "779599925",
     "naverUrl": "https://map.naver.com/v5/entry/place/779599925",
     "naverBlogCnt": 11,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190101_202/15462724460315P4tV_JPEG/u7zh9lmBvlLYFfGpNqEnAB3v.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA0MTZfMTA3/MDAxNjgxNjQ2OTM3NDE4.8rUu7bX3TYbM3UjMLB6r3RwMTnQA5l5yDT7OZHOJO1Ig.TzofBhaFwKHxpZIjfbLRpx5PulPC-Uk3t54KkT9a-7sg.JPEG/A6FEABB4-F3E6-48D6-8D5D-CA8BAC05350A.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -28124,8 +28124,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230208_102/1675853554801SKG1R_JPEG/D748DA55-0A19-4CB3-A22B-EF80A34560DD.jpeg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA3MThfMTUy/MDAxNjg5NjUwNDQ2NzQ0.dmDZCKNFJX71MQaS3nOqiUoQY-v4pp-kP3aRkESUNbEg.zGUFDlNVh3XOxC8hPDWq1IOuh-RXhrUfrdaVYYax-1Ug.JPEG/CF6AA0EB-691B-421A-9BF5-C6CAD49C31D8.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -28188,8 +28188,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230705_166/1688530390678hceBN_JPEG/KakaoTalk_20230704_120944302_02.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230705_27/1688530407792p4kW9_JPEG/KakaoTalk_20230704_120944302_03.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -28268,8 +28268,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180914_97/1536890410403O5lRY_JPEG/M-M9Bq7fm_6H7Wv6CzT2aTlj.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180914_26/1536890413618s5Mky_JPEG/8rrBkdJ8OxqniwJULLdQz2v9.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06193"
   },
@@ -28345,8 +28345,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191030_236/15724093448156HY1h_JPEG/1uR3WE0tU5B4qDV4fo3wqMeY.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -28399,7 +28399,7 @@ const restaurants = [
     "naverPlaceId": "1082272677",
     "naverUrl": "https://map.naver.com/p/entry/place/1082272677",
     "naverBlogCnt": 48,
-    "imageUrl": "/images/restaurants/samseong/명동칼국수-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -28485,8 +28485,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240816_82/1723773175633mpazq_PNG/%C0%CC%BF%EB%BE%C8%B3%BB.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240816_68/1723773775249DPiTs_JPEG/%BA%EA%B7%A3%B5%E5%BD%BA%C5%E4%B8%AE_%283%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -28545,8 +28545,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20161209_112/14812144599157O5dV_JPEG/177159415759626_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20171221_175/1513785335213dwGrL_JPEG/_Z3tVfy7CJOCTMlSN5JIC6uf.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -28734,8 +28734,8 @@ const restaurants = [
         "description": "찰진 부위로 고소하고 깔끔한 맛입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240109_272/1704786874935OS413_JPEG/FSFT0216-%C6%ED%C1%FD.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240109_117/17047861795870WuVj_JPEG/FSFT0085-%C6%ED%C1%FD.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -28838,8 +28838,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250722_218/17531741850053kRmv_JPEG/DSC_30911.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260114_288/1768317194560djUfX_JPEG/%BB%F3%B0%DF%B7%CA_%28%B8%F0%B5%B5%BF%EC2%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -28941,7 +28941,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/허머스키친-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -29044,7 +29044,7 @@ const restaurants = [
         "description": "갈비탕과 해장국을 섞어 만들어낸 새로운 전골 메뉴"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/창고43-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -29129,8 +29129,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191026_189/1572083292709AaHz5_JPEG/G8CvO_aOEy9A4R_Y-ZmKiQ3a.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA0MTBfMTUx/MDAxNjgxMTE0NDIyNDM1.Wg9HgjTp8vim0GjdB9L_eqW25Jx_SvxIOn-05LKamp8g.QQu2c9tgveoIB8TBR2kfKzMaCBo5Zr4WooKC1YkNUsYg.JPEG/20230407_125425.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -29211,8 +29211,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220726_188/1658764602799ufzhS_JPEG/3A998CEB-EB2E-4B7D-AF7D-1F272DB29884.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220726_30/165876460277781jQH_JPEG/0E1D7D05-1362-4DCB-BD9A-74567D9006DD.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -29249,8 +29249,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "18456248",
     "naverUrl": "https://map.naver.com/v5/entry/place/18456248",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_56/1440993290568pKgh8_JPEG/SUBMIT_1358232570418_18456248.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_5/1440993290769cj9F3_JPEG/SUBMIT_1358232569219_18456248.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -29352,7 +29352,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/후레쉬빌-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -29423,8 +29423,8 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20251219_108/1766087675496sSbVV_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06169"
   },
@@ -29475,7 +29475,7 @@ const restaurants = [
     "naverPlaceId": "1369864071",
     "naverUrl": "https://map.naver.com/p/entry/place/1369864071",
     "naverBlogCnt": 730,
-    "imageUrl": "/images/restaurants/samseong/쉐이크쉑-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -29658,8 +29658,8 @@ const restaurants = [
         "description": "직접 눌러 구워서 구수한 누룽지와 오낙젓갈"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240404_146/1712229923394JHl6e_JPEG/ok_%B8%ED%C0%CE%B5%EE%BD%C9_DSC00543_%BF%AC%B1%E2%C1%D9%C0%D3-%C0%A5%BB%E7%C0%CC%C1%EE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260113_281/1768278407073vXHoA_JPEG/%BA%ED%B7%E7%B8%AE%BA%BB__Artboard_6_copy_7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -29741,8 +29741,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230318_222/1679138414045iAWfL_JPEG/20230311_170310.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231203_197/1701574410456yipf6_JPEG/20231122_210621.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -29823,7 +29823,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "http://blogfiles.naver.net/20141027_161/sosobang_1414403232131OFjPd_JPEG/10.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06186"
@@ -29914,8 +29914,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200210_240/1581313550561XGf2R_JPEG/-oyBlz16gT34UnnrZYEHgERL.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230628_31/1687942950425RUc9C_JPEG/KakaoTalk_20220714_210029147_21.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -30024,7 +30024,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/수다-삼성2호점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -30108,8 +30108,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250318_195/1742289084752FsuGg_JPEG/20250318_164647.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250318_74/1742289084769m3rpg_JPEG/20250318_164442.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -30206,7 +30206,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/일일향-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -30280,8 +30280,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231124_12/1700815962407XsvDD_JPEG/%B7%EB%B4%DC%C3%BC%BC%AE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190314_264/155254993377039PQq_JPEG/OWfkRgnKSRNDz7zYTSdSLjPT.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -30352,8 +30352,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260211_155/17707908623537WhoG_JPEG/%C1%A6%B8%F1_%BE%F8%B4%C2_%B5%F0%C0%DA%C0%CE_%281%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260429_281/1777427841947cVPui_PNG/1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -30437,7 +30437,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/방배김밥-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30500,7 +30500,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/송-현대백화점-무역센터점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -30535,8 +30535,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "36648833",
     "naverUrl": "https://map.naver.com/v5/entry/place/36648833",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150903_115/1441266103434ljooy_JPEG/SUBMIT_1441266050796_36648833.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150903_299/1441266103825e5ABH_JPEG/SUBMIT_1441266047628_36648833.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06192"
   },
@@ -30606,8 +30606,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220411_231/1649613512248S9BmO_JPEG/1D65DF65-82C5-4E71-ABFE-79A5687FEA7D.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220411_100/1649614414103hM37v_JPEG/0730D97D-2B4F-413C-88D0-85B82E9AEAB0.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -30698,8 +30698,8 @@ const restaurants = [
         "description": "푸짐하고 부드러운 살과 진한 일품 육수의 만남"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250731_77/1753940547698ua95F_JPEG/KakaoTalk_20250731_123449792_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250731_161/1753940547682JSJsD_JPEG/KakaoTalk_20250731_123449792_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30787,8 +30787,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251023_58/1761223864266Cr9mQ_GIF/%C3%BB%C0%DA%B0%F1_GIF.gif",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251023_115/1761218729059eXvdb_JPEG/KakaoTalk_20251023_185440525_12.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30877,8 +30877,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_18/17655357155599CaDT_JPEG/%BA%B8%C1%A4%BA%BB-22_%C0%FA%BF%EB%B7%AE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251212_183/1765535749797nwlUj_JPEG/%BA%B8%C1%A4%BA%BB-14_%C0%FA%BF%EB%B7%AE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -30984,7 +30984,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이봉-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06183"
@@ -31067,8 +31067,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240109_212/17048090820953w6cu_JPEG/1000000805.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240427_2/17142055642552ev7j_JPEG/1714203237091.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -31145,8 +31145,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171226_14/15142762248231gn5D_JPEG/PJyiOErTTr8ToMIofob9ET_r.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20171226_299/1514276232504OVw4W_JPEG/3UQGDPt2eXqJDQMpfB5msSHk.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -31240,7 +31240,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/자연산횟집-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31323,8 +31323,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240207_254/1707279343873tyKNu_JPEG/DSC09538.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231109_83/16995184716995vMvn_JPEG/DSC09142.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -31474,8 +31474,8 @@ const restaurants = [
         "description": "바토스 또띠아, 까르네 아사다(소고기), 양파, 고수"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200907_226/1599464430529iPGY5_JPEG/5Iykq0GNnrWLwjnj-YIs0vUS.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA0MDhfMSAg/MDAxNjgwOTI4MzIwMTc4.QoXJsrjzDkamk0DVh5bQYrrG4Antk57KzggIpDGvdvog.KtUnR3l0M-DvL0hfwYZQKd7kuWtH-9FiPpCYQB_7VeMg.JPEG/20230408_124747.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31542,8 +31542,8 @@ const restaurants = [
         "description": "고소한 황태와 개운한 국물, 속 편안한 해장 한 그릇!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211210_32/1639125256087JwayC_JPEG/KakaoTalk_20211209_173226292.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211210_121/1639125240188rx50m_JPEG/commonQ1T2R5N4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31620,8 +31620,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241204_35/17333046041413vSu2_JPEG/IMG_0153.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -31704,8 +31704,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260202_155/1770008492806ItiTG_JPEG/%B5%CE%C2%CB%C4%ED%BC%BC%C6%AE_%B3%D7%C0%CC%B9%F6.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240717_189/1721173448524qQcaS_PNG/%BD%BA%C5%DB%B7%CE%B0%ED2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31781,8 +31781,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180730_276/1532895361462WWCmr_JPEG/hEgKZEYZk3xXFH9bO8coXUn_.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200202_154/15806169969055MinB_PNG/BbyA22dbBT9nMcQXtH4F2gWR.PNG.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -31824,8 +31824,8 @@ const restaurants = [
     "naverPlaceId": "1147977307",
     "naverUrl": "https://map.naver.com/v5/entry/place/1147977307",
     "naverBlogCnt": 1529,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230614_124/1686714067565nOjRr_JPEG/%C5%A9%B7%A652_%BF%C2%B6%F3%C0%CE%28%B3%D7%C0%CC%B9%F6%29_%B8%C5%C0%E5%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220715_85/1657843924684fOHzU_JPEG/%C5%A9%B7%A652_0028_resize.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -31885,7 +31885,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_156/1441033456878lEnVt_JPEG/11737706_0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -31980,7 +31980,7 @@ const restaurants = [
         "description": "달콤한 망고와 향긋하고 상큼한 소스를 얹은 새우요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/도원스타일-무역센터점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32043,8 +32043,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211011_104/16339362129563UI9t_JPEG/lfjUlOJu-s5viDt9v3YHYR0X.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260116_43/1768524011641oizWS_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-027.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -32122,8 +32122,8 @@ const restaurants = [
         "description": "중국식 물냉면입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191104_102/1572869037989qp5Dy_JPEG/VWs7H1RLHlN8fdaqe6EEOA5V.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjA4MjRfMjIz/MDAxNjYxMzM2MzcxMjYy.-LpHddbZtflqTnfut4ELsZITEDWCuR9g2Wc7G3JIdGsg.WcU1AxlAjDN4xdbVSy6CijwN4q9THY5TAQyaIxXf1H8g.JPEG/20220824_185154.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32232,7 +32232,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마초갈비-삼성동-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32314,8 +32314,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221004_24/1664879897686C31eq_JPEG/20221004_175622.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200711_192/1594438723452fW2b0_JPEG/IU908Uh1xYMAGOTXmbfAywcM.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -32365,7 +32365,7 @@ const restaurants = [
     "naverPlaceId": "1834433085",
     "naverUrl": "https://map.naver.com/p/entry/place/1834433085",
     "naverBlogCnt": 176,
-    "imageUrl": "/images/restaurants/samseong/교대밀밭-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32431,8 +32431,8 @@ const restaurants = [
         "description": "사골 육수에 정성껏 빚은 고기만두를 담은 따뜻한 만둣국"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251119_124/1763542344350b9g9K_JPEG/%C0%FC%C3%BC%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251119_55/1763542344206yAyci_JPEG/%BF%BE%B3%AF%C4%AE%B1%B9%BC%F6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06175"
   },
@@ -32489,8 +32489,8 @@ const restaurants = [
         "description": "첫 입은 부드럽고 씹을수록 쫄깃하고 단백한 맛이 일품"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200508_54/15888989851893COvE_PNG/GYMiggSn-Lmj5Olk8eIbaaBz.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200508_56/1588898988066o9UDp_PNG/aJgmtxirKXi0vzXOGbMR7Sz5.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32552,8 +32552,8 @@ const restaurants = [
         "description": "부드럽고 연한 맛과 특유의 풍미가 일품인 부위"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251120_217/1763626216247Q3fch_JPEG/%B8%B1%BD%BA1_%C7%D1%BB%F3%C2%F7%B8%B2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240408_128/1712552407124O6URU_JPEG/%B3%BB%BA%CE3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32606,8 +32606,8 @@ const restaurants = [
         "description": "랍스타가 포함된 경복궁 블랙만의 대표 코스 입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200810_286/1597047819494wMc2v_JPEG/IdbrmMTVMpDG-i-aiGInQihz.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200810_48/1597047823977luQKh_JPEG/w5EbosWcHV-vXcBAUxzeWdkE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32660,8 +32660,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250812_23/1754999574541PhIOl_JPEG/IMG_3030.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250812_233/1754999574685GJQ5h_JPEG/IMG_3033.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32761,7 +32761,7 @@ const restaurants = [
         "description": "오렌지 / 말차 / 초코 3가지 메뉴가 있습니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/하이딜라오-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -32847,8 +32847,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240127_57/1706338311527NqO2C_PNG/-3cWUS6vZ-8NvglUNWekEzpW.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240919_112/1726714391937ERpgs_JPEG/20240919-115229.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -32924,8 +32924,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251205_117/1764916778640kXtqb_JPEG/%BB%E7%BD%C3%B9%CC2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251201_274/1764564477352KliOw_JPEG/1000010340.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -32982,7 +32982,7 @@ const restaurants = [
     "naverPlaceId": "37402262",
     "naverUrl": "https://map.naver.com/p/entry/place/37402262",
     "naverBlogCnt": 248,
-    "imageUrl": "/images/restaurants/samseong/오크우드-코엑스-레스토랑-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33085,7 +33085,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성골목집-삼성본점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -33128,7 +33128,7 @@ const restaurants = [
     "naverPlaceId": "37402262",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402262",
     "naverBlogCnt": 248,
-    "imageUrl": "/images/restaurants/samseong/오크우드-프리미어-오크레스토랑-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33180,8 +33180,8 @@ const restaurants = [
         "description": "1++ 한우를 이용한 관서풍 스키야키세트입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250614_240/17498905462862XuUR_JPEG/KakaoTalk_20250614_173129959.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250614_26/174989054629013S4T_JPEG/KakaoTalk_20250614_173129959_03.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33263,8 +33263,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200406_141/1586145105409bVBt3_JPEG/3mbsCbxwWJmKi0ELwtPSY6hX.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200406_140/1586145144843zpkaJ_JPEG/khnuMnYo-D_uAJ3vpcRTw0M-.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -33405,7 +33405,7 @@ const restaurants = [
         "description": "Seafood Oil Spaghetti Pasta"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/ebt-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33489,8 +33489,8 @@ const restaurants = [
         "description": "Seafood Oil Spaghetti Pasta"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211117_151/1637119536775cgYMm_JPEG/ChadPark%28wavefilm%29_ebt_coex_040.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260410_77/1775799667209omJbg_JPEG/R5B00094.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33551,8 +33551,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231023_296/1698058730615hIOlx_JPEG/CF01DA61-C0BE-4F8C-B07F-B35A3190C5B2.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231016_21/1697424223426tnfE1_JPEG/dore_coex_interior_01_4x5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33640,8 +33640,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250503_251/1746257286749hsOz0_JPEG/%C6%AE%B6%F3%B0%A1_%C7%C1%B8%AE%B9%CC%BE%F6%BC%BC%C6%AE_%287%29%B4%BA%BA%FC%BF%A1%BE%DF%C8%A6%B1%D7%B7%B9%C0%CE.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250503_108/1746257286723AJAlW_JPEG/%C6%AE%B6%F3%B0%A1_%BC%BC%C6%AE%B4%BA%BA%FC%BF%A1%BE%DF_%285%29%C8%A6%B1%D7%B7%B9%C0%CE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -33674,8 +33674,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1212435493",
     "naverUrl": "https://map.naver.com/v5/entry/place/1212435493",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230730_162/1690724918139ipwHx_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230730_136/1690724918107sH1fX_JPEG/2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -33756,8 +33756,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220825_218/1661396418495c8Kn9_JPEG/%C6%F7%BD%BA%C4%DA%C1%A1.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA2MjBfNDcg/MDAxNzUwNDExMjQ0ODM2.WnNUA4wDCyZ9X64iyyScfcWHk2Co6Mp1LIiFtXAGACYg.igCnhqPUpID520mm5ZGZdcH5QvinNAKlzN7Ba4DIPVkg.JPEG/1000330054.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -33844,8 +33844,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191113_104/1573639643568XWw9J_JPEG/kcXgGH7ltH2d2iBxarYxtAek.jpeg.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjEwMjFfMTAz/MDAxNjY2MzI1NTAyODEx.U_kijp2TzdqtrUXFURwcSTsvYsgsEKaQctEoMBKEkBkg.uy0luMhN-tpi62gDqhQT0I5zs-3aCxT_9mucF6nOHMEg.JPEG/0312525B-DED5-4464-8C2D-4F4F0908E51C.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -33927,8 +33927,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240914_10/1726301822225dbLSB_JPEG/%C1%A1%BD%C903.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240914_71/1726301440487LIGEV_JPEG/%BC%F7%BC%BA%C8%B8_%BC%BC%C6%AE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -34032,7 +34032,7 @@ const restaurants = [
         "description": "점심메뉴입니다."
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명가막회집-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -34099,8 +34099,8 @@ const restaurants = [
         "description": "깔끔하면서도 고소한 향이 특징인 리옹의 밀크티"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220805_274/1659675363981PLKHb_JPEG/Screenshot_20220804-181327_Instagram.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210303_275/1614731401360mXE6F_JPEG/XZCO79Mwko6XM_11eoBLkUsx.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -34166,7 +34166,7 @@ const restaurants = [
         "description": "오징어와 볶음소스, 각종 야채가 어우러진 매콤달콤한 맛"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/네모오징어-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06175"
@@ -34250,8 +34250,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221027_193/1666825616113bePAk_JPEG/CL5A3051.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20221027_292/1666825632442e7VaB_JPEG/CL5A3032.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -34339,8 +34339,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_21/1566973001497IIaLt_JPEG/TQJszUoStsqoHKXUloJGL64h.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190828_159/1566973006562NHr3a_JPEG/7qBudgREa0harX7hRVap1lPN.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -34411,8 +34411,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1054117245",
     "naverUrl": "https://map.naver.com/v5/entry/place/1054117245",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210219_194/16137263953861dzvm_JPEG/zr4Y3TNgEW14f_wzUtHObZvE.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210217_69/1613537895980krgqy_JPEG/ZvBOuZhDbbufJtgt7u7BSpMI.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06207"
   },
@@ -34512,7 +34512,7 @@ const restaurants = [
         "description": "Super Golden Pork 가브리살"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/육가온-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -34563,8 +34563,8 @@ const restaurants = [
         "description": "바싹한 반죽과 낙지, 새우가 넘치는 가성비 좋은 파전"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_174/1753380093272qSVY4_JPEG/IMG_8372.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260502_82/1777726837477NSY3V_JPEG/KakaoTalk_20260430_094100677.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -34672,7 +34672,7 @@ const restaurants = [
     "naverPlaceId": "1165953436",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165953436",
     "naverBlogCnt": 78,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240314_285/17103772606694v6eA_JPEG/IMG_3872.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -34754,8 +34754,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250906_272/1757114980726hybjU_JPEG/1757114708742.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250906_54/1757114976003dBzrp_JPEG/1757114708796.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -34798,8 +34798,8 @@ const restaurants = [
     "naverPlaceId": "1924966894",
     "naverUrl": "https://map.naver.com/v5/entry/place/1924966894",
     "naverBlogCnt": 65,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171128_120/15118523450117kjRG_JPEG/_365___2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20171128_99/1511852331383S9516_JPEG/_365___1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -34836,8 +34836,8 @@ const restaurants = [
     "naverPlaceId": "37402216",
     "naverUrl": "https://map.naver.com/v5/entry/place/37402216",
     "naverBlogCnt": 33,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180221_271/1519208834673khLk0_PNG/%B8%A3%B9%D91.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180221_82/1519208832700mD48q_PNG/%B8%A3%B9%D9-2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -34919,8 +34919,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251014_75/1760452109427ta9uI_JPEG/TSC_2001re.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251014_288/1760452108395DjcYl_JPEG/TSC_2011re.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35004,8 +35004,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250203_84/17385620055422AiWr_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-02-03_%BF%C0%C8%C4_2.52.57.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251105_52/1762316485080s9FGy_JPEG/KakaoTalk_20220812_141914780_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -35149,8 +35149,8 @@ const restaurants = [
     "naverPlaceId": "13116182",
     "naverUrl": "https://map.naver.com/v5/entry/place/13116182",
     "naverBlogCnt": 2399,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251121_205/1763693771973f8Rq1_PNG/%B4%EB%C5%EB%B7%C9%BB%F3_%BC%F6%BB%F3.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240523_168/1716461856624MIN63_JPEG/%BF%F9%B0%A3%BD%C4%B4%E7%C1%A6%B0%F8%BB%E7%C1%F81.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35224,7 +35224,7 @@ const restaurants = [
         "description": "루꼴라, 프로슈토(하몽)와 토마토 소스"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/THE-PLACE-이탈리안-비스트로-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35281,8 +35281,8 @@ const restaurants = [
         "description": "루꼴라, 프로슈토(하몽)와 토마토 소스"
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20241210_76/17338320826412Jald_JPEG/240829_CJfood7381b.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260429_132/1777457135097oD26Q_JPEG/%B4%F5%C7%C3%B7%B9%C0%CC%BD%BA_%C0%FC%C1%A1_%B3%BB%BA%CE%B8%DE%B4%BA%C6%C7_%BC%F6%C1%A4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35367,8 +35367,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200614_131/1592134925460HGwIw_JPEG/Zg9eKaRO64nT4a-Om9R-Z_5Q.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200802_143/15963487469180quEV_JPEG/Y_RgFgHjCMskU6j2ipIaFzvY.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -35405,8 +35405,8 @@ const restaurants = [
     "naverPlaceId": "1508030844",
     "naverUrl": "https://map.naver.com/v5/entry/place/1508030844",
     "naverBlogCnt": 2300,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230210_1/16760202289608O7Tq_JPEG/%B6%F3%C0%CC%BA%EA_%BE%BE%C7%AA%B5%E5%C1%B8_%B5%F0%C5%D7%C0%CF.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230210_36/1676020164130PA9MG_PNG/KakaoTalk_20230208_152821452_04.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35455,8 +35455,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210419_78/1618800708650dSHLb_JPEG/L7j4OXuSUvOERSBL3l5PFUE5.jpeg.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDA0MDdfMjAw/MDAxNzEyNDY4NDk5NTQ5.EW0kctTL51chQnVTpmSMh1h6cTMXwHd_-smkwvrj_V4g.OhcIL8WX--nV-saSfAY56sfw2IBbjQqNwBw1zu0JipMg.JPEG/20240407_124804.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35492,8 +35492,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1894081090",
     "naverUrl": "https://map.naver.com/v5/entry/place/1894081090",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20181228_167/15459665692028aVBO_JPEG/DFH_1XCB7L_S_vLyCoufJhKt.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20181228_28/1545966578927CEdh1_JPEG/4zV2YEMVDWoeRw1HwchXFTKv.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06187"
   },
@@ -35555,8 +35555,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_109/14409944433466aJ8A_JPEG/11885058_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_47/1440994443507LFVEC_JPEG/11885058_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -35637,7 +35637,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시유-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35733,7 +35733,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/글로브-비스트로-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -35813,8 +35813,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171129_254/1511962075504xeha1_JPEG/20161118_110619.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20171129_181/15119620763305HaVj_JPEG/20161117_160223.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35901,8 +35901,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180417_22/1523945118616VtsfU_JPEG/BSOLUoFwjdkT2U6zaRwwBS6s.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200314_248/15841618642014RWJs_JPEG/8IYe5bMRGEe0Uv1EEr2t2l2i.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -35986,8 +35986,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20181004_294/1538579284156lezBn_JPEG/rJzOeEqs6hykOwmAMUN1JcSw.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210415_196/16184734088667tWtf_JPEG/3TgUxDpFeNX0mXOQulM2qchk.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -36062,8 +36062,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240621_69/1718937182870lSP7t_JPEG/PCK%BB%EF%BC%BA%BF%AA%C1%A1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260326_113/1774484393727mFcqD_JPEG/0325_PC_%B9%F6%C5%CD%B6%B1_SNS_RGB.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06181"
   },
@@ -36163,7 +36163,7 @@ const restaurants = [
         "description": "토마토소스, 페페로니, 모짜렐라, 버섯"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/폴리스-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -36242,8 +36242,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201220_47/1608395646227TRf2v_JPEG/HO__8434.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200605_275/1591358714993MY50X_JPEG/b7CT-d3_aICgHZV6nxBp9Hpr.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -36336,8 +36336,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250827_229/1756263376701oGqp3_JPEG/6.%BF%C0%B8%B6%C4%AB%BC%BC.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260426_72/1777192297510y0bMa_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06206"
@@ -36403,8 +36403,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_73/1772068456699OdOFp_JPEG/250914-westin_parnas_265.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260226_10/1772068456337TJfI2_JPEG/250914-westin_parnas_122.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36487,7 +36487,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260226_4/1772068412550rYPyT_JPEG/250905-westin_parnas_245_R01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36541,8 +36541,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_256/1768195114866PjCDF_JPEG/syr1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210702_51/1625153838009Uv1RC_JPEG/Ynm8qVqaD_jJYX_iodK7bCPN.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -36626,8 +36626,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20160724_190/14693705862362fpiv_JPEG/176674635964285_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20160724_73/1469370586427YAIYc_JPEG/176674635964285_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -36681,8 +36681,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240111_239/17049802895353DWiy_JPEG/%B4%DC%C3%BC%C4%C6_04.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDA3MThfODYg/MDAxNzIxMjc3MzgzNDg4.99hkOZCMDxpQX10-5dlVSgs2BxaKPvSObgpll55pslgg.T1290GqsVd07n9zwZX8qzcBZhqjSMyHnBi_7xLF4h-kg.JPEG/FFD66F7E-940F-4141-BAAF-C0E32CA821A8.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -36788,7 +36788,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/더차이홍-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -36844,8 +36844,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250419_95/1745028430808OQ8gD_JPEG/%C4%C1%BC%C1_%286%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250419_182/17450284308277ggI1_JPEG/%C4%C1%BC%C1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -37008,8 +37008,8 @@ const restaurants = [
     "naverPlaceId": "13149894",
     "naverUrl": "https://map.naver.com/v5/entry/place/13149894",
     "naverBlogCnt": 81,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_86/1440994476656T21l5_JPEG/106470458547144_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_172/1440994476867dnIiD_JPEG/106470458547351_0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -37096,8 +37096,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190415_138/1555316085424AjRkF_JPEG/1UPSnHpcGh3TJDYG0IJtG3wg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190415_287/1555316286256Cmyco_JPEG/CDzv0wKJNGxJ-omvaJTVH46z.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -37174,8 +37174,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_129/1441061988785MUbmD_JPEG/SUBMIT_1321640135531_20717567.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_297/1441061989042mFmS1_JPEG/SUBMIT_1321640090265_20717567.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -37258,8 +37258,8 @@ const restaurants = [
         "description": "(양념 한마리 포장: 치킨무1+캔콜라1)"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180111_39/1515614066101w5hFq_JPEG/GlQtzwrxtuObwImpBZKPJgba.JPG.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180111_91/15156140654735s5un_JPEG/bqFUueiEwupo5W26j_0AydAm.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -37335,8 +37335,8 @@ const restaurants = [
         "description": "부드러운 소고기입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190831_238/1567252445884YqhKn_JPEG/0sSOC2xttoF_0lhd6ZsWY7ix.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260507_55/1778136997288VaMvS_JPEG/1000011786.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -37424,8 +37424,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fapis.naver.com%2Fplace%2Fpanorama%2Fthumbnail%2F36995072%2F0%3Fwidth%3D800%26height%3D400%26msgpad%3D1773650818507%26md%3D%252B4Uxp0t%252BrYLzciWuK5KpW5a49F8%253D",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA5MDhfMjEw/MDAxNjk0MTY0OTAxMzIx.vSCy9JjfMgIHydJhr-62PZtzQ5UZEC0k8S0PC5e7KA0g.COqQeO9mIgQVNaV3zeH9JZI5abK0lRFu9rd-UFfS000g.JPEG/67452C14-A6C5-4822-B7F5-0436CE405580.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -37512,8 +37512,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_163/1441014828235gJjLy_JPEG/SUBMIT_1372121278773_19774059.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_83/1441014828467XQwIO_JPEG/SUBMIT_1372121278599_19774059.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -37575,8 +37575,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230214_184/1676353585156lPt9m_JPEG/20230204_170154.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDA2MTBfODEg/MDAxNzE4MDIxMTAyNjgz.dBkYQdJz0KMBxQjmq5iVPB602jPlBby5-D4wlgBySOEg.BPmz5H22U8f4OTtMlyYKTh722eJ3dn7LzaW9tfND1Icg.JPEG/11C387BA-D826-41B5-8903-E8BC66F8574A.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06284"
   },
@@ -37677,7 +37677,7 @@ const restaurants = [
         "description": "페페로니와 레드페퍼가 들어간 메콤한 피자"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/레스토랑G-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -37761,8 +37761,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240901_166/1725154606155UDMSg_JPEG/IMG_9557.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTAyMjZfMTI2/MDAxNzQwNTc1OTQ0MzE2.aQqebFqLyWo_qJJyVqNPrQRFiIqgHQ5AhUnymk2lMgQg.ISelTELu9cHo5AdfZmL5buBKN1WwoP7P8-NOqHNvg8og.JPEG/20250218_181949.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06205"
@@ -37804,8 +37804,8 @@ const restaurants = [
     "naverPlaceId": "1000937514",
     "naverUrl": "https://map.naver.com/v5/entry/place/1000937514",
     "naverBlogCnt": 260,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230529_166/1685337306397fdL4f_JPEG/IMG_8677.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240606_135/17176602939488vecl_JPEG/20240604_012244.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -37888,8 +37888,8 @@ const restaurants = [
         "description": "탄단지 샐러디 세트 + 카사바칩 + 코크제로"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_119/1770879960551MdxCJ_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD2.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260212_233/1770879957083lKb9z_PNG/%B0%ED%B0%B4%BF%EB_%B8%F0%B4%CF%C5%CD6.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -37961,8 +37961,8 @@ const restaurants = [
         "description": "다크 쵸코렛 파우더와 얼음, 저지방 우유의 블렌드"
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251021_76/1761020348415yMi9A_JPEG/%B7%CE%B0%ED_%B3%D7%C0%CC%B9%F6_%B4%EB%C7%A5_%B7%CE%B0%ED_%C0%CC%B9%CC%C1%F6-02.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241230_134/1735548219266vBmMD_JPEG/1%B9%F8_343.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -38002,8 +38002,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240413_284/1712979648306TxpYj_JPEG/20240403_171232.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240413_2/1712979625043fDpYY_JPEG/20240403_165335.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -38100,7 +38100,7 @@ const restaurants = [
         "description": "바삭한 닭다리살을 매콤 달콤한 소스로 볶아낸 요리"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/훠궈야-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38131,8 +38131,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1456551335",
     "naverUrl": "https://map.naver.com/v5/entry/place/1456551335",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251121_97/1763714449786N2rdb_JPEG/DSC05390_1000x1000.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251217_33/1765950268623zkr85_JPEG/2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -38208,7 +38208,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/영동갈비살-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -38253,8 +38253,8 @@ const restaurants = [
     "naverPlaceId": "11857856",
     "naverUrl": "https://map.naver.com/v5/entry/place/11857856",
     "naverBlogCnt": 91,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20151021_237/1445409982386bi9sr_JPEG/166971557639735_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20151021_213/1445409982718ne5Kl_JPEG/166971557639735_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38312,8 +38312,8 @@ const restaurants = [
         "description": "바삭하게 튀겨 낸 닭봉을 허니소스에 텀블링한 에피타이져"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260306_176/17727838175094AVY8_PNG/%B9%DD%C6%F7%BD%C4%BD%BA_%C0%CC%B9%CC%C1%F63_2.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260306_240/1772783941551S8a7k_JPEG/%C8%C4%B6%F3%C0%CC%B5%E5_%BA%F1%C7%C1_%B4%A9%B5%E91.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38401,7 +38401,7 @@ const restaurants = [
         "description": "새우튀김의에 수제 소스를 뿌려 샐러드와 함께 먹는 메뉴"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/하레이자카야-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06183"
@@ -38497,7 +38497,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/보스골뱅이치킨-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -38584,8 +38584,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241205_300/17334102531862aUb4_JPEG/KakaoTalk_20241202_200913893_02.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260413_176/1776068010240lWYm4_JPEG/IMG_5069.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -38673,8 +38673,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200330_130/15855412098158PRB0_JPEG/ifMzl5iAP1dRAW8t0WEIwo9x.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200330_230/15855412395711U2NS_JPEG/cx50jYL91Z3D9eVXyGkChAmj.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38749,8 +38749,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200814_7/1597391419307mCdwX_JPEG/w7TBaeB6un5cFBmbpSUOGOrw.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200814_281/1597391441034EqU2U_JPEG/ly0h1pywDCB4cDvGo46DVAWe.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -38827,7 +38827,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/장수서울순대가-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -38897,7 +38897,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/다빈치호프-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -38965,8 +38965,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250804_250/1754275183448n5ewp_JPEG/fdfsdf.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260319_142/1773894092115sAj3t_JPEG/KakaoTalk_20241028_152245897.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39043,8 +39043,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_246/1740014759529xmwy9_PNG/11.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250220_158/1740014759555tppoB_PNG/22.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -39123,8 +39123,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230427_39/1682589390033VDDh3_JPEG/20230330_120726.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMzA5MTRfMjI5/MDAxNjk0NzAwODc5NDcz.szILix8Ndzxu_FteDB0YKv1OeMcF_GoA2XZl6aFcWjgg.FALSMUEFKlNvFcQtyr8ZsGY5kEOGTD6Td4MS0EsLSagg.JPEG/20230912_115951.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -39201,8 +39201,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200622_279/1592793846821SQI6v_JPEG/IMG_8221.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20201110_269/1604979845395xeS44_PNG/lBgiiCWqXusPxRcclLbDIhVp.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -39326,8 +39326,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20181023_110/1540271368168dQc8r_JPEG/BfEMEo-DGRnjdynhmESGkcJX.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20181023_110/1540271385220Yngax_JPEG/tTPSD-YbvGGnfIXTvTdVVZrh.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -39487,8 +39487,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240530_110/1717052900605pml5S_JPEG/%B8%DE%B4%BA_04-1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240530_206/1717052901171RzVSm_JPEG/%B8%DE%B4%BA_07.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -39590,7 +39590,7 @@ const restaurants = [
         "description": "꼬막무침+오징어순대+백김치1+미역국1+조미김2"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/강릉엄지네꼬막집-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39650,8 +39650,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200413_149/1586746245522PAbkk_JPEG/PDBEKsJxY4A4SDXqn_VxWorZ.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_14/1441018832125CVYca_JPEG/SUBMIT_1372138801755_32259828.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -39781,8 +39781,8 @@ const restaurants = [
         "description": "목포명가 식사 판매 1위 메뉴! 건강한 매운맛의 진수!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260227_65/1772198332566XagIi_JPEG/1-1-1._%BA%BD_%B5%B5%B4%D9%B8%AE%BE%A6%B1%B9.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260227_8/17721983342682YAQY_JPEG/%BA%BD_%BB%E7%C0%E5%B4%D4_%BC%BC%C6%AE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -39852,8 +39852,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221218_226/16713714165118Fe5U_JPEG/69860865-EC60-4CE4-9864-5070EB03EF8E.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20221218_237/1671371416606K6Lm4_JPEG/D125BECB-7A02-4CBB-B203-692F41666E22.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -39961,8 +39961,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221118_111/1668756395589zCKpz_JPEG/KakaoTalk_20221118_162605015.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20221118_49/16687563954409RTDV_JPEG/KakaoTalk_20221118_162605015_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -40012,7 +40012,7 @@ const restaurants = [
     "naverPlaceId": "1190520691",
     "naverUrl": "https://map.naver.com/p/entry/place/1190520691",
     "naverBlogCnt": 293,
-    "imageUrl": "/images/restaurants/samseong/스트릿-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40092,7 +40092,7 @@ const restaurants = [
         "description": "치킨패티, 레터스, 토마토, 꽈리고추 마요소스(매콤)"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/바스버거-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40180,8 +40180,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250731_6/1753946021269rfwEp_JPEG/YC_09930_%281%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250731_39/1753946055835VeC2E_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2025-07-31_%BF%C0%C8%C4_4.01.41.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06282"
@@ -40251,8 +40251,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250620_173/1750405572104gPczN_JPEG/KakaoTalk_20250620_142442331_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250620_41/1750405578980gpf9m_JPEG/KakaoTalk_20250620_142442331_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -40318,8 +40318,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200502_50/1588378666303cpwVF_JPEG/sJsu4ObUghLwMYVIJQFKMMpP.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240316_49/1710582294648DhSFG_JPEG/1710582275102.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -40387,8 +40387,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231109_64/1699512702708GFrbt_PNG/IMG_9363.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231109_265/169951270355958rCL_PNG/IMG_9364.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -40439,7 +40439,7 @@ const restaurants = [
     "naverPlaceId": "37775514",
     "naverUrl": "https://map.naver.com/p/entry/place/37775514",
     "naverBlogCnt": 432,
-    "imageUrl": "/images/restaurants/samseong/맥도날드-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -40481,8 +40481,8 @@ const restaurants = [
     "naverPlaceId": "35928370",
     "naverUrl": "https://map.naver.com/v5/entry/place/35928370",
     "naverBlogCnt": 1264,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260223_18/1771834540378kJrAy_JPEG/%B0%A1%B7%CE_5.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250116_196/1737009432737AYHkv_JPEG/KakaoTalk_Photo_2023-10-24-10-09-50.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40560,8 +40560,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240311_75/1710120570649cf2qd_JPEG/%BC%BC%C6%AE%B8%DE%B4%BA%C0%CC%B9%CC%C1%F6.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191006_90/1570346388655MVQXN_JPEG/og7y91nnFBEf2j3kGYKE35RJ.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40612,8 +40612,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260116_193/1768546531384cGPjI_JPEG/Profile_PrimaryGreen.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240906_7/1725598973084xEoe1_JPEG/%C6%C0%C8%A3%BF%CF_%BA%E4%C6%BC01-101_%BB%E7%C0%CC%C1%EE_%C1%B6%C1%A4_%BF%CF.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40821,8 +40821,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_216/1766387754719slYf9_JPEG/20251222_153925.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251222_245/1766387748713bPBL8_JPEG/Resized_20251222_160834.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40910,7 +40910,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대도식당-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -40946,8 +40946,8 @@ const restaurants = [
     "naverPlaceId": "1512800005",
     "naverUrl": "https://map.naver.com/v5/entry/place/1512800005",
     "naverBlogCnt": 688,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251130_40/1764499374601XOn8B_PNG/NBB-2.0-%BF%A5%BA%ED%B7%B3-%C3%D6%C1%BE%28yellow%29.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20250703_258/1751524093593VYs0h_PNG/image.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -40999,8 +40999,8 @@ const restaurants = [
         "description": "대게살을 버섯과 죽순 등 각종 야채와 볶아낸 요리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_15/1773391326659uJdD6_JPEG/%BD%C3%C3%DF%BE%C8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260219_212/1771484602301Fre3r_JPEG/%B8%DE%B4%BA_2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -41216,8 +41216,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_26/1563871717870gVyWV_JPEG/6S274SVx3qJLRUNCg4l5oUZQ.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200702_54/1593671699544Id280_JPEG/lCaG_R4ZUKm3YxY_nkd9hgAT.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41295,8 +41295,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190818_28/1566110351936alQHD_JPEG/fcovEbHUgqX36zZWRqSyG9d8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200502_45/1588401670701uwqSz_JPEG/QeGCbSyEAD5WtLcFiW_g7rBi.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -41383,8 +41383,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220621_255/1655769704292oLjmQ_JPEG/20220620_105747.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220217_205/1645093088321fFObg_JPEG/16450930037852569211995323374456.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41467,7 +41467,7 @@ const restaurants = [
         "description": "신선한 야채에 만다린 드레싱이 어우러진 햄프씨드 샐러드"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/치폴라-로쏘-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -41566,8 +41566,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250626_198/1750912551870oTVzy_JPEG/KakaoTalk_20250626_133322763_09.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250626_203/175091255488054m41_JPEG/KakaoTalk_20250626_133322763_11.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -41656,8 +41656,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251219_47/17661341168106KXVH_JPEG/1000083184.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251222_22/1766394165503Qq7j2_JPEG/%B0%AD%B5%C8%C0%E5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41740,8 +41740,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200630_105/15935234605824KqVD_JPEG/EKlCEbS7ywufRh_uygb9zZFN.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200808_79/1596845900797uU2xw_JPEG/qBJta8TgA2oc-ju-g4xgCfRu.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -41817,8 +41817,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260305_165/1772657386908BEYda_PNG/1000093794.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260414_45/1776137735529u1WVn_JPEG/20260407_133304.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41904,8 +41904,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190829_136/1567042794009vCDuw_JPEG/WF135L45_Yfj3PqUir5V0BHj.JPG.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190829_249/1567042853044z96h6_JPEG/2rJDdnoAYB8j-eQoxCS_Tgfn.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -41967,7 +41967,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220912_77/1662984686626KPemc_PNG/1373661E-6A00-42EF-9407-7119A191C400.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -42071,7 +42071,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/고든램지-버거-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -42159,8 +42159,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250113_267/1736743384379QmK6g_JPEG/ogr.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230330_118/1680157497910y69DI_JPEG/KakaoTalk_20230330_095539026.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -42208,8 +42208,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210320_271/1616215232094OFcp1_JPEG/d8oHTeGYYobJbfcpwUqKTEDT.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251231_261/1767170883641TKykx_JPEG/%B4%EB%C1%F6_1_%282%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -42310,7 +42310,7 @@ const restaurants = [
         "description": "돼지고기와 신김치를 달달 볶아 따뜻한 두부와 함께"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동인동-삼성-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -42394,8 +42394,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_61/1441057104630QW6KS_JPEG/106270638735051_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_240/14410571047954OE8N_JPEG/106270638735051_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -42484,8 +42484,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240923_256/1727049420447HJLlB_JPEG/1555727919214.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240923_190/17270496691317A6Bv_JPEG/IMG_20200511_135353_679.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -42570,8 +42570,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240405_33/1712318534894EW8rx_PNG/1000015716.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240405_212/17123185763868xsU8_JPEG/20191205_221432.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -42665,8 +42665,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241203_53/17332098608016tl2s_JPEG/DSC_0830.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241203_91/1733196444189G28HO_JPEG/DSC_0817.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -42773,7 +42773,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/란주쿠-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -42868,7 +42868,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/대한민국-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -42918,8 +42918,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_189/1761103354548KbBLY_JPEG/%B3%D7%C0%CC%B9%F6_1%B9%F8_%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260412_293/1775972010685ATERJ_JPEG/%B3%D7%C0%CC%B9%F6_2%B9%F8_%BB%E7%C1%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -43002,8 +43002,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20170721_207/1500604284636a2VHV_JPEG/186671516144_0.JPG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20170721_267/1500604284819cl7Wq_JPEG/186671516144_1.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06201"
@@ -43090,8 +43090,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231003_265/1696323290590grIJt_JPEG/20230927_201959.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260302_278/1772453873391d2XGo_JPEG/KakaoTalk_20260302_202304545_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -43185,7 +43185,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/록스플레이트-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -43267,8 +43267,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_13/1440995283682tnL55_JPEG/156155408461088_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_86/1440995283863pHUaI_JPEG/156155408461088_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06202"
@@ -43315,8 +43315,8 @@ const restaurants = [
         "description": "고추장소스로 매콤하고 진한맛을 느낄수 있습니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220706_285/1657073770233lOidF_JPEG/B0C79AA4-3608-4619-A064-F4794CA401D7.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220706_286/16570737702571XnrC_JPEG/BA953826-E616-43C5-BEE2-CE1B049AABAA.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -43397,8 +43397,8 @@ const restaurants = [
         "description": "고소한 들깨의 풍미를 더한 부드러운 수제비입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240930_12/1727659197478hWMzK_JPEG/KakaoTalk_20240928_120438128_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240930_50/1727659197846bYPMf_JPEG/KakaoTalk_20240928_092248867_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -43439,8 +43439,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191112_191/1573557377054CFIYM_JPEG/qp5fAX_l3btyndsuYemcyMlx.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MDJfMjc5/MDAxNzc1MTM1ODUwNjQy.rvZY6z7UIXKZDGi0NmwWYxck5suDoPHLiLQmQQC3ZtQg.Go553zjK3vtTd8Kxgzq-uoU9RkVhD-mvFKo9t7wiyd8g.JPEG/1000182925.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -43527,8 +43527,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240507_90/1715092632400e1MYv_JPEG/%B3%B2%BA%CE%C7%D1%C6%C7_600g.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241022_221/1729527241546vU28B_JPEG/%B9%E8%B3%CA1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -43605,8 +43605,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_4/1441041412681enTx7_JPEG/SUBMIT_1279700430254_13465296.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_248/1441041412869Is6yh_JPEG/SUBMIT_1279700437424_13465296.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -43636,8 +43636,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "35386954",
     "naverUrl": "https://map.naver.com/v5/entry/place/35386954",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20160817_4/1471397537333hJD7d_JPEG/176767506237128_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20160817_220/1471397537657pbJrj_JPEG/176767506237128_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -43704,8 +43704,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191128_246/1574943900328Dgmz9_JPEG/tTlFsmHSwbdetHHQFVkkBcWb.jpeg.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTAzMDFfMTcx/MDAxNzQwODE5OTY5NTg4.3pOpo_A0D352nj7YEalio4U_KQ3UhwivNISMETzYJdsg.L0DqBnj-kxhXXxamhQZj3IunEXBYGM_isdxQ5Aay6e0g.JPEG/20250301_165347.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06284"
@@ -43785,8 +43785,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200426_19/1587905088681gQVpd_JPEG/OTmb41_p8NSbr9e3Or4pNFmZ.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200426_35/1587905096659m8f6N_JPEG/WaQ_2qfH6r016_nEqz3RemyA.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -43875,8 +43875,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210817_109/1629172174029lOd5P_JPEG/LJlDq1regLfgOvqQVj95kYac.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210817_101/162917215982575kPu_JPEG/1CQl_Z0fZCgY3ky_q5D0AMPh.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -44063,8 +44063,8 @@ const restaurants = [
     "naverPlaceId": "1973586065",
     "naverUrl": "https://map.naver.com/v5/entry/place/1973586065",
     "naverBlogCnt": 43,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200924_75/1600936961720DRwTc_JPEG/FA2Iv-Me_AA40rNgz9nULqsV.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210323_257/1616510344070s1Vxs_JPEG/QgSagIQuvdcX443JEE0OkTm6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -44144,8 +44144,8 @@ const restaurants = [
         "description": "수제로제소스, 면150g, 떡갈비4족, 버섯, 브로콜리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240729_80/17222170869526TJmC_JPEG/KakaoTalk_20240729_103726770.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230608_203/16861853304603STAx_JPEG/20221124_170016.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -44229,8 +44229,8 @@ const restaurants = [
         "description": "중식풍으로 튀긴 면 위에 소스를 부어먹는 요리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230623_80/1687488531008tXGlj_JPEG/20230623_113556_3.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230623_218/1687488531040g9ugS_JPEG/20230623_113556_4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -44309,8 +44309,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200406_38/1586131554870UrgtL_JPEG/tLTqZ7lWwNXv9gvtnzF-K8IJ.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200517_162/158969086285921dsb_JPEG/ykkjC3MiInUKtZf-Z12BGPUe.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -44409,7 +44409,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/담미온-강남경찰서점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -44470,8 +44470,8 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20251219_108/1766087797409F12a0_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -44548,8 +44548,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20240626_257/1719371722735oFtSU_JPEG/DSC02630.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260109_255/1767936345049oqQK1_PNG/%BC%D6%BC%DC1%B5%EE_.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -44700,7 +44700,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포포빈-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06175"
   },
@@ -44787,8 +44787,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220725_45/1658756721534ctUvp_JPEG/KakaoTalk_20220719_185726851_13.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250904_104/1756965629548jrmNv_JPEG/%BB%F3%B7%CF%BC%F6_%B3%C3%BB%EF%B0%E3%BB%EC3.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -44892,7 +44892,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/뒤끝-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -44935,8 +44935,8 @@ const restaurants = [
     "naverPlaceId": "1375943999",
     "naverUrl": "https://map.naver.com/v5/entry/place/1375943999",
     "naverBlogCnt": 1310,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250712_289/1752282922043RVBy1_JPEG/%C4%C1%BC%C1_%289%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250712_231/1752282948437CVK0C_JPEG/%C4%C1%BC%C1_%2815%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06193"
   },
@@ -45014,8 +45014,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250225_300/1740472175658j2kfH_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF%BA%EA%B7%A3%B5%E5%B4%EB%C7%A5%C0%CC%B9%CC%C1%F61.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250225_180/1740472182550dKx36_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF%BA%EA%B7%A3%B5%E5%B4%EB%C7%A5%C0%CC%B9%CC%C1%F62.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45101,8 +45101,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260225_45/1771984129225zE0Gv_PNG/%BC%B1%C1%D6%B0%A1_%C7%C3%B7%B9%C0%CC%BD%BA_%C0%CC%B9%CC%C1%F6.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250604_175/174901174362730tm6_PNG/%C1%A6%B8%F1%C0%BB_%C0%D4%B7%C2%C7%CF%BC%BC%BF%E4_1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -45184,8 +45184,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240103_114/1704263091312mVMFc_JPEG/%C0%D4%B1%B8%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211210_32/1639125256087JwayC_JPEG/KakaoTalk_20211209_173226292.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45276,7 +45276,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/히노츠키-그랜드인터컨티넨탈-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45361,7 +45361,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/그랜드-인터컨티넨탈-히노츠키-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45472,8 +45472,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "2089671853",
     "naverUrl": "https://map.naver.com/v5/entry/place/2089671853",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_77/1766397583111V1gb5_JPEG/00.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251222_41/1766397583134Jg1Vx_JPEG/01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45542,8 +45542,8 @@ const restaurants = [
         "description": "담백하고 깊은 맛이 특징으로 속이 시원해지는 쌀국수"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241118_73/1731870612605aVWzx_JPEG/3472591261098476388_20241117153220381.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250925_256/1758784703895eEHiF_PNG/%BA%F1%BF%E6%B5%E5%BC%B1%B8%AA.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45626,8 +45626,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240707_200/1720337860572t048g_JPEG/%C8%F7%B7%B9_%2B_%C4%A1%C1%EE_%C4%DE%BA%B8_02.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260428_73/1777378021384T9ifx_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -45702,8 +45702,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191025_95/15719789582833DLDw_JPEG/p5yeWLanmrdz10MZp_pquPpH.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MjhfNjMg/MDAxNzc3MzgwMzQzNDIx.CNfQmbZ7WBu5KRD92Fv-zem3kP6wXdTg_EAbbXDdpicg.wUH14JU3aaqhXEYFjS1cmlphQhValJ28JEY4KLq2hsgg.JPEG/Screenshot_20260428_214114_Gallery.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06279"
@@ -45755,8 +45755,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230613_215/1686653205152KJfPn_JPEG/KakaoTalk_20230613_194324048_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250710_219/1752112571873PxzH1_PNG/%B8%D4%B0%BB.PNG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -45829,7 +45829,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250330_237/1743314996024TRTMD_PNG/1000011617.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06198"
@@ -45915,8 +45915,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_270/1753420856977oAhvL_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250725_289/1753420858316CxC6x_JPEG/2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -45967,8 +45967,8 @@ const restaurants = [
         "description": "고급 식재료인 낙지,전복을 함께 내어드리는 짬뽕입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250813_4/1755049470714NRLLT_JPEG/111111.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250813_3/17550494659111stNv_JPEG/222222222.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -46060,8 +46060,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180726_265/1532569486050t3MwL_JPEG/h3B2NdVNvaPBoW6QH0B-Mjpf.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180726_53/1532569499422XiaUy_JPEG/s-oruDWyj-PDukKjY4cudPvT.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -46103,8 +46103,8 @@ const restaurants = [
     "naverPlaceId": "1084124759",
     "naverUrl": "https://map.naver.com/v5/entry/place/1084124759",
     "naverBlogCnt": 43,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251029_268/1761717135466lCdvA_PNG/1.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251029_235/1761717116463JJucB_PNG/2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -46257,8 +46257,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240210_110/1707559644669laqUF_PNG/KakaoTalk_20240121_123335854.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240210_34/1707559666728WuJQT_JPEG/KakaoTalk_20240210_190706917_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -46298,7 +46298,7 @@ const restaurants = [
     "naverPlaceId": "1884410621",
     "naverUrl": "https://map.naver.com/v5/entry/place/1884410621",
     "naverBlogCnt": 4,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250106_21/1736160053735ucSIw_JPEG/1000017670.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -46421,7 +46421,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_238/1762159560118LKX3h_GIF/KakaoTalk_20251103_103301765_10.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -46463,8 +46463,8 @@ const restaurants = [
     "naverPlaceId": "1978615049",
     "naverUrl": "https://map.naver.com/v5/entry/place/1978615049",
     "naverBlogCnt": 69,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240930_242/1727686820558sh6R9_JPEG/IMG_1501.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250314_194/1741962493810H84e3_JPEG/IMG_3311.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -46555,8 +46555,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211222_165/1640167215809P3AUN_JPEG/20211207_185511.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251205_161/1764923482793Fxf8R_PNG/20251205_135914.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -46646,8 +46646,8 @@ const restaurants = [
         "description": "쫄깃한 결에 고소함이 터져요~ 샤브샤브의 정석✨"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251217_86/1765953879372G767T_JPEG/KakaoTalk_20250829_124346667.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251226_87/1766732676323gRJ9R_JPEG/1-1.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -46728,8 +46728,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230330_108/1680174846087wxFLq_JPEG/D2885C32-BA0E-499B-9A5D-6E84DE03EC77.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230330_52/1680174961356UtPi3_JPEG/B236B482-D3D5-4690-92D0-ABC943AC5C10.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -46813,8 +46813,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251016_46/1760575874693SAyGd_JPEG/%C6%AE%B7%AF%C7%C3_%C1%A4%BB%E7%B0%A2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260416_137/17763294430564HXgv_JPEG/%C1%F7%BF%B5%C1%A1_%C7%D8%C7%C7%BE%C6%BF%F6_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA%BB%F3%B4%DC%B9%E8%B3%CA%282026.04.16%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -46894,8 +46894,8 @@ const restaurants = [
         "description": "오징어, 보리새우 및 부추로 붙인 해물부추전"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260128_107/1769561303726WwcP2_JPEG/IMG_9364.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260128_129/1769561303886okiHn_JPEG/IMG_9374.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -46973,7 +46973,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_112/1743756584617PrTDF_JPEG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-002.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -47055,8 +47055,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190725_122/1564044926930hK2P9_JPEG/LZIEPuspZGKkmMYul0RUApDl.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200406_226/1586130720644ryggv_JPEG/vQ8as72bWwEosfz0uEAfVm8c.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06181"
   },
@@ -47145,8 +47145,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220415_18/1649994292416hrPa4_JPEG/image.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260106_1/1767666427837o4At1_JPEG/IMG_1312.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -47237,8 +47237,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171129_96/1511951681037wRBmc_JPEG/image.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180207_19/1517969115720Gurv3_JPEG/image%281%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -47289,7 +47289,7 @@ const restaurants = [
     "naverPlaceId": "31375180",
     "naverUrl": "https://map.naver.com/p/entry/place/31375180",
     "naverBlogCnt": 206,
-    "imageUrl": "/images/restaurants/samseong/맥도날드-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -47396,8 +47396,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "507653831",
     "naverUrl": "https://map.naver.com/v5/entry/place/507653831",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190903_243/1567505243090wCTkt_JPEG/014D9ECC-5179-4C04-A65C-0D23179FA635.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190823_39/15665219618145p9aX_JPEG/lPr144Paf-XDIgB4K-WBVHQL.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -47498,7 +47498,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉산집-삼성동점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -47556,7 +47556,7 @@ const restaurants = [
         "description": "태국 마늘간장소스에 볶은 돼지고기 볶음면"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/생어거스틴-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -47627,7 +47627,7 @@ const restaurants = [
         "description": "바삭함과 고소함이 가득한 깐부 베스트셀링 치킨"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/깐부치킨-삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -47714,8 +47714,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251207_61/1765098220224ahx7L_JPEG/IMG_2796.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAzMzBfMTkw/MDAxNzc0ODQ4MTcyNjE3.iqN4U3faSCDw8PTGjaxpph4XSJAOhl-Zq7zDmY_OQmEg.uqmnP-GvMSsoPfCkzSYGoF78mFlZlszB4Ef3H-1t_Gcg.JPEG/5A7C8678-883E-44FE-B10C-8B33BACE8083.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -47790,8 +47790,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240826_133/1724638666545i7j0i_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF_19-05-090091.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240826_26/17246386665291QUbO_JPEG/%C5%A9%B1%E2%BA%AF%C8%AF_19-05-100121.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -47881,8 +47881,8 @@ const restaurants = [
         "description": "강도다리 사시미와 모둠회가 어우러진 스페셜 코스"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240627_168/1719465152000yIpWL_JPEG/%C7%D8%B4%E3%C3%A4%BD%BA%C6%E4%BC%C8.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240627_276/1719465151854ltA4p_JPEG/%C1%D6%B9%E6%C0%E5%C6%AF%BC%B1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -47959,8 +47959,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_214/1769081030563kHpAz_JPEG/KakaoTalk_20260121_003420755_10.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260410_261/1775827643667EVMha_JPEG/KakaoTalk_20260121_003112718_07.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -48057,8 +48057,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250610_233/1749538483596hnBQJ_JPEG/1000005268.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250610_64/1749539612767C9hLS_JPEG/1000005277.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -48147,8 +48147,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250718_263/1752813606386oGfXc_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250117_154/1737095479957LzNRM_JPEG/DSC_9790.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -48228,8 +48228,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_23/1770627649474XDUFt_JPEG/%C4%DA%BF%A2%BD%BA_%BB%EF%BC%BA%BF%AA_%C1%EF%BC%AE%B6%B1%BA%BA%C0%CC_%BB%E7%C0%CC%B5%E5%BC%EE_%2814%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260209_78/1770627649427r2Y05_JPEG/%C4%DA%BF%A2%BD%BA_%BB%EF%BC%BA%BF%AA_%C1%EF%BC%AE%B6%B1%BA%BA%C0%CC_%BB%E7%C0%CC%B5%E5%BC%EE_%2819%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -48311,8 +48311,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_40/1772606487279Ixgvr_JPEG/KakaoTalk_20250911_124452879_02.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260304_147/1772606528880pPX9a_JPEG/KakaoTalk_20250911_124452879_24.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -48400,8 +48400,8 @@ const restaurants = [
         "description": "190g/1인분(2인분 부터 주문가능)"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180502_48/1525239302549jhypH_JPEG/oBpX4IfEd9pBblZ7JBmfBr9u.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180523_35/1527036332692NuR5X_JPEG/xXfwqzCU9anZedNn6Yym2sF0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48583,8 +48583,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191111_243/1573454246537APkgX_PNG/2sDAF0vnb1w7zhPZFmy8c15T.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191111_42/1573454249236gSjLv_PNG/IM8PHoHKwGcE6u898e7e7KNE.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -48685,7 +48685,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/동강-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48726,8 +48726,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "13161114",
     "naverUrl": "https://map.naver.com/v5/entry/place/13161114",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180221_151/1519198407372TAUJP_PNG/SAyIE1RrpsHQxWJRPQxoRmGg.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260425_9/17771126466479wzEn_JPEG/KakaoTalk_20260425_191332882_05.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48818,8 +48818,8 @@ const restaurants = [
         "description": "업진살이라고도 불리는 고소함의 최고부위"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240113_113/1705081859633tR3Sk_JPEG/1704896844522.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240113_184/1705081893576LReUY_JPEG/1704896844345.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -48868,7 +48868,7 @@ const restaurants = [
     "naverPlaceId": "43939507",
     "naverUrl": "https://map.naver.com/p/entry/place/43939507",
     "naverBlogCnt": 29,
-    "imageUrl": "/images/restaurants/samseong/계동치킨-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -48930,7 +48930,7 @@ const restaurants = [
         "description": "달콤한 속살의 큼지막한 대게 다리를 얹은 스페셜 초밥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/스시츠카무-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -48992,8 +48992,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251021_214/17610258635662Udjk_JPEG/KakaoTalk_20251017_143546682.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251021_122/1761025858933yAVhc_JPEG/KakaoTalk_20251017_142833250.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -49078,8 +49078,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250908_198/1757308110097Ad798_JPEG/1000011832.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241129_265/1732866631244OLYbF_JPEG/1000006657.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -49175,7 +49175,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/사조참치삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -49261,8 +49261,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251127_93/1764222375479vzX7j_JPEG/KakaoTalk_20251125_143819642.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251127_227/1764222375544RUct3_JPEG/KakaoTalk_20251125_143839343.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -49336,8 +49336,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20161020_42/1476947095401qlaUV_JPEG/176970563474434_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190902_212/1567372906042Iic72_JPEG/hAwHHbwjhg9g4e5TA839FBih.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49416,8 +49416,8 @@ const restaurants = [
         "description": "마르게리따에 블랙/그린올리브, 할라피뇨를 버무린 토핑"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220212_68/1644635862174V1ciN_JPEG/202002180522-%BA%B9%BB%E7.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210716_294/1626400056304Go8hh_JPEG/6QvGs3iSf8vitzEOq5Xoek2T.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49497,8 +49497,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200327_25/1585307046236iDvnN_JPEG/MlvGfwPOGpi80RO-HDRKetC_.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200327_295/1585307055143LdStV_JPEG/Jrn76iB2ZAbOm-h6tTt71h3r.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49584,8 +49584,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230915_154/1694749278387NaUrQ_JPEG/KakaoTalk_20230915_123732610_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230915_220/1694749283778Udba1_JPEG/KakaoTalk_20230915_123732610_05.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -49656,7 +49656,7 @@ const restaurants = [
         "description": "고소한 황태와 개운한 국물, 속 편안한 해장 한 그릇!"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼성골-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -49739,7 +49739,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_255/1770100296333VyELe_JPEG/9.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06193"
@@ -49803,8 +49803,8 @@ const restaurants = [
         "description": "멕시칸 스타일 돼지고기와 함께 먹는 나초"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200506_164/1588752483180vAlTs_JPEG/oirAR2wimep2nL165BdeUkE8.JPG.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200506_275/1588752494478AhRw2_JPEG/dFSPrl4WCZT_u2KRQPCIyLm3.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -49847,8 +49847,8 @@ const restaurants = [
     "naverPlaceId": "1047937294",
     "naverUrl": "https://map.naver.com/v5/entry/place/1047937294",
     "naverBlogCnt": 745,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260209_8/1770628857261Ujqqd_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2026-02-09_171420.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260401_196/1775007947591BMhv5_JPEG/KakaoTalk_20260401_090944506.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -49940,7 +49940,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/아리랑-Arirang-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50020,8 +50020,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230127_89/1674813174311SIuSB_JPEG/BD9F11EE-317C-444A-AD4E-8C2C0DF6A297.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251219_15/1766155988350c47ot_JPEG/IMG_6626.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50107,8 +50107,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220323_268/1648010649067dH9Rr_JPEG/20220323_134235.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220307_192/1646644768731FF8io_JPEG/20200727_161641.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -50186,8 +50186,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250804_26/1754317238134DoF6P_JPEG/IMG_6278.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250804_135/1754317238742D8OMp_JPEG/IMG_6145.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50264,8 +50264,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231220_199/1703058801520mqdUa_JPEG/1000000602.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231215_214/1702602888608bILzS_JPEG/KM_00122.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -50301,8 +50301,8 @@ const restaurants = [
     "naverPlaceId": "1186783820",
     "naverUrl": "https://map.naver.com/v5/entry/place/1186783820",
     "naverBlogCnt": 9,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250307_47/17413372378170HV0x_JPEG/1000016483.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250307_245/1741337236039sCKaI_JPEG/1000016559.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50348,8 +50348,8 @@ const restaurants = [
         "description": "진한 갈릭 소스와 담백한 포테이토의 달콤한 만남"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_59/1767310761740N05zQ_JPEG/250102-%C6%C4%C6%C4%C1%B8%BD%BA-%BA%B8%B5%B5%C0%DA%B7%E1-%C0%CC%B9%CC%C1%F62.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220302_29/164618552231640tcj_JPEG/%C6%C4%C6%C4%C1%B8%BD%BA-%BD%C5%B7%CE%B0%ED.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -50431,8 +50431,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221128_273/1669593401671rECsq_JPEG/%C4%DA%BF%A2%BD%BA%B8%C5%C0%E5%BB%E7%C1%F8.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjEyMjZfMTA4/MDAxNjcyMDI4ODg3OTQ5.y_goDT1VO-9HQLVRk7To_6MUNwiMKSCRCDuVOq2ZjT4g.9Td8hf0BtMOridJfOOgGCCv3DyFCos7idywCUOADMsMg.JPEG/20221217_123706.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50602,8 +50602,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190514_25/1557817442686xNpnt_JPEG/svm7Mcd0uAdaXy5CnNfxcblZ.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191112_199/15735623096125wOQ4_JPEG/X0ileY-uKLt2qfhGW0vCMxnM.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -50691,8 +50691,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231116_240/17001143104024EsYf_JPEG/1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231116_139/1700114425898aoy4p_JPEG/10.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50770,7 +50770,7 @@ const restaurants = [
         "description": "마라룽사or마라대하+마라샹궈+미니전+청도맥주2병"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/마라품격-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -50851,8 +50851,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190920_94/1568944423518FF1kX_JPEG/RnDOjfQNPRm4ern8sRIuuXvx.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190920_291/1568944435166Lz17k_JPEG/GOoIQ7rzpCtujKbNmb0ZoaZ1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06169"
@@ -50938,8 +50938,8 @@ const restaurants = [
         "description": "오렌지 / 말차 / 초코 3가지 메뉴가 있습니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240323_185/1711171877894vsblI_PNG/20230204_171641.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240323_83/1711172036800geUyA_JPEG/%BB%E7%BA%BB_-ASC89B.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51039,8 +51039,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20231012_263/1697096289568nKhla_PNG/%C7%C3%B7%B9%C0%CC%BD%BA_%C5%A9%B1%E2%C1%B6%C1%A4.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250526_300/1748252063966nH4R2_JPEG/%BA%B9%BB%E7%B2%C9%BE%C6%B7%A1_%B5%BF%B7%A1%BA%B9%B1%B9.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06178"
@@ -51109,7 +51109,7 @@ const restaurants = [
         "description": "싱싱한 완도 전복요리 & 목포 홍어 삼합 일품"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/홍영재장수청국장-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -51190,8 +51190,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200212_282/1581487705716iSv8a_JPEG/yzsWTybhrbNanK0bCLYPO3pd.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230321_224/1679391183661Y4Pbk_JPEG/IMG_3161.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -51238,7 +51238,7 @@ const restaurants = [
     "naverPlaceId": "1713622371",
     "naverUrl": "https://map.naver.com/p/entry/place/1713622371",
     "naverBlogCnt": 35,
-    "imageUrl": "/images/restaurants/samseong/롯데리아-선릉점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51312,8 +51312,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20151104_153/1446637500465I3gf8_JPEG/166971557675059_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20151104_271/1446637500612IKPPg_JPEG/166971557675059_1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51400,8 +51400,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_81/1767330538952jUlhR_JPEG/KakaoTalk_20260102_140738168_25.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260319_80/1773886766012vDiGs_JPEG/KakaoTalk_20260319_105618117.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51574,8 +51574,8 @@ const restaurants = [
         "description": "담백하고 쫄깃한 식감의 반건조 조미 노가리"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221031_168/16672253332989Gpp9_JPEG/1620464130981.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250207_222/1738921160779JqKDh_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD-1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51637,8 +51637,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191204_25/1575445253143YGOsE_JPEG/Am1JBsS0zzbngaViBAw7mqqb.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191204_181/15754453085572bbbT_JPEG/ESbGK4bAE3vz1BEWb5eM2d1K.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51717,7 +51717,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171130_108/1511975597925urOvj_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -51796,8 +51796,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230414_32/1681469166155pK5zt_JPEG/1681451452928.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230414_41/1681469098255fMOwx_JPEG/1681451455599.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -51875,8 +51875,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_18/171930947232156PSd_JPEG/IMG_0377.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240625_206/1719309425279qA5bX_JPEG/IMG_0341.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -51973,7 +51973,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/희래등-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06175"
@@ -52185,8 +52185,8 @@ const restaurants = [
         "description": "코스 1인 가격입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191022_167/1571735360639rzJgN_JPEG/LUZRMBGkqkog3n8b8SN3uv3L.JPG.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191022_172/15717354068481RjId_JPEG/De4rksKg41DHvoeVX8nMKjUR.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -52276,8 +52276,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240411_140/1712802012030gYBCa_JPEG/IMG_20200528_212921_353.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260111_64/1768132845209i40mq_JPEG/1716282654290.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -52381,7 +52381,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/한국촌-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06183"
@@ -52486,7 +52486,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/삼군김치찌개-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06175"
@@ -52553,8 +52553,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_30/1441114860137dxgMr_JPEG/SUBMIT_1361946902273_30982229.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_292/1441114860438OsMob_JPEG/SUBMIT_1361946902495_30982229.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -52637,8 +52637,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190708_48/1562567911032XYvbJ_JPEG/axRp_tRb9oXCVy7RIofrjYlB.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190708_87/1562567916482RBsa4_JPEG/mWjwuP-hKN1Zx2zox7xjQLXW.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06185"
   },
@@ -52723,8 +52723,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190806_204/1565082919801oH8KM_JPEG/UOAWP3D0hIeXGqa3XOSBijrd.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191026_106/1572071712346vFeLm_JPEG/USh8zp7864YFFZuMBNd7pUzi.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -52812,7 +52812,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/얌샘김밥-대치삼성점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -52917,7 +52917,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/족발보쌈마을-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -52992,7 +52992,7 @@ const restaurants = [
         "description": "바삭함 고소함의 끝판왕입니다 *연출사진아님*"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/철수포차-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53063,8 +53063,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_86/1440994586149A1inI_JPEG/106470458636355_0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20151021_237/1445409982386bi9sr_JPEG/166971557639735_0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53261,8 +53261,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230510_91/1683708236286BeHuN_PNG/1._HIMNANDA_BURGER_LOGO_%28%B3%D7%C0%CC%B9%F6%29.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230510_279/1683708236261t5FtG_JPEG/3._%C8%FB%B3%AD%B4%D9%C4%A1%C1%EE%B9%F6%B0%C5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -53332,7 +53332,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/부산아지매국밥-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06175"
   },
@@ -53415,8 +53415,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230627_87/1687799736690dl31d_JPEG/2765E4AD-1578-4356-A7E0-074C55FAC985.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230626_113/1687776033441rj8DL_JPEG/KakaoTalk_20230626_194015119.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06185"
@@ -53500,8 +53500,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240227_240/17089897473631LOKH_JPEG/IMG_4826.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240520_183/1716167976004ke8Mx_JPEG/KakaoTalk_20240520_101753034.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -53595,7 +53595,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/김밥까페-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06183"
   },
@@ -53669,8 +53669,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241018_206/1729180157494Gi5g8_JPEG/KakaoTalk_20241018_003045664.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240830_45/1724949247804LIIsa_JPEG/3DE90B5C-0C55-47D7-B57F-81102B661412.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -53740,8 +53740,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260208_212/1770534302030q2NNI_JPEG/IMG_4428.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260219_5/1771494274263PpE4P_JPEG/IMG_4472.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06196"
   },
@@ -53813,8 +53813,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250321_49/1742523480016oDgRn_JPEG/%BE%C6%B1%D7%B6%F3%C4%DA%BF%A2%BD%BA.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220217_216/1645098728049MSifU_JPEG/KakaoTalk_20220105_152708733_04.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53893,8 +53893,8 @@ const restaurants = [
         "description": "얼얼한 마라와 부드러운 크림의 조합이 매력적인 짬뽕"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_162/1719303781204yLY6d_JPEG/0.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240625_136/1719303781760MVaM0_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -53998,7 +53998,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/임고집한우-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -54156,8 +54156,8 @@ const restaurants = [
         "description": "설렁탕집 김치로 맛을 낸 새콤바삭한 김치전"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_65/1773034229115sAoAe_PNG/%C1%A4%B5%BF%BF%F8_%C6%F7%C5%E4%C4%AB%B5%E5_%C6%BC%BF%C0%B4%F5.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260507_260/1778137643417YIiXD_JPEG/5%BF%F9_%C0%FC%BB%E7%C7%C1%B7%CE%B8%F0%BC%C7%28%B5%B5%B5%B5%2C_%B3%D7%C0%CC%B9%F6%C7%C3%B7%B9%C0%CC%BD%BA%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -54239,7 +54239,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/둘둘치킨-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -54325,7 +54325,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/명동할머니국수-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06181"
   },
@@ -54411,8 +54411,8 @@ const restaurants = [
         "description": "찰진 대광어의 쫀득한맛! 매운탕도 함께 즐길수 있습니다"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230524_289/1684919539092qWK6z_JPEG/Screenshot_20230523_012421_NAVER.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230503_299/1683098110858giCac_JPEG/IMG_20190915_011045_691.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -54461,7 +54461,7 @@ const restaurants = [
     "naverPlaceId": "1558099783",
     "naverUrl": "https://map.naver.com/p/entry/place/1558099783",
     "naverBlogCnt": 646,
-    "imageUrl": "/images/restaurants/samseong/카츠8-파르나스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -54562,7 +54562,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/길농원-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -54649,7 +54649,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/리틀사이공-파르나스몰-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54747,7 +54747,7 @@ const restaurants = [
         "description": "따뜻하고 진한 국물을 즐기는 전통 우동"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/이나세-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54823,8 +54823,8 @@ const restaurants = [
         "description": "꼬치 어묵과 유부주머니가 곁들어진 개운한 국물 우동"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230712_263/1689142506872oPywy_JPEG/KakaoTalk_20230704_130932979_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230712_258/1689142506981d42I7_JPEG/KakaoTalk_20230704_130932979.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -54906,8 +54906,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230616_247/1686900330614RBwYJ_JPEG/KakaoTalk_20230616_141526352_06.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230613_17/1686643555231c38Xc_JPEG/%BC%D2%BF%EF%B8%B6%C4%CF%BA%A3%C0%CC%C4%BF%B8%AE_%B7%CE%B0%ED.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -54974,8 +54974,8 @@ const restaurants = [
         "description": "화이트 초콜릿과 스팀밀크가 첨가된 에스프레소 음료."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20251219_119/1766087766534NJsXv_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -55051,8 +55051,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210510_48/1620615976377VBVN1_JPEG/h_5hVw9OF6qLTIxSwgLWRIdc.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210510_229/1620615913730p7wOu_JPEG/mVFIqOsX3aGKeex0dOIn39Zk.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -55117,8 +55117,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190112_179/1547271094228cWICg_JPEG/1_%2815%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190112_102/15472710942286oB6i_JPEG/1_%282%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -55217,7 +55217,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/봉남이네-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -55246,8 +55246,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1069096253",
     "naverUrl": "https://map.naver.com/v5/entry/place/1069096253",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200710_290/1594309462517WOsVs_JPEG/Qxhtxq8Up2tA0o6xHTZ3xvcM.jpeg.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjEyMTFfMzUg/MDAxNjcwNzY5MDc0MDI4.luowvtxLbtr-1oKmMuhGx3mO65R0XuFx7PEFhPr3dK8g.9_MSzpNiQ0pNbMdJisJI1ToiS0V-IMDdII64Ux_uLdEg.JPEG/20221209_115849.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -55277,8 +55277,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1221397577",
     "naverUrl": "https://map.naver.com/v5/entry/place/1221397577",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230406_118/1680744289907kLNHc_JPEG/KakaoTalk_20230403_203320108.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230406_297/1680744286102hJQYD_JPEG/KakaoTalk_20230403_203320108_01.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -55311,8 +55311,8 @@ const restaurants = [
     "naverPlaceId": "1647490620",
     "naverUrl": "https://map.naver.com/v5/entry/place/1647490620",
     "naverBlogCnt": 351,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220828_178/1661655503343w02I9_JPEG/1661654810594.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220829_7/1661779786155T5DHy_JPEG/1661779362198.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -55341,8 +55341,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "1165904418",
     "naverUrl": "https://map.naver.com/v5/entry/place/1165904418",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191203_239/1575362383562xRv2Y_JPEG/k8zf0Tq5ICWvWR1XUSzMpKp2.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200630_153/15935038297442YtBO_JPEG/Qn5QdfQT2k5luY4z9GVsvdC8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06282"
   },
@@ -55389,7 +55389,7 @@ const restaurants = [
     "naverPlaceId": "1901062069",
     "naverUrl": "https://map.naver.com/p/entry/place/1901062069",
     "naverBlogCnt": 305,
-    "imageUrl": "/images/restaurants/samseong/Gate9-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -55584,8 +55584,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150901_226/1441043638093oBU7M_JPEG/SUBMIT_1375245672566_32960233.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150901_217/1441043638329frhmy_JPEG/SUBMIT_1375245672729_32960233.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -55691,7 +55691,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/남산옥-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -55742,7 +55742,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/카레마치-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -55822,7 +55822,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/최고야-닭갈비-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -55899,8 +55899,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220823_44/1661253511480NpzIa_JPEG/DF61649C-24A9-49B4-AF19-969678EDD0F7.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220726_37/1658799996383xhqpd_JPEG/DF6FE26C-AF56-4DAF-B5F1-04C55D0EDAEA.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -56060,7 +56060,7 @@ const restaurants = [
         "description": "새우와 돼지고기 완자를 올린 홍콩식 솥밥"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/호우섬-코엑스점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -56123,7 +56123,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/남오토코-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -56211,8 +56211,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191225_179/1577254293622cSy3i_JPEG/4T8a33QemHqnLLXDnE9-6_dK.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191225_99/15772543811879HGPb_JPEG/LHmhYUDp6FRDJwOeLLXiB7iT.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -56292,7 +56292,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/못난이포차-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56376,8 +56376,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200914_255/1600053341482jMuVn_JPEG/PKv72Vi_BbXdXocCShUSQRMf.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20200914_177/16000530879690dAOq_JPEG/xX-XVLGFdHkye_PqsSYdHUFL.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -56430,8 +56430,8 @@ const restaurants = [
         "description": "매콤한 낙지볶음 요리에 가장 잘 어울리는 담백한 계란찜"
       }
     ],
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20250318_261/1742276825952behFs_JPEG/KakaoTalk_20170327_214112356.jpg",
-    "imageUrl2": "https://naverbooking-phinf.pstatic.net/20260316_299/1773626147019IW8jW_PNG/image.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -56478,8 +56478,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221102_167/1667344640867svmVm_JPEG/i2-espresso-extraction.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyMjEyMjNfMjY2/MDAxNjcxNzYxODYxNzcx.j9ROxx8JtGiaGfM1HQaN6QDGf63TSBinajpXFGpmn1wg.0fpAMtNwxy_ekUSlL-R4TZjexaygfDeSEUAzDvzvEX4g.JPEG/20221222_115530.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56557,8 +56557,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240419_135/1713515346660PMTfe_JPEG/image.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240419_22/1713515468149AoAXs_JPEG/IMG_2549.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56633,8 +56633,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200612_4/15919324514890i1wj_JPEG/yHM9qCeHMCkMjZdCqbkPHg0s.jpeg.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjAxMzFfNjQg/MDAxNzY5ODUyNzMyMTY4.mCRL7dD_iPgBAGR__QSI6JVS7b-llHdB2kfnzLo6Lt8g.02_5FogUrYnWg7gFJq3i-6g8ZqqUUy9Uv2djYa0vilwg.JPEG/20260131_174328.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -56669,8 +56669,8 @@ const restaurants = [
     "naverPlaceId": "35051091",
     "naverUrl": "https://map.naver.com/v5/entry/place/35051091",
     "naverBlogCnt": 160,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_247/1548586734849PsoDM_JPEG/1os_Xqi2yZXG45_8Cjg_adIZ.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20211115_111/16369784080029kq9o_JPEG/KakaoTalk_20211115_210212759_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56709,8 +56709,8 @@ const restaurants = [
     "naverPlaceId": "37370801",
     "naverUrl": "https://map.naver.com/v5/entry/place/37370801",
     "naverBlogCnt": 14,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20161207_284/1481090703011cht6e_JPEG/2.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA5MDhfMzAw/MDAxNzU3MjkxMTY5Njgx.J2JqWzDLiGWxKDhkSIWONkgOSSuoSR0CIjpeIs5lXUgg.HuPJy3ka-O-F_qzvHjypikUl3O-lDMsJga0OYq9MDvwg.JPEG/IMG_3754.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -56807,8 +56807,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1791996012",
     "naverUrl": "https://map.naver.com/v5/entry/place/1791996012",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230918_296/1694994818836jAFzB_JPEG/KakaoTalk_Photo_2023-09-18-08-47-20.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230918_45/1694994817758Gfz43_JPEG/KakaoTalk_Photo_2023-09-18-08-47-39_003.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06194"
   },
@@ -56939,7 +56939,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/불고기브라더스-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -57024,7 +57024,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/불고기브라더스-코엑스몰점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -57133,7 +57133,7 @@ const restaurants = [
         "description": "토마토소스와 칠리소스로 만든 로마풍의 매콤한 스파게티"
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/포모도로-코엑스-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -57177,8 +57177,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221101_217/1667292992230ChRNG_JPEG/20221101_174828.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20221101_85/1667292981896Hc34p_JPEG/20221101_174909.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -57253,8 +57253,8 @@ const restaurants = [
         "description": "참치와 고소한 마요가 어우러진 부드러운 김밥"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251204_129/1764835182198IAJ57_JPEG/%B1%E8%B9%E4%B8%C0%C1%FD3.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251204_255/1764835183033NwtYN_JPEG/%C0%CC%B9%CC%C1%F6%C4%C6_%286%29.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -57334,8 +57334,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_300/1548586363937GsicT_JPEG/E_jhh23RZEf3AcpjT1-V94II.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20190804_248/1564901265847nEi4B_JPEG/zYh4gqU9bjOtFFpXAiH5432r.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57431,7 +57431,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fapis.naver.com%2Fplace%2Fpanorama%2Fthumbnail%2F2094172419%2F0%3Fwidth%3D800%26height%3D400%26msgpad%3D1773651393217%26md%3DiKpErfK16qiWE9MWsOKgAINliQg%253D",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57516,8 +57516,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250903_132/17568373831370eKHQ_JPEG/1000012476.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250903_80/1756834121940Qf49c_JPEG/1000012484.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -57574,8 +57574,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230724_286/1690158122576AWIjv_JPEG/%C4%DA%BF%A2%BD%BA.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTA2MDdfMjgg/MDAxNzQ5MjgzNjk4OTQ0.caNsQQ4mU7tvYnM5RV3_EeevHsLVGVQVXPmRsj9sKmsg.nJ-Wwl037eXCP-7_UwRmYLWHor_Rj1jzmcfS_QegpHMg.JPEG/D1357283-9D95-4383-9252-DD44DF2384F3.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57648,8 +57648,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190127_181/1548586514565x3Ii2_JPEG/zweZIRT_B_vAPjxFfFEhNNqL.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MjFfNDgg/MDAxNzc2NzIyMDU0MDI3.eksqP4IY8OQLe5iPEwkoEdpn5MLIZxSzNG1dgVjyq6cg.qPUgBIg1JeU5YOmityQvM0WUlwFShAKXpiMl0oieb0kg.JPEG/20260318_184415.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57746,7 +57746,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/연화산-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -57822,8 +57822,8 @@ const restaurants = [
         "description": "카라돈코츠라멘세트"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241202_167/1733105286312pSPP3_JPEG/%C3%E2%B0%ED%C6%D0%B5%E51.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241202_290/1733105286314nO4tn_JPEG/%C3%E2%B0%ED%C6%D0%B5%E52.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16",
     "zip": "06194"
@@ -57978,8 +57978,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190723_49/15638591732100a5AR_JPEG/03yZMYQ_LyU4nm5OhAfDJaCw.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20221008_144/16652193227694LqRO_JPEG/20221008_074009.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -58065,8 +58065,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240229_72/17092032630244mK6j_JPEG/KakaoTalk_20240222_140933361_09.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240229_43/1709203234071T52nK_JPEG/%C5%E4%B3%EB%BE%DF3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -58145,8 +58145,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200630_223/1593518862656jm4wv_JPEG/C3pJQvbvcs3zMwspoL7yvgzZ.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241220_95/1734674677836lK96l_JPEG/KakaoTalk_20241217_140429464.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58220,8 +58220,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260102_204/1767342266360h1v9t_JPEG/KakaoTalk_20260102_172120013.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260102_288/1767342271334P05x7_JPEG/KakaoTalk_20260102_172120013_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06279"
   },
@@ -58338,8 +58338,8 @@ const restaurants = [
     "naverPlaceId": "1104547594",
     "naverUrl": "https://map.naver.com/v5/entry/place/1104547594",
     "naverBlogCnt": 498,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251020_264/1760920485602PalSh_JPEG/KakaoTalk_20251020_093034416.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241107_169/1730986901691dnSyP_JPEG/%B9%AB%C1%A6-6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -58425,8 +58425,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220717_105/1658059662240cdT8B_JPEG/20220714_195203_HDR.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDA1MTBfMzQg/MDAxNzE1MzA2MTIyMTAx.IVxBqKsbFaEDLWS1prUBQ8JrEqUClcX9z3A5waMXVIMg.h2EO7RY5-AxnS_uFjMiz9hnS8gBWYNfVpvXuL9Yf92Qg.JPEG/43C011FE-BDB8-4ED0-A477-190A726F4735.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06174"
@@ -58501,7 +58501,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "33879160",
     "naverUrl": "https://map.naver.com/v5/entry/place/33879160",
-    "imageUrl": "http://blogfiles.naver.net/20150331_47/dicamaster_14277921265684BLk9_JPEG/DSC02528.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58581,8 +58581,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240514_219/1715645741243YCQuh_JPEG/%BF%C0%C0%FC%BA%B9%B8%C5%C0%E5%BB%E7%C1%F83.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240304_278/1709535986103QBWw6_JPEG/%B0%A5%C4%A1%C1%B6%B8%B2%BC%BC%C6%AE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58611,7 +58611,7 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "34807308",
     "naverUrl": "https://map.naver.com/v5/entry/place/34807308",
-    "imageUrl": "http://blogfiles.naver.net/20150824_293/momjisook2_1440406300703oTdBE_JPEG/20150719_152951.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58650,7 +58650,7 @@ const restaurants = [
         "description": "새우가 들어가 더욱 맛난 닭갈비입니다."
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201210_73/1607600012207QadoY_JPEG/-5QpO90yWBPMlgxpa5IMJkbz.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58728,8 +58728,8 @@ const restaurants = [
         "description": "달콤 쌉사름한 달고나와 우유가 잘 어우러진 음료"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210725_247/1627214710504ODKjv_JPEG/N606WlZPi6E-wXq0CE9i636h.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210725_98/1627214710889U9uIQ_JPEG/KThz8qUc-RewMHkFnK_4ByRv.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58845,8 +58845,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191223_82/1577078716198OyaPu_JPEG/SDaQjfw_5AgU3DuIdlzf7-Af.JPG.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20191223_240/1577078716166hAdvz_JPEG/icB1-HS_0Fqp6TpLvfaoMQqf.JPG.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -58926,8 +58926,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20170428_18/1493364735435v5xRq_JPEG/186378566232951_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20170428_164/1493364735534s5IE8_JPEG/186378566232951_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -58976,8 +58976,8 @@ const restaurants = [
         "description": "베이컨잼 특제 레시피가 들어간 스페셜 싸이버거!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230829_137/1693282401170BAq7o_PNG/%B7%CE%B0%ED_%C1%A4%B9%E6%C7%FC.png",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTAzMjhfMTQg/MDAxNzQzMTU2MTkwMDcw.UpDAgzHAQUgzWz-H8VMh0dLywzeSPGI4-wmB3oDa0XIg.1U-kJEyUgZViAc09wqS0vpGTq9yV5ketd7gR_W7fJhIg.JPEG/20250328_184946.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -59009,8 +59009,8 @@ const restaurants = [
     "exit4": true,
     "naverPlaceId": "1468136580",
     "naverUrl": "https://map.naver.com/v5/entry/place/1468136580",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240709_175/1720466969898TQ6Sc_JPEG/1718944238306.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240709_169/1720466970057WcwDe_JPEG/1718944236672.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06186"
   },
@@ -59056,8 +59056,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20150831_267/14410313172388qWr6_JPEG/157060513362653_0.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20150831_259/14410313174270OK0Q_JPEG/157060513362653_1.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -59109,8 +59109,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200806_80/15966810788797Cr1t_JPEG/IagWe9i1OxNoTyEaOzrny3sQ.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250321_208/1742530498396N9mDH_JPEG/KakaoTalk_20250321_131358404_13.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06178"
   },
@@ -59193,8 +59193,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240519_238/1716092064821FDnVl_JPEG/20240518_155005.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240104_207/1704375595996T4sH6_JPEG/KakaoTalk_20240104_213243582_11.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06202"
   },
@@ -59263,8 +59263,8 @@ const restaurants = [
         "description": "1인세트"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180702_141/1530494838006Pzae4_JPEG/dLB7IOLW2Ds6Da4blLkJpQ04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20180702_175/15304948401197a7iX_JPEG/KLk45jyuZBCNbSIs5VuUN6qF.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -59366,7 +59366,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "/images/restaurants/samseong/샐러드박스-삼성역점-1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -59426,8 +59426,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231113_206/1699868947962cR1RL_JPEG/20231022_221105.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20160316_162/1458122714526uPAP1_JPEG/176266593533642_0.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -59500,8 +59500,8 @@ const restaurants = [
         "description": "깻잎제육볶음, 계란후라이, 튀김&전, 4가지 한식반찬"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_222/1772469337621UF8C8_PNG/do-messenger_screenshot.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260414_179/1776122762960nQ2hd_JPEG/2602_%BA%BB%B5%B5%BD%C3%B6%F4_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_2.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06190"
   },
@@ -59573,8 +59573,8 @@ const restaurants = [
         "description": "최상급 투뿔 한우 꽃갈비살! 입안 가득 퍼지는 풍미"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251210_3/1765359430812kTod7_PNG/KakaoTalk_20251210_183644701.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20231028_215/1698422286284n4X5i_JPEG/KakaoTalk_20231028_005441127_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -59652,8 +59652,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240702_61/17198854646338solA_JPEG/%B8%F0%B5%EB%C6%ED%B9%E9%C2%F2_%BF%AC%C3%E21.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250319_202/1742375787664iTQgM_JPEG/2.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -59741,8 +59741,8 @@ const restaurants = [
         "description": "청양새우부추전 마당주세트"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251212_208/1765510400882L8nFL_JPEG/KakaoTalk_20251212_123111437.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251212_41/1765510480267xNmKF_JPEG/KakaoTalk_20251212_123121700.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06184"
@@ -59830,8 +59830,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260309_221/17730659009468S6zi_PNG/1000002935.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260510_206/1778414157520aN4D1_JPEG/B57869A8-1C62-4A24-A9C2-C513DF313D40.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -59914,8 +59914,8 @@ const restaurants = [
         "description": "태박막장과 한우차돌박이로 끌인 구수한 막장찌개!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260212_298/1770874155658jA9o0_PNG/1.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260212_240/17708741549488hYtk_PNG/2.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06197"
@@ -60000,7 +60000,7 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250919_241/17582760093828MJcJ_JPEG/250717_%C7%C1%B7%B9%BD%C3%BA%CE%B8%AE%B6%C7130647.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -60045,8 +60045,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241220_217/1734698749144lYJfz_JPEG/E190E950-70B9-4F5D-B272-8B8CF0EECEE4.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241221_37/1734786059769sMXz3_JPEG/5DDAAC0A-BC1E-4968-8BB6-2621F19F707A.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -60121,8 +60121,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220629_124/1656492344681NkH0H_JPEG/KakaoTalk_20220629_112139490_04.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220629_42/1656492344694pJEqN_JPEG/KakaoTalk_20220629_112139490.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06199"
   },
@@ -60182,8 +60182,8 @@ const restaurants = [
         "description": "맑은버크셔곰탕에 고기를 더욱더 두둑히 드려요!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250629_295/1751180186331ptT59_JPEG/KakaoTalk_20250617_100745139_01.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250502_292/1746181717503KakeA_JPEG/IMG_9557.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60274,8 +60274,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250607_91/1749269988937Uc6VG_PNG/%C7%C3%B7%B9%C0%CC%BD%BA%BF%EB.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250601_110/1748771501411fHBXO_PNG/%C1%A6%B8%F1%C0%BB-%C0%D4%B7%C2%C7%D8%C1%D6%BC%BC%BF%E4_-001_%2821%29.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -60356,8 +60356,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240715_212/1721006317086cVkJW_JPEG/%C4%AB%C6%E4%BE%C6%B8%F0%C1%A6_%B7%CE%B0%ED_%B0%A1%B7%CE%C7%FC.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250725_70/1753414218765aBpUT_JPEG/20250725_110203.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -60433,8 +60433,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_9/1763978688541ntJBc_JPEG/1000005277.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251124_96/1763978689164OKRFp_JPEG/1000005270.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06197"
   },
@@ -60470,8 +60470,8 @@ const restaurants = [
     "exit4": false,
     "naverPlaceId": "33879148",
     "naverUrl": "https://map.naver.com/v5/entry/place/33879148",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20180122_297/1516619581052Rj7hS_JPEG/Z18IaaFUGGfU_0E50ZxChaoz.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260211_122/17707754674450qLyv_PNG/1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -60511,8 +60511,8 @@ const restaurants = [
     "naverPlaceId": "1788643965",
     "naverUrl": "https://map.naver.com/v5/entry/place/1788643965",
     "naverBlogCnt": 31,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250102_74/1735807533670vrfXi_PNG/0.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251201_274/1764564477352KliOw_JPEG/1000010340.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60581,8 +60581,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240424_103/1713952498099WpKN6_PNG/%BD%BA%C5%A9%B8%B0%BC%A6_2024-04-24_%BF%C0%C8%C4_6.54.36.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250728_165/1753708724644gipyV_JPEG/KakaoTalk_Photo_2025-07-28-22-17-40_001.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -60652,8 +60652,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230921_85/16952227320173rkmm_PNG/%C1%A6%B8%F1_%BE%F8%C0%BD.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "updatedAt": "2026-03-16"
   },
@@ -60734,8 +60734,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220915_263/1663218244064G3Scg_JPEG/KakaoTalk_20220915_140320799_05.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220915_293/1663218244071sjQrC_JPEG/KakaoTalk_20220915_140320799_04.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -60773,8 +60773,8 @@ const restaurants = [
     "naverPlaceId": "1003292616",
     "naverUrl": "https://map.naver.com/v5/entry/place/1003292616",
     "naverBlogCnt": 19,
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250110_46/1736505561300q9xEg_JPEG/IMG_7575.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250110_89/1736505560184Kt6yv_JPEG/IMG_6668.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16",
     "zip": "06196"
@@ -60873,8 +60873,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251218_220/1766050489031ro6UC_JPEG/4%BE%F3%C5%AB%C4%E1%B3%AA%B9%B0%B1%B9%B9%E4.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251218_56/1766050488998B13AA_JPEG/9%B8%C5%BB%FD%C0%CC%B1%BC%B1%B9%B9%E4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -61005,8 +61005,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250612_121/1749699150906YKGjO_PNG/%B7%CE%B0%ED%C0%DA%BB%EA_5%B7%CE%B0%ED.2.png",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250520_130/1747718713953omcky_JPEG/KakaoTalk_20250519_152656775.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -61061,8 +61061,8 @@ const restaurants = [
         "description": "바삭고소 먹태! 마요소스 콕 시원한 맥주와 찰떡궁합!"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250724_214/1753362488560LCzV7_JPEG/1000022876.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250515_48/1747244659491aoRDe_JPEG/1000007783.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -61141,8 +61141,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250717_183/1752738877719fXBCM_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5_%281%29.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250717_183/17527388777094YStG_JPEG/%B4%D9%BF%EE%B7%CE%B5%E5.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06184"
   },
@@ -61186,8 +61186,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240117_70/17054929076206uu9D_JPEG/IMG_8039.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20240117_73/1705492915501vI49u_JPEG/IMG_8037.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16"
   },
   {
@@ -61271,8 +61271,8 @@ const restaurants = [
         "description": "다진 참치, 가리비, 관자위에 낫또폭탄"
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250227_158/17405859890548AjPg_JPEG/IMG_4343.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250227_207/1740585988978KYXAQ_JPEG/IMG_4344.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -61325,8 +61325,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230515_217/1684133877097IsEjN_JPEG/KakaoTalk_20230515_155725064.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20220511_140/1652258803925YOhlE_JPEG/%3D%3D%B4%EB%C4%A1%C1%A11.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06200"
   },
@@ -61379,8 +61379,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251110_204/1762772002671T5EbH_JPEG/23236.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20251110_208/1762771985013K9fA6_JPEG/11822.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -61434,8 +61434,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251204_156/1764840899145T1QNN_JPEG/KakaoTalk_20251130_161518350.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250910_230/1757482831451g4QWj_GIF/GIF1.gif",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"
@@ -61481,8 +61481,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260112_222/1768177077172cHC4f_JPEG/%B4%F5%BA%ED%C4%A1%C1%EE%B9%F6%B0%C5.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNjA0MjBfMTAz/MDAxNzc2NjgzODY4ODgx.YRKJHFatL--Gd4oMVv7JmACoWFo_NrNLe6AfWczwEUIg.eHe_WvdTDsXyUpncGeXG69AUvT-T9mdGPH5UMKcXXjQg.JPEG/1000217136.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "updatedAt": "2026-03-16",
     "zip": "06174"
   },
@@ -61549,8 +61549,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231004_137/1696346801204vKyRQ_JPEG/KakaoTalk_20231004_000605758.jpg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNDAxMjJfMjMg/MDAxNzA1OTAzOTUzNDIy.AqRyU4SP3_bNWanE_bOLBvfy3Gh9z09mChmAwZJwupwg.ek-FnR5Csd__CEq-GTMkp1QpHycMJHPcpZfF-LgHiQIg.JPEG/0A99A06D-0670-4BE9-9FBA-A4CE77F6C920.jpeg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16",
@@ -61640,8 +61640,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250621_231/1750514294877GlgVP_JPEG/2GM02299.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250621_209/1750514295448A8oal_JPEG/GM_00030.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "reservation": true,
     "updatedAt": "2026-03-16"
   },
@@ -61692,8 +61692,8 @@ const restaurants = [
         "description": ""
       }
     ],
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250706_149/1751806501848zW44Y_JPEG/KakaoTalk_20250702_110013343_06.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250706_151/1751806480953mrW5y_JPEG/KakaoTalk_20250702_110013343_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true,
     "updatedAt": "2026-03-16"

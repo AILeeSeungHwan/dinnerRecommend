@@ -181,7 +181,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511279042/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_271/17641142316719yi0a_JPEG/KakaoTalk_20251121_164328064_07.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -385,7 +385,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2090743201/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250616_83/1750004537946M2iuE_PNG/KakaoTalk_20250514_005332740.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -476,7 +476,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1880314473/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220309_293/1646832646241geTnK_JPEG/1646787501619-0.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -567,7 +567,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1001246778/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220910_3/1662774438323GvPBH_JPEG/1662715335204.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -660,7 +660,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1479355246/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220708_180/1657208557543Hvzat_JPEG/%C8%A3%B4%CF%B5%B5%B4%CF_%B7%CE%B0%ED.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -751,7 +751,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1002278593/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221220_141/1671541671498WAG8a_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -787,8 +787,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1741365727/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241125_86/1732504693755dlNlD_PNG/111.PNG",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20241125_161/1732504685428l7FrW_PNG/1111.PNG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -881,7 +881,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/78231087/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20170704_20/1499145991740JGewC_JPEG/186654545650694_0.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -972,7 +972,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1205074933/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240102_144/1704187592456hfTkQ_PNG/1703866682358.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -1040,7 +1040,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059395646/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260302_167/1772425775315aJRam_PNG/%BD%B4%C6%DB%C5%A9%B8%AE%BD%BA%C7%C7%B9%F6%B0%C5%BC%BC%C6%AE.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -1076,8 +1076,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1087269169/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210616_44/1623854227006YSTcu_JPEG/iMxvyzKwyb1E0_JP-_iqA_uV.jpeg.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210616_25/16238275646802l8Se_JPEG/u6M8Y1KisaLGToc5CjTw-UyZ.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -1168,7 +1168,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2084200781/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250814_83/1755162517108Ez4F0_JPEG/1000015995.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -1260,7 +1260,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2026432599/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251111_97/1762825777983Luxa6_JPEG/%B9%CC%BC%BA%C7%C3%B7%B9%C0%CC%BD%BA_%B8%DE%C0%CE%BB%E7%C1%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -1333,7 +1333,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088299587/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251022_4/1761111110817JvHit_JPEG/1000017300.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -1426,7 +1426,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1890135549/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220512_203/1652344692982dyYYG_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -1477,7 +1477,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2018331827/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250620_92/1750411761127ApvHq_JPEG/KakaoTalk_20250620_102520378_02.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -1517,8 +1517,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255380075/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251201_196/1764552119985KHa3Q_JPEG/1000000434.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260211_289/1770745770131T3gvf_JPEG/1000000454.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -1610,7 +1610,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039557595/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251117_189/1763305319405Pr2Or_JPEG/KakaoTalk_20251116_233806508_19.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -1700,7 +1700,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2079366553/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250615_88/1749976957071GeEwa_JPEG/1000003885.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -1741,8 +1741,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36286222/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260115_289/1768455926887iDfB5_JPEG/47f378d5-b1dc-46a2-a961-0d6a331e3ae4-1_all_13671.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20260328_156/1774667255042kGedc_JPEG/KakaoTalk_20260325_181058175.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -1835,7 +1835,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1117348903/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240906_176/1725605691675ygfym_JPEG/1000004324.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -1923,7 +1923,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1168242083/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190919_67/1568901276727PRCWY_JPEG/OYKNtKYd4kktd1fJV50Kk8lU.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -2014,7 +2014,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1655236817/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240701_136/17198325500167gp8p_JPEG/1000018706.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -2107,7 +2107,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2088607033/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250521_185/1747807693687r3vUL_JPEG/%B8%F0%B5%EB%BC%BC%C6%AE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -2193,7 +2193,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1102755370/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240429_10/1714362212485GnOUa_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -2284,7 +2284,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1047391877/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230412_183/1681263797402Jteel_PNG/%B1%D7%B8%B21.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -2375,7 +2375,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1146915665/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251101_291/17620084269974loLw_JPEG/IMG_5535.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -2466,7 +2466,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011476153/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251215_189/17658022782189wPl1_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -2554,7 +2554,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1150175543/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240521_14/1716254886099Yry4z_JPEG/%B8%B6%B4%C3%BA%B8%BD%D3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -2644,7 +2644,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1716496855/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210825_270/1629863698300bquyt_JPEG/jmX5T0x7J7WEg2h_4T4Dab4X.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -2707,7 +2707,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2005171231/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250529_266/1748514753953k3UQa_JPEG/20250527_203635.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -2743,8 +2743,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1701106568/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250923_284/17586255709232485T_JPEG/KakaoTalk_Photo_2025-09-23-20-04-49_015.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250923_89/1758625615978AO03m_JPEG/KakaoTalk_Photo_2025-09-23-20-04-20_028.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -3028,7 +3028,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1811812357/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241221_184/17347343069273stuQ_JPEG/1000036031.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -3074,7 +3074,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1658878760/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250630_283/1751277864285fgWwm_JPEG/ADDC1900-4021-4651-86B5-BB946A2465A8.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -3122,7 +3122,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1365600158/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190424_265/1556077727637GQp8s_JPEG/1yChJr-anJTCBGGN8tt08Wyw.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -3213,7 +3213,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1995013402/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240401_14/1711980671357UxUwO_PNG/Moon_Rabbits_bistro_%C3%D6%C1%BE_%B4%EB%C1%F6_1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -3687,7 +3687,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1596707366/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230120_131/1674222802727irc9O_JPEG/844F5232-9CEA-44C1-89D1-19A209758A3E.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -3769,7 +3769,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1255937775/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200921_148/1600673388228X2Cyq_JPEG/c-8IzIbV388C0kJt4EscM5fp.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -3842,7 +3842,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274642038/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241011_139/1728626470381SRSg3_JPEG/3A30B2DA-A210-4B61-9EE3-939BF0EF0D92.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -3935,7 +3935,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1764123330/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230208_121/1675860812324u6IhD_JPEG/1214F6ED-67F3-405E-AB0C-D8D3BAA86DFF.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -3999,7 +3999,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1367329589/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250629_50/17511923641888nr2J_JPEG/1000008243.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -4522,7 +4522,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1247941459/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20171231_144/1514692470842moCjO_JPEG/mKG6fkBpnhkPn2tqa3VQ1mQc.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -4606,7 +4606,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1020371113/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190306_101/1551837162519Lszdd_JPEG/Q62xkoagMXhipZTSnEPMUhbt.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -4841,7 +4841,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1436548595/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250528_79/17484383294079ywkC_JPEG/KakaoTalk_20250528_221712701_15.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -4917,7 +4917,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37396091/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20200523_153/1590233004114Q45dG_JPEG/nLS7YMbLp9Oiw4DvQchLKwH-.jpeg.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -5339,7 +5339,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1598027827/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221031_125/1667186882419BmjFF_JPEG/_DSC5416.JPG",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -5725,7 +5725,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2056840959/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20260306_232/1772764540209WcsmE_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -5796,7 +5796,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1730211041/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221205_278/16702443702475eEx8_JPEG/1669541704520.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -5957,7 +5957,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1588796615/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201113_161/1605229580487iHTW7_JPEG/lYAzcrJzpp_sG0E7kpF5G3Z7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -6321,7 +6321,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160913545/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251220_170/1766206677708CpuoE_JPEG/91B53AE8-987E-4428-830B-00E54D6163BE.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -6413,7 +6413,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1104270647/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250917_79/1758101961506J3wma_JPEG/1000003440.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -6505,7 +6505,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1919227837/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260312_68/1773284256832c65qw_JPEG/IMG_2911.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -6598,7 +6598,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1609781870/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251124_265/1763976779251gSfQU_JPEG/IMG_5763.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -6690,7 +6690,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1550970127/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250127_116/1737957412245pG24u_JPEG/3F053CDE-FDEF-4617-BCD0-BCA345278BA9.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -6778,7 +6778,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1344725313/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260304_114/1772587783318mMyUa_JPEG/%C3%D6%C1%BE.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -6869,7 +6869,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1972686876/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240327_177/1711535995081pwItv_JPEG/20240327_192438.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -7356,7 +7356,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18086526/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://naverbooking-phinf.pstatic.net/20251115_92/1763204554384maVat_JPEG/image.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -7442,7 +7442,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1165327961/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20201208_249/1607393279506NygIv_PNG/cafegooddaylogo.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -7535,7 +7535,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35812352/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230909_81/1694216627146i0AJ3_JPEG/IMG_3420.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -7951,7 +7951,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1216066235/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241114_44/1731551591708190Uo_JPEG/IMG_0848.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -8023,7 +8023,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1653700335/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230712_292/1689170796986xJeah_JPEG/1689170791382.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -8366,7 +8366,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1493959618/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250306_189/1741189841018ayE1q_JPEG/1000057062.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -8928,7 +8928,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1258821325/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251103_33/17621595238866oq7d_JPEG/IMG_0946.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -9000,7 +9000,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1269943699/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240925_5/1727274067378lQh1n_JPEG/mmexport1727079918396.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -9036,7 +9036,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1171842723/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20191031_245/1572511567281uCWzD_JPEG/0UhRYx4M3DgvtpOMTzn1QOI_.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -9260,7 +9260,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2069712667/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250530_100/1748596332831MJ2Jr_JPEG/IMG_0198.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -9932,7 +9932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1345903392/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240625_99/1719314045162iXXQX_JPEG/KakaoTalk_20240624_200630355_05.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -10152,7 +10152,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1196398020/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220425_67/1650872110504EEUVf_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -10564,7 +10564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1720211299/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250404_67/17437319885186bm2o_JPEG/KakaoTalk_20250404_105908290_08.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -10617,7 +10617,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1649510619/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240205_251/1707090856889XVfYY_JPEG/KakaoTalk_20230607_214621535.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -10709,7 +10709,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/37336568/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190828_93/1566953601239OT9MQ_PNG/xX7Wv642gXMoTI0DAv0hRymS.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -11823,7 +11823,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1160736179/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211206_57/1638779132174NBkkk_PNG/%B7%E7%C0%CC%BD%BA_%B9%F6%B0%C5_%B7%CE%B0%ED_%B9%E8%B0%E6_%C5%F5%B8%ED_%C0%CC%B9%CC%C1%F6_%C6%C4%C0%CF.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -12111,7 +12111,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1759367638/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230921_227/1695294028696gCoCt_JPEG/%C5%A9%B7%CE%C7%C3%BB%F7%B5%E5%C0%A7%C4%A1_5800%BF%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -13565,7 +13565,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1500645916/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250602_155/1748848087457H3zhd_PNG/%B4%DC%C3%BC%C1%D6%B9%AE_%B1%E8%B9%E4%B3%AA%BF%AD%2B%C0%E7%B7%E1.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -13657,7 +13657,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1477220900/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20221022_271/1666429182747b3yS2_PNG/20221022_152553.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -13750,7 +13750,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1415321222/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251117_130/17633733940550EKLJ_PNG/%B8%C1%C4%A1%BC%F6%BB%EA.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -13843,7 +13843,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1649370754/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_70/1773381246135RJVCy_PNG/%B9%CF%C0%BD%BC%F6%BB%EA_%B8%DE%C0%CE.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -13912,7 +13912,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1911197556/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260313_131/1773381356386zx9v0_PNG/%B4%EB%B8%ED%BC%F6%BB%EA_%B8%DE%C0%CE.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -13985,7 +13985,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35861675/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "http://blogfiles.naver.net/20151212_247/dalsu84_1449899942173tfP8J_JPEG/IMG_3870-tile.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -14024,7 +14024,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1181842478/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230224_234/1677211781816w611g_JPEG/20230214_124207.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -15302,8 +15302,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1670097232/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250220_20/1740025852128OK5J7_JPEG/IMG_0785.jpeg",
-    "imageUrl2": "https://pup-review-phinf.pstatic.net/MjAyNTExMjFfNDIg/MDAxNzYzNzIyNTg2OTA4.Azt95PaNvwk33V8Wz6HyMst3X8JCneYiS1sRMCMo3vAg.G7QBv2cBDPZu5uN5tXA60RPM4wD6XabtljSTAKxzYvAg.JPEG/20251121_192120.jpg.jpg?type=w278_sharpen",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -15383,7 +15383,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1647867911/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241125_52/17325108205448TVqP_JPEG/1000003345.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -15439,7 +15439,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1407375029/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250808_48/175463103660248y5V_JPEG/001.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -15495,7 +15495,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2078298254/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250729_93/17537604794884lw5C_JPEG/IMG_4772.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -15621,7 +15621,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1321262202/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250901_288/1756654828770oBoIv_JPEG/1000020281.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -15713,7 +15713,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1289603188/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250309_33/1741510353770iKp8U_JPEG/1000003217.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -15798,7 +15798,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1920231764/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240110_25/17048694824622Eukk_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -17016,7 +17016,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2007695849/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260213_24/1770915683542OAuWn_JPEG/1770915145113.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -18160,7 +18160,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1996589942/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251126_84/17641281013217NQPw_JPEG/IMG_6577.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -18249,7 +18249,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1774351027/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250311_144/1741679789314xLyp4_JPEG/1.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -18342,7 +18342,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2060426675/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250924_86/1758674136676ITSI0_JPEG/IMG_6220.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -18838,7 +18838,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1058358770/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -19407,7 +19407,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1661895314/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241115_197/1731633161563RmbmW_JPEG/6.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -19497,7 +19497,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1850730924/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251211_279/1765438530009NRKkK_JPEG/1000010024.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -19593,7 +19593,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029751096/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260303_209/1772467476083HOIvg_PNG/8C4FC55B-3190-4ECD-BA55-A4787AF474CE.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -19685,8 +19685,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36459188/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20210730_179/16276117800989nT7b_JPEG/ShSeZ8y1sSCv9N6S5vyZjqwP.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20210730_261/1627611792065JcQ00_JPEG/zPD0JxDhWCLmP1Gx5eutsOqa.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20129,7 +20129,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1285315529/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230824_103/1692858688117xPQic_JPEG/KakaoTalk_20230616_135234550.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20217,7 +20217,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1482683542/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240711_52/1720690237218J08zL_JPEG/1000004593.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20253,8 +20253,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2073439485/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250508_58/1746681692157YM4mC_JPEG/IMG_0872.jpeg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20250424_90/17454671527442lkDh_JPEG/0%B8%F0%C0%BD%BB%E7%C1%F8.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20342,7 +20342,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1731282649/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231017_279/1697539926156cg04m_JPEG/%B1%E8%B0%A1%B3%D7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20435,7 +20435,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1316724095/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251105_91/17623526890135rUCK_JPEG/IMG_5707.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -20526,7 +20526,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1030300995/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20231119_168/17003775609156UPXs_JPEG/IMG_1099.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -20615,7 +20615,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1930502119/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20190930_99/1569814122986Q7tz4_JPEG/K_Om9jesFDI3FdDyqOvSuL_-.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20688,7 +20688,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1903944967/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251030_183/17618083556553nBeX_JPEG/1000053483.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -20780,7 +20780,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2039378475/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250626_90/1750923916991Ugsb3_JPEG/KakaoTalk_20250626_154942271.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -20819,8 +20819,8 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1859662219/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230713_22/1689219869756XDDOn_JPEG/KakaoTalk_Moim_79DPRwwu4JnfmkO1b1zsp2fAaTMxL1.jpg",
-    "imageUrl2": "https://ldb-phinf.pstatic.net/20230713_292/1689219869904JD7Hj_JPEG/KakaoTalk_Moim_79DPRwwu4JnfmkO1b1zsp2fAaTQFyD.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+    "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -20913,7 +20913,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2083745812/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250828_213/1756346923669fXpq7_JPEG/KakaoTalk_20250626_154942271.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -20959,7 +20959,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1113922256/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20211228_213/1640698506809IPvK9_JPEG/4343A955-B5F2-4E0E-8582-2CBD28F55236.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -21050,7 +21050,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1360567397/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250316_207/1742101275316pUfUq_JPEG/SM_03301.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -21105,7 +21105,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1934338605/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20241115_150/1731658770377gFlbX_JPEG/IMG_6870.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -21197,7 +21197,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1965782928/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260203_220/1770110981581hg3Rf_JPEG/1000019797.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -21288,7 +21288,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1804165063/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260316_141/17736696490818nhX5_JPEG/2603_%B3%D7%C0%CC%B9%F6%BD%BA%B8%B6%C6%AE%C7%C3%B7%B9%C0%CC%BD%BA_%BA%BD%BD%C5%B8%DE%B4%BA_%B3%C3%C0%CC%B5%C8%C0%E5%BA%D2%B0%ED%B1%E2%BA%F1%BA%F6%B9%E4.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -21380,7 +21380,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2045796163/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250725_27/1753408520816llEOG_PNG/220905-%BA%B4%BE%C6%B8%AE%B1%E8%B9%E4_%B4%DF%B0%AD%C1%A4%BD%BA%C6%BC%C4%BF_3.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -21472,7 +21472,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1227687954/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250125_278/1737773374001Vuwpo_JPEG/IMG_7158.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -21564,7 +21564,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1728662157/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250613_42/1749794929177GOC5I_JPEG/1000049388.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": true
   },
@@ -21652,7 +21652,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1112677796/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260122_294/1769058198876C5Gdn_JPEG/%C6%F7%BD%BA%C5%CD_down.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -21746,7 +21746,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2020016089/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251222_278/1766372127682gN0DB_JPEG/3472591864458242904.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -21835,7 +21835,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1092491695/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250316_298/1742082184877vW1i6_JPEG/1000005294.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -21928,7 +21928,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1512085123/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240807_37/1723036200055X1XvQ_JPEG/KakaoTalk_Photo_2024-08-07-22-05-55_004.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -22018,7 +22018,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1262214960/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250212_236/1739341785513oFoQu_JPEG/IMG_7470.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -22190,7 +22190,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1340256639/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20220820_209/1660959031646qOzS8_JPEG/BDA9A95A-5D65-4C91-B108-2F3893A90405.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -22283,7 +22283,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1772853894/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20260215_300/1771163441571ry0B0_JPEG/131.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -22371,7 +22371,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1563722647/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20251010_249/1760068832280IQWox_JPEG/BBQ_%BB%D5%C4%A1%C5%B7_KV_%C1%A4%B9%E6%C7%FC_v3.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -22463,7 +22463,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1093956988/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240104_235/1704377206084ijWYY_JPEG/IMG_7518.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": true
   },
@@ -22550,7 +22550,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1957440481/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20240316_148/1710523882131311Es_JPEG/IMG_9469.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -22618,7 +22618,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1036097404/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20230615_252/1686810969306LJUKP_PNG/%C8%AD%B8%E9_%C4%B8%C3%B3_2023-06-12_113603.png",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   },
@@ -22709,7 +22709,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2029633763/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250915_155/1757942793227qmF4C_JPEG/%BB%F5%BF%EC_%B8%DE%B4%BA%C6%C7.jpg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": true,
     "reservation": false
   },
@@ -22979,7 +22979,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2060242741/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ldb-phinf.pstatic.net/20250618_87/1750173137045oHRLs_JPEG/IMG_6802.jpeg",
+    "imageUrl": "https://g-place.pstatic.net/assets/shared/images/favicon-72.png", "imageUrl2": "https://g-place.pstatic.net/assets/shared/images/favicon-96.png", "imageUrl3": "https://g-place.pstatic.net/assets/shared/images/favicon-144.png", "imageUrl4": "https://g-place.pstatic.net/assets/shared/images/favicon-192.png", "imageUrl5": "https://g-place.pstatic.net/assets/shared/images/favicon-120.png", "imageUrl6": "https://g-place.pstatic.net/assets/shared/images/favicon-180.png", "imageUrl7": "https://g-place.pstatic.net/assets/shared/images/favicon-152.png", "imageUrl8": "https://g-place.pstatic.net/assets/shared/images/favicon-167.png",
     "parking": false,
     "reservation": false
   }

@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '' }, similar } }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar } }
 }
 
 const CAT_TO_SLUG = {
@@ -716,6 +716,18 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         )}
 
         {/* 위치 & 찾아가는 법 */}
+        
+        {/* 추가 갤러리 (5~6번째 이미지) */}
+        {(r.imageUrl5 || r.imageUrl6) && (
+          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:24 }}>
+            {[r.imageUrl5, r.imageUrl6].filter(Boolean).map((u, i) => (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img key={i} src={u} alt={`${r.name} 사진 ${i+5}`} loading="lazy"
+                style={{ width:'100%', height:220, objectFit:'cover', borderRadius:12, display:'block' }}
+                onError={(e) => { e.target.style.display = 'none' }} />
+            ))}
+          </div>
+        )}
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
 
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
@@ -738,6 +750,18 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         </a>
 
         {/* FAQ */}
+        {/* 추가 갤러리 (7~8번째 이미지) */}
+        {(r.imageUrl7 || r.imageUrl8) && (
+          <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:24 }}>
+            {[r.imageUrl7, r.imageUrl8].filter(Boolean).map((u, i) => (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img key={i} src={u} alt={`${r.name} 사진 ${i+7}`} loading="lazy"
+                style={{ width:'100%', height:200, objectFit:'cover', borderRadius:12, display:'block' }}
+                onError={(e) => { e.target.style.display = 'none' }} />
+            ))}
+          </div>
+        )}
+        
                 <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
         <FaqAccordion items={[

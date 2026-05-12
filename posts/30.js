@@ -21,18 +21,18 @@ const post = {
     {
       type: 'h2',
       id: "강남진해장",
-      text: "강남진해장 — 국밥 전문점",
+      text: "강남진해장 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net//20170728_76/1501228361184KPA4Q_JPEG/1501228250629.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "강남진해장 대표 사진",
       caption: "강남진해장",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/강남진해장\">강남진해장</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 역삼동 819-4</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/강남진해장\" style=\"color:var(--primary);font-weight:600\">→ 강남진해장 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/강남진해장\">강남진해장</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 역삼동 819-4</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/강남진해장\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 강남진해장 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -42,13 +42,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20200617_59/1592379205278qWBlm_JPEG/8xjbdKzKn3R-Zo4Q1aG0_joU.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "제주은희네해장국 강남역점 대표 사진",
       caption: "제주은희네해장국 강남역점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\">제주은희네해장국 강남역점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>해장국 12,000원</strong>입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 16,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">해장국</td><td style=\"padding:7px 6px;text-align:right\">12,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">내장탕</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돔베고기(소,중,대)</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양무침</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr></tbody></table><p>혼자 빠르게 한 끼 해결하기 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 10:00에 영업 시작 · 위치 역삼동 823-4</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"맛집 해장국 제주 해장국 맛있어요 해장국에 돔베고기에 소주한잔 최고에요\"고 적어두었습니다.</p><p><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\" style=\"color:var(--primary);font-weight:600\">→ 제주은희네해장국 강남역점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\">제주은희네해장국 강남역점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>해장국 12,000원</strong>입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 16,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">해장국</td><td style=\"padding:7px 6px;text-align:right\">12,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">내장탕</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돔베고기(소,중,대)</td><td style=\"padding:7px 6px;text-align:right\">가격 별도</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양무침</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr></tbody></table><p>혼자 빠르게 한 끼 해결하기 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 10:00에 영업 시작 · 위치 역삼동 823-4</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"맛집 해장국 제주 해장국 맛있어요 해장국에 돔베고기에 소주한잔 최고에요\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 제주은희네해장국 강남역점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -58,13 +58,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20240320_79/1710922982374IpQCe_JPEG/20240319_193220.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "육전국밥 강남역점 대표 사진",
       caption: "육전국밥 강남역점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>육전소고기국밥 11,000원</strong>입니다.</p><p>1인 기준 가격대는 10,000원에서 17,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>메뉴는 육전소고기국밥 11,000원, 소고기국밥 10,000원, 미소곰탕 11,000원 등이 있습니다.</p><p>혼자 빠르게 한 끼 해결하기 좋습니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 24:00에 영업 종료 · 위치 역삼동 818-11</p><p>방문 후기에서 자주 언급되는 부분은 맛 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\" style=\"color:var(--primary);font-weight:600\">→ 육전국밥 강남역점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>육전소고기국밥 11,000원</strong>입니다.</p><p>1인 기준 가격대는 10,000원에서 17,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>메뉴는 육전소고기국밥 11,000원, 소고기국밥 10,000원, 미소곰탕 11,000원 등이 있습니다.</p><p>혼자 빠르게 한 끼 해결하기 좋습니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 24:00에 영업 종료 · 위치 역삼동 818-11</p><p>방문 후기에서 자주 언급되는 부분은 맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 육전국밥 강남역점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -74,13 +74,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20210107_295/16099893643630Nk0V_JPEG/z_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "칠백한우국밥 대표 사진",
       caption: "칠백한우국밥",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>한우국밥 10,000원</strong>입니다. 평점 4.7점, 리뷰 28건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 8,000원에서 52,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,500원보다 약 2,500원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 한우국밥 10,000원, 한우설렁탕 11,000원, 한우뚝배기불고기 12,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 반포동 747-12</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\" style=\"color:var(--primary);font-weight:600\">→ 칠백한우국밥 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>한우국밥 10,000원</strong>입니다. 평점 4.7점, 리뷰 28건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 8,000원에서 52,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,500원보다 약 2,500원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 한우국밥 10,000원, 한우설렁탕 11,000원, 한우뚝배기불고기 12,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 반포동 747-12</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 칠백한우국밥 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -90,13 +90,13 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://ldb-phinf.pstatic.net/20250530_227/1748576185543jioHH_JPEG/1%B3%AA%C1%D6%B0%F5%C5%C1.jpg",
+      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
       alt: "곰작골나주곰탕 강남점 대표 사진",
       caption: "곰작골나주곰탕 강남점",
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>나주곰탕 12,000원</strong>입니다. 평점 3.4점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 18,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>메뉴는 나주곰탕 12,000원, 특곰탕 14,000원, 미나리수육곰탕 15,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 10:00에 영업 시작 · 위치 서초동 1330-20</p><p>방문 후기에서 자주 언급되는 부분은 서비스·국물 쪽입니다.</p><p><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\" style=\"color:var(--primary);font-weight:600\">→ 곰작골나주곰탕 강남점 메뉴·리뷰·위치 자세히 보기</a></p>",
+      html: "<p><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>나주곰탕 12,000원</strong>입니다. 평점 3.4점, 리뷰 14건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 18,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>메뉴는 나주곰탕 12,000원, 특곰탕 14,000원, 미나리수육곰탕 15,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 10:00에 영업 시작 · 위치 서초동 1330-20</p><p>방문 후기에서 자주 언급되는 부분은 서비스·국물 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 곰작골나주곰탕 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
@@ -135,7 +135,7 @@ const post = {
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p><ul><li><a href=\"/posts/gangnam-meat-best-2026\">강남역 고기 맛집 추천 7곳</a></li><li><a href=\"/posts/gangnam-izakaya-best-2026\">강남역 이자카야·술집 추천 7곳</a></li><li><a href=\"/posts/gangnam-japanese-best-2026\">강남역 일식·스시 추천 6곳</a></li><li><a href=\"/posts/gangnam-chinese-best-2026\">강남역 중식 맛집 추천 7곳</a></li><li><a href=\"/dinner/gangnam\">강남역 전체 맛집 보기</a></li></ul>",
+      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
     }
   ],
 }
