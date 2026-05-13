@@ -25,12 +25,6 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "강남진해장 대표 사진",
-      caption: "강남진해장",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/강남진해장\">강남진해장</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 역삼동 819-4</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/강남진해장\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 강남진해장 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -39,12 +33,6 @@ const post = {
       id: "제주은희네해장국-강남역점",
       text: "제주은희네해장국 강남역점 — 시그니처 해장국 12,000원",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "제주은희네해장국 강남역점 대표 사진",
-      caption: "제주은희네해장국 강남역점",
     },
     {
       type: 'body',
@@ -57,12 +45,6 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "육전국밥 강남역점 대표 사진",
-      caption: "육전국밥 강남역점",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>육전소고기국밥 11,000원</strong>입니다.</p><p>1인 기준 가격대는 10,000원에서 17,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(10,500원)와 비슷한 수준입니다.</p><p>메뉴는 육전소고기국밥 11,000원, 소고기국밥 10,000원, 미소곰탕 11,000원 등이 있습니다.</p><p>혼자 빠르게 한 끼 해결하기 좋습니다 단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 24:00에 영업 종료 · 위치 역삼동 818-11</p><p>방문 후기에서 자주 언급되는 부분은 맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 육전국밥 강남역점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -73,12 +55,6 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "칠백한우국밥 대표 사진",
-      caption: "칠백한우국밥",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>한우국밥 10,000원</strong>입니다. 평점 4.7점, 리뷰 28건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 8,000원에서 52,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,500원보다 약 2,500원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 한우국밥 10,000원, 한우설렁탕 11,000원, 한우뚝배기불고기 12,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 반포동 747-12</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 칠백한우국밥 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -87,12 +63,6 @@ const post = {
       id: "곰작골나주곰탕-강남점",
       text: "곰작골나주곰탕 강남점 — 시그니처 나주곰탕 12,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "곰작골나주곰탕 강남점 대표 사진",
-      caption: "곰작골나주곰탕 강남점",
     },
     {
       type: 'body',
@@ -106,7 +76,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남진해장\">강남진해장</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\">제주은희네해장국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~16,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">564건</td><td style=\"padding:7px 6px;text-align:center\">10,000~17,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">28건</td><td style=\"padding:7px 6px;text-align:center\">8,000~52,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.4</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~18,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남진해장\">강남진해장</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/제주은희네해장국 강남역점\">제주은희네해장국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~16,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">564건</td><td style=\"padding:7px 6px;text-align:center\">10,000~17,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">28건</td><td style=\"padding:7px 6px;text-align:center\">8,000~52,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.4</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~18,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

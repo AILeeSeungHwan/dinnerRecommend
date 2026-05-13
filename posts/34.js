@@ -25,12 +25,6 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "엄청난족발 대표 사진",
-      caption: "엄청난족발",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 209건으로 안정적인 평가가 쌓여 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 논현동 198-8</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/엄청난족발\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 엄청난족발 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -39,12 +33,6 @@ const post = {
       id: "용가회전훠궈-강남점",
       text: "용가회전훠궈 강남점 — 시그니처 평일점심 (~15:00) 18,900원",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "용가회전훠궈 강남점 대표 사진",
-      caption: "용가회전훠궈 강남점",
     },
     {
       type: 'body',
@@ -57,12 +45,6 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "반티엔야오 카오위 강남점 대표 사진",
-      caption: "반티엔야오 카오위 강남점",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\">반티엔야오 카오위 강남점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>마라 카오위(단품) 43,000원</strong>입니다. 평점 4.3점에 리뷰 117건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 3,000원에서 43,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,966원보다 약 7,966원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 마라 카오위(단품) 43,000원, 칭화지아오 카오위(단품) 43,000원, 마늘향 카오위(단품) 43,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 서초동 1317-31</p><p>방문 후기에서 자주 언급되는 부분은 국물·재료·맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 반티엔야오 카오위 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -73,12 +55,6 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "신촌설렁탕 대표 사진",
-      caption: "신촌설렁탕",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>국밥 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 역삼1동</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 신촌설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -87,12 +63,6 @@ const post = {
       id: "나주곰탕",
       text: "나주곰탕 — 시그니처 나주곰탕 11,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "나주곰탕 대표 사진",
-      caption: "나주곰탕",
     },
     {
       type: 'body',

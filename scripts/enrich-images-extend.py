@@ -32,9 +32,12 @@ def http(url, timeout=12):
 def extract_images(html):
     raw = html.replace('\\u002F', '/')
     urls = re.findall(r'https?://[a-z0-9-]+\.pstatic\.net/[^"\\\s]+\.(?:jpg|jpeg|png|JPEG|JPG|PNG)', raw)
+    # 네이버 공통 favicon/icon/assets placeholder 필터
+    BAD = ('g-place.pstatic.net', '/assets/shared/', '/favicon', '/icon-')
     out, seen = [], set()
     for u in urls:
         if u in seen: continue
+        if any(b in u for b in BAD): continue
         seen.add(u); out.append(u)
     return out
 

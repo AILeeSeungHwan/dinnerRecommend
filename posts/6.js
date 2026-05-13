@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "아사히-스시",
-      text: "아사히 스시 — 일식 전문점",
+      text: "아사히 스시 — 리뷰 513건 검증 맛집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190425_16%2F1556162832426BP1o7_JPEG%2FgW0wSUkQONVWbtklhCcQQlYF.jpg",
       alt: "아사히 스시 대표 사진",
       caption: "아사히 스시",
     },
@@ -57,12 +57,6 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "마싯내 대표 사진",
-      caption: "마싯내",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a>는 일식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>마싯내돈가스(2인) 32,000원</strong>입니다. 평점 4.3점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 11,000원에서 32,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 18,333원보다 약 7,333원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 마싯내돈가스(2인) 32,000원, 안심돈가스 14,000원, 김치치즈나베 13,000원 등이 있습니다.</p><p>점심 시간 회전이 빠른 편이라 직장인 점심으로 적합합니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:30에 영업 시작 · 위치 석촌동 157-4</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·재방문 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/마싯내\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 마싯내 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -74,7 +68,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_91%2F1748221494259E3zf3_JPEG%2F%25BA%25D0%25C1%25F6%25B7%25CE125%25283%2529.jpg",
       alt: "분지로 롯데월드몰점 대표 사진",
       caption: "분지로 롯데월드몰점",
     },
@@ -90,7 +84,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
+      src: "/images/posts/6/오사이초밥-잠실-1.jpg",
       alt: "오사이초밥 잠실 대표 사진",
       caption: "오사이초밥 잠실",
     },
@@ -106,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">513건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">25,000~60,000원</td><td style=\"padding:7px 6px\">스시·오마카세 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~32,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">11건</td><td style=\"padding:7px 6px;text-align:center\">19,000~35,000원</td><td style=\"padding:7px 6px\">스시오마카세 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아사히 스시\">아사히 스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">513건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/김태완스시\">김태완스시</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">25,000~60,000원</td><td style=\"padding:7px 6px\">스시·오마카세 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/마싯내\">마싯내</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~32,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/분지로 롯데월드몰점\">분지로 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오사이초밥 잠실\">오사이초밥 잠실</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">11건</td><td style=\"padding:7px 6px;text-align:center\">19,000~35,000원</td><td style=\"padding:7px 6px\">스시오마카세 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -25,12 +25,6 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "청와옥 석촌호수직영점 대표 사진",
-      caption: "청와옥 석촌호수직영점",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a>은 육류 카테고리에 속하는 식당으로입니다. 평점 5.0점, 리뷰 23건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>고기 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 석촌동 2</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 청와옥 석촌호수직영점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -39,12 +33,6 @@ const post = {
       id: "육화식당",
       text: "육화식당 — 한식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "육화식당 대표 사진",
-      caption: "육화식당",
     },
     {
       type: 'body',
@@ -57,12 +45,6 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "미강식당 대표 사진",
-      caption: "미강식당",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.6점, 리뷰 10건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 잠실동 294-3</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/미강식당\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 미강식당 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -71,12 +53,6 @@ const post = {
       id: "늘푸른목장-잠실본점",
       text: "늘푸른목장 잠실본점 — 시그니처 평양냉면(물/비빔) 12,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "늘푸른목장 잠실본점 대표 사진",
-      caption: "늘푸른목장 잠실본점",
     },
     {
       type: 'body',
@@ -106,7 +82,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/육화식당\">육화식당</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">7,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/방이옥\">방이옥</a></td><td style=\"padding:7px 6px;text-align:center\">2.5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
     },
     {
       type: 'h2',

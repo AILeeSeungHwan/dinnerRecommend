@@ -25,26 +25,14 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "스시산원 반주헌 대표 사진",
-      caption: "스시산원 반주헌",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/스시산원 반주헌\">스시산원 반주헌</a>은 이자카야 카테고리에 속하는 식당으로입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 24,000원에서 75,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 16,580원과 비교하면 약 7,420원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 위치 역삼동 825-20</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재방문 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"종류도 다양해서 너무 맛있게 먹었습니다~ 오쿠라나 시소가 곁들여 나오는 것도 좋네다는 평\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/스시산원 반주헌\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 스시산원 반주헌 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "밤별-포차-라운지-강남역본점",
-      text: "밤별 포차 라운지 강남역본점 — 야장 전문점",
+      text: "밤별 포차 라운지 강남역본점 — 리뷰 1,237건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "밤별 포차 라운지 강남역본점 대표 사진",
-      caption: "밤별 포차 라운지 강남역본점",
     },
     {
       type: 'body',
@@ -57,12 +45,6 @@ const post = {
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "이자카야 오레노유메 강남역점 대표 사진",
-      caption: "이자카야 오레노유메 강남역점",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\">이자카야 오레노유메 강남역점</a>은 이자카야 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>아보카도연어육회 33,000원</strong>입니다.</p><p>1인 기준 가격대는 22,000원에서 100,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 16,580원과 비교하면 약 5,420원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴는 아보카도연어육회 33,000원, 고등어 봉초밥 30,000원 등이 있습니다.</p><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다 가격 대비 양·구성이 합리적이라는 평이 많습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 역삼동 831-29</p><p>방문 후기에서 자주 언급되는 부분은 분위기·서비스·맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 이자카야 오레노유메 강남역점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -73,12 +55,6 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "이자카야 고코 강남신논현점 대표 사진",
-      caption: "이자카야 고코 강남신논현점",
-    },
-    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\">이자카야 고코 강남신논현점</a>은 이자카야 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>고코 숙성 사시미 42,000원</strong>입니다.</p><p>1인 기준 가격대는 6,000원에서 42,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 16,580원보다 약 10,580원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 고코 숙성 사시미 42,000원, 대광어 시오삼합 33,000원, 고코 7종 야키토리 25,000원 등이 있습니다.</p><p>분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 예약 가능 · 위치 역삼동 810-5</p><p>방문 후기에서 자주 언급되는 부분은 맛·서비스·분위기 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 이자카야 고코 강남신논현점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -87,12 +63,6 @@ const post = {
       id: "오뎅오색-강남역점",
       text: "오뎅오색 강남역점 — 시그니처 스지 오뎅탕 28,500원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
-    },
-    {
-      type: 'image',
-      src: "https://g-place.pstatic.net/assets/shared/images/favicon-72.png",
-      alt: "오뎅오색 강남역점 대표 사진",
-      caption: "오뎅오색 강남역점",
     },
     {
       type: 'body',
@@ -106,7 +76,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/스시산원 반주헌\">스시산원 반주헌</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">24,000~75,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\">이자카야 오레노유메 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1050건</td><td style=\"padding:7px 6px;text-align:center\">22,000~100,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\">이자카야 고코 강남신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">2114건</td><td style=\"padding:7px 6px;text-align:center\">6,000~42,000원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오뎅오색 강남역점\">오뎅오색 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">9,900~28,500원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/스시산원 반주헌\">스시산원 반주헌</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">24,000~75,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\">이자카야 오레노유메 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1050건</td><td style=\"padding:7px 6px;text-align:center\">22,000~100,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\">이자카야 고코 강남신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">2114건</td><td style=\"padding:7px 6px;text-align:center\">6,000~42,000원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오뎅오색 강남역점\">오뎅오색 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">9,900~28,500원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
