@@ -1564,9 +1564,11 @@ for post_data in all_posts_meta:
     if pid in SKIP_POST_IDS: continue
     rests = post_data.get('restaurants', [])
     thumb = ''
+    BAD_THUMB = ('g-place.pstatic.net','/assets/shared/','/favicon','/icon-')
     for r in rests:
-        if r.get('imageUrl'):
-            thumb = r['imageUrl']; break
+        u = r.get('imageUrl','')
+        if u and not any(b in u for b in BAD_THUMB):
+            thumb = u; break
     if not thumb:
         # post-images.json 폴백
         thumb = (img_mapping.get(str(pid), {}) or {}).get('thumb', '')
