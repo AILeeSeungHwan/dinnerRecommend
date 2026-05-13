@@ -14,6 +14,112 @@
   ],
   "restaurants": [
     {
+      "name": "전국5대짬뽕 연화산",
+      "type": "일식·중식",
+      "addr": "서판교로58번길 14",
+      "hours": "AM 11:00 ~ PM 9:00",
+      "tel": "031-781-6350",
+      "priceRange": "15000~25000",
+      "rating": 4.2,
+      "reviewCount": 711,
+      "blogCount": 0,
+      "cat": [
+        "면류",
+        "일식",
+        "중식",
+        "칼국수",
+        "회식"
+      ],
+      "tags": [
+        "SNS맛집",
+        "단체가능",
+        "리뷰많음",
+        "일식",
+        "점심추천",
+        "중식",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스",
+        "축하"
+      ],
+      "scene": [
+        "기념일",
+        "단체",
+        "점심",
+        "접대"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍣"
+    },
+    {
+      "name": "아비뉴프랑",
+      "type": "중식",
+      "addr": "삼평동 159-4",
+      "hours": "AM 11:30 ~ PM 10:00",
+      "tel": "031-8016-0101",
+      "priceRange": "15000~25000",
+      "rating": 4.1,
+      "reviewCount": 4082,
+      "blogCount": 0,
+      "cat": [
+        "중식",
+        "회식"
+      ],
+      "tags": [
+        "SNS맛집",
+        "가족",
+        "단체가능",
+        "웨이팅맛집",
+        "주차가능",
+        "중식",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스",
+        "회식"
+      ],
+      "scene": [
+        "단체",
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥟"
+    },
+    {
       "name": "팔복 판교",
       "type": "중식",
       "addr": "경기도 성남시 분당구 삼평동 684 판교엠타워 1층 팔복",
@@ -168,106 +274,6 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": "🥟"
-    },
-    {
-      "name": "마라장룡 마라상궈마라탕",
-      "type": "중식",
-      "addr": "경기도 성남시 분당구 삼평동 670",
-      "hours": "",
-      "tel": "02-1116-1111",
-      "priceRange": "",
-      "rating": 5,
-      "reviewCount": 2,
-      "blogCount": 0,
-      "cat": [
-        "중식",
-        "중식당"
-      ],
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1483558027/home",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": ""
-    },
-    {
-      "name": "심양 판교점",
-      "type": "중식",
-      "addr": "경기도 성남시 분당구 삼평동 656 112호",
-      "hours": "15:00에 영업 시작",
-      "tel": "07-1491-9291",
-      "priceRange": "12000~43000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 145,
-      "cat": [
-        "중식",
-        "양꼬치"
-      ],
-      "tags": [
-        "주차가능",
-        "데이트",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "生양등심꼬치 250g",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "오리지날양꼬치 200g",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "모듬꼬치",
-          "price": 43000,
-          "description": ""
-        },
-        {
-          "name": "가지튀김볶음",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "꿔바로우",
-          "price": 24000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2035194475/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_136%2F17505660891702rdqk_JPEG%2F%25C1%25A4%25C0%25DA%25C1%25A1_%25BF%25DC%25B0%25FC2.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_136%2F17505660891702rdqk_JPEG%2F%25C1%25A4%25C0%25DA%25C1%25A1_%25BF%25DC%25B0%25FC2.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_180%2F1750566089513fVojC_JPEG%2F%25C1%25A4%25C0%25DA%25C1%25A1_%25B3%25BB%25B0%25FC1.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_29%2F1750565961815pwSqj_JPEG%2F66783BEA-DE59-4B38-B26A-6EAFA6B7BE73.JPG",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_39%2F1750566360896evCzd_JPEG%2FIMG_9173.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_13%2F1750566090162QgysT_JPEG%2FA5EB715A-5655-4377-9D44-E3F6E7AFB19D.JPG",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250620_94/1750412676213z48XW_JPEG/%BE%E7%B5%EE%BD%C9%B2%BF%C4%A1.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250620_186/1750414783603SSHNq_JPEG/%BF%C0%B8%AE%C1%F6%B3%CE%BE%E7%B2%BF%C4%A1.jpg",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": ""
     }
   ],
   "categoryStats": {},

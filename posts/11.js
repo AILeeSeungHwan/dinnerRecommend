@@ -21,8 +21,14 @@ const post = {
     {
       type: 'h2',
       id: "제주은희네해장국-잠실직영점",
-      text: "제주은희네해장국 잠실직영점 — 리뷰 784건 검증 맛집",
+      text: "제주은희네해장국 잠실직영점 — 시그니처 해장국 12,000원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171030_230%2F1509327850597bbmVA_JPEG%2FhUeKwKJG7R1T_-A5NPO39iax.jpg",
+      alt: "제주은희네해장국 잠실직영점 대표 사진",
+      caption: "제주은희네해장국 잠실직영점",
     },
     {
       type: 'body',
@@ -31,8 +37,14 @@ const post = {
     {
       type: 'h2',
       id: "비사벌전주콩나물국밥",
-      text: "비사벌전주콩나물국밥 — 해장·국밥 한 그릇",
+      text: "비사벌전주콩나물국밥 — 리뷰 632건 검증 맛집",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220917_132%2F1663385617917Fyn0j_JPEG%2F20220901_061924.jpg",
+      alt: "비사벌전주콩나물국밥 대표 사진",
+      caption: "비사벌전주콩나물국밥",
     },
     {
       type: 'body',
@@ -41,8 +53,14 @@ const post = {
     {
       type: 'h2',
       id: "본가설렁탕",
-      text: "본가설렁탕 — 리뷰 1,711건이 쌓인 곳",
+      text: "본가설렁탕 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=95&amp;type=f640_380&amp;src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTVfMTc0%2FMDAxNjUyNTk4NjU5NDc4.dXjmD5hwna9gk_x_tZMWIakdQQ5R-8ZYHvy5aAju7ecg._0EgO_M6WPSKo50dzEyXXYgVxsQ8dNMhxj2h3h3ItiMg.JPEG.misterfm%2F20220513%25A3%25DF123011.jpg",
+      alt: "본가설렁탕 대표 사진",
+      caption: "본가설렁탕",
     },
     {
       type: 'body',
@@ -55,6 +73,12 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_286%2F1776054082433aNSdD_JPEG%2FScreenshot_20260226_123543_KakaoTalk.jpg",
+      alt: "잠실설렁탕 대표 사진",
+      caption: "잠실설렁탕",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>진국설렁탕 12,000원</strong>입니다. 누적 리뷰 1,711건에 평점 4.2점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>1인 기준 가격대는 7,000원에서 100,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 11,500원보다 약 4,500원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 진국설렁탕 12,000원, 오늘밥상 10,000원, 왕만두(고기 4개) 8,000원 등이 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 신천동 7-28</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 잠실설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -63,6 +87,12 @@ const post = {
       id: "곱창과순댓국의만남",
       text: "곱창과순댓국의만남 — 가성비 국밥집",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240112_119%2F1705025775705nYK0e_JPEG%2F%25BF%25DC%25B0%25FC.jpg",
+      alt: "곱창과순댓국의만남 대표 사진",
+      caption: "곱창과순댓국의만남",
     },
     {
       type: 'body',
@@ -76,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">632건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~99,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">7,000~100,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">12,000~25,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">632건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~99,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1711건</td><td style=\"padding:7px 6px;text-align:center\">7,000~100,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/곱창과순댓국의만남\">곱창과순댓국의만남</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">12,000~25,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
     },
     {
       type: 'h2',

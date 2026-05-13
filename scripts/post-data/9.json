@@ -14,6 +14,58 @@
   ],
   "restaurants": [
     {
+      "name": "마루심 판교점",
+      "type": "해산물",
+      "addr": "동판교로177번길 25 아브뉴프랑 판교점",
+      "hours": "평일 AM 11:00 ~ PM 3:00, PM 5:00~10:00 / 주말 AM 11:00 ~ PM 10:00",
+      "tel": "031-781-7998",
+      "priceRange": "12000~22000",
+      "rating": 4.8,
+      "reviewCount": 467,
+      "blogCount": 0,
+      "cat": [
+        "한식",
+        "해산물",
+        "회식"
+      ],
+      "tags": [
+        "가족",
+        "단체가능",
+        "룸있음",
+        "재방문율높음",
+        "해산물",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "축하",
+        "피곤함",
+        "혼밥"
+      ],
+      "scene": [
+        "점심",
+        "접대",
+        "특별한날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🦪"
+    },
+    {
       "name": "불고기 온소반",
       "type": "고기구이",
       "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
@@ -197,116 +249,6 @@
         "기분 좋음",
         "허전함",
         "데이트",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
-      "name": "루프일레븐(ROOF 11)",
-      "type": "이자카야",
-      "addr": "판교역로 192번길 16 판교타워 11층",
-      "hours": "PM 6:00 ~ AM 2:00",
-      "tel": "031-8017-1300",
-      "priceRange": "12000~22000",
-      "rating": 4.5,
-      "reviewCount": 2,
-      "blogCount": 0,
-      "cat": [
-        "야장",
-        "이자카야",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "고평점",
-        "단체가능",
-        "데이트",
-        "리뷰많음",
-        "뷰맛집",
-        "안주",
-        "야장",
-        "웨이팅맛집",
-        "이자카야",
-        "인스타감성",
-        "친절",
-        "포차감성",
-        "하이볼",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "스트레스",
-        "회식"
-      ],
-      "scene": [
-        "퇴근후술"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🏮"
-    },
-    {
-      "name": "순우가",
-      "type": "고기구이",
-      "addr": "대왕판교로645번길 36",
-      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 9:00",
-      "tel": "031-606-8516",
-      "priceRange": "12000~22000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "가족",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "룸있음",
-        "한우",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
         "회식"
       ],
       "scene": [

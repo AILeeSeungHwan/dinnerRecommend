@@ -14,6 +14,242 @@
   ],
   "restaurants": [
     {
+      "name": "니고라멘",
+      "type": "일식",
+      "addr": "경기도 성남시 분당구 수내동 21-1 ms프라자 1층 107호",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1448-2525",
+      "priceRange": "500~16000",
+      "rating": 4.4,
+      "reviewCount": 641,
+      "blogCount": 823,
+      "cat": [
+        "일식",
+        "일본식라면"
+      ],
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "웨이팅맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "니고라멘",
+          "price": 10500,
+          "description": ""
+        },
+        {
+          "name": "초라멘",
+          "price": 10500,
+          "description": ""
+        },
+        {
+          "name": "오코노미야끼",
+          "price": 16000,
+          "description": ""
+        },
+        {
+          "name": "가라아게 5P",
+          "price": 4500,
+          "description": ""
+        },
+        {
+          "name": "교자 (6pcs)",
+          "price": 4500,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/38701520/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_64%2F1619971687675Vy8gN_JPEG%2F7l3e4V0VZGXCM52wtpkqTPpe.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_64%2F1619971687675Vy8gN_JPEG%2F7l3e4V0VZGXCM52wtpkqTPpe.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_295%2F1619971696290vlc38_JPEG%2F51AEfoIGCER-xW7AsX_zv4Vv.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191006_201%2F1570287865997iFObP_JPEG%2FLOlxVRZYPJlTvNLj8cnbatSR.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_109%2F1619971722342gYFMc_JPEG%2F6d1D33ANnuLMig1ls9HyPZt-.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_88%2F1619971713698RM1cc_JPEG%2F2iT3AYPkKhEd5SqYpPROIlDD.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210503_120/1619970642758yxzsS_JPEG/gIB8H6xanAFPE56PiOTWEw5t.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210503_266/161997062881540Sxe_JPEG/disl8o-A_B6oHOj8w5_rI8UX.jpg",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
+      "name": "전국5대짬뽕 연화산",
+      "type": "일식·중식",
+      "addr": "서판교로58번길 14",
+      "hours": "AM 11:00 ~ PM 9:00",
+      "tel": "031-781-6350",
+      "priceRange": "15000~25000",
+      "rating": 4.2,
+      "reviewCount": 711,
+      "blogCount": 0,
+      "cat": [
+        "면류",
+        "일식",
+        "중식",
+        "칼국수",
+        "회식"
+      ],
+      "tags": [
+        "SNS맛집",
+        "단체가능",
+        "리뷰많음",
+        "일식",
+        "점심추천",
+        "중식",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스",
+        "축하"
+      ],
+      "scene": [
+        "기념일",
+        "단체",
+        "점심",
+        "접대"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍣"
+    },
+    {
+      "name": "아브뉴프랑 판교점",
+      "type": "한식",
+      "addr": "동판교로177번길 25",
+      "hours": "AM 11:00 ~ PM 10:00",
+      "tel": "031-8016-0101",
+      "priceRange": "12000~22000",
+      "rating": 4.1,
+      "reviewCount": 4082,
+      "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
+      "tags": [
+        "SNS맛집",
+        "리뷰많음",
+        "예약필수",
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "점심"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍱"
+    },
+    {
+      "name": "화수목 샤브샤브 스키야키",
+      "type": "일식",
+      "addr": "경기도 성남시 분당구 서현동 273-2 대현빌딩 1층",
+      "hours": "",
+      "tel": "031-703-7313",
+      "priceRange": "18000~43000",
+      "rating": 4.1,
+      "reviewCount": 598,
+      "blogCount": 4883,
+      "cat": [
+        "일식",
+        "샤브샤브"
+      ],
+      "tags": [
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "깔끔한곳",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "(런치) 소고기 샤브샤브",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "(런치) 스키야키 전골",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "(런치) 이상적인스키야키",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "소고기샤브샤브",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "한우차돌박이 샤브샤브",
+          "price": 34000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/12054078/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_106%2F1744892505152bVNqK_JPEG%2FR5_01776.JPG",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_106%2F1744892505152bVNqK_JPEG%2FR5_01776.JPG",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_223%2F1744892667782Twlkj_JPEG%2FR5_01875.JPG",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_40%2F1744892530856FvCAO_JPEG%2FR5_01808.JPG",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_262%2F1744892935489NeVrU_JPEG%2FR5_01983.JPG",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250417_285%2F1744892752703H7sH2_JPEG%2FR5_01929.JPG",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20191005_275/1570237339683TSMyP_JPEG/wHYpYvDI_VDWFVBM5ioUK6DA.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20200716_299/1594873792625JeGBJ_JPEG/I4S4Mvmw4Zw_3jXjvx48NYPN.jpg",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": ""
+    },
+    {
       "name": "플링크 판교",
       "type": "카페",
       "addr": "경기도 성남시 분당구 백현동 532 1층 12호",
@@ -50,221 +286,6 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": ""
-    },
-    {
-      "name": "정희 판교아브뉴프랑점",
-      "type": "한식",
-      "addr": "동판교로177번길 25 1층 150호",
-      "hours": "평일 AM 11:00 ~ PM 3:00, PM 5:00~9:00 / 주말 AM 11:00 ~ PM 9:00",
-      "tel": "",
-      "priceRange": "12000~22000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "한식"
-      ],
-      "tags": [
-        "리뷰많음",
-        "고평점",
-        "웨이팅맛집"
-      ],
-      "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍱"
-    },
-    {
-      "name": "꿰다",
-      "type": "해산물·일식",
-      "addr": "동판교로177번길 25 143호",
-      "hours": "AM 11:30 ~ PM 9:30",
-      "tel": "031-701-4775",
-      "priceRange": "12000~22000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "일식",
-        "한식",
-        "해산물",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "고평점",
-        "단체가능",
-        "데이트",
-        "리뷰많음",
-        "예약제",
-        "오마카세",
-        "웨이팅맛집",
-        "인스타감성",
-        "일식",
-        "코스요리",
-        "해산물",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "축하",
-        "회식"
-      ],
-      "scene": [
-        "기념일",
-        "접대",
-        "특별한날"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🦪"
-    },
-    {
-      "name": "잭슨피자 판교점",
-      "type": "양식·이탈리안",
-      "addr": "동판교로177번길 25 1층 149호",
-      "hours": "AM 11:00 ~ PM 10:00",
-      "tel": "031-706-0717",
-      "priceRange": "12000~22000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "양식",
-        "이탈리안"
-      ],
-      "tags": [
-        "고평점",
-        "양식",
-        "웨이팅맛집",
-        "파스타"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "축하"
-      ],
-      "scene": [
-        "기념일",
-        "접대",
-        "특별한날"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍝"
-    },
-    {
-      "name": "야키토리 야키준",
-      "type": "이자카야·일식",
-      "addr": "삼평동 646",
-      "hours": "PM 6:30 ~ AM 12:00",
-      "tel": "050-71339-6447",
-      "priceRange": "12000~22000",
-      "rating": 4.0,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "야장",
-        "이자카야",
-        "일식",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "고평점",
-        "단체가능",
-        "데이트",
-        "안주",
-        "야장",
-        "예약제",
-        "오마카세",
-        "이자카야",
-        "일식",
-        "친절",
-        "코스요리",
-        "포차감성",
-        "하이볼",
-        "혼밥가능",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스",
-        "축하"
-      ],
-      "scene": [
-        "기념일",
-        "접대"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🏮"
     }
   ],
   "categoryStats": {},

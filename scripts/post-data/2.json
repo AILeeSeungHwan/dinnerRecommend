@@ -240,53 +240,6 @@
       "emoji": "🎸"
     },
     {
-      "name": "미주이자카야",
-      "type": "이자카야·프라이빗룸",
-      "addr": "대치동 944-24",
-      "hours": "PM 5–AM 3 (일 휴무)",
-      "tel": "",
-      "priceRange": "25000~40000",
-      "rating": 5.0,
-      "reviewCount": 3,
-      "blogCount": 0,
-      "cat": [
-        "이자카야",
-        "야장"
-      ],
-      "tags": [
-        "프라이빗룸",
-        "이자카야",
-        "블루투스스피커"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "야장에 맥주",
-        "이자카야 프라이빗룸",
-        "소그룹 술자리"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🏮"
-    },
-    {
       "name": "야키토리 수다",
       "type": "이자카야·야키토리",
       "addr": "테헤란로 87길 53",

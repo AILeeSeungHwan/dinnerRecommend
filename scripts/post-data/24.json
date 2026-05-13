@@ -131,6 +131,44 @@
       "emoji": "🍺"
     },
     {
+      "name": "이비스 스타일 앰배서더 강남 르바",
+      "type": "술집",
+      "addr": "대치동 893-1 2층",
+      "hours": "07:00",
+      "tel": "",
+      "priceRange": "",
+      "rating": 4.1,
+      "reviewCount": 2526,
+      "blogCount": 33,
+      "cat": [
+        "야장"
+      ],
+      "tags": [
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "가볍게 술"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37402216",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_271%2F1519208834673khLk0_PNG%2F%25B8%25A3%25B9%25D91.png",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_271%2F1519208834673khLk0_PNG%2F%25B8%25A3%25B9%25D91.png",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_82%2F1519208832700mD48q_PNG%2F%25B8%25A3%25B9%25D9-2.png",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_178%2F1519208832687XeKeR_PNG%2F%25B8%25A3%25B9%25D9_-1.png",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200812_173%2F1597225210388rRwMY_JPEG%2Fl6rTSLSpPx2GWG5VmhsJe3EA.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200812_226%2F1597225213751EDiG5_JPEG%2FlyzEZpNt6F7ZEnXGRmyNuv8-.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20220311_79/1647001240821gbYQm_JPEG/IMG_8952.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20220311_28/1647001240476zSThg_JPEG/IMG_8959.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    },
+    {
       "name": "잇쇼우",
       "type": "우동,소바",
       "addr": "삼성동 140-3 대림아크로텔 109호",
@@ -261,73 +299,6 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🍺"
-    },
-    {
-      "name": "호랑",
-      "type": "술집",
-      "addr": "대치동 891-34 지상2층",
-      "hours": "주소서울 강남구 선릉로90길 62 지상2층2수인분당선릉역 1번 출구에서 422m미터",
-      "tel": "",
-      "priceRange": "30000~48000",
-      "rating": 5,
-      "reviewCount": 3,
-      "blogCount": 1305,
-      "cat": [
-        "이자카야"
-      ],
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "단체가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트",
-        "회식"
-      ],
-      "scene": [
-        "가볍게 술",
-        "팀 회식",
-        "데이트"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "우니단새우",
-          "price": 48000,
-          "description": ""
-        },
-        {
-          "name": "오마카세초밥",
-          "price": 32000,
-          "description": ""
-        },
-        {
-          "name": "우니단새우",
-          "price": 48000,
-          "description": ""
-        },
-        {
-          "name": "연어사시미(20ps)",
-          "price": 30000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1618253187",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251205_190%2F1764900827509ey3EL_PNG%2F20251205_110133_23.png",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251205_190%2F1764900827509ey3EL_PNG%2F20251205_110133_23.png",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251218_218%2F1766050250160hq5RS_JPEG%2F%25BC%25B1%25B8%25AA.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251205_77%2F1764900827390YsCXf_PNG%2F20251205_110133_18.png",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251205_54%2F1764900827848AkQkV_PNG%2F20251205_110133_27.png",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251205_211%2F1764900827373WJH2a_PNG%2F20251205_110133_22.png",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260415_296/17762440203479VIAv_JPEG/%BB%E7%BD%C3%B9%CC.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250422_52/17453136753726s7Df_PNG/20250421_180535.png",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🏮"
     }
   ],
   "categoryStats": {},

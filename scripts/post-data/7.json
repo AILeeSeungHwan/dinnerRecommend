@@ -73,52 +73,6 @@
       "emoji": "🥟"
     },
     {
-      "name": "피자펍",
-      "type": "양식·이탈리안",
-      "addr": "영통동 990-22",
-      "hours": "11:00 AM~10:00 PM",
-      "tel": "031-206-8558",
-      "priceRange": "10000~20000",
-      "rating": 4.6,
-      "reviewCount": 5,
-      "blogCount": 0,
-      "cat": [
-        "양식",
-        "이탈리안"
-      ],
-      "tags": [
-        "고평점",
-        "양식",
-        "파스타"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "기념일"
-      ],
-      "scene": [
-        "심야 밥",
-        "이탈리안"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": "🍝"
-    },
-    {
       "name": "이수국밥",
       "type": "국밥",
       "addr": "청명남로50번길 13-1",

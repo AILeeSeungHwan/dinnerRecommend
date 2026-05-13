@@ -14,6 +14,138 @@
   ],
   "restaurants": [
     {
+      "name": "진성한우곱창 방이직영점",
+      "type": "한식",
+      "addr": "서울특별시 송파구 방이동 60 1층",
+      "hours": "16:00에 영업 시작",
+      "tel": "02-422-3469",
+      "priceRange": "6000~20000",
+      "rating": 4.8,
+      "reviewCount": 766,
+      "blogCount": 1931,
+      "cat": [
+        "한식",
+        "곱창",
+        "막창",
+        "양"
+      ],
+      "tags": [
+        "리뷰많음",
+        "웨이팅맛집",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "한우곱창",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "한우대창",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "한우막창",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "주인장의 자신감",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "직접담근김치3종세트",
+          "price": 0,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1164884247/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180324_284%2F1521861825526a011O_JPEG%2F97KmMvl1HibFiKkDo31fE7xR.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180324_284%2F1521861825526a011O_JPEG%2F97KmMvl1HibFiKkDo31fE7xR.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211210_214%2F1639085202410qGtUc_JPEG%2FScreenshot_20211210-062352_Whale.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211210_104%2F1639085202290Cv4z8_JPEG%2FScreenshot_20211210-062419_Whale.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211210_55%2F1639085336441vlytU_JPEG%2FScreenshot_20211210-062844_Whale.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMjZfNDkg%2FMDAxNzYxNDc2MDc4ODEz.DeuwmOW84zF0z9OQhZjFrWf4wSt41jjg9U90lnhMLgQg.-aCa0oQAdclEi-Rp3wM2qXSweruA-6zHNAvZmOIl9xkg.JPEG%2F20251026_190835.jpg.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20231227_238/170366439541392AQw_JPEG/temp_file.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20231227_292/1703664405108v5Vcd_JPEG/temp_file.jpg",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "오레노라멘송파",
+      "type": "일식",
+      "addr": "서울특별시 송파구 송파동 42-6 일층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-418-3539",
+      "priceRange": "1000~13000",
+      "rating": 4.5,
+      "reviewCount": 601,
+      "blogCount": 1686,
+      "cat": [
+        "일식",
+        "일본식라면"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "깔끔한곳"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "토리빠이탄라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "카라빠이탄라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "짐빔하이볼",
+          "price": 7000,
+          "description": ""
+        },
+        {
+          "name": "반숙계란",
+          "price": 1000,
+          "description": ""
+        },
+        {
+          "name": "삼겹챠슈",
+          "price": 3000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1713900848/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190429_30/1556514984717bftLW_JPEG/I2oyFa9FcP_-BX4F7Zk454ex.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20250909_292/1757390071668wk5v1_JPEG/1000017833.jpg",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
       "name": "지강한식당 잠실점",
       "type": "한식",
       "addr": "서울특별시 송파구 신천동 29-1 지하1층 104호",
@@ -133,14 +265,14 @@
         }
       ],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/1684619726/home",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251222_200%2F1766371711353QVNSW_JPEG%2F%25B6%25F3%25C0%25DA%25B3%25C4_%25C3%25D6%25C1%25BE2.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251222_200%2F1766371711353QVNSW_JPEG%2F%25B6%25F3%25C0%25DA%25B3%25C4_%25C3%25D6%25C1%25BE2.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_214%2F17747777580518POqT_PNG%2FIMG_7362.png",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_242%2F1774777757394tfq1K_JPEG%2FIMG_7358.jpeg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251220_50%2F1766161768572W72NH_PNG%2F%25C8%25E6%25B9%25E9%25BF%25E4%25B8%25AE%25BB%25E7_%25B1%25E8%25C8%25C62.png",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_25%2F17747777572331omoI_PNG%2FIMG_7361.png",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250708_270/1751951543646MB9c6_PNG/%B4%A2%B3%A2.png",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260425_195/1777081179511V3c5M_JPEG/%C7%C1%B7%CE%B8%B6%C1%EA_%BB%E7%C1%F8.jpeg",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
@@ -200,148 +332,14 @@
         }
       ],
       "naverUrl": "https://pcmap.place.naver.com/restaurant/37755810/home",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "솔직한우 방이점",
-      "type": "한식",
-      "addr": "서울특별시 송파구 방이동 70 1층, 2층, 지하1층",
-      "hours": "11:00에 영업 시작",
-      "tel": "02-2039-9475",
-      "priceRange": "9900~130000",
-      "rating": 5.0,
-      "reviewCount": 2,
-      "blogCount": 321,
-      "cat": [
-        "한식",
-        "육류",
-        "고기요리"
-      ],
-      "tags": [
-        "가성비",
-        "단체가능",
-        "데이트",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "(런치메뉴) 한우 고기 곰탕",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "(런치 메뉴)한우 육회 비빕밥",
-          "price": 9900,
-          "description": ""
-        },
-        {
-          "name": "(런치 메뉴)한우 얼갈이 양지국밥",
-          "price": 12900,
-          "description": ""
-        },
-        {
-          "name": "(런치 메뉴)한우 육회 비빔 냉면",
-          "price": 11900,
-          "description": ""
-        },
-        {
-          "name": "솔직한우 1+ 한근세트(600g)",
-          "price": 65000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2050520891/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260126_15%2F1769405953020zDhVI_JPEG%2FIMG_5318_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260126_15%2F1769405953020zDhVI_JPEG%2FIMG_5318_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260126_223%2F1769405953014VUxOP_JPEG%2FIMG_5023_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260126_70%2F1769405952677GHQuw_JPEG%2FDSC_6329_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260312_74%2F1773286562445Q4O72_JPEG%2FIMG_5102_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260312_150%2F17732865620712Oqib_JPEG%2FIMG_5109_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20251219_165/1766104252560N6sGA_JPEG/1.%C7%D1%BF%EC%C1%F8_%BB%E7%B0%F1%B0%F5%C5%C1_1.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20251201_144/1764555553345IbTvK_JPEG/%C0%B0%C8%B8%BA%F1%BA%F6%B9%E4.jpg",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "마차이 방이점",
-      "type": "중식",
-      "addr": "서울특별시 송파구 방이동 105-4 1층",
-      "hours": "11:00에 영업 시작",
-      "tel": "07-1432-2553",
-      "priceRange": "7000~20000",
-      "rating": 5.0,
-      "reviewCount": 2,
-      "blogCount": 948,
-      "cat": [
-        "음식점",
-        "중식당"
-      ],
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "데이트",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "미나리 쭈꾸미짬뽕",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "고기 짬뽕",
-          "price": 15000,
-          "description": ""
-        },
-        {
-          "name": "비빔짬짜면",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "중화비빔밥",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "야끼우동",
-          "price": 10000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1469118484/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230518_29%2F1684399791769AlnTr_JPEG%2FKakaoTalk_20230517_194037244_07.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230518_29%2F1684399791769AlnTr_JPEG%2FKakaoTalk_20230517_194037244_07.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230518_300%2F1684399795021mJWrJ_JPEG%2FKakaoTalk_20230518_172050868_02.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230618_194%2F1687077688207Aumxw_JPEG%2FKakaoTalk_20230610_205823912_02.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231030_124%2F1698627008809Hkofa_JPEG%2FKakaoTalk_20231029_222010452_01.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230518_188%2F1684399791550wl0d5_JPEG%2FKakaoTalk_20230517_194037244_08.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260312_296/17732904192971P6vH_JPEG/260312_%B9%CC%B3%AA%B8%AE%C2%DE%B2%D9%B9%CC%C2%AB%BB%CD.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20230504_241/1683190224971iH5U3_JPEG/013-3.jpg",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_128%2F1616206313086TrAsJ_JPEG%2FzZsCX4r09GgNLaix8HQBDLbs.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_128%2F1616206313086TrAsJ_JPEG%2FzZsCX4r09GgNLaix8HQBDLbs.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_281%2F1616206282389ASKDm_JPEG%2FEfs9-sMpkjfA39hnElmMdSsN.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_49%2F16162063372696RGuR_JPEG%2F-cpGF3dO-AcxByBuBH3uoQwF.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_62%2F16162063491314Ukrj_JPEG%2F9ZZE6Ov83d24bisEHBpcMqv9.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210320_272%2F1616206354810FKP4N_JPEG%2Fr1pijyjIj8MmytKt3RhTUY89.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20251028_80/17616377599878xhwA_JPEG/1000018422.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20251028_1/1761637760176vKCTC_JPEG/1000018421.jpg",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
