@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "못난이포차",
-      text: "못난이포차 — 야장 전문점",
+      text: "못난이포차 — 시그니처 부추전 15,000원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "asoboy",
-      text: "ASOBOY — 시그니처 맥주 5,000원",
+      text: "ASOBOY — 분위기 잡히는 술자리",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "야키토리-수다",
-      text: "야키토리 수다 — 이자카야 전문점",
+      text: "야키토리 수다 — 시그니처 모듬꼬치 5종 18,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {

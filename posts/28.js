@@ -25,14 +25,26 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      alt: "용가회전훠궈 강남점 대표 사진",
+      caption: "용가회전훠궈 강남점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>평일점심 (~15:00) 18,900원</strong>입니다. 평점 3.7점에 리뷰 229건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 18,900원에서 22,900원 사이로 형성되어 있습니다. 카테고리 평균 시작가 11,860원과 비교하면 약 7,040원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일점심 (~15:00)</td><td style=\"padding:7px 6px;text-align:right\">18,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일 저녁 (15:00~)</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">주말 및 공휴일</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr></tbody></table><p>혼자 빠르게 한 끼 해결하기 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 서초동 1308-5</p><p>방문 후기에서 자주 언급되는 부분은 재료·맛·재방문 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"육수도 진하고 재료 신선해서 먹을수록 만족도가 높습니다\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 용가회전훠궈 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "고베규카츠-서울-강남점",
-      text: "고베규카츠 서울 강남점 — 시그니처 규카츠 정식 19,000원",
+      text: "고베규카츠 서울 강남점 — 일식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230329_68%2F1680084687137vl5A5_JPEG%2FKakaoTalk_20230329_174932601_02.jpg",
+      alt: "고베규카츠 서울 강남점 대표 사진",
+      caption: "고베규카츠 서울 강남점",
     },
     {
       type: 'body',
@@ -41,8 +53,14 @@ const post = {
     {
       type: 'h2',
       id: "쿄코코-신논현점",
-      text: "쿄코코 신논현점 — 일식 전문점",
+      text: "쿄코코 신논현점 — 시그니처 시오토리 라멘 14,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250424_168%2F1745504530966hTNsA_JPEG%2FKakaoTalk_20250424_141442044_01.jpg",
+      alt: "쿄코코 신논현점 대표 사진",
+      caption: "쿄코코 신논현점",
     },
     {
       type: 'body',
@@ -55,14 +73,26 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230201_221%2F1675216382918uTnkd_JPEG%2F%25BF%25C0%25C1%25A6%25C1%25A6_%25B7%25CE%25B0%25ED.jpg",
+      alt: "오제제 강남점 대표 사진",
+      caption: "오제제 강남점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/오제제 강남점\">오제제 강남점</a>은 일식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>A세트:안심,등심 돈카츠, 자루우동 42,000원</strong>입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 12,000원에서 44,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(11,860원)와 비슷한 수준입니다.</p><p>메뉴는 A세트:안심,등심 돈카츠, 자루우동 42,000원, B세트 : 안심,등심 + 새우튀김2개 44,000원, 안심 돈카츠 (히레) 17,000원 등이 있습니다.</p><p>혼자 빠르게 한 끼 해결하기 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 영업시간 11:00에 영업 시작 · 위치 역삼동 826-14</p><p>방문 후기에서 자주 언급되는 부분은 맛·웨이팅·서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/오제제 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 오제제 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "강남-돼지상회-무한리필",
-      text: "강남 돼지상회 무한리필 — 고기구이 전문점",
+      text: "강남 돼지상회 무한리필 — 시그니처 A 돼지모듬 무한리필 17,900원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      alt: "강남 돼지상회 무한리필 대표 사진",
+      caption: "강남 돼지상회 무한리필",
     },
     {
       type: 'body',
@@ -76,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오제제 강남점\">오제제 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~44,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오제제 강남점\">오제제 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~44,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

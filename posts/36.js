@@ -25,6 +25,12 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241002_103%2F1727850751263e7tA3_JPEG%2F%25BE%25F6%25C3%25BB%25B3%25AD%25C7%25D1%25BB%25F3%2528%25B9%25DD%25B9%25DD%2529.JPG",
+      alt: "엄청난족발 대표 사진",
+      caption: "엄청난족발",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 209건으로 안정적인 평가가 쌓여 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 논현동 198-8</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/엄청난족발\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 엄청난족발 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -35,14 +41,26 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      alt: "용가회전훠궈 강남점 대표 사진",
+      caption: "용가회전훠궈 강남점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a>은 중식 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>평일점심 (~15:00) 18,900원</strong>입니다. 평점 3.7점에 리뷰 229건으로 안정적인 평가가 쌓여 있습니다.</p><p>1인 기준 가격대는 18,900원에서 22,900원 사이로 형성되어 있습니다. 카테고리 평균 시작가 10,966원과 비교하면 약 7,934원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일점심 (~15:00)</td><td style=\"padding:7px 6px;text-align:right\">18,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">평일 저녁 (15:00~)</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">주말 및 공휴일</td><td style=\"padding:7px 6px;text-align:right\">22,900원</td></tr></tbody></table><p>혼자 빠르게 한 끼 해결하기 좋습니다 점심 12시·저녁 7시 같은 피크 시간대에는 웨이팅을 각오해야 합니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 서초동 1308-5</p><p>방문 후기에서 자주 언급되는 부분은 재료·맛·재방문 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"육수도 진하고 재료 신선해서 먹을수록 만족도가 높습니다\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 용가회전훠궈 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "반티엔야오-카오위-강남점",
-      text: "반티엔야오 카오위 강남점 — 중식 전문점",
+      text: "반티엔야오 카오위 강남점 — 시그니처 마라 카오위(단품) 43,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_24%2F1666382897123zPgGe_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25BF%25DC%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
+      alt: "반티엔야오 카오위 강남점 대표 사진",
+      caption: "반티엔야오 카오위 강남점",
     },
     {
       type: 'body',
@@ -55,6 +73,12 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+      alt: "신촌설렁탕 대표 사진",
+      caption: "신촌설렁탕",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>국밥 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 역삼1동</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 신촌설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -63,6 +87,12 @@ const post = {
       id: "나주곰탕",
       text: "나주곰탕 — 시그니처 나주곰탕 11,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      alt: "나주곰탕 대표 사진",
+      caption: "나주곰탕",
     },
     {
       type: 'body',
@@ -76,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">209건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\">반티엔야오 카오위 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">117건</td><td style=\"padding:7px 6px;text-align:center\">3,000~43,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~22,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄청난족발\">엄청난족발</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">209건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/반티엔야오 카오위 강남점\">반티엔야오 카오위 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">117건</td><td style=\"padding:7px 6px;text-align:center\">3,000~43,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~22,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

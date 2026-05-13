@@ -21,8 +21,14 @@ const post = {
     {
       type: 'h2',
       id: "꼬끼오-장작구이",
-      text: "꼬끼오 장작구이 — 가성비 고기집",
+      text: "꼬끼오 장작구이 — 한식 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240426_242%2F1714124019043NbMkY_JPEG%2FIMG_7198.jpeg",
+      alt: "꼬끼오 장작구이 대표 사진",
+      caption: "꼬끼오 장작구이",
     },
     {
       type: 'body',
@@ -35,6 +41,12 @@ const post = {
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251223_12%2F1766465054437g40JH_JPEG%2F%25BD%25E6%25B3%25D7%25C0%25CF.jpg",
+      alt: "고기꾼김춘배 강남점 대표 사진",
+      caption: "고기꾼김춘배 강남점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\">고기꾼김춘배 강남점</a>은 고기구이 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>한우 꾸리살 육회 200g 28,000원</strong>입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 8,000원에서 34,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 12,833원보다 약 4,833원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">한우 꾸리살 육회 200g</td><td style=\"padding:7px 6px;text-align:right\">28,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">국내산生 오겹살 150g</td><td style=\"padding:7px 6px;text-align:right\">17,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">국내산生목살 180g</td><td style=\"padding:7px 6px;text-align:right\">17,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">Prime 본갈비살 150g</td><td style=\"padding:7px 6px;text-align:right\">33,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">반반냉면</td><td style=\"padding:7px 6px;text-align:right\">8,000원</td></tr></tbody></table><p>단체석·룸이 있어 회식이나 모임 자리로도 가능합니다 분위기가 무난한 편이라 가벼운 데이트로도 무리가 없습니다 주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 22:30에 영업 종료 · 위치 역삼동 619-5</p><p>방문 후기에서 자주 언급되는 부분은 서비스·맛 쪽입니다.</p><p style=\"border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem\">한 방문자는 \"사이드메뉴가 너무 맛있었습니다\"고 적어두었습니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 고기꾼김춘배 강남점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -43,6 +55,12 @@ const post = {
       id: "까사생갈비",
       text: "까사생갈비 — 시그니처 프리미엄 숙성 생갈비 18,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210706_274%2F1625562793688SfwWj_JPEG%2FU4RTD0d4QYMco5KkpBHLMdG9.jpg",
+      alt: "까사생갈비 대표 사진",
+      caption: "까사생갈비",
     },
     {
       type: 'body',
@@ -55,14 +73,26 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250224_95%2F1740380218515lq6OR_PNG%2F%25B8%25DE%25C0%25CE1.png",
+      alt: "전설의우대갈비 강남직영점 대표 사진",
+      caption: "전설의우대갈비 강남직영점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\">전설의우대갈비 강남직영점</a>은 고기구이 카테고리에 속하는 식당으로, 대표 메뉴는 <strong>전설우대갈비(1대) 370g 39,000원</strong>입니다. 평점 4.8점, 리뷰 59건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>1인 기준 가격대는 22,000원에서 39,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 12,833원과 비교하면 약 9,167원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴는 전설우대갈비(1대) 370g 39,000원, 전설소갈비살 160g 26,000원, 전설소막창 200g 29,000원 등이 있습니다.</p><p>주말 저녁에는 예약 없이 가면 자리 잡기 어려우니 미리 잡아두는 편이 좋습니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 11:10에 영업 시작 · 위치 역삼동 819</p><p>방문 후기에서 자주 언급되는 부분은 맛·재방문·서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 전설의우대갈비 강남직영점 메뉴·리뷰·위치 보기 →</a></div>",
     },
     {
       type: 'h2',
       id: "라장양갈비양꼬치-무한리필",
-      text: "라장양갈비양꼬치 무한리필 — 중식 전문점",
+      text: "라장양갈비양꼬치 무한리필 — 시그니처 양꼬치 무한리필 23,900원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231226_201%2F1703558043886LdPbH_JPEG%2FKakaoTalk_20231226_110025920.jpg",
+      alt: "라장양갈비양꼬치 무한리필 대표 사진",
+      caption: "라장양갈비양꼬치 무한리필",
     },
     {
       type: 'body',
@@ -75,6 +105,12 @@ const post = {
       gradientStyle: { from: '#FFD700', to: '#FF6B35' },
     },
     {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220913_192%2F1663056263581LQk4y_JPEG%2Fimage.jpg",
+      alt: "칼맞은삼겹살 강남본점 대표 사진",
+      caption: "칼맞은삼겹살 강남본점",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\">칼맞은삼겹살 강남본점</a>은 고기구이 카테고리에 속하는 식당으로입니다. 평점 4.8점, 리뷰 6건 수준이라 표본은 작지만 평가가 좋은 편입니다.</p><p>고기구이 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 서초동 1308-14</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 칼맞은삼겹살 강남본점 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -83,6 +119,12 @@ const post = {
       id: "엄순녀뼈구이순대국-강남역점",
       text: "엄순녀뼈구이순대국 강남역점 — 시그니처 돼지한마리 얼큰해장순대국 11,000원",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251119_74%2F1763538704899okiVv_PNG%2F%25C4%25A1%25C1%25EE%25BB%25C0%25B1%25B8%25C0%25CC%25B1%25D9%25C1%25A2.png",
+      alt: "엄순녀뼈구이순대국 강남역점 대표 사진",
+      caption: "엄순녀뼈구이순대국 강남역점",
     },
     {
       type: 'body',
@@ -96,7 +138,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\">고기꾼김춘배 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~34,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/까사생갈비\">까사생갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">5,000~109,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\">전설의우대갈비 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">22,000~39,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/라장양갈비양꼬치 무한리필\">라장양갈비양꼬치 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">15,000~27,900원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\">칼맞은삼겹살 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\">고기꾼김춘배 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~34,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/까사생갈비\">까사생갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">5,000~109,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\">전설의우대갈비 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">22,000~39,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/라장양갈비양꼬치 무한리필\">라장양갈비양꼬치 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">15,000~27,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\">칼맞은삼겹살 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
