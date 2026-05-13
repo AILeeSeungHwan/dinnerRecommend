@@ -2459,7 +2459,7 @@ export default function SamseongPage() {
                   <div style={{ display:'flex', flexDirection:'column', gap:6, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, padding:8, cursor:'pointer', height:'100%' }}>
                     <PostThumbnail imageUrl={p.thumbnail} region="잠실" category={p.category} slug={p.slug} size="100%" />
                     <div style={{ fontSize:'.78rem', fontWeight:700, color:'var(--text)', lineHeight:1.4, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.title}</div>
-                    <div style={{ fontSize:'.65rem', color:'var(--muted)' }}>{p.date}</div>
+                    <div style={{ fontSize:'.65rem', color:'var(--muted)' }}>{p.updated || p.date}</div>
                   </div>
                 </Link>
               ))}

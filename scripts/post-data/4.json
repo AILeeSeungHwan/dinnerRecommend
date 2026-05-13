@@ -136,23 +136,22 @@
       "emoji": ""
     },
     {
-      "name": "상기육개장",
+      "name": "미정국수 분당서현점",
       "type": "한식",
-      "addr": "백현동 560-3",
-      "hours": "AM 11:00 ~ PM 4:00",
-      "tel": "050-71376-2912",
-      "priceRange": "12000~22000",
-      "rating": 4.2,
-      "reviewCount": 173,
+      "addr": "서현동 251-3",
+      "hours": "24시간 영업",
+      "tel": "031-708-2410",
+      "priceRange": "10000~15000",
+      "rating": 4.1,
+      "reviewCount": 420,
       "blogCount": 0,
       "cat": [
         "한식"
       ],
       "tags": [
-        "고평점",
-        "웨이팅맛집",
-        "친절",
-        "혼밥가능"
+        "가성비",
+        "리뷰많음",
+        "한식"
       ],
       "keywords": [],
       "moods": [
@@ -181,40 +180,57 @@
       "emoji": "🍱"
     },
     {
-      "name": "살레르노 판교점",
-      "type": "한식",
-      "addr": "판교역로 145",
-      "hours": "AM 11:00 ~ PM 3:00, PM 5:00~9:30",
-      "tel": "031-706-8459",
-      "priceRange": "12000~22000",
-      "rating": 4.2,
-      "reviewCount": 173,
-      "blogCount": 0,
+      "name": "너와집 백합 샤브샤브 백현점",
+      "type": "일식",
+      "addr": "경기도 성남시 분당구 백현동 490-9",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1379-8107",
+      "priceRange": "35000~79000",
+      "rating": 4.1,
+      "reviewCount": 400,
+      "blogCount": 367,
       "cat": [
-        "한식"
+        "일식",
+        "샤브샤브"
       ],
       "tags": [
-        "가성비",
-        "고평점",
-        "데이트",
-        "리뷰많음",
-        "웨이팅맛집",
-        "점심추천"
+        "혼밥가능",
+        "주차가능"
       ],
       "keywords": [],
-      "moods": [
-        "피곤함",
-        "혼밥",
-        "회식"
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "가을특선",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "여름향기",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "봄의향연",
+          "price": 59000,
+          "description": ""
+        },
+        {
+          "name": "너와집 정식",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "주말특선(주말한정",
+          "price": 43000,
+          "description": ""
+        }
       ],
-      "scene": [
-        "점심"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/13447183/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20251016_163/1760584967628Eb1Dc_JPEG/%BC%BF%C7%C12.jpg",
       "imageUrl2": "",
       "imageUrl3": "",
       "imageUrl4": "",
@@ -225,7 +241,7 @@
       "region": "pangyo",
       "regionName": "판교",
       "regionPath": "/pangyo",
-      "emoji": "🍱"
+      "emoji": ""
     },
     {
       "name": "불고기 온소반",

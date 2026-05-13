@@ -63,15 +63,79 @@
       "emoji": ""
     },
     {
-      "name": "무궁화반점 강남점",
+      "name": "반티엔야오 카오위 강남점",
       "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 819-10 1층",
+      "addr": "서울특별시 서초구 서초동 1317-31 세계빌딩 1층",
       "hours": "",
-      "tel": "02-557-5227",
-      "priceRange": "8500~25000",
-      "rating": 4.8,
-      "reviewCount": 59,
-      "blogCount": 485,
+      "tel": "07-1475-6673",
+      "priceRange": "3000~43000",
+      "rating": 4.3,
+      "reviewCount": 117,
+      "blogCount": 1330,
+      "cat": [
+        "중식"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "마라 카오위(단품)",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "칭화지아오 카오위(단품)",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "마늘향 카오위(단품)",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "쏸차이 카오위(단품)",
+          "price": 43000,
+          "description": ""
+        },
+        {
+          "name": "야채버섯모둠사리",
+          "price": 8800,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1109024709",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_24%2F1666382897123zPgGe_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25BF%25DC%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_24%2F1666382897123zPgGe_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25BF%25DC%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_168%2F1666382897062tXc5s_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25B3%25BB%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_246%2F1666382897154i6Yza_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25B3%25BB%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_2.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_18%2F1666382897122dghct_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25B3%25BB%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_3.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_256%2F1666382897142HGUvB_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25B3%25BB%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_4.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210216_175/1613485290036nsSFi_JPEG/Cbvt8RcbLOFukJi2qOoT3myn.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210216_237/1613486313426CUsCV_PNG/hXo9b1OeJYFQRPgaLAF7RjSV.png",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "도원반점 강남역직영점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 830-38 지상1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "07-1342-4959",
+      "priceRange": "8000~25000",
+      "rating": 4.9,
+      "reviewCount": 22,
+      "blogCount": 93,
       "cat": [
         "중식"
       ],
@@ -79,7 +143,72 @@
         "혼밥가능",
         "가성비",
         "점심추천",
+        "주차가능",
+        "단체가능",
         "데이트",
+        "웨이팅맛집",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "이 코스(2인이상)",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "엄 코스 (2인이상)",
+          "price": 15000,
+          "description": ""
+        },
+        {
+          "name": "함 코스 (2인이상)",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "여 코스(2인이상)",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "잡채볶음밥",
+          "price": 12000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2051450000",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260512_80%2F17785651546340qJ1N_JPEG%2F%25B5%25B5%25BF%25F8%25B9%25DD%25C1%25A1.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260507_285%2F1778139118907hDoMU_JPEG%2Fi2nosz0zck_07.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260512_80%2F17785651546340qJ1N_JPEG%2F%25B5%25B5%25BF%25F8%25B9%25DD%25C1%25A1.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260421_193%2F1776760339496oWqbl_JPEG%2F2026_04_14_18_50_IMG_9745.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260507_50%2F1778139376403sHlFE_JPEG%2F2026_04_14_18_38_IMG_9728.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260421_244%2F1776760339510uDecm_JPEG%2F2026_04_14_18_55_IMG_9758.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260411_30/1775912688372w0sst_JPEG/%C0%CC%C4%DA%BD%BA%28%C3%E1%B1%C7%BB%F8%B7%AF%B5%E5%2B%C0%AF%BB%EA%BD%BD%2B%C4%A5%B8%AE%BB%F5%BF%EC%2B%C5%C1%BC%F6%C0%B0%2B%C2%A5%C0%E5or%C2%AB%BB%CD%29.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260411_64/17759126687461Lrhi_JPEG/%BE%F6%C4%DA%BD%BA%28%C3%E1%B1%C7%BB%F8%B7%AF%B5%E5%2B%C0%AF%BB%EA%BD%BD%2B%C0%AF%B8%B0%B1%E2%2B%C4%A5%B8%AE%BB%F5%BF%EC%2B%C5%C1%BC%F6%C0%B0%2B%C2%A5%C0%E5or%C2%AB%BB%CD%29.jpg",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "보배반점 강남점",
+      "type": "한식",
+      "addr": "서울특별시 강남구 역삼동 818-10 1층",
+      "hours": "",
+      "tel": "0507-1367-7818",
+      "priceRange": "",
+      "rating": 0,
+      "reviewCount": 1053,
+      "blogCount": 0,
+      "cat": [
+        "중식"
+      ],
+      "tags": [
         "리뷰많음"
       ],
       "keywords": [],
@@ -87,187 +216,31 @@
       "scene": [],
       "parking": false,
       "reservation": false,
-      "menuItems": [
-        {
-          "name": "무궁화 짬뽕",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "소고기 직화 짬뽕",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "순두부 짬뽕",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "수제비 짬뽕",
-          "price": 13000,
-          "description": ""
-        },
-        {
-          "name": "청양고추 짬뽕",
-          "price": 13000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1365889228",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_71%2F17755676043756AUb6_JPEG%2F1.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_71%2F17755676043756AUb6_JPEG%2F1.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_129%2F1775567604472yzI3R_JPEG%2F2.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_264%2F1775567604397bFdC9_JPEG%2F3.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_68%2F1775567604328qMTxg_JPEG%2F4.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_185%2F1775567604268c7rxm_JPEG%2F5.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260407_54/1775567550915h8Abr_JPEG/%B9%AB%B1%C3%C8%AD%C2%AB%BB%CD.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260407_92/1775567538864C0sNm_JPEG/%BC%D2%B0%ED%B1%E2%C1%F7%C8%AD%C2%AB%BB%CD.jpg",
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1815603026",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_1%2F1729669513187SeoSw_JPEG%2FKakaoTalk_20241021_144543337_12.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_1%2F1729669513187SeoSw_JPEG%2FKakaoTalk_20241021_144543337_12.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_239%2F1729669512828dGbwA_JPEG%2FKakaoTalk_20241021_144609837_03.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251030_186%2F1761825265616DP46w_JPEG%2FKakaoTalk_20251030_170214485.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_107%2F1729669513686TH1UW_JPEG%2FKakaoTalk_20241021_144609837_15.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_229%2F1729669513645kNgiY_JPEG%2FKakaoTalk_20241021_144543337_19.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20220418_120/1650271291367R7KLf_JPEG/%BC%D2%B0%ED%B1%E2%C2%AB%BB%CD.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20220930_242/1664522104112t9pHR_JPEG/%C7%D8%B9%B0%C2%AB%BB%CD_%282%29.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",
       "emoji": ""
     },
     {
-      "name": "아방궁",
+      "name": "일일향 강남역3호점",
       "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 831-32 2층",
-      "hours": "",
-      "tel": "07-1402-0794",
-      "priceRange": "9000~13000",
-      "rating": 4.8,
-      "reviewCount": 59,
-      "blogCount": 631,
-      "cat": [
-        "중식"
-      ],
-      "tags": [
-        "리뷰많음",
-        "단체가능",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "강남짜장",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "간짜장",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "옛날볶음밥",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "강남짬뽕",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "삼선볶음밥",
-          "price": 11000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/35553533",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_219%2F1755588732666aOeDu_JPEG%2F2.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_219%2F1755588732666aOeDu_JPEG%2F2.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_105%2F1755588733189zIiI2_JPEG%2F3.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_64%2F1755588732736rakAO_JPEG%2FKakaoTalk_20250814_151805556.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_266%2F1755588732981sLyk7_JPEG%2F1.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_198%2F1755588732766Ck5eW_JPEG%2FKakaoTalk_20250814_151805556_01.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250819_210/1755593188824PKTBl_JPEG/%B0%AD%B3%B2%C2%A5%C0%E59000%BF%F8.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250819_256/1755593196705k8ACk_JPEG/%B0%A3%C2%A5%C0%E510000%BF%F8.jpg",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "차슈밍",
-      "type": "한식",
-      "addr": "서울특별시 강남구 역삼동 818-8",
-      "hours": "11:00에 영업 시작",
-      "tel": "02-3473-8812",
-      "priceRange": "8000~13000",
-      "rating": 4.8,
-      "reviewCount": 59,
-      "blogCount": 956,
-      "cat": [
-        "중식"
-      ],
-      "tags": [
-        "리뷰많음",
-        "점심추천",
-        "단체가능",
-        "데이트",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "짜장면",
-          "price": 8000,
-          "description": ""
-        },
-        {
-          "name": "짬뽕",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "간짜장",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "삼선간짜장",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "매운삼선간짜장",
-          "price": 11000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/18400193",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_251%2F1702364937336DKh2w_JPEG%2FP20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_251%2F1702364937336DKh2w_JPEG%2FP20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250313_5%2F1741872976596zbbns_JPEG%2FIMG_3546.jpeg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_157%2F1702364937735Bxq9o_JPEG%2FP20231210_192629224_9A272F64-8DD4-4D4A-A745-AACB1707101E.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_151%2F1702364937086Fdt7g_JPEG%2FP20231210_191016201_C9A82BB0-03DD-4383-8BFF-291256025782.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_63%2F1702364937314zTPz2_JPEG%2FP20231210_191416133_0F32A4ED-66E8-4EF8-882D-5E96F9A960D9.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20240110_98/1704849224130IHeHk_JPEG/%C2%A5%C0%E5%B8%E9.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20240110_198/1704849230253kParP_JPEG/%C2%AB%BB%CD.jpg",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "삼성각",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1330-18 현대기림오피텔",
-      "hours": "11:00에 영업 시작",
-      "tel": "02-598-7779",
-      "priceRange": "9000~45000",
-      "rating": 4.8,
-      "reviewCount": 6,
-      "blogCount": 840,
+      "addr": "서울특별시 서초구 서초동 1327-1 홍우빌딩3층",
+      "hours": "11:30에 영업 시작",
+      "tel": "07-1351-8133",
+      "priceRange": "8000~90000",
+      "rating": 0,
+      "reviewCount": 1197,
+      "blogCount": 600,
       "cat": [
         "중식"
       ],
@@ -284,40 +257,40 @@
       "reservation": true,
       "menuItems": [
         {
-          "name": "삼선짬뽕",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "차돌짬뽕",
-          "price": 14000,
-          "description": ""
-        },
-        {
-          "name": "등심탕수육((2~3인))",
-          "price": 30000,
-          "description": ""
-        },
-        {
-          "name": "등심탕수육((3~4인))",
+          "name": "어향동고",
           "price": 45000,
           "description": ""
         },
         {
+          "name": "갑오징어쟁반짜장",
+          "price": 14000,
+          "description": ""
+        },
+        {
+          "name": "고추잡채밥",
+          "price": 15000,
+          "description": ""
+        },
+        {
           "name": "짜장면",
-          "price": 9000,
+          "price": 8000,
+          "description": ""
+        },
+        {
+          "name": "옛날짬뽕",
+          "price": 10000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/18312433",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191107_227%2F1573106191534dgp5j_JPEG%2F1qV3X5JWH37LgLqR7OT-KryU.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191107_227%2F1573106191534dgp5j_JPEG%2F1qV3X5JWH37LgLqR7OT-KryU.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191105_288%2F1572930104902obOO0_JPEG%2FuPcKsYDzZ15WIuu6WfPc8e-E.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfMTgw%2FMDAxNzcwNTU4ODg2MDcw.MxLKFD7pslelNMuDInUJjbYmUzlkvtdyoRFZnRuBQRsg.WF1eZ3732_8B58pzlMtSZY4Gd0H1UJxC69tSqY_DJ8wg.JPEG%2FC99B07F1-007D-4FA4-92A3-503641369F3B.jpeg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfMTU3%2FMDAxNzcwNTU4ODg2MTk2._RtFJty9M_eGgKyYKhkAIxz8hbQrTi4GL6xjokn4lIkg.SWGNL9IvhaJmLDloQULh7rvvlBpT4SqG-Rjm2tTTiqUg.JPEG%2F6B78F318-5F1A-4BD5-BF3C-B0F94F8CEEDF.jpeg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMjBfMjQ1%2FMDAxNzY2MTkzOTI5Mjkx.8mHnjkhg1gSHrCrSgKS7FETHGkJiJvHkNVAdoaV4Ow0g.RABrN973cLjQl8DXBMVdFJWZRL6nCqOlUFdCwp_8tvEg.JPEG%2FEF9BB074-E1A2-479A-A2B6-55F5102DCA0D.jpeg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20191105_287/1572929237083xDPq9_JPEG/pp217RHk9U4mprl9RENnXQVw.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20191231_202/1577788413304R29IH_JPEG/Fy2LHtU0GdKOVi2jdRi-5dpn.jpg",
+      "naverUrl": "https://map.naver.com/v5/entry/place/37604496",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_250%2F1743063767944zzkuu_JPEG%2F%25C0%25CF%25C0%25CF%25C7%25E2.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_250%2F1743063767944zzkuu_JPEG%2F%25C0%25CF%25C0%25CF%25C7%25E2.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240710_277%2F1720589522828K2vNi_JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240710_234%2F1720589522824Azz3r_JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_%25281%2529.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240710_218%2F1720589522871YcyED_JPEG%2F%25C2%25AB%25BB%25CD.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240710_64%2F1720589522820HCqyt_JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_%25283%2529.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20231219_266/170298778953025aN8_JPEG/temp_file.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20231219_102/17029885837442Q1hc_JPEG/temp_file.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",

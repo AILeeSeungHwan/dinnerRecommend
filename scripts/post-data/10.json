@@ -14,6 +14,107 @@
   ],
   "restaurants": [
     {
+      "name": "깡우동 수원영통점",
+      "type": "칼국수",
+      "addr": "영통동 청명남로28번길 2",
+      "hours": "11:00 AM~12:00 PM",
+      "tel": "031-241-3301",
+      "priceRange": "12000~20000",
+      "rating": 4.1,
+      "reviewCount": 726,
+      "blogCount": 0,
+      "cat": [
+        "면류",
+        "칼국수",
+        "한식"
+      ],
+      "tags": [
+        "국수",
+        "리뷰많음",
+        "친절",
+        "칼국수"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "피곤함",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "심야 밥",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "mangpo",
+      "regionName": "망포",
+      "regionPath": "/samsungElectronics/mangpo",
+      "emoji": "🍜"
+    },
+    {
+      "name": "가원",
+      "type": "고기구이",
+      "addr": "신동 359-1",
+      "hours": "11:00 AM~10:00 PM",
+      "tel": "031-204-1771",
+      "priceRange": "12000~20000",
+      "rating": 4,
+      "reviewCount": 748,
+      "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
+      "tags": [
+        "가성비",
+        "가족",
+        "고기",
+        "구이",
+        "단체가능",
+        "리뷰많음",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "심야 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥩"
+    },
+    {
       "name": "청담칼국수",
       "type": "칼국수",
       "addr": "청명남로 6-1",
@@ -165,117 +266,6 @@
       "regionName": "망포",
       "regionPath": "/samsungElectronics/mangpo",
       "emoji": "🥢"
-    },
-    {
-      "name": "생고기김치찌개",
-      "type": "고기구이·국밥",
-      "addr": "신원로 177",
-      "hours": "영업시간 확인 필요",
-      "tel": "",
-      "priceRange": "10000~20000",
-      "rating": 4.5,
-      "reviewCount": 29,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "국물",
-        "국밥",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "고기",
-        "고평점",
-        "구이",
-        "국물요리",
-        "국밥",
-        "단체가능",
-        "해장",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "피곤함",
-        "허전함",
-        "혼밥",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "해장",
-        "혼자 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": "🥩"
-    },
-    {
-      "name": "한마음정육식당 영통점",
-      "type": "고기구이",
-      "addr": "영통동 봉영로1482번길 7-1",
-      "hours": "휴무일",
-      "tel": "031-202-3166",
-      "priceRange": "10000~20000",
-      "rating": 4.1,
-      "reviewCount": 14,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "친절",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "mangpo",
-      "regionName": "망포",
-      "regionPath": "/samsungElectronics/mangpo",
-      "emoji": "🥩"
     }
   ],
   "categoryStats": {},

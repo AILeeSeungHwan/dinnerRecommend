@@ -14,6 +14,80 @@
   ],
   "restaurants": [
     {
+      "name": "우판등심 수원점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 신동 932",
+      "hours": "",
+      "tel": "0507-1475-0230",
+      "priceRange": "",
+      "rating": 4.3,
+      "reviewCount": 2915,
+      "blogCount": 0,
+      "cat": [
+        "한식",
+        "소고기구이"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/36090522/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_97%2F1709867969055dCM7q_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C434.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_112%2F17098679591726YP8j_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C419.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_228%2F1709867959329x23Ak_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C43.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_20%2F1709867958769nNr9U_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C48.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20240415_218/1713151404757FpNOL_JPEG/%BF%EC%C6%C7%B5%EE%BD%C9_%BC%F6%BF%F8_%BC%D2%B0%ED%B1%E2_%B8%C0%C1%FD_%C8%B8%BD%C415.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20201020_293/1603173960529nPYA8_JPEG/YdhOuM99187ZGHsy4MeKZwJ8.jpg",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "히말라야 정원",
+      "type": "일식",
+      "addr": "경기도 수원시 팔달구 인계동 1120-9 2층",
+      "hours": "",
+      "tel": "0507-1440-1680",
+      "priceRange": "",
+      "rating": 4.2,
+      "reviewCount": 809,
+      "blogCount": 0,
+      "cat": [
+        "일식",
+        "카레"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/37801441/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_246%2F176413271973068XkK_JPEG%2F85E2C8F1-CFA4-4D24-BBA1-AEB8720EC3A2.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_246%2F176413271973068XkK_JPEG%2F85E2C8F1-CFA4-4D24-BBA1-AEB8720EC3A2.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_63%2F1764132827099GXXub_JPEG%2FF223B851-6966-490E-96C8-47486714F126.jpeg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_150%2F1764132846966GLSe7_JPEG%2FIMG_8958.jpeg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171128_195%2F1511868286148V6BWC_JPEG%2FDSC_2583.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180407_258%2F1523092718004vMeC9_JPEG%2FZGll_zYFtkHXYNFEKIkYjMWe.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210301_284/1614599319541GimvN_JPEG/vEquRBTxyMYNMzezJRtf4Vty.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210301_218/1614599319791AxFoM_JPEG/qNQBtsUlxvVBxR5jS38UHJy5.jpg",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
       "name": "탄향1965 매탄점",
       "type": "한식",
       "addr": "경기도 수원시 영통구 매탄동 1263-4 108~109호",
@@ -133,108 +207,6 @@
       "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251124_20%2F1763927254335OL7fe_JPEG%2F1000061823.jpg",
       "imageUrl7": "https://ldb-phinf.pstatic.net/20250619_283/1750289796654MsvFl_JPEG/1000058626.jpg",
       "imageUrl8": "https://ldb-phinf.pstatic.net/20250825_219/1756122730043RLeQv_JPEG/1000060195.jpg",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
-      "name": "샤브향 수원매탄점",
-      "type": "일식",
-      "addr": "경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층",
-      "hours": "",
-      "tel": "031-213-4592",
-      "priceRange": "",
-      "rating": 4.3,
-      "reviewCount": 9,
-      "blogCount": 0,
-      "cat": [
-        "일식",
-        "샤브샤브"
-      ],
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/38230012/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_75%2F17545572100857ryAY_JPEG%2F100%25B4%25EB_%25C7%25C1%25B7%25A3%25C2%25F7%25C0%25CC%25C1%25EE.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_75%2F17545572100857ryAY_JPEG%2F100%25B4%25EB_%25C7%25C1%25B7%25A3%25C2%25F7%25C0%25CC%25C1%25EE.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_183%2F1754557210388128gm_JPEG%2F%25B9%25CE%25BB%25FD%25C8%25B8%25BA%25B9.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_259%2F1754557212075TCIMu_JPEG%2F%25BB%25E7%25C0%25E5%25B4%25D4%25C0%25CC_%25BD%25F0%25B4%25D9.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_151%2F17545572117789ePBb_JPEG%2F%25BF%25C0%25B4%25C3%25C0%25C7%25BF%25EC%25B8%25AE%25B4%25C2%25BB%25FE%25BA%25EA%25C7%25E2_2.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_151%2F1754557213088pSza9_JPEG%2F%25BC%25D2%25B0%25ED%25B1%25E2%25BB%25FE%25BA%25EA%25BB%25FE%25BA%25EA.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250807_92/1754557507731Kk0xI_JPEG/%BC%D2%B0%ED%B1%E2_%BF%F9%B3%B2%BD%D3_%BB%FE%BA%EA%BB%FE%BA%EA.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250807_8/1754557495831ovT8V_JPEG/%BC%D2%B0%ED%B1%E2_%BF%F9%B3%B2%BD%D3_%BB%FE%BA%EA%BB%FE%BA%EA.jpg",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
-      "name": "양화돼교",
-      "type": "한식",
-      "addr": "경기도 수원시 영통구 매탄동 1265-4 2층 202호",
-      "hours": "15:00에 영업 시작",
-      "tel": "07-1433-1663",
-      "priceRange": "15000~90000",
-      "rating": 4.3,
-      "reviewCount": 9,
-      "blogCount": 192,
-      "cat": [
-        "한식",
-        "육류고기요리"
-      ],
-      "tags": [
-        "가성비",
-        "주차가능",
-        "단체가능",
-        "데이트",
-        "깔끔한곳"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "한우등심 압도적 가성비 600g",
-          "price": 79000,
-          "description": ""
-        },
-        {
-          "name": "일미리꽃삼",
-          "price": 16000,
-          "description": ""
-        },
-        {
-          "name": "제주 흑 오겹살",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "제주 흑 목살",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "한돈 명품냉삼",
-          "price": 15000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1289322460/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20240906_48%2F1725588273886by8hE_JPEG%2Fimage.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20240906_48%2F1725588273886by8hE_JPEG%2Fimage.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_173%2F175771987413641DRq_JPEG%2F1000021239.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20240906_145%2F17255883032896p8GH_JPEG%2Fimage.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_44%2F1757719872041GJql7_JPEG%2F1000021421.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20240906_31%2F1725588410717AMtgd_JPEG%2Fimage.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250324_288/1742799342282QumzB_JPEG/1000021236.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20240906_79/1725589072038e0Knb_JPEG/1000040948.jpg",
       "region": "yeongtongGu",
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",

@@ -49,6 +49,71 @@
       "emoji": ""
     },
     {
+      "name": "오레노라멘송파",
+      "type": "일식",
+      "addr": "서울특별시 송파구 송파동 42-6 일층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-418-3539",
+      "priceRange": "1000~13000",
+      "rating": 4.5,
+      "reviewCount": 601,
+      "blogCount": 1686,
+      "cat": [
+        "일식",
+        "일본식라면"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "깔끔한곳"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "토리빠이탄라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "카라빠이탄라멘",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "짐빔하이볼",
+          "price": 7000,
+          "description": ""
+        },
+        {
+          "name": "반숙계란",
+          "price": 1000,
+          "description": ""
+        },
+        {
+          "name": "삼겹챠슈",
+          "price": 3000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1713900848/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190429_30/1556514984717bftLW_JPEG/I2oyFa9FcP_-BX4F7Zk454ex.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20250909_292/1757390071668wk5v1_JPEG/1000017833.jpg",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
       "name": "김태완스시",
       "type": "스시·오마카세",
       "addr": "송리단길",
@@ -158,41 +223,6 @@
       "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190313_196%2F1552467002245HiUBr_JPEG%2FwwpaPPx7EC_1lR1zI0zfx4C_.jpeg.jpg",
       "imageUrl7": "https://ldb-phinf.pstatic.net/20190623_122/1561265238253hbfp4_JPEG/f-18seRrLHk2bnIgse97KFv2.jpeg.jpg",
       "imageUrl8": "https://ldb-phinf.pstatic.net/20251209_109/1765228565758P2Msm_JPEG/IMG_3040.jpeg",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "분지로 롯데월드몰점",
-      "type": "일식",
-      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 5층",
-      "hours": "",
-      "tel": "02-3213-4581",
-      "priceRange": "",
-      "rating": 4.2,
-      "reviewCount": 111,
-      "blogCount": 0,
-      "cat": [
-        "일식",
-        "돈가스"
-      ],
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/2098844043/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_91%2F1748221494259E3zf3_JPEG%2F%25BA%25D0%25C1%25F6%25B7%25CE125%25283%2529.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_91%2F1748221494259E3zf3_JPEG%2F%25BA%25D0%25C1%25F6%25B7%25CE125%25283%2529.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250612_105%2F1749703302481G8mQQ_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2025-06-12_%25BF%25C0%25C8%25C4_1.40.50.png",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_206%2F17482215040113pnJ0_JPEG%2F%25BA%25D0%25C1%25F6%25B7%25CE319-2.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_68%2F1748221513706BYy0w_JPEG%2F%25BA%25D0%25C1%25F6%25B7%25CE312.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250612_172%2F1749703320489ggPtv_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2025-06-12_%25BF%25C0%25C8%25C4_1.40.24.png",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250515_186/1747280316745DwNmH_JPEG/01.%B7%CE%BD%BA%C4%AB%C3%F7%28%B5%EE%BD%C9%29_%281%29.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250724_194/1753340138221LLj5W_JPEG/01.%C8%F7%B7%B9%C4%AB%C3%F7%28%BE%C8%BD%C9%29.jpg",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

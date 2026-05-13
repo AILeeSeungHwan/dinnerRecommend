@@ -14,78 +14,83 @@
   ],
   "restaurants": [
     {
-      "name": "못난이포차",
-      "type": "야장·포차",
-      "addr": "삼성1동 152-23",
-      "hours": "03:00",
-      "tel": "02-3452-3660",
-      "priceRange": "15000~20000",
-      "rating": 4.4,
-      "reviewCount": 285,
-      "blogCount": 22,
+      "name": "더 피자 스탠드",
+      "type": "피자·스포츠바",
+      "addr": "삼성로 81길 39 1층",
+      "hours": "11:30 AM–3 PM, 5 PM–자정",
+      "tel": "07-1462-1038",
+      "priceRange": "12000~24000",
+      "rating": 4.8,
+      "reviewCount": 776,
+      "blogCount": 505,
       "cat": [
-        "야장",
-        "이자카야"
+        "양식",
+        "버거",
+        "야장"
       ],
       "tags": [
-        "포차감성",
+        "피자",
+        "생맥주",
+        "스포츠바",
         "야장",
-        "안주",
-        "고기"
+        "혼밥가능",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
       ],
       "keywords": [],
       "moods": [
+        "회식",
         "기분 좋음",
-        "스트레스 받음",
-        "회식"
+        "스트레스 받음"
       ],
       "scene": [
         "야장에 맥주",
-        "포차 분위기",
-        "친구랑 가볍게"
+        "스포츠바",
+        "피자에 맥주"
       ],
-      "parking": false,
-      "reservation": false,
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "부추전",
-          "price": 15000,
+          "name": "TPS's FAVORITE(S)",
+          "price": 21000,
           "description": ""
         },
         {
-          "name": "골뱅이",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "파전",
-          "price": 18000,
-          "description": ""
-        },
-        {
-          "name": "동태전",
+          "name": "COMBINATION PIZZA(S)",
           "price": 20000,
           "description": ""
         },
         {
-          "name": "두부김치",
-          "price": 15000,
+          "name": "GARLIC WHITE PIZZA(L)",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "TPS's CLUB PIZZA(L)",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "SPINACH SALAD",
+          "price": 18000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/p/entry/place/20082746",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_51%2F1441032309837gQcc5_JPEG%2F146172596567667_0.jpeg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_51%2F1441032309837gQcc5_JPEG%2F146172596567667_0.jpeg",
-      "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
-      "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/corn_cheese20220119222231.png",
-      "imageUrl5": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
-      "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
-      "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/speaking_head20220119222227.png",
-      "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/busts_in_silhouette20220119222027.png",
+      "naverUrl": "https://map.naver.com/p/entry/place/1911951171",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_298%2F17655076345323kwu1_JPEG%2FCOMBINATION.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20240808_143%2F1723047843595zEYJT_JPEG%2FFLPWYCs2t7_02.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_298%2F17655076345323kwu1_JPEG%2FCOMBINATION.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_45%2F1765507626246KhR9M_JPEG%2FWINGS.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241112_195%2F1731404836084aAxBR_JPEG%2Fartner_%25C7%25C7%25C0%25DA%25BD%25BA%25C5%25C4%25B5%25E5_resized_%25289%2529.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250818_253%2F1755489106797XTFXV_JPEG%2Fartner_%25C7%25C7%25C0%25DA%25BD%25BA%25C5%25C4%25B5%25E527.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20241112_290/1731403562167nLqag_PNG/%B9%E8%B4%DE_%C6%E4%C0%CC%BA%B8%B8%B4%BD%BA%B8%F4.png",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20241112_255/1731402998446EIMOv_PNG/%B9%E8%B4%DE_%C4%DE%BA%F1%BD%BA%B8%F4.png",
       "region": "samseong",
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
-      "emoji": "🏮"
+      "emoji": "🍺"
     },
     {
       "name": "란주쿠 삼성점",

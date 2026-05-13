@@ -299,7 +299,7 @@ export default function Home() {
                 />
                 <div style={{ flex:1, minWidth:0, display:'flex', flexDirection:'column', gap:4 }}>
                   <span style={{ fontSize:'.85rem', fontWeight:700, color:'var(--text)', lineHeight:1.4, overflow:'hidden', display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical' }}>{p.title}</span>
-                  <span style={{ fontSize:'.66rem', color:'var(--muted)' }}>{p.date}</span>
+                  <span style={{ fontSize:'.66rem', color:'var(--muted)' }}>{p.updated || p.date}</span>
                 </div>
               </div>
             </Link>

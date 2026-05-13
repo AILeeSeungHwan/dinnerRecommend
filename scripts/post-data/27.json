@@ -9,71 +9,6 @@
   "tags": [],
   "restaurants": [
     {
-      "name": "스시산원 반주헌",
-      "type": "일식",
-      "addr": "서울특별시 강남구 역삼동 825-20 센트럴푸르지오시티 지하2층 224호",
-      "hours": "",
-      "tel": "07-1389-0565",
-      "priceRange": "24000~75000",
-      "rating": 4.8,
-      "reviewCount": 59,
-      "blogCount": 699,
-      "cat": [
-        "이자카야"
-      ],
-      "tags": [
-        "리뷰많음",
-        "주차가능",
-        "단체가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "[런치] 온우동+스시5종",
-          "price": 24000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 오마카세스시",
-          "price": 37000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 반주헌류 스페셜 카이센동",
-          "price": 38000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 사케동정식",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "[런치] 반주헌류 명품 루이비동",
-          "price": 60000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1219317289",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_78%2F1733041403976GTUxs_JPEG%2FGJF06445.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20250214_115%2F17395112829188FTmw_JPEG%2FftjowDNfkX_03.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_78%2F1733041403976GTUxs_JPEG%2FGJF06445.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_70%2F1733041403610Ug17W_JPEG%2FGJF06371.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_243%2F1733041404090u5BNH_JPEG%2FGJF06395.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_159%2F1733041403782NReyR_JPEG%2FGJF06443.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260126_279/1769419375539zm7tJ_PNG/5995A4E9-3D1F-4279-9D73-794EF0990276.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20241201_274/1733032049079UV7aB_JPEG/GJF06443.jpg",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
       "name": "밤별 포차 라운지 강남역본점",
       "type": "이자카야",
       "addr": "서울특별시 강남구 역삼동 813-9 지층, 1층, 2층, 3층",
@@ -270,21 +205,85 @@
       "emoji": ""
     },
     {
-      "name": "오뎅오색 강남역점",
-      "type": "한식",
-      "addr": "서울특별시 서초구 서초동 1308-26 1층 105, 106호",
+      "name": "이자카야나무 서초점",
+      "type": "이자카야",
+      "addr": "서울특별시 서초구 서초동 1307-11 지하1층~지상4층",
       "hours": "",
-      "tel": "02-591-8880",
-      "priceRange": "9900~28500",
-      "rating": 4.8,
-      "reviewCount": 6,
-      "blogCount": 366,
+      "tel": "07-1361-0545",
+      "priceRange": "16000~169900",
+      "rating": 0,
+      "reviewCount": 4118,
+      "blogCount": 977,
       "cat": [
         "이자카야"
       ],
       "tags": [
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "바지락반전무침",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "바지락술찜",
+          "price": 24000,
+          "description": ""
+        },
+        {
+          "name": "도다리회",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "커플세트",
+          "price": 59900,
+          "description": ""
+        },
+        {
+          "name": "나무세트",
+          "price": 89900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37725304",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_239%2F1769153496434jkCsW_JPEG%2FKakaoTalk_20260123_131935135_03.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_239%2F1769153496434jkCsW_JPEG%2FKakaoTalk_20260123_131935135_03.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_177%2F1769157850540a9RoM_JPEG%2F%25BC%25AD%25C3%25CA%25C1%25A1.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_185%2F1769153496730DYx8F_JPEG%2FKakaoTalk_20260123_131935135_04.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_52%2F1769153496684aqmIe_JPEG%2FKakaoTalk_20260123_131935135_05.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_259%2F1769153496968dzl8P_JPEG%2FKakaoTalk_20260123_131935135_08.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260309_107/1773049829610OT58t_JPEG/%B9%D9%C1%F6%B6%F4%B9%DD%C0%FC%B9%AB%C4%A7.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260309_8/1773049853044ypwOf_JPEG/%B9%D9%C1%F6%B6%F4%BC%FA%C2%F2.jpg",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "이자카야나무 강남역2호점",
+      "type": "이자카야",
+      "addr": "서울특별시 강남구 역삼동 831-3 지하1층 이자카야나무 강남역2호점",
+      "hours": "05:00에 영업 종료",
+      "tel": "07-1380-6787",
+      "priceRange": "16000~169900",
+      "rating": 0,
+      "reviewCount": 1435,
+      "blogCount": 388,
+      "cat": [
+        "이자카야"
+      ],
+      "tags": [
+        "점심추천",
         "주차가능",
-        "데이트",
+        "단체가능",
         "리뷰많음",
         "예약필수"
       ],
@@ -295,40 +294,40 @@
       "reservation": true,
       "menuItems": [
         {
-          "name": "스지 오뎅탕",
-          "price": 28500,
+          "name": "바지락 반전무침",
+          "price": 29000,
           "description": ""
         },
         {
-          "name": "오뎅 세트(순한맛)",
-          "price": 19500,
-          "description": ""
-        },
-        {
-          "name": "오뎅 세트(얼큰한 맛)",
-          "price": 19500,
-          "description": ""
-        },
-        {
-          "name": "일본오뎅 모리아와세(모둠세트)",
+          "name": "바지락 술찜",
           "price": 24000,
           "description": ""
         },
         {
-          "name": "마라오뎅탕",
-          "price": 23000,
+          "name": "도다리회",
+          "price": 37000,
+          "description": ""
+        },
+        {
+          "name": "커플세트",
+          "price": 59900,
+          "description": ""
+        },
+        {
+          "name": "나무세트",
+          "price": 89900,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1678227191",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_112%2F1752246302399AGfkG_JPEG%2FSOON2578.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_112%2F1752246302399AGfkG_JPEG%2FSOON2578.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_237%2F17522464428968Izxg_JPEG%2F%25B8%25DE%25B4%25BA%25C0%25D5%25C5%25A9%25B1%25E2%25BA%25AF%25C8%25AFSOON5263.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240830_133%2F17249870419576KbtQ_JPEG%2F%25BF%25DC%25B0%25FC2.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_107%2F1752246454561HRHYn_JPEG%2F%25C5%25A9%25B1%25E2%25BA%25AF%25C8%25AFSOON5244.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_61%2F17522461691297hVDc_JPEG%2F%25C7%25D1%25BF%25EFSOON1747.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20251124_100/17639333328416n6Xs_PNG/%BD%BA%C1%F6%BF%C0%B5%AD%C5%C1.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20240819_80/17240031350055ruGr_JPEG/%BC%F8%C7%D1%B8%C0.jpg",
+      "naverUrl": "https://map.naver.com/v5/entry/place/36301743",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260313_274%2F17733282019871xPDk_JPEG%2F%25BF%25F8%25B7%25A1_%25BF%25B9%25BE%25E0%25C0%25CC%25B9%25CC%25C1%25F6.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260313_274%2F17733282019871xPDk_JPEG%2F%25BF%25F8%25B7%25A1_%25BF%25B9%25BE%25E0%25C0%25CC%25B9%25CC%25C1%25F6.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260126_25%2F1769387634121XkmYj_JPEG%2F%25B0%25AD%25B3%25B22%25C8%25A3%25C1%25A1.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_217%2F1769150296310QMoxL_JPEG%2FKakaoTalk_20260123_131935135_04.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_146%2F1769150296242IdeRC_JPEG%2FKakaoTalk_20260123_131935135_02.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_116%2F1769150296168S0jpL_JPEG%2FKakaoTalk_20260123_131935135_10.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260306_240/1772779169365ETkvS_JPEG/%B9%D9%C1%F6%B6%F4%B9%DD%C0%FC%B9%AB%C4%A7.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260306_133/1772779203007L7MrD_JPEG/%B9%D9%C1%F6%B6%F4%BC%FA%C2%F2.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",

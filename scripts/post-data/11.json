@@ -246,65 +246,36 @@
       "emoji": ""
     },
     {
-      "name": "곱창과순댓국의만남",
+      "name": "진미옥설렁탕 본점",
       "type": "한식",
-      "addr": "서울특별시 송파구 잠실동 206-16",
-      "hours": "24:00에 영업 종료",
-      "tel": "02-417-8227",
-      "priceRange": "12000~25000",
-      "rating": 4.6,
-      "reviewCount": 10,
-      "blogCount": 148,
+      "addr": "서울특별시 송파구 석촌동 297-2 성창빌딩 1층",
+      "hours": "",
+      "tel": "02-400-2131",
+      "priceRange": "",
+      "rating": 4.2,
+      "reviewCount": 398,
+      "blogCount": 0,
       "cat": [
         "한식",
-        "순대",
-        "순댓국"
+        "곰탕",
+        "설렁탕"
       ],
-      "tags": [
-        "가성비",
-        "서비스좋음"
-      ],
+      "tags": [],
       "keywords": [],
       "moods": [],
       "scene": [],
       "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "소곱창전골",
-          "price": 25000,
-          "description": ""
-        },
-        {
-          "name": "모듬구이",
-          "price": 0,
-          "description": ""
-        },
-        {
-          "name": "막창",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "대창",
-          "price": 22000,
-          "description": ""
-        },
-        {
-          "name": "곱창",
-          "price": 22000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1467068196/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240112_119%2F1705025775705nYK0e_JPEG%2F%25BF%25DC%25B0%25FC.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240112_119%2F1705025775705nYK0e_JPEG%2F%25BF%25DC%25B0%25FC.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180621_101%2F1529570509115TlyRH_JPEG%2FMt2Ub2Vo9MwUcgBDH_FxEJvp.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180621_127%2F1529570553744CpKq0_JPEG%2FQelcwm2lJ44GbwYNbqIkIfaM.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180621_261%2F1529570575366JHpHK_JPEG%2FFLWKKJReKzCOsYjRI5dYLVxu.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180621_215%2F15295705830839YD0g_JPEG%2Fi2Q1lhzRG3OpvSs_YwYuOTlU.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20200210_263/1581317741387E5lRS_JPEG/80iR8NM_8z_O5MNXwugGBYLN.jpg",
-      "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/18565199/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMTBfNSAg%2FMDAxNzY4MDA4MzkyOTAy.BZoz_8ElQOQxXbeEzl4WNyPPQBAnbJORVZAFiBDoCXog.xjLoR-6TQVIlz8Yf8kVQy-IJ0tEiAZ-FIVdz854M7Qog.JPEG%2F1000187572.jpg.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMTBfMTQy%2FMDAxNzY4MDA4MzkwOTYz.E2MJNJMV0KLp_4Pfg0IsQIVFG5GTh5JpZrUU3v03A20g.iWXvsVwseTALvztwRL7W8Zo79FocdAJqXBjS5t90l-cg.JPEG%2F1000187556.jpg.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMTBfMTk0%2FMDAxNzY4MDA4MzkwNzU2.ZaTivUzEonONfP8eQagMnwmO-vbZjI6SrsWdQXma2Scg.lVh8K3dLmcFL8RYS7IY6bRmQ1G3l_WarBEyHe0af794g.JPEG%2F1000187575.jpg.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDFfMTUx%2FMDAxNzc3NjI1MzI1MjAw.g9TEAzKVIR_s7q2_TBWyqsj4o9e97PKSEFtm7VV4ZrIg.YUQhbxwn4mUy0YoCWzIZl86Z1MFslUhOspLI82nj0H8g.JPEG%2F20260421_200747.jpg.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDhfMTU1%2FMDAxNzc4MTg3MzA5ODA3.XREh4pQiu-yQi3VFMCU_2nrDDXa3QcvYO0qSR_4VC4Ig.O4quSi170ChzzqWwXZEG9HgmK1iLFED92TjFbXcnxgAg.JPEG%2F20260506_093401.jpg.jpg",
+      "imageUrl6": "https://ldb-phinf.pstatic.net/20190829_187/1567067560605wBqqy_JPEG/VmW2ta59Mpu5XR3gWxqnSf1G.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20190829_90/1567067576208pvnDv_JPEG/CFLeV1oGyXuDzwIs0Zk1P8Vc.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20190829_118/1567067588664moRzC_JPEG/xuHPrzkFaeCEdAh89Zr_r7MC.jpg",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

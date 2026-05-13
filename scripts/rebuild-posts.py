@@ -1543,7 +1543,7 @@ for post_data in all_posts_meta:
     print(f'  Post {pid:2d} ({slug[:35]:35s}): {len(restaurants)}개 식당 | {char_count:,}자')
 
 # ── data/posts.js 날짜 + 썸네일 업데이트 ──────────────────────────
-print(f'\n날짜 업데이트: date → {TODAY} (강남 {sorted(SKIP_POST_IDS)} 제외)')
+print(f'\n업데이트 필드 갱신: updated → {TODAY} (강남 {sorted(SKIP_POST_IDS)} 제외)')
 # 라인 단위로 처리해서 SKIP 포스트 라인은 손대지 않음
 def _is_skip_line(line):
     for skip_id in SKIP_POST_IDS:
@@ -1556,11 +1556,8 @@ for line in posts_js_text.split('\n'):
     if _is_skip_line(line):
         new_lines.append(line)
     else:
-        new_lines.append(re.sub(
-            r"date:'[0-9]{4}-[0-9]{2}-[0-9]{2}'",
-            f"date:'{TODAY}'",
-            line,
-        ))
+        _line = re.sub(r"updated:'[0-9]{4}-[0-9]{2}-[0-9]{2}'", f"updated:'{TODAY}'", line)
+        new_lines.append(_line)
 updated_posts_text = '\n'.join(new_lines)
 
 # 썸네일 — 각 포스트의 첫 식당 imageUrl을 thumbnail로 저장 (PostThumbnail이 사용)

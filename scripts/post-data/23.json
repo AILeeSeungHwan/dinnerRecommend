@@ -81,24 +81,22 @@
       "emoji": ""
     },
     {
-      "name": "지강한식당 잠실점",
-      "type": "한식",
-      "addr": "서울특별시 송파구 신천동 29-1 지하1층 104호",
+      "name": "오레노라멘송파",
+      "type": "일식",
+      "addr": "서울특별시 송파구 송파동 42-6 일층",
       "hours": "11:00에 영업 시작",
-      "tel": "07-1349-4963",
-      "priceRange": "3500~22000",
-      "rating": 4.2,
-      "reviewCount": 111,
-      "blogCount": 2102,
+      "tel": "02-418-3539",
+      "priceRange": "1000~13000",
+      "rating": 4.5,
+      "reviewCount": 601,
+      "blogCount": 1686,
       "cat": [
-        "음식점",
-        "한식"
+        "일식",
+        "일본식라면"
       ],
       "tags": [
         "리뷰많음",
         "주차가능",
-        "데이트",
-        "웨이팅맛집",
         "깔끔한곳"
       ],
       "keywords": [],
@@ -108,174 +106,170 @@
       "reservation": false,
       "menuItems": [
         {
-          "name": "투움바 치즈닭갈비",
-          "price": 16500,
+          "name": "토리빠이탄라멘",
+          "price": 13000,
           "description": ""
         },
         {
-          "name": "투움바 낙지 치즈닭갈비",
-          "price": 19500,
+          "name": "카라빠이탄라멘",
+          "price": 13000,
           "description": ""
         },
         {
-          "name": "치즈 닭갈비",
-          "price": 16000,
+          "name": "짐빔하이볼",
+          "price": 7000,
           "description": ""
         },
         {
-          "name": "낙지 치즈닭갈비",
-          "price": 19000,
+          "name": "반숙계란",
+          "price": 1000,
           "description": ""
         },
         {
-          "name": "낙지 닭갈비",
-          "price": 17000,
+          "name": "삼겹챠슈",
+          "price": 3000,
           "description": ""
         }
       ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1112863263/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_106%2F1769156782757aUw3N_JPEG%2FKakaoTalk_20260123_172040601_%25281%2529.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_106%2F1769156782757aUw3N_JPEG%2FKakaoTalk_20260123_172040601_%25281%2529.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250602_280%2F17488414113652tW9N_JPEG%2FIMG_3908.jpeg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250407_160%2F1744000234052MKIfS_JPEG%2FKakaoTalk_20250401_154515639.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250602_199%2F17488414115175iAOF_JPEG%2FIMG_3909.jpeg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250707_283%2F1751867835569IJzvt_JPEG%2FIMG_4342.jpeg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20251128_138/1764304696723aJjsL_JPEG/%C5%F5%BF%F2%B9%D9_%C4%A1%C1%EE%B4%DF%B0%A5%BA%F1.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20251127_168/1764210284639JsLTd_JPEG/%C5%F5%BF%F2%B9%D9_%B3%AB%C1%F6_%C4%A1%C1%EE%B4%DF%B0%A5%BA%F1.jpg",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1713900848/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20190429_30/1556514984717bftLW_JPEG/I2oyFa9FcP_-BX4F7Zk454ex.jpg",
+      "imageUrl2": "https://ldb-phinf.pstatic.net/20250909_292/1757390071668wk5v1_JPEG/1000017833.jpg",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",
       "emoji": ""
     },
     {
-      "name": "쌤쌤쌤 롯데월드몰점",
-      "type": "양식",
-      "addr": "서울특별시 송파구 신천동 29 5층",
-      "hours": "10:30에 영업 시작",
-      "tel": "07-1433-4540",
-      "priceRange": "11000~46000",
-      "rating": 4.2,
-      "reviewCount": 111,
-      "blogCount": 2432,
+      "name": "도톤보리",
+      "type": "술집",
+      "addr": "서울특별시 송파구 방이동 62-9 2층",
+      "hours": "17:00에 영업 시작",
+      "tel": "07-1303-5630",
+      "priceRange": "9000~39000",
+      "rating": 4.4,
+      "reviewCount": 81960,
+      "blogCount": 997,
       "cat": [
-        "음식점",
-        "양식"
+        "술집",
+        "이자카야"
       ],
       "tags": [
         "리뷰많음",
-        "가성비",
-        "데이트",
-        "웨이팅맛집"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "단호박 뇨끼",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "잠봉 파스타",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "미서부 클래식 라자냐",
-          "price": 26000,
-          "description": ""
-        },
-        {
-          "name": "🔥철판 스테이크🔥",
-          "price": 46000,
-          "description": ""
-        },
-        {
-          "name": "딸기 리코타 샐러드",
-          "price": 23000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1684619726/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251222_200%2F1766371711353QVNSW_JPEG%2F%25B6%25F3%25C0%25DA%25B3%25C4_%25C3%25D6%25C1%25BE2.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251222_200%2F1766371711353QVNSW_JPEG%2F%25B6%25F3%25C0%25DA%25B3%25C4_%25C3%25D6%25C1%25BE2.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_214%2F17747777580518POqT_PNG%2FIMG_7362.png",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_242%2F1774777757394tfq1K_JPEG%2FIMG_7358.jpeg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251220_50%2F1766161768572W72NH_PNG%2F%25C8%25E6%25B9%25E9%25BF%25E4%25B8%25AE%25BB%25E7_%25B1%25E8%25C8%25C62.png",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260329_25%2F17747777572331omoI_PNG%2FIMG_7361.png",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250708_270/1751951543646MB9c6_PNG/%B4%A2%B3%A2.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260425_195/1777081179511V3c5M_JPEG/%C7%C1%B7%CE%B8%B6%C1%EA_%BB%E7%C1%F8.jpeg",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "돈담 잠실새내본점",
-      "type": "한식",
-      "addr": "서울특별시 송파구 잠실동 186-1 1층",
-      "hours": "17:00에 영업 시작",
-      "tel": "07-1387-6406",
-      "priceRange": "7000~18000",
-      "rating": 5,
-      "reviewCount": 25,
-      "blogCount": 107,
-      "cat": [
-        "한식",
-        "육류",
-        "고기요리"
-      ],
-      "tags": [
-        "가성비",
-        "주차가능",
-        "데이트",
-        "깔끔한곳",
         "서비스좋음"
       ],
       "keywords": [],
       "moods": [],
       "scene": [],
-      "parking": true,
+      "parking": false,
       "reservation": true,
       "menuItems": [
         {
-          "name": "YBD통오겹살",
-          "price": 15000,
+          "name": "모듬 사시미",
+          "price": 39000,
           "description": ""
         },
         {
-          "name": "YBD통목살",
-          "price": 15000,
+          "name": "닭튀김",
+          "price": 20000,
           "description": ""
         },
         {
-          "name": "뒷고기",
-          "price": 10500,
+          "name": "모둠꼬치",
+          "price": 19000,
           "description": ""
         },
         {
-          "name": "쫀득살",
-          "price": 18000,
+          "name": "참치타다끼",
+          "price": 22000,
           "description": ""
         },
         {
-          "name": "돼지껍데기",
+          "name": "칠리새우",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1499367276/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_9%2F1513712341773P335v_JPEG%2Fk8YNEtBaj3pk1moGSyfHRLZd.JPG.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_9%2F1513712341773P335v_JPEG%2Fk8YNEtBaj3pk1moGSyfHRLZd.JPG.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_173%2F1513712334340bNQKt_JPEG%2FcQPnLxjaW96SbKE0mmTCqgu8.JPG.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_58%2F15137122599754qnp4_JPEG%2FT_Jll1kE8aWJy2TyTcr1Z3HY.JPG.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_28%2F1513712268644vpm8y_JPEG%2FDkCTzsdDiOdq3v_nQOyEsuHZ.JPG.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171220_171%2F1513712273634c3NT0_JPEG%2FoX2ic3CFB6ZPEcntOoAuyLwW.JPG.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250622_4/17505868750114n0VB_JPEG/IMG_4572.jpeg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20240507_136/1715059529355XjTr5_JPEG/KakaoTalk_20240502_172240255_11.jpg",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "아쿠아가든카페 롯데월드몰점",
+      "type": "카페",
+      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 지하1층",
+      "hours": "10:30에 영업 시작",
+      "tel": "07-1469-8440",
+      "priceRange": "",
+      "rating": 4.4,
+      "reviewCount": 535,
+      "blogCount": 2919,
+      "cat": [
+        "음식점",
+        "카페",
+        "디저트"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "테라리움 원데이클래스",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "아메리카노",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "에스프레소",
+          "price": 6500,
+          "description": ""
+        },
+        {
+          "name": "카페라떼",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "카푸치노",
           "price": 9000,
           "description": ""
         }
       ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1228230970/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250901_163%2F1756658704341NuoWh_JPEG%2FIMG_5033.jpeg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250901_163%2F1756658704341NuoWh_JPEG%2FIMG_5033.jpeg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_290%2F174722120780448Fpm_JPEG%2FIMG_3926.jpeg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250901_88%2F1756658704271SE1S5_JPEG%2FIMG_3797.jpeg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_273%2F1747221207927tbwRb_JPEG%2FIMG_3931.jpeg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241027_66%2F1729988724979H2KUL_JPEG%2FIMG_3911.jpeg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20241028_108/1730047798220jcTlD_JPEG/IMG_4924.jpeg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20241028_258/17300478267308pjIs_JPEG/IMG_4959.jpeg",
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1289070154/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20221110_47/1668066017797LiEqk_JPEG/DSC08120.jpg",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

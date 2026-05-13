@@ -14,6 +14,145 @@
   ],
   "restaurants": [
     {
+      "name": "스타벅스 영통R점",
+      "type": "카페",
+      "addr": "경기도 수원시 영통구 영통동 981-2",
+      "hours": "08:00에 영업 시작",
+      "tel": "1522-3232",
+      "priceRange": "4700~6100",
+      "rating": 4.4,
+      "reviewCount": 740,
+      "blogCount": 434,
+      "cat": [
+        "카페디저트",
+        "카페"
+      ],
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "카페 아메리카노",
+          "price": 4700,
+          "description": ""
+        },
+        {
+          "name": "카페 라떼",
+          "price": 5200,
+          "description": ""
+        },
+        {
+          "name": "스타벅스 돌체 라떼",
+          "price": 6100,
+          "description": ""
+        },
+        {
+          "name": "카라멜 마키아또",
+          "price": 6100,
+          "description": ""
+        },
+        {
+          "name": "카푸치노",
+          "price": 5200,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1168986449/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200825_43%2F1598301963594JYEpn_JPEG%2F3649_20190315111902_qe7uu.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230108_263%2F167312432742335oeb_JPEG%2F3649_20230107095134_rl3pg.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230108_254%2F1673124327364Ip7ds_JPEG%2F3649_20230107094316_8ce0i.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230108_195%2F1673124327437qKWdN_JPEG%2F3649_20230107094841_0xrcs.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210125_244/1611557516223VWxTj_JPEG/OIi50DMtioYGytNb_tVOqIsd.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20201201_87/1606806402570W26cm_JPEG/KYf29KvXCU-JhAUpaZZ2vAn7.jpg",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": ""
+    },
+    {
+      "name": "우판등심 수원점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 신동 932",
+      "hours": "",
+      "tel": "0507-1475-0230",
+      "priceRange": "",
+      "rating": 4.3,
+      "reviewCount": 2915,
+      "blogCount": 0,
+      "cat": [
+        "한식",
+        "소고기구이"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/36090522/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_97%2F1709867969055dCM7q_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C434.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_112%2F17098679591726YP8j_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C419.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_228%2F1709867959329x23Ak_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C43.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_20%2F1709867958769nNr9U_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C48.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20240415_218/1713151404757FpNOL_JPEG/%BF%EC%C6%C7%B5%EE%BD%C9_%BC%F6%BF%F8_%BC%D2%B0%ED%B1%E2_%B8%C0%C1%FD_%C8%B8%BD%C415.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20201020_293/1603173960529nPYA8_JPEG/YdhOuM99187ZGHsy4MeKZwJ8.jpg",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "하얀풍차제과점 망포역점",
+      "type": "카페",
+      "addr": "경기도 수원시 영통구 망포동 322-3",
+      "hours": "",
+      "tel": "0507-1407-0031",
+      "priceRange": "",
+      "rating": 4.2,
+      "reviewCount": 1480,
+      "blogCount": 0,
+      "cat": [
+        "카페디저트",
+        "베이커리"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/32290219/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251029_284%2F1761699786504gD2AO_JPEG%2FKakaoTalk_20250930_144132811.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251029_284%2F1761699786504gD2AO_JPEG%2FKakaoTalk_20250930_144132811.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251202_172%2F1764644131926qKaG3_PNG%2F001.png",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251029_268%2F1761699768866TdeAO_JPEG%2FKakaoTalk_20250930_144156642.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_56%2F173392559711319k7u_JPEG%2F%25C8%25AD%25C0%25CC%25C6%25AE%25B7%25D1.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241205_271%2F1733380409993JVbcv_JPEG%2FKakaoTalk_20241205_153153757.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20241211_55/17339256759188xd5E_JPEG/%C8%AD%C0%CC%C6%AE%B7%D1.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20241211_152/1733925667640DRhEX_JPEG/%C4%A1%C1%EE%B9%D9%B0%D4%C6%AE.jpg",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
       "name": "천애부히쇼우 망포 본점",
       "type": "일식",
       "addr": "경기도 수원시 영통구 망포동 570-5 103호",
@@ -110,145 +249,6 @@
       "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMDFfMjQ0%2FMDAxNzcyMzQ1MTIwMzEx.Y1o3snU9pzEMITtdrOnDuOav_Jgz6PSjEdPqSqDgTSog.kISCa9NQEosmAIC2NbyaSQqseZojE3duCM9cNNJ9mxYg.JPEG%2Feca193bd-15f3-4d91-93e5-959fcd402055-1_all_114228.jpg.jpg",
       "imageUrl7": "https://ldb-phinf.pstatic.net/20251222_118/1766413479280bTT2I_JPEG/KakaoTalk_20251222_232107923_02.jpg",
       "imageUrl8": "https://ldb-phinf.pstatic.net/20250613_136/1749821204562Cmlzc_JPEG/KakaoTalk_20250612_103750014_02.jpg",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
-      "name": "샤브향 수원매탄점",
-      "type": "일식",
-      "addr": "경기도 수원시 영통구 매탄동 1267-2 매탄프라자 2층",
-      "hours": "",
-      "tel": "031-213-4592",
-      "priceRange": "",
-      "rating": 4.3,
-      "reviewCount": 9,
-      "blogCount": 0,
-      "cat": [
-        "일식",
-        "샤브샤브"
-      ],
-      "tags": [],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/38230012/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_75%2F17545572100857ryAY_JPEG%2F100%25B4%25EB_%25C7%25C1%25B7%25A3%25C2%25F7%25C0%25CC%25C1%25EE.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_75%2F17545572100857ryAY_JPEG%2F100%25B4%25EB_%25C7%25C1%25B7%25A3%25C2%25F7%25C0%25CC%25C1%25EE.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_183%2F1754557210388128gm_JPEG%2F%25B9%25CE%25BB%25FD%25C8%25B8%25BA%25B9.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_259%2F1754557212075TCIMu_JPEG%2F%25BB%25E7%25C0%25E5%25B4%25D4%25C0%25CC_%25BD%25F0%25B4%25D9.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_151%2F17545572117789ePBb_JPEG%2F%25BF%25C0%25B4%25C3%25C0%25C7%25BF%25EC%25B8%25AE%25B4%25C2%25BB%25FE%25BA%25EA%25C7%25E2_2.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250807_151%2F1754557213088pSza9_JPEG%2F%25BC%25D2%25B0%25ED%25B1%25E2%25BB%25FE%25BA%25EA%25BB%25FE%25BA%25EA.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250807_92/1754557507731Kk0xI_JPEG/%BC%D2%B0%ED%B1%E2_%BF%F9%B3%B2%BD%D3_%BB%FE%BA%EA%BB%FE%BA%EA.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250807_8/1754557495831ovT8V_JPEG/%BC%D2%B0%ED%B1%E2_%BF%F9%B3%B2%BD%D3_%BB%FE%BA%EA%BB%FE%BA%EA.jpg",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": ""
-    },
-    {
-      "name": "위노잉커피",
-      "type": "카페",
-      "addr": "경기도 수원시 영통구 영통동 980-3 1층 E동 133호",
-      "hours": "08:00에 영업 시작",
-      "tel": "07-2093-2627",
-      "priceRange": "100~6000",
-      "rating": 4.1,
-      "reviewCount": 14,
-      "blogCount": 221,
-      "cat": [
-        "음식점",
-        "카페디저트"
-      ],
-      "tags": [
-        "가성비",
-        "주차가능",
-        "데이트",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "[패스오더전용] 100원 아메리카노",
-          "price": 100,
-          "description": ""
-        },
-        {
-          "name": "아메리카노(I/H)",
-          "price": 3000,
-          "description": ""
-        },
-        {
-          "name": "카푸치노(Only Hot)",
-          "price": 4000,
-          "description": ""
-        },
-        {
-          "name": "카페라떼(I/H)",
-          "price": 4000,
-          "description": ""
-        },
-        {
-          "name": "바닐라라떼(I/H)",
-          "price": 5000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1067050744/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260305_248%2F17727110170326Sgh7_JPEG%2F%25BB%25E7%25C1%25F8%25BF%25EB_%252813%2529.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260421_171%2F1776770456352YwdPt_JPEG%2Fk490Jy40xy_10.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260305_248%2F17727110170326Sgh7_JPEG%2F%25BB%25E7%25C1%25F8%25BF%25EB_%252813%2529.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260305_287%2F1772711020650cOPSD_JPEG%2F%25BB%25E7%25C1%25F8%25BF%25EB_%25285%2529.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260305_159%2F1772711020555TziEo_JPEG%2F%25BB%25E7%25C1%25F8%25BF%25EB_%252821%2529.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260305_179%2F1772711020609SP75a_JPEG%2F%25BB%25E7%25C1%25F8%25BF%25EB_%252814%2529.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20240105_249/1704411612815oPvbw_PNG/%B8%DE%B4%BA.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20210701_53/16251270362635rqwz_JPEG/yzgM5QuCaLdKrxAySLTK3HpN.jpg",
-      "region": "yeongtong",
-      "regionName": "영통",
-      "regionPath": "/samsungElectronics/yeongtong",
-      "emoji": ""
-    },
-    {
-      "name": "이차선술집",
-      "type": "술집",
-      "addr": "경기도 수원시 영통구 영통동 974-7 2층",
-      "hours": "",
-      "tel": "0507-1358-6491",
-      "priceRange": "",
-      "rating": 4.1,
-      "reviewCount": 14,
-      "blogCount": 0,
-      "cat": [
-        "술집",
-        "요리주점"
-      ],
-      "tags": [
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1200485504/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251003_229%2F1759468710227qmEmu_PNG%2F20251003_122318_4.png",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251003_229%2F1759468710227qmEmu_PNG%2F20251003_122318_4.png",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260224_65%2F17718614938231RLVx_PNG%2FKakaoTalk_20260224_001254130_01.png",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251003_198%2F1759468710154fhwQR_PNG%2F20251003_122318_5.png",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251005_187%2F17596051815261WzSu_JPEG%2F1000072319.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260307_213%2F1772823604807VFcsR_PNG%2F18153E81-A441-4BB0-8AFB-3FE583E73847.png",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260415_72/1776256797018RALHx_PNG/%B2%A2%C0%D9_%B4%DF%B5%B5%B8%AE%C5%C1.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260415_66/1776256713477N38EO_PNG/%BF%EC%BB%EF%B0%E3_%BB%FE%BA%EA%BB%FE%BA%EA.png",
       "region": "yeongtongGu",
       "regionName": "영통구청",
       "regionPath": "/samsungElectronics/yeongtongGu",

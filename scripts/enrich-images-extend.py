@@ -10,7 +10,7 @@ import os, re, sys, json, time, random, urllib.request, urllib.error
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG = os.path.join(BASE, 'scripts', 'naver-data', 'img-extend.log')
-REGIONS = ['samseong','jamsil','pangyo','yeongtong','mangpo','yeongtongGu','suji','gangnam']
+REGIONS = ['gangnam']
 HEADERS = {
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/122.0.0.0',
     'Accept-Language':'ko-KR,ko;q=0.9'
@@ -33,7 +33,7 @@ def extract_images(html):
     raw = html.replace('\\u002F', '/')
     urls = re.findall(r'https?://[a-z0-9-]+\.pstatic\.net/[^"\\\s]+\.(?:jpg|jpeg|png|JPEG|JPG|PNG)', raw)
     # 네이버 공통 favicon/icon/assets placeholder 필터
-    BAD = ('g-place.pstatic.net', '/assets/shared/', '/favicon', '/icon-')
+    BAD = ('g-place.pstatic.net', '/assets/shared/', '/favicon', '/icon-', 'face_savoring_food', 'emoji_')
     out, seen = [], set()
     for u in urls:
         if u in seen: continue
@@ -46,7 +46,7 @@ def fetch_all_images(pid):
     all_imgs = []
     for path in ['home', 'photo', 'menu/list']:
         html = http(f'https://pcmap.place.naver.com/restaurant/{pid}/{path}')
-        time.sleep(random.uniform(0.4, 0.8))
+        time.sleep(random.uniform(1.5, 2.5))
         for u in extract_images(html):
             if u not in all_imgs:
                 all_imgs.append(u)
@@ -108,7 +108,7 @@ def process_region(region):
         if i % 40 == 0:
             with open(p, 'w') as f: f.write(text)
             log(f'  체크포인트 {i}/{len(targets)} 갱신 {updated}')
-        time.sleep(random.uniform(0.4, 0.8))
+        time.sleep(random.uniform(1.5, 2.5))
 
     with open(p, 'w') as f: f.write(text)
     log(f'  ✓ {region}: {updated}개 갱신')

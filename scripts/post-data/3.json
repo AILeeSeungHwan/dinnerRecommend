@@ -129,6 +129,143 @@
       "emoji": "🥩"
     },
     {
+      "name": "퍼프룸 치즈룸 월드타워",
+      "type": "기타",
+      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 5층",
+      "hours": "",
+      "tel": "02-3213-4550",
+      "priceRange": "11000~31000",
+      "rating": 4.1,
+      "reviewCount": 682,
+      "blogCount": 4115,
+      "cat": [
+        "음식점",
+        "이탈리아음식"
+      ],
+      "tags": [
+        "단체가능",
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "리코타 포도 플랫브래드",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "시금치 플랫브레드",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "썬드라이드 토마토 플랫브레드",
+          "price": 31000,
+          "description": ""
+        },
+        {
+          "name": "리코타 치즈 멜트 & 비스크",
+          "price": 22800,
+          "description": ""
+        },
+        {
+          "name": "보드카 리가토니",
+          "price": 28000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/36714351/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260306_183/1772782911038OsClg_JPEG/%C6%DB%C7%C1%B7%EB_%C4%A1%C1%EE%B7%EB_%B8%C5%C0%E5%BF%C0%C7%C2_%C0%FC.jpg",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "횡성한우",
+      "type": "한식",
+      "addr": "서울특별시 송파구 방이동 66-3 1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-415-8080",
+      "priceRange": "16000~280000",
+      "rating": 4,
+      "reviewCount": 1421,
+      "blogCount": 280,
+      "cat": [
+        "한식",
+        "소고기구이"
+      ],
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음",
+        "뷰맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "A코스",
+          "price": 250000,
+          "description": ""
+        },
+        {
+          "name": "B코스",
+          "price": 280000,
+          "description": ""
+        },
+        {
+          "name": "우대갈비250g 원산지:미국산",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "소갈비정식-점심특선",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "소갈비",
+          "price": 38000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1480566026/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250523_233%2F1747980880339vEDoN_JPEG%2F08012200_%25282%2529.JPG",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250523_233%2F1747980880339vEDoN_JPEG%2F08012200_%25282%2529.JPG",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_222%2F17472135564357cuNv_JPEG%2F20250513_163656.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_33%2F1747213568738NAYex_JPEG%2F20250513_163548.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_12%2F1747213563776p22GK_JPEG%2F20250513_163618.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230829_59%2F1693293326165ylcCH_JPEG%2F20230829_161002.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250427_74/1745755154094l4AnB_JPEG/20250427_204407.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250427_219/17457551442608jAmA_JPEG/20250427_204435.jpg",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
       "name": "청와옥 석촌호수직영점",
       "type": "고기",
       "addr": "서울특별시 송파구 석촌동 2",
@@ -162,112 +299,6 @@
       "imageUrl6": "https://ldb-phinf.pstatic.net/20191206_44/1575617573065hA8DN_JPEG/vowJdMHeDEnwztj_8__kneXi.JPG.jpg",
       "imageUrl7": "https://ldb-phinf.pstatic.net/20191206_161/1575618943865IX4jG_JPEG/4WCFtA9acJzHSNEkdSrNRh2W.JPG.jpg",
       "imageUrl8": "https://ldb-phinf.pstatic.net/20250807_44/1754553386858BqzC3_JPEG/search.pstatic.jpg",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "미강식당",
-      "type": "한식",
-      "addr": "서울특별시 송파구 잠실동 294-3 103호 아시아 선수촌아파트 삼거리 유턴하는곳에 위치",
-      "hours": "",
-      "tel": "0507-1367-4624",
-      "priceRange": "",
-      "rating": 4.6,
-      "reviewCount": 10,
-      "blogCount": 0,
-      "cat": [
-        "한식",
-        "육류",
-        "고기요리"
-      ],
-      "tags": [
-        "리뷰많음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/37915192/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_180%2F1727601632208Hb967_JPEG%2FKakaoTalk_20240926_111012187_24.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_180%2F1727601632208Hb967_JPEG%2FKakaoTalk_20240926_111012187_24.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240327_46%2F171151605992637igF_PNG%2F20240327_140709.png",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_58%2F1727601704943YDpff_JPEG%2FKakaoTalk_20240926_111012187_09.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_180%2F1727601707414EyuRy_JPEG%2FKakaoTalk_20240926_111012187_10.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_208%2F1727601707554j8L3A_JPEG%2FKakaoTalk_20240926_111012187_11.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260415_18/1776255117486GbR8i_PNG/20251124_111113.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250916_210/1758009884019bDhLD_JPEG/1000011344.jpg",
-      "region": "jamsil",
-      "regionName": "잠실",
-      "regionPath": "/dinner/jamsil",
-      "emoji": ""
-    },
-    {
-      "name": "늘푸른목장 잠실본점",
-      "type": "한식",
-      "addr": "서울특별시 송파구 잠실동 203-7 1F",
-      "hours": "12:00에 영업 시작",
-      "tel": "07-1429-4520",
-      "priceRange": "5000~35000",
-      "rating": 4.6,
-      "reviewCount": 10,
-      "blogCount": 1201,
-      "cat": [
-        "한식",
-        "소고기구이"
-      ],
-      "tags": [
-        "리뷰많음",
-        "혼밥가능",
-        "주차가능",
-        "데이트",
-        "깔끔한곳",
-        "서비스좋음"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": false,
-      "menuItems": [
-        {
-          "name": "경주갈비살 (100g)",
-          "price": 20000,
-          "description": ""
-        },
-        {
-          "name": "육회 (200g)",
-          "price": 35000,
-          "description": ""
-        },
-        {
-          "name": "평양냉면(물/비빔)",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "된장밥",
-          "price": 10000,
-          "description": ""
-        },
-        {
-          "name": "된장찌개",
-          "price": 8000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/11679241/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260416_155%2F1776321992796cOG0q_JPEG%2FDSC04992_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260416_164%2F1776320217627L7w0O_JPEG%2FHHUarPScM4_08.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260416_155%2F1776321992796cOG0q_JPEG%2FDSC04992_%25BA%25B9%25BB%25E7.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260303_256%2F1772518465729Xp1H0_JPEG%2FKakaoTalk_20260303_151402621.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260303_275%2F17725089965489lp2V_JPEG%2FDSC04484.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260303_207%2F1772508994993ua8vV_JPEG%2FDSC04547.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260303_4/1772511950359LGY65_JPEG/DSC04496.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260303_244/1772512032520lLm7r_JPEG/DSC04511.jpg",
       "region": "jamsil",
       "regionName": "잠실",
       "regionPath": "/dinner/jamsil",

@@ -463,7 +463,7 @@ export default function PostPage({ meta, sections, related }) {
     headline: meta.title,
     description: meta.description,
     datePublished: meta.date,
-    dateModified: meta.date,
+    dateModified: meta.updated || meta.date,
     wordCount,
     articleSection: meta.category || '맛집 가이드',
     inLanguage: 'ko-KR',
@@ -529,7 +529,7 @@ export default function PostPage({ meta, sections, related }) {
         {meta.thumbnail && (
           <meta property="og:image" content={`${BASE_URL}${meta.thumbnail}`} />
         )}
-        <meta property="article:published_time" content={meta.date} />
+        <meta property="article:published_time" content={meta.updated || meta.date} />
         {(meta.tags || []).map((tag) => (
           <meta key={tag} property="article:tag" content={tag} />
         ))}
@@ -603,10 +603,10 @@ export default function PostPage({ meta, sections, related }) {
               </span>
             )}
             <time
-              dateTime={meta.date}
+              dateTime={meta.updated || meta.date}
               style={{ fontSize: '.75rem', color: 'var(--muted)' }}
             >
-              {meta.date}
+              {meta.updated || meta.date}
             </time>
             {(meta.tags || []).slice(0, 3).map((tag) => (
               <span key={tag} className="tag">

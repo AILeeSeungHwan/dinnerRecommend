@@ -250,42 +250,53 @@
       "emoji": ""
     },
     {
-      "name": "플링크 판교",
-      "type": "카페",
-      "addr": "경기도 성남시 분당구 백현동 532 1층 12호",
-      "hours": "",
-      "tel": "0507-1428-7222",
-      "priceRange": "",
-      "rating": 4.2,
-      "reviewCount": 173,
+      "name": "이탈리 현대백화점 판교점 (Eataly Pangyo)",
+      "type": "양식·이탈리안",
+      "addr": "백현동 판교역로 146번길 20",
+      "hours": "AM 10:30 ~ PM 8:00",
+      "tel": "031-5170-1061",
+      "priceRange": "12000~22000",
+      "rating": 4.1,
+      "reviewCount": 530,
       "blogCount": 0,
       "cat": [
-        "카페",
-        "디저트",
-        "베이커리"
+        "양식",
+        "이탈리안"
       ],
       "tags": [
-        "리뷰많음"
+        "SNS맛집",
+        "가족",
+        "리뷰많음",
+        "양식",
+        "파스타"
       ],
       "keywords": [],
-      "moods": [],
-      "scene": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "축하"
+      ],
+      "scene": [
+        "기념일",
+        "접대",
+        "특별한날"
+      ],
       "parking": false,
       "reservation": false,
       "menuItems": [],
-      "naverUrl": "https://pcmap.place.naver.com/restaurant/1016513873/home",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260110_238%2F1768044515819mI9Qe_JPEG%2FKakaoTalk_20260110_202702660_04.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260110_238%2F1768044515819mI9Qe_JPEG%2FKakaoTalk_20260110_202702660_04.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260110_22%2F1768044511399ECU7w_JPEG%2FKakaoTalk_20260110_202702660_02.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260110_110%2F1768044502235zfq5G_JPEG%2FKakaoTalk_20260110_202702660_05.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260110_164%2F17680444938444pM97_JPEG%2FKakaoTalk_20260110_202702660_03.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260109_82%2F1767923050476btca4_JPEG%2FKakaoTalk_20260108_230520875_20.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260109_215/1767924569760qH9HJ_JPEG/KakaoTalk_20260108_230520875_20.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260109_270/1767924587992oqr2T_JPEG/KakaoTalk_20260108_230520875_19.jpg",
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
       "region": "pangyo",
       "regionName": "판교",
       "regionPath": "/pangyo",
-      "emoji": ""
+      "emoji": "🍝"
     }
   ],
   "categoryStats": {},
