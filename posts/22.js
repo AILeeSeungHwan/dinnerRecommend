@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "꿰다-판교아브뉴프랑점",
-      text: "꿰다 판교아브뉴프랑점 — 인당 7만원대 코스",
+      text: "꿰다 판교아브뉴프랑점 — 일식 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "스시혼",
-      text: "스시혼 — 일식 전문점",
+      text: "스시혼 — 단체석 운영 회식 식당",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -68,7 +68,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "/images/posts/22/심양-판교점-1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_136%2F17505660891702rdqk_JPEG%2F%25C1%25A4%25C0%25DA%25C1%25A1_%25BF%25DC%25B0%25FC2.jpg",
       alt: "심양 판교점 대표 사진",
       caption: "심양 판교점",
     },
@@ -79,8 +79,14 @@ const post = {
     {
       type: 'h2',
       id: "삼삼오-판교점",
-      text: "삼삼오 판교점 — 단체석 운영 회식 식당",
+      text: "삼삼오 판교점 — 음식점 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
+    },
+    {
+      type: 'image',
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251023_54%2F17612303171510rJ6F_JPEG%2F1000015106.jpg",
+      alt: "삼삼오 판교점 대표 사진",
+      caption: "삼삼오 판교점",
     },
     {
       type: 'body',
@@ -94,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시혼\">스시혼</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">9,000~25,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/스시혼\">스시혼</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/삼삼오 판교점\">삼삼오 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">9,000~25,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr></tbody></table>",
     },
     {
       type: 'h2',

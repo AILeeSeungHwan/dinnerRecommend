@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "/images/posts/17/팔복-판교-1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250227_36%2F17406550584703qcJ5_JPEG%2F%25C6%25C7%25A4%25A1%25BC%25EE%25BB%25E7%25C1%25F8.jpg",
       alt: "팔복 판교 대표 사진",
       caption: "팔복 판교",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "/images/posts/17/춘리마라탕-야탑점-1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241125_284%2F1732546316373c1h0W_JPEG%2FIMG_0008.jpeg",
       alt: "춘리마라탕 야탑점 대표 사진",
       caption: "춘리마라탕 야탑점",
     },
@@ -78,7 +78,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "/images/posts/17/심양-판교점-1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_136%2F17505660891702rdqk_JPEG%2F%25C1%25A4%25C0%25DA%25C1%25A1_%25BF%25DC%25B0%25FC2.jpg",
       alt: "심양 판교점 대표 사진",
       caption: "심양 판교점",
     },
@@ -94,7 +94,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">354건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">354건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마라장룡 마라상궈마라탕\">마라장룡 마라상궈마라탕</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">2건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/심양 판교점\">심양 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.0</td><td style=\"padding:7px 6px;text-align:center\">5건</td><td style=\"padding:7px 6px;text-align:center\">12,000~43,000원</td><td style=\"padding:7px 6px\">중식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

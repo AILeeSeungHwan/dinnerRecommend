@@ -31,7 +31,7 @@ const post = {
     {
       type: 'h2',
       id: "고베규카츠-서울-강남점",
-      text: "고베규카츠 서울 강남점 — 시그니처 규카츠 정식 19,000원",
+      text: "고베규카츠 서울 강남점 — 일식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -61,7 +61,7 @@ const post = {
     {
       type: 'h2',
       id: "강남-돼지상회-무한리필",
-      text: "강남 돼지상회 무한리필 — 시그니처 A 돼지모듬 무한리필 17,900원",
+      text: "강남 돼지상회 무한리필 — 고기구이 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -76,7 +76,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오제제 강남점\">오제제 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~44,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고베규카츠 서울 강남점\">고베규카츠 서울 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">1,500~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/쿄코코 신논현점\">쿄코코 신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~32,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/오제제 강남점\">오제제 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">12,000~44,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

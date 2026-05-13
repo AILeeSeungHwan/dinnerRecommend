@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "란주쿠-삼성점",
-      text: "란주쿠 삼성점 — 이자카야 전문점",
+      text: "란주쿠 삼성점 — 분위기 잡히는 술자리",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "asoboy",
-      text: "ASOBOY — 분위기 잡히는 술자리",
+      text: "ASOBOY — 시그니처 맥주 5,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "미주이자카야",
-      text: "미주이자카야 — 분위기 잡히는 술자리",
+      text: "미주이자카야 — 이자카야 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -122,7 +122,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">15,000~20,000원</td><td style=\"padding:7px 6px\">야장·포차 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/미주이자카야\">미주이자카야</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">25,000~40,000원</td><td style=\"padding:7px 6px\">이자카야·프라이빗룸 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/못난이포차\">못난이포차</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">15,000~20,000원</td><td style=\"padding:7px 6px\">야장·포차 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/미주이자카야\">미주이자카야</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">3건</td><td style=\"padding:7px 6px;text-align:center\">25,000~40,000원</td><td style=\"padding:7px 6px\">이자카야·프라이빗룸 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
