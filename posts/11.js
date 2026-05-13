@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "제주은희네해장국-잠실직영점",
-      text: "제주은희네해장국 잠실직영점 — 시그니처 해장국 12,000원",
+      text: "제주은희네해장국 잠실직영점 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171030_230%2F1509327850597bbmVA_JPEG%2FhUeKwKJG7R1T_-A5NPO39iax.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171030_230%2F1509327850597bbmVA_JPEG%2FhUeKwKJG7R1T_-A5NPO39iax.jpg",
       alt: "제주은희네해장국 잠실직영점 대표 사진",
       caption: "제주은희네해장국 잠실직영점",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220917_132%2F1663385617917Fyn0j_JPEG%2F20220901_061924.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220917_132%2F1663385617917Fyn0j_JPEG%2F20220901_061924.jpg",
       alt: "비사벌전주콩나물국밥 대표 사진",
       caption: "비사벌전주콩나물국밥",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=95&amp;type=f640_380&amp;src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTVfMTc0%2FMDAxNjUyNTk4NjU5NDc4.dXjmD5hwna9gk_x_tZMWIakdQQ5R-8ZYHvy5aAju7ecg._0EgO_M6WPSKo50dzEyXXYgVxsQ8dNMhxj2h3h3ItiMg.JPEG.misterfm%2F20220513%25A3%25DF123011.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f640_380&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTVfMTc0%2FMDAxNjUyNTk4NjU5NDc4.dXjmD5hwna9gk_x_tZMWIakdQQ5R-8ZYHvy5aAju7ecg._0EgO_M6WPSKo50dzEyXXYgVxsQ8dNMhxj2h3h3ItiMg.JPEG.misterfm%2F20220513%25A3%25DF123011.jpg",
       alt: "본가설렁탕 대표 사진",
       caption: "본가설렁탕",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_286%2F1776054082433aNSdD_JPEG%2FScreenshot_20260226_123543_KakaoTalk.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_286%2F1776054082433aNSdD_JPEG%2FScreenshot_20260226_123543_KakaoTalk.jpg",
       alt: "잠실설렁탕 대표 사진",
       caption: "잠실설렁탕",
     },
@@ -85,12 +85,12 @@ const post = {
     {
       type: 'h2',
       id: "곱창과순댓국의만남",
-      text: "곱창과순댓국의만남 — 해장·국밥 한 그릇",
+      text: "곱창과순댓국의만남 — 시그니처 소곱창전골 25,000원",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240112_119%2F1705025775705nYK0e_JPEG%2F%25BF%25DC%25B0%25FC.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240112_119%2F1705025775705nYK0e_JPEG%2F%25BF%25DC%25B0%25FC.jpg",
       alt: "곱창과순댓국의만남 대표 사진",
       caption: "곱창과순댓국의만남",
     },

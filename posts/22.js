@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "마루심-판교점",
-      text: "마루심 판교점 — 평점 4.8·리뷰 467건",
+      text: "마루심 판교점 — 한식 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -41,7 +41,7 @@ const post = {
     {
       type: 'h2',
       id: "아비뉴프랑",
-      text: "아비뉴프랑 — 중식 전문점",
+      text: "아비뉴프랑 — 리뷰 4,082건이 쌓인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -51,7 +51,7 @@ const post = {
     {
       type: 'h2',
       id: "꿰다-판교아브뉴프랑점",
-      text: "꿰다 판교아브뉴프랑점 — 일식 전문점",
+      text: "꿰다 판교아브뉴프랑점 — 평점 4.9·리뷰 244건",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -88,7 +88,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마루심 판교점\">마루심 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">467건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아비뉴프랑\">아비뉴프랑</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/마루심 판교점\">마루심 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">467건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아비뉴프랑\">아비뉴프랑</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/꿰다 판교아브뉴프랑점\">꿰다 판교아브뉴프랑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">244건</td><td style=\"padding:7px 6px;text-align:center\">75,000~75,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/우화\">우화</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr></tbody></table>",
     },
     {
       type: 'h2',

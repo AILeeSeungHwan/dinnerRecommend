@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "못난이포차",
-      text: "못난이포차 — 시그니처 부추전 15,000원",
+      text: "못난이포차 — 야장 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_51%2F1441032309837gQcc5_JPEG%2F146172596567667_0.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_51%2F1441032309837gQcc5_JPEG%2F146172596567667_0.jpeg",
       alt: "못난이포차 대표 사진",
       caption: "못난이포차",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20181031_152%2F1540988956757lENfL_JPEG%2FzoPo8W7x2LtxqOosOkTf9XRD.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20181031_152%2F1540988956757lENfL_JPEG%2FzoPo8W7x2LtxqOosOkTf9XRD.jpg",
       alt: "란주쿠 삼성점 대표 사진",
       caption: "란주쿠 삼성점",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
       alt: "ASOBOY 대표 사진",
       caption: "ASOBOY",
     },
@@ -69,12 +69,12 @@ const post = {
     {
       type: 'h2',
       id: "야키토리-수다",
-      text: "야키토리 수다 — 시그니처 모듬꼬치 5종 18,000원",
+      text: "야키토리 수다 — 이자카야 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230424_299%2F1682343656758pI44W_JPEG%2FDSC00382-min.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230424_299%2F1682343656758pI44W_JPEG%2FDSC00382-min.jpg",
       alt: "야키토리 수다 대표 사진",
       caption: "야키토리 수다",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220903_267%2F16622074506841qiUx_JPEG%2F20220831_201533.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220903_267%2F16622074506841qiUx_JPEG%2F20220831_201533.jpg",
       alt: "철수포차 대표 사진",
       caption: "철수포차",
     },

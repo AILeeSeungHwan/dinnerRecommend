@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_236%2F1463930777339pMXE3_JPEG%2F176473405634597_13.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_236%2F1463930777339pMXE3_JPEG%2F176473405634597_13.jpeg",
       alt: "흥부골숯불돼지왕갈비 대표 사진",
       caption: "흥부골숯불돼지왕갈비",
     },
@@ -52,7 +52,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260403_156%2F1775183550052K4P77_JPEG%2FKakaoTalk_20260403_113122715.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260403_156%2F1775183550052K4P77_JPEG%2FKakaoTalk_20260403_113122715.jpg",
       alt: "청와옥 석촌호수직영점 대표 사진",
       caption: "청와옥 석촌호수직영점",
     },
@@ -68,7 +68,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_180%2F1727601632208Hb967_JPEG%2FKakaoTalk_20240926_111012187_24.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240929_180%2F1727601632208Hb967_JPEG%2FKakaoTalk_20240926_111012187_24.jpg",
       alt: "미강식당 대표 사진",
       caption: "미강식당",
     },
@@ -84,7 +84,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260416_155%2F1776321992796cOG0q_JPEG%2FDSC04992_%25BA%25B9%25BB%25E7.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260416_155%2F1776321992796cOG0q_JPEG%2FDSC04992_%25BA%25B9%25BB%25E7.jpg",
       alt: "늘푸른목장 잠실본점 대표 사진",
       caption: "늘푸른목장 잠실본점",
     },
@@ -100,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/흥부골숯불돼지왕갈비\">흥부골숯불돼지왕갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">620건</td><td style=\"padding:7px 6px;text-align:center\">2,000~23,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/고도식\">고도식</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">482건</td><td style=\"padding:7px 6px;text-align:center\">35,000~70,000원</td><td style=\"padding:7px 6px\">한우구이·알등심 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/흥부골숯불돼지왕갈비\">흥부골숯불돼지왕갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">620건</td><td style=\"padding:7px 6px;text-align:center\">2,000~23,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/고도식\">고도식</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">482건</td><td style=\"padding:7px 6px;text-align:center\">35,000~70,000원</td><td style=\"padding:7px 6px\">한우구이·알등심 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\">청와옥 석촌호수직영점</a></td><td style=\"padding:7px 6px;text-align:center\">5.0</td><td style=\"padding:7px 6px;text-align:center\">23건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/미강식당\">미강식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/늘푸른목장 잠실본점\">늘푸른목장 잠실본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.6</td><td style=\"padding:7px 6px;text-align:center\">10건</td><td style=\"padding:7px 6px;text-align:center\">5,000~35,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr></tbody></table>",
     },
     {
       type: 'h2',

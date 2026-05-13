@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
       alt: "용가회전훠궈 강남점 대표 사진",
       caption: "용가회전훠궈 강남점",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_71%2F17755676043756AUb6_JPEG%2F1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260407_71%2F17755676043756AUb6_JPEG%2F1.jpg",
       alt: "무궁화반점 강남점 대표 사진",
       caption: "무궁화반점 강남점",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_219%2F1755588732666aOeDu_JPEG%2F2.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250819_219%2F1755588732666aOeDu_JPEG%2F2.jpg",
       alt: "아방궁 대표 사진",
       caption: "아방궁",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_251%2F1702364937336DKh2w_JPEG%2FP20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231212_251%2F1702364937336DKh2w_JPEG%2FP20231210_191209505_6E5827FE-72A9-41E1-AEED-EB56853D911B.jpg",
       alt: "차슈밍 대표 사진",
       caption: "차슈밍",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191107_227%2F1573106191534dgp5j_JPEG%2F1qV3X5JWH37LgLqR7OT-KryU.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191107_227%2F1573106191534dgp5j_JPEG%2F1qV3X5JWH37LgLqR7OT-KryU.jpg",
       alt: "삼성각 대표 사진",
       caption: "삼성각",
     },
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/무궁화반점 강남점\">무궁화반점 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,500~25,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/아방궁\">아방궁</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~13,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/차슈밍\">차슈밍</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~13,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/삼성각\">삼성각</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">9,000~45,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/무궁화반점 강남점\">무궁화반점 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,500~25,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/아방궁\">아방궁</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">9,000~13,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/차슈밍\">차슈밍</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~13,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/삼성각\">삼성각</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">9,000~45,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

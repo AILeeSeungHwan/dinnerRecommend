@@ -31,12 +31,12 @@ const post = {
     {
       type: 'h2',
       id: "자연별곡-nc-야탑점",
-      text: "자연별곡 NC 야탑점 — 혼밥 가능한 가성비 식당",
+      text: "자연별곡 NC 야탑점 — 5천원대 가성비 한 끼",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260112_263%2F17681775516927LD5R_JPEG%2F25_12_%25C0%25DA%25BF%25AC%25BA%25B0%25B0%25EE_%25B5%25B5%25C1%25A4%25BD%25C4%25B4%25E7_%25BE%25DF%25C5%25BE%25C1%25A1_%25BE%25D7%25C0%25DA%25C4%25C6-03.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260112_263%2F17681775516927LD5R_JPEG%2F25_12_%25C0%25DA%25BF%25AC%25BA%25B0%25B0%25EE_%25B5%25B5%25C1%25A4%25BD%25C4%25B4%25E7_%25BE%25DF%25C5%25BE%25C1%25A1_%25BE%25D7%25C0%25DA%25C4%25C6-03.jpg",
       alt: "자연별곡 NC 야탑점 대표 사진",
       caption: "자연별곡 NC 야탑점",
     },
@@ -47,7 +47,7 @@ const post = {
     {
       type: 'h2',
       id: "상기육개장",
-      text: "상기육개장 — 한식 전문점",
+      text: "상기육개장 — 혼밥 가능한 가성비 식당",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -63,7 +63,7 @@ const post = {
     {
       type: 'h2',
       id: "살레르노-판교점",
-      text: "살레르노 판교점 — 가성비 한 끼",
+      text: "살레르노 판교점 — 한식 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -100,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/자연별곡 NC 야탑점\">자연별곡 NC 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">3889건</td><td style=\"padding:7px 6px;text-align:center\">5,900~17,900원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/자연별곡 NC 야탑점\">자연별곡 NC 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">3889건</td><td style=\"padding:7px 6px;text-align:center\">5,900~17,900원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/상기육개장\">상기육개장</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/살레르노 판교점\">살레르노 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

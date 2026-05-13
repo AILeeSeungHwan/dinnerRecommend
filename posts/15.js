@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220214_35%2F1644839383763tlxmt_JPEG%2FCYMERA_20220209_140452.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220214_35%2F1644839383763tlxmt_JPEG%2FCYMERA_20220209_140452.jpg",
       alt: "한가람식당 대표 사진",
       caption: "한가람식당",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
       alt: "김돈이 선릉본점 대표 사진",
       caption: "김돈이 선릉본점",
     },
@@ -53,12 +53,12 @@ const post = {
     {
       type: 'h2',
       id: "경천아인-2237",
-      text: "경천아인 2237 — 리뷰 548건 검증 맛집",
+      text: "경천아인 2237 — 한우 전문 구이",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_108%2F1755315375675da9Mb_JPEG%2FIMG_4026.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_108%2F1755315375675da9Mb_JPEG%2FIMG_4026.jpeg",
       alt: "경천아인 2237 대표 사진",
       caption: "경천아인 2237",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260507_234%2F1778129309784C70yO_PNG%2FIMG_7439.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260507_234%2F1778129309784C70yO_PNG%2FIMG_7439.png",
       alt: "영동가든 대표 사진",
       caption: "영동가든",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_56%2F1729609504004LqALY_JPEG%2FKakaoTalk_20220313_134737929_01.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241023_56%2F1729609504004LqALY_JPEG%2FKakaoTalk_20220313_134737929_01.jpg",
       alt: "제주덕구 삼성점 대표 사진",
       caption: "제주덕구 삼성점",
     },
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/한가람식당\">한가람식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">1009건</td><td style=\"padding:7px 6px;text-align:center\">9,000~45,000원</td><td style=\"padding:7px 6px\">곱창 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/김돈이 선릉본점\">김돈이 선릉본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">836건</td><td style=\"padding:7px 6px;text-align:center\">2,000~11,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/경천아인 2237\">경천아인 2237</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">548건</td><td style=\"padding:7px 6px;text-align:center\">25,000~50,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">80,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/한가람식당\">한가람식당</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">1009건</td><td style=\"padding:7px 6px;text-align:center\">9,000~45,000원</td><td style=\"padding:7px 6px\">곱창 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/김돈이 선릉본점\">김돈이 선릉본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">836건</td><td style=\"padding:7px 6px;text-align:center\">2,000~11,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/경천아인 2237\">경천아인 2237</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">548건</td><td style=\"padding:7px 6px;text-align:center\">25,000~50,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/영동가든\">영동가든</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">9,000~15,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/제주덕구 삼성점\">제주덕구 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">80,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',

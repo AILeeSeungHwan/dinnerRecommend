@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F%2F20170728_76%2F1501228361184KPA4Q_JPEG%2F1501228250629.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F%2F20170728_76%2F1501228361184KPA4Q_JPEG%2F1501228250629.jpg",
       alt: "강남진해장 대표 사진",
       caption: "강남진해장",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200617_59%2F1592379205278qWBlm_JPEG%2F8xjbdKzKn3R-Zo4Q1aG0_joU.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200617_59%2F1592379205278qWBlm_JPEG%2F8xjbdKzKn3R-Zo4Q1aG0_joU.jpg",
       alt: "제주은희네해장국 강남역점 대표 사진",
       caption: "제주은희네해장국 강남역점",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240320_79%2F1710922982374IpQCe_JPEG%2F20240319_193220.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240320_79%2F1710922982374IpQCe_JPEG%2F20240319_193220.jpg",
       alt: "육전국밥 강남역점 대표 사진",
       caption: "육전국밥 강남역점",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210107_295%2F16099893643630Nk0V_JPEG%2Fz_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210107_295%2F16099893643630Nk0V_JPEG%2Fz_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
       alt: "칠백한우국밥 대표 사진",
       caption: "칠백한우국밥",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250530_227%2F1748576185543jioHH_JPEG%2F1%25B3%25AA%25C1%25D6%25B0%25F5%25C5%25C1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250530_227%2F1748576185543jioHH_JPEG%2F1%25B3%25AA%25C1%25D6%25B0%25F5%25C5%25C1.jpg",
       alt: "곰작골나주곰탕 강남점 대표 사진",
       caption: "곰작골나주곰탕 강남점",
     },

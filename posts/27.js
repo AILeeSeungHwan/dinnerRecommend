@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_78%2F1733041403976GTUxs_JPEG%2FGJF06445.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241201_78%2F1733041403976GTUxs_JPEG%2FGJF06445.jpg",
       alt: "스시산원 반주헌 대표 사진",
       caption: "스시산원 반주헌",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241021_64%2F1729506099399PeLoW_JPEG%2F213.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241021_64%2F1729506099399PeLoW_JPEG%2F213.jpg",
       alt: "밤별 포차 라운지 강남역본점 대표 사진",
       caption: "밤별 포차 라운지 강남역본점",
     },
@@ -53,12 +53,12 @@ const post = {
     {
       type: 'h2',
       id: "이자카야-오레노유메-강남역점",
-      text: "이자카야 오레노유메 강남역점 — 리뷰 1,050건이 쌓인 곳",
+      text: "이자카야 오레노유메 강남역점 — 시그니처 아보카도연어육회 33,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260227_13%2F17721739343040kRok_JPEG%2FIMG_7156.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260227_13%2F17721739343040kRok_JPEG%2FIMG_7156.jpeg",
       alt: "이자카야 오레노유메 강남역점 대표 사진",
       caption: "이자카야 오레노유메 강남역점",
     },
@@ -69,12 +69,12 @@ const post = {
     {
       type: 'h2',
       id: "이자카야-고코-강남신논현점",
-      text: "이자카야 고코 강남신논현점 — 시그니처 고코 숙성 사시미 42,000원",
+      text: "이자카야 고코 강남신논현점 — 리뷰 2,114건이 쌓인 곳",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250709_114%2F1752072650944kfCai_JPEG%2FKakaoTalk_20250709_233928108.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250709_114%2F1752072650944kfCai_JPEG%2FKakaoTalk_20250709_233928108.jpg",
       alt: "이자카야 고코 강남신논현점 대표 사진",
       caption: "이자카야 고코 강남신논현점",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_112%2F1752246302399AGfkG_JPEG%2FSOON2578.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250712_112%2F1752246302399AGfkG_JPEG%2FSOON2578.jpg",
       alt: "오뎅오색 강남역점 대표 사진",
       caption: "오뎅오색 강남역점",
     },

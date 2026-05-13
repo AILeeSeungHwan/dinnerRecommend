@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "꼬끼오-장작구이",
-      text: "꼬끼오 장작구이 — 한식 전문점",
+      text: "꼬끼오 장작구이 — 시그니처 한방누룽지통닭 19,900원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240426_242%2F1714124019043NbMkY_JPEG%2FIMG_7198.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240426_242%2F1714124019043NbMkY_JPEG%2FIMG_7198.jpeg",
       alt: "꼬끼오 장작구이 대표 사진",
       caption: "꼬끼오 장작구이",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251223_12%2F1766465054437g40JH_JPEG%2F%25BD%25E6%25B3%25D7%25C0%25CF.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251223_12%2F1766465054437g40JH_JPEG%2F%25BD%25E6%25B3%25D7%25C0%25CF.jpg",
       alt: "고기꾼김춘배 강남점 대표 사진",
       caption: "고기꾼김춘배 강남점",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210706_274%2F1625562793688SfwWj_JPEG%2FU4RTD0d4QYMco5KkpBHLMdG9.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210706_274%2F1625562793688SfwWj_JPEG%2FU4RTD0d4QYMco5KkpBHLMdG9.jpg",
       alt: "까사생갈비 대표 사진",
       caption: "까사생갈비",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250224_95%2F1740380218515lq6OR_PNG%2F%25B8%25DE%25C0%25CE1.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250224_95%2F1740380218515lq6OR_PNG%2F%25B8%25DE%25C0%25CE1.png",
       alt: "전설의우대갈비 강남직영점 대표 사진",
       caption: "전설의우대갈비 강남직영점",
     },
@@ -85,12 +85,12 @@ const post = {
     {
       type: 'h2',
       id: "라장양갈비양꼬치-무한리필",
-      text: "라장양갈비양꼬치 무한리필 — 시그니처 양꼬치 무한리필 23,900원",
+      text: "라장양갈비양꼬치 무한리필 — 중식 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231226_201%2F1703558043886LdPbH_JPEG%2FKakaoTalk_20231226_110025920.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231226_201%2F1703558043886LdPbH_JPEG%2FKakaoTalk_20231226_110025920.jpg",
       alt: "라장양갈비양꼬치 무한리필 대표 사진",
       caption: "라장양갈비양꼬치 무한리필",
     },
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220913_192%2F1663056263581LQk4y_JPEG%2Fimage.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220913_192%2F1663056263581LQk4y_JPEG%2Fimage.jpg",
       alt: "칼맞은삼겹살 강남본점 대표 사진",
       caption: "칼맞은삼겹살 강남본점",
     },
@@ -117,12 +117,12 @@ const post = {
     {
       type: 'h2',
       id: "엄순녀뼈구이순대국-강남역점",
-      text: "엄순녀뼈구이순대국 강남역점 — 시그니처 돼지한마리 얼큰해장순대국 11,000원",
+      text: "엄순녀뼈구이순대국 강남역점 — 한식 전문점",
       gradientStyle: { from: '#A8EDEA', to: '#FED6E3' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251119_74%2F1763538704899okiVv_PNG%2F%25C4%25A1%25C1%25EE%25BB%25C0%25B1%25B8%25C0%25CC%25B1%25D9%25C1%25A2.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251119_74%2F1763538704899okiVv_PNG%2F%25C4%25A1%25C1%25EE%25BB%25C0%25B1%25B8%25C0%25CC%25B1%25D9%25C1%25A2.png",
       alt: "엄순녀뼈구이순대국 강남역점 대표 사진",
       caption: "엄순녀뼈구이순대국 강남역점",
     },
@@ -138,7 +138,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\">고기꾼김춘배 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~34,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/까사생갈비\">까사생갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">5,000~109,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\">전설의우대갈비 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">22,000~39,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/라장양갈비양꼬치 무한리필\">라장양갈비양꼬치 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">15,000~27,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\">칼맞은삼겹살 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/꼬끼오 장작구이\">꼬끼오 장작구이</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">17,000~28,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/고기꾼김춘배 강남점\">고기꾼김춘배 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">8,000~34,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/까사생갈비\">까사생갈비</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">5,000~109,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/전설의우대갈비 강남직영점\">전설의우대갈비 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">22,000~39,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/라장양갈비양꼬치 무한리필\">라장양갈비양꼬치 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">59건</td><td style=\"padding:7px 6px;text-align:center\">15,000~27,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칼맞은삼겹살 강남본점\">칼맞은삼겹살 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">고기구이 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

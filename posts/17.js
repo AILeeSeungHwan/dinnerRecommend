@@ -31,7 +31,7 @@ const post = {
     {
       type: 'h2',
       id: "아비뉴프랑",
-      text: "아비뉴프랑 — 리뷰 4,082건이 쌓인 곳",
+      text: "아비뉴프랑 — 중식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -46,7 +46,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250227_36%2F17406550584703qcJ5_JPEG%2F%25C6%25C7%25A4%25A1%25BC%25EE%25BB%25E7%25C1%25F8.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250227_36%2F17406550584703qcJ5_JPEG%2F%25C6%25C7%25A4%25A1%25BC%25EE%25BB%25E7%25C1%25F8.jpg",
       alt: "팔복 판교 대표 사진",
       caption: "팔복 판교",
     },
@@ -57,12 +57,12 @@ const post = {
     {
       type: 'h2',
       id: "춘리마라탕-야탑점",
-      text: "춘리마라탕 야탑점 — 중식 전문점",
+      text: "춘리마라탕 야탑점 — 시그니처 꿔바로우(미니(5pc,소스따로불가)) 6,900원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241125_284%2F1732546316373c1h0W_JPEG%2FIMG_0008.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241125_284%2F1732546316373c1h0W_JPEG%2FIMG_0008.jpeg",
       alt: "춘리마라탕 야탑점 대표 사진",
       caption: "춘리마라탕 야탑점",
     },
@@ -88,7 +88,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아비뉴프랑\">아비뉴프랑</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">354건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아비뉴프랑\">아비뉴프랑</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/팔복 판교\">팔복 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">378건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">중식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/춘리마라탕 야탑점\">춘리마라탕 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">354건</td><td style=\"padding:7px 6px;text-align:center\">2,900~29,900원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/판교맛집 왕징양다리양꼬치 판교점\">판교맛집 왕징양다리양꼬치 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">35건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -15,9 +15,6 @@ export default function GovBadges({ govData }) {
   if (govData.business_status === 'active') {
     badges.push({ icon:'✓', text:'식약처 등록 영업소', color:'#43A047' })
   }
-  if (govData.hygiene_grade) {
-    badges.push({ icon:'✨', text:`위생등급 ${GRADE_LABEL[govData.hygiene_grade] || govData.hygiene_grade}`, color:'#FB8C00' })
-  }
   if (!badges.length) return null
   return (
     <div style={{ display:'flex', flexWrap:'wrap', gap:6, margin:'10px 0 16px' }}>
@@ -45,7 +42,6 @@ export function GovSourceFooter({ govData }) {
       <div style={{ fontWeight:700, marginBottom:6, color:'var(--text)' }}>📋 데이터 출처</div>
       {govData.business_status && <div>· 행정안전부 전국일반음식점표준데이터 (영업 상태·인허가일자)</div>}
       {govData.tour_contentid && <div>· 한국관광공사 국문 관광정보 서비스 (소개·사진)</div>}
-      {govData.hygiene_grade && <div>· 식품의약품안전처 음식점 위생등급</div>}
       {date && <div style={{ marginTop:6 }}>마지막 동기화: {date}</div>}
     </div>
   )
