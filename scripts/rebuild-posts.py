@@ -1262,19 +1262,25 @@ def generate_ending(post_data, related_posts):
 
 # ── CTA 생성 ────────────────────────────────────────────────────
 def generate_cta(post_data):
-    """카테고리 페이지 또는 지역 페이지로의 CTA"""
+    """카테고리 페이지 또는 지역 메인 페이지로의 CTA.
+    카테고리 페이지에 매핑된 카테고리만 CTA로 사용 (없는 카테고리는 지역 메인으로)."""
+    # 8개 region 카테고리 페이지에 실제 존재하는 카테고리만 (CATEGORY_MAP 키)
+    VALID_CATS = {'meat','gukbap','izakaya','japanese','chinese','western','chicken','group','date','budget','premium','special','exit4'}
     rinfo = REGION_INFO.get(post_data['region'], {})
     region_path = rinfo.get('path', '')
     rname = rinfo.get('name', '')
     cat = post_data.get('category', '')
     cat_label = CATEGORY_ANGLES.get(cat, {}).get('label', '')
 
-    if cat and region_path:
+    if cat in VALID_CATS and region_path:
         href = f'{region_path}/category/{cat}'
         text = f'{rname} {cat_label} 맛집 전체 보기'
-    else:
-        href = region_path or '/'
+    elif region_path:
+        href = region_path
         text = f'{rname} 전체 맛집 보기'
+    else:
+        href = '/'
+        text = '전체 맛집 보기'
 
     return {'href': href, 'text': text + ' →'}
 

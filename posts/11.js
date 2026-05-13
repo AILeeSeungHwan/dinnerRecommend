@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "제주은희네해장국-잠실직영점",
-      text: "제주은희네해장국 잠실직영점 — 해장·국밥 한 그릇",
+      text: "제주은희네해장국 잠실직영점 — 리뷰 784건 검증 맛집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "비사벌전주콩나물국밥",
-      text: "비사벌전주콩나물국밥 — 리뷰 632건 검증 맛집",
+      text: "비사벌전주콩나물국밥 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "본가설렁탕",
-      text: "본가설렁탕 — 리뷰 1,711건이 쌓인 곳",
+      text: "본가설렁탕 — 시그니처 설렁탕 15,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {

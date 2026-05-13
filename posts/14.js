@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "니고라멘",
-      text: "니고라멘 — 시그니처 니고라멘 10,500원",
+      text: "니고라멘 — 리뷰 641건 검증 맛집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -47,7 +47,7 @@ const post = {
     {
       type: 'h2',
       id: "아브뉴프랑-판교점",
-      text: "아브뉴프랑 판교점 — 한식 전문점",
+      text: "아브뉴프랑 판교점 — 리뷰 4,082건이 쌓인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -57,7 +57,7 @@ const post = {
     {
       type: 'h2',
       id: "화수목-샤브샤브-스키야키",
-      text: "화수목 샤브샤브 스키야키 — 리뷰 598건 검증 맛집",
+      text: "화수목 샤브샤브 스키야키 — 시그니처 소고기샤브샤브 23,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -94,7 +94,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/니고라멘\">니고라멘</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">641건</td><td style=\"padding:7px 6px;text-align:center\">500~16,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아브뉴프랑 판교점\">아브뉴프랑 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/화수목 샤브샤브 스키야키\">화수목 샤브샤브 스키야키</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">598건</td><td style=\"padding:7px 6px;text-align:center\">18,000~43,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/니고라멘\">니고라멘</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">641건</td><td style=\"padding:7px 6px;text-align:center\">500~16,000원</td><td style=\"padding:7px 6px\">맛 보장</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/아브뉴프랑 판교점\">아브뉴프랑 판교점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">4082건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/화수목 샤브샤브 스키야키\">화수목 샤브샤브 스키야키</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">598건</td><td style=\"padding:7px 6px;text-align:center\">18,000~43,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/플링크 판교\">플링크 판교</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">173건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

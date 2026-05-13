@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "진성한우곱창-방이직영점",
-      text: "진성한우곱창 방이직영점 — 리뷰 766건 검증 맛집",
+      text: "진성한우곱창 방이직영점 — 시그니처 한우곱창 19,000원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "돈담-잠실새내본점",
-      text: "돈담 잠실새내본점 — 시그니처 YBD통오겹살 15,000원",
+      text: "돈담 잠실새내본점 — 한식 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -85,7 +85,7 @@ const post = {
     {
       type: 'h2',
       id: "연정민-소금구이",
-      text: "연정민 소금구이 — 한식 전문점",
+      text: "연정민 소금구이 — 뷰가 보이는 자리",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/진성한우곱창 방이직영점\">진성한우곱창 방이직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">766건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">11,000~46,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/돈담 잠실새내본점\">돈담 잠실새내본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">25건</td><td style=\"padding:7px 6px;text-align:center\">7,000~18,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/연정민 소금구이\">연정민 소금구이</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">13건</td><td style=\"padding:7px 6px;text-align:center\">3,000~51,900원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/진성한우곱창 방이직영점\">진성한우곱창 방이직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">766건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/지강한식당 잠실점\">지강한식당 잠실점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">3,500~22,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/쌤쌤쌤 롯데월드몰점\">쌤쌤쌤 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">111건</td><td style=\"padding:7px 6px;text-align:center\">11,000~46,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/돈담 잠실새내본점\">돈담 잠실새내본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">25건</td><td style=\"padding:7px 6px;text-align:center\">7,000~18,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/연정민 소금구이\">연정민 소금구이</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">13건</td><td style=\"padding:7px 6px;text-align:center\">3,000~51,900원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',
