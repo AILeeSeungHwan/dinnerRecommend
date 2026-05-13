@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
+import { fetchGovData } from '../../../../lib/govData'
+import GovBadges, { GovSourceFooter } from '../../../../components/GovBadges'
 import FaqAccordion from '../../../../components/FaqAccordion'
 import restaurants from '../../../../data/yeongtong'
 
@@ -24,7 +26,8 @@ export async function getStaticProps({ params }) {
     .slice(0, 4)
     .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
 
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar } }
+  const govData = await fetchGovData('yeongtong', r.name)
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 86400 }
 }
 
 const CAT_TO_SLUG = {
@@ -398,7 +401,7 @@ function naverMapUrl(name, lat, lng) {
   return `https://map.naver.com/v5/search/${encodeURIComponent(query)}`
 }
 
-export default function RestaurantPage({ restaurant: r, similar }) {
+export default function RestaurantPage({ restaurant: r, similar, govData }) {
   const slug = CAT_TO_SLUG[r.cat?.[0]] || null
   const catName = slug ? CAT_NAMES[slug] : null
   const mapUrl = naverMapUrl(r.name, r.lat, r.lng)
@@ -562,6 +565,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:20 }} />
 
         {/* 기본 정보 표 */}
+        <GovBadges govData={govData} />
         <h2 style={h2style}>📋 기본 정보</h2>
         <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
           <tbody>
@@ -807,6 +811,7 @@ export default function RestaurantPage({ restaurant: r, similar }) {
             ✨ AI 맞춤 추천 받기
           </Link>
         </div>
+        <GovSourceFooter govData={govData} />
 
       </article>
     </Layout>
