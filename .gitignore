@@ -5,3 +5,5 @@ public/images/restaurants/
 .env
 .env.local
 .env.*.local
+scripts/govdata/*.csv
+scripts/govdata/*.xlsx
