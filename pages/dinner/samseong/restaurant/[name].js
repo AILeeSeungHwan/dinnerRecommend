@@ -4,6 +4,7 @@ import Layout from '../../../../components/Layout'
 import AdUnit from '../../../../components/AdUnit'
 import { fetchGovData } from '../../../../lib/govData'
 import GovBadges, { GovSourceFooter } from '../../../../components/GovBadges'
+import CategorySuggestButton from '../../../../components/CategorySuggestButton'
 import FaqAccordion from '../../../../components/FaqAccordion'
 import restaurants from '../../../../data/samseong'
 
@@ -765,6 +766,8 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             ))}
           </div>
         )}
+        <CategorySuggestButton restaurant={r} region="samseong" />
+
         <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
 
         <h2 style={h2style}>🗺️ 위치 & 찾아가는 법</h2>
