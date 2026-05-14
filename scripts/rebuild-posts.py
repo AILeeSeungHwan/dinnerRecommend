@@ -766,6 +766,69 @@ def _facility_phrase(r):
         if m: bits.append(f'위치 {m.group(0)}')
     return ' · '.join(bits)
 
+def _verdict_line(r, region_name, cat_label, avg_rating_in_post):
+    """한 줄 평가 — 운영자가 데이터를 본 뒤 적은 듯한 결론."""
+    rating = r.get('rating', 0) or 0
+    cnt = r.get('reviewCount', 0) or 0
+    tags = set(r.get('tags', []) or [])
+    if rating >= 4.7 and cnt >= 300:
+        return f'{region_name} {cat_label} 중에서도 평점·리뷰 모두 상위권에 속해 실패할 확률이 낮은 곳입니다.'
+    if rating >= 4.5 and cnt >= 100:
+        return f'평점이 안정적으로 높고 리뷰가 누적된 곳이라 "처음 가도 후회 안 할" 옵션에 가깝습니다.'
+    if rating >= 4.0 and cnt >= 50:
+        return '평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.'
+    if cnt < 30:
+        return '리뷰 표본이 작아 단정하기 어렵지만, 새로 발견하기 좋은 후보 식당으로 묶을 수 있습니다.'
+    return '데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.'
+
+def _recommend_audience(r, category):
+    """어떤 사람에게 추천 — 데이터·태그 기반."""
+    tags = set(r.get('tags', []) or [])
+    moods = set(r.get('moods', []) or [])
+    price = (r.get('priceRange') or '').replace(' ','')
+    lo = 0
+    if '~' in price:
+        try: lo = int(price.split('~')[0])
+        except: pass
+    audiences = []
+    if '혼밥가능' in tags: audiences.append('빠르게 한 끼 해결하려는 직장인 점심')
+    if '데이트' in tags or '데이트' in moods: audiences.append('가볍게 분위기 잡고 싶은 데이트')
+    if '단체가능' in tags or '룸있음' in tags: audiences.append('5~10인 회식·모임')
+    if '가성비' in tags or (lo and lo <= 12000): audiences.append('한 끼 만원대 가성비 점심')
+    if '예약필수' in tags: audiences.append('주말 저녁 미리 잡고 가는 약속')
+    if '뷰맛집' in tags: audiences.append('창가 자리에서 풍경 보며 식사')
+    if not audiences:
+        if category == 'meat': audiences.append('고기 한판 든든하게 챙기고 싶은 자리')
+        elif category == 'date': audiences.append('편하게 분위기 있는 식사 자리')
+        elif category == 'group': audiences.append('단체로 모이는 회식 자리')
+        else: audiences.append('가까운 거리에서 무난하게 먹을 곳을 찾을 때')
+    return audiences[:3]
+
+def _rv_insight(name, region):
+    """rv 리뷰 분석 — 어떤 점이 자주 언급되는지 운영자 시각으로 정리."""
+    rv_list = RV_MAP.get(region, {}).get(name, []) or []
+    if not rv_list: return ''
+    combined = ' '.join(rv_list[:6])
+    # 키워드 카운트
+    themes = []
+    if sum(combined.count(k) for k in ['가성비','가격대비','저렴']) >= 2:
+        themes.append('가격 대비 만족도')
+    if sum(combined.count(k) for k in ['신선','당일','활어']) >= 2:
+        themes.append('재료 신선도')
+    if sum(combined.count(k) for k in ['친절','서비스','사장님']) >= 2:
+        themes.append('서비스·응대')
+    if sum(combined.count(k) for k in ['분위기','인테리어','깔끔']) >= 2:
+        themes.append('매장 분위기·청결')
+    if sum(combined.count(k) for k in ['양많','푸짐','넉넉']) >= 2:
+        themes.append('1인 양')
+    if sum(combined.count(k) for k in ['웨이팅','대기','줄']) >= 2:
+        themes.append('피크 시간 웨이팅')
+    if sum(combined.count(k) for k in ['재방문','또 올','단골']) >= 2:
+        themes.append('재방문 의사')
+    if not themes: return ''
+    return ' · '.join(themes[:4])
+
+
 def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, avg_hi=0):
     name = r['name']
     link = f'{region_path}/restaurant/{name}'
@@ -789,78 +852,71 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
         except: pass
 
     sig_name, sig_price = _signature_menu(r)
+    region_name = REGION_INFO.get(region, {}).get('name', '')
+    cat_label = CATEGORY_ANGLES.get(category, {}).get('label', '')
     parts = []
 
-    # ① 도입 — 식당 정체성 + 평점·리뷰
-    name_link = f'<a href="{link}">{esc(name)}</a>'
-    josa_eun = _josa(name, '은', '는')
-    josa_i = _josa(name, '이', '가')
-    intro = name_link + josa_eun
-    if rtype:
-        intro += f' {rtype} 카테고리에 속하는 식당으로'
+    # ① 한 줄 결론 — 운영자가 데이터 본 뒤 내린 판단
+    verdict = _verdict_line(r, region_name, cat_label, 0)
+    if verdict:
+        parts.append(f'<p><strong>{esc(name)}</strong>{_josa(name," — "," — ")}{esc(verdict)}</p>')
+
+    # ② 시그니처 메뉴·가격 강조 (있을 때)
     if sig_name and sig_price:
-        sig_josa = _josa(sig_name, '은', '는')
-        intro += f', 대표 메뉴{sig_josa} <strong>{esc(sig_name)} {sig_price:,}원</strong>입니다.'
+        parts.append(f'<p>간판 메뉴는 <strong>{esc(sig_name)} {sig_price:,}원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p>')
     elif sig_name:
-        sig_josa = _josa(sig_name, '이', '가')
-        intro += f', 대표 메뉴로는 {esc(sig_name)}{sig_josa} 자주 언급됩니다.'
-    else:
-        intro += '입니다.'
-    review_phrase = ''
-    if rating > 0 and cnt > 0:
-        if cnt >= 500:
-            review_phrase = f' 누적 리뷰 {cnt:,}건에 평점 {rating}점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.'
-        elif cnt >= 100:
-            review_phrase = f' 평점 {rating}점에 리뷰 {cnt}건으로 안정적인 평가가 쌓여 있습니다.'
+        parts.append(f'<p>리뷰에서 가장 자주 언급되는 메뉴는 <strong>{esc(sig_name)}</strong>입니다.</p>')
+
+    # ③ 가격대 비교 (카테고리 평균 대비)
+    if lo and hi and avg_lo:
+        diff = lo - avg_lo
+        if abs(diff) <= 1500:
+            tip = f'{region_name} {cat_label} 평균 시작가({avg_lo:,}원)와 거의 같은 가격대라 카테고리 평균치를 정확히 보여주는 식당입니다.'
+        elif diff > 0:
+            tip = f'{region_name} {cat_label} 평균({avg_lo:,}원)보다 {diff:,}원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.'
         else:
-            review_phrase = f' 평점 {rating}점, 리뷰 {cnt}건 수준이라 표본은 작지만 평가가 좋은 편입니다.'
-    parts.append(f'<p>{intro}{review_phrase}</p>')
+            tip = f'{region_name} {cat_label} 평균({avg_lo:,}원)보다 {abs(diff):,}원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.'
+        parts.append(f'<p>1인 기준 {lo:,}~{hi:,}원. {tip}</p>')
 
-    # ② 가격 비교 + 가격대
-    if lo and hi:
-        cmp_phrase = _price_compare_phrase(lo, hi, avg_lo, avg_hi)
-        price_phrase = f'1인 기준 가격대는 {lo:,}원에서 {hi:,}원 사이로 형성되어 있습니다.'
-        parts.append(f'<p>{price_phrase} {cmp_phrase}</p>')
-
-    # ③ 메뉴 표 (주요 식당만 풀 메뉴 표시)
+    # ④ 메뉴 표 (주요 식당만 풀 메뉴)
     if is_main:
         mb = _menu_block(r)
         if mb:
-            parts.append(f'<p>대표 메뉴와 가격은 다음과 같습니다.</p>{mb}')
+            parts.append(f'<p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p>{mb}')
     else:
-        # 보조 식당은 메뉴 2~3개를 한 문장으로
         menus = filter_menu_items(r.get('menuItems') or [])[:3]
         if menus:
             ms = ', '.join(f'{esc(m.get("name",""))} {int(m.get("price") or 0):,}원' if m.get('price') else esc(m.get('name','')) for m in menus)
-            parts.append(f'<p>메뉴는 {ms} 등이 있습니다.</p>')
+            parts.append(f'<p>메뉴 중에는 {ms} 등이 자주 언급됩니다.</p>')
 
-    # ④ 사용 시점 제안 + 편의시설 (일률 멘트 X)
-    scene = _scene_phrase(r, category)
-    if scene:
-        parts.append(f'<p>{esc(scene)}</p>')
+    # ⑤ 리뷰에서 발견한 점 — 키워드 분석
+    insight_keys = _rv_insight(name, region)
+    rv_quote = extract_review_quote(name, region)
+    if insight_keys:
+        parts.append(f'<p><strong>리뷰에서 자주 언급되는 점</strong>: {esc(insight_keys)}.</p>')
+    if is_main and rv_quote:
+        parts.append(f'<p style="border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0">{esc(rv_quote)}</p>')
+
+    # ⑥ 어떤 사람에게 추천 — 구체적
+    aud = _recommend_audience(r, category)
+    if aud:
+        parts.append(f'<p><strong>이런 분에게 추천</strong>: {esc(" / ".join(aud))}.</p>')
+
+    # ⑦ 편의시설 (예약·주차·영업시간·위치)
     fac = _facility_phrase(r)
     if fac:
-        parts.append(f'<p style="font-size:.85rem;color:var(--muted)">📌 {esc(fac)}</p>')
+        parts.append(f'<p style="font-size:.84rem;color:var(--muted)">📌 {esc(fac)}</p>')
 
-    # ⑤ 리뷰 키워드 — 카운트 기반 (중복 방지)
-    rv_summary = extract_review_summary(name, region)
-    if rv_summary:
-        parts.append(f'<p>{esc(rv_summary)}</p>')
-    # 짧은 인용 (주요 식당만)
-    if is_main:
-        rv_quote = extract_review_quote(name, region)
-        if rv_quote:
-            parts.append(f'<p style="border-left:3px solid var(--border);padding-left:12px;color:var(--muted);font-size:.92rem">{esc(rv_quote)}</p>')
-
-    # ⑥ 상세 페이지 — 누르고 싶은 버튼 UI
+    # ⑧ 상세 페이지 — 누르고 싶은 버튼 UI (강한 단색·흰 텍스트·그림자)
     parts.append(
-        f'<div style="margin:18px 0 8px;text-align:center">'
-        f'<a href="{link}" style="display:inline-flex;align-items:center;gap:8px;'
-        f'padding:13px 26px;border-radius:12px;'
-        f'background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);'
-        f'color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;'
-        f'box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s">'
-        f'🍽 {esc(name)} 메뉴·리뷰·위치 보기 →</a>'
+        f'<div style="margin:22px 0 10px;text-align:center">'
+        f'<a href="{link}" style="display:inline-flex;align-items:center;gap:10px;'
+        f'padding:14px 28px;border-radius:14px;'
+        f'background:#2563EB;'
+        f'color:#fff;font-weight:800;font-size:.95rem;text-decoration:none;'
+        f'letter-spacing:.01em;'
+        f'box-shadow:0 6px 20px rgba(37,99,235,.45);transition:transform .15s,box-shadow .15s">'
+        f'🍽 {esc(name)} 자세히 보기 →</a>'
         f'</div>'
     )
 
