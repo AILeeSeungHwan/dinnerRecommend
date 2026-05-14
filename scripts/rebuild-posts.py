@@ -1697,7 +1697,7 @@ for post_data in all_posts_meta:
     if pid in SKIP_POST_IDS: continue
     rests = post_data.get('restaurants', [])
     thumb = ''
-    BAD_THUMB = ('g-place.pstatic.net','/assets/shared/','/favicon','/icon-')
+    BAD_THUMB = ('g-place.pstatic.net','/assets/shared/','/favicon','/icon-','/pup/emoji','/emoji/','face_savoring','steamed_rice')
     for r in rests:
         u = r.get('imageUrl','')
         if u and not any(b in u for b in BAD_THUMB):

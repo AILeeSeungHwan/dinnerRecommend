@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "우판등심-수원점",
-      text: "우판등심 수원점 — 한식 점심 식당",
+      text: "우판등심 수원점 — 리뷰 2,915건이 쌓인 곳",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {

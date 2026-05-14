@@ -8,6 +8,10 @@ const CAT_SLUG_BY_KEYWORD = {
   '양식':'western','이탈리안':'western','파스타':'western','스테이크':'western','피자':'western',
   '치킨':'chicken','야장':'chicken',
   '국밥':'gukbap','순대':'gukbap','곰탕':'gukbap','설렁탕':'gukbap','해장':'gukbap',
+  '돈가스':'japanese','우동':'japanese','소바':'japanese',
+  '족발':'meat','보쌈':'meat','막창':'meat','구이':'meat','한우구이':'meat',
+  '한식':'gukbap','분식':'gukbap','국수':'gukbap','칼국수':'gukbap','떡볶이':'gukbap',
+  '카페':'cafe','디저트':'cafe','베이커리':'cafe','베이글':'cafe','케이크':'cafe','브런치':'cafe',
 }
 
 const CAT_LABEL = {
@@ -41,9 +45,21 @@ function pickCategory(r) {
 
 export default function CategorySuggestButton({ restaurant, region }) {
   const slug = pickCategory(restaurant)
-  if (!slug) return null
   const regName = REGION_NAME[region] || region
   const regPath = REGION_PATH[region] || `/dinner/${region}`
+  // 카테고리 매칭 실패 시 region 메인으로 유도
+  if (!slug) {
+    return (
+      <div style={{ margin:'20px auto 24px', maxWidth:520 }}>
+        <a href={regPath} style={{ textDecoration:'none' }}>
+          <div style={{ padding:'18px 22px', borderRadius:14, background:'linear-gradient(135deg, #FF6B6B 0%, #FFA94D 100%)', color:'#fff', textAlign:'center', boxShadow:'0 8px 22px rgba(255,107,107,.35)', cursor:'pointer' }}>
+            <div style={{ fontSize:'.78rem', opacity:.95, marginBottom:6, fontWeight:600 }}>🔥 {regName}의 다른 맛집이 궁금하다면?</div>
+            <div style={{ fontSize:'1.08rem', fontWeight:900 }}>지금 평점 높은 {regName} 맛집 BEST 비교 →</div>
+          </div>
+        </a>
+      </div>
+    )
+  }
   const catLabel = CAT_LABEL[slug] || slug
 
   return (

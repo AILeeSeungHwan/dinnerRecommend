@@ -253,13 +253,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "당면볶이, 닭가슴살 김밥당면볶이는 맵기 선택 할 수 있어서 좋고, 당면 좋아하는 사람한테 딱이네요^^ 순한맛으로 주문해서 맛있게 먹었습니다.수원페이 사용했어요.더보기",
-      "좋아요.아이가 라볶이를 좋아해요.컵치킨이랑~늘 맛있고 친절해요~자주 올께요",
-      "컵밥이 맛있어요.가성비좋고 친절해요. 재구매입니다",
-      "컵밥이 맛있어요. 국물요청했는데 새로 끊여 주셔서 너무 좋았어요.아이들이 다음에 또 먹어보고 싶다고 하네요",
-      "평소에 한@도시락 자주 사먹는데 너무 자극적이고 느끼함이 강해서 방문했어요.장소는 협소하지만 포장이라 문제없었고 주문 즉시 조리되는거라 따스한 컵밥이랑 음식들.김밥을 못먹는 저희 아이와 함께 먹을 때는 자주 방문 할 거 같아요."
-    ],
+    "rv": ["사장님이 엄청 친절하시고 컵밥이랑 떡볶이가 참 맛있어용 강추 드립니노 💕💕"],
     "naverPlaceId": "1123813475",
     "naverBlogCnt": 56,
     "menuItems": [
@@ -552,7 +546,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1511279042/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_271%2F17641142316719yi0a_JPEG%2FKakaoTalk_20251121_164328064_07.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_271%2F17641142316719yi0a_JPEG%2FKakaoTalk_20251121_164328064_07.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_144%2F1764114231661TiUww_JPEG%2FKakaoTalk_20251121_165132823_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_261%2F1764114231766Y0D0v_JPEG%2FKakaoTalk_20251121_165132823_03.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_13%2F1764114231795RAGRI_JPEG%2FKakaoTalk_20251121_165132823_07.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_32%2F1764114231772DAoEE_JPEG%2FKakaoTalk_20251121_165132823_10.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260220_232/1771539903324F9fAt_JPEG/8.%C0%AF%B8%AE%BD%BA%C4%AB%BD%C3_600X-01.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_271%2F17641142316719yi0a_JPEG%2FKakaoTalk_20251121_164328064_07.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_144%2F1764114231661TiUww_JPEG%2FKakaoTalk_20251121_165132823_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_261%2F1764114231766Y0D0v_JPEG%2FKakaoTalk_20251121_165132823_03.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_13%2F1764114231795RAGRI_JPEG%2FKakaoTalk_20251121_165132823_07.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_32%2F1764114231772DAoEE_JPEG%2FKakaoTalk_20251121_165132823_10.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260220_232/1771539903324F9fAt_JPEG/8.%C0%AF%B8%AE%BD%BA%C4%AB%BD%C3_600X-01.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -1342,7 +1336,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1776078096/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_99%2F1685798226327AMvKq_JPEG%2FIMG_6455.jpeg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_99%2F1685798226327AMvKq_JPEG%2FIMG_6455.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_157%2F1685798388546jsMWi_JPEG%2FIMG_6481.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_72%2F1685798222930qjGtu_JPEG%2FCFF76E87-F4D7-4025-9D8F-3551B8C44FFE.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_39%2F1685798388489PvcQr_JPEG%2FIMG_6478.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMzFfMjY0%2FMDAxNzY3MTg5MDQxNTE1.ahxkDKtqvpvo1HXNYRIR6pRjurbQc4mGRVMtzhNuDSAg.AjAtaELiVJIjdM_ac0e4n1bivzBEFabVlmPiG_omVVMg.JPEG%2F20251130_142339.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/bread20220119222229.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_99%2F1685798226327AMvKq_JPEG%2FIMG_6455.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_157%2F1685798388546jsMWi_JPEG%2FIMG_6481.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_72%2F1685798222930qjGtu_JPEG%2FCFF76E87-F4D7-4025-9D8F-3551B8C44FFE.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230603_39%2F1685798388489PvcQr_JPEG%2FIMG_6478.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMzFfMjY0%2FMDAxNzY3MTg5MDQxNTE1.ahxkDKtqvpvo1HXNYRIR6pRjurbQc4mGRVMtzhNuDSAg.AjAtaELiVJIjdM_ac0e4n1bivzBEFabVlmPiG_omVVMg.JPEG%2F20251130_142339.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -1460,13 +1454,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "치킨버거 먹고싶으면 여기서 항상 먹어요 ㅎㅎ뭔가 다른 브랜드보다 치킨이 살아있는 느낌?작년에 생기고 나서부터 자주 먹고있고앞으로도 많이 먹을거같아요~ 추천드려요!더보기",
-      "깨끗한 기름맛에 기름기 쫙뺀 맛에요. 매장도 깔끔하고 한가롭게 식사하기 좋으네요~^^♡",
-      "운동 후 진짜 맨날여기와서 먹음. 너무맛잇음",
-      "햄버거는 여기만 항상 와요 존맛탱임!!!!!",
-      "첫 방문 치킨이라 너무 맛잇고 부드러워서 좋아요!!"
-    ],
+    "rv": ["지인 추천으로 왔는데 정말 맛있네요!! 처음먹어보는데 자주 이용할 것 같아요 너무 맛있어요🤍", "양이 정말 푸짐하고 닭고기 패티가 두꺼워서 정말 먹는맛이 있어서 너무 좋았어요 앞으로 자주 올거같아요!"],
     "naverPlaceId": "1659771469",
     "naverBlogCnt": 41,
     "menuItems": [
@@ -1525,7 +1513,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1659771469/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251216_224%2F1765871410084JMYud_JPEG%2F251211_%25BF%25F2%25B9%25F6%25B0%25C5%25BE%25D8%25C0%25AE%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25BC%25DB%25B0%25AD2.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251216_224%2F1765871410084JMYud_JPEG%2F251211_%25BF%25F2%25B9%25F6%25B0%25C5%25BE%25D8%25C0%25AE%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25BC%25DB%25B0%25AD2.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251216_92%2F1765871413743iOhIx_JPEG%2F251211_%25BF%25F2%25B9%25F6%25B0%25C5%25BE%25D8%25C0%25AE%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25BC%25DB%25B0%25AD1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251208_27%2F1765162827544lHpgF_PNG%2F%25B9%25E8%25B9%25CE.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_267%2F1748226836438nJ95P_JPEG%2Fum_%25B9%25E8%25B0%25E6%25C0%25CC%25B9%25CC%25C1%25F6_01.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250829_108%2F1756445355147SgHT4_JPEG%2F1280X960_%25C7%25D2%25B6%25F3%25C7%25C7%25B4%25A2_%25B8%25F0%25C0%25BD%25C4%25C6.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250319_77/174236454342708gg6_JPEG/%BF%C0%B8%AE%C1%F6%B3%CE.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251216_224%2F1765871410084JMYud_JPEG%2F251211_%25BF%25F2%25B9%25F6%25B0%25C5%25BE%25D8%25C0%25AE%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25BC%25DB%25B0%25AD2.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251216_92%2F1765871413743iOhIx_JPEG%2F251211_%25BF%25F2%25B9%25F6%25B0%25C5%25BE%25D8%25C0%25AE%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25BC%25DB%25B0%25AD1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251208_27%2F1765162827544lHpgF_PNG%2F%25B9%25E8%25B9%25CE.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250526_267%2F1748226836438nJ95P_JPEG%2Fum_%25B9%25E8%25B0%25E6%25C0%25CC%25B9%25CC%25C1%25F6_01.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250829_108%2F1756445355147SgHT4_JPEG%2F1280X960_%25C7%25D2%25B6%25F3%25C7%25C7%25B4%25A2_%25B8%25F0%25C0%25BD%25C4%25C6.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250319_77/174236454342708gg6_JPEG/%BF%C0%B8%AE%C1%F6%B3%CE.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -1721,10 +1709,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 106.101.0.124(18/Mar/2026:01:38:15 +0900)"
-    ],
+    "rv": ["친구에게 추천받아 전부터 오고 싶었는데 생일 기념으로 가족들과 같이 방문했어요. 세트메뉴도 구성이 너무 알차고 맛있습니다. 크림 뇨끼랑 파스타 모두 향도 풍부하고 꾸덕하니 딱 제 스타일이었어요~~"],
     "naverPlaceId": "1636249945",
     "naverBlogCnt": 0,
     "menuItems": [],
@@ -1852,13 +1837,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있어요 맵기조절다양하고요 공기밥서비스도 있었는데 배가불러서 못먹었네요",
-      "사람도 별로 없었는데 주문 넘 늦게 나오고 정신이 하나도 없음 2번째 방문인데 저번에 이어 또 계산 실수함 소주잔이랑 접시가 하나같이 끈적거림 비위생적 손님들 먹고 가면 바로바로 치우지도 않고 방치 다신 안갈듯",
-      "아이들이 여가 마라탕을 좋아해요. 꿔바로우도 맛있다고 하네요~",
-      "우리 집 청소년의 최애집",
-      "영통 마라탕 맛집 진향원 마라탕✨구수하고 매콤해서 너무 맛있어요 !자꾸 국물에 손이 가는 맛근처에서는 여기 마라탕이 좋더라구여♡가성비 좋고 공기밥도 무료에요👍🏻더보기"
-    ],
+    "rv": ["아이가 좋아해서 늘 마라탕 재료 포장해 와요. 국물 넉넉하게 주셔서 좋아요.", "사람도 별로 없었는데 주문 넘 늦게 나오고 정신이 하나도 없음 2번째 방문인데 저번에 이어 또 계산 실수함 소주잔이랑 접시가 하나같이 끈적거림 비위생적 손님들 먹고 가면 바로바로 치우지도 않고 방치 다신 안갈듯", "명절 연휴에 진향원 마라탕은 한 번 먹어줘야죠. ^^ 가족이 와서 마라탕과 꿔바로우 맛있게 먹고 갑니다~!", "아주대 향원마라탕만 다니다가 여기도 와봤는데 마라탕 맛이 거의 비슷해서 맛있어요 😍 게다가 소주도 4천원이라 술 2병 해치웠네요 꿔바로우는 아주대 향원마라탕이 더 맛있어요..! 근데 가격도 좋고 나쁘지 않음 다음에 또 갈거 같아요"],
     "naverPlaceId": "1150933179",
     "naverBlogCnt": 50,
     "menuItems": [
@@ -1924,11 +1903,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있어요~!~! 👍🏻👍🏻 자주 생각나는 맛",
-      "살짝 매콤해서 느끼하지않아요옛날통닭 맛있어요",
-      "가성비도 좋고 맛있어요 살짝 매콤해서 더 맛있어요"
-    ],
+    "rv": ["그냥 가성비좋고 튀김기 주변의 청결함에 자주찾던 가게인데 자세히 보니 우리동네 착한가게 였네요~~ 전화주문도 친절히 응대하고 시간 지켜 준비해주니 기다릴 필요없이 먹을수 있어 좋아요"],
     "naverPlaceId": "1792001800",
     "naverBlogCnt": 21,
     "menuItems": [
@@ -1972,7 +1947,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1792001800/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221028_83%2F1666952508152a6J0b_JPEG%2F16669524738124820124746958462382.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221028_83%2F1666952508152a6J0b_JPEG%2F16669524738124820124746958462382.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjRfMzMg%2FMDAxNzUwNzUxNDcxMTU0.OtP9JoD_kYWjC_ym_YtsLK27zknXuEZHC7id6H3BH-Ig.1IDCx4DmUyOtON0pa9PtA5tSSKgr6R8pFEyQj6GsX7kg.JPEG%2FCEE0E0B7-BDC9-40A7-AAB0-F6A3F1845D29.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjdfMTA1%2FMDAxNzY0MjQxNTg5MDc5.CzaY2UskOs4gfuzdSh9usfVQTBCgFq1WeLQVvkbjjg4g.CChFs94GDyZVmCKkgwXmvfn_gG-5gOV-qDeppT6WMBUg.JPEG%2FScreenshot_20251127_200441_NAVER.jpg.jpg", "imageUrl5": "https://ldb-phinf.pstatic.net/20240728_293/1722103220599EtMXn_JPEG/Screenshot_20240728_025721_NAVER.jpg", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221028_83%2F1666952508152a6J0b_JPEG%2F16669524738124820124746958462382.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjRfMzMg%2FMDAxNzUwNzUxNDcxMTU0.OtP9JoD_kYWjC_ym_YtsLK27zknXuEZHC7id6H3BH-Ig.1IDCx4DmUyOtON0pa9PtA5tSSKgr6R8pFEyQj6GsX7kg.JPEG%2FCEE0E0B7-BDC9-40A7-AAB0-F6A3F1845D29.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjdfMTA1%2FMDAxNzY0MjQxNTg5MDc5.CzaY2UskOs4gfuzdSh9usfVQTBCgFq1WeLQVvkbjjg4g.CChFs94GDyZVmCKkgwXmvfn_gG-5gOV-qDeppT6WMBUg.JPEG%2FScreenshot_20251127_200441_NAVER.jpg.jpg", "imageUrl5": "https://ldb-phinf.pstatic.net/20240728_293/1722103220599EtMXn_JPEG/Screenshot_20240728_025721_NAVER.jpg", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -2343,11 +2318,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "김치가 진짜 레전드로 맛있어서 자주 시켜먹는데 수원페이도 되니까 더 좋음",
-      "양많고 맛있게 먹엇어요",
-      "맛있어요배달이 늦었는데 죄송하다고 문자도 보내주시고 친절하셨어요"
-    ],
+    "rv": ["김치가 진짜 레전드로 맛있어서 자주 시켜먹는데 수원페이도 되니까 더 좋음"],
     "naverPlaceId": "1240740838",
     "naverBlogCnt": 4,
     "menuItems": [
@@ -3137,7 +3108,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1867503708/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230206_224%2F1675679604557pJdUF_JPEG%2F1675679534929.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230206_224%2F1675679604557pJdUF_JPEG%2F1675679534929.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210930_258%2F1632971543116cFRPC_JPEG%2F1x1A-_T50k16xvWFVGn9opv1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210923_65%2F1632399834407YJatA_JPEG%2F6edXjHq1c8QxN5k80NNe1ECR.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220219_171%2F1645275842464I3e6w_JPEG%2F1645274820760.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220219_206%2F1645275850998WTFkY_JPEG%2F1645275029223.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20230718_226/1689613701109iDs34_JPEG/20230713_220038.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230206_224%2F1675679604557pJdUF_JPEG%2F1675679534929.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210930_258%2F1632971543116cFRPC_JPEG%2F1x1A-_T50k16xvWFVGn9opv1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210923_65%2F1632399834407YJatA_JPEG%2F6edXjHq1c8QxN5k80NNe1ECR.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220219_171%2F1645275842464I3e6w_JPEG%2F1645274820760.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220219_206%2F1645275850998WTFkY_JPEG%2F1645275029223.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20230718_226/1689613701109iDs34_JPEG/20230713_220038.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -3234,8 +3205,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "[생선구이와 셀프바 완벽구성!]점심에 우연히 발견하고 온 달.빛.고입장과 동시에 맛집이구나 알수있었어요!생선구이4종세트엔 간장 새우장과아이스 홍시까지 있어서 구성이 참 좋고셀프바에선 잡채와 떡볶이가 엄청 맛있네요!생선구이는 당연하게 아주 맛있습니다.밥 한공기는 금방 뚝딱이에요!집 근처에 이런 맛집이 있다니 감사합니다!잘먹었어요!모듬구이 2인 : 39,000",
+    "rv": ["오픈시간에 맞춰서 방문했어요. 이시간에 와도 손님 많아요. 계란말이 맛있고 미역국, 생선구이, 각종 반찬들 다양해요. 생일에 와도 좋을거같아요. 맛있어요."]점심에 우연히 발견하고 온 달.빛.고입장과 동시에 맛집이구나 알수있었어요!생선구이4종세트엔 간장 새우장과아이스 홍시까지 있어서 구성이 참 좋고셀프바에선 잡채와 떡볶이가 엄청 맛있네요!생선구이는 당연하게 아주 맛있습니다.밥 한공기는 금방 뚝딱이에요!집 근처에 이런 맛집이 있다니 감사합니다!잘먹었어요!모듬구이 2인 : 39,000",
       "달빛고가 수원망포점이 열었다고 해서 반가운 마음에 방문. 토요일 저녁 늦게라 너무 붐비지 않고 좋았다. 고등어, 삼치 둘 다 고소하고 담백하고 이중주가 훌륭. 사이드는 무한리필. 계란말이, 잡채, 숭늉 등도 너무 맛있어서 강추.",
       "오.. 오늘은 갈치가 껴있네요 임연수가 사라진건가암튼 맛있어요 조림은 처음인데 이것도 맛나요양이 너무 적고 양대비 비싸긴한데 맛있어서 용서됌사람 많은데는 이유가 있어요더보기",
       "어른 6명이 함께 방문했는데 자리도 넉넉하고 분위기가 편안해서 식사하기 좋았어요. 고등어는 겉은 바삭하고 속은 촉촉해서 비린 맛 없이 고소했고, 간도 짜지 않아 밥이 술술 넘어갔습니다. 밑반찬도 정갈하게 나오고 부족하면 바로 채워주셔서 만족스러웠어요. 전체적으로 깔끔하고 어르신들도 좋아할 맛이라 가족 모임 장소로 추천하고 싶습니다.",
@@ -3419,13 +3389,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "고기도 맛있고 사이드도 맛있어요고기랑 청국장이랑 먹다가 김치말이국수로 입가심너무 맛있어요!!",
-      "언제나 맛있습다!! 청국장은 필수👍👍",
-      "고기투툼하고 맛있오요~주차하기도 좋아요~직원분들도 친절하시네용~",
-      "몇번이나 방문한 뭉텅! 고기가 일단 너무 맛있구요 청국장 지대로 입니다… 고기먹을 땐 또 뭉텅 올게요🫶🏻💕",
-      "처음 와봤는데 고기도 맛있고 반찬들도 다 맛있어요!! 특밥이랑 청국장도 꼭 시키세요! 매장도 깔끔하고 다들 친절하셔서 다음에 또와야겠어용!!"
-    ],
+    "rv": ["아기의자도 있고 고기도 너무 맛있어요 다음번에 고기먹고싶으면 또올게요! 특밥도 너무 맛있어요 두돌 아가도 너무 잘먹었답니다."],
     "naverPlaceId": "1794341129",
     "naverBlogCnt": 1057,
     "menuItems": [
@@ -3629,10 +3593,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "퇴근길에 방문적당히 익은 깍두기와 김치파김치는 1번 리필해서 먹음국물을 첫 입 떠먹었을 때 자극적이면서 알싸한 얼큰함이혀끝을 강타함 순대국 맛을 헤치지 않는 매운맛! 필자는 살짝 싱거워서 소금을 조금 타서 먹음 짜게 먹는 편임 한 공기 반은 건더기와 국물을 떠먹으며 먹고마지막이 반 공기는 말아서 화룡점정을 찍어버림 다음엔 섞어국밥을 먹어볼 예정임 국밥류를 ",
-      "오랜만에 왔는데 국물이 더 맛있어졌네요. 피순대가 아닌 찰순대인 점은 아쉽지만 그 아쉬움을 고기가 채워줬습니다. 숟가락질 할 때마다 밥보다 고기가 더 잡히네요. 쌈장이나 양념장 비치하면 더 좋을 것 같습니다. 귀한 국밥집... 또 방문하겠습니다."
-    ],
+    "rv": ["오랜만에 왔는데 국물이 더 맛있어졌네요. 피순대가 아닌 찰순대인 점은 아쉽지만 그 아쉬움을 고기가 채워줬습니다. 숟가락질 할 때마다 밥보다 고기가 더 잡히네요. 쌈장이나 양념장 비치하면 더 좋을 것 같습니다. 귀한 국밥집... 또 방문하겠습니다."],
     "naverPlaceId": "1563810845",
     "naverBlogCnt": 3,
     "menuItems": [
@@ -3691,7 +3652,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1563810845/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241007_68%2F1728284025558xfjwC_JPEG%2F1000006177.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241007_68%2F1728284025558xfjwC_JPEG%2F1000006177.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDdfMjc2%2FMDAxNzYyNDg4NjEzOTcx.rfsixVJHbcGU4ft40PmfPFXp8sOsYB1G2rQlqjLzy2wg.Z8j_f6OyXrDe6Sx_bq2W5w36FYf-CgtAEQZ-QuSwEhEg.JPEG%2F20251107_122916.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTdfODIg%2FMDAxNzU1NDMzMTI5MzEw.mRvFZDT176oNCeVz3NvPX0SUcHTA-WlGHmABLvguW5Ug.qaF_0T5AgZ3YGm3ruOmZaCOfZiUoYgE-r6hJbPjFTaAg.JPEG%2F20250815_120846.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMTJfMTcx%2FMDAxNzcwODc1MDU0MzE4.3jziC7n7t4-jqiy-l1u-ViYyDtFnNxreCuCfVAuGykYg.qV1VTmrhx9APFst7Qa68csw9Y_mM7ThwvhC4ccoqe_wg.JPEG%2F1000030951.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMjJfNjQg%2FMDAxNzYxMTA2NDc5NDY1.vsaLriXXtgxTEkyCQnqnGwgNiI0kYGHxkGHta0SYMEgg.-pu1aSxr44ztJxjxAoZClnG-TInoFp4-B_AU3f8e7EUg.JPEG%2F20251022_121728.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240926_63/1727356738151rv0FY_JPEG/1000006176.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241007_68%2F1728284025558xfjwC_JPEG%2F1000006177.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDdfMjc2%2FMDAxNzYyNDg4NjEzOTcx.rfsixVJHbcGU4ft40PmfPFXp8sOsYB1G2rQlqjLzy2wg.Z8j_f6OyXrDe6Sx_bq2W5w36FYf-CgtAEQZ-QuSwEhEg.JPEG%2F20251107_122916.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTdfODIg%2FMDAxNzU1NDMzMTI5MzEw.mRvFZDT176oNCeVz3NvPX0SUcHTA-WlGHmABLvguW5Ug.qaF_0T5AgZ3YGm3ruOmZaCOfZiUoYgE-r6hJbPjFTaAg.JPEG%2F20250815_120846.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMTJfMTcx%2FMDAxNzcwODc1MDU0MzE4.3jziC7n7t4-jqiy-l1u-ViYyDtFnNxreCuCfVAuGykYg.qV1VTmrhx9APFst7Qa68csw9Y_mM7ThwvhC4ccoqe_wg.JPEG%2F1000030951.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMjJfNjQg%2FMDAxNzYxMTA2NDc5NDY1.vsaLriXXtgxTEkyCQnqnGwgNiI0kYGHxkGHta0SYMEgg.-pu1aSxr44ztJxjxAoZClnG-TInoFp4-B_AU3f8e7EUg.JPEG%2F20251022_121728.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240926_63/1727356738151rv0FY_JPEG/1000006176.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -3778,7 +3739,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1424626174/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_14%2F16125142856380yFdX_JPEG%2FxCTzALDO4GMnFBytjpgw1qkI.jpg",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_14%2F16125142856380yFdX_JPEG%2FxCTzALDO4GMnFBytjpgw1qkI.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20201201_279/1606817647218tA7Cy_JPEG/zQPMPi_Mn9jCO8SDyVpsE__t.jpeg.jpg", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl5": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/eyes20220119222026.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_14%2F16125142856380yFdX_JPEG%2FxCTzALDO4GMnFBytjpgw1qkI.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20201201_279/1606817647218tA7Cy_JPEG/zQPMPi_Mn9jCO8SDyVpsE__t.jpeg.jpg", "imageUrl4": "", "imageUrl5": "", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -3808,13 +3769,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "디저트도 맛있고 매장도 환해서 분위기 좋아요!",
-      "시간될때마다 가는카페!!사장님도 너무 친절하시고 가끔 깜짝선물을 주셔요~너무 맛있게 먹습니다~~음료는 그냥 설명하기 입아플정도로 맛있어요깔끔하니 그냥 맛있어요 제 최애카페입니다😍더보기",
-      "섬세한 감성을 가진 예쁜 카페에 수제로 만드시는 과일티까지, 너무 좋아요",
-      "미모의 여사장님이 운영하시는 아늑하고 깔끔한 까페입니다^^라떼와 수박쥬스 강추입니다~!",
-      "점심 먹고 혹은 혼자 조용히 머리 식히고 싶을 때마다 찾는 곳이에요. 사장님 엄청 친절하시고 아늑한 인테리어에 잔잔히 흘러나오는 노래 듣고 있으면 힐링입니다. 커피 맛은 말할 필요도 없이 최고에요!"
-    ],
+    "rv": ["그린어스를 찾아주셔서 정말 감사해요! 😊 디저트도 맛있고 매장 분위기도 환하다니, 기분 좋은 시간을 보내신 것 같아 저도 너무 뿌듯하네요! 앞으로도 더 좋은 디저트와 편안한 공간으로 보답할게요. 또 놀러 오세요! ❤️", "우리 그린어스 단골 고객님! 😊 시간 내주셔서 감사하다는 말씀과 함께 이렇게 소중한 리뷰까지 남겨주셔서 정말 감동이에요~ 😭 저희 가게를 최애 카페로 꼽아주시고, 음료도 맛있게 드셔주신다니 힘이 불끈 나는 것 같아요! 앞으로도 변함없이 맛있는 음료와 친절함으로 보답하는 그린어스가 될게요. 또 놀러 오세요! ❤️", "섬세한 감성을 가진 예쁜 카페에 수제로 만드시는 과일티까지, 너무 좋아요", "그린어스 카페에 방문해주셔서 정말 감사합니다! 😊 섬세한 감성을 느끼셨다니 저희도 너무 기쁘네요. 수제로 정성껏 만드는 과일티도 맛있게 드셨다니 다행이에요. 앞으로도 좋은 경험을 드릴 수 있도록 노력할게요! ❤️", "점심 먹고 혹은 혼자 조용히 머리 식히고 싶을 때마다 찾는 곳이에요. 사장님 엄청 친절하시고 아늑한 인테리어에 잔잔히 흘러나오는 노래 듣고 있으면 힐링입니다. 커피 맛은 말할 필요도 없이 최고에요!", "사장님이 매우 친절하시고 커피도맛있어요 ~ 오늘 티도 먹어봤는데 훌륭합니다 ~ 굿굿", "사장님이 엄청 친절하게 대응해주시고 커피도 아주 맛나게 타주셔서 출근길에 사먹습니다!!! 좋아유!!!!", "저희 그린어스를 자주 찾아주시고, 친절함과 음료 맛까지 좋게 봐주셔서 정말 감사해요! 😊 앞으로도 변함없이 맛있는 음료와 친절함으로 보답하는 그린어스가 될게요. 또 놀러 오세요! ❤️"],
     "naverPlaceId": "1538713889",
     "naverBlogCnt": 3,
     "menuItems": [
@@ -4343,13 +4298,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "집 앞에 이런 식당이 있는걸 지금안게 아쉽네요 ,,가게 분위기 너무 좋고 맛 또한 좋습니다 !매탄동 맛집으로 추천드립니다 🤗",
-      "마제소바를 좋아해서 다른곳도 자주 가다 여기를 오게 되었는데 맛있네요 라멘도 맛있고 카레도 맛있게 먹었습니다. 다음에도 갈거 같네요!!",
-      "맛있어서 자주 와요 비빔라멘은 처음인데 맛있어요!!",
-      "동네에 있는 큐슈 울트라아멘, 왜 이제야 갔을까여.. 울크라아멘 진짜 고소담백 넘 맛있고 맵기 진라면 매운맛 단계로 했더니 딱 좋았어요ㅎㅎ 울트라동도 진짜 고기 푸짐하구 맛있습니당!",
-      "처음 왔는데 양도 많고 맛있어요~~^^대표메뉴로만 주문했는데 다른메뉴도 궁금해서 또 오고싶어요~~^^"
-    ],
+    "rv": ["기본에 충실한 담백한 라멘과 느끼하지않은 규동이 정말 맛있고 부담없었어요!!", "마제소바를 좋아해서 다른곳도 자주 가다 여기를 오게 되었는데 맛있네요 라멘도 맛있고 카레도 맛있게 먹었습니다. 다음에도 갈거 같네요!!"],
     "naverPlaceId": "1758830996",
     "naverBlogCnt": 427,
     "menuItems": [
@@ -4634,7 +4583,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1006472119/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_278%2F1750585000934y1WYy_JPEG%2FIMG_1699.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_278%2F1750585000934y1WYy_JPEG%2FIMG_1699.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250317_162%2F1742177228927V2bXt_JPEG%2FIMG_6809.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250924_278%2F1758682837551JSaXO_JPEG%2FIMG_8515.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250704_276%2F1751603808223PFY4R_JPEG%2FIMG_3623.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250924_116%2F1758682837628R8wnG_JPEG%2FIMG_8495.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250706_193/17517808750151sYvK_JPEG/IMG_1779.jpeg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_278%2F1750585000934y1WYy_JPEG%2FIMG_1699.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250622_278%2F1750585000934y1WYy_JPEG%2FIMG_1699.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250317_162%2F1742177228927V2bXt_JPEG%2FIMG_6809.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250924_278%2F1758682837551JSaXO_JPEG%2FIMG_8515.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250704_276%2F1751603808223PFY4R_JPEG%2FIMG_3623.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250924_116%2F1758682837628R8wnG_JPEG%2FIMG_8495.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250706_193/17517808750151sYvK_JPEG/IMG_1779.jpeg", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -5765,13 +5714,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "양꼬치가 일반 양꼬치, 갈비살, 등심이 있어서 선택의 폭이 넓어요. 자동 꼬치구이기계가 자석식이라 뭔가 톱니식보다 편하고 더 부드럽게 움직이는 느낌인데 고기가 큼지막하거나 꼬치가 약간 휘어있으면 잘 안 돌아간다는 단점이 있어요.지삼선은 폭신 바삭 맛있었어요. 온면 사진을 안 남겨서 아쉽네요. 온면은 양념이 빨갛고 약간 얼큰해서 어린아이는 좀 매워할 수 있어",
-      "제가아는 이가네양꼬치와는 너무다름. !!! 볶음밥은 싱겁고 떡밥상태. 보통 포슬포슬해야해야하는데 … 보자마자 실망! 온면은 밍밍.  양꼬치끝에 비계가좀있고 메뉴엔 다른지점에 있는 왕양꼬치가 없음. 꿔바로우도 바삭하지않고 눅눅해보이고 찹쌀이 많이뭉침……. ㅠㅠ 양꼬치만이라도 다먹고 나머진 먹다 더이상못먹겠어서 남기고나옴요.. 더최악은 음악이였음 … 동네인데 ",
-      "비싸지만 맛있어요!!",
-      "이가네에서 지삼선은 처음시켜봤는데 맛있어요! 양등심꼬치사진은없어요,, 맛있어서 사진찍을틈 없이 다 먹었으니까요^_^",
-      "흠~~써빙 하시는분이 바른 핸드크림 향이넘무 진해서 ᆢ 음식을 더 이상 못 먹음"
-    ],
+    "rv": ["예전에 먹고 맛있어서 오랜만에 들렸는데 상호가 바꼈고 요리사가 바꼈는지 맛이 달라졌어요......"],
     "naverPlaceId": "1300034006",
     "naverBlogCnt": 141,
     "menuItems": [
@@ -6192,11 +6135,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "참치먹고싶을때 꼭 가는곳으로 참치집 퀄리티 나오면서 훨씬 저렴하게 집에서 편하게 먹을수있어 너무 조아용ㅎ 덤으로 주시는 부위는 싸구려말고 맛있는거고 30피스 40피스 구성으로 부위도 고를수있어 플렉스하고픈날은 프리미엄으로 ㅎㅎ 반찬으로 주시는 것도 쓸데없는 구성 없이 딱 먹는부분만 잘챙겨주셔서 잔반처리 걱정도 없이 싹싹 먹고있습니다ㅎ 번창하세요~~~~😄",
-      "너무너무 맛있어요그동안 먹어본 참치중에 제일 맛있습니다. 포장하자마자 최대한 빨리 먹을수록 맛있어요.다음에 또 포장해서 먹을 예정입니다더보기",
-      "혼술 스페셜 혼자 먹으면 배터지게 먹습니다. 사장님이 친절하셔서 전화주문할때도 편해요"
-    ],
+    "rv": ["참치먹고싶을때 꼭 가는곳으로 참치집 퀄리티 나오면서 훨씬 저렴하게 집에서 편하게 먹을수있어 너무 조아용ㅎ 덤으로 주시는 부위는 싸구려말고 맛있는거고 30피스 40피스 구성으로 부위도 고를수있어 플렉스하고픈날은 프리미엄으로 ㅎㅎ 반찬으로 주시는 것도 쓸데없는 구성 없이 딱 먹는부분만 잘챙겨주셔서 잔반처리 걱정도 없이 싹싹 먹고있습니다ㅎ 번창하세요~~~~😄", "혼술 스페셜 혼자 먹으면 배터지게 먹습니다. 사장님이 친절하셔서 전화주문할때도 편해요", "포장해서 집에서 혼자먹기 좋네요ㅎㅎ 금액도 괜찮고 맛도좋고 양도넉넉하고~ 포장하면 할인해줍니다 덤으로 주는부위 맛난부위라 더좋네요~~"],
     "naverPlaceId": "1314780764",
     "naverBlogCnt": 11,
     "menuItems": [
@@ -6254,7 +6193,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1314780764/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_139%2F1522924650209c95Ka_JPEG%2Fp6ctH8rC9Ho026v08WrbYFNg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_139%2F1522924650209c95Ka_JPEG%2Fp6ctH8rC9Ho026v08WrbYFNg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_221%2F1522924674239tc9UQ_JPEG%2F_GsFZOGcHypZzTcTiXHHJSTh.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20220411_278/16496631342324qhAy_PNG/Screenshots_2022-04-11-16-44-27.png", "imageUrl5": "https://ldb-phinf.pstatic.net/20220411_104/1649663151422aemwf_PNG/Screenshots_2022-04-11-16-44-27.png", "imageUrl6": "https://ldb-phinf.pstatic.net/20220411_100/1649663004614s9fVe_PNG/Screenshots_2022-04-11-16-42-51.png", "imageUrl7": "https://ldb-phinf.pstatic.net/20220411_139/16496629809811ePpR_PNG/Screenshots_2022-04-11-16-42-51.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_139%2F1522924650209c95Ka_JPEG%2Fp6ctH8rC9Ho026v08WrbYFNg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_139%2F1522924650209c95Ka_JPEG%2Fp6ctH8rC9Ho026v08WrbYFNg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180405_221%2F1522924674239tc9UQ_JPEG%2F_GsFZOGcHypZzTcTiXHHJSTh.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20220411_278/16496631342324qhAy_PNG/Screenshots_2022-04-11-16-44-27.png", "imageUrl5": "https://ldb-phinf.pstatic.net/20220411_104/1649663151422aemwf_PNG/Screenshots_2022-04-11-16-44-27.png", "imageUrl6": "https://ldb-phinf.pstatic.net/20220411_100/1649663004614s9fVe_PNG/Screenshots_2022-04-11-16-42-51.png", "imageUrl7": "https://ldb-phinf.pstatic.net/20220411_139/16496629809811ePpR_PNG/Screenshots_2022-04-11-16-42-51.png", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -6342,7 +6281,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/865620401/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191111_74%2F1573453477970HbRWC_JPEG%2FnzuAz1WkOP9s3dWsjZuMss-E.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191111_74%2F1573453477970HbRWC_JPEG%2FnzuAz1WkOP9s3dWsjZuMss-E.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfNTEg%2FMDAxNzc4NDE0OTE3Mjk1.hMN8FEaM8BwHCmX31LTNgSBz2VnWTzUjTUd-TPZ0J_Eg.R8sd0ZMLTFC5eBW6A1jzYB4-BvRlk-qzbDKB9jUyXkcg.JPEG%2FB5C3F4D6-EB30-471F-A60A-2FC599ADFBA8.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMjhfNDIg%2FMDAxNzc0Njk0NTg1NjE5.A9StMP4Hv78Ke1y2H7bfNLyDSIhKKF1a0l2eL340RbAg.o9Cl6HiRKLstAgh37lhp25gfYksRhxn-ec7YkJlCzVgg.JPEG%2FE0DB3214-C44A-4D3B-AC10-5D2509E246F9.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfMjM0%2FMDAxNzc4NDE0OTE4NjM2.B2-HZhUxuOSirRGHp06TX5vmPiOIs5IrZgRrZDWS1qgg.POQsa6H2co1wy0TWenn_3zjHn99xYG5ueDFf40ivozEg.JPEG%2F0016ABAB-BFCE-46CB-BC9A-749EFBE0557E.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfMTE1%2FMDAxNzc4NDE0OTE2ODE4.sL69mxLplGd2fcbSky6TbOC6JEO0QU-r82SM0rU5l6kg.Y22SlNfYSukyRMoa8uUQhghqas2KPX9qOf5Xfa06cBEg.JPEG%2F9DB555DD-5909-4AB4-97E0-C7EDAEF232CB.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20201208_120/1607420728144zD0Wc_JPEG/CmtoOky_8zMBD-gaVSKt9acJ.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191111_74%2F1573453477970HbRWC_JPEG%2FnzuAz1WkOP9s3dWsjZuMss-E.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191111_74%2F1573453477970HbRWC_JPEG%2FnzuAz1WkOP9s3dWsjZuMss-E.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfNTEg%2FMDAxNzc4NDE0OTE3Mjk1.hMN8FEaM8BwHCmX31LTNgSBz2VnWTzUjTUd-TPZ0J_Eg.R8sd0ZMLTFC5eBW6A1jzYB4-BvRlk-qzbDKB9jUyXkcg.JPEG%2FB5C3F4D6-EB30-471F-A60A-2FC599ADFBA8.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMjhfNDIg%2FMDAxNzc0Njk0NTg1NjE5.A9StMP4Hv78Ke1y2H7bfNLyDSIhKKF1a0l2eL340RbAg.o9Cl6HiRKLstAgh37lhp25gfYksRhxn-ec7YkJlCzVgg.JPEG%2FE0DB3214-C44A-4D3B-AC10-5D2509E246F9.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfMjM0%2FMDAxNzc4NDE0OTE4NjM2.B2-HZhUxuOSirRGHp06TX5vmPiOIs5IrZgRrZDWS1qgg.POQsa6H2co1wy0TWenn_3zjHn99xYG5ueDFf40ivozEg.JPEG%2F0016ABAB-BFCE-46CB-BC9A-749EFBE0557E.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MTBfMTE1%2FMDAxNzc4NDE0OTE2ODE4.sL69mxLplGd2fcbSky6TbOC6JEO0QU-r82SM0rU5l6kg.Y22SlNfYSukyRMoa8uUQhghqas2KPX9qOf5Xfa06cBEg.JPEG%2F9DB555DD-5909-4AB4-97E0-C7EDAEF232CB.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20201208_120/1607420728144zD0Wc_JPEG/CmtoOky_8zMBD-gaVSKt9acJ.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -6367,13 +6306,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "혼자 자주 오는거 같아요 맛있어요",
-      "맛있어요 혼자 자주와요 ㅋㅋ",
-      "언제 가도 넘 맛있어용🤤😆😆",
-      "너무 맛있는 울금향 마라샹궈 💓💓주기적으로 수혈해줘야해요",
-      "너무너무 맛있어요💓🤍"
-    ],
+    "rv": ["영통구청 근처에서 마라탕은 여기가 제일 맛있는 것 같아요! 매장도 깔끔하고 재료 관리도 잘되고 사람이 많아서 회전도 잘돼요. 방학 시즌에는 학생들도 많이오고 평일엔 직장인들 점심으로 많이 찾아요~ 마라탕 맵기조절도 0.5단계로 가능하고 1인1개 아이스크림도 줘요!! 자주 찾는 맛집입니다~~"],
     "naverPlaceId": "1897050626",
     "naverBlogCnt": 24,
     "menuItems": [
@@ -6521,7 +6454,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2011476153/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251215_189%2F17658022782189wPl1_JPEG%2Fimage.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251215_189%2F17658022782189wPl1_JPEG%2Fimage.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMDJfMjMg%2FMDAxNzcyNDQ2ODYxODg2.JL2l4Y2PVAfzY91vhZQpdt6DOfiuc0Fqf_ABKLga97gg.ot7-GkBuMeusEPyNCJyMpYaSufRc6sGW9uajKPDKCDAg.JPEG%2FC7F0B83E-436E-4D97-8735-AE1F3AF514EF.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfNDQg%2FMDAxNzcwNTI1MDc3NzU4.FI31AIC_Dn35l4ePrBVyDPC3U38dXvbbRT9B1d6Bt_4g.5T4M8izzl65OM9CJJAiupICpjsk87eNw-bcKnOvJiZUg.JPEG%2F21839.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjhfMjg2%2FMDAxNzY5NTkyMzI4MzI1.jiGIZGMiArGHI9IjQSAw1p0a1HfRmmsLIzFgWz3mJLAg.HnDmHTTV-pjO6emOua9Ka8Vj4cQrW76-Fmx5V1wpYEQg.JPEG%2F20260128_172815.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjhfMjkw%2FMDAxNzY5NTkyMzI2ODM0.WCM9To93HuepCGZDPNW86A52mOSvIrXb4ZEuF72O1D4g.E5DWX7RxlQ_kyTDzekBnvVXOIOgZDu2LSsuUYXiFsmMg.JPEG%2F20260128_172836.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251215_189%2F17658022782189wPl1_JPEG%2Fimage.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251215_189%2F17658022782189wPl1_JPEG%2Fimage.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMDJfMjMg%2FMDAxNzcyNDQ2ODYxODg2.JL2l4Y2PVAfzY91vhZQpdt6DOfiuc0Fqf_ABKLga97gg.ot7-GkBuMeusEPyNCJyMpYaSufRc6sGW9uajKPDKCDAg.JPEG%2FC7F0B83E-436E-4D97-8735-AE1F3AF514EF.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfNDQg%2FMDAxNzcwNTI1MDc3NzU4.FI31AIC_Dn35l4ePrBVyDPC3U38dXvbbRT9B1d6Bt_4g.5T4M8izzl65OM9CJJAiupICpjsk87eNw-bcKnOvJiZUg.JPEG%2F21839.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjhfMjg2%2FMDAxNzY5NTkyMzI4MzI1.jiGIZGMiArGHI9IjQSAw1p0a1HfRmmsLIzFgWz3mJLAg.HnDmHTTV-pjO6emOua9Ka8Vj4cQrW76-Fmx5V1wpYEQg.JPEG%2F20260128_172815.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjhfMjkw%2FMDAxNzY5NTkyMzI2ODM0.WCM9To93HuepCGZDPNW86A52mOSvIrXb4ZEuF72O1D4g.E5DWX7RxlQ_kyTDzekBnvVXOIOgZDu2LSsuUYXiFsmMg.JPEG%2F20260128_172836.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -6641,13 +6574,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "동네에서 제가 제일 애정하는 카페에요.디저트도 다 맛있고 사장님도 무척 친절하셔요.두쫀쿠 오란다는 여기가 제일 맛집이에요!!!사장님 안계실 때는 무인카페로 운영되어서 일하러 자주와요.분위기도 편안하고, 책도 있고 곳곳에 사장님의 배려가 묻어나는 곳..부디 오래오래 해주세요..더보기",
-      "항상 잘 먹고 있는 산미있는 아메리카노와 샌드위치!몇일전에 먹었던건데 오늘 무인일 때 두쫀쿠가 있어서 사먹어봤더니 두쫀쿠도 진짜 완전 미친도른맛이라서 리뷰남길려고 들어왔어요!!제가 웬만한 두쫀쿠 다 먹어봤는데 이프카페 두쫀쿠 탑3 안에 들어요.. 완전 크고 안에 카다이프 필링 촉촉바삭 가득차있구 ㅠㅠㅜ 두쫀쿠 마니마니 만들어주세요 흑흑이프카페는 맛 없는 디",
-      "뷰가 맛있고 커피가 좋아요커피맛도분위기도적절더보기",
-      "이미 여러 곳에서 먹어봤지만 이프카페  두쫀쿠가 지금까지는 가장 맛있어요~ 다른 곳에서 판매하는 두쫀쿠를 먹고는 굳이 안사먹어도 되겠다고  했던 아이도 이프카페 두쫀쿠를 먹자마자 맛있다고 하네요.  픽업하러 잠시 들렀는데 아늑하고 조용한 공간이 주는 매력도 크더라구요, 조만간 다시 방문해서 커피도 한잔 할게요!",
-      "우연히 샌드위치 단체 주문으로 이프 카페를 알게 됐어요! 너무 너무 맛있다고 하니 이 근처에는 유명한 곳이라고 하네요ㅎㅎ오랜만에 그 때 생각이 나서 멀리서 뚜벅이로 방문했습니당매장 분위기도 너무 좋고 가격도 합리적이라 근처 살았으면 정말 자주 왔을 것 같아요. 사장님도 친절하셔요☺️또 올게요~~!!더보기"
-    ],
+    "rv": ["집근처 카페라서 방문했는데 음료랑 디저트도 맛있고 조용하고 분위기도 좋아요~!", "맛있어여~~ 음료랑 디저트 둘 다 맛집입니당 분위기도 아늑하고 좋아서 추천해요 또간집 👍", "오랫만에 이 근처 회사로 입사교육받고 좀 쉬려고 들린 곳. 적당히 잔잔한 음악과 개인적인 시간을 가질 수 있는 테이블 배치로 잘 쉬다 가요~ 두쫀쿠 자매디저트인 두쫀타르트도 맛있네요^^", "이미 여러 곳에서 먹어봤지만 이프카페 두쫀쿠가 지금까지는 가장 맛있어요~ 다른 곳에서 판매하는 두쫀쿠를 먹고는 굳이 안사먹어도 되겠다고 했던 아이도 이프카페 두쫀쿠를 먹자마자 맛있다고 하네요. 픽업하러 잠시 들렀는데 아늑하고 조용한 공간이 주는 매력도 크더라구요, 조만간 다시 방문해서 커피도 한잔 할게요!"],
     "naverPlaceId": "1493101269",
     "naverBlogCnt": 20,
     "menuItems": [
@@ -6728,13 +6655,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매탄동 홍어보쌈 최고의 맛집입니다 맛이 최고에요 강추",
-      "너무 맛있어요!!! 다 먹고 후에 사진은 생각났어요. ㅋㅋㅋㅋ아기 잘 먹어요 😍😍😍",
-      "오랜만에 간곳인데 음식이 맛있어요특이한 메뉴도 있어서 좋네요양도 많아서 4명이 배부르게 먹었어요",
-      "매콤한 맛 대신 달착지근한 풍미가 좋은 마늘 양념 얹어먹는 보쌈은 언제나 맛있어요! 기본으로 나오는 순두부 찌개에 방금 하신 듯한 김치, 도라지, 무생채까지 맛있어요!! 깻잎에 싸먹어도 맛있습니다",
-      "홍어최고의맛집입니다 강추합니다"
-    ],
+    "rv": ["매콤한 맛 대신 달착지근한 풍미가 좋은 마늘 양념 얹어먹는 보쌈은 언제나 맛있어요! 기본으로 나오는 순두부 찌개에 방금 하신 듯한 김치, 도라지, 무생채까지 맛있어요!! 깻잎에 싸먹어도 맛있습니다"],
     "naverPlaceId": "1150175543",
     "naverBlogCnt": 15,
     "menuItems": [
@@ -6906,13 +6827,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "만두가 하나같이 정성이 느껴지는 맛이었어요. 부드러운 만두피 안에 속이 가득 차 있어서 먹을 때마다 만족감이 크더라고요.통새우만두는 새우가 그대로 들어가 있어 탱글탱글한 식감이 살아있고, 고기·김치·청양만두도 각각의 맛이 뚜렷해 골라 먹는 재미가 있었습니다.아버지가 찐빵 진짜 잘드시네요이런 숨은 만두 맛집이 있었다니 자주들릴게요더보기",
-      "김치만두맛있습니다. 반반이 안되서 아쉽네요..",
-      "집 근처 만두 맛집이에요….아니다 그냥 만두 맛집이에요 이틀 연속 먹었으면 말 다했죠",
-      "갓 쪄서 뜨끈뜨끈한 만두!맛있어요",
-      "만두피가 부드럽고, 속이 꽉차서 넘 맛있게 먹었어요 ^^통새우만두! 새우가 통으로 들어있어 탱글한 새우맛이 느껴져 더욱 좋았고요. 고기만두, 김치만두, 청양만두, 새우만두. 종류별로 다 먹었는데 다 마음에 들었어요.동네에 이런 만두맛집이 있었다니!! 또 먹으러 갈거에요^^"
-    ],
+    "rv": ["집 근처 만두 맛집이에요….아니다 그냥 만두 맛집이에요 이틀 연속 먹었으면 말 다했죠", "헬스장에서 열운하고 만두 포장하러 갔어요❕ ㅋㅋㅋㅋ 이번에 새로 생긴 만두집이라서 기대했는데 진짜 옴청 맛있네요.. 🥹💛 주문하자마자 바로 쪄주셔서 완전 따끈따끈 전메뉴 다먹어봤는데 다맛잇어서 하나 딱 고르기어려운데.. 그래도 하나 꼽자면 새우만두 추천합니다 ㅋㅋㅋㅋ 재료도 모두 국내산이고 직접 만두피까지 빚으신다고 하던데 진짜 맛있어요 사장님도 넘 친절하셔서 단골될것같아요 ㅋㅋ 권선동 매탄동 만두맛집으로 추천ㅎㅏㅂㄴㅣㄷㅏ😊❕💛"],
     "naverPlaceId": "2005171231",
     "naverBlogCnt": 50,
     "menuItems": [
@@ -6972,13 +6887,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "쌀국수가 생각나면 여기만가게되요 항상 웃으며 맞아주시는 사장님도 좋구요음식이야 말할거 없이 너무 맛있구요 ㅋ오늘도 역시 너무 맛있게 잘 먹고 왔습니당더보기",
-      "닭반마리 쌀국수 맛있어요",
-      "매장이 작아서 점심시간에 웨이팅이 있을 수 있어요.메뉴 빨리 나오는 편이고 무난하게 먹을 수 있는 쌀국수 맛이에요. !",
-      "삼성앞 베트남에 다녀왔네요~밖에서 먹으니 더 베트남같았어요~",
-      "생각보다....닭쌀국수는 비주얼은 좋은데 저는...그닥.   소고기 특인데...  기름둥둥...흠...일부러 찾아간건데...  양파절임 없고..레몬..고추도  없ㄱᆢ..   아쉽......"
-    ],
+    "rv": ["제가 식사하고 있는 중에 직원분이 옆 테이블을 닦기 시작했습니다. 테이블을 닦는 것 자체는 이해할 수 있습니다. 그런데 가게 공간이 많이 좁고 통로도 좁은 편이었습니다. 더 불편했던 점은 테이블을 닦고 먼지를 쓸어내는 방향이 거의 제가 식사하는 쪽이었다는 것입니다. 거리가 너무 가까워서 먼지나 테이블 위의 더러운 것들이 제가 먹고 있는 음식에 영향을 줄까 봐 걱정됐습니다. 좀 불편했습니다.", "생각보다....닭쌀국수는 비주얼은 좋은데 저는...그닥. 소고기 특인데... 기름둥둥...흠...일부러 찾아간건데... 양파절임 없고..레몬..고추도 없ㄱᆢ.. 아쉽......"],
     "naverPlaceId": "1256470391",
     "naverBlogCnt": 67,
     "menuItems": [
@@ -8347,7 +8256,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1658878760/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_283%2F1751277864285fgWwm_JPEG%2FADDC1900-4021-4651-86B5-BB946A2465A8.JPG", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_283%2F1751277864285fgWwm_JPEG%2FADDC1900-4021-4651-86B5-BB946A2465A8.JPG", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_286%2F1751277859029DtyeH_JPEG%2FA6B6E073-376E-4DEB-A8D1-E0ADC9ABBB9E.JPG", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_175%2F1631584399679vKkOC_JPEG%2FMkMUcStHe7tLuZSPy_40w3Zm.JPG.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_247%2F1631584595166WmAvz_JPEG%2FU4LCdRKzP1n40VuE4A-bsdiQ.JPG.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_249%2F1631584602976UixRl_JPEG%2F-pY6meQp4QYI_6U6kB4ZnpQL.JPG.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250803_106/1754203430623s2QlI_JPEG/1.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_283%2F1751277864285fgWwm_JPEG%2FADDC1900-4021-4651-86B5-BB946A2465A8.JPG", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_283%2F1751277864285fgWwm_JPEG%2FADDC1900-4021-4651-86B5-BB946A2465A8.JPG", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250630_286%2F1751277859029DtyeH_JPEG%2FA6B6E073-376E-4DEB-A8D1-E0ADC9ABBB9E.JPG", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_175%2F1631584399679vKkOC_JPEG%2FMkMUcStHe7tLuZSPy_40w3Zm.JPG.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_247%2F1631584595166WmAvz_JPEG%2FU4LCdRKzP1n40VuE4A-bsdiQ.JPG.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210914_249%2F1631584602976UixRl_JPEG%2F-pY6meQp4QYI_6U6kB4ZnpQL.JPG.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250803_106/1754203430623s2QlI_JPEG/1.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -8374,12 +8283,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "치킨맛있고 사장님도 모두 친절하셔서 세자매가 정말 즐겨 찾는 장소입니다.",
-      "6시에 양고기 먹으러 나왔다가 2시간 기다렸음에도 불구하고 매장 접객이 안되서 실패하고 여기저기 떠돌다가 방문했어요.명절 연휴라 그런지 문 여는 곳이 많이 없던데 다행히 영업중이어서 들어갔습니다.후라이드 한마리 주문했는데 닭다리가 무려 3개!닭날개도 3개! 바삭하고 촉촉해서 너무 맛있었어요.양고기집에서 마상 당한거 다 회복하고 가요!!더보기",
-      "서로 처음 보는… 생일이 7월 6일인 사람 3명의 손님이 다같이 생일 파티를 했어요. 3개 테이블이 남아있었고 각 테이블 당 한명씩 7월 6일이 생일이었어요. 사장님께서 한분을 위해서 준비해주신 케이크와 선남선녀 부부의 김밥과 함께 하루 일찍 생일 축하를 했습니다! 너무 좋은 시간이었고 단골이 되어 보겠습니다~~~!! 참고로 저는 기름에 통째로 튀긴 통닭만",
-      "옛날통닭과 생맥주가 맛있어요."
-    ],
+    "rv": ["매번 원픽 떡볶이랑 한마리통닭을 시켜요 ~새로나온 메뉴라 아이들이 먹어보더니 뿌😊클 보다도 입에 맛다며 계속 오자고 하네요 ~~기름도 항상 깨끗하게 쓰시는지 냄새 안나고 신선 하고 빠삭 해요 ~~친절한 사장님과 외국인 이신 종업원들이 항상 웃으면서 인사해 주셔서 저도 같이 웃게 되고 또 오고싶은 동네 맛집입니다 👍우리 아이들도 같이 항상 자주 애용 할께용 ~~~😍", "치킨맛있고 사장님도 모두 친절하셔서 세자매가 정말 즐겨 찾는 장소입니다."],
     "naverPlaceId": "1069450520",
     "naverBlogCnt": 53,
     "menuItems": [
@@ -8463,13 +8367,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "아니 이렇게 맛있는 치킨을 맛없어보이게 만드는 조명 좀 어떻게 해주세요ㅠㅠ 옛날 호프감성 원하시는지 모르겠지만.. 다른 지점은 안 그런거 같은데 망포점만 왜 입맛 떨어지게 파란 조명을ㅜㅜ 진짜 너무 추천하고 싶은 집인데 매장가서 먹으란 말을 못 하겠음....ㅠㅠㅠㅠㅠ닭가슴살도 촉촉하니 부드럽고 맛있게 겁나 잘 튀기는데 항상 매장 와서 먹으면 조명 때문에 너",
-      "📌 똥집튀김 11,000원☑️ 경기수원페이 사용 가능남편이 고로치 똥집튀김 노래를 불러서… 전화로 주문하고 픽업했어요 ㅋㅋㅋ 여전히 튀김 너무 맛있고 진심 똥집이 신선해서 안질기고 부드러워요💖 이 맛 변치않기로해 😉ㅋㅋㅋㅋㅋ같이주시는 겨자소스 너무 찰떡같이 잘어울려요.. 잘먹었습니당 :)더보기",
-      "사장님도 친절하시고 매장이 깔끔해서 너무좋아요그리고 치킨도 너무 맛있어요 거의 흑백요리사 마스터셰프코리아 냉장고를부탁해급이고 서비스로 나온 떡볶이 먹다가 미쳐버리는줄 알았어요 아니 이미 미쳤을수도",
-      "진짜👍👍👍👍👍",
-      "남문에서도 먹어본 고로치 통닭, 동네 오픈해서 가족과 함께 방문했어요  모든 음식이 따끈 바삭..! 지금 생각해도 또 먹고 싶네요..간장치킨 맛있어요 !납작면 국물떡볶이가 홀치킨먹으면 서비스여서 치킨을 기다리며 맛있게 먹었습니다 감튀도 시켰는데 세어보니 다섯가지 모양으로 다양하게 주더라고요 감튀 양많고 감튀 맛집입니다🤗다먹고 나올때 보니 오픈주방이더라고요"
-    ],
+    "rv": ["순살 후라이드 기본에 매운 양념이 가미되어 있어 따로 소스나 양념 아니어도 맛있게 먹을 수 있네요. 다만 비슷한 치킨점들 비교할때 순살은 튀김옷이 다소 두꺼워서 나중엔 튀김옷 제하고 먹었습니다.", "저희 🍗고로치통닭🍗을 찾아주셔서 정말 감사합니다🤗 리뷰 남겨주셔서 또 한번 감사드리며, 말씀해주신 부분 고민해보겠습니다. 즐거운 주말 보내세요❤️", "지나가다 냄새에 이끌려 구입했어요~맛있어서 순삭했네요~닭이 작아 1인 1닭 해야해요"],
     "naverPlaceId": "2059617501",
     "naverBlogCnt": 17,
     "menuItems": [
@@ -8482,7 +8380,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2059617501/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250908_276%2F17573285955876eTWx_JPEG%2F%25B0%25ED%25B7%25CE%25C4%25A1%25C5%25EB%25B4%25DF1.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250908_276%2F17573285955876eTWx_JPEG%2F%25B0%25ED%25B7%25CE%25C4%25A1%25C5%25EB%25B4%25DF1.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251127_45%2F17642396970689fUlj_JPEG%2F9091.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_216%2F17641019377346WDYH_JPEG%2F8909.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_191%2F1764102063900uok3C_JPEG%2F8417.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_35%2F1764102064543IL8jS_JPEG%2F8405.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250901_82/1756723476533iiybk_JPEG/%C8%C4%B6%F3%C0%CC%B5%E5%C4%A1%C5%B2.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250908_276%2F17573285955876eTWx_JPEG%2F%25B0%25ED%25B7%25CE%25C4%25A1%25C5%25EB%25B4%25DF1.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250908_276%2F17573285955876eTWx_JPEG%2F%25B0%25ED%25B7%25CE%25C4%25A1%25C5%25EB%25B4%25DF1.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251127_45%2F17642396970689fUlj_JPEG%2F9091.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_216%2F17641019377346WDYH_JPEG%2F8909.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_191%2F1764102063900uok3C_JPEG%2F8417.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251126_35%2F1764102064543IL8jS_JPEG%2F8405.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250901_82/1756723476533iiybk_JPEG/%C8%C4%B6%F3%C0%CC%B5%E5%C4%A1%C5%B2.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -8743,12 +8641,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오랜만에 온 라돌이마라탕!!추운 날씨에 뜨끈하게 국물 먹기 딱 좋네요.",
-      "오랫만에 왔는데 맛있네요",
-      "정말 오랜만에 들린 라돌이마라탕 영통점~!! 마라샹궈,계란볶음밥,꿔바로우를 먹었어요~~!! 영통에 많은 마라탕 가게가 있지만 라돌이마라탕이 젤 맛있어요~",
-      "저녁늦게 갔는데도 손님들이 많았어요 꿔바로우랑 라돌이 마라탕이 단골메뉴에요^^마라탕의  매운단계, 땅콩소스, 마유의 양을 선택가능해서 좋구요 마라탕도 맛있지만 꿔바로우도 겉바속촉 바삭해서 아주 맛있어요친절하고 깔끔해서 추천합니다더보기"
-    ],
+    "rv": ["라돌이 마라탕에서 마라샹궈랑 꿔바로우 먹었는데 1.5단계로 먹으니 신라면 맵기라 많이 맵지도 않으면서 그렇다고 밍밍한 정도는 아니라 괜찮았어요~", "정말 오랜만에 들린 라돌이마라탕 영통점~!! 마라샹궈,계란볶음밥,꿔바로우를 먹었어요~~!! 영통에 많은 마라탕 가게가 있지만 라돌이마라탕이 젤 맛있어요~"],
     "naverPlaceId": "1581759373",
     "naverBlogCnt": 49,
     "menuItems": [
@@ -8806,7 +8699,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1581759373/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221013_142%2F166559301325614pNn_PNG%2F1648434108496.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221013_142%2F166559301325614pNn_PNG%2F1648434108496.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MTZfMjA3%2FMDAxNzc2MzI0MzY5MTg2.TJW6GnMqEH8E0a3HF6XM8HQaaW4mMplZJSB1qrM9zRkg.etCsYpDBWiU_AYi6drPAPYvIycpGEJopRB_8pyg108Ug.JPEG%2FF0502B5A-4903-4DB7-BFE9-F5BCC92B0848.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTI0%2FMDAxNzY0MDUwNzM0MDg3.tisP34thNrvepKeiqCVtvfwvz-bs3-bmRVXW7lPrRWQg._uUXGNp2jgc-dYZwKZ4Ucuh2aXNTALD8VvTr3SXmvFgg.JPEG%2F20251123_182353.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTRfMjg1%2FMDAxNzczNDU3Nzg4NTE4.Hh7Ih4ZDs3FPDySCQ5qk_d5CiqEQzoslnkx-R-wpEoQg.hnVqQE4n0K-_XyVliH0VahnGZ7A2ioQ6Rt_NhpXS66Ig.JPEG%2F20260314_120857.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTk1%2FMDAxNzY0MDUwNzMyNTYx.AHhox5NukRs__Q1fgcnkpKZ63vu9nJP9ReHlNXc7HKog.Yn3CV-CpVMrzuAIUzwijgE5_Y2e_1THkEotfrBtX6RAg.JPEG%2F20251123_181420.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221013_142%2F166559301325614pNn_PNG%2F1648434108496.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221013_142%2F166559301325614pNn_PNG%2F1648434108496.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MTZfMjA3%2FMDAxNzc2MzI0MzY5MTg2.TJW6GnMqEH8E0a3HF6XM8HQaaW4mMplZJSB1qrM9zRkg.etCsYpDBWiU_AYi6drPAPYvIycpGEJopRB_8pyg108Ug.JPEG%2FF0502B5A-4903-4DB7-BFE9-F5BCC92B0848.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTI0%2FMDAxNzY0MDUwNzM0MDg3.tisP34thNrvepKeiqCVtvfwvz-bs3-bmRVXW7lPrRWQg._uUXGNp2jgc-dYZwKZ4Ucuh2aXNTALD8VvTr3SXmvFgg.JPEG%2F20251123_182353.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTRfMjg1%2FMDAxNzczNDU3Nzg4NTE4.Hh7Ih4ZDs3FPDySCQ5qk_d5CiqEQzoslnkx-R-wpEoQg.hnVqQE4n0K-_XyVliH0VahnGZ7A2ioQ6Rt_NhpXS66Ig.JPEG%2F20260314_120857.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTk1%2FMDAxNzY0MDUwNzMyNTYx.AHhox5NukRs__Q1fgcnkpKZ63vu9nJP9ReHlNXc7HKog.Yn3CV-CpVMrzuAIUzwijgE5_Y2e_1THkEotfrBtX6RAg.JPEG%2F20251123_181420.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -8926,13 +8819,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "탕화쿵푸 매탄점 방문했어요! 🧡매장도 깔끔하고 직원분들 응대가 친절해서 들어가자마자 기분이 좋았어요.마라탕 국물은 자극적이지 않고 깔끔한데도 깊은 맛이 있어서 계속 손이 가고, 재료도 신선해서 믿고 먹을 수 있었어요. 특히 채소랑 고기 상태가 좋아서 만족스러웠고, 맵기 조절도 가능해서 취향에 맞게 먹기 좋았습니다.양도 푸짐해서 든든하게 잘 먹었고, 전체적",
-      "마라탕 맛있어요! 후식으로 아이스크림도 먹을 수 있어서 좋아요 😬",
-      "탕화쿵푸 처돌이라서 어딜가든 마라탕은 탕화쿵푸에서만 먹는데 매탄점은 유독 다른지점보다 깔끔하고 너무 맛있어요!!! 집근처, 회사근처 돌면서 3~4곳 이용하고있지만 유일하게 있는 아이스크림 후식까지✨️ 이가격에 남는거 있으신가요..? 오래오래 매탄동에 남아주세요👏🏻",
-      "생각날때마다 오는곳이에요~ 여자친구랑 너무 맛있게 먹고 갑니다!!!!",
-      "메뉴도 빨리 나오고 맛있어요!!"
-    ],
+    "rv": ["탕화쿵푸 처돌이라서 어딜가든 마라탕은 탕화쿵푸에서만 먹는데 매탄점은 유독 다른지점보다 깔끔하고 너무 맛있어요!!! 집근처, 회사근처 돌면서 3~4곳 이용하고있지만 유일하게 있는 아이스크림 후식까지✨️ 이가격에 남는거 있으신가요..? 오래오래 매탄동에 남아주세요👏🏻"],
     "naverPlaceId": "1169212103",
     "naverBlogCnt": 37,
     "menuItems": [
@@ -9625,10 +9512,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 106.101.0.124(18/Mar/2026:01:38:25 +0900)"
-    ],
+    "rv": ["안녕하세요! 핵밥 수원영통점입니다!! 매장과 메뉴 모두 마음에 드셨다니 완전 뿌듯하네요~ 항정살덮밥정식의 불향까지 캐치하시다니 역시 눈썰미 최고 ㅋㅋ 사케동의 신선한 연어는 저희가 매일 아침 직접 선별하는 거라 자부심이 쩔어요 웨이팅 없이 편하게 드신 것도 럭키비키 다음에는 특제 소스로 만든 마제소바도 도전해보세요! 또 오시면 서비스 밥 한 그릇 더 드릴게요~!", "안녕하세요! 핵밥 수원영통점입니다!! 메뉴가 다양해서 자주 오신다니 완전 영광이에요 키라이 라멘이 맵찔이한텐 매콤하다고 느끼셨군요? ㅋㅋ 그래도 맛있게 드셨다니 다행입니다! 다음에는 매운맛 조절도 가능하니 말씀해주시면 딱 맞춰드릴게요! 또 방문해주세요~!", "안녕하세요, 핵밥 수원영통점입니다. 먼저 저희 매장을 찾아주시고 소중한 경험을 공유해주셔서 진심으로 감사드립니다. 다양한 메뉴 중 선택하시느라 고민되셨다니 기쁘게 생각하며, 앞으로도 더욱 특별한 맛을 선사하기 위해 노력하겠습니다. 매장 청결과 편리한 주문 시스템에 대한 칭찬 말씀 또한 감사히 받아들이며, 고객님의 편의를 최우선으로 생각하는 서비스 환경을 지속적으로 유지하도록 하겠습니다. 특히 항정살덮밥과 라멘에 만족하셨다니 기쁩니다. 다음 방문 시에는 연어새우장과 같은 새로운 메뉴를 즐기실 수 있도록 정성껏 준비해 두겠습니다. 언제나 편안하고 맛있는 식사 시간이 되도록 최선을 다하겠습니다. 다시 한 번 감사드리며, 건강과 행복 가득한 하루 되시길 바랍니다.", "처음으로 방문했는데 연어새우장도 맛있고 고기덮밥도 너믄 맛있어요! 인테리어도 좋고 매장도 넓어서 친구랑 오기에도 좋을것 같아요!💖💖💖", "덮밥 맛집 인정입니다! 양도 푸짐하고 재료 퀄리티가 너무 좋네요. 세트 구성이 알차서 든든하게 한 끼 해결하기 딱 좋습니다. 냉소바도 살얼음 동동 띄워져 있어서 정말 시원해요. 직원분들도 친절하시고 혼밥하기에도 부담 없는 분위기라 자주 올 것 같아요!", "맛있다고 소문나서 왔는데 역시나!!! 최고입니다‘ㅜㅜ 음식도 맛있고 깔끔하고 친절하고 너무 좋아요!!", "안녕하세요! 핵밥 수원영통점입니다! 소문 듣고 찾아오셨다니 영광이에요! 음식부터 서비스까지 모두 마음에 드셨다니 저희도 완전 행복합니다~ 다음에는 더 맛있는 메뉴로 모실게요! 또 뵐 때까지 건강히 지내세요~!", "영통 혼밥하기 좋은 식당이에요 넓고 자리가 많아서 좋아요 음식도 맛있어요 특히 항정살 덮밥이 맛있어요 직원분들도 친절하세요 이벤트가 많아서 재밌어요"],
     "naverPlaceId": "1598285466",
     "naverBlogCnt": 0,
     "menuItems": [],
@@ -10051,13 +9935,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매장이 쾌적하고 마라탕이 맛있어요",
-      "#불라라마라탕. #수원마라탕아이병원 갔다가 기분전환겸 먹은 마리탕굿!한끼 좋았다더보기",
-      "아이들이 자주 오는 곳~~깨끗하고 신선해요~~~",
-      "왕마싯써요 배고파서 급히 찾다가 그냥 간건데생각 이상!! 다들 한번씩 드셔보시길",
-      "마라상궈는 마라맛이 많이 강해 이점 참고하세요.마라탕은 땅콩맛?이 강해요^^"
-    ],
+    "rv": ["재료들도 다 신선하고 매콤하니 넘 맛있어요! 사장님도 넘 친절하시고 자주 방문할게요 😘😘 #블라라영통점 #수원마라탕 #영통맛집 #불라라마라탕"],
     "naverPlaceId": "1250353673",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -11190,7 +11068,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1706822340/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_37%2F1752492417239DTe72_JPEG%2F1000000961.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_37%2F1752492417239DTe72_JPEG%2F1000000961.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250624_123%2F1750766067926BUSOv_JPEG%2F1000000936.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230423_6%2F1682231171088tA581_JPEG%2F20230423_152446.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211103_246%2F163590469623646HNE_JPEG%2F4HCebk3GOWkmwiS2Id9DAYlA.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211101_34%2F1635721467935Myyve_JPEG%2FFA29mlEGDfKFt2c7oV_9j_hn.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20220616_40/1655323567998MSbQz_JPEG/1655323557161.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_37%2F1752492417239DTe72_JPEG%2F1000000961.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_37%2F1752492417239DTe72_JPEG%2F1000000961.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250624_123%2F1750766067926BUSOv_JPEG%2F1000000936.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230423_6%2F1682231171088tA581_JPEG%2F20230423_152446.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211103_246%2F163590469623646HNE_JPEG%2F4HCebk3GOWkmwiS2Id9DAYlA.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211101_34%2F1635721467935Myyve_JPEG%2FFA29mlEGDfKFt2c7oV_9j_hn.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20220616_40/1655323567998MSbQz_JPEG/1655323557161.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -11272,12 +11150,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "음식이 정갈하고 맛있어요",
-      "자연드림 힐링밥상 '집밥'이 돌아왔어요. 오늘은 굴비와 제육볶음이네요. 맛있어요^^",
-      "정갈한 한식밥상이 돋보이는 곳간도 세지않고 깔끔한 밑반찬도 맛있어요넓은 공간도 답답하지않고 전망도 한몫하네요4층카페에선 식당영수증 있음 커피도 할인되고.조용하고 넓은 공간이 대화나누기도 좋았어요더보기",
-      "분위기 짱. 건강에도 좋고~~~자연드림 짱~~~"
-    ],
+    "rv": ["자연드림 힐링밥상 '집밥'이 돌아왔어요. 오늘은 굴비와 제육볶음이네요. 맛있어요^^", "안녕하세요? 소중한 시간을 내어 리뷰 작성해 주신 점 정말 감사합니다. 앞으로 더욱 정갈하고 맛있는 한상을 위해 노력하겠습니다.", "11월부터 영업시간 및 토요일 영업을 준비 중에 있어요~ 확정되면 정보 수정될 거에요."],
     "naverPlaceId": "1447981187",
     "naverBlogCnt": 48,
     "menuItems": [
@@ -11360,13 +11233,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "양 미쳤어요 ㅎㅎㅎㅎㅎ넘 건강하고 배부른 한끼여서만족만족아주 잘 먹었습니다또 가게되면 먹으러갈게여더보기",
-      "이삭토스트 진짜 영통구청에서 오래 버티는 이유가잇죠! 오랜만에 먹엇는데 역시 존맛입니당",
-      "너무너무너무 맛있어요,,양도 푸짐해서 하나만 먹어도 배부름",
-      "아이들이 좋아해서 항상 여기에서 주문해요😄",
-      "매번 먹는 햄 스페셜이삭소스 넘 맛잇듬"
-    ],
+    "rv": ["포장하시는 분들께 드리는 꿀팁! 포장주문 후 매장에서 설정한 준비시간 확인하지 마시고, 그냥 바로 매장으로 가세요. 전에 오픈시간인 9시 정각에 주문하고, 조리시간 20분 떠서 바쁜 시간대니까 일부러 30분쯤 갔는데 그때부터 조리 시작하셔서 50분 다 되서 받은 적이 있어요. 그래서 오늘은 9시 훌쩍 넘겨 주문했고 똑같이 조리시간 20분 떴지만 그냥 바로 매장으로 출발했고, 금방 받을 수 있었어요. 이삭 너무 맛있어서 끊을 수 없습니다!!! 여러 번 이용했는데 포장주문 미리 해도 손님이 도착해야 조리하시는 경우가 많으니 주문과 동시에 매장으로 출발하세요.😊", "이삭토스트 진짜 영통구청에서 오래 버티는 이유가잇죠! 오랜만에 먹엇는데 역시 존맛입니당", "늘 네이버주문으로 포장주문해서 받아갔는데 오늘은 미리 주문했음에도 불구하고 20분 넘게 기다렸다가 받아가네요 쩝,, 대기하는 사람도 많던데 1인근무가 맞는건지,,"],
     "naverPlaceId": "34491013",
     "naverBlogCnt": 20,
     "menuItems": [
@@ -11453,8 +11320,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "[1] 반찬과 고기, 식사류를 모두 포함하여 전반적으로 음식이 정갈하다. 간이 강하지 않고 재료의 맛과 식감을 잘 살렸다.[2] 고기는 지방도 고소한 편이고 고기의 선도도 좋다. 숙성을 정말 잘 시킨 것 같다.[3] 사이드/식사류의 가성비가 상당히 좋다. 맛도 있는 편. 평범한 느낌이면 가격이 저렴하다.[4] 매장은 꽤나 넓고 쾌적하고 청결한 편이다. 단체",
+    "rv": ["갈비살을 워낙 좋아해서 사는곳 근처 다가보앟는데 이렇게 후기좋은집을 이제야 발견했네요.. 일단 온건제 고기도 너무 좋아보이고 굽는내내 고기향으로 침이 계속 넘어가네요.. 겉보기에 일반 동네고기집인데 분명 이유가 있겠죠.. 기름진 고기육향까지 너무 맛나네요..자주와야겠어요~♡", "소갈비살이 먹고싶어 검색하다 나와서 방문했는데 생각밖에 너무 만족했어요 매장이 넓어서 단체모임하기도 너무 좋아요 다음에도 방문하고 싶은 집입니다", "너무 맛있고 반찬도 다양해서 진짜 대만족입니다!! 고기도 생 양념 둘다 맛있도 전체적으로 양도 엄청 푸짐하게주시는거 같아요! 셀프바도 있고 냉면도 맛있어서 또오려구요! 만족만조쿠!!", "이정도 퀄리티에 가성비도 좋고 반찬도 너무너무너무 잘나와요!! 육회가 기본찬 ㅎㅎ 고기 너무 맛있아용"] 반찬과 고기, 식사류를 모두 포함하여 전반적으로 음식이 정갈하다. 간이 강하지 않고 재료의 맛과 식감을 잘 살렸다.[2] 고기는 지방도 고소한 편이고 고기의 선도도 좋다. 숙성을 정말 잘 시킨 것 같다.[3] 사이드/식사류의 가성비가 상당히 좋다. 맛도 있는 편. 평범한 느낌이면 가격이 저렴하다.[4] 매장은 꽤나 넓고 쾌적하고 청결한 편이다. 단체",
       "생갈비 or 양념갈비 한상을 주문하면 반찬 한상에 된장찌개와 육회가 포함되어 나오는데 구성이 정말 야무지더라고요~! 갈비는 생갈비외 양념갈비 반반이 나오는 한상으로도 주문할 수 있고 고기는 마늘소스에 푹 찍어 먹으면 끊임없이 계속 맛있게 먹을 수 있었어요😋 수원 영통구청 데이트, 회식, 단체모임 장소로 딱이었습니다 :)",
       "와… 여기 양념소갈비 뭐죠..?한 입 먹자마자 “아 여기 찐이네” 자동 발사됨사실 인계동에서부터 잘먹던 곳인데 갑자기 없어져서사장님께 어디로 이전했는지 수소문해서 찾아서 직접 찾아간 찐 내돈내산 맛집이에요 ㅠㅠㅠㅠ!!!❤️❤️❤️일단 비주얼부터가 게임 끝❣️마늘이 그냥 올라간 게 아니라 폭격 수준으로 쏟아부어져 있음 근데 거기다 마늘 소스 또줌마늘 향은 미",
       "수원 영통구청 고기 맛집입니다. 편안한 분위기이라 가족식사 가족 외식하기 좋고 소규모 모임 장소로도 좋아보여요. 무엇보다 한상차림이 너무 예쁘고 식사도 고기도 모두 훌륭했습니다. 잘먹고가요👍",
@@ -12289,10 +12155,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "다른 곳에서 볼 수 없는 체다치즈 돈까스는 고소하고 짭짤해서 맛있었고, 오뎅도 하나씩 먹을 수 있었고,  라멘은 국물이 진하고 면이 쫄깃했어요.  돈까스는 바삭하고 고기와 튀김옷이 적절히 어울어져서 맛이 좋았어요.",
-      "아이들이 좋아하는 곳이에요 !!!!온가족이 함께 왔어요음식도 맛잇듀 넓구 쾌적해서 만족합니더",
-      "💯 총평전반적으로 메뉴 구성이 알차고, 맛과 비주얼 모두 만족스러웠습니다. 식사 트레이에 정갈하게 담겨 나오는 것도 좋았고, 특히 라멘과 돈카츠를 한 번에 즐길 수 있는 조합이 최고였습니다!\"맛있는 돈카츠와 든든한 일식 한 끼를 원한다면 [맛카츠] 강추합니다!\"",
+    "rv": ["다른 곳에서 볼 수 없는 체다치즈 돈까스는 고소하고 짭짤해서 맛있었고, 오뎅도 하나씩 먹을 수 있었고, 라멘은 국물이 진하고 면이 쫄깃했어요. 돈까스는 바삭하고 고기와 튀김옷이 적절히 어울어져서 맛이 좋았어요.", "우리동네 최고 돈카츠 맛집이에요. 메뉴도 다양하고 특히 안심돈카츠는 입에서 살살 녹아고 맛있어서 금새 먹어버렸네요. 다이소가 앞에있어 식사하고 쇼핑하기도 넘 편해요. 사장님도 친절하시고 매장이 위생적이고 청결한데 태이블 간견도 넓어서 펀하게 식사했네요.맛있게 잘 먹었습니다😊", "판타지움에 아이와 볼링하러 왔다가 맛있어보이는 이곳이 있어 무작정 들어왔어요. 매뉴구성 너무 좋구 맛도 있고 깔끔해서 너무 좋아요. 판타지움 자주 이용하지만 끝쪽에 있어 오늘처음 발견한 맛집인데 자주 종종 이용하려구요~^^"] 강추합니다!\"",
       "판타지움에 평일에 방문해봤어요~데이트하러 왔는데 돈카츠랑 카레가 보여서 들어왔어요히레카츠랑 로스가츠카레 정식을 먹었어요돈카츠도 바삭하고 맛있었구요~카레도 짭잘하니 맛있었어요!가족단위로 많이들 방문하시는 것 같아요 ~더보기",
       "우리동네 최고 돈카츠 맛집이에요. 메뉴도 다양하고 특히 안심돈카츠는 입에서 살살 녹아고 맛있어서 금새 먹어버렸네요. 다이소가 앞에있어 식사하고 쇼핑하기도 넘 편해요. 사장님도 친절하시고 매장이 위생적이고 청결한데 태이블 간견도 넓어서 펀하게 식사했네요.맛있게 잘 먹었습니다😊"
     ],
@@ -12910,7 +12773,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1877094596/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190131_155%2F1548934455744LKN7X_JPEG%2Fkz-dMz3hZb79bi5nU27S1pQm.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190131_155%2F1548934455744LKN7X_JPEG%2Fkz-dMz3hZb79bi5nU27S1pQm.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180821_186%2F1534839205851uWeyS_JPEG%2FlODeY-TkaHQqhTP9KZ44cP-u.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200628_28%2F1593303654842dUIyQ_JPEG%2F1QtyWjehbo2yhnQLvn2tV7HS.jpeg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMDNfMTQ1%2FMDAxNzY0NzYyMjYyMjAx.fHgia5AkO_h0DgZhkF2EIpvqju_1Pf9XkLu_O-K9Cnwg.zyM1kC7iMSeZfFYjfYbl_NPEWBnrJeSR340DW8S8cc0g.JPEG%2F782E5C6C-3FB5-4056-80AB-B8E6E8CE1500.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDhfODEg%2FMDAxNzU5ODk4NjM1MDYy.mV3tItK0rQs2jApUuRIs2iDjnGJNVCDjMBqCdioff3gg.z-GwkcIg5dzyu43nz08yYGANcPuqM60c2_SPpZlrQdcg.JPEG%2F20251001_172153.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190131_155%2F1548934455744LKN7X_JPEG%2Fkz-dMz3hZb79bi5nU27S1pQm.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190131_155%2F1548934455744LKN7X_JPEG%2Fkz-dMz3hZb79bi5nU27S1pQm.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180821_186%2F1534839205851uWeyS_JPEG%2FlODeY-TkaHQqhTP9KZ44cP-u.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200628_28%2F1593303654842dUIyQ_JPEG%2F1QtyWjehbo2yhnQLvn2tV7HS.jpeg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMDNfMTQ1%2FMDAxNzY0NzYyMjYyMjAx.fHgia5AkO_h0DgZhkF2EIpvqju_1Pf9XkLu_O-K9Cnwg.zyM1kC7iMSeZfFYjfYbl_NPEWBnrJeSR340DW8S8cc0g.JPEG%2F782E5C6C-3FB5-4056-80AB-B8E6E8CE1500.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDhfODEg%2FMDAxNzU5ODk4NjM1MDYy.mV3tItK0rQs2jApUuRIs2iDjnGJNVCDjMBqCdioff3gg.z-GwkcIg5dzyu43nz08yYGANcPuqM60c2_SPpZlrQdcg.JPEG%2F20251001_172153.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -12935,13 +12798,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "막창 넘 부드럽고 맛았어요초벌로 구우ㅓ주셔요콩나물도 산더미처럼 주시고 ㄷㄷ친절하시고 잘 먹고 갑니다더보기",
-      "아주 맛있어요 막창 초벌로 구워주셔요삼겹살이랑 항정살도 맛있음콩나물 무침도 계속 리필해주심라면 매콤하게 요청드렸는데 얼큰하니 맛있엇어요다만 네이버 지도에 메뉴표 가격 수정 좀 부탁드려요막창 180g 15000원으로 인상됐네요다른 메뉴들도 인상됨더보기",
-      "맛있고 가격 착하고 양많은곳 소주먹으로 자주 올것같아요!",
-      "쫄깃하고 맛있어요.친절하셔서 좋았어요",
-      "여기 진짜 너무 맛있어요 ...반찬이 미쳤습니다특히 콩나물무침이 대박이에요 ㅠㅠ산처럼 쌓아 주시는데잡내 없이 부드러운 막창에 명이나물과 콩나물 같이 먹으니 감칠맛 장난아니에요담에는 친구들이랑도 또 와야겠어여더보기"
-    ],
+    "rv": ["너무 친절 하시고 맛 너무 좋아요 변함없는 친절함 감사합니다 번창 하세요"],
     "naverPlaceId": "21081769",
     "naverBlogCnt": 134,
     "menuItems": [
@@ -12979,7 +12836,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21081769/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180828_154%2F1535432054819n02Nl_JPEG%2FL6ktsm2TzSqiiO7SMc-1Yfgr.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180828_154%2F1535432054819n02Nl_JPEG%2FL6ktsm2TzSqiiO7SMc-1Yfgr.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDVfMTA0%2FMDAxNzU0MzU4MzQ4Mzcz.K4EOQNga1o5jj1wOBqdlJczN223c7xZW_WW7nKzjnosg.xIC1463uNk6ZGZdcV39OafkohiDK5tOyPy57zaOCgvMg.JPEG%2F1754358284735.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjBfMjE0%2FMDAxNzQ3NzUwMTM2Mzcx.LVIVXOweNbSH9RwIod-SIdlSUIZkI5F_7_Uy5sQW_Twg.Q7EHHHm85dA5QEcInG2oeqQ7ew6axC016zsssx2TdRQg.JPEG%2F20250520_182901.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjBfMjM5%2FMDAxNzQ3NzUwMTM2NTE2.DW8OjXIY35_AfpwXGRKLnRJO1StzZvCTf9rNOLWLf0Ig.6kgLLVTDUMcFDubIrhKgLFcONV64Dv6hQTtlyi4dEN4g.JPEG%2F20250520_190429.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTJfMTcw%2FMDAxNzUyMzI2MzYxMDcw.aKUeMF82OVXeeqbrISOvEq7WANqcV_Z9RiNzP1PQaeQg.HdqOS1cp-XcCigrUMprNw_tU4vjJb0fYreg7mvj2h_og.JPEG%2F1000048338.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180828_154%2F1535432054819n02Nl_JPEG%2FL6ktsm2TzSqiiO7SMc-1Yfgr.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180828_154%2F1535432054819n02Nl_JPEG%2FL6ktsm2TzSqiiO7SMc-1Yfgr.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDVfMTA0%2FMDAxNzU0MzU4MzQ4Mzcz.K4EOQNga1o5jj1wOBqdlJczN223c7xZW_WW7nKzjnosg.xIC1463uNk6ZGZdcV39OafkohiDK5tOyPy57zaOCgvMg.JPEG%2F1754358284735.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjBfMjE0%2FMDAxNzQ3NzUwMTM2Mzcx.LVIVXOweNbSH9RwIod-SIdlSUIZkI5F_7_Uy5sQW_Twg.Q7EHHHm85dA5QEcInG2oeqQ7ew6axC016zsssx2TdRQg.JPEG%2F20250520_182901.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjBfMjM5%2FMDAxNzQ3NzUwMTM2NTE2.DW8OjXIY35_AfpwXGRKLnRJO1StzZvCTf9rNOLWLf0Ig.6kgLLVTDUMcFDubIrhKgLFcONV64Dv6hQTtlyi4dEN4g.JPEG%2F20250520_190429.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTJfMTcw%2FMDAxNzUyMzI2MzYxMDcw.aKUeMF82OVXeeqbrISOvEq7WANqcV_Z9RiNzP1PQaeQg.HdqOS1cp-XcCigrUMprNw_tU4vjJb0fYreg7mvj2h_og.JPEG%2F1000048338.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -13006,13 +12863,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "내가 정말 세상에서 가장 좋아하는 분식 유민이네감동튀김💕8년 째 먹어도 맛이 한결같다는 것이 울컥팡팡,,🥹✨⭐️사장님이 기억해주셔서 조금 부끄러웠지만 매우 맛있게 식사를 잘하고.. 거즘 10분컷내고 갑니다다음에 쿠첸들고 떡장 포장해서 가겠습니다. 새해 복 많이 받으시고 사장님 항상 건강하세요🥰더보기",
-      "분식집 찾다가 들린 감동튀김!여기 떡장이 유명하다길래 먹어봤는데떡볶이 소스 + 참치 + 밥 비벼 먹는 메뉴라 색다르고 맛있었어요.매콤달달해서 순식간에 클리어..! 순대, 오뎅도 같이 먹었는데국물까지 곁들이니 딱 분식 감성 제대로👍편하게 먹기 좋고 가성비도 괜찮아서근처 오면 또 들를 것 같아요.더보기",
-      "떡볶이   참치 주먹밥   뭘  먹어도다 맛있습니다강추합니다",
-      "양이 적당하고 괜찮았어요!!",
-      "추억의 맛집^^ 특히 떡꼬치가.맛있어요 이모님들 엄청 친절하세요"
-    ],
+    "rv": ["매탄동에서 튀김 맛집으로 유명해서 튀김만 사러 왔다가 떡볶이가 때깔이 반지르르 하기도 하구 밀떡꼬치가 너무 오랜만이라...거기다가 다른곳에서 찾아보기 힘든 순대꼬치까지...! 풀코스로 싹 다 사버렸어요ㅋㅋ 사장님 너무 친절하시고 입담도 너무 너무 좋으셔서 수다 떨다가 어묵까지 서비스로 받았어요ㅋㅋ 악 단골 예약입니다"],
     "naverPlaceId": "37396091",
     "naverBlogCnt": 100,
     "menuItems": [
@@ -13173,10 +13024,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있는 족발과 특별한 종류의 술과 양질의 기본 서비스 선지국과 건강에 좋은 물까지! 족발 소스도 남달라요 젓갈이 나오는데 그게 진짜 별미입니다 너무 맛있고 특별한 식당입니다 동네 찐맛집입니다 이런 곳이 장사가 잘되어야지요",
-      "족발 맛있고 선지 해장국도 맛있었음"
-    ],
+    "rv": ["맛있는 족발과 특별한 종류의 술과 양질의 기본 서비스 선지국과 건강에 좋은 물까지! 족발 소스도 남달라요 젓갈이 나오는데 그게 진짜 별미입니다 너무 맛있고 특별한 식당입니다 동네 찐맛집입니다 이런 곳이 장사가 잘되어야지요", "기막힌족발 첨 갔는데 넘넘 맛나네요 특히 막국수는 꼭 먹어봐야할 사이드메뉴예요 들기름맛의 고소하고 쫄깃한 식감의 달지 않은 맛국수는 별미 입니다~^^"],
     "naverPlaceId": "1801986765",
     "naverBlogCnt": 66,
     "menuItems": [
@@ -13234,7 +13082,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1801986765/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_189%2F1510731749303QHdUN_JPEG%2FjCPWXWXDJ7oYhHycCEReDlJ6.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_189%2F1510731749303QHdUN_JPEG%2FjCPWXWXDJ7oYhHycCEReDlJ6.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_191%2F1510731766055BKxMO_JPEG%2FrMcCLdLTu4J5hpQZCimhh7jq.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_192%2F1510731779869Q40ES_JPEG%2FCn_MuwTChsKcDLX9_5QY5cvy.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_152%2F1510731791092VhjMH_JPEG%2FEgjd4qdB_LCOY7PI1iZpjYps.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_215%2F15107318554481cBxT_JPEG%2FFnhFsXZGHBdgckt8glZtF_Wy.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_189%2F1510731749303QHdUN_JPEG%2FjCPWXWXDJ7oYhHycCEReDlJ6.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_189%2F1510731749303QHdUN_JPEG%2FjCPWXWXDJ7oYhHycCEReDlJ6.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_191%2F1510731766055BKxMO_JPEG%2FrMcCLdLTu4J5hpQZCimhh7jq.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_192%2F1510731779869Q40ES_JPEG%2FCn_MuwTChsKcDLX9_5QY5cvy.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_152%2F1510731791092VhjMH_JPEG%2FEgjd4qdB_LCOY7PI1iZpjYps.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171115_215%2F15107318554481cBxT_JPEG%2FFnhFsXZGHBdgckt8glZtF_Wy.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -13380,8 +13228,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "[갈비꽃 망포점]1. 육즙폭발초벌양념구이2. 주먹밥3. 비빔냉면4. 바지락된장찌개아이와 같이 먹을 외식장소를 물색하다 찾게된 '갈비꽃'가게 앞에 주차공간이 있어 주차도 편리하였습니다.갈비는 서버분께서 직접 구워주셔 아이와 편하게 식사가 가능하였습니다.갈비는 달콤하고 짭자롬한게 근처 갈비집들중에 손꼽는 맛이였습니다.비빔냉면또한 산미가 적당한게 맛있었습니다.반",
+    "rv": ["갈비꽃 망포점. 성인 3명이 돼지갈비 5인분. 냉면 2. 공기밥 2. 주문해서 먹었습니다. 돼지갈비는 잡내없이 양념이 진하고 부드러웠어요. 직원분이 직접 구워주시고 셀프바도 운영되서 먹기 편했습니다. 다만, 식당 앞에 주차공간이 협소하여 인근에 주차를 해야한 점, 셀프바에 음식이 바로바로 안채워 진 점, 고기구워주는 종업원도 대응이 실망스러운 점 등이 아쉬웠습니다. 하지만 고기 맛은 좋고 사장님은 친절했서 재방문 의사는 있습니다", "어버이날을 맞이하여 부모님을 모시고 아내와 7세 딸아이 , 여동생과 다함께 동네 맛집 갈비꽃 망포점을 왔어요. 여전히 갈비, 반찬, 된장찌게, 물냉면, 비빔냉면, 공기밥까지도 너무 맛있습니다. 영통 맛집, 망포 맛집, 망포역 맛집, 수원 최고의 돼지 갈비 맛집입니다. 가족 외식 음식점으로 무조건 추천 합니다. 꼭 한번 방문하셔서 식사하세요.^^ 저는 인천에서 부모님댁 올때마다 갈비꽃 망포점을 방문합니다. 직원분들 모두 친절하시고 매장 깨끗하고 맛있는 음식을 배불리 먹을수 있는 전국 최고의 맛집이라고 자신합니다. 딸아이가 너무 맛있게 먹네요. 항상 감사합니다. 손님이 많으니 너무 기분이 좋습니다.^^ 늘 건강하시고 건승 하세요~~~", "갈비꽃 망포점 방문해서 정말 만족스러운 식사하고 왔습니다! 숯불에 구워 먹는 갈비가 불향 가득해서 너무 맛있었고, 양념도 자극적이지 않고 딱 좋았습니다. 고기 상태도 신선해서 한 점도 남기지 않고 다 먹었네요ㅎㅎ 기본 반찬들도 깔끔하고 특히 파채, 양파절임, 핑크빛 무피클까지 조합이 좋아 계속 손이 갔습니다. 된장찌개도 깊은 맛이 나서 마무리로 최고였어요. 매장도 깔끔하고 직원분들도 친절해서 기분 좋게 식사했습니다. 재방문 의사 100%입니다!"]1. 육즙폭발초벌양념구이2. 주먹밥3. 비빔냉면4. 바지락된장찌개아이와 같이 먹을 외식장소를 물색하다 찾게된 '갈비꽃'가게 앞에 주차공간이 있어 주차도 편리하였습니다.갈비는 서버분께서 직접 구워주셔 아이와 편하게 식사가 가능하였습니다.갈비는 달콤하고 짭자롬한게 근처 갈비집들중에 손꼽는 맛이였습니다.비빔냉면또한 산미가 적당한게 맛있었습니다.반",
       "수원 망포 갈비맛빕 갈비꽃 벌써 몇번째 방문인지 셀 수 없을 정도로 N회차 방문 맛집입니다!수원이 갈비가 유명하다고 하지만 제 입맛에는 갈비꽃이 제일 부드럽고 맛있어요!! 부모님도 좋아하셔서 가족외식 단골 식당입니다! 된장찌개도 맛도리입니다👍😋😋",
       "돼지갈비가 먹고싶어서 검색하다가 리뷰가좋고 수원페이도 되어서 왔는데 직원분들 친절하시고 갈비도 너무 잘구워주셔서 맛있게 잘먹었어요👍👍샐러드바가 있어서 부족한 야채나 반찬을 가져다먹을수있어서 편하고 좋았어요..된장찌개도 맛있고 냉면은 갈비와같이 먹으니 더더맛있네요..재방문의사 100%입니다^^",
       "지난주 오고 두번째에요아는맛이라 그런지 오늘이 더 맛있네요고기에 기름이 거의업고 부드러우면서 두께가 적당해서씹는맛도 있고 강추입니다갈비가 단일메뉴인 이유가 있어요불금이라 북적북적 분위기도 좋네요물냉 비냉 둘다 맛봤는데 제입맛에  역시 비냉+갈비 조합이 굿 👍더보기",
@@ -13457,12 +13304,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "겨울에 꼭 먹어 주는 조개 전골! 택이네 조개 전골 영통점 매장도 가장 깔끔하고 조개도 듬뿍 듬뿍 잘 나와요 테이블 간격도 넓어서 대화하면서 먹기 좋더라구요 무제한으로 제공하는 열무 비빔밥도 진짜 맛있어요.🫶🏻",
-      "택이네 조개 전골 영통점은 겉에 매장이 하얘서 예쁘더라고요. 보리밥도 공짜고 그리고 점심은 칼국수를 많이 먹으러들 오세요. 여기는 조개가 메인이라 해물 조개 뭐 이런 칼국수가 엄청 생선하고 조개도 푸짐할 것 같아요. 저희는 조개 전골 2 인 먹었는데 거의 아이랑 가거나 할 경우에는 3 인 같은 2 인 전골이 나오는 것처럼 가성비 좋아요. 배추님 대파 고추 ",
-      "주말에 방문했어요.4인 71000원인데 양이 어마어마해서 놀랐어요.양만 많은게 아니라 전복 키조개 굴 새우 가리비 통오징어가 골고루 들어 있어 골라 먹는 재미가 있고요조개가 싱싱해서 질기지 않고 맛있어요.야들야들 통오징어랑 전복 키조개 관자 다 맛있더라고요.치즈가 같이 나와서 치즈퐁듀로 먹으니 애들도 잘 먹었고요.애들 메뉴 치즈돈까스도 강추예요.영통역이랑 ",
-      "추운날에 먹는 뜨끈한 조개전골 너무 맛있네요 ㅎㅎ해산물도 진짜 신선하고 푸짐했고 치즈퐁듀 완전 제스탈이에요ㅋㅋ 국물이 진짜 찐입니다!! 속이 확 풀리는 느낌ㅋㅋ해장에도 좋고 술안주로도 최고네요 사장님이 넘 친절하셔서 더 기분좋게 먹고 왔어요^-^",
-      "[택이네 조개전골 영통점]1. 조개전골 2인역시 회사일이 끝나고 금요일에 피곤한몸을 녹이기에 전골만한게 없어 찾다가 오게된 택이네체인점이 많은이유 다들 아시죠?신선한 해산물과 뜨끈한 국물이 일품입니다.더보기"
+    "rv": ["친정엄마가 조개찜이 먹고 싶딘하셔서 폭풍 검색하고 선택한 집 엄마 모시고 왔는데 매장도 깨끗하고 사장님도 친절하시고 음식은 와 ~~ 너무 맛있어요 엄마랑 둘이 폭풍 흡입 했어요 그러는라 처음 나온 사진도 못찍고 먹다 생각나서 찍었네요 조만간 저희 올케 생일이라서 예약하고 오려고요 완전 강추 입니디ㅡ", "겨울에 꼭 먹어 주는 조개 전골! 택이네 조개 전골 영통점 매장도 가장 깔끔하고 조개도 듬뿍 듬뿍 잘 나와요 테이블 간격도 넓어서 대화하면서 먹기 좋더라구요 무제한으로 제공하는 열무 비빔밥도 진짜 맛있어요.🫶🏻", "조개 야채 모두 너무 신선하고 국물도 맛있어요! 보너스 튀김도 존맛….그리고 사장님이 친절하셔서 더 좋아요👍👍", "택이네 조개 전골 영통점은 겉에 매장이 하얘서 예쁘더라고요. 보리밥도 공짜고 그리고 점심은 칼국수를 많이 먹으러들 오세요. 여기는 조개가 메인이라 해물 조개 뭐 이런 칼국수가 엄청 생선하고 조개도 푸짐할 것 같아요. 저희는 조개 전골 2 인 먹었는데 거의 아이랑 가거나 할 경우에는 3 인 같은 2 인 전골이 나오는 것처럼 가성비 좋아요. 배추님 대파 고추 등을 넣어 얼큰하고 고추는 선택할 수가 있어요. 그리고 키조개부터 전복 새우, 퐁듀 치즈가 들어가 있어서 고소하게 치즈도 같이 먹을 수가 있고 동죽 가리비 홍합 등 조개 모둠이 들어가서 조개 골라먹는 재미도 있어요. 국물도 깊고 어묵도 있고 그리고 다 먹고 칼국수 사리 시켜서 먹으면 정말 든든한 한 끼, 술안주 돼요. 오징어튀김 만두튀김도 맛보기 나왔어요"]1. 조개전골 2인역시 회사일이 끝나고 금요일에 피곤한몸을 녹이기에 전골만한게 없어 찾다가 오게된 택이네체인점이 많은이유 다들 아시죠?신선한 해산물과 뜨끈한 국물이 일품입니다.더보기"
     ],
     "naverPlaceId": "1714515518",
     "naverBlogCnt": 70,
@@ -13638,12 +13480,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "지인 추천으로 간 곳!!!너무너무 맛있게 잘 먹었습니다!감사합니다 다음에 또 방문할게요 ㅎ~^^",
-      "항상 변함없이 맛있고 반찬도 듬북 너무 맛나용",
-      "김치 찌게가 맛나요 주차 공간이 없어 살짝 아쉽기는 해요",
-      "사진 찍는걸 잊고 정신없이 먹다가생각나서 사진찍어서 ~~점심시간에 가게 자석이 다차서 대기하시는손님들이 계시더라구요김치찌개 맛있어요 잘먹었습니다 ^^더보기"
-    ],
+    "rv": ["김치찌개는 맛도 좋고 고기도 많고 좋았는데요 너무 반찬을 재사용 하셔서 먹는 내내 찜찜했네요… 반찬을 조금씩 주시고 재사용하지 않는건 어떨까요…"],
     "naverPlaceId": "1573785197",
     "naverBlogCnt": 92,
     "menuItems": [
@@ -13676,7 +13513,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1573785197/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_33%2F1548845081902NPSf4_JPEG%2Fsyk_sIIAXgqN5wKYPEdOdfiW.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_33%2F1548845081902NPSf4_JPEG%2Fsyk_sIIAXgqN5wKYPEdOdfiW.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDNfOTkg%2FMDAxNzcwMTIyOTUxNzg0.dtJgnemKLnM3Csfo8TZY1zZaQrfzIh6HRH1KXQ02GdEg.MugzDuePZ94EN6M86o56LvidouUFrnh7uIoUNR8HZ18g.JPEG%2F20251117_125227.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjg3%2FMDAxNzY5OTA3NzQwNzMw.xBHGjLMaNtNJwW_clRCU8JF7qgyjNDtp9fq2ThM2c0Ug.c7h4U5mhAnjnGe7LV7q0tAyK8r6MnWDUEKX8ARgdHEgg.JPEG%2F20251117_125227.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDNfMjk2%2FMDAxNzU5NDY5Nzk2MTMw.HLC3L_noCoKcQnn65FEYrsS6VgOyvMWrhvJtkhoa8gsg.lPY8sI3T5-T7ogMxPr2uGyCkqU9qmcCp4Ble4rV7GUog.JPEG%2F20250918_143337.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjJfMTY1%2FMDAxNzYzNzY2NjI3NTAw.2jA9C3q3S03TtfO-QmQPO1XVJeg1jjAf0JNIYEFP53Eg.t0CgTrGQ-zRWMV2JDQXORbCPqSPXrPe3ARjOoEPKkn4g.JPEG%2F20251117_125227.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20210904_268/1630727735361PQINB_JPEG/QOFmXynkvRG1suaeRP-_S1mH.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_33%2F1548845081902NPSf4_JPEG%2Fsyk_sIIAXgqN5wKYPEdOdfiW.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_33%2F1548845081902NPSf4_JPEG%2Fsyk_sIIAXgqN5wKYPEdOdfiW.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDNfOTkg%2FMDAxNzcwMTIyOTUxNzg0.dtJgnemKLnM3Csfo8TZY1zZaQrfzIh6HRH1KXQ02GdEg.MugzDuePZ94EN6M86o56LvidouUFrnh7uIoUNR8HZ18g.JPEG%2F20251117_125227.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjg3%2FMDAxNzY5OTA3NzQwNzMw.xBHGjLMaNtNJwW_clRCU8JF7qgyjNDtp9fq2ThM2c0Ug.c7h4U5mhAnjnGe7LV7q0tAyK8r6MnWDUEKX8ARgdHEgg.JPEG%2F20251117_125227.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDNfMjk2%2FMDAxNzU5NDY5Nzk2MTMw.HLC3L_noCoKcQnn65FEYrsS6VgOyvMWrhvJtkhoa8gsg.lPY8sI3T5-T7ogMxPr2uGyCkqU9qmcCp4Ble4rV7GUog.JPEG%2F20250918_143337.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjJfMTY1%2FMDAxNzYzNzY2NjI3NTAw.2jA9C3q3S03TtfO-QmQPO1XVJeg1jjAf0JNIYEFP53Eg.t0CgTrGQ-zRWMV2JDQXORbCPqSPXrPe3ARjOoEPKkn4g.JPEG%2F20251117_125227.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20210904_268/1630727735361PQINB_JPEG/QOFmXynkvRG1suaeRP-_S1mH.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -14142,13 +13979,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "근처 올 일이 있어 방문했어요!!칼국수 그리고 볶음밥도 미나리가 들어가서 참 향긋했고요!특히 김치!! 맛있어요!!만두에 김치 올려 먹으면 맛있는 김치만두가 돼더라고요ㅎㅎ볶음밥엔 국물 적셔 먹기 국룰!!맛있고 또 배부르게 먹고 갑니다~♡더보기",
-      "요리왕 큰어머니집에 온 듯한 편안한 바이브의 맛집입니다. 15년 맛집답게 메뉴는 한 가지이며 소주를 부르는 얼큰한 국물맛과 고기와 버섯, 미나리가 많이 들어가 심금을 울립니다. 추븐 겨울날 몸과 마음이 따뜻해지는 한끼였습니다 🙂",
-      "사장님 너무 친절하시고 맛있는집이에요. 채소신선하구요.  추운날가면 더 맛있는집입니다.ㅎㅎ",
-      "언제나 맛있어요. 감사합니다.",
-      "이사하고 맛집탐방중이에요. 찬 바람이 불고 뜨끈한 국물이 생각나서 자주지나는 길에 보이는 금촌칼국수를 가봤습니다. 리뷰를 보지 않고 갔는데 사장님 너무너무너무 친절하셔서 음식먹는 동안 마음이 편했어요~ 겉절이가 정말 맛있어서 음식나오기 전 막걸리랑 같이 먹었는데 환장해요.. 야채추가 고기추가해서 아주 맛잇는 저녁식사를 했습니다. 첫방문이었지만 자주 갈 것 "
-    ],
+    "rv": ["요리왕 큰어머니집에 온 듯한 편안한 바이브의 맛집입니다. 15년 맛집답게 메뉴는 한 가지이며 소주를 부르는 얼큰한 국물맛과 고기와 버섯, 미나리가 많이 들어가 심금을 울립니다. 추븐 겨울날 몸과 마음이 따뜻해지는 한끼였습니다 🙂"],
     "naverPlaceId": "18277255",
     "naverBlogCnt": 180,
     "menuItems": [
@@ -14681,12 +14512,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "비도 오고 그래서 따끈한 해물칼국수 국물 생각나서 다녀왔습니다. 전라도식 김치(배추김치, 열무김치) 반찬에 정말 맛있게 먹었네요. 사장님 두 분 건강히 오래 영업해주시면 좋겠습니다. 매탄동 맛집이에요!",
-      "비오니 시원한칼국수에 파전이 생각나서 검색해보니 가까운곳에 칼국수집이있어서 찾아간곳 동네식당이라 평타만해도 나쁘지않다고생각하고 간곳인데 음식받아서 한입먹자마자 김치종류 깔끔시원하게 맛있어서 너무좋았고요 칼국수보이시나요?1인분입니다 바지락 쭈꾸미 새우 오만둥이 요즘 만원에 해물칼국수 먹을수가없죠..국물시원하고 면이 진짜 쫄깃하고 끝내줍니다 파전도 오징어많이 ",
-      "진짜 어째 이렇게 다 맛있음요ㅠㅠㅠㅠㅠ",
-      "팥죽 맛있다고해서 포장해왔어요. 사장님 모두 친절하십니다."
-    ],
+    "rv": ["비도 오고 그래서 따끈한 해물칼국수 국물 생각나서 다녀왔습니다. 전라도식 김치(배추김치, 열무김치) 반찬에 정말 맛있게 먹었네요. 사장님 두 분 건강히 오래 영업해주시면 좋겠습니다. 매탄동 맛집이에요!", "비오니 시원한칼국수에 파전이 생각나서 검색해보니 가까운곳에 칼국수집이있어서 찾아간곳 동네식당이라 평타만해도 나쁘지않다고생각하고 간곳인데 음식받아서 한입먹자마자 김치종류 깔끔시원하게 맛있어서 너무좋았고요 칼국수보이시나요?1인분입니다 바지락 쭈꾸미 새우 오만둥이 요즘 만원에 해물칼국수 먹을수가없죠..국물시원하고 면이 진짜 쫄깃하고 끝내줍니다 파전도 오징어많이 들어있고요 미나리와 쪽파까지 푸짐한데 눅눅하지않고 바삭촉촉하고 진짜 너무 맛있게 먹었어요...김치리필하려고 추가요청해도 되는데 바쁘신거같은서 직접가져다먹으려고 갔는데 일반식사메뉴때문에 다른반찬도 있더라구요 밥종류를 먹는게아니라서 쪽파김치만 있어서 먹어봤는데 이것도 맛있어요 여긴 다른걸먹어도 맛있겠구나했어요 단골집등록입니다 가격대비 양많고 너무맛있어요 추천요", "칼국수 찐 맛집입니다. 지나가다 우연히 들어갔는데 완전 맛있어요!! 배달이 안 돼서 아쉬운데 계속 생각나는 맛이라서 계속 올 거 같아요~^^"],
     "naverPlaceId": "1625139294",
     "naverBlogCnt": 13,
     "menuItems": [
@@ -14744,7 +14570,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1625139294/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211009_199%2F1633777874859zeW9v_JPEG%2FJjJ0RXn55bl2H57mK23CVCfp.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211009_199%2F1633777874859zeW9v_JPEG%2FJjJ0RXn55bl2H57mK23CVCfp.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDFfMjUx%2FMDAxNzU0MDQzMzc4OTE0.86lt4nMt-vU-Gn4VTzesX9CN45v6GcgxvsM5jMFeO7Ag.aDLJjBsxknWacIqYHigaOr7ej7c7tZadhMRxU8DNkYYg.JPEG%2F20250801_184839.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjRfMjE2%2FMDAxNzQ4MDU3ODY1OTc4.Gxk-R3tcYlpUjz0WlAdh-4Pe7AJV7WjaTZj7Qg5urycg.esRkcYl7JlG50KoigClhMT5n5tahYeS-3zTbSyKB6ewg.JPEG%2F20250524_115311.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MThfNTAg%2FMDAxNzUyODA1MTcyNTYw.G_mDei9N5F2_00RafSNFEh4WiIyV0mhhlM0AQ_x7-Ssg.mibR59k6iac2hkR_CUbdg_9s15rmpE8o6OuQqYvcd_0g.JPEG%2FScreenshot_20250718-110645_%25281%2529.png.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MThfMTAg%2FMDAxNzUyODA1MTcyNjE3.RrTyX7BQo8zLOc9PI86ifbDxWUSlF63mRbi2K0NyQ_Ag.tIyFPF1r18c87-n2FS5DV6ivDlMn_0dXjVYsz-6r7XUg.JPEG%2FScreenshot_20250718-105941_%25281%2529.png.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211009_199%2F1633777874859zeW9v_JPEG%2FJjJ0RXn55bl2H57mK23CVCfp.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211009_199%2F1633777874859zeW9v_JPEG%2FJjJ0RXn55bl2H57mK23CVCfp.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDFfMjUx%2FMDAxNzU0MDQzMzc4OTE0.86lt4nMt-vU-Gn4VTzesX9CN45v6GcgxvsM5jMFeO7Ag.aDLJjBsxknWacIqYHigaOr7ej7c7tZadhMRxU8DNkYYg.JPEG%2F20250801_184839.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjRfMjE2%2FMDAxNzQ4MDU3ODY1OTc4.Gxk-R3tcYlpUjz0WlAdh-4Pe7AJV7WjaTZj7Qg5urycg.esRkcYl7JlG50KoigClhMT5n5tahYeS-3zTbSyKB6ewg.JPEG%2F20250524_115311.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MThfNTAg%2FMDAxNzUyODA1MTcyNTYw.G_mDei9N5F2_00RafSNFEh4WiIyV0mhhlM0AQ_x7-Ssg.mibR59k6iac2hkR_CUbdg_9s15rmpE8o6OuQqYvcd_0g.JPEG%2FScreenshot_20250718-110645_%25281%2529.png.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MThfMTAg%2FMDAxNzUyODA1MTcyNjE3.RrTyX7BQo8zLOc9PI86ifbDxWUSlF63mRbi2K0NyQ_Ag.tIyFPF1r18c87-n2FS5DV6ivDlMn_0dXjVYsz-6r7XUg.JPEG%2FScreenshot_20250718-105941_%25281%2529.png.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -14769,12 +14595,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "사장님들이 너무 너무 친절하시고참치도 신선하고 맛있어요한접시부터 정성이 가득합니다자주는 못가도 계속가고 싶은 단골집입니다^^더보기",
-      "n번째 찾는 완전 맛집 매탄동 맛집 참치집ㅎㅎ부위 고퀄 나머지 나오는 음식들도 수준급!!지인들 항상 추천해서 옵니다ㅎㅎ여기는 사장님 맛있어요 참치 친절해요 이정도에요ㅋㅋ더보기",
-      "수원에 살때 혼술하러 자주 들립니다",
-      "정말 친절하고 유쾌하신 사장님양 많고 맛도 좋고 퀄리티 훌룽해요 몇 년째 찾아가는 맛집"
-    ],
+    "rv": ["이 사진은 단체모임에 내갈 메뉴로 혼자 먹는 메뉴하고 다르니 참조만 해주세요. 너무 예뻐서 찍었어요. 사장부부가 친절하고 좋아요. 리필도 잘 해주시고 혼자가서 술수다를 떨고 오기에 친절함, 재치가 많은 그런곳입니다."],
     "naverPlaceId": "19854276",
     "naverBlogCnt": 25,
     "menuItems": [
@@ -14822,7 +14643,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19854276/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_272%2F1612515969636qYrRx_JPEG%2Fe0843PJysOoQ0c-UfK22qkiO.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_272%2F1612515969636qYrRx_JPEG%2Fe0843PJysOoQ0c-UfK22qkiO.jpg", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl5": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/sparkles20220119222028.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_272%2F1612515969636qYrRx_JPEG%2Fe0843PJysOoQ0c-UfK22qkiO.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210205_272%2F1612515969636qYrRx_JPEG%2Fe0843PJysOoQ0c-UfK22qkiO.jpg", "imageUrl3": "", "imageUrl4": "", "imageUrl5": "", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -15065,13 +14886,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "수원에 볼 일 보러 갔다가 들른 곳인데가격 저렴하고 반찬도 빠지지 않고 있을 건  있어요배달도 엄청 나네요.다음에도 재방문 의사 있어요!더보기",
-      "혼밥으로도 많이 오시고 배달도 많고깔끔합니다",
-      "거의 출근도장을 찍는...일찍 가니까 갓 나온 밥과 반찬들이 더 맛있네요!",
-      "붐비는 점심 시간 피해서 갔는데반찬 리필이 늦어서 아쉬웠네요",
-      "가성비 우주짱입니다.수원 시내에서 한식뷔페 7000 원에먹을수 있다니반찬도 다양하고 이런곳이라니  최고에용더보기"
-    ],
+    "rv": ["돼지김치볶음 먹었는데 상한걸 재탕했나봐요 쉰맛이 나서 제대로 먹지도 못했네요 다시 오긴 힘들듯요.;;;"],
     "naverPlaceId": "1954827143",
     "naverBlogCnt": 53,
     "menuItems": [
@@ -15084,7 +14899,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1954827143/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_144%2F1697795236373lHOvH_JPEG%2Fsearch.pstatic.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_144%2F1697795236373lHOvH_JPEG%2Fsearch.pstatic.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_133%2F1701258647569KhFcB_PNG%2F20231129_204823.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_56%2F1701258647524t2AXm_PNG%2F20231129_204838.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_7%2F1701258647568rETGh_PNG%2F20231129_204939.png", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_222%2F1697795255657ArS2S_JPEG%2F6_%25281%2529.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20201120_270/1605817077580NmQq0_JPEG/LRWYZ28-8TXbcShgbwuwxFUn.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_144%2F1697795236373lHOvH_JPEG%2Fsearch.pstatic.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_144%2F1697795236373lHOvH_JPEG%2Fsearch.pstatic.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_133%2F1701258647569KhFcB_PNG%2F20231129_204823.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_56%2F1701258647524t2AXm_PNG%2F20231129_204838.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231129_7%2F1701258647568rETGh_PNG%2F20231129_204939.png", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231020_222%2F1697795255657ArS2S_JPEG%2F6_%25281%2529.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20201120_270/1605817077580NmQq0_JPEG/LRWYZ28-8TXbcShgbwuwxFUn.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -15297,12 +15112,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "단골입니다. 항상 갈 때마다 친절하세요. 몇달만에 왔다고 반가워 해주셔서 기분 좋았습니다. 소금구이 맛있고, 저희는 막창이 진짜 소금이든 양념이든 다 입에 맞아요. 담에는 막창으로만 달려보려구요.가볍게 3인 5인분에 밥 두개뿌수고 왔어요.사실 더 먹을 수 있지만 주머니 사정생각해서 적당히 먹었습니당.자주 갈게요 사장님~~더보기",
-      "어느덧 세번째 방문입니다.너무 잘 먹는 우리가족 셋이서 5인분+떡사리+볶음밥2개야무지게 박박 긁어먹고 왔습니다.아들이 무지 좋아해서 곧 또 갈것같아요.더보기",
-      "깨끗하고 맛있는집 포장해서 왔어요 우리집주인이 인정하네요^^",
-      "여긴 리뷰를 안 쓸수가 없네요!! 정말 친절하시고 맛도 최고예요!!! 임신을해서 곱창이 먹고 싶어서 찾아왔는데~~지금까지 먹은 곳 중 최고였어요! 특히 사장님의 친정함에 기분이 좋습니다!! 자주 올게요❤️"
-    ],
+    "rv": ["여긴 리뷰를 안 쓸수가 없네요!! 정말 친절하시고 맛도 최고예요!!! 임신을해서 곱창이 먹고 싶어서 찾아왔는데~~지금까지 먹은 곳 중 최고였어요! 특히 사장님의 친정함에 기분이 좋습니다!! 자주 올게요❤️", "오늘 잠깐 들려서 포장해갔는데, 서비스가 너무 친절했고 센스 있었으며 곱창 맛도 최고였습니다. 뉴진스럽지 않은 푸짐한 양과 질!♡"],
     "naverPlaceId": "1429900328",
     "naverBlogCnt": 38,
     "menuItems": [
@@ -15386,12 +15196,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "여기가 집앞이라 종종가는데 솔직히 이만한 설렁탕집 찾기 어려움 고기도 실한편이고 육수가 기가막힘 무조건 가보세요 반찬은 셀프바 이용하면 되는데 어묵볶음 ,젓갈 존맛도가니탕이랑 꼬리곰탕도 먹을예정  그럼 최고의 맛집을 찾는 그날까지 아디오스반찬 4.5점서비스 5점설렁탕 맛 5점더보기",
-      "전엔 설렁탕 먹어봐서 장터국밥 먹어 봤는데뭔가 조선시대 주먹에서 이런 음식을 먹지 않았을까.. 싶은?그런 맛이었어요 시래기도 많이 있고 고기도 맛있었는데 개인적으로 설렁탕이 더 맛있었어요다음인 설렁탕 특으로 먹으러 올게요더보기",
-      "아이랑  운동  마치고 식사하러 들렸는데아이가 먹기에 좋네요.깍두기도 맵지않고 애나 어른이나 다 좋아할 맛이에요~한끼로  든든하게  먹고 나왔네요~더보기",
-      "김치찌개 먹을려다가 갑자기 맑은 국물 먹고 싶어져서 설렁탕 먹으러 들어 갔는데 특이 아니라 보통인데도 고기가 꽤 많이 들어 있었어요 국물도 간만 맞추면 밥말아서 후루룩 먹기 좋고 진하고 맛있었어요 개인 취향이지만 저는 생양파랑 먹으니까 알싸하니 좋더라구요~ 후식으로 요구르트도 너무 감사히 잘 먹었습니다"
-    ],
+    "rv": ["국밥에 고기도 적당히 잘 들어가있고 맛도 좋은편. 특히 반찬이 매우 좋음. 사실 그런의미에서 보면 만원짜리 국밥의 가성비가 꽤 좋은편이다. 주차는 좀 불편한편인데 가게앞에 자리가 없을경우 대로변에 주차하되 소화전은 피해서 주차하도록 하자.", "김치찌개 먹을려다가 갑자기 맑은 국물 먹고 싶어져서 설렁탕 먹으러 들어 갔는데 특이 아니라 보통인데도 고기가 꽤 많이 들어 있었어요 국물도 간만 맞추면 밥말아서 후루룩 먹기 좋고 진하고 맛있었어요 개인 취향이지만 저는 생양파랑 먹으니까 알싸하니 좋더라구요~ 후식으로 요구르트도 너무 감사히 잘 먹었습니다"],
     "naverPlaceId": "1473972692",
     "naverBlogCnt": 60,
     "menuItems": [
@@ -15404,7 +15209,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1473972692/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_163%2F167480785929112aIW_PNG%2F20230116_105808.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_163%2F167480785929112aIW_PNG%2F20230116_105808.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_281%2F1674807859843nsufG_PNG%2F20230116_101543.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_190%2F1674807860221UJQOx_PNG%2F20230116_101611.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_175%2F1674807859960x1BDF_PNG%2F20230116_101625.png", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_43%2F1674807859109URa84_JPEG%2FKakaoTalk_20230116_105051502.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20230127_279/1674807916221swElk_PNG/20230116_105808.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_163%2F167480785929112aIW_PNG%2F20230116_105808.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_163%2F167480785929112aIW_PNG%2F20230116_105808.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_281%2F1674807859843nsufG_PNG%2F20230116_101543.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_190%2F1674807860221UJQOx_PNG%2F20230116_101611.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_175%2F1674807859960x1BDF_PNG%2F20230116_101625.png", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230127_43%2F1674807859109URa84_JPEG%2FKakaoTalk_20230116_105051502.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20230127_279/1674807916221swElk_PNG/20230116_105808.png", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -15431,11 +15236,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "종종갑니다~~한식부폐중에 여기가 가장 맛있어요!!오늘도 맛있게 잘 먹었습니다",
-      "매번 오는 곳이지만 사장님의 정성이 느껴지는 곳 입니다.8천원이란 요즘같은 고 물가 시대에 저렴한 가격대, 왠만한 음식점은 비교도 못하는 가성비있는 메뉴구성이구요.제가 이 집을 좋아하는 또 하나의 이유는앞에 서술했듯 사장님의 정성이 느껴집니다. 맛이 매우 가정식같이 너무 싱겁지도 않고 간이 너무 쎄지도않게 만들어주셔서 먹고나서 위에 부담이 없어요. 제가 여",
-      "성인판 급식 맛... 무난하고 맛있어요치킨은 바삭바삭해서 좋았고양념보다는 후라이드가 맛있었어요 양념이 그렇게 맛있진 않았네요...햄 볶음은 사실 정말 학교에 나올 것 같은 맛이었어요 ㅠㅠ생각보다 실망했어요 시금치는 너무 질겅질겅 씹혔구요...가격이 올랐는데도 가성비긴 하지만 맛에 조금 더 신경써주셨으면 좋겠습니다...🥺더보기"
-    ],
+    "rv": ["우연히 들어갔는데 자극적이지 않은 편한 집밥느낌이라 좋았어요 깔끔하고 재료도 싱싱했습니다"],
     "naverPlaceId": "1994802956",
     "naverBlogCnt": 8,
     "menuItems": [],
@@ -15469,13 +15270,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "밝은 미소 사장님 맛있게 잘먹었습니다무더위 고생 많으신 이모님들 항상건강하세요~♡",
-      "너무 친절하시고 맛있네요~^^",
-      "음식 깔끔하고 맛있어요~~이름처럼 고향에 온거 같은 맛입니다 추천합니다~~^^",
-      "수원 삼성전자 맛집 고향한식뷔페 다녀왔어요. 거짓말 1도 안 보태고 진짜 가성비 최고 입니다. 음식 다 맛있고 후식 감자튀김까지 있어서 대만족 이었어요",
-      "갓성비중에 갓성비!💕사실 요즘 다양한 한식뷔페가 많은데 이렇게 정많고 다양한 음식있는 곳음 정말 오랜만인것같네요. 요즘 물가도 오르고 다들 힘들다는데 이런곳에서 맛있게 먹고가서 기분이 좋습니다! 오늘는 오징어볶음이랑 순대, 비엔나, 돗나물 등 있었고 매일매일 메뉴가 바뀐다고하니 회사 구내식당으로도 너무 좋을 것 같네요^^장사 더욱 잘 되서 다음에도 오고싶"
-    ],
+    "rv": ["수원 삼성전자 맛집 고향한식뷔페 다녀왔어요. 거짓말 1도 안 보태고 진짜 가성비 최고 입니다. 음식 다 맛있고 후식 감자튀김까지 있어서 대만족 이었어요", "이가격에 이퀄리티 요즘같은 고가시대에 최고입니다!! 매장도 넘 청결하고 여러가지 음식을 즐길 수 있어서 좋아요 합리적인 가격으로 배부르게 먹을 수 있는 곳이라 직장인분들에게도 추천해요 ~~ 특히 비빔국수랑 수육이랑 같이 먹으니 느끼함고 없고 정말 맛있었어요!! 사장님 번창하세요~~", "진짜 이런 음식점 넘 오랜만이네요☺️ 한식러버인데 이렇게 알찬 구성의 메뉴를 맛볼 수 있음에 너무 좋네요!! 혼자가도 양껏 취향따라 골라 먹을 수 있어서 자주 방문할려고요~ 메뉴도 신선하고 한식의 근본이라고 할 수 있는 메뉴는 고루 다 있네요! 수원 사람이라면 한 번쯤 꼭 가서 맛난 식사하세요~ 그럼 다들 맛점☺️❤️"],
     "naverPlaceId": "1945588342",
     "naverBlogCnt": 3,
     "menuItems": [],
@@ -15483,7 +15278,7 @@ const restaurants = [
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1945588342/home",
     "updatedAt": "2026-03-17",
     "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_146%2F1705387820895kDtxq_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2024-01-16_154359.png",
-    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_146%2F1705387820895kDtxq_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2024-01-16_154359.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_266%2F1705388573148oskQz_JPEG%2FKakaoTalk_20240116_160035766.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_50%2F1705388582285t1KNa_PNG%2F%25C1%25A6%25B8%25F1%25C0%25BB_%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4_-001_%25283%2529.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDdfMTI4%2FMDAxNzUxODY4OTMwOTc0.2uhm0HHViJLbXP3GLMiR6yLmQV3pMEY5TygNn8Iftrgg.PwjrMbqJzaqzTxHhWQDzZsPJXsu1M2YHcpC2SDJA7Akg.JPEG%2F1000037750.heic.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDdfMjU5%2FMDAxNzUxODY4OTI5OTMz.vZIw_SoqsRpnA8496iDZ2Y6v2gqPEPxy-uxZtC4--M8g.eTUAQX5yiFLtTqXkAdye__Dywo78to6iOXSFmNtxEEkg.JPEG%2F1000037752.heic.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png",
+    "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_146%2F1705387820895kDtxq_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2024-01-16_154359.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_266%2F1705388573148oskQz_JPEG%2FKakaoTalk_20240116_160035766.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240116_50%2F1705388582285t1KNa_PNG%2F%25C1%25A6%25B8%25F1%25C0%25BB_%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4_-001_%25283%2529.png", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDdfMTI4%2FMDAxNzUxODY4OTMwOTc0.2uhm0HHViJLbXP3GLMiR6yLmQV3pMEY5TygNn8Iftrgg.PwjrMbqJzaqzTxHhWQDzZsPJXsu1M2YHcpC2SDJA7Akg.JPEG%2F1000037750.heic.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDdfMjU5%2FMDAxNzUxODY4OTI5OTMz.vZIw_SoqsRpnA8496iDZ2Y6v2gqPEPxy-uxZtC4--M8g.eTUAQX5yiFLtTqXkAdye__Dywo78to6iOXSFmNtxEEkg.JPEG%2F1000037752.heic.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -15511,13 +15306,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "가게명에 짬뽕이 들어가지만 짜장면과 탕수육까지 맛있는 집입니다 :)탕수육이 어렴풋이 사진보시면 보이지만 두툼하고 일반 탕수육과는 다른 식감입니다좋은 맛이 나는 식당이에요 !",
-      "망포에 짬뽕밥집 발견했습니다 짬뽕 가격도 가성비 좋고짬뽕밥 국물이 진해서 진국인거 같아요 ㅎㅎ한그릇 뚝딱 해치워버렸답니다 따뜻하게 먹어주니 겨울철 먹기 좋은 메뉴인듯해요 !!!!!다음에는 다른 짬뽕밥 도전해보려고 합니다 :)더보기",
-      "저번 방문 때 짬뽕이 너무 맛있었어서 계속 생각이 나 또 왔어요! 불맛이 대박이고 너무 맛있어요👍🏻 탕수육도 겉바속촉에 너무 맛있습니다!!",
-      "저희는 A세트 먹었는데 메뉴 구성도 알차고 다 맛잇엇어용 ㅎㅎ 가성비 최고!!! 주차하기도 편해서 자주 올 것 같아오~ ❤️❤️",
-      "가족과 오랜만에 재방문했어요잘먹었습니다"
-    ],
+    "rv": ["직원들이랑 야근할때 중식 땡기면 오는 곳입니다~양도 푸짐하고 짬뽕짜장 다 맛잇어요!! 탕수육도 추천합니다!!", "직장 주변이라 간단히 중식생각날때마다 오는데 따뜻하니 맛잇어요~~번창하세요!!"],
     "naverPlaceId": "1104270647",
     "naverBlogCnt": 141,
     "menuItems": [
@@ -15787,12 +15576,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "배고플때 먹어서 그런지 맛나게 먹었습니다 ㅎㅎ",
-      "점심시간 지나서 가니 사람들 없이 편하게 먹었네요~떡볶이가 자극적이지 않아 맛있고 좋았어요!!김밥은 무난했고 순대는 쫀득한걸 좋아하는데 쫀득하지는 않더라구요.. 그래도 맛은 있었어요다만 사진과 같이 양이 좀 부족한느낌?포장보다 매장이 더 양이 적은거 같았어요..더보기",
-      "부부가 운영하는 작은매장인데 남자사장님은 무뚝뚝하신데 행동에서 친절함이 많이 보입니다. 맛이 있는만큼 오래했으면 좋겠습니다.",
-      "이런분식집 오랜만이네요ㅎㅎ세트에다 김밥추가시켰는데 가격도저렴한데 푸짐하게 잘나오더라고요ㅎㅎ 너무너무맛있게 남김없이뚝딱했지요ㅎㅎ 떡볶이는밀떡인데 쌀떡도 매력이ㅎㅎ김밥도 알차게들어가있어서 한입에든든하네요ㅎㅎ순대는 저내장파인데 귀때기까지줘가꼬 더행복했어요ㅎㅎ"
-    ],
+    "rv": ["쫄면이 먹고파서들린 분식집!가게도깔끔!음식도깔끔!간만에쫄면~맛나게먹었네요~다른곳들은쏘스맛이 다비슷한데 여긴직접하신다고하니 더맛나는거같아요~^^옆테이블에서김밥을맛나게드시는걸보고 포장해와또요~^^전에도몇번포장해와서 먹었지만 김밥!와우!아즈아즈잘먹었습니당~😁", "부부가 운영하는 작은매장인데 남자사장님은 무뚝뚝하신데 행동에서 친절함이 많이 보입니다. 맛이 있는만큼 오래했으면 좋겠습니다.", "이런분식집 오랜만이네요ㅎㅎ세트에다 김밥추가시켰는데 가격도저렴한데 푸짐하게 잘나오더라고요ㅎㅎ 너무너무맛있게 남김없이뚝딱했지요ㅎㅎ 떡볶이는밀떡인데 쌀떡도 매력이ㅎㅎ김밥도 알차게들어가있어서 한입에든든하네요ㅎㅎ순대는 저내장파인데 귀때기까지줘가꼬 더행복했어요ㅎㅎ", "정말 간만에 분식집에서 김밥이랑 라면을 먹었어요. 매장도 깔끔했고 김밥도 무난히 괜찮았어요. 오가며 간단히 한 끼 먹기에 괜찮을 듯 해요."],
     "naverPlaceId": "1386874361",
     "naverBlogCnt": 7,
     "menuItems": [
@@ -15825,7 +15609,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1386874361/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_277%2F1664870371514HJOsr_JPEG%2F%25B8%25DE%25C0%25CE2596E579E-BCB5-48B5-80F8-ADB3E85E63CB.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_277%2F1664870371514HJOsr_JPEG%2F%25B8%25DE%25C0%25CE2596E579E-BCB5-48B5-80F8-ADB3E85E63CB.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_220%2F1664872687162860ly_JPEG%2F%25B8%25DE%25B4%25BA22CCC6033-F115-4253-A832-CE0EE9474D42.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_214%2F16648726871734Bf1D_JPEG%2F%25B8%25DE%25B4%25BAB3AEE009-19CD-4C95-B56C-32D413A15370.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_31%2F1664870390410dvVNS_JPEG%2FA30F25CD-5DC3-4CA7-9F44-A85C38026E0A.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_113%2F1664870390514mo6Iy_JPEG%2F%25B8%25DE%25C0%25CE1DA9E178F-F671-499C-AE7F-5A42C1C2658C.jpeg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_277%2F1664870371514HJOsr_JPEG%2F%25B8%25DE%25C0%25CE2596E579E-BCB5-48B5-80F8-ADB3E85E63CB.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_277%2F1664870371514HJOsr_JPEG%2F%25B8%25DE%25C0%25CE2596E579E-BCB5-48B5-80F8-ADB3E85E63CB.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_220%2F1664872687162860ly_JPEG%2F%25B8%25DE%25B4%25BA22CCC6033-F115-4253-A832-CE0EE9474D42.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_214%2F16648726871734Bf1D_JPEG%2F%25B8%25DE%25B4%25BAB3AEE009-19CD-4C95-B56C-32D413A15370.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_31%2F1664870390410dvVNS_JPEG%2FA30F25CD-5DC3-4CA7-9F44-A85C38026E0A.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221004_113%2F1664870390514mo6Iy_JPEG%2F%25B8%25DE%25C0%25CE1DA9E178F-F671-499C-AE7F-5A42C1C2658C.jpeg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -15853,13 +15637,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "방일해장국. 오래된 가게 입니다. 새벽에 귀굳함 애와 함께 조찬모임(?). 외노자가 가장 먼저 찾는 한국식이 방일해장국이라니 . 맛을 기억하고 있어 좋네요. 걍.츄.",
-      "자동차 점검하는 시간동안 배고파서 어디갈까하다 들린곳~!! 선지도 신선하고 맛있었어요~!!",
-      "뜨끈하고 얼큰한거 먹고싶을때 오면 좋을거 같아요! 혼밥하기에 좋아요!",
-      "맛있어서 자주 이용해요 국물만 남기고 순삭했어요",
-      "방일해장국 영통점. 오래된 노포점. 국물 맛이나 내용물이 변하지 않고 냄새없이 시원하게 해장 됩니다. 마침 연휴라 시끌벅적 하네요. 걍.츄."
-    ],
+    "rv": ["방일해장국. 오래된 가게 입니다. 새벽에 귀굳함 애와 함께 조찬모임(?). 외노자가 가장 먼저 찾는 한국식이 방일해장국이라니 . 맛을 기억하고 있어 좋네요. 걍.츄.", "자동차 점검하는 시간동안 배고파서 어디갈까하다 들린곳~!! 선지도 신선하고 맛있었어요~!!", "방일해장국 영통점. 오래된 노포점. 국물 맛이나 내용물이 변하지 않고 냄새없이 시원하게 해장 됩니다. 마침 연휴라 시끌벅적 하네요. 걍.츄.", "소고기 해장국, 일반 해장국... 너무 실망 ㅜ 건더기가 너무 적고 간이 너무 세요... 간은 그렇다쳐도 솔직히 소고기 해장국은 ... 진짜 양 완전 적은데.. 가격이라도 저렴하면 모르겠는데.. 개선이 필요해 보입니다. 전같지않네요"],
     "naverPlaceId": "19214761",
     "naverBlogCnt": 228,
     "menuItems": [
@@ -15934,13 +15712,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "수원 영통의 유일한 스타벅스R 매장입니다. 매장도 크고 넓으며 편하게 이용할 수 있게 좌석도 많아요. 멋드러진 중앙부의 인테리어가 웅장합니다. 주차는 건물에 가능(지상/지하) 하며 2시간 무료입니다. 직원분들 친절하게 응대해주시고 주문도 빠릅니다. 매장 MD들도 다채로워서 볼게 많네요. 특히 리저브 매장 전용 MD들은 많이 안내 안되어있는거 같아 찍어올립니",
-      "크리스마스에 생일 쿠폰도 쓰고 케이크도 하나 사올 겸, 판타지움 1층에 위치한 스타벅스 영통 리저브 점 방문했어요.거의 오픈런이라 여유롭게 자리를 잡고 앉아 사이렌오더 해준, 신메뉴인 블랙 글레이즈드 라떼 주문해줬고 달달하고 부드러운 맛이 좋더라구요.케이크는 화이트 캔들 케이크 포장해주는데 전용 박스에 담아주고 맛도 기대 이상으로 넘오 맛나게 먹었네요.화장",
-      "오늘 아아에 두바이 쫀득롤도 먹어봤어요~~!! 두바이 유행이 쩜 지난 시점에 출시한 디저트이긴하지만 피스타치오랑 카다이프가 낭낭해서 괜춘했어요~ 그리고 제조음료 포함해서 3만원이상이면 마그넷 증정하는 이벤트도 하고있어 마그넷도 받았는데 넘 귀여워요^^",
-      "디티점은 아니지만 주차가 편해서 자주 가는 애정하는 스벅. 사람 너무 많으면 좀 시끄럽긴한데 나에게 접근성이 좋아 그래도 선호하는 매장. 오늘도 음료 픽업하러 다녀옴!지인과 만나 대화할땐 보통 가상 자리로 가서 대화 하는편 : )더보기",
-      "저녁에 오니 여유롭고 좋네요 ㅎ"
-    ],
+    "rv": ["오늘 아아에 두바이 쫀득롤도 먹어봤어요~~!! 두바이 유행이 쩜 지난 시점에 출시한 디저트이긴하지만 피스타치오랑 카다이프가 낭낭해서 괜춘했어요~ 그리고 제조음료 포함해서 3만원이상이면 마그넷 증정하는 이벤트도 하고있어 마그넷도 받았는데 넘 귀여워요^^"],
     "naverPlaceId": "1168986449",
     "naverBlogCnt": 434,
     "menuItems": [
@@ -16068,13 +15840,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "얼큰한 국물요리가 생각나서 방문했는데 기대 이상으로 맛있게 먹고 왔어요! 😊커다란 냄비에 푸짐하게 나오는 비주얼부터 눈길을 확 사로잡았고, 위에 제철음식인 냉이,고사라,시금치 각종 채소가 듬뿍 올라가 있어서 보기만 해도 건강해지는 느낌이었어요. 국물은 칼칼하면서도 깊은 맛이 나서 계속 숟가락이 가는 맛이었습니다. 🌶️특히 채소 향이 국물에 어우러지면서 ",
-      "집근처라  이용하기좋아요.특별한 메뉴가 있어요.맛있어요",
-      "특이하고 맛있네요~!!잘먹고갑니다",
-      "닭도리탕을 좋아하는데 샤브닭도리탕 주문했어요고기도 부드럽고 국물도 걸죽하니 술안주로 딱입니다소자인데 양이 많습니다. 계속 먹다보니 태백의 국물닭갈비 맛도 납니다사장님 친절하시고 분위기도 좋습니다. 전라도에서 먹었던 잎새주가 여기에 있어 그것도 반가웠어요리뷰 서비스 없이 작성된 리뷰임!더보기",
-      "여기 닭발이 적당히 맵고....너무 맛나여😂😂맵찔이인 저는 다른데거는 울면서 먹는데 여기는 웃으면서 먹었네요!!❤️다음에 재방문 의사 200%에요"
-    ],
+    "rv": ["집앞에있는데 밥하기싫을때 유일하게 오는곳이에요~~ 일반닭볶음탕아니구 고사리랑 야채가 많아서 너무 좋구 음식잠치고 술종류도많아서 좋아요 ㅎㅎㅎ"],
     "naverPlaceId": "1246062206",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -16486,11 +16252,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "뼈해장국 진짜맛있어요 약간짬뽕느낌에 매운맛도나고 고기도 연하고 부드럽습니다",
-      "술국, 기본찬.양 많은편인거 같아요.누린내도 없어요.맛있어요.사람 많은 이유가 있네요.더보기",
-      "감자탕 중으로 전화 주문하고 가서 금방 받았어요 제가 진짜 대식가인데도 만족스러운 양이였어요고기는 질기거나 잡내 이런거 하나도 없고 부드러웠어요 그리고 고기도 고긴데 안에 들어가는 재료 다 푸짐하고 싱싱해서 너무너무 좋네요사장님인지 직원분도 친절하시고 재방문 의사 있어요 마니 파시고 장사 오래 해주세요"
-    ],
+    "rv": ["매탄동 10년 넘게 살았지만, 사장님 직원분들 친절하시고 맛있어요. 가족들이랑 지인도 불러가다 오늘은 수영마치고 배고파 허겁지겁 밥먹다 맥주 한병 혼자 깠네요. 그정도로 편하고 부담없는곳입니다. 곱창볶음도 먹으러 조만간~", "뼈해장국 진짜맛있어요 약간짬뽕느낌에 매운맛도나고 고기도 연하고 부드럽습니다", "매장도 엄청 깔끔하고 친절하세요~ 순대국밥맛집인정! 양도 많고 잡내도 없고 김치 깍두기 진짜 맛있어요. 야채도 싱싱하구요. 새우젓도 맛있는 거 쓰세요~사장님이 시인이신가봐요 벽에 사장님 시가 걸려있습니다. 정직하게 장사하시는 거 같아요~고기질 완전 좋아요~ 국밥에 모듬 시켰는데 국물도 또 주시고 가성비 좋은 메뉴입니다. 잘먹었습니다~"],
     "naverPlaceId": "19212851",
     "naverBlogCnt": 186,
     "menuItems": [
@@ -16667,10 +16429,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "반반족발과 막국수 포장해서 먹었어요.족발은 여기가 가장 맛있어요.포장하면 할인해주셔요.양도 푸짐하고 추천해요더보기",
-      "📌 통통족발(대-앞다리) 32,000원☑️ 포장할인 3,000원 적용 후 가격☑️ 수원경기페이 사용 가능아…. 너무맛있어요 🔥🔥🔥유독 오늘따라 더 야들야들 부드럽고 한방(?)향이 맛깔나게 솔솔 올라오는게ㅋㅋㅋㅋ 오늘 최고 잘한 선택ㅋㅋㅋ전화로 미리 주문했고 20분 있다가 오라고 하셨어요 ! 같이 쌈야채(상추/깻잎), 편마늘, 무말랭이, 부추무침 주는",
-      "[불족발에서 냄새가 심하게 나서 버림]일반 족발은 괜찮았는데, 불족발에서만 유독 냄새가 심하게 났습니다.불족발 특유의 향이라기보다는 개인적으로는 거부감이 드는 냄새였고, 양념으로 냄새를 가리려 한 건 아닐까 하는 생각이 들 정도였어요.포장해서 집에 와서 열었는데 냄새 때문에 먹기가 힘들었고, 이미 다른 음식물 쓰레기와 섞여 버린 사진은 올리지 못했지만, 실",
+    "rv": ["맛있어요 냄새도안나고 무말랭이도 맛있어요. 비빔국수는 넘 달아서 좀 아쉬웠어요.", "처음 이용하는데 반반 대 막국수 대 배터지게 먹었어요 ㅎㅎ 불족 엄청 맵네요 소스 잔뜩 발린거 먹는데 입 불타는줄 알앗어요ㅋㅋ 온족 부드럽고 쫀득하니 온족 진짜 너무 맛있어서 나중에 둘이 먹을때는 온족 중자로 먹어도 될거 같아요 대 사이즈인데 4.2천원..ㄷㄷ 진짜 가성비 탑인듯요👍👍"]일반 족발은 괜찮았는데, 불족발에서만 유독 냄새가 심하게 났습니다.불족발 특유의 향이라기보다는 개인적으로는 거부감이 드는 냄새였고, 양념으로 냄새를 가리려 한 건 아닐까 하는 생각이 들 정도였어요.포장해서 집에 와서 열었는데 냄새 때문에 먹기가 힘들었고, 이미 다른 음식물 쓰레기와 섞여 버린 사진은 올리지 못했지만, 실",
       "정말 친절하고, 맛있어요~영통에서는 무조건 원탑입니다.족발도 맛나고, 막국수도 너무너무 맛나요.포장 시 3천원 할인~!!!정말 최고에요~더보기",
       "처음 이용하는데 반반 대 막국수 대 배터지게 먹었어요 ㅎㅎ 불족 엄청 맵네요 소스 잔뜩 발린거 먹는데 입 불타는줄 알앗어요ㅋㅋ 온족 부드럽고 쫀득하니 온족 진짜 너무 맛있어서 나중에 둘이 먹을때는 온족 중자로 먹어도 될거 같아요 대 사이즈인데 4.2천원..ㄷㄷ 진짜 가성비 탑인듯요👍👍"
     ],
@@ -16711,7 +16470,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21636278/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190826_8%2F1566808092689GlCcL_JPEG%2FwUbktS1sfn9M8IDo6dAIWT8c.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190826_8%2F1566808092689GlCcL_JPEG%2FwUbktS1sfn9M8IDo6dAIWT8c.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191126_294%2F1574757351452HdxOf_JPEG%2FboYM9JbRR6l-9d5siar8rnqI.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfMTQx%2FMDAxNzQ4NTYzODIwMzc2.a4QlYSrp8PovofG6iCzU7bD2-Yz9IB2jjcquesVPM7Ag.bf0k8ZisvyOa38LxJQQWS0sCIBC-VcGCCAijdt4iQCgg.JPEG%2F20241224_201150.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfMjQx%2FMDAxNzQ4NTYzODIwNjQz.xiY9Tqw1W2ErTN23fQtKr09HJS88HQuamEy5EDZrfawg.QQHfnnv9uMDHHCnRcEM3oiUih1bzjlG1-GxyVr-Ic8cg.JPEG%2F20241224_201153.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTdfMTA5%2FMDAxNzUyNjgwMjI3MjY4.mo80TlDWZMStHF0ZtYrirrCxqdowXmjQQEbMZTivaAkg.jHNsPz9wzzfj6tFpCrDWoxZ7u46_eHt7aLkpQqeAwnMg.JPEG%2FD884B2F1-2563-4C7E-AD57-2FEC8D74E551.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240101_257/1704103034742AE8lB_JPEG/1000008475.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190826_8%2F1566808092689GlCcL_JPEG%2FwUbktS1sfn9M8IDo6dAIWT8c.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190826_8%2F1566808092689GlCcL_JPEG%2FwUbktS1sfn9M8IDo6dAIWT8c.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191126_294%2F1574757351452HdxOf_JPEG%2FboYM9JbRR6l-9d5siar8rnqI.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfMTQx%2FMDAxNzQ4NTYzODIwMzc2.a4QlYSrp8PovofG6iCzU7bD2-Yz9IB2jjcquesVPM7Ag.bf0k8ZisvyOa38LxJQQWS0sCIBC-VcGCCAijdt4iQCgg.JPEG%2F20241224_201150.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfMjQx%2FMDAxNzQ4NTYzODIwNjQz.xiY9Tqw1W2ErTN23fQtKr09HJS88HQuamEy5EDZrfawg.QQHfnnv9uMDHHCnRcEM3oiUih1bzjlG1-GxyVr-Ic8cg.JPEG%2F20241224_201153.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTdfMTA5%2FMDAxNzUyNjgwMjI3MjY4.mo80TlDWZMStHF0ZtYrirrCxqdowXmjQQEbMZTivaAkg.jHNsPz9wzzfj6tFpCrDWoxZ7u46_eHt7aLkpQqeAwnMg.JPEG%2FD884B2F1-2563-4C7E-AD57-2FEC8D74E551.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240101_257/1704103034742AE8lB_JPEG/1000008475.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -17278,12 +17037,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "여기 미쳤어요 사장님이 핀절하고 음식은 말해뭐해 참치 퀄리티도 너무 좋고 사이드도 미친듯이 나와요 근데 하나같이 맛있어요 수원 놀러오시면 꼭 여기를 오셔야합니다 안 오시면 너무 후회하실 것 같아요",
-      "참치 너무 맛있는데 사장님이 너무 친절하세요 계속 나오는 사이드에 정신을 못 차립니다 수원 오시먄 꼭 들려야 합니다",
-      "참치가 먹고 싶어 검색 후 방문~한접시 메뉴로 먹었는데 괜찮았음",
-      "집 근처여서 지나가다가 꼭 가 봐야지 했던 원참치! 드디어 가 봤는데..참치가 이렇게 맛있는 음식인지 태어나서 처음 알았습니다..ㅜㅜ 입에서 살살 녹는다는 말이 딱 맞아요!! 부위마다 식감도 맛도 다르고! 김, 묵은지, 배추에 다양하게 싸 먹으니까 더 맛있네여ㅎㅎ 한입 먹자마자 신선함이 딱 느껴져요!! 무엇보다도 같이 나오는 사이드 음식들이 진짜 짱이에요ㅜ"
-    ],
+    "rv": ["스페셜 한접시 먹었는데 참치 너~~~무 맛있어요!!!! 사장님도 엄청 친절하세요 ㅎㅎ 스끼다시로 튀김이랑 고등어구이 샐러드 등등 다 너무 맛있게 잘먹었습니당😄😄", "여기 미쳤어요 사장님이 핀절하고 음식은 말해뭐해 참치 퀄리티도 너무 좋고 사이드도 미친듯이 나와요 근데 하나같이 맛있어요 수원 놀러오시면 꼭 여기를 오셔야합니다 안 오시면 너무 후회하실 것 같아요", "참치 너무 맛있는데 사장님이 너무 친절하세요 계속 나오는 사이드에 정신을 못 차립니다 수원 오시먄 꼭 들려야 합니다", "집 근처여서 지나가다가 꼭 가 봐야지 했던 원참치! 드디어 가 봤는데..참치가 이렇게 맛있는 음식인지 태어나서 처음 알았습니다..ㅜㅜ 입에서 살살 녹는다는 말이 딱 맞아요!! 부위마다 식감도 맛도 다르고! 김, 묵은지, 배추에 다양하게 싸 먹으니까 더 맛있네여ㅎㅎ 한입 먹자마자 신선함이 딱 느껴져요!! 무엇보다도 같이 나오는 사이드 음식들이 진짜 짱이에요ㅜㅜ 초무침부터 콘치즈, 오뎅국, 고등어구이, 모듬튀김, 코다리튀김 진짜 끝도 없이 나와요ㅋㅋㅋ 넘 혜자스럽고 감사한 곳입니다ㅜㅜ 특히 튀김이 어떻게 이렇게 바삭한지 새우튀김 먹고 넘 맛있어서 눈 완전 커졌네요ㅎㅎ 매장도 넓고 룸도 많아서 단체모임 하기에도 넘 좋고 매탄동 참치 맛집, 매탄동 횟집으로 넘넘 강추하고 싶습니다ㅎㅎ", "매탄동 산드래미쪽에 이런 참치집있는줄 몰랐다가 최근 알게되어 방문했는데 너무 좋았어요. 입에서 살살 녹고 사장님도 친절하시고, 세트로나오는 튀김들도 참치먹느라 오래뒀다 먹었는데도 끝까지 바삭하고 다 맛있었어요~!"],
     "naverPlaceId": "1182882671",
     "naverBlogCnt": 96,
     "menuItems": [
@@ -17336,7 +17090,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1182882671/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_105%2F17298685490411Kt1R_JPEG%2F20200415_173621.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_105%2F17298685490411Kt1R_JPEG%2F20200415_173621.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_19%2F1729868826163hB3fN_JPEG%2F20210112_162808.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200213_47%2F1581529300178hbbla_JPEG%2FU1DLSs0SFo_toJrhi8l7yxZp.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_280%2F1729868826155Du4jb_JPEG%2F20200722_160557.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_144%2F1729868826144IvJL9_JPEG%2F20200415_173415.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_105%2F17298685490411Kt1R_JPEG%2F20200415_173621.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_105%2F17298685490411Kt1R_JPEG%2F20200415_173621.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_19%2F1729868826163hB3fN_JPEG%2F20210112_162808.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200213_47%2F1581529300178hbbla_JPEG%2FU1DLSs0SFo_toJrhi8l7yxZp.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_280%2F1729868826155Du4jb_JPEG%2F20200722_160557.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241026_144%2F1729868826144IvJL9_JPEG%2F20200415_173415.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -17362,10 +17116,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 106.101.0.124(2026.03.18 02:48:54)"
-    ],
+    "rv": ["밥에 깨솔솔 간되고 후리가케 같은게 겉에 발려 있어요ㅎㅎ 간단 밥대용으로 딱 좋더라구요! 오뎅국이랑 같이 먹어요 조합이 넘 좋아요~", "신메뉴인데 속재료 구성이 알차서 든든하고 맛이 좋습니다. 단골취향 저격이에요~!"],
     "naverPlaceId": "1594626401",
     "naverBlogCnt": 3,
     "menuItems": [
@@ -17771,13 +17522,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오피스텔 같은 건물이라 조금 늦은 점심을 먹으러 갔다.그런데 연변아줌마인지 말하는 것도 어눌하게 하고 퉁명스럽게 응하는 바람에 음식을  시켜서 끓이는 중인데 우리 아이는 기분 나빠서 먹으면 체한다고 그냥 나가버렸다 주인이 어눌한 직원들한테만 맡겨 놓고 운영에 대해서는 무관심인거 같다 가게를 오랫동안 유지할려면 지금부터라도 정신 차렸으면 하는 바램이다 문닫는",
-      "너무 맛있어요! 매장도 넓고 쾌적해요ㅎㅎ",
-      "진짜 오랜만에 갔는데 첨엔 옛날맛이 아닌가 했지만 끓이다보니 괜찮았어요~점심특선은 고기도 포함이라 좋고 볶음밥은 진짜 넘 맛있었어요!!!주차는 더해주는지 몰라도 1시간 지원이라 좀 빡세요;;;",
-      "13,000원의 행복이랄까요미나리+소고기 조합의 샤브부터 칼국수, 마지막 킥 볶음밥까지 이 모든게 13,000원에 나오는 곳언제먹어도 칼칼하니 맛있어요",
-      "맛있는 등촌칼국수 ~~추천해요"
-    ],
+    "rv": ["오피스텔 같은 건물이라 조금 늦은 점심을 먹으러 갔다.그런데 연변아줌마인지 말하는 것도 어눌하게 하고 퉁명스럽게 응하는 바람에 음식을 시켜서 끓이는 중인데 우리 아이는 기분 나빠서 먹으면 체한다고 그냥 나가버렸다 주인이 어눌한 직원들한테만 맡겨 놓고 운영에 대해서는 무관심인거 같다 가게를 오랫동안 유지할려면 지금부터라도 정신 차렸으면 하는 바램이다 문닫는거는 어느날 갑자기 올지 모른다 그리고 육수도 너무 짜다", "음식은 맛있어요! 근데 매장 마감시간은 좀 적어두셨으면 좋겠네요! 저희 테이블만 남으니까 라스트 오더 전인데도 눈치 주시는 건 체할 것 같았어요!^__^"],
     "naverPlaceId": "1496657953",
     "naverBlogCnt": 137,
     "menuItems": [
@@ -17842,13 +17587,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제가 너무좋아해서 와이프도 데려왔습니다ㅎㅎ보람있네요!",
-      "양파랑 치킨 같이 먹으면 맛있어요",
-      "여기 소문대로 맛있다고 해서 왔습니다.2년전에 방문드렸고 오늘 방문드렸는데여전히 다양하고 맛있는 메뉴 많고가격도 다른 한식뷔페집보다 저렴합니다.집만 가까우면 매주오는건데추후 망포 올일 있을때 재방문 의사 있습니다.^^더보기",
-      "늘 새롭고 신박한 메뉴가 준비되어있는 수원 최대 한식뷔페 용갈이!오늘은 후식으로 맛있는 튀김꽈베기가 준비되어 있으며 오늘 전체적인 메뉴, 맛 모두 훌륭한 날입니다늘 훌륭하지만 오늘은 더욱 훌륭!",
-      "가격도 너무 착하고, 음식도 맛있어요!!!"
-    ],
+    "rv": ["음식이 맛있어요. 튀김이 바삭바삭 갓 튀긴 느낌이고 초무침에 들어간 쭈꾸미도 신선했어요. 먹고 싶은 메뉴로만 알차게 구성된 뷔페입니다. 매장 넓고 1인석도 많아서 혼밥도 편하게 할 수 있는 매장이네요.", "수원 일 보러 왔다가 티비 프로 보고 들럿는데 재료 회전도 빠르고 신선해사 한끼 만족하게 잘 먹었습니다 모두 친절 하신게 좋네요~~🩷"],
     "naverPlaceId": "1097298749",
     "naverBlogCnt": 61,
     "menuItems": [
@@ -18467,12 +18206,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "잘 먹었습니다 ^_^!!장소가 넓어서 혼자 먹어도 괜찮을지 걱정했는데잘 챙겨주셔서 덕분에 편안하게 여유롭게 먹었습니다세트 추가를 하면 튀김도 같이 주시는데 사진에 안나왔네요 가게를 오래 하셨는지 인테리어가 빈티지한 느낌 많이 나서 고즈넉 했습니다지금은 비교적 간단한 식사류 위주로 하시는 것 같지만오랜기간 고급 일식코스를 하신듯 합니다암튼암튼 식사 잘 했습니",
-      "오랜만에 진짜 맛있는 스시집 찾았습니다.. 처음에 나오는 죽이랑 샐러드 마저 너무 맛있네요. 무엇보다 초밥이 종류 막론하고 다 너무 맛있습니다. 냉모밀도 이렇게 맛있을 줄은 몰랐는데, 일반적인 스시집들에서 파는 예상되는 그 맛이 아니더라구요. 저는 극호였습니다👍👍 그리고 악보 메뉴판이랑 소품들 컨셉도 재밌어요 ㅋㅋ 사장님도 친절하시고 분위기도 좋았습니다",
-      "남자친구랑 둘이서 방문했어요! 집 근처에 이렇게 좋은 초밥집이 있는 줄 몰랐어요🥹 남자친구랑 수다떠는데 사장님이랑 스몰토크 재밌었어요😊 초밥은 기본적으로 숙성을 하시는 것 같아요. 비린 맛은 하나도 없었습니다😘 미소 국이 넘 깊고 맛있어서 계속 맛있다만 말하면서 정신없이 먹었네요. 번창하시고 또 초밥 생각나면 달려갈게요! 제 단골집을 찾았습니다😆❤️",
-      "갓성비 이가격에 이 퀄리티라니 훌륭해여!!!"
-    ],
+    "rv": ["오랜만에 진짜 맛있는 스시집 찾았습니다.. 처음에 나오는 죽이랑 샐러드 마저 너무 맛있네요. 무엇보다 초밥이 종류 막론하고 다 너무 맛있습니다. 냉모밀도 이렇게 맛있을 줄은 몰랐는데, 일반적인 스시집들에서 파는 예상되는 그 맛이 아니더라구요. 저는 극호였습니다👍👍 그리고 악보 메뉴판이랑 소품들 컨셉도 재밌어요 ㅋㅋ 사장님도 친절하시고 분위기도 좋았습니다. 동네에 이런 곳이 있다니 행복합니다..💖", "남자친구랑 둘이서 방문했어요! 집 근처에 이렇게 좋은 초밥집이 있는 줄 몰랐어요🥹 남자친구랑 수다떠는데 사장님이랑 스몰토크 재밌었어요😊 초밥은 기본적으로 숙성을 하시는 것 같아요. 비린 맛은 하나도 없었습니다😘 미소 국이 넘 깊고 맛있어서 계속 맛있다만 말하면서 정신없이 먹었네요. 번창하시고 또 초밥 생각나면 달려갈게요! 제 단골집을 찾았습니다😆❤️💜🧡💙", "원래리뷰 잘 안쓰는데...너무 친절하시고 무엇보다 너무너무 맛있어요🥹🥹🥹👍👍오래오래 장사해주세요~! 매장가서 먹기도 너무 좋아요", "배달로 시켜 먹었다가 너무 맛있어서 직접 가게로 방문했어요 ㅎㅎ 서비스도 주셔서 아주 배부르게 잘 먹었네요! 스시부터 메뉴 하나하나 입맛에 딱이어서 다음에도 스시가 먹고 싶다면 스시선율로 올 것 같아요!"],
     "naverPlaceId": "1909208585",
     "naverBlogCnt": 16,
     "menuItems": [
@@ -18831,12 +18565,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제가 혼밥하러 자주 오는 곳이에요. 항상 친절하고 재료가 신선해요!! 맛있고 친절하니까 매일 와도 안 질리고 기분좋게 하루 보낼 수 있어요!! 다만.. 아주 아주 가끔 상이 더러울때가 있는데 바쁘더라도 상은 조금 닦아주시면 더 좋을거같아요!!",
-      "망포에 포케올데이 오픈했다고해서 점심에 건강하고 든든한 한끼 먹으러 왔어요! ㅁ매장 인테리어도 알록달록 예쁘고 주문하고 음식 나오기까지 조금 걸리길래 초조해하고있었는데 포케 너무 맛있어서 그생각 싹 사라지네요 든든하고 건강한 한끼 잘 먹고갑니다~",
-      "가볍고 건강한 한 끼 먹기 좋은 포케올데이!토핑을 직접 고를 수 있어서 취향대로 즐길 수 있었고, 훈제오리랑 숯불직화미트 둘 다 맛있었어요. 재료도 신선하고 매장도 깔끔해서 혼밥하기 좋았습니다.망포역 근처에서 샐러드나 포케 찾는다면 추천해요",
-      "다른곳에서 배달시켜 먹어봤는데,집앞에 생겨서 너무 좋아요 ㅎㅎ역시 포케의 원조 포케올데이가 최고네요,테이블도 혼밥하기에 좋아서종종 혼자와서 후딱 먹고가기 좋아요!더보기",
-      "[협찬]드디어 망포동에도 포케집이 생겼네요 ㅎㅎ메밀면 포케 + 파프리카 시즈닝 새우 + 유자간장 소스로 먹었는데 상큼하고 깔끔해서 점심에 딱이었어요.  포만감은 있는데 먹고 나서 부담이 적고, 매장도 쾌적해서 망포역 혼밥 하기 좋을 것 같았답니다.  재방문 의사 있습니다 :)더보기"
+    "rv": ["포케올데이 수원망포점은 처음인데 너무 맛있어요!! 양도 푸짐하고 운동 후 먹으니까 든든하고 딱 좋더라구요 ㅎㅎ 저는 커스텀으로 곡물밥에 스파이시연어 먹었는데 연어도 싱싱하고 소스가 맛있어서 계속 먹게되더라구요! 내부도 쾌적하고 생긴지 얼마 안된 곳이라서 엄청 깨끗했어요! 사장님도 친절하시고 혼밥하기 좋아서 망포역혼밥으로 추천드려요!", "망포에 포케올데이 오픈했다고해서 점심에 건강하고 든든한 한끼 먹으러 왔어요! ㅁ매장 인테리어도 알록달록 예쁘고 주문하고 음식 나오기까지 조금 걸리길래 초조해하고있었는데 포케 너무 맛있어서 그생각 싹 사라지네요 든든하고 건강한 한끼 잘 먹고갑니다~"]드디어 망포동에도 포케집이 생겼네요 ㅎㅎ메밀면 포케 + 파프리카 시즈닝 새우 + 유자간장 소스로 먹었는데 상큼하고 깔끔해서 점심에 딱이었어요.  포만감은 있는데 먹고 나서 부담이 적고, 매장도 쾌적해서 망포역 혼밥 하기 좋을 것 같았답니다.  재방문 의사 있습니다 :)더보기"
     ],
     "naverPlaceId": "2052757126",
     "naverBlogCnt": 30,
@@ -18895,7 +18624,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2052757126/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260219_88%2F1771484952435HQj9x_JPEG%2F%25B8%25F4%25C6%25BC%25C1%25EE_%25B7%25B1%25C4%25A1%25B9%25DA%25BD%25BA%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260219_88%2F1771484952435HQj9x_JPEG%2F%25B8%25F4%25C6%25BC%25C1%25EE_%25B7%25B1%25C4%25A1%25B9%25DA%25BD%25BA%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260121_22%2F1768961951462NqMYV_JPEG%2F%25B9%25EB%25B7%25B1%25BD%25BA%25B9%25DA%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251125_26%2F1764042891292vMBxA_JPEG%2F251125_new_%25BD%25BA%25C7%25C1%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250516_247%2F1747363713686LHrWS_JPEG%2F%25BD%25C5%25B8%25DE%25B4%25BA_%25C5%25E4%25C7%25CE_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250516_143%2F1747363715996xtJDs_JPEG%2F%25BD%25A6%25C0%25CC%25C5%25B6%25B8%25E9_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251226_106/1766713614196R5f5z_PNG/%B0%EE%B9%B0%B9%E4%2B%BF%AC%BE%EE.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260219_88%2F1771484952435HQj9x_JPEG%2F%25B8%25F4%25C6%25BC%25C1%25EE_%25B7%25B1%25C4%25A1%25B9%25DA%25BD%25BA%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260219_88%2F1771484952435HQj9x_JPEG%2F%25B8%25F4%25C6%25BC%25C1%25EE_%25B7%25B1%25C4%25A1%25B9%25DA%25BD%25BA%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260121_22%2F1768961951462NqMYV_JPEG%2F%25B9%25EB%25B7%25B1%25BD%25BA%25B9%25DA%25BD%25BA_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251125_26%2F1764042891292vMBxA_JPEG%2F251125_new_%25BD%25BA%25C7%25C1%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250516_247%2F1747363713686LHrWS_JPEG%2F%25BD%25C5%25B8%25DE%25B4%25BA_%25C5%25E4%25C7%25CE_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250516_143%2F1747363715996xtJDs_JPEG%2F%25BD%25A6%25C0%25CC%25C5%25B6%25B8%25E9_%25B3%25D7%25C0%25CC%25B9%25F6_%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251226_106/1766713614196R5f5z_PNG/%B0%EE%B9%B0%B9%E4%2B%BF%AC%BE%EE.png", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -19265,12 +18994,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매운 걸 좋아하는 본인은 항상 빼쉐 맵게로 해서 주문하는데 드디어 빼쉐보다 매운 메뉴가 나왔습니다! 두둥! 스트레스 훠이훠이 날리고 싶다면 불닭토마토파스타 추천합니다🔥🥵조만간 불닭로제 뽀개로 옵니다😏",
-      "가성비 맛집 영통역 롤링파스타!!요즘 외식비가 엄청 올랐는데 영통 롤링파스타는양도 푸짐하고 가격이 너무 합리적이에요게다가 여자분 남자분 할거없이 직원분들 모두 친절하세요!! 학원 마치고 혼밥하는 학생들도 많이 보이고데이트하는 연인들도 많고 아이랑 오기도 좋아요🥰음식도 빨리 나오고 엄청 맛있어요!!더보기",
-      "매번 혼밥 하기 좋은 장소! 분위기랑 파스타도 맜있음",
-      "전국에서 가성비 맛집가게로 유명한 롤링파스타!오랜만에 다녀왔어요 먹고싶는건 너무 많은데ㅠㅠ위가 모자라요... 두개 주문했다가 모자라서 또 주문했어요~ 짝꿍이 입이 짧아서  평소보다는 적게 먹은 거같아용더보기"
-    ],
+    "rv": ["매운 걸 좋아하는 본인은 항상 빼쉐 맵게로 해서 주문하는데 드디어 빼쉐보다 매운 메뉴가 나왔습니다! 두둥! 스트레스 훠이훠이 날리고 싶다면 불닭토마토파스타 추천합니다🔥🥵조만간 불닭로제 뽀개로 옵니다😏"],
     "naverPlaceId": "1574575818",
     "naverBlogCnt": 68,
     "menuItems": [
@@ -19393,13 +19117,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "최악이던데요? 직원좀 더 쓰세요. 아줌마 혼자 일하는니 시켜도 양꼬치 하나 시키는데 20분이나 걸림.. 환장함... 맥주만 먹고 있었음.. 배고프 죽겟는데... 다른 손님들도 언제 나오냐고 성질 냄.. 그리고 마지막 메뉴 나와야하는데 재껴버리고 새로운 손님 테이블부터나옴.. 와 거기서 열이 뻗치는데.. 그냥 계산 하고 나옴.. 손님들이랑 농담따먹기를 하질않",
-      "맛있고 사장님 친절하시고 편안분위기 너무 좋아요",
-      "서비스왕창주시고 양꼬치도 너무 맛있어요! 다음에 또 방문하겠습니다!",
-      "사장님 친절진짜 맛이 맛이 너무 맛있어요!!!!혼자 음식하시니 늦을수밖에 없는거 완전 이해가 가요와 지삼선 진심 대박!!!담엔 사진도 여러장 찍어서 후기 남길께요더보기",
-      "전체적으로 만족합니다. 5년 이상 단골인데 모든 요리가 맛있습니다. 특히 고향양꼬치, 꿔바로우, 향라새우 추천합니다!"
-    ],
+    "rv": ["최악이던데요? 직원좀 더 쓰세요. 아줌마 혼자 일하는니 시켜도 양꼬치 하나 시키는데 20분이나 걸림.. 환장함... 맥주만 먹고 있었음.. 배고프 죽겟는데... 다른 손님들도 언제 나오냐고 성질 냄.. 그리고 마지막 메뉴 나와야하는데 재껴버리고 새로운 손님 테이블부터나옴.. 와 거기서 열이 뻗치는데.. 그냥 계산 하고 나옴.. 손님들이랑 농담따먹기를 하질않나.. 진짜 최악이고.. 그렇다고 가격도 그닥 싸지도 않고... 갈 이유가 없음.. 늦게까지하는거 말고는 그다지...장점이 한가도 없음.", "전체적으로 만족합니다. 5년 이상 단골인데 모든 요리가 맛있습니다. 특히 고향양꼬치, 꿔바로우, 향라새우 추천합니다!", "이 근방 양꼬치집중에 제일 맛있다고 생각합니다. 한창 사장님 부상이슈로 휴업중이었어서 아예 장사 접으셨나 걱정했었는데 다시 오픈하셨네요 ㅎㅎ 여전히 양꼬치는 맛있고 서비스는 잘나오네요! 번창하셨으면 좋겠습니다."],
     "naverPlaceId": "13555300",
     "naverBlogCnt": 72,
     "menuItems": [
@@ -19457,7 +19175,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/13555300/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190605_58%2F1559741808935A84EK_JPEG%2FtAbCIpEXzwNtV6rG2WsKZVwE.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190605_58%2F1559741808935A84EK_JPEG%2FtAbCIpEXzwNtV6rG2WsKZVwE.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMjg4%2FMDAxNzU3NzUxNTU2OTQ5.qIGvNGSnSfhAJzpXq0L1-YuceMKE2k282tNNOePZ9Xwg.IntRqBYmRMfzgy7sn_nUDhKnJ2Pt3QznPnbfZbgkF5Eg.JPEG%2FIMG_0129.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMTE5%2FMDAxNzU3NzUxNTU2OTg5.w1lcnFsfeghavri_Y5K_AipUOOT3tWzPbZOOVXrllxYg.IxW1nn-vqaxwv3ZTXPLBFnLVWUM4H5EnFXh6Yebp6acg.JPEG%2FIMG_0131.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDJfMjEz%2FMDAxNzU5NDA3NzgyODc2.qRCrxboMFitp7z8iB2zpD2QEs76uLbQwJhtyY52Asnkg.O4bHnzp3WHlt4ZJ4PFyT6HsZDVuCodgafysDFg3a7Qwg.JPEG%2FC83484F7-E7B0-48E6-9CFA-D902EF7ACEF8.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMTE0%2FMDAxNzU3NzUxNTU2MjU5.FP7lVNOCm3J-PWOTKcFDcbZsjv995CLKw74oSDFx8Jwg.ELfqPTPuqD6ZBcZslDWOo5a6af-LEjqDAyZbDW4klqUg.JPEG%2FIMG_0130.jpeg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190605_58%2F1559741808935A84EK_JPEG%2FtAbCIpEXzwNtV6rG2WsKZVwE.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190605_58%2F1559741808935A84EK_JPEG%2FtAbCIpEXzwNtV6rG2WsKZVwE.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMjg4%2FMDAxNzU3NzUxNTU2OTQ5.qIGvNGSnSfhAJzpXq0L1-YuceMKE2k282tNNOePZ9Xwg.IntRqBYmRMfzgy7sn_nUDhKnJ2Pt3QznPnbfZbgkF5Eg.JPEG%2FIMG_0129.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMTE5%2FMDAxNzU3NzUxNTU2OTg5.w1lcnFsfeghavri_Y5K_AipUOOT3tWzPbZOOVXrllxYg.IxW1nn-vqaxwv3ZTXPLBFnLVWUM4H5EnFXh6Yebp6acg.JPEG%2FIMG_0131.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDJfMjEz%2FMDAxNzU5NDA3NzgyODc2.qRCrxboMFitp7z8iB2zpD2QEs76uLbQwJhtyY52Asnkg.O4bHnzp3WHlt4ZJ4PFyT6HsZDVuCodgafysDFg3a7Qwg.JPEG%2FC83484F7-E7B0-48E6-9CFA-D902EF7ACEF8.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTNfMTE0%2FMDAxNzU3NzUxNTU2MjU5.FP7lVNOCm3J-PWOTKcFDcbZsjv995CLKw74oSDFx8Jwg.ELfqPTPuqD6ZBcZslDWOo5a6af-LEjqDAyZbDW4klqUg.JPEG%2FIMG_0130.jpeg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -19622,7 +19340,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/30941919/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f640_380&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjhfNjEg%2FMDAxNzA2NDQ1NjMxOTI5.sgk7dOWRuGnQ8mHiZ609hvNE7KsESMb1cG27HDvmvisg.owQ1hhG2kwfMyt2OHWfCjvUR9PBu16jel28FAIUWSjQg.JPEG.jjungminizm%2FKakaoTalk_20240128_200418216_24.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjhfNjEg%2FMDAxNzA2NDQ1NjMxOTI5.sgk7dOWRuGnQ8mHiZ609hvNE7KsESMb1cG27HDvmvisg.owQ1hhG2kwfMyt2OHWfCjvUR9PBu16jel28FAIUWSjQg.JPEG.jjungminizm%2FKakaoTalk_20240128_200418216_24.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjVfNjMg%2FMDAxNzAzNTAyOTM5MjE4.WfkhJ30XH_e1oXCSe2I5IZHwwKypA4YhkdwakspC6isg.OxSc-iFmER2Zif99vxlVdJwa3u72M49ZyE8fPfdlVSEg.JPEG.wjdrkgusrlaw%2FIMG_9616.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjBfMTUz%2FMDAxNzA1NzUwOTA3MDY1._pkG6JYFocN_guPCCYDdbeSVzgthRewLIWULN5gF5Xkg.3RpiOq1-TnIc1qe1GJJNki_NAtMszPmPYN0ClPmQBcgg.JPEG.jhjung0406%2F20240120%25A3%25DF171805.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMTlfMjcy%2FMDAxNzA1NjQ4ODI1MzI0.sHUbxYGLBuN07tJBWMwgPGUlDIqEJYYgTY87m4cC5C4g.1Jk1ggUqHA6x45G_Hcf6CB4P9Ew5bYA6M2FOvs6VjRgg.JPEG.kangsky92%2F1705648812614.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjFfMjY5%2FMDAxNzU4NDQyOTA2OTQz.xeuMoqjpBDoz4cx7D69JRJPK7tGDg0dqOgTsqC1aGEcg.9YC810AAgmzu6QzhvkXPMBDOMRY2y8VOc0ZenoPvihkg.JPEG%2F20250921_110841.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f640_380&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjhfNjEg%2FMDAxNzA2NDQ1NjMxOTI5.sgk7dOWRuGnQ8mHiZ609hvNE7KsESMb1cG27HDvmvisg.owQ1hhG2kwfMyt2OHWfCjvUR9PBu16jel28FAIUWSjQg.JPEG.jjungminizm%2FKakaoTalk_20240128_200418216_24.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjhfNjEg%2FMDAxNzA2NDQ1NjMxOTI5.sgk7dOWRuGnQ8mHiZ609hvNE7KsESMb1cG27HDvmvisg.owQ1hhG2kwfMyt2OHWfCjvUR9PBu16jel28FAIUWSjQg.JPEG.jjungminizm%2FKakaoTalk_20240128_200418216_24.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjVfNjMg%2FMDAxNzAzNTAyOTM5MjE4.WfkhJ30XH_e1oXCSe2I5IZHwwKypA4YhkdwakspC6isg.OxSc-iFmER2Zif99vxlVdJwa3u72M49ZyE8fPfdlVSEg.JPEG.wjdrkgusrlaw%2FIMG_9616.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjBfMTUz%2FMDAxNzA1NzUwOTA3MDY1._pkG6JYFocN_guPCCYDdbeSVzgthRewLIWULN5gF5Xkg.3RpiOq1-TnIc1qe1GJJNki_NAtMszPmPYN0ClPmQBcgg.JPEG.jhjung0406%2F20240120%25A3%25DF171805.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMTlfMjcy%2FMDAxNzA1NjQ4ODI1MzI0.sHUbxYGLBuN07tJBWMwgPGUlDIqEJYYgTY87m4cC5C4g.1Jk1ggUqHA6x45G_Hcf6CB4P9Ew5bYA6M2FOvs6VjRgg.JPEG.kangsky92%2F1705648812614.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjFfMjY5%2FMDAxNzU4NDQyOTA2OTQz.xeuMoqjpBDoz4cx7D69JRJPK7tGDg0dqOgTsqC1aGEcg.9YC810AAgmzu6QzhvkXPMBDOMRY2y8VOc0ZenoPvihkg.JPEG%2F20250921_110841.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -20352,10 +20070,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "고기가 부드럽게 뼈에서 발려져 나와 먹기도 쉽고 양이 넉넉해서 먹고 나면 든든합니다. 시원한 무김치와 깔끔한 양념의 겉절이가 인상적입니다.감기 기운있었는데 기운 차리며 나올수 있었습니다.",
-      "순대국도 갈비탕도 맛있는 집이예요. 김치랑 깍두기가 맛있습니다."
-    ],
+    "rv": ["고기가 부드럽게 뼈에서 발려져 나와 먹기도 쉽고 양이 넉넉해서 먹고 나면 든든합니다. 시원한 무김치와 깔끔한 양념의 겉절이가 인상적입니다.감기 기운있었는데 기운 차리며 나올수 있었습니다."],
     "naverPlaceId": "36821931",
     "naverBlogCnt": 25,
     "menuItems": [
@@ -20441,13 +20156,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "내장탕에 청양고추 왕창 넣어 먹으면 술마신 다음날 해장에 직빵입니다 😀매장이 넓고 깔끔한 편이면서 혼밥하기에도 부담 없는 식당입니다 :)지난번에 내장탕 먹고 맛있어서 재방문했어요. 해장 필요할 때 또 생각날 것같아요 😀더보기",
-      "저녁부터 해장국이 땡겨서 아침 일찍 방문해서 밥먹으러 들어갔다가 기분만 상하고 나왔내요 가게에 들어서서 날이 추워서 창가에 앉아 밥을 먹을려고 앉아마자 앞 쪽에서 손질 중이던 직원 분이 혼자와서 저멀리 구석으로 가서 앉냐 라고 저에 대해서 말씀 하시더라고요 제가 밥을 다먹고 나간다음에 뒷담하는건 상관없는데 기분좋게 밥먹으러 갔다가 두분은 안들릴줄 아셨겠지만",
-      "해장국 좋아하는편은 아닌데 이집은 너무 맛있네요^^ 거의 안남기고 싹싹 다 먹었습니다👍",
-      "제주 은희네 맛있어요!",
-      "진짜 맛있어요~제주도민인데 가까이에 은희네가있어서 좋네요"
-    ],
+    "rv": ["해장국 좋아하는편은 아닌데 이집은 너무 맛있네요^^ 거의 안남기고 싹싹 다 먹었습니다👍"],
     "naverPlaceId": "1660305026",
     "naverBlogCnt": 340,
     "menuItems": [
@@ -20837,12 +20546,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "같은 건물 운동끝나고 배고파서 갑자기 김치찌개먹고싶어서 갔어요. 마감시간대인데 여사장님이 아가씨~하며 복있다고ㅎ 밥이 떨어졌다고 새밥해주신다고ㅡㅜ 혼자 왔는데 양도 많고, 요새 우중충했는데 엄마밥 얻어먹듯이 괜히 뭉클했네요. 생고기에 찌개 퀄리티도 좋구요. 쌀도 홍천쌀 쓰신다고 윤기돌고 잘먹었어요ㅎ 앞으로도 성의와 정성 다하신만큼 번창 더 하시길바래요~^^",
-      "오랜만에 들른 집이예요요즘 불경기라는데 아직도 장사가 잘되네요맛나요",
-      "가끔 왔었는데 오늘 오고 두번 다시 오고싶지않네요 손님이 많아서 그러셨는지 물도 안주시고 고기는 식어서 기름이 굳은채로 나오고 데워달라도 했더니 너무 데워서 고기는 다 말라 비틀어져서 작아졌는데 그걸그대로... 공기밥도 까먹고 안주셨어요 어지간하면 안쓰는데 참 괜히왔고 불쾌해서 써봅니다 다심 안감",
-      "쌈밥 좋아요 😀 😄 😍"
-    ],
+    "rv": ["같은 건물 운동끝나고 배고파서 갑자기 김치찌개먹고싶어서 갔어요. 마감시간대인데 여사장님이 아가씨~하며 복있다고ㅎ 밥이 떨어졌다고 새밥해주신다고ㅡㅜ 혼자 왔는데 양도 많고, 요새 우중충했는데 엄마밥 얻어먹듯이 괜히 뭉클했네요. 생고기에 찌개 퀄리티도 좋구요. 쌀도 홍천쌀 쓰신다고 윤기돌고 잘먹었어요ㅎ 앞으로도 성의와 정성 다하신만큼 번창 더 하시길바래요~^^", "실패가 없는곳입니다.삼겹살 가성비 최곱니다.밑반찬도 맛있고 친절합니다~~"],
     "naverPlaceId": "21365661",
     "naverBlogCnt": 75,
     "menuItems": [
@@ -20900,7 +20604,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/21365661/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190908_78%2F1567918984059FyW2K_JPEG%2FGtohFLCHMAIgLnp-Qq92BG0Z.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190908_78%2F1567918984059FyW2K_JPEG%2FGtohFLCHMAIgLnp-Qq92BG0Z.jpeg.jpg", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl5": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/eyes20220119222026.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/busts_in_silhouette20220119222027.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190908_78%2F1567918984059FyW2K_JPEG%2FGtohFLCHMAIgLnp-Qq92BG0Z.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190908_78%2F1567918984059FyW2K_JPEG%2FGtohFLCHMAIgLnp-Qq92BG0Z.jpeg.jpg", "imageUrl3": "", "imageUrl4": "", "imageUrl5": "", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -21155,13 +20859,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "차돌, 등심, 갈비살, 제비추리로 한우모듬 구성이 넘 알차고 맛은 완전 최상급ㅎㅎ 좋은 고기만 쓰시는게 바로 느껴질 정도여서 넘 만족스러웠어요  아직도 고기 야들야들한 식감이 생각나네요 밑반찬이랑 청국장도 맛깔스러워서 든든히 잘 먹었어요~~ 다른 테이블 회식도 많이하시던데 담에 모임장소로 또 갈게요!",
-      "수원 영통구청 맛집 찾으시는 분들~~무조건 여기 가세요! 분위기는 고급지진 않지만 프라이빗 룸도 있어서 모임, 회식장소 딱이고 소고기 퀄리티랑 가성비 끝내줍니다👍 특히 차돌박이 예술이고요, 등심 마블 보이세요? 몇번 씹지 않았는데 사라져버리는 마법!최근 먹어본 소고기 중에 제일 맛있었던 곳이라 강추!",
-      "차돌박이, 제비추리, 갈비살, 등심으로 구성된 한우모둠이 맛있는 수원 고깃집이에요~!고기 식감이며 텍스처가 살아 있어서 너무너무 맛있었어요😋😋 사이드 메뉴인 흑돼지 김치찌개도 강추입니다!",
-      "가성비도 좋고 고기의 퀄리티도 좋고 해서 만족스러워요",
-      "흑돈상회갓성비 한우 모듬 500g생등심 & 차돌박이 & 갈비살 & 제비추리합리적인 가격과 고개가 끄덕여지는 한우 맛3더보기"
-    ],
+    "rv": ["차돌, 등심, 갈비살, 제비추리로 한우모듬 구성이 넘 알차고 맛은 완전 최상급ㅎㅎ 좋은 고기만 쓰시는게 바로 느껴질 정도여서 넘 만족스러웠어요 아직도 고기 야들야들한 식감이 생각나네요 밑반찬이랑 청국장도 맛깔스러워서 든든히 잘 먹었어요~~ 다른 테이블 회식도 많이하시던데 담에 모임장소로 또 갈게요!", "수원 영통구청 맛집 찾으시는 분들~~무조건 여기 가세요! 분위기는 고급지진 않지만 프라이빗 룸도 있어서 모임, 회식장소 딱이고 소고기 퀄리티랑 가성비 끝내줍니다👍 특히 차돌박이 예술이고요, 등심 마블 보이세요? 몇번 씹지 않았는데 사라져버리는 마법!최근 먹어본 소고기 중에 제일 맛있었던 곳이라 강추!", "단체석도 있고 고기 종류도 다양해서 회식장소로 좋을거같아요! 고기가 신선해서 다음에 또 오고 싶어요!"],
     "naverPlaceId": "1341363400",
     "naverBlogCnt": 403,
     "menuItems": [
@@ -21608,11 +21306,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "미만 먹어도 너무 푸짐하게 줘요",
-      "신선한 참치로 항상 맛있게 먹는 곳입니다.사장님들께서 친절하시고 인심 좋으셔서 항상 좋은 음식들을 배부르게 먹네요.특별하게 사장님께서 직접 머리 부분의 특수 부위를 손질하시는 것을 보여주시고 설명해주시기도 하고 좋습니다.",
-      "사장님 너무 친절하시고 맛있고 가성비 넘치고 안가면 손해에요.정말 완추."
-    ],
+    "rv": ["참치를 좋아해 소식 가임에도 불구 하고 리필하는사람인데 , 내생에 리필도 안하고 첫 접시 남기고오기는건 처음 입니다 ......"],
     "naverPlaceId": "11637979",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -21699,13 +21393,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "초밥이 신선하고 맛있어요어묵탕이 시원해요사장님이 친절해서 좋아요",
-      "너무 맛있어서 먹다가 찍었네요 사진을.. 스시선은 예나 지금이나 최고에요!! 회도 신선하고 다른 메뉴들도 맛있고 사장님도 짱 친절하세요~~~",
-      "모듬초밥 포장(25,000원)해서 먹었습니다.전화로 주문하고 20분 후에 찾으러 갔고, 수원페이 사용 가능했습니다. 오늘도 맛있게 잘 먹었습니다!",
-      "두번째 방문인데 사시미 초밥 튀김 빠짐없이 진짜 맛있어요!! 회도 신선하고 퀄리티 좋아욥 스시선한상 추천드립니다 직원분들도 친절하시고 단체로 오기에도 좋습니다 번창하세요 ~~!",
-      "초밥이 싱싱하고 어묵탕이 시원해요~사장님이 친절해요"
-    ],
+    "rv": ["가족 저녁 식사 하러 부모님 모시고 가서 모든 회의 초밥 말투가 하고 단품도 몇 개 시켜서 함께 먹었습니다 전체적으로 재료가 신선하고 모듬회에는 다양한 종류의 해산물이 많이 나와서 다양하게 맛 보면서 먹기 좋았던 것 같아 다음에 또 방문 해 보도록 하겠습니다. 직원 분들도 모두 너무 친절하십니다.", "저녁 정식을 먹었는데 초밥 외에도 다양한 메뉴가 나오고 하나같이 맛있었어요! 부모님과 같이 왔는데 다 즐겁게 먹었습니다💕", "초밥 먹고 싶을 때 마다 오는 곳입니다. 가장 초밥이 신선하고 도톰해요. 주변이랑 비교해서 퀄리티가 계속 유지되는 곳이라서 부모님과 일식 땡길 때 마다 오는 장소입니다! 점심 특선을 추천해요 가성비 갑입니다"],
     "naverPlaceId": "38676758",
     "naverBlogCnt": 98,
     "menuItems": [
@@ -22102,12 +21790,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오랜만에 만나는 전 직장 동료분과의 저녁을 먹기 위해주변에 식당을 찾다가 동료의 추천으로 오게 되었습니다.맛있다고 하여 방문하였습니다.매장은 깔끔하고, 사장님께서 삼성 블루윙즈 축구팀 팬이신 것 같습니다.제 기억에는 유니폼이 그랬어요. 이관우 선수의 유니폼을봤던 것 같습니다. 이정효 감독님이 오셨으니내년에 K리그1에서 볼 수 있길 바랍니다.우리는 후라이드를",
-      "동네 살면서 1년만에 처음 가봤는데 분위기도 좋고 나오는 노래도 좋고~~ 좋았어요!! 깐부치킨 쫄뱅이로 유명해서 간거였는데 치킨을 두번이나 시켜먹었어요.기름 쩐내 안나고 정말 맛있게 먹었습니다!!!",
-      "음식이 친절하고 사장님이 맛있습니다!!😉식당 내부 분위기도 좋지만, 우선 매우 청결해 보여서 안심하고 식사할 수 있었어요!! 그리고 제가 가본 깐부치킨 중 가장 맛있었습니다.. 고기가 너무 부드럽고 떡도 진짜 쫄깃해요! 오늘 저희 테이블에 감자튀김을 “서비스✨”로 주셨는데,, 바로 튀겨주셔서 너무 따뜻하고 맛있게 잘 먹었습니다! 감사해요ㅠㅠ 저는 사장님과",
-      "첫방문했어용 넘넘 맛있어용 💙🤍❤️💜💕💞😍",
-      "가족 3명이서 [바삭한식스팩] 2마리하고 맥주를 매우 만족스럽게 먹었습니다. 사진도 못찍고 신나게 먹어 버렸네요. 이건 배달보다 직접 와서 먹어야 가장 맛있게 즐길 수 있는 맛집일 것 같네요. 다음에는 카레치킨이나 다른 메뉴도 시도해 볼 예정입니다."
+    "rv": ["동네 살면서 1년만에 처음 가봤는데 분위기도 좋고 나오는 노래도 좋고~~ 좋았어요!! 깐부치킨 쫄뱅이로 유명해서 간거였는데 치킨을 두번이나 시켜먹었어요.기름 쩐내 안나고 정말 맛있게 먹었습니다!!!", "가족 3명이서 [바삭한식스팩] 2마리하고 맥주를 매우 만족스럽게 먹었습니다. 사진도 못찍고 신나게 먹어 버렸네요. 이건 배달보다 직접 와서 먹어야 가장 맛있게 즐길 수 있는 맛집일 것 같네요. 다음에는 카레치킨이나 다른 메뉴도 시도해 볼 예정입니다.", "깐부피킨 신동까페거리점. 치킨은 무조건 맛나고 국물떡뽁이. 안주 됩니다. 걍.츄."] 2마리하고 맥주를 매우 만족스럽게 먹었습니다. 사진도 못찍고 신나게 먹어 버렸네요. 이건 배달보다 직접 와서 먹어야 가장 맛있게 즐길 수 있는 맛집일 것 같네요. 다음에는 카레치킨이나 다른 메뉴도 시도해 볼 예정입니다."
     ],
     "naverPlaceId": "1662850274",
     "naverBlogCnt": 81,
@@ -22194,13 +21877,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "노브랜드버거 아이들이랑 생각날때마다 포장해서 먹어요. 느끼하지 않아서 자주 먹어요.",
-      "포장도 깔끔하게 잘 해 주시고 친절 하신 직원 분들들이 계시더라구요ㅎㅎ감자튀김도 맛 있어서 놀랬어요!앞으로 노브랜드 버거 자주 먹을 것 같네요><",
-      "직원들이 어쩜이렇게 불친절 할까요!신기하네요👍",
-      "T데이 이벤트 덕에 오래간만에 먹어보는 노브랜드버거.감자튀김 크기도 크거니와 막 튀겨나온거라 그런지 바삭바삭하고 맛있어요. 그리고 버거 야채도 많이 넣어주시고 진짜 맛있게 잘먹었네요",
-      "티데이 행사 좋네요ㅋ"
-    ],
+    "rv": ["노브랜드버거 아이들이랑 생각날때마다 포장해서 먹어요. 느끼하지 않아서 자주 먹어요."],
     "naverPlaceId": "1047482330",
     "naverBlogCnt": 82,
     "menuItems": [
@@ -22353,12 +22030,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "털보네아구대구뽈찜집 리뉴얼되어 깔끔하고 이제 점심장사도 아구탕도 파네요. 음식은 여전히 맛있었습니다.",
-      "와이프랑 밥먹는데서빙보시는 분께서 백김치 재활용하다 딱 걸리심볶음밥 먹다 숟가락 놓고 나옴손님이 손을 안댄거라 그랬다면서이번이 처음이라 변명하시는데 기분 더 나빠짐더보기",
-      "해물뽈찜 소 짜입니다.일단 맛은 슴슴해요.저는 간이 부족하다 생각했지만 다른사람은 슴슴해서 좋았대요. 그리고 다른집들보다 소스국물이 조금 많은편입니다.매운맛을 시켰는데 확실히 맵습니다. 저는 매운맛을 좋아하는 편이라 먹을만 했어요.그리고 해물보다는 아구를 안먹어 봤지만 아구가 낫지 않을까 생각됩니다. 먹을게 많이 없어요.낙지 한마리, 새우 몇개, 게 몇조각",
-      "해물뽈찜 먹고왔는데 진짜 대만족했어요스트레스를 확 날려줄 만큼 매운맛이 땡길때 오기에 제격입니다 매운맛을 좋아하는 사람들에게 추천해주고 싶은 매탄동맛집이에요일반 아구찜에 비해 양념이 깊고 진하고 감칠맛이 있어서 한 번 먹어보면 계속해서 생각나게 만드는 중독성있는 맛입니다"
-    ],
+    "rv": ["털보네아구대구뽈찜집 리뉴얼되어 깔끔하고 이제 점심장사도 아구탕도 파네요. 음식은 여전히 맛있었습니다.", "맛있는 아구찜, 대구뽈찜집. 해산물도 다양하고 신선하게 가득 내어주신다. 소짜리인데 양도 많고 대구가 맛있다.", "집 근처에 있어서 언제 한번 가 봐야지 했는데 완전 단골 예약하게 됐습니당🥰 해물대구뽈찜 시켰는데 일단 비주얼부터 완전 감탄했구여ㅎㅎ 통통하고 실한 낙지가 통째로 올라가 있고 꽃게, 새우, 홍합, 쭈꾸미, 알, 곤이 등 각종 해산물이 가득해요!! 거기에 양념이 잔뜩 베어든 콩나물까지 크흐👍👍👍 뽈찜 자체를 처음 먹어 봤는데 대구 머리쪽에 붙은 살이 예술이더라구여ㅎㅎ 탱탱한데 부드러운? 큼직한 대구살도 가득하고 뼈 사이사이에 붙은 살 떼어 먹는 재미도 있었어요ㅎㅎ 무엇보다도 사장님께서 넘 정감 가고 친절하셔서 더더 단골 예약하게 됐습니당ㅎㅎ❤️ 매탄동 아구찜, 뽈찜 맛집으로 완전완전 강추합니다!!😍"],
     "naverPlaceId": "34330784",
     "naverBlogCnt": 64,
     "menuItems": [
@@ -22438,7 +22110,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1172227631/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_193%2F1757758338444jtnQF_JPEG%2F%25A1%25A4.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_193%2F1757758338444jtnQF_JPEG%2F%25A1%25A4.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_21%2F1757758338502aSRyI_JPEG%2FKakaoTalk_20250913_190610064_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_9%2F1757758338916yQqqN_JPEG%2FKakaoTalk_20250913_190610064_13.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_278%2F17577583390817Y0Bu_JPEG%2FKakaoTalk_20250913_190610064_12.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_32%2F1757758338795dEUsA_JPEG%2FKakaoTalk_20250913_190610064_10.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/sparkles20220119222028.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_star_struck20220119222254.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_193%2F1757758338444jtnQF_JPEG%2F%25A1%25A4.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_193%2F1757758338444jtnQF_JPEG%2F%25A1%25A4.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_21%2F1757758338502aSRyI_JPEG%2FKakaoTalk_20250913_190610064_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_9%2F1757758338916yQqqN_JPEG%2FKakaoTalk_20250913_190610064_13.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_278%2F17577583390817Y0Bu_JPEG%2FKakaoTalk_20250913_190610064_12.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250913_32%2F1757758338795dEUsA_JPEG%2FKakaoTalk_20250913_190610064_10.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -22507,13 +22179,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "가게 인테리어도 이쁘고 음식도 너무 이쁩니다! 라따뚜이랑 해장파스타먹었는데 호불호 없이 좋아할맛.. 둘다 흔하지 않은 특색있는 메뉴인데 호불호 갈리지 않게끔 사장님이 신경쓴티가 많이났어요 맛도 조화롭고 소스까지 숟가락으로 싹싹긁어먹을정도로 맛났습니다!!!",
-      "처음 가본 곳인데 맛있었어요. 칼칼한 토마토 파스타는 처음이었는데 자주 방문할 것 같아요",
-      "주말알바분이아름다워2일내내갔습니다.서울에서거주하며수원은아주가끔오는데휴…이틀이나와버린맛.완성된 음식도 음식인데, 구성안에 마늘이 아주 기가막히게 익어있습니다.사랑스러운 맛.더보기",
-      "해장파스타 안마신 술도 해장되는 맛",
-      "알리오올리오 새우 진짜 많이들어있어요!!! ㅋㅋㅋ 살짝매콤해서 물리지도 않고 바로 흡입가능 ~~ 청양크림파스타도 존맛 !!!! 소스 듬뿍들어있어서 면 다먹고 숟가락으로 퍼먹었어요 ㅎㅎ 사진에는 없지만 식전빵에 나오는 잼 판다면 사가고싶네요 .. 인생맛집 ><"
-    ],
+    "rv": ["가게 인테리어도 이쁘고 음식도 너무 이쁩니다! 라따뚜이랑 해장파스타먹었는데 호불호 없이 좋아할맛.. 둘다 흔하지 않은 특색있는 메뉴인데 호불호 갈리지 않게끔 사장님이 신경쓴티가 많이났어요 맛도 조화롭고 소스까지 숟가락으로 싹싹긁어먹을정도로 맛났습니다!!!", "처음 가본 곳인데 맛있었어요. 칼칼한 토마토 파스타는 처음이었는데 자주 방문할 것 같아요", "2시쯤 방문했는데 점심시간이 지나서 그런지 주말인데도 바로 입장했어요-! 음식도 엄청 빨리 나오고, 맛있어요… 특히 “킴.해장 파스타” 최고입니당-♥", "친구들과 첫방문했는데 음식이 다 맛있었고 담에 또 방문하고 소개시켜주고싶은 맛집이였습니다~"],
     "naverPlaceId": "1835771863",
     "naverBlogCnt": 194,
     "menuItems": [
@@ -22599,10 +22265,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "과도한 접근 요청으로 서비스 이용이 제한되었습니다.",
-      "IP: 106.101.0.124(2026.03.18 02:39:38)"
-    ],
+    "rv": ["신동나들이 왔다가 출출해서 들렸어요. 커피만 마시기 아쉽고 케이크 말고 다른거 먹고 싶을 때 베이글이 딱이지요. 치카베이글 샌드위치랑 아메리카노 먹었는데 맛있었어요. 신동 수변공원이 통창으로 보여서 분위기가 좋아요.", "브런치 신메뉴가 나왔다고 해서 주문해봤어요! 오늘도 역시 너무 맛있게 잘 먹었습니다! 샐러드랑 샌드위치 조합도 너무 좋네요 ㅎㅎ 인테리어도 너무 예쁘고 여유롭게 혼자서도 방문하기 너무 좋은 곳이에요~ 매일 방문하고 싶습니당 또 방문할게요☺️❤️"],
     "naverPlaceId": "1603880672",
     "naverBlogCnt": 147,
     "menuItems": [
@@ -22717,13 +22380,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "첫방문입니다.참치집인데 참치는 물론 ,밑반찬이  너무 맛있어서다른 메뉴들도 시켜 먹어봤는데 정말 맛집이에요👍어느 하나 별루인게 없어요.사모님이 음식을 너무 맛깔나게 잘하시는거 같습니다숨은맛집이네요. 나만 알고싶은곳♡다음에 또 재방문할께요맛난음식 감사합니다 먹는내내 행복했습니다♡♡더보기",
-      "지난 주에 미식가인 지인동생 낮술 생파하러 찾아간 집이랍니다. 회라면 일가견이 있는 동생입니다.^^ 전 살짝 얼린듯한 걸 좋아하는데 중간 정도 녹인 정도로 주신다고 해서 맛에 대해 반신반의했는데... 왠걸요. 예쁜 돌들 위에 참다랑어 주셨는데 와~ 식감이며 맛이 예술이었습니다. 냉기 빠져 흐물거리는 참치 정말 싫어하는데 두부김치 추가로 시켜서 같이 먹는 동",
-      "음식도 맛있고 사장님두분다 너무 친절하셔요~^^",
-      "부서 회식으로 방문해서 다양한 메뉴들 즐겨보았는데, 정말 다 맛있네요! 사장님 두분 모두 너무 친절하게 맛난 음식 준비해주신 덕분에 즐거운 시간이었습니다!",
-      "다시오고싶은곳 입니다"
-    ],
+    "rv": ["지난 주에 미식가인 지인동생 낮술 생파하러 찾아간 집이랍니다. 회라면 일가견이 있는 동생입니다.^^ 전 살짝 얼린듯한 걸 좋아하는데 중간 정도 녹인 정도로 주신다고 해서 맛에 대해 반신반의했는데... 왠걸요. 예쁜 돌들 위에 참다랑어 주셨는데 와~ 식감이며 맛이 예술이었습니다. 냉기 빠져 흐물거리는 참치 정말 싫어하는데 두부김치 추가로 시켜서 같이 먹는 동안에도 녹아내리지 않아서 처음부터 끝까지 맛있게 먹었답니다. 이 정도로 좋은 참치는 일반 참치집 가면 이 금액에 절대 못먹죠. 술이 술술 들어가서 안주 새우튀김 더 시켰네요. 부부가 운영하시는데 친절하셔서 케이크도 나눠드리고 기분 좋게 한 잔하고 왔습니다. 혼술로 가도 될만한 집이에요. 참치 찐맛집입니다. 강추에요. 음악과 맛난 참치 드시러 가보세요.", "부서 회식으로 방문해서 다양한 메뉴들 즐겨보았는데, 정말 다 맛있네요! 사장님 두분 모두 너무 친절하게 맛난 음식 준비해주신 덕분에 즐거운 시간이었습니다!", "남자친구랑 여기 세번째 방문인데 여전히 맛이 미쳐버렸어요 진짜로 ,,, 기본안주가 이렇게 알차도 되는지 진짜 사장님들 남는게 있으신가요 ? 가게도 너무 아늑하고 포자느낌 나면서 분위기도 있고 두 부부사장님들 계시는데 몇번 왔다고 기억도 해주시고 말도 걸어주시고 너무 감사했어요 보통 기억해주시는 사장님들 드문데 기억해 주셨다는 자체가 가게 들어오자마자 너무 기분 좋았어요 정말로 ㅠㅠ 너무 맛있으면 안돼는데.. 근데 저는 웨이팅 3시간이여도 절대 못 잃어 유진참치 !!!🩷🩷 제발 오래오래 장사 해주세요. 참치 여기 아니면 절대 안 먹을정도 제 리뷰 보신분이 계신다면 저 믿고 꼭 방문 해보세요 !! 맛 없으면 제가 맨발로 뛰어 다니겠습니다. 정말 너무너무 맛있어요 잘 먹고 갑니다 🩷🩷", "안주도 하나하나 다맛있구 참치나 안주에 대해 간단하게 설명해주시는것도 너무 좋았습니다!! 참치전문점에서 먹는것보다 좋은 퀄리티의 안주들을 유진참치에서 한접시+먹고싶는안주 구성으로 함께하는게 좋았습니다. 앞으로도 종종 방문할게요!!"],
     "naverPlaceId": "1166561227",
     "naverBlogCnt": 26,
     "menuItems": [
@@ -22807,13 +22464,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "다른집 치돈과는 다르게 안에 치즈랑 깻잎이 같이 들어있는데 조합이 굉장히 좋아요. 그리고 완전 겉바속촉에, 먹다보면 치즈가 흘러넘칩니당ㅋ 오늘 두번째 방문인데 역시나 맛있네용",
-      "매탄동에 있는 돈까스집인데 돈까스가 겉바속촉하고 푸짐합니다.! 제가 좋아하는 매탄동 맛집 중에 하나에요.!!! 반찬도 정갈하고 정성이 느껴져서 먹을때마다 기분 좋습니다 또 갈게요❤️‍🔥",
-      "아주맛있고 사장님이 친절하십니다! 강추요!!",
-      "수원에서 돈가스 맛집을 가본적이없었는데근처에 생겨 한번 가보고 벌써 5번 이상 오게되었습니다 ㅎㅎ튀김 식감 좋고, 고기도 너무 부드럽고 신선합니다!심지어 제육,야끼우동 등 점심메뉴도 여러가지고, 다 너무 맛있습니다^^더보기",
-      "치즈돈까스인데 요즘 많이 보이는 통모짜감싼? 형태가 아니라서 좋았고 통모짜 아닌데도 치즈가 가득이어서 도 좋았습니다. 먹으면서 치즈가 부족하다고 못 느꼈어요!!! 돈까스 크기도 크고 튀김옷도 바삭하고 고소함.원래 먹다보면 느끼해서 먹기 힘든데 사장님껀 안 느끼해요. 같이 나오는 파채 얹어서 먹으면 더 맛있고 그리고 치즈 늘어나는게 진짜 쫘아악 늘어나는게 막"
-    ],
+    "rv": ["다른집 치돈과는 다르게 안에 치즈랑 깻잎이 같이 들어있는데 조합이 굉장히 좋아요. 그리고 완전 겉바속촉에, 먹다보면 치즈가 흘러넘칩니당ㅋ 오늘 두번째 방문인데 역시나 맛있네용", "매탄동에 있는 돈까스집인데 돈까스가 겉바속촉하고 푸짐합니다.! 제가 좋아하는 매탄동 맛집 중에 하나에요.!!! 반찬도 정갈하고 정성이 느껴져서 먹을때마다 기분 좋습니다 또 갈게요❤️‍🔥", "핫돈까스라고 돼있어 단순한 매운돈까스인줄 시켰는데 아구찜처럼 매운소스에 콩나물이 들어가 있어 처음 먹어보는 맛이지만 너무 맛있었습니다! 추천해드려요✌🏻✌🏻"],
     "naverPlaceId": "1965842922",
     "naverBlogCnt": 2,
     "menuItems": [
@@ -23183,13 +22834,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "너무 맛있어요!! 오면 카레에 우동 꼭 추가해서 드세요 밥도 같이 먹어야해요 완전 맛집!!!",
-      "회도 싱싱하구 안주 자체가 너무 맛있었어요~!! 좌석이 구분되어 있어서 이야기 하기두 너무 좋네요!! 다음에 또 가려구요 체고예요👍🏻👍🏻👍🏻",
-      "꼬치류 시켜 먹었는데 구성이 야무지게 나왔어요! 술안주가 부족해서 사시미도 시켰는데 구정이 알차게 나와서 맛있게 잘먹었습니다. 감사합니다!!",
-      "회사동료와 도전하듯 스프카레를 먹으로 첨왔었는데 지금은 자주 방문하는 술집이에요~ 분위기도 좋고 메뉴도 많고 무엇보다 스프카레, 카츠산도가 진짜 맛있습니다. 겨울이라 방어를 시켰는데 그것도 맛있어요 😃추천합니다더보기",
-      "음식이 너무 맛있어서 사진찍는걸 깜박했네요.."
-    ],
+    "rv": ["남편이랑 자주오는 단골집입니당ㅎㅎ올때마다 먹는 메뉴는 한번도 실패한 적 없었고 꾸준히 신메뉴를 개발하시더라구용ㅋㅋㅋㅋ트러플 카츠산도는 맛있어서 매번 먹을까말까 고민한다구용!! 꼬치는 말뭐입니당ㅎㅎㅎ", "집 근처에 있어서 자주 방문하고있어요. 오꼬노미야끼랑 나가사끼짬뽕 진짜 세상에서 제일 맛있는거 같아요!! 여자친구도 너무 좋아해서 기분좋아요~ 사람들이 몰랐으면 좋겠음ㅎ", "안녕하세요! 하시입니다 🥰 두 번이나 찾아주셔서 정말 기뻐요~ 모듬사시미와 연어까지 맛있게 드셨다니 행복하네요 💖 앞으로도 맛있는 메뉴와 아늑한 분위기로 기다리고 있을게요~ 다음 방문 때도 특별한 순간 만들어드릴 수 있도록 노력하겠습니다 😊 소중한 후기 진심으로 감사드려요!❤️", "주말 저녁 술 한잔 하고 싶어서 고민하다 맛 보고 싶었던 스프 카레 궁금해서 방문~ 매장도 너무 깔끔하고 직원 분들 너무 친절 하십니다~ 음식도 너무 맛있어요~ 집 근처라 너무 좋으네요~ 자주 올게요^^", "안녕하세요! 하시입니다 🥰 주말 저녁에 찾아주셔서 정말 감사드려요 💕 맛있게 드셨다니 더없이 행복해요 🍀 집 근처라서 자주 오신다니 영광이에요 💖 다음에도 더욱 특별한 맛과 서비스로 기다리고 있을게요! 언제든지 편하게 들러주세요~ 감사합니다 🌟"],
     "naverPlaceId": "52429187",
     "naverBlogCnt": 133,
     "menuItems": [
@@ -23272,12 +22917,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "요즘 치킨에 미쳐서 매주 치킨 먹는데, 비비큐치킨은 서천점이 제일 맛있더라구요! 매장에서 먹고싶었으나, 이벤트 때매 앱에서 주문한거라 이벤트 지침상 포장, 배달 시에만 사용 가능하여 결국 포장해왔어요~ 집에서도 뜨겁게 먹을 수 있어서 좋았습니다! 잘 먹었습니다!",
-      "뿜치킹 최고❤️ 너무 맛있어요!!!매장에서 더 바삭하고 뜨겁게 먹고 싶은 그런 맛이에요!!",
-      "핫크리스피 뜨거울 때 먹으면 극락임",
-      "치킨 너무 잘 먹었어요 음료와 함께"
-    ],
+    "rv": ["요즘 치킨에 미쳐서 매주 치킨 먹는데, 비비큐치킨은 서천점이 제일 맛있더라구요! 매장에서 먹고싶었으나, 이벤트 때매 앱에서 주문한거라 이벤트 지침상 포장, 배달 시에만 사용 가능하여 결국 포장해왔어요~ 집에서도 뜨겁게 먹을 수 있어서 좋았습니다! 잘 먹었습니다!", "근래 먹은 치킨 중에 제일 맛이 없네요.. 축축한 후라이드는 처음이에요 양념도 묽고 ㅠ 믿고 시키는 BBQ인데", "닭발튀김이 찐맛집😆 깨끗한기름인거같이 튀김이 너무 깔끔하고 맛있어요^~^", "음식이 포장까지 다 끝났는데도 네이버에는 계속 요리중으로 나오고... 매장에 들어가서 계속 불러도 안에서 이야기 하시느라 대답도 없고... 조금 실망스러웠습니다"],
     "naverPlaceId": "1183100192",
     "naverBlogCnt": 21,
     "menuItems": [
@@ -23639,13 +23279,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "친구랑 왔다가 너무 맛있어서 남자친구랑 다시 왔어요!보통 메인만 맛있는데 여긴 다른메뉴도 다 맛있어요ㅎㅎ타다키는 처음 시켜봤는데 고기도 도톰하구 완전 맛있어요😍 사장님도 친절하시구 다음에 또 오려구요👍👍❤️",
-      "2차로 왔는데 간단한 안주와 따뜻한 어묵탕이 있어서 넘 좋네요❤️ 부산집하이볼이 시그니처인거 같은데 정말 맛있어요! 지인들과 도란도란 이야기 하기 좋은 장소로 강추합니다! 먹태도 통통하니 맛있어요🥹",
-      "테이블에 어묵국물을 놓고 따뜻하게 먹을 수 있어서 좋고 생맥도 맛있어요 👍 분위기 인테리어가 좋아서 진대하기 좋을 것 같아요 👍",
-      "어묵도 맛있지만갑오징어물회먹으러 많이오는거같아요😂",
-      "너무 좋아요 😍 맛있어요"
-    ],
+    "rv": ["2차로 왔는데 간단한 안주와 따뜻한 어묵탕이 있어서 넘 좋네요❤️ 부산집하이볼이 시그니처인거 같은데 정말 맛있어요! 지인들과 도란도란 이야기 하기 좋은 장소로 강추합니다! 먹태도 통통하니 맛있어요🥹", "식당 분위기도 좋고 잔잔하게 나오는 노래도 너무 좋았습니다 무엇보다 음식이 아주 맛있어요!! 노래 크기도 대화하기 딱 좋은 크기로 틀어져있고 직원분들의 음식 설명도 잘 해주십니다~ 추천드려요"],
     "naverPlaceId": "1262098083",
     "naverBlogCnt": 93,
     "menuItems": [
@@ -23955,12 +23589,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "숯불닭갈비와 조개찜을 같이 먹을수 있어요✨요즘 새우철이라 새우찜과 닭갈비를 먹었어요싱싱한새우 양도 많고새우머리 버터구이도 해주세요🥹너무 맛있어요👍🏻닭갈비는 고추장양념이고 매콤하니 맛있고다 구워져서 제공해 주시니그냥 먹기만 하면 되니 참 편해요유아의자는 없지만,아이랑 함께 많이들 오시더라구요사장님도 친절 하시고너무 맛있게 잘 먹어서다음엔 가리비찜 먹으러",
-      "가게 이름이 갯벌스타일?! 처음엔 이름만 보고 여기 횟집인가? 했는데 간판에 떡하니 숯불닭갈비가 쓰여있길래호기심에 들어가 봤어요 ㅎㅎㅎ 사장님께서메인이 숯불 닭갈비라고 하더라고요 ㅎㅎ주방에서 이미 초벌하고 다~ 익혀 나와서 테이블 숯불에 데워먹는 시스템!직접 굽지 않아도 되니 옷에 냄새 배일 걱정도 없어요!!편하게 먹기만 하면 되니까 굳굳 ❤️ 가게 내부도",
-      "새우구이 맛있게 잘 먹었습니다",
-      "갯벌스타일 숯불닭갈비 후기https://m.blog.naver.com/k8020_/224054323803"
-    ],
+    "rv": ["가족회식으로 찾아 왔는데요. 조개찜 중에서 갯벌이 상한맛?이라고 해야하나 모든 조개에 그런 맛이 나길래 한번 여자 사장님께 말씀 드렸고, 바로 저희가 먹던 조개찜을 가져가시더니 다시 쪄서 나오더라구요 여긴까진 좋았습니다. 다시 쪄도 냄새나고 먹고 뱉고 반복이여서 이건 아니다 싶어 닭갈비를 시키려 주문하려고 단발머리 직원분께 주문을 했는데 쌩까고 가서 뭐지? 싶어서 다시 불러서 주문을 하는 와중에 예 알아요 하고 가시더라고요? 기분이 너무 나빠서 그 직원 불러서 뭐라고 했더니, 그 직원도 기분이 나쁘다면서 저희한테 더 뭐라고 하시더라고요?ㅋㅋ 이건 뭐 싸우자는건지? 심지어 저희 아빠한테도 맞대응하더라고요. 잘 풀려는 아빠한테까지 싸움을 거시는지? 다신 안가요 ㅋㅋ 그 아줌마 짤려도 안갈듯요 가지마세여~후회중."],
     "naverPlaceId": "18260694",
     "naverBlogCnt": 362,
     "menuItems": [
@@ -24172,11 +23801,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "짬뽕밥.낙지, 홍합, 조개 등이 푸짐하고 국물은 텁텁하지 않고 채수 같이 맑은 느낌이라 뒷맛도 깔끔합니다 ^^",
-      "오랜만에 간 건데 전에 갔을 때보다 더 재료도 넉넉하게 들어간 것  같고 맛도 좋다고 느꼈어요. 추운 날이었는데 따뜻하게 잘 먹었습니다.",
-      "짬뽕 맛집 입니다 넉넉한 해물과 짜지않은 국물맛이 일품"
-    ],
+    "rv": ["오랜만에 간 건데 전에 갔을 때보다 더 재료도 넉넉하게 들어간 것 같고 맛도 좋다고 느꼈어요. 추운 날이었는데 따뜻하게 잘 먹었습니다."],
     "naverPlaceId": "1094293669",
     "naverBlogCnt": 55,
     "menuItems": [
@@ -24209,7 +23834,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1094293669/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190911_261%2F1568186745132lxorS_JPEG%2Fz-CCJBYeFdT2B6pe8IkARVcg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190911_261%2F1568186745132lxorS_JPEG%2Fz-CCJBYeFdT2B6pe8IkARVcg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201227_58%2F1609050520225605aJ_JPEG%2FJWYuehVW8Crn9HX6iHHn1e_F.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMTFfODUg%2FMDAxNzcwODAwMzk1ODQy.Nk-eayWwr0h92IgaSzCvIhiXXhtpz8ZqSxmLe4nYzogg.NSXHOumhUnVuEVTEQW9UOUXfwz6RZhs9MpaLKND8Y5wg.JPEG%2F20260209_181815.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDRfMjAx%2FMDAxNzU0Mjc4MDY4MjE5.E3IsJCChnNUoNcVK5J_HH8kpiRaDPGwplhTqb21s9N8g.22s6G5JlYWYzwRuYBeQIV3O4lOfdMCe3fRP_EzjD_Fcg.JPEG%2FEBFECC26-29F9-47EB-9D71-C35625627028.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDRfMjQ0%2FMDAxNzc3ODY2NDcwNDU5.sCRZehBhMLydG_EWOxg6kGAfzGGcQm-wfpTQRdl086Qg.XgrnOdf618Ker6TBfQVyE8jl4ddHW2QI_MOUtOqLCScg.JPEG%2F74635.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190911_261%2F1568186745132lxorS_JPEG%2Fz-CCJBYeFdT2B6pe8IkARVcg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190911_261%2F1568186745132lxorS_JPEG%2Fz-CCJBYeFdT2B6pe8IkARVcg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201227_58%2F1609050520225605aJ_JPEG%2FJWYuehVW8Crn9HX6iHHn1e_F.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMTFfODUg%2FMDAxNzcwODAwMzk1ODQy.Nk-eayWwr0h92IgaSzCvIhiXXhtpz8ZqSxmLe4nYzogg.NSXHOumhUnVuEVTEQW9UOUXfwz6RZhs9MpaLKND8Y5wg.JPEG%2F20260209_181815.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDRfMjAx%2FMDAxNzU0Mjc4MDY4MjE5.E3IsJCChnNUoNcVK5J_HH8kpiRaDPGwplhTqb21s9N8g.22s6G5JlYWYzwRuYBeQIV3O4lOfdMCe3fRP_EzjD_Fcg.JPEG%2FEBFECC26-29F9-47EB-9D71-C35625627028.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDRfMjQ0%2FMDAxNzc3ODY2NDcwNDU5.sCRZehBhMLydG_EWOxg6kGAfzGGcQm-wfpTQRdl086Qg.XgrnOdf618Ker6TBfQVyE8jl4ddHW2QI_MOUtOqLCScg.JPEG%2F74635.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -24458,13 +24083,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "늦은 식사에 넘 배가 고파서정작  장어 사진은 깜빡ㅜㅜ배부르게 맛나게 잘 먹었어요♡회식도 많이들 오는 곳!!더보기",
-      "장어  크기가 작아여~~깻잎짱아찌 짜지않아 죠아여",
-      "가격대비 장어 양이 너무 작다. 왜 키로수가 없지? 했는데.. 와! 처음 나온거 보고, 망했다.. 당했다.. 뇌리를 스침.. 1마리가 33000원 고정이고, 장어크기가 랜덤임. 2마리 시켰는데 약 350?그람도 안되는 양인 것 같은데 이게 66000원. 솔직히 눈을 의심함ㅋ 손님을 위해서 그람수 적어 놓는게 기본 아닌가. 이제껏 그람수 물어보는 손님은 없었",
-      "신랑이 회식하고 맛있다고 데려가주었는데 ^^아이랑 정말 맛있게 먹고 왔어요직접 구워주셔서 먹기만 하면 되요 !!테이블에 집게도 없어요 ㅎㅎ 너무 편해요 !!신랑은 소금파 아이랑 저는 양념파 아주 맛있게 먹고 왔어요 !!!더보기",
-      "장어 맛   어디든  별다르지 않치만     멀리가기힘들어 동네에서  ~~ 사장님 친절하시네여"
-    ],
+    "rv": ["가격대비 장어 양이 너무 작다. 왜 키로수가 없지? 했는데.. 와! 처음 나온거 보고, 망했다.. 당했다.. 뇌리를 스침.. 1마리가 33000원 고정이고, 장어크기가 랜덤임. 2마리 시켰는데 약 350?그람도 안되는 양인 것 같은데 이게 66000원. 솔직히 눈을 의심함ㅋ 손님을 위해서 그람수 적어 놓는게 기본 아닌가. 이제껏 그람수 물어보는 손님은 없었다함;; 2마리가 애들 먹일 정도의 양임. 그래도 먹고 싶다면 장어를 직접 받아서 굽던지 초벌된거 큰 놈 고르세요ㅋ왜 초벌을 해줄려고 하는지 알겠네ㅋ이만치 팔았음 솔직하게 메뉴판에 적던지 줄 때 그람수는 표시합시다! 구우면 작아 진다고? 정도것 작어야지~ 얼마나 어이없음 이럴까.. 그람수 없는 메뉴판 & 초벌된 장어 & 바람잡는 홀서빙에 한수 배우고 갑니다", "장어 맛 어디든 별다르지 않치만 멀리가기힘들어 동네에서 ~~ 사장님 친절하시네여"],
     "naverPlaceId": "18238680",
     "naverBlogCnt": 98,
     "menuItems": [
@@ -24512,7 +24131,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18238680/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_263%2F1766560160847exuuH_JPEG%2FKakaoTalk_20251224_160152344_04.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_263%2F1766560160847exuuH_JPEG%2FKakaoTalk_20251224_160152344_04.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_136%2F17665601606309DBua_JPEG%2FKakaoTalk_20251224_160639633.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_82%2F1766560160804laY5j_JPEG%2FKakaoTalk_20251224_160152344_01.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_111%2F1766560160790GAlq5_JPEG%2FKakaoTalk_20251224_160152344_02.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_149%2F176656016081154dLC_JPEG%2FKakaoTalk_20251224_160152344_03.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_263%2F1766560160847exuuH_JPEG%2FKakaoTalk_20251224_160152344_04.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_263%2F1766560160847exuuH_JPEG%2FKakaoTalk_20251224_160152344_04.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_136%2F17665601606309DBua_JPEG%2FKakaoTalk_20251224_160639633.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_82%2F1766560160804laY5j_JPEG%2FKakaoTalk_20251224_160152344_01.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_111%2F1766560160790GAlq5_JPEG%2FKakaoTalk_20251224_160152344_02.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251224_149%2F176656016081154dLC_JPEG%2FKakaoTalk_20251224_160152344_03.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -24824,13 +24443,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "1. 기본 간.천엽2. 추가 간.천엽간.천엽 먹으러 곱창집 가는 사람입니다.혼잡하기전에 얼른가서 맛있게 먹었어요.선지국도 간이 세지않아 맛있어요곱창,막창은 당연히 굿이구요,파김치 맛있어요더보기",
-      "시킨 메뉴 : 모듬 중 / 곱창 / 라면 / 볶음밥저녁시간에 늦으면 100% 웨이팅이 있는 정철황소곱창집.풍자님의 또간집으로 더욱 유명해진 집입니다. 곱창,막창 집 중, 고기 손질을 잘못하면 이상한 냄새가 나고 씹는 맛도 고무맛이 나는데, 이 곳은 그런 맛과 냄새가 하나도 없었습니다.오후 7시 반쯤, 대기팀은 약 13팀정도 있었으며 대기시간은 약 30~40",
-      "2인이서 알곱창, 곱창, 막창 5인분 깨부시고 왔어요.알곱창이 찐이에요👍직원분들이 자주 오셔서 구워주고 가셔서 너무 편하게 먹었습니다.다른 곱창집 가면 배탈 날 때도 많은데, 여기는 배탈 안났어요.깍두기 볶음밥도 맛있어요!얼큰 라면 국물도 맛있어요.더보기",
-      "태어나서 먹은 곱창중에 제일 맛있었어요..알곱창 최고입니다; 볶음밥 필수 ㅋ",
-      "맛있어요 👍🏻👍🏻👍🏻👍🏻👍🏻"
-    ],
+    "rv": ["맛있어서 먹다보면 금액이 후덜덜이지만~~서비스로 주시는 선지해장국?에 통통한 대창에~~느끼함 잡아주는 파김치와 부추 그리고 콩나물 맛있어요!!", "7명(어른 5명, 초등 2명) 방문했는데 처음부터 4인용 정도 되는 테이블 하나에 앉으라고 안내했습니다. 좁아서 어렵다고 말씀드리자 말을 끊으며 “5명도 앉는다”, “아이들이라 괜찮다”고 일방적으로 대응했습니다. 결국 계속 요청한 끝에 2테이블로 나눠 앉았지만, 처음 대응이 매우 불쾌했습니다. 자리에 앉자마자 퉁명스럽게 2시간 제한을 통보하고, 식사 내내 눈치를 주는 듯한 태도도 불편했습니다. 기본적인 응대부터 개선이 필요합니다.", "곱창을 좋아해서 방문했습니다.생곱창과 막창을 직접 구워주시고 맛은 있는데 전반적인 위생이나 서비스는 별로네요~~냅킨 대신 자리 뒷편 벽면에 걸려 있는 휴지나..공용화장실 ㅜ 그리고 별로 친절하지 않은 …담엔 안갈거 같습니다", "여러 곱창집을 먹어봤지만 여기만큼 간과 천엽이 싱싱한건 처음입니다. 다 구워줘서도 좋고 처음에 주시는 간 천엽 선지국이 와따입니다. 볶음밥은 무조건 드세요. 진짜 너무 맛있게 다 쓸어먹고 왔어요."],
     "naverPlaceId": "34484553",
     "naverBlogCnt": 795,
     "menuItems": [
@@ -24888,7 +24501,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/34484553/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250520_127%2F1747733814966opQq4_JPEG%2F1000033475.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250520_127%2F1747733814966opQq4_JPEG%2F1000033475.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200804_68%2F1596517407809Tn6ri_JPEG%2F8BmZ7LVcmn6AjFP4X8OxUfgH.jpeg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMThfMTQw%2FMDAxNzY4NzA1NDU4MTE2.IZly9JHpHUyU_3DRvmA46C4P8lGQFRVTJW2oqagW3hkg.IydWeIOrHx3sOwJr8kqJEQHOYY5xY3pAcK0x-BXNzPsg.JPEG%2FF9E73625-DFBB-41C5-AD7D-FE6133E5995E.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMThfMTY2%2FMDAxNzY4NzExNDEyMDY3.bY2HsxdXZnzmVYWYEIlvIpl4dcYctlkuNAMIJ8XiklIg.pjDV6EnNfZ618OJ86VZPJJnXxKZ_YhSKMtfPLf9X2ssg.JPEG%2F20260105_191159.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTJfMjQx%2FMDAxNzczMjY4Mzg4MDg1.PyN9ZuPXEexr4z1hCnVNLWzJUN-cysEDt6bHcSLExTEg.0wNSdq0n1PKHEm5CISRQyjq2NycRV52RGFbkenwFExMg.JPEG%2F22720.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20221021_298/1666360572200RphjI_JPEG/1666360550464.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250520_127%2F1747733814966opQq4_JPEG%2F1000033475.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250520_127%2F1747733814966opQq4_JPEG%2F1000033475.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200804_68%2F1596517407809Tn6ri_JPEG%2F8BmZ7LVcmn6AjFP4X8OxUfgH.jpeg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMThfMTQw%2FMDAxNzY4NzA1NDU4MTE2.IZly9JHpHUyU_3DRvmA46C4P8lGQFRVTJW2oqagW3hkg.IydWeIOrHx3sOwJr8kqJEQHOYY5xY3pAcK0x-BXNzPsg.JPEG%2FF9E73625-DFBB-41C5-AD7D-FE6133E5995E.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMThfMTY2%2FMDAxNzY4NzExNDEyMDY3.bY2HsxdXZnzmVYWYEIlvIpl4dcYctlkuNAMIJ8XiklIg.pjDV6EnNfZ618OJ86VZPJJnXxKZ_YhSKMtfPLf9X2ssg.JPEG%2F20260105_191159.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTJfMjQx%2FMDAxNzczMjY4Mzg4MDg1.PyN9ZuPXEexr4z1hCnVNLWzJUN-cysEDt6bHcSLExTEg.0wNSdq0n1PKHEm5CISRQyjq2NycRV52RGFbkenwFExMg.JPEG%2F22720.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20221021_298/1666360572200RphjI_JPEG/1666360550464.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -24916,13 +24529,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "항상 잘 먹고 있습니다! 리뷰 써야지 써야지 했다가 몇 번을 까먹고 정말 늦게 작성하네요 ㅎㅎ;; 자주 포장하는 곳인데 늘 한결 같이 맛있어요~ 매탄동에 사는 곱창 유목민분들 강추합니다..",
-      "먹느라 사진이 없네요 ㅎ 맛도 좋은데 푸짐하게 주셔서 지인들과 다같이 맛나게 잘먹었습니다^^",
-      "순대곱창볶음 2인분이예요.포장해서 집에 있는 치즈피자넣어서 먹었어요!양많고 맛있어요!!!",
-      "사진 비주얼이 보이시나요?ㅎㅎ양도 엄청 푸짐하고 맛 또한 비주얼에 만족을 줍니다! 사장님이 직접 손질하시고 세척까지 하셔서 누구보다 꼼꼼하게 곱창 관리를 하십니다.사장님이 곱창에 대한 애정도 자부심도 강하신데 한입 맛보는 순간 인정했습니다-! 맛집 단골 예약이네요 :) 반찬은 곱창에 집중할수있도록 많지않고 단조로운데 곱창이 워낙 맛있다보니 반찬으로 맛을 가",
-      "사장님 친절하고 곱창 완전 맛있어요"
-    ],
+    "rv": ["항상 잘 먹고 있습니다! 리뷰 써야지 써야지 했다가 몇 번을 까먹고 정말 늦게 작성하네요 ㅎㅎ;; 자주 포장하는 곳인데 늘 한결 같이 맛있어요~ 매탄동에 사는 곱창 유목민분들 강추합니다..", "먹느라 사진이 없네요 ㅎ 맛도 좋은데 푸짐하게 주셔서 지인들과 다같이 맛나게 잘먹었습니다^^", "너무 맛있게 잘 먹었어요~ 비빔국수도 곧 정식으로 메뉴에 건다고 하셨는데 국수도 맛있어요ㅎㅎ 또 먹으러 가겠습니다~"],
     "naverPlaceId": "1921335013",
     "naverBlogCnt": 4,
     "menuItems": [
@@ -24950,7 +24557,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1921335013/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221229_114%2F1672309078681adWFU_JPEG%2FC6613486-9EBD-409D-93AF-7984FB054146.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221229_114%2F1672309078681adWFU_JPEG%2FC6613486-9EBD-409D-93AF-7984FB054146.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20230226_218/16773933208836vooI_JPEG/C319F055-ED18-46D5-ACE3-53FE86C42745.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20230226_102/1677393296596OuzOg_JPEG/822CA47D-1D27-45A3-980D-72737D9FEE38.jpeg", "imageUrl5": "https://ldb-phinf.pstatic.net/20250523_29/1747971727951m08Qb_JPEG/%B9%E9%BC%F8%B4%EB.jpg", "imageUrl6": "https://ldb-phinf.pstatic.net/20230729_38/16906086790928dlx3_JPEG/%BC%F8%B4%EB%BA%BA%C0%BD.jpeg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221229_114%2F1672309078681adWFU_JPEG%2FC6613486-9EBD-409D-93AF-7984FB054146.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221229_114%2F1672309078681adWFU_JPEG%2FC6613486-9EBD-409D-93AF-7984FB054146.jpeg", "imageUrl3": "https://ldb-phinf.pstatic.net/20230226_218/16773933208836vooI_JPEG/C319F055-ED18-46D5-ACE3-53FE86C42745.jpeg", "imageUrl4": "https://ldb-phinf.pstatic.net/20230226_102/1677393296596OuzOg_JPEG/822CA47D-1D27-45A3-980D-72737D9FEE38.jpeg", "imageUrl5": "https://ldb-phinf.pstatic.net/20250523_29/1747971727951m08Qb_JPEG/%B9%E9%BC%F8%B4%EB.jpg", "imageUrl6": "https://ldb-phinf.pstatic.net/20230729_38/16906086790928dlx3_JPEG/%BC%F8%B4%EB%BA%BA%C0%BD.jpeg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -25040,7 +24647,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1274345205/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200106_216%2F1578278770652oeVF6_JPEG%2F17myorqqT95KdkZcgsTVjVeT.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200106_216%2F1578278770652oeVF6_JPEG%2F17myorqqT95KdkZcgsTVjVeT.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTlfMTUg%2FMDAxNzUwMzMxMzE1OTQy.sknVq8x2ayHQoAmctjWIV-detffLHUJrgj4MDLnXHa0g.hlpfDyeOlmWF3vJXVUqR_ZHZG1AlVGFUWlwJirkmyykg.JPEG%2F20250619_200642.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjZfOSAg%2FMDAxNzY0MTM5Nzc4NzU2.ZjCss06DavUO3cIkNcBg-3Z5-IpUA1nj6Mk0Y0Z4_RIg.O4lT16IbT_mxSY48Bx59MB1UGx51j8y74PPEBvZN2_sg.JPEG%2F20250227_185349.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfNTMg%2FMDAxNzQ4NTgwOTMyNDA4.oaejyyByn6eX7iznpCQ-s2lQDRyQgujYRaJZmVur9TAg.LCypvVOfwxX1DtL5o8JLYE7pdFIfTCcEyw5ozcZcYmwg.JPEG%2F20250530_135313.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTBfMTcw%2FMDAxNzUyMTUzMDU5ODAw.I7Hm-U6ThS9IiL9v23dXlHiULc0gL_j3edGl32JsY7Mg.Ikg5uGziqJ6Shhcjnuq8FCr-nx6s96cBaWfXr-8XrUYg.JPEG%2F20250625_130444.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200106_216%2F1578278770652oeVF6_JPEG%2F17myorqqT95KdkZcgsTVjVeT.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200106_216%2F1578278770652oeVF6_JPEG%2F17myorqqT95KdkZcgsTVjVeT.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTlfMTUg%2FMDAxNzUwMzMxMzE1OTQy.sknVq8x2ayHQoAmctjWIV-detffLHUJrgj4MDLnXHa0g.hlpfDyeOlmWF3vJXVUqR_ZHZG1AlVGFUWlwJirkmyykg.JPEG%2F20250619_200642.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjZfOSAg%2FMDAxNzY0MTM5Nzc4NzU2.ZjCss06DavUO3cIkNcBg-3Z5-IpUA1nj6Mk0Y0Z4_RIg.O4lT16IbT_mxSY48Bx59MB1UGx51j8y74PPEBvZN2_sg.JPEG%2F20250227_185349.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MzBfNTMg%2FMDAxNzQ4NTgwOTMyNDA4.oaejyyByn6eX7iznpCQ-s2lQDRyQgujYRaJZmVur9TAg.LCypvVOfwxX1DtL5o8JLYE7pdFIfTCcEyw5ozcZcYmwg.JPEG%2F20250530_135313.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTBfMTcw%2FMDAxNzUyMTUzMDU5ODAw.I7Hm-U6ThS9IiL9v23dXlHiULc0gL_j3edGl32JsY7Mg.Ikg5uGziqJ6Shhcjnuq8FCr-nx6s96cBaWfXr-8XrUYg.JPEG%2F20250625_130444.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -25201,13 +24808,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "참치가 생각나면 늘 방문하는 곳입니다, 오늘도 역시 모든게 최고 짱 👍 입니다.",
-      "너어어어어무 맛있게 잘 먹구가용",
-      "야미코스로 먹어보았습니다사장님 친절하시고맛있어요",
-      "초밥 신선하고 특별하게 맛있어요!  사장님 넘 친절하게 응대해주시고 오뎅탕이 별미!  튀김, 참치구이 다 맛있습니다",
-      "마블링세트 주문하면 고급 부위 정말 많이 주세요...ㅎㅎㅎ사장님 찬절하시고..매장도 깨끗하고..일단 참치가 맛있어요..자주 갈게요^^더보기"
-    ],
+    "rv": ["참치 먹고싶을때 포장해서 먹던 곳인데 매장 방문은 처음이었어요. 가족끼리 오붓하게 먹을 수 있는 룸이 있어 좋았네요. 분위기도 좋고 맛도 좋구 직원분들이 친절해서 기분좋게 시간을 보냈네요. 특히 매장에서 먹으니 서비스로 초밥에 마끼에 참치머리구이, 추가 참치회까지 주셔서 깜짝 놀랐어요. 담부턴 포장말고 무조건 방문입니다😄", "참치는 무조건 야미참치에서 먹어요!!! 👍👍 맛과 신선함은 물론이고 구성도 좋고 사장님께서 항상 친절하고 정성껏 준비해주심!!", "참치가 생각나면 늘 방문하는 곳입니다, 오늘도 역시 모든게 최고 짱 👍 입니다."],
     "naverPlaceId": "18256017",
     "naverBlogCnt": 253,
     "menuItems": [
@@ -25268,12 +24869,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "태어나서 이렇게 불친절한 알바생은 처음봤어요! 뭐 무서워서 말 하나 제대로 하겠나 ㅋㅋ;  밥맛 다 떨어지게 만드는 표정과 말투 잘 봤습니다! 다신 주문하고 싶지 않아요",
-      "친절하고 야채도 신선하고 샐러드에 야채도 적지 않게 주시는 것 같아요!포장도 너무 깔끔하게 되어서 또 이용하고 싶은 매장입니다!",
-      "해당 매장은 출입문 안내와 네이버 지도에 영업 22:00 / 라스트오더 21:30로 표시되어 있으나, 2025-09-20 20:50경 방문 시 매장 내 취식 불가(테이크아웃만 가능) 안내를 받았습니다. 실제 운영 기준과 안내가 다릅니다.그 과정에서 직원 응대가 불친절하고 다소 무례하였음(말투가 거칠고 고객 설명 요구에 성의 없는 대응)더보기",
-      "야채 아까운가요..? 양파쪼가리 세개에 토마토 끝부분 두개 넣어주셔서 토마토 더 넣어달라니까 한 개 더 얹어주시고는 원래는 두 개 넣어주는 건데 세개 넣어서 많이 준 거라고 하시고, 양상추 많이 달라니까 자꾸 많이 집는 척하고 손으로 다 털어버리는 게 제 어이도 같이 털리네요;; 다시는 안가요 진짜 기분 나쁘네요; 오이도 제 빵에 가지런히 놓는 게 아니라 "
-    ],
+    "rv": ["태어나서 이렇게 불친절한 알바생은 처음봤어요! 뭐 무서워서 말 하나 제대로 하겠나 ㅋㅋ; 밥맛 다 떨어지게 만드는 표정과 말투 잘 봤습니다! 다신 주문하고 싶지 않아요", "야채 아까운가요..? 양파쪼가리 세개에 토마토 끝부분 두개 넣어주셔서 토마토 더 넣어달라니까 한 개 더 얹어주시고는 원래는 두 개 넣어주는 건데 세개 넣어서 많이 준 거라고 하시고, 양상추 많이 달라니까 자꾸 많이 집는 척하고 손으로 다 털어버리는 게 제 어이도 같이 털리네요;; 다시는 안가요 진짜 기분 나쁘네요; 오이도 제 빵에 가지런히 놓는 게 아니라 얹어놔서 옆에 계시던 분이 오이 대신 펼쳐주시고 양상추도 더 넣어서 포장해주셨네요; 같이 일하시는 분도 아시는 거죠;; 정말 그렇게 장사하지 마세요 서비스직인데;; 정량도 주지 않을거면서 많이 넣었다고 하지도 마시구요 정말 이런 리뷰 쓰기 처음이네요;;;;; 야채 더 달라고 한 게 기분 나쁘신지 냅킨도 안챙겨주네요?"],
     "naverPlaceId": "1534650169",
     "naverBlogCnt": 39,
     "menuItems": [
@@ -25411,13 +25007,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "신씨고집 올만에 갔음다 역시 안심&라면 최고ㅠ",
-      "이곳 안심은 두만할 필요없는것 같아요정말 추천합니다  개인별로 주는 반찬도 맘에들고요 ㆍ인테리어가 오래되긴했지만 이런곳이 찐이죠",
-      "고기가 엄청 두껍고 맛있어요!!단체로 가기엔 서비스가아쉬워요",
-      "리뷰가 좋아 친구와 약속해  예약해 갔고, 안심  추천해주셔서 주문했어요.  부부 이신듯한 두분께서 너무 분주하시게 움직이시고 주문후  고기가 좀 늦게나와 물어보니 숮불이 충분히 올라야되고 먼저오신분들 주문고기 구워주느라 좀 늦을수 있으니 양해 부탁하시네요 ㅠ 빨 먹고싶은데 ㆍㆍ숯불이 뻘개진때쯤 확인후  굽기 시작! 고기 두께도 굽는 스킬도 게다가 육즙꽉찬",
-      "리뷰보고 영통맛집이라해서 갔는데 너무 실망했어요.예약했더니 기본반찬은 마른듯했고 부부 두분께서 주방이랑 홀일을 하시니몇번부르면 오시고누룽지는 타고 냉면은 질기고…밑반찬은 사진에있는….무엇보다 바닥이추워서 발을 들고있을정도니…고기맛은 좋았지만…지인과 같이갔는데 넘 미안해서화가 났어요.더보기"
-    ],
+    "rv": ["등심,안심,토마호크 골고루 맛있게 잘먹었습니다! 안심 대표메뉴라고 추천해주셔서 먹었는데 엄지척👍 안심보다 등심을 더좋아했는데 이곳은 안심도 맛있었습니다.고기 다 구워주셔서 더 좋았습니다!"],
     "naverPlaceId": "12991065",
     "naverBlogCnt": 0,
     "menuItems": [
@@ -25482,13 +25072,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "가끔씩 디델리 떡볶이 생각나서 먹으면 맛있어요.",
-      "옛날 돈까스도 먹고 싶고 옛날 스타일의 떡볶이도 먹고 싶어서 처음 가봤는데 추억의 맛이어서 좋았어요! 옛날로 돌아간 느낌이었어요! 맛도 좋아었어여",
-      "최.악.임!!! 라볶이전문점 간판 내리세요 제발!!!보시다시피 매콤비프라볶이인데 하나도안맵고 맛도 물조절잘못한 한강라면...소고기도 거의 세조각뿐이고양도 창렬하고 맛도없는데 이게 9500원? 근처 김밥집에서 떡볶이먹어도 이보단맛있을듯...라볶이전문점이라는 간판에 혹해 들어갔는데 실망 제대로하고 돈만 버리고갑니다. 아까워서 어떻게든 먹어보려했지만 결국 남기고",
-      "추억먹으러 딸램하구 왔네요ㅋㅋ엄마 어릴적 이야기두하고 딸램이랑 대화도 하면서 맛있게 먹었어요 👍 사장님도 넘 친절하셔요",
-      "간간히 가서 먹는 디델리인데 역시 영통점의 치즈라볶이가 맛있어요!! 다른 지점 가봤는데 너무 아쉽더라구요 포장도 자주 해먹었는데 직접 가서 먹으니까 위에 치즈도 잘 익혀져서 더 맛있었네요  :)"
-    ],
+    "rv": ["옛날 돈까스도 먹고 싶고 옛날 스타일의 떡볶이도 먹고 싶어서 처음 가봤는데 추억의 맛이어서 좋았어요! 옛날로 돌아간 느낌이었어요! 맛도 좋아었어여", "간간히 가서 먹는 디델리인데 역시 영통점의 치즈라볶이가 맛있어요!! 다른 지점 가봤는데 너무 아쉽더라구요 포장도 자주 해먹었는데 직접 가서 먹으니까 위에 치즈도 잘 익혀져서 더 맛있었네요 :)"],
     "naverPlaceId": "801970178",
     "naverBlogCnt": 186,
     "menuItems": [
@@ -25546,7 +25130,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/801970178/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_119%2F1490760810348yi7h8_JPEG%2F186278468835364_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_119%2F1490760810348yi7h8_JPEG%2F186278468835364_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_134%2F1490760810437TPXFN_JPEG%2F186278468835364_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_227%2F1490760810543EmKBR_JPEG%2F186278468835364_2.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_154%2F1490760810690ta4ei_JPEG%2F186278468835364_3.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201229_264%2F1609218150987v7GiB_JPEG%2Fx4rE2All0u_RLPXKKgbNVbuj.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250716_237/17526592652161zESG_JPEG/1000004786.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_119%2F1490760810348yi7h8_JPEG%2F186278468835364_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_119%2F1490760810348yi7h8_JPEG%2F186278468835364_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_134%2F1490760810437TPXFN_JPEG%2F186278468835364_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_227%2F1490760810543EmKBR_JPEG%2F186278468835364_2.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170329_154%2F1490760810690ta4ei_JPEG%2F186278468835364_3.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201229_264%2F1609218150987v7GiB_JPEG%2Fx4rE2All0u_RLPXKKgbNVbuj.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250716_237/17526592652161zESG_JPEG/1000004786.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -25809,13 +25393,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "추운 날씨에 따뜻한  유자생강 좋네요",
-      "케익 교환하러 세번째 방문세번다 같은제품이 없어서 다른걸로 구매 그럴수있음세번다 다른알바 공통점이 하나같이 불친절 설명을 제대로 해줘야알지기분 나쁘라고 한마디했더니 뭐라고요? 그말은 크게함ㅋㅋ 서로기분나빳으니 쌤쌤더보기",
-      "다 좋은데.. 2층에 담배냄새가 종종 나는데, 공기청정기는 항상 off상태임. 팝송 10곡 정도를 계속 반복하는 느낌이라 계속 같은 노래가 들리는 느낌임.",
-      "넓고 카공하기에도  좋아요",
-      "케이크가 점점 작아지고 있네요. 잘 먹었어요~"
-    ],
+    "rv": ["다 좋은데.. 2층에 담배냄새가 종종 나는데, 공기청정기는 항상 off상태임. 팝송 10곡 정도를 계속 반복하는 느낌이라 계속 같은 노래가 들리는 느낌임."],
     "naverPlaceId": "1010006957",
     "naverBlogCnt": 67,
     "menuItems": [
@@ -25896,13 +25474,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "등심고기 최고~~! 고기퀄 좋고 다 구워서 주고 사이드 반찬은 한정식급으로 다 훌륭합니다 ㅎ 개인적으로 찌게랑 육회 너무 맛있어요ㅎ  모임하기에도 너무 훌륭하고 가족외식으로도 아주 훌륭해요~~~굿굿굿!!",
-      "고기 반판만 주문해도 육회, 초무침, 육전, 문어숙회, 명란젓, 된장찌개, 계란찜까지 다 나와요 진짜 한정식집 저리가라에여 거기다 여기 콜키지 프리입니다! 완전 혜자! 연말이나 특별한 기념일에 방문하기도 좋고 회식하러도 많이 오시더라구요 고기도 다 구워져서 나오는데 진짜 부드러워요🤤",
-      "점심에 회식으로 방문했어요! 살치살 정식을 먹었는데 먹느라 바빠서 막상 고기 사진을 못 찍었네요! 반찬도 맛있고 육회 비빔밥이랑 냉면 맛보기도 나오고 해서 정말 배부르게 잘 먹었어요!",
-      "등심구어져서 나와서 너무 편하고요골고루 나와서 부모님이나 식사대접 자리가면너무 좋을꺼같아요 ! 넘 맛있어요",
-      "정말 좋은 시간을 가졌습니다.. 존맛"
-    ],
+    "rv": ["등심고기 최고~~! 고기퀄 좋고 다 구워서 주고 사이드 반찬은 한정식급으로 다 훌륭합니다 ㅎ 개인적으로 찌게랑 육회 너무 맛있어요ㅎ 모임하기에도 너무 훌륭하고 가족외식으로도 아주 훌륭해요~~~굿굿굿!!", "고기 반판만 주문해도 육회, 초무침, 육전, 문어숙회, 명란젓, 된장찌개, 계란찜까지 다 나와요 진짜 한정식집 저리가라에여 거기다 여기 콜키지 프리입니다! 완전 혜자! 연말이나 특별한 기념일에 방문하기도 좋고 회식하러도 많이 오시더라구요 고기도 다 구워져서 나오는데 진짜 부드러워요🤤", "점심에 회식으로 방문했어요! 살치살 정식을 먹었는데 먹느라 바빠서 막상 고기 사진을 못 찍었네요! 반찬도 맛있고 육회 비빔밥이랑 냉면 맛보기도 나오고 해서 정말 배부르게 잘 먹었어요!", "반판등심으로 주문했는데 이렇게 다양한 음식이 현란하게 나올줄 몰랐네요ㅋㅋㅋ 고기는 직접 바로 구워주셔서 퀄리티에 맛까지 최고고 기본 반찬들이 젓갈에 육전에 문어튀김이랑 육회에 우렁무침까지 진짜 다양하면서도 하나하나가 어떻게 이렇게까지 맛있지 싶네요ㅎㅎ 게다가 오뎅탕은 그냥 본연의 주문할 메뉴보다도 양이 많은것같고 국물도 끝내줘서 든든했어요ㅎㅎ 마무리로 멜론에 샤인머스캣 후식까지도 생각못했었는데 계속 예측을 벗어나서 재밌으면서 넘 만족했네요!! 간사이등심 2층 찐최고 완전 맘에들어요~~!!!!", "반찬이 정말 많고 맛있어요!! 등심도 고소하고 육질이 살아있어요. 맛있게 잘 먹었습니다!!", "예약시간보다 일찍 도착했는데 응대친절하게 안내해주셨어요. 반찬 전부 맛있고 메인 고기도 너무 맛있게 먹고 가격도 착해서 재방문 해야겠어요~", "등심반판 먹었는데 둘이서 먹으니까 넘 배부를 정도였어요 저녁 회식으로 자주 가다가 친구랑 점심에 가봤는데 역시나 최고♡"],
     "naverPlaceId": "1582417595",
     "naverBlogCnt": 330,
     "menuItems": [
@@ -26044,7 +25616,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1577106251/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_37%2F1747791737333xL1JX_JPEG%2F1000011661.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_37%2F1747791737333xL1JX_JPEG%2F1000011661.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_132%2F17477917375033guc3_JPEG%2F1000011662.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_74%2F1747791737442FC3lB_JPEG%2F1000011663.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDFfODAg%2FMDAxNzc3NjA5NzExMDQx.2mDRGGeZXkltL17U0mZinAmN2W_TIwvY-1yMDG9OX_Ug.0TUFRtAmpJeEBT01D5UalAN4GRz2CZPCkRVJ_bLa2lYg.JPEG%2F20260501_130359.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDFfMjM4%2FMDAxNzc3NjA5NzA5Njc2.QYvaZLqzoNoTrjCZv6mmVYFxMge2LSGZBx1W-RyZfJ8g.PVslx8L8wQM84a_MR-BBZnngOHgm4EYRsn9gLTMp9EEg.JPEG%2F20260501_130353.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250521_49/1747791497041frHkn_JPEG/1000011817.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_37%2F1747791737333xL1JX_JPEG%2F1000011661.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_37%2F1747791737333xL1JX_JPEG%2F1000011661.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_132%2F17477917375033guc3_JPEG%2F1000011662.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250521_74%2F1747791737442FC3lB_JPEG%2F1000011663.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDFfODAg%2FMDAxNzc3NjA5NzExMDQx.2mDRGGeZXkltL17U0mZinAmN2W_TIwvY-1yMDG9OX_Ug.0TUFRtAmpJeEBT01D5UalAN4GRz2CZPCkRVJ_bLa2lYg.JPEG%2F20260501_130359.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA1MDFfMjM4%2FMDAxNzc3NjA5NzA5Njc2.QYvaZLqzoNoTrjCZv6mmVYFxMge2LSGZBx1W-RyZfJ8g.PVslx8L8wQM84a_MR-BBZnngOHgm4EYRsn9gLTMp9EEg.JPEG%2F20260501_130353.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20250521_49/1747791497041frHkn_JPEG/1000011817.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -26085,7 +25657,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/12043839/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200820_300%2F1597900907747zOeX3_JPEG%2Fngvtg6nDXMn5DeubL30Ros77.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200820_300%2F1597900907747zOeX3_JPEG%2Fngvtg6nDXMn5DeubL30Ros77.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250522_128%2F1747901471814IEnQ0_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_01.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_153%2F1723447381321KVcV8_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_02.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_82%2F1723447381307z1Wch_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_03.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_114%2F1723447381325X4SxL_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_04.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240812_209/1723447408181petn8_JPEG/01._%BA%B8%B5%E5%B6%F7_%C8%C4%B6%F3%C0%CC%B5%E5.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200820_300%2F1597900907747zOeX3_JPEG%2Fngvtg6nDXMn5DeubL30Ros77.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200820_300%2F1597900907747zOeX3_JPEG%2Fngvtg6nDXMn5DeubL30Ros77.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250522_128%2F1747901471814IEnQ0_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_01.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_153%2F1723447381321KVcV8_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_02.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_82%2F1723447381307z1Wch_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_03.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240812_114%2F1723447381325X4SxL_JPEG%2F%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25C0%25CC%25B9%25CC%25C1%25F6_04.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240812_209/1723447408181petn8_JPEG/01._%BA%B8%B5%E5%B6%F7_%C8%C4%B6%F3%C0%CC%B5%E5.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -26321,7 +25893,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/20237822/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_197%2F1649839476179fYCX4_PNG%2Fimage.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_197%2F1649839476179fYCX4_PNG%2Fimage.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMDNfMzEg%2FMDAxNzY3NDIwMTUwMTQ3.ONKbVbjnrHvKep6jHIWQUc9FNwjL6ug6mMSJrgVbVFEg.BzwKI8ZMI_25XBlHzDyqigROGbwcGXXS9AWxTiiaOQ8g.JPEG%2F20251225_135916.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMjYw%2FMDAxNzcwMzgyMDc0NjAy.-idB30tgncj814ykt1I-U6J72e-TvdUP6bgTZotUcpgg.5Umhcp3zkEkOopdyg_WRpz1tvFrAupGMmiam03XPOngg.JPEG%2FC977E73D-2DF8-4253-A292-F66F3DE32521.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMTVfMjg5%2FMDAxNzY4NDY4NTcyODkx.bP7l99GJITDXcgf5EBqXJXB9zn6QvBQw3XWZcUxzwa8g.tK6TBiYx0iu06mUv4pEO1sJcQNEzZcAq6mxgHxx5QF0g.JPEG%2F20260115_181210.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjVfNDQg%2FMDAxNzUwNzc5NjY5NTI1.K6dN8_9Ju0h4kWiuJercDMrD6yFwCcju2Ra2L6HaJkUg.o28PD9Rc4DcGJTvy-N4kimywKyrNZnJpUt94EVP_pfYg.JPEG%2F1000132448.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/bread20220119222229.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_197%2F1649839476179fYCX4_PNG%2Fimage.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_197%2F1649839476179fYCX4_PNG%2Fimage.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMDNfMzEg%2FMDAxNzY3NDIwMTUwMTQ3.ONKbVbjnrHvKep6jHIWQUc9FNwjL6ug6mMSJrgVbVFEg.BzwKI8ZMI_25XBlHzDyqigROGbwcGXXS9AWxTiiaOQ8g.JPEG%2F20251225_135916.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMjYw%2FMDAxNzcwMzgyMDc0NjAy.-idB30tgncj814ykt1I-U6J72e-TvdUP6bgTZotUcpgg.5Umhcp3zkEkOopdyg_WRpz1tvFrAupGMmiam03XPOngg.JPEG%2FC977E73D-2DF8-4253-A292-F66F3DE32521.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMTVfMjg5%2FMDAxNzY4NDY4NTcyODkx.bP7l99GJITDXcgf5EBqXJXB9zn6QvBQw3XWZcUxzwa8g.tK6TBiYx0iu06mUv4pEO1sJcQNEzZcAq6mxgHxx5QF0g.JPEG%2F20260115_181210.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjVfNDQg%2FMDAxNzUwNzc5NjY5NTI1.K6dN8_9Ju0h4kWiuJercDMrD6yFwCcju2Ra2L6HaJkUg.o28PD9Rc4DcGJTvy-N4kimywKyrNZnJpUt94EVP_pfYg.JPEG%2F1000132448.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -26347,10 +25919,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "음식 개쩜홍합만 있는 짬뽕탕이 이래 맛있을수가 있나식혜 대-박",
-      "망포역 맥도날드 뒷쪽으로 좀 올라가면 있어요식당 내부 깔끔하고 괜찮아요주변에 공사장이 많아서 그런지 손님 많아요금액은 ₩8,500원이에요더보기"
-    ],
+    "rv": ["요즘같은 고물가 시대에 만원도 안되는 가격으로 평범한 집밥 그 이상의 한끼를 해결했습니다. 메인메뉴도 정말 맛있었고 밑반찬이 정말 깔끔하게 맛있어요 사장님도 굉장히 친절하세요~~!!!자주 방문하겠습니다!!😆"],
     "naverPlaceId": "36984047",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -26363,7 +25932,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/36984047/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190104_107%2F1546577850312FSOEq_JPEG%2FEp-tFNNweh4E0FhqKYf53Rke.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190104_107%2F1546577850312FSOEq_JPEG%2FEp-tFNNweh4E0FhqKYf53Rke.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMjFfMjAz%2FMDAxNzYxMDUwODExNzY3.tuueUNpd5WIs0g4TfKScfzEQRrAGw0mUnuThlvkyjbMg.JwS-Y6UqewNzjjBQkhaczQMz0yGthnKxE4MdbKinXngg.JPEG%2F20251021_113943.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjJfMTQz%2FMDAxNzQ3ODQxMzQ4MDU1.QtcxGQpbxmry437s-lmoWGe4DCVYSxMHpopUJykYUvQg.G4AFaXVGnVnSyqw3TgOFjJfAPjYQc-7wCOIAcDyk0UEg.JPEG%2FAE0ABFFC-41E7-4181-B3BA-A02C58D49F94.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjJfNzAg%2FMDAxNzQ3ODQxMzQ4MDEy.UYnlZKXTVg7VTiHNkVghc0Ja2ETsnarCE-_UMJlFRGQg.YZ_uzluMJ3f3PadJn8fT0JYfwL2PByeQ3kCa8YVbRicg.JPEG%2F2ECDFF76-201F-4F0E-87B8-9360EDF73CE1.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20250305_136/1741152953347jj3NJ_JPEG/image.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190104_107%2F1546577850312FSOEq_JPEG%2FEp-tFNNweh4E0FhqKYf53Rke.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190104_107%2F1546577850312FSOEq_JPEG%2FEp-tFNNweh4E0FhqKYf53Rke.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMjFfMjAz%2FMDAxNzYxMDUwODExNzY3.tuueUNpd5WIs0g4TfKScfzEQRrAGw0mUnuThlvkyjbMg.JwS-Y6UqewNzjjBQkhaczQMz0yGthnKxE4MdbKinXngg.JPEG%2F20251021_113943.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjJfMTQz%2FMDAxNzQ3ODQxMzQ4MDU1.QtcxGQpbxmry437s-lmoWGe4DCVYSxMHpopUJykYUvQg.G4AFaXVGnVnSyqw3TgOFjJfAPjYQc-7wCOIAcDyk0UEg.JPEG%2FAE0ABFFC-41E7-4181-B3BA-A02C58D49F94.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA1MjJfNzAg%2FMDAxNzQ3ODQxMzQ4MDEy.UYnlZKXTVg7VTiHNkVghc0Ja2ETsnarCE-_UMJlFRGQg.YZ_uzluMJ3f3PadJn8fT0JYfwL2PByeQ3kCa8YVbRicg.JPEG%2F2ECDFF76-201F-4F0E-87B8-9360EDF73CE1.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20250305_136/1741152953347jj3NJ_JPEG/image.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -26647,9 +26216,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오뎅 하나 포장이 너무 귀여움 ㅋㅋ"
-    ],
+    "rv": ["오뎅,떡볶이,순대,모짜렐라핫도그 포장해서 먹었는데 너무 맛있어요👍👍 주변에 학교가 많아서 학생손님들이 많더라고요~ 가족단위로 오시는분들도 많고 동네맛집인듯했어요! 떡 너무쫄깃쫄깃하고맛있었습니다👍😁", "정성어린 리뷰 감사합니다. 항상 맛있고 푸짐한 오마뎅 아이파크캐슬점이 되겠습니다. 앞으로도 많은 사랑 부탁드려요!! d=(^o^)=b", "sukki님, 소중한 리뷰 감사드려요!! 항상 맛있고 즐거운 가게가 되도록 노력하겠습니다 ㅎㅎㅎ"],
     "naverPlaceId": "1123951602",
     "naverBlogCnt": 102,
     "menuItems": [
@@ -26874,13 +26441,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "고딩 아들래미 간식으로 포장해왔어요. 햄버거 패티가 두툼하고, 맛있어요. 감자튀김도 맛있구요.",
-      "신선한 재료랑 패티 맛있었습니다!",
-      "치킨버거 통살 미쳤음,, 겉바속촉 두툼한 속살에 튀김옷 완전 바삭바삭함.. 그냥 사장님이 튀김 메뉴를 다 잘 튀기시는거 같음,, 감자튀김도 엄청 바삭하고.. 그냥 여기 맛집임 다른 부가 설명 필요없음!!",
-      "정말 오랜만에 진짜 맛있는 햄버거집을 찾음!! 바삭한 빵 식감부터 잘 구워진 고기패티랑 오동통한 새우토핑까지 수제버거집만 찾아다니는 보람이 있음 ㅠㅠ 아 진짜 핵꿀맛🥹🥹 + 혼밥하기도 좋은 분위기 + 매장내부, 가게입구까지 깔끔 그 자체 맛,분위기,청결까지 완벽그자체였다..더보기",
-      "맛있어요!! 두번째 왔슴다. 딸래미도 잘 먹었데용~"
-    ],
+    "rv": ["고딩 아들래미 간식으로 포장해왔어요. 햄버거 패티가 두툼하고, 맛있어요. 감자튀김도 맛있구요.", "치킨버거 통살 미쳤음,, 겉바속촉 두툼한 속살에 튀김옷 완전 바삭바삭함.. 그냥 사장님이 튀김 메뉴를 다 잘 튀기시는거 같음,, 감자튀김도 엄청 바삭하고.. 그냥 여기 맛집임 다른 부가 설명 필요없음!!"],
     "naverPlaceId": "1160736179",
     "naverBlogCnt": 252,
     "menuItems": [
@@ -26965,13 +26526,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "딸이 좋아하는 케익맛있어요",
-      "지금껏 레터링 서비스는 처음 해 보는데 좋네요🙂생일 당사자가 크림이 적절히 잘 조합되어 있다며 맛있다고 만족해했어요:) 항상 생일 케이크로 한스 티라미수를 구매하는데 누가 됐든 다 좋아해요. 예전부터 그대로 남아 있어주는 영통점인데, 그 덕에 볼 일 보러 영통 올 때 사 가곤 합니다. 앞으로도 오래오래 있어주길🍀",
-      "당충전 제대로했습니댜~!!달달하니 너무 맛나용",
-      "한스케익 영통점. 한스케익 맛난건 소무난 사실. 가격대가 좀 있지만 그래도 맛남. 걍.츄.",
-      "수원 한스케익편하게 케익과 커피 한잔 ~~"
-    ],
+    "rv": ["너무 맛있었고 어머니가 너무 좋아하셨습니다 레터링 서비스가 너무 맘에 들어요 이제부턴 생일때마다 예약하려고요 고등학교때 부터 왔었는데 너무 맛있고 오면 기분좋아지는 곳입니다. 고구마케잌도 오랜만에 먹었는데도 녹네요", "친절하시고 케이크는 항상 맛있어요. 어릴때부터 늘 먹어온 가게에요. 오래오래 번창하세요", "믿고 먹는 한스...1n년 째 최애인 라즈베리 치즈케이크 ㅎㅅㅎ 이거 살짝 얼려먹으면 더 맛있슴다!!"],
     "naverPlaceId": "11780203",
     "naverBlogCnt": 152,
     "menuItems": [
@@ -27206,13 +26761,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오징어회가 싱싱하고 맛있어요.",
-      "오징어회 싱싱하고, 석화찜 진짜 한개에 술 한잔 그냥 술술 들어갑니다. 옆 테이블에서 석화찜보고 우리도 저거 시킬 걸 하는 거 들을정도로 저는 맛있게 먹었네유! 24년 마지막 날 맛있는 음식 잘 먹었습니다!",
-      "맛있게 잘 먹었습니당^^",
-      "갈때마다 넘 잘해주시고 음식도 넘 맛있어유~ 대만족 ㅎㅎ 강추 👍👍",
-      "산드레미에서 해산물 먹을곳이 별로 없는데 강추합니다 특히 오징어 새우 추천드리겠습니다!!진짜 다먹고 그릇치워서 없어서 그렇지 강추입니다!!"
-    ],
+    "rv": ["오징어회 싱싱하고, 석화찜 진짜 한개에 술 한잔 그냥 술술 들어갑니다. 옆 테이블에서 석화찜보고 우리도 저거 시킬 걸 하는 거 들을정도로 저는 맛있게 먹었네유! 24년 마지막 날 맛있는 음식 잘 먹었습니다!", "음. 쥐포도 주셔서 감사히 잘 먹었는데, 오징어튀김과 새우튀김이 제가 기대했던 맛이 아니네요."],
     "naverPlaceId": "1647497313",
     "naverBlogCnt": 66,
     "menuItems": [
@@ -27347,13 +26896,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "김밥이 맛있어요.만두국에 들어가는 만두는 동그란 만두네요.군만두도 맛있어요.",
-      "바싹하고 육즙이 가득한 튀기듯 나온 군만두와 매콤 새콤한 쫄면과 만나 입안의 즐거움을 줍니다.",
-      "보영만두 군만두는 진리이지요바삭바삭 속안에 육즙 역시 맛나네요",
-      "주차장이 따로 없어서 바로 옆 유료주차장에 주차했어요. 주차요금 할인이 없고 여자사장님이 친절하진 않습니다. 테이블이 끈적거리는 편이라 위생에 조금 더 신경 써주면 좋겠어요. 쫄면은 8000원인데 매운맛을 조절해서 주문할 수 있어 좋으나 양이 많진 않아요. 김치만두는 맛있는 편입니다.",
-      "쫄면 맛집..튀긴만두랑 잘 어울려요"
-    ],
+    "rv": ["바싹하고 육즙이 가득한 튀기듯 나온 군만두와 매콤 새콤한 쫄면과 만나 입안의 즐거움을 줍니다.", "주차장이 따로 없어서 바로 옆 유료주차장에 주차했어요. 주차요금 할인이 없고 여자사장님이 친절하진 않습니다. 테이블이 끈적거리는 편이라 위생에 조금 더 신경 써주면 좋겠어요. 쫄면은 8000원인데 매운맛을 조절해서 주문할 수 있어 좋으나 양이 많진 않아요. 김치만두는 맛있는 편입니다."],
     "naverPlaceId": "36372970",
     "naverBlogCnt": 128,
     "menuItems": [
@@ -27626,12 +27169,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "평소에 이삭토스트 먹고싶을 때 벽적골점에서만 시켜먹어요! 사장님께서 넘 친절하시고 금방 만들어주셔서 좋어요신메뉴인 것 같은데 소이크런치치킨 토스트 진짜 너무너무너무 맛있어요 !!!!!!!!!!!!!",
-      "빵이 엄청 크리스피함...달달하고 이삭 햄스페셜 짱!!!!!",
-      "이삭 너무맛있어요. 주말은 주문폭주라 좀 기다려야되지만 이삭 못참아!!",
-      "매번 방문하는 토스트 맛집!!!너무 좋네요"
-    ],
+    "rv": ["단체 간식으로 주문했는데 이동하는 동안에도 안 식고 따뜻하게 먹을 수 있었어요 이삭 토스트 만세"],
     "naverPlaceId": "38227252",
     "naverBlogCnt": 20,
     "menuItems": [
@@ -27961,12 +27499,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "본점은 4팀 정도 웨이팅 있어서 2호점에 방문했어요. 본점에서도 먹어 봤는데 맛은 차이가 없이 동일했어요. 아니요, 2호점이 더 맛있게 느껴졌어요. 직원 분이 친절하게 응대해주시고 인테리어도 분위기도 본점보다 넓어 보다 쾌적하게 이용할 수 있어서 그랬던 것 같아요. 스테이크 세트에 뇨끼 추가해서 먹었는데요. 부모님도 뇨끼 짜지 않고 맛나다며 엄청 마음에 들",
-      "신동카페거리에서 제일 좋아하는 양식집이에요. 어떤 메뉴를 주문해도 실패가 없네요. 벌써 세 번째 영수증 리뷰네요.파스타세트로 먹으면 미니 샐러드에 요리 두 개에 음료 두 잔까지~~ 가성비가 너무 좋아요 !!여기 오면 무조건 트러플 뇨끼를 주문해요. 양도 많고, 뇨끼는 쫀득하고, 크림은 고소하고~~ 너무 맛있어요 !! 🙂더보기",
-      "뇨끼가 맛있어서 방문해여!",
-      "샐러드도 맛있구~ 파스타 리조또 다 맛있어요!"
-    ],
+    "rv": ["본점은 4팀 정도 웨이팅 있어서 2호점에 방문했어요. 본점에서도 먹어 봤는데 맛은 차이가 없이 동일했어요. 아니요, 2호점이 더 맛있게 느껴졌어요. 직원 분이 친절하게 응대해주시고 인테리어도 분위기도 본점보다 넓어 보다 쾌적하게 이용할 수 있어서 그랬던 것 같아요. 스테이크 세트에 뇨끼 추가해서 먹었는데요. 부모님도 뇨끼 짜지 않고 맛나다며 엄청 마음에 들어했어요. (역시 뇨끼 맛집입니당) 실제로 가족 단위 많이 계셔서 연말 모임 해도 적당한 곳 같아요.", "뇨끼맛집❤️ 오픈전부터 사람 많아 걱정했는데 회전율도 좋고 맛도 좋구!! 완벽한 데이트였어요~"],
     "naverPlaceId": "1884861003",
     "naverBlogCnt": 382,
     "menuItems": [
@@ -28205,7 +27738,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/35288459/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241204_23%2F1733273064607yLge7_JPEG%2F1000004616.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241204_23%2F1733273064607yLge7_JPEG%2F1000004616.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_35%2F1743076559110QLbXL_JPEG%2F1000007184.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDlfMjgz%2FMDAxNzYwMDA2NTcwMDE4.M5yzorMPtfGzavIrPMk-2JXcNEYckWDJiIIIplhIxOkg.ik_8WwTerrem5yey6vAlMQt-QD2_-YXb3yn2WjHWV38g.JPEG%2F20251009_123328.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTNfNzYg%2FMDAxNzQ5ODE2MjY5Nzgx.SyuSyGpfttSxshyaONL0qe9RLkMPDTPByAwrlD4mHpYg.9WcMUC91WgSvGcfkUCI3rkIoz4Hk0cvu_t9zrGr4H9cg.JPEG%2F1749816096675.jpg.jpg", "imageUrl6": "https://ldb-phinf.pstatic.net/20200601_76/1590980903186ejJLm_JPEG/CAgj3yJhl-LEK2vLFTOW8tVp.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241204_23%2F1733273064607yLge7_JPEG%2F1000004616.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241204_23%2F1733273064607yLge7_JPEG%2F1000004616.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_35%2F1743076559110QLbXL_JPEG%2F1000007184.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDlfMjgz%2FMDAxNzYwMDA2NTcwMDE4.M5yzorMPtfGzavIrPMk-2JXcNEYckWDJiIIIplhIxOkg.ik_8WwTerrem5yey6vAlMQt-QD2_-YXb3yn2WjHWV38g.JPEG%2F20251009_123328.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTNfNzYg%2FMDAxNzQ5ODE2MjY5Nzgx.SyuSyGpfttSxshyaONL0qe9RLkMPDTPByAwrlD4mHpYg.9WcMUC91WgSvGcfkUCI3rkIoz4Hk0cvu_t9zrGr4H9cg.JPEG%2F1749816096675.jpg.jpg", "imageUrl6": "https://ldb-phinf.pstatic.net/20200601_76/1590980903186ejJLm_JPEG/CAgj3yJhl-LEK2vLFTOW8tVp.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -28231,12 +27764,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "뽀얀 국물이 맑고 깨끗한 인상을 주고 맛있었어요 ! 사장님도 친절하시고, 반찬 리필이 가능해서 좋았습니다 😃",
-      "잡내 없이 깔끔한 수육 국밥 너무 맛있게 먹었어요! 양도 넉넉하고 김치도 맛있어서 한 그릇 뚝딱이예요!",
-      "포장하면 공기밥이 없답니다. 참나.사장님 말로는 양이 많다는데 그거랑 무슨 상관인지? 누가 국밥을 공기밥 없이 먹는거죠?어이가 없네요.국밥, 깍두기, 새우젓. 끝입니다.아니. 만약에 그렇다고 치더라도 거기에 대한 안내라도 있어야 하는데공기밥 별도라는 이야기도 없었고요.집에와서 전화하니 공기밥이 없는 대신 양이 많아요 허허 하고 웃습니다. 뭐가 웃긴지.. 세",
-      "전화로 포장주문했습니다 바로 주셔서 정차하기 힘든 곳에서 바로 받고 집으로 갈 수 있었습니다"
-    ],
+    "rv": ["뽀얀 국물이 맑고 깨끗한 인상을 주고 맛있었어요 ! 사장님도 친절하시고, 반찬 리필이 가능해서 좋았습니다 😃", "잡내 없이 깔끔한 수육 국밥 너무 맛있게 먹었어요! 양도 넉넉하고 김치도 맛있어서 한 그릇 뚝딱이예요!", "전화로 포장주문했습니다 바로 주셔서 정차하기 힘든 곳에서 바로 받고 집으로 갈 수 있었습니다", "알바하시는 분 손님이 테이블에서 식사하고 있는데 꼭 수저와 냅킨을 채우셔야 하나요? 사람이 엄청 많은 시간도 아니고 빈테이블 먼저 채우면 될걸 식사하는데 방해되고 별로였어요."],
     "naverPlaceId": "1192067574",
     "naverBlogCnt": 21,
     "menuItems": [
@@ -28323,13 +27851,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "📌 설농탕(포장) 11,000원☑️ 밥빼고(김치/고기/대파 포함) ➡️ 국물 100g 추가설농탕 가게는 처음이라 1인분만 포장했는데요~! 밥빼고 포장하면 100g더, 포장용기 가져가면 100g 더 제공한다고 하고 국물 맛도 김치맛도 좋아서 다음번부턴 2인분씩 포장해도 좋을 것 같아요 ☺️주차장도 넓고~(당연히 식당 이용시간에만 이용가능) 매장도 넓어서 어",
-      "아이랑 맛있게먹엇어요대자 하나 시키니까 공기밥을 하나 더주는 서비스중이더라고요",
-      "학교마치고 중2아이가 설농탕 먹고싶다해서찿아가  맛있게 잘 먹고 왔습니다.남편 꺼는 포장해 왔네요",
-      "주차도 편하고 좌석도 넓고 음식 빨리 나와요 좋아요~~~~~~~~~~",
-      "김치 종류 3가지 맛있게 먹었어요"
-    ],
+    "rv": ["친구들이랑 해장하러 신선설농탕 다녀왔어요. 국물이 진하고 깔끔해서 속이 확 풀리는 느낌이었고, 고기도 푸짐하게 들어 있어서 든든하게 먹었습니다. 해장용으로 딱 좋은 곳이라 다음에도 또 찾을 것 같아요.", "남편이랑 설렁탕이 먹고 싶어서 검색하고 찾아갔는데 국물이 너무 맛있네요~ 숙성 김치랑 깍두기도 정말 맛나요. 맛있어서 아이들 주려고 포장 해왔답니다."],
     "naverPlaceId": "18260799",
     "naverBlogCnt": 158,
     "menuItems": [
@@ -28468,7 +27990,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/99400657/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220823_110%2F1661244530573dIBeV_JPEG%2FScreenshot_20210213-230819_NAVER.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220823_110%2F1661244530573dIBeV_JPEG%2FScreenshot_20210213-230819_NAVER.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190126_146%2F1548485447863HYtC9_JPEG%2FcVv46RhspWuRmlaIGAEehBX-.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTRfMTU5%2FMDAxNzUyNDY2ODk4NjIx.A6j1llOyX-bFd9CdIMXGajo7EOsSQoaIp612a3o5RIUg.MElxpyNnF-3mUFLCeo-ge-oGS5ao_t6Q0ha9aCxbFVMg.JPEG%2F7456.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MjJfMTMw%2FMDAxNzUzMTMxMTQ4NjM1.lndG0NlzngpRsHRtticjW6-yfkrksDMOY57wCJwT3OAg.Y8uBm-sJaQRgPwx2Ee3I7Kc1v4VwDB6jOSvQ887lyWog.JPEG%2F2FB175C5-15C4-4066-8C6E-A4BDF80E79DC.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20220914_216/166316699424422agH_JPEG/1663114153960.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/park_sign20220119222222.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220823_110%2F1661244530573dIBeV_JPEG%2FScreenshot_20210213-230819_NAVER.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220823_110%2F1661244530573dIBeV_JPEG%2FScreenshot_20210213-230819_NAVER.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190126_146%2F1548485447863HYtC9_JPEG%2FcVv46RhspWuRmlaIGAEehBX-.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTRfMTU5%2FMDAxNzUyNDY2ODk4NjIx.A6j1llOyX-bFd9CdIMXGajo7EOsSQoaIp612a3o5RIUg.MElxpyNnF-3mUFLCeo-ge-oGS5ao_t6Q0ha9aCxbFVMg.JPEG%2F7456.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MjJfMTMw%2FMDAxNzUzMTMxMTQ4NjM1.lndG0NlzngpRsHRtticjW6-yfkrksDMOY57wCJwT3OAg.Y8uBm-sJaQRgPwx2Ee3I7Kc1v4VwDB6jOSvQ887lyWog.JPEG%2F2FB175C5-15C4-4066-8C6E-A4BDF80E79DC.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20220914_216/166316699424422agH_JPEG/1663114153960.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -28494,12 +28016,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "🐥고기 양 많고 살코기 부드러워서 좋아요🐥볶음밥도 포장했는데 국물 조금 넣고 집에 있는 김치 추가로 넣어서 볶으니까 짱맛있어요🐥넷이서 중짜 완전 배부르게 먹었습니다🥝중짠데 고기 소스 하나밖에 안 주시고 깍두기도 넘 적어요ㅠㅠ🥝 시래기 추가했는데 양 적어요📍뼈 감자탕 전골 중: 46,000원📍시래기추가: 2,000원📍볶음밥 1인: 2,000원더",
-      "뼈에 살코기도 많이 붙어있고 감자탕 소짜리 2명이서 배불러요!",
-      "저는 두번은 안갈것 같아요소사이즈가 3만원에 큰덩이하나 작은덩이 3개 , 김치 반에 반포기라 양도 적고 맛도 없었어요기대하고 멀리까지 가서 포장했는데 고기에서 뼛조각 같은것도 계속 나오고 살도없고 김치도 맛있게 뭉근한게 아니라 그냥 무른김치고 양념도 니맛도 내맛도 없고.. 뭘빠트리신걸까요?ㅠㅠ비주얼에 비해 맛이 형편 없었습니다.더보기",
-      "사랑하는아내와 지나가다 많은분들이 안에서 드시는걸 보고 조만간 가보자고 픽한 곳인데 드뎌방문하게 되었네요.시그니처인 뼈찜 맛있고 볶음밥도 강추입니다. 그리고 김치랑 깍두기도 너무 맛있어요."
-    ],
+    "rv": ["음식 맛은 그냥 평범한 편이었는데 직원분들 태도가 너무 불친절해서 식사하는 내내 기분이 별로였어요. 질문을 해도 대답을 대충 하시고 손님을 귀찮아하는 느낌이 들었습니다. 다시 방문하고 싶은 생각은 안 드네요.", "유튜버가 추천해서 방문. 운전해서 가는 길에 포장주문했고 집에는 40분 후에나 도착했는데도 따끈했고 먹기 딱 좋았다. 김치도 많이 들었고 고기 야들야들해서 잘 떨어졌고 붙은 고기도 많았다. 재방문의사 너무너무 있지만 금요일이라 그랬나 차가 너무 막혔어서 큰맘먹어야함 ㅜ 그래도 또 먹고싶다. 사진 안찍었는데 묵은지뼈찜 먹었음 💖"],
     "naverPlaceId": "19404993",
     "naverBlogCnt": 443,
     "menuItems": [
@@ -29313,13 +28830,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제가 햄버거 중 제일 좋아하는 화이트갈릭버거 너무 맛있고 든든하게 푸짐히 들어있어서 한 끼 식사로 좋아요ㅎㅎ 세트로 먹으면 감튀랑 음료수도 나오는데 양도 적당하고 감튀는 바삭바삭해서 추천해요",
-      "배달만 하다가 포장왔는데 매장이 쾌적하네요 다음엔 매장에서 먹어보려해요",
-      "잘 먹었습니다. :)",
-      "모지?평소에 배달시켜먹는 양이 왜이러지?윈래가 이건가?",
-      "핫치즈빅싸이순살-맥스큼직한 치킨이 11조각매콤한 핫소스에 치즈와 마요소스가 뿌려져서 짭조롭하니 밥이랑 딱이에요. 소스의 감칠맛이 배부른데 자꾸 손이가네요. 조각이 크고, 감튀도 있어서 4인 가족이 먹으면 적당한 사이즈"
-    ],
+    "rv": ["패스트푸드점이라기엔 늘 오래기다려야하는 점이 아쉬어요~ 매장은 넓은편인데 키오스크도 한대뿐이고;; 직원한분이 배달까지 챙기느시라 엄청바쁨~ 오늘도 주문후 20분넘게 기다려 먹음😮‍💨 그런데 주차는1시간만가능;; 후덕죽&풍버거를 미느라 메뉴판에서 싸이버거 찾기 복잡하게 해둠~ 후덕죽세트의 치킨은 개인차가 있겠지만 내입맛엔 눅눅하고 그닥인 맛이었음~", "맘스터치 매장 중 여기가 젤 나은듯! 친절하고 혼밥하기 좋고 치킨이 맛나요 ^^"],
     "naverPlaceId": "842850383",
     "naverBlogCnt": 68,
     "menuItems": [
@@ -29377,7 +28888,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/842850383/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191021_249%2F15716451108655801T_JPEG%2FTmeslPtHQ-atoDlmsyYHEUJf.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191021_249%2F15716451108655801T_JPEG%2FTmeslPtHQ-atoDlmsyYHEUJf.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTBfMjY2%2FMDAxNzU3NTA0NDU2OTEx.B3V77XXRNpW6RVgYUuWCBiQmDh6RJ1zTh-cg7K-65TYg.PXhxiAEB-WYUfAPQbPxk2MKil1T89VAXs7NhpC_JAewg.JPEG%2F20250910_194140.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDFfMjUw%2FMDAxNzUxMzE5ODY1NDY1.40GCY2Ux1hru58ij_ilIoWfEhCKuXt_83oclDsvpMjIg.mU-ziDrbVju2pci39xKwAEms2j09gMAVNVYBq8WdsSgg.JPEG%2F20250627_115331.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjhfNjkg%2FMDAxNzU5MDM4Mzg5OTk0.SZQylcQ--NfmdlnR1YAp9in79zJHIVPgcTgj8wNpAUUg.At7bmhxY5nsLCLNNG_IFy8VwpeJ24AnDBmScRVkQtbcg.JPEG%2F20FFEFB2-D3C0-4C10-BE98-032E3B3285F9.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTdfMjYz%2FMDAxNzczNzE5ODAyNjkw.Hbbnx5wIqcC2FtrDqomK_Kw50PeZSkUxj_dYlYHlDXYg.fzyUXex0i8ThxAY6hjbuoDkeppd_2bXsawYpxOocbLcg.JPEG%2F20260317_122804.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191021_249%2F15716451108655801T_JPEG%2FTmeslPtHQ-atoDlmsyYHEUJf.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191021_249%2F15716451108655801T_JPEG%2FTmeslPtHQ-atoDlmsyYHEUJf.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MTBfMjY2%2FMDAxNzU3NTA0NDU2OTEx.B3V77XXRNpW6RVgYUuWCBiQmDh6RJ1zTh-cg7K-65TYg.PXhxiAEB-WYUfAPQbPxk2MKil1T89VAXs7NhpC_JAewg.JPEG%2F20250910_194140.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDFfMjUw%2FMDAxNzUxMzE5ODY1NDY1.40GCY2Ux1hru58ij_ilIoWfEhCKuXt_83oclDsvpMjIg.mU-ziDrbVju2pci39xKwAEms2j09gMAVNVYBq8WdsSgg.JPEG%2F20250627_115331.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjhfNjkg%2FMDAxNzU5MDM4Mzg5OTk0.SZQylcQ--NfmdlnR1YAp9in79zJHIVPgcTgj8wNpAUUg.At7bmhxY5nsLCLNNG_IFy8VwpeJ24AnDBmScRVkQtbcg.JPEG%2F20FFEFB2-D3C0-4C10-BE98-032E3B3285F9.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTdfMjYz%2FMDAxNzczNzE5ODAyNjkw.Hbbnx5wIqcC2FtrDqomK_Kw50PeZSkUxj_dYlYHlDXYg.fzyUXex0i8ThxAY6hjbuoDkeppd_2bXsawYpxOocbLcg.JPEG%2F20260317_122804.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -29496,12 +29007,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오랜만에 싸이버거를 먹으러 매장을 찾았는데, 예상치 못하게 에드워드리 메뉴가 새로 나와 있어서 바로 주문해봤습니다. 역시 싸이버거 특유의 바삭한 치킨 패티는 기본이고, 에드워드리 메뉴는 풍미 가득한 소스와 신선한 야채가 더해져 한층 업그레이드된 맛을 선사하더군요. 첫 입부터 바삭함과 육즙이 살아있어 만족스러웠고, 소스가 과하지 않아 끝까지 깔끔하게 즐길 수",
-      "오랜만에 싸이버거 넘넘 맛있게 먹었어요.역시 싸이버거 입니다👍",
-      "학원중간 점심시간이있어 아이와같이와서 싸이버거세트시켜먹었어요치킨도바삭하니 바로튀겨주시고 햄버거도 바로만들어주니아이도저도 맛있게 한입했어요~ 아이들이 쉽게와서 먹을수있어좋은거같아요^^더보기",
-      "대체적으로 맛은 좋은데에드워드리 빅싸이 순살맥스.. 소스가 너무 적어요일반 후라이드랑 차이가 없을 정도네요바닥에만 살짝 묻은 느낌인…에드워드리 소스라 추가금액 있는거 아닌가요?오히려 소스 여유있는 핫치즈빅싸이순살을추천합니다 매콤하니 맛있네요더보기"
-    ],
+    "rv": ["오랜만에 싸이버거를 먹으러 매장을 찾았는데, 예상치 못하게 에드워드리 메뉴가 새로 나와 있어서 바로 주문해봤습니다. 역시 싸이버거 특유의 바삭한 치킨 패티는 기본이고, 에드워드리 메뉴는 풍미 가득한 소스와 신선한 야채가 더해져 한층 업그레이드된 맛을 선사하더군요. 첫 입부터 바삭함과 육즙이 살아있어 만족스러웠고, 소스가 과하지 않아 끝까지 깔끔하게 즐길 수 있었습니다. 양도 넉넉해 한 끼 식사로 충분했고, 사이드 메뉴와 함께 먹으니 더욱 풍성한 조합이 되었어요. 다른 리뷰에서 말하던 “두툼한 패티와 특별한 소스”라는 평이 딱 맞았고, 매장 분위기도 깔끔해 기분 좋게 식사할 수 있었습니다. 새로운 메뉴 덕분에 오랜만의 방문이 더욱 특별하게 느껴졌습니다."],
     "naverPlaceId": "42343568",
     "naverBlogCnt": 24,
     "menuItems": [
@@ -29582,12 +29088,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "이 근처에서 유명하다고 해서 와봤는데 진짜 너무 맛있네요.. 곱창이 이렇게 잡내 없고 맛있을 수 있다니..저 단골 예약입니다!",
-      "가족외식으로 다녀왔어요너무 맛있어요",
-      "모듬 중, 기본반찬.맛있어요.잡내안나고, 곱 가득해요.기본반찬도 구성이 좋고 맛있어요.더보기",
-      "맛있어요.잡내없어요."
-    ],
+    "rv": ["몇년째 곱창은 참곱소에서만 먹는데 리뷰는 처음남겨요! 처음먹어보고 주변지인들 많이 데려갔는데 전부 맛있다고 하는곳이에요 언제와도 맛있고 양도 많아서 자주 찾게되는거같아요 ㅎㅎ 사장님도 항상 친절하셔서 너무 좋습니당❣️ 앞으로도 자주 방문하겠습니다아 ❤️"],
     "naverPlaceId": "13098097",
     "naverBlogCnt": 66,
     "menuItems": [
@@ -29672,13 +29173,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있어요! 자주 이용 합니다! 한번 먹어보면 달라요",
-      "국내산 재료! 가성비 좋은 돼지찌개 맛집🥩경북에서 이미 너~무 유명한 와촌이죠콩자반의 콩을 제외한 재료 모두 국내산인데,돼지찌개 1인분 가격이 만 원도 안 돼요👍셀프바에는 반찬 뿐만 아니라돼지찌개에 같이 넣어 먹을 수 있는버섯과 콩나물도 있으니 체크하세요!포장하면 1인분당 1,000원 추가 할인되니포장으로 이용하면 더욱 가성비 좋답니다❣️더보기",
-      "셀프바 이용 콩나물 버섯 드세요 ㅎㅎ",
-      "언제 먹어도 정말 정말 맛있어요🖤 직원분들도 친절하세용 ㅎㅎㅎ 잘 먹었습니다~~",
-      "취향에 맞게 조리해서 먹을수 있어 좋아요~"
-    ],
+    "rv": ["국물 한입 먹자마자 왜 사람들이 많이 오는지 바로 알겠더라고요. 얼큰하면서도 깊은 맛이 진짜 제대로였습니다. 고기 양도 생각보다 푸짐했고 잡내 없이 깔끔해서 술안주로도 정말 잘 어울렸어요. 야채랑 고기 조합도 좋고 끓일수록 국물이 더 진해져서 끝까지 맛있게 먹었습니다. 특히 국물에 밥 비벼 먹으니까 완전 만족이었습니다. 직원분들도 바쁘신데 응대 친절하게 해주셔서 기분 좋게 식사하고 왔네요. 삼성시티 근처에서 얼큰한 고기전골이나 식사 찾는다면 한 번쯤 가볼만한 곳 같습니다. 다음에는 친구들이랑 저녁에 다시 방문해보려고 합니다.", "언제 먹어도 정말 정말 맛있어요🖤 직원분들도 친절하세용 ㅎㅎㅎ 잘 먹었습니다~~", "삼겹살 맛집입니다~~ 김치와 버섯, 콩나물과 마늘까지 다같이 먹으면 너무 맛니요~!! 된장찌개도 너무 맛나서 밥이랑 같이 먹었습니다!! 사장님 너무 친절하시고 가격도 저렴해서 더 좋아요!! 맛집 강추!!^^"],
     "naverPlaceId": "1101911616",
     "naverBlogCnt": 49,
     "menuItems": [
@@ -29822,11 +29317,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "파리바게트 식빵은 부드럽고 담백한 맛이 일품이에요. 겉은 살짝 바삭하고 속은 촉촉해서 토스트로 구워 먹거나 샌드위치로 활용하기에 딱 좋습니다. 밀가루 냄새 없이 고소한 풍미가 살아있고, 식감도 쫄깃해서 아이부터 어른까지 누구나 좋아할 만한 맛이에요. 포장도 깔끔하고 보관하기 편해요. 아침 식사나 간단한 간식으로 부담 없이 즐길 수 있어서 자주 찾게 됩니다.",
-      "요즘 파리바게뜨 신상제품두쫀타르트^^드디어~한개 구매 했습니다가는매장마다 품절이라고하고소량 입고되어서 오전에 와야한다고 하고아이들때문에 사는거지 어른들은 그닥^^카다이프가 꽉 차서 좋긴한데두쪽쿠 보다는 덜 바스락거리는 식감이네요더보기",
-      "동네에 가장 큰빵집이자 모두들 사랑하는 빵집이에요:: 오늘도 조카생일이라 맛있는 케이크 잘 구매했어요~~ 케이크 종류가 다양하고 재고도 있었으면 좋겠습니다~!파란라벨 빵들 아주 맛있어요"
-    ],
+    "rv": ["파리바게트 식빵은 부드럽고 담백한 맛이 일품이에요. 겉은 살짝 바삭하고 속은 촉촉해서 토스트로 구워 먹거나 샌드위치로 활용하기에 딱 좋습니다. 밀가루 냄새 없이 고소한 풍미가 살아있고, 식감도 쫄깃해서 아이부터 어른까지 누구나 좋아할 만한 맛이에요. 포장도 깔끔하고 보관하기 편해요. 아침 식사나 간단한 간식으로 부담 없이 즐길 수 있어서 자주 찾게 됩니다. 가격 대비 만족도도 높고, 꾸준히 품질을 유지하는 점이 인상적이에요. 다음에도 재구매 의사 있어요!"],
     "naverPlaceId": "19211718",
     "naverBlogCnt": 13,
     "menuItems": [
@@ -29884,7 +29375,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/19211718/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230130_142%2F1675061991761aHb2C_JPEG%2F%25BA%25A3%25C0%25CC%25B1%25DB.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230130_142%2F1675061991761aHb2C_JPEG%2F%25BA%25A3%25C0%25CC%25B1%25DB.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_191%2F1649840595979oHMNR_PNG%2Fimage.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTJfNjIg%2FMDAxNzUyMjkyODIwMzU0.nuazY_s3LeI2XeSMFWMthxJKwNTk7-hRqfOnYJh5-60g.pM9LWcFgL7CR23h3SJyp6uJ0a6m7rCxnJmHz4CzuaNAg.JPEG%2FC1ABF4CC-924E-41B6-AE77-2F3C471F7046.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDlfMTEy%2FMDAxNzU0NzE4NTIxMDYx.SQMH3j19lI47IKDrscsUc9zovGT8WkXK7v35RWI7dOog.n7rJn8A-QoeF93yPTLK1uxg1HzO5Wcn8RgMMI6kHgIcg.JPEG%2F20250809_144320.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTBfMjIy%2FMDAxNzU0ODIxOTg2OTMz.es3gkHtsb0TnAcINZlbU1NX4RlrsqyV0j10XDnK7yP0g.0JgGC0NyqSf-IQOIaFwsBg0rCV2YaJbatlDsA7jmIwQg.JPEG%2F20250807_191354.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/bread20220119222229.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230130_142%2F1675061991761aHb2C_JPEG%2F%25BA%25A3%25C0%25CC%25B1%25DB.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230130_142%2F1675061991761aHb2C_JPEG%2F%25BA%25A3%25C0%25CC%25B1%25DB.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220413_191%2F1649840595979oHMNR_PNG%2Fimage.png", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTJfNjIg%2FMDAxNzUyMjkyODIwMzU0.nuazY_s3LeI2XeSMFWMthxJKwNTk7-hRqfOnYJh5-60g.pM9LWcFgL7CR23h3SJyp6uJ0a6m7rCxnJmHz4CzuaNAg.JPEG%2FC1ABF4CC-924E-41B6-AE77-2F3C471F7046.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDlfMTEy%2FMDAxNzU0NzE4NTIxMDYx.SQMH3j19lI47IKDrscsUc9zovGT8WkXK7v35RWI7dOog.n7rJn8A-QoeF93yPTLK1uxg1HzO5Wcn8RgMMI6kHgIcg.JPEG%2F20250809_144320.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTBfMjIy%2FMDAxNzU0ODIxOTg2OTMz.es3gkHtsb0TnAcINZlbU1NX4RlrsqyV0j10XDnK7yP0g.0JgGC0NyqSf-IQOIaFwsBg0rCV2YaJbatlDsA7jmIwQg.JPEG%2F20250807_191354.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -30093,13 +29584,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제가 너무나 애정하는 인도 식당입니다. 특히, 남인도 음식을 먹을 수 있는 너무 소중한 곳이에요.저는 갈 때 마다 어니언 도사와 치킨65 를 꼭 시켜 먹습니다. 도사는 인도 사람들이 주로 아침에 먹는 음식인데 진짜 맛있습니다. 안에 있는 으깬 감자를 도사에 조금씩 싸서 먹어도 좋고 함께 제공되는 토마토 쩌트니와 코코넛 쩌트니에 조금씩 찍어 먹어도 진짜 맛있",
-      "진짜 현지분들 밖에 없고 찐인도음식이에요!간도 짜지 않운 편이고 플레인 라씨 완전 꾸덕하고 맛있어요! 다른 곳에 비해 가겻도 저렴한 편이고, 음식이 빨리 나오는 편은 아니지만 정말 맛있고 인도여행 온 기분이에요!!👍👍* 2인 세트 4만원",
-      "맛있어요! 재방뮨위사 10000000%입니다. 전체적으로 가격대비 양은 적어요 ㅠㅠ",
-      "가성비좋고 현지느낌을 잘 살린 매장이에요!",
-      "맛있게 먹었어요. 재방문 할게요 😊👍"
-    ],
+    "rv": ["맛있어요! 재방뮨위사 10000000%입니다. 전체적으로 가격대비 양은 적어요 ㅠㅠ"],
     "naverPlaceId": "1601602028",
     "naverBlogCnt": 19,
     "menuItems": [
@@ -30112,7 +29597,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1601602028/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_294%2F1730688859421nzSgi_JPEG%2F20241104115246cebxa6l3.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_294%2F1730688859421nzSgi_JPEG%2F20241104115246cebxa6l3.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_233%2F1730688859347V8H4l_JPEG%2F20241104115332pmhxqgn5.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_149%2F1730688859339Y8txP_JPEG%2F20241104115229snb6doku.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_237%2F1730688897127PH1S7_JPEG%2F20241104115451du6y873p.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_211%2F1730688897079ffMM5_JPEG%2F20241104115433ywmzv7il.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_with_thumbsup20220119222236.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_294%2F1730688859421nzSgi_JPEG%2F20241104115246cebxa6l3.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_294%2F1730688859421nzSgi_JPEG%2F20241104115246cebxa6l3.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_233%2F1730688859347V8H4l_JPEG%2F20241104115332pmhxqgn5.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_149%2F1730688859339Y8txP_JPEG%2F20241104115229snb6doku.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_237%2F1730688897127PH1S7_JPEG%2F20241104115451du6y873p.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241104_211%2F1730688897079ffMM5_JPEG%2F20241104115433ywmzv7il.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -30549,13 +30034,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "네이버페이 행사 때문에 사람 많네요.그래서 빵이 없어요... 거의 다 팔렸...",
-      "아침부터 열어서 좋았어요",
-      "빵도 음료도 맛있는 빠바~ 휴식할 수 있는 공간도 있어 좋으네요",
-      "오늘은 빵이 많지는 않네요. 일요일 이라서.. 직원분은 친절하고 빵은 맛나요",
-      "아내 생일케이크 구매, 베리밤 레드케이크 생각보다 더 맛있네요. 아내도 맘에 들어했어요."
-    ],
+    "rv": ["확대 이전 한다고 지금 공사 중에 있어요. 더 커지는 파리바게트 매장이 기대됩니다. 수원 신메탄점은 오랫동안 이곳에서 위치에 있어 맛있는 빵들을 쉽게 구매할 수 있었어요. 5월 말에 신규 오픈한다고 하는데 기대가 큽니다~~~~ 행사도 자주 해서 다른 할인들보다 자체 할인이 더 큽니다.ㅋ", "오늘은 빵이 많지는 않네요. 일요일 이라서.. 직원분은 친절하고 빵은 맛나요", "아내 생일케이크 구매, 베리밤 레드케이크 생각보다 더 맛있네요. 아내도 맘에 들어했어요."],
     "naverPlaceId": "11690287",
     "naverBlogCnt": 16,
     "menuItems": [
@@ -30613,7 +30092,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/11690287/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_120%2F1733975189280sF8uM_JPEG%2FIMG_8771.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_120%2F1733975189280sF8uM_JPEG%2FIMG_8771.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_293%2F1733975189794AY0p2_JPEG%2FIMG_8772.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_284%2F1733975189044SJM2R_JPEG%2FIMG_8773.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDFfNzMg%2FMDAxNzUxMzczNDk4MzE1.1Hhn6RjsRo8Ek4vNdceOXpJeD5dMqPT2o9n-lcjYZxYg.pVIa24VUb41ok4gAr3ewh1xIfi0vGHOw3r013G6z9c8g.JPEG%2FIMG_20250630_182239.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfMTg3%2FMDAxNzcwNTM0NTkxODUx.BqqMP4TATz9LTdoOEYk2uHA0Kx0pO5iua9c14nJadBMg.gNU1Igwq5kurBRUaauIfHSpEWHg163mb7ZWcDscYpNUg.JPEG%2F20260208_154153.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/bread20220119222229.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_120%2F1733975189280sF8uM_JPEG%2FIMG_8771.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_120%2F1733975189280sF8uM_JPEG%2FIMG_8771.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_293%2F1733975189794AY0p2_JPEG%2FIMG_8772.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241212_284%2F1733975189044SJM2R_JPEG%2FIMG_8773.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MDFfNzMg%2FMDAxNzUxMzczNDk4MzE1.1Hhn6RjsRo8Ek4vNdceOXpJeD5dMqPT2o9n-lcjYZxYg.pVIa24VUb41ok4gAr3ewh1xIfi0vGHOw3r013G6z9c8g.JPEG%2FIMG_20250630_182239.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDhfMTg3%2FMDAxNzcwNTM0NTkxODUx.BqqMP4TATz9LTdoOEYk2uHA0Kx0pO5iua9c14nJadBMg.gNU1Igwq5kurBRUaauIfHSpEWHg163mb7ZWcDscYpNUg.JPEG%2F20260208_154153.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -31256,13 +30735,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "국밥 정말 맛있어요. 순대도 많이 들어있고 한끼 든든하게 먹었어요. 쌀쌀한 날씨에 뜨끈한 국밥 한 그릇하면 딱이죠! 깍두기도 정말 맛있어용",
-      "포장해도 맛있고. 양도푸짐해요ㅎ",
-      "처음 먹은 메뉴 맛있네요",
-      "든든한 국밥 한그릇이면 하루가 든든",
-      "점심먹을겸 방문했는데 생각보다 양이 진짜 많아요! 당면이나 고기도 넉넉하게 들어있고 육개장은 은근하게 매운 얼큰함이 속이 풀리는 느낌이며 왕뚝불은 달달한 맛에 고기도 많고 야들야들해서 맛있네요!"
-    ],
+    "rv": ["항상 맛있어서 제가 진짜진짜 좋아하는 담소사골순대!! 😊 혼밥하기 좋고 매장 넓어서 단체로 오기도 좋아요 ㅋㅋㅋ 순대도 많이 들어있고 든든하게 잘 먹고 갑니당 👍🏻👍🏻 떡국은 처음먹어봤는데 맛있더라구요 ㅎㅎ", "국밥 정말 맛있어요. 순대도 많이 들어있고 한끼 든든하게 먹었어요. 쌀쌀한 날씨에 뜨끈한 국밥 한 그릇하면 딱이죠! 깍두기도 정말 맛있어용", "점심먹을겸 방문했는데 생각보다 양이 진짜 많아요! 당면이나 고기도 넉넉하게 들어있고 육개장은 은근하게 매운 얼큰함이 속이 풀리는 느낌이며 왕뚝불은 달달한 맛에 고기도 많고 야들야들해서 맛있네요!"],
     "naverPlaceId": "1554088061",
     "naverBlogCnt": 46,
     "menuItems": [
@@ -31469,13 +30942,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "시부모님 결혼기념일에 방문드렸습니다. 룸형식이라 조용하고 식사가 정갈하게 나와서 부모님과 먹기 좋았어요. 시간잘보내고 배부르게 먹고 갑니다",
-      "음식들 모두 맛있었고 신선한게 느껴졌습니다. 직원분들도 친절하셨고 매장 내부가 예쁘고 손님마다 별도의 방을 주시는 것도 좋았습니다. 기념일 등에 오기 좋은 식당입니다.",
-      "가족 외식이나 모임하기 좋은 분위기의 일식집이었어요.매장이 전체적으로 깔끔하고 룸 위주로 되어 있어서 조용하게 식사하기 좋았습니다.코스 요리로 먹었는데 음식이 하나씩 정갈하게 나오고, 특히 사시미가 신선해서 맛있었어요. 전체적으로 간도 자극적이지 않고 깔끔한 편이라 부담 없이 먹기 좋았습니다.더보기",
-      "특별한 날 가족들과 찾는 곳입니다. 설 연휴 기간에 맛있게 먹고 즐기다 갑니다.",
-      "회가 신선하고 아주 맛있습니다 가족 모임 잘했어요"
-    ],
+    "rv": ["예약 없이 방문했습니다 ㅎㅎ 5분정도 대기후 주말 가족코스 먹었는데 양도 많고 생각보다 음식이 너무 맛있어서 놀랐어요 ㅎㅎ 다른곳보다눈 밝은 분위기 가족식사로는 딱 좋을거같아요!", "처음 방문한 긴자 신영통점 음식도 맛있고 분위기도 좋아요~ 특별한날 가족외식으론 딱이네요.", "생일 기념으로 여자친구랑 왔는데 분위기랑 음식들도 너무 맛있어서 좋았어요!", "특별히 맛있는 요리가 먹고싶다면 '긴자'로 오세요. 음식은 당연히 맛있고 스시와 기타 등등 곁들임 반찬도 다 좋아요. 식사공간도 아늑하고 주차도 편안합니다", "아버지 생신이셔서 가족들이랑 특별한 날을 맞아 긴자에 왔어요~ 가족코스로 시켰고, 4명이서 정말 배불리 먹었어요! 직원분들도 전부 친절하시고, 음식도 맛있네요 ㅎㅎ"],
     "naverPlaceId": "35228977",
     "naverBlogCnt": 640,
     "menuItems": [
@@ -31562,12 +31029,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "부모님 환갑으로 가족 모임 겸 방문한 횟집이었는데, 전반적으로 서비스가 너무 실망스러웠습니다.기분 좋게 식사해야 할 자리였는데 시작부터 끝까지 불편함만 남았습니다.룸이 있는 식당인데 직원분들이 출입할 때마다 문을 제대로 닫지 않고 다니셨고, 기본적인 배려가 느껴지지 않았습니다.튀김이 나와 어떤 생선인지 여쭤봤더니 “생선튀김이요”라는 답변을 들었습니다.누구나",
-      "맛있게 잘 먹고 갑니다!",
-      "너무 감사한 마음에 리뷰를 남깁니다  대박횟집은 가끔 가는 음식점이라 오늘도 어머니 모시고 갔습니다. 너무 맛있게 잘 먹었고 저희 모친도 맛있게 잘 드셨으나 매운탕은 배가 불러 못드시고 집에가 드시고 싶어 혹시 가져갈수 있는지 물어보셨는데 흔쾌히 배려해 주셔 감사합니다",
-      "2년전에 별점 5점 준거보이시나요?..몇년동안 잘 다닌 집입니다.오늘 다녀왔는데 오늘이 마지막 방문일것같네요.돈은 돈대로 쓰고 기분나빠져서 나왔어요.더보기"
-    ],
+    "rv": ["너무 감사한 마음에 리뷰를 남깁니다 대박횟집은 가끔 가는 음식점이라 오늘도 어머니 모시고 갔습니다. 너무 맛있게 잘 먹었고 저희 모친도 맛있게 잘 드셨으나 매운탕은 배가 불러 못드시고 집에가 드시고 싶어 혹시 가져갈수 있는지 물어보셨는데 흔쾌히 배려해 주셔 감사합니다"],
     "naverPlaceId": "34754720",
     "naverBlogCnt": 262,
     "menuItems": [
@@ -31879,13 +31341,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "반찬하며 샐러드까지 꾹꾹 눌러담아주셨어요.~ 신선도는 말할것도 없죠🌟기름도 깨끗한지 튀김색도 딱이더라구요~🖤저희 동네랑은 담아내는 포장용기가 조금 다르더라구요?~전 슈퍼에서 뭐좀 사느라 아이만 기다렸는데도 친절하셔서 담엔 직접그곳에 가서 직접 먹기로 했어요~무척 추운날이였는데~~~~~다른곳에서 부채살정식을 포장했었지만 그곳엔 신랑이 찾는 안심 돈까스가 ",
-      "사진을 못 찍었네요양도 많고 너무 맛있어요",
-      "항상 친절하고 맛있음. 근데 종종 표독스러운 아줌마 손님들이 보임. 이런 사람들이 불만 리뷰 쓰는 것 같음. 지금 리뷰 중에서도 닉네임이나 내용만봐도 바로 알 수 있는 것들이 많음 ㅋㅋ",
-      "#매탄동 맛집#돈까스맛집#여기는 맛집임에 틀림없어#요즘 날씨도 쌀쌀하고 따끈한 메뉴가 계속 끌려서,오늘은 가족과 함께 매탄동 홍익돈까스에 다녀왔어요.아이들도 돈까스랑파스타를 좋아해 양도 푸짐해서 다녀왔어요로제파스타는 해물이 신선하게들어 있어 식감도 좋고 풍미가 살아있더라고요~!파스타 면도 적당히 삶아져서 소스에 잘베어있어서 돈까스와함께 먹어도 전혀 느끼하지",
-      "여기는 매탄동 삼성전자근처 맛집을 다녀왔습니다...테이블에 음식이 차려지는 순간부터 만족도가 확 올라왔어요^^바삭하게 튀겨진 왕돈까스 씹을때마다 바삭해서 너무 맛있어요정식은 우동국물 맛이 깊고감칠맛이 살아 있어서 숟가락이 계속 갔습니다해물볶음우동 면발이 탱탱하고 양도넉넉해서 돈까스랑 같이먹으맛있어서요...자주 이용한곳이예요더보기"
-    ],
+    "rv": ["항상 친절하고 맛있음. 근데 종종 표독스러운 아줌마 손님들이 보임. 이런 사람들이 불만 리뷰 쓰는 것 같음. 지금 리뷰 중에서도 닉네임이나 내용만봐도 바로 알 수 있는 것들이 많음 ㅋㅋ", "후딱 밥먹고 나가실 분만 가세요. 11시40분에 들어가서 밥 시키고 12시쯤 식사 나와서 먹고 있는데 12시30분 되니깐 빨리 나가라고 핀잔주시네요. 주인 할아버지이신지 뭔지. 빈 테이블도 있었는데 불쾌해서 먹다가 그냥 나왔네요. 앞에 놀이터도 있어서 아이들이랑 자주 갔는데 옆에 콩나물국밥집이나 가야겠어요."],
     "naverPlaceId": "35178602",
     "naverBlogCnt": 175,
     "menuItems": [
@@ -32062,11 +31518,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "중앙문 앞 맛집 중 단연 최고인 듯",
-      "기절낙지볶은 2인분 포장했었는데, 낙지가 좀 적었습니다. 매번 양 차이가 있는 느낌인데, 왜 일까요?",
-      "오늘은 기절낙지볶음 포장이다"
-    ],
+    "rv": ["기절낙지볶은 2인분 포장했었는데, 낙지가 좀 적었습니다. 매번 양 차이가 있는 느낌인데, 왜 일까요?"],
     "naverPlaceId": "18090589",
     "naverBlogCnt": 168,
     "menuItems": [
@@ -32267,13 +31719,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "친정엄니랑 코다리정식 먹었습니다. 쫄깃한 코다리에 잘 양념이 배여서 밥과 함께 먹으니 한그릇 뚝딱이네요. 콩나물 비벼서 김에 싸먹으니 이게 또 별미네요. 반찬 하나하나 너무 맛나고 좋네요. 강추합니다!!^^",
-      "신년회 모임을 박은자맛사랑에서 가졌답니다~사장님 너무 친절하시고 맛은 당연 맛나고~밑반찬들도 모두 맛나요~다음날 해장을 옻오리로 했어욤~수원가면 꼭 방문하는 맛집예욤~잘 먹었습니당~더보기",
-      "매탄동 최고 맛집이 아닌가 싶어요.정말 맛있습니당",
-      "매탄동 맛집 박은자맛사랑 영통점✨➢코다리 정식 2인감칠맛 나는 양념 코다리큼직하고 살이 포동해서 맛있게 먹었어용떡도 들어 있구 가성비 좋네요!반찬도 다양하고 정갈한 집밥 느낌♡넓은 매장에 자리도 많고 편안한 분위기에요.사장님도 친절하셔서 좋아요 •ᴗ•✔️ 단체/회식/가족/모임/친구/데이트/혼밥수원 영통구청 맛집 추천 ෆ🚘 선일주차장 주차 가능더보기",
-      "아구찜 최애 맛집!!!~~매콤 아삭 쫄깃!~~삼박자 조화!~넘 자주 생각나는 맛이에요~~꼬막비빔밥도 굿!~~매탄동. 찐맛집 인정!ㅎ"
-    ],
+    "rv": ["친정엄니랑 코다리정식 먹었습니다. 쫄깃한 코다리에 잘 양념이 배여서 밥과 함께 먹으니 한그릇 뚝딱이네요. 콩나물 비벼서 김에 싸먹으니 이게 또 별미네요. 반찬 하나하나 너무 맛나고 좋네요. 강추합니다!!^^", "아구찜 최애 맛집!!!~~매콤 아삭 쫄깃!~~삼박자 조화!~넘 자주 생각나는 맛이에요~~꼬막비빔밥도 굿!~~매탄동. 찐맛집 인정!ㅎ", "주말 운동후 믿고가는 찐 맛집에요~~메뉴도 다양하고 밑반찬도 깔끔하면서 집나간 입맛도 돌아오게 해주는 맛집으로 울가족은 애정합니다~사장님이랑 직원분들도 상냥하시고 친절하세요~^^"],
     "naverPlaceId": "1731970344",
     "naverBlogCnt": 164,
     "menuItems": [
@@ -32581,13 +32027,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "여기는 맛있어서 자주가용!!👍",
-      "맛있어요!!!ㅋㅋㅋ개인적으로 맛있는곳이에요!!",
-      "영통구청 앞 콩나물국밥집 화성옥날씨가 쌀쌀해서 뜨끈한 국물이 생각나서 오랫만에 단골집 콩나물 국밥 먹으로 화성옥에 다녀왔어요.역시 맛있는 콩나물 국밥!참 영업시간이 바뀌었네요.24시간이 아니네요.참고하세요#화성옥 #수원콩나물국밥 #수원해장국 #영통구청맛집 #매탄동맛집 #영통해장국 #전주콩나물국밥더보기",
-      "맛있어여!!!추천이여!👍",
-      "식사는 이냥저냥. (조금 짬) 일하시는 분들이 기본적으로 응대가 늦고, 주문 메뉴 누락하고, 요청 사항을 못 알아들어서 계속 반문하거나 딴소리를 함. 종업원 교육을 다시 시켜야 할 듯"
-    ],
+    "rv": ["포장주문 했는데 집에서 끓여서 먹을수 있도록 해주셨어요. 포장하면 양도 더 많이 주시는것 같고 조리방법 등 자세히고 친절하게 안내해주셨어요. 오며가며 한번 들러봐야지 하다 포장으로 처음 주문해봤는데 맛도있고 너무 괜찮았습니다!", "식사는 이냥저냥. (조금 짬) 일하시는 분들이 기본적으로 응대가 늦고, 주문 메뉴 누락하고, 요청 사항을 못 알아들어서 계속 반문하거나 딴소리를 함. 종업원 교육을 다시 시켜야 할 듯"],
     "naverPlaceId": "1261471808",
     "naverBlogCnt": 26,
     "menuItems": [
@@ -32645,13 +32085,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "똠얌쌀국수 잘 하심. 진짜 맛있네요!",
-      "전체적으로 메뉴가 다 맛있어요!!! 국물도 시원하고 맛있고 양도 많은 편이네요!! 😘👍",
-      "쌀국수 좋아하는데 진짜 맛집입니다뜨끈한 국물 생각나실때 추천해요항상 친절하신 사장님 부자 되세요!",
-      "똠얌쌀국수가 맛있었다.",
-      "우연히 발견하고 방문했는데 진짜 쫀맛이에요!!가게도 너무 넓고 사장님이 친절해서 먹는 내내 기분 좋았습니다😊 양지 쌀국수는 한국식 같고, 톰양꿍 쌀국수는 특유의 신맛?이 잘 살아있어서 맛있었어요!!👍🏻 진짜 톰양꿍 쌀국수는 여기서만 먹을 듯 ㅎㅎ"
-    ],
+    "rv": ["전체적으로 메뉴가 다 맛있어요!!! 국물도 시원하고 맛있고 양도 많은 편이네요!! 😘👍", "매콤달콤새콤 다양한맛을 즐길수 있어서 좋았어요. 사장님이 직접요리해주시는데 정성가득한 요리였습니다. 맛있는요리를 먹으니 가족들 분위기도 더 좋아지고 행복한 시간이었네요. 다음에도 방문하고싶은곳입니다^^", "내돈내먹 방문후기. 여기 자주 가는 쌀국수맛집이에요. 매장도 청결하고 음식도 맛있어서 가족외식으로 자주 갑니다. 오늘은 월남쌈먹으려고 작정하고 갔어요 ㅎㅎ재료 신선하고 양많고 육수진하고 고기많~~~고 친절하셔서 갈때마다 대만족이네요. 오늘도 자알 먹었습니다.", "해장하러 방문했습니다~ 너무 잘 먹었어요!😎😎😎 양지 쌀국수 먹었는데 국물 정말 시원하고 맛있네용!! 담에 또 갈게요 ㅎㅎ🤓", "분위기 조용하고 좋아요! 새우완탕 쌀국수 자주 먹는데 맛있더라구요 추천이요!", "회사근처에 있어서 점심 먹으러 종종 가곤해요~ 음식도 금방금방 나오고 좋아요! 새우완탕쌀국수랑 커리볶음밥 먹었어요~~~"],
     "naverPlaceId": "34490387",
     "naverBlogCnt": 91,
     "menuItems": [
@@ -32717,13 +32151,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "🍲 부대찌개라면사리 기본! 햄 풍성!국물은 깔끔한 얼큰함, 밥 말아먹기 최고 🍚🥚 계란말이겉은 노릇, 속은 폭신💛매운맛 잡는 찰떡 사이드✨🍶 분위기밥도, 술도, 수다도 되는 곳.“소주/맥주/직원” 호출 버튼 센스까지 굿😆💬 총평✔️ 라면사리 기본 제공✔️ 친절+깔끔 인테리어✔️ 추운 날, 부대찌개 한입이면 끝🔥#부함식당 #망포역맛집 #수원부대",
-      "레트로 한스푼 끼얹은 편안한 분위기의 술집이에요저녁에 배고팠는데 식사가 되는 술집이라 좋더라구요부대찌개도 은근 맛있고 셋트메뉴인데도 밥이랑 사리가 포함이고고등어 반쪽 나올줄 알았는데 한마리 다나와서깜놀했어요 ㅋㅋ맛있는데 가격도 넘 좋고 직원분들도 친절해서 좋았어요 😋😋😋2층인게 나름 운치도 있어요더보기",
-      "부대찌개는 진한 국물에 햄, 소시지, 두부, 채소가 듬뿍 들어가 있어 푸짐했습니다. 칼칼하면서도 깊은 맛이 나서 밥과 함께 먹으니 정말 든든했어요. 제육볶음도 매콤달콤한 양념이 잘 배어 있고 고기가 질기지 않아 만족스러웠습니다.매장은 깔끔하고 테이블 간격이 넓어 편하게 식사할 수 있었고, 직원분들도 친절하게 안내해 주셔서 좋았어요. 무엇보다 가격 대비 양이",
-      "이 동네 부찌는 이집입니다.",
-      "수원 맛집 추천 망포역 반주하기도 좋고 술한잔하기도 좋은 부함식당 저렴한 가격으로 즐기는 부대찌개 밥, 라면사리까지 기본제공💚안주도 다양해서 간단하게 즐기기 좋아요"
-    ],
+    "rv": ["수원 맛집 추천 망포역 반주하기도 좋고 술한잔하기도 좋은 부함식당 저렴한 가격으로 즐기는 부대찌개 밥, 라면사리까지 기본제공💚안주도 다양해서 간단하게 즐기기 좋아요", "인생 계란말이 맛집이에요!!! 그리고 부대찌개는 먹어봤었어서 새로운 메뉴로 치킨 주문했는데 통닭거리에서 먹은 것보다 훨 맛있어요!ㅎㅎㅎ💓 옛날통닭인데 염지도 완전 잘 되어 있어서 촉촉한데 살짝 맵칼해서 하나도 안 느끼하답니다! 매장도 완전 넓고 날 좋을 때는 창문도 열려 있어서 야장 감성입니다👍", "여기 부대전골 엄청 맛있어요! 육수 리필도 되는데 맑은 육수가 아니라 주황색 국물 육수라 안밍밍해지고 너무 좋더라구여! 육수 계속 리필해서 먹었네요 ㅎㅎ 새우튀김도 바삭 탱글하니 정말 맛있었어요!! 우삼겹도 부대전골이랑 잘어울리고 라면사리 꼭 넣어드세요! 기본으로 주긴 하지만 라면사리가 정말 잘어울리고 육수 리필도 돼서 2개도 쌉가능이에요! 다음에 또 먹으러 올게요😋❤️", "야식먹으러 고고씽~골뱅이 무침 시켯는데 크기도 크고 씹을맛남.. 긍데 소라같은 느낌도 듬ㅋㅋ", "밤 10시 반 넘어서 배고파서 음식점 찾다가 문 연 곳이길래 바로 들어갔는데 부대찌개 + 전 맛집이었네요.. 이런 곳을 발견하다니! 밤 늦게 배고팠던 제 배에게 칭찬합니다^^ 그리고 매장 음악취향이 옛 추억을 불러 일으키네요! 또 먹으러 올게요!"],
     "naverPlaceId": "1996752893",
     "naverBlogCnt": 311,
     "menuItems": [
@@ -32833,7 +32261,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1557600277/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180830_107%2F1535617791090g3pW4_JPEG%2F-VbcjzWlMrrdB7G-x8s2kWbt.JPG.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180830_107%2F1535617791090g3pW4_JPEG%2F-VbcjzWlMrrdB7G-x8s2kWbt.JPG.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20180830_223/1535617599725L1IxI_JPEG/I9_zfwJGNnvy3JQLU2rov8xg.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20180830_3/1535617637569hrvUJ_JPEG/0ws2bSvyA8fks3R7RphiSbG8.jpg", "imageUrl5": "https://ldb-phinf.pstatic.net/20180830_98/1535617688599PVlKP_JPEG/GSlY1nIzgEwmvGXplLDnNl6c.jpg", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180830_107%2F1535617791090g3pW4_JPEG%2F-VbcjzWlMrrdB7G-x8s2kWbt.JPG.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180830_107%2F1535617791090g3pW4_JPEG%2F-VbcjzWlMrrdB7G-x8s2kWbt.JPG.jpg", "imageUrl3": "https://ldb-phinf.pstatic.net/20180830_223/1535617599725L1IxI_JPEG/I9_zfwJGNnvy3JQLU2rov8xg.jpg", "imageUrl4": "https://ldb-phinf.pstatic.net/20180830_3/1535617637569hrvUJ_JPEG/0ws2bSvyA8fks3R7RphiSbG8.jpg", "imageUrl5": "https://ldb-phinf.pstatic.net/20180830_98/1535617688599PVlKP_JPEG/GSlY1nIzgEwmvGXplLDnNl6c.jpg", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -33124,11 +32552,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "붕어빵 처음 사봤는데 아이들 넘좋아해요마카롱도 크고 저렴하고 맛있어서 자주 먹고있답니다.",
-      "997호 점 컴포즈 커피 영통구청 점은 매장이 상당히 커서 테이블 이용도 가능하고 대화도 할 수 있는 장소에요. 반지 주차장 이용이 어려워 근처 공영주차장이나 운이 좋으면 매장 앞 주차 잠깐 가능해요. 원두도 맛이 상당히 좋아져서 스페셜티 원두 맛 납니다. 대용량 사이즈도 가격이 좋고 메가커피보다 저렴해서 맛있게 먹을 수 있어요.ㅎㅎ 아침에는 대량 주문이 ",
-      "휘핑이 최고에요!!!!!!^^"
-    ],
+    "rv": ["와플 포장해왔는데 집에와서 열어보니까 다 탔네요..매장이었으면 못나왔을정돈데 너무하네요", "997호 점 컴포즈 커피 영통구청 점은 매장이 상당히 커서 테이블 이용도 가능하고 대화도 할 수 있는 장소에요. 반지 주차장 이용이 어려워 근처 공영주차장이나 운이 좋으면 매장 앞 주차 잠깐 가능해요. 원두도 맛이 상당히 좋아져서 스페셜티 원두 맛 납니다. 대용량 사이즈도 가격이 좋고 메가커피보다 저렴해서 맛있게 먹을 수 있어요.ㅎㅎ 아침에는 대량 주문이 끊이지 않고 들어오네요. 직원들이 바쁘게 움직입니다. 그래도 빨리 제조해서 커피가 나오네요~~~ 잘 이용했어요", "여긴 인사가 불법이에요? 한두번도 아니고 불친절한 알바들 태도 때문에 기분이 나빠지는 곳"],
     "naverPlaceId": "1330184805",
     "naverBlogCnt": 23,
     "menuItems": [
@@ -33395,13 +32819,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "양이 진짜 어마무시하네요! ㅋㅋㅋ 근데 너무 맛있어서 다 먹어버렷서요(?) 3인분은 되는거같아요하몽&멜론도 단짠조합으로 후식으로 맛있게 잘 먹었습니당☺️",
-      "처음에는 맥주랑 하이볼 가볍게 한잔하려고 들어갔는데 안주 퀄리티가 생각보다 좋아서 만족했습니다. 특히 하몽멜론은 멜론도 달고 하몽 짠맛이랑 조합이 좋아서 술이 계속 들어가는 메뉴였어요. 원래 이 조합이 스페인식 안주로 유명한데 달콤함과 짭짤함이 잘 어울리는 편입니다.나쵸도 그냥 과자만 나오는 스타일이 아니라 치즈랑 소스 넉넉하게 나와서 맥주 안주로 딱 좋았",
-      "너무 맛있고 가성비좋아요!아이들이 좋아해서 가족들과도 자주옵니다맥주꿀맛!안주도 너무 맛있어요.카나페추천!더보기",
-      "밀회관 오는 것이 저희에겐 아주아주 큰 행복입니다언제 오든 분위기도 좋을뿐더러 음식이 정말 맛있습니다자주 오고 싶은 밀회관 오래오래 있어주세요♡♡♡",
-      "음식도 맛있고 분위기도 정말 좋아요"
-    ],
+    "rv": ["예약 없이 바로 이용할 수 있어서 좋았습니다. 자리가 넓어서 단체로 이용하기 좋습니다. 음식도 맛있고 맥주도 다양해서 좋아요. 다음에 또 오겠습니당", "분위기가 아늑해서 편하게 술 마시기 좋은 곳이에요. 안주 종류도 다양하고 맛이 전체적으로 만족스러웠어요. 직원분들도 친절해서 기분 좋게 이용했어요. 친구들이랑 가볍게 한잔하거나 데이트 장소로도 괜찮은 술집이에요. 재방문 의사 있습니다!"],
     "naverPlaceId": "1085227721",
     "naverBlogCnt": 204,
     "menuItems": [
@@ -33531,13 +32949,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "저녁먹으러 항아리 보쌈을 찾았습니다ㅎㅎ점심을 많이 먹은상태라 보쌈 소짜를 시켰는데생각보다 양이 넉넉했어요김치도 맛있고 고기도 맛있고잘먹었습니다ㅎㅎ더보기",
-      "항아리보쌈 고기랑 김치 둘 다 맛있어요!",
-      "가족들과 식사.. 보쌈도 맛있고 김치도 정말 맛나요. 다음에 또 방문예정입니다 굿 ^^ 친절하셔서 좋았어요",
-      "고기도맛있고  파김치도 맛있고  무우김치도  맛있어요",
-      "동네에서 오래된 보쌈집이예요항상 갈때마다 맛나요"
-    ],
+    "rv": ["가족들과 식사.. 보쌈도 맛있고 김치도 정말 맛나요. 다음에 또 방문예정입니다 굿 ^^ 친절하셔서 좋았어요"],
     "naverPlaceId": "12823584",
     "naverBlogCnt": 85,
     "menuItems": [
@@ -33915,13 +33327,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "근처에 왔다가 샤브샤브가 먹고싶어서 검색해서 왔어요 다른 프랜차이즈 가려다가 가성비가 좋다고 하는 댓글 보고 일로 왔는데 가성비 너무 좋네요 편백찜 먹고 나서 샤브샤브 먹으면 배터집니다 사이드도 기본으로 구비되어 있고 이 가격에 눈치 안보고 먹을 수 있어서 다음에 오면 무조건 재방문합니다!!",
-      "편백찜이랑 샤브샤브 둘다 너무 맛있어요!! 고기가 엄청 부드럽고 소스도 다 맛있어서 잘 먹었어요☺️☺️ 가격도 착하고 재료들도 다 신선해서 기분좋게 먹었습니당 직원분들도 완전 친절하세요!! 샤브샤브 생각나면 또 올게요😍",
-      "처음 편백찜 놔주실 때 보여주시는데 사진으로 못남긴게 너무 아쉽네요ㅠㅠ 양도 많고, 야채도 신선하고, 음식도 다 맛있어요! 가성비도 좋고 최고👍👍👍 점심 회식으로 왔는데 다음에 또 방문할게요!",
-      "편백찜이 맛있고 아이들이 좋아해서 자주 와요.. 찜 리필 되서 너무 맘에 들어요!! 있을거 다있고 편백찜 샤브샤브 월남쌈 칼국수 순서로 드세요!! 찐 단골 할게요",
-      "단골맛집입니다. 다른지점보다 훨씬 더 맛나요"
-    ],
+    "rv": ["편백회관 첫방문인데 무한리필인데도 고기 질이 기대 이상이라서 놀랐어요! 편백찜은 기름기가 쏙 빠져서 담백하고 셀프바에 있는 야채들도 아주 싱싱합니다. 샤브샤브 육수도 깔끔 시원해서 아주 맛있게 먹었어요!", "처음으로 편백회관을 와봤는데, 사이드바 종류가 많진 않지만 맛도 있고 딱 먹을만한 것들만 있어서 좋아요! 고기도 너무 맛있고 다 먹고 샤브샤브도 먹을 수 있는게 좋습니당!!😍 다음에 또 샤브샤브 먹고싶을때 오려구요❤️", "샤브샤브가 먹고 싶을 땐 꼭 편백회관만 방문해요. 그 중에서도 편백회관 영통점이 셀프바 구성도 좋고 직원분들도 모두 친절하셔서 이 지점만 방문해요☺️ 맛도 좋고 무한리필이라 배도 가득 채울 수 있어서 좋습니다! 편백회관 영통점 추천드려요!", "처음와봤는데 주차도 편하고 매장이 넓어서 아이들이랑 먹기 편하고 재료도 신선하고 맛있어요^^"],
     "naverPlaceId": "1312416923",
     "naverBlogCnt": 143,
     "menuItems": [
@@ -34347,13 +33753,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "후라이드는 황금올리브 !!!너무 맛있게 먹었어요",
-      "바사삭 한게 넘넘 맛있어요 :)",
-      "황올, 양념 반반 먹었는데 와 너무 맛있어요. 익힌정도도 그렇지만 잡내 하나 안나고 완전 추천입니다.",
-      "치킨 포장해왔어요!!상가 주차는 회차(15분) 무료!사장님 너무 친절하셔서 기분좋게 주문하고 포장해왔네요!!!💖오래오래 장사해주세요☺️더보기",
-      "미리 예약하고 시간 맞춰 방문했는데도 기다렸다가 픽업했어요;;"
-    ],
+    "rv": ["황올, 양념 반반 먹었는데 와 너무 맛있어요. 익힌정도도 그렇지만 잡내 하나 안나고 완전 추천입니다.", "제가 요즘 치킨만 땡겨서 후라이드치킨 유명한 브랜드 꺼 먹는 중인데요. 비비큐 황금올리브 후라이드치킨 유명한데 이제야 먹어봤네요. 튀김옷이 정말 맛있네요."],
     "naverPlaceId": "1762274320",
     "naverBlogCnt": 20,
     "menuItems": [
@@ -34733,13 +34133,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "기대없이왔는데 너무맛있네요직원분도 참 친절하셔요~",
-      "이른시간이라 그런지 대기없이 들어갔어요~친절하시네요!!!",
-      "고기 질이 진짜 좋아요숯불에 구워서 불향 제대로 나고, 두툼한데도 질기지 않고 육즙 살아있어요 👍김치랑 마늘 같이 올려서 구워 먹으니까 조합이 최고였습니다!!계란찜도 몽글몽글해서 고기랑 같이 먹기 딱 좋았어요.재방문 의사 있습니다!🥹💗더보기",
-      "두번째방문했어요~주문하니 음식도 바로 나오고..고기질도 좋네요~함께나온 찌개도맛있어요~",
-      "가족외식 하기 좋은 식당입니다.매장도 넓고 친절한직원 .  무엇보다 고기가 맛있어요.."
-    ],
+    "rv": ["너무 맛있어서 또 방문한 식껍! 계속 생각나는 맛이에요~ 쫀득한 고기 최고!", "넘 맛있어서 음식을 다 먹어버려서 냅다 창문사진이라도… 고기 넘 맛있고 직접 구워주셔서 편하게 맛있게 잘 먹다가요 ㅎㅎㅎ"],
     "naverPlaceId": "1155246505",
     "naverBlogCnt": 481,
     "menuItems": [
@@ -35077,13 +34471,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "항상 모듬 먹었는데 오늘은 알곱창으로 먹었어요~언제먹어도 너무 맛있는 애정하는 집이예요~",
-      "막창. 곱창, 선지국 소맥과 시원하게 먹으면 맛있어요",
-      "맛있어요추천드립니당또 방문할 거예요ㅎㅎㅎ",
-      "늘 방문하는곳이요^^오늘도 주말에 지나치지 못하고또들러서 맛있는 곱창을 먹었습니다.늘 만족하는곳 이요더보기",
-      "남편이랑 항상 같이 와서 먹는 곱창 맛집!!!!항상 맛있게 잘 먹고갑니다~~~망포동 곱창 맛집!! 적극 추천합니다"
-    ],
+    "rv": ["재방문입니다 알곱창에 곱이 꽉차서 맛있어요 염통도 부드러워요 계란찜 양도 많네요 친절하시고 잘 구워주셔서 잘 먹었습니다", "곱이 아주 실하고 맛있어여 특히 친절하게 직접 구워주어서 넘 편하고 좋아여", "부모님이 수원에 오실때마다 가는집이예요 곱창도 곱이 가득들어있고 신선하고 너무너무 맛있어요 너무너무 추천합니다!", "곱창전골 맛집 !!!!!! 기본으로 간이랑 천엽 주는 것도 대박이고 직원분이 진짜 너무 착하세용 … ☺️최고!!"],
     "naverPlaceId": "1291900721",
     "naverBlogCnt": 76,
     "menuItems": [
@@ -35258,13 +34646,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "저번에 맛있게 먹었던 기억에 이번주도 왔어요오늘은 바베큐닭오븐구이가 메인으로 나왔는데 이것도 존맛탱ㅋㅋ 담에 또 올게요 👍👍",
-      "메뉴 다양하고 맛도 괜찮  매장 넓직하니 간격 넓어서 편햇음 딴데가서 사먹느니 가격 대비 가성비 좋음 👍 그리고 라면 먹을 수 잇는데 기계 3대나 잇어서 회전률 빨라서 이용하기 편함 오래 안기다려도 됨 굿",
-      "진지하게   고기들 냄새 많이 납니다 회사 숙소가  식당이랑 같은 건물이라 여러번 갔는데  이제는 다른 한식뷔페갑니다 위치도 너무 좋고 메뉴구성도 좋은데요 고기 냄새가 너무 심해요 닭,돼지 전부 그래서 못가요 개선좀 해주세요.",
-      "그날 그날 다르지만…..호불호 있어요~~~~",
-      "매일 매일 조금씩 달라지는 메뉴~~~오늘도 굿~~!!"
-    ],
+    "rv": ["사장님이 친절하시고 특히 음식이 맛있어요! 사람들도 많이 찾아와서 먹을 정도로 맛집이에요! ㅋㅋㅋ 여기 외져서 아쉽지만 맛은 보장합니다! ㅋㅋㅋ 라면도 무한리필이에요! 8500원으로 좋은 경험 했어요! ㅋㅋㅋ", "반찬도 식판에 다 담을수 없을만큼 종류도 많고 봄이 되니깐 신선한 쌈과 샐러드가 여러가지 나오니 좋네요.", "맛있게 드셨다니 정말 다행입니다. 매일 직접 준비하는 반찬 하나하나에 마음을 담고 있어요. 수원한식뷔페 맛집을 찾는 분들께 실망 없는 선택이 되도록 항상 최선을 다하겠습니다. 다음 방문 시에도 편하게 들러주세요.", "메뉴 다양하고 맛도 괜찮 매장 넓직하니 간격 넓어서 편햇음 딴데가서 사먹느니 가격 대비 가성비 좋음 👍 그리고 라면 먹을 수 잇는데 기계 3대나 잇어서 회전률 빨라서 이용하기 편함 오래 안기다려도 됨 굿", "정성스러운 리뷰 남겨주셔서 진심으로 감사드립니다. 든든한 한 끼가 필요할 때 떠오르는 수원한식뷔페 맛집이 되고 싶어요. 앞으로도 위생, 맛, 서비스 모두 꼼꼼히 챙기겠습니다. 재방문해주시면 더 좋은 모습으로 맞이하겠습니다.", "요즘 야채를 추가하고 많이 개선이 된거 같습니다~^^ 다시 한번 방문 해 주실 수 있을까요?", "바쁜 일상 속에서 저희 매장을 찾아주셔서 감사드립니다. 다양한 한식 메뉴를 부담 없이 즐기실 수 있도록 항상 연구 중이에요. 수원한식뷔페 맛집답게 맛과 위생 모두 놓치지 않겠습니다. 재방문해주시면 더 만족스러운 식사로 보답드릴게요.", "매일 다른 메뉴를 내려고 연구하고있습니다. 다양한 반찬을 골고루 즐기실 수 있도록 매일 정성을 들이고 있어요. 앞으로도 수원한식뷔페 맛집으로 만족도 높은 식사를 제공하겠습니다."],
     "naverPlaceId": "1407375029",
     "naverBlogCnt": 229,
     "menuItems": [
@@ -35316,12 +34698,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "오징어덮밥, 라볶이, 매운김밥음식이 빨리나오고 맛있어요.사장님도 친절해요.",
-      "포장해서 먹었어요.김밥이 재료가 꽉차있고 맛있어요.라볶이 양도 많고 잔치국수도 다 맛있네요.good~!항상 만족하는 식당입니다.사장님도 매우 친절해요.더보기",
-      "라볶이, 소불고기김밥, 매운김밥, 오징어덮밥다 맛있고요. 양도 많고, 재료도 신선하고..사장님도 친절해요.라볶이  넘~ 맛있음.   라볶이맛집~!김밥도 맛있어요.더보기",
-      "화질이 안좋지만 항상 맛있습니다아 ㅎㅎ 점심시간에 혼밥하기두 좋구 동료랑 같이 먹기두 좋아요 ㅎㅎ 포장도 맛있구 사장님도 넘 친절하세요 !! :)"
-    ],
+    "rv": ["화질이 안좋지만 항상 맛있습니다아 ㅎㅎ 점심시간에 혼밥하기두 좋구 동료랑 같이 먹기두 좋아요 ㅎㅎ 포장도 맛있구 사장님도 넘 친절하세요 !! :)"],
     "naverPlaceId": "1117067620",
     "naverBlogCnt": 7,
     "menuItems": [
@@ -36117,11 +35494,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "- 혼자 가서 삼겹살 2인분 구워먹어도 아늑하고 편안하게 즐길수 있었다. 너무 좋다. (본인 남 눈치보고 이런 성격 아닌데 왠만한 식당은 그래도 혼자 삼겹살 먹으러가면 뭔가 좀 불편한 곳이 대부분임. 그 식당에서 나에게 눈치주고 이런게 아님에도 그런게 있음. 혼자 고기 먹어본 사람은 이해할 듯.)- 넓고 좌석이 많음 (이것도 역시 혼자가 편한 이유 중 1나",
-      "사장님은 맛잘알이 분명해요~고기부터 반찬까지 징짜 너무 맛있어요!! 진짜 최고👍 고기 부드럽고 너무 신선해요:)매장도 넓고 청결하고 직원분들도 친절하세요.고기러버라면 꼭 가보셔야 합니다ㅎㅎ강추요!!",
-      "📍 갈삼집삼겹살엔 역시 갈삼집이지🥩🔥윤기 좔좔 구워지는 고기 비주얼에 침샘폭발!직화로 지글지글~ 불향 가득 입안에서 녹는 삼겹살 한 점이면 하루 피로 싹-✨밑반찬도 알차고 곱창찌개까지 찐한 국물맛에 밥 한공기 순삭🍚고기맛집 찾는다면 무조건 여기!#갈삼집 #삼겹살맛집 #불맛가득더보기"
-    ],
+    "rv": ["소갈비살 넘 맛있게 먹었어요! 매장 징짜 넓고 친절하시고 셀프바도 대박이에요..♥︎ 세트에 계란찜까지 나오니까 완전 푸짐하고 이집 곱창찌개 무조건 드세요!! 존맛 ㅠㅠ 곱창 가득해서 곱창전골 전문점에서 먹는 맛이에요 짱"],
     "naverPlaceId": "1058339873",
     "naverBlogCnt": 217,
     "menuItems": [
@@ -36351,13 +35724,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "가족들과 새조개맛집 다녀왔는데 맛잏게먹었네요 ~ 굿 👍",
-      "음식이 맛나고 좋아요가성비 짱짱이지요",
-      "참꼬막정식 22000원 1인맛있는데 가격 후덜덜 ㅎ",
-      "전체적인간이세지않아 건강을많이생각하시면 가시는거 좋을듯싶어요. 꼬막은 사실상 그렇게 많진않고 한번쯤 먹어볼만은해요. 직원분들 불친절한게 상당히별로였다는거빼곤 그냥저냥입니다",
-      "사장님~너무 맛있게 잘먹었어요♡점심 먹는 낙이 있어요~요즘 점심을 이곳에서 너무맛있게 먹느라집에가면 허기져욬ㅋㅋ음식에 대한 눈높이가 올라가서 큰일입니다.책임지세욧~ ㅎㅎ점심때 또 뵈어용♡더보기"
-    ],
+    "rv": ["우연히 지나는 길에 봤던 곳이라 전화예약하고 갔는데 새조개와 쭈꾸미를 맛있게 먹을수 있는 곳이네요.새조개 샤브에 냉이까지 있어서 봄내음 가득 좋았고 밑반찬도 시골할머니집 같은 맛이어서 함께 간 친구들이 다들 싹 먹었어요.바로 부쳐주신 따끈한 버섯전도 주셨는데 순삭해서 사진을 못찍었어요ㅎㅎ.참꼬막비빔밥도 맛있어서 다른 메뉴도 먹어 보려면 재방문 필수 네요.친절하고 맛있는 음식점 입니다.", "전체적인간이세지않아 건강을많이생각하시면 가시는거 좋을듯싶어요. 꼬막은 사실상 그렇게 많진않고 한번쯤 먹어볼만은해요. 직원분들 불친절한게 상당히별로였다는거빼곤 그냥저냥입니다"],
     "naverPlaceId": "37414320",
     "naverBlogCnt": 48,
     "menuItems": [
@@ -36494,13 +35861,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "👉 가성비 좋은 활어회집👉 회가 탱탱하고 신선함이 확 느껴지는 스타일👉 친구들이랑 가볍게 술 한잔하기도 좋은 분위기한마디로 말하면“활어회는 역시 신선함이 생명인데, 그걸 제대로 느낄 수 있는 횟집 추천드립니다재방문의사 있습니다더보기",
-      "추천세트 역시 먹을만하고 고등어구이도 참 노릇하게 잘 구워져나오더라고요 매운탕에 라면사리는 셀프로 넣어먹을 수 있어서 술안주로 더없이 좋았네요",
-      "회가 갑자기 넘 먹고싶어서 다녀왔는데 맛있었어요매운탕도 수제비 직접 넣어서 먹고 사리까지추가하니 맛나요사람들도 복작하니 도란도란 얘기하는 재미가있어요번창하세요~더보기",
-      "다양하게 먹기 좋고 맛있어요~",
-      "어사출또 망포점 방문 솔직후기https://m.blog.naver.com/k8020_/224092924284"
-    ],
+    "rv": ["추천세트 역시 먹을만하고 고등어구이도 참 노릇하게 잘 구워져나오더라고요 매운탕에 라면사리는 셀프로 넣어먹을 수 있어서 술안주로 더없이 좋았네요"],
     "naverPlaceId": "1592638605",
     "naverBlogCnt": 240,
     "menuItems": [
@@ -36585,13 +35946,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "팔선생 탕수육은 바삭 쫀득입니다~한결같이 변함없는 맛으로 항상 맛있어요. 꽃게와 오징어 해물이 들어간 짬뽕 국물도 맛있고, 짜장도 맛있어요. 먹느라 사진은 찍지 못했네요~맛있게 잘 먹었습니다. ^^더보기",
-      "오랜만에 짜장생각나서 들렀음이집 짜장이 고기고기 짜장인걸 잊고 있었다.회사 근처에 밍밍하고 고기향, 짜장향만 나는 짜장면 먹다가 이집 짜장 먹으면 대감동'아 이게 짜장이었지'그냥 짜장이 진한맛 그자체임꿔바로우할까 이전에 먹었던 칠리새우할까하다가 꿔바로우 먹었는데 대만족날 더 추워지면 짬뽕먹으러와야겠다.잘먹고 갑니당더보기",
-      "짜장 👍 탕면 👍 새우 👍",
-      "만리장성코스 1인 4만원",
-      "부모님 모시고 갔는데 전화 예약 받을 때도 그렇고 서빙하는 직원들이 친절하시네요. 들어오는 손님들 가는 손님들한테 인사도 잘 하고요"
-    ],
+    "rv": ["부모님 모시고 갔는데 전화 예약 받을 때도 그렇고 서빙하는 직원들이 친절하시네요. 들어오는 손님들 가는 손님들한테 인사도 잘 하고요"],
     "naverPlaceId": "18256631",
     "naverBlogCnt": 128,
     "menuItems": [
@@ -36624,7 +35979,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18256631/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTVfOTcg%2FMDAxNzQ5OTc5Njc3Nzg4.o9ZAwhpJENz-lz3X2m04NwTRaU5R_HCBQmYFA7Mnw5Eg.SrACSl7ECxAwv4uOm9qRUqeFp3rLTziBM1pPgALUbxEg.JPEG%2F20250615_122246.jpg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MDVfMjgy%2FMDAxNzQ5MTIxMzE5Mzkx.ebOl86P929Ko-X1qLXpkz-94bPXnepwgb7u07-FKMN4g.MfvjNCwe0xV91SpSqwMU1D5p1hyQAmjavs9BlDkP_wkg.JPEG%2FF3AF01BC-B4F4-48A6-BEAB-AB32E4EF2993.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MjdfNzAg%2FMDAxNzU2Mjg2NTcxOTU3.0qAAZwp6SNWizzCtifZ_9rfYEtwMjf45nlVOGiVuMoQg.P2aWMOYqugFfwR5wAWWzFs1kLZKG-Q0O4LtkM4J9b6Ig.JPEG%2F1000055270.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjE2%2FMDAxNzY5OTE0NzkxOTg1.dI9JFEa-2fS2dnj_p4Tt__ZRWjQ56wSSpwLb8lfsDq0g.VKq5iYX_jgLZMRqg6q-T4DiJkm-x6T6gGM6Wg9h_dVwg.JPEG%2FF6030475-F7A7-4C09-81EE-B47D1E52BBB0.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMTA4%2FMDAxNzY5OTE0NzkyMTU4.LXcIrjfCDNgj9eAzCJUfwC6-aSBuWKNIxbpo1uM31nUg.slMCiyyNz-xfY3mctfESvkSvtlDUp-tCne-usFu0vmEg.JPEG%2FD33035FC-A9DC-4F3F-990F-13BC277D0D4F.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20251221_122/17663249136260a6lq_JPEG/1000004660.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251221_65/1766324955643mWmsz_JPEG/1000004664.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MTVfOTcg%2FMDAxNzQ5OTc5Njc3Nzg4.o9ZAwhpJENz-lz3X2m04NwTRaU5R_HCBQmYFA7Mnw5Eg.SrACSl7ECxAwv4uOm9qRUqeFp3rLTziBM1pPgALUbxEg.JPEG%2F20250615_122246.jpg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MDVfMjgy%2FMDAxNzQ5MTIxMzE5Mzkx.ebOl86P929Ko-X1qLXpkz-94bPXnepwgb7u07-FKMN4g.MfvjNCwe0xV91SpSqwMU1D5p1hyQAmjavs9BlDkP_wkg.JPEG%2FF3AF01BC-B4F4-48A6-BEAB-AB32E4EF2993.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MjdfNzAg%2FMDAxNzU2Mjg2NTcxOTU3.0qAAZwp6SNWizzCtifZ_9rfYEtwMjf45nlVOGiVuMoQg.P2aWMOYqugFfwR5wAWWzFs1kLZKG-Q0O4LtkM4J9b6Ig.JPEG%2F1000055270.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjE2%2FMDAxNzY5OTE0NzkxOTg1.dI9JFEa-2fS2dnj_p4Tt__ZRWjQ56wSSpwLb8lfsDq0g.VKq5iYX_jgLZMRqg6q-T4DiJkm-x6T6gGM6Wg9h_dVwg.JPEG%2FF6030475-F7A7-4C09-81EE-B47D1E52BBB0.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMTA4%2FMDAxNzY5OTE0NzkyMTU4.LXcIrjfCDNgj9eAzCJUfwC6-aSBuWKNIxbpo1uM31nUg.slMCiyyNz-xfY3mctfESvkSvtlDUp-tCne-usFu0vmEg.JPEG%2FD33035FC-A9DC-4F3F-990F-13BC277D0D4F.jpeg", "imageUrl6": "https://ldb-phinf.pstatic.net/20251221_122/17663249136260a6lq_JPEG/1000004660.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251221_65/1766324955643mWmsz_JPEG/1000004664.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -36913,11 +36268,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매탄동에 있는 광명수산입니다.숭어회 맛있게 잘 먹었네요",
-      "아쉬웠던점: 일단 제철인 방어, 가숭어 기름기 전혀 안올라옴.. 원물상태 솔직하게 별로.. 방어상태도 색깔이 노란색에 맛도 그닥이라 사람들 반응 시큰둥..다른 메뉴들 주문하려해도 재료소진으로 주문불가..  회는 엄청나게 시켰는데 서더리 매운탕은 고기 몇조각 없음..연말모임이라 사람들 모일 일이 별로 없어서 중요한 날이였는데 많이 아쉬웠음.. 또 갈지는 미지",
-      "맛있게  기분좋게 먹고 왔어요~~"
-    ],
+    "rv": ["매장이 넓어요. 서빙을 한 분이 하시는데 술을 드신건지 횡설수설하고 버거워 보였어요ㅠㅠ"],
     "naverPlaceId": "20715218",
     "naverBlogCnt": 21,
     "menuItems": [
@@ -37021,7 +36372,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/2040670482/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_182%2F1776802661349i1Pzr_JPEG%2FIMG_9718.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260423_21%2F1776954963229nD4J2_JPEG%2FFr3U55dR7j_01.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260423_221%2F1776954872939oI5HY_JPEG%2FDkvWyPZJcM_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_182%2F1776802661349i1Pzr_JPEG%2FIMG_9718.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_256%2F1776802661215tyxRA_JPEG%2FIMG_9717.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260401_73%2F17750547988548uDmB_JPEG%2FIMG_4190.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260125_86/1769334780230vzFKp_JPEG/IMG_1116.jpeg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/cake20220119222226.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_182%2F1776802661349i1Pzr_JPEG%2FIMG_9718.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260423_21%2F1776954963229nD4J2_JPEG%2FFr3U55dR7j_01.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260423_221%2F1776954872939oI5HY_JPEG%2FDkvWyPZJcM_02.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_182%2F1776802661349i1Pzr_JPEG%2FIMG_9718.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260422_256%2F1776802661215tyxRA_JPEG%2FIMG_9717.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260401_73%2F17750547988548uDmB_JPEG%2FIMG_4190.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260125_86/1769334780230vzFKp_JPEG/IMG_1116.jpeg", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -37049,12 +36400,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매장이 넓고  음식이빨리나왔어요!!",
-      "굴짬뽕에 굴도 많고 넘 맛있어요 탕수육도 바삭하고  진짜 맛있음",
-      "탕슉맛집.친절하고 음식 다 맛있고 양도많고.완전 좋음",
-      "가서 앉아서 시키면 바로나온다고보시면 됩니다.단무지와 양파는 셀프였으면 좋겠습니다.점심에 손님이 많지만회전이 엄청빨라요.더보기"
-    ],
+    "rv": ["신선한 재료와 맛 음식에 진심이라고 느껴지는 식당이었습니다 멀리온 보람이있었네요!!!"],
     "naverPlaceId": "33449266",
     "naverBlogCnt": 43,
     "menuItems": [
@@ -37112,7 +36458,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33449266/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl2": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl3": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png", "imageUrl4": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png", "imageUrl5": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/coin20220119222025.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/eyes20220119222026.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/cook20220119222024.png",
+    "imageUrl": "", "imageUrl2": "", "imageUrl3": "", "imageUrl4": "", "imageUrl5": "", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": true,
     "reservation": true
   },
@@ -37266,10 +36612,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있어요. 자주올것같습니다.",
-      "청명역에서 망포로 이전개업하셔서 너무너무 슬펐지만 지하철을 타서라도 먹게되는 전설의 맛집임...보리밥 너무맛있고 바지락칼국수는 안시키면 불법임사장님은 대박친절소담골 사랑해요더보기"
-    ],
+    "rv": ["팥칼국수 넘 먹고 싶어서 갔는데, 웬걸여기 해물파전 맛집이었네요?진짜 맛있어요 담에도 또 갈게요^^", "4인세트 로스로 맛있게 먹었어요! 오리고기 담백하고 전병 맵지 않아 좋았어요!"],
     "naverPlaceId": "18271195",
     "naverBlogCnt": 101,
     "menuItems": [
@@ -37327,7 +36670,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18271195/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240723_269%2F1721712625226VVMpC_JPEG%2F%25BC%25D2%25B4%25E3%25B0%25F1_%25C3%25D6%25BD%25C5_%25B8%25DE%25B4%25BA%25C6%25C7.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240723_269%2F1721712625226VVMpC_JPEG%2F%25BC%25D2%25B4%25E3%25B0%25F1_%25C3%25D6%25BD%25C5_%25B8%25DE%25B4%25BA%25C6%25C7.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_99%2F1458116410761T8LH9_JPEG%2F176266575029742_0.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_211%2F1458116410824Mbwda_JPEG%2F176266575029742_1.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_111%2F1458116410894QWcW7_JPEG%2F176266575029742_2.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_8%2F14581164109983C1jQ_JPEG%2F176266575029742_3.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240723_210/1721712716777hTKcV_PNG/sefsfsef.PNG", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240723_269%2F1721712625226VVMpC_JPEG%2F%25BC%25D2%25B4%25E3%25B0%25F1_%25C3%25D6%25BD%25C5_%25B8%25DE%25B4%25BA%25C6%25C7.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240723_269%2F1721712625226VVMpC_JPEG%2F%25BC%25D2%25B4%25E3%25B0%25F1_%25C3%25D6%25BD%25C5_%25B8%25DE%25B4%25BA%25C6%25C7.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_99%2F1458116410761T8LH9_JPEG%2F176266575029742_0.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_211%2F1458116410824Mbwda_JPEG%2F176266575029742_1.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_111%2F1458116410894QWcW7_JPEG%2F176266575029742_2.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160316_8%2F14581164109983C1jQ_JPEG%2F176266575029742_3.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240723_210/1721712716777hTKcV_PNG/sefsfsef.PNG", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -37396,13 +36739,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제일 좋아하는 맘스터치 햄버거 포장해가기 위해 방문했어요ㅎㅎ 화이트갈릭버거를 제일 좋아하는데 가족들 것도 같이 포장해서 집에서 같이 먹었네요~ 든든하고 속재료도 맛있고 다양해서 좋아요",
-      "와우순살치킨 출시기념 이벤트로 맘스터치 앱에서 7000원 할인 포장 주문하고 방문했어요.영통1호점 직원분 넘나 친절하셔서 포장, 방문할때마다 기분 좋게 이용하고 있습니다. 센스있게 음료 포장은 방문, 확인 후 담아주시더라구요.언제 먹어도 맛난 맘스터치, 후라이드 순살치킨 콤보로 주문했는데 가슴살인데도 퍽퍽하지 않고 매콤한 것이 너무 맛있어서 이틀 연속으로 ",
-      "제일 좋아하는 맘스터치 화이트갈릭버거 세트를 기프티콘으로 교환해서 점심 해결했어요ㅎㅎ 양도 푸짐하고 적당히 맛있어서 좋아요~",
-      "케이준양념감자 콘샐러드 맛있어요~♡",
-      "오랜만에 제일 좋아하는 햄버거 세트가 먹고싶어 방문했어요~ 든든하고 푸짐한 햄버거로 주문했는데 갓 나와서 따뜻하고 배부르게 먹을 수 있었어요ㅎㅎ 가끔씩 생각날 때 들를 듯해요"
-    ],
+    "rv": ["점심시간에 혼밥하러 갔어요. 맘스터치 오면 싸이버거만 먹다가 후덕죽 싸이버거 궁금해서 먹어봤어요. 뭔가 깐풍기 소스같은 중화풍 소스에 치즈가 녹아서 크리미한 느낌이 나고 저는 그냥그랬어요. 햄버거 반쯤 먹으니까 배불렀는데 천천히 어찌저찌 먹었어요. 안에들어있는 치킨 맛있어요. 완전 배고플때 먹었으면 더 맛있게 먹었을듯!", "제일 좋아하는 맘스터치 햄버거 포장해가기 위해 방문했어요ㅎㅎ 화이트갈릭버거를 제일 좋아하는데 가족들 것도 같이 포장해서 집에서 같이 먹었네요~ 든든하고 속재료도 맛있고 다양해서 좋아요", "제일 좋아하는 맘스터치 화이트갈릭버거 세트를 기프티콘으로 교환해서 점심 해결했어요ㅎㅎ 양도 푸짐하고 적당히 맛있어서 좋아요~", "여기 지점은 늘 감자튀김이나 빅싸이순살이 양이 적고 다른 지점보다 맛이 떨어져요"],
     "naverPlaceId": "38530826",
     "naverBlogCnt": 39,
     "menuItems": [
@@ -37485,11 +36822,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "좋은날 좋은 사람들과 함께한시간~🤍뢍포돛대 회 퀄리티  미춋따리~~~영통구청 맛집으로 인정합니다~👍🏻👍🏻",
-      "모듬회 포장해서 먹었어요. 회가 신선해서 맛있었어요. 묵은지가 맛있었고, 찍어먹는 참기름도 항이 좋았어요. 김을 많이 넣어주셔서 넉넉했어요. 사장님이 친절해서 좋았어요.새해 복 많이 받으세요~",
-      "포장 주문을 위해 1시간 전에 전화로 예약을 했고 약속했던 시간에 딱 맞춰 갔는데 포장이 준비되어있지 않았고  물어보니 사장은 전화 주문 자체를 기억하지 못했고 가게 내에서 본인 지인들과 술을 마시고 있었으며 주문 누락에 대해 문제를 제기하니 그럴수도 있지 않냐며 본인은 술을 마시면 회를 더 잘뜬다며 적반하장으로 나왔고. 싱싱한 회를 바로 떠서 주면 더 좋"
-    ],
+    "rv": ["포장 주문을 위해 1시간 전에 전화로 예약을 했고 약속했던 시간에 딱 맞춰 갔는데 포장이 준비되어있지 않았고 물어보니 사장은 전화 주문 자체를 기억하지 못했고 가게 내에서 본인 지인들과 술을 마시고 있었으며 주문 누락에 대해 문제를 제기하니 그럴수도 있지 않냐며 본인은 술을 마시면 회를 더 잘뜬다며 적반하장으로 나왔고. 싱싱한 회를 바로 떠서 주면 더 좋은게 아니냐며 오히려 들고있던 칼을 세게 내려놓으며 화를 내시더군요. 주차가 애매해서 일행이 계속 골목을 돌며 회를 뜰때까지 기다려야 했고 사과마저도 짜증한가득 머금고 하시더군요. 미리 전화한 의미도 없었고 비싼값 주고 사먹는데 짜증만 나네요."],
     "naverPlaceId": "18289906",
     "naverBlogCnt": 45,
     "menuItems": [
@@ -37574,11 +36907,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "수요일 오전 알바 한분은 정말 손님 오는게 싫으신건지 안좋은 일이 있으신건지 원래 그러신건지... 진지하게 교육을 하시든 조치를 취하시는게 좋을것 같아요; 이 지점 처음 이용해봐서 원래 그런분인지 알길은 없지만 제 경험으론 불쾌 그자체였습니다. 친절까진 바라지않지만... 굳이 기분나쁘게 하실필욘없을 것 같은데; 메가 오더 주문하고 갔는데 확인을 안하시길래 ",
-      "커피 양도 많고 기프티콘 들어오는 곳이 많아서 자주 애용하는 지점이에요ㅎㅎ 가성비 좋고 위치도 역 근처라 출퇴근시 가볍게 들르기 좋아요~ 아이스 아메리카노 마니아인데 원두 맛도 씁쓸하니 고급져서 추천해요",
-      "잠시 시간이 돼서 친구와 차한잔."
-    ],
+    "rv": ["음료 빨리 받아야해서 메가오더 주문하고 십분뒤에 방문했는데 분명 음료가 준비되어 있지 않았습니다. 음료 준비 완료라는 알림을 분명 오분 전 받고 방문했는데 주문 착오인지 준비되어있지 않았고 죄송하다는 말조차 하지 않으셨습니다. 알바생 분께 말씀드렸는데도 기다리라는 말만 하시고 음료를 바로 제조해주지 않으셨습니다. 이럴거면 방문 주문할 걸 그랬네요. 다시는 이 지점에서 주문할 의사 없습니다.", "수요일 오전 알바 한분은 정말 손님 오는게 싫으신건지 안좋은 일이 있으신건지 원래 그러신건지... 진지하게 교육을 하시든 조치를 취하시는게 좋을것 같아요; 이 지점 처음 이용해봐서 원래 그런분인지 알길은 없지만 제 경험으론 불쾌 그자체였습니다. 친절까진 바라지않지만... 굳이 기분나쁘게 하실필욘없을 것 같은데; 메가 오더 주문하고 갔는데 확인을 안하시길래 매장에서 기다렸고 기다리시는 손님도 계시길래 앞에서 그냥 기다리고있었는데 음료 툭 놓고 자기할일하시더라구요. 영수증보고 알아서 찾아가라는건지.. 이거 나온건가요? 물어보니 그때서야 눈흘기며 메가오더요. 하시고 두잔중 바닐라 아메리카노 따로 표시됬는지 물어봤는데 세상 귀찮고 어이없다는 듯이 눈흘기며 대답하셔서 당황했네요.. 커피마시려다 기분만 상했어요ㅠㅠ", "커피 양도 많고 기프티콘 들어오는 곳이 많아서 자주 애용하는 지점이에요ㅎㅎ 가성비 좋고 위치도 역 근처라 출퇴근시 가볍게 들르기 좋아요~ 아이스 아메리카노 마니아인데 원두 맛도 씁쓸하니 고급져서 추천해요"],
     "naverPlaceId": "1546273699",
     "naverBlogCnt": 27,
     "menuItems": [
@@ -37636,7 +36965,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1546273699/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220503_24%2F1651565913563w6qS5_JPEG%2FKakaoTalk_20220503_171801989.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220503_24%2F1651565913563w6qS5_JPEG%2FKakaoTalk_20220503_171801989.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDlfMTEz%2FMDAxNzYyNjYzMjU0NzQ3.mJLz5naBVQvUXn77JOvJCjrYEfSemYN-qxBx4JZdd9gg.jeypoqyHy1JzGRTsQoXriX1QtwYtoPGCy75iOgvPUmkg.JPEG%2F20251109_130827.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMzBfNTMg%2FMDAxNzY0NTA0NzE2MTk3.Tcxmsv_GGBNj2QDKiWVnYuzxzk3tCABYVNqNofWVrn4g.GsSdQsPFugzL0nhnnVyBpqCml-nVTpOF4wWz2jw7jXEg.JPEG%2FA26290FD-2FAB-4658-989B-C2FC859A6ED6.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDZfMTEx%2FMDAxNzU0NDQ5MTUyNTM0.lNFJfMWMDEwuxNWJY4BtqRAagQbZ4TnnracO0leinlUg.yeBZfuPdBoDW9oB9vaWy4pXNIQV86sH_Lr1T7unk8Ukg.JPEG%2F20250804_165706.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MDdfMjMw%2FMDAxNzQ5MjU5OTQzODUy.-GCTjpf57YWp1_7CRprj35dQ-OM3eFZxafx-_tgtG64g.Qip-6kcAbmO8co2M2_4cQxt7KE4bpH1uVGjD89CIAGAg.JPEG%2F20250606_183705.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20210907_52/1630973522700X7zp4_JPEG/w7nBbLtwgitrHVyEa89ezD_9.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/coffee20220119222225.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220503_24%2F1651565913563w6qS5_JPEG%2FKakaoTalk_20220503_171801989.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220503_24%2F1651565913563w6qS5_JPEG%2FKakaoTalk_20220503_171801989.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDlfMTEz%2FMDAxNzYyNjYzMjU0NzQ3.mJLz5naBVQvUXn77JOvJCjrYEfSemYN-qxBx4JZdd9gg.jeypoqyHy1JzGRTsQoXriX1QtwYtoPGCy75iOgvPUmkg.JPEG%2F20251109_130827.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMzBfNTMg%2FMDAxNzY0NTA0NzE2MTk3.Tcxmsv_GGBNj2QDKiWVnYuzxzk3tCABYVNqNofWVrn4g.GsSdQsPFugzL0nhnnVyBpqCml-nVTpOF4wWz2jw7jXEg.JPEG%2FA26290FD-2FAB-4658-989B-C2FC859A6ED6.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MDZfMTEx%2FMDAxNzU0NDQ5MTUyNTM0.lNFJfMWMDEwuxNWJY4BtqRAagQbZ4TnnracO0leinlUg.yeBZfuPdBoDW9oB9vaWy4pXNIQV86sH_Lr1T7unk8Ukg.JPEG%2F20250804_165706.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MDdfMjMw%2FMDAxNzQ5MjU5OTQzODUy.-GCTjpf57YWp1_7CRprj35dQ-OM3eFZxafx-_tgtG64g.Qip-6kcAbmO8co2M2_4cQxt7KE4bpH1uVGjD89CIAGAg.JPEG%2F20250606_183705.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20210907_52/1630973522700X7zp4_JPEG/w7nBbLtwgitrHVyEa89ezD_9.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -37663,13 +36992,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "21시에 마감이 명시된 식당을 20시 22분 정도에 방문하였으나, 라스트 오더를 놓칠세라 재촉하시는 배려 덕분에 언능 주문하고 30분에 식사가 나왔습니다. 20시 30분부터 직원분들은 옷을 갈아입고, 퇴근 준비에 임하시는 분주함을 보여주시고 40분경에는 10분 남았다고 친절히 압박까지 주셨고, 알바분은 좌석에 옷 갈아 입고 앉아 퇴근 대기 중이셨습니다. 그",
-      "일요일 플레이스시간 라스트오더 8시 30분 / 마감 9시까지로 되어있어 방문막상 가니 8시40분까지 먹고 나가야 한다고 해서늦은시간에 마땅히 갈 곳이 없어서 알겠다고 했습니다.8시30분 전에 이미 주문도 안 받음한팀은 그냥 가시고..그건 그렇다 치고 8시30분 되니까 직원분들 다 옷 갈아입으시고외투까지 입으신 채로 홀에 앉아계시고35분에는 매장 음악도 꺼버",
-      "알밥정식 가성비좋아요~~",
-      "매탄동에 오래 살면서 여기 몇년째 단골임사장님 (예쁘심..) 항상 너무 친절하시고음식도 맛있어요가끔 포장도 이용하는데 빠르고 깔끔해서 잠깐 차대놓고 받기 아주 좋아염또가야징더보기",
-      "맛도좋고 직원도 친절하고 가격도 착하네요^~계속이용해야할것 같아요"
-    ],
+    "rv": ["21시에 마감이 명시된 식당을 20시 22분 정도에 방문하였으나, 라스트 오더를 놓칠세라 재촉하시는 배려 덕분에 언능 주문하고 30분에 식사가 나왔습니다. 20시 30분부터 직원분들은 옷을 갈아입고, 퇴근 준비에 임하시는 분주함을 보여주시고 40분경에는 10분 남았다고 친절히 압박까지 주셨고, 알바분은 좌석에 옷 갈아 입고 앉아 퇴근 대기 중이셨습니다. 그분들의 노고 덕분에 혼자 밥을 먹는 내내 제가 이 식당에 민폐를 끼치고 있다는 엄청난 죄책감을 느끼며 식사를 서둘렀습니다. 저는 20시 48분경 식당에 나오면서 귀한 직원분들의 퇴근 시간을 지켜드린 경험을 했습니다."],
     "naverPlaceId": "21172296",
     "naverBlogCnt": 29,
     "menuItems": [
@@ -37816,7 +37139,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/32103569/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_39%2F14760816140610AcwU_JPEG%2F176960557033976_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_39%2F14760816140610AcwU_JPEG%2F176960557033976_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_62%2F1476081614132z1NoE_JPEG%2F176960557033976_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MjFfOTEg%2FMDAxNzc2NzQwNzU1NTg2.S6eCvRfTo_asmaWxx5DND0ASxnj1lepC695bC8XmEGog.tyRrVVzf1NdyXdGOXNiv9T3ySwVoZeoOcQf5lEWkmV8g.JPEG%2F20260421_120508.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MTBfNzQg%2FMDAxNzc1NzkwODgzNzAx.4TdtJwsT_Iy64dVAUrhKthfyvBufvWeGSn63JA1TmJkg.E1pnuzFiJrH4P2HKPei5UsXXzzJ-m5nrxn4Lw98fGwAg.JPEG%2F20260410_121258.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMDNfMjM4%2FMDAxNzcyNTE4MTMxNjYw.qUsPz28kUhj6PUGaRXHuxv8kf_OD70YJPew1-OMb8XMg.Z-ThEy9Uoxe9MzPUyQ7n4oEh-hGdRkEwfK531vf25qYg.JPEG%2FIMG_0131.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20200507_206/1588837448284cGyCq_PNG/OjZiG_suYhftOuBeap1u-6xN.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_39%2F14760816140610AcwU_JPEG%2F176960557033976_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_39%2F14760816140610AcwU_JPEG%2F176960557033976_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161010_62%2F1476081614132z1NoE_JPEG%2F176960557033976_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MjFfOTEg%2FMDAxNzc2NzQwNzU1NTg2.S6eCvRfTo_asmaWxx5DND0ASxnj1lepC695bC8XmEGog.tyRrVVzf1NdyXdGOXNiv9T3ySwVoZeoOcQf5lEWkmV8g.JPEG%2F20260421_120508.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjA0MTBfNzQg%2FMDAxNzc1NzkwODgzNzAx.4TdtJwsT_Iy64dVAUrhKthfyvBufvWeGSn63JA1TmJkg.E1pnuzFiJrH4P2HKPei5UsXXzzJ-m5nrxn4Lw98fGwAg.JPEG%2F20260410_121258.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMDNfMjM4%2FMDAxNzcyNTE4MTMxNjYw.qUsPz28kUhj6PUGaRXHuxv8kf_OD70YJPew1-OMb8XMg.Z-ThEy9Uoxe9MzPUyQ7n4oEh-hGdRkEwfK531vf25qYg.JPEG%2FIMG_0131.jpeg", "imageUrl7": "https://ldb-phinf.pstatic.net/20200507_206/1588837448284cGyCq_PNG/OjZiG_suYhftOuBeap1u-6xN.png", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -37847,13 +37170,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "아이들과 점심 먹으러 들렀어요~~애들이 워낙 잘 먹어서 항상 먹으러 오는 중국집이에요^^ 오늘도 역시 맛있게 잘 먹고 갑니다.",
-      "보배반점 영통점 방문 후기입니다짜장, 짬뽕 모두 맛있어요아이가 짜장면 먹고싶다고 해서 왔어요매장 내부도 깔끔하고 음식 나오는 속도도 빨랐습니다중식 생각날 때 재방문하고 있습니다더보기",
-      "겨울에는 역시 짬뽕이죠?! 😆😆😆 보배반점에서 소고기짬뽕 먹었는데, 국물에 진한 소고기 육수맛이 너무 시원했어요! 매장도 넓어서 혼밥도 단체 모두 OK!! 그리고 친절하셔서 중식이 생각날때  늘 찾게되요! 👍👍👍👍👍😆⭐️⭐️⭐️",
-      "가족과 와서 먹기 좋은 매장. 음식도 맛있어요!",
-      "오랜만에 찾은 법에 만점 아이들과 함께 짜장면과 짬뽕을 먹으러 왔어요. 저녁으로 중국 음식 먹으니까 아이들도 너무 행복해하고 저도 너무 편하고 좋네요. 역시 중국 음식은 보배 반점이 최고예요"
-    ],
+    "rv": ["오징어 짬뽕은 처음인데 실하고 부드러워요 소고기짬뽕도 맛있어요 말모말모 크림짬뽓 존민ㅅ", "오늘 처음 방문했는데 매장이 넓고 너무 친절하셔서 감사했어요 음식도 넘 빠르게 나오고, 맛있어서 다음에도 또 방문하고 싶어요!! 다른메뉴도 시켜먹어보고 싶어요 😋😋👍 서비스도 넘 감사합니다💕💕", "여기 자주오는데 엄청맛닜어요 밥도 공짜고 커피도 꽁짜고 음식도 양도많고 퀄리티가 너무 좋아요 오셔서 꼭 드셔보세용 적극 추천드립니다👍👍👍"],
     "naverPlaceId": "1232660287",
     "naverBlogCnt": 370,
     "menuItems": [
@@ -37938,11 +37255,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "포장해와서 먹었습니다. 맛있어요",
-      "배달해서 먹었는데 양도 많고 너무너무 맛있어요",
-      "매운맛, 보통맛 1인분씩, 오징어튀김 포장해와서 집에서 먹었습니다. 양배추와 치즈 넣어서 먹으니 더 맛있네요. 오징어튀김 넘 맛있습니다."
-    ],
+    "rv": ["매운맛, 보통맛 1인분씩, 오징어튀김 포장해와서 집에서 먹었습니다. 양배추와 치즈 넣어서 먹으니 더 맛있네요. 오징어튀김 넘 맛있습니다.", "음식도 빨리 나오고 직원분도 친절해서 좋았어요. 오랜만에 먹었는데도 맛있고 양 많네요. ㅎㅎ", "1인분 순한맛 포장했어요 맛과 양이 여전하네요 그나저나 사장님 힘내세요 표정이 많이 힘들어보이시던뎅 ㅠㅠ"],
     "naverPlaceId": "37525837",
     "naverBlogCnt": 30,
     "menuItems": [
@@ -38115,12 +37428,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "굴 보쌈을 먹었습니다 너무 맛나게 먹었어요 또올게요~🫡",
-      "보쌈도 족발도 막국수도 정~~~말 맛있어요❤",
-      "금요일에가니 사람이 많네요다행이 한자리있어 대기없이 바로입장 맛있네요~",
-      "족발하면 귀족이네요역시 맛있어요오길 정말 잘 할것 같아요"
-    ],
+    "rv": ["매장에서 먹으려다 불친절해서 가려고 포장했더니 막국수는 포장이 안된다고 불친절하게 말하는 직원까지 진짜 기분 좋게 들어갔다가 화가나서 나왔네요", "2차로 오신거니까 5명이서 2인분을 시켜도 되는 고객님이라 기억합니다. 먼저 불친절하다고 느끼신점이 있다면 진심으로 사과드립니다. 주문하신 족발 포장해달라고해서 족발 포장해드리고 막국수는 포장 안해주느냐고 하셔서 포장된다고 해드린다고 직원이 말씀드린점에서 서로 의사소통이 안된 부분이 있었나봅니다. 족발집에서 포장안되는 메뉴는 없습니다. 더욱 친절한 귀한족발이 되도록 노력하겠습니다."],
     "naverPlaceId": "1396691384",
     "naverBlogCnt": 50,
     "menuItems": [
@@ -38592,7 +37900,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/18277606/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f640_380&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjJfMjM1%2FMDAxNzAzMjI4NDQ0Nzc4.I3wQ4OND1RE9ywsgHCENvOmftzl0WLX81NFpP_7a_5Ig.Esn5_YGWIX33dxssCjArbnZubsS6wZ-w7mGZ5G5Lfpog.JPEG.nkj77%2F20231212%25A3%25DF132406.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjJfMjM1%2FMDAxNzAzMjI4NDQ0Nzc4.I3wQ4OND1RE9ywsgHCENvOmftzl0WLX81NFpP_7a_5Ig.Esn5_YGWIX33dxssCjArbnZubsS6wZ-w7mGZ5G5Lfpog.JPEG.nkj77%2F20231212%25A3%25DF132406.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MjZfMTA3%2FMDAxNjUwOTQ5NjcyMzU3.lRZ6jpKUOjsYulgNnshYSetnraLFBo9P7xrdxAI5vaAg.KOSMzXb7bUN-Fk6Da20iNEy6xTBGWjJX55JN5YeVHNEg.JPEG.cratetan%2F20220130%25A3%25DF091937.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMDRfNjMg%2FMDAxNzA3MDU2MjE3ODQ0.NHq4a_kKK0x0GryyWw20cyOl2obtC3dePnuMdQyDNFMg.fzwxHk_CkUYRg4VkfIsjz78RppKOVCK5bGc9FqTCPYcg.JPEG.santasora2%2F1707056208869.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjlfNzIg%2FMDAxNzA2NDU2NTY5MTM5.MtxU-HIAT5VahCpbzlB2aTOgTIIb8nhPCcSgQeqCrpYg.vxgCL4LML_7oqNqsfiQ6Tdu5uq-mkf4ya2WvEaqsKDgg.JPEG.cofl4302%2FIMG_8278.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjU4%2FMDAxNzY5OTU1ODM1ODg0.qv0pC3flbOfd9AwLxvpg-5s4V8rtLoq1hgMRnEFaqL0g.PnO2oaoSJBiFoHjTsj9AbnBa0P2qYGRaMA6rXicFb7Yg.JPEG%2F4A307FE8-73B5-4737-8E2D-178208C6877E.jpeg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f640_380&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjJfMjM1%2FMDAxNzAzMjI4NDQ0Nzc4.I3wQ4OND1RE9ywsgHCENvOmftzl0WLX81NFpP_7a_5Ig.Esn5_YGWIX33dxssCjArbnZubsS6wZ-w7mGZ5G5Lfpog.JPEG.nkj77%2F20231212%25A3%25DF132406.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjJfMjM1%2FMDAxNzAzMjI4NDQ0Nzc4.I3wQ4OND1RE9ywsgHCENvOmftzl0WLX81NFpP_7a_5Ig.Esn5_YGWIX33dxssCjArbnZubsS6wZ-w7mGZ5G5Lfpog.JPEG.nkj77%2F20231212%25A3%25DF132406.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA0MjZfMTA3%2FMDAxNjUwOTQ5NjcyMzU3.lRZ6jpKUOjsYulgNnshYSetnraLFBo9P7xrdxAI5vaAg.KOSMzXb7bUN-Fk6Da20iNEy6xTBGWjJX55JN5YeVHNEg.JPEG.cratetan%2F20220130%25A3%25DF091937.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMDRfNjMg%2FMDAxNzA3MDU2MjE3ODQ0.NHq4a_kKK0x0GryyWw20cyOl2obtC3dePnuMdQyDNFMg.fzwxHk_CkUYRg4VkfIsjz78RppKOVCK5bGc9FqTCPYcg.JPEG.santasora2%2F1707056208869.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjlfNzIg%2FMDAxNzA2NDU2NTY5MTM5.MtxU-HIAT5VahCpbzlB2aTOgTIIb8nhPCcSgQeqCrpYg.vxgCL4LML_7oqNqsfiQ6Tdu5uq-mkf4ya2WvEaqsKDgg.JPEG.cofl4302%2FIMG_8278.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDFfMjU4%2FMDAxNzY5OTU1ODM1ODg0.qv0pC3flbOfd9AwLxvpg-5s4V8rtLoq1hgMRnEFaqL0g.PnO2oaoSJBiFoHjTsj9AbnBa0P2qYGRaMA6rXicFb7Yg.JPEG%2F4A307FE8-73B5-4737-8E2D-178208C6877E.jpeg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -38620,11 +37928,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛이ㅆ어용~~~ 주기적으로 먹습니다 ^^ 족발은 여기서만 먹는 것 같아용 주먹밥도 정말 맛있습니당~",
-      "수원에서 10년 동안 족발 맛집을 찾지 못했는데, 망포동에 이렇게 맛있는 족발집이 있었네요! 3년 동안 혼자만 알고 먹어왔는데, 이제는 자신 있게 말할 수 있습니다. 직접 가보세요, 정말 맛있어요~~~~~~",
-      "우리가족 이사오고 처음 방문했는데 메뉴구성이 알차고 가성비가 좋네요^^  티오더 결제 및 반찬 셀프바가있어서 편리하고 좋았네요 감자탕이 남아서 포장 부탁드렸더니 국물이랑 무청시래기도 추가해주시고 친절하게 응대해주셔서 감사했어요 불경기인데 대박나시길 바래요"
-    ],
+    "rv": ["비오는 날이라 언니랑 김치전 생각에 족발 먹으러 갔어요.족발집에 별미로 김치전이랑 파전을 파는데 너무 맛있어요.족발도 맛있어서 아이들 주려고 소자 하나 포장해 왔어요.", "맛이ㅆ어용~~~ 주기적으로 먹습니다 ^^ 족발은 여기서만 먹는 것 같아용 주먹밥도 정말 맛있습니당~", "우리가족 이사오고 처음 방문했는데 메뉴구성이 알차고 가성비가 좋네요^^ 티오더 결제 및 반찬 셀프바가있어서 편리하고 좋았네요 감자탕이 남아서 포장 부탁드렸더니 국물이랑 무청시래기도 추가해주시고 친절하게 응대해주셔서 감사했어요 불경기인데 대박나시길 바래요"],
     "naverPlaceId": "1821567475",
     "naverBlogCnt": 60,
     "menuItems": [
@@ -38920,7 +38224,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/180644011/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_14%2F15323974006729ix5u_JPEG%2F_frjOjP5zpnytVsO9X-dt1YP.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_14%2F15323974006729ix5u_JPEG%2F_frjOjP5zpnytVsO9X-dt1YP.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_100%2F1532397403036CdsPe_JPEG%2FpkltInVglNK3PVFkynl1X38w.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_49%2F1532397406622PcACU_JPEG%2FtytVHloEHtAOupOaGvrAewO-.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTJfMTMw%2FMDAxNzU0OTk4MjQwNDk2.mF5BmoKro7cy8zAOpvX68TShaMP8RA4SAnqi9nqXbXsg.5N6V-BTX93eiKoBI266cpdqu2OwPBJJsjgXPAiYYmr4g.JPEG%2F20250812_183654.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MjJfMTgy%2FMDAxNzUzMTc4MTkwNDc2.DKK5I89iLYzqjhb7C6UlieGJXITL9V3_Ur1oFVrhUlYg.gaiXQASr6uEPxEN5ML9_Yn9U6DFcmWBAFAlgtL6etxkg.JPEG%2F20250721_125427.jpg.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_14%2F15323974006729ix5u_JPEG%2F_frjOjP5zpnytVsO9X-dt1YP.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_14%2F15323974006729ix5u_JPEG%2F_frjOjP5zpnytVsO9X-dt1YP.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_100%2F1532397403036CdsPe_JPEG%2FpkltInVglNK3PVFkynl1X38w.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180724_49%2F1532397406622PcACU_JPEG%2FtytVHloEHtAOupOaGvrAewO-.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA4MTJfMTMw%2FMDAxNzU0OTk4MjQwNDk2.mF5BmoKro7cy8zAOpvX68TShaMP8RA4SAnqi9nqXbXsg.5N6V-BTX93eiKoBI266cpdqu2OwPBJJsjgXPAiYYmr4g.JPEG%2F20250812_183654.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MjJfMTgy%2FMDAxNzUzMTc4MTkwNDc2.DKK5I89iLYzqjhb7C6UlieGJXITL9V3_Ur1oFVrhUlYg.gaiXQASr6uEPxEN5ML9_Yn9U6DFcmWBAFAlgtL6etxkg.JPEG%2F20250721_125427.jpg.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -38994,13 +38298,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "가성비하면 역시 롯데리아👍👍",
-      "토스에서 받은 기프티콘이 있어서 퇴근하면서 저녁 대신으로 먹었어요~ 음료수도 따로 시킬까 했는데 귀찮아서 그냥 햄버거만 먹고 나왔네요ㅎㅎ 다음번에도 받게 되면 다시 방문할 듯해요",
-      "새우버거도 주문 즉시 조리해주셔서 맛있었고, 음료에 얼음 빼고 주문이 가능한 점이 너무나도 좋았습니다! 추운 겨울에 얼음 가득한 사이다는 너무 차가운데, 얼음이 없으니 마시기 정말 편하더라구요 ㅎㅎ",
-      "매장이 청결하고 혼밥하기 정말 좋아요",
-      "역 출구 바로 앞에 있어서 가기 편했어요 통창으로 들어오는 햇살이 따사로워서 식사하기 편한 분위기였습니다."
-    ],
+    "rv": ["토스에서 받은 기프티콘이 있어서 퇴근하면서 저녁 대신으로 먹었어요~ 음료수도 따로 시킬까 했는데 귀찮아서 그냥 햄버거만 먹고 나왔네요ㅎㅎ 다음번에도 받게 되면 다시 방문할 듯해요", "새우버거도 주문 즉시 조리해주셔서 맛있었고, 음료에 얼음 빼고 주문이 가능한 점이 너무나도 좋았습니다! 추운 겨울에 얼음 가득한 사이다는 너무 차가운데, 얼음이 없으니 마시기 정말 편하더라구요 ㅎㅎ", "역 출구 바로 앞에 있어서 가기 편했어요 통창으로 들어오는 햇살이 따사로워서 식사하기 편한 분위기였습니다.", "햄버거 단품 기프티콘이 있어 교환했어요~ 한 끼 식사로 적당한 양이면서 맛도 있고 좋았어요ㅎㅎ 다른 햄버거에 비해 속재료가 부실하다는 평도 있는데 소식좌한테는 딱 적당히 배부를 양이에요^^", "가족 모두들 저녁으로 햄버거를 먹고싶어해서 구매했어요ㅎㅎ 한 끼 식사로 든든하고 맛도 있어서 좋아요~"],
     "naverPlaceId": "34006849",
     "naverBlogCnt": 91,
     "menuItems": [
@@ -39623,13 +38921,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "너무 맛있고 직원분도 친절하세요마라로제는 처음먹는데 완전 좋아요",
-      "통큰오짱떡볶이 비주얼부터 압도적이에요! 오징어가 큼직해서 씹는 맛 좋고 매콤달콤한 양념이 떡이랑 잘 어울려요. 양도 푸짐해서 둘이 먹기 딱 좋아요",
-      "간만에 들려서 커피 구매 잘마셨어요",
-      "크림차돌 떡볶이 맵지않고 맛있게 잘먹었어요",
-      "뭐~ 믿고 먹는 청년다방이죠~^^이열치열로 떡볶이 먹으러 왔네요더워도 매장이 시원해서 땀흘리지않고 먹을수 있네요~중간맛 맵기 딱 좋아요~에이드도 왕짱크기로 배불리 잘먹었습니다~^^또올게요~더보기"
-    ],
+    "rv": ["통큰오짱떡볶이 비주얼부터 압도적이에요! 오징어가 큼직해서 씹는 맛 좋고 매콤달콤한 양념이 떡이랑 잘 어울려요. 양도 푸짐해서 둘이 먹기 딱 좋아요", "오랜만에 방문했는데 떡볶이가 많이 달아요.. 예전에는 맛있게 먹었던 거 같은데 아쉬웠어요!"],
     "naverPlaceId": "1265932838",
     "naverBlogCnt": 118,
     "menuItems": [
@@ -39942,12 +39234,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "닭볶음탕 혼밥했습니다. 국물도 맛있고 닭도 부드럽고 안에 들어간 감자도 맛있네요. 리뷰가 없어서 영업하나 싶었는데 일요일 점심에도 하시네요. 먹느라 사진도 못찍긴했는데.. 맛있어서 번창하시길 바라는 마음으로 한줄 리뷰써봅니다!더보기",
-      "친절한 어르신들요새 집밥이 넘 먹고싶었는데 잘먹었습니다~^^",
-      "골목길에 위치해서 동네에 이런곳이 있는줄 몰랐는데 물가비싸도 인심이후하네요콩국수도 맛있더라고요",
-      "김치치개와 순두부를 먹었는데요  매콤한 김치찌개 너무 맛있어요   단감샐러드도 달달하게 맛있었는데 반찬 리필 자주 해주시는점도 정말 좋았습니다  서빙해 주시는 분이 진짜 친절하세요 편안하게 맛있는 밥 잘 먹고왔어요 다른분들은 낙지를 많이 드시던데 다음번 방문때는 꼭 먹어보고 싶어요"
-    ],
+    "rv": ["김치치개와 순두부를 먹었는데요 매콤한 김치찌개 너무 맛있어요 단감샐러드도 달달하게 맛있었는데 반찬 리필 자주 해주시는점도 정말 좋았습니다 서빙해 주시는 분이 진짜 친절하세요 편안하게 맛있는 밥 잘 먹고왔어요 다른분들은 낙지를 많이 드시던데 다음번 방문때는 꼭 먹어보고 싶어요", "좁은 골목길이라 쉽지 않으셨을텐데 ... 더운날 방문 감사합니다. 즐거운 식사시간이 되셨길바랍니다:)"],
     "naverPlaceId": "1596980426",
     "naverBlogCnt": 5,
     "menuItems": [
@@ -40076,13 +39363,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛도 괜찮고 가성비 좋은 돈까스집이에요",
-      "역시 일식돈가스는 최고당이 최고다! 다만 돈가스 곱빼기나 치즈 조각추가하고싶었는데 없더라구요ㅠㅜ 고기추가도 메뉴로 검토해주심 좋겠습니다!",
-      "쫄면이나 불냉면과의 조합이 최고입니다ㅎㅎ메뉴 하나씩 세트로 두가지 다 먹기엔 양이 너무 많아서 추가메뉴에 사이드로 미니쫄면이 생기면 좋겠어요ㅠㅠ",
-      "김치나 깍두기가 제공이 안되서 아쉽",
-      "아이가 최고당 치즈돈가스를 좋아하여 일부러 찾아가서 먹곤 하는데 오늘은 고기에서 피맛(?)도 나고 냄새도 나더라고요~ 개선되었으면 좋겠습니다. ^^"
-    ],
+    "rv": ["아이가 최고당 치즈돈가스를 좋아하여 일부러 찾아가서 먹곤 하는데 오늘은 고기에서 피맛(?)도 나고 냄새도 나더라고요~ 개선되었으면 좋겠습니다. ^^"],
     "naverPlaceId": "1462667450",
     "naverBlogCnt": 76,
     "menuItems": [
@@ -40169,8 +39450,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "[재방문 의사 O]근처 정육점에서 사서 상차림비 (5000원씩) 만 내고 먹으면 됩니다 상차림 밑반찬도 다양하고 맛있고 풍성해요 된장찌개도 기본으로 나옵니다 도토리묵 무침도 맛있어요 갈비살은 고소하고 쫄깃하고 채끝은 부드러워서 잘 먹었습니다그리고 친절하세요 번창하세요~더보기",
+    "rv": ["여전히 고기 퀄리티 좋고 가격도 좋아서 소고기 땡길 때마다 찾는 곳입니당. 직원분들도 친절하시고 고기뿐만아니라 밑반찬 음식들이 다 맛있어서 올 때마다 배가 터져요ㅠㅠ❤️", "처음 방문했는데 만족합니다. 구워 먹는 고기 먹고 싶을때 오면 좋을거 같아요~ 굿~!", "가족모임으로 왔는데 고기 질도 좋고 반찬도 맛있어요! 종업원분들도 친절해서 좋아요👍", "고기 질이 너무 좋아요 저녁 식사를 위해 왔는데 맛있게 잘 먹었습니다! 직원분들도 너무너무 친절하세용!!! 자주 방문하게 될 것 같아요~(매장도 매우 넓고 좋아요)"]근처 정육점에서 사서 상차림비 (5000원씩) 만 내고 먹으면 됩니다 상차림 밑반찬도 다양하고 맛있고 풍성해요 된장찌개도 기본으로 나옵니다 도토리묵 무침도 맛있어요 갈비살은 고소하고 쫄깃하고 채끝은 부드러워서 잘 먹었습니다그리고 친절하세요 번창하세요~더보기",
       "고기 질이 너무 좋아요 저녁 식사를 위해 왔는데 맛있게 잘 먹었습니다! 직원분들도 너무너무 친절하세용!!! 자주 방문하게 될 것 같아요~(매장도 매우 넓고 좋아요)",
       "고기는 거기서 거기지 라는 생각으로 큰 기대 안 하고 왔는데 그런 저를 패주고 싶을만큼 존맛이에요..... 고기도 맛있는데 사장님이 너무 친절하시고 입맛에 맞게 추천도 잘 해주셔서 어어엄청 만족스럽게 먹었습니다👍👍👍 항상 지나가다 봤는데 이제 종종 올 것 같아요🩷",
       "고기고를때부터 좋은부위로 친절하게 설명하면서 해주시고, 매장에서도 모두 친절하세요. 그리고 일단 고기가 좋습니다. 너무 맛있어서 항상 순삭이에요😍",
@@ -40260,13 +39540,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "망포역 동네 맛집입니다~냉면도 맛있어서 항상 먹고있네요~반찬종류도 여러가지 나오고 항상 넉넉하게 주셔서 감사해요~오늘도 맛있게  잘먹었습니다",
-      "냉삼 먹고싶어서 근처에서 찾다가 망포역 냉삼집 방문했어요!! 고기 양도 많고 기본 반찬도 많아서 맛있게 먹고깁니다!! 다음에 또 올게요!!👍🏻👍🏻",
-      "추억의 냉삼 생각나면 가끔와요~여러가지 찬에 가성비 좋고 냉면도 시원하고 맛있습니다 늦은시간에도 영업해서 좋아요~~",
-      "불토라서 또 방문한 망포냉삼집와이프랑 잘먹고 갑니다",
-      "냉삼집은 망포 냉삼집 추천!!오늘도 맛나게 먹고 갑니다 ^^"
-    ],
+    "rv": ["오랜만에 왔는데 역시 맛있고 늘 정겨운 곳이라 잊을 수 없는 냉삼집입니다 잘먹고갑니다", "여기 냉삼 짱맛있어요 ㅠㅠ 일단 가성비가 너무 좋아요!! 그리고 사장님 짱 친절하세요.. 🩷 계란찜도 퐁실퐁실 맛있구 볶음밥도 맛있어요 💓💓 망포 냉삼집으로 추천!! 😍", "가격도 저렴한데 사장님도 너무 친절하시고 고기 냄새도 안나고 맛있어요 최고😻❤️❤️", "안녕하세요! 😊 냉삼집 망포역점을 찾아주셔서 정말 감사합니다. 저희 가게를 방문해주시고 소중한 의견을 남겨주셔서 정말 감사해요! 앞으로도 고객님들께 더 좋은 경험을 제공해 드릴 수 있도록 노력하겠습니다. 항상 행복한 일들만 가득하시길 바라며, 다음에 또 만나요! ❤️🙇‍♀️👍", "안녕하세요! 냉삼집 망포역점 사장입니다. 소중한 의견 주셔서 진심으로 감사합니다. 앞으로도 고객님들께 최고의 경험을 선사하기 위해 항상 노력하겠습니다. 더 자주 방문해주시면 더욱 맛있는 음식과 서비스로 보답하겠습니다! 저희 냉삼집 망포역점에 대한 관심은 저희에게 큰 힘이 됩니다.", "안녕하세요! 냉삼집 망포역점입니다 😊 고객님의 소중한 의견 정말 감사합니다! 앞으로도 더욱 만족스러운 경험을 드리기 위해 노력하겠습니다. 저희 냉삼집에 많은 관심 부탁드려요! 👍🙇‍♀️❤️"],
     "naverPlaceId": "1845549728",
     "naverBlogCnt": 92,
     "menuItems": [
@@ -40365,13 +39639,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "아이가 참 좋아해요😊👍다 맛있어요!테이블이 좁은게…살짝 아쉽지만,그래도 맛있어서 다 괜찮아용😊번창하세요👍😊더보기",
-      "맛있어서 주기적으로 옵니다ㅎㅎ또 올게요~",
-      "식사도 빠르게 나오고 맛있어요 영통역중심상가랑 가까워서 종종 방문해요 ^^직원분도 친절하시고 매장도 청결하고 맛도 좋아요평일에도 사람 많아요.5테이블 정도있고 회전도 빨라서 대기 없이 이용 해요 ^^더보기",
-      "아이들과 왔는데 행사로 더 저렴하게맛있게 먹었어요.탕짬면 양도 많고 맛있어요",
-      "아이랑 왔는데 맛있게 잘 먹었어요~"
-    ],
+    "rv": ["올때마다 정말로 맛있게 먹습니다. 제 인생식당이라 해도 과언이 아닐 정도입니다!"],
     "naverPlaceId": "1758839381",
     "naverBlogCnt": 37,
     "menuItems": [
@@ -40518,7 +39786,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1983311335/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190521_63%2F1558414909365PYOHF_JPEG%2FmSlyiZ9GlifAVEKQY36p50Pz.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190521_63%2F1558414909365PYOHF_JPEG%2FmSlyiZ9GlifAVEKQY36p50Pz.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjZfOCAg%2FMDAxNzUwOTA2NzA2MDE1.IBDrt4p459rx9nEs-xq69_13iSF7D-7xsNtEp1G4Iv4g.hawVRMSLqvRzAvPhT_qgnbMNwKFbzjuKVK3cmBItjlgg.JPEG%2F48FEA09F-9DEE-437F-A542-1DB0C9EBD151.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDlfMjQy%2FMDAxNzYyNjUwOTg1MDY3.5c55M9myhQXONE3_CaxWPPdXjDFLvHadeFSVrTXmbZkg.KV-5he4n6E0x0P9eqofO4S2f1bSyEs1ZEv8zeOlqyXsg.JPEG%2F20251109_100159.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMTcy%2FMDAxNzcwMzYxOTA3NDI5.nRKDXjr6cxHYEyIWLMkYGPic7XfPQyPT4C7bYcTF_z4g.43JiEAetl-sgn2d-UvJkSfY7PkGABcm9IKtxqdncRm8g.JPEG%2F1769692905003.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMTE4%2FMDAxNzcwMzYxOTA3NjMz.s8likI3I6GIWZF0a5CpwjriHvR1ED037ylYw5xUhdlgg.V2ChzABrGZlFFIGwOwr5-740vWytOZI01lX220t4Onsg.JPEG%2F1769692904907.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251204_51/1764827515968oNPbp_JPEG/1764827497752.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190521_63%2F1558414909365PYOHF_JPEG%2FmSlyiZ9GlifAVEKQY36p50Pz.jpeg.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190521_63%2F1558414909365PYOHF_JPEG%2FmSlyiZ9GlifAVEKQY36p50Pz.jpeg.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjZfOCAg%2FMDAxNzUwOTA2NzA2MDE1.IBDrt4p459rx9nEs-xq69_13iSF7D-7xsNtEp1G4Iv4g.hawVRMSLqvRzAvPhT_qgnbMNwKFbzjuKVK3cmBItjlgg.JPEG%2F48FEA09F-9DEE-437F-A542-1DB0C9EBD151.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDlfMjQy%2FMDAxNzYyNjUwOTg1MDY3.5c55M9myhQXONE3_CaxWPPdXjDFLvHadeFSVrTXmbZkg.KV-5he4n6E0x0P9eqofO4S2f1bSyEs1ZEv8zeOlqyXsg.JPEG%2F20251109_100159.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMTcy%2FMDAxNzcwMzYxOTA3NDI5.nRKDXjr6cxHYEyIWLMkYGPic7XfPQyPT4C7bYcTF_z4g.43JiEAetl-sgn2d-UvJkSfY7PkGABcm9IKtxqdncRm8g.JPEG%2F1769692905003.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAyMDZfMTE4%2FMDAxNzcwMzYxOTA3NjMz.s8likI3I6GIWZF0a5CpwjriHvR1ED037ylYw5xUhdlgg.V2ChzABrGZlFFIGwOwr5-740vWytOZI01lX220t4Onsg.JPEG%2F1769692904907.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20251204_51/1764827515968oNPbp_JPEG/1764827497752.jpg", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -40801,13 +40069,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "내일 도시락으로 먹을 것까지 포장",
-      "오늘은 통영굴죽 두끼로 나눠서...",
-      "이걸로 네끼니 해결 ㅎㅎ",
-      "부모님이 임플란트를 하셔서 드시게되었어요. 평소에게도 가끔 이용하지만 네이버로 선 주문하고 픽업하면 기다리지 않고도 바로 가져갈 수 있어서 좋아요.",
-      "빠른 포장 주문 맛까지 완벽합니다~"
-    ],
+    "rv": ["수요일에 버섯굴죽 주문예약해두고 깜박하고 못가버렸어요. 제가 작년에 무릎 골절후 수술만 2번하고 기억력이 잘 안좋거든요. 금요일에 생각나서 좀지났어도 찾아간다고 괜찮다고 얘기드렸더니 새로 만들어 주신단거에요. 아픈데 위로받고 대접 받은 기분이되었어요. 고마워요 사장님~ 간간히 소화가 안된때가 있어 죽 먹어야할듯한데 또 방문드릴께요. 고운마음으로 성의를 다하신만큼, 앞으로 장사 번창하시길바래요~♡ 고맙습니당", "부모님이 임플란트를 하셔서 드시게되었어요. 평소에게도 가끔 이용하지만 네이버로 선 주문하고 픽업하면 기다리지 않고도 바로 가져갈 수 있어서 좋아요."],
     "naverPlaceId": "12989230",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -41429,11 +40691,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "롯* 새우버거랑 비슷하면서도 괜찮네요~ 맛있는 메뉴 찾아서 기쁩니다",
-      "픽업 빠르게 잘 받았어요.늘 망포 프랭크버거 야채 신선해요~.맛있게 먹었어요.",
-      "늘 배달로 먹는 프랭크버거. 오늘은 포장을 이용했는데 제로콜라로 주문했는데 집에와서 보니 제로사이다였어요😂"
-    ],
+    "rv": ["픽업 빠르게 잘 받았어요.늘 망포 프랭크버거 야채 신선해요~.맛있게 먹었어요.", "프랭크버거 가끔 포장해서 먹는데 이번에 새로 윤남노쉐프버전 버거가 나왔다고 해서 먹었습니다! 일단 맛은 원래 프랭크버거에서 파는 불고기버거가 더 맛있어여....!!! 🥲 치즈도넛인데 치즈가 하나도.....녹지 않았습니다.....😭 미지근한 뚝뚝 끊기는 치즈를 먹어서 그런지 만약 치즈가 주욱 늘어지면서 따뜻했더라면 더 맛있지 않았을까하는 아쉬움이,,,,그래도 불고기버거는 맛있었어여", "안녕하세요, 프랭크버거 수원망포역점입니다 😄🍔! 모동60님, 리뷰 남겨주셔서 감사합니다 🎉. 항상 신선한 재료로 최선을 다하겠습니다 💪😉. 앞으로도 많은 사랑 부탁드립니다 ❤️🙏.", "안녕하세요, 프랭크버거 수원망포역점입니다 😊. 시옷 우 피읖님, 리뷰 감사합니다. 다음에 오시면 만족스러운 음식과 서비스로 기다리고 있겠습니다! 언제든지 재주문해 주세요! 감사합니다.", "안녕하세요, 프랭크버거 수원망포역점입니다 😊. yym****님, 소중한 리뷰 감사합니다. 남겨주신 모든 의견은 저희에게 큰 힘이 됩니다. 저희는 고객님께 최상의 맛과 서비스를 제공하기 위해 항상 최선을 다하고 있습니다. 다음 방문 시 더욱 만족스러운 경험을 드릴 수 있도록 노력하겠습니다. 다시 한번 감사드리며, 앞으로도 많은 관심 부탁드립니다."],
     "naverPlaceId": "1457161420",
     "naverBlogCnt": 61,
     "menuItems": [
@@ -41868,13 +41126,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "명절이라 일찍 문 닫으실 수도 있었는데주문 받아주셔서 맛있게 먹고 왔어요친절하세요",
-      "서천동에 위치한 샤브샤브집 소담 칼국수 🍜  사장님? 이모님들께서 친절하시고 밑반찬 맛나고, 부침개 맛나요~ 주차는 가게 앞에 가능했습니다.더보기",
-      "친구들이랑 먹으러 왔는데 양도 많고 맛있어요~! 고기랑 칼국수랑 볶음밥까지 해주시는데 진짜 맛있었음… ㅠㅠ 글구 김치가 킥임 존맛ㅎ 기본찬으로 나오는 전도 맛있구 사장님도 친절하시구 음식도 맛있어서 종종 갈 것 같아여",
-      "샤브샤브+칼국수+볶음밥 조합무난함",
-      "채소가 엄청 많고겉절이랑 오이무침그리고 부침개가 너무 맛있어요"
-    ],
+    "rv": ["친구들이랑 먹으러 왔는데 양도 많고 맛있어요~! 고기랑 칼국수랑 볶음밥까지 해주시는데 진짜 맛있었음… ㅠㅠ 글구 김치가 킥임 존맛ㅎ 기본찬으로 나오는 전도 맛있구 사장님도 친절하시구 음식도 맛있어서 종종 갈 것 같아여"],
     "naverPlaceId": "1572161342",
     "naverBlogCnt": 64,
     "menuItems": [
@@ -41912,7 +41164,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1572161342/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190627_155%2F1561613092934D8tYC_JPEG%2Fjd7aUC0l1KIEX03BUr_NQIxz.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190627_155%2F1561613092934D8tYC_JPEG%2Fjd7aUC0l1KIEX03BUr_NQIxz.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MzBfMTQx%2FMDAxNzUxMjkzNDA5OTE1.nnAFSEMclpvokq0zKnF15DaqBnRcAVZPuJruAQMwpNgg.C4-SaM97lM2OIYfN0brOoKzsXqgUyaxYssyPpiXjoTog.JPEG%2F20250628_122557.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDlfNyAg%2FMDAxNzU5OTkzMTUxMDI1.7GKjeWzQ16L4-JSW-I-1yzEeHKFym83SR0WbrvXAVZ0g.r2Y2qhcOqyQMpdSDB7R-cDMRIOfFg2eI5nqVqjBHOS4g.JPEG%2F7C8376DE-612D-4522-A9BB-29F64228DE24.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjFfMjIg%2FMDAxNzU4MzgwNjI5NDI5.8204lhC4WToLN-PNQLj1fJJ4WoY3mJJD-y5ufQr_-KAg.jgrIRZ960Qj2d6giVYcWfleHPtUuW_kGFd2yfdinVUsg.JPEG%2F20250918_120411.jpg.jpg", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190627_155%2F1561613092934D8tYC_JPEG%2Fjd7aUC0l1KIEX03BUr_NQIxz.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190627_155%2F1561613092934D8tYC_JPEG%2Fjd7aUC0l1KIEX03BUr_NQIxz.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MzBfMTQx%2FMDAxNzUxMjkzNDA5OTE1.nnAFSEMclpvokq0zKnF15DaqBnRcAVZPuJruAQMwpNgg.C4-SaM97lM2OIYfN0brOoKzsXqgUyaxYssyPpiXjoTog.JPEG%2F20250628_122557.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEwMDlfNyAg%2FMDAxNzU5OTkzMTUxMDI1.7GKjeWzQ16L4-JSW-I-1yzEeHKFym83SR0WbrvXAVZ0g.r2Y2qhcOqyQMpdSDB7R-cDMRIOfFg2eI5nqVqjBHOS4g.JPEG%2F7C8376DE-612D-4522-A9BB-29F64228DE24.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA5MjFfMjIg%2FMDAxNzU4MzgwNjI5NDI5.8204lhC4WToLN-PNQLj1fJJ4WoY3mJJD-y5ufQr_-KAg.jgrIRZ960Qj2d6giVYcWfleHPtUuW_kGFd2yfdinVUsg.JPEG%2F20250918_120411.jpg.jpg", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -41940,12 +41192,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "엄마가 여길 너무 좋아해서 자주 모시고와요😆사장님도 항상 친절하시고 프렌치토스트 양도 많고 메뉴구성이 너무 알차요알리오올리오도 같이 먹었는데 맛있어서 소스까지 다먹었네요 ㅎㅎ또 오겠습니다~ㅎㅎ더보기",
-      "얼리오 파스타랑 바게트 같이 먹으면 맛있어요 ㅎ",
-      "먹을때도 맛있지만 집에오면 더 더 생각나는 그런 맛입니다.크림파스타와 프렌치토스트!!꼭 드셔보세요!! 사장님 혼자 하셔서 손님이 몰릴 땐 조금 기다려야 합니다.  배달만 된다면 정말  매일매일 먹고 싶어요ㅠㅠ 참. 강아지와 같이 즐길 수 있어요. 추천입니다!더보기",
-      "처음 방문했는데 맛있게 먹고 왔어요!!프렌치토스트 빵이 두툼한데 어쩜 쫀득달달 맛있는지 집에와서도 생각나는 맛이네요👍"
-    ],
+    "rv": ["토스트 파스타 다 넘넘 맛있어요 거기다 커피 다른 음료 다 맛나요 진심 브런치는 여기 말짜이트. 완전 강추강추^^", "먹어본 크림파스타 중에 제일 맛있었습니다! 감바스에도 새우 이렇게 듬뿍 주시는데는 처음 봤어요! 인테리어도 넘 아늑하고 프로젝터 빔으로 감미로운 뮤비 틀어주셔서 남편과 행복한 시간이였습니다. 잘 먹었습니다 번창하세요😊"],
     "naverPlaceId": "1085363825",
     "naverBlogCnt": 190,
     "menuItems": [
@@ -42187,11 +41434,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "클래식 치즈버거아는맛이지만 참 맛있습니다",
-      "음식은 굉장히 빨리 나왔습니다만..버거 먹는데 날파리 3마리가 계속 눈 앞을 왔다가 갔다 거려서 너무 불쾌했습니다.여름에 가정집에서 나오는 날파리처럼 크기가 작은것도 아닌..좀 크고 까맸어요...좀 징그러웠습니다.오늘이 영하 날씨에 눈도 오고 도로도 꽝꽝 얼어붙은 날씨인데도 매장안에 날파리가 몇마리씩 날아다니는 정도면 위생관리를 더 신경쓰셔야할듯합니다..손",
-      "모바일교환권 활용하여 잘먹었습니다!"
-    ],
+    "rv": ["이유는 모르겠지만 점심시간에 매장방문 했는데 아주 오래 거렸음. 배달아저씨들도 화내고 감. 개선이 필요하지 않을까.", "사장님 일하는 직원 수가 너무 적은 거 같아요. 점심 시간에 직원 충원 해 보시는 게 좋을 것 같습니다."],
     "naverPlaceId": "1693237544",
     "naverBlogCnt": 29,
     "menuItems": [
@@ -42584,13 +41827,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매탄동에 있는 맛있는 치킨집.고로치통닭 매탄점입니다.닭똥집  튀김 먹었는데 고소하고 쫄깃합니다.야외 테이블이 시원하니 먹기 좋으네요맥주한잔 하기 좋은곳입니다.더보기",
-      "옛날통닭 잘 먹었어요~",
-      "원래 노대감가려고 매탄동간건데 문닫아있어서 배고파서 아뭐먹지하다가 치킨ㄱ? 해서 들어간곳!세상에나 웬열 치킨내가쥬아하는튀김상태치킨먹을때 튀김발라서 먹는애가 난데 여기서발골함 양념도맛있고 양배추샐러드도쥬심치킨무가 개신선했음 원래치킨먹을때많이먹어바야 무2.3개집어먹는데 여기서 무한번더 리필함후라이드개졸마탱임 퇴근길에있는곳인데 이제치킨먹고싶으면 여기서 포장하기로",
-      "반반치킨에 국떡~조합굿긋~맛있어요^^",
-      "매탄동 맛집 👍 👍 👍 여러번 갔는데 이제야 리뷰 써봅니다ㅎ사장님 너무 친천하시고 맛나브러유 👍"
-    ],
+    "rv": ["저희 매장 방문해주신 모든분들은 항상 가정에 평화와 행복이 깃들었으면 좋겠습니다", "칭찬리뷰 너무나 감사드립니다 영수증리뷰 감사드립니다 다음에홀에서 더욱더 편한분위기로 드실수있습니다"],
     "naverPlaceId": "1716347471",
     "naverBlogCnt": 31,
     "menuItems": [
@@ -42762,13 +41999,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "사장님이 센스도 있으시고 친절하시고 다른곳보다 양도많고맛있어요수제비도 기성품이아니라 생수제비에요다음에또올거같아요",
-      "주말 저녁 가족과 함께 맛있는 음식 먹으러 재방문 했습니다. 어른도 아이도 좋아하는 감자탕 맛집이라 자꾸 오게 됩니다. 맛난 음식 드시러 방문하셔서 드셔보세요^^*",
-      "아들이 좋아해서 자주 옵니다국물이 진하고 맛있어요깍두기도 맛있게 잘해요",
-      "오랜만에 뼈해장국 먹었습니다!!처음와보는 곳인데 너무 맛있네요.영통 사시는 분들 추천추천 드립니다!!!",
-      "음식도빠르게나오고 맛있어용 ~!"
-    ],
+    "rv": ["뼈다귀 감자탕만 먹다가 뼈찜 먹어보니 독특하고 맛있네요~3인이 중자 시키면 충분한듯합니다~^^"],
     "naverPlaceId": "1004631135",
     "naverBlogCnt": 101,
     "menuItems": [
@@ -42853,11 +42084,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매장 앞에 잠시 주차해서 커피 주문하고 바다 가기 딱 좋습니다. 근처에 메가커피가 두세 개 더 있는데도 전부 이용할만한 특징들이 다 있네요. 매장도 깔끔하고 사장님 직원분들 빠르게 음료 제조해 주십니다. 역시 아침에 모닝커피 때문인지 사람들이 정말 많이 주문해가고 있습니당. 커피 맛있게 잘 먹었어요~~~",
-      "한번씩 이용하는 매장이에요.늘 편안합니다.",
-      "맛있는 누룽파르페가 품절ㅠㅠ귤톡톡 젤리스무디도 맛있네요"
-    ],
+    "rv": ["매장 앞에 잠시 주차해서 커피 주문하고 바다 가기 딱 좋습니다. 근처에 메가커피가 두세 개 더 있는데도 전부 이용할만한 특징들이 다 있네요. 매장도 깔끔하고 사장님 직원분들 빠르게 음료 제조해 주십니다. 역시 아침에 모닝커피 때문인지 사람들이 정말 많이 주문해가고 있습니당. 커피 맛있게 잘 먹었어요~~~"],
     "naverPlaceId": "1357006383",
     "naverBlogCnt": 8,
     "menuItems": [
@@ -43121,12 +42348,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "밥이야 프렌차이즈니 맛은 괜찮았는데 사장인지 주방 직원이 일하기가 싫은가봄. 말도없이 손가락으로 가리키며 가져가라고 함. 옆 부부한테는 내내 시비조로 대답하고 주문이 잘못된거 아니냐고 따지네요. 정작 직원이 잘못 제조한건데도. 왠만하면 다시 갈텐데 태도때문에 불친절해서 다시 안갈듯",
-      "맛 별루 우동 겁나짬사장님 너무 불친절   결정적으로 우동 맛이 별루 다신 안감더보기",
-      "혼밥하기 너무좋은곳이라 아이가 가끔갑니다맛있고 메뉴도 다양합니다",
-      "가성비 좋은것 같아요.혼밥하기 편하게 되어 있어요."
-    ],
+    "rv": ["다시는 안 옵니다 주방장님 혼자 일 하시는 거 같은데 너무 예의도 없으시고 음식 잘못 나온 거로 손님인 저한테 왜 따지시는지 너무 불친절 하네요 음식도 20분 걸렸어요"],
     "naverPlaceId": "1607919750",
     "naverBlogCnt": 12,
     "menuItems": [
@@ -43255,13 +42477,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "짜장면, 짬뽕, 찹쌀탕수육 주문했는데짜장면은 다른데와 다르게구수하고 달달해서 손이 계속 가는 맛이에요👍짬뽕은 은근 꽤 매워서 속이 확 풀리네요!짬뽕속 해물이 질기지않고 싱싱해서 굿굿👍면에 소스나 국물이 정말 잘 배어있어밀가루맛이 나지 않아요!먹고나서 속도 많이 느글거리지 않네요😆찹쌀 탕수육도 너무 부드러워요사천탕수육과 매운짜장도 맛있다는데 다음에 도전",
-      "매탄동 맛집입니다👍🏻👍🏻짬뽕 국물 끝내줍니다ㅠㅠ앞으로 여기만 올것같아요 멘보샤도 굿👍🏻👍🏻",
-      "팔팔반점에서 탕수육, 짬뽕, 볶음밥 먹고왔어요 :) 친구와 아이랑 방문해서 맛있게 먹었어요 아기의자도 있답니다❤️🤍 식사시간 피해서 가서 웨이팅 없이 따뜻하게 음식 먹었어요!! 사장님이 틈나면 청소하고계셔서 매장이 너무 깨끗한거같아요 다음에 또올게요!!사장님도 너무 친절하셔서 기분좋게 식사하고왔어요😍",
-      "가격대도 저렴하고 양도 많아서 배부르게 먹었어요탕수육도 눅눅하지 않고 바삭해서 좋아요 자장소스 고소하고 짬뽕은 매콤칼칼해서 해장으로도 좋을것 같네요",
-      "짬뽕 양 엄청 많아요,,,!!탕슉 맛있어요!!"
-    ],
+    "rv": ["매탄동 맛집입니다👍🏻👍🏻짬뽕 국물 끝내줍니다ㅠㅠ앞으로 여기만 올것같아요 멘보샤도 굿👍🏻👍🏻", "팔팔반점에서 탕수육, 짬뽕, 볶음밥 먹고왔어요 :) 친구와 아이랑 방문해서 맛있게 먹었어요 아기의자도 있답니다❤️🤍 식사시간 피해서 가서 웨이팅 없이 따뜻하게 음식 먹었어요!! 사장님이 틈나면 청소하고계셔서 매장이 너무 깨끗한거같아요 다음에 또올게요!!사장님도 너무 친절하셔서 기분좋게 식사하고왔어요😍"],
     "naverPlaceId": "1200865962",
     "naverBlogCnt": 139,
     "menuItems": [
@@ -43385,12 +42601,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "애들이 졸라서 갔어요.쫄아서 먹으니 맛났어요!떡볶이 안좋아하는데,뉴욕에서 두끼떡볶이 먹은기억이 맛있게남아있어서,가보았어요😊내용물들은 아이들이 좋아하는거 위주로있는거 같아요!가져다먹는 재미두 있구요.담에 또오자는데,애들끼리 가라고 해야겠어요ㅎㅎ어린친구들이 많이 있었어요.번창하세요!더보기",
-      "아이가..떡볶이 좋아해서 갔어요",
-      "오랜만에 두끼에서 떡볶이 만들어 먹었습니다~ 소스 기본 1 떡모 1 동대문 1에 마라 약간 넣어 만들었는데 간도 딱 좋고 너무 맛있었어요!",
-      "재료가 바로바로 채워지고 맛있아요!!"
-    ],
+    "rv": ["오랜만에 두끼에서 떡볶이 만들어 먹었습니다~ 소스 기본 1 떡모 1 동대문 1에 마라 약간 넣어 만들었는데 간도 딱 좋고 너무 맛있었어요!", "떡볶이 포장하러 왔는데 만족하고 갑니다! 셀프바도 3시 넘어서 갔는데도 다 채워져 있었고 토핑이나 튀김들도 다양하더라고요. 보니까 기본 재료뿐만 아니라 신메뉴로 튀김이나 토핑들이 나오는 것 같아요. 사진은 못찍었는데 어묵바랑 볶음밥용 재료들도 있고 아이스크림, 커피 머신도 있더라고요. 저는 포장이라 이용하진 않았는데 다음엔 매장 식사하면서 이용해보려고요! 그리고 여쭤보니까 해당 건물에 주차하면 무료로 2시간까지 가능하다고 하니 주차는 걱정안하셔도 될 것 같습니다!"],
     "naverPlaceId": "1572579292",
     "naverBlogCnt": 37,
     "menuItems": [
@@ -43488,11 +42699,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "치킨맛이 좀 아쉬워요.떡볶이는 떡이 너무 탱글해서 씹기에 좀 힘들었어요. 맛은 달달했어요.",
-      "황올 기프티콘 있어서 방문했습니다! 제로콜라로 변경 가능해서 좋았어요 👍 주방이 깔끔하고 조리과정도 모두 볼 수 있어서 안심하고 먹을 수 있었습니다",
-      "저랑 남편이랑 되게 얌전히 먹는 사람들인데 아닌거 같아서 리뷰 남겨요.진짜 너무 오래 튀겨서 그런지 딱딱해요... 콤보로 시켰는데도 힘들게 뜯고 있어요심지어 배달도 늦게와서 다 식어서 왔네요^^... 그런데도 튀김옷은 딱딱..더보기"
-    ],
+    "rv": ["치킨맛이 좀 아쉬워요.떡볶이는 떡이 너무 탱글해서 씹기에 좀 힘들었어요. 맛은 달달했어요.", "황올 기프티콘 있어서 방문했습니다! 제로콜라로 변경 가능해서 좋았어요 👍 주방이 깔끔하고 조리과정도 모두 볼 수 있어서 안심하고 먹을 수 있었습니다", "논란 있는 코카콜라 말고 펩시 였음 좋겠단 생각이 들긴 하는데 치킨은 너무 맛있어요! 추천"],
     "naverPlaceId": "21135642",
     "naverBlogCnt": 12,
     "menuItems": [
@@ -43575,12 +42782,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "치킨 나오는데 시간이 좀 많이 걸렸지만 맛은 있었어요~~",
-      "기름이 깨끗해여!그래서 치킨 튀김색깔도 깔끔맛도 깔끔ㅎㅎㅎ매장도 넓어요",
-      "아이들 먹으려고 배달했어요. 주문부터 배달까지 30-40분정도 걸렸어요. 깔끔하게 맛있게 잘 왔어요.",
-      "여윽시 치킨은 맛있습니다. 뉴진스럽지 않은 맛에 찬사를 보냅니다. 가격은 잊혀지는 맛입니다."
-    ],
+    "rv": ["아이들 먹으려고 배달했어요. 주문부터 배달까지 30-40분정도 걸렸어요. 깔끔하게 맛있게 잘 왔어요.", "여윽시 치킨은 맛있습니다. 뉴진스럽지 않은 맛에 찬사를 보냅니다. 가격은 잊혀지는 맛입니다.", "서빙이 귀에 에어팟 키고 불러도 안 오고 50분 기다리니깐 나오네요 위생상태 엉망이고 맛도 없었어요 맛초킹 튀김이 무슨 이블씹는거 같고 콜라도 따뜻하고 진짜 실망이네요 여러번 왔는데 오늘 왜 굳이 끔찍한 일이 일어난걸까요 맛 진짜 노맛"],
     "naverPlaceId": "1060144504",
     "naverBlogCnt": 29,
     "menuItems": [
@@ -43752,13 +42954,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "사랑하는아내와 퇴근후 동네 봉구스밥버거 매탄점 방문했습니다. 정말 변함없이 맛난 브랜드인듯해요매장도 청결하고 너무좋아요. 자주방문하려고 메뉴 사진도   찍어놓았습니다. 잘먹겠습니다 ^^",
-      "배가 고파 간단히 먹으려고 갔어요음식조리 빠르고 맛있게 잘 먹었습니다 매장 깔끔하고 좋아요라면도 팔고 초등학교 아이와 가기 좋네요 해쉬브라운도 추가로 시켰는데 넘 바삭하고 맛나요더보기",
-      "오후1시45분경 늦은 점심시간이라 미리 전화주문후 방문하기 위해 전화를 했습니다전화는 받으시는데 넘 황당해서 리뷰 남깁니다아이들이 봉구스 넘 좋아해 좋아하는 메뉴 주문하려고 말씀드리니 돌아오는 답변이 안되는데요네?주문이 안된다고요?라고 다시 물으니 주문은 되는데 많이 기다려야 한다고 얼마나 기다려야 하나 물으니 그냥 많이 기다려야 한다 주문이 뒤죽박죽 되었",
-      "아이가 너무 좋아해 자주 이용하는 편인데 예전에도 전화 주문후 방문하려고 전화하면 안받으시더니 오늘 또 안받으시네요전화를 몇번을 했는데...ㅠㅠ전화 안받으시려면 현재 바쁜 시간이라 전화 받을수 없는 멘트가 나오던지 아니면 다른 방안이 있어야지  한두번도 아니고 그냥 안받는건 좀...한두번도 아니고 기분 좋지는 않네요더보기",
-      "좋네요 깔끔하고~~감사합니다 ~~잘먹었습니다"
-    ],
+    "rv": ["혼자 간단하게 한 끼 해결하고 싶을 때 봉구스밥버거만큼 든든하고 가성비 좋은 메뉴가 없는 것 같아요. 주문하자마자 따끈하게 만들어주셔서 한 입 크게 베어 물면 속 재료의 감칠맛과 밥의 조화가 완전 꿀맛이라 맛있어요. 메뉴도 다양해서 골라 먹는 재미가 있고, 바쁜 시간에도 빠르게 나오니까 직장인이나 학생들 점심 메뉴로 정말 이만한 게 없네요.", "정성 가득한 리뷰 정말 감사합니다! 저희 밥버거가 고객님의 바쁜 일상 속에서 든든하고 맛있는 한 끼가 되고 있다니 사장으로서 정말 뿌듯하고 기쁩니다. 😊 주문 즉시 따끈하게 만들어 드리는 그 맛을 알아주셔서 감동이에요! 앞으로도 변치 않는 맛과 정성으로 정성껏 준비하겠습니다. 오늘도 행복한 하루 보내세요!", "소중한 휴일에 아이들과 함께 저희 매장을 찾아주셔서 정말 감사합니다! 어린이날을 맞아 정성껏 준비한 이벤트와 데코레이션이 아이들에게 좋은 선물이 된 것 같아 사장으로서 너무 뿌듯하고 행복하네요. 😊 든든한 밥버거 맛있게 드시고, 남은 연휴도 가족분들과 함께 웃음 가득하고 건강하게 보내시길 바랍니다. 다음에 또 반갑게 뵙겠습니다! 감사합니다. ❤️", "집앞에 봉구스 밥버거가 생겨서 와봤어요! 집앞에 생겨서 넘 좋아요~ 추억의 밥버거ㅎㅎ 점심메뉴로 자주 사먹으려구요!", "전화 후 방문 하였는데 전화도 너무 친절하게 설명해주시고 매장 방문에도 친절하였습니다 다른 매장에 비해 토핑도 많이 들어가고 정말 맛있네요 내일 또 먹겠습니다!", "와! 정성 가득한 후기 감사드려요! 만족해 주셔서 정말 다행입니다.'내일 또 먹겠다'는 말씀이 저희에겐 최고의 찬사에요. 내일도 오늘처럼 정성껏 준비해서 기다리고 있겠습니다. 기분 좋은 하루 보내세요!🥰", "안녕하세요! 저희 봉구스 밥버거를 찾아주셔서 정말 감사합니다. ^^ 추억의 맛을 그대로 느끼셨다니 저도 너무 기쁘네요! 맞아요, 밥버거에 뜨끈한 라면, 그리고 시원한 슬러시 조합은 정말 참을 수 없죠. ㅠㅠ 손님의 소중한 추억에 저희 가게가 기분 좋은 한 페이지가 된 것 같아 행복합니다. 앞으로도 변함없는 맛으로 기다릴게요. 또 놀러 오세요! 💕", "집 주위에 밥버거가게가 생겨서 너무 좋아요. 성장기 어린이는 밥먹고 또먹고 또먹어야하는데 ㅋㅋ 초콜릿 과자만 사주다가 든든한 간식으로 밥버거를 택했습니다. 넘 푸짐해서 한끼 식사로도 손색없고 초등학생 입맛을 완벽히 저격했어요!!! 자주 들를게요!!"],
     "naverPlaceId": "2088586191",
     "naverBlogCnt": 2,
     "menuItems": [
@@ -43967,13 +43163,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "김치가 너무 신선하고 고기도 야들야들 역시 원할머니보쌈 매탄점 입니다♥️ 사장님도 너무 친절하세요~ 너무 맛있게 힐링했네요 ㅎㅎ 다음번에 또 방문 하겠습니다~^^ 사장님 번창하세요! 최고",
-      "잡내도 없고 반찬도 맛있네요다음에 또 주문할게요!",
-      "간편보쌈 포장전용메뉴 9900원에 구입했어요친절하시고 수원페이 결제되서 좋아요",
-      "9900원 포장전용메뉴 간편보쌈 포장했어요친절하시고 고기 맛있고 수원페이결제도 가능해서 좋아뇨",
-      "간편보쌈 9900원에 이용했어요 주차 가능하고 음식 맛있고 친절하셔서 좋아요"
-    ],
+    "rv": ["김치가 너무 신선하고 고기도 야들야들 역시 원할머니보쌈 매탄점 입니다♥️ 사장님도 너무 친절하세요~ 너무 맛있게 힐링했네요 ㅎㅎ 다음번에 또 방문 하겠습니다~^^ 사장님 번창하세요! 최고"],
     "naverPlaceId": "1031261625",
     "naverBlogCnt": 7,
     "menuItems": [
@@ -44190,9 +43380,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "전화주문 했는데 주문할때 20~30분 걸린다고 했는데40분 정도 걸림. 사장님이 알바생 더 뽑아야 할 듯. 주방 직원 엄청 싸움."
-    ],
+    "rv": ["엽떡 포장하기 좋아요. 둘이 먹기에 2인분이 많은 편이지만 포장하면 한 두끼 더 먹을 수 있어서 좋습니다!👏🏻👏🏻"],
     "naverPlaceId": "37037693",
     "naverBlogCnt": 43,
     "menuItems": [
@@ -44460,13 +43648,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "영흥수목원 내 위치한 카페 버터플라이 🦋넓게 트여있어 시원하고날씨가 좋은 날엔 수목원을 바라보며 쉴 수 있어 좋은 공간 🌿크리스마스 분위기도 좋아요 🎄✨️디카페인 아메리카노 ☕️생생블루베리주스 🫐🍷고구마케이크 🍠🍰에그마요 샌드위치 🥪🥚더보기",
-      "바깥 뷰가 좋아요 커피도 맛있어요",
-      "영흥수목원 한바퀴 돌고 앉아서 한잔했지요주말이라 테이블이 거의 찼어요디저트 종류가 많았어요아기의자도 있고 아이들 먹을 음료, 생수 판매해요수목원 입장시 음료만 반입 가능하다고 합니다~더보기",
-      "수목원과 함께있는 카페라 풍경이 여유롭고 편안하게 쉬면서 즐길수 있습니다.",
-      "오미자 에이드~~술인줄 ㅋㅋ  발효가 너무 심해 좀 역해요.말씀 드리니..  발효된거라.. 아무 문제 없다고 하시는데.. 아까워서  마셔보려고 했는데.. 도저히 안되더라구요.제입맛이 좀 까탈 스러운지도.. ㅋㅋ 탁트인 야외공간이 산책하기 정말 좋더라구요.날씨 좋은날 다시 와보려고 해요.^^더보기"
-    ],
+    "rv": ["수목원과 함께있는 카페라 풍경이 여유롭고 편안하게 쉬면서 즐길수 있습니다."],
     "naverPlaceId": "1982652056",
     "naverBlogCnt": 71,
     "menuItems": [
@@ -44769,13 +43951,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "매장에서 취식은 처음해봤습니다우선 알바생들이 다 외국인이더군요알바생들끼리 떠들면서 만드는데입에 마스크를 한인원도 있지만 대부분 없더리구요몇몇은 바닥에 앉아있고지점내는것도 좋지만 본점이라고 찾아가서 먹어보는 입장에서 좀 실망감이드네요더보기",
-      "난 부천사는데 사촌동생네 근처인 호매실점에 2번 배달시켜먹어보고 너무 맛있어서 친구랑 본점 방문. 가게에서 먹을수 없다면 픽업해서 근차 공원에서 걸인미 뽐내려했지만 실패. 매장에서 몇안되는 취식러 느낌냄. 보통아님. 오늘도 역시 살짝 젖고 갑니다. 맛있어요 진짜. 동네에 가맹점 내고 싶을 정도로 ㅋㅋ",
-      "파스타도 맛있네요! 서비스 정말 감사합니다🙇👍",
-      "미쳤숩니다..역대급 1등 피자!!",
-      "이번에 처음으로 라지사이즈로 시켜봤는데 정말 푸짐하네요!!! 언제나 맛있는 랜치포테이토와 처음 도전해 보는 라따뚜이로 반반 했습니다 기대 이상으로 좋았습니다ㅠㅠ!!!각종 채소들, 특히 구운 가지 최고예요♡"
-    ],
+    "rv": ["난 부천사는데 사촌동생네 근처인 호매실점에 2번 배달시켜먹어보고 너무 맛있어서 친구랑 본점 방문. 가게에서 먹을수 없다면 픽업해서 근차 공원에서 걸인미 뽐내려했지만 실패. 매장에서 몇안되는 취식러 느낌냄. 보통아님. 오늘도 역시 살짝 젖고 갑니다. 맛있어요 진짜. 동네에 가맹점 내고 싶을 정도로 ㅋㅋ", "랜치포테이토와 파이브치즈! 감자는 말할 것도 없고 파이브치즈는 처음 먹어봤는데 짭조름하고 아주 맛있었어요!", "서울에서 놀러온 친구랑 먹었어요 극찬을 하고 갔습니다 역시 언제나 맛있는 멜로핏자 망포의 자랑"],
     "naverPlaceId": "1418389054",
     "naverBlogCnt": 40,
     "menuItems": [
@@ -44859,13 +44035,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "제육덮밥은 처음 먹어보는데 마싯네요ㅎㅎ 비빔밥은 원래도 맛있었구요! 가끔 비빔밥 먹고 싶을 때마다 꼭 여기 와요ㅎㅎ",
-      "키오스크 주문인데 자리 먼저 잡고 주문해야돼요.",
-      "돈까스쫄면 너무 맛있고 양이 많았어요 사진엔 없지만 떡볶이도 맛있었어요 꼬마김밥은 쪼끔 비싸지만 내용물이 알차네용다음엔 다른 메뉴도 먹어봐야겠어요",
-      "맛있는 분식 먹고 싶을때 방문하면 좋은곳이예요. 셀프코너 잘 되어있어서 우동국물이랑 알아서 가져다 먹을 수 있는것 좋구요 세트 메뉴 구성 좋아서 세트메뉴 주문해서 이것 저것 같이 맛볼 수 있는것도 좋았어요. 순대가 특히 찰지고 맛있어서 그런가 아이가 순대를 참 맛있게 먹었습니다. 라면도 주문할때 매운맛 순한맛 두가지 중에 선택해서 주문할 수 있다는것도 좋았",
-      "두번째 방문인데 가성비 맛있고 좋아요"
-    ],
+    "rv": ["제육덮밥은 처음 먹어보는데 마싯네요ㅎㅎ 비빔밥은 원래도 맛있었구요! 가끔 비빔밥 먹고 싶을 때마다 꼭 여기 와요ㅎㅎ", "맛있는 분식 먹고 싶을때 방문하면 좋은곳이예요. 셀프코너 잘 되어있어서 우동국물이랑 알아서 가져다 먹을 수 있는것 좋구요 세트 메뉴 구성 좋아서 세트메뉴 주문해서 이것 저것 같이 맛볼 수 있는것도 좋았어요. 순대가 특히 찰지고 맛있어서 그런가 아이가 순대를 참 맛있게 먹었습니다. 라면도 주문할때 매운맛 순한맛 두가지 중에 선택해서 주문할 수 있다는것도 좋았어요"],
     "naverPlaceId": "1767948184",
     "naverBlogCnt": 36,
     "menuItems": [
@@ -45099,7 +44269,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/38490777/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_199%2F1491807898767rFOmT_JPEG%2F186360563476184_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_199%2F1491807898767rFOmT_JPEG%2F186360563476184_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_277%2F1491807898842JezBC_JPEG%2F186360563476184_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_56%2F1491807899017yRoHy_JPEG%2F186360563476184_2.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_209%2F1491807899080onoV2_JPEG%2F186360563476184_3.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190716_25%2F1563245990365uQ2oD_JPEG%2FhT_GpY_eFLixh6VU8cHiTdLh.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_199%2F1491807898767rFOmT_JPEG%2F186360563476184_0.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_199%2F1491807898767rFOmT_JPEG%2F186360563476184_0.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_277%2F1491807898842JezBC_JPEG%2F186360563476184_1.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_56%2F1491807899017yRoHy_JPEG%2F186360563476184_2.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20170410_209%2F1491807899080onoV2_JPEG%2F186360563476184_3.jpeg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190716_25%2F1563245990365uQ2oD_JPEG%2FhT_GpY_eFLixh6VU8cHiTdLh.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -45315,12 +44485,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "점심으로 팀회식겸+생일자겸 다녀왔습니다. 아주그냥 맛도리 점심에 생일자는 미역국이 나오네요^^ 든든하게 잘먹었습니다. 다음 팀 생일회식때 또뵐듯합니다 팀원들모두 미역국을 탐내더라구요ㅋㅋ",
-      "너무 맛있네요~ 초밥의 밥알이 부드럽고 녹아요😇 회덮밥에 실수로 초장을 많이 넣어서 조금 짜게 먹고 있었는데, 사장님이 밥 색깔을 보시더니 회덮밥 짜지 않냐며 밥을 더 주셨어요..! 덕분에 더 맛있게 먹을 수 있었습니다. 사장님의 세심함에 감동했어요☺️ 맛있는데다 친절하기까지 해서 다음에 또 방문할 듯 합니다! 번창하세요🍀",
-      "배고파서 사진을 못찍었어요 ㅠㅠㅠㅠㅠ명품초밥 2개 시켰고, 성인 여성 2명이서 먹기 아주 충분했어요. 중간중간 서비스 메뉴도 주셔서 오히려 마지막엔 그만... 외칠정도...사장님과 직원분 모두 엄청 친절하셨고 음식도 최고였어요!!배달도 맛있지만 직접 방문이 역시 최고네요 ㅎㅎ더보기",
-      "평일 런치 예약하고 갔어요. 한 시 반쯤 예약하고 가니까. 주차도 할 수 있고 여유롭게 식사할 수 있어서 좋았어요^^직원분들 친절하시고 음식도 맛있었어요!!"
-    ],
+    "rv": ["점심으로 팀회식겸+생일자겸 다녀왔습니다. 아주그냥 맛도리 점심에 생일자는 미역국이 나오네요^^ 든든하게 잘먹었습니다. 다음 팀 생일회식때 또뵐듯합니다 팀원들모두 미역국을 탐내더라구요ㅋㅋ", "너무 맛있네요~ 초밥의 밥알이 부드럽고 녹아요😇 회덮밥에 실수로 초장을 많이 넣어서 조금 짜게 먹고 있었는데, 사장님이 밥 색깔을 보시더니 회덮밥 짜지 않냐며 밥을 더 주셨어요..! 덕분에 더 맛있게 먹을 수 있었습니다. 사장님의 세심함에 감동했어요☺️ 맛있는데다 친절하기까지 해서 다음에 또 방문할 듯 합니다! 번창하세요🍀", "양이 많고 신선해요. 포장 주문해놓고 찾으러 갔는데 친절하세요. 남편과 둘이 한잔 생각날때 가끔 포장하는 곳이에요. 잘먹었습니다 ㅎㅎ", "Vip 시켜먹었는데 참돔까지 챙겨주셨으나 가격대비 조금 아쉬웠어요~ 해동이 조금 잘 안된것 같아서 그런지도 모르겠어요~ ㅠㅠㅠ 참치 내장 주시는건 좋더라고요~~"],
     "naverPlaceId": "1833291288",
     "naverBlogCnt": 59,
     "menuItems": [
@@ -45448,13 +44613,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "직원분들이 친절하세요. 젤라또가 너무 맛있어요. 와플도 너무맛있지만 젤라또 먹으러갑니다",
-      "오늘 와플이 너무 땡겨서 와플대학에 오랜만에 와플먹으러 왔어여🧇✨가게 안에 들어서자마자 퍼지는 버터 향에 이미 반했습니다🥹주문한 와플은 비주얼부터 합격입니다ㅜㅜㅜ너겉은 바삭, 속은 촉촉 식감 최고예여..❣️시럽과 크림의 조합도 과하지 않아 마지막까지 맛있게 먹었습니다❤️커피도 진하고 깔끔해서 와플이랑 찰떡궁합이었어요!사장님도 친절하시고 손도 빠르셔서 금",
-      "한달 전부터 옛날 학교 앞 사과잼와플이 생각났는데 주변에 딱! 와플대학 생겨서 망고젤라또랑 같이 먹었습니다. 와플 바삭, 크림이랑 사과잼 달콤, 젤라또 새콤달콤 아주 잘 먹었습니당~ 옛날와플 생각나면 또 먹으러 올께용~~",
-      "신전떡볶이에서 밥먹고, 얼얼한 입을 잠재워줄 와플을 먹으어 갔습니다컵밥 한그릇이랑 같은 가격인데 맛은 있네요~",
-      "젤라또 와플 맛있어요"
-    ],
+    "rv": ["와플대학은 처음인데 진짜 맛있어요 치즈케이크누텔라젤라또에 들어간 치즈케잌이 진짜 맛있네요 딸기도 완전 양껏 들었고 또 먹고싶어영", "와플을 만들어놓고 한시간이상은 된걸로 준거같네요. 눅눅하고 미지근한 와플로 줘서 정말 맛없었습니다. 돈아깝네요. 지금까지 5번은 넘게왔었는데 이런적없었는데 뭐지 하고 의아해서 안쪽 보니까 미리 만들어놓은 와플이 4개정도 더 있더라구요. 으...다시는 방문 안하겠습니다..다이어트에 도움을 줘서 고맙네요", "치즈케이크누뗄라젤라또와플 이놈미띵놈입니다 그냥꼭 드시길….. 직원누나도 친절해여😻", "직원분들이 친절하세요. 젤라또가 너무 맛있어요. 와플도 너무맛있지만 젤라또 먹으러갑니다", "한달 전부터 옛날 학교 앞 사과잼와플이 생각났는데 주변에 딱! 와플대학 생겨서 망고젤라또랑 같이 먹었습니다. 와플 바삭, 크림이랑 사과잼 달콤, 젤라또 새콤달콤 아주 잘 먹었습니당~ 옛날와플 생각나면 또 먹으러 올께용~~"],
     "naverPlaceId": "2046259658",
     "naverBlogCnt": 11,
     "menuItems": [
@@ -45517,13 +44676,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "금요일에 배달해먹고 너무 맛있게 먹어서 부모님이랑 포장하러왔어요!",
-      "가격인상표로 바꿔주세요맛있어요 ~~",
-      "피자 맛있어서 차타고 가서 자주 포장해먹어요",
-      "너무 좋아하는 피자집이예요. 동네에도 있는데, 수원 지인집에 갈 일이 있어서 갔다가 포장해서 먹었네요! 역시 맛있었고, 지인도 마음에 들어했어요.다음에 본인도 시켜먹어야겠다고 하네요 ^^*사장님도 친절하셔서 좋습니다.더보기",
-      "오늘도 미뜨레 넘 맛있어요"
-    ],
+    "rv": ["여기 피자가 토핑이 가득하고 우리 가족 입맛에 가장 맞아서 피자먹는 날은 무조건 미뜨레입니다 반반이 있어서 취향따라 골라먹을 수 있어서 좋은데 씬도우 선택하면 천원 추가 되는게 좀 아쉽네요 다른 소스 필요없고 피클만 넣어달라 요청드렸더니 피클을 3개나 넣어주셔서 스파이시치킨피자의 매콤함을 잘 달래며 맛있게 먹었습니다"],
     "naverPlaceId": "18231528",
     "naverBlogCnt": 78,
     "menuItems": [
@@ -45854,13 +45007,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "친절하시고 음식이 건강하고 맛있어요!",
-      "여기 친절하시고 건강해지는맛이라 종종 이용해요 좋아요!",
-      "언제나 깔끔하고 맛있게 잘 나옵니다.친절하고 항상 좋아요.",
-      "늘 맛있고 깨끗하고 친절해여.맛있게 잘 먹겠습니다",
-      "맛있어요^^직원분도친절하세요가볍게먹기딱이예요"
-    ],
+    "rv": ["일주일에 한번이상 방문하는 샐러디 맛도 좋지만 친절함이 더 즐겁게 해주는 매장입니다."],
     "naverPlaceId": "1023960058",
     "naverBlogCnt": 113,
     "menuItems": [
@@ -46042,13 +45189,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "친절하고 위생이 깔끔하고 종업원이 친절합니다",
-      "본죽이야 말해뭐해^^ 간편하게 건강한 한끼 먹기 좋아요 가까운 곳에 있으니 굿굿!",
-      "계란후라이가 비빔밥에 있어야할거같지만..비지찌개와 비빔밥 맛있게 먹었어요",
-      "온누리결제되는거 너무 좋아요! 늘 빠르고 맛있고 친절하셔서 자주갑니당.",
-      "카운터 알바분이 기분 나쁜 일이 있었는지 굉장히 불친절하시네요. 서비스가 매우 아쉽습니다."
-    ],
+    "rv": ["본죽이야 말해뭐해^^ 간편하게 건강한 한끼 먹기 좋아요 가까운 곳에 있으니 굿굿!", "카운터 알바분이 기분 나쁜 일이 있었는지 굉장히 불친절하시네요. 서비스가 매우 아쉽습니다."],
     "naverPlaceId": "1790488035",
     "naverBlogCnt": 26,
     "menuItems": [
@@ -46192,7 +45333,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/33691971/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260226_99%2F1772091426683nWy6l_PNG%2F%25B8%25F1%25B5%25BF%25C7%25C7%25C0%25DAKV600x600.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260226_99%2F1772091426683nWy6l_PNG%2F%25B8%25F1%25B5%25BF%25C7%25C7%25C0%25DAKV600x600.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260304_182%2F1772587361097IKRfK_JPEG%2F%25C4%25A1%25C5%25A9%25BA%25BA_%25B9%25EB%25B7%25B1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_90%2F1752464329547ggTD3_JPEG%2F20th-%25B7%25CE%25B0%25ED.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260129_200%2F17696462110427U9Ux_JPEG%2FsUPer%25B4%25DC%25B0%25ED%25B9%25DD%25B9%25DD_2000x2000.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251201_144%2F1764555588698y06eT_JPEG%2FsUPer%25C6%25F7%25C5%25D7%25C0%25CC%25C5%25E4KV_800x800.jpg", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260226_99%2F1772091426683nWy6l_PNG%2F%25B8%25F1%25B5%25BF%25C7%25C7%25C0%25DAKV600x600.png", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260226_99%2F1772091426683nWy6l_PNG%2F%25B8%25F1%25B5%25BF%25C7%25C7%25C0%25DAKV600x600.png", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260304_182%2F1772587361097IKRfK_JPEG%2F%25C4%25A1%25C5%25A9%25BA%25BA_%25B9%25EB%25B7%25B1.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250714_90%2F1752464329547ggTD3_JPEG%2F20th-%25B7%25CE%25B0%25ED.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260129_200%2F17696462110427U9Ux_JPEG%2FsUPer%25B4%25DC%25B0%25ED%25B9%25DD%25B9%25DD_2000x2000.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251201_144%2F1764555588698y06eT_JPEG%2FsUPer%25C6%25F7%25C5%25D7%25C0%25CC%25C5%25E4KV_800x800.jpg", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -46217,12 +45358,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "맛있게 잘 먹었습니다",
-      "아침 식사를 못해서 김밥 한 줄 먹고 가면든든하니 좋아요시원하게 천천히 먹으라고 에어컨도 틀어주셔서 늘 감사합니다더보기",
-      "오랫만에 바른김밥 먹었습니다든든히 먹고 출근",
-      "오늘같이 무더운 날씨에는 아침밥을 꼭 챙겨먹어야 합니다그래서 전 오늘도 바르다 김선생에서 김밥 한줄을든든하게 먹었답니다시원한곳에서 일터로 나갈 생각을 하니 몸이안 움직여지네요...오늘 하루도 화이팅^^더보기"
-    ],
+    "rv": ["아주 오랜만에 방문했는데 그전엔 밥알이 돌아다녀 제가 좋아하는 김밥은 아니였는데 이번에 가니 촉촉해졌네요~아주 맛있게 먹었습니다"],
     "naverPlaceId": "37057239",
     "naverBlogCnt": 31,
     "menuItems": [
@@ -46582,12 +45718,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "전화 주문 후 포장해와서 먹었는데, 첫 전화부터 수령까지 기분 좋게 응대해주신 친절한 목소리가 가장 인상적입니다. 특히 수령시간을 변경하게 됐을 때도 전혀 짜증내지 않고 친절하게 말씀해주셔서 감사했습니다. 자극적이지 않고, 주재료의 맛이 잘 전해지는 맛있고 건강한 김밥이었습니다. 처음 먹어봤는데, 왜  편의점에서 안 사먹고 굳이 여기에서 사먹는지 바로 알겠",
-      "순살치킨 5천원에 6조각..? 미니 해쉬브라운 4조각전화로 포장 예약하고 방문했는데도 20분 기다림총 30분 걸려서 메뉴 받음..삼각김밥은 김이 눅눅하고 질겨서 다 벗겨짐더보기",
-      "삼각김밥 아이들이 먹기 편해요.",
-      "혼밥 좋아요가격 합리적임"
-    ],
+    "rv": ["전화 주문 후 포장해와서 먹었는데, 첫 전화부터 수령까지 기분 좋게 응대해주신 친절한 목소리가 가장 인상적입니다. 특히 수령시간을 변경하게 됐을 때도 전혀 짜증내지 않고 친절하게 말씀해주셔서 감사했습니다. 자극적이지 않고, 주재료의 맛이 잘 전해지는 맛있고 건강한 김밥이었습니다. 처음 먹어봤는데, 왜 편의점에서 안 사먹고 굳이 여기에서 사먹는지 바로 알겠더라고요. 맛있게 잘 먹었습니다.^^"],
     "naverPlaceId": "1872616551",
     "naverBlogCnt": 53,
     "menuItems": [
@@ -46675,12 +45806,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "언제 먹어도 너무 맛있는 등촌샤브칼국수입니다. 볶음밥 진짜 너무 맛있어요🫠",
-      "헬스장 갔다가 저녁 늦게 배고파져서 친구랑 방문했어요. 마감시간 40분 남았는데도 따뜻하게 반겨주셔서 감사했습니다. 샤브샤브 담은 것도 넘 예쁘고, 정갈해서 기분 좋았어요 🥹🤍🩷국물 맛은 칼칼하구 깔끔하고 시원했어요! 고기도 잡내 없이 신선해서 좋았구요 ㅎㅎ 마지막 볶음밥 까지 볶아달라 부탁해야했는데, 배고픈 나머지 저희가 죽으로 만들어 먹으니 사장님",
-      "너무 맛있어요.. 리뷰쓰는 지금 또 가고싶습니당.. 글구 넘 친절하셔서 더더 좋았어요. 잘먹고가요",
-      "샤브샤브 데코가. 정말 예뻐요~~^^맛있구요~~"
-    ],
+    "rv": ["언제 먹어도 너무 맛있는 등촌샤브칼국수입니다. 볶음밥 진짜 너무 맛있어요🫠", "너무 맛있어요.. 리뷰쓰는 지금 또 가고싶습니당.. 글구 넘 친절하셔서 더더 좋았어요. 잘먹고가요", "소중한 리뷰 남겨주셔서 너무 감사드립니다.앞으로도 더욱 정성을 다해 모실것을 약속 드립니다.", "사장님,직원분들 친절하셔서 기분좋게 식사하고 왔어요 갔던 지점중에 제일 맛있게 먹은것같습니다 추천!!"],
     "naverPlaceId": "18234903",
     "naverBlogCnt": 127,
     "menuItems": [
@@ -47044,12 +46170,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "프리미엄부대찌개답게 사리들이 다양하고 양이 많아요맛도 아주 좋습니다! 너무 바쁜데 배달말고 집밥같은 느낌이면서 맛있는 느낌으로 먹고 싶을때 진짜 유용해요!! 그냥 다 넣고 끓이면 되서 시간절약이 가장 좋아요",
-      "자주 프리미엄 부대찌개는 많이 사먹고 이번에 처음으로 차돌된장찌개 먹었는데 맛있어요! 조리가 정말 편해요. 두부는 추가로 사서 넣어먹었는데 어울려요!",
-      "아이가 지나갈때마다 떡볶이 먹고 싶다고 하여첫 방문해서 이용했어요~~^^재료도 신선하고 맛도 너무 좋아요~♡ 아이도 너무 맛있게 잘 먹어서 종종 이용하려고 합니다~!담번엔 다른 메뉴도 도전해 보려고 합니다. 이렇게 더운 날씨에 밥준비 하기 귀찮을때 너무 유용할듯 하네요~~^^더보기",
-      "혼자 지내는 가족!!있어서 포장해서 보냅니다ㆍ깔끔하고 맛있어요"
-    ],
+    "rv": ["자주 프리미엄 부대찌개는 많이 사먹고 이번에 처음으로 차돌된장찌개 먹었는데 맛있어요! 조리가 정말 편해요. 두부는 추가로 사서 넣어먹었는데 어울려요!"],
     "naverPlaceId": "1465591981",
     "naverBlogCnt": 30,
     "menuItems": [
@@ -47133,13 +46254,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "요청사항도 들어주시고 맛있어서 자주 배달하다가 첫 포장했어요 자주 포장할게요 ^^",
-      "자주가는 매장 장염에 걸렸을때 아이가 잘먹어서 주문미리주문하고 찾아가니 좋아요",
-      "직원분도 친절하시고 맛있어용~",
-      "수저를 안주셔서 이거 난감하네요 챙겨달라고했는데 ㅜㅜ아... 진짜",
-      "동지에  남편 팥죽 먹일려고 샀는데 ..우와 ~사람이 엄청 많아요  동네에서 맛있게 파는 죽집이예여 앞으로도 맛있게 계속 부탁드려요"
-    ],
+    "rv": ["아이가 아파서 편하게 먹을 죽으로 준비했어요 먹기좋게 따로 포장해서 2번 먹을수 있어서 좋아요", "사진을 못 찍어서 아쉽지만, 전복 내장죽과 반찬들을 정성껏 포장해 주셨어요. 추천합니다."],
     "naverPlaceId": "1804165063",
     "naverBlogCnt": 7,
     "menuItems": [
@@ -47488,13 +46603,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "세탁방 왔다가 시간이 어중간해 우연히 들렸는데 편안하면서 차분한 분위기가 너무 좋네요이른 시간임에도 손님들도 꽤 있는게 근처에서는 유명한 곳인가 봅니다커피도 너무 맛있어서 잘 머무르다 가요🥰",
-      "자동차 정비 기다릴 겸 들렀어요 미숫가루가 너무 맛있어요!! 방석이 귀여워요",
-      "커피가 맛있구 편안한 분위기라서 너무 좋아용~~~~프레즐도 맛있어용 ~~~",
-      "프릳츠 원두를 써서 그런지 확실히 커피맛이 다른곳이랑 다르고, 평일 점심시간에 왔는데 주변 직장인 분들이 많이 오시는거 같아요!!가격도 저렴해서 밥먹고 후식 커피로 딱이에요!!!",
-      "맛있어요 분위기도 차분하고 조용하니 좋네요"
-    ],
+    "rv": ["자동차 정비 기다릴 겸 들렀어요 미숫가루가 너무 맛있어요!! 방석이 귀여워요"],
     "naverPlaceId": "1390393671",
     "naverBlogCnt": 1,
     "menuItems": [
@@ -47747,7 +46856,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1040634911/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_45%2F1767617359377diE3P_JPEG%2F1000009019.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_45%2F1767617359377diE3P_JPEG%2F1000009019.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_39%2F1767623739401UKsEL_JPEG%2F1000009022.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260108_215%2F1767848132824wLOVf_JPEG%2F1000009103.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171205_84%2F15124848033433eCMl_JPEG%2F_hzKVnDZGddZ1f8-MJf_J5gs.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171205_188%2F15124847908536KUop_JPEG%2FffDT8IG4lJyG11K1dHny6Vge.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260108_6/1767848532900NDJFG_JPEG/1000009104.jpg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_45%2F1767617359377diE3P_JPEG%2F1000009019.jpg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_45%2F1767617359377diE3P_JPEG%2F1000009019.jpg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260105_39%2F1767623739401UKsEL_JPEG%2F1000009022.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260108_215%2F1767848132824wLOVf_JPEG%2F1000009103.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171205_84%2F15124848033433eCMl_JPEG%2F_hzKVnDZGddZ1f8-MJf_J5gs.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20171205_188%2F15124847908536KUop_JPEG%2FffDT8IG4lJyG11K1dHny6Vge.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20260108_6/1767848532900NDJFG_JPEG/1000009104.jpg", "imageUrl8": "",
     "parking": true,
     "reservation": false
   },
@@ -47773,13 +46882,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "김밥이 맛있어요~^^친절하셔서 자주가용",
-      "김밥이 맛있어요.혼밥하기 좋아요.",
-      "위생 생각하면 가지마세요.주방에서 손으로 집어먹고 있는 장면 목격했어요.저밖에 없었는데 메뉴도 엄청 늦게 나오고 원래 포장할때 반찬도 안주시나봐요 되도록이면 다른지점 이용하세요.",
-      "혼밥하기 좋아요메뉴도많구 친절하셔요~",
-      "혼밥하기 좋아서 자주갑니다^^"
-    ],
+    "rv": ["떡, 어묵.양배추 들어간 매콤한 라볶이 양이 많아서 둘이 가서 김밥은 남기고 왔네요ㅠㅠ 기본김밥 깔끔하고 라볶이에 넘 잘 어울려요."],
     "naverPlaceId": "1137751855",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -47864,12 +46967,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "영통구청맛집~~아귀찜먹으러 갔다가 샤브샤브 서비스로 나오고 파전...샤브샤브 칼국수는 배불러서 먹지도 못했지만요...아귀찜 넘 맛있어서 남녀노소 누구나 좋아할맛...모임하기도 좋은곳!!!!동네 이런곳이 있어서 넘 좋으네요...재료도 신선해요.",
-      "순살아구찜으로 약간매운맛 먹었어용!!",
-      "순살 아구찜 최고의 맛집입니다 강추",
-      "집 근처라 가족들과 방문했는데 홀 넓은데 배달집에서 먹는 느낌이었습니다. 서빙하시는 분이 외국분이라 소통의 어려움이 있었어요.고춧가루가 고와서 약간은 텁텁했습니다. 맵기는 보통맛인데 칼칼하게 매웠고요.볶음밥은 그냥 김치콩나물볶음밥같았습니다.재방문은 안할것 같습니다.더보기"
-    ],
+    "rv": ["알곤이찜 주문했는 데 먹는 내내 따뜻해서 좋았고 개인적으로 콩나물을 좋아하는 데 콩나물이 많아서 좋았어요. 특히 보통맛으로 주문했는 데 자극적인 맛이 아니라 슴슴하니 감칠 맛이 나서 더 좋았어요. 맛 조절도 가능한 점도 👍"],
     "naverPlaceId": "1139271042",
     "naverBlogCnt": 133,
     "menuItems": [
@@ -48140,13 +47238,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "여기 완전 맛집이에요.초딩아이 첫 초밥집이에요와사비 따로 주셔서 먹기 좋고회도 직접 손질해주시는거 같아요~~^^자주 올께요~^^더보기",
-      "n번째 오는데 너무 맛있어요서비스도 넘 많아여",
-      "음식도 맛있고 가격도 합리적 입니다. 처음 가 보시는 거면 일보 추천세트+먹고싶은단품 추천합니다. 매장도 깔끔하고 테이블에서 타블릿 주문입니다. 토핑초밥류는 풍성했고, 흰살생선은 식감이 숙성많이 된 식감이였습니다.",
-      "넘 맛있어요 ㅠㅠㅠ 항상 먹는곳 이만큼 맛있는 곳이 없습니다...",
-      "오늘도 역시나 너무 맛있어요❤️일부러 찾아와도 좋을만큼 좋은 구성에 서비스도 좋구 부드러운 일식푸딩느낌 계란찜 새우튀김 연어스테이크 초밥까지 특히 초밥위 드레싱 소스가 일품인데 너무 좋아요🥰오늘은 생맥주에 윙봉도 처음 시켜봤는데 생맥주거품도 예술👍우동도 너무 실하고 시키길 잘했다 싶네요초밥먹고싶으면 고민없이 찾고있어요ㅎㅎ더보기"
-    ],
+    "rv": ["진짜 넘넘맛있어요! 살도도톰하고😊😊 사실 어제오고 오늘 또왔어요.... 이동네에사 초밥으로는 제일이에요"],
     "naverPlaceId": "1909152644",
     "naverBlogCnt": 24,
     "menuItems": [
@@ -48324,12 +47416,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "산책하러 나가서 출출해서 들어간 153김밥. 김밥하고 우동을 주문했어요. 김밥은 재료가 신선했고 우동은 면발이 탱탱했습니다. 맛있게 잘 먹었습니다^^",
-      "돈까스김밥이 맛있고 우동도 따스하니 겨울철에 딱이네요!!! 진짜 여기는 혼밥하기 좋아서 너무 편해요 😍😍😍😍 오래오래 장사해주시면 좋겠어요",
-      "떡볶이가 이븐하게 익었어요. 치즈김밥이 깔끔하고 맛있어요. 최고예요. 사장님두 친절하세요. 담번에 부모님 김밥 포장해드릴까봐요. 😍 오래오래 남아주시면 좋겠네요... 최고다.",
-      "친구와 같이 와서 먹었는데, 떡볶이가 진짜 맛있는 것 같아요. 양도 많고 사장님이 친절하셔서 정말 좋아요."
-    ],
+    "rv": ["산책하러 나가서 출출해서 들어간 153김밥. 김밥하고 우동을 주문했어요. 김밥은 재료가 신선했고 우동은 면발이 탱탱했습니다. 맛있게 잘 먹었습니다^^", "돈까스김밥이 맛있고 우동도 따스하니 겨울철에 딱이네요!!! 진짜 여기는 혼밥하기 좋아서 너무 편해요 😍😍😍😍 오래오래 장사해주시면 좋겠어요", "떡볶이가 이븐하게 익었어요. 치즈김밥이 깔끔하고 맛있어요. 최고예요. 사장님두 친절하세요. 담번에 부모님 김밥 포장해드릴까봐요. 😍 오래오래 남아주시면 좋겠네요... 최고다.", "친구와 같이 와서 먹었는데, 떡볶이가 진짜 맛있는 것 같아요. 양도 많고 사장님이 친절하셔서 정말 좋아요."],
     "naverPlaceId": "1113364535",
     "naverBlogCnt": 4,
     "menuItems": [
@@ -48387,7 +47474,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1113364535/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250217_102%2F1739724033058AemfF_JPEG%2FIMG_2307.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250217_102%2F1739724033058AemfF_JPEG%2FIMG_2307.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjhfMjA5%2FMDAxNzUxMDkxOTgxNTky.z44fuXlbSY1BizhlMIiGtPX_XxbPip4pPpbemH9Al5wg.AJCykrAIhbZT7lNFIQT_oRc7-5GktqCJs27JKpovwSMg.JPEG%2F20250628_150442.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTBfMTE0%2FMDAxNzczMTMyMTYwMDA5.MRd1N_89yn-YUBvMSI7Wa41_N87cpLt40C6SvIkXKs8g.ckJPJHsyXBIPnWpyIgbUynt9zVTHVU-dsyn9pu7KbCQg.JPEG%2F20260309_143824.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTBfMTUx%2FMDAxNzczMTMyMTYwMDA2.jk_hyj9B9ECW5HXbjvOeQ_PHhdfvkUUxoUcc6CZ0D-Mg.vIZcWRp5eXlV4mhDAO-ZmFAzqNeP9MspHd5ZAHOehMog.JPEG%2F20260309_143703.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDFfMjE0%2FMDAxNzYxOTc4NzI5NTkx.NqpC8yYmq_dD6K3cpvQRRFVwF-PFx-9J6hTmgaG5luQg.V2gqpQ84Hu42GXZKSRzQWhhH84Bgpyzp-KqRTHcxZGkg.JPEG%2F20251101_153006.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240714_277/1720925446882eluA2_JPEG/IMG_0161.jpeg", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250217_102%2F1739724033058AemfF_JPEG%2FIMG_2307.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250217_102%2F1739724033058AemfF_JPEG%2FIMG_2307.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA2MjhfMjA5%2FMDAxNzUxMDkxOTgxNTky.z44fuXlbSY1BizhlMIiGtPX_XxbPip4pPpbemH9Al5wg.AJCykrAIhbZT7lNFIQT_oRc7-5GktqCJs27JKpovwSMg.JPEG%2F20250628_150442.jpg.jpg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTBfMTE0%2FMDAxNzczMTMyMTYwMDA5.MRd1N_89yn-YUBvMSI7Wa41_N87cpLt40C6SvIkXKs8g.ckJPJHsyXBIPnWpyIgbUynt9zVTHVU-dsyn9pu7KbCQg.JPEG%2F20260309_143824.jpg.jpg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTBfMTUx%2FMDAxNzczMTMyMTYwMDA2.jk_hyj9B9ECW5HXbjvOeQ_PHhdfvkUUxoUcc6CZ0D-Mg.vIZcWRp5eXlV4mhDAO-ZmFAzqNeP9MspHd5ZAHOehMog.JPEG%2F20260309_143703.jpg.jpg", "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMDFfMjE0%2FMDAxNzYxOTc4NzI5NTkx.NqpC8yYmq_dD6K3cpvQRRFVwF-PFx-9J6hTmgaG5luQg.V2gqpQ84Hu42GXZKSRzQWhhH84Bgpyzp-KqRTHcxZGkg.JPEG%2F20251101_153006.jpg.jpg", "imageUrl7": "https://ldb-phinf.pstatic.net/20240714_277/1720925446882eluA2_JPEG/IMG_0161.jpeg", "imageUrl8": "",
     "parking": false,
     "reservation": true
   },
@@ -48415,13 +47502,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "자주오는 돼지곰탕 집 입니다돼지곰탕 말고 다른 메뉴들도 너무 맛있어요사장님 최고입니다👍👍신동 곰탕 맛집 추천합니다더보기",
-      "따끈한 돼지곰탕 한 그릇하세요~",
-      "신동 디지털엠파이어 2 건물 1층에 위치한 돈곰신규매장이라 깔끔하고반찬과 메뉴 구성도 알차요 🍲🥄더보기",
-      "이 정도 양의 소곰탕과 돈곰(특)이 만원이라니~😄 넘 푸짐하고 맛있어요! 진짜 싹싹 다 완식했습니다ㅎㅎㅎ밑반찬도 맛있었고 다데기도 맛있었어요 맑은 곰탕 너무 맛있게 잘 먹었네요 뜻밖의 동네 맛집 발견해서 기분이 좋아요! 번창하세요 종종 놀러올게요💕",
-      "❤수원 영통 돼지곰탕 맛집 돈곰 리뷰!❤일단 수원 이마트 트레이더스와 삼성전자랑 매우 가까운 곳에 위치해있어요.처음에 명백집이랑 비쥬얼 비슷해서 맛도 비슷할까해서 갔는데 엄청 맛있어요!! 👍 고추다데기로 맵기 조절하고 기본으로 석박지랑 배추김치 주세요.석박지가 진짜 존맛ㅠㅠ 💕그리고 기본이 8000원이라 가격도 가성비!!10시에 오픈하셔서 늦은 아침이나"
-    ],
+    "rv": ["이 정도 양의 소곰탕과 돈곰(특)이 만원이라니~😄 넘 푸짐하고 맛있어요! 진짜 싹싹 다 완식했습니다ㅎㅎㅎ밑반찬도 맛있었고 다데기도 맛있었어요 맑은 곰탕 너무 맛있게 잘 먹었네요 뜻밖의 동네 맛집 발견해서 기분이 좋아요! 번창하세요 종종 놀러올게요💕"],
     "naverPlaceId": "1340256639",
     "naverBlogCnt": 31,
     "menuItems": [
@@ -48439,7 +47520,7 @@ const restaurants = [
     "keywords": [],
     "naverUrl": "https://pcmap.place.naver.com/restaurant/1340256639/home",
     "updatedAt": "2026-03-17",
-    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_209%2F1660959031646qOzS8_JPEG%2FBDA9A95A-5D65-4C91-B108-2F3893A90405.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_209%2F1660959031646qOzS8_JPEG%2FBDA9A95A-5D65-4C91-B108-2F3893A90405.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_9%2F16609590313409FCfr_JPEG%2F17F30167-3C35-4430-9597-3C0C11C19A89.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTJfMjUz%2FMDAxNzczMjkwNjQyMzI5.I2LVFuvd2QuIi-ECPiz1G8ka902FYdAfb4O8mso6nQ4g.eKHCqOX9FAkvJNR3OeIPaQwRm3AG1xyoKHJVt29NEoYg.JPEG%2F654A2B91-7B1E-4901-AA75-3BE862986216.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjVfMjA0%2FMDAxNzY5MzIzNDY2MjI1.QAgUazQwVL0k2j7SwK8Qz-OeCyWgEfhT4kPs5WO8lHog.jm2L1XZYiNcm7nS0SlQ8p-0lFBEnHQ1-jje31_n67Tsg.JPEG%2F1769323312460.jpg.jpg", "imageUrl6": "https://ssl.pstatic.net/static/pup/emoji/face_savoring_food20220119222022.png", "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/leaf20220119222023.png", "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+    "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_209%2F1660959031646qOzS8_JPEG%2FBDA9A95A-5D65-4C91-B108-2F3893A90405.jpeg", "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_209%2F1660959031646qOzS8_JPEG%2FBDA9A95A-5D65-4C91-B108-2F3893A90405.jpeg", "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220820_9%2F16609590313409FCfr_JPEG%2F17F30167-3C35-4430-9597-3C0C11C19A89.jpeg", "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAzMTJfMjUz%2FMDAxNzczMjkwNjQyMzI5.I2LVFuvd2QuIi-ECPiz1G8ka902FYdAfb4O8mso6nQ4g.eKHCqOX9FAkvJNR3OeIPaQwRm3AG1xyoKHJVt29NEoYg.JPEG%2F654A2B91-7B1E-4901-AA75-3BE862986216.jpeg", "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNjAxMjVfMjA0%2FMDAxNzY5MzIzNDY2MjI1.QAgUazQwVL0k2j7SwK8Qz-OeCyWgEfhT4kPs5WO8lHog.jm2L1XZYiNcm7nS0SlQ8p-0lFBEnHQ1-jje31_n67Tsg.JPEG%2F1769323312460.jpg.jpg", "imageUrl6": "", "imageUrl7": "", "imageUrl8": "",
     "parking": false,
     "reservation": false
   },
@@ -48553,12 +47634,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "너무너무 좋아요 생맥주 맛나고 안주 맛있어요!",
-      "신메뉴 무난했어요. 골뱅이는 새콤함이 덜해서 아쉽네요. 우동은 항상 맛있어요. 👍👍",
-      "바삭바삭한 아지후라이와 뜨끈한 우동❗️ 소주도 좋고 생맥에도 좋다.👍😁",
-      "못다한 수다를 위해 2차 ~1층이 너무 시끄러워서 2층으로 갔는데 주문용 태블릿도 셋팅이 안되어있었어요 .. 직접 조작은 했지만 기분은 좋지 않았습니다간술하기 좋은 곳 같지만 메뉴 대비로 생각하면 가성비는 글쎄요ㅜ 저는 재방문은 없을 것 같습니다더보기"
-    ],
+    "rv": ["신메뉴 무난했어요. 골뱅이는 새콤함이 덜해서 아쉽네요. 우동은 항상 맛있어요. 👍👍", "얌통꼬치 오징어튀김 닭꼬치 다 맛있었어요. 생맥도 유독 더 탄산도 진하게 담게 맛있어요", "신메뉴 뿌시러 갔다옴!! 돈까스 모닝빵에 햄버거 만들어서 먹었는데 맛있음!! 술안주로 굿👍 우삼겹짬뽕탕도 맛있어서 우동사리 추가해서 먹음", "가마보꼬어묵탕은 다양함에 입이 즐거웠고 레드윙봉은 매콤함으로 맥주를 부른다. 생맥주 맛이 좋아 자주 찾게 되는 곳. 다음엔 신메뉴 족발이 있을런지..."],
     "naverPlaceId": "1110674098",
     "naverBlogCnt": 14,
     "menuItems": [
@@ -48910,13 +47986,7 @@ const restaurants = [
     "moods": [],
     "wx": [],
     "scene": [],
-    "rv": [
-      "역시 항상 안주가 맛있습니다최고입니다",
-      "집앞에 시선첨왔눈데 음식맛있고 깨끗해요~",
-      "분위기 좋고 조용하게 친구들끼리 술 먹기 좋네요다음에 또 방문하도록 하겠습니다 안주도 맛있어요!",
-      "너무 맛있고~~ 사장님도 친절해요♡♡♡♡♡시선 최고^_______^담에 또 올게요^^더보기",
-      "쫀득감자는 품절이라 못먹었지만, 닭발이랑 타코 맛있네요. 담엔 쫀득감자 먹고싶어요,"
-    ],
+    "rv": ["쫀득감자는 품절이라 못먹었지만, 닭발이랑 타코 맛있네요. 담엔 쫀득감자 먹고싶어요,", "매장이 아늑하니 대화하기도 좋고 분위기부터 인테리어 느낌이 너무 좋아요! 술과 안주도 다양해서 여러가지 골라 시킬 수 있고 싸다고 해서 절대 맛!!이 없다는 편견은 집어치우세요! 가성비 갑 맛 최고입니다 진짜 매일매일 오고 싶을 정도네요ㅠㅠ"],
     "naverPlaceId": "1263635267",
     "naverBlogCnt": 12,
     "menuItems": [
