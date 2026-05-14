@@ -47,7 +47,7 @@ export default function CategorySuggestButton({ restaurant, region }) {
   const catLabel = CAT_LABEL[slug] || slug
 
   return (
-    <div style={{ margin:'36px auto 28px', maxWidth:520 }}>
+    <div style={{ margin:'20px auto 24px', maxWidth:520 }}>
       <Link href={`${regPath}/category/${slug}`} style={{ textDecoration:'none' }}>
         <div style={{
           padding:'18px 22px', borderRadius:14,
@@ -57,10 +57,10 @@ export default function CategorySuggestButton({ restaurant, region }) {
           cursor:'pointer', transition:'transform .15s',
         }}>
           <div style={{ fontSize:'.78rem', opacity:.92, marginBottom:6, fontWeight:600 }}>
-            🍽 {regName}에서 {restaurant.name} 외에
+            🔥 {regName}에 또 다른 {catLabel}, 어디가 있을까?
           </div>
           <div style={{ fontSize:'1.05rem', fontWeight:900, letterSpacing:'-0.01em' }}>
-            다른 {catLabel} 보러 가기 →
+            지금 평점 높은 {catLabel} BEST 비교 →
           </div>
         </div>
       </Link>

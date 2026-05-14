@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "빨간의자집-강남역점",
-      text: "빨간의자집 강남역점 — 리뷰 5,657건이 쌓인 곳",
+      text: "빨간의자집 강남역점 — 웨이팅 잡히는 고기집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "화기애애",
-      text: "화기애애 — 리뷰 3,290건이 쌓인 곳",
+      text: "화기애애 — 시그니처 생삼겹살 150g 14,000원",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "도정육관-강남본점",
-      text: "도정육관 강남본점 — 리뷰 654건 검증 맛집",
+      text: "도정육관 강남본점 — 시그니처 本돼지갈비 점심 특선 26,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5657건</td><td style=\"padding:7px 6px;text-align:center\">4,000~18,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/화기애애\">화기애애</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3290건</td><td style=\"padding:7px 6px;text-align:center\">14,000~96,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/도정육관 강남본점\">도정육관 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">654건</td><td style=\"padding:7px 6px;text-align:center\">8,000~125,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/빨간의자집 강남역점\">빨간의자집 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">5657건</td><td style=\"padding:7px 6px;text-align:center\">4,000~18,000원</td><td style=\"padding:7px 6px\">인기 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/화기애애\">화기애애</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3290건</td><td style=\"padding:7px 6px;text-align:center\">14,000~96,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/도정육관 강남본점\">도정육관 강남본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">654건</td><td style=\"padding:7px 6px;text-align:center\">8,000~125,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/엄순녀뼈구이순대국 강남역점\">엄순녀뼈구이순대국 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">475건</td><td style=\"padding:7px 6px;text-align:center\">10,000~34,000원</td><td style=\"padding:7px 6px\">고기구이 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

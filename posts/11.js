@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "제주은희네해장국-잠실직영점",
-      text: "제주은희네해장국 잠실직영점 — 해장·국밥 한 그릇",
+      text: "제주은희네해장국 잠실직영점 — 리뷰 784건 검증 맛집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "본가설렁탕",
-      text: "본가설렁탕 — 리뷰 1,711건이 쌓인 곳",
+      text: "본가설렁탕 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {

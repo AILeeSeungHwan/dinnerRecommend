@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "흥부골숯불돼지왕갈비",
-      text: "흥부골숯불돼지왕갈비 — 리뷰 620건 검증 맛집",
+      text: "흥부골숯불돼지왕갈비 — 시그니처 돼지왕갈비 23,000원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>흥부골숯불돼지왕갈비</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.2점</strong>은 동네 단골 식당 수준. 리뷰 <strong>620건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>돼지왕갈비 23,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 2,000~23,000원. 잠실 회식·단체 평균(16,000원)보다 14,000원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.</p><p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돼지왕갈비</td><td style=\"padding:7px 6px;text-align:right\">23,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">스테이크돼지고기</td><td style=\"padding:7px 6px;text-align:right\">19,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">갈비탕</td><td style=\"padding:7px 6px;text-align:right\">18,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">뚝배기갈비찜</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">함흥냉면</td><td style=\"padding:7px 6px;text-align:right\">10,000원</td></tr></tbody></table><p><strong>리뷰에서 자주 언급되는 점</strong>: 서비스·응대.</p><p style=\"border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0\">한 방문자는 \"냉면 계란찜 양념게장 쌈장 동치미 연두부 등 이게 다 기본인데 푸짐하고 맛있어요 😋다는 평\"고 적어두었습니다.</p><p><strong>이런 분에게 추천</strong>: 한 끼 만원대 가성비 점심.</p><p><strong>방문 팁</strong>: 룸 운영 여부는 매장 사정에 따라 다르니 인원 많을 때 미리 확인 권장.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 영업시간 11:40에 영업 시작 · 위치 석촌동 3-2</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/흥부골숯불돼지왕갈비\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 흥부골숯불돼지왕갈비 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>흥부골숯불돼지왕갈비</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.2점</strong>은 동네 단골 식당 수준. 리뷰 <strong>620건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>돼지왕갈비 23,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 2,000~23,000원. 잠실 회식·단체 평균(16,000원)보다 14,000원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.</p><p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돼지왕갈비</td><td style=\"padding:7px 6px;text-align:right\">23,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">스테이크돼지고기</td><td style=\"padding:7px 6px;text-align:right\">19,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">갈비탕</td><td style=\"padding:7px 6px;text-align:right\">18,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">뚝배기갈비찜</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">함흥냉면</td><td style=\"padding:7px 6px;text-align:right\">10,000원</td></tr></tbody></table><p style=\"border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0\">한 방문자는 \"고기 밑반찬 다 너무 맛있고요 서비스 냉면도 기대 이상으로 시원상큼 너무 맛있더라구요\"고 적어두었습니다.</p><p><strong>이런 분에게 추천</strong>: 한 끼 만원대 가성비 점심.</p><p><strong>방문 팁</strong>: 룸 운영 여부는 매장 사정에 따라 다르니 인원 많을 때 미리 확인 권장.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 영업시간 11:40에 영업 시작 · 위치 석촌동 3-2</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/흥부골숯불돼지왕갈비\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 흥부골숯불돼지왕갈비 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -47,7 +47,7 @@ const post = {
     {
       type: 'h2',
       id: "퍼프룸-치즈룸-월드타워",
-      text: "퍼프룸 치즈룸 월드타워 — 단체석 운영 회식 식당",
+      text: "퍼프룸 치즈룸 월드타워 — 음식점 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -63,7 +63,7 @@ const post = {
     {
       type: 'h2',
       id: "횡성한우",
-      text: "횡성한우 — 한식 전문점",
+      text: "횡성한우 — 시그니처 A코스 250,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>청와옥 석촌호수직영점</strong> — 데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.</p><p>평점은 <strong>3.8점</strong>으로 호불호가 갈리는 편. 리뷰 <strong>36건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>잠실 회식·단체는 통상 인당 3만~5만원 회식 적정선 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>회식·단체 카테고리는 일반적으로 단체 코스 또는 메인 구이 + 사이드 다수로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>이런 분에게 추천</strong>: 단체로 모이는 회식 자리.</p><p><strong>방문 팁</strong>: 룸 운영 여부는 매장 사정에 따라 다르니 인원 많을 때 미리 확인 권장 · 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 석촌동 2</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 청와옥 석촌호수직영점 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>청와옥 석촌호수직영점</strong> — 데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.</p><p>평점은 <strong>3.8점</strong>으로 호불호가 갈리는 편. 리뷰 <strong>36건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>잠실 회식·단체는 통상 인당 3만~5만원 회식 적정선 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>회식·단체 카테고리는 일반적으로 단체 코스 또는 메인 구이 + 사이드 다수로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 매장 분위기·청결.</p><p><strong>이런 분에게 추천</strong>: 단체로 모이는 회식 자리.</p><p><strong>방문 팁</strong>: 룸 운영 여부는 매장 사정에 따라 다르니 인원 많을 때 미리 확인 권장 · 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 석촌동 2</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/청와옥 석촌호수직영점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 청와옥 석촌호수직영점 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',

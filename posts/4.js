@@ -31,7 +31,7 @@ const post = {
     {
       type: 'h2',
       id: "자연별곡-nc-야탑점",
-      text: "자연별곡 NC 야탑점 — 5천원대 가성비 한 끼",
+      text: "자연별곡 NC 야탑점 — 음식점 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -47,7 +47,7 @@ const post = {
     {
       type: 'h2',
       id: "미정국수-분당서현점",
-      text: "미정국수 분당서현점 — 10천원대 가성비 한 끼",
+      text: "미정국수 분당서현점 — 가성비 한 끼",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -57,7 +57,7 @@ const post = {
     {
       type: 'h2',
       id: "너와집-백합-샤브샤브-백현점",
-      text: "너와집 백합 샤브샤브 백현점 — 혼밥 가능한 가성비 식당",
+      text: "너와집 백합 샤브샤브 백현점 — 일식 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -68,12 +68,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>너와집 백합 샤브샤브 백현점</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.1점</strong>은 동네 단골 식당 수준. 리뷰 <strong>400건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>가을특선 59,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 35,000~79,000원. 판교 가성비 평균(15,580원)보다 19,420원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴 중에는 가을특선 59,000원, 여름향기 59,000원, 봄의향연 59,000원 등이 자주 언급됩니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 재료 신선도.</p><p><strong>이런 분에게 추천</strong>: 빠르게 한 끼 해결하려는 직장인 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 17:00에 영업 시작 · 위치 백현동 490-9</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/pangyo/restaurant/너와집 백합 샤브샤브 백현점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 너와집 백합 샤브샤브 백현점 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>너와집 백합 샤브샤브 백현점</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.1점</strong>은 동네 단골 식당 수준. 리뷰 <strong>400건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>가을특선 59,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 35,000~79,000원. 판교 가성비 평균(15,580원)보다 19,420원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴 중에는 가을특선 59,000원, 여름향기 59,000원, 봄의향연 59,000원 등이 자주 언급됩니다.</p><p><strong>이런 분에게 추천</strong>: 빠르게 한 끼 해결하려는 직장인 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 17:00에 영업 시작 · 위치 백현동 490-9</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/pangyo/restaurant/너와집 백합 샤브샤브 백현점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 너와집 백합 샤브샤브 백현점 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
       id: "불고기-온소반",
-      text: "불고기 온소반 — 가성비 한 끼",
+      text: "불고기 온소반 — 고기구이 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -94,7 +94,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/자연별곡 NC 야탑점\">자연별곡 NC 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">3889건</td><td style=\"padding:7px 6px;text-align:center\">5,900~17,900원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/미정국수 분당서현점\">미정국수 분당서현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">420건</td><td style=\"padding:7px 6px;text-align:center\">10,000~15,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/너와집 백합 샤브샤브 백현점\">너와집 백합 샤브샤브 백현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">400건</td><td style=\"padding:7px 6px;text-align:center\">35,000~79,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/전국5대짬뽕 연화산\">전국5대짬뽕 연화산</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">711건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/자연별곡 NC 야탑점\">자연별곡 NC 야탑점</a></td><td style=\"padding:7px 6px;text-align:center\">4</td><td style=\"padding:7px 6px;text-align:center\">3889건</td><td style=\"padding:7px 6px;text-align:center\">5,900~17,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/미정국수 분당서현점\">미정국수 분당서현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">420건</td><td style=\"padding:7px 6px;text-align:center\">10,000~15,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/너와집 백합 샤브샤브 백현점\">너와집 백합 샤브샤브 백현점</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">400건</td><td style=\"padding:7px 6px;text-align:center\">35,000~79,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/pangyo/restaurant/불고기 온소반\">불고기 온소반</a></td><td style=\"padding:7px 6px;text-align:center\">4.9</td><td style=\"padding:7px 6px;text-align:center\">72건</td><td style=\"padding:7px 6px;text-align:center\">12,000~22,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

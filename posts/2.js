@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "더-피자-스탠드",
-      text: "더 피자 스탠드 — 리뷰 776건 검증 맛집",
+      text: "더 피자 스탠드 — 평점 4.8·리뷰 776건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "asoboy",
-      text: "ASOBOY — 야장 전문점",
+      text: "ASOBOY — 시그니처 맥주 5,000원",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -48,12 +48,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>ASOBOY</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.4점</strong>은 삼성역 이자카야·술집 평균을 살짝 웃도는 안정적인 수치. 리뷰 <strong>285건</strong>으로 어느 정도 검증은 된 곳. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>맥주 5,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 5,000~9,000원. 삼성역 이자카야·술집 평균(11,800원)보다 6,800원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.</p><p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">맥주</td><td style=\"padding:7px 6px;text-align:right\">5,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양주</td><td style=\"padding:7px 6px;text-align:right\">8,500원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">칵테일</td><td style=\"padding:7px 6px;text-align:right\">9,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">안주</td><td style=\"padding:7px 6px;text-align:right\">7,000원</td></tr></tbody></table><p><strong>리뷰에서 자주 언급되는 점</strong>: 서비스·응대 · 매장 분위기·청결 · 재방문 의사.</p><p style=\"border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0\">한 방문자는 \"음식도 맛있고 분위기도 좋아서 퇴근 후 힐링이 되었어요\"고 적어두었습니다.</p><p><strong>이런 분에게 추천</strong>: 가볍게 분위기 잡고 싶은 데이트 / 한 끼 만원대 가성비 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 19:00 · 위치 봉은사로 504</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/samseong/restaurant/ASOBOY\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 ASOBOY 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>ASOBOY</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.4점</strong>은 삼성역 이자카야·술집 평균을 살짝 웃도는 안정적인 수치. 리뷰 <strong>285건</strong>으로 어느 정도 검증은 된 곳. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>맥주 5,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 5,000~9,000원. 삼성역 이자카야·술집 평균(11,800원)보다 6,800원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.</p><p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">맥주</td><td style=\"padding:7px 6px;text-align:right\">5,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양주</td><td style=\"padding:7px 6px;text-align:right\">8,500원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">칵테일</td><td style=\"padding:7px 6px;text-align:right\">9,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">안주</td><td style=\"padding:7px 6px;text-align:right\">7,000원</td></tr></tbody></table><p><strong>리뷰에서 자주 언급되는 점</strong>: 서비스·응대 · 매장 분위기·청결.</p><p style=\"border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0\">한 방문자는 \"분위기 아주 좋고 아늑한 곳에 음악들도 좋아서 아지트같은 곳이에요\"고 적어두었습니다.</p><p><strong>이런 분에게 추천</strong>: 가볍게 분위기 잡고 싶은 데이트 / 한 끼 만원대 가성비 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 영업시간 19:00 · 위치 봉은사로 504</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/samseong/restaurant/ASOBOY\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 ASOBOY 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
       id: "란주쿠-삼성점",
-      text: "란주쿠 삼성점 — 이자카야 전문점",
+      text: "란주쿠 삼성점 — 시그니처 한우1++ 특상 채끝살 65,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "야키토리-수다",
-      text: "야키토리 수다 — 시그니처 모듬꼬치 5종 18,000원",
+      text: "야키토리 수다 — 이자카야 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -85,7 +85,7 @@ const post = {
     {
       type: 'h2',
       id: "철수포차",
-      text: "철수포차 — 시그니처 차돌숙주볶음 24,000원",
+      text: "철수포차 — 야장 전문점",
       gradientStyle: { from: '#f7971e', to: '#ffd200' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/ASOBOY\">ASOBOY</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">285건</td><td style=\"padding:7px 6px;text-align:center\">5,000~9,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/란주쿠 삼성점\">란주쿠 삼성점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">122건</td><td style=\"padding:7px 6px;text-align:center\">7,000~65,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/야키토리 수다\">야키토리 수다</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">11,000~35,000원</td><td style=\"padding:7px 6px\">이자카야·야키토리 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/철수포차\">철수포차</a></td><td style=\"padding:7px 6px;text-align:center\">3.8</td><td style=\"padding:7px 6px;text-align:center\">0건</td><td style=\"padding:7px 6px;text-align:center\">24,000~32,000원</td><td style=\"padding:7px 6px\">야장·포차·이자카야 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

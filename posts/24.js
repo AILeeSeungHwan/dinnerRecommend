@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "더-피자-스탠드",
-      text: "더 피자 스탠드 — 리뷰 776건 검증 맛집",
+      text: "더 피자 스탠드 — 평점 4.8·리뷰 776건",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "오크바-오크우드-프리미어-코엑스-센터",
-      text: "오크바 오크우드 프리미어 코엑스 센터 — 야장 전문점",
+      text: "오크바 오크우드 프리미어 코엑스 센터 — 리뷰 2,120건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "이비스-스타일-앰배서더-강남-르바",
-      text: "이비스 스타일 앰배서더 강남 르바 — 리뷰 2,526건이 쌓인 곳",
+      text: "이비스 스타일 앰배서더 강남 르바 — 야장 전문점",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "데블스도어-코엑스",
-      text: "데블스도어 코엑스 — 리뷰 793건 검증 맛집",
+      text: "데블스도어 코엑스 — 와인바 전문점",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>블룸</strong> — 리뷰 표본이 작아 단정하기 어렵지만, 새로 발견하기 좋은 후보 식당으로 묶을 수 있습니다.</p><p>평점이 <strong>5점</strong>으로 같은 카테고리 평균(통상 4.0~4.4)을 한참 위로 끌어올린 수치. 리뷰 <strong>6건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>진토닉 18,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 18,000~25,000원. 삼성역 이자카야·술집 평균(15,000원)보다 3,000원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴 중에는 진토닉 18,000원, 세이지 버터 파스타 25,000원, 페퍼로니 피자 25,000원 등이 자주 언급됩니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 매장 분위기·청결.</p><p><strong>이런 분에게 추천</strong>: 가볍게 분위기 잡고 싶은 데이트 / 5~10인 회식·모임.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 영업시간 03:00 · 위치 삼성동 153-6</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/samseong/restaurant/블룸\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 블룸 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>블룸</strong> — 리뷰 표본이 작아 단정하기 어렵지만, 새로 발견하기 좋은 후보 식당으로 묶을 수 있습니다.</p><p>평점이 <strong>5점</strong>으로 같은 카테고리 평균(통상 4.0~4.4)을 한참 위로 끌어올린 수치. 리뷰 <strong>6건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>진토닉 18,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 18,000~25,000원. 삼성역 이자카야·술집 평균(15,000원)보다 3,000원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴 중에는 진토닉 18,000원, 세이지 버터 파스타 25,000원, 페퍼로니 피자 25,000원 등이 자주 언급됩니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 서비스·응대 · 매장 분위기·청결.</p><p><strong>이런 분에게 추천</strong>: 가볍게 분위기 잡고 싶은 데이트 / 5~10인 회식·모임.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 영업시간 03:00 · 위치 삼성동 153-6</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/samseong/restaurant/블룸\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 블룸 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -100,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이비스 스타일 앰배서더 강남 르바\">이비스 스타일 앰배서더 강남 르바</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">2526건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/데블스도어 코엑스\">데블스도어 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">793건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">크래프트맥주바 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이비스 스타일 앰배서더 강남 르바\">이비스 스타일 앰배서더 강남 르바</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">2526건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/데블스도어 코엑스\">데블스도어 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">793건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">크래프트맥주바 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr></tbody></table>",
     },
     {
       type: 'h2',
