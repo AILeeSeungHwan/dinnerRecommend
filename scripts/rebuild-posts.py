@@ -856,18 +856,40 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
     cat_label = CATEGORY_ANGLES.get(category, {}).get('label', '')
     parts = []
 
-    # ① 한 줄 결론 — 운영자가 데이터 본 뒤 내린 판단
+    # ① 한 줄 결론
     verdict = _verdict_line(r, region_name, cat_label, 0)
     if verdict:
         parts.append(f'<p><strong>{esc(name)}</strong>{_josa(name," — "," — ")}{esc(verdict)}</p>')
 
-    # ② 시그니처 메뉴·가격 강조 (있을 때)
+    # ② 평점·리뷰 해석 — 항상 표시 (수치 자체를 의미 있게)
+    if rating > 0 or cnt > 0:
+        review_parts = []
+        if rating >= 4.7:
+            review_parts.append(f'평점이 <strong>{rating}점</strong>으로 같은 카테고리 평균(통상 4.0~4.4)을 한참 위로 끌어올린 수치')
+        elif rating >= 4.4:
+            review_parts.append(f'평점 <strong>{rating}점</strong>은 {region_name} {cat_label} 평균을 살짝 웃도는 안정적인 수치')
+        elif rating >= 4.0:
+            review_parts.append(f'평점 <strong>{rating}점</strong>은 동네 단골 식당 수준')
+        elif rating > 0:
+            review_parts.append(f'평점은 <strong>{rating}점</strong>으로 호불호가 갈리는 편')
+        if cnt >= 1000:
+            review_parts.append(f'리뷰 누적 <strong>{cnt:,}건</strong>은 이 동네에서 손에 꼽힐 정도의 표본 크기')
+        elif cnt >= 300:
+            review_parts.append(f'리뷰 <strong>{cnt}건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준')
+        elif cnt >= 50:
+            review_parts.append(f'리뷰 <strong>{cnt}건</strong>으로 어느 정도 검증은 된 곳')
+        elif cnt > 0:
+            review_parts.append(f'리뷰 <strong>{cnt}건</strong>이라 표본은 작지만 평가 자체는 좋은 편')
+        if review_parts:
+            parts.append(f'<p>{". ".join(review_parts)}. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p>')
+
+    # ③ 시그니처 메뉴·가격 강조
     if sig_name and sig_price:
         parts.append(f'<p>간판 메뉴는 <strong>{esc(sig_name)} {sig_price:,}원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p>')
     elif sig_name:
         parts.append(f'<p>리뷰에서 가장 자주 언급되는 메뉴는 <strong>{esc(sig_name)}</strong>입니다.</p>')
 
-    # ③ 가격대 비교 (카테고리 평균 대비)
+    # ④ 가격대 비교 (있을 때)
     if lo and hi and avg_lo:
         diff = lo - avg_lo
         if abs(diff) <= 1500:
@@ -877,46 +899,95 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
         else:
             tip = f'{region_name} {cat_label} 평균({avg_lo:,}원)보다 {abs(diff):,}원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.'
         parts.append(f'<p>1인 기준 {lo:,}~{hi:,}원. {tip}</p>')
+    elif not (lo and hi):
+        # 가격 정보 없을 때 카테고리 일반 가격대 안내
+        cat_price_hints = {
+            'meat': '1인 2만원대~4만원대가 보통이며, 한우는 5만원+',
+            'japanese': '단품 1만5천원~3만원, 오마카세는 8만~25만원대가 일반적',
+            'chinese': '단품 1만원 안팎, 코스 2만5천~5만원대',
+            'izakaya': '안주 2~3가지 + 술 한 잔이면 인당 3만원 전후',
+            'gukbap': '국밥 1만원 안팎, 곰탕·설렁탕 1만2천원대',
+            'date': '인당 4만~7만원대 코스가 무난',
+            'group': '인당 3만~5만원 잡으면 회식 적정선',
+            'budget': '한 끼 8천~1만2천원 안팎',
+            'lunch': '런치 세트 1만~1만5천원대가 직장인 평균',
+        }
+        hint = cat_price_hints.get(category)
+        if hint:
+            parts.append(f'<p>이 식당의 명시된 가격대 정보는 부족하지만, {region_name} {cat_label} 카테고리는 통상 {hint} 수준입니다.</p>')
 
-    # ④ 메뉴 표 (주요 식당만 풀 메뉴)
-    if is_main:
-        mb = _menu_block(r)
-        if mb:
-            parts.append(f'<p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p>{mb}')
-    else:
-        menus = filter_menu_items(r.get('menuItems') or [])[:3]
-        if menus:
-            ms = ', '.join(f'{esc(m.get("name",""))} {int(m.get("price") or 0):,}원' if m.get('price') else esc(m.get('name','')) for m in menus)
+    # ⑤ 메뉴 표 (있을 때 풀 메뉴, 없을 때 카테고리 기반 일반 안내)
+    menus_filtered = filter_menu_items(r.get('menuItems') or [])
+    if menus_filtered:
+        if is_main:
+            mb = _menu_block(r)
+            if mb:
+                parts.append(f'<p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p>{mb}')
+        else:
+            ms = ', '.join(f'{esc(m.get("name",""))} {int(m.get("price") or 0):,}원' if m.get('price') else esc(m.get('name','')) for m in menus_filtered[:3])
             parts.append(f'<p>메뉴 중에는 {ms} 등이 자주 언급됩니다.</p>')
+    else:
+        # 메뉴 데이터 없을 때 — 식당명·카테고리 키워드로 추정 가능한 메뉴
+        cat_default_menus = {
+            'meat': '삼겹살·등심·갈비살 같은 구이류와 후식 냉면·된장찌개 구성',
+            'japanese': '오마카세 코스 또는 스시 단품, 우동·돈카츠 사이드',
+            'chinese': '짜장면·짬뽕·탕수육의 기본 라인업과 코스 메뉴',
+            'izakaya': '사시미·꼬치·튀김 안주 + 하이볼·사케 주류',
+            'gukbap': '순대국밥·곰탕·설렁탕 단품과 수육 사이드',
+            'date': '파스타·스테이크·와인 등 코스 위주 구성',
+            'group': '단체 코스 또는 메인 구이 + 사이드 다수',
+            'lunch': '점심 특선 세트나 단품 정식 위주',
+            'western': '파스타·피자·스테이크 단품 + 와인 페어링',
+            'chicken': '치킨 한 마리 + 사이드·맥주 구성',
+        }
+        hint = cat_default_menus.get(category)
+        if hint:
+            parts.append(f'<p>이 식당의 상세 메뉴 정보는 아직 수집되지 않았지만, {cat_label} 카테고리에서 보통 다루는 구성은 {hint}입니다. 방문 전 매장 전화로 코스·당일 메뉴를 확인하는 편이 안전합니다.</p>')
 
-    # ⑤ 리뷰에서 발견한 점 — 키워드 분석
+    # ⑥ 리뷰에서 발견한 점
     insight_keys = _rv_insight(name, region)
     rv_quote = extract_review_quote(name, region)
     if insight_keys:
         parts.append(f'<p><strong>리뷰에서 자주 언급되는 점</strong>: {esc(insight_keys)}.</p>')
     if is_main and rv_quote:
         parts.append(f'<p style="border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0">{esc(rv_quote)}</p>')
+    # 리뷰 키워드도 인용도 없을 때 — 데이터 빈 곳도 메시지 채움
+    if not insight_keys and not rv_quote and cnt > 0:
+        parts.append(f'<p>리뷰 본문 데이터는 부족하지만, 리뷰 수와 평점만 놓고 봐도 이미 일정 수준의 검증이 끝난 식당으로 분류할 수 있습니다.</p>')
 
-    # ⑥ 어떤 사람에게 추천 — 구체적
+    # ⑦ 어떤 사람에게 추천 — 다각도
     aud = _recommend_audience(r, category)
     if aud:
         parts.append(f'<p><strong>이런 분에게 추천</strong>: {esc(" / ".join(aud))}.</p>')
+
+    # ⑧ 방문 팁 — 카테고리·태그 기반
+    tips = []
+    tags = set(r.get('tags', []) or [])
+    if '예약필수' in tags: tips.append('금·토 저녁은 미리 예약하는 편이 자리 확보에 유리합니다')
+    if '웨이팅맛집' in tags: tips.append('점심 12시·저녁 7시 피크 시간은 웨이팅 30분 내외 각오')
+    if category == 'japanese': tips.append('오마카세는 메뉴 진행 시간이 1.5~2시간이라 일정 여유를 두는 편이 좋습니다')
+    if category == 'meat': tips.append('굽기는 직원이 봐주는 편이 안전하며, 굽기 옵션을 미리 말해두면 진행이 빠릅니다')
+    if category in ('group','date') and '룸있음' not in tags: tips.append('룸 운영 여부는 매장 사정에 따라 다르니 인원 많을 때 미리 확인 권장')
+    if not r.get('parking'): tips.append('전용 주차장이 없는 편이라 대중교통 이용을 권장합니다')
+    if tips:
+        parts.append('<p><strong>방문 팁</strong>: ' + esc(" · ".join(tips[:3])) + '.</p>')
 
     # ⑦ 편의시설 (예약·주차·영업시간·위치)
     fac = _facility_phrase(r)
     if fac:
         parts.append(f'<p style="font-size:.84rem;color:var(--muted)">📌 {esc(fac)}</p>')
 
-    # ⑧ 상세 페이지 — 누르고 싶은 버튼 UI (강한 단색·흰 텍스트·그림자)
+    # ⑨ 상세 페이지 — 최대로 눈에 띄는 버튼 (강한 오렌지·흰 텍스트·진한 그림자)
     parts.append(
-        f'<div style="margin:22px 0 10px;text-align:center">'
+        f'<div style="margin:24px 0 12px;text-align:center">'
         f'<a href="{link}" style="display:inline-flex;align-items:center;gap:10px;'
-        f'padding:14px 28px;border-radius:14px;'
-        f'background:#2563EB;'
-        f'color:#fff;font-weight:800;font-size:.95rem;text-decoration:none;'
+        f'padding:16px 32px;border-radius:14px;'
+        f'background:#FF6B00;'
+        f'color:#fff;font-weight:900;font-size:1rem;text-decoration:none;'
         f'letter-spacing:.01em;'
-        f'box-shadow:0 6px 20px rgba(37,99,235,.45);transition:transform .15s,box-shadow .15s">'
-        f'🍽 {esc(name)} 자세히 보기 →</a>'
+        f'box-shadow:0 8px 24px rgba(255,107,0,.5),0 2px 6px rgba(0,0,0,.15);'
+        f'transition:transform .15s">'
+        f'🍽 {esc(name)} 메뉴·평점·위치 보기 →</a>'
         f'</div>'
     )
 
