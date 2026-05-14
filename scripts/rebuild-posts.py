@@ -1873,6 +1873,8 @@ for post_data in all_posts_meta:
         thumb_count += 1
 print(f'썸네일 업데이트: {thumb_count}개 포스트')
 
+updated_posts_text = updated_posts_text.replace('&amp;', '&')
+
 with open(posts_file, 'w', encoding='utf-8') as f:
     f.write(updated_posts_text)
 

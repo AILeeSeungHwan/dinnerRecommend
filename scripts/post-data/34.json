@@ -9,6 +9,70 @@
   "tags": [],
   "restaurants": [
     {
+      "name": "나주곰탕",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 644-19",
+      "hours": "",
+      "tel": "07-1358-2907",
+      "priceRange": "11000~22000",
+      "rating": 4.2,
+      "reviewCount": 124,
+      "blogCount": 85,
+      "cat": [
+        "한식"
+      ],
+      "tags": [
+        "주차가능",
+        "리뷰많음",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "나주곰탕",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "얼큰곰탕",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "곰탕만두국",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "얼큰만두국",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "장터국밥",
+          "price": 11000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/20624779",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_73%2F1743076572482VQzTv_JPEG%2FKakaoTalk_20250327_165120954.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_273%2F1743076572455ymP02_JPEG%2FKakaoTalk_20250327_165051339.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250403_292%2F1743667337454W25eR_PNG%2F%25B8%25DE%25B4%25BA%25C6%25C7.png",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_25%2F1743076572461xIken_JPEG%2FKakaoTalk_20250327_165015007.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210130_162/1611973808111tUMvF_JPEG/T_Cp1xLbpDEVdKqMa3Mc3-Mf.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210130_69/1611975681816lMd47_JPEG/_kVo1NXWSME_UFacVijCKtuy.jpg",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
       "name": "엄청난족발",
       "type": "한식",
       "addr": "서울특별시 강남구 논현동 198-8 지상1층 엄청난족발",
@@ -135,70 +199,6 @@
       "imageUrl6": "",
       "imageUrl7": "",
       "imageUrl8": "",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
-      "name": "나주곰탕",
-      "type": "국밥",
-      "addr": "서울특별시 강남구 역삼동 644-19",
-      "hours": "",
-      "tel": "07-1358-2907",
-      "priceRange": "11000~22000",
-      "rating": 4.2,
-      "reviewCount": 124,
-      "blogCount": 85,
-      "cat": [
-        "한식"
-      ],
-      "tags": [
-        "주차가능",
-        "리뷰많음",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "나주곰탕",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "얼큰곰탕",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "곰탕만두국",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "얼큰만두국",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "장터국밥",
-          "price": 11000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/20624779",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_73%2F1743076572482VQzTv_JPEG%2FKakaoTalk_20250327_165120954.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_273%2F1743076572455ymP02_JPEG%2FKakaoTalk_20250327_165051339.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250403_292%2F1743667337454W25eR_PNG%2F%25B8%25DE%25B4%25BA%25C6%25C7.png",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_25%2F1743076572461xIken_JPEG%2FKakaoTalk_20250327_165015007.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20210130_162/1611973808111tUMvF_JPEG/T_Cp1xLbpDEVdKqMa3Mc3-Mf.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20210130_69/1611975681816lMd47_JPEG/_kVo1NXWSME_UFacVijCKtuy.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",
