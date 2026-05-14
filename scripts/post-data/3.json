@@ -12,7 +12,299 @@
     "단체석",
     "룸"
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "흥부골숯불돼지왕갈비",
+      "type": "한식",
+      "addr": "서울특별시 송파구 석촌동 3-2",
+      "hours": "11:40에 영업 시작",
+      "tel": "02-418-0003",
+      "priceRange": "2000~23000",
+      "rating": 4.2,
+      "reviewCount": 620,
+      "blogCount": 418,
+      "cat": [
+        "한식",
+        "돼지고기구이"
+      ],
+      "tags": [
+        "가성비",
+        "주차가능",
+        "리뷰많음",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "돼지왕갈비",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "스테이크돼지고기",
+          "price": 19000,
+          "description": ""
+        },
+        {
+          "name": "갈비탕",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "뚝배기갈비찜",
+          "price": 13000,
+          "description": ""
+        },
+        {
+          "name": "함흥냉면",
+          "price": 10000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/37879472/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_236%2F1463930777339pMXE3_JPEG%2F176473405634597_13.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_236%2F1463930777339pMXE3_JPEG%2F176473405634597_13.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_79%2F1463930774991HKnDY_JPEG%2F176473405634597_1.jpeg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_209%2F14639307752410X8p0_JPEG%2F176473405634597_2.jpeg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_284%2F1463930775454QzqjU_JPEG%2F176473405634597_3.jpeg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160523_274%2F1463930775644AY3uS_JPEG%2F176473405634597_4.jpeg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210531_267/1622462916669nyFDG_JPEG/3Q2-00zqiSN7fFzdlX1x-jPO.jpg",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "고도식",
+      "type": "한우구이·알등심",
+      "addr": "백제고분로45길 15",
+      "hours": "17:00~24:00",
+      "tel": "",
+      "priceRange": "35000~70000",
+      "rating": 4.3,
+      "reviewCount": 482,
+      "blogCount": 0,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [
+        "알등심",
+        "한우",
+        "송리단길",
+        "데이트",
+        "예약추천",
+        "웨이팅"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하",
+        "회식"
+      ],
+      "scene": [
+        "데이트",
+        "기념일",
+        "특별한날"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": "🥩"
+    },
+    {
+      "name": "퍼프룸 치즈룸 월드타워",
+      "type": "기타",
+      "addr": "서울특별시 송파구 신천동 29 롯데월드몰 5층",
+      "hours": "",
+      "tel": "02-3213-4550",
+      "priceRange": "11000~31000",
+      "rating": 4.1,
+      "reviewCount": 682,
+      "blogCount": 4115,
+      "cat": [
+        "음식점",
+        "이탈리아음식"
+      ],
+      "tags": [
+        "단체가능",
+        "리뷰많음",
+        "점심추천",
+        "주차가능",
+        "데이트",
+        "웨이팅맛집",
+        "서비스좋음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "리코타 포도 플랫브래드",
+          "price": 26000,
+          "description": ""
+        },
+        {
+          "name": "시금치 플랫브레드",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "썬드라이드 토마토 플랫브레드",
+          "price": 31000,
+          "description": ""
+        },
+        {
+          "name": "리코타 치즈 멜트 & 비스크",
+          "price": 22800,
+          "description": ""
+        },
+        {
+          "name": "보드카 리가토니",
+          "price": 28000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/36714351/home",
+      "imageUrl": "https://ldb-phinf.pstatic.net/20260306_183/1772782911038OsClg_JPEG/%C6%DB%C7%C1%B7%EB_%C4%A1%C1%EE%B7%EB_%B8%C5%C0%E5%BF%C0%C7%C2_%C0%FC.jpg",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "횡성한우",
+      "type": "한식",
+      "addr": "서울특별시 송파구 방이동 66-3 1층",
+      "hours": "11:00에 영업 시작",
+      "tel": "02-415-8080",
+      "priceRange": "16000~280000",
+      "rating": 4,
+      "reviewCount": 1421,
+      "blogCount": 280,
+      "cat": [
+        "한식",
+        "소고기구이"
+      ],
+      "tags": [
+        "점심추천",
+        "주차가능",
+        "리뷰많음",
+        "깔끔한곳",
+        "서비스좋음",
+        "뷰맛집"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "A코스",
+          "price": 250000,
+          "description": ""
+        },
+        {
+          "name": "B코스",
+          "price": 280000,
+          "description": ""
+        },
+        {
+          "name": "우대갈비250g 원산지:미국산",
+          "price": 38000,
+          "description": ""
+        },
+        {
+          "name": "소갈비정식-점심특선",
+          "price": 33000,
+          "description": ""
+        },
+        {
+          "name": "소갈비",
+          "price": 38000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1480566026/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250523_233%2F1747980880339vEDoN_JPEG%2F08012200_%25282%2529.JPG",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250523_233%2F1747980880339vEDoN_JPEG%2F08012200_%25282%2529.JPG",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_222%2F17472135564357cuNv_JPEG%2F20250513_163656.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_33%2F1747213568738NAYex_JPEG%2F20250513_163548.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_12%2F1747213563776p22GK_JPEG%2F20250513_163618.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230829_59%2F1693293326165ylcCH_JPEG%2F20230829_161002.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250427_74/1745755154094l4AnB_JPEG/20250427_204407.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250427_219/17457551442608jAmA_JPEG/20250427_204435.jpg",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    },
+    {
+      "name": "청와옥 석촌호수직영점",
+      "type": "고기",
+      "addr": "서울특별시 송파구 석촌동 2",
+      "hours": "",
+      "tel": "0507-1388-0550",
+      "priceRange": "",
+      "rating": 3.8,
+      "reviewCount": 36,
+      "blogCount": 0,
+      "cat": [
+        "육류",
+        "고기요리",
+        "순대",
+        "순댓국"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/1062855533/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260403_156%2F1775183550052K4P77_JPEG%2FKakaoTalk_20260403_113122715.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230227_139%2F1677470433024I78oO_JPEG%2FKakaoTalk_20230110_102120053.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230227_225%2F1677470440882tovCL_JPEG%2FDSC_5861.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230227_153%2F16774704460625tT36_JPEG%2FDSC_5933.jpg",
+      "imageUrl5": "https://ldb-phinf.pstatic.net/20191206_198/1575617554596zejjK_JPEG/1tgu0QIndp5VJu7E2L4a5Ql1.JPG.jpg",
+      "imageUrl6": "https://ldb-phinf.pstatic.net/20191206_44/1575617573065hA8DN_JPEG/vowJdMHeDEnwztj_8__kneXi.JPG.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20191206_161/1575618943865IX4jG_JPEG/4WCFtA9acJzHSNEkdSrNRh2W.JPG.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250807_44/1754553386858BqzC3_JPEG/search.pstatic.jpg",
+      "region": "jamsil",
+      "regionName": "잠실",
+      "regionPath": "/dinner/jamsil",
+      "emoji": ""
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 1149
 }

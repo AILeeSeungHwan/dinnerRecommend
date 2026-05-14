@@ -12,7 +12,319 @@
     "한우",
     "삼겹살"
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "한가람식당",
+      "type": "곱창,막창,양",
+      "addr": "청담동 44-11",
+      "hours": "10:00",
+      "tel": "",
+      "priceRange": "9000~45000",
+      "rating": 4.5,
+      "reviewCount": 1009,
+      "blogCount": 12,
+      "cat": [
+        "한식"
+      ],
+      "tags": [
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "기분 좋음"
+      ],
+      "scene": [
+        "가볍게 술"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "한돈김치찌개",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "[신메뉴] 봄동 비빔밥",
+          "price": 10000,
+          "description": ""
+        },
+        {
+          "name": "한가람모듬",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "한우곱창(200g)",
+          "price": 22000,
+          "description": ""
+        },
+        {
+          "name": "한우대창(200g)",
+          "price": 22000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1947997849",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220214_35%2F1644839383763tlxmt_JPEG%2FCYMERA_20220209_140452.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220214_35%2F1644839383763tlxmt_JPEG%2FCYMERA_20220209_140452.jpg",
+      "imageUrl3": "https://ldb-phinf.pstatic.net/20231124_59/1700825432009z68Qg_JPEG/1000022142.jpg",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍚"
+    },
+    {
+      "name": "김돈이 선릉본점",
+      "type": "돼지고기구이",
+      "addr": "삼성동 140-29 1층",
+      "hours": "10:30",
+      "tel": "",
+      "priceRange": "2000~11000",
+      "rating": 4.4,
+      "reviewCount": 836,
+      "blogCount": 1562,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "저녁 식사",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "맛도 양도 일품인 매콤한 김돈이의 오징어 볶음"
+        },
+        {
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "된장찌개와 계란말이 조합은 언제나 진리"
+        },
+        {
+          "name": "",
+          "price": 8000,
+          "description": "고기집에서 빠질 수 없는 물냉면과 비빔냉면"
+        },
+        {
+          "name": "",
+          "price": 2000,
+          "description": "김돈이 본점의 공기밥 당일에 지은 밥으로 제공해드립니다"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/19578744",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240909_220%2F1725864065438vyQ2z_JPEG%2FIMG_0063.jpeg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241107_174%2F1730949852115GfxNL_JPEG%2FKakaoTalk_20241107_122221042_02.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_4%2F1756104467716KiIOo_JPEG%2F%25B8%25DE%25C0%25CE_05.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_61%2F1756104463948QoK1H_JPEG%2F%25B8%25DE%25C0%25CE_04.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250825_60/1756103723098FCSqI_JPEG/%C8%E6%B5%B5%BB%F5%B1%E2_02.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250825_223/1756103715224TxsuC_JPEG/%C8%E6%B5%B5%BB%F5%B1%E2_01.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "경천아인 2237",
+      "type": "한우·프리미엄코스",
+      "addr": "테헤란로 421",
+      "hours": "AM 11:30–PM 10 (일 휴무)",
+      "tel": "07-1410-2237",
+      "priceRange": "25000~50000",
+      "rating": 4.3,
+      "reviewCount": 548,
+      "blogCount": 863,
+      "cat": [
+        "고기구이",
+        "한식"
+      ],
+      "tags": [
+        "한우",
+        "코르키지없음",
+        "갈비탕",
+        "프라이빗룸",
+        "비즈니스",
+        "가성비",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "축하할 일 있음",
+        "데이트"
+      ],
+      "scene": [
+        "비즈니스 회식",
+        "특별한 날 고기",
+        "고급 한우"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/p/entry/place/32389127",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_108%2F1755315375675da9Mb_JPEG%2FIMG_4026.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_108%2F1755315375675da9Mb_JPEG%2FIMG_4026.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_195%2F1755315284063gos16_JPEG%2FIMG_4029.jpeg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_32%2F1755315503967Dyq0r_JPEG%2FIMG_4125.jpeg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_185%2F1755315375665k0Npp_JPEG%2FIMG_4036.jpeg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250816_155%2F1755315375662gFVBc_JPEG%2FIMG_4025.jpeg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260511_104/1778488725407qURTl_JPEG/KakaoTalk_20250527_173141234_08.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210902_281/1630554840138eXVeh_PNG/BQmXFvHk2CQ8-M9FiEa5P0SJ.png",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🎎"
+    },
+    {
+      "name": "모도우 The ROOM 대치점",
+      "type": "소고기구이",
+      "addr": "대치동 891-44 B1층",
+      "hours": "11:30",
+      "tel": "",
+      "priceRange": "55000",
+      "rating": 4.2,
+      "reviewCount": 698,
+      "blogCount": 2753,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [
+        "리뷰많음",
+        "혼밥가능",
+        "점심추천",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식",
+        "혼밥",
+        "기분 좋음"
+      ],
+      "scene": [
+        "직장인 점심",
+        "팀 회식",
+        "데이트",
+        "혼밥"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "런치) 샤브샤브 스페셜",
+          "price": 29000,
+          "description": ""
+        },
+        {
+          "name": "디너) 시즈널 1++ 한우구이 코스",
+          "price": 99000,
+          "description": ""
+        },
+        {
+          "name": "1++ 한우 생일상",
+          "price": 0,
+          "description": ""
+        },
+        {
+          "name": "1++ 워터에이징 한우 채끝",
+          "price": 45000,
+          "description": ""
+        },
+        {
+          "name": "런치) 한우구이 코스",
+          "price": 69000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/1090319859",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250722_218%2F17531741850053kRmv_JPEG%2FDSC_30911.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250722_218%2F17531741850053kRmv_JPEG%2FDSC_30911.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260114_288%2F1768317194560djUfX_JPEG%2F%25BB%25F3%25B0%25DF%25B7%25CA_%2528%25B8%25F0%25B5%25B5%25BF%25EC2%2529.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260423_110%2F1776930736407LAS1f_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2026-04-23_16.44.15.png",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250602_41%2F17488290903004CBVJ_JPEG%2F%25B1%25B8%25C0%25CC_%25C0%25CC%25B9%25CC%25C1%25F6_%25281%2529.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250527_154%2F1748333649610zs9Pr_JPEG%2FDSC_5768_11.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250730_112/1753864764910hDnVA_JPEG/1_%B7%B1%C4%A1%C7%D1%BF%EC_%BB%FE%BA%EA%BB%FE%BA%EA%C4%DA%BD%BA_%281%29.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250730_43/1753864906025CvkMs_JPEG/3_%B7%B1%C4%A1_%C7%D1%BF%EC%B1%B8%C0%CC%C4%DA%BD%BA_%281%29.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "곰바위",
+      "type": "한식·한우곱창",
+      "addr": "영동대로 115길 10",
+      "hours": "11 AM–10 PM",
+      "tel": "",
+      "priceRange": "9000~15000",
+      "rating": 4.1,
+      "reviewCount": 1236,
+      "blogCount": 0,
+      "cat": [
+        "한식",
+        "고기구이"
+      ],
+      "tags": [
+        "한우곱창",
+        "고급BBQ",
+        "정원"
+      ],
+      "keywords": [],
+      "moods": [
+        "축하할 일 있음",
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "특별한 날 고기",
+        "고급 한우곱창"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🐻"
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 859
 }

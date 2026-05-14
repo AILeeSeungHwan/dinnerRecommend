@@ -12,7 +12,324 @@
     "단체석",
     "코엑스"
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "그랜드 키친",
+      "type": "한식",
+      "addr": "테헤란로 521 그랜드 인터컨티넨탈 서울 파르나스 1층",
+      "hours": "18:00",
+      "tel": "02-559-7575",
+      "priceRange": "42500~198000",
+      "rating": 4.5,
+      "reviewCount": 1272,
+      "blogCount": 2259,
+      "cat": [
+        "한식"
+      ],
+      "tags": [
+        "리뷰많음",
+        "고평점",
+        "SNS맛집",
+        "웨이팅맛집",
+        "단체가능",
+        "점심추천",
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하할 일 있음",
+        "기분 좋음"
+      ],
+      "scene": [
+        "심야 밥",
+        "아침식사",
+        "웨이팅 맛집"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "아침(성인)",
+          "price": 85000,
+          "description": ""
+        },
+        {
+          "name": "아침(어린이)",
+          "price": 42500,
+          "description": ""
+        },
+        {
+          "name": "주중-점심(성인)",
+          "price": 173000,
+          "description": ""
+        },
+        {
+          "name": "주중-점심(어린이)",
+          "price": 86500,
+          "description": ""
+        },
+        {
+          "name": "주중-저녁(성인)",
+          "price": 198000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/34584853",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230922_33%2F1695341269359B1UvW_JPEG%2F0906pwj10890_3_mid.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260421_197%2F1776763490764QGzCy_JPEG%2FE3K8py9yKH_06.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230922_33%2F1695341269359B1UvW_JPEG%2F0906pwj10890_3_mid.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230922_166%2F1695341269239cIVwi_JPEG%2F0906pwj10848_8_mid.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230922_46%2F1695341268990NaPc6_JPEG%2F0906pwj10784_1_mid.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230922_244%2F16953412687450gbvY_JPEG%2F0906pwj10759_3_mid.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250702_23/1751444716849axfb9_JPEG/%B7%CE%C1%EE%B8%B6%B8%AE_Small.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250421_20/1745203131595GKEWV_PNG/20250421_113837.png",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍱"
+    },
+    {
+      "name": "개성집",
+      "type": "족발·보쌈",
+      "addr": "South Korea",
+      "hours": "평일 AM 11:00 ~ PM 10:00 / 주말 AM 11:00 ~ PM 8:00",
+      "tel": "02-562-9455",
+      "priceRange": "10000~20000",
+      "rating": 4.9,
+      "reviewCount": 2655,
+      "blogCount": 59,
+      "cat": [
+        "한식",
+        "해산물",
+        "회식"
+      ],
+      "tags": [
+        "점심추천",
+        "가성비",
+        "한식",
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "데이트"
+      ],
+      "scene": [
+        "회식 2차",
+        "야식",
+        "든든하게"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "삼겹살",
+          "price": 14000,
+          "description": "국내산 삼겹살입니다."
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1638730946",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_102%2F1776048681916W9E9s_JPEG%2F%25BE%25D7%25BC%25C7%25C4%25C6.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_102%2F1776048681916W9E9s_JPEG%2F%25BE%25D7%25BC%25C7%25C4%25C6.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_146%2F1776048783135hhVDa_JPEG%2F%25BE%25D7%25BC%25C7%25C4%25C62.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_140%2F1776048766886jpRM0_JPEG%2F%25B8%25F0%25C0%25BD%25C4%25C61.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_96%2F17760487538701V7c2_JPEG%2F%25B8%25F0%25C0%25BD%25C4%25C6.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260413_252%2F17760487752985gdio_JPEG%2F%25B8%25F0%25C0%25BD%25C4%25C62.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260413_31/1776046517501Xs7hL_JPEG/15.2%C0%CE%BC%C2%C6%AE.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260413_25/1776046715217UVAbo_JPEG/11.%C0%E5%BE%EE%B1%B8%C0%CC.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🐷"
+    },
+    {
+      "name": "김돈이 선릉본점",
+      "type": "돼지고기구이",
+      "addr": "삼성동 140-29 1층",
+      "hours": "10:30",
+      "tel": "",
+      "priceRange": "2000~11000",
+      "rating": 4.4,
+      "reviewCount": 836,
+      "blogCount": 1562,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [
+        "리뷰많음",
+        "주차가능",
+        "단체가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "저녁 식사",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "맛도 양도 일품인 매콤한 김돈이의 오징어 볶음"
+        },
+        {
+          "name": "김치찌개",
+          "price": 11000,
+          "description": "된장찌개와 계란말이 조합은 언제나 진리"
+        },
+        {
+          "name": "",
+          "price": 8000,
+          "description": "고기집에서 빠질 수 없는 물냉면과 비빔냉면"
+        },
+        {
+          "name": "",
+          "price": 2000,
+          "description": "김돈이 본점의 공기밥 당일에 지은 밥으로 제공해드립니다"
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/19578744",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_90%2F1756104455572fdnWl_JPEG%2F%25B8%25DE%25C0%25CE_01.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240909_220%2F1725864065438vyQ2z_JPEG%2FIMG_0063.jpeg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241107_174%2F1730949852115GfxNL_JPEG%2FKakaoTalk_20241107_122221042_02.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_4%2F1756104467716KiIOo_JPEG%2F%25B8%25DE%25C0%25CE_05.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250825_61%2F1756104463948QoK1H_JPEG%2F%25B8%25DE%25C0%25CE_04.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250825_60/1756103723098FCSqI_JPEG/%C8%E6%B5%B5%BB%F5%B1%E2_02.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250825_223/1756103715224TxsuC_JPEG/%C8%E6%B5%B5%BB%F5%B1%E2_01.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥩"
+    },
+    {
+      "name": "무탄 코엑스",
+      "type": "중식·퓨전",
+      "addr": "영동대로 513 코엑스몰 B1",
+      "hours": "11 AM–9:30 PM",
+      "tel": "07-1397-0364",
+      "priceRange": "10000~18000",
+      "rating": 4.9,
+      "reviewCount": 7774,
+      "blogCount": 3811,
+      "cat": [
+        "중식"
+      ],
+      "tags": [
+        "자장면",
+        "짬뽕",
+        "어향동고",
+        "코엑스핫플",
+        "혼밥가능",
+        "주차가능",
+        "단체가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "회식",
+        "데이트",
+        "혼밥"
+      ],
+      "scene": [
+        "코엑스 식사",
+        "중식",
+        "회식"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/p/entry/place/1583057180",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251219_15%2F1766155988350c47ot_JPEG%2FIMG_6626.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251219_15%2F1766155988350c47ot_JPEG%2FIMG_6626.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240325_276%2F17113320095828A5vd_JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250528_268%2F1748408281641bNDHa_JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240624_112%2F1719222360776v37hB_JPEG%2Ftteokbujang_271776212_142116498209215_3371489858204235888_n.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240624_172%2F1719222354503MAjJt_JPEG%2Fmuksunsaeng_340516798_624526006184671_1701960916807016453_n.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20251128_103/1764296730383fSoKL_JPEG/%C5%F5%BF%F2%B9%D9%BA%BA%C0%BD%C2%AB%BB%CD.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20251226_168/1766739609932fPhFM_JPEG/%B4%EB%C6%C4%C2%F7%B5%B9%C2%AB%BB%CD%C7%CF%C7%C1.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🥡"
+    },
+    {
+      "name": "블룸",
+      "type": "술집",
+      "addr": "삼성동 153-6 지하 1층 블룸",
+      "hours": "03:00",
+      "tel": "",
+      "priceRange": "18000~25000",
+      "rating": 5,
+      "reviewCount": 6,
+      "blogCount": 36,
+      "cat": [
+        "야장"
+      ],
+      "tags": [
+        "단체가능",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "가볍게 술",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "진토닉",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "세이지 버터 파스타",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "페퍼로니 피자",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "시그니처 피자",
+          "price": 25000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2006296464",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_153%2F1762891506421qHwmy_JPEG%2FDSC_6637.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260502_20%2F1777648728512qDDrM_JPEG%2FYoJJ3H0VDF_03.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_153%2F1762891506421qHwmy_JPEG%2FDSC_6637.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_159%2F1762891506353ql33z_JPEG%2FDSC_6610.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_182%2F1762891506440EbAWn_JPEG%2FDSC_6617.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_85%2F17628915061164uwkA_JPEG%2FDSC_6621.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20251112_188/1762915774980qrSVc_JPEG/DSC_6598.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20251112_8/1762915841405R0wWJ_JPEG/DSC_6499.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 859
 }

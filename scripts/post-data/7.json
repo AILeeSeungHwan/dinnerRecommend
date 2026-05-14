@@ -12,7 +12,256 @@
     "삼성전자",
     "카테고리"
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "우판등심 수원점",
+      "type": "한식",
+      "addr": "경기도 수원시 영통구 신동 932",
+      "hours": "",
+      "tel": "0507-1475-0230",
+      "priceRange": "",
+      "rating": 4.3,
+      "reviewCount": 2915,
+      "blogCount": 0,
+      "cat": [
+        "한식",
+        "소고기구이"
+      ],
+      "tags": [
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://pcmap.place.naver.com/restaurant/36090522/home",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_1%2F1709867968993kblbK_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C432.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_97%2F1709867969055dCM7q_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C434.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_112%2F17098679591726YP8j_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C419.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_228%2F1709867959329x23Ak_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C43.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240308_20%2F1709867958769nNr9U_JPEG%2F%25BF%25EC%25C6%25C7%25B5%25EE%25BD%25C9_%25BC%25F6%25BF%25F8_%25BC%25D2%25B0%25ED%25B1%25E2_%25B8%25C0%25C1%25FD_%25C8%25B8%25BD%25C48.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20240415_218/1713151404757FpNOL_JPEG/%BF%EC%C6%C7%B5%EE%BD%C9_%BC%F6%BF%F8_%BC%D2%B0%ED%B1%E2_%B8%C0%C1%FD_%C8%B8%BD%C415.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20201020_293/1603173960529nPYA8_JPEG/YdhOuM99187ZGHsy4MeKZwJ8.jpg",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": ""
+    },
+    {
+      "name": "La Mora",
+      "type": "한식",
+      "addr": "영통동 매영로345번길 111",
+      "hours": "10:00 AM~12:00 AM",
+      "tel": "031-202-6226",
+      "priceRange": "10000~20000",
+      "rating": 4.3,
+      "reviewCount": 542,
+      "blogCount": 0,
+      "cat": [
+        "한식"
+      ],
+      "tags": [
+        "한식",
+        "가성비",
+        "점심추천"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "심야 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🍱"
+    },
+    {
+      "name": "화붐 신간짬뽕 본점",
+      "type": "중식·칼국수",
+      "addr": "수원시 영통동 1036-16 1층",
+      "hours": "11:00 AM~9:00 PM",
+      "tel": "070-4038-0959",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 123,
+      "blogCount": 0,
+      "cat": [
+        "면류",
+        "중식",
+        "칼국수",
+        "회식"
+      ],
+      "tags": [
+        "가성비",
+        "고평점",
+        "국수",
+        "단체가능",
+        "웨이팅맛집",
+        "중식",
+        "칼국수",
+        "포장가능",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "피곤함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "마라탕",
+        "심야 밥",
+        "짬뽕",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥟"
+    },
+    {
+      "name": "이수국밥",
+      "type": "국밥",
+      "addr": "청명남로50번길 13-1",
+      "hours": "11:00 AM~9:00 PM",
+      "tel": "",
+      "priceRange": "10000~20000",
+      "rating": 4.6,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "cat": [
+        "국물",
+        "국밥",
+        "한식"
+      ],
+      "tags": [
+        "가족",
+        "고평점",
+        "국물요리",
+        "국밥",
+        "해장"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "피곤함",
+        "허전함",
+        "혼밥"
+      ],
+      "scene": [
+        "심야 밥",
+        "해장",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥣"
+    },
+    {
+      "name": "김래하닭갈비",
+      "type": "고기구이·치킨",
+      "addr": "영통동 1040-8번지 1층",
+      "hours": "휴무일",
+      "tel": "031-206-0906",
+      "priceRange": "10000~20000",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "치킨",
+        "한식",
+        "회식"
+      ],
+      "tags": [
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "웨이팅맛집",
+        "치킨",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스 받음",
+        "허전함",
+        "혼밥",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "치맥",
+        "혼자 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtong",
+      "regionName": "영통",
+      "regionPath": "/samsungElectronics/yeongtong",
+      "emoji": "🥩"
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 679
 }

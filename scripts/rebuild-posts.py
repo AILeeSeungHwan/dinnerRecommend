@@ -778,19 +778,48 @@ def _facility_phrase(r):
     return ' · '.join(bits)
 
 def _verdict_line(r, region_name, cat_label, avg_rating_in_post):
-    """한 줄 평가 — 운영자가 데이터를 본 뒤 적은 듯한 결론."""
+    """한 줄 평가 — 식당 hash로 variants에서 선택, 반복 회피."""
     rating = r.get('rating', 0) or 0
     cnt = r.get('reviewCount', 0) or 0
-    tags = set(r.get('tags', []) or [])
+    seed = abs(hash(r['name'])) % 4
     if rating >= 4.7 and cnt >= 300:
-        return f'{region_name} {cat_label} 중에서도 평점·리뷰 모두 상위권에 속해 실패할 확률이 낮은 곳입니다.'
+        v = [
+            f'{region_name} {cat_label} 중에서도 평점·리뷰 모두 상위권에 속해 실패할 확률이 낮은 곳입니다.',
+            f'평점이 4.7점을 넘고 리뷰 {cnt:,}건이 누적된 점에서 {region_name} 안에서도 인지도가 분명한 식당입니다.',
+            f'리뷰 수와 평점 모두 같은 카테고리 평균을 크게 웃돌아, 이 글에서 가장 안정적인 픽으로 꼽기 좋습니다.',
+            f'방문자 평가가 일관되게 좋아 처음 방문하시는 분께도 추천하기 부담 없는 곳입니다.',
+        ]
+        return v[seed]
     if rating >= 4.5 and cnt >= 100:
-        return f'평점이 안정적으로 높고 리뷰가 누적된 곳이라 "처음 가도 후회 안 할" 옵션에 가깝습니다.'
+        v = [
+            f'평점이 안정적으로 높고 리뷰가 누적된 곳이라 "처음 가도 후회 안 할" 옵션에 가깝습니다.',
+            f'리뷰 {cnt}건에 평점 {rating}점이라는 조합은 동네에서 꾸준한 평가를 받고 있다는 신호로 읽힙니다.',
+            f'평점·리뷰가 모두 카테고리 평균 위에 자리해, 약속 잡고 가도 무난한 식당입니다.',
+            f'안정적인 평가가 쌓여 있어 회식·점심 등 어떤 자리에도 무리 없이 쓸 만합니다.',
+        ]
+        return v[seed]
     if rating >= 4.0 and cnt >= 50:
-        return '평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.'
+        v = [
+            '평가가 카테고리 평균 수준이라, 단골 식당으로 가볍게 들르기 좋은 위치입니다.',
+            '리뷰가 충분히 쌓여 있어 시즌별 메뉴 변화도 비교적 검증된 편입니다.',
+            f'평점 {rating}점에 리뷰 {cnt}건이면 큰 호불호 없이 이용되는 무난한 후보입니다.',
+            '데이터상 큰 흠은 없고, 가볍게 한 끼 챙기기에 부담 없는 곳입니다.',
+        ]
+        return v[seed]
     if cnt < 30:
-        return '리뷰 표본이 작아 단정하기 어렵지만, 새로 발견하기 좋은 후보 식당으로 묶을 수 있습니다.'
-    return '데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.'
+        v = [
+            '리뷰 표본이 작아 단정하기 어렵지만, 새로 발견하기 좋은 후보 식당으로 묶을 수 있습니다.',
+            '리뷰 수가 적은 만큼 호불호 정보가 부족하니, 메뉴 구성을 참고해 가시는 편이 안전합니다.',
+            '아직 검증 표본이 적은 신상·소규모 식당으로 분류됩니다. 방문 시 매장 분위기 직접 확인 권장합니다.',
+        ]
+        return v[seed % 3]
+    v = [
+        '데이터만 보면 평이 갈리는 편이라, 시그니처 메뉴와 시간대 선택이 중요한 곳입니다.',
+        f'평점 {rating}점은 카테고리 평균을 살짝 밑돌지만, 특정 메뉴를 잘 고르면 만족도가 올라가는 편입니다.',
+        f'리뷰 {cnt}건 기준으로 안정적인 평가는 아니라 메뉴 위주로 시키시는 편이 좋습니다.',
+        '리뷰 추세를 보면 메뉴별 만족도 차이가 큰 편이라, 시그니처 위주로 주문하시는 편이 안전합니다.',
+    ]
+    return v[seed]
 
 def _recommend_audience(r, category):
     """어떤 사람에게 추천 — 데이터·태그 기반."""
@@ -843,6 +872,28 @@ def _rv_insight(name, region):
     if not themes: return ''
     return ' · '.join(themes[:4])
 
+
+
+def _cat_matches_post(r, post_category):
+    """식당 cat이 포스트 category와 매칭되는지 검증."""
+    if not post_category: return True
+    CAT_MAP = {
+        'meat': ['고기','구이','삼겹','갈비','한우','곱창','막창','족발','보쌈'],
+        'chinese': ['중식','중국','마라','짜장','짬뽕','훠궈','양꼬치'],
+        'japanese': ['일식','스시','오마카세','라멘','돈카츠','우동'],
+        'gukbap': ['국밥','순대','곰탕','설렁탕','해장','감자탕'],
+        'izakaya': ['이자카야','술집','포차','와인바','야장'],
+        'chicken': ['치킨','야장'],
+        'western': ['양식','이탈리안','파스타','피자','스테이크'],
+        'date': [], 'group': [], 'lunch': [], 'budget': [],
+    }
+    kws = CAT_MAP.get(post_category, [])
+    if not kws: return True  # date/group/lunch/budget은 다양성 허용
+    cat_field = r.get('cat')
+    cats = cat_field if isinstance(cat_field, list) else [cat_field] if cat_field else []
+    rtype = r.get('type','') or ''
+    text = ' '.join(cats) + ' ' + rtype
+    return any(k in text for k in kws)
 
 def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, avg_hi=0):
     name = r['name']
@@ -955,7 +1006,7 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
             'chicken': '치킨 한 마리 + 사이드·맥주 구성',
         }
         hint = cat_default_menus.get(category)
-        if hint:
+        if hint and _cat_matches_post(r, category):
             parts.append(f'<p>{cat_label} 카테고리는 일반적으로 {hint}로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p>')
 
     # ⑥ 리뷰에서 발견한 점

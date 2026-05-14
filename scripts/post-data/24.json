@@ -12,7 +12,276 @@
     "술집",
     "이자카야"
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "오크바 오크우드 프리미어 코엑스 센터",
+      "type": "술집",
+      "addr": "삼성동 159 오크우드 프리미어 코엑스 센터 5층",
+      "hours": "18:00",
+      "tel": "",
+      "priceRange": "",
+      "rating": 4.4,
+      "reviewCount": 2120,
+      "blogCount": 40,
+      "cat": [
+        "야장"
+      ],
+      "tags": [
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "가볍게 술"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37402263",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_208%2F1694766630023NxaUG_JPEG%2F230421_OPCC_0005_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_208%2F1694766630023NxaUG_JPEG%2F230421_OPCC_0005_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_73%2F1694766660210JHUx3_JPEG%2F230421_OPCC_0003_select_fin_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_286%2F1694766676580I0bl0_JPEG%2F230421_OPCC_0009_fin_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_295%2F1694766668279iXSip_JPEG%2F230421_OPCC_0004_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230915_243%2F1694766805047sfyh1_JPEG%2F230421_OPCC_0128_fin_%25BA%25B9%25BB%25E7.jpg",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    },
+    {
+      "name": "이비스 스타일 앰배서더 강남 르바",
+      "type": "술집",
+      "addr": "대치동 893-1 2층",
+      "hours": "07:00",
+      "tel": "",
+      "priceRange": "",
+      "rating": 4.1,
+      "reviewCount": 2526,
+      "blogCount": 33,
+      "cat": [
+        "야장"
+      ],
+      "tags": [
+        "주차가능"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [
+        "가볍게 술"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37402216",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_271%2F1519208834673khLk0_PNG%2F%25B8%25A3%25B9%25D91.png",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_271%2F1519208834673khLk0_PNG%2F%25B8%25A3%25B9%25D91.png",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_82%2F1519208832700mD48q_PNG%2F%25B8%25A3%25B9%25D9-2.png",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180221_178%2F1519208832687XeKeR_PNG%2F%25B8%25A3%25B9%25D9_-1.png",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200812_173%2F1597225210388rRwMY_JPEG%2Fl6rTSLSpPx2GWG5VmhsJe3EA.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200812_226%2F1597225213751EDiG5_JPEG%2FlyzEZpNt6F7ZEnXGRmyNuv8-.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20220311_79/1647001240821gbYQm_JPEG/IMG_8952.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20220311_28/1647001240476zSThg_JPEG/IMG_8959.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    },
+    {
+      "name": "데블스도어 코엑스",
+      "type": "크래프트맥주바",
+      "addr": "영동대로 513 스타필드코엑스",
+      "hours": "PM 11:30–자정 (금토 ~AM 1)",
+      "tel": "",
+      "priceRange": "15000~25000",
+      "rating": 3.9,
+      "reviewCount": 793,
+      "blogCount": 0,
+      "cat": [
+        "와인바",
+        "야장"
+      ],
+      "tags": [
+        "하우스브루어리",
+        "크래프트맥주",
+        "코엑스"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "회식",
+        "데이트"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "크래프트 맥주",
+        "퇴근 후 한잔"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🚪"
+    },
+    {
+      "name": "더 피자 스탠드",
+      "type": "피자·스포츠바",
+      "addr": "삼성로 81길 39 1층",
+      "hours": "11:30 AM–3 PM, 5 PM–자정",
+      "tel": "07-1462-1038",
+      "priceRange": "12000~24000",
+      "rating": 4.8,
+      "reviewCount": 776,
+      "blogCount": 505,
+      "cat": [
+        "양식",
+        "버거",
+        "야장"
+      ],
+      "tags": [
+        "피자",
+        "생맥주",
+        "스포츠바",
+        "야장",
+        "혼밥가능",
+        "주차가능",
+        "데이트",
+        "리뷰많음"
+      ],
+      "keywords": [],
+      "moods": [
+        "회식",
+        "기분 좋음",
+        "스트레스 받음"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "스포츠바",
+        "피자에 맥주"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "TPS's FAVORITE(S)",
+          "price": 21000,
+          "description": ""
+        },
+        {
+          "name": "COMBINATION PIZZA(S)",
+          "price": 20000,
+          "description": ""
+        },
+        {
+          "name": "GARLIC WHITE PIZZA(L)",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "TPS's CLUB PIZZA(L)",
+          "price": 39000,
+          "description": ""
+        },
+        {
+          "name": "SPINACH SALAD",
+          "price": 18000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1911951171",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_298%2F17655076345323kwu1_JPEG%2FCOMBINATION.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20240808_143%2F1723047843595zEYJT_JPEG%2FFLPWYCs2t7_02.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_298%2F17655076345323kwu1_JPEG%2FCOMBINATION.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251212_45%2F1765507626246KhR9M_JPEG%2FWINGS.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241112_195%2F1731404836084aAxBR_JPEG%2Fartner_%25C7%25C7%25C0%25DA%25BD%25BA%25C5%25C4%25B5%25E5_resized_%25289%2529.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250818_253%2F1755489106797XTFXV_JPEG%2Fartner_%25C7%25C7%25C0%25DA%25BD%25BA%25C5%25C4%25B5%25E527.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20241112_290/1731403562167nLqag_PNG/%B9%E8%B4%DE_%C6%E4%C0%CC%BA%B8%B8%B4%BD%BA%B8%F4.png",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20241112_255/1731402998446EIMOv_PNG/%B9%E8%B4%DE_%C4%DE%BA%F1%BD%BA%B8%F4.png",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    },
+    {
+      "name": "블룸",
+      "type": "술집",
+      "addr": "삼성동 153-6 지하 1층 블룸",
+      "hours": "03:00",
+      "tel": "",
+      "priceRange": "18000~25000",
+      "rating": 5,
+      "reviewCount": 6,
+      "blogCount": 36,
+      "cat": [
+        "야장"
+      ],
+      "tags": [
+        "단체가능",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "회식"
+      ],
+      "scene": [
+        "가볍게 술",
+        "팀 회식",
+        "데이트"
+      ],
+      "parking": true,
+      "reservation": false,
+      "menuItems": [
+        {
+          "name": "진토닉",
+          "price": 18000,
+          "description": ""
+        },
+        {
+          "name": "세이지 버터 파스타",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "페퍼로니 피자",
+          "price": 25000,
+          "description": ""
+        },
+        {
+          "name": "시그니처 피자",
+          "price": 25000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/2006296464",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_153%2F1762891506421qHwmy_JPEG%2FDSC_6637.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fvideo-phinf.pstatic.net%2F20260502_20%2F1777648728512qDDrM_JPEG%2FYoJJ3H0VDF_03.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_153%2F1762891506421qHwmy_JPEG%2FDSC_6637.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_159%2F1762891506353ql33z_JPEG%2FDSC_6610.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_182%2F1762891506440EbAWn_JPEG%2FDSC_6617.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251112_85%2F17628915061164uwkA_JPEG%2FDSC_6621.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20251112_188/1762915774980qrSVc_JPEG/DSC_6598.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20251112_8/1762915841405R0wWJ_JPEG/DSC_6499.jpg",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🍺"
+    }
+  ],
   "categoryStats": {},
-  "regionTotalRestaurants": 0
+  "regionTotalRestaurants": 859
 }
