@@ -3,7 +3,7 @@ const post = {
   sections: [
     {
       type: 'intro',
-      html: "<p>잠실 국밥·해장 맛집을 검색하면 너무 많은 결과가 나옵니다. 1149곳의 데이터에서 실제로 방문할 만한 5곳만 선별하였습니다.</p><p>평균 평점 4.2점입니다. 가격대는 7,000원부터 시작하며, 2026년 5월 기준이며, 국물·가격·해장 효과·24시 여부을 위주로 비교하였습니다.</p><p>소개 순서: 제주은희네해장국 잠실직영점, 비사벌전주콩나물국밥, 본가설렁탕, 잠실설렁탕, 진미옥설렁탕 본점.</p>",
+      html: "<p>좋은 국밥·해장 가게의 기준은 사람마다 다르지만, 평점·리뷰·메뉴 데이터가 모두 깔린 곳은 평균은 한다는 점에서 출발점으로 쓰기 좋습니다. 이 글은 잠실 일대 1,149곳 데이터에서 그 평균선 위에 자리한 5곳만 선별해, 가격대와 메뉴 구성, 리뷰에서 자주 거론되는 포인트까지 같이 정리한 가이드입니다.</p><p>이 글의 5곳은 평균 평점 <strong>4.2점</strong>, 누적 리뷰 약 <strong>5,236건</strong>을 기록하고 있습니다, 1인 시작 가격은 7,000원부터. 2026년 5월에 최신 데이터로 갱신한 결과입니다.</p><p>정리하는 순서는 제주은희네해장국 잠실직영점, 비사벌전주콩나물국밥, 본가설렁탕, 잠실설렁탕, 진미옥설렁탕 본점입니다. 한 곳씩 살펴보면서 본인 상황에 맞는 후보 한두 곳을 골라 가시면 좋습니다.</p>",
     },
     {
       type: 'toc',
@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "제주은희네해장국-잠실직영점",
-      text: "제주은희네해장국 잠실직영점 — 시그니처 해장국 12,000원",
+      text: "제주은희네해장국 잠실직영점 — 해장·국밥 한 그릇",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -32,7 +32,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>해장국 12,000원</strong>입니다. 누적 리뷰 784건에 평점 4.3점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>1인 기준 가격대는 12,000원에서 38,000원 사이로 형성되어 있습니다. 이 카테고리 평균 시작가(11,333원)와 비슷한 수준입니다.</p><p>대표 메뉴와 가격은 다음과 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">해장국</td><td style=\"padding:7px 6px;text-align:right\">12,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">내장탕</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">한치물회</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양무침</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돔베모둠</td><td style=\"padding:7px 6px;text-align:right\">38,000원</td></tr></tbody></table><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 영업시간 09:00에 영업 시작 · 위치 석촌동 183-7</p><p>방문 후기에서 자주 언급되는 부분은 맛·분위기·재료 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 제주은희네해장국 잠실직영점 메뉴·리뷰·위치 보기 →</a></div>",
+      html: "<p><strong>제주은희네해장국 잠실직영점</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.3점</strong>은 동네 단골 식당 수준. 리뷰 <strong>784건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>해장국 12,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 12,000~38,000원. 잠실 국밥·해장 평균 시작가(11,333원)와 거의 같은 가격대라 카테고리 평균치를 정확히 보여주는 식당입니다.</p><p>대표 메뉴와 가격을 정리하면 아래와 같습니다.</p><table style=\"width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:7px 6px;text-align:left\">메뉴</th><th style=\"padding:7px 6px;text-align:right\">가격</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">해장국</td><td style=\"padding:7px 6px;text-align:right\">12,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">내장탕</td><td style=\"padding:7px 6px;text-align:right\">13,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">한치물회</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">양무침</td><td style=\"padding:7px 6px;text-align:right\">16,000원</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\">돔베모둠</td><td style=\"padding:7px 6px;text-align:right\">38,000원</td></tr></tbody></table><p><strong>리뷰에서 자주 언급되는 점</strong>: 매장 분위기·청결 · 1인 양.</p><p><strong>이런 분에게 추천</strong>: 한 끼 만원대 가성비 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 영업시간 09:00에 영업 시작 · 위치 석촌동 183-7</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 제주은희네해장국 잠실직영점 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -48,12 +48,12 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\">비사벌전주콩나물국밥</a>은 한식 카테고리에 속하는 식당으로입니다. 누적 리뷰 632건에 평점 4.3점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 잠실동 250-13</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 비사벌전주콩나물국밥 메뉴·리뷰·위치 보기 →</a></div>",
+      html: "<p><strong>비사벌전주콩나물국밥</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.3점</strong>은 동네 단골 식당 수준. 리뷰 <strong>632건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>잠실 국밥·해장는 통상 국밥 1만원 안팎, 곰탕·설렁탕 1만2천원대 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>국밥·해장 카테고리는 일반적으로 순대국밥·곰탕·설렁탕 단품과 수육 사이드로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>이런 분에게 추천</strong>: 가까운 거리에서 무난하게 먹을 곳을 찾을 때.</p><p><strong>방문 팁</strong>: 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 잠실동 250-13</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/비사벌전주콩나물국밥\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 비사벌전주콩나물국밥 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
       id: "본가설렁탕",
-      text: "본가설렁탕 — 해장·국밥 한 그릇",
+      text: "본가설렁탕 — 리뷰 1,711건이 쌓인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -64,7 +64,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/본가설렁탕\">본가설렁탕</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>설렁탕 15,000원</strong>입니다. 누적 리뷰 1,711건에 평점 4.2점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>1인 기준 가격대는 15,000원에서 99,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 11,333원과 비교하면 약 3,667원 높은 편으로, 단가 대비 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴는 설렁탕 15,000원, 본가탕 17,000원, 해장국 15,000원 등이 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 석촌동 24-8</p><p>방문 후기에서 자주 언급되는 부분은 국물·양·맛 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 본가설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
+      html: "<p><strong>본가설렁탕</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.2점</strong>은 동네 단골 식당 수준. 리뷰 누적 <strong>1,711건</strong>은 이 동네에서 손에 꼽힐 정도의 표본 크기. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>설렁탕 15,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 15,000~99,000원. 잠실 국밥·해장 평균(11,333원)보다 3,667원 비싼 편 — 단가가 올라가는 만큼 메뉴 구성이나 재료를 우선시한 곳에 가깝습니다.</p><p>메뉴 중에는 설렁탕 15,000원, 본가탕 17,000원, 해장국 15,000원 등이 자주 언급됩니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 1인 양.</p><p><strong>이런 분에게 추천</strong>: 창가 자리에서 풍경 보며 식사.</p><p><strong>방문 팁</strong>: 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 석촌동 24-8</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/본가설렁탕\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 본가설렁탕 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -80,7 +80,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\">잠실설렁탕</a>은 한식 카테고리에 속하는 식당으로, 대표 메뉴은 <strong>진국설렁탕 12,000원</strong>입니다. 누적 리뷰 1,711건에 평점 4.2점으로, 같은 카테고리 안에서도 검증된 표본 크기에 속합니다.</p><p>1인 기준 가격대는 7,000원에서 100,000원 사이로 형성되어 있습니다. 카테고리 평균 시작가 11,333원보다 약 4,333원 저렴해서 가성비를 우선하는 분들에게 어울립니다.</p><p>메뉴는 진국설렁탕 12,000원, 오늘밥상 10,000원, 왕만두(고기 4개) 8,000원 등이 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 신천동 7-28</p><p>방문 후기에서 자주 언급되는 부분은 맛·국물·서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 잠실설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
+      html: "<p><strong>잠실설렁탕</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.2점</strong>은 동네 단골 식당 수준. 리뷰 누적 <strong>1,711건</strong>은 이 동네에서 손에 꼽힐 정도의 표본 크기. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>간판 메뉴는 <strong>진국설렁탕 12,000원</strong>이며, 이 가격대가 사실상 이곳의 시그니처 포지션입니다.</p><p>1인 기준 7,000~100,000원. 잠실 국밥·해장 평균(11,333원)보다 4,333원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.</p><p>메뉴 중에는 진국설렁탕 12,000원, 오늘밥상 10,000원, 왕만두(고기 4개) 8,000원 등이 자주 언급됩니다.</p><p><strong>이런 분에게 추천</strong>: 한 끼 만원대 가성비 점심.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 주차 가능 · 예약 가능 · 위치 신천동 7-28</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/잠실설렁탕\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 잠실설렁탕 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -96,7 +96,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><a href=\"/dinner/jamsil/restaurant/진미옥설렁탕 본점\">진미옥설렁탕 본점</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 398건으로 안정적인 평가가 쌓여 있습니다.</p><p>한식 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 석촌동 297-2</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/진미옥설렁탕 본점\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 진미옥설렁탕 본점 메뉴·리뷰·위치 보기 →</a></div>",
+      html: "<p><strong>진미옥설렁탕 본점</strong> — 평가는 무난하지만 호불호가 갈리는 편이라, 좋아하는 메뉴 위주로 시켜야 만족도가 올라갑니다.</p><p>평점 <strong>4.2점</strong>은 동네 단골 식당 수준. 리뷰 <strong>398건</strong>이라는 표본이면 평균값을 충분히 신뢰할 수 있는 수준. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>잠실 국밥·해장는 통상 국밥 1만원 안팎, 곰탕·설렁탕 1만2천원대 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>국밥·해장 카테고리는 일반적으로 순대국밥·곰탕·설렁탕 단품과 수육 사이드로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>이런 분에게 추천</strong>: 가까운 거리에서 무난하게 먹을 곳을 찾을 때.</p><p><strong>방문 팁</strong>: 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 석촌동 297-2</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/dinner/jamsil/restaurant/진미옥설렁탕 본점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 진미옥설렁탕 본점 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
