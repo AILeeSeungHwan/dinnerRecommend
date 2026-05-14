@@ -122,6 +122,66 @@
       "emoji": "🍚"
     },
     {
+      "name": "해화장",
+      "type": "횟집·해산물",
+      "addr": "테헤란로 81길 47 1층",
+      "hours": "02:00",
+      "tel": "07-1376-7872",
+      "priceRange": "23000~38000",
+      "rating": 4.4,
+      "reviewCount": 285,
+      "blogCount": 283,
+      "cat": [
+        "일식",
+        "이자카야"
+      ],
+      "tags": [
+        "신선회",
+        "어선인테리어",
+        "코르키지",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "데이트",
+        "축하할 일 있음",
+        "회식"
+      ],
+      "scene": [
+        "데이트",
+        "특별한 날",
+        "신선한 회"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "[봄, 바다향 터지는] 봄멍게",
+          "price": 23000,
+          "description": ""
+        },
+        {
+          "name": "[봄,바다향 터지는] 돌멍게",
+          "price": 38000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_32%2F1746697356658OpY3G_JPEG%2FDSC08136-Enhanced-NR_5MB_highquality.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_203%2F1746697362535owKGi_JPEG%2FDSC08146-Enhanced-NR_5MB_highquality.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_274%2F1746697349847j58eI_JPEG%2FDSC08055-Enhanced-NR_5MB_highquality.jpg",
+      "imageUrl4": "https://ldb-phinf.pstatic.net/20260322_165/1774188364209vQTqQ_PNG/%BA%BD%B5%BF%C2%DE%B2%D9%B9%CC%BB%FE%BA%EA%BB%FE%BA%EA.png",
+      "imageUrl5": "https://ldb-phinf.pstatic.net/20260322_297/1774188442337MC9Y4_PNG/%BA%BD%C2%DE%B2%D9%B9%CC%BC%F7%C8%B8.png",
+      "imageUrl6": "https://ldb-phinf.pstatic.net/20260409_201/1775723645608Y0oLw_PNG/KakaoTalk_20260409_173316774.png",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20260308_221/1772928703048MKwk0_PNG/%B8%DB%B0%D4%28%C7%D8%C8%AD%C0%E5%29.png",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20260306_200/1772785032470QW30m_PNG/KakaoTalk_20250906_183337307_02.png",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🐟"
+    },
+    {
       "name": "멘쇼쿠 코엑스점",
       "type": "일식·라멘",
       "addr": "테헤란로 87길 36 도심공항타워",
@@ -274,66 +334,6 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🫕"
-    },
-    {
-      "name": "해화장",
-      "type": "횟집·해산물",
-      "addr": "테헤란로 81길 47 1층",
-      "hours": "02:00",
-      "tel": "07-1376-7872",
-      "priceRange": "23000~38000",
-      "rating": 4.4,
-      "reviewCount": 122,
-      "blogCount": 283,
-      "cat": [
-        "일식",
-        "이자카야"
-      ],
-      "tags": [
-        "신선회",
-        "어선인테리어",
-        "코르키지",
-        "주차가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "데이트",
-        "축하할 일 있음",
-        "회식"
-      ],
-      "scene": [
-        "데이트",
-        "특별한 날",
-        "신선한 회"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "[봄, 바다향 터지는] 봄멍게",
-          "price": 23000,
-          "description": ""
-        },
-        {
-          "name": "[봄,바다향 터지는] 돌멍게",
-          "price": 38000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/p/entry/place/1888325677",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_32%2F1746697356658OpY3G_JPEG%2FDSC08136-Enhanced-NR_5MB_highquality.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_203%2F1746697362535owKGi_JPEG%2FDSC08146-Enhanced-NR_5MB_highquality.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250508_274%2F1746697349847j58eI_JPEG%2FDSC08055-Enhanced-NR_5MB_highquality.jpg",
-      "imageUrl4": "https://ldb-phinf.pstatic.net/20260322_165/1774188364209vQTqQ_PNG/%BA%BD%B5%BF%C2%DE%B2%D9%B9%CC%BB%FE%BA%EA%BB%FE%BA%EA.png",
-      "imageUrl5": "https://ldb-phinf.pstatic.net/20260322_297/1774188442337MC9Y4_PNG/%BA%BD%C2%DE%B2%D9%B9%CC%BC%F7%C8%B8.png",
-      "imageUrl6": "https://ldb-phinf.pstatic.net/20260409_201/1775723645608Y0oLw_PNG/KakaoTalk_20260409_173316774.png",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20260308_221/1772928703048MKwk0_PNG/%B8%DB%B0%D4%28%C7%D8%C8%AD%C0%E5%29.png",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20260306_200/1772785032470QW30m_PNG/KakaoTalk_20250906_183337307_02.png",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🐟"
     }
   ],
   "categoryStats": {},

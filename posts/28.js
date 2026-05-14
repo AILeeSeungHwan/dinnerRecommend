@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "용가회전훠궈-강남점",
-      text: "용가회전훠궈 강남점 — 시그니처 평일점심 (~15:00) 18,900원",
+      text: "용가회전훠궈 강남점 — 중식 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
       alt: "용가회전훠궈 강남점 대표 사진",
       caption: "용가회전훠궈 강남점",
     },
@@ -37,12 +37,12 @@ const post = {
     {
       type: 'h2',
       id: "강남-돼지상회-무한리필",
-      text: "강남 돼지상회 무한리필 — 시그니처 A 돼지모듬 무한리필 17,900원",
+      text: "강남 돼지상회 무한리필 — 리뷰 3,865건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
       alt: "강남 돼지상회 무한리필 대표 사진",
       caption: "강남 돼지상회 무한리필",
     },
@@ -53,12 +53,12 @@ const post = {
     {
       type: 'h2',
       id: "복국오마카세-아카사카일식",
-      text: "복국오마카세 아카사카일식 — 리뷰 804건 검증 맛집",
+      text: "복국오마카세 아카사카일식 — 시그니처 복국오마카세(룸×/예약×/당일입장) 16,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260302_292%2F1772419665841RF81J_PNG%2FGemini_Generated_Image_byllqgbyllqgbyll.png",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260514_253%2F1778687789568V2nbd_JPEG%2F1000071800.jpg",
       alt: "복국오마카세 아카사카일식 대표 사진",
       caption: "복국오마카세 아카사카일식",
     },
@@ -74,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_265%2F1747187175469sNR85_JPEG%2FIMG_9716.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250514_265%2F1747187175469sNR85_JPEG%2FIMG_9716.jpeg",
       alt: "유타로 강남직영점 대표 사진",
       caption: "유타로 강남직영점",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250619_191%2F1750317441201MT4t4_JPEG%2F1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250619_191%2F1750317441201MT4t4_JPEG%2F1.jpg",
       alt: "요기야 대표 사진",
       caption: "요기야",
     },
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/복국오마카세 아카사카일식\">복국오마카세 아카사카일식</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">804건</td><td style=\"padding:7px 6px;text-align:center\">16,000~150,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/유타로 강남직영점\">유타로 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">996건</td><td style=\"padding:7px 6px;text-align:center\">4,500~16,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/요기야\">요기야</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">526건</td><td style=\"padding:7px 6px;text-align:center\">15,000~15,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/용가회전훠궈 강남점\">용가회전훠궈 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.7</td><td style=\"padding:7px 6px;text-align:center\">229건</td><td style=\"padding:7px 6px;text-align:center\">18,900~22,900원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/강남 돼지상회 무한리필\">강남 돼지상회 무한리필</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">3865건</td><td style=\"padding:7px 6px;text-align:center\">17,900~23,900원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/복국오마카세 아카사카일식\">복국오마카세 아카사카일식</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">804건</td><td style=\"padding:7px 6px;text-align:center\">16,000~150,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/유타로 강남직영점\">유타로 강남직영점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">996건</td><td style=\"padding:7px 6px;text-align:center\">4,500~16,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/요기야\">요기야</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">526건</td><td style=\"padding:7px 6px;text-align:center\">15,000~15,000원</td><td style=\"padding:7px 6px\">합리적인 가격</td></tr></tbody></table>",
     },
     {
       type: 'h2',

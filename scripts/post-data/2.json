@@ -93,6 +93,80 @@
       "emoji": "🍺"
     },
     {
+      "name": "ASOBOY",
+      "type": "라이브바·야장",
+      "addr": "봉은사로 504 지하 1층",
+      "hours": "19:00",
+      "tel": "07-1306-4967",
+      "priceRange": "5000~9000",
+      "rating": 4.4,
+      "reviewCount": 285,
+      "blogCount": 58,
+      "cat": [
+        "야장",
+        "와인바",
+        "이자카야"
+      ],
+      "tags": [
+        "라이브음악",
+        "야장",
+        "생맥주",
+        "분위기최고",
+        "가성비",
+        "주차가능",
+        "데이트"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "회식",
+        "스트레스 받음"
+      ],
+      "scene": [
+        "야장에 맥주",
+        "음악 들으며 한잔",
+        "라이브바"
+      ],
+      "parking": true,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "맥주",
+          "price": 5000,
+          "description": ""
+        },
+        {
+          "name": "양주",
+          "price": 8500,
+          "description": ""
+        },
+        {
+          "name": "칵테일",
+          "price": 9000,
+          "description": ""
+        },
+        {
+          "name": "안주",
+          "price": 7000,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/p/entry/place/34616235",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_287%2F1521641020730zRlYT_JPEG%2FLlMFtyyrQPdEiqCL2gTOHni7.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_170%2F1521641020572qvVaR_JPEG%2F5WMeJVFzLIa2QK1gjx_1xXEy.jpeg.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160808_231%2F1470664535352sdriy_JPEG%2F176758628551892_4.jpeg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160808_196%2F1470664535189526Yz_JPEG%2F176758628551892_3.jpeg",
+      "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
+      "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/musical_note20220119222233.png",
+      "region": "samseong",
+      "regionName": "삼성역",
+      "regionPath": "/dinner/samseong",
+      "emoji": "🎸"
+    },
+    {
       "name": "란주쿠 삼성점",
       "type": "이자카야",
       "addr": "봉은사로 82길 31",
@@ -169,80 +243,6 @@
       "regionName": "삼성역",
       "regionPath": "/dinner/samseong",
       "emoji": "🍾"
-    },
-    {
-      "name": "ASOBOY",
-      "type": "라이브바·야장",
-      "addr": "봉은사로 504 지하 1층",
-      "hours": "19:00",
-      "tel": "07-1306-4967",
-      "priceRange": "5000~9000",
-      "rating": 4.4,
-      "reviewCount": 122,
-      "blogCount": 58,
-      "cat": [
-        "야장",
-        "와인바",
-        "이자카야"
-      ],
-      "tags": [
-        "라이브음악",
-        "야장",
-        "생맥주",
-        "분위기최고",
-        "가성비",
-        "주차가능",
-        "데이트"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "회식",
-        "스트레스 받음"
-      ],
-      "scene": [
-        "야장에 맥주",
-        "음악 들으며 한잔",
-        "라이브바"
-      ],
-      "parking": true,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "맥주",
-          "price": 5000,
-          "description": ""
-        },
-        {
-          "name": "양주",
-          "price": 8500,
-          "description": ""
-        },
-        {
-          "name": "칵테일",
-          "price": 9000,
-          "description": ""
-        },
-        {
-          "name": "안주",
-          "price": 7000,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/p/entry/place/34616235",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_95%2F1521641020922HkeL7_JPEG%2F1wGcs0IqXjmg6JGPtzFjg2nr.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_287%2F1521641020730zRlYT_JPEG%2FLlMFtyyrQPdEiqCL2gTOHni7.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180321_170%2F1521641020572qvVaR_JPEG%2F5WMeJVFzLIa2QK1gjx_1xXEy.jpeg.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160808_231%2F1470664535352sdriy_JPEG%2F176758628551892_4.jpeg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20160808_196%2F1470664535189526Yz_JPEG%2F176758628551892_3.jpeg",
-      "imageUrl7": "https://ssl.pstatic.net/static/pup/emoji/beating_heart20220119222223.png",
-      "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/musical_note20220119222233.png",
-      "region": "samseong",
-      "regionName": "삼성역",
-      "regionPath": "/dinner/samseong",
-      "emoji": "🎸"
     },
     {
       "name": "야키토리 수다",

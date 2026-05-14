@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "스타벅스-영통r점",
-      text: "스타벅스 영통R점 — 시그니처 카페 아메리카노 4,700원",
+      text: "스타벅스 영통R점 — 카페디저트 전문점",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "우판등심-수원점",
-      text: "우판등심 수원점 — 리뷰 2,915건이 쌓인 곳",
+      text: "우판등심 수원점 — 한식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "하얀풍차제과점-망포역점",
-      text: "하얀풍차제과점 망포역점 — 카페디저트 전문점",
+      text: "하얀풍차제과점 망포역점 — 리뷰 1,480건이 쌓인 곳",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "천애부히쇼우-망포-본점",
-      text: "천애부히쇼우 망포 본점 — 시그니처 스테이크덮밥 13,500원",
+      text: "천애부히쇼우 망포 본점 — 뷰가 보이는 자리",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/스타벅스 영통R점\">스타벅스 영통R점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">740건</td><td style=\"padding:7px 6px;text-align:center\">4,700~6,100원</td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/우판등심 수원점\">우판등심 수원점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">2915건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/하얀풍차제과점 망포역점\">하얀풍차제과점 망포역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1480건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">8건</td><td style=\"padding:7px 6px;text-align:center\">1,100~26,000원</td><td style=\"padding:7px 6px\">1인 식사 OK</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">32건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/스타벅스 영통R점\">스타벅스 영통R점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">740건</td><td style=\"padding:7px 6px;text-align:center\">4,700~6,100원</td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/우판등심 수원점\">우판등심 수원점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">2915건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">한식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/하얀풍차제과점 망포역점\">하얀풍차제과점 망포역점</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">1480건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/천애부히쇼우 망포 본점\">천애부히쇼우 망포 본점</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">8건</td><td style=\"padding:7px 6px;text-align:center\">1,100~26,000원</td><td style=\"padding:7px 6px\">혼밥 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/samsungElectronics/yeongtong/restaurant/오무란\">오무란</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">32건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">일식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

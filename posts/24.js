@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "오크바-오크우드-프리미어-코엑스-센터",
-      text: "오크바 오크우드 프리미어 코엑스 센터 — 야장 전문점",
+      text: "오크바 오크우드 프리미어 코엑스 센터 — 리뷰 2,120건이 쌓인 곳",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "데블스도어-코엑스",
-      text: "데블스도어 코엑스 — 분위기 잡히는 술자리",
+      text: "데블스도어 코엑스 — 리뷰 793건 검증 맛집",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -100,7 +100,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이비스 스타일 앰배서더 강남 르바\">이비스 스타일 앰배서더 강남 르바</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">2526건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/데블스도어 코엑스\">데블스도어 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">793건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">크래프트맥주바 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/더 피자 스탠드\">더 피자 스탠드</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">776건</td><td style=\"padding:7px 6px;text-align:center\">12,000~24,000원</td><td style=\"padding:7px 6px\">혼밥 편한 곳</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/오크바 오크우드 프리미어 코엑스 센터\">오크바 오크우드 프리미어 코엑스 센터</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">2120건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/이비스 스타일 앰배서더 강남 르바\">이비스 스타일 앰배서더 강남 르바</a></td><td style=\"padding:7px 6px;text-align:center\">4.1</td><td style=\"padding:7px 6px;text-align:center\">2526건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/데블스도어 코엑스\">데블스도어 코엑스</a></td><td style=\"padding:7px 6px;text-align:center\">3.9</td><td style=\"padding:7px 6px;text-align:center\">793건</td><td style=\"padding:7px 6px;text-align:center\">15,000~25,000원</td><td style=\"padding:7px 6px\">크래프트맥주바 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/samseong/restaurant/블룸\">블룸</a></td><td style=\"padding:7px 6px;text-align:center\">5</td><td style=\"padding:7px 6px;text-align:center\">6건</td><td style=\"padding:7px 6px;text-align:center\">18,000~25,000원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
     },
     {
       type: 'h2',

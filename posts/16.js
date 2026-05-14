@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "진성한우곱창-방이직영점",
-      text: "진성한우곱창 방이직영점 — 평점 4.8·리뷰 766건",
+      text: "진성한우곱창 방이직영점 — 리뷰 766건 검증 맛집",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "오레노라멘송파",
-      text: "오레노라멘송파 — 일식 전문점",
+      text: "오레노라멘송파 — 리뷰 601건 검증 맛집",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "도톤보리",
-      text: "도톤보리 — 리뷰 81,960건이 쌓인 곳",
+      text: "도톤보리 — 시그니처 모듬 사시미 39,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -69,7 +69,7 @@ const post = {
     {
       type: 'h2',
       id: "아쿠아가든카페-롯데월드몰점",
-      text: "아쿠아가든카페 롯데월드몰점 — 음식점 전문점",
+      text: "아쿠아가든카페 롯데월드몰점 — 시그니처 아메리카노 9,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/진성한우곱창 방이직영점\">진성한우곱창 방이직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">766건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,000원</td><td style=\"padding:7px 6px\">웨이팅 각오</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오레노라멘송파\">오레노라멘송파</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">601건</td><td style=\"padding:7px 6px;text-align:center\">1,000~13,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/도톤보리\">도톤보리</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">81960건</td><td style=\"padding:7px 6px;text-align:center\">9,000~39,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아쿠아가든카페 롯데월드몰점\">아쿠아가든카페 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">535건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/진성한우곱창 방이직영점\">진성한우곱창 방이직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.8</td><td style=\"padding:7px 6px;text-align:center\">766건</td><td style=\"padding:7px 6px;text-align:center\">6,000~20,000원</td><td style=\"padding:7px 6px\">줄 서서 먹는 맛</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/오레노라멘송파\">오레노라멘송파</a></td><td style=\"padding:7px 6px;text-align:center\">4.5</td><td style=\"padding:7px 6px;text-align:center\">601건</td><td style=\"padding:7px 6px;text-align:center\">1,000~13,000원</td><td style=\"padding:7px 6px\">일식 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/도톤보리\">도톤보리</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">81960건</td><td style=\"padding:7px 6px;text-align:center\">9,000~39,000원</td><td style=\"padding:7px 6px\">술집 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/아쿠아가든카페 롯데월드몰점\">아쿠아가든카페 롯데월드몰점</a></td><td style=\"padding:7px 6px;text-align:center\">4.4</td><td style=\"padding:7px 6px;text-align:center\">535건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">카페 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/jamsil/restaurant/제주은희네해장국 잠실직영점\">제주은희네해장국 잠실직영점</a></td><td style=\"padding:7px 6px;text-align:center\">4.3</td><td style=\"padding:7px 6px;text-align:center\">784건</td><td style=\"padding:7px 6px;text-align:center\">12,000~38,000원</td><td style=\"padding:7px 6px\">한식 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

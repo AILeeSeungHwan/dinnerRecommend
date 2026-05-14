@@ -21,12 +21,12 @@ const post = {
     {
       type: 'h2',
       id: "밤별-포차-라운지-강남역본점",
-      text: "밤별 포차 라운지 강남역본점 — 리뷰 1,237건이 쌓인 곳",
+      text: "밤별 포차 라운지 강남역본점 — 시그니처 타코와사비 21,000원",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241021_64%2F1729506099399PeLoW_JPEG%2F213.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241021_64%2F1729506099399PeLoW_JPEG%2F213.jpg",
       alt: "밤별 포차 라운지 강남역본점 대표 사진",
       caption: "밤별 포차 라운지 강남역본점",
     },
@@ -42,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260227_13%2F17721739343040kRok_JPEG%2FIMG_7156.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260227_13%2F17721739343040kRok_JPEG%2FIMG_7156.jpeg",
       alt: "이자카야 오레노유메 강남역점 대표 사진",
       caption: "이자카야 오레노유메 강남역점",
     },
@@ -53,12 +53,12 @@ const post = {
     {
       type: 'h2',
       id: "이자카야-고코-강남신논현점",
-      text: "이자카야 고코 강남신논현점 — 리뷰 2,114건이 쌓인 곳",
+      text: "이자카야 고코 강남신논현점 — 시그니처 고코 숙성 사시미 42,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250709_114%2F1752072650944kfCai_JPEG%2FKakaoTalk_20250709_233928108.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250709_114%2F1752072650944kfCai_JPEG%2FKakaoTalk_20250709_233928108.jpg",
       alt: "이자카야 고코 강남신논현점 대표 사진",
       caption: "이자카야 고코 강남신논현점",
     },
@@ -69,12 +69,12 @@ const post = {
     {
       type: 'h2',
       id: "이자카야나무-서초점",
-      text: "이자카야나무 서초점 — 리뷰 4,118건이 쌓인 곳",
+      text: "이자카야나무 서초점 — 시그니처 바지락반전무침 29,000원",
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_239%2F1769153496434jkCsW_JPEG%2FKakaoTalk_20260123_131935135_03.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260123_239%2F1769153496434jkCsW_JPEG%2FKakaoTalk_20260123_131935135_03.jpg",
       alt: "이자카야나무 서초점 대표 사진",
       caption: "이자카야나무 서초점",
     },
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260313_274%2F17733282019871xPDk_JPEG%2F%25BF%25F8%25B7%25A1_%25BF%25B9%25BE%25E0%25C0%25CC%25B9%25CC%25C1%25F6.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260313_274%2F17733282019871xPDk_JPEG%2F%25BF%25F8%25B7%25A1_%25BF%25B9%25BE%25E0%25C0%25CC%25B9%25CC%25C1%25F6.jpg",
       alt: "이자카야나무 강남역2호점 대표 사진",
       caption: "이자카야나무 강남역2호점",
     },
@@ -106,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\">이자카야 오레노유메 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1050건</td><td style=\"padding:7px 6px;text-align:center\">22,000~100,000원</td><td style=\"padding:7px 6px\">가격 대비 양 많음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\">이자카야 고코 강남신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">2114건</td><td style=\"padding:7px 6px;text-align:center\">6,000~42,000원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야나무 서초점\">이자카야나무 서초점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4118건</td><td style=\"padding:7px 6px;text-align:center\">16,000~169,900원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야나무 강남역2호점\">이자카야나무 강남역2호점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1435건</td><td style=\"padding:7px 6px;text-align:center\">16,000~169,900원</td><td style=\"padding:7px 6px\">단체석·회식 가능</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/밤별 포차 라운지 강남역본점\">밤별 포차 라운지 강남역본점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1237건</td><td style=\"padding:7px 6px;text-align:center\">21,000~24,500원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 오레노유메 강남역점\">이자카야 오레노유메 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1050건</td><td style=\"padding:7px 6px;text-align:center\">22,000~100,000원</td><td style=\"padding:7px 6px\">가성비 괜찮음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야 고코 강남신논현점\">이자카야 고코 강남신논현점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">2114건</td><td style=\"padding:7px 6px;text-align:center\">6,000~42,000원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야나무 서초점\">이자카야나무 서초점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">4118건</td><td style=\"padding:7px 6px;text-align:center\">16,000~169,900원</td><td style=\"padding:7px 6px\">이자카야 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/이자카야나무 강남역2호점\">이자카야나무 강남역2호점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">1435건</td><td style=\"padding:7px 6px;text-align:center\">16,000~169,900원</td><td style=\"padding:7px 6px\">룸 있음</td></tr></tbody></table>",
     },
     {
       type: 'h2',

@@ -25,6 +25,12 @@ const post = {
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
+      type: 'image',
+      src: "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png",
+      alt: "신촌설렁탕 대표 사진",
+      caption: "신촌설렁탕",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>국밥 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 역삼1동</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 신촌설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -36,7 +42,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
       alt: "나주곰탕 대표 사진",
       caption: "나주곰탕",
     },
@@ -52,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240320_79%2F1710922982374IpQCe_JPEG%2F20240319_193220.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240320_79%2F1710922982374IpQCe_JPEG%2F20240319_193220.jpg",
       alt: "육전국밥 강남역점 대표 사진",
       caption: "육전국밥 강남역점",
     },
@@ -68,7 +74,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210107_295%2F16099893643630Nk0V_JPEG%2Fz_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210107_295%2F16099893643630Nk0V_JPEG%2Fz_s5Gsp50H_7uR6tvd-KmEtS.JPG.jpg",
       alt: "칠백한우국밥 대표 사진",
       caption: "칠백한우국밥",
     },
@@ -84,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250530_227%2F1748576185543jioHH_JPEG%2F1%25B3%25AA%25C1%25D6%25B0%25F5%25C5%25C1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250530_227%2F1748576185543jioHH_JPEG%2F1%25B3%25AA%25C1%25D6%25B0%25F5%25C5%25C1.jpg",
       alt: "곰작골나주곰탕 강남점 대표 사진",
       caption: "곰작골나주곰탕 강남점",
     },
@@ -100,7 +106,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~22,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">564건</td><td style=\"padding:7px 6px;text-align:center\">10,000~17,000원</td><td style=\"padding:7px 6px\">회식 추천</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">28건</td><td style=\"padding:7px 6px;text-align:center\">8,000~52,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.4</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~18,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
+      html: "<table style=\"width:100%;border-collapse:collapse;font-size:.85rem;margin:12px 0\"><thead><tr style=\"border-bottom:2px solid var(--border)\"><th style=\"padding:8px 6px;text-align:left\">식당</th><th style=\"padding:8px 6px;text-align:center\">평점</th><th style=\"padding:8px 6px;text-align:center\">리뷰</th><th style=\"padding:8px 6px;text-align:center\">가격대</th><th style=\"padding:8px 6px;text-align:left\">한줄평</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\"></td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/나주곰탕\">나주곰탕</a></td><td style=\"padding:7px 6px;text-align:center\">4.2</td><td style=\"padding:7px 6px;text-align:center\">124건</td><td style=\"padding:7px 6px;text-align:center\">11,000~22,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/육전국밥 강남역점\">육전국밥 강남역점</a></td><td style=\"padding:7px 6px;text-align:center\">0</td><td style=\"padding:7px 6px;text-align:center\">564건</td><td style=\"padding:7px 6px;text-align:center\">10,000~17,000원</td><td style=\"padding:7px 6px\">룸 있음</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/칠백한우국밥\">칠백한우국밥</a></td><td style=\"padding:7px 6px;text-align:center\">4.7</td><td style=\"padding:7px 6px;text-align:center\">28건</td><td style=\"padding:7px 6px;text-align:center\">8,000~52,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr><tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:7px 6px\"><a href=\"/dinner/gangnam/restaurant/곰작골나주곰탕 강남점\">곰작골나주곰탕 강남점</a></td><td style=\"padding:7px 6px;text-align:center\">3.4</td><td style=\"padding:7px 6px;text-align:center\">14건</td><td style=\"padding:7px 6px;text-align:center\">12,000~18,000원</td><td style=\"padding:7px 6px\">국밥 전문</td></tr></tbody></table>",
     },
     {
       type: 'h2',

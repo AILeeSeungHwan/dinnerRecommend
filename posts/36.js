@@ -26,7 +26,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241002_103%2F1727850751263e7tA3_JPEG%2F%25BE%25F6%25C3%25BB%25B3%25AD%25C7%25D1%25BB%25F3%2528%25B9%25DD%25B9%25DD%2529.JPG",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241002_103%2F1727850751263e7tA3_JPEG%2F%25BE%25F6%25C3%25BB%25B3%25AD%25C7%25D1%25BB%25F3%2528%25B9%25DD%25B9%25DD%2529.JPG",
       alt: "엄청난족발 대표 사진",
       caption: "엄청난족발",
     },
@@ -37,12 +37,12 @@ const post = {
     {
       type: 'h2',
       id: "용가회전훠궈-강남점",
-      text: "용가회전훠궈 강남점 — 시그니처 평일점심 (~15:00) 18,900원",
+      text: "용가회전훠궈 강남점 — 중식 전문점",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
       alt: "용가회전훠궈 강남점 대표 사진",
       caption: "용가회전훠궈 강남점",
     },
@@ -58,7 +58,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_24%2F1666382897123zPgGe_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25BF%25DC%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221022_24%2F1666382897123zPgGe_JPEG%2F%25B0%25AD%25B3%25B2%25C1%25A1_%25BF%25DC%25BA%25CE_%25BB%25E7%25C1%25F8_%25A4%25D1_1.jpg",
       alt: "반티엔야오 카오위 강남점 대표 사진",
       caption: "반티엔야오 카오위 강남점",
     },
@@ -73,6 +73,12 @@ const post = {
       gradientStyle: { from: '#667EEA', to: '#764BA2' },
     },
     {
+      type: 'image',
+      src: "https://ssl.pstatic.net/static/pup/emoji/steamed_rice20220119222024.png",
+      alt: "신촌설렁탕 대표 사진",
+      caption: "신촌설렁탕",
+    },
+    {
       type: 'body',
       html: "<p><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\">신촌설렁탕</a>은 한식 카테고리에 속하는 식당으로입니다. 평점 4.2점에 리뷰 124건으로 안정적인 평가가 쌓여 있습니다.</p><p>국밥 단품 위주로 가볍게 들르기 좋은 곳입니다</p><p style=\"font-size:.85rem;color:var(--muted)\">📌 위치 역삼1동</p><p>방문 후기에서 자주 언급되는 부분은 서비스 쪽입니다.</p><div style=\"margin:18px 0 8px;text-align:center\"><a href=\"/dinner/gangnam/restaurant/신촌설렁탕\" style=\"display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:12px;background:linear-gradient(135deg,#FF6B6B 0%,#FFD93D 100%);color:#1a1a22;font-weight:800;font-size:.92rem;text-decoration:none;box-shadow:0 4px 14px rgba(255,107,107,.35);transition:transform .15s\">🍽 신촌설렁탕 메뉴·리뷰·위치 보기 →</a></div>",
     },
@@ -84,7 +90,7 @@ const post = {
     },
     {
       type: 'image',
-      src: "https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      src: "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
       alt: "나주곰탕 대표 사진",
       caption: "나주곰탕",
     },

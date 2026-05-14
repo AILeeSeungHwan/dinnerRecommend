@@ -36,7 +36,7 @@ if os.path.exists(env_path):
 
 KAKAO_KEY = os.environ.get('KAKAO_REST_API_KEY', '').strip()
 REGIONS = ['samseong','jamsil','pangyo','yeongtong','mangpo','yeongtongGu','suji','gangnam']
-DELAY = (0.7, 1.4)
+DELAY = (1.5, 2.5)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15',
     'Accept-Language': 'ko-KR,ko;q=0.9',
@@ -121,7 +121,7 @@ def update_region(region):
     for m in matches:
         name, rt, cnt, addr = m.group(1), float(m.group(2)), int(m.group(3)), m.group(4)
         # 의심 조건: cnt<=5 또는 (cnt 같은 식당 4개 이상 + cnt > 0)
-        suspicious = (0 < cnt <= 5) or (cnt > 0 and counter[cnt] >= 4)
+        suspicious = rt == 0 or (0 < cnt <= 5) or (cnt > 0 and counter[cnt] >= 4)
         # 평점 0이거나 매우 작은 cnt
         if rt == 0 or suspicious:
             targets.append((name, addr))
