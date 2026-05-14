@@ -7,3 +7,4 @@ public/images/restaurants/
 .env.*.local
 scripts/govdata/*.csv
 scripts/govdata/*.xlsx
+data/reviews_raw.json

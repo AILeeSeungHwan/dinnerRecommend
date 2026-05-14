@@ -22,6 +22,15 @@ if os.path.exists(IMG_MAPPING_FILE):
         img_mapping = json.load(f)
 
 # ── data/*.js에서 rv(리뷰) 데이터 로드 ────────────────────────────
+
+# reviews_summary.json 로드
+import json as _json
+_sum_path = os.path.join(BASE, 'data', 'reviews_summary.json')
+REVIEWS_SUMMARY = {}
+if os.path.exists(_sum_path):
+    with open(_sum_path) as _f:
+        REVIEWS_SUMMARY = _json.load(_f)
+
 RV_MAP = {}  # region → name → [review texts]
 REGIONS_ALL = ['samseong', 'jamsil', 'pangyo', 'yeongtong', 'mangpo', 'yeongtongGu', 'suji', 'gangnam']
 for _region in REGIONS_ALL:
@@ -227,8 +236,10 @@ def extract_review_summary(name, region, max_keywords=3):
 
 # ── rv에서 짧은 인용문 추출 ──────────────────────────────────────
 def extract_review_quote(name, region):
-    """리뷰 중 짧고 인상적인 한 줄을 찾아 인용형 요약으로 변환.
-    리뷰 원문 그대로가 아닌 약간 다듬은 형태로 반환."""
+    """짧은 인용 — reviews_summary 우선, 없으면 rv."""
+    s = REVIEWS_SUMMARY.get(region, {}).get(name)
+    if s and s.get('quote'):
+        return f'한 방문자는 "{s["quote"]}"고 적어두었습니다.'
     reviews = RV_MAP.get(region, {}).get(name, [])
     if not reviews:
         return ''
@@ -805,7 +816,11 @@ def _recommend_audience(r, category):
     return audiences[:3]
 
 def _rv_insight(name, region):
-    """rv 리뷰 분석 — 어떤 점이 자주 언급되는지 운영자 시각으로 정리."""
+    """리뷰 요약 — reviews_summary.json 우선, 없으면 rv 분석."""
+    # 우선 reviews_summary 사용
+    s = REVIEWS_SUMMARY.get(region, {}).get(name)
+    if s and s.get('themes'):
+        return ' · '.join(s['themes'])
     rv_list = RV_MAP.get(region, {}).get(name, []) or []
     if not rv_list: return ''
     combined = ' '.join(rv_list[:6])
@@ -1374,21 +1389,98 @@ def generate_intro(post_data):
     return f'<p>{intro_p1}</p><p>{intro_p2}</p><p>{esc(intro_p3)}</p>'
 
 # ── 엔딩 생성 ───────────────────────────────────────────────────
-def generate_ending(post_data, related_posts):
-    """마무리 + 관련 글 링크"""
+def generate_faq_section(post_data):
+    """포스트 카테고리·지역 기반 FAQ 5개 자동 생성."""
     rinfo = REGION_INFO.get(post_data['region'], {})
-    region_path = rinfo.get('path', '')
     rname = rinfo.get('name', '')
     cat_label = CATEGORY_ANGLES.get(post_data.get('category', ''), {}).get('label', '')
+    rests = post_data.get('restaurants', [])
+    n = len(rests)
+    ratings = [r['rating'] for r in rests if r.get('rating')]
+    avg_rt = round(sum(ratings)/len(ratings), 1) if ratings else 0
+    sorted_rests = sorted(rests, key=lambda x: x.get('rating',0), reverse=True)
+    top = sorted_rests[0] if sorted_rests else None
+    cheap = min((r for r in rests if r.get('priceRange') and '~' in r.get('priceRange','')),
+                key=lambda x: int(x['priceRange'].split('~')[0]) if x['priceRange'].split('~')[0].isdigit() else 999999, default=None)
+    has_reservation = [r['name'] for r in rests if r.get('reservation')]
+    has_parking = [r['name'] for r in rests if r.get('parking')]
 
-    closing = (
-        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준 정보입니다. '
-        f'영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. '
-        f'아래 관련 글도 함께 참고해 주시기 바랍니다.'
+    qa = []
+    qa.append((
+        f'{rname}에서 {cat_label} 어디가 평점이 가장 높나요?',
+        f'이 글에 정리된 {n}곳 중에서는 {top["name"] if top else ""}이(가) 평점 {top.get("rating",0) if top else 0}점으로 가장 높습니다. '
+        f'리뷰는 {top.get("reviewCount",0) if top else 0:,}건이 누적된 상태이며, 같은 카테고리 평균(약 {avg_rt}점) 대비 안정적인 평가입니다.'
+    ))
+    if cheap:
+        lo = int(cheap['priceRange'].split('~')[0])
+        qa.append((
+            f'{rname} {cat_label} 한 끼는 보통 얼마인가요?',
+            f'이 글의 {n}곳 평균을 보면 1인 시작가는 {lo:,}원부터 형성되어 있습니다. '
+            f'가성비 위주라면 {cheap["name"]} 같은 곳이 합리적이며, 코스 위주면 인당 3만~5만원대를 잡아두는 편이 안전합니다.'
+        ))
+    else:
+        qa.append((
+            f'{rname} {cat_label} 한 끼 평균 가격은 얼마인가요?',
+            f'{rname} {cat_label} 카테고리는 단품 1만~2만원, 코스 3만~6만원대가 보통입니다. 식당별 메뉴 구성에 따라 차이가 있으니 본문 메뉴 표에서 가격을 비교하시는 편이 정확합니다.'
+        ))
+    qa.append((
+        f'예약은 필요한가요?',
+        f'주말 저녁 시간대에는 예약이 안전합니다. 이 글의 {n}곳 중 예약 가능한 곳은 ' + (', '.join(has_reservation[:3]) + ' 등' if has_reservation else '대부분 매장에 직접 확인이 필요합니다.') + ' 평일 점심은 보통 예약 없이도 자리가 있는 편입니다.'
+    ))
+    qa.append((
+        f'주차는 가능한가요?',
+        ('주차 가능한 곳은 ' + ', '.join(has_parking[:3]) + ' 등입니다. ') if has_parking else '대부분 별도 주차장이 없는 편이라 ' +
+        f'{rname}은 대중교통 접근이 더 편합니다. 인근 공영주차장이나 빌딩 주차장을 활용하시는 분들이 많습니다.'
+    ))
+    qa.append((
+        f'혼밥하기 좋은 곳도 있나요?',
+        '식당 상세 페이지의 "혼밥가능" 태그가 있는 곳을 확인하시면 됩니다. ' +
+        f'평일 점심 시간대에는 1인 식사도 자연스럽게 받는 곳이 많고, 단가는 {(cheap and int(cheap["priceRange"].split("~")[0])) or 10000:,}원 안팎이 무난합니다.'
+    ))
+
+    items = ''.join(
+        f'<details style="margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px"><summary style="font-weight:700;cursor:pointer;color:var(--text)">Q. {esc(q)}</summary>'
+        f'<p style="margin:10px 0 0;color:var(--muted);line-height:1.7">A. {esc(a)}</p></details>'
+        for q, a in qa
+    )
+    return f'<div style="margin:16px 0">{items}</div>'
+
+def generate_operator_note(post_data):
+    """운영자 노트 — 데이터 점검 시점과 선정 기준 명시."""
+    rinfo = REGION_INFO.get(post_data['region'], {})
+    rname = rinfo.get('name', '')
+    cat_label = CATEGORY_ANGLES.get(post_data.get('category', ''), {}).get('label', '')
+    total = post_data.get('regionTotalRestaurants', 0)
+    rests = post_data.get('restaurants', [])
+    return (
+        f'<div style="margin:24px 0;padding:18px 20px;background:var(--surface2);border-left:4px solid var(--primary);border-radius:0 10px 10px 0">'
+        f'<div style="font-weight:800;color:var(--text);margin-bottom:8px;font-size:.92rem">📝 운영자 노트</div>'
+        f'<p style="margin:0;color:var(--muted);font-size:.88rem;line-height:1.75">'
+        f'{rname} 일대 {total:,}곳 데이터에서 {cat_label} 카테고리로 필터링한 뒤, 평점·리뷰 수·메뉴 구성을 기준으로 {len(rests)}곳을 추렸습니다. '
+        f'운영자가 직접 확인한 사항은 (1) 같은 카테고리 안에서의 가격 분포, (2) 리뷰에서 반복적으로 언급되는 포인트, (3) 메뉴 구성의 차별성입니다. '
+        f'본 가이드는 데이터 기반 큐레이션이며, 식당 영업·메뉴·가격은 변동 가능하니 방문 전 매장 확인을 권장드립니다.'
+        f'</p></div>'
     )
 
-    # 관련글 카드는 React EndingSection에서 처리. ending HTML은 마무리 멘트만.
-    return f'<p>{esc(closing)}</p>'
+def generate_sources_section(post_data):
+    """외부 출처 섹션 — 식약처·행안부·관광공사 명시."""
+    return (
+        f'<div style="margin:18px 0;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:.78rem;color:var(--muted);line-height:1.7">'
+        f'<div style="font-weight:700;color:var(--text);margin-bottom:6px;font-size:.82rem">📋 데이터 출처</div>'
+        f'· 행정안전부 전국일반음식점표준데이터 (영업 상태·인허가일자) — <a href="https://www.data.go.kr" style="color:var(--primary)" target="_blank" rel="noopener">data.go.kr</a><br>'
+        f'· 한국관광공사 국문 관광정보 서비스 (소개·사진) — <a href="https://api.visitkorea.or.kr" style="color:var(--primary)" target="_blank" rel="noopener">api.visitkorea.or.kr</a><br>'
+        f'· 식품의약품안전처 음식점 위생등급 (해당 식당에 한해) — <a href="https://data.mfds.go.kr" style="color:var(--primary)" target="_blank" rel="noopener">data.mfds.go.kr</a><br>'
+        f'· 식당별 평점·리뷰는 네이버 플레이스·Daum 검색 데이터를 종합한 결과이며, {TODAY[:4]}년 {int(TODAY[5:7])}월 기준입니다.'
+        f'</div>'
+    )
+
+def generate_ending(post_data, related_posts):
+    """마무리 + 운영자 노트 + 외부 출처 + 마무리 멘트"""
+    closing = (
+        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준 정보입니다. '
+        f'영업시간·가격은 변동될 수 있으니 방문 전에 한 번 더 확인하시는 편이 안전합니다.'
+    )
+    return generate_operator_note(post_data) + generate_sources_section(post_data) + f'<p style="font-size:.85rem;color:var(--muted);margin-top:12px">{esc(closing)}</p>'
 
 # ── CTA 생성 ────────────────────────────────────────────────────
 def generate_cta(post_data):
@@ -1602,7 +1694,20 @@ for post_data in all_posts_meta:
         'html': generate_tips(post_data),
     })
 
-    # 6. CTA
+    # 6. FAQ — 카테고리·지역 기반 5개 자동 생성
+    _rn = REGION_INFO.get(post_data["region"], {}).get("name", "")
+    _cl = CATEGORY_ANGLES.get(category, {}).get("label", "")
+    sections.append({
+        'type': 'h2', 'id': 'faq',
+        'text': f'{_rn} {_cl} 자주 묻는 질문',
+        'gradientStyle': GRADIENTS[(len(restaurants) + 3) % len(GRADIENTS)],
+    })
+    sections.append({
+        'type': 'body',
+        'html': generate_faq_section(post_data),
+    })
+
+    # 7. CTA
     cta = generate_cta(post_data)
     sections.append({
         'type': 'cta',

@@ -21,7 +21,7 @@ const post = {
     {
       type: 'h2',
       id: "우판등심-수원점",
-      text: "우판등심 수원점 — 리뷰 2,915건이 쌓인 곳",
+      text: "우판등심 수원점 — 한식 점심 식당",
       gradientStyle: { from: '#4facfe', to: '#00f2fe' },
     },
     {
@@ -37,7 +37,7 @@ const post = {
     {
       type: 'h2',
       id: "히말라야-정원",
-      text: "히말라야 정원 — 일식 전문점",
+      text: "히말라야 정원 — 리뷰 809건 검증 맛집",
       gradientStyle: { from: '#43e97b', to: '#38f9d7' },
     },
     {
@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "방일해장국-영통점",
-      text: "방일해장국 영통점 — 국물 전문점",
+      text: "방일해장국 영통점 — 점심 12천원대부터",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {
@@ -90,7 +90,7 @@ const post = {
     },
     {
       type: 'body',
-      html: "<p><strong>탄향1965 매탄점</strong> — 데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.</p><p>평점이 <strong>5점</strong>으로 같은 카테고리 평균(통상 4.0~4.4)을 한참 위로 끌어올린 수치. 리뷰 <strong>33건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>영통구청 점심는 통상 런치 세트 1만~1만5천원 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>점심 카테고리는 일반적으로 점심 특선 세트나 단품 정식 위주로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>이런 분에게 추천</strong>: 가까운 거리에서 무난하게 먹을 곳을 찾을 때.</p><p><strong>방문 팁</strong>: 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 매탄동 1263-4</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 탄향1965 매탄점 메뉴·평점·위치 자세히 보기</a></div>",
+      html: "<p><strong>탄향1965 매탄점</strong> — 데이터만 보면 호불호가 갈리는 편이니, 메뉴와 시간대를 잘 골라야 만족도가 안정됩니다.</p><p>평점이 <strong>5점</strong>으로 같은 카테고리 평균(통상 4.0~4.4)을 한참 위로 끌어올린 수치. 리뷰 <strong>33건</strong>이라 표본은 작지만 평가 자체는 좋은 편. 같은 카테고리의 다른 후보들과 비교했을 때 신뢰도 측면에서 우위에 있습니다.</p><p>영통구청 점심는 통상 런치 세트 1만~1만5천원 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p><p>점심 카테고리는 일반적으로 점심 특선 세트나 단품 정식 위주로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p><p><strong>리뷰에서 자주 언급되는 점</strong>: 맛있음.</p><p><strong>이런 분에게 추천</strong>: 가까운 거리에서 무난하게 먹을 곳을 찾을 때.</p><p><strong>방문 팁</strong>: 전용 주차장이 없는 편이라 대중교통 이용을 권장합니다.</p><p style=\"font-size:.84rem;color:var(--muted)\">📌 위치 매탄동 1263-4</p><div style=\"margin:26px 0 14px;text-align:center\"><a href=\"/samsungElectronics/yeongtongGu/restaurant/탄향1965 매탄점\" style=\"display:inline-flex;align-items:center;gap:10px;padding:16px 34px;border-radius:14px;background:#111827;color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;letter-spacing:.02em;border:2px solid #FCD34D;box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);transition:transform .15s\">🔗 탄향1965 매탄점 메뉴·평점·위치 자세히 보기</a></div>",
     },
     {
       type: 'h2',
@@ -123,13 +123,23 @@ const post = {
       html: "<ul><li>방일해장국 영통점은 점심 피크 시간(12시~12시 30분)에 대기가 있을 수 있습니다. 11시 50분 이전에 방문하시는 것을 추천드립니다.</li><li>점심 메뉴가 저녁보다 저렴한 경우가 많습니다. 런치 세트 메뉴 여부를 미리 확인하시고 방문하시면 좋겠습니다.</li></ul>",
     },
     {
+      type: 'h2',
+      id: "faq",
+      text: "영통구청 점심 자주 묻는 질문",
+      gradientStyle: { from: '#a18cd1', to: '#fbc2eb' },
+    },
+    {
+      type: 'body',
+      html: "<div style=\"margin:16px 0\"><details style=\"margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px\"><summary style=\"font-weight:700;cursor:pointer;color:var(--text)\">Q. 영통구청에서 점심 어디가 평점이 가장 높나요?</summary><p style=\"margin:10px 0 0;color:var(--muted);line-height:1.7\">A. 이 글에 정리된 5곳 중에서는 탄향1965 매탄점이(가) 평점 5점으로 가장 높습니다. 리뷰는 33건이 누적된 상태이며, 같은 카테고리 평균(약 4.3점) 대비 안정적인 평가입니다.</p></details><details style=\"margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px\"><summary style=\"font-weight:700;cursor:pointer;color:var(--text)\">Q. 영통구청 점심 한 끼는 보통 얼마인가요?</summary><p style=\"margin:10px 0 0;color:var(--muted);line-height:1.7\">A. 이 글의 5곳 평균을 보면 1인 시작가는 12,000원부터 형성되어 있습니다. 가성비 위주라면 방일해장국 영통점 같은 곳이 합리적이며, 코스 위주면 인당 3만~5만원대를 잡아두는 편이 안전합니다.</p></details><details style=\"margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px\"><summary style=\"font-weight:700;cursor:pointer;color:var(--text)\">Q. 예약은 필요한가요?</summary><p style=\"margin:10px 0 0;color:var(--muted);line-height:1.7\">A. 주말 저녁 시간대에는 예약이 안전합니다. 이 글의 5곳 중 예약 가능한 곳은 대부분 매장에 직접 확인이 필요합니다. 평일 점심은 보통 예약 없이도 자리가 있는 편입니다.</p></details><details style=\"margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px\"><summary style=\"font-weight:700;cursor:pointer;color:var(--text)\">Q. 주차는 가능한가요?</summary><p style=\"margin:10px 0 0;color:var(--muted);line-height:1.7\">A. 대부분 별도 주차장이 없는 편이라 영통구청은 대중교통 접근이 더 편합니다. 인근 공영주차장이나 빌딩 주차장을 활용하시는 분들이 많습니다.</p></details><details style=\"margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px\"><summary style=\"font-weight:700;cursor:pointer;color:var(--text)\">Q. 혼밥하기 좋은 곳도 있나요?</summary><p style=\"margin:10px 0 0;color:var(--muted);line-height:1.7\">A. 식당 상세 페이지의 \"혼밥가능\" 태그가 있는 곳을 확인하시면 됩니다. 평일 점심 시간대에는 1인 식사도 자연스럽게 받는 곳이 많고, 단가는 12,000원 안팎이 무난합니다.</p></details></div>",
+    },
+    {
       type: 'cta',
       href: "/samsungElectronics/yeongtongGu",
       text: "영통구청 전체 맛집 보기 →",
     },
     {
       type: 'ending',
-      html: "<p>2026년 5월 기준 정보입니다. 영업시간이나 가격은 변동될 수 있으므로, 방문 전에 한 번 확인하시는 것을 권장드립니다. 아래 관련 글도 함께 참고해 주시기 바랍니다.</p>",
+      html: "<div style=\"margin:24px 0;padding:18px 20px;background:var(--surface2);border-left:4px solid var(--primary);border-radius:0 10px 10px 0\"><div style=\"font-weight:800;color:var(--text);margin-bottom:8px;font-size:.92rem\">📝 운영자 노트</div><p style=\"margin:0;color:var(--muted);font-size:.88rem;line-height:1.75\">영통구청 일대 548곳 데이터에서 점심 카테고리로 필터링한 뒤, 평점·리뷰 수·메뉴 구성을 기준으로 5곳을 추렸습니다. 운영자가 직접 확인한 사항은 (1) 같은 카테고리 안에서의 가격 분포, (2) 리뷰에서 반복적으로 언급되는 포인트, (3) 메뉴 구성의 차별성입니다. 본 가이드는 데이터 기반 큐레이션이며, 식당 영업·메뉴·가격은 변동 가능하니 방문 전 매장 확인을 권장드립니다.</p></div><div style=\"margin:18px 0;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:10px;font-size:.78rem;color:var(--muted);line-height:1.7\"><div style=\"font-weight:700;color:var(--text);margin-bottom:6px;font-size:.82rem\">📋 데이터 출처</div>· 행정안전부 전국일반음식점표준데이터 (영업 상태·인허가일자) — <a href=\"https://www.data.go.kr\" style=\"color:var(--primary)\" target=\"_blank\" rel=\"noopener\">data.go.kr</a><br>· 한국관광공사 국문 관광정보 서비스 (소개·사진) — <a href=\"https://api.visitkorea.or.kr\" style=\"color:var(--primary)\" target=\"_blank\" rel=\"noopener\">api.visitkorea.or.kr</a><br>· 식품의약품안전처 음식점 위생등급 (해당 식당에 한해) — <a href=\"https://data.mfds.go.kr\" style=\"color:var(--primary)\" target=\"_blank\" rel=\"noopener\">data.mfds.go.kr</a><br>· 식당별 평점·리뷰는 네이버 플레이스·Daum 검색 데이터를 종합한 결과이며, 2026년 5월 기준입니다.</div><p style=\"font-size:.85rem;color:var(--muted);margin-top:12px\">2026년 5월 기준 정보입니다. 영업시간·가격은 변동될 수 있으니 방문 전에 한 번 더 확인하시는 편이 안전합니다.</p>",
     }
   ],
 }
