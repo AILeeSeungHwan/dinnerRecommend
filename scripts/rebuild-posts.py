@@ -900,21 +900,20 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
             tip = f'{region_name} {cat_label} 평균({avg_lo:,}원)보다 {abs(diff):,}원 저렴 — 가성비 우선 픽으로 묶기 좋습니다.'
         parts.append(f'<p>1인 기준 {lo:,}~{hi:,}원. {tip}</p>')
     elif not (lo and hi):
-        # 가격 정보 없을 때 카테고리 일반 가격대 안내
         cat_price_hints = {
-            'meat': '1인 2만원대~4만원대가 보통이며, 한우는 5만원+',
-            'japanese': '단품 1만5천원~3만원, 오마카세는 8만~25만원대가 일반적',
-            'chinese': '단품 1만원 안팎, 코스 2만5천~5만원대',
-            'izakaya': '안주 2~3가지 + 술 한 잔이면 인당 3만원 전후',
+            'meat': '1인 2~4만원, 한우는 5만원+',
+            'japanese': '단품 1만5천~3만원, 오마카세 8만~25만원',
+            'chinese': '단품 1만원 안팎, 코스 2만5천~5만원',
+            'izakaya': '안주 2~3개 + 한 잔이면 인당 3만원 전후',
             'gukbap': '국밥 1만원 안팎, 곰탕·설렁탕 1만2천원대',
-            'date': '인당 4만~7만원대 코스가 무난',
-            'group': '인당 3만~5만원 잡으면 회식 적정선',
-            'budget': '한 끼 8천~1만2천원 안팎',
-            'lunch': '런치 세트 1만~1만5천원대가 직장인 평균',
+            'date': '인당 4만~7만원대 코스',
+            'group': '인당 3만~5만원 회식 적정선',
+            'budget': '한 끼 8천~1만2천원',
+            'lunch': '런치 세트 1만~1만5천원',
         }
         hint = cat_price_hints.get(category)
         if hint:
-            parts.append(f'<p>이 식당의 명시된 가격대 정보는 부족하지만, {region_name} {cat_label} 카테고리는 통상 {hint} 수준입니다.</p>')
+            parts.append(f'<p>{region_name} {cat_label}는 통상 {hint} 가격대로 형성되어 있어, 예산 계획에 참고하시면 됩니다.</p>')
 
     # ⑤ 메뉴 표 (있을 때 풀 메뉴, 없을 때 카테고리 기반 일반 안내)
     menus_filtered = filter_menu_items(r.get('menuItems') or [])
@@ -942,7 +941,7 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
         }
         hint = cat_default_menus.get(category)
         if hint:
-            parts.append(f'<p>이 식당의 상세 메뉴 정보는 아직 수집되지 않았지만, {cat_label} 카테고리에서 보통 다루는 구성은 {hint}입니다. 방문 전 매장 전화로 코스·당일 메뉴를 확인하는 편이 안전합니다.</p>')
+            parts.append(f'<p>{cat_label} 카테고리는 일반적으로 {hint}로 구성됩니다. 방문 전 코스·당일 메뉴를 매장에 확인해 두면 자리 잡기 수월합니다.</p>')
 
     # ⑥ 리뷰에서 발견한 점
     insight_keys = _rv_insight(name, region)
@@ -951,9 +950,6 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
         parts.append(f'<p><strong>리뷰에서 자주 언급되는 점</strong>: {esc(insight_keys)}.</p>')
     if is_main and rv_quote:
         parts.append(f'<p style="border-left:3px solid var(--primary);padding:6px 12px;background:var(--surface2);color:var(--text);font-size:.92rem;border-radius:0 8px 8px 0">{esc(rv_quote)}</p>')
-    # 리뷰 키워드도 인용도 없을 때 — 데이터 빈 곳도 메시지 채움
-    if not insight_keys and not rv_quote and cnt > 0:
-        parts.append(f'<p>리뷰 본문 데이터는 부족하지만, 리뷰 수와 평점만 놓고 봐도 이미 일정 수준의 검증이 끝난 식당으로 분류할 수 있습니다.</p>')
 
     # ⑦ 어떤 사람에게 추천 — 다각도
     aud = _recommend_audience(r, category)
@@ -977,17 +973,17 @@ def generate_body_v2(r, region_path, category, region, is_main=True, avg_lo=0, a
     if fac:
         parts.append(f'<p style="font-size:.84rem;color:var(--muted)">📌 {esc(fac)}</p>')
 
-    # ⑨ 상세 페이지 — 최대로 눈에 띄는 버튼 (강한 오렌지·흰 텍스트·진한 그림자)
+    # ⑨ CTA 버튼 — 검정 배경 + 노란 텍스트 (high contrast, 가장 눈에 띔)
     parts.append(
-        f'<div style="margin:24px 0 12px;text-align:center">'
+        f'<div style="margin:26px 0 14px;text-align:center">'
         f'<a href="{link}" style="display:inline-flex;align-items:center;gap:10px;'
-        f'padding:16px 32px;border-radius:14px;'
-        f'background:#FF6B00;'
-        f'color:#fff;font-weight:900;font-size:1rem;text-decoration:none;'
-        f'letter-spacing:.01em;'
-        f'box-shadow:0 8px 24px rgba(255,107,0,.5),0 2px 6px rgba(0,0,0,.15);'
+        f'padding:16px 34px;border-radius:14px;'
+        f'background:#111827;'
+        f'color:#FCD34D;font-weight:900;font-size:1.02rem;text-decoration:none;'
+        f'letter-spacing:.02em;border:2px solid #FCD34D;'
+        f'box-shadow:0 8px 26px rgba(0,0,0,.4),inset 0 0 0 1px rgba(252,211,77,.2);'
         f'transition:transform .15s">'
-        f'🍽 {esc(name)} 메뉴·평점·위치 보기 →</a>'
+        f'🔗 {esc(name)} 메뉴·평점·위치 자세히 보기</a>'
         f'</div>'
     )
 
@@ -1340,35 +1336,42 @@ def generate_intro(post_data):
     cat_text = f' {cat_label}' if cat_label else ''
     cat_focus = CATEGORY_ANGLES.get(post_data.get('category', ''), {}).get('focus', '')
 
-    # 인트로 변형 — 포스트 id 기반으로 톤 변경
+    # 인트로 — 운영자 시점, 선정 기준을 매력적으로 풀어내기
     pid = post_data['id']
-    variant = pid % 3
+    variant = pid % 4
+    review_total = sum((r.get('reviewCount') or 0) for r in rests)
+    review_total_text = f'{review_total:,}건' if review_total else ''
 
     if variant == 0:
-        intro_p1 = (
-            f'{rname}에서{cat_text} 식당을 찾고 계신다면, 이 글 하나로 정리해 드리겠습니다. '
-            f'총 {total}곳 중{cat_text} {n}곳을 엄선하여 비교하였습니다.'
-        )
+        hook = f'{rname}에서 {cat_label} 한 끼 정하기, 매번 같은 후보만 떠오르지 않으셨나요?'
+        line = f'그래서 {total:,}곳에서 시작해 평점·리뷰·메뉴 데이터를 한 번에 비교해 본 뒤, 평균 위에 안정적으로 자리 잡은 {n}곳만 남겨봤습니다.'
     elif variant == 1:
-        intro_p1 = (
-            f'{area} 근처에서{cat_text} 괜찮은 곳을 찾고 계시는 분들을 위해 준비하였습니다. '
-            f'{n}곳을 추려서 가격과 메뉴까지 상세하게 정리하였습니다.'
-        )
+        hook = f'{cat_label} 가게 추천이라는 글은 많지만, "왜 이 집인지"가 빠진 글이 대부분입니다.'
+        line = f'그래서 {rname} {cat_label} 카테고리 전체 {total:,}곳을 평점·리뷰 수 기준으로 줄 세운 다음, 실제 메뉴와 가격대까지 같이 본 결과 추려진 {n}곳을 정리했습니다.'
+    elif variant == 2:
+        hook = f'{rname} {cat_label} 어디가 좋냐고 묻는 분들이 매주 있는데, 매번 같은 답만 하기엔 데이터가 너무 빨리 바뀝니다.'
+        line = f'그래서 {total:,}곳 가운데 누적 리뷰 {review_total_text}이 모인 {n}곳을 평점·가격·메뉴 기준으로 다시 한 번 정리했습니다.'
     else:
-        intro_p1 = (
-            f'{rname}{cat_text} 맛집을 검색하면 너무 많은 결과가 나옵니다. '
-            f'{total}곳의 데이터에서 실제로 방문할 만한 {n}곳만 선별하였습니다.'
-        )
+        hook = f'좋은 {cat_label} 가게의 기준은 사람마다 다르지만, 평점·리뷰·메뉴 데이터가 모두 깔린 곳은 평균은 한다는 점에서 출발점으로 쓰기 좋습니다.'
+        line = f'이 글은 {rname} 일대 {total:,}곳 데이터에서 그 평균선 위에 자리한 {n}곳만 선별해, 가격대와 메뉴 구성, 리뷰에서 자주 거론되는 포인트까지 같이 정리한 가이드입니다.'
 
-    intro_p2 = (
-        f'평균 평점 {avg_rt}점입니다.{price_range_text} '
-        f'{TODAY[:4]}년 {int(TODAY[5:7])}월 기준이며, {cat_focus}을 위주로 비교하였습니다.'
-    )
+    intro_p1 = hook + ' ' + line
+
+    # 두 번째 단락 — 데이터 기준·신선도
+    intro_p2_parts = []
+    if avg_rt:
+        intro_p2_parts.append(f'이 글의 {n}곳은 평균 평점 <strong>{avg_rt}점</strong>')
+    if review_total_text:
+        intro_p2_parts.append(f'누적 리뷰 약 <strong>{review_total_text}</strong>을 기록하고 있습니다')
+    if prices:
+        intro_p2_parts.append(f'1인 시작 가격은 {min(prices):,}원부터')
+    intro_p2 = ', '.join(intro_p2_parts) if intro_p2_parts else ''
+    intro_p2 += f'. {TODAY[:4]}년 {int(TODAY[5:7])}월에 최신 데이터로 갱신한 결과입니다.'
 
     rest_names = [r['name'] for r in rests[:5]]
-    intro_p3 = f'소개 순서: {", ".join(rest_names)}.'
+    intro_p3 = f'정리하는 순서는 {", ".join(rest_names)}입니다. 한 곳씩 살펴보면서 본인 상황에 맞는 후보 한두 곳을 골라 가시면 좋습니다.'
 
-    return f'<p>{esc(intro_p1)}</p><p>{esc(intro_p2)}</p><p>{esc(intro_p3)}</p>'
+    return f'<p>{intro_p1}</p><p>{intro_p2}</p><p>{esc(intro_p3)}</p>'
 
 # ── 엔딩 생성 ───────────────────────────────────────────────────
 def generate_ending(post_data, related_posts):
