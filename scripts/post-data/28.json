@@ -63,62 +63,6 @@
       "emoji": ""
     },
     {
-      "name": "강남 돼지상회 무한리필",
-      "type": "일식",
-      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
-      "hours": "23:30에 영업 종료",
-      "tel": "02-561-8891",
-      "priceRange": "17900~23900",
-      "rating": 0,
-      "reviewCount": 3865,
-      "blogCount": 1206,
-      "cat": [
-        "고기구이"
-      ],
-      "tags": [
-        "리뷰많음",
-        "가성비",
-        "단체가능",
-        "데이트",
-        "예약필수"
-      ],
-      "keywords": [],
-      "moods": [],
-      "scene": [],
-      "parking": false,
-      "reservation": true,
-      "menuItems": [
-        {
-          "name": "A 돼지모듬 무한리필",
-          "price": 17900,
-          "description": ""
-        },
-        {
-          "name": "B 돼지모듬+간장순살치킨 무한리필",
-          "price": 19900,
-          "description": ""
-        },
-        {
-          "name": "F 풀코스 무한리필",
-          "price": 23900,
-          "description": ""
-        }
-      ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/37653872",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240706_16%2F1720267956887smshV_JPEG%2FIMG_1192_1.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200723_224%2F1595485631030Bdiyg_JPEG%2F_xlNiuI0iUrvw7eWJP09z31R.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220420_202%2F1650456908930qmlxo_JPEG%2F20210518_222902.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200723_94%2F1595485644940aNiq0_JPEG%2FEuIaSSCFwaj5PU5zCxCDjYO5.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250802_158/17541183676332WqeF_JPEG/1752736844313.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250802_204/1754118394448AVd58_JPEG/1752736844313.jpg",
-      "region": "gangnam",
-      "regionName": "강남역",
-      "regionPath": "/dinner/gangnam",
-      "emoji": ""
-    },
-    {
       "name": "복국오마카세 아카사카일식",
       "type": "일식",
       "addr": "서울특별시 서초구 서초동 1327 서초타운트라팰리스 지하1층",
@@ -287,6 +231,62 @@
       "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTA3MTNfNjYg%2FMDAxNzUyNDA4ODk1Njk1.7EsYxGrpUXJrhDknpUu8GhTvKbCvUVJ4WMkWB51Hf8cg.eRTV6m-HrL9P0jjRQTeDaGFVIWdu--Zh9_0gsBuEpI8g.JPEG%2F1000299764.jpg",
       "imageUrl7": "https://ldb-phinf.pstatic.net/20250619_238/1750317471093ilzsN_JPEG/1.jpg",
       "imageUrl8": "https://ssl.pstatic.net/static/pup/emoji/rice_ball20220119222026.png",
+      "region": "gangnam",
+      "regionName": "강남역",
+      "regionPath": "/dinner/gangnam",
+      "emoji": ""
+    },
+    {
+      "name": "강남 돼지상회 무한리필",
+      "type": "일식",
+      "addr": "서울특별시 강남구 역삼동 619-28 2층 메트로 빌딩 2층",
+      "hours": "23:30에 영업 종료",
+      "tel": "02-561-8891",
+      "priceRange": "17900~23900",
+      "rating": 0,
+      "reviewCount": 3865,
+      "blogCount": 1206,
+      "cat": [
+        "고기구이"
+      ],
+      "tags": [
+        "리뷰많음",
+        "가성비",
+        "단체가능",
+        "데이트",
+        "예약필수"
+      ],
+      "keywords": [],
+      "moods": [],
+      "scene": [],
+      "parking": false,
+      "reservation": true,
+      "menuItems": [
+        {
+          "name": "A 돼지모듬 무한리필",
+          "price": 17900,
+          "description": ""
+        },
+        {
+          "name": "B 돼지모듬+간장순살치킨 무한리필",
+          "price": 19900,
+          "description": ""
+        },
+        {
+          "name": "F 풀코스 무한리필",
+          "price": 23900,
+          "description": ""
+        }
+      ],
+      "naverUrl": "https://map.naver.com/v5/entry/place/37653872",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190506_285%2F1557122644765sJerg_JPEG%2FcsUz0MR0gu4y2FIVZmcKHs0p.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240706_16%2F1720267956887smshV_JPEG%2FIMG_1192_1.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200723_224%2F1595485631030Bdiyg_JPEG%2F_xlNiuI0iUrvw7eWJP09z31R.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220420_202%2F1650456908930qmlxo_JPEG%2F20210518_222902.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200723_94%2F1595485644940aNiq0_JPEG%2FEuIaSSCFwaj5PU5zCxCDjYO5.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250802_158/17541183676332WqeF_JPEG/1752736844313.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250802_204/1754118394448AVd58_JPEG/1752736844313.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",

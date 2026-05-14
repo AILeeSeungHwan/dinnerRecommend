@@ -66,56 +66,6 @@
       "emoji": "🦪"
     },
     {
-      "name": "불고기 온소반",
-      "type": "고기구이",
-      "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
-      "hours": "AM 11:00 ~ PM 8:30",
-      "tel": "050-71405-4548",
-      "priceRange": "12000~22000",
-      "rating": 4.9,
-      "reviewCount": 72,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "고기",
-        "고평점",
-        "구이",
-        "단체가능",
-        "웨이팅맛집",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "생일"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🥩"
-    },
-    {
       "name": "판교맛집 왕징양다리양꼬치 판교점",
       "type": "중식",
       "addr": "대왕판교로606번길 10 알파리움1단지 타워 1동 2층 205,206호",
@@ -249,6 +199,56 @@
         "기분 좋음",
         "허전함",
         "데이트",
+        "회식"
+      ],
+      "scene": [
+        "생일"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🥩"
+    },
+    {
+      "name": "불고기 온소반",
+      "type": "고기구이",
+      "addr": "삼환하이펙스 A동 불고기온소반 지하 1층",
+      "hours": "AM 11:00 ~ PM 8:30",
+      "tel": "050-71405-4548",
+      "priceRange": "12000~22000",
+      "rating": 4.9,
+      "reviewCount": 72,
+      "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
+      "tags": [
+        "가성비",
+        "고기",
+        "고평점",
+        "구이",
+        "단체가능",
+        "웨이팅맛집",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "허전함",
         "회식"
       ],
       "scene": [

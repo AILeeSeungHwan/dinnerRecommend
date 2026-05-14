@@ -14,62 +14,6 @@
   ],
   "restaurants": [
     {
-      "name": "전국5대짬뽕 연화산",
-      "type": "일식·중식",
-      "addr": "서판교로58번길 14",
-      "hours": "AM 11:00 ~ PM 9:00",
-      "tel": "031-781-6350",
-      "priceRange": "15000~25000",
-      "rating": 4.2,
-      "reviewCount": 711,
-      "blogCount": 0,
-      "cat": [
-        "면류",
-        "일식",
-        "중식",
-        "칼국수",
-        "회식"
-      ],
-      "tags": [
-        "SNS맛집",
-        "단체가능",
-        "리뷰많음",
-        "일식",
-        "점심추천",
-        "중식",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "데이트",
-        "스트레스",
-        "축하"
-      ],
-      "scene": [
-        "기념일",
-        "단체",
-        "점심",
-        "접대"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "pangyo",
-      "regionName": "판교",
-      "regionPath": "/pangyo",
-      "emoji": "🍣"
-    },
-    {
       "name": "아비뉴프랑",
       "type": "중식",
       "addr": "삼평동 159-4",
@@ -222,6 +166,62 @@
       "regionName": "판교",
       "regionPath": "/pangyo",
       "emoji": ""
+    },
+    {
+      "name": "전국5대짬뽕 연화산",
+      "type": "일식·중식",
+      "addr": "서판교로58번길 14",
+      "hours": "AM 11:00 ~ PM 9:00",
+      "tel": "031-781-6350",
+      "priceRange": "15000~25000",
+      "rating": 4.2,
+      "reviewCount": 711,
+      "blogCount": 0,
+      "cat": [
+        "면류",
+        "일식",
+        "중식",
+        "칼국수",
+        "회식"
+      ],
+      "tags": [
+        "SNS맛집",
+        "단체가능",
+        "리뷰많음",
+        "일식",
+        "점심추천",
+        "중식",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "데이트",
+        "스트레스",
+        "축하"
+      ],
+      "scene": [
+        "기념일",
+        "단체",
+        "점심",
+        "접대"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "pangyo",
+      "regionName": "판교",
+      "regionPath": "/pangyo",
+      "emoji": "🍣"
     },
     {
       "name": "판교맛집 왕징양다리양꼬치 판교점",

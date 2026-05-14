@@ -262,6 +262,11 @@ os.makedirs(output_dir, exist_ok=True)
 
 SKIP_GANGNAM = set()  # 강남 작업 정상화 — enrich 정상 처리
 
+# 식당 다양화 추적 — region별로 다른 포스트 첫번째·전체에 사용된 횟수
+from collections import Counter
+used_first = Counter()   # (region, name) → 첫번째로 쓰인 횟수
+used_anywhere = Counter() # (region, name) → 포스트에 등장한 총 횟수
+
 for meta in POSTS_META:
     post_id = meta['id']
     if post_id in SKIP_GANGNAM:
@@ -335,11 +340,20 @@ for meta in POSTS_META:
                     restaurants.append(data)
                     matched_names.add(data['name'])
 
-    # 평점·리뷰 점수순 재정렬 (포스트 순서를 quality 우선으로)
-    restaurants.sort(
-        key=lambda x: (x.get('rating', 0) or 0) * 100 + min(x.get('reviewCount', 0) or 0, 500),
-        reverse=True,
-    )
+    # 평점·리뷰 점수순 재정렬 + 다양화 패널티
+    # 다른 포스트의 첫번째로 이미 쓰인 식당은 큰 감점, 전체 등장도 약한 감점
+    def _score(x):
+        base = (x.get('rating', 0) or 0) * 100 + min(x.get('reviewCount', 0) or 0, 500)
+        key = (region, x['name'])
+        # 첫번째 사용 1회당 -300, 등장 1회당 -50
+        return base - used_first[key] * 300 - used_anywhere[key] * 50
+    restaurants.sort(key=_score, reverse=True)
+
+    # 다양화 추적 갱신
+    if restaurants:
+        used_first[(region, restaurants[0]['name'])] += 1
+        for r in restaurants:
+            used_anywhere[(region, r['name'])] += 1
 
     # 카테고리별 통계
     cat_stats = {}

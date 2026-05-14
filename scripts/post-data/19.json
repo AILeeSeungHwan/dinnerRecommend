@@ -82,58 +82,6 @@
       "emoji": ""
     },
     {
-      "name": "가원",
-      "type": "고기구이",
-      "addr": "신동 359-1",
-      "hours": "11:00 AM~10:00 PM",
-      "tel": "031-204-1771",
-      "priceRange": "12000~20000",
-      "rating": 4,
-      "reviewCount": 748,
-      "blogCount": 0,
-      "cat": [
-        "고기구이",
-        "한식",
-        "회식"
-      ],
-      "tags": [
-        "가성비",
-        "가족",
-        "고기",
-        "구이",
-        "단체가능",
-        "리뷰많음",
-        "회식"
-      ],
-      "keywords": [],
-      "moods": [
-        "기분 좋음",
-        "스트레스 받음",
-        "허전함",
-        "회식"
-      ],
-      "scene": [
-        "고기 구이",
-        "심야 밥"
-      ],
-      "parking": false,
-      "reservation": false,
-      "menuItems": [],
-      "naverUrl": "",
-      "imageUrl": "",
-      "imageUrl2": "",
-      "imageUrl3": "",
-      "imageUrl4": "",
-      "imageUrl5": "",
-      "imageUrl6": "",
-      "imageUrl7": "",
-      "imageUrl8": "",
-      "region": "yeongtongGu",
-      "regionName": "영통구청",
-      "regionPath": "/samsungElectronics/yeongtongGu",
-      "emoji": "🥩"
-    },
-    {
       "name": "수타원",
       "type": "고기구이·중식",
       "addr": "봉영로1482번길 6",
@@ -239,6 +187,58 @@
       "regionName": "망포",
       "regionPath": "/samsungElectronics/mangpo",
       "emoji": "🦪"
+    },
+    {
+      "name": "가원",
+      "type": "고기구이",
+      "addr": "신동 359-1",
+      "hours": "11:00 AM~10:00 PM",
+      "tel": "031-204-1771",
+      "priceRange": "12000~20000",
+      "rating": 4,
+      "reviewCount": 748,
+      "blogCount": 0,
+      "cat": [
+        "고기구이",
+        "한식",
+        "회식"
+      ],
+      "tags": [
+        "가성비",
+        "가족",
+        "고기",
+        "구이",
+        "단체가능",
+        "리뷰많음",
+        "회식"
+      ],
+      "keywords": [],
+      "moods": [
+        "기분 좋음",
+        "스트레스 받음",
+        "허전함",
+        "회식"
+      ],
+      "scene": [
+        "고기 구이",
+        "심야 밥"
+      ],
+      "parking": false,
+      "reservation": false,
+      "menuItems": [],
+      "naverUrl": "",
+      "imageUrl": "",
+      "imageUrl2": "",
+      "imageUrl3": "",
+      "imageUrl4": "",
+      "imageUrl5": "",
+      "imageUrl6": "",
+      "imageUrl7": "",
+      "imageUrl8": "",
+      "region": "yeongtongGu",
+      "regionName": "영통구청",
+      "regionPath": "/samsungElectronics/yeongtongGu",
+      "emoji": "🥩"
     },
     {
       "name": "영포화로 본점",

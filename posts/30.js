@@ -53,7 +53,7 @@ const post = {
     {
       type: 'h2',
       id: "육전국밥-강남역점",
-      text: "육전국밥 강남역점 — 리뷰 564건 검증 맛집",
+      text: "육전국밥 강남역점 — 시그니처 육전소고기국밥 11,000원",
       gradientStyle: { from: '#fa709a', to: '#fee140' },
     },
     {

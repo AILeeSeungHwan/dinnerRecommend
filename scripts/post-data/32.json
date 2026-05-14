@@ -43,54 +43,64 @@
       "emoji": ""
     },
     {
-      "name": "용가회전훠궈 강남점",
-      "type": "일식",
-      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
+      "name": "나주곰탕",
+      "type": "국밥",
+      "addr": "서울특별시 강남구 역삼동 644-19",
       "hours": "",
-      "tel": "07-1362-3181",
-      "priceRange": "18900~22900",
-      "rating": 3.7,
-      "reviewCount": 229,
-      "blogCount": 1994,
+      "tel": "07-1358-2907",
+      "priceRange": "11000~22000",
+      "rating": 4.2,
+      "reviewCount": 124,
+      "blogCount": 85,
       "cat": [
-        "중식"
+        "한식"
       ],
       "tags": [
+        "주차가능",
         "리뷰많음",
-        "혼밥가능",
-        "웨이팅맛집"
+        "예약필수"
       ],
       "keywords": [],
       "moods": [],
       "scene": [],
-      "parking": false,
-      "reservation": false,
+      "parking": true,
+      "reservation": true,
       "menuItems": [
         {
-          "name": "평일점심 (~15:00)",
-          "price": 18900,
+          "name": "나주곰탕",
+          "price": 11000,
           "description": ""
         },
         {
-          "name": "평일 저녁 (15:00~)",
-          "price": 22900,
+          "name": "얼큰곰탕",
+          "price": 12000,
           "description": ""
         },
         {
-          "name": "주말 및 공휴일",
-          "price": 22900,
+          "name": "곰탕만두국",
+          "price": 11000,
+          "description": ""
+        },
+        {
+          "name": "얼큰만두국",
+          "price": 12000,
+          "description": ""
+        },
+        {
+          "name": "장터국밥",
+          "price": 11000,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_124%2F1733890320140CN7XX_JPEG%2FKakaoTalk_20241210_160849467_01.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_215%2F1733890320142DPalM_JPEG%2FKakaoTalk_20241210_160923351.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_227%2F17338903200646svyy_JPEG%2FKakaoTalk_20241210_160849467_02.jpg",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_271%2F1733890320330Q7FXA_JPEG%2FKakaoTalk_20241210_160923351_01.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20250801_289/1754005621968Wj1Qy_JPEG/1743905219533-6.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20250801_142/1754005703369cWw9k_JPEG/1743905219533-3.jpg",
+      "naverUrl": "https://map.naver.com/v5/entry/place/20624779",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_73%2F1743076572482VQzTv_JPEG%2FKakaoTalk_20250327_165120954.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_273%2F1743076572455ymP02_JPEG%2FKakaoTalk_20250327_165051339.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250403_292%2F1743667337454W25eR_PNG%2F%25B8%25DE%25B4%25BA%25C6%25C7.png",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_25%2F1743076572461xIken_JPEG%2FKakaoTalk_20250327_165015007.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20210130_162/1611973808111tUMvF_JPEG/T_Cp1xLbpDEVdKqMa3Mc3-Mf.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20210130_69/1611975681816lMd47_JPEG/_kVo1NXWSME_UFacVijCKtuy.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",
@@ -195,64 +205,54 @@
       "emoji": ""
     },
     {
-      "name": "나주곰탕",
-      "type": "국밥",
-      "addr": "서울특별시 강남구 역삼동 644-19",
+      "name": "용가회전훠궈 강남점",
+      "type": "일식",
+      "addr": "서울특별시 서초구 서초동 1308-5 2층, 3층",
       "hours": "",
-      "tel": "07-1358-2907",
-      "priceRange": "11000~22000",
-      "rating": 4.2,
-      "reviewCount": 124,
-      "blogCount": 85,
+      "tel": "07-1362-3181",
+      "priceRange": "18900~22900",
+      "rating": 3.7,
+      "reviewCount": 229,
+      "blogCount": 1994,
       "cat": [
-        "한식"
+        "중식"
       ],
       "tags": [
-        "주차가능",
         "리뷰많음",
-        "예약필수"
+        "혼밥가능",
+        "웨이팅맛집"
       ],
       "keywords": [],
       "moods": [],
       "scene": [],
-      "parking": true,
-      "reservation": true,
+      "parking": false,
+      "reservation": false,
       "menuItems": [
         {
-          "name": "나주곰탕",
-          "price": 11000,
+          "name": "평일점심 (~15:00)",
+          "price": 18900,
           "description": ""
         },
         {
-          "name": "얼큰곰탕",
-          "price": 12000,
+          "name": "평일 저녁 (15:00~)",
+          "price": 22900,
           "description": ""
         },
         {
-          "name": "곰탕만두국",
-          "price": 11000,
-          "description": ""
-        },
-        {
-          "name": "얼큰만두국",
-          "price": 12000,
-          "description": ""
-        },
-        {
-          "name": "장터국밥",
-          "price": 11000,
+          "name": "주말 및 공휴일",
+          "price": 22900,
           "description": ""
         }
       ],
-      "naverUrl": "https://map.naver.com/v5/entry/place/20624779",
-      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
-      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230324_278%2F167960974234755AJC_JPEG%2FA927A27B-C43D-45BE-A045-B7EDCE06563C.jpeg",
-      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_73%2F1743076572482VQzTv_JPEG%2FKakaoTalk_20250327_165120954.jpg",
-      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_273%2F1743076572455ymP02_JPEG%2FKakaoTalk_20250327_165051339.jpg",
-      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250403_292%2F1743667337454W25eR_PNG%2F%25B8%25DE%25B4%25BA%25C6%25C7.png",
-      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250327_25%2F1743076572461xIken_JPEG%2FKakaoTalk_20250327_165015007.jpg",
-      "imageUrl7": "https://ldb-phinf.pstatic.net/20210130_162/1611973808111tUMvF_JPEG/T_Cp1xLbpDEVdKqMa3Mc3-Mf.jpg",
-      "imageUrl8": "https://ldb-phinf.pstatic.net/20210130_69/1611975681816lMd47_JPEG/_kVo1NXWSME_UFacVijCKtuy.jpg",
+      "naverUrl": "https://map.naver.com/v5/entry/place/1057758076",
+      "imageUrl": "https://search.pstatic.net/common/?autoRotate=true&amp;quality=100&amp;type=f640_380&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      "imageUrl2": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w560_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_240%2F1733890320076MTwS8_JPEG%2FKakaoTalk_20241210_160849467_03.jpg",
+      "imageUrl3": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_124%2F1733890320140CN7XX_JPEG%2FKakaoTalk_20241210_160849467_01.jpg",
+      "imageUrl4": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_215%2F1733890320142DPalM_JPEG%2FKakaoTalk_20241210_160923351.jpg",
+      "imageUrl5": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_227%2F17338903200646svyy_JPEG%2FKakaoTalk_20241210_160849467_02.jpg",
+      "imageUrl6": "https://search.pstatic.net/common/?autoRotate=true&amp;type=w278_sharpen&amp;src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241211_271%2F1733890320330Q7FXA_JPEG%2FKakaoTalk_20241210_160923351_01.jpg",
+      "imageUrl7": "https://ldb-phinf.pstatic.net/20250801_289/1754005621968Wj1Qy_JPEG/1743905219533-6.jpg",
+      "imageUrl8": "https://ldb-phinf.pstatic.net/20250801_142/1754005703369cWw9k_JPEG/1743905219533-3.jpg",
       "region": "gangnam",
       "regionName": "강남역",
       "regionPath": "/dinner/gangnam",
