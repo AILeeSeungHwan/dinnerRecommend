@@ -1490,7 +1490,7 @@ def generate_faq_section(post_data):
     ))
 
     items = ''.join(
-        f'<details style="margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px"><summary style="font-weight:700;cursor:pointer;color:var(--text)">Q. {esc(q)}</summary>'
+        f'<details open style="margin:8px 0;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:10px"><summary style="font-weight:700;cursor:pointer;color:var(--text)">Q. {esc(q)}</summary>'
         f'<p style="margin:10px 0 0;color:var(--muted);line-height:1.7">A. {esc(a)}</p></details>'
         for q, a in qa
     )

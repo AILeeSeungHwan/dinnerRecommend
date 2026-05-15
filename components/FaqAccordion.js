@@ -5,13 +5,13 @@ import { useState } from 'react'
  * Props:
  *   items: [[question, answer], ...]
  */
-export default function FaqAccordion({ items }) {
-  const [openIdx, setOpenIdx] = useState(-1)
+export default function FaqAccordion({ items, defaultOpenAll = true }) {
+  const [openIdx, setOpenIdx] = useState(defaultOpenAll ? 'all' : -1)
   if (!items?.length) return null
   return (
     <div>
       {items.map(([q, a], i) => {
-        const open = i === openIdx
+        const open = openIdx === 'all' || i === openIdx
         return (
           <div key={i} style={{ marginBottom:10, background:'var(--surface)', border:'1px solid var(--border)', borderRadius:12, overflow:'hidden' }}>
             <button

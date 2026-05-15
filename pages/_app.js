@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { useEffect, useRef } from 'react'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 const DOMAIN = 'https://dinner.ambitstock.com'
 
@@ -79,5 +80,12 @@ export default function App({ Component, pageProps }) {
     return () => router.events.off('routeChangeComplete', handleAd)
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }

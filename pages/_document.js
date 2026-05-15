@@ -11,8 +11,7 @@ export default function Document() {
         <meta name="naver-site-verification" content="68bdc2991328a363a86a07694fc809c701117a77" />
         <meta name="msvalidate.01" content="1E4F2FA1D46763B9C53162346F20C68D" />
 
-        {/* ── 모바일 뷰포트 고정 (확대/가로스크롤 방지) ── */}
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+        {/* viewport meta는 _app.js에서 처리 (Next.js 권장사항) */}
 
         {/* ── 기본 SEO ── */}
         <meta name="author" content="오늘뭐먹지" />
