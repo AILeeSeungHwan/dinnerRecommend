@@ -6,6 +6,7 @@ import { fetchGovData } from '../../../../lib/govData'
 import GovBadges, { GovSourceFooter } from '../../../../components/GovBadges'
 import CategorySuggestButton from '../../../../components/CategorySuggestButton'
 import FaqAccordion from '../../../../components/FaqAccordion'
+import { VerdictBox, OperatorNote, AudienceCards, VisitChecklist, PostMidCategoryBanner, SimilarRestaurantCard } from '../../../../components/RestaurantInsights'
 import restaurants from '../../../../data/mangpo'
 
 export async function getStaticPaths() {
@@ -21,11 +22,44 @@ export async function getStaticProps({ params }) {
   const r = restaurants.find(x => x.name === name)
   if (!r) return { notFound: true }
 
-  const similar = restaurants
-    .filter(x => x.name !== r.name && Array.isArray(x.cat) && Array.isArray(r.cat) && x.cat.some(c => r.cat.includes(c)))
-    .sort((a, b) => b.rt - a.rt)
-    .slice(0, 4)
-    .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
+  const sameCat = restaurants.filter(x =>
+    x.name !== r.name
+    && Array.isArray(x.cat) && Array.isArray(r.cat)
+    && x.cat.some(c => r.cat.includes(c))
+    && (x.rt > 0 || x.cnt > 0)
+  )
+  const refLo = parseInt((r.priceRange || '').split('~')[0]) || 0
+  const distSq = (a, b) => Math.pow((a.lat||0)-(b.lat||0), 2) + Math.pow((a.lng||0)-(b.lng||0), 2)
+  const picks = []
+  const used = new Set()
+  const best = [...sameCat].sort((a,b) => (b.rt - a.rt) || (b.cnt - a.cnt))[0]
+  if (best) { picks.push({ ...best, reason: `평점 ${best.rt}점·리뷰 ${(best.cnt||0).toLocaleString()}건 — 카테고리 상위권` }); used.add(best.name) }
+  if (refLo) {
+    const pm = sameCat
+      .filter(x => !used.has(x.name) && x.priceRange)
+      .map(x => { const lo = parseInt(x.priceRange.split('~')[0]) || 0; return { x, diff: Math.abs(lo - refLo) } })
+      .filter(o => o.diff <= Math.max(refLo * 0.4, 8000))
+      .sort((a,b) => a.diff - b.diff)[0]
+    if (pm) {
+      const lo = parseInt(pm.x.priceRange.split('~')[0])
+      const hi = parseInt(pm.x.priceRange.split('~')[1]) || lo
+      picks.push({ ...pm.x, reason: `비슷한 가격대 (1인 ${lo.toLocaleString()}~${hi.toLocaleString()}원)` })
+      used.add(pm.x.name)
+    }
+  }
+  if (r.lat && r.lng) {
+    const near = sameCat.filter(x => !used.has(x.name) && x.lat && x.lng).sort((a,b) => distSq(a, r) - distSq(b, r))[0]
+    if (near) { picks.push({ ...near, reason: '도보 이동 가능한 가까운 거리' }); used.add(near.name) }
+  }
+  if (picks.length < 3) {
+    for (const x of [...sameCat].sort((a,b) => b.rt - a.rt)) {
+      if (used.has(x.name)) continue
+      picks.push({ ...x, reason: `평점 ${x.rt}점, 같은 카테고리 추천` })
+      used.add(x.name)
+      if (picks.length >= 3) break
+    }
+  }
+  const similar = picks.slice(0, 3).map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null, imageUrl: x.imageUrl || '', cat: Array.isArray(x.cat) ? x.cat : [], reason: x.reason || '' }))
 
   const govData = await fetchGovData('mangpo', r.name)
   return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 86400 }
@@ -64,147 +98,6 @@ const MOOD_COPY = {
   '축하':        '소소한 기념일이나 축하 자리에도 잘 어울립니다.',
 }
 
-// ── 카테고리별 효능 풀 20개 → 랜덤 5개 표시 ─────────────────
-const EFFECT_POOL = {
-  '국밥': {
-    title: '해장국·국밥의 과학적 효능',
-    items: [
-      '숙취 해소 — 뜨거운 국물이 알코올 분해 효소를 자극한다는 설이 있습니다 (출처: 직장인 5,000명 체감 조사)',
-      '영혼 충전 — 첫 한 숟가락에 "아 살겠다"는 탄성이 자동 발생합니다',
-      '업무 효율 200% — 점심 국밥 한 그릇이면 오후 회의도 버텨냅니다',
-      '인간관계 회복 — 팀장도 뚝배기 앞에서는 한없이 부드러워집니다',
-      '절약 정신 함양 — 1만원 이하로 이 퀄리티라니, 자연스럽게 감사함이 생깁니다',
-      '면역력 강화 — 진한 사골 국물에는 콜라겐과 미네랄이 풍부합니다',
-      '체온 상승 — 뜨거운 국물 한 그릇이면 겨울 한파도 버텨냅니다',
-      '소화 촉진 — 국밥의 따뜻한 국물이 위장 운동을 원활하게 합니다',
-      '집중력 향상 — 탄수화물+단백질 최적 조합으로 두뇌 회전이 빨라집니다',
-      '멘탈 케어 — "뭐 먹지?" 고민 해결만으로 하루 스트레스의 30%가 감소합니다',
-      '시간 절약 — 주문부터 식사까지 15분, 점심시간을 효율적으로 씁니다',
-      '나트륨 보충 — 운동 후 땀으로 빠진 전해질을 국물로 빠르게 회복합니다',
-      '고독 치유 — 혼자 먹어도 전혀 어색하지 않은 유일한 음식입니다',
-      '포만감 지속 — 단백질+국물 조합이 공복감을 4시간은 막아줍니다',
-      '가성비 만족도 극대화 — 한 그릇에 이 행복감이라니, ROI가 최고입니다',
-      '추억 소환 — 어머니 손맛과 비슷한 국물 한 모금에 과거로 시간여행합니다',
-      '혈액순환 개선 — 뜨거운 음식이 말초 혈관을 확장시킵니다',
-      '아침형 인간 전환 — 든든한 국밥 아침이 하루를 바꿉니다',
-      '점심값 절약 — 이 가격대에 이 맛이면 월 식비를 크게 줄일 수 있습니다',
-      '단골 형성 — 한 번 맛들이면 다른 국밥집으로 돌아가기가 어렵습니다',
-    ]
-  },
-  '이자카야': {
-    title: '이자카야·술자리의 놀라운 효능',
-    items: [
-      '스트레스 수치 급감 — 첫 잔 이후 어깨가 자연스럽게 내려갑니다',
-      '팀빌딩 효과 최대치 — 안주 시키는 순간 팀워크가 생성됩니다',
-      '창의력 향상 — 2잔째부터 평소엔 없던 아이디어가 쏟아집니다 (퀄리티는 보장 못 함)',
-      '솔직함 증가 — 평소 못 했던 말이 자연스럽게 나옵니다 (다음날 후회 주의)',
-      '시간 가속 — 신기하게도 1시간이 10분처럼 느껴집니다',
-      '미각 민감도 상승 — 첫 잔 이후 안주 맛이 두 배로 좋아집니다',
-      '긴장 완화 — 소주 반 병이면 발표 전 떨림도 사라집니다 (발표 전엔 비추)',
-      '친목 가속화 — 어색한 신입도 2차 이자카야에서 친해집니다',
-      '공감 능력 증가 — "맞아, 나도 그래!" 빈도가 3배 상승합니다',
-      '식욕 촉진 — 맥주 첫 모금이 위액 분비를 촉진합니다',
-      '피로 회복 — 안주의 단백질이 근육 피로를 해소합니다',
-      '대화량 증가 — 평소 말수 적은 사람도 2잔 이후 수다쟁이가 됩니다',
-      '넷플릭스 절약 — 이자카야 2시간이 드라마 10화보다 재밌습니다',
-      '회식 만족도 100% — 선택이 반이고, 나머지 반은 분위기입니다',
-      '인스타 피드 풍성 — 이자카야 감성 사진이 좋아요를 부릅니다',
-      '취향 발견 — 다양한 안주를 먹으며 자신의 식성을 알게 됩니다',
-      '일상 탈출 — 퇴근 후 이자카야 한 시간이 짧은 여행입니다',
-      '내일의 동력 — "어제 잘 마셨으니 오늘도 힘내자" 마인드가 생깁니다',
-      '관계 깊어짐 — 술 한 잔 같이 한 사람과는 괜히 더 친해진 기분이 납니다',
-      '감사함 회복 — 편하게 마실 수 있는 공간이 있다는 것에 감사해집니다',
-    ]
-  },
-  '고기구이': {
-    title: '고기 구이의 과학적·감성적 효능',
-    items: [
-      '행복 호르몬 분비 — 고기 굽는 냄새만으로 세로토닌이 분비됩니다',
-      '체력 회복 — 단백질 충전으로 퇴근 후 피로도가 눈에 띄게 줄어듭니다',
-      '인생관 전환 — 한우 등심 한 점 입에 넣는 순간 모든 고민이 사라집니다',
-      '소비 만족감 극대화 — "내가 이걸 먹는 사람이구나" 자부심이 생깁니다',
-      '그릴 장인 각성 — 고기 굽다 보면 누구나 셰프 본능이 깨어납니다',
-      '인간관계 강화 — 같이 고기 구워 먹으면 그날부로 친구입니다',
-      '근육 합성 촉진 — 운동 후 삼겹살 한 판은 최고의 단백질 보충제입니다',
-      '집중력 향상 — 고기 굽는 데 온신경이 집중되어 딴생각이 사라집니다',
-      '대화 유도 — 고기 굽는 침묵이 오히려 어색함을 없애줍니다',
-      '향 테라피 — 직화 불향이 스트레스 호르몬을 낮춥니다 (체감 기준)',
-      '축하 의식 완성 — 어떤 기념일도 고기 한 판으로 완성됩니다',
-      '식욕 자극 — 지글지글 소리만으로 침이 고입니다 (파블로프 효과)',
-      '팀 결속력 강화 — 고기 앞에서 직급이 사라집니다 (인류 보편 현상)',
-      '면역력 강화 — 양질의 단백질이 면역세포 생성을 돕습니다',
-      '자존감 상승 — 좋은 고기집에서 식사하는 자신이 대견해집니다',
-      '감사함 회복 — 맛있는 고기 앞에서 오늘 하루에 감사하게 됩니다',
-      '수면 품질 개선 — 든든하게 먹은 날 밤 숙면이 보장됩니다',
-      '우선순위 재정립 — "결국 맛있는 거 먹는 게 제일 중요하다" 깨닫게 됩니다',
-      '단골 각인 — 한 번 맛들이면 고기 당길 때마다 여기만 생각납니다',
-      '상견례 성공률 — 고기 앞에서 분위기 나빠지는 경우는 거의 없습니다',
-    ]
-  },
-  '중식': {
-    title: '중식의 놀라운 효능',
-    items: [
-      '마라 중독 효과 — 매운맛이 엔돌핀을 자극해 러너스하이를 경험합니다',
-      '빠른 포만감 — 짜장 한 그릇으로 4시간은 거뜬합니다',
-      '기분 전환 — 훠궈 특유의 향이 일상 스트레스를 날려줍니다',
-      '친목 도모 — 같이 먹을수록 맛있어지는 신기한 현상이 있습니다',
-      '식욕 자극 — 중식 냄새는 전 세계 어디서도 거절하기 어렵습니다',
-      '탄수화물 충전 — 짜장면 한 그릇이 오후 에너지를 책임집니다',
-      '땀 배출 촉진 — 마라탕 먹으면 자연스럽게 땀이 나 노폐물이 빠집니다',
-      '단체 식사 최적 — 여러 명이 나눠 먹기 가장 좋은 음식입니다',
-      '배달 강자 — 중식은 포장·배달 후에도 맛이 크게 안 떨어집니다',
-      '가성비 최고 — 양 대비 가격이 가장 합리적인 외식입니다',
-      '재료 다양성 — 한 그릇에 채소·단백질·탄수화물이 모두 담겨있습니다',
-      '숙취 해소 — 기름진 중식이 알코올 흡수를 늦춰줍니다 (근거 희박)',
-      '추억 맛 — 어릴 적 생일마다 먹던 짜장면의 그 기억이 소환됩니다',
-      '냄새 저항 불가 — 중식당 앞을 배고플 때 지나치기가 불가능합니다',
-      '고수 테라피 — 향신채가 소화를 돕고 기분을 상쾌하게 합니다',
-      '면 요리 숙달 — 다양한 면을 먹다 보면 어느새 면 전문가가 됩니다',
-      '의사결정 능력 향상 — 짜장이냐 짬뽕이냐 고르다 보면 다른 결정도 빨라집니다',
-      '해독 효과 — 마라의 화초가 체내 독소를 제거한다는 설이 있습니다',
-      '재방문율 1위 — 한 번 맛들이면 다음에도 여기만 생각납니다',
-      '날씨 무관 — 더운 날 마라탕, 추운 날 짬뽕, 중식은 사계절 완벽합니다',
-    ]
-  },
-}
-const EFFECT_POOL_FALLBACK = {
-  title: '맛있는 음식의 보편적 효능',
-  items: [
-    '행복 호르몬 분비 — 맛있는 음식은 도파민과 세로토닌을 동시에 분비시킵니다',
-    '스트레스 완화 — 좋아하는 음식 먹는 10분이 명상 1시간보다 효과적입니다',
-    '에너지 충전 — 제대로 된 한 끼가 오후 업무 효율을 30% 높입니다',
-    '인간관계 개선 — 같이 밥 먹는 사람과는 자연스럽게 친해집니다',
-    '기억력 강화 — 맛있었던 식당은 몇 년이 지나도 기억납니다',
-    '결단력 향상 — "여기로 해!" 주저 없이 선택할 수 있는 맛집이 생겼습니다',
-    '삶의 질 상승 — 먹는 즐거움이 있는 삶은 그렇지 않은 삶보다 행복합니다',
-    '면역력 강화 — 영양 균형 잡힌 식사가 몸의 방어력을 높입니다',
-    '포만감 지속 — 제대로 먹으면 간식 유혹이 사라집니다',
-    '집중력 향상 — 배부른 뇌는 배고픈 뇌보다 훨씬 잘 작동합니다',
-    '사진 욕구 자극 — 맛있는 음식은 인스타 피드를 풍성하게 합니다',
-    '오늘의 보상 — 열심히 일한 내게 주는 가장 확실한 선물입니다',
-    '미식 안목 상승 — 좋은 맛집을 많이 알수록 삶이 풍요로워집니다',
-    '재방문 의지 생성 — 맛있으면 또 오게 되는 건 본능입니다',
-    '수면 품질 개선 — 든든하게 먹으면 깊은 잠을 잡니다',
-    '외식 ROI 극대화 — 가격 대비 행복의 비율이 최고점을 찍습니다',
-    '고독 해소 — 혼자라도 맛있으면 외롭지 않습니다',
-    '내일의 동력 — "오늘 맛있게 먹었으니 내일도 힘내자" 마인드가 생깁니다',
-    '감사함 회복 — 좋은 식당이 근처에 있다는 사실 하나가 위로가 됩니다',
-    '단골 형성 — 내 리스트에 믿을 수 있는 맛집이 하나 더 생겼습니다',
-  ]
-}
-
-function getEffects(r) {
-  const key = r.cat?.find(c => EFFECT_POOL[c])
-  const pool = key ? EFFECT_POOL[key] : EFFECT_POOL_FALLBACK
-  // 식당명 기반 시드 + 현재 분(分)으로 매 방문마다 다른 5개 조합
-  const seed = r.name.split('').reduce((a, c) => a + c.charCodeAt(0), 0) + new Date().getMinutes()
-  const arr = [...pool.items]
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = (seed * (i + 3)) % (i + 1)
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return { title: pool.title, items: arr.slice(0, 5) }
-}
 
 // ── 식당별 고유 감성 인트로 생성 ─────────────────────────────
 function buildIntro(r) {
@@ -412,8 +305,6 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
   const matchedWx = r.wx?.map(w => WX_COPY[w]).filter(Boolean) || []
   const matchedMoods = r.moods?.map(m => ({ mood: m, copy: MOOD_COPY[m] })).filter(x => x.copy) || []
 
-  // 효능 콘텐츠
-  const effect = getEffects(r)
 
   // 가격 파싱
   const priceMin = r.priceRange ? parseInt(r.priceRange.split('~')[0]).toLocaleString() : null
@@ -567,6 +458,7 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
 
         {/* 기본 정보 표 */}
         <GovBadges govData={govData} />
+        <VerdictBox restaurant={r} govData={govData} />
         <h2 style={h2style}>📋 기본 정보</h2>
         <table style={{ width:'100%', borderCollapse:'collapse', fontSize:'.88rem', marginBottom:28 }}>
           <tbody>
@@ -586,25 +478,8 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           </tbody>
         </table>
 
-        {/* ── 감성 인트로 ── */}
-        <div style={{
-          background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
-          border:'1px solid var(--border)',
-          borderRadius:14,
-          padding:'22px 20px',
-          marginBottom:28,
-        }}>
-          <div style={{ fontSize:'1.8rem', marginBottom:10 }}>{intro.emoji}</div>
-          {intro.lines.map((line, i) => (
-            <p key={i} style={{
-              fontSize: i === 0 ? '.97rem' : '.9rem',
-              color: i === 0 ? 'var(--text)' : 'var(--muted)',
-              fontWeight: i === 0 ? 700 : 400,
-              lineHeight: 1.85,
-              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
-            }}>{line}</p>
-          ))}
-        </div>
+        <OperatorNote restaurant={r} regionName="망포" totalRegionRestaurants={210} govData={govData} />
+
 
         {/* 방문자 키워드 뱃지 */}
         {r.keywords?.length > 0 && (<>
@@ -640,7 +515,10 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
           <>
-        <CategorySuggestButton restaurant={r} region="mangpo" />
+        <PostMidCategoryBanner region="mangpo" regionName="망포" restaurant={r} />
+
+        <h2 style={h2style}>👥 이런 분에게 추천</h2>
+        <AudienceCards restaurant={r} />
 
         <h2 style={h2style}>🌤️ 이런 날씨에 특히 추천해요</h2>
             {matchedWx.map((wx, i) => (
@@ -707,20 +585,6 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           </>
         )}
 
-        {/* 효능 섹션 (유머) */}
-        {effect && (
-          <>
-        <h2 style={h2style}>🔬 {effect.title}</h2>
-            <p style={pstyle}>
-              과학적 근거는 없지만, 수많은 직장인의 체감 데이터를 기반으로 정리했습니다. (진지주의)
-            </p>
-            <ul style={ulstyle}>
-              {effect.items.map((item, i) => (
-                <li key={i} style={listyle}>{item}</li>
-              ))}
-            </ul>
-          </>
-        )}
 
         {/* 위치 & 찾아가는 법 */}
         
@@ -756,6 +620,26 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           📍 네이버 지도에서 경로 보기
         </a>
 
+        {/* ── 감성 인트로 ── */}
+        <div style={{
+          background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
+          border:'1px solid var(--border)',
+          borderRadius:14,
+          padding:'22px 20px',
+          marginBottom:28,
+        }}>
+          <div style={{ fontSize:'1.8rem', marginBottom:10 }}>{intro.emoji}</div>
+          {intro.lines.map((line, i) => (
+            <p key={i} style={{
+              fontSize: i === 0 ? '.97rem' : '.9rem',
+              color: i === 0 ? 'var(--text)' : 'var(--muted)',
+              fontWeight: i === 0 ? 700 : 400,
+              lineHeight: 1.85,
+              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
+            }}>{line}</p>
+          ))}
+        </div>
+
         {/* FAQ */}
         {/* 추가 갤러리 (7~8번째 이미지) */}
         {(r.imageUrl7 || r.imageUrl8) && (
@@ -768,10 +652,13 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             ))}
           </div>
         )}
+
+        <h2 style={h2style}>📌 방문 전 체크포인트</h2>
+        <VisitChecklist restaurant={r} />
         
                 <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
-        <FaqAccordion items={[
+        <FaqAccordion defaultOpenAll items={[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
           [`${r.name} 주소(위치)는 어디인가요?`, `경기도 수원시 영통구 ${r.addr}에 위치합니다. 망포${r.exit4 ? ' 인근' : ' 인근'}입니다.`],
           [`${r.name} 가격이 얼마인가요?`, r.priceRange ? `1인 기준 약 ${fmtPrice(r.priceRange)}원 선입니다. 메뉴와 구성에 따라 다를 수 있습니다.` : '정확한 가격은 매장에 문의하거나 방문 시 메뉴판을 확인해 주세요.'],
@@ -781,21 +668,13 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
           <>
-        <h2 style={h2style}>🍽️ 망포 {r.type} 맛집 더 보기</h2>
+        <h2 style={h2style}>🍽️ 망포 {(r.cat && r.cat[0]) || r.type} 맛집 더 보기</h2>
             <p style={pstyle}>
-              <strong>{r.name}</strong>와 비슷한 망포 {r.type} 맛집을 더 추천해드립니다.
+              <strong>{r.name}</strong>와 같은 카테고리에서 평점·가격·거리 기준으로 한 곳씩 골라봤습니다.
             </p>
-            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))', gap:10, marginBottom:28 }}>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(180px, 1fr))', gap:12, marginBottom:28 }}>
               {similar.map((s, i) => (
-                <Link href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(s.name)}`} key={i}>
-                  <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'12px 14px', cursor:'pointer' }}>
-                    <div style={{ fontWeight:700, fontSize:'.9rem', marginBottom:5 }}>{s.e} {s.name}</div>
-                    <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
-                      <span className="tag">⭐ {s.rt}</span>
-                      {s.priceRange && <span className="tag price">💰 {fmtPrice(s.priceRange)}원</span>}
-                    </div>
-                  </div>
-                </Link>
+                <SimilarRestaurantCard key={i} restaurant={s} regionPath="/samsungElectronics/mangpo" />
               ))}
             </div>
           </>
