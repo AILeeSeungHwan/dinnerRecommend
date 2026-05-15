@@ -83,8 +83,12 @@ def update_region(region):
 
     # 식당 목록 추출
     targets = []
+    only_zero = os.environ.get('ZERO_ONLY') == '1'
     for m in re.finditer(r'"name":\s*"([^"]+)"[^{]*?"rt":\s*(\d+(?:\.\d+)?)[^{]*?"cnt":\s*(\d+)[^{]*?"addr":\s*"([^"]*)"', text, re.DOTALL):
-        targets.append((m.group(1), m.group(4)))
+        name, rt_v, cnt_v, addr = m.group(1), float(m.group(2)), int(m.group(3)), m.group(4)
+        if only_zero and (rt_v > 0 or cnt_v > 0):
+            continue
+        targets.append((name, addr))
 
     # 체크포인트 로드
     done = set()
