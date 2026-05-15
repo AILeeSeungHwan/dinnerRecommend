@@ -42,7 +42,7 @@ const post = {
     {
       type: 'body',
       html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
-<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg" alt="판차이짬뽕 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTE2%2FMDAxNzY0MDQ3MzMzNjY0.r0mO-YkhfWsgLk37WStbPi_5SwQ0MCSJ1DlnKkSUvUsg.hkyeGQaq9QNGKUwDbqAMwHofSaucrH3L1mFRIAR2VVIg.JPEG%2F626BBC1B-8B84-46CE-B3CB-8AD1F3571E07.jpeg" alt="판차이짬뽕 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비 1순위</span>
@@ -57,7 +57,7 @@ const post = {
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"양이 많다 · 맛있다 · 분위기 깔끔하다" 같은 평이 자주 언급되었습니다. 단품·세트 메뉴 회전이 빠른 식당이라는 점이 후기 키워드로 묶입니다.</p>
 </div>
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:14px 0">
-<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTExMjVfMTE2%2FMDAxNzY0MDQ3MzMzNjY0.r0mO-YkhfWsgLk37WStbPi_5SwQ0MCSJ1DlnKkSUvUsg.hkyeGQaq9QNGKUwDbqAMwHofSaucrH3L1mFRIAR2VVIg.JPEG%2F626BBC1B-8B84-46CE-B3CB-8AD1F3571E07.jpeg" alt="판차이짬뽕 메뉴 사진 1" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg" alt="판차이짬뽕 메뉴 사진 1" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
 <img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTEyMDlfNDgg%2FMDAxNzY1MjcwNjIyNDM3.uUeA_nPdCPGbQJW7nymEPoMvgoPXvW49DsgT9ZdXizQg.mvFcH0-ylsosUvhI_JyAKRC6XmRXJBwisMfJTzX8kXsg.JPEG%2F20251209_175556.jpg.jpg" alt="판차이짬뽕 메뉴 사진 2" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
 <img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg" alt="판차이짬뽕 매장 사진" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
 </div>
