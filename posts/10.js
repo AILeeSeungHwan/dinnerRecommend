@@ -1,34 +1,391 @@
+// 망포역 가성비 점심 1만원대 BEST 5 — 심층 가이드
+// 식당별 unique 콘텐츠 (템플릿 회피)
 const post = {
   id: 10,
   sections: [
-    { type: "intro", html: "<p>망포 일대 345곳을 평점·리뷰·운영 기간·가격대 4가지 기준으로 줄 세운 결과 5곳을 추렸습니다.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:16px 0 20px\"><div style=\"background:#f7f6f1;border-radius:8px;padding:14px 16px\"><p style=\"font-size:12px;color:#5f5e5a;margin:0 0 4px\">분석 식당</p><p style=\"font-size:18px;font-weight:500;margin:0\">345곳</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:14px 16px\"><p style=\"font-size:12px;color:#5f5e5a;margin:0 0 4px\">평균 평점</p><p style=\"font-size:18px;font-weight:500;margin:0\">★ 4.0</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:14px 16px\"><p style=\"font-size:12px;color:#5f5e5a;margin:0 0 4px\">누적 리뷰</p><p style=\"font-size:18px;font-weight:500;margin:0\">9,435건</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:14px 16px\"><p style=\"font-size:12px;color:#5f5e5a;margin:0 0 4px\">시작가</p><p style=\"font-size:18px;font-weight:500;margin:0\">4,700원~</p></div></div>" },
-    { type: "toc", id: "toc" },
-    { type: "ad", slot: "9463227631", format: "autorelaxed" },
-    { type: "h2", id: "verdict", text: "한 줄 결론", gradientStyle: { from: "#534AB7", to: "#6366F1" } },
-    { type: "body", html: "<aside style=\"background:#f7f6f1;padding:16px 18px;margin:1rem 0 1.5rem;border-radius:0 8px 8px 0;border-left:3px solid #534AB7\"><div style=\"font-size:13px;color:#5f5e5a;margin-bottom:6px;font-weight:500\">큐레이터 결론</div><p style=\"font-size:15px;margin:0;line-height:1.7\">가성비 우선이면 <strong>스타벅스 수원망포DT점</strong> (4,700원~). 검증·회식이면 <strong>진미통닭</strong> (리뷰 4,567건 검증). 평점 우선이면 <strong>판차이짬뽕</strong> (★4.3).</p></aside>" },
-    { type: "h2", id: "criteria", text: "선정 기준 — 평점·리뷰·운영기간·가격", gradientStyle: { from: "#185FA5", to: "#0EA5E9" } },
-    { type: "body", html: "<div style=\"background:#E6F1FB;border-radius:8px;padding:16px 18px;margin-bottom:1.5rem\"><h3 style=\"margin:0 0 8px;font-size:14px;color:#185FA5\">📊 4가지 데이터로 줄 세운 결과</h3><ul style=\"margin:0;padding-left:20px;font-size:13px;color:#0C447C;line-height:1.8\"><li><strong>평점 3.4점 이상</strong> + 누적 리뷰 데이터 확인된 식당만 (분식·신생 식당은 차별점 명시 시 예외)</li><li><strong>1인 가격대 7,000원~15,000원</strong> (가성비 식당 표준 범위)</li><li><strong>행정안전부 인허가 데이터</strong>로 영업 상태·운영 기간 검증</li><li><strong>메뉴 구성</strong>이 가성비 식당 카테고리 적합 여부 확인</li></ul></div><p style=\"font-size:14px;line-height:1.7\">망포 일대 345곳 중 위 4가지 기준을 충족한 식당은 10~15곳이었습니다. 그중 평점·리뷰·메뉴 다양성을 종합 평가해 5곳을 선정했습니다.</p>" },
-    { type: "h2", id: "r-1", text: "판차이짬뽕 — 평점 4.3 — 카테고리 평균 위", gradientStyle: { from: "#534AB7", to: "#A855F7" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px 20px;margin:16px 0\"><div style=\"margin-bottom:8px\"><span style=\"display:inline-block;background:#534AB7;color:#fff;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:500;letter-spacing:0.3px\">평점 1순위</span><p style=\"font-size:13px;color:#5f5e5a;margin:8px 0 0;line-height:1.6\">평점 4.3 — 카테고리 평균 위</p></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px\"><span style=\"background:#FAEEDA;color:#633806;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">★ 4.3 (1,370건)</span><span style=\"background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">7,500원~22,000원</span><span style=\"background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">행정안전부 인허가 확인</span></div><p style=\"font-size:14px;line-height:1.75;margin:8px 0 12px;color:#1a1a1a\">평점 4.3점은 망포 가성비 식당 카테고리 평균 위에 위치합니다. 리뷰 1,370건 표본도 함께 신뢰할 수 있어, 평점 우선 기준으로 첫 후보입니다.</p><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0\"><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">통오징어짬뽕</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">14,000원</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">간짜장</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">9,500원</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">꿔보러우</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">22,000원</p></div></div><div style=\"margin:12px 0\"><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">7천원대 가성비</span></div><div style=\"background:#f1efe8;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12px;color:#5f5e5a;line-height:1.8\"><strong>📍 위치</strong> 수원시 영통구 경기도 수원시 영통구 신동 486 101동 1층 106호 · <strong>🕐 영업</strong> 10:00에 영업 시작 · <strong>🚗 주차</strong> 주차 가능</div><a href=\"/samsungElectronics/mangpo/restaurant/판차이짬뽕\" style=\"display:inline-block;margin-top:12px;padding:8px 14px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500\">판차이짬뽕 상세 정보 →</a></div>" },
-    { type: "h2", id: "r-2", text: "스타벅스 수원망포DT점 — budget 카테고리 최저 시작가 4,700원", gradientStyle: { from: "#534AB7", to: "#A855F7" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px 20px;margin:16px 0\"><div style=\"margin-bottom:8px\"><span style=\"display:inline-block;background:#534AB7;color:#fff;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:500;letter-spacing:0.3px\">가격 1순위</span><p style=\"font-size:13px;color:#5f5e5a;margin:8px 0 0;line-height:1.6\">budget 카테고리 최저 시작가 4,700원</p></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px\"><span style=\"background:#FAEEDA;color:#633806;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">★ 4.2 (1,327건)</span><span style=\"background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">4,700원~6,100원</span><span style=\"background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">행정안전부 인허가 확인</span></div><p style=\"font-size:14px;line-height:1.75;margin:8px 0 12px;color:#1a1a1a\">망포 가성비 식당 평균(약 8,440원)보다 <strong>3,740원 저렴</strong>합니다. 1인 시작가 4,700원으로 가성비 1순위로 묶기 좋은 식당입니다. 단가가 안정적이라 회전이 빠르고, 점심 피크 시간에도 부담이 적습니다.</p><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0\"><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">카페 아메리카노</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">4,700원</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">카페 라떼</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">5,200원</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">스타벅스 돌체 라떼</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">6,100원</p></div></div><div style=\"margin:12px 0\"><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">4천원대 가성비</span><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">가격 1순위</span></div><div style=\"background:#f1efe8;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12px;color:#5f5e5a;line-height:1.8\"><strong>📍 위치</strong> 수원시 영통구 경기도 수원시 영통구 망포동 38-23 · <strong>🕐 영업</strong> 06:30에 영업 시작 · <strong>🚗 주차</strong> 주차 가능</div><a href=\"/samsungElectronics/mangpo/restaurant/스타벅스 수원망포DT점\" style=\"display:inline-block;margin-top:12px;padding:8px 14px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500\">스타벅스 수원망포DT점 상세 정보 →</a></div>" },
-    { type: "h2", id: "r-3", text: "서울24시감자탕해장국 — 평점 3.8 — 호불호가 갈리는 곳, 메뉴 선", gradientStyle: { from: "#534AB7", to: "#A855F7" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px 20px;margin:16px 0\"><div style=\"margin-bottom:8px\"><span style=\"display:inline-block;background:#534AB7;color:#fff;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:500;letter-spacing:0.3px\">솔직한 한계</span><p style=\"font-size:13px;color:#5f5e5a;margin:8px 0 0;line-height:1.6\">평점 3.8 — 호불호가 갈리는 곳, 메뉴 선택 중요</p></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px\"><span style=\"background:#FAEEDA;color:#633806;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">★ 3.8 (1,397건)</span><span style=\"background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">8,000원~11,000원</span><span style=\"background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">행정안전부 인허가 확인</span></div><p style=\"font-size:14px;line-height:1.75;margin:8px 0 12px;color:#1a1a1a\">평점 3.8점은 망포 가성비 식당 5곳 중 가장 낮은 편입니다. 호불호가 갈리는 식당이라 메뉴 선택이 중요합니다. 다만 가성비 식당 카테고리 대표성과 가격 접근성으로 후보에 포함했습니다.</p><div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0\"><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">감자탕</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">매장 문의</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">뼈해장국</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">11,000원</p></div><div style=\"background:#f7f6f1;border-radius:8px;padding:10px 12px;text-align:center\"><p style=\"font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a\">순대국</p><p style=\"font-size:12px;color:#5f5e5a;margin:0\">11,000원</p></div></div><div style=\"margin:12px 0\"><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">8천원대 가성비</span></div><div style=\"background:#f1efe8;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12px;color:#5f5e5a;line-height:1.8\"><strong>📍 위치</strong> 수원시 영통구 경기도 수원시 영통구 망포동 28-9 · <strong>🕐 영업</strong> 영업일 매장 확인 · <strong>🚗 주차</strong> 인근 공영주차장 이용</div><a href=\"/samsungElectronics/mangpo/restaurant/서울24시감자탕해장국\" style=\"display:inline-block;margin-top:12px;padding:8px 14px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500\">서울24시감자탕해장국 상세 정보 →</a></div>" },
-    { type: "h2", id: "r-4", text: "진미통닭 — 리뷰 4,567건 — 표본 최대 검증 식당", gradientStyle: { from: "#534AB7", to: "#A855F7" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px 20px;margin:16px 0\"><div style=\"margin-bottom:8px\"><span style=\"display:inline-block;background:#534AB7;color:#fff;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:500;letter-spacing:0.3px\">검증 1순위</span><p style=\"font-size:13px;color:#5f5e5a;margin:8px 0 0;line-height:1.6\">리뷰 4,567건 — 표본 최대 검증 식당</p></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px\"><span style=\"background:#FAEEDA;color:#633806;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">★ 3.8 (4,567건)</span><span style=\"background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">10,000원~20,000원</span><span style=\"background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">행정안전부 인허가 확인</span></div><p style=\"font-size:14px;line-height:1.75;margin:8px 0 12px;color:#1a1a1a\">리뷰 4,567건은 망포 가성비 식당 카테고리 5곳 중 <strong>최다 표본</strong>입니다. 평균값을 신뢰할 수 있는 안정 식당이라 약속·접대 자리에도 무난한 선택지로 묶입니다.</p><p style=\"font-size:13px;color:#5f5e5a;margin:0 0 12px\">대표 메뉴 정보는 매장에 직접 확인을 권장드립니다.</p><div style=\"margin:12px 0\"><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">10천원대 가성비</span><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">검증 우선</span></div><div style=\"background:#f1efe8;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12px;color:#5f5e5a;line-height:1.8\"><strong>📍 위치</strong> 수원시 영통구 South Korea · <strong>🕐 영업</strong> 영업시간 확인 필요 · <strong>🚗 주차</strong> 인근 공영주차장 이용</div><a href=\"/samsungElectronics/mangpo/restaurant/진미통닭\" style=\"display:inline-block;margin-top:12px;padding:8px 14px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500\">진미통닭 상세 정보 →</a></div>" },
-    { type: "h2", id: "r-5", text: "수타원 — 단체석·룸 보유", gradientStyle: { from: "#534AB7", to: "#A855F7" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:18px 20px;margin:16px 0\"><div style=\"margin-bottom:8px\"><span style=\"display:inline-block;background:#534AB7;color:#fff;padding:3px 10px;border-radius:6px;font-size:11px;font-weight:500;letter-spacing:0.3px\">단체·회식</span><p style=\"font-size:13px;color:#5f5e5a;margin:8px 0 0;line-height:1.6\">단체석·룸 보유</p></div><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 12px\"><span style=\"background:#FAEEDA;color:#633806;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">★ 3.9 (774건)</span><span style=\"background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">12,000원~20,000원</span><span style=\"background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:500\">행정안전부 인허가 확인</span></div><p style=\"font-size:14px;line-height:1.75;margin:8px 0 12px;color:#1a1a1a\">단체석·룸이 마련된 망포 가성비 식당 식당입니다. 리뷰 774건이 누적된 운영 안정성과 5인 이상 모임 수용이 함께 검증된 곳입니다.</p><p style=\"font-size:13px;color:#5f5e5a;margin:0 0 12px\">대표 메뉴 정보는 매장에 직접 확인을 권장드립니다.</p><div style=\"margin:12px 0\"><span style=\"background:#EEEDFE;color:#26215C;padding:4px 10px;border-radius:8px;font-size:12px;margin-right:6px\">단체석</span></div><div style=\"background:#f1efe8;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12px;color:#5f5e5a;line-height:1.8\"><strong>📍 위치</strong> 수원시 영통구 봉영로1482번길 6 · <strong>🕐 영업</strong> 12:00 AM~9:00 PM · <strong>🚗 주차</strong> 인근 공영주차장 이용</div><a href=\"/samsungElectronics/mangpo/restaurant/수타원\" style=\"display:inline-block;margin-top:12px;padding:8px 14px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500\">수타원 상세 정보 →</a></div>" },
-    { type: "ad", slot: "6297515693", format: "auto" },
-    { type: "h2", id: "compare", text: "5곳 한눈에 비교", gradientStyle: { from: "#0F6E56", to: "#10B981" } },
-    { type: "body", html: "<table style=\"width:100%;border-collapse:collapse;font-size:13px;margin:12px 0 24px\"><thead><tr style=\"background:#f7f6f1;border-bottom:2px solid rgba(0,0,0,.15)\"><th style=\"padding:10px 8px;text-align:left;font-weight:500\">식당</th><th style=\"padding:10px 8px;text-align:center;font-weight:500\">평점</th><th style=\"padding:10px 8px;text-align:center;font-weight:500\">리뷰</th><th style=\"padding:10px 8px;text-align:center;font-weight:500\">가격대</th><th style=\"padding:10px 8px;text-align:left;font-weight:500\">추천 상황</th></tr></thead><tbody><tr style=\"border-bottom:1px solid rgba(0,0,0,.08)\"><td style=\"padding:10px 8px;font-weight:500\">판차이짬뽕</td><td style=\"padding:10px 8px;text-align:center\">★ 4.3</td><td style=\"padding:10px 8px;text-align:center\">1,370건</td><td style=\"padding:10px 8px;text-align:center\">7,500~22,000원</td><td style=\"padding:10px 8px\">평점 1순위</td></tr><tr style=\"border-bottom:1px solid rgba(0,0,0,.08)\"><td style=\"padding:10px 8px;font-weight:500\">스타벅스 수원망포DT점</td><td style=\"padding:10px 8px;text-align:center\">★ 4.2</td><td style=\"padding:10px 8px;text-align:center\">1,327건</td><td style=\"padding:10px 8px;text-align:center\">4,700~6,100원</td><td style=\"padding:10px 8px\">가격 1순위</td></tr><tr style=\"border-bottom:1px solid rgba(0,0,0,.08)\"><td style=\"padding:10px 8px;font-weight:500\">서울24시감자탕해장국</td><td style=\"padding:10px 8px;text-align:center\">★ 3.8</td><td style=\"padding:10px 8px;text-align:center\">1,397건</td><td style=\"padding:10px 8px;text-align:center\">8,000~11,000원</td><td style=\"padding:10px 8px\">솔직한 한계</td></tr><tr style=\"border-bottom:1px solid rgba(0,0,0,.08)\"><td style=\"padding:10px 8px;font-weight:500\">진미통닭</td><td style=\"padding:10px 8px;text-align:center\">★ 3.8</td><td style=\"padding:10px 8px;text-align:center\">4,567건</td><td style=\"padding:10px 8px;text-align:center\">10,000~20,000원</td><td style=\"padding:10px 8px\">검증 1순위</td></tr><tr style=\"border-bottom:1px solid rgba(0,0,0,.08)\"><td style=\"padding:10px 8px;font-weight:500\">수타원</td><td style=\"padding:10px 8px;text-align:center\">★ 3.9</td><td style=\"padding:10px 8px;text-align:center\">774건</td><td style=\"padding:10px 8px;text-align:center\">12,000~20,000원</td><td style=\"padding:10px 8px\">단체·회식</td></tr></tbody></table>" },
-    { type: "h2", id: "by-situation", text: "상황별 망포 가성비 식당 추천", gradientStyle: { from: "#BA7517", to: "#F59E0B" } },
-    { type: "body", html: "<div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:14px 16px;margin:8px 0\"><p style=\"font-size:14px;font-weight:500;color:#1a1a1a;margin:0 0 6px\">💰 가성비 한 끼</p><p style=\"font-size:13px;color:#5f5e5a;margin:0;line-height:1.7\"><strong>스타벅스 수원망포DT점</strong> (4,700원~). 회전 빠른 단품 식당, 피크 시간 대기 최소화에 유리합니다.</p></div><div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:14px 16px;margin:8px 0\"><p style=\"font-size:14px;font-weight:500;color:#1a1a1a;margin:0 0 6px\">⭐ 평점·신뢰 우선</p><p style=\"font-size:13px;color:#5f5e5a;margin:0;line-height:1.7\"><strong>진미통닭</strong> — 리뷰 4,567건으로 표본 검증. 평균값을 안정적으로 신뢰할 수 있는 옵션입니다.</p></div><div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:14px 16px;margin:8px 0\"><p style=\"font-size:14px;font-weight:500;color:#1a1a1a;margin:0 0 6px\">🔍 평점 최고</p><p style=\"font-size:13px;color:#5f5e5a;margin:0;line-height:1.7\"><strong>판차이짬뽕</strong> (★4.3). 표본 크기는 중간이지만 평점 신뢰도 1순위.</p></div><div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:14px 16px;margin:8px 0\"><p style=\"font-size:14px;font-weight:500;color:#1a1a1a;margin:0 0 6px\">👥 5~10인 회식·모임</p><p style=\"font-size:13px;color:#5f5e5a;margin:0;line-height:1.7\"><strong>수타원</strong> — 단체석·룸 보유로 5인 이상 모임 수용 가능.</p></div><div style=\"background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:14px 16px;margin:8px 0\"><p style=\"font-size:14px;font-weight:500;color:#1a1a1a;margin:0 0 6px\">🌅 이른 시간 식사·테이크아웃</p><p style=\"font-size:13px;color:#5f5e5a;margin:0;line-height:1.7\"><strong>스타벅스 수원망포DT점</strong> — 망포에서 가장 이른 영업 시간대, 출근 전 식사 가능.</p></div>" },
-    { type: "h2", id: "tips", text: "방문 전 체크포인트", gradientStyle: { from: "#185FA5", to: "#3B82F6" } },
-    { type: "body", html: "<div style=\"background:#FAEEDA;border:1px solid rgba(186,117,23,.2);border-radius:8px;padding:16px 20px;margin:1rem 0 1.5rem\"><ul style=\"margin:0;padding-left:20px;color:#1a1a1a;line-height:1.85\"><li>5곳 중 일부는 전용 주차장이 없을 수 있으니 <strong>분당선 망포역</strong> 등 대중교통이 가장 편합니다.</li><li>점심 12시~13시 / 저녁 19시~20시가 피크입니다. <strong>피크 30분 전 입장</strong>이면 대기 최소화 가능합니다.</li><li>단체석·룸은 평일에도 <strong>당일 전화 예약</strong>을 권장드립니다 (5인 이상).</li><li>영업일 표기 불규칙한 식당은 방문 전 매장 직접 확인이 필요합니다.</li><li>메뉴 가격·구성은 시즌·재료 수급에 따라 변동될 수 있어 본 페이지 기준일 이후 변경 가능.</li></ul></div>" },
-    { type: "h2", id: "faq", text: "자주 묻는 질문", gradientStyle: { from: "#0F6E56", to: "#059669" } },
-    { type: "body", html: "<div style=\"margin:16px 0\"><details open style=\"margin:8px 0;padding:10px 14px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px\"><summary style=\"font-weight:500;cursor:pointer;color:#1a1a1a\">Q. 망포에서 가성비 식당 가장 가성비 좋은 식당은 어디인가요?</summary><p style=\"margin:10px 0 0;color:#5f5e5a;line-height:1.7\">A. 1인 시작가 기준 스타벅스 수원망포DT점 (4,700원~)이 가장 저렴합니다. 평점 4.2점·리뷰 1,327건이 누적되어 있고, 부담 없는 가격대로 첫 후보입니다.</p></details><details open style=\"margin:8px 0;padding:10px 14px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px\"><summary style=\"font-weight:500;cursor:pointer;color:#1a1a1a\">Q. 망포 가성비 식당 평균 가격대는 얼마인가요?</summary><p style=\"margin:10px 0 0;color:#5f5e5a;line-height:1.7\">A. 본 가이드 5곳 평균 시작가는 약 8,440원입니다. 카테고리 표준 범위는 1인 7,000~15,000원선이며, 스타벅스 수원망포DT점이 가장 저렴한 옵션입니다.</p></details><details open style=\"margin:8px 0;padding:10px 14px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px\"><summary style=\"font-weight:500;cursor:pointer;color:#1a1a1a\">Q. 리뷰·검증 우선이면 어디가 좋나요?</summary><p style=\"margin:10px 0 0;color:#5f5e5a;line-height:1.7\">A. 진미통닭이 리뷰 4,567건으로 표본이 가장 큽니다. 평균값을 안정적으로 신뢰할 수 있어 약속·접대 자리에 무난합니다.</p></details><details open style=\"margin:8px 0;padding:10px 14px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px\"><summary style=\"font-weight:500;cursor:pointer;color:#1a1a1a\">Q. 평점 가장 높은 곳은 어디인가요?</summary><p style=\"margin:10px 0 0;color:#5f5e5a;line-height:1.7\">A. 판차이짬뽕 (★4.3)이 평점 1위입니다. 표본은 카테고리 평균 수준이지만 평점 신뢰도가 높은 후보입니다.</p></details><details open style=\"margin:8px 0;padding:10px 14px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px\"><summary style=\"font-weight:500;cursor:pointer;color:#1a1a1a\">Q. 주차 가능한 곳은 있나요?</summary><p style=\"margin:10px 0 0;color:#5f5e5a;line-height:1.7\">A. 본 가이드 식당 중 일부는 전용 주차장이 있지만, 대부분 인근 공영주차장 또는 빌딩 주차장 이용을 권장드립니다. 망포 대중교통이 가장 편리합니다.</p></details></div>" },
-    { type: "cta", href: "/samsungElectronics/mangpo", text: "망포 가성비 식당 전체 보기 →" },
-    { type: "ending", html: "<div style=\"background:#EEEDFE;border-radius:10px;padding:18px 20px;margin:1.5rem 0\"><div style=\"display:flex;align-items:center;gap:12px;margin-bottom:14px\"><div style=\"width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#534AB7,#A855F7);color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center\">M</div><div><p style=\"font-weight:500;font-size:14px;color:#26215C;margin:0\">오늘뭐먹지 큐레이터</p><p style=\"font-size:12px;color:#3C3489;margin:2px 0 0\">망포 345곳 데이터 검증 · 행정안전부 인허가 매칭</p></div></div><p style=\"font-size:14px;line-height:1.75;color:#1a1a1a;margin:0 0 10px\">망포 일대 345곳에서 가성비 식당 카테고리로 필터링한 뒤, 평점·리뷰·메뉴·운영기간 4가지 기준을 종합해 5곳을 추렸습니다. 평균 평점은 ★4.0점이며, 행정안전부 인허가 데이터로 영업 상태가 확인된 식당만 포함했습니다.</p><p style=\"font-size:14px;line-height:1.75;color:#1a1a1a;margin:0 0 10px\">서울24시감자탕해장국, 진미통닭은 평점 3.8점으로 본 가이드 5곳 중 평균 이하입니다. 호불호가 갈리는 편이지만, 가성비 식당 카테고리 대표성·가격 접근성·차별점으로 후보에 포함했습니다. 평점만 보시면 판차이짬뽕(★4.3)이 1순위입니다.</p><p style=\"font-size:14px;line-height:1.75;color:#1a1a1a;margin:0\">리뷰 표본 크기를 우선하시면 진미통닭(4,567건)이 가장 안정적입니다. 평점 우선이면 판차이짬뽕(4.3점), 가성비 우선이면 본문 1순위 식당을 참고하시기 바랍니다.</p></div><div style=\"margin:18px 0;padding:14px 16px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px;font-size:13px;color:#5f5e5a;line-height:1.7\"><div style=\"font-weight:500;color:#1a1a1a;margin-bottom:6px;font-size:13px\">📊 데이터 출처</div>· 행정안전부 전국일반음식점표준데이터 (영업 상태·인허가일자) — <a href=\"https://www.data.go.kr\" style=\"color:#185FA5\" target=\"_blank\" rel=\"noopener\">data.go.kr</a><br>· 한국관광공사 국문 관광정보 서비스 (소개·사진) — <a href=\"https://api.visitkorea.or.kr\" style=\"color:#185FA5\" target=\"_blank\" rel=\"noopener\">api.visitkorea.or.kr</a><br>· 식품의약품안전처 음식점 위생등급 (해당 식당에 한해) — <a href=\"https://data.mfds.go.kr\" style=\"color:#185FA5\" target=\"_blank\" rel=\"noopener\">data.mfds.go.kr</a><br>· 식당별 평점·리뷰는 네이버 플레이스 + 다음 검색 데이터 종합 (2026년 5월 기준)</div><p style=\"font-size:13px;color:#888780;margin-top:12px\">2026년 05월 15일 기준 정보입니다. 영업시간·가격은 변동될 수 있으니 방문 전에 한 번 더 확인하시는 편이 안전합니다.</p>" },
+    {
+      type: 'intro',
+      html: `<p style="font-size:15px;line-height:1.8;color:#1a1a1a;margin:0 0 16px"><strong>망포역</strong>에서 1만원 안팎으로 점심 한 끼를 해결할 수 있는 식당 5곳을 정리했습니다. 분당선 망포역 주변 345곳에서 평점·리뷰 표본·운영 기간·가격대 4가지를 기준으로 추려, 짬뽕·해장국·설농탕·일식·카페까지 카테고리를 분산했습니다. 직장인 점심·혼밥·해장 등 상황별로 다른 1순위를 골라 두었으니 본문 한 줄 결론과 비교표를 먼저 확인하시면 빠릅니다.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:16px 0 20px">
+<div style="background:#f7f6f1;border-radius:10px;padding:14px 16px"><p style="font-size:12px;color:#5f5e5a;margin:0 0 4px">분석 식당</p><p style="font-size:20px;font-weight:600;margin:0">345곳</p><p style="font-size:11px;color:#888780;margin:4px 0 0">망포·신동·영통 일대</p></div>
+<div style="background:#f7f6f1;border-radius:10px;padding:14px 16px"><p style="font-size:12px;color:#5f5e5a;margin:0 0 4px">선정 5곳 평균</p><p style="font-size:20px;font-weight:600;margin:0">★ 4.0</p><p style="font-size:11px;color:#888780;margin:4px 0 0">3.8 ~ 4.3</p></div>
+<div style="background:#f7f6f1;border-radius:10px;padding:14px 16px"><p style="font-size:12px;color:#5f5e5a;margin:0 0 4px">누적 리뷰</p><p style="font-size:20px;font-weight:600;margin:0">5,019건</p><p style="font-size:11px;color:#888780;margin:4px 0 0">네이버 플레이스</p></div>
+<div style="background:#f7f6f1;border-radius:10px;padding:14px 16px"><p style="font-size:12px;color:#5f5e5a;margin:0 0 4px">시작가</p><p style="font-size:20px;font-weight:600;margin:0">4,700원~</p><p style="font-size:11px;color:#888780;margin:4px 0 0">카페 음료 기준</p></div>
+</div>`
+    },
+    { type: 'toc', id: 'toc' },
+    { type: 'ad', slot: '9463227631', format: 'autorelaxed' },
+
+    { type: 'h2', id: 'verdict', text: '한 줄 결론 — 상황별 1순위', gradientStyle: { from: '#534AB7', to: '#A855F7' } },
+    {
+      type: 'body',
+      html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
+<div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
+<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다. 야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업. 한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작). 일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기). 점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 망포DT점</strong> (아메리카노 4,700원~·드라이브스루).</p>
+</aside>`
+    },
+
+    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    {
+      type: 'body',
+      html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">
+<h3 style="margin:0 0 10px;font-size:14px;color:#185FA5;font-weight:600">📊 4가지 기준 + 카테고리 분산</h3>
+<ul style="margin:0;padding-left:20px;font-size:13.5px;color:#0C447C;line-height:1.85">
+<li><strong>1인 시작가 5,000~13,000원</strong> — 1만원대 점심 표준 가격대로 한정</li>
+<li><strong>네이버 플레이스 리뷰 700건+</strong> — 평균값이 흔들리지 않을 정도의 표본 크기</li>
+<li><strong>평점 3.7점 이상</strong> — 가성비 식당 평균선 (전 카테고리 평균 4.1점 대비 약간 완화)</li>
+<li><strong>카테고리 분산</strong> — 중식·해장국·설농탕·일식·카페 5종으로 검색 의도 분산</li>
+</ul></div>
+<p style="font-size:14px;line-height:1.75;color:#1a1a1a">망포역 일대 345곳 중 1만원대 점심에 들어가는 식당은 약 70곳이었습니다. 그중 평점·리뷰 표본·메뉴 구성·운영 시간이 안정적인 식당 5곳을 추렸습니다. 같은 카테고리 중복을 피해 짜장면·해장·설농탕·일식·카페로 한 끼 선택지를 분산했고, 평점이 다소 낮은 식당(서울24시감자탕해장국)은 <strong>표본 크기와 차별점</strong>이 명확할 때만 포함했습니다.</p>`
+    },
+
+    { type: 'h2', id: 'panchai', text: '판차이짬뽕 — 가성비·검증 둘 다 1순위인 중식', gradientStyle: { from: '#DC2626', to: '#F59E0B' } },
+    {
+      type: 'body',
+      html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
+<div style="position:relative;height:260px;background:url('https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg') center/cover">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.7))"></div>
+<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
+<span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비 1순위</span>
+<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">중식</span>
+</div>
+<div style="position:absolute;bottom:16px;left:18px;right:18px;color:#fff">
+<p style="margin:0;font-size:13px;opacity:.95">짜장면 7,500원·간짜장 9,500원 — 1인 1만원선</p>
+</div>
+</div>
+<div style="padding:20px 22px">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px">
+<span style="background:#FFF7E0;color:#92400E;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 1,370건</span>
+<span style="background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">💰 7,500원~22,000원</span>
+<span style="background:#E6F1FB;color:#0C447C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
+<span style="background:#EEF2FF;color:#312E81;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
+</div>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>망포 가성비 5곳 중 평점·리뷰 양쪽 모두 1순위</strong>인 중식당입니다. 신동 486번지 1층, 분당선 망포역에서 도보로 접근 가능합니다. 리뷰 1,370건은 본 가이드 5곳 중 두 번째로 많은 표본이며, 평점 4.3은 가장 높습니다. <strong>"양도 많고 맛있어요"</strong>라는 후기가 누적되는 식당으로, 점심 회전이 빠른 단품 메뉴 중심 운영입니다. 10:00 영업 시작이라 점심 11시대 일찍 가시면 자리 잡기 수월합니다.</p>
+<div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0">
+<p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.65"><strong>실제 방문자 후기</strong> · "저녁으로 먹으러 왔는데, 양도 많고 맛있어요" (네이버 플레이스 리뷰 발췌)</p>
+</div>
+<h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">대표 메뉴 6종</h4>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">짜장면</p><p style="font-size:12px;color:#5f5e5a;margin:0">7,500원 · <strong>최저가</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">간짜장</p><p style="font-size:12px;color:#5f5e5a;margin:0">9,500원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">직화짬뽕</p><p style="font-size:12px;color:#5f5e5a;margin:0">9,500원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">통오징어짬뽕</p><p style="font-size:12px;color:#5f5e5a;margin:0">14,000원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">탕수육</p><p style="font-size:12px;color:#5f5e5a;margin:0">19,000원 · 2인</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">꿔보러우</p><p style="font-size:12px;color:#5f5e5a;margin:0">22,000원 · 2~3인</p></div>
+</div>
+<div style="margin:16px 0 8px">
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">혼밥 OK</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">점심 7,500원</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">주차 가능</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;display:inline-block;margin-bottom:6px">깔끔한 곳</span>
+</div>
+<div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
+<strong>📍 위치</strong> 수원시 영통구 신동 486 1층 106호 · <strong>🕐 영업</strong> 10:00 시작 · <strong>🚗 주차</strong> 매장 주차장 운영 · <strong>📞 전화</strong> 07-1410-6698
+</div>
+<a href="/samsungElectronics/mangpo/restaurant/판차이짬뽕" style="display:inline-block;margin-top:14px;padding:9px 16px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">판차이짬뽕 상세 정보 →</a>
+</div></div>`
+    },
+
+    { type: 'h2', id: 'haejang', text: '서울24시감자탕해장국 — 24시간 영업하는 망포 해장 1순위', gradientStyle: { from: '#EA580C', to: '#B45309' } },
+    {
+      type: 'body',
+      html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
+<div style="position:relative;height:240px;background:linear-gradient(135deg,#EA580C,#B45309);display:flex;align-items:center;justify-content:center">
+<div style="font-size:5rem;opacity:.4">🍲</div>
+<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
+<span style="background:#fff;color:#EA580C;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌙 24시간 영업</span>
+<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">해장국</span>
+</div>
+<div style="position:absolute;bottom:14px;left:18px;right:18px;color:#fff">
+<p style="margin:0;font-size:13px;text-shadow:0 2px 6px rgba(0,0,0,.5)">콩나물해장국 8,000원 — 망포 최저가 해장</p>
+</div>
+</div>
+<div style="padding:20px 22px">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px">
+<span style="background:#FFF7E0;color:#92400E;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">★ 3.8 · 리뷰 1,397건</span>
+<span style="background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">💰 8,000원~11,000원</span>
+<span style="background:#FEF3C7;color:#78350F;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">🌙 심야 영업</span>
+<span style="background:#EEF2FF;color:#312E81;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
+</div>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.8점은 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 1,397건</strong>은 망포 가성비 카테고리에서 가장 많은 표본이며, "메인 뼈다귀해장국은 맛있었어요"·"국물 진하다"는 후기가 누적되는 곳입니다. 평점이 다소 낮은 이유는 영업시간이 길어 호불호 갈리는 표본이 같이 쌓인 것으로 해석됩니다. <strong>망포에서 24시간 운영되는 거의 유일한 해장국집</strong>이라 야근·새벽 출근·숙취 다음 날 옵션으로 차별점이 명확합니다. 망포동 28-9, 네이버 블로그 480건이 함께 누적되었습니다.</p>
+<div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0">
+<p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.65"><strong>실제 방문자 후기</strong> · "메인 뼈다귀해장국은 맛있었어요" · 자주 언급되는 키워드: 국물맛 · 서비스 · 맛있음</p>
+</div>
+<h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">대표 메뉴 4종 — 해장 전용</h4>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px">
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">콩나물해장국</p><p style="font-size:12px;color:#5f5e5a;margin:0">8,000원 · <strong>최저가 해장</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">뼈해장국</p><p style="font-size:12px;color:#5f5e5a;margin:0">11,000원 · <strong>시그니처</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">순대국</p><p style="font-size:12px;color:#5f5e5a;margin:0">11,000원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">감자탕</p><p style="font-size:12px;color:#5f5e5a;margin:0">2인 이상 매장 문의</p></div>
+</div>
+<div style="margin:16px 0 8px">
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">해장 1순위</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">24시간 영업</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">점심 추천</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;display:inline-block;margin-bottom:6px">국물맛 검증</span>
+</div>
+<div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
+<strong>📍 위치</strong> 수원시 영통구 망포동 28-9 · <strong>🕐 영업</strong> 24시간 (매장 공지 우선) · <strong>🚗 주차</strong> 인근 공영주차장 · <strong>📞 전화</strong> 031-206-2324
+</div>
+<a href="/samsungElectronics/mangpo/restaurant/서울24시감자탕해장국" style="display:inline-block;margin-top:14px;padding:9px 16px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">서울24시감자탕해장국 상세 정보 →</a>
+</div></div>`
+    },
+
+    { type: 'ad', slot: '6297515693', format: 'auto' },
+
+    { type: 'h2', id: 'sinsun', text: '신선설농탕 영통점 — 한식 정식 1만2천원선 안정 옵션', gradientStyle: { from: '#F97316', to: '#DC2626' } },
+    {
+      type: 'body',
+      html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
+<div style="position:relative;height:200px;background:linear-gradient(135deg,#F97316 0%,#DC2626 100%);display:flex;align-items:center;justify-content:center">
+<div style="font-size:5rem;opacity:.4">🍲</div>
+<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
+<span style="background:#fff;color:#F97316;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍱 정식 1순위</span>
+<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">한식·설농탕</span>
+</div>
+<div style="position:absolute;bottom:14px;left:18px;right:18px;color:#fff">
+<p style="margin:0;font-size:13px;text-shadow:0 2px 6px rgba(0,0,0,.5)">설농탕 + 깍두기 + 김치 정식 12,000원</p>
+</div>
+</div>
+<div style="padding:20px 22px">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px">
+<span style="background:#FFF7E0;color:#92400E;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 888건</span>
+<span style="background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~20,000원</span>
+<span style="background:#FCE7F3;color:#831843;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">📷 인스타 감성</span>
+<span style="background:#EEF2FF;color:#312E81;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
+</div>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신선설농탕은 <strong>전국 체인</strong>이며 영통점은 영통로214번길 60에 위치합니다. 평점 4.1·리뷰 888건이 누적된 안정적인 식당으로, <strong>10:00 AM~10:00 PM 영업</strong>이라 점심·저녁 모두 가능합니다. 1인 1만2천원선이 표준이며, "SNS맛집·인스타감성·데이트" 태그가 함께 매칭됩니다. 가족 외식·회식 단체 손님이 누적되는 곳이라 평일 점심·주말 점심 모두 무난한 선택지입니다. 분당선 망포역에서는 한 정거장(영통역) 거리이지만, 망포 직장인이 점심 시간에 자주 찾는 한식 옵션 중 하나로 묶입니다.</p>
+<div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0">
+<p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.65"><strong>운영자 코멘트</strong> · 신선설농탕은 영통점·수원점·동탄점 등 분당선·1호선 라인 여러 지점을 운영합니다. 메뉴 가격은 전국 거의 동일하며 정식 1만2천원선이 표준입니다.</p>
+</div>
+<h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">예상 메뉴 가격대 (체인 표준)</h4>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px">
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">설농탕 (1인)</p><p style="font-size:12px;color:#5f5e5a;margin:0">12,000원 · <strong>시그니처</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">갈비탕</p><p style="font-size:12px;color:#5f5e5a;margin:0">15,000원 안팎</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">육개장</p><p style="font-size:12px;color:#5f5e5a;margin:0">12,000~14,000원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">불고기 정식</p><p style="font-size:12px;color:#5f5e5a;margin:0">15,000~20,000원</p></div>
+</div>
+<div style="margin:16px 0 8px">
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">정식 점심</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">데이트</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">가족 외식</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;display:inline-block;margin-bottom:6px">주차 가능</span>
+</div>
+<div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
+<strong>📍 위치</strong> 수원시 영통구 영통로214번길 60 · <strong>🕐 영업</strong> 10:00~22:00 · <strong>🚗 주차</strong> 주차 가능 · <strong>📞 전화</strong> 031-202-0039
+</div>
+<a href="/samsungElectronics/mangpo/restaurant/신선설농탕 영통점" style="display:inline-block;margin-top:14px;padding:9px 16px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">신선설농탕 영통점 상세 정보 →</a>
+</div></div>`
+    },
+
+    { type: 'h2', id: 'wayoshoku', text: '와요쇼쿠 신동본점 — 일식 함박·뇨끼 1만원대 데이트 옵션', gradientStyle: { from: '#0EA5E9', to: '#1E40AF' } },
+    {
+      type: 'body',
+      html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
+<div style="position:relative;height:260px;background:url('https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20240718_269%2F1721282231595mmugF_JPEG%2F%25BD%25BA%25C6%25AE%25B7%25CE%25BA%25A3%25B8%25AE-%25B9%25AE.jpg') center/cover,linear-gradient(135deg,#0EA5E9,#1E40AF)">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.7))"></div>
+<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
+<span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💑 데이트 옵션</span>
+<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">일식</span>
+</div>
+<div style="position:absolute;bottom:16px;left:18px;right:18px;color:#fff">
+<p style="margin:0;font-size:13px;opacity:.95">철판 나폴리탄 스파게티 12,500원 · 함박스테이크 19,000원</p>
+</div>
+</div>
+<div style="padding:20px 22px">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px">
+<span style="background:#FFF7E0;color:#92400E;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">리뷰 936건</span>
+<span style="background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">💰 8,500원~24,000원</span>
+<span style="background:#FCE7F3;color:#831843;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">🌅 뷰맛집</span>
+<span style="background:#EEF2FF;color:#312E81;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
+<span style="background:#FEF3C7;color:#78350F;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
+</div>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">와요쇼쿠는 일식 + 양식 퓨전 — <strong>철판 나폴리탄·함박스테이크·고구마뇨끼</strong>를 시그니처로 하는 신동본점입니다. 평점 표기는 별도이지만 리뷰 936건이 누적되었고, <strong>"함박스테이크, 고구마뇨끼 너무 맛있어요"</strong>라는 후기가 자주 언급됩니다. "데이트·리뷰많음·서비스좋음·뷰맛집" 4개 태그가 함께 매칭되는 식당이라 점심 데이트·기념일 가벼운 외식 옵션으로 잘 맞습니다. <strong>예약 가능</strong>한 매장이라 주말 점심·저녁 시간대는 미리 자리를 잡아두는 편이 안전합니다. 신동 955번지 1층, 분당선 망포역에서 도보 거리입니다.</p>
+<div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0">
+<p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.65"><strong>실제 방문자 후기</strong> · "함박스테이크, 고구마뇨끼 너무 맛있어요" · 자주 언급되는 키워드: 맛있음 · 서비스</p>
+</div>
+<h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">대표 메뉴 — 1만원대 시작</h4>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">철판 나폴리탄</p><p style="font-size:12px;color:#5f5e5a;margin:0">12,500원 · <strong>가성비</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">고구마뇨끼</p><p style="font-size:12px;color:#5f5e5a;margin:0">17,000원 · <strong>시그니처</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">함박스테이크</p><p style="font-size:12px;color:#5f5e5a;margin:0">19,000원 · <strong>인기</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">치즈함박</p><p style="font-size:12px;color:#5f5e5a;margin:0">20,000원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">철판 스테이크</p><p style="font-size:12px;color:#5f5e5a;margin:0">24,000원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">최저 메뉴</p><p style="font-size:12px;color:#5f5e5a;margin:0">8,500원~</p></div>
+</div>
+<div style="margin:16px 0 8px">
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">데이트</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">예약 가능</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">뷰맛집</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;display:inline-block;margin-bottom:6px">함박 시그니처</span>
+</div>
+<div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
+<strong>📍 위치</strong> 수원시 영통구 신동 955 1층 102호 · <strong>🕐 영업</strong> 11:00 시작 · <strong>🚗 주차</strong> 인근 공영주차장 · <strong>📞 전화</strong> 07-1391-9591
+</div>
+<a href="/samsungElectronics/mangpo/restaurant/와요쇼쿠 신동본점" style="display:inline-block;margin-top:14px;padding:9px 16px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">와요쇼쿠 신동본점 상세 정보 →</a>
+</div></div>`
+    },
+
+    { type: 'h2', id: 'starbucks', text: '스타벅스 망포DT점 — 점심 시간 음료+간단 식사 옵션', gradientStyle: { from: '#0F6E56', to: '#059669' } },
+    {
+      type: 'body',
+      html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
+<div style="position:relative;height:260px;background:url('https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240920_47%2F1726810017180XCDP1_JPEG%2FIMG_5234.jpg') center/cover,linear-gradient(135deg,#0F6E56,#064E3B)">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.7))"></div>
+<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
+<span style="background:#0F6E56;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 가벼운 점심</span>
+<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">카페·DT</span>
+</div>
+<div style="position:absolute;bottom:16px;left:18px;right:18px;color:#fff">
+<p style="margin:0;font-size:13px;opacity:.95">아메리카노 4,700원~ · 드라이브스루 운영</p>
+</div>
+</div>
+<div style="padding:20px 22px">
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px">
+<span style="background:#FFF7E0;color:#92400E;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">★ 4.2 · 리뷰 1,327건</span>
+<span style="background:#E1F5EE;color:#04342C;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">💰 4,700원~6,100원</span>
+<span style="background:#FEF3C7;color:#78350F;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">🚙 드라이브스루</span>
+<span style="background:#EEF2FF;color:#312E81;padding:4px 10px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
+</div>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>드라이브스루(DT) 매장</strong>으로 점심 시간이 짧은 직장인이 차에서 음료+샌드위치만 픽업하기 좋은 옵션입니다. 평점 4.2·리뷰 1,327건으로 망포 카페 카테고리 상위권이며, "두바이 초콜릿 모카가 맛있네요" 같은 신메뉴 후기가 자주 언급됩니다. <strong>06:30 영업 시작</strong>이라 출근 전 모닝커피·테이크아웃이 가능하고, 푸드 메뉴(샌드위치·샐러드)는 8,000~12,000원선으로 식사 대용도 가능합니다. 망포동 38-23, 1522-3232 전화 가능. 5곳 중 유일한 카페 옵션으로 한 끼 부담을 줄이고 싶은 날 대안으로 묶었습니다.</p>
+<div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0">
+<p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.65"><strong>실제 방문자 후기</strong> · "아이스 두바이 초콜릿 모카가 궁금해서 마셔봤는데 맛있네요" · 자주 언급되는 키워드: 서비스 · 맛있음</p>
+</div>
+<h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">대표 음료 5종 + 푸드</h4>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">아메리카노</p><p style="font-size:12px;color:#5f5e5a;margin:0">4,700원 · <strong>시작가</strong></p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">카페 라떼</p><p style="font-size:12px;color:#5f5e5a;margin:0">5,200원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">카푸치노</p><p style="font-size:12px;color:#5f5e5a;margin:0">5,200원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">돌체 라떼</p><p style="font-size:12px;color:#5f5e5a;margin:0">6,100원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">카라멜 마키아또</p><p style="font-size:12px;color:#5f5e5a;margin:0">6,100원</p></div>
+<div style="background:#f7f6f1;border-radius:8px;padding:10px 12px"><p style="font-size:13px;font-weight:600;margin:0 0 4px;color:#1a1a1a">샌드위치·푸드</p><p style="font-size:12px;color:#5f5e5a;margin:0">8,000~12,000원선</p></div>
+</div>
+<div style="margin:16px 0 8px">
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">드라이브스루</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">06:30 오픈</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;margin-right:6px;display:inline-block;margin-bottom:6px">테이크아웃</span>
+<span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;display:inline-block;margin-bottom:6px">주차 가능</span>
+</div>
+<div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
+<strong>📍 위치</strong> 수원시 영통구 망포동 38-23 · <strong>🕐 영업</strong> 06:30 시작 · <strong>🚗 주차</strong> 주차 가능 · <strong>📞 전화</strong> 1522-3232
+</div>
+<a href="/samsungElectronics/mangpo/restaurant/스타벅스 수원망포DT점" style="display:inline-block;margin-top:14px;padding:9px 16px;background:#534AB7;color:#fff;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600">스타벅스 망포DT점 상세 정보 →</a>
+</div></div>`
+    },
+
+    { type: 'h2', id: 'compare', text: '5곳 한눈에 비교 — 평점·가격·상황별 매칭', gradientStyle: { from: '#10B981', to: '#059669' } },
+    {
+      type: 'body',
+      html: `<div style="overflow-x:auto;margin:16px 0 24px"><table style="width:100%;border-collapse:collapse;font-size:13px;min-width:560px">
+<thead><tr style="background:#f7f6f1;border-bottom:2px solid rgba(0,0,0,.15)">
+<th style="padding:11px 10px;text-align:left;font-weight:600">식당</th>
+<th style="padding:11px 10px;text-align:center;font-weight:600">평점·리뷰</th>
+<th style="padding:11px 10px;text-align:center;font-weight:600">시작가</th>
+<th style="padding:11px 10px;text-align:left;font-weight:600">차별점</th>
+</tr></thead><tbody>
+<tr style="border-bottom:1px solid rgba(0,0,0,.08)">
+<td style="padding:11px 10px"><strong>판차이짬뽕</strong><br><span style="font-size:11px;color:#888780">중식</span></td>
+<td style="padding:11px 10px;text-align:center">★ 4.3<br><span style="font-size:11px;color:#888780">1,370건</span></td>
+<td style="padding:11px 10px;text-align:center"><strong style="color:#DC2626">7,500원</strong></td>
+<td style="padding:11px 10px;font-size:12.5px">짜장면 최저가 + 평점 1위</td>
+</tr>
+<tr style="border-bottom:1px solid rgba(0,0,0,.08);background:#fafaf7">
+<td style="padding:11px 10px"><strong>서울24시감자탕해장국</strong><br><span style="font-size:11px;color:#888780">해장국</span></td>
+<td style="padding:11px 10px;text-align:center">★ 3.8<br><span style="font-size:11px;color:#888780">1,397건</span></td>
+<td style="padding:11px 10px;text-align:center"><strong style="color:#EA580C">8,000원</strong></td>
+<td style="padding:11px 10px;font-size:12.5px">24시간 영업 + 표본 최다</td>
+</tr>
+<tr style="border-bottom:1px solid rgba(0,0,0,.08)">
+<td style="padding:11px 10px"><strong>신선설농탕 영통점</strong><br><span style="font-size:11px;color:#888780">한식·설농탕</span></td>
+<td style="padding:11px 10px;text-align:center">★ 4.1<br><span style="font-size:11px;color:#888780">888건</span></td>
+<td style="padding:11px 10px;text-align:center"><strong style="color:#F97316">12,000원</strong></td>
+<td style="padding:11px 10px;font-size:12.5px">정식 점심 + 데이트 가능</td>
+</tr>
+<tr style="border-bottom:1px solid rgba(0,0,0,.08);background:#fafaf7">
+<td style="padding:11px 10px"><strong>와요쇼쿠 신동본점</strong><br><span style="font-size:11px;color:#888780">일식</span></td>
+<td style="padding:11px 10px;text-align:center">리뷰 936건<br><span style="font-size:11px;color:#888780">표본 우선</span></td>
+<td style="padding:11px 10px;text-align:center"><strong style="color:#0EA5E9">8,500원</strong></td>
+<td style="padding:11px 10px;font-size:12.5px">함박·뇨끼 + 예약 가능</td>
+</tr>
+<tr>
+<td style="padding:11px 10px"><strong>스타벅스 망포DT점</strong><br><span style="font-size:11px;color:#888780">카페·DT</span></td>
+<td style="padding:11px 10px;text-align:center">★ 4.2<br><span style="font-size:11px;color:#888780">1,327건</span></td>
+<td style="padding:11px 10px;text-align:center"><strong style="color:#0F6E56">4,700원</strong></td>
+<td style="padding:11px 10px;font-size:12.5px">드라이브스루 + 06:30 오픈</td>
+</tr>
+</tbody></table></div>`
+    },
+
+    { type: 'h2', id: 'by-situation', text: '상황별 추천 — 오늘 점심은 어떤 분위기인가요', gradientStyle: { from: '#BA7517', to: '#F59E0B' } },
+    {
+      type: 'body',
+      html: `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:16px 0 24px">
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">💰 8천원 한 끼 가성비</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>판차이짬뽕</strong>의 짜장면 7,500원이 5곳 중 단연 최저가입니다. 회전 빠른 단품 식당이라 점심 12시 피크에도 5분 내 자리 잡기 가능합니다.</p></div>
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">🌙 해장·새벽 식사</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>서울24시감자탕해장국</strong> — 망포에서 24시간 운영되는 거의 유일한 해장국집. 콩나물해장국 8,000원, 뼈해장국 11,000원이 시그니처.</p></div>
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">💑 데이트·기념일 점심</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>와요쇼쿠 신동본점</strong> — 함박·뇨끼 시그니처, 뷰맛집 태그, 예약 가능. 평일 점심 또는 주말 가벼운 데이트 옵션.</p></div>
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">🍱 한식 정식 정석</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>신선설농탕 영통점</strong> — 설농탕 1만2천원선 정식. 가족 외식·회식 단체 손님이 누적된 안정 옵션.</p></div>
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">☕ 시간 짧은 직장인 점심</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>스타벅스 망포DT점</strong> — 드라이브스루로 음료+샌드위치 5분 픽업. 06:30 오픈이라 출근 전 모닝 식사도 가능.</p></div>
+</div>`
+    },
+
+    { type: 'h2', id: 'tips', text: '방문 전 체크포인트', gradientStyle: { from: '#185FA5', to: '#3B82F6' } },
+    {
+      type: 'body',
+      html: `<div style="background:#FAEEDA;border:1px solid rgba(186,117,23,.25);border-radius:12px;padding:18px 22px;margin:1rem 0 1.5rem">
+<ul style="margin:0;padding-left:22px;color:#1a1a1a;line-height:1.9;font-size:14px">
+<li><strong>판차이짬뽕·신선설농탕·스타벅스 망포DT점</strong>은 주차장이 있지만 점심 12시 피크엔 만차될 수 있어 11:30~11:50 입장이 안전합니다.</li>
+<li><strong>서울24시감자탕해장국</strong>은 전용 주차장이 없습니다. 망포동 주변 공영주차장 또는 대중교통(분당선 망포역)을 권장드립니다.</li>
+<li><strong>와요쇼쿠 신동본점</strong>은 예약 가능한 식당이라 데이트·기념일은 미리 자리 잡아두시는 편이 안전합니다. 평일 점심도 12시 전후로 자리가 빠르게 차는 편입니다.</li>
+<li><strong>서울24시감자탕해장국</strong>은 24시간 영업이지만 새벽 시간대(03:00~05:00)는 인력 사정으로 임시 휴게 가능. 새벽 방문 시 매장에 직접 확인이 안전합니다.</li>
+<li>메뉴 가격은 시즌·재료 수급에 따라 변동될 수 있어 본 가이드 기준일(2026년 5월) 이후 변경 가능합니다.</li>
+<li><strong>신선설농탕 영통점</strong>은 영통역 가까이로, 망포역 도보권 밖일 수 있어 차량·버스 이용을 권장드립니다.</li>
+</ul></div>`
+    },
+
+    { type: 'h2', id: 'faq', text: '자주 묻는 질문', gradientStyle: { from: '#0F6E56', to: '#059669' } },
+    {
+      type: 'body',
+      html: `<div style="margin:16px 0">
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 망포역에서 가장 저렴하게 점심 한 끼는 어디인가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>판차이짬뽕</strong>의 짜장면 7,500원이 1순위입니다. 평점 4.3·리뷰 1,370건으로 검증되어 있어 가격뿐 아니라 만족도까지 안정적입니다. 음료 단독으로는 <strong>스타벅스 망포DT점</strong>의 아메리카노 4,700원이 더 저렴하지만, 한 끼 식사로는 판차이짬뽕이 가성비 1순위입니다.</p></details>
+
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 야근·숙취 다음 날 해장 가능한 곳은?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>서울24시감자탕해장국</strong>이 망포에서 24시간 운영되는 거의 유일한 해장 옵션입니다. 콩나물해장국 8,000원, 뼈해장국 11,000원이 메인 메뉴이며, 리뷰 1,397건이 누적된 망포 가성비 최다 표본 식당입니다. 새벽 03:00~05:00는 임시 휴게 가능성이 있어 사전 확인을 권장드립니다.</p></details>
+
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 점심 시간이 짧을 때 빠르게 먹을 수 있는 곳은?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>스타벅스 망포DT점</strong>의 드라이브스루가 5분 픽업 가능. 음료+샌드위치 조합으로 1만원 안팎. <strong>판차이짬뽕</strong>은 단품 회전 빠른 식당이라 12시 피크에도 입장~퇴장 30분 안에 가능합니다.</p></details>
+
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 데이트·기념일 점심이면 어디가 좋나요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>와요쇼쿠 신동본점</strong>이 1순위입니다. 함박스테이크·고구마뇨끼가 시그니처이며 뷰맛집·데이트 태그가 함께 매칭되어 있고 예약 가능합니다. 차순위는 <strong>신선설농탕 영통점</strong> — 한식 정식 1만2천원선, 가족·데이트 모두 무난합니다.</p></details>
+
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 5곳 모두 주차 가능한가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. 부분적으로 가능합니다. <strong>판차이짬뽕·신선설농탕·스타벅스 망포DT점</strong>은 전용/연계 주차장이 있고, <strong>서울24시감자탕해장국·와요쇼쿠</strong>는 전용 주차장이 없어 인근 공영주차장 또는 분당선 망포역 대중교통이 더 편합니다.</p></details>
+
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 평점이 낮은 식당도 포함된 이유는?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>서울24시감자탕해장국</strong>은 평점 3.8점으로 본 가이드 평균(4.0) 이하지만, <strong>리뷰 1,397건</strong>으로 표본이 가장 많고 24시간 영업이라는 차별점이 명확해 해장·새벽 식사 옵션으로 포함했습니다. 평점만 기준이면 <strong>판차이짬뽕</strong>(4.3)이 1순위입니다.</p></details>
+</div>`
+    },
+
+    { type: 'cta', href: '/samsungElectronics/mangpo', text: '망포역 맛집 전체 보기 →' },
+
+    {
+      type: 'ending',
+      html: `<div style="background:#EEEDFE;border-radius:12px;padding:20px 22px;margin:1.5rem 0">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:14px">
+<div style="width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#534AB7,#A855F7);color:#fff;font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center">M</div>
+<div>
+<p style="font-weight:600;font-size:14px;color:#26215C;margin:0">오늘뭐먹지 큐레이터</p>
+<p style="font-size:12px;color:#3C3489;margin:3px 0 0">망포 345곳 데이터 검증 · 행정안전부 인허가 매칭</p>
+</div></div>
+<p style="font-size:14px;line-height:1.8;color:#1a1a1a;margin:0 0 12px">망포역 일대 345곳에서 1만원 안팎으로 점심이 가능한 식당을 필터링해, 카테고리 분산까지 고려해 5곳을 정리했습니다. 평점·리뷰·운영시간·가격대 4가지를 함께 본 결과, 짬뽕·해장국·설농탕·일식·카페로 한 끼 선택지가 자연스럽게 다섯 갈래로 나뉘었습니다.</p>
+<p style="font-size:14px;line-height:1.8;color:#1a1a1a;margin:0 0 12px">평점만 보시면 <strong>판차이짬뽕(4.3)</strong>이 1순위, 리뷰 표본 크기로는 <strong>서울24시감자탕해장국(1,397건)</strong>이 1순위입니다. 두 식당은 카테고리가 달라 검색 의도가 겹치지 않으니, 짬뽕 한 그릇이면 판차이짬뽕, 해장이면 서울24시 식으로 분리해서 선택하시면 됩니다.</p>
+<p style="font-size:14px;line-height:1.8;color:#1a1a1a;margin:0"><strong>서울24시감자탕해장국</strong>은 평점이 5곳 중 가장 낮지만 표본 크기와 24시간 영업이라는 차별점으로 포함했습니다. 호불호가 갈리는 식당이라 메인 메뉴(콩나물해장국·뼈해장국) 위주로 주문하시면 만족도 편차가 줄어듭니다. 평점 우선이면 <strong>판차이짬뽕</strong>·<strong>스타벅스</strong>·<strong>신선설농탕</strong>이 안정 후보입니다.</p>
+</div>
+
+<div style="margin:20px 0 0;padding:16px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px;font-size:13px;color:#5f5e5a;line-height:1.8">
+<div style="font-weight:600;color:#1a1a1a;margin-bottom:8px;font-size:13.5px">📊 데이터 출처 (4중 신호)</div>
+· <a href="https://www.data.go.kr" style="color:#185FA5" target="_blank" rel="noopener">행정안전부 전국일반음식점표준데이터</a> — 영업 상태·인허가일자 매칭<br>
+· <a href="https://api.visitkorea.or.kr" style="color:#185FA5" target="_blank" rel="noopener">한국관광공사 국문 관광정보</a> — 소개·사진 보조<br>
+· <a href="https://data.mfds.go.kr" style="color:#185FA5" target="_blank" rel="noopener">식품의약품안전처 음식점 위생등급</a> — 해당 식당에 한해<br>
+· 식당별 평점·리뷰·메뉴는 <strong>네이버 플레이스</strong> + <strong>다음 검색</strong> 데이터 종합 (2026년 5월 기준)
+</div>
+
+<p style="font-size:12.5px;color:#888780;margin:14px 0 0;line-height:1.7">2026년 5월 15일 기준 정보입니다. 영업시간·가격·메뉴 구성은 시즌·재료 수급·매장 사정에 따라 변동될 수 있습니다. 방문 전 매장 공지를 한 번 더 확인하시는 편이 안전합니다.</p>`
+    },
   ]
 }
 
