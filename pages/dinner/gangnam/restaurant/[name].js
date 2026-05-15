@@ -38,7 +38,9 @@ export async function getStaticProps({ params }) {
   const used = new Set()
 
   // 1) 같은 카테고리 최고 평점 (인기·평판 검증)
-  const best = [...sameCat].sort((a,b) => (b.rt - a.rt) || (b.cnt - a.cnt))[0]
+  const hasImg = (x) => !!(x.imageUrl)
+  const sortKey = (a, b) => ((hasImg(b)?1:0) - (hasImg(a)?1:0)) || (b.rt - a.rt) || (b.cnt - a.cnt)
+  const best = [...sameCat].sort(sortKey)[0]
   if (best) { picks.push({ ...best, reason: `평점 ${best.rt}점·리뷰 ${(best.cnt||0).toLocaleString()}건 — 카테고리 상위권` }); used.add(best.name) }
 
   // 2) 비슷한 가격대 (예산 매칭)
@@ -50,7 +52,7 @@ export async function getStaticProps({ params }) {
         return { x, diff: Math.abs(lo - refLo) }
       })
       .filter(o => o.diff <= Math.max(refLo * 0.4, 8000))
-      .sort((a,b) => a.diff - b.diff)[0]
+      .sort((a,b) => ((hasImg(b.x)?1:0) - (hasImg(a.x)?1:0)) || (a.diff - b.diff))[0]
     if (priceMatch) {
       const lo = parseInt(priceMatch.x.priceRange.split('~')[0])
       const hi = parseInt(priceMatch.x.priceRange.split('~')[1]) || lo
@@ -69,7 +71,7 @@ export async function getStaticProps({ params }) {
 
   // 부족분: 평점 높은 것으로 채우기
   if (picks.length < 3) {
-    for (const x of [...sameCat].sort((a,b) => b.rt - a.rt)) {
+    for (const x of [...sameCat].sort(sortKey)) {
       if (used.has(x.name)) continue
       picks.push({ ...x, reason: `평점 ${x.rt}점, 같은 카테고리 추천` })
       used.add(x.name)
@@ -523,7 +525,18 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
         {/* 식당 이미지 갤러리 (최대 4장 분배) */}
         {(() => {
           const imgs = [r.imageUrl, r.imageUrl2, r.imageUrl3, r.imageUrl4].filter(Boolean)
-          if (!imgs.length) return null
+          if (!imgs.length) return (() => {
+            const cat = (Array.isArray(r.cat) && r.cat[0]) || r.type || '맛집'
+            const CAT_FB = { '한식':{e:'🍚',g:'linear-gradient(135deg, #F97316 0%, #DC2626 100%)'}, '국밥':{e:'🍲',g:'linear-gradient(135deg, #EA580C 0%, #B45309 100%)'}, '고기구이':{e:'🥩',g:'linear-gradient(135deg, #B91C1C 0%, #7F1D1D 100%)'}, '중식':{e:'🥢',g:'linear-gradient(135deg, #DC2626 0%, #F59E0B 100%)'}, '일식':{e:'🍣',g:'linear-gradient(135deg, #0EA5E9 0%, #1E40AF 100%)'}, '이자카야':{e:'🍶',g:'linear-gradient(135deg, #4338CA 0%, #1E1B4B 100%)'}, '야장':{e:'🍻',g:'linear-gradient(135deg, #D97706 0%, #92400E 100%)'}, '양식':{e:'🍝',g:'linear-gradient(135deg, #C026D3 0%, #7C3AED 100%)'}, '카페':{e:'☕',g:'linear-gradient(135deg, #92400E 0%, #451A03 100%)'}, '치킨':{e:'🍗',g:'linear-gradient(135deg, #F59E0B 0%, #DC2626 100%)'}, '분식':{e:'🍢',g:'linear-gradient(135deg, #F472B6 0%, #DB2777 100%)'}, '아시안':{e:'🍜',g:'linear-gradient(135deg, #059669 0%, #064E3B 100%)'}, '기타':{e:'🍽️',g:'linear-gradient(135deg, #6B7280 0%, #1F2937 100%)'} }
+            let fb = CAT_FB['기타']
+            for (const k of Object.keys(CAT_FB)) { if (cat.includes(k)) { fb = CAT_FB[k]; break } }
+            return (
+              <div style={{ position:'relative', width:'100%', height:240, borderRadius:12, marginBottom:24, overflow:'hidden', background:fb.g, display:'flex', alignItems:'center', justifyContent:'center' }}>
+                <div style={{ fontSize:'5rem', opacity:.5 }}>{fb.e}</div>
+                <div style={{ position:'absolute', bottom:14, left:18, color:'#fff', fontWeight:800, fontSize:'.95rem', textShadow:'0 2px 8px rgba(0,0,0,.4)' }}>📷 식당 이미지 수집 중 — {cat} 카테고리</div>
+              </div>
+            )
+          })()
           const main = imgs[0]
           const rest = imgs.slice(1, 4)
           return (

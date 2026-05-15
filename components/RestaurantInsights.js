@@ -380,28 +380,62 @@ export function PostMidCategoryBanner({ region, regionName, restaurant: r }) {
   )
 }
 
+const CAT_FALLBACK = {
+  '한식':         { emoji:'🍚', grad:'linear-gradient(135deg, #F97316 0%, #DC2626 100%)' },
+  '국밥':         { emoji:'🍲', grad:'linear-gradient(135deg, #EA580C 0%, #B45309 100%)' },
+  '고기구이':     { emoji:'🥩', grad:'linear-gradient(135deg, #B91C1C 0%, #7F1D1D 100%)' },
+  '중식':         { emoji:'🥢', grad:'linear-gradient(135deg, #DC2626 0%, #F59E0B 100%)' },
+  '일식':         { emoji:'🍣', grad:'linear-gradient(135deg, #0EA5E9 0%, #1E40AF 100%)' },
+  '이자카야':     { emoji:'🍶', grad:'linear-gradient(135deg, #4338CA 0%, #1E1B4B 100%)' },
+  '야장':         { emoji:'🍻', grad:'linear-gradient(135deg, #D97706 0%, #92400E 100%)' },
+  '양식':         { emoji:'🍝', grad:'linear-gradient(135deg, #C026D3 0%, #7C3AED 100%)' },
+  '카페':         { emoji:'☕', grad:'linear-gradient(135deg, #92400E 0%, #451A03 100%)' },
+  '치킨':         { emoji:'🍗', grad:'linear-gradient(135deg, #F59E0B 0%, #DC2626 100%)' },
+  '분식':         { emoji:'🍢', grad:'linear-gradient(135deg, #F472B6 0%, #DB2777 100%)' },
+  '아시안':       { emoji:'🍜', grad:'linear-gradient(135deg, #059669 0%, #064E3B 100%)' },
+  '기타':         { emoji:'🍽️', grad:'linear-gradient(135deg, #6B7280 0%, #1F2937 100%)' },
+}
+function getCatFallback(cat) {
+  if (!cat) return CAT_FALLBACK['기타']
+  for (const [k, v] of Object.entries(CAT_FALLBACK)) {
+    if (cat.includes(k)) return v
+  }
+  return CAT_FALLBACK['기타']
+}
+
 export function SimilarRestaurantCard({ restaurant: s, regionPath }) {
   const href = `${regionPath}/restaurant/${encodeURIComponent(s.name)}`
-  const img = (s.imageUrl || '').replace(/&amp;/g, '&')
+  const img = (s.imageUrl || s.tourImageUrl || '').replace(/&amp;/g, '&')
   const cat = Array.isArray(s.cat) && s.cat.length > 0 ? s.cat[0] : (s.type || '맛집')
   const price = (s.priceRange || '').trim()
   const lo = price.includes('~') ? parseInt(price.split('~')[0]) : 0
   const hi = price.includes('~') ? parseInt(price.split('~')[1]) : 0
-  const priceLabel = (lo && hi) ? `${lo.toLocaleString()}~${hi.toLocaleString()}원` : (lo ? `${lo.toLocaleString()}원~` : '가격 문의')
+  const priceLabel = (lo && hi) ? `${lo.toLocaleString()}~${hi.toLocaleString()}원` : (lo ? `${lo.toLocaleString()}원~` : '가격 매장 문의')
+  const fb = getCatFallback(cat)
 
   return (
     <a href={href} style={{ textDecoration:'none', display:'block' }}>
       <div style={{
         position:'relative', borderRadius:16, overflow:'hidden',
         aspectRatio:'4 / 5', minHeight:280,
-        background: img ? `url(${img}) center/cover no-repeat` : 'linear-gradient(135deg, #6366F1, #A855F7)',
+        background: img ? `url(${img}) center/cover no-repeat` : fb.grad,
         boxShadow:'0 6px 16px rgba(0,0,0,.12)',
         cursor:'pointer',
       }}>
+        {/* 이미지 없을 때 큰 이모지 배경 */}
+        {!img && (
+          <div style={{
+            position:'absolute', inset:0, display:'flex',
+            alignItems:'center', justifyContent:'center',
+            fontSize:'5.5rem', opacity:.28, pointerEvents:'none',
+          }}>{fb.emoji}</div>
+        )}
         <div style={{
           position:'absolute', inset:0,
-          background:'linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.85) 100%)',
-          opacity:.85,
+          background: img
+            ? 'linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.85) 100%)'
+            : 'linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.35) 60%, rgba(0,0,0,.75) 100%)',
+          opacity:.9,
         }} />
         <div style={{
           position:'absolute', top:12, left:12,
@@ -409,13 +443,13 @@ export function SimilarRestaurantCard({ restaurant: s, regionPath }) {
           background:'rgba(255,255,255,.92)',
           color:'#111827', fontSize:'.7rem', fontWeight:800,
           letterSpacing:'.02em',
-        }}>{cat}</div>
+        }}>{fb.emoji} {cat}</div>
         <div style={{
           position:'absolute', top:12, right:12,
           padding:'4px 10px', borderRadius:100,
-          background:'rgba(252,211,77,.95)',
+          background: s.rt > 0 ? 'rgba(252,211,77,.95)' : 'rgba(255,255,255,.85)',
           color:'#111827', fontSize:'.72rem', fontWeight:900,
-        }}>⭐ {s.rt > 0 ? s.rt : '-'}</div>
+        }}>⭐ {s.rt > 0 ? s.rt : '신규'}</div>
         <div style={{
           position:'absolute', bottom:14, left:14, right:14,
           color:'#fff',
