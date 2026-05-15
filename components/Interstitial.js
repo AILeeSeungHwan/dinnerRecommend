@@ -147,7 +147,11 @@ export default function Interstitial() {
         if (isExternal) {
           window.location.href = href
         } else {
-          router.push(href).catch(() => { window.location.href = href })
+          router.push(href)
+            .then(() => {
+              window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+            })
+            .catch(() => { window.location.href = href })
         }
       } catch {
         window.location.href = href

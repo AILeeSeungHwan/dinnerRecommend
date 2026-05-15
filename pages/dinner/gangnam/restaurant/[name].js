@@ -6,7 +6,7 @@ import { fetchGovData } from '../../../../lib/govData'
 import GovBadges, { GovSourceFooter } from '../../../../components/GovBadges'
 import CategorySuggestButton from '../../../../components/CategorySuggestButton'
 import FaqAccordion from '../../../../components/FaqAccordion'
-import { VerdictBox, OperatorNote, AudienceCards, VisitChecklist, PostMidCategoryBanner } from '../../../../components/RestaurantInsights'
+import { VerdictBox, OperatorNote, AudienceCards, VisitChecklist, PostMidCategoryBanner, SimilarRestaurantCard } from '../../../../components/RestaurantInsights'
 import restaurants from '../../../../data/gangnam'
 
 export async function getStaticPaths() {
@@ -26,7 +26,7 @@ export async function getStaticProps({ params }) {
     .filter(x => x.name !== r.name && Array.isArray(x.cat) && Array.isArray(r.cat) && x.cat.some(c => r.cat.includes(c)))
     .sort((a, b) => b.rt - a.rt)
     .slice(0, 4)
-    .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null }))
+    .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null, imageUrl: x.imageUrl || '', cat: Array.isArray(x.cat) ? x.cat : [] }))
 
   const govData = await fetchGovData('gangnam', r.name)
   return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 86400 }
@@ -453,26 +453,6 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           </tbody>
         </table>
 
-        {/* ── 감성 인트로 ── */}
-        <div style={{
-          background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
-          border:'1px solid var(--border)',
-          borderRadius:14,
-          padding:'22px 20px',
-          marginBottom:28,
-        }}>
-          <div style={{ fontSize:'1.8rem', marginBottom:10 }}>{intro.emoji}</div>
-          {intro.lines.map((line, i) => (
-            <p key={i} style={{
-              fontSize: i === 0 ? '.97rem' : '.9rem',
-              color: i === 0 ? 'var(--text)' : 'var(--muted)',
-              fontWeight: i === 0 ? 700 : 400,
-              lineHeight: 1.85,
-              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
-            }}>{line}</p>
-          ))}
-        </div>
-
         <OperatorNote restaurant={r} regionName="강남역" totalRegionRestaurants={285} govData={govData} />
 
         {/* 방문자 키워드 뱃지 */}
@@ -534,9 +514,6 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
 
         <h2 style={h2style}>👥 이런 분에게 추천</h2>
         <AudienceCards restaurant={r} />
-
-        <h2 style={h2style}>📌 방문 전 체크포인트</h2>
-        <VisitChecklist restaurant={r} />
 
         {/* 날씨별 추천 */}
         {matchedWx.length > 0 && (
@@ -640,7 +617,26 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           📍 네이버 지도에서 경로 보기
         </a>
 
-        {/* FAQ */}
+        {/* ── 감성 인트로 ── */}
+        <div style={{
+          background:'linear-gradient(135deg, var(--surface2) 0%, var(--surface) 100%)',
+          border:'1px solid var(--border)',
+          borderRadius:14,
+          padding:'22px 20px',
+          marginBottom:28,
+        }}>
+          <div style={{ fontSize:'1.8rem', marginBottom:10 }}>{intro.emoji}</div>
+          {intro.lines.map((line, i) => (
+            <p key={i} style={{
+              fontSize: i === 0 ? '.97rem' : '.9rem',
+              color: i === 0 ? 'var(--text)' : 'var(--muted)',
+              fontWeight: i === 0 ? 700 : 400,
+              lineHeight: 1.85,
+              marginBottom: i === intro.lines.length - 1 ? 0 : 4,
+            }}>{line}</p>
+          ))}
+        </div>
+
         {/* 추가 갤러리 (7~8번째 이미지) */}
         {(r.imageUrl7 || r.imageUrl8) && (
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:24 }}>
@@ -652,8 +648,12 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             ))}
           </div>
         )}
-        
-                <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
+
+        <h2 style={h2style}>📌 방문 전 체크포인트</h2>
+        <VisitChecklist restaurant={r} />
+
+        {/* FAQ */}
+        <AdUnit slot="9138210374" format="auto" style={{ marginBottom:12 }} />
         <h2 style={h2style}>❓ 자주 묻는 질문 (FAQ)</h2>
         <FaqAccordion defaultOpenAll items={[
           [`${r.name} 영업시간이 어떻게 되나요?`, `${r.name}의 영업시간은 ${formatHours(r.hours)}입니다. 방문 전 변경 여부를 확인하시길 권장합니다.`],
@@ -669,17 +669,9 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             <p style={pstyle}>
               <strong>{r.name}</strong>와 비슷한 강남역 {r.type} 맛집을 더 추천해드립니다.
             </p>
-            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(200px, 1fr))', gap:10, marginBottom:28 }}>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(180px, 1fr))', gap:12, marginBottom:28 }}>
               {similar.map((s, i) => (
-                <Link href={`/dinner/gangnam/restaurant/${encodeURIComponent(s.name)}`} key={i}>
-                  <div style={{ background:'var(--surface)', border:'1px solid var(--border)', borderRadius:10, padding:'12px 14px', cursor:'pointer' }}>
-                    <div style={{ fontWeight:700, fontSize:'.9rem', marginBottom:5 }}>{s.e} {s.name}</div>
-                    <div style={{ display:'flex', gap:5, flexWrap:'wrap' }}>
-                      <span className="tag">⭐ {s.rt}</span>
-                      {s.priceRange && <span className="tag price">💰 {fmtPrice(s.priceRange)}원</span>}
-                    </div>
-                  </div>
-                </Link>
+                <SimilarRestaurantCard key={i} restaurant={s} regionPath="/dinner/gangnam" />
               ))}
             </div>
           </>

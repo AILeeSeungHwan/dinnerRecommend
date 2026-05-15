@@ -237,4 +237,59 @@ export function PostMidCategoryBanner({ region, regionName, restaurant: r }) {
   )
 }
 
-export default { VerdictBox, OperatorNote, AudienceCards, VisitChecklist, PostMidCategoryBanner }
+export function SimilarRestaurantCard({ restaurant: s, regionPath }) {
+  const href = `${regionPath}/restaurant/${encodeURIComponent(s.name)}`
+  const img = (s.imageUrl || '').replace(/&amp;/g, '&')
+  const cat = Array.isArray(s.cat) && s.cat.length > 0 ? s.cat[0] : (s.type || '맛집')
+  const price = (s.priceRange || '').trim()
+  const lo = price.includes('~') ? parseInt(price.split('~')[0]) : 0
+  const hi = price.includes('~') ? parseInt(price.split('~')[1]) : 0
+  const priceLabel = (lo && hi) ? `${lo.toLocaleString()}~${hi.toLocaleString()}원` : (lo ? `${lo.toLocaleString()}원~` : '가격 문의')
+
+  return (
+    <a href={href} style={{ textDecoration:'none', display:'block' }}>
+      <div style={{
+        position:'relative', borderRadius:16, overflow:'hidden',
+        aspectRatio:'4 / 5', minHeight:280,
+        background: img ? `url(${img}) center/cover no-repeat` : 'linear-gradient(135deg, #6366F1, #A855F7)',
+        boxShadow:'0 6px 16px rgba(0,0,0,.12)',
+        cursor:'pointer',
+      }}>
+        <div style={{
+          position:'absolute', inset:0,
+          background:'linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.85) 100%)',
+          opacity:.85,
+        }} />
+        <div style={{
+          position:'absolute', top:12, left:12,
+          padding:'4px 10px', borderRadius:100,
+          background:'rgba(255,255,255,.92)',
+          color:'#111827', fontSize:'.7rem', fontWeight:800,
+          letterSpacing:'.02em',
+        }}>{cat}</div>
+        <div style={{
+          position:'absolute', top:12, right:12,
+          padding:'4px 10px', borderRadius:100,
+          background:'rgba(252,211,77,.95)',
+          color:'#111827', fontSize:'.72rem', fontWeight:900,
+        }}>⭐ {s.rt > 0 ? s.rt : '-'}</div>
+        <div style={{
+          position:'absolute', bottom:14, left:14, right:14,
+          color:'#fff',
+        }}>
+          <div style={{ fontSize:'1.05rem', fontWeight:900, lineHeight:1.3, marginBottom:6, textShadow:'0 2px 6px rgba(0,0,0,.5)' }}>{s.name}</div>
+          <div style={{
+            display:'inline-block',
+            padding:'4px 10px', borderRadius:100,
+            background:'rgba(255,255,255,.18)',
+            backdropFilter:'blur(8px)',
+            border:'1px solid rgba(255,255,255,.3)',
+            fontSize:'.72rem', fontWeight:700,
+          }}>💰 {priceLabel}</div>
+        </div>
+      </div>
+    </a>
+  )
+}
+
+export default { VerdictBox, OperatorNote, AudienceCards, VisitChecklist, PostMidCategoryBanner, SimilarRestaurantCard }
