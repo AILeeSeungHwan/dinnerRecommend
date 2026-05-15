@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다. 야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업. 한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작). 일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기). 점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 망포 드라이브스루점</strong> (아메리카노 4,700원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다. 야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업. 한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작). 일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기). 점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 수원망포DT점</strong> (아메리카노 4,700원~).</p>
 </aside>`
     },
 
@@ -42,7 +42,7 @@ const post = {
     {
       type: 'body',
       html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
-<img src="https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg" alt="판차이짬뽕 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240925_5%2F1727274067378lQh1n_JPEG%2Fmmexport1727079918396.jpg" alt="판차이짬뽕 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비 1순위</span>
@@ -79,7 +79,7 @@ const post = {
 <div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
 <strong>📍 위치</strong> 수원시 영통구 신동 486 1층 106호 · <strong>🕐 영업</strong> 10:00 시작 · <strong>🚗 주차</strong> 매장 주차장 운영 · <strong>📞 전화</strong> 07-1410-6698
 </div>
-<a href="/samsungElectronics/mangpo/restaurant/판차이짬뽕" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 판차이짬뽕 상세 정보 보기 →</a>
+<div style="text-align:center"><a href="/samsungElectronics/mangpo/restaurant/판차이짬뽕" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 판차이짬뽕 상세 정보 보기 →</a></div>
 </div></div>`
     },
 
@@ -87,16 +87,7 @@ const post = {
     {
       type: 'body',
       html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
-<div style="position:relative;height:240px;background:linear-gradient(135deg,#EA580C,#B45309);display:flex;align-items:center;justify-content:center">
-<div style="font-size:5rem;opacity:.45">🍲</div>
-<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
-<span style="background:#fff;color:#EA580C;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌙 24시간 영업</span>
-<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">해장국</span>
-</div>
-<div style="position:absolute;bottom:14px;left:18px;right:18px;color:#fff">
-<p style="margin:0;font-size:13px;text-shadow:0 2px 6px rgba(0,0,0,.5)">콩나물해장국 8,000원 — 망포 최저가 해장</p>
-</div>
-</div>
+<img src="https://blog.kakaocdn.net/dn/cOjvXJ/btsQep340Bd/VYBCU9jDDP8LuYrNHb5D80/img.jpg" alt="서울24시감자탕해장국 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.8 · 리뷰 1,397건</span>
@@ -125,7 +116,7 @@ const post = {
 <div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
 <strong>📍 위치</strong> 수원시 영통구 망포동 28-9 · <strong>🕐 영업</strong> 24시간 (매장 공지 우선) · <strong>🚗 주차</strong> 인근 공영주차장 · <strong>📞 전화</strong> 031-206-2324
 </div>
-<a href="/samsungElectronics/mangpo/restaurant/서울24시감자탕해장국" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 서울24시감자탕해장국 상세 정보 보기 →</a>
+<div style="text-align:center"><a href="/samsungElectronics/mangpo/restaurant/서울24시감자탕해장국" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 서울24시감자탕해장국 상세 정보 보기 →</a></div>
 </div></div>`
     },
 
@@ -135,16 +126,7 @@ const post = {
     {
       type: 'body',
       html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
-<div style="position:relative;height:200px;background:linear-gradient(135deg,#F97316 0%,#DC2626 100%);display:flex;align-items:center;justify-content:center">
-<div style="font-size:5rem;opacity:.45">🍲</div>
-<div style="position:absolute;top:14px;left:14px;display:flex;gap:6px">
-<span style="background:#fff;color:#F97316;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍱 정식 1순위</span>
-<span style="background:rgba(255,255,255,.95);color:#111827;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700">한식·설농탕</span>
-</div>
-<div style="position:absolute;bottom:14px;left:18px;right:18px;color:#fff">
-<p style="margin:0;font-size:13px;text-shadow:0 2px 6px rgba(0,0,0,.5)">설농탕 + 깍두기 + 김치 정식 12,000원</p>
-</div>
-</div>
+<img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241007_129%2F1728303207168i2SLC_JPEG%2F1000000147.jpg" alt="신선설농탕 영통점 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 888건</span>
@@ -173,7 +155,7 @@ const post = {
 <div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
 <strong>📍 위치</strong> 수원시 영통구 영통로214번길 60 · <strong>🕐 영업</strong> 10:00~22:00 · <strong>🚗 주차</strong> 주차 가능 · <strong>📞 전화</strong> 031-202-0039
 </div>
-<a href="/samsungElectronics/mangpo/restaurant/신선설농탕 영통점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 신선설농탕 영통점 상세 정보 보기 →</a>
+<div style="text-align:center"><a href="/samsungElectronics/mangpo/restaurant/신선설농탕 영통점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 신선설농탕 영통점 상세 정보 보기 →</a></div>
 </div></div>`
     },
 
@@ -219,15 +201,15 @@ const post = {
 <div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
 <strong>📍 위치</strong> 수원시 영통구 신동 955 1층 102호 · <strong>🕐 영업</strong> 11:00 시작 · <strong>🚗 주차</strong> 인근 공영주차장 · <strong>📞 전화</strong> 07-1391-9591
 </div>
-<a href="/samsungElectronics/mangpo/restaurant/와요쇼쿠 신동본점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 와요쇼쿠 신동본점 상세 정보 보기 →</a>
+<div style="text-align:center"><a href="/samsungElectronics/mangpo/restaurant/와요쇼쿠 신동본점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 와요쇼쿠 신동본점 상세 정보 보기 →</a></div>
 </div></div>`
     },
 
-    { type: 'h2', id: 'starbucks', text: '스타벅스 망포 드라이브스루점 — 점심 시간 음료+간단 식사', gradientStyle: { from: '#0F6E56', to: '#059669' } },
+    { type: 'h2', id: 'starbucks', text: '스타벅스 수원망포DT점 — 점심 시간 음료+간단 식사', gradientStyle: { from: '#0F6E56', to: '#059669' } },
     {
       type: 'body',
       html: `<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:14px;overflow:hidden;margin:16px 0 24px;box-shadow:0 4px 12px rgba(0,0,0,.04)">
-<img src="https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png" alt="스타벅스 망포 드라이브스루점 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png" alt="스타벅스 수원망포DT점 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0F6E56;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 가벼운 점심</span>
@@ -242,9 +224,9 @@ const post = {
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"드라이브스루 편리하다 · 신메뉴가 맛있다 · 직원 친절하다" 같은 평이 자주 언급되었습니다. 픽업 동선과 신메뉴 회전이 후기 키워드로 함께 묶입니다.</p>
 </div>
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:14px 0">
-<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png" alt="스타벅스 망포 드라이브스루점 매장 사진" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
-<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230112_109%2F1673469914620T8ESS_JPEG%2F3172_20230111081100_wgm25.jpg" alt="스타벅스 망포 드라이브스루점 음료 사진 1" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
-<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230112_88%2F1673469914656vLJ5D_JPEG%2F3172_20230111081149_c9pkw.jpg" alt="스타벅스 망포 드라이브스루점 음료 사진 2" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w560_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190828_93%2F1566953601239OT9MQ_PNG%2FxX7Wv642gXMoTI0DAv0hRymS.png" alt="스타벅스 수원망포DT점 매장 사진" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230112_109%2F1673469914620T8ESS_JPEG%2F3172_20230111081100_wgm25.jpg" alt="스타벅스 수원망포DT점 음료 사진 1" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
+<img src="https://search.pstatic.net/common/?autoRotate=true&type=w278_sharpen&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230112_88%2F1673469914656vLJ5D_JPEG%2F3172_20230111081149_c9pkw.jpg" alt="스타벅스 수원망포DT점 음료 사진 2" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
 </div>
 <h4 style="font-size:13px;margin:18px 0 8px;color:#5f5e5a;font-weight:600">대표 음료 5종 + 푸드</h4>
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px">
@@ -264,7 +246,7 @@ const post = {
 <div style="background:#f1efe8;border-radius:8px;padding:11px 14px;margin:14px 0 0;font-size:12.5px;color:#5f5e5a;line-height:1.85">
 <strong>📍 위치</strong> 수원시 영통구 망포동 38-23 · <strong>🕐 영업</strong> 06:30 시작 · <strong>🚗 주차</strong> 주차 가능 · <strong>📞 전화</strong> 1522-3232
 </div>
-<a href="/samsungElectronics/mangpo/restaurant/스타벅스 수원망포DT점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 스타벅스 망포 드라이브스루점 상세 정보 보기 →</a>
+<div style="text-align:center"><a href="/samsungElectronics/mangpo/restaurant/스타벅스 수원망포DT점" style="display:inline-block;margin-top:16px;padding:12px 22px;background:#FCD34D;color:#111827;border-radius:10px;text-decoration:none;font-size:14px;font-weight:900;border:2px solid #111827;box-shadow:0 3px 0 #111827">👉 스타벅스 수원망포DT점 상세 정보 보기 →</a></div>
 </div></div>`
     },
 
@@ -303,7 +285,7 @@ const post = {
 <td style="padding:11px 10px;font-size:12.5px">함박·뇨끼 + 예약 가능</td>
 </tr>
 <tr>
-<td style="padding:11px 10px"><strong>스타벅스 망포 드라이브스루점</strong><br><span style="font-size:11px;color:#888780">카페</span></td>
+<td style="padding:11px 10px"><strong>스타벅스 수원망포DT점</strong><br><span style="font-size:11px;color:#888780">카페</span></td>
 <td style="padding:11px 10px;text-align:center">★ 4.2<br><span style="font-size:11px;color:#888780">1,327건</span></td>
 <td style="padding:11px 10px;text-align:center"><strong style="color:#0F6E56">4,700원</strong></td>
 <td style="padding:11px 10px;font-size:12.5px">드라이브스루 + 06:30 오픈</td>
@@ -319,7 +301,7 @@ const post = {
 <div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">🌙 해장·새벽 식사</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>서울24시감자탕해장국</strong> — 망포에서 24시간 운영되는 거의 유일한 해장국집. 콩나물해장국 8,000원, 뼈해장국 11,000원이 시그니처.</p></div>
 <div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">💑 데이트·기념일 점심</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>와요쇼쿠 신동본점</strong> — 함박·뇨끼 시그니처, 분위기 좋은 매장, 예약 가능. 평일 점심 또는 주말 가벼운 데이트 옵션.</p></div>
 <div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">🍱 한식 정식 정석</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>신선설농탕 영통점</strong> — 설농탕 1만2천원선 정식. 가족 외식·회식 단체 손님이 누적된 안정 옵션.</p></div>
-<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">☕ 시간 짧은 직장인 점심</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>스타벅스 망포 드라이브스루점</strong> — 드라이브스루로 음료+샌드위치 5분 픽업. 06:30 오픈이라 출근 전 모닝 식사도 가능.</p></div>
+<div style="background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:16px 18px"><p style="font-size:14px;font-weight:600;color:#1a1a1a;margin:0 0 8px">☕ 시간 짧은 직장인 점심</p><p style="font-size:13px;color:#5f5e5a;margin:0;line-height:1.75"><strong>스타벅스 수원망포DT점</strong> — 드라이브스루로 음료+샌드위치 5분 픽업. 06:30 오픈이라 출근 전 모닝 식사도 가능.</p></div>
 </div>`
     },
 
@@ -328,7 +310,7 @@ const post = {
       type: 'body',
       html: `<div style="background:#FAEEDA;border:1px solid rgba(186,117,23,.25);border-radius:12px;padding:18px 22px;margin:1rem 0 1.5rem">
 <ul style="margin:0;padding-left:22px;color:#1a1a1a;line-height:1.9;font-size:14px">
-<li><strong>판차이짬뽕·신선설농탕·스타벅스 망포 드라이브스루점</strong>은 주차장이 있지만 점심 12시 피크엔 만차될 수 있어 11:30~11:50 입장이 안전합니다.</li>
+<li><strong>판차이짬뽕·신선설농탕·스타벅스 수원망포DT점</strong>은 주차장이 있지만 점심 12시 피크엔 만차될 수 있어 11:30~11:50 입장이 안전합니다.</li>
 <li><strong>서울24시감자탕해장국</strong>은 전용 주차장이 없습니다. 망포동 주변 공영주차장 또는 대중교통(분당선 망포역)을 권장드립니다.</li>
 <li><strong>와요쇼쿠 신동본점</strong>은 예약 가능한 식당이라 데이트·기념일은 미리 자리 잡아두시는 편이 안전합니다. 평일 점심도 12시 전후로 자리가 빠르게 차는 편입니다.</li>
 <li><strong>서울24시감자탕해장국</strong>은 24시간 영업이지만 새벽 시간대(03:00~05:00)는 인력 사정으로 임시 휴게 가능. 새벽 방문 시 매장에 직접 확인이 안전합니다.</li>
@@ -341,15 +323,15 @@ const post = {
     {
       type: 'body',
       html: `<div style="margin:16px 0">
-<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 망포역에서 가장 저렴하게 점심 한 끼는 어디인가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>판차이짬뽕</strong>의 짜장면 7,500원이 1순위입니다. 평점 4.3·리뷰 1,370건으로 검증되어 있어 가격뿐 아니라 만족도까지 안정적입니다. 음료 단독으로는 <strong>스타벅스 망포 드라이브스루점</strong>의 아메리카노 4,700원이 더 저렴하지만, 한 끼 식사로는 판차이짬뽕이 가성비 1순위입니다.</p></details>
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 망포역에서 가장 저렴하게 점심 한 끼는 어디인가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>판차이짬뽕</strong>의 짜장면 7,500원이 1순위입니다. 평점 4.3·리뷰 1,370건으로 검증되어 있어 가격뿐 아니라 만족도까지 안정적입니다. 음료 단독으로는 <strong>스타벅스 수원망포DT점</strong>의 아메리카노 4,700원이 더 저렴하지만, 한 끼 식사로는 판차이짬뽕이 가성비 1순위입니다.</p></details>
 
 <details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 야근·숙취 다음 날 해장 가능한 곳은?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>서울24시감자탕해장국</strong>이 망포에서 24시간 운영되는 거의 유일한 해장 옵션입니다. 콩나물해장국 8,000원, 뼈해장국 11,000원이 메인 메뉴이며, 리뷰 1,397건이 누적된 망포 가성비 최다 표본 식당입니다. 새벽 03:00~05:00는 임시 휴게 가능성이 있어 사전 확인을 권장드립니다.</p></details>
 
-<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 점심 시간이 짧을 때 빠르게 먹을 수 있는 곳은?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>스타벅스 망포 드라이브스루점</strong>의 드라이브스루가 5분 픽업 가능. 음료+샌드위치 조합으로 1만원 안팎. <strong>판차이짬뽕</strong>은 단품 회전 빠른 식당이라 12시 피크에도 입장~퇴장 30분 안에 가능합니다.</p></details>
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 점심 시간이 짧을 때 빠르게 먹을 수 있는 곳은?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>스타벅스 수원망포DT점</strong>의 드라이브스루가 5분 픽업 가능. 음료+샌드위치 조합으로 1만원 안팎. <strong>판차이짬뽕</strong>은 단품 회전 빠른 식당이라 12시 피크에도 입장~퇴장 30분 안에 가능합니다.</p></details>
 
 <details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 데이트·기념일 점심이면 어디가 좋나요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>와요쇼쿠 신동본점</strong>이 1순위입니다. 함박스테이크·고구마뇨끼가 시그니처이며 분위기 좋은 매장·데이트 평가가 함께 매칭되어 있고 예약 가능합니다. 차순위는 <strong>신선설농탕 영통점</strong> — 한식 정식 1만2천원선, 가족·데이트 모두 무난합니다.</p></details>
 
-<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 5곳 모두 주차 가능한가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. 부분적으로 가능합니다. <strong>판차이짬뽕·신선설농탕·스타벅스 망포 드라이브스루점</strong>은 전용/연계 주차장이 있고, <strong>서울24시감자탕해장국·와요쇼쿠</strong>는 전용 주차장이 없어 인근 공영주차장 또는 분당선 망포역 대중교통이 더 편합니다.</p></details>
+<details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 5곳 모두 주차 가능한가요?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. 부분적으로 가능합니다. <strong>판차이짬뽕·신선설농탕·스타벅스 수원망포DT점</strong>은 전용/연계 주차장이 있고, <strong>서울24시감자탕해장국·와요쇼쿠</strong>는 전용 주차장이 없어 인근 공영주차장 또는 분당선 망포역 대중교통이 더 편합니다.</p></details>
 
 <details open style="margin:10px 0;padding:14px 18px;background:#f7f6f1;border:1px solid rgba(0,0,0,.08);border-radius:10px"><summary style="font-weight:600;cursor:pointer;color:#1a1a1a;font-size:14px">Q. 평점이 낮은 식당도 포함된 이유는?</summary><p style="margin:12px 0 0;color:#5f5e5a;line-height:1.8;font-size:13.5px">A. <strong>서울24시감자탕해장국</strong>은 평점 3.8점으로 본 가이드 평균(4.0) 이하지만, <strong>리뷰 1,397건</strong>으로 표본이 가장 많고 24시간 영업이라는 차별점이 명확해 해장·새벽 식사 옵션으로 포함했습니다. 평점만 기준이면 <strong>판차이짬뽕</strong>(4.3)이 1순위입니다.</p></details>
 </div>`
