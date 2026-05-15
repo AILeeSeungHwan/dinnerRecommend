@@ -22,11 +22,65 @@ export async function getStaticProps({ params }) {
   const r = restaurants.find(x => x.name === name)
   if (!r) return { notFound: true }
 
-  const similar = restaurants
-    .filter(x => x.name !== r.name && Array.isArray(x.cat) && Array.isArray(r.cat) && x.cat.some(c => r.cat.includes(c)))
-    .sort((a, b) => b.rt - a.rt)
-    .slice(0, 4)
-    .map(x => ({ name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null, imageUrl: x.imageUrl || '', cat: Array.isArray(x.cat) ? x.cat : [] }))
+  // 같은 카테고리 후보군 (자기 자신 제외, 평점·리뷰 있는 곳)
+  const sameCat = restaurants.filter(x =>
+    x.name !== r.name
+    && Array.isArray(x.cat) && Array.isArray(r.cat)
+    && x.cat.some(c => r.cat.includes(c))
+    && (x.rt > 0 || x.cnt > 0)
+  )
+
+  const refLo = parseInt((r.priceRange || '').split('~')[0]) || 0
+  const refHi = parseInt((r.priceRange || '').split('~')[1]) || 0
+  const distSq = (a, b) => Math.pow((a.lat||0)-(b.lat||0), 2) + Math.pow((a.lng||0)-(b.lng||0), 2)
+
+  const picks = []
+  const used = new Set()
+
+  // 1) 같은 카테고리 최고 평점 (인기·평판 검증)
+  const best = [...sameCat].sort((a,b) => (b.rt - a.rt) || (b.cnt - a.cnt))[0]
+  if (best) { picks.push({ ...best, reason: `평점 ${best.rt}점·리뷰 ${(best.cnt||0).toLocaleString()}건 — 카테고리 상위권` }); used.add(best.name) }
+
+  // 2) 비슷한 가격대 (예산 매칭)
+  if (refLo) {
+    const priceMatch = sameCat
+      .filter(x => !used.has(x.name) && x.priceRange)
+      .map(x => {
+        const lo = parseInt(x.priceRange.split('~')[0]) || 0
+        return { x, diff: Math.abs(lo - refLo) }
+      })
+      .filter(o => o.diff <= Math.max(refLo * 0.4, 8000))
+      .sort((a,b) => a.diff - b.diff)[0]
+    if (priceMatch) {
+      const lo = parseInt(priceMatch.x.priceRange.split('~')[0])
+      const hi = parseInt(priceMatch.x.priceRange.split('~')[1]) || lo
+      picks.push({ ...priceMatch.x, reason: `비슷한 가격대 (1인 ${lo.toLocaleString()}~${hi.toLocaleString()}원)` })
+      used.add(priceMatch.x.name)
+    }
+  }
+
+  // 3) 가까운 거리 (도보권)
+  if (r.lat && r.lng) {
+    const near = sameCat
+      .filter(x => !used.has(x.name) && x.lat && x.lng)
+      .sort((a,b) => distSq(a, r) - distSq(b, r))[0]
+    if (near) { picks.push({ ...near, reason: '도보 이동 가능한 가까운 거리' }); used.add(near.name) }
+  }
+
+  // 부족분: 평점 높은 것으로 채우기
+  if (picks.length < 3) {
+    for (const x of [...sameCat].sort((a,b) => b.rt - a.rt)) {
+      if (used.has(x.name)) continue
+      picks.push({ ...x, reason: `평점 ${x.rt}점, 같은 카테고리 추천` })
+      used.add(x.name)
+      if (picks.length >= 3) break
+    }
+  }
+
+  const similar = picks.slice(0, 3).map(x => ({
+    name: x.name, type: x.type, e: x.e, rt: x.rt, priceRange: x.priceRange || null,
+    imageUrl: x.imageUrl || '', cat: Array.isArray(x.cat) ? x.cat : [], reason: x.reason || '',
+  }))
 
   const govData = await fetchGovData('gangnam', r.name)
   return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 86400 }
@@ -665,9 +719,9 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
         {/* 비슷한 맛집 */}
         {similar?.length > 0 && (
           <>
-        <h2 style={h2style}>🍽️ 강남역 {r.type} 맛집 더 보기</h2>
+        <h2 style={h2style}>🍽️ 강남역 {(r.cat && r.cat[0]) || r.type} 맛집 더 보기</h2>
             <p style={pstyle}>
-              <strong>{r.name}</strong>와 비슷한 강남역 {r.type} 맛집을 더 추천해드립니다.
+              <strong>{r.name}</strong>와 같은 카테고리에서 평점·가격·거리 기준으로 한 곳씩 골라봤습니다.
             </p>
             <div style={{ display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(180px, 1fr))', gap:12, marginBottom:28 }}>
               {similar.map((s, i) => (

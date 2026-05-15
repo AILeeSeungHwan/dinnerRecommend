@@ -285,7 +285,16 @@ export function SimilarRestaurantCard({ restaurant: s, regionPath }) {
             backdropFilter:'blur(8px)',
             border:'1px solid rgba(255,255,255,.3)',
             fontSize:'.72rem', fontWeight:700,
+            marginBottom: s.reason ? 6 : 0,
           }}>💰 {priceLabel}</div>
+          {s.reason && (
+            <div style={{
+              fontSize:'.7rem', lineHeight:1.4,
+              color:'rgba(255,255,255,.92)',
+              textShadow:'0 1px 3px rgba(0,0,0,.55)',
+              marginTop:2,
+            }}>✨ {s.reason}</div>
+          )}
         </div>
       </div>
     </a>
