@@ -417,7 +417,7 @@ export function SimilarRestaurantCard({ restaurant: s, regionPath }) {
     <a href={href} style={{ textDecoration:'none', display:'block' }}>
       <div style={{
         position:'relative', borderRadius:16, overflow:'hidden',
-        aspectRatio:'4 / 5', minHeight:280,
+        aspectRatio:'3 / 4', height:'100%',
         background: img ? `url(${img}) center/cover no-repeat` : fb.grad,
         boxShadow:'0 6px 16px rgba(0,0,0,.12)',
         cursor:'pointer',

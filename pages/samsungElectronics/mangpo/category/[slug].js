@@ -274,7 +274,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         <h2 style={{ fontSize:'1rem', fontWeight:700, marginBottom:16, color:'var(--muted)' }}>
           ⭐ 평점 순 랭킹
         </h2>
-        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))", gap:12 }}>
+        <div className="thumb-grid">
           {sorted.slice(0, visibleCount).map((r, i) => (
             <SimilarRestaurantCard key={i} restaurant={{ ...r, reason: r.rt > 0 ? `평점 ${r.rt}점·리뷰 ${(r.cnt||0).toLocaleString()}건` : `리뷰 ${(r.cnt||0).toLocaleString()}건` }} regionPath="/samsungElectronics/mangpo" />
           ))}

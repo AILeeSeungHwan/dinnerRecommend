@@ -2382,7 +2382,7 @@ function BrowseTab() {
             {cat}{activeCat===cat?` (${filtered.length})`:''}</button>
         ))}
       </div>
-      <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))", gap:12 }}>
+      <div className="thumb-grid">
         {visible.map((r,i)=>(
           <React.Fragment key={i}>
             <SimilarRestaurantCard restaurant={{ ...r, reason: r.rt > 0 ? `평점 ${r.rt}점·리뷰 ${(r.cnt||0).toLocaleString()}건` : `리뷰 ${(r.cnt||0).toLocaleString()}건` }} regionPath="/dinner/samseong" />
