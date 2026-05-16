@@ -60,11 +60,16 @@ def search_daum(name, addr_hint=''):
     items = re.split(r'(?=<a href="https://place\.map\.kakao\.com)', html)
     rate_pat = re.compile(r'<span class="ico-g ico_star">평점</span>([\d.]+)\s*\((\d+)\)')
     review_pat = re.compile(r'리뷰\s*([\d,]+)')
-    title_pat = re.compile(r'<strong class="tit-g">(.*?)</strong>', re.DOTALL)
+    title_pat = re.compile(r'<strong class="tit-g[^"]*">(.*?)</strong>', re.DOTALL)
 
     def norm(s):
         return re.sub(r'\s+', '', s)
+    def core(s):
+        # 지점·접미 제거 후 핵심 상호만
+        s = re.sub(r'\s*(\d+호점|본점|직영점|신관|별관|[가-힣A-Za-z]{1,6}점)\s*$', '', s.strip())
+        return norm(s)
     target = norm(name)
+    tcore = core(name)
 
     def extract(item):
         m_rt = rate_pat.search(item)
@@ -79,19 +84,22 @@ def search_daum(name, addr_hint=''):
             cnt = 0
         return rt, cnt
 
-    # 1) 식당명 정확 매칭 카드 우선
+    # 식당명 정확 매칭 카드만 신뢰 (fallback 첫 카드 = 다른 식당 오매칭이라 제거)
     for item in items[1:]:
         m_title = title_pat.search(item)
         if not m_title: continue
         card_name = norm(re.sub(r'<[^>]+>', '', m_title.group(1)))
-        # 카테고리(fc_sub) 부분 제거 후 식당명만 비교
-        if target and (target in card_name or card_name.startswith(target[:max(4,len(target)//2)])):
+        cc = core(re.sub(r'<[^>]+>', '', m_title.group(1)))
+        # 핵심 상호 기준 매칭: 한쪽이 다른쪽 포함하거나, 3글자+ 접두 일치
+        ok = False
+        if tcore and cc:
+            if tcore in cc or cc in tcore:
+                ok = True
+            elif len(tcore) >= 3 and (cc.startswith(tcore[:3]) or tcore.startswith(cc[:3])) and abs(len(tcore)-len(cc)) <= 4:
+                ok = True
+        if ok:
             res = extract(item)
             if res: return res
-    # 2) fallback: 첫 평점 카드
-    for item in items[1:]:
-        res = extract(item)
-        if res: return res
     return None, None
 
 def load_region(region):
@@ -125,20 +133,21 @@ def process_region(region):
         if name in done: continue
         addr = r.get('addr', '')
         rating, cnt = search_daum(name, addr)
+        if 'naverCnt' not in r:
+            r['naverCnt'] = r.get('cnt', 0)
         if rating is not None:
-            # 1) naverCnt 백업 (1회만)
-            if 'naverCnt' not in r:
-                r['naverCnt'] = r.get('cnt', 0)
-            # 2) daumRt, daumCnt 별도 저장
             r['daumRt'] = rating
             r['daumCnt'] = cnt
-            # 3) rt = daumRt (다음 우선)
             r['rt'] = rating
-            # 4) cnt = naverCnt + daumCnt 합산
             r['cnt'] = (r.get('naverCnt', 0) or 0) + cnt
             r['ratingSource'] = 'merged' if r.get('naverCnt', 0) > 0 else 'daum'
             updated_rt += 1
             if cnt > 0: updated_cnt += 1
+        else:
+            # 다음 매칭 실패 → 부정확한 원본 평점 대신 0 (정직)
+            r['daumRt'] = 0; r['daumCnt'] = 0
+            r['rt'] = 0; r['cnt'] = 0
+            r['ratingSource'] = 'none' 
             if i % 50 == 0 or updated_rt <= 5:
                 log(f'  [{i}/{len(arr)}] {name}: rt={rating}, cnt={r["cnt"]} (네이버 {r["naverCnt"]} + 다음 {cnt})')
         done.add(name)
