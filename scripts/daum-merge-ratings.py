@@ -45,7 +45,8 @@ def http_get(url, timeout=12):
     except: return ''
 
 def search_daum(name, addr_hint=''):
-    """다음 모바일 검색에서 (rating, reviewCount) 반환. 실패 시 (None, None)."""
+    """다음 모바일 검색에서 (rating, reviewCount) 반환. 실패 시 (None, None).
+    daum-rating-crawl.py의 검증된 카드 파싱 로직 이식."""
     addr_part = ''
     if addr_hint:
         m = re.search(r'(\S+동|\S+구)', addr_hint)
@@ -54,15 +55,41 @@ def search_daum(name, addr_hint=''):
     url = f'https://m.search.daum.net/search?w=tot&q={urllib.parse.quote(q)}'
     html = http_get(url)
     if not html: return None, None
-    # 평점 추출: <span class="num_rate">4.3</span> 또는 평점 수치 패턴
-    m_rt = re.search(r'(?:num_rate|tit_rate|평점)["\'>\s]*?(\d\.\d)', html)
-    if not m_rt: return None, None
-    rating = float(m_rt.group(1))
-    if rating < 1 or rating > 5: return None, None
-    # 리뷰 수: 리뷰 N건 / N건 / num_review 등
-    m_cnt = re.search(r'(?:리뷰\s*|num_review[^>]*?>\s*)(\d{1,5})\s*건', html)
-    cnt = int(m_cnt.group(1)) if m_cnt else 0
-    return rating, cnt
+
+    # 카카오맵 장소 카드 단위로 분리 (place.map.kakao.com 링크 기준)
+    items = re.split(r'(?=<a href="https://place\.map\.kakao\.com)', html)
+    rate_pat = re.compile(r'<span class="ico-g ico_star">평점</span>([\d.]+)\s*\((\d+)\)')
+    review_pat = re.compile(r'리뷰\s*([\d,]+)')
+    title_pat = re.compile(r'<strong class="tit-g">(.*?)</strong>', re.DOTALL)
+
+    def norm(s):
+        return re.sub(r'\s+', '', s)
+    target = norm(name)
+
+    def extract(item):
+        m_rt = rate_pat.search(item)
+        if not m_rt: return None
+        rt = float(m_rt.group(1))
+        if not (1 <= rt <= 5): return None
+        rating_votes = int(m_rt.group(2))
+        m_rv = review_pat.search(item)
+        cnt = int(m_rv.group(1).replace(',', '')) if m_rv else rating_votes
+        return rt, cnt
+
+    # 1) 식당명 정확 매칭 카드 우선
+    for item in items[1:]:
+        m_title = title_pat.search(item)
+        if not m_title: continue
+        card_name = norm(re.sub(r'<[^>]+>', '', m_title.group(1)))
+        # 카테고리(fc_sub) 부분 제거 후 식당명만 비교
+        if target and (target in card_name or card_name.startswith(target[:max(4,len(target)//2)])):
+            res = extract(item)
+            if res: return res
+    # 2) fallback: 첫 평점 카드
+    for item in items[1:]:
+        res = extract(item)
+        if res: return res
+    return None, None
 
 def load_region(region):
     p = os.path.join(BASE, 'data', f'{region}.js')
