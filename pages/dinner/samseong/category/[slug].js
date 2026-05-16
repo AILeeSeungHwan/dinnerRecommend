@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import AdUnit from '../../../../components/AdUnit'
 import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/samseong'
+import { SimilarRestaurantCard } from '../../../../components/RestaurantInsights'
 
 const CATEGORY_MAP = {
   meat:     { name: '고기·한우',        emoji: '🥩', cats: ['고기구이'],              tags: ['한우','갈비','삼겹살','목살','항정살'],  keywords: '삼성역 한우, 삼성역 고기집, 삼성동 BBQ, 코엑스 고기구이' },
@@ -47,7 +48,7 @@ export async function getStaticProps({ params }) {
       category,
       catInfo,
       restaurants: filtered.map(r => ({
-        name: r.name, type: r.type, e: r.e,
+        name: r.name, imageUrl: r.imageUrl || "", type: r.type, e: r.e,
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
         priceRange: r.priceRange || null, cat: r.cat || [],
@@ -320,25 +321,9 @@ export default function CategoryPage({ category, catInfo, restaurants }) {
         <h2 style={{ fontSize:'1rem', fontWeight:700, marginBottom:16, color:'var(--muted)' }}>
           ⭐ 평점 순 랭킹
         </h2>
-        <div className="restaurant-grid">
+        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(180px, 1fr))", gap:12 }}>
           {sortedByRating.slice(0, visibleCount).map((r, i) => (
-            <React.Fragment key={i}>
-              <Link href={`/dinner/samseong/restaurant/${encodeURIComponent(r.name)}`}>
-                <div className="restaurant-card">
-                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
-                  <div className="card-name">{r.e} {r.name}</div>
-                  <span style={{ fontSize:'.75rem', color:'var(--muted)', flexShrink:0 }}>#{i+1}</span>
-                </div>
-                <div className="card-meta">
-                  <span className="tag">{r.type}</span>
-                  <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()})</span>
-                  {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
-                </div>
-                <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
-                <div style={{ marginTop:8 }}>
-                    </div>
-              </div>
-            </Link></React.Fragment>
+            <SimilarRestaurantCard key={i} restaurant={{ ...r, reason: r.rt > 0 ? `평점 ${r.rt}점·리뷰 ${(r.cnt||0).toLocaleString()}건` : `리뷰 ${(r.cnt||0).toLocaleString()}건` }} regionPath="/dinner/samseong" />
           ))}
         </div>
 

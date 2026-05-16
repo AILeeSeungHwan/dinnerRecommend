@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import AdUnit from '../../../../components/AdUnit'
 import MultiplexAd from '../../../../components/MultiplexAd'
 import restaurants from '../../../../data/mangpo'
+import { SimilarRestaurantCard } from '../../../../components/RestaurantInsights'
 
 
 // ── 주사위 오버레이 ──────────────────────────────────────────────
@@ -87,7 +88,7 @@ export async function getStaticProps({ params }) {
       slug,
       catInfo,
       restaurants: filtered.map(r => ({
-        name: r.name, type: r.type, e: r.e,
+        name: r.name, imageUrl: r.imageUrl || "", type: r.type, e: r.e,
         rt: r.rt, cnt: r.cnt, addr: r.addr,
         hours: r.hours, tags: r.tags || [],
         priceRange: r.priceRange || null, cat: r.cat || [],
@@ -273,23 +274,9 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
         <h2 style={{ fontSize:'1rem', fontWeight:700, marginBottom:16, color:'var(--muted)' }}>
           ⭐ 평점 순 랭킹
         </h2>
-        <div className="restaurant-grid">
+        <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(180px, 1fr))", gap:12 }}>
           {sorted.slice(0, visibleCount).map((r, i) => (
-            <React.Fragment key={i}>
-              <Link href={`/samsungElectronics/mangpo/restaurant/${encodeURIComponent(r.name)}`}>
-                <div className="restaurant-card">
-                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', marginBottom:6 }}>
-                  <div className="card-name">{r.e} {r.name}</div>
-                  <span style={{ fontSize:'.75rem', color:'var(--muted)', flexShrink:0 }}>#{i+1}</span>
-                </div>
-                <div className="card-meta">
-                  <span className="tag">{r.type}</span>
-                  <span className="tag rating">⭐ {r.rt} ({r.cnt?.toLocaleString()})</span>
-                  {r.priceRange && <span className="tag price">💰 {fmtPrice(r.priceRange)}원</span>}
-                </div>
-                <div className="card-addr" style={{ marginBottom:6 }}>📍 {r.addr}</div>
-              </div>
-            </Link></React.Fragment>
+            <SimilarRestaurantCard key={i} restaurant={{ ...r, reason: r.rt > 0 ? `평점 ${r.rt}점·리뷰 ${(r.cnt||0).toLocaleString()}건` : `리뷰 ${(r.cnt||0).toLocaleString()}건` }} regionPath="/samsungElectronics/mangpo" />
           ))}
         </div>
         {visibleCount < sorted.length && (
