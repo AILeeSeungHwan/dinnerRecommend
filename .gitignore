@@ -8,3 +8,7 @@ public/images/restaurants/
 scripts/govdata/*.csv
 scripts/govdata/*.xlsx
 data/reviews_raw.json
+scripts/naver-data/daum-checkpoint-*.json
+scripts/naver-data/daum-merge-checkpoint-*.json
+scripts/naver-data/daum-progress.log
+scripts/naver-data/daum-merge.log
