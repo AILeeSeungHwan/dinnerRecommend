@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍲 국밥 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 470건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.5 · 리뷰 526건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~14,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 새벽 2시까지</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통 점심 한식 가운데 <strong>평점 4.3·리뷰 470건</strong>으로 표본·평점이 함께 안정적인 국밥집입니다. 영통동 998-6 아셈프라자 1층에 위치해 분당선 영통역에서 도보 접근이 편하고, <strong>02:00까지 영업</strong>이라 야근 직장인의 늦은 저녁·해장 옵션으로도 묶입니다. 단품(순대국 10,000원) 중심 회전이 빠른 매장이라 12시 피크에도 자리 잡기가 비교적 수월하며, 수육·족발 정식 13,000원선 메뉴까지 갖춰 한 끼 부담을 단계별로 조정할 수 있습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통 점심 한식 가운데 <strong>평점 3.5점·리뷰 526건</strong>으로 표본·평점이 함께 안정적인 국밥집입니다. 영통동 998-6 아셈프라자 1층에 위치해 분당선 영통역에서 도보 접근이 편하고, <strong>02:00까지 영업</strong>이라 야근 직장인의 늦은 저녁·해장 옵션으로도 묶입니다. 단품(순대국 10,000원) 중심 회전이 빠른 매장이라 12시 피크에도 자리 잡기가 비교적 수월하며, 수육·족발 정식 13,000원선 메뉴까지 갖춰 한 끼 부담을 단계별로 조정할 수 있습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물이 진하다 · 양이 푸짐하다 · 매장이 깔끔하다" 같은 평이 자주 언급되었습니다. 영통 직장인 점심·해장 양쪽 시나리오로 묶이는 식당이라는 점이 후기 키워드로 함께 잡힙니다.</p>
@@ -85,12 +85,12 @@ const post = {
 <img src="https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20161124_30%2F1479981398559lrvyP_JPEG%2F177074588658457_0.jpeg" alt="신선설농탕 수원영통점 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 888건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 939건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 8,000원~17,000원</span>
 <span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🏢 체인 표준</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">전국 체인 <strong>신선설농탕</strong>의 수원영통점입니다. 영통동 976-17에 위치해 영통역 도보 거리이며, <strong>10:00 영업 시작</strong>이라 늦은 아침·점심·이른 저녁까지 활용도가 넓습니다. 평점 4.1·리뷰 888건으로 본 가이드 5곳 중 두 번째로 많은 표본을 누적했고, "어린이 설농탕 8,000원"·"미역설농탕 14,000원" 등 가족 외식 메뉴까지 갖춰 1인 직장인부터 부모님과 함께 오는 가족까지 폭넓게 묶입니다. 정식 메뉴 표준화가 잘 되어 있어 첫 방문에도 메뉴 실패 확률이 낮은 편입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">전국 체인 <strong>신선설농탕</strong>의 수원영통점입니다. 영통동 976-17에 위치해 영통역 도보 거리이며, <strong>10:00 영업 시작</strong>이라 늦은 아침·점심·이른 저녁까지 활용도가 넓습니다. 평점 3.4점·리뷰 939건으로 본 가이드 5곳 중 두 번째로 많은 표본을 누적했고, "어린이 설농탕 8,000원"·"미역설농탕 14,000원" 등 가족 외식 메뉴까지 갖춰 1인 직장인부터 부모님과 함께 오는 가족까지 폭넓게 묶입니다. 정식 메뉴 표준화가 잘 되어 있어 첫 방문에도 메뉴 실패 확률이 낮은 편입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물 진하다 · 해장에 적합 · 매장 깔끔하다" 같은 평이 자주 언급되었습니다. 정식 구성이 표준화된 체인이라 만족도 편차가 적은 편입니다.</p>
@@ -130,12 +130,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">⭐ 평점 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.6 · 리뷰 299건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.2 · 리뷰 668건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 9,000원~20,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍱 런치 추천</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 4.6점</strong>은 본 가이드 5곳 중 가장 높은 수치입니다. 리뷰 299건으로 표본 크기는 중위권이지만 평점 분산이 좁아 만족도 편차가 적은 식당으로 묶입니다. 신동 398-39 A동 106호, <strong>11:30 런치 오픈</strong>이라 정확히 점심 한 시간에 맞춰 회전이 도는 매장이고, 카츠산도 9,000원 단품부터 모둠카츠 정식 20,000원까지 점심 예산을 단계별로 잡을 수 있습니다. 돈가스 단품 중심 매장이라 12시 피크에도 입장~퇴장 30분 안에 끝나는 편입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 4.2점</strong>은 본 가이드 5곳 중 가장 높은 수치입니다. 리뷰 668건으로 표본 크기는 중위권이지만 평점 분산이 좁아 만족도 편차가 적은 식당으로 묶입니다. 신동 398-39 A동 106호, <strong>11:30 런치 오픈</strong>이라 정확히 점심 한 시간에 맞춰 회전이 도는 매장이고, 카츠산도 9,000원 단품부터 모둠카츠 정식 20,000원까지 점심 예산을 단계별로 잡을 수 있습니다. 돈가스 단품 중심 매장이라 12시 피크에도 입장~퇴장 30분 안에 끝나는 편입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"히레가츠가 맛있다 · 치즈가츠 재방문 의사 · 단품 회전 빠르다" 같은 평이 자주 언급되었습니다. 시그니처 메뉴 만족도와 점심 회전 속도가 함께 묶이는 키워드입니다.</p>

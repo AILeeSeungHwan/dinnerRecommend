@@ -51,7 +51,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📍 코엑스몰 B1</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰 지하 1층에 위치한 중식당입니다. <strong>평점 4.9·리뷰 7,774건은 본 가이드 5곳 중 평점·표본 모두 1순위</strong>이며, 자장면·짬뽕·어향동고 단품 회전이 빠른 매장입니다. 11:00~21:30 영업으로 점심·저녁 모두 가능하고, 자장면이 1만원 안팎이라 1인 점심 한 끼에 부담이 적습니다. 코엑스몰 안 매장이라 환승 동선이 짧아 직장인 점심에 매칭이 좋고, 가족 식사·데이트 평가까지 함께 매칭되어 주말 점심 옵션으로도 묶기 자연스럽습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰 지하 1층에 위치한 중식당입니다. <strong>평점 4.9점·리뷰 7,774건은 본 가이드 5곳 중 평점·표본 모두 1순위</strong>이며, 자장면·짬뽕·어향동고 단품 회전이 빠른 매장입니다. 11:00~21:30 영업으로 점심·저녁 모두 가능하고, 자장면이 1만원 안팎이라 1인 점심 한 끼에 부담이 적습니다. 코엑스몰 안 매장이라 환승 동선이 짧아 직장인 점심에 매칭이 좋고, 가족 식사·데이트 평가까지 함께 매칭되어 주말 점심 옵션으로도 묶기 자연스럽습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 양이 많다 · 대기 가치 있다" 같은 평이 자주 언급되었습니다. 점심 피크 웨이팅이 있지만 회전이 빠르다는 점이 후기 키워드로 함께 묶입니다.</p>

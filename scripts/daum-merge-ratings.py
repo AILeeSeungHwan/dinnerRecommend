@@ -74,6 +74,9 @@ def search_daum(name, addr_hint=''):
         rating_votes = int(m_rt.group(2))
         m_rv = review_pat.search(item)
         cnt = int(m_rv.group(1).replace(',', '')) if m_rv else rating_votes
+        # 다음 '리뷰 999+' 표기를 999로 자른 오파싱 방어 → 신뢰 불가로 0
+        if cnt == 999:
+            cnt = 0
         return rt, cnt
 
     # 1) 식당명 정확 매칭 카드 우선

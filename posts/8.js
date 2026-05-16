@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#7C3AED;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🎂 기념일 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,272건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.8 · 리뷰 1,334건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 42,500원~198,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 사진 명소</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">테헤란로 521 <strong>그랜드 인터컨티넨탈 서울 파르나스 1층</strong>에 위치한 뷔페형 다이닝입니다. 평점 4.5·리뷰 1,272건이 누적되었으며, 사진 명소·웨이팅 맛집·단체 가능 평가가 함께 묶여 있어 기념일·프러포즈·가족 모임 자리에 매칭이 좋습니다. 주중 점심 173,000원·주중 저녁 198,000원으로 1인 단가가 본 가이드 5곳 중 가장 높지만, 랍스터·양갈비를 포함한 그릴 라인업으로 후기 만족도가 안정적입니다. 18:00 영업이 표기되어 있으나 점심 타임도 운영되므로, 본격 데이트 자리는 사전 예약이 필수입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">테헤란로 521 <strong>그랜드 인터컨티넨탈 서울 파르나스 1층</strong>에 위치한 뷔페형 다이닝입니다. 평점 4.8점·리뷰 1,334건이 누적되었으며, 사진 명소·웨이팅 맛집·단체 가능 평가가 함께 묶여 있어 기념일·프러포즈·가족 모임 자리에 매칭이 좋습니다. 주중 점심 173,000원·주중 저녁 198,000원으로 1인 단가가 본 가이드 5곳 중 가장 높지만, 랍스터·양갈비를 포함한 그릴 라인업으로 후기 만족도가 안정적입니다. 18:00 영업이 표기되어 있으나 점심 타임도 운영되므로, 본격 데이트 자리는 사전 예약이 필수입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 서비스 친절하다 · 분위기 좋다 · 랍스터·양갈비 인기" 같은 평이 자주 언급되었습니다. 호텔 다이닝 특유의 서비스 만족도가 후기 키워드로 함께 묶입니다.</p>
@@ -91,7 +91,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">👥 단체 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼성동 149-23, 평점 4.9·리뷰 250건이 누적된 한식 고기구이 매장입니다. <strong>한우++ 절편 등심·설화 양념등심·새우살</strong>이 시그니처 라인이며, 우도옥만의 절편 커팅 방식으로 꽃등심을 절편처럼 잘라내는 메뉴가 매장 특징입니다. 한우++곰탕 15,000원으로 단가 부담을 줄인 선택지도 있어 첫 데이트에는 단품 위주, 기념일에는 코스 위주로 자연스럽게 나뉩니다. 11:30 영업 시작이라 점심 데이트도 가능하며, 단체석 운영으로 양가 식사 자리에도 묶기 좋습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼성동 149-23, 평점 4.9점·리뷰 250건이 누적된 한식 고기구이 매장입니다. <strong>한우++ 절편 등심·설화 양념등심·새우살</strong>이 시그니처 라인이며, 우도옥만의 절편 커팅 방식으로 꽃등심을 절편처럼 잘라내는 메뉴가 매장 특징입니다. 한우++곰탕 15,000원으로 단가 부담을 줄인 선택지도 있어 첫 데이트에는 단품 위주, 기념일에는 코스 위주로 자연스럽게 나뉩니다. 11:30 영업 시작이라 점심 데이트도 가능하며, 단체석 운영으로 양가 식사 자리에도 묶기 좋습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"재료 신선하다 · 서비스 친절하다" 같은 평이 자주 언급되었습니다. 한우 등급·커팅 정성도가 후기 키워드로 함께 묶이는 매장입니다.</p>
@@ -133,7 +133,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📍 코엑스몰</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰에 위치한 양식 매장입니다. 평점 4.3·리뷰 1,054건이 누적되었고, 데이트·가족 식사·리뷰 많음·주차 가능 평가가 함께 매칭됩니다. <strong>피자 한 판에 파스타 한 접시</strong>로 시작가 9,900원·시그니처 25,900원선의 1만원대 데이트 비용을 잡을 수 있어, 점심 데이트 또는 코엑스몰 쇼핑·아쿠아리움·별마당 도서관 일정과 묶기 좋습니다. 22:00 영업이라 저녁 코스로도 가능합니다. 코엑스몰 안 매장 특성상 12~13시 피크엔 웨이팅이 생길 수 있어 11:30 또는 13:30 입장이 더 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰에 위치한 양식 매장입니다. 평점 4.3점·리뷰 1,054건이 누적되었고, 데이트·가족 식사·리뷰 많음·주차 가능 평가가 함께 매칭됩니다. <strong>피자 한 판에 파스타 한 접시</strong>로 시작가 9,900원·시그니처 25,900원선의 1만원대 데이트 비용을 잡을 수 있어, 점심 데이트 또는 코엑스몰 쇼핑·아쿠아리움·별마당 도서관 일정과 묶기 좋습니다. 22:00 영업이라 저녁 코스로도 가능합니다. 코엑스몰 안 매장 특성상 12~13시 피크엔 웨이팅이 생길 수 있어 11:30 또는 13:30 입장이 더 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 빠네 파스타·캘리포니아 피자 인기" 같은 평이 자주 언급되었습니다. 단품 피자+파스타 조합 만족도가 후기 키워드로 함께 묶이는 매장입니다.</p>
@@ -173,7 +173,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📍 코엑스몰 B1</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰 지하 1층, <strong>평점 4.9·리뷰 7,774건</strong>의 중식당입니다. 본 가이드 5곳 중 평점·리뷰 표본 모두 1순위로, 첫 데이트나 만난 지 얼마 안 된 사이에 단가 부담 없이 검증된 식당을 고르고 싶을 때 매칭이 좋습니다. 자장면·짬뽕 1만원 안팎·어향동고 18,000원 같은 단품 위주이며, 11:00~21:30 영업으로 점심 데이트·저녁 데이트 모두 가능합니다. 데이트·기분 좋음·혼밥·회식 평가가 모두 매칭되어 있어 사이드 위주 캐주얼 자리에도 잘 맞습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰 지하 1층, <strong>평점 4.9점·리뷰 7,774건</strong>의 중식당입니다. 본 가이드 5곳 중 평점·리뷰 표본 모두 1순위로, 첫 데이트나 만난 지 얼마 안 된 사이에 단가 부담 없이 검증된 식당을 고르고 싶을 때 매칭이 좋습니다. 자장면·짬뽕 1만원 안팎·어향동고 18,000원 같은 단품 위주이며, 11:00~21:30 영업으로 점심 데이트·저녁 데이트 모두 가능합니다. 데이트·기분 좋음·혼밥·회식 평가가 모두 매칭되어 있어 사이드 위주 캐주얼 자리에도 잘 맞습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 양 많다 · 대기 가치 있다" 같은 평이 자주 언급되었습니다. 데이트 자리에 단가·만족도가 함께 맞춰지는 후기 패턴입니다.</p>

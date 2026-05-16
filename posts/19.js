@@ -91,12 +91,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#7F1D1D;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍻 회식 표본 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.9 · 리뷰 774건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 2.7 · 리뷰 972건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~20,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">⏳ 피크 대기 있음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9는 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 774건</strong>은 망포 회식 카테고리 표본 1위로, 평점이 살짝 낮은 이유는 표본이 큰 식당에서 자연스럽게 호불호가 함께 누적되었기 때문으로 해석됩니다. 봉영로1482번길에 위치하며 <strong>고기구이·중식·한식·해산물</strong>이 메뉴 카테고리에 모두 포함되는 종합 회식 매장이라 부서원 취향이 갈리는 자리에 메뉴 협의가 빠릅니다. 영업이 21시까지라 1차 회식 위주 자리에 잘 맞고, "피크 대기 있음" 평가가 함께 매칭되니 평일 18시·금요일 18시는 30~40분 전 입장이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9는 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 972건</strong>은 망포 회식 카테고리 표본 1위로, 평점이 살짝 낮은 이유는 표본이 큰 식당에서 자연스럽게 호불호가 함께 누적되었기 때문으로 해석됩니다. 봉영로1482번길에 위치하며 <strong>고기구이·중식·한식·해산물</strong>이 메뉴 카테고리에 모두 포함되는 종합 회식 매장이라 부서원 취향이 갈리는 자리에 메뉴 협의가 빠릅니다. 영업이 21시까지라 1차 회식 위주 자리에 잘 맞고, "피크 대기 있음" 평가가 함께 매칭되니 평일 18시·금요일 18시는 30~40분 전 입장이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"단체석 수용 좋다 · 메뉴가 다양하다 · 피크에 대기 있다" 같은 평이 자주 언급되었습니다. 회식 단체 수용력과 대기열이라는 두 축이 후기 키워드로 함께 누적되는 식당입니다.</p>

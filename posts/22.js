@@ -98,7 +98,7 @@ const post = {
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 490-9 동선의 일식 백합 샤브샤브 매장입니다. <strong>너와집 정식 39,000원·종일 백합 정식 45,000원·백합특선 59,000원·백합진수 79,000원</strong>으로 코스 단가가 단계별로 명확해 자리 격에 맞춰 선택이 쉽고, 예약·주차 모두 가능해 임원 회식·고객 접대 사전 준비에 부담이 적습니다. 17:00 영업 시작이라 디너 접대 시간대 매칭이 깔끔하고, 따뜻한 한 끼 시나리오라 가을·겨울·우천 시 접대 자리에도 잘 맞습니다. 평점 4.1 · 리뷰 400건이 누적되어 표본 안정성도 확보됩니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 490-9 동선의 일식 백합 샤브샤브 매장입니다. <strong>너와집 정식 39,000원·종일 백합 정식 45,000원·백합특선 59,000원·백합진수 79,000원</strong>으로 코스 단가가 단계별로 명확해 자리 격에 맞춰 선택이 쉽고, 예약·주차 모두 가능해 임원 회식·고객 접대 사전 준비에 부담이 적습니다. 17:00 영업 시작이라 디너 접대 시간대 매칭이 깔끔하고, 따뜻한 한 끼 시나리오라 가을·겨울·우천 시 접대 자리에도 잘 맞습니다. 평점 4.1점·리뷰 400건이 누적되어 표본 안정성도 확보됩니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물 깊다 · 코스 구성 충실 · 매장 분위기 차분하다" 같은 평이 자주 언급되었습니다. 코스 단가 명확성과 접대 자리 분위기가 함께 묶이는 키워드입니다.</p>
@@ -135,7 +135,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥩 한우 단품 접대</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.0 · 리뷰 216건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 2.2 · 리뷰 237건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 53,000~85,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
@@ -186,7 +186,7 @@ const post = {
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">서현동 248-2 2층 203호, 분당선 서현역 도보 동선의 한식 보쌈·낙지 매장입니다. <strong>오봉집 낙지스페셜·매생이연포보쌈 각 59,000원·오봉집 제낙스페셜 57,000원·오봉집 제육스페셜 55,000원</strong>으로 접대 단가 라인이 명확하고, 33,000원선 매생이연포탕·오봉집 보쌈(부드러운 가브리살)·얼큰낙지전골 32,000원선까지 두 사람 접대에서 4~6인 부서 단위 식사까지 단가 폭이 넓습니다. 평점 4.3 · 리뷰 208건이 누적되어 표본 안정성도 확보되고, 주차 가능 표시까지 있어 차량 동선 접대에도 부담이 적습니다. 16:00 영업 시작이라 디너 접대 시간대 매칭이 자연스럽습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">서현동 248-2 2층 203호, 분당선 서현역 도보 동선의 한식 보쌈·낙지 매장입니다. <strong>오봉집 낙지스페셜·매생이연포보쌈 각 59,000원·오봉집 제낙스페셜 57,000원·오봉집 제육스페셜 55,000원</strong>으로 접대 단가 라인이 명확하고, 33,000원선 매생이연포탕·오봉집 보쌈(부드러운 가브리살)·얼큰낙지전골 32,000원선까지 두 사람 접대에서 4~6인 부서 단위 식사까지 단가 폭이 넓습니다. 평점 4.3점·리뷰 208건이 누적되어 표본 안정성도 확보되고, 주차 가능 표시까지 있어 차량 동선 접대에도 부담이 적습니다. 16:00 영업 시작이라 디너 접대 시간대 매칭이 자연스럽습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 서비스 친절하다 · 보쌈·낙지 단가 명확" 같은 평이 자주 언급되었습니다. 한식 보쌈 접대 라인업과 매장 응대 만족도가 함께 묶이는 키워드입니다.</p>
