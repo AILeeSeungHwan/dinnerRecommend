@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 import Layout from '../../components/Layout'
 import AdUnit from '../../components/AdUnit'
 import restaurants from '../../data/suji'
+import { SimilarRestaurantCard } from '../../components/RestaurantInsights'
 import posts from '../../data/posts'
 import PostThumbnail from '../../components/PostThumbnail'
 
@@ -2255,22 +2256,12 @@ function BrowseTab() {
             {cat}{activeCat===cat?` (${filtered.length})`:''}</button>
         ))}
       </div>
-      <div className="restaurant-grid">
+      <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(150px, 1fr))", gap:12 }}>
         {visible.map((r,i)=>(
           <React.Fragment key={i}>
-            <Link href={`/suji/restaurant/${encodeURIComponent(r.name)}`}>
-              <div className="restaurant-card">
-                <div className="card-name">{r.e} {r.name}</div>
-                <div className="card-meta">
-                  <span className="tag">{r.type}</span>
-                  <span className="tag rating">⭐{r.rt}</span>
-                  {r.priceRange&&<span className="tag price">💰{fmtPrice(r.priceRange)}원</span>}
-                </div>
-                <div className="card-addr">📍 {r.addr}</div>
-              </div>
-            </Link>
+            <SimilarRestaurantCard restaurant={{ ...r, reason: r.rt > 0 ? `평점 ${r.rt}점·리뷰 ${(r.cnt||0).toLocaleString()}건` : `리뷰 ${(r.cnt||0).toLocaleString()}건` }} regionPath="/suji" />
             {(i + 1) % 12 === 0 && (
-              <div style={{ gridColumn:'1 / -1' }}>
+              <div style={{ gridColumn:"1 / -1" }}>
                 <AdUnit slot="9138210374" format="auto" />
               </div>
             )}
