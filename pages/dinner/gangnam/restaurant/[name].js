@@ -85,7 +85,7 @@ export async function getStaticProps({ params }) {
   }))
 
   const govData = await fetchGovData('gangnam', r.name)
-  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 86400 }
+  return { props: { restaurant: { ...r, rv: r.rv || [], tags: r.tags || [], moods: r.moods || [], scene: r.scene || [], cat: r.cat || [], keywords: r.keywords || [], menuItems: r.menuItems || [], tel: r.tel || '', parking: r.parking || false, reservation: r.reservation || false, naverBlogCnt: r.naverBlogCnt || 0, naverPlaceId: r.naverPlaceId || '', naverUrl: r.naverUrl || '', imageUrl: r.imageUrl || '', imageUrl2: r.imageUrl2 || '', imageUrl3: r.imageUrl3 || '', imageUrl4: r.imageUrl4 || '', imageUrl5: r.imageUrl5 || '', imageUrl6: r.imageUrl6 || '', imageUrl7: r.imageUrl7 || '', imageUrl8: r.imageUrl8 || '' }, similar, govData }, revalidate: 3600 }
 }
 
 const CAT_TO_SLUG = {
