@@ -21,7 +21,7 @@ def log(m):
 
 def get(url, timeout=12):
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language':'ko-KR,ko;q=0.9'})
+        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language':'ko-KR,ko;q=0.9', 'Referer':'https://m.map.kakao.com/', 'Accept':'text/html,application/xhtml+xml'})
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return r.read().decode('utf-8','ignore')
     except Exception:
@@ -57,22 +57,31 @@ def naver_visitor(name, region_kw):
         return None
     return {'naverCnt': vc, 'blogCnt': bc, 'price': price}
 
-def daum_rating(name, addr=''):
-    ap = ''
-    mm = re.search(r'(\S+동|\S+구)', addr or '')
-    if mm: ap = mm.group(1)
-    h = get('https://m.search.daum.net/search?w=tot&q=' + urllib.parse.quote(f'{name} {ap}'.strip()))
-    if not h: return 0, 0
-    # 식당명+동으로 검색 → 첫 ico_star 평점이 해당 식당 (검색 정확도로 신뢰)
-    mr = re.search(r'<span class="ico-g ico_star">평점</span>([\d.]+)\s*\((\d+)\)', h)
-    if not mr: return 0, 0
-    rt = float(mr.group(1))
-    if not (1 <= rt <= 5): return 0, 0
-    seg = h[mr.end():mr.end()+500]
-    mv = re.search(r'리뷰\s*([\d,]+)', seg) or re.search(r'리뷰\s*([\d,]+)', h)
-    c = int(mv.group(1).replace(',','')) if mv else int(mr.group(2))
-    if c == 999: c = 0
-    return rt, c
+def daum_rating(name, region_kw=''):
+    """카카오맵 m.map.kakao searchView — 식당명 매칭 카드의 (평점, 카카오리뷰수).
+    평점 없는 식당은 (0, 리뷰수). 검색어=식당명+지역."""
+    h = get('https://m.map.kakao.com/actions/searchView?q=' + urllib.parse.quote(f'{name} {region_kw}'.strip()))
+    if not h: return 0.0, 0
+    tcore = core(name)
+    cards = list(re.finditer(r'<strong class="tit_g">([^<]+)</strong>', h))
+    for idx, mt in enumerate(cards):
+        cc = core(mt.group(1))
+        ok = tcore and cc and (tcore in cc or cc in tcore or
+              (len(tcore) >= 3 and (cc.startswith(tcore[:3]) or tcore.startswith(cc[:3])) and abs(len(tcore) - len(cc)) <= 5))
+        if not ok:
+            continue
+        end = cards[idx + 1].start() if idx + 1 < len(cards) else mt.start() + 900
+        seg = h[mt.start():end]
+        rt = 0.0
+        mr = re.search(r'<em class="num_rate">([0-9.]+)</em>', seg)
+        if mr:
+            v = float(mr.group(1))
+            if 1 <= v <= 5:
+                rt = v
+        mc = re.search(r'리뷰\s*<span class="txt_num txt_num_end">\s*([0-9,]+)', seg)
+        c = int(mc.group(1).replace(',', '')) if mc else 0
+        return rt, c
+    return 0.0, 0
 
 def process(region):
     fp = os.path.join(BASE, 'data', f'{region}.js')
@@ -93,7 +102,7 @@ def process(region):
         if nm in done: continue
         nv = naver_visitor(nm, region_kw)
         time.sleep(random.uniform(*DELAY))
-        drt, dcnt = daum_rating(nm, r.get('addr',''))
+        drt, dcnt = daum_rating(nm, region_kw)
         time.sleep(random.uniform(*DELAY))
         ncnt = nv['naverCnt'] if nv else 0
         if 'naverCntOrig' not in r:
