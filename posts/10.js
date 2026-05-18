@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 1,370건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 84건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 7,500원~22,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>망포 가성비 5곳 중 평점·리뷰 양쪽 모두 1순위</strong>인 중식당입니다. 신동 486번지 1층, 분당선 망포역에서 도보로 접근 가능합니다. 리뷰 1,370건은 본 가이드 5곳 중 두 번째로 많은 표본이며, 평점 4.3은 가장 높습니다. 점심 회전이 빠른 단품 메뉴 중심 운영이라 12시 피크에도 자리 잡기가 수월하며, 10:00 영업 시작이라 점심 11시대 일찍 가시면 더 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>망포 가성비 5곳 중 평점·리뷰 양쪽 모두 1순위</strong>인 중식당입니다. 신동 486번지 1층, 분당선 망포역에서 도보로 접근 가능합니다. 리뷰 84건은 본 가이드 5곳 중 두 번째로 많은 표본이며, 평점 4.3은 가장 높습니다. 점심 회전이 빠른 단품 메뉴 중심 운영이라 12시 피크에도 자리 잡기가 수월하며, 10:00 영업 시작이라 점심 11시대 일찍 가시면 더 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"양이 많다 · 맛있다 · 분위기 깔끔하다" 같은 평이 자주 언급되었습니다. 단품·세트 메뉴 회전이 빠른 식당이라는 점이 후기 키워드로 묶입니다.</p>
@@ -90,12 +90,12 @@ const post = {
 <img src="https://blog.kakaocdn.net/dn/cOjvXJ/btsQep340Bd/VYBCU9jDDP8LuYrNHb5D80/img.jpg" alt="서울24시감자탕해장국 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 2.1 · 리뷰 1,473건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 2.1 · 리뷰 3,600건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 8,000원~11,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 심야 영업</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 2.1점은 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 1,473건</strong>은 망포 가성비 카테고리에서 가장 많은 표본이며, 평점이 다소 낮은 이유는 영업시간이 길어 호불호 갈리는 표본이 함께 쌓인 것으로 해석됩니다. <strong>망포에서 24시간 운영되는 거의 유일한 해장국집</strong>이라 야근·새벽 출근·숙취 다음 날 옵션으로 차별점이 명확합니다. 망포동 28-9, 네이버 블로그 후기 480건이 함께 누적되었습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 2.1점은 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 3,600건</strong>은 망포 가성비 카테고리에서 가장 많은 표본이며, 평점이 다소 낮은 이유는 영업시간이 길어 호불호 갈리는 표본이 함께 쌓인 것으로 해석됩니다. <strong>망포에서 24시간 운영되는 거의 유일한 해장국집</strong>이라 야근·새벽 출근·숙취 다음 날 옵션으로 차별점이 명확합니다. 망포동 28-9, 네이버 블로그 후기 480건이 함께 누적되었습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물이 진하다 · 메인 뼈해장국이 맛있다 · 서비스가 친절하다" 같은 평이 자주 언급되었습니다. 메인 메뉴 만족도와 24시간 영업이 함께 묶여 누적되는 키워드입니다.</p>
@@ -129,12 +129,12 @@ const post = {
 <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241007_129%2F1728303207168i2SLC_JPEG%2F1000000147.jpg" alt="신선설농탕 영통점 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 939건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 2,957건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~20,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 사진 명소</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신선설농탕은 <strong>전국 체인</strong>이며 영통점은 영통로214번길 60에 위치합니다. 평점 3.4점·리뷰 939건이 누적된 안정적인 식당으로, <strong>10:00~22:00 영업</strong>이라 점심·저녁 모두 가능합니다. 1인 1만2천원선이 표준이며, "사진 잘 나오는 매장·데이트·가족 외식" 평가가 함께 매칭됩니다. 가족 외식·회식 단체 손님이 누적되는 곳이라 평일 점심·주말 점심 모두 무난한 선택지입니다. 분당선 망포역에서는 한 정거장(영통역) 거리이지만, 망포 직장인이 점심 시간에 자주 찾는 한식 옵션 중 하나로 묶입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신선설농탕은 <strong>전국 체인</strong>이며 영통점은 영통로214번길 60에 위치합니다. 평점 3.4점·리뷰 2,957건이 누적된 안정적인 식당으로, <strong>10:00~22:00 영업</strong>이라 점심·저녁 모두 가능합니다. 1인 1만2천원선이 표준이며, "사진 잘 나오는 매장·데이트·가족 외식" 평가가 함께 매칭됩니다. 가족 외식·회식 단체 손님이 누적되는 곳이라 평일 점심·주말 점심 모두 무난한 선택지입니다. 분당선 망포역에서는 한 정거장(영통역) 거리이지만, 망포 직장인이 점심 시간에 자주 찾는 한식 옵션 중 하나로 묶입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물 진하다 · 정식 구성 푸짐하다 · 매장 깔끔하다" 같은 평이 자주 언급되었습니다. 한식 정식이 표준화된 체인 식당이라 만족도 편차가 적은 편입니다.</p>
@@ -167,13 +167,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💑 데이트 옵션</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">리뷰 936건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">리뷰 1,067건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 8,500원~24,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌅 분위기 좋음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">와요쇼쿠는 일식 + 양식 퓨전 — <strong>철판 나폴리탄·함박스테이크·고구마뇨끼</strong>를 시그니처로 하는 신동본점입니다. 평점 표기는 별도이지만 리뷰 936건이 누적되었고, "데이트·리뷰 많음·서비스 좋음·분위기 좋음" 네 가지 평가가 함께 매칭되는 식당이라 점심 데이트·기념일 가벼운 외식 옵션으로 잘 맞습니다. <strong>예약 가능</strong>한 매장이라 주말 점심·저녁 시간대는 미리 자리를 잡아두는 편이 안전합니다. 신동 955번지 1층, 분당선 망포역에서 도보 거리입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">와요쇼쿠는 일식 + 양식 퓨전 — <strong>철판 나폴리탄·함박스테이크·고구마뇨끼</strong>를 시그니처로 하는 신동본점입니다. 평점 표기는 별도이지만 리뷰 1,067건이 누적되었고, "데이트·리뷰 많음·서비스 좋음·분위기 좋음" 네 가지 평가가 함께 매칭되는 식당이라 점심 데이트·기념일 가벼운 외식 옵션으로 잘 맞습니다. <strong>예약 가능</strong>한 매장이라 주말 점심·저녁 시간대는 미리 자리를 잡아두는 편이 안전합니다. 신동 955번지 1층, 분당선 망포역에서 도보 거리입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"함박스테이크가 맛있다 · 고구마뇨끼가 인기 · 서비스 친절하다" 같은 평이 자주 언급되었습니다. 시그니처 메뉴 만족도와 매장 분위기가 함께 묶여 누적되는 키워드입니다.</p>
@@ -213,12 +213,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0F6E56;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 가벼운 점심</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 1,413건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 5,010건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,700원~6,100원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚙 드라이브스루</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>드라이브스루 매장</strong>으로 점심 시간이 짧은 직장인이 차에서 음료+샌드위치만 픽업하기 좋은 옵션입니다. 평점 3.4점·리뷰 1,413건으로 망포 카페 카테고리 상위권이며, 신메뉴 후기와 직원 친절도 후기가 자주 언급됩니다. <strong>06:30 영업 시작</strong>이라 출근 전 모닝커피·테이크아웃이 가능하고, 푸드 메뉴(샌드위치·샐러드)는 8,000~12,000원선으로 식사 대용도 가능합니다. 망포동 38-23, 1522-3232 전화 가능. 본 가이드 5곳 중 유일한 카페 옵션으로 한 끼 부담을 줄이고 싶은 날 대안으로 묶었습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>드라이브스루 매장</strong>으로 점심 시간이 짧은 직장인이 차에서 음료+샌드위치만 픽업하기 좋은 옵션입니다. 평점 3.4점·리뷰 5,010건으로 망포 카페 카테고리 상위권이며, 신메뉴 후기와 직원 친절도 후기가 자주 언급됩니다. <strong>06:30 영업 시작</strong>이라 출근 전 모닝커피·테이크아웃이 가능하고, 푸드 메뉴(샌드위치·샐러드)는 8,000~12,000원선으로 식사 대용도 가능합니다. 망포동 38-23, 1522-3232 전화 가능. 본 가이드 5곳 중 유일한 카페 옵션으로 한 끼 부담을 줄이고 싶은 날 대안으로 묶었습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"드라이브스루 편리하다 · 신메뉴가 맛있다 · 직원 친절하다" 같은 평이 자주 언급되었습니다. 픽업 동선과 신메뉴 회전이 후기 키워드로 함께 묶입니다.</p>
