@@ -514,13 +514,13 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           const rest = imgs.slice(1, 4)
           return (
             <div style={{ display:'grid', gap:8, marginBottom:24, gridTemplateColumns: rest.length === 0 ? '1fr' : rest.length === 1 ? '1fr 1fr' : '2fr 1fr' }}>
-              <img src={main} alt={`${r.name} 대표 사진`} loading="lazy"
+              <img referrerPolicy="no-referrer" src={main} alt={`${r.name} 대표 사진`} loading="lazy"
                 style={{ width:'100%', height: rest.length ? 320 : 240, objectFit:'cover', borderRadius:12, display:'block' }}
                 onError={(e) => { e.target.style.display = 'none' }} />
               {rest.length > 0 && (
                 <div style={{ display:'grid', gap:8, gridTemplateRows: `repeat(${rest.length}, 1fr)`, height: 320 }}>
                   {rest.map((u, idx) => (
-                    <img key={idx} src={u} alt={`${r.name} 사진 ${idx+2}`} loading="lazy"
+                    <img referrerPolicy="no-referrer" key={idx} src={u} alt={`${r.name} 사진 ${idx+2}`} loading="lazy"
                       style={{ width:'100%', height:'100%', objectFit:'cover', borderRadius:12, display:'block', minHeight: 0 }}
                       onError={(e) => { e.target.style.display = 'none' }} />
                   ))}
@@ -652,7 +652,7 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:24 }}>
             {[r.imageUrl5, r.imageUrl6].filter(Boolean).map((u, i) => (
               /* eslint-disable-next-line @next/next/no-img-element */
-              <img key={i} src={u} alt={`${r.name} 사진 ${i+5}`} loading="lazy"
+              <img referrerPolicy="no-referrer" key={i} src={u} alt={`${r.name} 사진 ${i+5}`} loading="lazy"
                 style={{ width:'100%', height:220, objectFit:'cover', borderRadius:12, display:'block' }}
                 onError={(e) => { e.target.style.display = 'none' }} />
             ))}
@@ -705,7 +705,7 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
           <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:24 }}>
             {[r.imageUrl7, r.imageUrl8].filter(Boolean).map((u, i) => (
               /* eslint-disable-next-line @next/next/no-img-element */
-              <img key={i} src={u} alt={`${r.name} 사진 ${i+7}`} loading="lazy"
+              <img referrerPolicy="no-referrer" key={i} src={u} alt={`${r.name} 사진 ${i+7}`} loading="lazy"
                 style={{ width:'100%', height:200, objectFit:'cover', borderRadius:12, display:'block' }}
                 onError={(e) => { e.target.style.display = 'none' }} />
             ))}
