@@ -40,16 +40,19 @@ def naver_visitor(name, region_kw):
     # data-title 식당명 확인
     titles = re.findall(r'data-title="([^"]+)"', h)
     title_ok = any(nm and (nm in core(tt) or core(tt) in nm) for tt in titles[:3]) if titles else True
+    def si(s):
+        s = re.sub(r'[^0-9]', '', s or '')
+        return int(s) if s else 0
     # JSON visitorReviewCount 우선, 없으면 etc_item
     vc = 0
     m = re.search(r'"visitorReviewCount":\s*"?([0-9,]+)', h)
-    if m: vc = int(m.group(1).replace(',',''))
+    if m and si(m.group(1)): vc = si(m.group(1))
     else:
         m = re.search(r'방문자\s*리뷰\s*([0-9,]+)', h)
-        if m: vc = int(m.group(1).replace(',',''))
+        if m: vc = si(m.group(1))
     bc = 0
     m = re.search(r'블로그\s*리뷰\s*([0-9,]+)', h)
-    if m: bc = int(m.group(1).replace(',',''))
+    if m: bc = si(m.group(1))
     price = ''
     m = re.search(r'([0-9]{1,3}(?:~[0-9]{1,3})?\s*만원)\s*\(1인\)', h)
     if m: price = m.group(1).replace(' ','')
