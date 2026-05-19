@@ -70,6 +70,7 @@ export default function PostThumbnail({ imageUrl, region, category, slug, size =
           src={imageUrl}
           alt=""
           loading="lazy"
+          referrerPolicy="no-referrer"
           style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}
         />
       )}

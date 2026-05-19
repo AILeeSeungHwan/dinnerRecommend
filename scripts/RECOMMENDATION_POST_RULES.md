@@ -1,5 +1,7 @@
 # 추천 포스팅 작성 규칙 (모범 사례: posts/10.js · 망포 가성비 점심)
 
+> **모범 사례 (Live)**: https://dinner.ambitstock.com/posts/mangpo-budget-lunch-2026 — 모든 추천 포스팅은 이 페이지 수준의 심층 콘텐츠를 따른다.
+
 > **이 문서는 dinner.ambitstock.com의 모든 추천 포스팅이 따라야 할 규칙입니다.**
 > 모범 답안: `posts/10.js` (망포역 가성비 점심 1만원대 BEST 5)
 > 신규 포스트·재생성·QA 시 반드시 본 규칙을 참조합니다.

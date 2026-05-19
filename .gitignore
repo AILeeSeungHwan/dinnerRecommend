@@ -12,3 +12,4 @@ scripts/naver-data/daum-checkpoint-*.json
 scripts/naver-data/daum-merge-checkpoint-*.json
 scripts/naver-data/daum-progress.log
 scripts/naver-data/daum-merge.log
+scripts/naver-data/ndm-ck-*.json
