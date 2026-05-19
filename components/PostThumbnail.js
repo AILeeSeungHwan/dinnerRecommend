@@ -68,7 +68,7 @@ export default function PostThumbnail({ imageUrl, region, category, slug, size =
         /* eslint-disable-next-line @next/next/no-img-element */
         <img
           src={imageUrl}
-          alt=""
+          alt={`${reg} ${cat} 맛집 추천 가이드`}
           loading="lazy"
           referrerPolicy="no-referrer"
           style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}

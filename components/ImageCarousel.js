@@ -36,7 +36,7 @@ export default function ImageCarousel({ imgs, alt, caption }) {
           <img
             key={i}
             src={src}
-            alt={alt || ''}
+            alt={alt || caption || '맛집 추천 이미지'}
             loading={i === 0 ? 'eager' : 'lazy'}
             style={{
               position: 'absolute', inset: 0,

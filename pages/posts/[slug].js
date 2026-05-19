@@ -187,7 +187,7 @@ function ImageSection({ src, alt, caption }) {
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
             src={src}
-            alt={alt || ''}
+            alt={alt || caption || '맛집 추천 이미지'}
             referrerPolicy="no-referrer"
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           />
