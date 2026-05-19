@@ -315,7 +315,7 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
   const intro = buildIntro(r)
 
   // 메타 desc
-  const metaDesc = `${r.name} — 수지 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. Google 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
+  const metaDesc = `${r.name} — 수지 ${r.type} 맛집. ${r.addr} 위치, 영업시간 ${formatHours(r.hours)}. 카카오맵 평점 ⭐${r.rt} (${r.cnt?.toLocaleString()}개 리뷰). ${r.tags?.slice(0,3).join('·')} 특징. 오늘뭐먹지 AI 추천.`
 
   const schema = {
     "@context": "https://schema.org",
@@ -466,9 +466,9 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             {[
               ['식당 종류', r.type],
               ['주소', r.addr && r.addr !== 'South Korea' ? `경기 용인시 ${r.addr}` : '위치 정보 준비 중'],
-              ['영업시간', r.hours],
+              ['영업시간', r.hours || '영업일 매장 확인 (미제공)'],
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
-              ['Google 평점', `⭐ ${r.rt}점 (${r.cnt?.toLocaleString()}개 리뷰 기준)`],
+              ['평점 (카카오맵)', r.rt > 0 ? `⭐ ${r.rt}점 · 리뷰 ${(r.cnt||0).toLocaleString()}건` : ((r.cnt||0) > 0 ? `카카오맵 후기 미제공 · 누적 리뷰 ${(r.cnt||0).toLocaleString()}건` : '카카오맵 후기 미제공')],
               ['수지구청역', r.exit4 ? '✅ 도보 5분 이내' : '수지 도보권 내'],
             ].map(([label, val], i) => (
               <tr key={i} style={{ borderBottom:'1px solid var(--border)', background: i%2===0 ? 'transparent' : 'var(--surface)' }}>

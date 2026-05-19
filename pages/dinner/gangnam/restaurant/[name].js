@@ -492,10 +492,10 @@ export default function RestaurantPage({ restaurant: r, similar, govData }) {
             {[
               ['식당 종류', r.type],
               ['주소', `서울 강남구 ${r.addr}`],
-              ['영업시간', r.hours],
+              ['영업시간', r.hours || '영업일 매장 확인 (미제공)'],
               r.tel ? ['전화번호', r.tel] : null,
               ['가격대', r.priceRange ? `1인 약 ${fmtPrice(r.priceRange)}원` : '매장 문의'],
-              ['평점', `⭐ ${r.rt > 0 ? r.rt + '점' : '-'} (${r.cnt > 0 ? r.cnt.toLocaleString() + '개 리뷰' : '리뷰 수집 중'})`],
+              ['평점 (카카오맵)', r.rt > 0 ? `⭐ ${r.rt}점 · 리뷰 ${(r.cnt||0).toLocaleString()}건` : ((r.cnt||0) > 0 ? `카카오맵 후기 미제공 · 누적 리뷰 ${(r.cnt||0).toLocaleString()}건` : '카카오맵 후기 미제공')],
               r.naverBlogCnt > 0 ? ['블로그 리뷰', `📝 ${r.naverBlogCnt.toLocaleString()}개`] : null,
               ['주차', r.parking ? '✅ 주차 가능' : '매장 문의 또는 인근 공영주차장'],
               ['예약', r.reservation ? '✅ 예약 가능' : '매장 문의'],
