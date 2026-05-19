@@ -284,6 +284,7 @@ function EndingSection({ html, relatedPosts }) {
 const REGION_KO = {
   samseong:'삼성역', jamsil:'잠실', pangyo:'판교', suji:'수지',
   gangnam:'강남역', yeongtong:'영통', mangpo:'망포', yeongtongGu:'영통구청',
+  hongdae:'홍대',
 }
 
 // ── 섹션 렌더러 ──────────────────────────────────────────────────
@@ -428,6 +429,8 @@ const REGION_MAP = {
   yeongtong:   { name: '영통역',     path: '/samsungElectronics/yeongtong' },
   mangpo:      { name: '망포역',     path: '/samsungElectronics/mangpo' },
   yeongtongGu: { name: '영통구청',   path: '/samsungElectronics/yeongtongGu' },
+  gangnam:     { name: '강남역',     path: '/dinner/gangnam' },
+  hongdae:     { name: '홍대',       path: '/dinner/hongdae' },
 }
 
 // ── H2 배경 그라디언트 팔레트 (순환) ─────────────────────────────

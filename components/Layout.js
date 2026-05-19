@@ -507,6 +507,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
               { href:'/samsungElectronics', label:'삼전',    emoji:'🏢', live:true },
               { href:'/pangyo',                       label:'판교',    emoji:'💻', live:true },
               { href:'/dinner/gangnam',               label:'강남역',  emoji:'🌆', live:true },
+              { href:'/dinner/hongdae',               label:'홍대',    emoji:'🎨', live:true },
               { href:null, label:'역삼역', emoji:'💼', live:false },
             ].map(s => {
               const isActive = s.href && router.asPath.startsWith(s.href)
@@ -546,6 +547,7 @@ export default function Layout({ children, title, description, canonical, jsonLd
                 { href:'/samsungElectronics',  short:'삼전' },
                 { href:'/pangyo',                        short:'판교' },
                 { href:'/dinner/gangnam',                short:'강남' },
+                { href:'/dinner/hongdae',                short:'홍대' },
               ]
               const current = stations.find(s => path.startsWith(s.href))
               return (
