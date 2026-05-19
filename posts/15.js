@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #B91C1C">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한우 코스 정통 회식이면 <strong>모도우 The ROOM 대치점</strong> — 시즈널 1++ 한우구이 코스 99,000원·리뷰 698건 검증. 한우+프라이빗룸 비즈니스 자리면 <strong>경천아인 2237</strong> — 25,000원~50,000원 한우+프라이빗룸 운영. 점심 흑돼지 캐주얼이면 <strong>김돈이 선릉본점</strong> — 김치찌개 11,000원·리뷰 836건 누적. 점심 보쌈+낙지 가족 외식이면 <strong>놀부보쌈</strong> — 점심특선 12,000원~. 회식 2차 심야 영업 갈비집이면 <strong>광화문석갈비 코엑스점</strong> — 17,300원~ 점심·저녁 모두 가능.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한우 코스 정통 회식이면 <strong>모도우 The ROOM 대치점</strong> — 시즈널 1++ 한우구이 코스 99,000원·리뷰 698건 검증.<br><br>한우+프라이빗룸 비즈니스 자리면 <strong>경천아인 2237</strong> — 25,000원~50,000원 한우+프라이빗룸 운영.<br><br>점심 흑돼지 캐주얼이면 <strong>김돈이 선릉본점</strong> — 김치찌개 11,000원·리뷰 836건 누적.<br><br>점심 보쌈+낙지 가족 외식이면 <strong>놀부보쌈</strong> — 점심특선 12,000원~.<br><br>회식 2차 심야 영업 갈비집이면 <strong>광화문석갈비 코엑스점</strong> — 17,300원~ 점심·저녁 모두 가능.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

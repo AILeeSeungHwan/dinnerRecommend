@@ -24,7 +24,7 @@ const post = {
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '잠실 일식·스시 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

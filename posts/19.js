@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #7F1D1D">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">갈비 회식인데 인당 단가를 누르고 싶다면 <strong>동대문수제갈비</strong> — 평점 4.8 + 가족셋트4인분 돼지갈비 66,000원으로 단체 단가 가장 낮습니다. 표본·운영 안정성 우선이면 <strong>수타원</strong> — 리뷰 774건으로 회식 카테고리 표본 1위, 봉영로 주차 동선 무난. 양꼬치·중식 회식이면 <strong>신세계양꼬치마라탕</strong> — 양꼬치 30p 49,000원 + C세트 35,000원으로 4~6인 모임 무난. 점심 회식·송년회 점심이면 <strong>명백집 본점</strong> — 버크셔 곰탕 1만원선, 신동 카페거리 동선 가까움. 술 곁들이는 안주형 회식이면 <strong>민속왕순대</strong> — 모듬 20,000원·감자탕(소) 30,000원으로 5~6인 술자리 단가 안정.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">갈비 회식인데 인당 단가를 누르고 싶다면 <strong>동대문수제갈비</strong> — 평점 4.8 + 가족셋트4인분 돼지갈비 66,000원으로 단체 단가 가장 낮습니다.<br><br>표본·운영 안정성 우선이면 <strong>수타원</strong> — 리뷰 774건으로 회식 카테고리 표본 1위, 봉영로 주차 동선 무난.<br><br>양꼬치·중식 회식이면 <strong>신세계양꼬치마라탕</strong> — 양꼬치 30p 49,000원 + C세트 35,000원으로 4~6인 모임 무난.<br><br>점심 회식·송년회 점심이면 <strong>명백집 본점</strong> — 버크셔 곰탕 1만원선, 신동 카페거리 동선 가까움.<br><br>술 곁들이는 안주형 회식이면 <strong>민속왕순대</strong> — 모듬 20,000원·감자탕(소) 30,000원으로 5~6인 술자리 단가 안정.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '망포역 회식 장소 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

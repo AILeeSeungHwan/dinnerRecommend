@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">숙취 다음 날 선지·소고기 해장이면 <strong>명인대동양평해장국 삼성직영점</strong> — 평점 4.7·해장 메뉴 8종, 09:00 오픈. 출근 전 이른 해장이면 <strong>일품양평해장국 강남대치점</strong> (07:30 오픈, 평점 4.7). 국물 깔끔한 곰탕 한 그릇이면 <strong>이여곰탕 강남삼성</strong> (평점 4.3·리뷰 1,905건, 곰탕 8,000원선). 점심에 청국장 백반 정식이면 <strong>도명골 청국장</strong> (평점 4.7·리뷰 1,371건, 11,000원 정식). 설렁탕·소고기국밥 정석이면 <strong>이남장 삼성점</strong> (리뷰 1,903건·블로그 596건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">숙취 다음 날 선지·소고기 해장이면 <strong>명인대동양평해장국 삼성직영점</strong> — 평점 4.7·해장 메뉴 8종, 09:00 오픈.<br><br>출근 전 이른 해장이면 <strong>일품양평해장국 강남대치점</strong> (07:30 오픈, 평점 4.7).<br><br>국물 깔끔한 곰탕 한 그릇이면 <strong>이여곰탕 강남삼성</strong> (평점 4.3·리뷰 1,905건, 곰탕 8,000원선).<br><br>점심에 청국장 백반 정식이면 <strong>도명골 청국장</strong> (평점 4.7·리뷰 1,371건, 11,000원 정식).<br><br>설렁탕·소고기국밥 정석이면 <strong>이남장 삼성점</strong> (리뷰 1,903건·블로그 596건).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 국밥·해장 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #4338CA">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">팀 회식 1차에 가성비·프라이빗룸까지 챙긴다면 <strong>수다 삼성1호점</strong> — 스끼야끼 33,000원·모듬숙성회 48,000원에 프라이빗룸·새벽 2시까지 영업이 묶인 일식 이자카야입니다. 꼬치 한 접시에 술 한 잔이 목적이면 <strong>야키도리 수다</strong> (모듬꼬치 5종 18,000원·새벽 2시 마감). 신선한 회·해산물 안주가 핵심이면 <strong>동어동락 삼성2호점</strong> (활고등어회 45,000원·새벽 2시). 사케 페어링이 필요하면 <strong>란주쿠 삼성점</strong> (사케 소믈리에·시작가 7,000원). 숙성회+덮밥류 코스로 가벼운 데이트라면 <strong>키친바락</strong> (모듬 숙성회 40,000원, 디저트 평이 좋은 매장).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">팀 회식 1차에 가성비·프라이빗룸까지 챙긴다면 <strong>수다 삼성1호점</strong> — 스끼야끼 33,000원·모듬숙성회 48,000원에 프라이빗룸·새벽 2시까지 영업이 묶인 일식 이자카야입니다.<br><br>꼬치 한 접시에 술 한 잔이 목적이면 <strong>야키도리 수다</strong> (모듬꼬치 5종 18,000원·새벽 2시 마감).<br><br>신선한 회·해산물 안주가 핵심이면 <strong>동어동락 삼성2호점</strong> (활고등어회 45,000원·새벽 2시).<br><br>사케 페어링이 필요하면 <strong>란주쿠 삼성점</strong> (사케 소믈리에·시작가 7,000원).<br><br>숙성회+덮밥류 코스로 가벼운 데이트라면 <strong>키친바락</strong> (모듬 숙성회 40,000원, 디저트 평이 좋은 매장).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 이자카야 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

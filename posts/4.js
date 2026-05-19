@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점·리뷰 검증 1순위는 <strong>니고라멘</strong> (★ 4.4 · 리뷰 641건, 니고라멘 10,500원). 1만원으로 무한리필이 필요하면 <strong>두끼 분당서현점</strong> (일반 11,900원 떡볶이 무한). 한식뷔페로 30첩 밥상 푸짐하게면 <strong>자연별곡 NC 야탑점</strong> (12,900원, 리뷰 3,889건 표본 최다). 매콤한 한 그릇 마라탕이면 <strong>춘리마라탕 야탑점</strong> (1인 마라탕 10,900원, 새벽 01:00까지 영업). 샤브샤브 1만원선 단품이면 <strong>삼청동샤브 판교아이스퀘어점</strong> (멸치샤브 우삼겹 12,900원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점·리뷰 검증 1순위는 <strong>니고라멘</strong> (★ 4.4 · 리뷰 641건, 니고라멘 10,500원). 1만원으로 무한리필이 필요하면 <strong>두끼 분당서현점</strong> (일반 11,900원 떡볶이 무한).<br><br>한식뷔페로 30첩 밥상 푸짐하게면 <strong>자연별곡 NC 야탑점</strong> (12,900원, 리뷰 3,889건 표본 최다).<br><br>매콤한 한 그릇 마라탕이면 <strong>춘리마라탕 야탑점</strong> (1인 마라탕 10,900원, 새벽 01:00까지 영업).<br><br>샤브샤브 1만원선 단품이면 <strong>삼청동샤브 판교아이스퀘어점</strong> (멸치샤브 우삼겹 12,900원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교역 혼밥 맛집 1만원대 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

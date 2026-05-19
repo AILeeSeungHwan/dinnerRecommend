@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">소고기 모임이면 <strong>육지</strong> — 평점 4.6·리뷰 11,425건으로 홍대 고기에서 표본이 압도적인 1순위입니다. 곱창·호르몬 굽기면 <strong>하카타호르몬</strong> (평점 4.6·리뷰 1,255건, 일본식 호르몬구이). 가성비 돼지 화로구이면 <strong>신선화로 홍대점</strong> (평점 4.0·리뷰 2,396건). 닭갈비 한 판이면 <strong>장인닭갈비 홍대점</strong> (1~2만원, 평점 4.0·리뷰 3,825건). 혼밥·해장 소고기 한 끼면 <strong>따로소고기국밥</strong> (평점 4.9·리뷰 188건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">소고기 모임이면 <strong>육지</strong> — 평점 4.6·리뷰 11,425건으로 홍대 고기에서 표본이 압도적인 1순위입니다.<br><br>곱창·호르몬 굽기면 <strong>하카타호르몬</strong> (평점 4.6·리뷰 1,255건, 일본식 호르몬구이).<br><br>가성비 돼지 화로구이면 <strong>신선화로 홍대점</strong> (평점 4.0·리뷰 2,396건).<br><br>닭갈비 한 판이면 <strong>장인닭갈비 홍대점</strong> (1~2만원, 평점 4.0·리뷰 3,825건).<br><br>혼밥·해장 소고기 한 끼면 <strong>따로소고기국밥</strong> (평점 4.9·리뷰 188건).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '홍대 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

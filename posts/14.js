@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">기념일·격식 있는 데이트 1순위는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원, 예약·주차 가능). 분위기 좋은 점심 양식 데이트면 <strong>파파라구</strong> (이탈리안, ★ 4.4 · 리뷰 401건). 따뜻한 한 끼 샤브샤브 데이트면 <strong>너와집 백합 샤브샤브 백현점</strong> (정식 39,000원 시작, 예약·주차 가능). 일식 분위기 한 잔 곁들임이면 <strong>긴자 백현점</strong> (리뷰 799건, 분위기·서비스 후기 누적). 스시 오마카세 1만원대 런치 데이트면 <strong>스시혼 아브뉴프랑 판교본점</strong> (런치 스시 정식 25,000원·런치 오마카세 40,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">기념일·격식 있는 데이트 1순위는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원, 예약·주차 가능).<br><br>분위기 좋은 점심 양식 데이트면 <strong>파파라구</strong> (이탈리안, ★ 4.4 · 리뷰 401건).<br><br>따뜻한 한 끼 샤브샤브 데이트면 <strong>너와집 백합 샤브샤브 백현점</strong> (정식 39,000원 시작, 예약·주차 가능).<br><br>일식 분위기 한 잔 곁들임이면 <strong>긴자 백현점</strong> (리뷰 799건, 분위기·서비스 후기 누적).<br><br>스시 오마카세 1만원대 런치 데이트면 <strong>스시혼 아브뉴프랑 판교본점</strong> (런치 스시 정식 25,000원·런치 오마카세 40,000원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교 데이트 레스토랑 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

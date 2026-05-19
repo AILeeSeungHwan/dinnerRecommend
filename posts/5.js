@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #F97316">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">코엑스 직장인 점심 1순위는 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건이 누적된 가성비 중식. 짜장면·짬뽕 1만원대로 회전이 빠릅니다. 솥밥 한 끼면 <strong>솥내음 스타필드 코엑스몰점</strong> — 신메뉴 불쭈꾸미 솥밥 15,900원. 한식 정식이면 <strong>서울깍두기 코엑스점</strong> — 한우사골설렁탕 12,900원·07:00 오픈으로 출근 전 식사도 가능. 가성비 짜장면이면 <strong>더차이홍</strong> 8,000원. 점심 회식 겸 빠른 버거면 <strong>브루클린 더 버거조인트 삼성</strong> — 디럭스 스택 세트 15,400원.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">코엑스 직장인 점심 1순위는 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건이 누적된 가성비 중식.<br><br>짜장면·짬뽕 1만원대로 회전이 빠릅니다.<br><br>솥밥 한 끼면 <strong>솥내음 스타필드 코엑스몰점</strong> — 신메뉴 불쭈꾸미 솥밥 15,900원.<br><br>한식 정식이면 <strong>서울깍두기 코엑스점</strong> — 한우사골설렁탕 12,900원·07:00 오픈으로 출근 전 식사도 가능.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> 8,000원.<br><br>점심 회식 겸 빠른 버거면 <strong>브루클린 더 버거조인트 삼성</strong> — 디럭스 스택 세트 15,400원.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 점심 뭐 먹지? 카테고리별 추천 총정리 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">팀 점심·가족 점심으로 한식 한 상이면 <strong>우이락 수지구청점</strong> — 평점 5.0·리뷰 665건으로 본 가이드 평점 1순위입니다. 1인 1만2천원선 파스타 점심이면 <strong>파스타입니다 용인수지점</strong> (매콤크림 파스타 12,400원, 리뷰 1,745건). 회식·접대를 겸한 중식 점심이면 <strong>차이니즈퀴진유 용인본점</strong> (소고기짬뽕 14,000원, 리뷰 1,793건·주차 가능). 가벼운 일식 점심이면 <strong>미소텐동 용인신봉점</strong> (텐동 전문, 리뷰 1,233건). 점심 후 커피 한 잔·짧은 미팅이면 <strong>마실커피</strong> (아메리카노 4,000원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">팀 점심·가족 점심으로 한식 한 상이면 <strong>우이락 수지구청점</strong> — 평점 5.0·리뷰 665건으로 본 가이드 평점 1순위입니다. 1인 1만2천원선 파스타 점심이면 <strong>파스타입니다 용인수지점</strong> (매콤크림 파스타 12,400원, 리뷰 1,745건).<br><br>회식·접대를 겸한 중식 점심이면 <strong>차이니즈퀴진유 용인본점</strong> (소고기짬뽕 14,000원, 리뷰 1,793건·주차 가능).<br><br>가벼운 일식 점심이면 <strong>미소텐동 용인신봉점</strong> (텐동 전문, 리뷰 1,233건).<br><br>점심 후 커피 한 잔·짧은 미팅이면 <strong>마실커피</strong> (아메리카노 4,000원~).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '수지 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

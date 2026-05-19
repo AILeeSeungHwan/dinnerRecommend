@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점·만족도 둘 다 가장 안정적인 점심이면 <strong>어서와칼국수 홍대합정점</strong> — 평점 4.7·리뷰 1,567건. 검증 표본이 가장 두터운 한식 점심이면 <strong>육지</strong> (평점 4.6·리뷰 11,425건). 줄 서서라도 먹는 돈가스·우동 단품이면 <strong>츠케루</strong> (리뷰 17,859건으로 표본 최다). 진한 라멘 한 그릇이면 <strong>오레노라멘 합정본점</strong> (평점 4.4·리뷰 6,170건). 혼밥·가벼운 일식 점심이면 <strong>소코아 홍대점</strong> (평점 4.3·리뷰 3,461건). 카테고리가 모두 달라 검색 의도가 겹치지 않으니 한 끼 결을 정하고 고르시면 빠릅니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점·만족도 둘 다 가장 안정적인 점심이면 <strong>어서와칼국수 홍대합정점</strong> — 평점 4.7·리뷰 1,567건.<br><br>검증 표본이 가장 두터운 한식 점심이면 <strong>육지</strong> (평점 4.6·리뷰 11,425건).<br><br>줄 서서라도 먹는 돈가스·우동 단품이면 <strong>츠케루</strong> (리뷰 17,859건으로 표본 최다).<br><br>진한 라멘 한 그릇이면 <strong>오레노라멘 합정본점</strong> (평점 4.4·리뷰 6,170건).<br><br>혼밥·가벼운 일식 점심이면 <strong>소코아 홍대점</strong> (평점 4.3·리뷰 3,461건).<br><br>카테고리가 모두 달라 검색 의도가 겹치지 않으니 한 끼 결을 정하고 고르시면 빠릅니다.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '홍대 가성비 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

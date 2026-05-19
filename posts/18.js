@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #B91C1C">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한우 점심 가성비면 <strong>우판등심 수원점</strong> — 평일 런치스페셜 24,000원·평점 4.3·리뷰 2,915건으로 영통 한우 검증 1순위입니다. 보쌈·족발 가족 외식이면 <strong>항아리보쌈본점</strong> — 보쌈 소 36,000원·평점 4.1·리뷰 661건. 평일 돼지오겹 한 끼면 <strong>훈이네구이 망포점</strong> — 평점 4.4·숙성오겹살 16,000원·라면 무료 서비스. 돼지갈비 가족 외식이면 <strong>달구운바람 돼지갈비 영통망포점</strong> — 원적외선 직화 돼지양념구이 21,000원·콜키지 프리. 한돈+한우를 한자리에서 즐기시려면 <strong>옳은고기 수원본점</strong> — 한돈 생삼겹살 16,000원·황금등심살 한판 88,000원으로 예산 폭이 넓습니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한우 점심 가성비면 <strong>우판등심 수원점</strong> — 평일 런치스페셜 24,000원·평점 4.3·리뷰 2,915건으로 영통 한우 검증 1순위입니다.<br><br>보쌈·족발 가족 외식이면 <strong>항아리보쌈본점</strong> — 보쌈 소 36,000원·평점 4.1·리뷰 661건.<br><br>평일 돼지오겹 한 끼면 <strong>훈이네구이 망포점</strong> — 평점 4.4·숙성오겹살 16,000원·라면 무료 서비스.<br><br>돼지갈비 가족 외식이면 <strong>달구운바람 돼지갈비 영통망포점</strong> — 원적외선 직화 돼지양념구이 21,000원·콜키지 프리.<br><br>한돈+한우를 한자리에서 즐기시려면 <strong>옳은고기 수원본점</strong> — 한돈 생삼겹살 16,000원·황금등심살 한판 88,000원으로 예산 폭이 넓습니다.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통역 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

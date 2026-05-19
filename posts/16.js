@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위·석촌호수 산책 후 디저트면 <strong>카페드로잉 석촌호수점</strong> — 평점 4.7·리뷰 411건, 생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원. 인스타 핫스팟·롯데월드몰 동선이면 <strong>노티드 잠실롯데월드몰점</strong> — 평점 4.6·리뷰 169건, 우유 생크림 도넛 4,200원. 정통 이탈리안 디너이면 <strong>더 이탈리안 클럽</strong> — 평점 4.3·리뷰 153건, 1++ 한우 채끝 스테이크 105,000원·트러플 따야린 39,000원. 1만원선 데이트 점심이면 <strong>돈블랑 석촌호수점</strong> — 평점 4.3·리뷰 292건, 아랫고기 17,500원·점심 한정 제육볶음 11,000원. 브런치 데이트면 <strong>MIP</strong> — 평점 4.2·리뷰 186건, 명란 오일 파스타 18,000원·스테이크 에그 베네딕트 26,000원.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위·석촌호수 산책 후 디저트면 <strong>카페드로잉 석촌호수점</strong> — 평점 4.7·리뷰 411건, 생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원.<br><br>인스타 핫스팟·롯데월드몰 동선이면 <strong>노티드 잠실롯데월드몰점</strong> — 평점 4.6·리뷰 169건, 우유 생크림 도넛 4,200원.<br><br>정통 이탈리안 디너이면 <strong>더 이탈리안 클럽</strong> — 평점 4.3·리뷰 153건, 1++ 한우 채끝 스테이크 105,000원·트러플 따야린 39,000원. 1만원선 데이트 점심이면 <strong>돈블랑 석촌호수점</strong> — 평점 4.3·리뷰 292건, 아랫고기 17,500원·점심 한정 제육볶음 11,000원.<br><br>브런치 데이트면 <strong>MIP</strong> — 평점 4.2·리뷰 186건, 명란 오일 파스타 18,000원·스테이크 에그 베네딕트 26,000원.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '잠실 데이트 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

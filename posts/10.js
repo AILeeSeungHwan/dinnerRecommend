@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다. 야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업. 한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작). 일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기). 점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 수원망포DT점</strong> (아메리카노 4,700원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다.<br><br>야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업.<br><br>한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작).<br><br>일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기).<br><br>점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 수원망포DT점</strong> (아메리카노 4,700원~).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '망포역 가성비 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

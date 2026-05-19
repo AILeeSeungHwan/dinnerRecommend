@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">6~8인 팀 회식에 평점·웨이팅 모두 검증된 1순위는 <strong>진성한우곱창 방이직영점</strong> — 평점 4.8·리뷰 766건, 한우곱창 19,000원선. 임원 회식·접대 자리이면 <strong>잠실장어와 한우</strong> — 1++ 한우 갈비살 39,000원에 장어와 한우 동시 운영, 지하 단체석. 4~6인 부서 모임에 1인 2만원선이면 <strong>화반 방이점</strong> — 숙성삼겹 18,000원, 화반Set 510g 3인 59,000원. 1차 양꼬치·마라요리 회식이면 <strong>경미양꼬치</strong> — 양꼬치 16,000원·고급양갈비 30,000원. 1만원대 첫 회식·해장 점심이면 <strong>난랑</strong> — 짜장면 9,000원·동파육 43,000원, 중식 단체석 옵션.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">6~8인 팀 회식에 평점·웨이팅 모두 검증된 1순위는 <strong>진성한우곱창 방이직영점</strong> — 평점 4.8·리뷰 766건, 한우곱창 19,000원선.<br><br>임원 회식·접대 자리이면 <strong>잠실장어와 한우</strong> — 1++ 한우 갈비살 39,000원에 장어와 한우 동시 운영, 지하 단체석. 4~6인 부서 모임에 1인 2만원선이면 <strong>화반 방이점</strong> — 숙성삼겹 18,000원, 화반Set 510g 3인 59,000원. 1차 양꼬치·마라요리 회식이면 <strong>경미양꼬치</strong> — 양꼬치 16,000원·고급양갈비 30,000원. 1만원대 첫 회식·해장 점심이면 <strong>난랑</strong> — 짜장면 9,000원·동파육 43,000원, 중식 단체석 옵션.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '잠실 회식 장소 추천 2026 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

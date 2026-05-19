@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">국밥 한 그릇이면 <strong>생각나는순대국 수원영통점</strong> — 평점 4.3·리뷰 470건, 순대국 10,000원으로 영통 한식 가성비 1순위입니다. 한식 정식이면 <strong>신선설농탕 수원영통점</strong> — 설농탕 11,000원·정식 메뉴 다양. 가벼운 일식이면 <strong>윤돈</strong> — 평점 4.6·로스카츠 정식 13,000원에 돈가스 단품 회전 우수. 중식 단품이면 <strong>진심의짬뽕 매탄직영점</strong> — 든든세트(짜장면+군만두+미니밥) 7,500원으로 가격 1순위. 출근 전 모닝 빵·테이크아웃이면 <strong>하얀풍차제과점 망포역점</strong> — 07:00 오픈, 메론크림 소금빵 3,600원부터.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">국밥 한 그릇이면 <strong>생각나는순대국 수원영통점</strong> — 평점 4.3·리뷰 470건, 순대국 10,000원으로 영통 한식 가성비 1순위입니다.<br><br>한식 정식이면 <strong>신선설농탕 수원영통점</strong> — 설농탕 11,000원·정식 메뉴 다양.<br><br>가벼운 일식이면 <strong>윤돈</strong> — 평점 4.6·로스카츠 정식 13,000원에 돈가스 단품 회전 우수.<br><br>중식 단품이면 <strong>진심의짬뽕 매탄직영점</strong> — 든든세트(짜장면+군만두+미니밥) 7,500원으로 가격 1순위.<br><br>출근 전 모닝 빵·테이크아웃이면 <strong>하얀풍차제과점 망포역점</strong> — 07:00 오픈, 메론크림 소금빵 3,600원부터.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통역 점심 맛집 카테고리별 추천 총정리 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">소고기 회식이면 <strong>육끝 영통구청점</strong> — 평점 4.9·리뷰 1,593건에 주차·예약 모두 되고 갈비살 19,900원부터입니다. 둘이 가볍게 냉삼·삼겹이면 <strong>냉삼포차</strong> (평점 5.0·리뷰 1,024건, 매탄동). 갈비를 제대로 먹고 싶으면 <strong>석촌갈비</strong> (평점 5.0·리뷰 1,019건, 원천동). 동네 단골 돼지구이면 <strong>정가네 본점</strong> (평점 5.0·리뷰 493건, 영통동). 검증된 프랜차이즈 안정감이면 <strong>하남돼지집 수원삼성점</strong> (평점 5.0, 매탄동, 체인 표준).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">소고기 회식이면 <strong>육끝 영통구청점</strong> — 평점 4.9·리뷰 1,593건에 주차·예약 모두 되고 갈비살 19,900원부터입니다.<br><br>둘이 가볍게 냉삼·삼겹이면 <strong>냉삼포차</strong> (평점 5.0·리뷰 1,024건, 매탄동).<br><br>갈비를 제대로 먹고 싶으면 <strong>석촌갈비</strong> (평점 5.0·리뷰 1,019건, 원천동).<br><br>동네 단골 돼지구이면 <strong>정가네 본점</strong> (평점 5.0·리뷰 493건, 영통동).<br><br>검증된 프랜차이즈 안정감이면 <strong>하남돼지집 수원삼성점</strong> (평점 5.0, 매탄동, 체인 표준).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통구청 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

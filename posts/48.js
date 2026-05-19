@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">든든한 한식 점심이면 <strong>농민백암순대 역삼직영점</strong> — 국밥 11,000원, 평점 4.6·리뷰 4,173건. 혼밥·빠른 점심이면 <strong>라홍방마라탕 강남직영점</strong> (마라탕 100g당 2,200원, 평점 4.7·리뷰 2,186건). 가성비 스시 점심이면 <strong>스시마이우 강남CGV점</strong> (접시당 1,890원, 리뷰 4,717건). 점심 데이트·팀 점심이면 <strong>퍼그피자하우스 강남점</strong> (파스타 8,800원부터, 평점 4.9·리뷰 5,205건, 주차·예약). 고기로 든든하게면 <strong>육품 강남본점</strong> (점심 찌개류 10,000원, 평점 4.5·리뷰 1,858건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">든든한 한식 점심이면 <strong>농민백암순대 역삼직영점</strong> — 국밥 11,000원, 평점 4.6·리뷰 4,173건.<br><br>혼밥·빠른 점심이면 <strong>라홍방마라탕 강남직영점</strong> (마라탕 100g당 2,200원, 평점 4.7·리뷰 2,186건).<br><br>가성비 스시 점심이면 <strong>스시마이우 강남CGV점</strong> (접시당 1,890원, 리뷰 4,717건).<br><br>점심 데이트·팀 점심이면 <strong>퍼그피자하우스 강남점</strong> (파스타 8,800원부터, 평점 4.9·리뷰 5,205건, 주차·예약).<br><br>고기로 든든하게면 <strong>육품 강남본점</strong> (점심 찌개류 10,000원, 평점 4.5·리뷰 1,858건).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '강남역 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

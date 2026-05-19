@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>마루심 판교점</strong> (★ 4.8 · 한식 해산물, 평일 점심·저녁 두 시간대 운영, 아브뉴프랑). 4만원대 고기 회식이면 <strong>우테이블</strong> (1인 45,000~90,000원, 한식 고기구이). 부담 적은 1만원대 동료 회식이면 <strong>한와담 판교점</strong> (1인 12,000~22,000원, 판교역 도보권). 표본 검증 1위는 <strong>아비뉴프랑</strong> (리뷰 4,082건, 1인 15,000~25,000원). 짬뽕·중식 회식 한 끼면 <strong>전국5대짬뽕 연화산</strong> (리뷰 711건, 짬뽕·면류·중식 혼합 메뉴).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>마루심 판교점</strong> (★ 4.8 · 한식 해산물, 평일 점심·저녁 두 시간대 운영, 아브뉴프랑). 4만원대 고기 회식이면 <strong>우테이블</strong> (1인 45,000~90,000원, 한식 고기구이).<br><br>부담 적은 1만원대 동료 회식이면 <strong>한와담 판교점</strong> (1인 12,000~22,000원, 판교역 도보권).<br><br>표본 검증 1위는 <strong>아비뉴프랑</strong> (리뷰 4,082건, 1인 15,000~25,000원).<br><br>짬뽕·중식 회식 한 끼면 <strong>전국5대짬뽕 연화산</strong> (리뷰 711건, 짬뽕·면류·중식 혼합 메뉴).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교역 회식 장소 추천 2026 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

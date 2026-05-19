@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">기념일 일식 정찬이면 <strong>좋은소식</strong> — 평점 4.8·리뷰 428건, 영통 데이트 일식 평점 1위입니다. 한 끼에 오마카세 가성비를 잡으시려면 <strong>오마카세 스시이찌 수원신동점</strong> — 런치 스시오마카세 29,000원. 데이트 파스타·뇨끼는 <strong>라루치아 본점</strong> — 봉골레알리오올리오 18,000원·뇨끼 21,000원. 가벼운 점심 데이트·이국 분위기는 <strong>타이테라스 신동카페거리점</strong> — 평점 4.2·리뷰 386건, 신동카페거리 태국 요리. 식사 후 카페 마무리는 <strong>어펙트커피</strong> — 시그니처 퍼펙트라떼 5,300원, 데이트 카페 1순위입니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">기념일 일식 정찬이면 <strong>좋은소식</strong> — 평점 4.8·리뷰 428건, 영통 데이트 일식 평점 1위입니다.<br><br>한 끼에 오마카세 가성비를 잡으시려면 <strong>오마카세 스시이찌 수원신동점</strong> — 런치 스시오마카세 29,000원.<br><br>데이트 파스타·뇨끼는 <strong>라루치아 본점</strong> — 봉골레알리오올리오 18,000원·뇨끼 21,000원.<br><br>가벼운 점심 데이트·이국 분위기는 <strong>타이테라스 신동카페거리점</strong> — 평점 4.2·리뷰 386건, 신동카페거리 태국 요리.<br><br>식사 후 카페 마무리는 <strong>어펙트커피</strong> — 시그니처 퍼펙트라떼 5,300원, 데이트 카페 1순위입니다.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통역 데이트 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

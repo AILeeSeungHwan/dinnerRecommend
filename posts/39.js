@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">분위기·만족도 둘 다 안정적인 첫 데이트면 <strong>야닝</strong> — 평점 4.8·리뷰 976건. 와인 한잔에 분위기를 챙기는 기념일이면 <strong>탭샵 바 합정점</strong> (평점 4.5·리뷰 1,981건). 둘만의 조용한 자리면 <strong>틈</strong> (평점 4.7, 표본은 작지만 만족도 안정). 화덕피자·파스타로 든든하게 즐기는 데이트면 <strong>비스트로사랑방</strong> — 리뷰 5,352건으로 표본이 가장 두텁지만 평점 4.0으로 메뉴 선택에 따라 편차가 있으니 시그니처 위주 주문을 권장드립니다. 파스타가 메인인 가벼운 점심 데이트면 <strong>수지앤파스타</strong> (평점 4.2·리뷰 3,182건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">분위기·만족도 둘 다 안정적인 첫 데이트면 <strong>야닝</strong> — 평점 4.8·리뷰 976건.<br><br>와인 한잔에 분위기를 챙기는 기념일이면 <strong>탭샵 바 합정점</strong> (평점 4.5·리뷰 1,981건).<br><br>둘만의 조용한 자리면 <strong>틈</strong> (평점 4.7, 표본은 작지만 만족도 안정).<br><br>화덕피자·파스타로 든든하게 즐기는 데이트면 <strong>비스트로사랑방</strong> — 리뷰 5,352건으로 표본이 가장 두텁지만 평점 4.0으로 메뉴 선택에 따라 편차가 있으니 시그니처 위주 주문을 권장드립니다.<br><br>파스타가 메인인 가벼운 점심 데이트면 <strong>수지앤파스타</strong> (평점 4.2·리뷰 3,182건).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '홍대 데이트 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

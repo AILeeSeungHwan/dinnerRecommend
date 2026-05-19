@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위 일식 코스 접대는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원 단일 단가, 예약·주차 가능). 따뜻한 코스로 격식 있는 자리면 <strong>너와집 백합 샤브샤브 백현점</strong> (백합특선 59,000원·백합진수 79,000원). 한우 단품으로 부서장 외부 식사면 <strong>하누소 The Hill</strong> (꽃등심 63,000원·살치살 72,000원·우마카세 85,000원). 한식 보쌈·낙지 코스 접대면 <strong>오봉집 서현역점</strong> (낙지스페셜 59,000원·매생이연포보쌈 59,000원). 일식 스키야키 4만원선이면 <strong>화수목 샤브샤브 스키야키</strong> (관동 한우 스키야키전골 43,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위 일식 코스 접대는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원 단일 단가, 예약·주차 가능).<br><br>따뜻한 코스로 격식 있는 자리면 <strong>너와집 백합 샤브샤브 백현점</strong> (백합특선 59,000원·백합진수 79,000원).<br><br>한우 단품으로 부서장 외부 식사면 <strong>하누소 The Hill</strong> (꽃등심 63,000원·살치살 72,000원·우마카세 85,000원).<br><br>한식 보쌈·낙지 코스 접대면 <strong>오봉집 서현역점</strong> (낙지스페셜 59,000원·매생이연포보쌈 59,000원).<br><br>일식 스키야키 4만원선이면 <strong>화수목 샤브샤브 스키야키</strong> (관동 한우 스키야키전골 43,000원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교 접대 레스토랑 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점·표본 둘 다 안정적인 일식이면 <strong>규카츠정 판교점</strong> — 평점 4.8·리뷰 2,937건으로 검증 1순위. 가성비 점심 스시면 <strong>스시가 좋아서</strong> (평점 4.7·리뷰 490건, 12,000원~22,000원). 표본 가장 두꺼운 데이트 일식이면 <strong>카츠쇼신</strong> (평점 4.3·리뷰 4,010건). 점심 초밥·우동 세트면 <strong>생선회관</strong> (점심 세트 12,000원~28,000원, 주차 가능). 삼평동 오피스 점심 일식이면 <strong>차차식당 판교</strong> (평점 4.3·리뷰 506건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점·표본 둘 다 안정적인 일식이면 <strong>규카츠정 판교점</strong> — 평점 4.8·리뷰 2,937건으로 검증 1순위.<br><br>가성비 점심 스시면 <strong>스시가 좋아서</strong> (평점 4.7·리뷰 490건, 12,000원~22,000원).<br><br>표본 가장 두꺼운 데이트 일식이면 <strong>카츠쇼신</strong> (평점 4.3·리뷰 4,010건).<br><br>점심 초밥·우동 세트면 <strong>생선회관</strong> (점심 세트 12,000원~28,000원, 주차 가능).<br><br>삼평동 오피스 점심 일식이면 <strong>차차식당 판교</strong> (평점 4.3·리뷰 506건).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교역 일식·스시 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

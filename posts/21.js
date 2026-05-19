@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #4338CA">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">4~8인 캐주얼 회식이면 <strong>개성집</strong> — 평점 4.9·리뷰 2,655건, 삼겹살 14,000원·해산물·한식 모두 가능. 코엑스 단체석 캐주얼이면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원, 4~12인 수용. 호텔 뷔페형 단체 식사면 <strong>이비스스타일앰배서더강남 프레쉬365다이닝</strong> — 리뷰 2,526건 표본 최대. 큰 자리 격식 회식이면 <strong>그랜드 키친</strong> — 파르나스 1층, 점심 173,000원·저녁 198,000원 뷔페형. 청담 한우곱창 정통이면 <strong>한가람식당</strong> — 곱창·대창·막창 200g 22,000원·★4.5.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">4~8인 캐주얼 회식이면 <strong>개성집</strong> — 평점 4.9·리뷰 2,655건, 삼겹살 14,000원·해산물·한식 모두 가능.<br><br>코엑스 단체석 캐주얼이면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원, 4~12인 수용.<br><br>호텔 뷔페형 단체 식사면 <strong>이비스스타일앰배서더강남 프레쉬365다이닝</strong> — 리뷰 2,526건 표본 최대.<br><br>큰 자리 격식 회식이면 <strong>그랜드 키친</strong> — 파르나스 1층, 점심 173,000원·저녁 198,000원 뷔페형.<br><br>청담 한우곱창 정통이면 <strong>한가람식당</strong> — 곱창·대창·막창 200g 22,000원·★4.5.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 회식 장소 추천 2026 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

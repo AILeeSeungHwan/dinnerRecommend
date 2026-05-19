@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한우 외식·기념일이면 <strong>솔직한우 잠실점</strong> — 평점 5.0·리뷰 637건으로 만족도 1순위. 표본 가장 두꺼운 가성비 돼지구이면 <strong>송돝</strong> (평점 4.7·리뷰 3,189건, 1인 15,000원선). 잠실새내 직장인 팀 회식이면 <strong>돈순장 잠실새내 본점</strong> (평점 4.7·리뷰 2,868건). 정육식당형 가성비 회식이면 <strong>무궁화정육식당</strong> (평점 4.7·리뷰 2,657건). 주차·예약되는 데이트 고기 자리면 <strong>연정민 소금구이</strong> (평점 4.9, 소금구이 + 찌개 사이드 다양).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한우 외식·기념일이면 <strong>솔직한우 잠실점</strong> — 평점 5.0·리뷰 637건으로 만족도 1순위.<br><br>표본 가장 두꺼운 가성비 돼지구이면 <strong>송돝</strong> (평점 4.7·리뷰 3,189건, 1인 15,000원선).<br><br>잠실새내 직장인 팀 회식이면 <strong>돈순장 잠실새내 본점</strong> (평점 4.7·리뷰 2,868건).<br><br>정육식당형 가성비 회식이면 <strong>무궁화정육식당</strong> (평점 4.7·리뷰 2,657건).<br><br>주차·예약되는 데이트 고기 자리면 <strong>연정민 소금구이</strong> (평점 4.9, 소금구이 + 찌개 사이드 다양).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '잠실 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

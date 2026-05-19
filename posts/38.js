@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">사람 많고 회전 빠른 노포 포차 분위기면 <strong>역전포장마차 홍대점</strong> — 리뷰 5,201건으로 표본이 가장 두텁습니다. 평점·만족도까지 안정적인 한 곳이면 <strong>달봉비어 홍대점</strong> (평점 4.9). 닭요리 안주로 진득하게 마실 자리면 <strong>교도리 홍대본점</strong> (평점 4.9·닭갈비·닭발). 친구 모임·아늑한 한잔이면 <strong>낭만포차 홍대점</strong> (평점 4.6·리뷰 1,306건). 사람 많고 늦게까지 시끌벅적한 분위기를 원하면 <strong>새벽</strong> — 리뷰 4,327건으로 표본은 많지만 평점 3.8로 호불호가 갈리니 메인 안주 위주 주문을 권장드립니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">사람 많고 회전 빠른 노포 포차 분위기면 <strong>역전포장마차 홍대점</strong> — 리뷰 5,201건으로 표본이 가장 두텁습니다.<br><br>평점·만족도까지 안정적인 한 곳이면 <strong>달봉비어 홍대점</strong> (평점 4.9).<br><br>닭요리 안주로 진득하게 마실 자리면 <strong>교도리 홍대본점</strong> (평점 4.9·닭갈비·닭발).<br><br>친구 모임·아늑한 한잔이면 <strong>낭만포차 홍대점</strong> (평점 4.6·리뷰 1,306건).<br><br>사람 많고 늦게까지 시끌벅적한 분위기를 원하면 <strong>새벽</strong> — 리뷰 4,327건으로 표본은 많지만 평점 3.8로 호불호가 갈리니 메인 안주 위주 주문을 권장드립니다.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '홍대 포차·야장 술집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

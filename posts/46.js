@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">속 풀리는 국밥 점심·해장이면 <strong>정남옥순대국 권선인계점</strong> — 맑은순대국 9,000원, 평점 5.0·리뷰 405건으로 본 가이드 평점 1순위입니다. 혼밥 일식 카레면 <strong>키요미카레</strong> (소고기카레 9,900원, 혼밥·주차 가능). 데이트·팀 점심 파스타면 <strong>우트볼하우스 신동본점</strong> (미트볼 리조또 16,000원, 리뷰 1,222건). 얼큰한 마라·중식이면 <strong>마라영웅 신동점</strong> (홍쏘로우덮밥 12,900원). 점심 후 디저트·커피면 <strong>잭바츠</strong> (음료·디저트 3,000원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">속 풀리는 국밥 점심·해장이면 <strong>정남옥순대국 권선인계점</strong> — 맑은순대국 9,000원, 평점 5.0·리뷰 405건으로 본 가이드 평점 1순위입니다.<br><br>혼밥 일식 카레면 <strong>키요미카레</strong> (소고기카레 9,900원, 혼밥·주차 가능).<br><br>데이트·팀 점심 파스타면 <strong>우트볼하우스 신동본점</strong> (미트볼 리조또 16,000원, 리뷰 1,222건).<br><br>얼큰한 마라·중식이면 <strong>마라영웅 신동점</strong> (홍쏘로우덮밥 12,900원).<br><br>점심 후 디저트·커피면 <strong>잭바츠</strong> (음료·디저트 3,000원~).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '망포 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

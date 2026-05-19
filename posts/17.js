@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>팔복 판교</strong> (★ 4.9 · 리뷰 378건, 판교엠타워 1층 중식당). 짜장면 한 그릇 8,500원 가성비 1순위는 <strong>홍루원</strong> (해물짬뽕 12,000원·짜장면 8,500원, 주차 가능). 마라탕 회식·점심 1순위는 <strong>라홍방마라탕 서현역점</strong> (★ 4.3 · 리뷰 208건). 표본 1위 짬뽕은 <strong>최고집손짬뽕</strong> (리뷰 842건, 백현동). 수타면 짬뽕 한 그릇이면 <strong>청계산수타짬뽕</strong> (리뷰 586건, 판교동).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>팔복 판교</strong> (★ 4.9 · 리뷰 378건, 판교엠타워 1층 중식당).<br><br>짜장면 한 그릇 8,500원 가성비 1순위는 <strong>홍루원</strong> (해물짬뽕 12,000원·짜장면 8,500원, 주차 가능).<br><br>마라탕 회식·점심 1순위는 <strong>라홍방마라탕 서현역점</strong> (★ 4.3 · 리뷰 208건).<br><br>표본 1위 짬뽕은 <strong>최고집손짬뽕</strong> (리뷰 842건, 백현동).<br><br>수타면 짬뽕 한 그릇이면 <strong>청계산수타짬뽕</strong> (리뷰 586건, 판교동).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교역 중식 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

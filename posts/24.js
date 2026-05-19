@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #312E81">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">치킨+생맥주 2차면 <strong>만선호프 삼성동</strong> — 후라이드 19,000원·을지로골뱅이 28,000원·대형스크린·단체 가능. 캐주얼한 한 잔이면 <strong>생활맥주 삼성코엑스 2호점</strong> — 앵그리버드와 감자 24,000원·맥주 다양. 라이브 음악·아지트 분위기면 <strong>ASOBOY</strong> — 맥주 5,000원·칵테일 9,000원, 봉은사로 지하 1층. 포차 감성·새벽 3시까지면 <strong>못난이포차</strong> — 부추전 15,000원·골뱅이 18,000원. 칵테일 한 잔으로 마무리면 <strong>몰트바배럴</strong> — 진피즈·모스코뮬 20,000원, 2층 자리.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">치킨+생맥주 2차면 <strong>만선호프 삼성동</strong> — 후라이드 19,000원·을지로골뱅이 28,000원·대형스크린·단체 가능.<br><br>캐주얼한 한 잔이면 <strong>생활맥주 삼성코엑스 2호점</strong> — 앵그리버드와 감자 24,000원·맥주 다양.<br><br>라이브 음악·아지트 분위기면 <strong>ASOBOY</strong> — 맥주 5,000원·칵테일 9,000원, 봉은사로 지하 1층.<br><br>포차 감성·새벽 3시까지면 <strong>못난이포차</strong> — 부추전 15,000원·골뱅이 18,000원.<br><br>칵테일 한 잔으로 마무리면 <strong>몰트바배럴</strong> — 진피즈·모스코뮬 20,000원, 2층 자리.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 1차와 결이 다른 매장만', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 회식 2차 술집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

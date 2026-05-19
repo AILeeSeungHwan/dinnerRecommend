@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #EA580C">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">잠실 국밥·해장국 평점 1순위는 <strong>양양집</strong> — 평점 4.5·리뷰 205건, 한우 양선지 해장국 12,000원·우대갈비찜 39,000원. 표본·인지도 1순위면 <strong>제주은희네해장국 잠실직영점</strong> — 평점 4.3·리뷰 784건, 제주식 해장국 12,000원·돔베고기 13,000원. 1만원선 설렁탕 정식이면 <strong>본가설렁탕</strong> — 설렁탕 15,000원, 평점 4.2·리뷰 1,711건. 한 그릇 1만원 감자탕 가성비면 <strong>청년감자탕 송파 본점</strong> — 뼈해장국 10,000원, 평점 4.1·리뷰 680건. 24시간 새벽 해장이면 <strong>얼큰본가 연품뼈해장국 24시 본점</strong> — 뼈해장국 11,000원·선지해장국 10,000원, 리뷰 1,124건.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">잠실 국밥·해장국 평점 1순위는 <strong>양양집</strong> — 평점 4.5·리뷰 205건, 한우 양선지 해장국 12,000원·우대갈비찜 39,000원.<br><br>표본·인지도 1순위면 <strong>제주은희네해장국 잠실직영점</strong> — 평점 4.3·리뷰 784건, 제주식 해장국 12,000원·돔베고기 13,000원. 1만원선 설렁탕 정식이면 <strong>본가설렁탕</strong> — 설렁탕 15,000원, 평점 4.2·리뷰 1,711건.<br><br>한 그릇 1만원 감자탕 가성비면 <strong>청년감자탕 송파 본점</strong> — 뼈해장국 10,000원, 평점 4.1·리뷰 680건. 24시간 새벽 해장이면 <strong>얼큰본가 연품뼈해장국 24시 본점</strong> — 뼈해장국 11,000원·선지해장국 10,000원, 리뷰 1,124건.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '잠실 국밥·해장국 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

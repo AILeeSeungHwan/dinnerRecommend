@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #DC2626">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">검증된 코엑스 핫플 짜장면·짬뽕 한 그릇이면 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건 누적, 자장면 1만원 안팎. 어향동고·고급 중식 데이트면 <strong>천미미 삼성점</strong> — 어향동고 45,000원·전가복(스페셜) 88,000원. 광동식 딤섬이 핵심이면 <strong>딤딤섬 파르나스몰점</strong> — 샤오롱바오 6,500원·하가우 7,500원으로 시작가 최저. 호텔 중식 정찬이면 <strong>그랜드 인터컨티넨탈 서울 파르나스 웨이루</strong> — 딤섬 선데이 130,000원 코스. 가성비 짜장면이면 <strong>더차이홍</strong> — 짜장면 8,000원·점심 직장인 표준.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">검증된 코엑스 핫플 짜장면·짬뽕 한 그릇이면 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건 누적, 자장면 1만원 안팎.<br><br>어향동고·고급 중식 데이트면 <strong>천미미 삼성점</strong> — 어향동고 45,000원·전가복(스페셜) 88,000원.<br><br>광동식 딤섬이 핵심이면 <strong>딤딤섬 파르나스몰점</strong> — 샤오롱바오 6,500원·하가우 7,500원으로 시작가 최저.<br><br>호텔 중식 정찬이면 <strong>그랜드 인터컨티넨탈 서울 파르나스 웨이루</strong> — 딤섬 선데이 130,000원 코스.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> — 짜장면 8,000원·점심 직장인 표준.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 중식 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

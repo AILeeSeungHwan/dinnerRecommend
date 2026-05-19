@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">기념일·프러포즈 같은 큰 자리는 <strong>그랜드 키친</strong> — 파르나스 1층 뷔페형 다이닝(주중 점심 173,000원·저녁 198,000원). 한우 코스 정통이면 <strong>우도옥 삼성본점</strong> — 한우++ 절편 등심 53,000원·★4.9. 캐주얼 점심 데이트면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원 코엑스몰. 부담 없는 한 끼 데이트면 <strong>무탄 코엑스</strong> — ★4.9·7,774건 검증된 중식. 분위기 좋은 술·요리 한 잔이면 <strong>키친바락</strong> — 모듬 숙성회 40,000원·디저트 평가 좋음.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">기념일·프러포즈 같은 큰 자리는 <strong>그랜드 키친</strong> — 파르나스 1층 뷔페형 다이닝(주중 점심 173,000원·저녁 198,000원).<br><br>한우 코스 정통이면 <strong>우도옥 삼성본점</strong> — 한우++ 절편 등심 53,000원·★4.9.<br><br>캐주얼 점심 데이트면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원 코엑스몰.<br><br>부담 없는 한 끼 데이트면 <strong>무탄 코엑스</strong> — ★4.9·7,774건 검증된 중식.<br><br>분위기 좋은 술·요리 한 잔이면 <strong>키친바락</strong> — 모듬 숙성회 40,000원·디저트 평가 좋음.</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '삼성역 데이트 레스토랑 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

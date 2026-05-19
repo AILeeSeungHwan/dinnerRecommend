@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">팀·부서 디너이면 <strong>고반식당 수원영통구청점</strong> — 블로그 후기 954건 누적, 박포 생갈비 19,000원 시작, 주차·예약 동시 가능. 단체 한우·한돈 비교 회식이면 <strong>양화돼교</strong> — 한우등심 600g 79,000원·단체가능 태그까지 매칭. 곱창·전골 회식이면 <strong>순우리곱창 본점</strong> (한우곱창전골 49,000원). 부장님 식사·간단한 점심 회식이면 <strong>노대감감자탕매탄본점</strong> (뼈다귀감자탕 대 39,000원). 짜장면·짬뽕 마무리 자리이면 <strong>야수각</strong> (탕짜 22,000원·탕짬 27,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">팀·부서 디너이면 <strong>고반식당 수원영통구청점</strong> — 블로그 후기 954건 누적, 박포 생갈비 19,000원 시작, 주차·예약 동시 가능.<br><br>단체 한우·한돈 비교 회식이면 <strong>양화돼교</strong> — 한우등심 600g 79,000원·단체가능 태그까지 매칭.<br><br>곱창·전골 회식이면 <strong>순우리곱창 본점</strong> (한우곱창전골 49,000원).<br><br>부장님 식사·간단한 점심 회식이면 <strong>노대감감자탕매탄본점</strong> (뼈다귀감자탕 대 39,000원).<br><br>짜장면·짬뽕 마무리 자리이면 <strong>야수각</strong> (탕짜 22,000원·탕짬 27,000원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통구청 회식 장소 추천 2026 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">짜장면·짬뽕 한 그릇으로 빠르게 마무리이면 <strong>도야짬뽕 영통구청점</strong> — 짜장면 7,000원·도야짬뽕 10,000원, 점심추천·혼밥가능 태그까지 매칭. 텐동·쌀국수 1인 점심이면 <strong>덴포</strong> (덴포텐동 13,000원·아롱사태 쌀국수 12,000원, 주차 가능). 한우 점심특선이면 <strong>간사이등심 2층 퀸즈</strong> (등심 정식 점심특선 25,000원·육회밥 12,000원). 칼국수·전골 한 그릇이면 <strong>수원육칼밥 본점</strong> (장칼국수 9,000원·수원 육칼밥 10,000원). 한식 백반·찌개 정식이면 <strong>진미회관</strong> (김치찌개 9,000원·생태찌개 16,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">짜장면·짬뽕 한 그릇으로 빠르게 마무리이면 <strong>도야짬뽕 영통구청점</strong> — 짜장면 7,000원·도야짬뽕 10,000원, 점심추천·혼밥가능 태그까지 매칭.<br><br>텐동·쌀국수 1인 점심이면 <strong>덴포</strong> (덴포텐동 13,000원·아롱사태 쌀국수 12,000원, 주차 가능).<br><br>한우 점심특선이면 <strong>간사이등심 2층 퀸즈</strong> (등심 정식 점심특선 25,000원·육회밥 12,000원).<br><br>칼국수·전골 한 그릇이면 <strong>수원육칼밥 본점</strong> (장칼국수 9,000원·수원 육칼밥 10,000원).<br><br>한식 백반·찌개 정식이면 <strong>진미회관</strong> (김치찌개 9,000원·생태찌개 16,000원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통구청 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

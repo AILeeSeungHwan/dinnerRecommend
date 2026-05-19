@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 우선이면 <strong>토브나인 판교 본점</strong> — ★ 4.6 · 리뷰 255건으로 양식 스테이크 카테고리 1순위입니다. 판교 점심 회식·동료 식사라면 <strong>돼지맨숀 판교아브뉴프랑점</strong> (★ 4.4 · 리뷰 410건, 돼지고기구이). 1인 1만원선 가성비 한우 점심이면 <strong>하누소 The Hill</strong> (명품갈비탕·솥밥 17,000원, 시작가 10,000원). 정육식당 스타일로 두툼한 고기와 푸짐한 양이 필요하시면 <strong>양재정육식당 판교점</strong> (리뷰 489건). 한우 곱창·대창 단품으로 한 잔 곁들이는 자리면 <strong>방짜</strong> (생삼겹살 18,000원·한우곱창 25,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 우선이면 <strong>토브나인 판교 본점</strong> — ★ 4.6 · 리뷰 255건으로 양식 스테이크 카테고리 1순위입니다.<br><br>판교 점심 회식·동료 식사라면 <strong>돼지맨숀 판교아브뉴프랑점</strong> (★ 4.4 · 리뷰 410건, 돼지고기구이). 1인 1만원선 가성비 한우 점심이면 <strong>하누소 The Hill</strong> (명품갈비탕·솥밥 17,000원, 시작가 10,000원).<br><br>정육식당 스타일로 두툼한 고기와 푸짐한 양이 필요하시면 <strong>양재정육식당 판교점</strong> (리뷰 489건).<br><br>한우 곱창·대창 단품으로 한 잔 곁들이는 자리면 <strong>방짜</strong> (생삼겹살 18,000원·한우곱창 25,000원).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '판교역 점심 고기 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">

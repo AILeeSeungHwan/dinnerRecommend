@@ -20,11 +20,11 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한 그릇 칼국수로 따뜻하게 가성비 점심이면 <strong>홍남매칼국수 망포역점</strong> — 칼국수 9,000원, 평점 5.0·리뷰 1,072건으로 본 가이드 평점 1순위입니다. 1만원 초반 돈가스 점심이면 <strong>키츠</strong> (로스카츠 13,000원, 리뷰 3,691건으로 표본 최다·주차 가능). 5천원 안팎 초저가 점심이면 <strong>노브랜드버거 수원영통구청점</strong> (시그니처 5,000원). 짜장면 한 그릇이면 <strong>효동짜장</strong> (짜장면 7,000원). 출근길·짧은 점심 한 끼면 <strong>이삭토스트 수원영통벽적골점</strong> (토스트 4,400원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한 그릇 칼국수로 따뜻하게 가성비 점심이면 <strong>홍남매칼국수 망포역점</strong> — 칼국수 9,000원, 평점 5.0·리뷰 1,072건으로 본 가이드 평점 1순위입니다. 1만원 초반 돈가스 점심이면 <strong>키츠</strong> (로스카츠 13,000원, 리뷰 3,691건으로 표본 최다·주차 가능). 5천원 안팎 초저가 점심이면 <strong>노브랜드버거 수원영통구청점</strong> (시그니처 5,000원).<br><br>짜장면 한 그릇이면 <strong>효동짜장</strong> (짜장면 7,000원).<br><br>출근길·짧은 점심 한 끼면 <strong>이삭토스트 수원영통벽적골점</strong> (토스트 4,400원~).</p>
 </aside>`
     },
 
-    { type: 'h2', id: 'criteria', text: '선정 기준 — 어떻게 5곳을 골랐는가', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
+    { type: 'h2', id: 'criteria', text: '영통 가성비 점심 맛집 선정 기준', gradientStyle: { from: '#185FA5', to: '#0EA5E9' } },
     {
       type: 'body',
       html: `<div style="background:#E6F1FB;border-radius:10px;padding:18px 20px;margin-bottom:1.5rem">
