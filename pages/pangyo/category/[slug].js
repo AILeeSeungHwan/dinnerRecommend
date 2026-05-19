@@ -155,7 +155,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
         <title>판교역 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
-        <meta name="description" content={`판교역·판교테크노밸리·백현동 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
+        <meta name="description" content={`판교역·판교테크노밸리·현대백화점 판교점·백현동·삼평동 주변 ${catInfo.name} 맛집 ${restaurants.length}곳을 카카오맵·네이버 평점·리뷰·메뉴 가격 기준으로 정리. ${catInfo.keywords}. 회식·데이트·혼밥·점심 상황별 추천, 영업시간·주차·예약 정보까지 한눈에.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/pangyo/category/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

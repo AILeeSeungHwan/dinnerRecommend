@@ -176,8 +176,8 @@ export default function Home() {
 
   return (
     <Layout
-      title="오늘뭐먹지 | AI 맛집 추천 - 삼성역·잠실·판교·영통"
-      description="삼성역·잠실·판교·영통 맛집을 AI가 날씨·기분·예산에 맞게 3초 만에 추천합니다."
+      title="오늘뭐먹지 2026 | AI 맛집 추천 - 강남·삼성역·잠실·판교·수지·영통·홍대 9개 지역 가이드"
+      description="강남역·삼성역·잠실·판교·수지·영통·망포·영통구청·홍대 9개 지역 1,360개+ 맛집을 AI가 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 국밥·이자카야·한우·중식·양식 카테고리별 평점·리뷰·메뉴 가격 비교와 회식·데이트·혼밥·점심 상황별 가이드를 한 번에 확인."
       canonical="https://dinner.ambitstock.com"
       jsonLd={websiteJsonLd}
       extraJsonLd={faqJsonLd}

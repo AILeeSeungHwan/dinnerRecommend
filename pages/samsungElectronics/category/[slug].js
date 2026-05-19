@@ -230,7 +230,7 @@ export default function UnifiedCategoryPage({ slug, catInfo, byRegion }) {
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
         <title>영통·망포·구청 {catInfo.name} 맛집 추천 {totalCount}곳 | 2026 | 오늘뭐먹지</title>
-        <meta name="description" content={`영통역·망포역·영통구청 삼성전자 임직원을 위한 ${catInfo.name} 맛집 ${totalCount}개. 지역 통합 검색.`} />
+        <meta name="description" content={`영통역·망포역·영통구청·삼성전자·매탄동·원천동 통합 ${catInfo.name} 맛집 ${totalCount}곳을 카카오맵·네이버 평점·리뷰·메뉴 가격 기준으로 정리. ${catInfo.keywords || catInfo.name}. 회식·데이트·혼밥·점심 상황별 추천, 영업시간·주차·예약 정보까지 한눈에.`} />
         <meta name="keywords" content={`영통 ${catInfo.name}, 망포 ${catInfo.name}, 영통구청 ${catInfo.name}, 삼성전자 맛집 ${catInfo.name}`} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/samsungElectronics/category/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

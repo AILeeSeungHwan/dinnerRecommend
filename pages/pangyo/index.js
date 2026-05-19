@@ -2297,10 +2297,10 @@ export default function SamseongPage() {
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
-    <Layout title="판교 맛집 AI 추천" description="판교·성남 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/pangyo">
+    <Layout title="판교 맛집 추천 2026 | 판교테크노밸리·현대백화점·카카오 AI 가이드" description="판교 맛집 AI 추천 가이드. 판교테크노밸리·현대백화점 판교점·카카오·네이버·백현동·삼평동 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 420개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." canonical="https://dinner.ambitstock.com/pangyo">
       <Head>
-        <title>판교 맛집 추천 | 판교테크노밸리·카카오 AI 추천 | 오늘뭐먹지</title>
-        <meta name="description" content="판교 맛집 AI 추천. 판교테크노밸리·현대백화점 판교점·카카오 주변 국밥·이자카야·한우·중식 420개+ 식당." />
+        <title>판교 맛집 추천 2026 | 판교테크노밸리·현대백화점·카카오 국밥·이자카야·한우·중식 AI 추천 | 오늘뭐먹지</title>
+        <meta name="description" content="판교 맛집 AI 추천 가이드. 판교테크노밸리·현대백화점 판교점·카카오·네이버·백현동·삼평동 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 420개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." />
         <link rel="canonical" href="https://dinner.ambitstock.com/pangyo" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org",

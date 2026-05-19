@@ -155,7 +155,7 @@ export default function CategoryPage({ slug, catInfo, restaurants }) {
       {dicing && <DiceOverlay onDone={onDone} />}
       <Head>
         <title>수지구청역 {catInfo.name} 맛집 추천 {restaurants.length}곳 | 2026 | 오늘뭐먹지</title>
-        <meta name="description" content={`수지구청역·수지구·동천동 주변 ${catInfo.name} 맛집 ${restaurants.length}개 정리. ${catInfo.keywords}.`} />
+        <meta name="description" content={`수지구청역·풍덕천동·동천동·성복동·수지구 주변 ${catInfo.name} 맛집 ${restaurants.length}곳을 카카오맵·네이버 평점·리뷰·메뉴 가격 기준으로 정리. ${catInfo.keywords}. 회식·데이트·혼밥·점심 상황별 추천, 영업시간·주차·예약 정보까지 한눈에.`} />
         <meta name="keywords" content={catInfo.keywords} />
         <link rel="canonical" href={`https://dinner.ambitstock.com/suji/category/${slug}`} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

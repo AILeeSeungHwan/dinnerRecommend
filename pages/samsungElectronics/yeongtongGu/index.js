@@ -2234,10 +2234,10 @@ export default function SamseongPage() {
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
-    <Layout title="영통구청 맛집 AI 추천" description="영통구청·수원 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu">
+    <Layout title="영통구청 맛집 추천 2026 | 영통구청역·매탄동·수원 AI 가이드" description="영통구청 맛집 AI 추천 가이드. 영통구청역·매탄동·인계동·수원 영통구 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 100개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." canonical="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu">
       <Head>
-        <title>영통구청 맛집 추천 | 영통구청역·수원 AI 추천 | 오늘뭐먹지</title>
-        <meta name="description" content="영통구청 맛집 AI 추천. 영통구청역·수원 영통구 주변 국밥·이자카야·한우·중식 100개+ 식당." />
+        <title>영통구청 맛집 추천 2026 | 영통구청역·매탄동·수원 국밥·이자카야·한우·중식 AI 추천 | 오늘뭐먹지</title>
+        <meta name="description" content="영통구청 맛집 AI 추천 가이드. 영통구청역·매탄동·인계동·수원 영통구 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 100개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." />
         <link rel="canonical" href="https://dinner.ambitstock.com/samsungElectronics/yeongtongGu" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org",

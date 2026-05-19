@@ -2423,10 +2423,10 @@ export default function SamseongPage() {
   const topRated = [...restaurants].sort((a,b)=>b.rt-a.rt).slice(0,6)
 
   return (
-    <Layout title="강남역 맛집 AI 추천" description="강남역·강남대로 주변 맛집 AI 추천. 국밥·이자카야·한우·중식 170개+ 식당." canonical="https://dinner.ambitstock.com/dinner/gangnam">
+    <Layout title="강남역 맛집 추천 2026 | 강남대로·테헤란로·역삼동 AI 가이드" description="강남역 맛집 AI 추천 가이드. 강남대로·테헤란로·역삼동·신논현·논현동 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 170개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." canonical="https://dinner.ambitstock.com/dinner/gangnam">
       <Head>
-        <title>강남역 맛집 추천 | 강남대로·강남 AI 추천 | 오늘뭐먹지</title>
-        <meta name="description" content="강남역 맛집 AI 추천. 4번출구·강남대로 주변 국밥·이자카야·한우·중식 170개+ 식당." />
+        <title>강남역 맛집 추천 2026 | 강남대로·테헤란로·역삼동 국밥·이자카야·한우·중식 AI 추천 | 오늘뭐먹지</title>
+        <meta name="description" content="강남역 맛집 AI 추천 가이드. 강남대로·테헤란로·역삼동·신논현·논현동 주변 국밥·이자카야·한우·중식·일식·양식 등 검증된 170개+ 식당을 날씨·기분·예산·카테고리에 맞춰 3초 만에 추천. 회식·데이트·혼밥·점심 상황별, 카카오맵·네이버 평점·리뷰·메뉴 가격 한눈에 비교." />
         <link rel="canonical" href="https://dinner.ambitstock.com/dinner/gangnam" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context":"https://schema.org",
