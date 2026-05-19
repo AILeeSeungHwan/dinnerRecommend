@@ -56,9 +56,16 @@ def naver_visitor(name, region_kw):
     price = ''
     m = re.search(r'([0-9]{1,3}(?:~[0-9]{1,3})?\s*만원)\s*\(1인\)', h)
     if m: price = m.group(1).replace(' ','')
+    # 네이버 별점 (카카오맵 평점 없을 때 fallback용)
+    nrt = 0.0
+    m = re.search(r'"visitorReviewScore":\s*"?([0-9]\.[0-9])', h)
+    if not m: m = re.search(r'(?:별점|평점)[^0-9<]{0,8}([0-9]\.[0-9])', h)
+    if m:
+        v = float(m.group(1))
+        if 1 <= v <= 5: nrt = v
     if not title_ok and vc == 0:
         return None
-    return {'naverCnt': vc, 'blogCnt': bc, 'price': price}
+    return {'naverCnt': vc, 'blogCnt': bc, 'price': price, 'naverRt': nrt}
 
 def daum_rating(name, region_kw=''):
     """카카오맵 m.map.kakao searchView — 식당명 매칭 카드의 (평점, 카카오리뷰수).
@@ -108,17 +115,19 @@ def process(region):
         drt, dcnt = daum_rating(nm, region_kw)
         time.sleep(random.uniform(*DELAY))
         ncnt = nv['naverCnt'] if nv else 0
+        nrt = nv['naverRt'] if nv else 0
         if 'naverCntOrig' not in r:
             r['naverCntOrig'] = r.get('naverCnt', r.get('cnt', 0))
         r['naverCnt'] = ncnt
+        r['naverRt'] = nrt
         r['daumCnt'] = dcnt
         r['daumRt'] = drt
         r['cnt'] = ncnt + dcnt                 # 카카오+네이버 리뷰개수 합산
-        r['rt'] = drt                          # 카카오(다음) 평점
+        r['rt'] = drt if drt > 0 else nrt       # 평점: 카카오맵 우선, 없으면 네이버 별점
         if nv and nv['blogCnt']: r['naverBlogCnt'] = nv['blogCnt']
         if nv and nv['price'] and not r.get('priceRange'): r['priceRange'] = nv['price']
-        r['ratingSource'] = 'daum' if drt > 0 else ('naver-cnt' if ncnt > 0 else 'none')
-        if drt > 0: urt += 1
+        r['ratingSource'] = 'kakao' if drt > 0 else ('naver' if nrt > 0 else ('naver-cnt' if ncnt > 0 else 'none'))
+        if r['rt'] > 0: urt += 1
         if r['cnt'] > 0: uc += 1
         done.add(nm)
         if i % 25 == 0 or urt <= 5:
