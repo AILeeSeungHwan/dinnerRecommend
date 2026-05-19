@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한 그릇 칼국수로 따뜻하게 가성비 점심이면 <strong>홍남매칼국수 망포역점</strong> — 칼국수 9,000원, 평점 5.0·리뷰 1,072건으로 본 가이드 평점 1순위입니다. 1만원 초반 돈가스 점심이면 <strong>키츠</strong> (로스카츠 13,000원, 리뷰 3,691건으로 표본 최다·주차 가능). 5천원 안팎 초저가 점심이면 <strong>노브랜드버거 수원영통구청점</strong> (시그니처 5,000원).<br><br>짜장면 한 그릇이면 <strong>효동짜장</strong> (짜장면 7,000원).<br><br>출근길·짧은 점심 한 끼면 <strong>이삭토스트 수원영통벽적골점</strong> (토스트 4,400원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한 그릇 칼국수로 따뜻하게 가성비 점심이면 <strong>홍남매칼국수 망포역점</strong> — 칼국수 9,000원, 평점 5점·리뷰 307건으로 본 가이드 평점 1순위입니다. 1만원 초반 돈가스 점심이면 <strong>키츠</strong> (로스카츠 13,000원, 리뷰 3,695건으로 표본 최다·주차 가능). 5천원 안팎 초저가 점심이면 <strong>노브랜드버거 수원영통구청점</strong> (시그니처 5,000원).<br><br>짜장면 한 그릇이면 <strong>효동짜장</strong> (짜장면 7,000원).<br><br>출근길·짧은 점심 한 끼면 <strong>이삭토스트 수원영통벽적골점</strong> (토스트 4,400원~).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#F97316;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비·평점 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 1,072건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 307건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 5,000원~12,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>가성비와 평점 양쪽 모두 1순위</strong>인 칼국수 전문 한식당입니다. 신동 338 에이스하이엔드타워 B201호, 망포역에서 도보로 접근 가능합니다. 평점 5.0·리뷰 1,072건에 블로그 후기 342건이 함께 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편입니다. 칼국수 9,000원·고기만두 5,000원으로 1만원 안에서 한 끼가 끝나고, 10:30 영업 시작이라 점심 11시대 일찍 가시면 웨이팅을 피하기 좋습니다. 주차도 가능해 차로 오는 직장인 점심에 동선이 편합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>가성비와 평점 양쪽 모두 1순위</strong>인 칼국수 전문 한식당입니다. 신동 338 에이스하이엔드타워 B201호, 망포역에서 도보로 접근 가능합니다. 평점 5점·리뷰 307건에 블로그 후기 342건이 함께 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편입니다. 칼국수 9,000원·고기만두 5,000원으로 1만원 안에서 한 끼가 끝나고, 10:30 영업 시작이라 점심 11시대 일찍 가시면 웨이팅을 피하기 좋습니다. 주차도 가능해 차로 오는 직장인 점심에 동선이 편합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"웨이팅 있다 · 깔끔하다 · 서비스 좋다 · 주차 가능" 같은 평이 자주 묶입니다. 칼국수·만두 단품 회전이 빠른 식당이라는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -83,13 +83,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍱 표본 최다 돈가스</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 3,691건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 3,695건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,000원~15,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 372에 자리한 돈가스 전문 일식당으로, <strong>리뷰 3,691건은 본 가이드 5곳 중 가장 큰 표본</strong>입니다. 평점 4.7에 블로그 후기 528건이 함께 누적돼 검증 신뢰가 높은 편입니다. 로스카츠 13,000원·우동 10,000원으로 1만원 초반에 한 끼가 끝나고, 한입 카레·에비카츠 같은 4,000원 사이드가 있어 가볍게 먹고 싶은 날도 대응됩니다. 주차·예약이 가능해 점심 회식이나 차로 오는 직장인 점심에 동선이 편하고, 11:00 영업 시작이라 점심 피크 전 입장이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 372에 자리한 돈가스 전문 일식당으로, <strong>리뷰 3,695건은 본 가이드 5곳 중 가장 큰 표본</strong>입니다. 평점 4.7에 블로그 후기 528건이 함께 누적돼 검증 신뢰가 높은 편입니다. 로스카츠 13,000원·우동 10,000원으로 1만원 초반에 한 끼가 끝나고, 한입 카레·에비카츠 같은 4,000원 사이드가 있어 가볍게 먹고 싶은 날도 대응됩니다. 주차·예약이 가능해 점심 회식이나 차로 오는 직장인 점심에 동선이 편하고, 11:00 영업 시작이라 점심 피크 전 입장이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가성비 좋다 · 점심 추천 · 주차 가능 · 깔끔하다" 같은 평이 자주 묶입니다. 돈가스 단품 회전이 빠르고 표본이 크게 누적된 식당이라는 점이 후기 키워드로 함께 묶입니다.</p>
@@ -136,7 +136,7 @@ const post = {
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드에서 한 끼 최저가가 가장 낮은 식당</strong>입니다. 매탄동 1267-1 새롬프라자 16차 1층, 평점 4.7·리뷰 1,586건으로 표본이 넉넉합니다. 그릴드 불고기 3,100원·시그니처 5,000원으로 단품만 보면 5천원 안에서도 점심이 가능해, 점심값을 최대한 줄이고 싶은 날 1순위입니다. 09:50 영업 시작이라 출근 직후 이른 점심도 가능하고 주차도 됩니다. 세트로 올리면 1만원 안팎이라 예산을 상황에 맞춰 조절하기 쉬운 점이 강점입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드에서 한 끼 최저가가 가장 낮은 식당</strong>입니다. 매탄동 1267-1 새롬프라자 16차 1층, 평점 4.7점·리뷰 1,586건으로 표본이 넉넉합니다. 그릴드 불고기 3,100원·시그니처 5,000원으로 단품만 보면 5천원 안에서도 점심이 가능해, 점심값을 최대한 줄이고 싶은 날 1순위입니다. 09:50 영업 시작이라 출근 직후 이른 점심도 가능하고 주차도 됩니다. 세트로 올리면 1만원 안팎이라 예산을 상황에 맞춰 조절하기 쉬운 점이 강점입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가격 착하다 · 깔끔하다 · 서비스 좋다 · 주차 가능" 같은 평이 자주 묶입니다. 단품 가격이 낮아 예산을 조절하기 쉽다는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -175,12 +175,12 @@ const post = {
 <img src="https://search.pstatic.net/common/?autoRotate=true&quality=100&type=f640_380&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20241204_23%2F1733273064607yLge7_JPEG%2F1000004616.jpg" alt="효동짜장 대표 이미지" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:260px;object-fit:cover;display:block" />
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.0 · 리뷰 473건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4 · 리뷰 0건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 7,000원~20,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.0점은 본 가이드 5곳 중 가장 낮습니다. 다만 <strong>짜장면 7,000원은 본 가이드에서 한 끼 단품 최저가</strong>이고, 리뷰 473건으로 평균이 흔들리지 않을 표본은 갖췄습니다. 매탄동 1257-4, 10:30 영업 시작이라 이른 점심·1인 짜장면 한 그릇 옵션으로 차별점이 명확합니다. 평점이 낮은 이유는 단품 회전 위주 식당이라 호불호 표본이 함께 쌓인 것으로 해석되니, 짜장면·짬뽕 같은 메인 단품 위주로 주문하시면 만족도 편차가 줄어듭니다. 전용 주차가 없어 인근 공영주차장·도보 이용을 권장드립니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4점은 본 가이드 5곳 중 가장 낮습니다. 다만 <strong>짜장면 7,000원은 본 가이드에서 한 끼 단품 최저가</strong>이고, 리뷰 0건으로 평균이 흔들리지 않을 표본은 갖췄습니다. 매탄동 1257-4, 10:30 영업 시작이라 이른 점심·1인 짜장면 한 그릇 옵션으로 차별점이 명확합니다. 평점이 낮은 이유는 단품 회전 위주 식당이라 호불호 표본이 함께 쌓인 것으로 해석되니, 짜장면·짬뽕 같은 메인 단품 위주로 주문하시면 만족도 편차가 줄어듭니다. 전용 주차가 없어 인근 공영주차장·도보 이용을 권장드립니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"짜장면 가격 착하다 · 단품 회전 빠르다 · 서비스 좋다" 같은 평이 자주 묶입니다. 메인 단품 만족도와 호불호가 함께 누적되는 키워드 구조입니다.</p>
@@ -220,11 +220,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#92400E;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥪 짧은 점심 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 1,150건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 2건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,400원~5,800원</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통동 973-3 우성아파트 상가 105호의 토스트 전문점으로, 평점 4.4·리뷰 1,150건으로 표본이 넉넉합니다. 토스트 단품 4,400~5,800원으로 점심값을 가장 가볍게 줄일 수 있고, 10:00 영업 시작이라 출근길·짧은 점심에 픽업하기 좋습니다. 본 가이드 5곳 중 가장 빠르게 한 끼를 끝낼 수 있는 옵션으로, 회의 사이 시간이 짧거나 자리에서 간단히 먹어야 하는 날 대안으로 묶었습니다. 전용 주차가 없어 도보·대중교통 이용을 권장드립니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통동 973-3 우성아파트 상가 105호의 토스트 전문점으로, 평점 4.4점·리뷰 2건으로 표본이 넉넉합니다. 토스트 단품 4,400~5,800원으로 점심값을 가장 가볍게 줄일 수 있고, 10:00 영업 시작이라 출근길·짧은 점심에 픽업하기 좋습니다. 본 가이드 5곳 중 가장 빠르게 한 끼를 끝낼 수 있는 옵션으로, 회의 사이 시간이 짧거나 자리에서 간단히 먹어야 하는 날 대안으로 묶었습니다. 전용 주차가 없어 도보·대중교통 이용을 권장드립니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"점심 추천 · 가격 착하다 · 서비스 좋다 · 픽업 빠르다" 같은 평이 자주 묶입니다. 단품 토스트 회전이 빠르고 출근길 픽업 동선이 편하다는 점이 후기 키워드로 함께 누적됩니다.</p>

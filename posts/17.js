@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>팔복 판교</strong> (★ 4.9 · 리뷰 378건, 판교엠타워 1층 중식당).<br><br>짜장면 한 그릇 8,500원 가성비 1순위는 <strong>홍루원</strong> (해물짬뽕 12,000원·짜장면 8,500원, 주차 가능).<br><br>마라탕 회식·점심 1순위는 <strong>라홍방마라탕 서현역점</strong> (★ 4.3 · 리뷰 208건).<br><br>표본 1위 짬뽕은 <strong>최고집손짬뽕</strong> (리뷰 842건, 백현동).<br><br>수타면 짬뽕 한 그릇이면 <strong>청계산수타짬뽕</strong> (리뷰 586건, 판교동).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>팔복 판교</strong> (★ 4.2 · 리뷰 1,577건, 판교엠타워 1층 중식당).<br><br>짜장면 한 그릇 8,500원 가성비 1순위는 <strong>홍루원</strong> (해물짬뽕 12,000원·짜장면 8,500원, 주차 가능).<br><br>마라탕 회식·점심 1순위는 <strong>라홍방마라탕 서현역점</strong> (★ 0 · 리뷰 1,758건).<br><br>표본 1위 짬뽕은 <strong>최고집손짬뽕</strong> (리뷰 1,266건, 백현동).<br><br>수타면 짬뽕 한 그릇이면 <strong>청계산수타짬뽕</strong> (리뷰 851건, 판교동).</p>
 </aside>`
     },
 
@@ -88,11 +88,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌶 마라탕 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,757건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,758건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 마라탕 표준가</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">서현동 269-4 2층 206호, 분당선 서현역 도보 동선의 마라탕 매장입니다. <strong>평점 0점·리뷰 1,757건</strong>으로 본 가이드 5곳 중 마라탕 카테고리에서 표본·평점 모두 1순위이며, "서비스 · 맛있다" 키워드가 후기에 매칭됩니다. 마라탕·마라샹궈 단품에 꿔바로우·만두 사이드 조합이 표준 주문 패턴이며, 1인 1만원선 점심 회전형 한 끼에 단가가 명확합니다. 판교역에서는 분당선 두 정거장 거리이지만, 서현역 직장인·회식 점심에 자주 활용되는 매장입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">서현동 269-4 2층 206호, 분당선 서현역 도보 동선의 마라탕 매장입니다. <strong>평점 0점·리뷰 1,758건</strong>으로 본 가이드 5곳 중 마라탕 카테고리에서 표본·평점 모두 1순위이며, "서비스 · 맛있다" 키워드가 후기에 매칭됩니다. 마라탕·마라샹궈 단품에 꿔바로우·만두 사이드 조합이 표준 주문 패턴이며, 1인 1만원선 점심 회전형 한 끼에 단가가 명확합니다. 판교역에서는 분당선 두 정거장 거리이지만, 서현역 직장인·회식 점심에 자주 활용되는 매장입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"서비스 친절하다 · 맛있다 · 매운맛 단계 선택 가능" 같은 평이 자주 언급되었습니다. 마라탕 단가와 매장 응대 만족도가 함께 묶이는 키워드입니다.</p>
@@ -176,11 +176,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🔥 표본 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.2 · 리뷰 1,267건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.2 · 리뷰 1,266건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 짬뽕 단품 가격대</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 580-4 동선의 손짬뽕 전문 매장입니다. <strong>리뷰 1,267건</strong>으로 본 가이드 5곳 중 표본 절대 1위이며, 평점 4.0은 본 가이드 평균보다 약간 낮지만 800건이 넘는 표본이 평균값을 안정시켜 줍니다. 백현동 직장인 점심·차량 동선 회식이 자주 누적되는 짬뽕 단품 매장으로, 점심 회전이 빠른 식당이라 12시 피크에도 자리 잡기 수월합니다. "서비스" 키워드가 후기에 매칭되어 있어 매장 응대도 안정적입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 580-4 동선의 손짬뽕 전문 매장입니다. <strong>리뷰 1,266건</strong>으로 본 가이드 5곳 중 표본 절대 1위이며, 평점 4.0은 본 가이드 평균보다 약간 낮지만 800건이 넘는 표본이 평균값을 안정시켜 줍니다. 백현동 직장인 점심·차량 동선 회식이 자주 누적되는 짬뽕 단품 매장으로, 점심 회전이 빠른 식당이라 12시 피크에도 자리 잡기 수월합니다. "서비스" 키워드가 후기에 매칭되어 있어 매장 응대도 안정적입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"손짬뽕 면 식감 좋다 · 국물 진하다 · 서비스 친절하다" 같은 평이 자주 언급되었습니다. 짬뽕 단품 회전과 매장 응대 만족도가 함께 묶이는 키워드입니다.</p>

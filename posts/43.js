@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점·표본 둘 다 안정적인 일식이면 <strong>규카츠정 판교점</strong> — 평점 4.8·리뷰 2,937건으로 검증 1순위.<br><br>가성비 점심 스시면 <strong>스시가 좋아서</strong> (평점 4.7·리뷰 490건, 12,000원~22,000원).<br><br>표본 가장 두꺼운 데이트 일식이면 <strong>카츠쇼신</strong> (평점 4.3·리뷰 4,010건).<br><br>점심 초밥·우동 세트면 <strong>생선회관</strong> (점심 세트 12,000원~28,000원, 주차 가능).<br><br>삼평동 오피스 점심 일식이면 <strong>차차식당 판교</strong> (평점 4.3·리뷰 506건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점·표본 둘 다 안정적인 일식이면 <strong>규카츠정 판교점</strong> — 평점 4.8점·리뷰 2,937건으로 검증 1순위.<br><br>가성비 점심 스시면 <strong>스시가 좋아서</strong> (평점 4.7점·리뷰 490건, 12,000원~22,000원).<br><br>표본 가장 두꺼운 데이트 일식이면 <strong>카츠쇼신</strong> (평점 4.3점·리뷰 4,016건).<br><br>점심 초밥·우동 세트면 <strong>생선회관</strong> (점심 세트 12,000원~28,000원, 주차 가능).<br><br>삼평동 오피스 점심 일식이면 <strong>차차식당 판교</strong> (평점 4.3점·리뷰 507건).</p>
 </aside>`
     },
 
@@ -94,7 +94,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 154건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>점심 스시를 12,000원선부터 먹을 수 있는 게 가장 큰 무기</strong>입니다. 삼평동 721, 평점 4.7·리뷰 490건으로 가성비 스시 카테고리에서 검증 신뢰가 안정적입니다. 11:30~21:30 영업이라 점심·저녁 모두 가능하고, 22,000원선까지 올라가도 부담이 크지 않아 판교 직장인 점심 스시 자리로 잘 맞습니다. 친절하다는 평가가 함께 누적되어 혼밥·소규모 자리에도 무난합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>점심 스시를 12,000원선부터 먹을 수 있는 게 가장 큰 무기</strong>입니다. 삼평동 721, 평점 4.7점·리뷰 490건으로 가성비 스시 카테고리에서 검증 신뢰가 안정적입니다. 11:30~21:30 영업이라 점심·저녁 모두 가능하고, 22,000원선까지 올라가도 부담이 크지 않아 판교 직장인 점심 스시 자리로 잘 맞습니다. 친절하다는 평가가 함께 누적되어 혼밥·소규모 자리에도 무난합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가성비가 좋다 · 점심 스시로 만족스럽다 · 응대가 친절하다" 같은 평이 자주 언급되었습니다. 점심 가격대와 친절 평가가 후기 키워드로 함께 묶입니다.</p>
@@ -129,12 +129,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💑 데이트 일식 옵션</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 4,010건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 4,016건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~22,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 사진 명소</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.3은 본 가이드 평균(4.5) 아래입니다. 다만 <strong>리뷰 4,010건은 본 가이드 5곳 중 가장 많은 표본</strong>이라, 동판교에서 일식·돈카츠 검색 의도가 가장 두꺼운 식당입니다. 동판교로177번길 25 2층 204호, 분위기 좋다·사진 잘 나온다는 평가가 함께 누적되어 데이트·기념일 가벼운 일식 자리로 잘 맞습니다. 평점이 평균 아래인 만큼 호불호가 갈리는 표본이 함께 쌓인 것으로 보이므로, 대표 돈카츠·정식 위주로 주문하시면 만족도 편차가 줄어듭니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.3은 본 가이드 평균(4.5) 아래입니다. 다만 <strong>리뷰 4,016건은 본 가이드 5곳 중 가장 많은 표본</strong>이라, 동판교에서 일식·돈카츠 검색 의도가 가장 두꺼운 식당입니다. 동판교로177번길 25 2층 204호, 분위기 좋다·사진 잘 나온다는 평가가 함께 누적되어 데이트·기념일 가벼운 일식 자리로 잘 맞습니다. 평점이 평균 아래인 만큼 호불호가 갈리는 표본이 함께 쌓인 것으로 보이므로, 대표 돈카츠·정식 위주로 주문하시면 만족도 편차가 줄어듭니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"매장 분위기가 좋다 · 사진이 잘 나온다 · 데이트로 자주 온다" 같은 평이 자주 언급되었습니다. 분위기와 큰 표본 규모가 후기 키워드로 함께 묶입니다.</p>
@@ -212,12 +212,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏢 오피스 점심 일식</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 506건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 507건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍱 일식당</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 36건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼평동 678 삼환하이펙스 A동 지하 1층에 있어 <strong>판교테크노밸리 오피스 점심 동선이 짧은</strong> 일식당입니다. 평점 4.3·리뷰 506건으로 본 가이드 평균(4.5) 아래지만, 카츠쇼신(4,010건)과 달리 표본이 중간 규모라 동선·접근성에서 차별점이 명확합니다. 오피스 빌딩 지하라 점심에 빠르게 한 끼 해결하고 자리로 복귀하기 좋은 위치입니다. 평점이 평균 아래인 만큼 대표 메뉴 위주로 주문하시면 만족도 편차가 줄어듭니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼평동 678 삼환하이펙스 A동 지하 1층에 있어 <strong>판교테크노밸리 오피스 점심 동선이 짧은</strong> 일식당입니다. 평점 4.3점·리뷰 507건으로 본 가이드 평균(4.5) 아래지만, 카츠쇼신(4,010건)과 달리 표본이 중간 규모라 동선·접근성에서 차별점이 명확합니다. 오피스 빌딩 지하라 점심에 빠르게 한 끼 해결하고 자리로 복귀하기 좋은 위치입니다. 평점이 평균 아래인 만큼 대표 메뉴 위주로 주문하시면 만족도 편차가 줄어듭니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 점심에 빠르게 먹기 좋다 · 오피스에서 가깝다" 같은 평이 자주 언급되었습니다. 오피스 점심 동선과 빠른 회전이 후기 키워드로 함께 묶입니다.</p>

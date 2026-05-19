@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3·리뷰 1,370건으로 검증까지 1순위입니다.<br><br>야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업.<br><br>한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작).<br><br>일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기).<br><br>점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 수원망포DT점</strong> (아메리카노 4,700원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">짜장면 한 그릇 7,500원으로 가장 저렴한 옵션이면 <strong>판차이짬뽕</strong> — 평점 4.3점·리뷰 84건으로 검증까지 1순위입니다.<br><br>야근·숙취 다음 날 해장이면 <strong>서울24시감자탕해장국</strong> — 콩나물해장국 8,000원에 24시간 영업.<br><br>한식 정식이면 <strong>신선설농탕 영통점</strong> (설농탕 12,000원 시작).<br><br>일식 함박·뇨끼면 <strong>와요쇼쿠 신동본점</strong> (1만원대 시작, 데이트 분위기).<br><br>점심 1시간 안에 음료+간단 식사면 <strong>스타벅스 수원망포DT점</strong> (아메리카노 4,700원~).</p>
 </aside>`
     },
 
@@ -46,7 +46,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 84건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 84건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 7,500원~22,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
@@ -213,12 +213,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0F6E56;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 가벼운 점심</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 5,010건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.4 · 리뷰 5,011건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,700원~6,100원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚙 드라이브스루</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>드라이브스루 매장</strong>으로 점심 시간이 짧은 직장인이 차에서 음료+샌드위치만 픽업하기 좋은 옵션입니다. 평점 3.4점·리뷰 5,010건으로 망포 카페 카테고리 상위권이며, 신메뉴 후기와 직원 친절도 후기가 자주 언급됩니다. <strong>06:30 영업 시작</strong>이라 출근 전 모닝커피·테이크아웃이 가능하고, 푸드 메뉴(샌드위치·샐러드)는 8,000~12,000원선으로 식사 대용도 가능합니다. 망포동 38-23, 1522-3232 전화 가능. 본 가이드 5곳 중 유일한 카페 옵션으로 한 끼 부담을 줄이고 싶은 날 대안으로 묶었습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>드라이브스루 매장</strong>으로 점심 시간이 짧은 직장인이 차에서 음료+샌드위치만 픽업하기 좋은 옵션입니다. 평점 3.4점·리뷰 5,011건으로 망포 카페 카테고리 상위권이며, 신메뉴 후기와 직원 친절도 후기가 자주 언급됩니다. <strong>06:30 영업 시작</strong>이라 출근 전 모닝커피·테이크아웃이 가능하고, 푸드 메뉴(샌드위치·샐러드)는 8,000~12,000원선으로 식사 대용도 가능합니다. 망포동 38-23, 1522-3232 전화 가능. 본 가이드 5곳 중 유일한 카페 옵션으로 한 끼 부담을 줄이고 싶은 날 대안으로 묶었습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"드라이브스루 편리하다 · 신메뉴가 맛있다 · 직원 친절하다" 같은 평이 자주 언급되었습니다. 픽업 동선과 신메뉴 회전이 후기 키워드로 함께 묶입니다.</p>

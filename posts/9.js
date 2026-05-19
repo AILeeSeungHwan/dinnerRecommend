@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>마루심 판교점</strong> (★ 4.8 · 한식 해산물, 평일 점심·저녁 두 시간대 운영, 아브뉴프랑). 4만원대 고기 회식이면 <strong>우테이블</strong> (1인 45,000~90,000원, 한식 고기구이).<br><br>부담 적은 1만원대 동료 회식이면 <strong>한와담 판교점</strong> (1인 12,000~22,000원, 판교역 도보권).<br><br>표본 검증 1위는 <strong>아비뉴프랑</strong> (리뷰 4,082건, 1인 15,000~25,000원).<br><br>짬뽕·중식 회식 한 끼면 <strong>전국5대짬뽕 연화산</strong> (리뷰 711건, 짬뽕·면류·중식 혼합 메뉴).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위는 <strong>마루심 판교점</strong> (★ 4.8 · 한식 해산물, 평일 점심·저녁 두 시간대 운영, 아브뉴프랑). 4만원대 고기 회식이면 <strong>우테이블</strong> (1인 45,000~90,000원, 한식 고기구이).<br><br>부담 적은 1만원대 동료 회식이면 <strong>한와담 판교점</strong> (1인 12,000~22,000원, 판교역 도보권).<br><br>표본 검증 1위는 <strong>아비뉴프랑</strong> (리뷰 642건, 1인 15,000~25,000원).<br><br>짬뽕·중식 회식 한 끼면 <strong>전국5대짬뽕 연화산</strong> (리뷰 882건, 짬뽕·면류·중식 혼합 메뉴).</p>
 </aside>`
     },
 
@@ -194,12 +194,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💰 1만원대 동료 회식</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.2 · 리뷰 158건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.2 · 리뷰 0건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000~22,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚶 판교역 도보권</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">판교역로 152 1층, <strong>판교역 도보권</strong>에 자리잡은 한식 고기구이 회식 매장입니다. 1인 1만2천~2만2천원선으로 본 가이드 5곳 중 한식 고기 카테고리에서 가장 부담 적은 단가입니다. 평점 4.2점·리뷰 158건이 누적되어 있고, 회식 카테고리에 명시되어 있어 5~8인 동료 회식·팀 단위 식사에 무난한 옵션입니다. 평점은 본 5곳 평균(4.3)에 가까워 위험 신호는 없으며, 1만원대 동료 회식이 가장 잦은 시나리오에 매칭됩니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">판교역로 152 1층, <strong>판교역 도보권</strong>에 자리잡은 한식 고기구이 회식 매장입니다. 1인 1만2천~2만2천원선으로 본 가이드 5곳 중 한식 고기 카테고리에서 가장 부담 적은 단가입니다. 평점 4.2점·리뷰 0건이 누적되어 있고, 회식 카테고리에 명시되어 있어 5~8인 동료 회식·팀 단위 식사에 무난한 옵션입니다. 평점은 본 5곳 평균(4.3)에 가까워 위험 신호는 없으며, 1만원대 동료 회식이 가장 잦은 시나리오에 매칭됩니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가격 부담 적다 · 한식 고기 단품 깔끔 · 판교역 가깝다" 같은 평이 자주 언급되었습니다. 1만원대 단가와 판교역 접근성이 함께 묶이는 키워드입니다.</p>

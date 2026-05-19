@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">든든한 한식 점심이면 <strong>농민백암순대 역삼직영점</strong> — 국밥 11,000원, 평점 4.6·리뷰 4,173건.<br><br>혼밥·빠른 점심이면 <strong>라홍방마라탕 강남직영점</strong> (마라탕 100g당 2,200원, 평점 4.7·리뷰 2,186건).<br><br>가성비 스시 점심이면 <strong>스시마이우 강남CGV점</strong> (접시당 1,890원, 리뷰 4,717건).<br><br>점심 데이트·팀 점심이면 <strong>퍼그피자하우스 강남점</strong> (파스타 8,800원부터, 평점 4.9·리뷰 5,205건, 주차·예약).<br><br>고기로 든든하게면 <strong>육품 강남본점</strong> (점심 찌개류 10,000원, 평점 4.5·리뷰 1,858건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">든든한 한식 점심이면 <strong>농민백암순대 역삼직영점</strong> — 국밥 11,000원, 평점 4.6점·리뷰 4,173건.<br><br>혼밥·빠른 점심이면 <strong>라홍방마라탕 강남직영점</strong> (마라탕 100g당 2,200원, 평점 4.7점·리뷰 2,190건).<br><br>가성비 스시 점심이면 <strong>스시마이우 강남CGV점</strong> (접시당 1,890원, 리뷰 4,717건).<br><br>점심 데이트·팀 점심이면 <strong>퍼그피자하우스 강남점</strong> (파스타 8,800원부터, 평점 4.9점·리뷰 5,215건, 주차·예약).<br><br>고기로 든든하게면 <strong>육품 강남본점</strong> (점심 찌개류 10,000원, 평점 4.5점·리뷰 1,859건).</p>
 </aside>`
     },
 
@@ -91,12 +91,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥢 혼밥 점심 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 2,186건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 2,190건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 2,200원~17,900원</span>
 <span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍜 혼밥 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 619-2에 있는 마라탕·마라샹궈 전문점입니다. 평점 4.7에 리뷰 2,186건으로 강남역 중식 점심에서 표본이 두텁고, 마라탕 100g당 2,200원으로 양을 조절해 점심 예산을 맞추기 쉽다는 점이 차별점입니다. 11:00 영업 시작이라 이른 점심도 가능하고, 혼밥 손님 비중이 높아 혼자 빠르게 한 끼 해결하기에 잘 맞습니다. 꿔바로우·레몬크림새우 같은 곁들임을 더하면 둘이서도 무난합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 619-2에 있는 마라탕·마라샹궈 전문점입니다. 평점 4.7에 리뷰 2,190건으로 강남역 중식 점심에서 표본이 두텁고, 마라탕 100g당 2,200원으로 양을 조절해 점심 예산을 맞추기 쉽다는 점이 차별점입니다. 11:00 영업 시작이라 이른 점심도 가능하고, 혼밥 손님 비중이 높아 혼자 빠르게 한 끼 해결하기에 잘 맞습니다. 꿔바로우·레몬크림새우 같은 곁들임을 더하면 둘이서도 무난합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"양 조절이 자유롭다 · 혼자 먹기 좋다 · 꿔바로우가 인기" 같은 평이 자주 언급되었습니다. 가격 유연성과 혼밥 편의가 함께 묶이는 키워드입니다.</p>
@@ -183,13 +183,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💑 점심 데이트 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.9 · 리뷰 5,205건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.9 · 리뷰 5,215건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 8,800원~25,800원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 812-13 1층에 있는 수제 피자·파스타 매장입니다. 평점 4.9에 리뷰 5,205건으로 본 가이드에서 표본이 가장 두텁고, 주차·예약이 모두 되며 데이트 키워드가 함께 매칭되는 곳입니다. 미트 라구 치즈스파게티 9,300원·로제 베이컨 치즈스파게티 8,800원으로 점심 단품 진입 부담이 낮고, 11:00 영업 시작이라 이른 점심 데이트나 팀 점심에 잘 맞습니다. 예약 필수 키워드가 묶여 있어 점심 피크는 미리 자리를 잡아두는 편이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 812-13 1층에 있는 수제 피자·파스타 매장입니다. 평점 4.9에 리뷰 5,215건으로 본 가이드에서 표본이 가장 두텁고, 주차·예약이 모두 되며 데이트 키워드가 함께 매칭되는 곳입니다. 미트 라구 치즈스파게티 9,300원·로제 베이컨 치즈스파게티 8,800원으로 점심 단품 진입 부담이 낮고, 11:00 영업 시작이라 이른 점심 데이트나 팀 점심에 잘 맞습니다. 예약 필수 키워드가 묶여 있어 점심 피크는 미리 자리를 잡아두는 편이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"피자가 쫄깃하다 · 분위기가 좋다 · 데이트하기 좋다 · 예약하고 가는 게 낫다" 같은 평이 자주 언급되었습니다. 메뉴 만족도와 점심 데이트 수요가 함께 묶이는 키워드입니다.</p>
@@ -229,12 +229,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍖 고기 점심 옵션</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,858건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,859건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~72,000원</span>
 <span style="background:#EEEDFE;color:#26215C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">👥 단체 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 817-8에 있는 돼지구이 전문점입니다. 평점 4.5에 리뷰 1,858건으로 표본이 안정적이고, 고기뿐 아니라 <strong>통돼지김치찌개·남도애호박찌개·육품된장술밥이 각 10,000원</strong>이라 점심에는 찌개·식사류로 든든하게 한 끼를 해결할 수 있다는 점이 차별점입니다. 저녁에는 720시간 숙성삼겹살 18,000원 같은 고기 메뉴로 회식 단체석까지 받는 곳이라, 점심엔 가볍게·저녁엔 회식으로 시간대별 활용이 갈리는 식당입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">역삼동 817-8에 있는 돼지구이 전문점입니다. 평점 4.5에 리뷰 1,859건으로 표본이 안정적이고, 고기뿐 아니라 <strong>통돼지김치찌개·남도애호박찌개·육품된장술밥이 각 10,000원</strong>이라 점심에는 찌개·식사류로 든든하게 한 끼를 해결할 수 있다는 점이 차별점입니다. 저녁에는 720시간 숙성삼겹살 18,000원 같은 고기 메뉴로 회식 단체석까지 받는 곳이라, 점심엔 가볍게·저녁엔 회식으로 시간대별 활용이 갈리는 식당입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"숙성 삼겹이 맛있다 · 찌개가 든든하다 · 단체로 가기 좋다" 같은 평이 자주 언급되었습니다. 점심 찌개 만족도와 저녁 회식 수요가 함께 묶이는 키워드입니다.</p>

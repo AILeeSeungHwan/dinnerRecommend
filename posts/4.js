@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점·리뷰 검증 1순위는 <strong>니고라멘</strong> (★ 4.4 · 리뷰 641건, 니고라멘 10,500원). 1만원으로 무한리필이 필요하면 <strong>두끼 분당서현점</strong> (일반 11,900원 떡볶이 무한).<br><br>한식뷔페로 30첩 밥상 푸짐하게면 <strong>자연별곡 NC 야탑점</strong> (12,900원, 리뷰 3,889건 표본 최다).<br><br>매콤한 한 그릇 마라탕이면 <strong>춘리마라탕 야탑점</strong> (1인 마라탕 10,900원, 새벽 01:00까지 영업).<br><br>샤브샤브 1만원선 단품이면 <strong>삼청동샤브 판교아이스퀘어점</strong> (멸치샤브 우삼겹 12,900원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점·리뷰 검증 1순위는 <strong>니고라멘</strong> (★ 3.7 · 리뷰 1,193건, 니고라멘 10,500원). 1만원으로 무한리필이 필요하면 <strong>두끼 분당서현점</strong> (일반 11,900원 떡볶이 무한).<br><br>한식뷔페로 30첩 밥상 푸짐하게면 <strong>자연별곡 NC 야탑점</strong> (12,900원, 리뷰 56건 표본 최다).<br><br>매콤한 한 그릇 마라탕이면 <strong>춘리마라탕 야탑점</strong> (1인 마라탕 10,900원, 새벽 01:00까지 영업).<br><br>샤브샤브 1만원선 단품이면 <strong>삼청동샤브 판교아이스퀘어점</strong> (멸치샤브 우삼겹 12,900원).</p>
 </aside>`
     },
 
@@ -177,13 +177,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌶 마라탕 1인분</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 592건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 593건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 2,900~29,900원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 01:00 영업</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">야탑동 366-3 2층 204호, 분당선 야탑역 도보 동선에 자리잡고 있는 마라탕 매장입니다. <strong>대한민국 대표 마라탕 1인분 10,900원</strong>이 점심 혼밥 시그니처이며, 꿔바로우 미니(5pc) 6,900원을 사이드로 묶으면 1만원선~1만8천원선까지 단가 조정이 가능합니다. <strong>새벽 01:00까지 영업</strong>이라 야근 후 늦은 한 끼·심야 마라탕 시나리오에 차별점이 명확하고, 평점 4.3점·리뷰 592건이 누적되어 카테고리 검증 표본도 안정적입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">야탑동 366-3 2층 204호, 분당선 야탑역 도보 동선에 자리잡고 있는 마라탕 매장입니다. <strong>대한민국 대표 마라탕 1인분 10,900원</strong>이 점심 혼밥 시그니처이며, 꿔바로우 미니(5pc) 6,900원을 사이드로 묶으면 1만원선~1만8천원선까지 단가 조정이 가능합니다. <strong>새벽 01:00까지 영업</strong>이라 야근 후 늦은 한 끼·심야 마라탕 시나리오에 차별점이 명확하고, 평점 4.3점·리뷰 593건이 누적되어 카테고리 검증 표본도 안정적입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"매운맛 단계 선택 가능 · 1인 마라탕 회전 빠름 · 사이드 꿔바로우 만족" 같은 평이 자주 언급되었습니다. 1인분 단가와 심야 영업이 함께 묶이는 키워드입니다.</p>

@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #4338CA">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">4~8인 캐주얼 회식이면 <strong>개성집</strong> — 평점 4.9·리뷰 2,655건, 삼겹살 14,000원·해산물·한식 모두 가능.<br><br>코엑스 단체석 캐주얼이면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원, 4~12인 수용.<br><br>호텔 뷔페형 단체 식사면 <strong>이비스스타일앰배서더강남 프레쉬365다이닝</strong> — 리뷰 2,526건 표본 최대.<br><br>큰 자리 격식 회식이면 <strong>그랜드 키친</strong> — 파르나스 1층, 점심 173,000원·저녁 198,000원 뷔페형.<br><br>청담 한우곱창 정통이면 <strong>한가람식당</strong> — 곱창·대창·막창 200g 22,000원·★4.5.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">4~8인 캐주얼 회식이면 <strong>개성집</strong> — 평점 3.8점·리뷰 284건, 삼겹살 14,000원·해산물·한식 모두 가능.<br><br>코엑스 단체석 캐주얼이면 <strong>캘리포니아 피자 키친 코엑스</strong> — 9,900원~25,900원, 4~12인 수용.<br><br>호텔 뷔페형 단체 식사면 <strong>이비스스타일앰배서더강남 프레쉬365다이닝</strong> — 리뷰 329건 표본 최대.<br><br>큰 자리 격식 회식이면 <strong>그랜드 키친</strong> — 파르나스 1층, 점심 173,000원·저녁 198,000원 뷔페형.<br><br>청담 한우곱창 정통이면 <strong>한가람식당</strong> — 곱창·대창·막창 200g 22,000원·★4.5.</p>
 </aside>`
     },
 
@@ -86,12 +86,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍕 코엑스 캐주얼 단체</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 5,703건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 5,704건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 9,900원~25,900원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📍 코엑스몰</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰에 위치한 양식·버거 매장입니다. 평점 4.7점·리뷰 5,703건이 누적되었고, "피자·가족식사·코엑스·주차 가능·데이트" 평가가 함께 묶여 있어 4~12인 캐주얼 회식 자리에 매칭이 좋습니다. 시작가 9,900원·시그니처 25,900원선이라 1인 1만원~2만원선 단가에 회식을 마칠 수 있어, <strong>본 가이드 5곳 중 단가 부담이 가장 낮은 단체 옵션</strong>입니다. 22:00 영업이라 저녁 회식 1차로 가능하고, 코엑스몰 안 매장이라 2차 이동 동선이 짧습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영동대로 513 코엑스몰에 위치한 양식·버거 매장입니다. 평점 4.7점·리뷰 5,704건이 누적되었고, "피자·가족식사·코엑스·주차 가능·데이트" 평가가 함께 묶여 있어 4~12인 캐주얼 회식 자리에 매칭이 좋습니다. 시작가 9,900원·시그니처 25,900원선이라 1인 1만원~2만원선 단가에 회식을 마칠 수 있어, <strong>본 가이드 5곳 중 단가 부담이 가장 낮은 단체 옵션</strong>입니다. 22:00 영업이라 저녁 회식 1차로 가능하고, 코엑스몰 안 매장이라 2차 이동 동선이 짧습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 빠네 파스타·캘리포니아 피자 인기" 같은 평이 자주 언급되었습니다. 단품 피자+파스타 조합 만족도가 후기 키워드로 함께 묶이는 매장입니다.</p>
@@ -168,12 +168,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#7C3AED;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🎂 격식 회식</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 3,550건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 3,549건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 85,000원~198,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 사진 명소</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">테헤란로 521 <strong>그랜드 인터컨티넨탈 서울 파르나스 1층</strong>에 위치한 뷔페형 다이닝입니다. 평점 4.1점·리뷰 3,550건이 누적되었고, 사진 명소·웨이팅 맛집·단체 가능 평가가 모두 매칭됩니다. 주중 점심 173,000원·주중 저녁 198,000원으로 본 가이드 5곳 중 단가가 가장 높지만, 랍스터·양갈비를 포함한 그릴 라인업과 호텔 다이닝 특유의 서비스 만족도가 안정적입니다. 외부 거래처 접대·임원 회식·축하 자리에 매칭이 좋으며 사진 명소 평가가 함께 묶여 기념 사진까지 챙길 수 있습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">테헤란로 521 <strong>그랜드 인터컨티넨탈 서울 파르나스 1층</strong>에 위치한 뷔페형 다이닝입니다. 평점 4.1점·리뷰 3,549건이 누적되었고, 사진 명소·웨이팅 맛집·단체 가능 평가가 모두 매칭됩니다. 주중 점심 173,000원·주중 저녁 198,000원으로 본 가이드 5곳 중 단가가 가장 높지만, 랍스터·양갈비를 포함한 그릴 라인업과 호텔 다이닝 특유의 서비스 만족도가 안정적입니다. 외부 거래처 접대·임원 회식·축하 자리에 매칭이 좋으며 사진 명소 평가가 함께 묶여 기념 사진까지 챙길 수 있습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 서비스 친절하다 · 분위기 좋다 · 랍스터·양갈비 인기" 같은 평이 자주 언급되었습니다. 호텔 다이닝 서비스와 그릴 라인업 만족도가 함께 묶이는 후기 패턴입니다.</p>

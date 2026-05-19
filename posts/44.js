@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">팀 점심·가족 점심으로 한식 한 상이면 <strong>우이락 수지구청점</strong> — 평점 5.0·리뷰 665건으로 본 가이드 평점 1순위입니다. 1인 1만2천원선 파스타 점심이면 <strong>파스타입니다 용인수지점</strong> (매콤크림 파스타 12,400원, 리뷰 1,745건).<br><br>회식·접대를 겸한 중식 점심이면 <strong>차이니즈퀴진유 용인본점</strong> (소고기짬뽕 14,000원, 리뷰 1,793건·주차 가능).<br><br>가벼운 일식 점심이면 <strong>미소텐동 용인신봉점</strong> (텐동 전문, 리뷰 1,233건).<br><br>점심 후 커피 한 잔·짧은 미팅이면 <strong>마실커피</strong> (아메리카노 4,000원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">팀 점심·가족 점심으로 한식 한 상이면 <strong>우이락 수지구청점</strong> — 평점 5점·리뷰 666건으로 본 가이드 평점 1순위입니다. 1인 1만2천원선 파스타 점심이면 <strong>파스타입니다 용인수지점</strong> (매콤크림 파스타 12,400원, 리뷰 1,745건).<br><br>회식·접대를 겸한 중식 점심이면 <strong>차이니즈퀴진유 용인본점</strong> (소고기짬뽕 14,000원, 리뷰 1,794건·주차 가능).<br><br>가벼운 일식 점심이면 <strong>미소텐동 용인신봉점</strong> (텐동 전문, 리뷰 1,234건).<br><br>점심 후 커피 한 잔·짧은 미팅이면 <strong>마실커피</strong> (아메리카노 4,000원~).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#F97316;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 평점 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 665건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 666건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 11,000원~36,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">⏳ 웨이팅 잦음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점이 가장 높은 한식당</strong>입니다. 풍덕천동 710-3, 수지구청 인근에 자리합니다. 리뷰 665건에 평점 5.0이 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편이라, 가족 점심·팀 점심처럼 실패하면 곤란한 자리에 무난한 선택지입니다. 곱창전골·닭볶음탕 같은 한 상 메뉴 중심이라 2~4인 점심에 맞고, 웨이팅·예약이 잦은 곳이라 평일 점심이라도 12시 정각보다는 11:40 전후 입장이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점이 가장 높은 한식당</strong>입니다. 풍덕천동 710-3, 수지구청 인근에 자리합니다. 리뷰 666건에 평점 5.0이 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편이라, 가족 점심·팀 점심처럼 실패하면 곤란한 자리에 무난한 선택지입니다. 곱창전골·닭볶음탕 같은 한 상 메뉴 중심이라 2~4인 점심에 맞고, 웨이팅·예약이 잦은 곳이라 평일 점심이라도 12시 정각보다는 11:40 전후 입장이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"웨이팅 있다 · 예약 권장 · 리뷰 표본 많다" 같은 평이 자주 묶입니다. 한 상 구성 메뉴라 인원 맞춰 주문하면 만족도가 안정적이라는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -86,12 +86,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍝 파스타 점심 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 1,745건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 1,745건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 11,400원~12,900원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💑 데이트 점심</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드에서 가격대가 가장 일정한 단품 식당</strong>입니다. 풍덕천동 82-9 한샘더랜드마크 105호, 평점 5.0·리뷰 1,745건으로 표본 크기와 만족도가 모두 안정적입니다. 모든 파스타가 11,400~12,900원 한 가격대에 묶여 있어 1인 점심 예산을 짜기 쉽고, 메뉴판에 매출 순위가 표시돼 있어 처음 가도 고르기 부담이 적습니다. 데이트 평가가 함께 매칭돼 평일 점심뿐 아니라 가벼운 데이트 점심에도 잘 맞습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드에서 가격대가 가장 일정한 단품 식당</strong>입니다. 풍덕천동 82-9 한샘더랜드마크 105호, 평점 5점·리뷰 1,745건으로 표본 크기와 만족도가 모두 안정적입니다. 모든 파스타가 11,400~12,900원 한 가격대에 묶여 있어 1인 점심 예산을 짜기 쉽고, 메뉴판에 매출 순위가 표시돼 있어 처음 가도 고르기 부담이 적습니다. 데이트 평가가 함께 매칭돼 평일 점심뿐 아니라 가벼운 데이트 점심에도 잘 맞습니다.</p>
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:14px 0">
 <img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201024_24%2F16035218995839sG9O_JPEG%2FOJmleyzMQTCRQZjyWwbaiVQ5.jpg" alt="파스타입니다 용인수지점 메뉴 사진 1" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
 <img src="https://ldb-phinf.pstatic.net/20260128_227/1769577695932AXhJU_PNG/%B8%C5%C4%DA%C5%A9%B8%B2%C6%C4%BD%BA%C5%B8.png" alt="파스타입니다 용인수지점 메뉴 사진 2" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;display:block" />
@@ -129,13 +129,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥢 회식 점심 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 1,793건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 1,794건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 14,000원~64,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">죽전동 1003-111 1층에 자리한 중식당으로, 리뷰 1,793건은 본 가이드 5곳 중 가장 큰 표본입니다. 평점 4.7에 블로그 후기 791건이 함께 누적돼 검증 신뢰가 높은 편이라, 단순 점심보다 거래처 점심·팀 회식을 겸한 자리에 적합합니다. <strong>주차·예약·단체석</strong>이 모두 가능해 인원이 많을 때 동선이 편하고, 소고기짬뽕 14,000원 한 그릇이면 1인 점심도 가능해 회식과 일상 점심을 한 식당에서 분리해 쓸 수 있습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">죽전동 1003-111 1층에 자리한 중식당으로, 리뷰 1,794건은 본 가이드 5곳 중 가장 큰 표본입니다. 평점 4.7에 블로그 후기 791건이 함께 누적돼 검증 신뢰가 높은 편이라, 단순 점심보다 거래처 점심·팀 회식을 겸한 자리에 적합합니다. <strong>주차·예약·단체석</strong>이 모두 가능해 인원이 많을 때 동선이 편하고, 소고기짬뽕 14,000원 한 그릇이면 1인 점심도 가능해 회식과 일상 점심을 한 식당에서 분리해 쓸 수 있습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"단체 이용 편하다 · 주차 가능 · 서비스 좋다" 같은 평이 자주 묶입니다. 블로그 후기 표본이 크게 누적돼 회식·단체 점심 후기가 함께 쌓이는 식당입니다.</p>
@@ -175,11 +175,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍤 가벼운 일식 점심</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,233건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,234건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 텐동·돈부리 단품</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신봉동 40-2 2층에 자리한 텐동 전문 일식당입니다. 평점 4.5·리뷰 1,233건으로 표본이 넉넉해 평균이 흔들리지 않는 편이며, 튀김덮밥(텐동) 단품 회전 중심이라 점심 시간 한 시간 안에 먹고 나오기 좋습니다. 본 가이드 5곳 중 가장 가볍게 한 끼를 끝낼 수 있는 일식 옵션으로, 한식 한 상이 부담스러운 날 혼밥·짧은 점심에 묶었습니다. 메뉴 가격은 매장 공지가 우선이라 방문 전 확인을 권장드립니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신봉동 40-2 2층에 자리한 텐동 전문 일식당입니다. 평점 4.5점·리뷰 1,234건으로 표본이 넉넉해 평균이 흔들리지 않는 편이며, 튀김덮밥(텐동) 단품 회전 중심이라 점심 시간 한 시간 안에 먹고 나오기 좋습니다. 본 가이드 5곳 중 가장 가볍게 한 끼를 끝낼 수 있는 일식 옵션으로, 한식 한 상이 부담스러운 날 혼밥·짧은 점심에 묶었습니다. 메뉴 가격은 매장 공지가 우선이라 방문 전 확인을 권장드립니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"덮밥 회전 빠르다 · 혼밥 편하다 · 표본 많다" 같은 평이 자주 묶입니다. 단품 텐동 중심이라 점심 짧게 먹기 좋다는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -214,12 +214,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#92400E;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 점심 후 커피</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 520건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 519건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,000원~6,200원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 분위기 좋음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">풍덕천동 728-10 1층의 카페로, 평점 4.7·리뷰 520건에 블로그 후기 254건이 함께 누적된 동네 안정 카페입니다. 본 가이드 5곳 중 유일한 카페 옵션으로, 식사 후 커피 한 잔이나 점심 시간 짧은 미팅 자리로 묶었습니다. 아메리카노 4,000원으로 부담이 적고 분위기·서비스 평가가 함께 매칭돼 식사 식당을 고른 뒤 후식·미팅 동선을 한 번에 짤 수 있습니다. 위 4곳 중 어디서 점심을 먹든 마무리 동선으로 연결하기 좋은 위치입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">풍덕천동 728-10 1층의 카페로, 평점 4.7점·리뷰 519건에 블로그 후기 254건이 함께 누적된 동네 안정 카페입니다. 본 가이드 5곳 중 유일한 카페 옵션으로, 식사 후 커피 한 잔이나 점심 시간 짧은 미팅 자리로 묶었습니다. 아메리카노 4,000원으로 부담이 적고 분위기·서비스 평가가 함께 매칭돼 식사 식당을 고른 뒤 후식·미팅 동선을 한 번에 짤 수 있습니다. 위 4곳 중 어디서 점심을 먹든 마무리 동선으로 연결하기 좋은 위치입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"분위기 좋다 · 깔끔하다 · 서비스 친절하다" 같은 평이 자주 묶입니다. 동네 단골 비중이 큰 카페라 재방문 후기가 함께 누적됩니다.</p>

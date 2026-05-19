@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #DC2626">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">검증된 코엑스 핫플 짜장면·짬뽕 한 그릇이면 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건 누적, 자장면 1만원 안팎.<br><br>어향동고·고급 중식 데이트면 <strong>천미미 삼성점</strong> — 어향동고 45,000원·전가복(스페셜) 88,000원.<br><br>광동식 딤섬이 핵심이면 <strong>딤딤섬 파르나스몰점</strong> — 샤오롱바오 6,500원·하가우 7,500원으로 시작가 최저.<br><br>호텔 중식 정찬이면 <strong>그랜드 인터컨티넨탈 서울 파르나스 웨이루</strong> — 딤섬 선데이 130,000원 코스.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> — 짜장면 8,000원·점심 직장인 표준.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">검증된 코엑스 핫플 짜장면·짬뽕 한 그릇이면 <strong>무탄 코엑스</strong> — 평점 0점·리뷰 24,908건 누적, 자장면 1만원 안팎.<br><br>어향동고·고급 중식 데이트면 <strong>천미미 삼성점</strong> — 어향동고 45,000원·전가복(스페셜) 88,000원.<br><br>광동식 딤섬이 핵심이면 <strong>딤딤섬 파르나스몰점</strong> — 샤오롱바오 6,500원·하가우 7,500원으로 시작가 최저.<br><br>호텔 중식 정찬이면 <strong>그랜드 인터컨티넨탈 서울 파르나스 웨이루</strong> — 딤섬 선데이 130,000원 코스.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> — 짜장면 8,000원·점심 직장인 표준.</p>
 </aside>`
     },
 
@@ -86,7 +86,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#F59E0B;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥢 코스성 중식</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 1,628건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 1,625건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 13,000원~88,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">👨‍👩‍👧 가족 모임</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>

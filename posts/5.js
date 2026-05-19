@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #F97316">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">코엑스 직장인 점심 1순위는 <strong>무탄 코엑스</strong> — 평점 4.9·리뷰 7,774건이 누적된 가성비 중식.<br><br>짜장면·짬뽕 1만원대로 회전이 빠릅니다.<br><br>솥밥 한 끼면 <strong>솥내음 스타필드 코엑스몰점</strong> — 신메뉴 불쭈꾸미 솥밥 15,900원.<br><br>한식 정식이면 <strong>서울깍두기 코엑스점</strong> — 한우사골설렁탕 12,900원·07:00 오픈으로 출근 전 식사도 가능.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> 8,000원.<br><br>점심 회식 겸 빠른 버거면 <strong>브루클린 더 버거조인트 삼성</strong> — 디럭스 스택 세트 15,400원.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">코엑스 직장인 점심 1순위는 <strong>무탄 코엑스</strong> — 평점 0점·리뷰 24,908건이 누적된 가성비 중식.<br><br>짜장면·짬뽕 1만원대로 회전이 빠릅니다.<br><br>솥밥 한 끼면 <strong>솥내음 스타필드 코엑스몰점</strong> — 신메뉴 불쭈꾸미 솥밥 15,900원.<br><br>한식 정식이면 <strong>서울깍두기 코엑스점</strong> — 한우사골설렁탕 12,900원·07:00 오픈으로 출근 전 식사도 가능.<br><br>가성비 짜장면이면 <strong>더차이홍</strong> 8,000원.<br><br>점심 회식 겸 빠른 버거면 <strong>브루클린 더 버거조인트 삼성</strong> — 디럭스 스택 세트 15,400원.</p>
 </aside>`
     },
 
@@ -86,12 +86,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#F97316;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍚 솥밥 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 22,560건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 22,584건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 15,900원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">⏰ 웨이팅 맛집</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">스타필드 코엑스몰 지하 1층 O-107호 라운지, <strong>한식 솥밥 단일 카테고리</strong>로 평점 0점·리뷰 22,560건이 누적된 매장입니다. 시그니처 메뉴는 매콤한 신메뉴 불쭈꾸미 솥밥 15,900원이며, 점심 회전이 빨라 평일 12시 피크에도 웨이팅이 30분 안에 끝나는 편입니다. "혼밥 가능·점심추천·웨이팅 맛집" 세 가지 평가가 함께 묶여 있어 직장인 점심 1인 식사로 좋고, 매장 자체가 코엑스몰 라운지에 위치해 환승 동선이 짧습니다. 10:30 영업 시작이라 11시대 일찍 가시면 더 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">스타필드 코엑스몰 지하 1층 O-107호 라운지, <strong>한식 솥밥 단일 카테고리</strong>로 평점 0점·리뷰 22,584건이 누적된 매장입니다. 시그니처 메뉴는 매콤한 신메뉴 불쭈꾸미 솥밥 15,900원이며, 점심 회전이 빨라 평일 12시 피크에도 웨이팅이 30분 안에 끝나는 편입니다. "혼밥 가능·점심추천·웨이팅 맛집" 세 가지 평가가 함께 묶여 있어 직장인 점심 1인 식사로 좋고, 매장 자체가 코엑스몰 라운지에 위치해 환승 동선이 짧습니다. 10:30 영업 시작이라 11시대 일찍 가시면 더 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"불쭈꾸미 솥밥 맵지만 맛있다 · 솥밥 한 끼 든든하다 · 웨이팅 회전 빠르다" 같은 평이 자주 언급되었습니다. 단품 솥밥 매장이라 회전 만족도가 함께 묶이는 후기 패턴입니다.</p>
@@ -128,7 +128,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍲 한식 정식 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,154건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.9 · 리뷰 1,154건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 7,900원~17,900원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌅 07:00 오픈</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>

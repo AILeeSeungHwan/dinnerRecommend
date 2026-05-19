@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">속 풀리는 국밥 점심·해장이면 <strong>정남옥순대국 권선인계점</strong> — 맑은순대국 9,000원, 평점 5.0·리뷰 405건으로 본 가이드 평점 1순위입니다.<br><br>혼밥 일식 카레면 <strong>키요미카레</strong> (소고기카레 9,900원, 혼밥·주차 가능).<br><br>데이트·팀 점심 파스타면 <strong>우트볼하우스 신동본점</strong> (미트볼 리조또 16,000원, 리뷰 1,222건).<br><br>얼큰한 마라·중식이면 <strong>마라영웅 신동점</strong> (홍쏘로우덮밥 12,900원).<br><br>점심 후 디저트·커피면 <strong>잭바츠</strong> (음료·디저트 3,000원~).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">속 풀리는 국밥 점심·해장이면 <strong>정남옥순대국 권선인계점</strong> — 맑은순대국 9,000원, 평점 5점·리뷰 408건으로 본 가이드 평점 1순위입니다.<br><br>혼밥 일식 카레면 <strong>키요미카레</strong> (소고기카레 9,900원, 혼밥·주차 가능).<br><br>데이트·팀 점심 파스타면 <strong>우트볼하우스 신동본점</strong> (미트볼 리조또 16,000원, 리뷰 1,222건).<br><br>얼큰한 마라·중식이면 <strong>마라영웅 신동점</strong> (홍쏘로우덮밥 12,900원).<br><br>점심 후 디저트·커피면 <strong>잭바츠</strong> (음료·디저트 3,000원~).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 평점 1순위 해장</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 405건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 408건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 9,000원~47,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점이 가장 높은 국밥 한식당</strong>입니다. 권선동 1025-11 1층에 자리하며, 평점 5.0·리뷰 405건에 블로그 후기 82건이 함께 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편입니다. 맑은순대국 9,000원·돼지국밥 10,000원으로 1만원 안에서 한 끼가 끝나, 야근 다음 날 해장·따뜻한 국물 점심에 1순위입니다. 10:00 영업 시작이라 이른 점심도 가능하고 주차도 됩니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점이 가장 높은 국밥 한식당</strong>입니다. 권선동 1025-11 1층에 자리하며, 평점 5점·리뷰 408건에 블로그 후기 82건이 함께 누적돼 표본이 작지 않으면서도 만족도 편차가 적은 편입니다. 맑은순대국 9,000원·돼지국밥 10,000원으로 1만원 안에서 한 끼가 끝나, 야근 다음 날 해장·따뜻한 국물 점심에 1순위입니다. 10:00 영업 시작이라 이른 점심도 가능하고 주차도 됩니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가성비 좋다 · 점심 추천 · 깔끔하다 · 주차 가능" 같은 평이 자주 묶입니다. 순대국 단품 회전이 빠르고 국물 만족도가 높다는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -97,7 +97,7 @@ const post = {
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 12-7 A동 1층의 일식 카레 전문점입니다. 평점 4.4·리뷰 574건으로 표본이 넉넉하며, 소고기카레 9,900원·카레우동 9,900원으로 1만원 안에서 한 끼가 끝납니다. 혼밥·주차·단체·예약이 모두 가능해 1인 점심부터 소규모 팀 점심까지 같은 식당에서 분리해 쓸 수 있고, 어린이 메뉴(6,900원~)가 따로 있어 아이 동반 점심에도 대응됩니다. 11:00 영업 시작이라 점심 피크 전 입장이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 12-7 A동 1층의 일식 카레 전문점입니다. 평점 4.4점·리뷰 574건으로 표본이 넉넉하며, 소고기카레 9,900원·카레우동 9,900원으로 1만원 안에서 한 끼가 끝납니다. 혼밥·주차·단체·예약이 모두 가능해 1인 점심부터 소규모 팀 점심까지 같은 식당에서 분리해 쓸 수 있고, 어린이 메뉴(6,900원~)가 따로 있어 아이 동반 점심에도 대응됩니다. 11:00 영업 시작이라 점심 피크 전 입장이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"혼밥 편하다 · 깔끔하다 · 서비스 좋다 · 주차 가능" 같은 평이 자주 묶입니다. 카레 단품 회전이 빠르고 아이 동반도 무난하다는 점이 후기 키워드로 함께 누적됩니다.</p>
@@ -226,7 +226,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 분위기 좋음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 41-51 1층의 디저트 카페로, 평점 4.4·리뷰 825건에 블로그 후기 316건이 함께 누적된 동네 안정 카페입니다. 본 가이드 5곳 중 유일한 카페 옵션으로, 식사 후 디저트·커피나 점심 시간 짧은 미팅 자리로 묶었습니다. 마들렌 3,000원·케이크 7,500원선으로 부담이 적고 분위기·데이트 평가가 함께 매칭돼 후식 동선을 한 번에 짤 수 있습니다. 08:30 영업 시작이라 출근 전 모닝커피도 가능하고 주차도 됩니다. 위 4곳 중 어디서 점심을 먹든 마무리 동선으로 연결하기 좋은 위치입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">망포동 41-51 1층의 디저트 카페로, 평점 4.4점·리뷰 825건에 블로그 후기 316건이 함께 누적된 동네 안정 카페입니다. 본 가이드 5곳 중 유일한 카페 옵션으로, 식사 후 디저트·커피나 점심 시간 짧은 미팅 자리로 묶었습니다. 마들렌 3,000원·케이크 7,500원선으로 부담이 적고 분위기·데이트 평가가 함께 매칭돼 후식 동선을 한 번에 짤 수 있습니다. 08:30 영업 시작이라 출근 전 모닝커피도 가능하고 주차도 됩니다. 위 4곳 중 어디서 점심을 먹든 마무리 동선으로 연결하기 좋은 위치입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"디저트 좋다 · 분위기 좋다 · 데이트 좋다 · 주차 가능" 같은 평이 자주 묶입니다. 케이크·쿠키 회전이 빠르고 재방문 후기가 함께 누적되는 카페입니다.</p>

@@ -105,6 +105,36 @@ def process_post(fp, table):
             new_t = new_t[:start] + block2 + new_t[end:]
             matched += 1
 
+    # 한 줄 결론(큐레이터 결론) 박스: <strong>식당명</strong> 뒤 평점·리뷰 표기를 data값으로
+    def fix_verdict(vm):
+        seg = vm.group(0)
+        strong_iter = list(re.finditer(r'<strong>([^<]+)</strong>', seg))
+        for si, sm in enumerate(strong_iter):
+            nm2 = sm.group(1).strip()
+            rec2 = table.get(nm2)
+            if rec2 is None:
+                cand = [k for k in table if k == nm2 or (len(nm2) >= 3 and (nm2 in k or k in nm2))]
+                if cand:
+                    rec2 = table[max(cand, key=lambda k: table[k][1])]
+            if not rec2:
+                continue
+            rt2, cnt2 = rec2
+            if rt2 == 0 and cnt2 == 0:
+                continue
+            s2 = sm.end()
+            e2 = strong_iter[si + 1].start() if si + 1 < len(strong_iter) else len(seg)
+            sub = seg[s2:e2]
+            sub2 = replace_in_block(sub, rt2, cnt2)
+            if sub2 != sub:
+                seg = seg[:s2] + sub2 + seg[e2:]
+                # 길이 변화 반영 위해 재탐색
+                strong_iter = list(re.finditer(r'<strong>([^<]+)</strong>', seg))
+        return seg
+    new_t2 = re.sub(r'<aside[^>]*>.*?큐레이터 결론.*?</aside>', fix_verdict, new_t, count=1, flags=re.DOTALL)
+    if new_t2 != new_t:
+        new_t = new_t2
+        matched += 1
+
     if new_t != orig:
         with open(fp, 'w') as f: f.write(new_t)
         return True, matched

@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론 — 5단계 동선</div>
-<p style="font-size:15px;margin:0;line-height:1.8"><strong>12:00 점심 브런치</strong>면 <strong>MIP</strong> (평점 4.2·리뷰 186건, MIP 브런치 19,000원, 송리단길) → <strong>14:00 카페·디저트</strong>면 <strong>노티드 잠실롯데월드몰점</strong> (평점 4.6·리뷰 169건, 우유 생크림 도넛 4,200원) → <strong>15:30 석촌호수 산책</strong> → <strong>18:00 디너</strong>면 <strong>더 이탈리안 클럽</strong> (평점 4.3·리뷰 153건, 트러플 따야린 39,000원·1++ 한우 채끝 105,000원)<br><br>또는 가성비 <strong>돈블랑 석촌호수점</strong> (평점 4.3·리뷰 292건, 아랫고기 17,500원) → <strong>21:00 와인·디저트 마무리</strong>면 <strong>카페드로잉 석촌호수점</strong> (평점 4.7·리뷰 411건, 글래스와인 9,900원·드로잉 토스트 21,900원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8"><strong>12:00 점심 브런치</strong>면 <strong>MIP</strong> (평점 4.2·리뷰 186건, MIP 브런치 19,000원, 송리단길) → <strong>14:00 카페·디저트</strong>면 <strong>노티드 잠실롯데월드몰점</strong> (평점 0점·리뷰 6,948건, 우유 생크림 도넛 4,200원) → <strong>15:30 석촌호수 산책</strong> → <strong>18:00 디너</strong>면 <strong>더 이탈리안 클럽</strong> (평점 4점·리뷰 3,316건, 트러플 따야린 39,000원·1++ 한우 채끝 105,000원)<br><br>또는 가성비 <strong>돈블랑 석촌호수점</strong> (평점 3점·리뷰 2,570건, 아랫고기 17,500원) → <strong>21:00 와인·디저트 마무리</strong>면 <strong>카페드로잉 석촌호수점</strong> (평점 0점·리뷰 3,897건, 글래스와인 9,900원·드로잉 토스트 21,900원).</p>
 </aside>`
     },
 

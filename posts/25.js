@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">기념일 일식 정찬이면 <strong>좋은소식</strong> — 평점 4.8·리뷰 428건, 영통 데이트 일식 평점 1위입니다.<br><br>한 끼에 오마카세 가성비를 잡으시려면 <strong>오마카세 스시이찌 수원신동점</strong> — 런치 스시오마카세 29,000원.<br><br>데이트 파스타·뇨끼는 <strong>라루치아 본점</strong> — 봉골레알리오올리오 18,000원·뇨끼 21,000원.<br><br>가벼운 점심 데이트·이국 분위기는 <strong>타이테라스 신동카페거리점</strong> — 평점 4.2·리뷰 386건, 신동카페거리 태국 요리.<br><br>식사 후 카페 마무리는 <strong>어펙트커피</strong> — 시그니처 퍼펙트라떼 5,300원, 데이트 카페 1순위입니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">기념일 일식 정찬이면 <strong>좋은소식</strong> — 평점 4.8점·리뷰 852건, 영통 데이트 일식 평점 1위입니다.<br><br>한 끼에 오마카세 가성비를 잡으시려면 <strong>오마카세 스시이찌 수원신동점</strong> — 런치 스시오마카세 29,000원.<br><br>데이트 파스타·뇨끼는 <strong>라루치아 본점</strong> — 봉골레알리오올리오 18,000원·뇨끼 21,000원.<br><br>가벼운 점심 데이트·이국 분위기는 <strong>타이테라스 신동카페거리점</strong> — 평점 4.2점·리뷰 1,355건, 신동카페거리 태국 요리.<br><br>식사 후 카페 마무리는 <strong>어펙트커피</strong> — 시그니처 퍼펙트라떼 5,300원, 데이트 카페 1순위입니다.</p>
 </aside>`
     },
 
@@ -84,12 +84,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#185FA5;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍣 오마카세 가성비</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,903건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,902건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 29,000원~39,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍱 런치 가성비</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신동 933-8 1층 102호에 위치한 <strong>오마카세 전문점</strong>입니다. <strong>런치 스시오마카세 29,000원·디너 스시오마카세 39,000원</strong> 두 가지 가격대만으로 메뉴가 단순화되어 있어 첫 데이트에서 메뉴 결정 부담이 적은 편입니다. 평점 4.5점·리뷰 1,903건이 누적되었고, "가성비·점심추천·단체가능·데이트·깔끔한곳·서비스좋음" 여섯 가지 태그가 함께 매칭되어 평일 점심 데이트·기념일 가벼운 외식 옵션으로 묶입니다. <strong>11:00 영업 시작</strong>이라 점심 데이트가 가능한 매장이며, 단체 가능 매장이라 양가 식사·소규모 가족 모임까지 활용도가 넓습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신동 933-8 1층 102호에 위치한 <strong>오마카세 전문점</strong>입니다. <strong>런치 스시오마카세 29,000원·디너 스시오마카세 39,000원</strong> 두 가지 가격대만으로 메뉴가 단순화되어 있어 첫 데이트에서 메뉴 결정 부담이 적은 편입니다. 평점 4.5점·리뷰 1,902건이 누적되었고, "가성비·점심추천·단체가능·데이트·깔끔한곳·서비스좋음" 여섯 가지 태그가 함께 매칭되어 평일 점심 데이트·기념일 가벼운 외식 옵션으로 묶입니다. <strong>11:00 영업 시작</strong>이라 점심 데이트가 가능한 매장이며, 단체 가능 매장이라 양가 식사·소규모 가족 모임까지 활용도가 넓습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"런치 오마카세 가성비가 좋다 · 매장이 깔끔하다 · 서비스가 친절하다" 같은 평이 자주 언급되었습니다. 런치 단가 만족도와 매장 컨디션이 함께 묶이는 키워드입니다.</p>
@@ -172,12 +172,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0F6E56;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌴 이국 분위기</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,355건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.2 · 리뷰 1,355건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 11,900원~45,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🕯 데이트 분위기</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신동 998번지 101호에 위치한 <strong>태국 요리 전문점</strong>입니다. 평점 0점·리뷰 1,355건이 누적되어 본 가이드 5곳 중 두 번째로 표본이 안정적이며, "리뷰많음·점심추천·주차가능·데이트·웨이팅맛집·깔끔한곳" 여섯 가지 태그가 함께 매칭됩니다. <strong>신동카페거리 한가운데 위치</strong>해 식사 후 카페 코스 동선이 자연스러우며, <strong>11:00 영업 시작</strong>이라 평일 점심 데이트부터 주말 가벼운 외식까지 시나리오가 넓습니다. 1인 11,900원선 단가부터 시작해 코스 45,000원까지 메뉴 단가가 분산되어 있고, 태국 요리 특유의 향신료가 데이트 식사에 분위기를 더해주는 매장입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신동 998번지 101호에 위치한 <strong>태국 요리 전문점</strong>입니다. 평점 4.2점·리뷰 1,355건이 누적되어 본 가이드 5곳 중 두 번째로 표본이 안정적이며, "리뷰많음·점심추천·주차가능·데이트·웨이팅맛집·깔끔한곳" 여섯 가지 태그가 함께 매칭됩니다. <strong>신동카페거리 한가운데 위치</strong>해 식사 후 카페 코스 동선이 자연스러우며, <strong>11:00 영업 시작</strong>이라 평일 점심 데이트부터 주말 가벼운 외식까지 시나리오가 넓습니다. 1인 11,900원선 단가부터 시작해 코스 45,000원까지 메뉴 단가가 분산되어 있고, 태국 요리 특유의 향신료가 데이트 식사에 분위기를 더해주는 매장입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"소고기쌀국수 국물이 깔끔하다 · 고기가 부드럽다 · 매장 분위기가 좋다 · 서비스가 친절하다" 같은 평이 자주 언급되었습니다. 태국 요리 본연의 맛과 데이트 분위기·서비스가 함께 묶이는 키워드입니다.</p>
@@ -218,12 +218,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#92400E;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 데이트 코스 마무리</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 892건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.1 · 리뷰 142건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,000원~5,800원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💑 데이트 카페</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">매탄동 1252-3 1층에 위치한 <strong>스페셜티 카페</strong>입니다. 평점 4.1점은 본 가이드 5곳 중 좋은소식과 함께 공동 최상위, 리뷰 892건으로 표본도 안정적입니다. "가성비·주차가능·데이트·리뷰많음·깔끔한곳" 다섯 가지 태그가 함께 매칭되어 식사 후 데이트 코스 마무리 카페로 1순위입니다. <strong>아메리카노 4,000원·시그니처 퍼펙트라떼 5,300원·돌체라떼 5,000원</strong> 단가가 합리적이라 부담 없이 한 잔을 마무리하기 좋은 곳입니다. 매탄동 위치라 좋은소식·라루치아 본점 식사 후 5~10분 이동 거리이며, 신동카페거리권 매장과는 동선이 다르니 사전에 위치 확인이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">매탄동 1252-3 1층에 위치한 <strong>스페셜티 카페</strong>입니다. 평점 4.1점은 본 가이드 5곳 중 좋은소식과 함께 공동 최상위, 리뷰 142건으로 표본도 안정적입니다. "가성비·주차가능·데이트·리뷰많음·깔끔한곳" 다섯 가지 태그가 함께 매칭되어 식사 후 데이트 코스 마무리 카페로 1순위입니다. <strong>아메리카노 4,000원·시그니처 퍼펙트라떼 5,300원·돌체라떼 5,000원</strong> 단가가 합리적이라 부담 없이 한 잔을 마무리하기 좋은 곳입니다. 매탄동 위치라 좋은소식·라루치아 본점 식사 후 5~10분 이동 거리이며, 신동카페거리권 매장과는 동선이 다르니 사전에 위치 확인이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"커피 맛이 좋다 · 매장이 깔끔하다 · 데이트 분위기가 좋다 · 가성비가 있다" 같은 평이 자주 언급되었습니다. 음료 품질과 매장 분위기·가격대가 함께 묶이는 키워드입니다.</p>

@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">숙취 다음 날 선지·소고기 해장이면 <strong>명인대동양평해장국 삼성직영점</strong> — 평점 4.7·해장 메뉴 8종, 09:00 오픈.<br><br>출근 전 이른 해장이면 <strong>일품양평해장국 강남대치점</strong> (07:30 오픈, 평점 4.7).<br><br>국물 깔끔한 곰탕 한 그릇이면 <strong>이여곰탕 강남삼성</strong> (평점 4.3·리뷰 1,905건, 곰탕 8,000원선).<br><br>점심에 청국장 백반 정식이면 <strong>도명골 청국장</strong> (평점 4.7·리뷰 1,371건, 11,000원 정식).<br><br>설렁탕·소고기국밥 정석이면 <strong>이남장 삼성점</strong> (리뷰 1,903건·블로그 596건).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">숙취 다음 날 선지·소고기 해장이면 <strong>명인대동양평해장국 삼성직영점</strong> — 평점 4.7·해장 메뉴 8종, 09:00 오픈.<br><br>출근 전 이른 해장이면 <strong>일품양평해장국 강남대치점</strong> (07:30 오픈, 평점 4.7).<br><br>국물 깔끔한 곰탕 한 그릇이면 <strong>이여곰탕 강남삼성</strong> (평점 4.3점·리뷰 1,907건, 곰탕 8,000원선).<br><br>점심에 청국장 백반 정식이면 <strong>도명골 청국장</strong> (평점 4.7점·리뷰 1,371건, 11,000원 정식).<br><br>설렁탕·소고기국밥 정석이면 <strong>이남장 삼성점</strong> (리뷰 1,903건·블로그 596건).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 해장 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 461건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 462건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~44,000원</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>선지·소고기 해장국 종류가 8가지로 가장 다양한 식당</strong>입니다. 삼성동 156-7, 평점 4.7·리뷰 461건으로 본 가이드 해장국 카테고리에서 평점 공동 1위입니다. 09:00 오픈이라 출근 직후·점심 모두 가능하고, 흑마늘 보양 해장국부터 양선지·소머리국밥·내장탕까지 메뉴 폭이 넓어 일행 입맛이 갈려도 한 곳에서 해결됩니다. 매장 주차가 되어 차로 오는 직장인 점심에도 무난합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>선지·소고기 해장국 종류가 8가지로 가장 다양한 식당</strong>입니다. 삼성동 156-7, 평점 4.7점·리뷰 462건으로 본 가이드 해장국 카테고리에서 평점 공동 1위입니다. 09:00 오픈이라 출근 직후·점심 모두 가능하고, 흑마늘 보양 해장국부터 양선지·소머리국밥·내장탕까지 메뉴 폭이 넓어 일행 입맛이 갈려도 한 곳에서 해결됩니다. 매장 주차가 되어 차로 오는 직장인 점심에도 무난합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물 맛이 진하다 · 서비스가 친절하다 · 매장 분위기가 깔끔하다" 같은 평이 자주 언급되었습니다. 해장 메뉴 만족도와 응대가 함께 묶여 누적되는 키워드입니다.</p>
@@ -135,12 +135,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥣 곰탕 검증 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 1,905건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.3 · 리뷰 1,907건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 8,000원~12,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 화~토 24시간</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.3은 본 가이드 평균(4.5) 아래지만, <strong>리뷰 1,905건은 5곳 중 가장 많은 표본</strong>이라 검증 신뢰도가 높습니다. 삼성로 548, 곰탕 1인 8,000원선에서 시작해 가격 부담이 작고 화~토 24시간 운영이라 늦은 점심·야간 한 그릇으로도 열려 있습니다. 메뉴 구성이 곰탕·쌀국수곰탕 중심으로 단순해 회전이 빠르고, 국물 깔끔하다는 평가가 누적된 곳입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.3은 본 가이드 평균(4.5) 아래지만, <strong>리뷰 1,907건은 5곳 중 가장 많은 표본</strong>이라 검증 신뢰도가 높습니다. 삼성로 548, 곰탕 1인 8,000원선에서 시작해 가격 부담이 작고 화~토 24시간 운영이라 늦은 점심·야간 한 그릇으로도 열려 있습니다. 메뉴 구성이 곰탕·쌀국수곰탕 중심으로 단순해 회전이 빠르고, 국물 깔끔하다는 평가가 누적된 곳입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물이 깔끔하다 · 곰탕이 담백하다 · 한 그릇 가성비가 좋다" 같은 평이 자주 언급되었습니다. 단순한 메뉴 구성과 24시간 운영이 후기 키워드로 함께 묶입니다.</p>
@@ -178,7 +178,7 @@ const post = {
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 4.7·리뷰 1,371건에 블로그 563건까지 누적된 오피스 점심 강자</strong>입니다. 삼성1동 166-3, 청국장 정식이 11,000원 단일 가격대로 깔끔하게 정리되어 일행과 따로 계산 고민 없이 주문하기 편합니다. 청국장에 육회비빔밥·생선·제육·수육 중 하나를 조합하는 구성이라 점심 한 끼로 든든하고, 11:00~21:30 영업이라 점심·저녁 모두 가능합니다. 일요일은 휴무이므로 평일·토요일 방문이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 4.7점·리뷰 1,371건에 블로그 563건까지 누적된 오피스 점심 강자</strong>입니다. 삼성1동 166-3, 청국장 정식이 11,000원 단일 가격대로 깔끔하게 정리되어 일행과 따로 계산 고민 없이 주문하기 편합니다. 청국장에 육회비빔밥·생선·제육·수육 중 하나를 조합하는 구성이라 점심 한 끼로 든든하고, 11:00~21:30 영업이라 점심·저녁 모두 가능합니다. 일요일은 휴무이므로 평일·토요일 방문이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"오피스 점심으로 좋다 · 가성비가 좋다 · 정식 구성이 푸짐하다" 같은 평이 자주 언급되었습니다. 단일 가격 정식과 점심 회전이 후기 키워드로 함께 묶입니다.</p>

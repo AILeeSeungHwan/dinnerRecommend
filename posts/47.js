@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">소고기 회식이면 <strong>육끝 영통구청점</strong> — 평점 4.9·리뷰 1,593건에 주차·예약 모두 되고 갈비살 19,900원부터입니다.<br><br>둘이 가볍게 냉삼·삼겹이면 <strong>냉삼포차</strong> (평점 5.0·리뷰 1,024건, 매탄동).<br><br>갈비를 제대로 먹고 싶으면 <strong>석촌갈비</strong> (평점 5.0·리뷰 1,019건, 원천동).<br><br>동네 단골 돼지구이면 <strong>정가네 본점</strong> (평점 5.0·리뷰 493건, 영통동).<br><br>검증된 프랜차이즈 안정감이면 <strong>하남돼지집 수원삼성점</strong> (평점 5.0, 매탄동, 체인 표준).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">소고기 회식이면 <strong>육끝 영통구청점</strong> — 평점 4.9점·리뷰 1,593건에 주차·예약 모두 되고 갈비살 19,900원부터입니다.<br><br>둘이 가볍게 냉삼·삼겹이면 <strong>냉삼포차</strong> (평점 5점·리뷰 1,024건, 매탄동).<br><br>갈비를 제대로 먹고 싶으면 <strong>석촌갈비</strong> (평점 5점·리뷰 1,019건, 원천동).<br><br>동네 단골 돼지구이면 <strong>정가네 본점</strong> (평점 5점·리뷰 495건, 영통동).<br><br>검증된 프랜차이즈 안정감이면 <strong>하남돼지집 수원삼성점</strong> (평점 5.0, 매탄동, 체인 표준).</p>
 </aside>`
     },
 
@@ -92,7 +92,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥩 냉삼 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 1,024건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 1,024건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 매장 문의</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
@@ -136,7 +136,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍖 갈비 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 1,019건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 1,019건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 매장 문의</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
@@ -173,11 +173,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍽️ 동네 단골 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 493건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 495건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 매장 문의</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통동 980-3 C동 1층에 있는 돼지고기구이 식당입니다. 평점 5.0에 리뷰 493건으로 본 가이드 5곳 중 표본은 가장 작지만, 영통동 생활권 안에 있어 동네 단골 비중이 높고 평점이 흔들리지 않는다는 점이 차별점입니다. 화려한 회식보다 가까운 사람들과 부담 없이 삼겹·목살을 굽는 자리에 잘 맞고, 영통동 거주자라면 도보 접근이 가능한 위치입니다. 메뉴별 가격은 매장 게시 기준을 따릅니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통동 980-3 C동 1층에 있는 돼지고기구이 식당입니다. 평점 5.0에 리뷰 495건으로 본 가이드 5곳 중 표본은 가장 작지만, 영통동 생활권 안에 있어 동네 단골 비중이 높고 평점이 흔들리지 않는다는 점이 차별점입니다. 화려한 회식보다 가까운 사람들과 부담 없이 삼겹·목살을 굽는 자리에 잘 맞고, 영통동 거주자라면 도보 접근이 가능한 위치입니다. 메뉴별 가격은 매장 게시 기준을 따릅니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"고기가 신선하다 · 동네에서 자주 가게 된다 · 사장님이 친절하다" 같은 평이 자주 언급되었습니다. 신선도와 동네 단골 만족도가 함께 묶이는 키워드입니다.</p>
@@ -215,7 +215,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏢 프랜차이즈 안정</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 68건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 68건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 매장 문의</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>

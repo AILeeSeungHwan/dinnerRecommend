@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">국밥 한 그릇이면 <strong>생각나는순대국 수원영통점</strong> — 평점 4.3·리뷰 470건, 순대국 10,000원으로 영통 한식 가성비 1순위입니다.<br><br>한식 정식이면 <strong>신선설농탕 수원영통점</strong> — 설농탕 11,000원·정식 메뉴 다양.<br><br>가벼운 일식이면 <strong>윤돈</strong> — 평점 4.6·로스카츠 정식 13,000원에 돈가스 단품 회전 우수.<br><br>중식 단품이면 <strong>진심의짬뽕 매탄직영점</strong> — 든든세트(짜장면+군만두+미니밥) 7,500원으로 가격 1순위.<br><br>출근 전 모닝 빵·테이크아웃이면 <strong>하얀풍차제과점 망포역점</strong> — 07:00 오픈, 메론크림 소금빵 3,600원부터.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">국밥 한 그릇이면 <strong>생각나는순대국 수원영통점</strong> — 평점 3.5점·리뷰 56건, 순대국 10,000원으로 영통 한식 가성비 1순위입니다.<br><br>한식 정식이면 <strong>신선설농탕 수원영통점</strong> — 설농탕 11,000원·정식 메뉴 다양.<br><br>가벼운 일식이면 <strong>윤돈</strong> — 평점 4.6·로스카츠 정식 13,000원에 돈가스 단품 회전 우수.<br><br>중식 단품이면 <strong>진심의짬뽕 매탄직영점</strong> — 든든세트(짜장면+군만두+미니밥) 7,500원으로 가격 1순위.<br><br>출근 전 모닝 빵·테이크아웃이면 <strong>하얀풍차제과점 망포역점</strong> — 07:00 오픈, 메론크림 소금빵 3,600원부터.</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍲 국밥 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.5 · 리뷰 1,772건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.5 · 리뷰 56건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~14,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 새벽 2시까지</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통 점심 한식 가운데 <strong>평점 3.5점·리뷰 1,772건</strong>으로 표본·평점이 함께 안정적인 국밥집입니다. 영통동 998-6 아셈프라자 1층에 위치해 분당선 영통역에서 도보 접근이 편하고, <strong>02:00까지 영업</strong>이라 야근 직장인의 늦은 저녁·해장 옵션으로도 묶입니다. 단품(순대국 10,000원) 중심 회전이 빠른 매장이라 12시 피크에도 자리 잡기가 비교적 수월하며, 수육·족발 정식 13,000원선 메뉴까지 갖춰 한 끼 부담을 단계별로 조정할 수 있습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">영통 점심 한식 가운데 <strong>평점 3.5점·리뷰 56건</strong>으로 표본·평점이 함께 안정적인 국밥집입니다. 영통동 998-6 아셈프라자 1층에 위치해 분당선 영통역에서 도보 접근이 편하고, <strong>02:00까지 영업</strong>이라 야근 직장인의 늦은 저녁·해장 옵션으로도 묶입니다. 단품(순대국 10,000원) 중심 회전이 빠른 매장이라 12시 피크에도 자리 잡기가 비교적 수월하며, 수육·족발 정식 13,000원선 메뉴까지 갖춰 한 끼 부담을 단계별로 조정할 수 있습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물이 진하다 · 양이 푸짐하다 · 매장이 깔끔하다" 같은 평이 자주 언급되었습니다. 영통 직장인 점심·해장 양쪽 시나리오로 묶이는 식당이라는 점이 후기 키워드로 함께 잡힙니다.</p>
@@ -222,12 +222,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#92400E;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">☕ 출근 전 테이크아웃</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 25,699건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 973건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 3,600원~52,800원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🕐 07:00 오픈</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 25,699건</strong>은 본 가이드 5곳 중 가장 많은 표본 크기로, 영통 베이커리 카테고리 상위권에서도 누적 검증이 두드러집니다. 망포동 322-3, 분당선 망포역에서 도보 거리이며 <strong>07:00 영업 시작</strong>이라 출근 전 모닝 빵·커피·테이크아웃 옵션으로 1순위입니다. 시즌 케이크(딸기트리 52,800원)부터 메론크림 소금빵 3,600원까지 가격 범위가 넓고, "웨이팅 발생" 후기가 누적될 만큼 회전이 빠른 매장입니다. 점심에 가볍게 가는 사람·생일 케이크 예약 손님이 함께 누적되는 곳입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 973건</strong>은 본 가이드 5곳 중 가장 많은 표본 크기로, 영통 베이커리 카테고리 상위권에서도 누적 검증이 두드러집니다. 망포동 322-3, 분당선 망포역에서 도보 거리이며 <strong>07:00 영업 시작</strong>이라 출근 전 모닝 빵·커피·테이크아웃 옵션으로 1순위입니다. 시즌 케이크(딸기트리 52,800원)부터 메론크림 소금빵 3,600원까지 가격 범위가 넓고, "웨이팅 발생" 후기가 누적될 만큼 회전이 빠른 매장입니다. 점심에 가볍게 가는 사람·생일 케이크 예약 손님이 함께 누적되는 곳입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"화이트롤 시그니처 빵이 인기 · 가족 단위 손님이 좋아한다 · 빵 잘 안 좋아하는 사람도 즐긴다" 같은 평이 자주 언급되었습니다. 시그니처 빵 만족도와 시즌 메뉴 회전이 함께 묶이는 키워드입니다.</p>

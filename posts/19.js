@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #7F1D1D">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">갈비 회식인데 인당 단가를 누르고 싶다면 <strong>동대문수제갈비</strong> — 평점 4.8 + 가족셋트4인분 돼지갈비 66,000원으로 단체 단가 가장 낮습니다.<br><br>표본·운영 안정성 우선이면 <strong>수타원</strong> — 리뷰 774건으로 회식 카테고리 표본 1위, 봉영로 주차 동선 무난.<br><br>양꼬치·중식 회식이면 <strong>신세계양꼬치마라탕</strong> — 양꼬치 30p 49,000원 + C세트 35,000원으로 4~6인 모임 무난.<br><br>점심 회식·송년회 점심이면 <strong>명백집 본점</strong> — 버크셔 곰탕 1만원선, 신동 카페거리 동선 가까움.<br><br>술 곁들이는 안주형 회식이면 <strong>민속왕순대</strong> — 모듬 20,000원·감자탕(소) 30,000원으로 5~6인 술자리 단가 안정.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">갈비 회식인데 인당 단가를 누르고 싶다면 <strong>동대문수제갈비</strong> — 평점 4.8 + 가족셋트4인분 돼지갈비 66,000원으로 단체 단가 가장 낮습니다.<br><br>표본·운영 안정성 우선이면 <strong>수타원</strong> — 리뷰 3,144건으로 회식 카테고리 표본 1위, 봉영로 주차 동선 무난.<br><br>양꼬치·중식 회식이면 <strong>신세계양꼬치마라탕</strong> — 양꼬치 30p 49,000원 + C세트 35,000원으로 4~6인 모임 무난.<br><br>점심 회식·송년회 점심이면 <strong>명백집 본점</strong> — 버크셔 곰탕 1만원선, 신동 카페거리 동선 가까움.<br><br>술 곁들이는 안주형 회식이면 <strong>민속왕순대</strong> — 모듬 20,000원·감자탕(소) 30,000원으로 5~6인 술자리 단가 안정.</p>
 </aside>`
     },
 
@@ -91,12 +91,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#7F1D1D;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍻 회식 표본 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.2 · 리뷰 3,140건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.2 · 리뷰 3,144건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~20,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">⏳ 피크 대기 있음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9는 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 3,140건</strong>은 망포 회식 카테고리 표본 1위로, 평점이 살짝 낮은 이유는 표본이 큰 식당에서 자연스럽게 호불호가 함께 누적되었기 때문으로 해석됩니다. 봉영로1482번길에 위치하며 <strong>고기구이·중식·한식·해산물</strong>이 메뉴 카테고리에 모두 포함되는 종합 회식 매장이라 부서원 취향이 갈리는 자리에 메뉴 협의가 빠릅니다. 영업이 21시까지라 1차 회식 위주 자리에 잘 맞고, "피크 대기 있음" 평가가 함께 매칭되니 평일 18시·금요일 18시는 30~40분 전 입장이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9는 본 가이드 5곳 중 평균 아래입니다. 다만 <strong>리뷰 3,144건</strong>은 망포 회식 카테고리 표본 1위로, 평점이 살짝 낮은 이유는 표본이 큰 식당에서 자연스럽게 호불호가 함께 누적되었기 때문으로 해석됩니다. 봉영로1482번길에 위치하며 <strong>고기구이·중식·한식·해산물</strong>이 메뉴 카테고리에 모두 포함되는 종합 회식 매장이라 부서원 취향이 갈리는 자리에 메뉴 협의가 빠릅니다. 영업이 21시까지라 1차 회식 위주 자리에 잘 맞고, "피크 대기 있음" 평가가 함께 매칭되니 평일 18시·금요일 18시는 30~40분 전 입장이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"단체석 수용 좋다 · 메뉴가 다양하다 · 피크에 대기 있다" 같은 평이 자주 언급되었습니다. 회식 단체 수용력과 대기열이라는 두 축이 후기 키워드로 함께 누적되는 식당입니다.</p>
@@ -221,7 +221,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B45309;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍶 안주형 회식 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 792건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.4 · 리뷰 793건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 5,000원~30,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🏅 4.8 공동 최고</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>

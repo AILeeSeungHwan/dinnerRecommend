@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #EA580C">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">잠실 국밥·해장국 평점 1순위는 <strong>양양집</strong> — 평점 4.5·리뷰 205건, 한우 양선지 해장국 12,000원·우대갈비찜 39,000원.<br><br>표본·인지도 1순위면 <strong>제주은희네해장국 잠실직영점</strong> — 평점 4.3·리뷰 784건, 제주식 해장국 12,000원·돔베고기 13,000원. 1만원선 설렁탕 정식이면 <strong>본가설렁탕</strong> — 설렁탕 15,000원, 평점 4.2·리뷰 1,711건.<br><br>한 그릇 1만원 감자탕 가성비면 <strong>청년감자탕 송파 본점</strong> — 뼈해장국 10,000원, 평점 4.1·리뷰 680건. 24시간 새벽 해장이면 <strong>얼큰본가 연품뼈해장국 24시 본점</strong> — 뼈해장국 11,000원·선지해장국 10,000원, 리뷰 1,124건.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">잠실 국밥·해장국 평점 1순위는 <strong>양양집</strong> — 평점 4.6점·리뷰 3,396건, 한우 양선지 해장국 12,000원·우대갈비찜 39,000원.<br><br>표본·인지도 1순위면 <strong>제주은희네해장국 잠실직영점</strong> — 평점 3.7점·리뷰 825건, 제주식 해장국 12,000원·돔베고기 13,000원. 1만원선 설렁탕 정식이면 <strong>본가설렁탕</strong> — 설렁탕 15,000원, 평점 3점·리뷰 3,801건.<br><br>한 그릇 1만원 감자탕 가성비면 <strong>청년감자탕 송파 본점</strong> — 뼈해장국 10,000원, 평점 0점·리뷰 3,064건. 24시간 새벽 해장이면 <strong>얼큰본가 연품뼈해장국 24시 본점</strong> — 뼈해장국 11,000원·선지해장국 10,000원, 리뷰 1,632건.</p>
 </aside>`
     },
 
@@ -46,7 +46,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 평점 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.6 · 리뷰 3,395건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.6 · 리뷰 3,396건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 12,000원~45,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🥩 한우 사용</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
@@ -180,12 +180,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💰 가성비 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 3,063건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 3,064건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~13,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">방이동 110-12번지 1층에 위치한 감자탕·뼈해장국 전문점으로, 평점 0점·리뷰 3,063건의 안정 표본을 갖춘 1만원선 가성비 1순위 식당입니다. "리뷰많음·주차가능" 두 태그가 매칭되어 있고, 매장이 넓어 단체 손님도 받을 수 있는 구조입니다. <strong>뼈해장국 10,000원·순대국 10,000원이 1만원 라인업의 최저가</strong>이고, 묶은지해장국·파김치뼈해장국 등 변형 메뉴가 11,000~12,000원, 순살 시리즈가 11,000~13,000원선입니다. 본 가이드 5곳 중 <strong>1만원 단가 1만원 시작 옵션</strong>으로 가장 부담이 적은 식당입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">방이동 110-12번지 1층에 위치한 감자탕·뼈해장국 전문점으로, 평점 0점·리뷰 3,064건의 안정 표본을 갖춘 1만원선 가성비 1순위 식당입니다. "리뷰많음·주차가능" 두 태그가 매칭되어 있고, 매장이 넓어 단체 손님도 받을 수 있는 구조입니다. <strong>뼈해장국 10,000원·순대국 10,000원이 1만원 라인업의 최저가</strong>이고, 묶은지해장국·파김치뼈해장국 등 변형 메뉴가 11,000~12,000원, 순살 시리즈가 11,000~13,000원선입니다. 본 가이드 5곳 중 <strong>1만원 단가 1만원 시작 옵션</strong>으로 가장 부담이 적은 식당입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"국물 진함 · 양 푸짐 · 서비스 친절 · 매장 넓음" 같은 평이 자주 언급되었습니다. 1만원 단가 감자탕 가성비와 단체 수용 가능 매장 구조가 후기 키워드로 묶입니다.</p>
@@ -227,12 +227,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#EA580C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🌙 24시간 해장</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">리뷰 1,631건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">리뷰 1,632건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 10,000원~53,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌙 심야 영업</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">방이동 65-4번지 1·2층에 자리한 <strong>24시간 운영 뼈해장국 전문점</strong>입니다. 평점은 단순 신규 누적 단계이지만 <strong>리뷰 1,631건</strong>으로 표본은 본 가이드 5곳 중 두 번째로 큽니다. "리뷰많음·혼밥가능·주차가능" 세 태그가 매칭되어 있고, 24시간 영업이라 새벽 식사·야근 후 해장·심야 외출 후 식사 등 일반 영업시간 식당으로는 커버되지 않는 시간대를 책임지는 차별점이 명확합니다. <strong>뼈해장국 11,000원·선지해장국 10,000원</strong>이 메인 단품이고, 우거지 콩나물 감자탕 대 53,000원이 단체 디너 옵션입니다. 1·2층 구조라 평일 점심·저녁 단체 수용도 가능합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">방이동 65-4번지 1·2층에 자리한 <strong>24시간 운영 뼈해장국 전문점</strong>입니다. 평점은 단순 신규 누적 단계이지만 <strong>리뷰 1,632건</strong>으로 표본은 본 가이드 5곳 중 두 번째로 큽니다. "리뷰많음·혼밥가능·주차가능" 세 태그가 매칭되어 있고, 24시간 영업이라 새벽 식사·야근 후 해장·심야 외출 후 식사 등 일반 영업시간 식당으로는 커버되지 않는 시간대를 책임지는 차별점이 명확합니다. <strong>뼈해장국 11,000원·선지해장국 10,000원</strong>이 메인 단품이고, 우거지 콩나물 감자탕 대 53,000원이 단체 디너 옵션입니다. 1·2층 구조라 평일 점심·저녁 단체 수용도 가능합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있음 · 양 푸짐 · 뼈 많음" 같은 평이 자주 언급되었습니다. 24시간 영업이라는 차별점과 1만원 단가가 후기 키워드로 함께 묶입니다.</p>

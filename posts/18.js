@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #B91C1C">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한우 점심 가성비면 <strong>우판등심 수원점</strong> — 평일 런치스페셜 24,000원·평점 4.3·리뷰 2,915건으로 영통 한우 검증 1순위입니다.<br><br>보쌈·족발 가족 외식이면 <strong>항아리보쌈본점</strong> — 보쌈 소 36,000원·평점 4.1·리뷰 661건.<br><br>평일 돼지오겹 한 끼면 <strong>훈이네구이 망포점</strong> — 평점 4.4·숙성오겹살 16,000원·라면 무료 서비스.<br><br>돼지갈비 가족 외식이면 <strong>달구운바람 돼지갈비 영통망포점</strong> — 원적외선 직화 돼지양념구이 21,000원·콜키지 프리.<br><br>한돈+한우를 한자리에서 즐기시려면 <strong>옳은고기 수원본점</strong> — 한돈 생삼겹살 16,000원·황금등심살 한판 88,000원으로 예산 폭이 넓습니다.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한우 점심 가성비면 <strong>우판등심 수원점</strong> — 평일 런치스페셜 24,000원·평점 4점·리뷰 6,324건으로 영통 한우 검증 1순위입니다.<br><br>보쌈·족발 가족 외식이면 <strong>항아리보쌈본점</strong> — 보쌈 소 36,000원·평점 4.1·리뷰 661건.<br><br>평일 돼지오겹 한 끼면 <strong>훈이네구이 망포점</strong> — 평점 4.4·숙성오겹살 16,000원·라면 무료 서비스.<br><br>돼지갈비 가족 외식이면 <strong>달구운바람 돼지갈비 영통망포점</strong> — 원적외선 직화 돼지양념구이 21,000원·콜키지 프리.<br><br>한돈+한우를 한자리에서 즐기시려면 <strong>옳은고기 수원본점</strong> — 한돈 생삼겹살 16,000원·황금등심살 한판 88,000원으로 예산 폭이 넓습니다.</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 한우 검증 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4 · 리뷰 6,326건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4 · 리뷰 6,324건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 4,000원~37,500원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍱 평일 런치 24,000원</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 6,326건</strong>은 본 가이드 5곳 중 가장 많은 표본이며, 영통 고기 카테고리 전체에서도 누적 표본이 상위권에 속합니다. 평점 4점·리뷰 6,326건이 함께 누적되어 평균값이 흔들리지 않는 식당으로 묶입니다. 신동 932번지에 위치해 분당선 영통역에서 도보 거리이며, <strong>11:00 영업 시작</strong>이라 점심·저녁 모두 가능합니다. <strong>평일 런치스페셜 1인분(120g) 24,000원</strong>은 한우 점심 가성비 1순위 구성이며, 한우된장죽 5,000원·열무국수 4,000원으로 가벼운 사이드 한 끼까지 함께 가능합니다. 디너로는 한우 생등심 1인분(150g) 37,500원이 표준 단가입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 6,324건</strong>은 본 가이드 5곳 중 가장 많은 표본이며, 영통 고기 카테고리 전체에서도 누적 표본이 상위권에 속합니다. 평점 4점·리뷰 6,324건이 함께 누적되어 평균값이 흔들리지 않는 식당으로 묶입니다. 신동 932번지에 위치해 분당선 영통역에서 도보 거리이며, <strong>11:00 영업 시작</strong>이라 점심·저녁 모두 가능합니다. <strong>평일 런치스페셜 1인분(120g) 24,000원</strong>은 한우 점심 가성비 1순위 구성이며, 한우된장죽 5,000원·열무국수 4,000원으로 가벼운 사이드 한 끼까지 함께 가능합니다. 디너로는 한우 생등심 1인분(150g) 37,500원이 표준 단가입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"고기가 부드럽다 · 곁들이 양배추·양파까지 맛있다 · 서비스가 친절하다 · 주차가 편하다" 같은 평이 자주 언급되었습니다. 한우 품질과 사이드 메뉴 만족도가 함께 묶이는 키워드입니다.</p>
@@ -183,12 +183,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍺 콜키지 프리</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 17,326건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 17,336건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 2,000원~74,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🍱 점심 11:20 오픈</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>원적외선 직화 돼지양념구이 280g 21,000원</strong>이 시그니처 메뉴인 돼지갈비 전문점입니다. 망포동 332-7 1층에 위치하며 <strong>11:20 영업 시작</strong>이라 점심 가족 외식부터 저녁 회식까지 폭이 넓습니다. 평점 0점·리뷰 17,326건으로 평점 우위 식당이며, <strong>"콜키지 프리"</strong>가 메뉴판에 명시되어 와인·소주를 직접 가져와 마실 수 있는 매장입니다. 사이드 메뉴(소고기 된장찌개 7,000원·물냉면 7,000원·공기밥 2,000원)가 잘 갖춰져 있어 마무리 식사까지 한 곳에서 해결되는 곳입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>원적외선 직화 돼지양념구이 280g 21,000원</strong>이 시그니처 메뉴인 돼지갈비 전문점입니다. 망포동 332-7 1층에 위치하며 <strong>11:20 영업 시작</strong>이라 점심 가족 외식부터 저녁 회식까지 폭이 넓습니다. 평점 0점·리뷰 17,336건으로 평점 우위 식당이며, <strong>"콜키지 프리"</strong>가 메뉴판에 명시되어 와인·소주를 직접 가져와 마실 수 있는 매장입니다. 사이드 메뉴(소고기 된장찌개 7,000원·물냉면 7,000원·공기밥 2,000원)가 잘 갖춰져 있어 마무리 식사까지 한 곳에서 해결되는 곳입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"양념갈비가 맛있다 · 가족 외식으로 자주 찾는다 · 반찬 구성이 알차다 · 재방문 의사가 있다" 같은 평이 자주 언급되었습니다. 직화 양념갈비 맛과 가족 외식 편의성이 함께 묶이는 키워드입니다.</p>

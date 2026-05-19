@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #C026D3">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위·석촌호수 산책 후 디저트면 <strong>카페드로잉 석촌호수점</strong> — 평점 4.7·리뷰 411건, 생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원.<br><br>인스타 핫스팟·롯데월드몰 동선이면 <strong>노티드 잠실롯데월드몰점</strong> — 평점 4.6·리뷰 169건, 우유 생크림 도넛 4,200원.<br><br>정통 이탈리안 디너이면 <strong>더 이탈리안 클럽</strong> — 평점 4.3·리뷰 153건, 1++ 한우 채끝 스테이크 105,000원·트러플 따야린 39,000원. 1만원선 데이트 점심이면 <strong>돈블랑 석촌호수점</strong> — 평점 4.3·리뷰 292건, 아랫고기 17,500원·점심 한정 제육볶음 11,000원.<br><br>브런치 데이트면 <strong>MIP</strong> — 평점 4.2·리뷰 186건, 명란 오일 파스타 18,000원·스테이크 에그 베네딕트 26,000원.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 1순위·석촌호수 산책 후 디저트면 <strong>카페드로잉 석촌호수점</strong> — 평점 0점·리뷰 3,897건, 생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원.<br><br>인스타 핫스팟·롯데월드몰 동선이면 <strong>노티드 잠실롯데월드몰점</strong> — 평점 0점·리뷰 6,948건, 우유 생크림 도넛 4,200원.<br><br>정통 이탈리안 디너이면 <strong>더 이탈리안 클럽</strong> — 평점 4점·리뷰 3,316건, 1++ 한우 채끝 스테이크 105,000원·트러플 따야린 39,000원. 1만원선 데이트 점심이면 <strong>돈블랑 석촌호수점</strong> — 평점 3점·리뷰 2,570건, 아랫고기 17,500원·점심 한정 제육볶음 11,000원.<br><br>브런치 데이트면 <strong>MIP</strong> — 평점 4.2·리뷰 186건, 명란 오일 파스타 18,000원·스테이크 에그 베네딕트 26,000원.</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 데이트 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 3,896건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 3,897건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 9,900원~49,500원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📷 뷰맛집·인스타</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">송파동 7-1 잠실아르누보팰리스 1층 105호에 자리한 디저트·와인 카페로, <strong>평점 0점·리뷰 3,896건으로 본 가이드 5곳 중 1순위</strong>입니다. "리뷰많음·점심추천·데이트·서비스좋음·뷰맛집" 다섯 태그가 동시에 매칭되어 석촌호수 산책 후 한 자리 동선으로 가장 안정적입니다. <strong>생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원이 시그니처</strong>이고, 글래스와인 9,900원·스파클링 와인 A세트 38,500원으로 디저트→와인 자연스럽게 이어가는 라인업입니다. 인스타에 자주 등장하는 매장이라 사진 찍기 좋은 분위기까지 함께 따라옵니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">송파동 7-1 잠실아르누보팰리스 1층 105호에 자리한 디저트·와인 카페로, <strong>평점 0점·리뷰 3,897건으로 본 가이드 5곳 중 1순위</strong>입니다. "리뷰많음·점심추천·데이트·서비스좋음·뷰맛집" 다섯 태그가 동시에 매칭되어 석촌호수 산책 후 한 자리 동선으로 가장 안정적입니다. <strong>생과일 망고 빙수 27,900원·드로잉 프렌치 토스트 21,900원이 시그니처</strong>이고, 글래스와인 9,900원·스파클링 와인 A세트 38,500원으로 디저트→와인 자연스럽게 이어가는 라인업입니다. 인스타에 자주 등장하는 매장이라 사진 찍기 좋은 분위기까지 함께 따라옵니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있음 · 분위기 좋음 · 서비스 친절 · 재방문 의사" 같은 평이 자주 언급되었습니다. 디저트 플레이팅과 매장 인테리어가 함께 묶여 누적되는 후기 키워드입니다.</p>
@@ -138,12 +138,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍷 기념일 디너</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4 · 리뷰 3,313건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4 · 리뷰 3,316건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 23,000원~105,000원</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신천동 29-1 KT송파타워 2층에 자리한 정통 이탈리안 레스토랑으로, 평점 4점·리뷰 3,313건이 누적된 잠실 데이트 디너 옵션입니다. "리뷰많음·주차가능·데이트" 세 태그가 매칭되어 있고, KT송파타워 2층이라 차량 동선·기념일 디너 자리 모두 안정적입니다. <strong>트러플 따야린 39,000원·1++ 한우 채끝 스테이크 105,000원이 메인 시그니처</strong>이고, 부라타 치즈 23,000원·깔라마리 23,000원으로 식전 옵션이 풍부합니다. 한우 채끝 카르파치오 30,000원·제철 생선 카르파치오 30,000원으로 코스 구성도 가능해 기념일·프로포즈 같은 특별한 디너 자리에 적합합니다. 11:30 영업 시작이라 점심 데이트도 가능합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">신천동 29-1 KT송파타워 2층에 자리한 정통 이탈리안 레스토랑으로, 평점 4점·리뷰 3,316건이 누적된 잠실 데이트 디너 옵션입니다. "리뷰많음·주차가능·데이트" 세 태그가 매칭되어 있고, KT송파타워 2층이라 차량 동선·기념일 디너 자리 모두 안정적입니다. <strong>트러플 따야린 39,000원·1++ 한우 채끝 스테이크 105,000원이 메인 시그니처</strong>이고, 부라타 치즈 23,000원·깔라마리 23,000원으로 식전 옵션이 풍부합니다. 한우 채끝 카르파치오 30,000원·제철 생선 카르파치오 30,000원으로 코스 구성도 가능해 기념일·프로포즈 같은 특별한 디너 자리에 적합합니다. 11:30 영업 시작이라 점심 데이트도 가능합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"재방문 의사 · 분위기 좋음 · 맛있음" 같은 평이 자주 언급되었습니다. 봄나물 새우 리조또 같은 시즌 메뉴와 매장 분위기가 함께 묶여 누적되는 후기 키워드입니다.</p>
@@ -185,12 +185,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">💰 점심 데이트 가성비</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3 · 리뷰 2,215건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3 · 리뷰 2,570건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 5,000원~27,000원</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">송파동 58번지에 자리한 돼지구이 전문점으로, 평점 3점·리뷰 2,215건의 안정 표본을 갖춘 1만원선 데이트 점심 가성비 옵션입니다. "리뷰많음·주차가능·데이트" 세 태그가 매칭되어 있고, 11:00 영업 시작이라 점심 데이트 시간대도 무난합니다. <strong>아랫고기·윗고기 17,500원·특수부위모둠 22,500원이 메인 시그니처</strong>이고, <strong>점심 한정 돼지 제육볶음 11,000원이 5곳 중 점심 데이트 1만원선 가성비 옵션</strong>으로 매우 강력합니다. 별미 돈블랑 국수 8,000원·임실치즈구이 10,000원으로 곁들임 메뉴 가짓수도 풍부합니다. 석촌호수와 가까워 식사 후 산책 동선까지 연결 가능합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">송파동 58번지에 자리한 돼지구이 전문점으로, 평점 3점·리뷰 2,570건의 안정 표본을 갖춘 1만원선 데이트 점심 가성비 옵션입니다. "리뷰많음·주차가능·데이트" 세 태그가 매칭되어 있고, 11:00 영업 시작이라 점심 데이트 시간대도 무난합니다. <strong>아랫고기·윗고기 17,500원·특수부위모둠 22,500원이 메인 시그니처</strong>이고, <strong>점심 한정 돼지 제육볶음 11,000원이 5곳 중 점심 데이트 1만원선 가성비 옵션</strong>으로 매우 강력합니다. 별미 돈블랑 국수 8,000원·임실치즈구이 10,000원으로 곁들임 메뉴 가짓수도 풍부합니다. 석촌호수와 가까워 식사 후 산책 동선까지 연결 가능합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있음 · 서비스 친절 · 주차 편함 · 분위기 좋음" 같은 평이 자주 언급되었습니다. 밑반찬 만족도와 점심 한정 메뉴가 후기 키워드로 함께 묶입니다.</p>

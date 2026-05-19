@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">6~8인 팀 회식에 평점·웨이팅 모두 검증된 1순위는 <strong>진성한우곱창 방이직영점</strong> — 평점 4.8·리뷰 766건, 한우곱창 19,000원선.<br><br>임원 회식·접대 자리이면 <strong>잠실장어와 한우</strong> — 1++ 한우 갈비살 39,000원에 장어와 한우 동시 운영, 지하 단체석. 4~6인 부서 모임에 1인 2만원선이면 <strong>화반 방이점</strong> — 숙성삼겹 18,000원, 화반Set 510g 3인 59,000원. 1차 양꼬치·마라요리 회식이면 <strong>경미양꼬치</strong> — 양꼬치 16,000원·고급양갈비 30,000원. 1만원대 첫 회식·해장 점심이면 <strong>난랑</strong> — 짜장면 9,000원·동파육 43,000원, 중식 단체석 옵션.</p>
+<p style="font-size:15px;margin:0;line-height:1.8">6~8인 팀 회식에 평점·웨이팅 모두 검증된 1순위는 <strong>진성한우곱창 방이직영점</strong> — 평점 4.8점·리뷰 1,738건, 한우곱창 19,000원선.<br><br>임원 회식·접대 자리이면 <strong>잠실장어와 한우</strong> — 1++ 한우 갈비살 39,000원에 장어와 한우 동시 운영, 지하 단체석. 4~6인 부서 모임에 1인 2만원선이면 <strong>화반 방이점</strong> — 숙성삼겹 18,000원, 화반Set 510g 3인 59,000원. 1차 양꼬치·마라요리 회식이면 <strong>경미양꼬치</strong> — 양꼬치 16,000원·고급양갈비 30,000원. 1만원대 첫 회식·해장 점심이면 <strong>난랑</strong> — 짜장면 9,000원·동파육 43,000원, 중식 단체석 옵션.</p>
 </aside>`
     },
 
@@ -46,7 +46,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 회식 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,738건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.8 · 리뷰 1,738건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 6,000원~20,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">⏰ 웨이팅맛집</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
@@ -91,12 +91,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🥩 숙성고기 회식</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,783건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.5 · 리뷰 1,784건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 13,000원~59,000원</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.5점·리뷰 1,783건으로 잠실 회식 카테고리 평균 위에 자리한 숙성고기 전문점입니다. 방이동 67-7 1층, 11:30 영업 시작으로 <strong>점심 회식·저녁 회식 모두 가능</strong>한 운영 시간이 특징입니다. 1인 시작가 13,000원·숙성삼겹 180g 18,000원으로 1인 평균 예산 2만원대 안에서 회식이 가능하고, 3인 화반Set 510g 59,000원이 메인 회식 옵션입니다. "리뷰많음·가성비·주차가능·데이트" 네 태그가 동시에 매칭되어 회식 후 2차로 자리 옮기지 않고 길게 이어지는 식사 모임에도 적합합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.5점·리뷰 1,784건으로 잠실 회식 카테고리 평균 위에 자리한 숙성고기 전문점입니다. 방이동 67-7 1층, 11:30 영업 시작으로 <strong>점심 회식·저녁 회식 모두 가능</strong>한 운영 시간이 특징입니다. 1인 시작가 13,000원·숙성삼겹 180g 18,000원으로 1인 평균 예산 2만원대 안에서 회식이 가능하고, 3인 화반Set 510g 59,000원이 메인 회식 옵션입니다. "리뷰많음·가성비·주차가능·데이트" 네 태그가 동시에 매칭되어 회식 후 2차로 자리 옮기지 않고 길게 이어지는 식사 모임에도 적합합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"숙성된 고기 풍미 · 밑반찬 친절 · 분위기 좋음" 같은 평이 자주 언급되었습니다. 한우 꽃등심 130g 38,000원 옵션과 숙성 부위별 다양성이 회식 메인 후기 키워드로 함께 묶입니다.</p>

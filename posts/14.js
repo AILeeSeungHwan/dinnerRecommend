@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">기념일·격식 있는 데이트 1순위는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원, 예약·주차 가능).<br><br>분위기 좋은 점심 양식 데이트면 <strong>파파라구</strong> (이탈리안, ★ 4.4 · 리뷰 401건).<br><br>따뜻한 한 끼 샤브샤브 데이트면 <strong>너와집 백합 샤브샤브 백현점</strong> (정식 39,000원 시작, 예약·주차 가능).<br><br>일식 분위기 한 잔 곁들임이면 <strong>긴자 백현점</strong> (리뷰 799건, 분위기·서비스 후기 누적).<br><br>스시 오마카세 1만원대 런치 데이트면 <strong>스시혼 아브뉴프랑 판교본점</strong> (런치 스시 정식 25,000원·런치 오마카세 40,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">기념일·격식 있는 데이트 1순위는 <strong>꿰다 판교아브뉴프랑점</strong> (★ 4.9 · 봄과 장 코스 75,000원, 예약·주차 가능).<br><br>분위기 좋은 점심 양식 데이트면 <strong>파파라구</strong> (이탈리안, ★ 3.8 · 리뷰 11,028건).<br><br>따뜻한 한 끼 샤브샤브 데이트면 <strong>너와집 백합 샤브샤브 백현점</strong> (정식 39,000원 시작, 예약·주차 가능).<br><br>일식 분위기 한 잔 곁들임이면 <strong>긴자 백현점</strong> (리뷰 920건, 분위기·서비스 후기 누적).<br><br>스시 오마카세 1만원대 런치 데이트면 <strong>스시혼 아브뉴프랑 판교본점</strong> (런치 스시 정식 25,000원·런치 오마카세 40,000원).</p>
 </aside>`
     },
 
@@ -46,7 +46,7 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#4338CA;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 기념일 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 383건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 384건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 75,000원 코스</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
@@ -92,12 +92,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍝 점심 데이트</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.8 · 리뷰 11,026건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.8 · 리뷰 11,028건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 이탈리안 가격대</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌅 분위기 좋음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 562-4, 백현동 카페 거리 동선에 자리잡은 이탈리안 매장입니다. <strong>평점 3.8점·리뷰 11,026건</strong>으로 점심 데이트 양식 카테고리에서 표본 안정성이 높고, "맛있다" 키워드가 후기에 명확히 매칭됩니다. 파스타·피자·이탈리안 단품 라인이 표준이라 1인 1만5천~2만5천원선 점심 데이트 단가가 자연스럽게 형성됩니다. 매장 전용 주차장은 따로 안내되지 않아 대중교통 또는 백현동 공영주차장 이용이 안전합니다. 점심 데이트·기념일 한 끼 가벼운 자리에 단가 부담이 적어 자주 선택되는 옵션입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 562-4, 백현동 카페 거리 동선에 자리잡은 이탈리안 매장입니다. <strong>평점 3.8점·리뷰 11,028건</strong>으로 점심 데이트 양식 카테고리에서 표본 안정성이 높고, "맛있다" 키워드가 후기에 명확히 매칭됩니다. 파스타·피자·이탈리안 단품 라인이 표준이라 1인 1만5천~2만5천원선 점심 데이트 단가가 자연스럽게 형성됩니다. 매장 전용 주차장은 따로 안내되지 않아 대중교통 또는 백현동 공영주차장 이용이 안전합니다. 점심 데이트·기념일 한 끼 가벼운 자리에 단가 부담이 적어 자주 선택되는 옵션입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"파스타 만족도 높다 · 매장 분위기 깔끔 · 점심 데이트 무난" 같은 평이 자주 언급되었습니다. 이탈리안 단품과 점심 데이트 시나리오가 함께 묶이는 키워드입니다.</p>
@@ -182,12 +182,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍶 일식 분위기</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.3 · 리뷰 918건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.3 · 리뷰 920건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 일식당 가격대</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌅 분위기·서비스 후기</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 489-4 동선에 자리잡은 일식당으로, <strong>리뷰 918건</strong>으로 본 가이드 5곳 중 일식 카테고리에서 표본 절대 1위입니다. 평점 4.0은 본 5곳 평균보다 약간 낮지만, "분위기 · 서비스" 키워드가 후기에 명확히 매칭되어 데이트·소규모 약속 시나리오에 안정적인 옵션입니다. 일식 단품 + 사케·하이볼 조합으로 가벼운 한 잔 곁들이는 자리에 어울리고, 800건 가까운 표본이 평균값의 흔들림을 줄여줍니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">백현동 489-4 동선에 자리잡은 일식당으로, <strong>리뷰 920건</strong>으로 본 가이드 5곳 중 일식 카테고리에서 표본 절대 1위입니다. 평점 4.0은 본 5곳 평균보다 약간 낮지만, "분위기 · 서비스" 키워드가 후기에 명확히 매칭되어 데이트·소규모 약속 시나리오에 안정적인 옵션입니다. 일식 단품 + 사케·하이볼 조합으로 가벼운 한 잔 곁들이는 자리에 어울리고, 800건 가까운 표본이 평균값의 흔들림을 줄여줍니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"매장 분위기 좋다 · 서비스 친절하다" 같은 평이 자주 언급되었습니다. 일식 단품·한 잔 곁들임과 매장 응대 만족도가 함께 묶이는 키워드입니다.</p>
@@ -224,13 +224,13 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#0EA5E9;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🍣 스시 데이트</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 615건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 3.9 · 리뷰 616건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 13,000~90,000원</span>
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#E6F1FB;color:#0C447C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🚗 주차 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼평동 740 아브뉴프랑 1층 137호, <strong>아브뉴프랑 동선 안</strong>의 스시 오마카세 매장입니다. <strong>런치 스시 정식 25,000원·런치 사시미 정식 32,000원·런치 오마카세 40,000원</strong>이 점심 데이트 단가 라인업이며, 디너로는 오마카세 68,000원·스시 오마카세 80,000원·모리아 와세(사시미 오마카세) 90,000원까지 격식 있는 자리에도 활용 가능합니다. 평점 3.9는 본 5곳 중 다소 낮은 편이지만 리뷰 615건이 누적되어 평균값 흔들림이 적고, "분위기 · 맛있다" 키워드가 후기에 매칭됩니다. 예약·주차 모두 가능해 주말 점심 데이트 사전 준비에도 부담이 적습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">삼평동 740 아브뉴프랑 1층 137호, <strong>아브뉴프랑 동선 안</strong>의 스시 오마카세 매장입니다. <strong>런치 스시 정식 25,000원·런치 사시미 정식 32,000원·런치 오마카세 40,000원</strong>이 점심 데이트 단가 라인업이며, 디너로는 오마카세 68,000원·스시 오마카세 80,000원·모리아 와세(사시미 오마카세) 90,000원까지 격식 있는 자리에도 활용 가능합니다. 평점 3.9는 본 5곳 중 다소 낮은 편이지만 리뷰 616건이 누적되어 평균값 흔들림이 적고, "분위기 · 맛있다" 키워드가 후기에 매칭됩니다. 예약·주차 모두 가능해 주말 점심 데이트 사전 준비에도 부담이 적습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"매장 분위기 좋다 · 맛있다 · 런치 단가 부담 적다" 같은 평이 자주 언급되었습니다. 런치 오마카세 라인업과 점심 데이트 시나리오가 함께 묶이는 키워드입니다.</p>

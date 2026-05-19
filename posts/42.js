@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">한우 외식·기념일이면 <strong>솔직한우 잠실점</strong> — 평점 5.0·리뷰 637건으로 만족도 1순위.<br><br>표본 가장 두꺼운 가성비 돼지구이면 <strong>송돝</strong> (평점 4.7·리뷰 3,189건, 1인 15,000원선).<br><br>잠실새내 직장인 팀 회식이면 <strong>돈순장 잠실새내 본점</strong> (평점 4.7·리뷰 2,868건).<br><br>정육식당형 가성비 회식이면 <strong>무궁화정육식당</strong> (평점 4.7·리뷰 2,657건).<br><br>주차·예약되는 데이트 고기 자리면 <strong>연정민 소금구이</strong> (평점 4.9, 소금구이 + 찌개 사이드 다양).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">한우 외식·기념일이면 <strong>솔직한우 잠실점</strong> — 평점 5점·리뷰 640건으로 만족도 1순위.<br><br>표본 가장 두꺼운 가성비 돼지구이면 <strong>송돝</strong> (평점 4.7점·리뷰 3,191건, 1인 15,000원선).<br><br>잠실새내 직장인 팀 회식이면 <strong>돈순장 잠실새내 본점</strong> (평점 4.7점·리뷰 2,868건).<br><br>정육식당형 가성비 회식이면 <strong>무궁화정육식당</strong> (평점 4.7점·리뷰 2,657건).<br><br>주차·예약되는 데이트 고기 자리면 <strong>연정민 소금구이</strong> (평점 4.9, 소금구이 + 찌개 사이드 다양).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 한우 외식 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5.0 · 리뷰 637건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 5 · 리뷰 640건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🥩 한우 전문</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 378건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 5.0·리뷰 637건으로 본 가이드 만족도 1위</strong> 한우 전문점입니다. 잠실동 186-11 1층, 블로그 378건까지 누적되어 한우 외식·기념일 자리로 검색이 두꺼운 곳입니다. 평점이 만점에 가까우면 표본이 작을 때가 많은데, 이 식당은 리뷰 637건·블로그 378건으로 표본도 함께 받쳐 줍니다. 잠실에서 한우로 제대로 차려 먹는 자리면 가장 먼저 후보에 올릴 만합니다. 다만 전용 주차장 정보가 확인되지 않아 차량보다 대중교통(2호선 잠실새내·잠실역)이 편합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>평점 5점·리뷰 640건으로 본 가이드 만족도 1위</strong> 한우 전문점입니다. 잠실동 186-11 1층, 블로그 378건까지 누적되어 한우 외식·기념일 자리로 검색이 두꺼운 곳입니다. 평점이 만점에 가까우면 표본이 작을 때가 많은데, 이 식당은 리뷰 640건·블로그 378건으로 표본도 함께 받쳐 줍니다. 잠실에서 한우로 제대로 차려 먹는 자리면 가장 먼저 후보에 올릴 만합니다. 다만 전용 주차장 정보가 확인되지 않아 차량보다 대중교통(2호선 잠실새내·잠실역)이 편합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"서비스가 좋다 · 매장 분위기가 좋다 · 재방문 의사가 많다" 같은 평이 자주 언급되었습니다. 한우 만족도와 재방문 평가가 함께 묶여 누적되는 키워드입니다.</p>
@@ -89,12 +89,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#DC2626;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 가성비·검증 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 3,189건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.7 · 리뷰 3,191건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 15,000원~25,000원</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 1,669건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 3,189건·블로그 1,669건으로 본 가이드 5곳 중 표본이 압도적으로 가장 두꺼운</strong> 돼지구이집입니다. 평점 4.7을 이만한 표본 위에서 유지한다는 점이 신뢰 포인트입니다. 올림픽로32길 33 1층, 1인 15,000원선 가격대에 국내산 돼지구이 중심이라 가성비 회식·친구 모임 자리로 무난합니다. 17:00~24:00 저녁 영업이라 퇴근 후 한 잔 곁들이는 자리에 잘 맞습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>리뷰 3,191건·블로그 1,669건으로 본 가이드 5곳 중 표본이 압도적으로 가장 두꺼운</strong> 돼지구이집입니다. 평점 4.7을 이만한 표본 위에서 유지한다는 점이 신뢰 포인트입니다. 올림픽로32길 33 1층, 1인 15,000원선 가격대에 국내산 돼지구이 중심이라 가성비 회식·친구 모임 자리로 무난합니다. 17:00~24:00 저녁 영업이라 퇴근 후 한 잔 곁들이는 자리에 잘 맞습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"가성비가 좋다 · 국내산 돼지구이가 만족스럽다 · 회식·혼술 자리로 좋다" 같은 평이 자주 언급되었습니다. 큰 표본 규모와 가성비 평가가 후기 키워드로 함께 묶입니다.</p>
@@ -134,7 +134,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 840건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">잠실새내 한복판 잠실동 187-5 행복빌딩 1층에 있어 <strong>잠실새내 직장인 팀 회식 동선이 가장 짧은</strong> 돼지구이집입니다. 평점 4.7·리뷰 2,868건에 블로그 840건까지 누적되어 회식 검색 의도가 두껍습니다. 송돝과 같은 평점대지만 위치가 잠실새내 역세권이라, 퇴근 후 바로 모이기 편한 자리를 찾는다면 동선 측면에서 차별점이 명확합니다. 단체 회식 손님 비중이 높아 인원이 많을수록 예약 여부를 미리 확인하시는 편이 안전합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">잠실새내 한복판 잠실동 187-5 행복빌딩 1층에 있어 <strong>잠실새내 직장인 팀 회식 동선이 가장 짧은</strong> 돼지구이집입니다. 평점 4.7점·리뷰 2,868건에 블로그 840건까지 누적되어 회식 검색 의도가 두껍습니다. 송돝과 같은 평점대지만 위치가 잠실새내 역세권이라, 퇴근 후 바로 모이기 편한 자리를 찾는다면 동선 측면에서 차별점이 명확합니다. 단체 회식 손님 비중이 높아 인원이 많을수록 예약 여부를 미리 확인하시는 편이 안전합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"고기가 맛있다 · 회식 자리로 자주 온다 · 잠실새내에서 접근이 편하다" 같은 평이 자주 언급되었습니다. 역세권 동선과 단체 회식 활용이 후기 키워드로 함께 묶입니다.</p>
@@ -177,7 +177,7 @@ const post = {
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">📝 블로그 171건</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>정육 코너에서 고기를 고른 뒤 자리에서 구워 먹는 정육식당형</strong> 운영이라, 고기 단가를 낮춰 가성비로 회식하기 좋은 곳입니다. 석촌동 3-1 1층, 평점 4.7·리뷰 2,657건으로 검증 표본이 두껍습니다. 송돝·돈순장과 평점이 같지만, 정육식당 방식이라 같은 예산으로 더 많은 양을 먹고 싶은 자리에서 차별점이 명확합니다. 석촌호수·석촌역 쪽 모임 동선에 잘 맞습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>정육 코너에서 고기를 고른 뒤 자리에서 구워 먹는 정육식당형</strong> 운영이라, 고기 단가를 낮춰 가성비로 회식하기 좋은 곳입니다. 석촌동 3-1 1층, 평점 4.7점·리뷰 2,657건으로 검증 표본이 두껍습니다. 송돝·돈순장과 평점이 같지만, 정육식당 방식이라 같은 예산으로 더 많은 양을 먹고 싶은 자리에서 차별점이 명확합니다. 석촌호수·석촌역 쪽 모임 동선에 잘 맞습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"매장 분위기가 좋다 · 고기가 맛있다 · 정육식당이라 가성비가 좋다" 같은 평이 자주 언급되었습니다. 정육식당 운영 방식과 가성비 평가가 후기 키워드로 함께 묶입니다.</p>
@@ -221,7 +221,7 @@ const post = {
 <span style="background:#FEF3C7;color:#78350F;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✅ 예약 가능</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.9·리뷰 1,190건에 <strong>주차·예약이 모두 되는 데이트 소금구이 자리</strong>입니다. 석촌동 18 1층 102호, 소금구이뿐 아니라 차돌 토장찌개·매콤비빔국수·동치미 냉국수 같은 사이드가 다양해 둘이서 깔끔하게 코스처럼 먹기 좋습니다. 본 가이드 5곳 중 유일하게 주차·예약이 함께 확인되는 곳이라, 차로 이동하는 데이트·소규모 모임에서 차별점이 명확합니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 4.9점·리뷰 1,190건에 <strong>주차·예약이 모두 되는 데이트 소금구이 자리</strong>입니다. 석촌동 18 1층 102호, 소금구이뿐 아니라 차돌 토장찌개·매콤비빔국수·동치미 냉국수 같은 사이드가 다양해 둘이서 깔끔하게 코스처럼 먹기 좋습니다. 본 가이드 5곳 중 유일하게 주차·예약이 함께 확인되는 곳이라, 차로 이동하는 데이트·소규모 모임에서 차별점이 명확합니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"소금구이가 맛있다 · 서비스가 좋다 · 매장 분위기가 좋다" 같은 평이 자주 언급되었습니다. 데이트 분위기와 사이드 구성 만족도가 후기 키워드로 함께 묶입니다.</p>

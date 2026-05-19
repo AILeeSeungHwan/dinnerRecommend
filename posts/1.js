@@ -20,7 +20,7 @@ const post = {
       type: 'body',
       html: `<aside style="background:#f7f6f1;padding:18px 20px;margin:1rem 0 1.5rem;border-radius:0 10px 10px 0;border-left:3px solid #534AB7">
 <div style="font-size:13px;color:#5f5e5a;margin-bottom:8px;font-weight:500">큐레이터 결론</div>
-<p style="font-size:15px;margin:0;line-height:1.8">평점 우선이면 <strong>토브나인 판교 본점</strong> — ★ 4.6 · 리뷰 255건으로 양식 스테이크 카테고리 1순위입니다.<br><br>판교 점심 회식·동료 식사라면 <strong>돼지맨숀 판교아브뉴프랑점</strong> (★ 4.4 · 리뷰 410건, 돼지고기구이). 1인 1만원선 가성비 한우 점심이면 <strong>하누소 The Hill</strong> (명품갈비탕·솥밥 17,000원, 시작가 10,000원).<br><br>정육식당 스타일로 두툼한 고기와 푸짐한 양이 필요하시면 <strong>양재정육식당 판교점</strong> (리뷰 489건).<br><br>한우 곱창·대창 단품으로 한 잔 곁들이는 자리면 <strong>방짜</strong> (생삼겹살 18,000원·한우곱창 25,000원).</p>
+<p style="font-size:15px;margin:0;line-height:1.8">평점 우선이면 <strong>토브나인 판교 본점</strong> — ★ 4.6 · 리뷰 1,743건으로 양식 스테이크 카테고리 1순위입니다.<br><br>판교 점심 회식·동료 식사라면 <strong>돼지맨숀 판교아브뉴프랑점</strong> (★ 0 · 리뷰 488건, 돼지고기구이). 1인 1만원선 가성비 한우 점심이면 <strong>하누소 The Hill</strong> (명품갈비탕·솥밥 17,000원, 시작가 10,000원).<br><br>정육식당 스타일로 두툼한 고기와 푸짐한 양이 필요하시면 <strong>양재정육식당 판교점</strong> (리뷰 896건).<br><br>한우 곱창·대창 단품으로 한 잔 곁들이는 자리면 <strong>방짜</strong> (생삼겹살 18,000원·한우곱창 25,000원).</p>
 </aside>`
     },
 
@@ -46,12 +46,12 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#C026D3;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🏆 평점 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 1,742건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 4.6 · 리뷰 1,743건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 양식 점심 가격대</span>
 <span style="background:#FCE7F3;color:#831843;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">🌅 분위기 좋음</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점 1순위(★ 4.6)</strong>인 양식 스테이크 매장입니다. 성남시 수정구 사송동 562-3 1·2층, 판교역 차량 이동권에 자리잡고 있어 점심 데이트·기념일·소규모 회식이 함께 누적되는 식당입니다. 리뷰 1,742건 표본이 안정적이고, "분위기 좋음 · 맛있음" 키워드가 함께 매칭됩니다. 점심 시간대 양식 단품 + 사이드 조합으로 1인 3만원선이 표준이며, 단가 부담은 있지만 다른 4곳과 카테고리가 겹치지 않아 고기 점심을 양식으로 풀고 싶은 날 선택지로 묶었습니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px"><strong>본 가이드 5곳 중 평점 1순위(★ 4.6)</strong>인 양식 스테이크 매장입니다. 성남시 수정구 사송동 562-3 1·2층, 판교역 차량 이동권에 자리잡고 있어 점심 데이트·기념일·소규모 회식이 함께 누적되는 식당입니다. 리뷰 1,743건 표본이 안정적이고, "분위기 좋음 · 맛있음" 키워드가 함께 매칭됩니다. 점심 시간대 양식 단품 + 사이드 조합으로 1인 3만원선이 표준이며, 단가 부담은 있지만 다른 4곳과 카테고리가 겹치지 않아 고기 점심을 양식으로 풀고 싶은 날 선택지로 묶었습니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"맛있다 · 분위기 좋다" 같은 평이 자주 언급되었습니다. 양식 단품·사이드 만족도와 매장 분위기가 함께 묶여 누적되는 키워드입니다.</p>
@@ -179,11 +179,11 @@ const post = {
 <div style="padding:20px 22px">
 <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px">
 <span style="background:#B91C1C;color:#fff;padding:5px 12px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.3px">🔥 표본 1순위</span>
-<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 895건</span>
+<span style="background:#FFF7E0;color:#92400E;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">★ 0 · 리뷰 896건</span>
 <span style="background:#E1F5EE;color:#04342C;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">💰 정육식당 표준 가격대</span>
 <span style="background:#EEF2FF;color:#312E81;padding:5px 11px;border-radius:6px;font-size:12px;font-weight:600">✓ 인허가 검증</span>
 </div>
-<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9 · <strong>리뷰 895건</strong>으로 본 가이드 5곳 중 정육식당 카테고리 표본 1순위입니다. 삼평동 656 1층, 판교역 도보 동선에 자리잡고 있어 점심 단체 주문이 자주 쌓이는 매장입니다. 평점이 3.9점인 점은 한계로 짚어둘 필요가 있지만, 489건이라는 표본 크기가 평균값을 안정시켜주며, 정육식당 특유의 "두툼한 부위 직접 손질 + 푸짐한 양" 시나리오가 후기에 누적됩니다. 점심 1인 25,000원선 한 끼가 표준이며, 2~3인 단체로 구성하면 1인 단가가 더 낮아지는 구조입니다.</p>
+<p style="font-size:14.5px;line-height:1.8;color:#1a1a1a;margin:0 0 14px">평점 3.9 · <strong>리뷰 896건</strong>으로 본 가이드 5곳 중 정육식당 카테고리 표본 1순위입니다. 삼평동 656 1층, 판교역 도보 동선에 자리잡고 있어 점심 단체 주문이 자주 쌓이는 매장입니다. 평점이 3.9점인 점은 한계로 짚어둘 필요가 있지만, 489건이라는 표본 크기가 평균값을 안정시켜주며, 정육식당 특유의 "두툼한 부위 직접 손질 + 푸짐한 양" 시나리오가 후기에 누적됩니다. 점심 1인 25,000원선 한 끼가 표준이며, 2~3인 단체로 구성하면 1인 단가가 더 낮아지는 구조입니다.</p>
 <div style="background:#FFF7E0;border-left:3px solid #F59E0B;padding:12px 16px;margin:14px 0;border-radius:0 6px 6px 0">
 <p style="font-size:12px;color:#92400E;margin:0 0 6px;font-weight:600">📝 방문자 후기 키워드 정리</p>
 <p style="font-size:12.5px;color:#92400E;margin:0;line-height:1.7">"고기 두툼하다 · 양 푸짐하다 · 단체로 가기 좋다" 같은 평이 자주 언급되었습니다. 정육식당 스타일의 부위 직접 손질과 단체 점심 시나리오가 함께 묶이는 키워드입니다.</p>
